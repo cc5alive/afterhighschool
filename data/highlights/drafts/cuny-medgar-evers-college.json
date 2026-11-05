@@ -10,9 +10,13 @@
         {
           "title": "History - Medgar Evers College",
           "url": "https://www.mec.cuny.edu/about/history/",
-          "quote": "Medgar Evers College has the distinction of being the youngest of the four-year senior colleges in The City University of New York."
+          "quote": "Medgar Evers College has the distinction of being the youngest of the four-year senior colleges in The City University of New York.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mec.cuny.edu/about/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Medgar Evers College was officially established on July 30, 1970, when Governor Nelson A. Rockefeller signed legislation approving the four-year college.",
@@ -20,9 +24,13 @@
         {
           "title": "History - Medgar Evers College",
           "url": "https://www.mec.cuny.edu/about/history/",
-          "quote": "The College was officially established on July 30, 1970 when Governor Nelson A. Rockefeller signed the legislation approving the “establishment of an experimental four-year college of professional studies offering both career and transfer associate degrees and the baccalaureate degree…”"
+          "quote": "The College was officially established on July 30, 1970 when Governor Nelson A. Rockefeller signed the legislation approving the “establishment of an experimental four-year college of professional studies offering both career and transfer associate degrees and the baccalaureate degree…”",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mec.cuny.edu/about/history/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Medgar Evers College is funded by the U.S. Department of Education as a Predominantly Black Institution (PBI) under Title III.",
@@ -30,9 +38,13 @@
         {
           "title": "Predominantly Black Institutions - Medgar Evers College",
           "url": "https://www.mec.cuny.edu/academic-affairs/academic-support-programs/predominately-black-institution/",
-          "quote": "Medgar Evers College Predominantly Black Institutions (PBI) program is funded by the U.S. Department of Education's Predominantly Black Institutions Title III Discretionary/Competitive grant"
+          "quote": "Medgar Evers College Predominantly Black Institutions (PBI) program is funded by the U.S. Department of Education's Predominantly Black Institutions Title III Discretionary/Competitive grant",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mec.cuny.edu/academic-affairs/academic-support-programs/predominately-black-institution/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

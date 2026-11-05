@@ -10,14 +10,21 @@
         {
           "title": "Admissions Tuition and Rates - Missouri Southern State University",
           "url": "https://www.mssu.edu/admissions/admissions-tuition-and-rates.php",
-          "quote": "Missouri Southern's Lion Pride Tuition Discount includes every state touching Missouri: Arkansas, Kansas, Oklahoma, Illinois, Iowa, Tennessee, Kentucky, Nebraska; and all counties in Texas, California, Nevada, Arizona, and Florida."
+          "quote": "Missouri Southern's Lion Pride Tuition Discount includes every state touching Missouri: Arkansas, Kansas, Oklahoma, Illinois, Iowa, Tennessee, Kentucky, Nebraska; and all counties in Texas, California, Nevada, Arizona, and Florida.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mssu.edu/admissions/admissions-tuition-and-rates.php",
+          "quoteFound": true
         },
         {
           "title": "MSSU - Estimated Cost of Attendance",
           "url": "https://www.mssu.edu/student-affairs/financial-aid/estimated-cost-attendance.php",
-          "quote": "Students receiving the Lion Pride Tuition Discount are billed for the full out-of-state tuition price, however, after the Lion Pride Discount is applied, they pay the same amount as an in-state student."
+          "quote": "Students receiving the Lion Pride Tuition Discount are billed for the full out-of-state tuition price, however, after the Lion Pride Discount is applied, they pay the same amount as an in-state student.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mssu.edu/student-affairs/financial-aid/estimated-cost-attendance.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "In May of 1995, legislation was signed authorizing Missouri Southern State College to establish international education as distinctive to its mission, which continues as part of the university's statewide mission today.",
@@ -25,9 +32,13 @@
         {
           "title": "MSSU History - Missouri Southern State University",
           "url": "https://www.mssu.edu/about/history.php",
-          "quote": "In May of 1995 Governor Mel Carnahan signed legislation that authorized Missouri Southern State College to establish international education as distinctive to its mission. International education is still a part of Missouri Southern's statewide mission today."
+          "quote": "In May of 1995 Governor Mel Carnahan signed legislation that authorized Missouri Southern State College to establish international education as distinctive to its mission. International education is still a part of Missouri Southern's statewide mission today.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mssu.edu/about/history.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

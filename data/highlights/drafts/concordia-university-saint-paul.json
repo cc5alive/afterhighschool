@@ -10,9 +10,13 @@
         {
           "title": "CSP Pell Commitment - Concordia University, St. Paul",
           "url": "https://www.csp.edu/tuition-and-financial-aid/csp-pell-commitment/",
-          "quote": "Through the CSP Pell Commitment, eligible students can earn an on-campus undergraduate degree with full tuition covered after the Federal Pell Grant and Minnesota State Grant have been applied."
+          "quote": "Through the CSP Pell Commitment, eligible students can earn an on-campus undergraduate degree with full tuition covered after the Federal Pell Grant and Minnesota State Grant have been applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csp.edu/tuition-and-financial-aid/csp-pell-commitment/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Church Work Tuition Guarantee provides free tuition to all students preparing for full-time church work vocations.",
@@ -20,9 +24,13 @@
         {
           "title": "Church Work Tuition Guarantee - Concordia University, St. Paul",
           "url": "https://www.csp.edu/faith-ministry/church-work-tuition-guarantee/",
-          "quote": "The Church Work Tuition Guarantee provides free tuition to all students preparing for full-time church work vocations"
+          "quote": "The Church Work Tuition Guarantee provides free tuition to all students preparing for full-time church work vocations",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csp.edu/faith-ministry/church-work-tuition-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

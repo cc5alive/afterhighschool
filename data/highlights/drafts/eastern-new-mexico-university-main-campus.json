@@ -10,9 +10,13 @@
         {
           "title": "Facts and Figures | About | Eastern New Mexico University",
           "url": "https://www.enmu.edu/about/general-information/enmu-facts-figures",
-          "quote": "Federally designated Hispanic-Serving Institution and member of the Hispanic Association of Colleges and Universities (HACU)"
+          "quote": "Federally designated Hispanic-Serving Institution and member of the Hispanic Association of Colleges and Universities (HACU)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.enmu.edu/about/general-information/enmu-facts-figures",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Texas students residing within a 135-mile radius qualify for Eastern New Mexico University's in-state tuition rate.",
@@ -20,9 +24,13 @@
         {
           "title": "Facts and Figures | About | Eastern New Mexico University",
           "url": "https://www.enmu.edu/about/general-information/enmu-facts-figures",
-          "quote": "Texas students within a 135-mile radius qualify for Eastern's in-state tuition rate."
+          "quote": "Texas students within a 135-mile radius qualify for Eastern's in-state tuition rate.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.enmu.edu/about/general-information/enmu-facts-figures",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Blackwater Draw Museum was constructed in 1969 to house artifacts excavated from the Clovis Site.",
@@ -30,9 +38,13 @@
         {
           "title": "Blackwater Draw Site and Museum | Eastern New Mexico University",
           "url": "https://www.enmu.edu/about/general-information/local-events-and-info/arts-and-culture/blackwater-draw-museum",
-          "quote": "The Blackwater Draw Museum was built in 1969 to house the artifacts excavated from the Clovis Site."
+          "quote": "The Blackwater Draw Museum was built in 1969 to house the artifacts excavated from the Clovis Site.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.enmu.edu/about/general-information/local-events-and-info/arts-and-culture/blackwater-draw-museum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

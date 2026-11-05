@@ -10,9 +10,13 @@
         {
           "title": "Kentucky Residents : IU Southeast",
           "url": "https://southeast.iu.edu/student-central/cost-aid/cost-of-attendance/reduced-tuition/kentucky.html",
-          "quote": "If you live in Jefferson, Oldham, Bullitt, Nelson, Hardin, Trimble, Meade, Shelby, Spencer, or Henry counties, you automatically qualify for in-state tuition through our reciprocity program."
+          "quote": "If you live in Jefferson, Oldham, Bullitt, Nelson, Hardin, Trimble, Meade, Shelby, Spencer, or Henry counties, you automatically qualify for in-state tuition through our reciprocity program.",
+          "httpStatus": 200,
+          "finalUrl": "https://southeast.iu.edu/student-central/cost-aid/cost-of-attendance/reduced-tuition/kentucky.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Students living in all other Kentucky counties are eligible to receive a reduced tuition rate through the Indiana Partner Program, and incoming first-year students receiving the KEES Scholarship may have those dollars honored through the Kentucky Merit Scholarship.",
@@ -20,9 +24,13 @@
         {
           "title": "Kentucky Residents : IU Southeast",
           "url": "https://southeast.iu.edu/student-central/cost-aid/cost-of-attendance/reduced-tuition/kentucky.html",
-          "quote": "Students living in all other Kentucky counties are eligible to receive a reduced tuition rate through our Indiana Partner Program. In addition, all incoming first-year students receiving the KEES Scholarship may have those dollars honored through our Kentucky Merit Scholarship."
+          "quote": "Students living in all other Kentucky counties are eligible to receive a reduced tuition rate through our Indiana Partner Program. In addition, all incoming first-year students receiving the KEES Scholarship may have those dollars honored through our Kentucky Merit Scholarship.",
+          "httpStatus": 200,
+          "finalUrl": "https://southeast.iu.edu/student-central/cost-aid/cost-of-attendance/reduced-tuition/kentucky.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

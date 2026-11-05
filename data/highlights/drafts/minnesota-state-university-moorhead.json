@@ -10,14 +10,21 @@
         {
           "title": "The North Star Promise Scholarship Program",
           "url": "https://www.mnstate.edu/cost-aid/scholarships/north-star-promise",
-          "quote": "The North Star Promise (NSP) Scholarship program creates a tuition free pathway to higher education for eligible Minnesota residents at Minnesota State Moorhead."
+          "quote": "The North Star Promise (NSP) Scholarship program creates a tuition free pathway to higher education for eligible Minnesota residents at Minnesota State Moorhead.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mnstate.edu/cost-aid/scholarships/north-star-promise",
+          "quoteFound": true
         },
         {
           "title": "The North Star Promise Scholarship Program",
           "url": "https://www.mnstate.edu/cost-aid/scholarships/north-star-promise",
-          "quote": "Have a combined household Adjusted Gross Income (AGI) of less than $80,000. This includes both Student AGI and Parent AGI as reported on the FAFSA or MN Dream Act Application."
+          "quote": "Have a combined household Adjusted Gross Income (AGI) of less than $80,000. This includes both Student AGI and Parent AGI as reported on the FAFSA or MN Dream Act Application.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mnstate.edu/cost-aid/scholarships/north-star-promise",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Effective January 1, 2025, the Metro College Alliance course exchange agreement replaced the Tri-College University consortium, allowing students to take two courses per semester at a host campus while taking at least one course from their home campus.",
@@ -25,14 +32,21 @@
         {
           "title": "Metro College Alliance Registration Information at MSU Moorhead",
           "url": "https://www.mnstate.edu/registrar/registration/metro-college-alliance",
-          "quote": "Effective January 1, 2025, a new Metro College Alliance course exchange agreement will serve students in place of the Tri-College University consortium, which sunsets at the end of 2024."
+          "quote": "Effective January 1, 2025, a new Metro College Alliance course exchange agreement will serve students in place of the Tri-College University consortium, which sunsets at the end of 2024.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mnstate.edu/registrar/registration/metro-college-alliance",
+          "quoteFound": true
         },
         {
           "title": "Metro College Alliance Registration Information at MSU Moorhead",
           "url": "https://www.mnstate.edu/registrar/registration/metro-college-alliance",
-          "quote": "The Metro College Alliance course exchange program allows students to take two courses per semester at a host campus while taking at least one course from their home campus."
+          "quote": "The Metro College Alliance course exchange program allows students to take two courses per semester at a host campus while taking at least one course from their home campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mnstate.edu/registrar/registration/metro-college-alliance",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

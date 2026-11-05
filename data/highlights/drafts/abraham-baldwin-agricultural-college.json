@@ -10,14 +10,21 @@
         {
           "title": "sanr-beyond-classroom | Abraham Baldwin Agricultural College",
           "url": "https://www.abac.edu/academics/schools/agriculture_natural_resources/sanr-beyond-classroom.html",
-          "quote": "J.G. Woodroof Farm. The 400-acre farm features cultivated and grazing land."
+          "quote": "J.G. Woodroof Farm. The 400-acre farm features cultivated and grazing land.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.abac.edu/academics/schools/agriculture_natural_resources/sanr-beyond-classroom.html",
+          "quoteFound": false
         },
         {
           "title": "sanr-beyond-classroom | Abraham Baldwin Agricultural College",
           "url": "https://www.abac.edu/academics/schools/agriculture_natural_resources/sanr-beyond-classroom.html",
-          "quote": "The farm's major crops include cotton, soybeans, peanuts, and corn, along with various forages for our commercial cow-calf beef herd. It also includes turfgrass research plots, a greenhouse, and nursery facilities."
+          "quote": "The farm's major crops include cotton, soybeans, peanuts, and corn, along with various forages for our commercial cow-calf beef herd. It also includes turfgrass research plots, a greenhouse, and nursery facilities.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.abac.edu/academics/schools/agriculture_natural_resources/sanr-beyond-classroom.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Georgia Museum of Agriculture features the only steam powered train in regular operation in Georgia.",
@@ -25,9 +32,13 @@
         {
           "title": "Georgia Museum of Agriculture | Abraham Baldwin Agricultural College",
           "url": "https://gma.abac.edu/",
-          "quote": "Hear the whistle blow and climb aboard the only steam powered train in regular operation in Georgia!"
+          "quote": "Hear the whistle blow and climb aboard the only steam powered train in regular operation in Georgia!",
+          "httpStatus": 200,
+          "finalUrl": "https://gma.abac.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

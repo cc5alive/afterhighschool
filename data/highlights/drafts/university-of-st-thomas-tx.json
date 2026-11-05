@@ -10,14 +10,21 @@
         {
           "title": "St. Thomas Promise - University of St.Thomas",
           "url": "https://stthom.edu/st-thomas-promise/",
-          "quote": "First year Texas students with a core high school GPA of 3.4 or higher who have family income of $50,000 or less are eligible for our St. Thomas Promise program."
+          "quote": "First year Texas students with a core high school GPA of 3.4 or higher who have family income of $50,000 or less are eligible for our St. Thomas Promise program.",
+          "httpStatus": 200,
+          "finalUrl": "https://stthom.edu/st-thomas-promise/",
+          "quoteFound": false
         },
         {
           "title": "St. Thomas Promise - University of St.Thomas",
           "url": "https://stthom.edu/st-thomas-promise/",
-          "quote": "The St. Thomas Promise is renewable for up to four years, provided family income remains in the same qualifying range. St. Thomas Promise awards will cover full tuition (12-18 credit hours per semester) and regular fees."
+          "quote": "The St. Thomas Promise is renewable for up to four years, provided family income remains in the same qualifying range. St. Thomas Promise awards will cover full tuition (12-18 credit hours per semester) and regular fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://stthom.edu/st-thomas-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "UST is Houston's only Catholic university, rooted in the Basilian tradition.",
@@ -25,9 +32,13 @@
         {
           "title": "Admissions - University of St.Thomas",
           "url": "https://stthom.edu/admissions/",
-          "quote": "UST is Houston's only Catholic university. Rooted in the Basilian tradition of goodness, discipline, and knowledge, we bring faith and learning together"
+          "quote": "UST is Houston's only Catholic university. Rooted in the Basilian tradition of goodness, discipline, and knowledge, we bring faith and learning together",
+          "httpStatus": 200,
+          "finalUrl": "https://stthom.edu/admissions/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

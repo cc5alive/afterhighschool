@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid | College of the Holy Cross",
           "url": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/financial-aid",
-          "quote": "Starting this year, admitted students whose families have a total income of $100,000 or less and reasonable assets will receive a full tuition grant."
+          "quote": "Starting this year, admitted students whose families have a total income of $100,000 or less and reasonable assets will receive a full tuition grant.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/financial-aid",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "College of the Holy Cross meets 100% of demonstrated financial need at the time of admission as determined by the FAFSA and the CSS Profile, including for all admitted international students.",
@@ -20,14 +24,21 @@
         {
           "title": "Financial Aid | College of the Holy Cross",
           "url": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/financial-aid",
-          "quote": "Holy Cross meets 100% of demonstrated financial need at time of admission as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile."
+          "quote": "Holy Cross meets 100% of demonstrated financial need at time of admission as determined by the Free Application for Federal Student Aid (FAFSA) and the CSS Profile.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/financial-aid",
+          "quoteFound": true
         },
         {
           "title": "Financial Aid | College of the Holy Cross",
           "url": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/financial-aid",
-          "quote": "Holy Cross meets 100% of demonstrated financial need at time of admission for all admitted international students."
+          "quote": "Holy Cross meets 100% of demonstrated financial need at time of admission for all admitted international students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.holycross.edu/admissions-aid/tuition-financial-aid/financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

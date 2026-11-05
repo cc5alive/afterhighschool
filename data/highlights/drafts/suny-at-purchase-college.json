@@ -10,9 +10,13 @@
         {
           "title": "Purchase Experience • Academics • SUNY Purchase",
           "url": "https://www.purchase.edu/academics/purchase-experience/",
-          "quote": "All students regardless of major will complete a senior project prior to graduation."
+          "quote": "All students regardless of major will complete a senior project prior to graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.purchase.edu/academics/purchase-experience/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Performing Arts Center (PAC) is a unique four-theatre complex, considered one of the finest facilities on an East Coast college campus.",
@@ -20,9 +24,13 @@
         {
           "title": "Academic Services and Resources • Faculty Handbook",
           "url": "https://www.purchase.edu/faculty-handbook/academic-services-and-resources/",
-          "quote": "The Performing Arts Center (PAC) is a unique four-theatre complex, considered one of the finest facilities on an East Coast college campus."
+          "quote": "The Performing Arts Center (PAC) is a unique four-theatre complex, considered one of the finest facilities on an East Coast college campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.purchase.edu/faculty-handbook/academic-services-and-resources/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

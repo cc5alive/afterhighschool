@@ -10,9 +10,13 @@
         {
           "title": "Chapel FAQ | Lipscomb University",
           "url": "https://lipscomb.edu/student-life/spiritual-formation/chapel/chapel-faq",
-          "quote": "Each student should acquire 20 chapel credits in order to meet the requirement. These credits are acquired by attending Breakout Chapels and The Gathering."
+          "quote": "Each student should acquire 20 chapel credits in order to meet the requirement. These credits are acquired by attending Breakout Chapels and The Gathering.",
+          "httpStatus": 200,
+          "finalUrl": "https://lipscomb.edu/student-life/spiritual-formation/chapel/chapel-faq",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The study of the Bible is integral to a Lipscomb education, and all Lipscomb students examine the Bible's overall message and the life to which it calls believers through a general education Bible requirement.",
@@ -20,9 +24,13 @@
         {
           "title": "The Academic Program - Lipscomb University",
           "url": "https://catalog.lipscomb.edu/content.php?catoid=24&navoid=1889",
-          "quote": "The study of the Bible is integral to a Lipscomb education. Although abundant opportunities for further study are available, all Lipscomb students examine the Bible's overall message and the life to which it calls believers."
+          "quote": "The study of the Bible is integral to a Lipscomb education. Although abundant opportunities for further study are available, all Lipscomb students examine the Bible's overall message and the life to which it calls believers.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.lipscomb.edu/content.php?catoid=24&navoid=1889",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

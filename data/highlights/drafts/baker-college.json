@@ -10,14 +10,21 @@
         {
           "title": "BeFree Tuition Guarantee | Baker College Free Tuition",
           "url": "https://www.baker.edu/affordability/befree-tuition-guarantee/",
-          "quote": "The BeFree Tuition Guarantee is considered a Last Dollar option, which means that funds will be awarded if grants, scholarships, and other resources (federal, state, institutional, employer, military, or other agencies) do not cover the standard Undergraduate Program tuition."
+          "quote": "The BeFree Tuition Guarantee is considered a Last Dollar option, which means that funds will be awarded if grants, scholarships, and other resources (federal, state, institutional, employer, military, or other agencies) do not cover the standard Undergraduate Program tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.baker.edu/affordability/befree-tuition-guarantee/",
+          "quoteFound": true
         },
         {
           "title": "BeFree Tuition Guarantee | Baker College Free Tuition",
           "url": "https://www.baker.edu/affordability/befree-tuition-guarantee/",
-          "quote": "Qualify for the maximum Federal Pell Grant award amount (typically income below $50,000, but varies based on family size and other information from the FAFSA application)"
+          "quote": "Qualify for the maximum Federal Pell Grant award amount (typically income below $50,000, but varies based on family size and other information from the FAFSA application)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.baker.edu/affordability/befree-tuition-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Baker College has been delivering online degree programs since 1994 as an early pioneer in online education.",
@@ -25,9 +32,13 @@
         {
           "title": "General Information - Baker College",
           "url": "https://catalog.baker.edu/content.php?catoid=23&navoid=1508",
-          "quote": "As an early pioneer in online education, the College has been delivering online programs since 1994, building decades of experience in creating accessible, high-quality learning opportunities for students."
+          "quote": "As an early pioneer in online education, the College has been delivering online programs since 1994, building decades of experience in creating accessible, high-quality learning opportunities for students.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.baker.edu/content.php?catoid=23&navoid=1508",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

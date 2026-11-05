@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Handbook | Harding University",
           "url": "https://www.harding.edu/life-at-harding/handbooks/under",
-          "quote": "Chapel is held Monday-Friday at 9 a.m. Chapel attendance is required for undergraduate students who are under the age of 25 and taking nine or more hours per semester."
+          "quote": "Chapel is held Monday-Friday at 9 a.m. Chapel attendance is required for undergraduate students who are under the age of 25 and taking nine or more hours per semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.harding.edu/life-at-harding/handbooks/under.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Harding requires every student enrolled in nine or more hours to enroll in and regularly attend one Bible class for at least two credit hours each fall and spring semester.",
@@ -20,9 +24,13 @@
         {
           "title": "Undergraduate Handbook | Harding University",
           "url": "https://www.harding.edu/life-at-harding/handbooks/under",
-          "quote": "Harding requires each student enrolled in nine or more hours to enroll in and regularly attend one Bible class for at least two hours of credit each fall and spring semester."
+          "quote": "Harding requires each student enrolled in nine or more hours to enroll in and regularly attend one Bible class for at least two hours of credit each fall and spring semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.harding.edu/life-at-harding/handbooks/under.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Harding Guarantee is a last-dollar scholarship that pays 100% of remaining tuition costs for eligible students who qualify for the maximum Federal Pell Grant each year.",
@@ -30,14 +38,21 @@
         {
           "title": "Tuition, Costs, Scholarships and Financial Aid | Harding",
           "url": "https://www.harding.edu/admissions/cost/",
-          "quote": "The Harding Guarantee is a last dollar scholarship that — when combined with a student's eligibility for federal, state and Harding scholarships, grants, and/or discounts —will pay 100% of students remaining tuition costs."
+          "quote": "The Harding Guarantee is a last dollar scholarship that — when combined with a student's eligibility for federal, state and Harding scholarships, grants, and/or discounts —will pay 100% of students remaining tuition costs.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.harding.edu/admissions/cost/",
+          "quoteFound": true
         },
         {
           "title": "Tuition, Costs, Scholarships and Financial Aid | Harding",
           "url": "https://www.harding.edu/admissions/cost/",
-          "quote": "Students must qualify for the MAXIMUM Federal Pell Grant each year."
+          "quote": "Students must qualify for the MAXIMUM Federal Pell Grant each year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.harding.edu/admissions/cost/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

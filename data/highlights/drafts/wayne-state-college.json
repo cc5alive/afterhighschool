@@ -10,14 +10,21 @@
         {
           "title": "Our Tuition Guarantee – Wayne State College Nebraska",
           "url": "https://www.wsc.edu/financial-aid/tuition-guarantee",
-          "quote": "The Nebraska State College Tuition Guarantee provides financial assistance for first-time freshmen or incoming transfer students who are Pell Grant-eligible or whose annual family adjusted gross income as reported on the FAFSA is $70,000 or less"
+          "quote": "The Nebraska State College Tuition Guarantee provides financial assistance for first-time freshmen or incoming transfer students who are Pell Grant-eligible or whose annual family adjusted gross income as reported on the FAFSA is $70,000 or less",
+          "httpStatus": 403,
+          "finalUrl": "https://www.wsc.edu/financial-aid/tuition-guarantee",
+          "quoteFound": null
         },
         {
           "title": "Our Tuition Guarantee – Wayne State College Nebraska",
           "url": "https://www.wsc.edu/financial-aid/tuition-guarantee",
-          "quote": "The Tuition Guarantee covers your cost of tuition, up to 18 credits per semester."
+          "quote": "The Tuition Guarantee covers your cost of tuition, up to 18 credits per semester.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.wsc.edu/financial-aid/tuition-guarantee",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Through the Rural Health Opportunities Program (RHOP), students recruited from rural Nebraska receive free tuition at WSC and guaranteed admission to the University of Nebraska Medical Center (UNMC).",
@@ -25,9 +32,13 @@
         {
           "title": "Rural Health Opportunities Program (RHOP) - Wayne State College Nebraska",
           "url": "https://www.wsc.edu/rhop",
-          "quote": "RHOP recruits students from rural Nebraska to become health care professionals. RHOP students receive free tuition at WSC and guaranteed admission to UNMC."
+          "quote": "RHOP recruits students from rural Nebraska to become health care professionals. RHOP students receive free tuition at WSC and guaranteed admission to UNMC.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.wsc.edu/rhop",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

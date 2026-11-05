@@ -10,9 +10,13 @@
         {
           "title": "Buildings & Locations | PLNU",
           "url": "https://www.pointloma.edu/about/history/buildings-locations",
-          "quote": "The Greek Amphitheatre at PLNU was the first Greek theater built in the United States. Construction began on July 1, 1901."
+          "quote": "The Greek Amphitheatre at PLNU was the first Greek theater built in the United States. Construction began on July 1, 1901.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pointloma.edu/about/history/buildings-locations",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "PLNU was founded in Los Angeles in 1902 by Dr. Phineas Bresee, who was also the founder of the Church of the Nazarene.",
@@ -20,9 +24,13 @@
         {
           "title": "History | Point Loma Nazarene University",
           "url": "https://www.pointloma.edu/about/history",
-          "quote": "PLNU was founded in Los Angeles in 1902 by Dr. Phineas Bresee, who was also the founder of the Church of the Nazarene."
+          "quote": "PLNU was founded in Los Angeles in 1902 by Dr. Phineas Bresee, who was also the founder of the Church of the Nazarene.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pointloma.edu/about/history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

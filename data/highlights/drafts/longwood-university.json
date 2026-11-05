@@ -10,14 +10,21 @@
         {
           "title": "Civitae Q&A - Longwood University",
           "url": "https://www.longwood.edu/civitae/civitae-qa/",
-          "quote": "Civitae is the curriculum that all Longwood students complete to earn a degree."
+          "quote": "Civitae is the curriculum that all Longwood students complete to earn a degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.longwood.edu/civitae/civitae-qa/",
+          "quoteFound": true
         },
         {
           "title": "Civitae Q&A - Longwood University",
           "url": "https://www.longwood.edu/civitae/civitae-qa/",
-          "quote": "Every student goes through the four stages of Civitae over their four-year career: Foundations, Pillars, Perspectives, and Symposium."
+          "quote": "Every student goes through the four stages of Civitae over their four-year career: Foundations, Pillars, Perspectives, and Symposium.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.longwood.edu/civitae/civitae-qa/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The culmination of Civitae and general education is the Symposium on the Common Good, where students deliberate on citizenship and civic issues.",
@@ -25,9 +32,13 @@
         {
           "title": "Civitae Core Curriculum - Longwood University",
           "url": "https://www.longwood.edu/civitae/",
-          "quote": "The Symposium on the Common Good is the culmination of Civitae and your Longwood general education. Through research, discussion, advocacy, and reflection, students deliberate on citizenship and the issues citizens face in their communities."
+          "quote": "The Symposium on the Common Good is the culmination of Civitae and your Longwood general education. Through research, discussion, advocacy, and reflection, students deliberate on citizenship and the issues citizens face in their communities.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.longwood.edu/civitae/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

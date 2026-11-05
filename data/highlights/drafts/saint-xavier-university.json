@@ -10,9 +10,13 @@
         {
           "title": "Saint Xavier University180th Anniversary Community Fest in 2026!",
           "url": "https://www.sxu.edu/about/history-traditions/180-anniversary.html",
-          "quote": "Founded in 1846 by the Sisters of Mercy, Saint Xavier University is Chicago's oldest Catholic university and the first Mercy institution of higher learning in the United States."
+          "quote": "Founded in 1846 by the Sisters of Mercy, Saint Xavier University is Chicago's oldest Catholic university and the first Mercy institution of higher learning in the United States.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sxu.edu/about/history-traditions/180-anniversary.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Under the Access Advantage program, eligible incoming Illinois resident students with a family Adjusted Gross Income (AGI) of $80,000 or less receive 100 percent of tuition and mandatory fees for their first year at SXU.",
@@ -20,19 +24,29 @@
         {
           "title": "SXU Access Advantage - Saint Xavier University",
           "url": "https://www.sxu.edu/admission/sxu-access-advantage.html",
-          "quote": "Through the Access Advantage program, eligible incoming students receive 100 percent of tuition and mandatory fees for their first year at SXU through a combination of federal, state and institutional financial aid."
+          "quote": "Through the Access Advantage program, eligible incoming students receive 100 percent of tuition and mandatory fees for their first year at SXU through a combination of federal, state and institutional financial aid.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sxu.edu/admission/sxu-access-advantage.html",
+          "quoteFound": true
         },
         {
           "title": "SXU Access Advantage - Saint Xavier University",
           "url": "https://www.sxu.edu/admission/sxu-access-advantage.html",
-          "quote": "Household Income: Have a family Adjusted Gross Income (AGI) of $80,000 or less."
+          "quote": "Household Income: Have a family Adjusted Gross Income (AGI) of $80,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sxu.edu/admission/sxu-access-advantage.html",
+          "quoteFound": true
         },
         {
           "title": "SXU Access Advantage - Saint Xavier University",
           "url": "https://www.sxu.edu/admission/sxu-access-advantage.html",
-          "quote": "State Residency: Both you and at least one parent or guardian must be Illinois residents."
+          "quote": "State Residency: Both you and at least one parent or guardian must be Illinois residents.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sxu.edu/admission/sxu-access-advantage.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

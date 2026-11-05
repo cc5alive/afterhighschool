@@ -10,9 +10,13 @@
         {
           "title": "Who We Are - About Calvin | Calvin University",
           "url": "https://calvin.edu/about/who-we-are",
-          "quote": "Calvin University was founded in 1876 and named for 16th-century reformer John Calvin. While retaining a separate identity and function, the university is united in a covenantal relationship with the Christian Reformed Church in North America."
+          "quote": "Calvin University was founded in 1876 and named for 16th-century reformer John Calvin. While retaining a separate identity and function, the university is united in a covenantal relationship with the Christian Reformed Church in North America.",
+          "httpStatus": 200,
+          "finalUrl": "https://calvin.edu/about/who-we-are",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "A partnership between Calvin University and Calvin Theological Seminary, the Calvin Prison Initiative provides a Christian liberal arts education to incarcerated individuals at the Richard A. Handlon Correctional Facility in Ionia, MI, where enrolled students do not pay the cost of tuition, textbooks, or computers.",
@@ -20,14 +24,21 @@
         {
           "title": "Calvin Prison Initiative | Calvin University",
           "url": "https://calvin.edu/prison-initiative",
-          "quote": "A partnership between Calvin University and Calvin Theological Seminary, the Calvin Prison Initiative (CPI) provides a Christian liberal arts education to incarcerated individuals at the Richard A. Handlon Correctional Facility in Ionia, MI."
+          "quote": "A partnership between Calvin University and Calvin Theological Seminary, the Calvin Prison Initiative (CPI) provides a Christian liberal arts education to incarcerated individuals at the Richard A. Handlon Correctional Facility in Ionia, MI.",
+          "httpStatus": 200,
+          "finalUrl": "https://calvin.edu/prison-initiative",
+          "quoteFound": true
         },
         {
           "title": "Calvin Prison Initiative | Calvin University",
           "url": "https://calvin.edu/prison-initiative",
-          "quote": "The enrolled students do not pay the cost of tuition, textbooks, or computers. These costs are covered by the Calvin Prison Initiative, which is funded through donations and grants."
+          "quote": "The enrolled students do not pay the cost of tuition, textbooks, or computers. These costs are covered by the Calvin Prison Initiative, which is funded through donations and grants.",
+          "httpStatus": 200,
+          "finalUrl": "https://calvin.edu/prison-initiative",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Prescott College of Business, Security and Intelligence",
           "url": "https://erau.edu/academics/colleges/prescott-college-of-business-security-and-intelligence",
-          "quote": "The Prescott College of Business, Security and Intelligence (CBSI) is the only comprehensive degree-granting college in the United States to unite business, security and intelligence under one roof."
+          "quote": "The Prescott College of Business, Security and Intelligence (CBSI) is the only comprehensive degree-granting college in the United States to unite business, security and intelligence under one roof.",
+          "httpStatus": 200,
+          "finalUrl": "https://erau.edu/academics/colleges/prescott-college-of-business-security-and-intelligence",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Jim and Linda Lee Planetarium is the only Arizona planetarium north of Phoenix.",
@@ -20,9 +24,13 @@
         {
           "title": "Creating Local Connections - Lift Magazine",
           "url": "https://lift.erau.edu/creating-local-connections/",
-          "quote": "The center's planetarium was recently named the Jim and Linda Lee Planetarium in the couple's honor. The only Arizona planetarium north of Phoenix, it can seat 125 people for presentations in full 360-degree high definition."
+          "quote": "The center's planetarium was recently named the Jim and Linda Lee Planetarium in the couple's honor. The only Arizona planetarium north of Phoenix, it can seat 125 people for presentations in full 360-degree high definition.",
+          "httpStatus": 200,
+          "finalUrl": "https://lift.erau.edu/creating-local-connections/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

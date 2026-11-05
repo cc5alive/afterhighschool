@@ -10,9 +10,13 @@
         {
           "title": "Integrated Clusters and Applied Schools < Plymouth State University",
           "url": "https://coursecatalog.plymouth.edu/integrated-clusters/",
-          "quote": "To best prepare our students to succeed and thrive in our region and within a 21st century global economy, Plymouth State University has organized around seven Integrated Clusters that work across traditional, disciplinary boundaries."
+          "quote": "To best prepare our students to succeed and thrive in our region and within a 21st century global economy, Plymouth State University has organized around seven Integrated Clusters that work across traditional, disciplinary boundaries.",
+          "httpStatus": 200,
+          "finalUrl": "https://coursecatalog.plymouth.edu/integrated-clusters/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Current Granite Guarantee students retain their eligibility for the duration of their undergraduate careers, while the New Hampshire Promise is open to eligible first-year and transfer students enrolling in fall 2027.",
@@ -20,9 +24,13 @@
         {
           "title": "Scholarships | Plymouth State University",
           "url": "https://www.plymouth.edu/admissions/financial-assistance/scholarships",
-          "quote": "Current Granite Guarantee students will retain their current Granite Guarantee eligibility for the duration of their undergraduate careers. The New Hampshire Promise is open to eligible first-year and transfer students enrolling in fall 2027."
+          "quote": "Current Granite Guarantee students will retain their current Granite Guarantee eligibility for the duration of their undergraduate careers. The New Hampshire Promise is open to eligible first-year and transfer students enrolling in fall 2027.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.plymouth.edu/admissions/financial-assistance/scholarships",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

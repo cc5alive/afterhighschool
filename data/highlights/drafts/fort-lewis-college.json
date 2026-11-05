@@ -10,14 +10,21 @@
         {
           "title": "Native American Tuition Waiver | Tuition & Aid | Fort Lewis College",
           "url": "https://www.fortlewis.edu/tuition-aid/native-american-tuition-waiver",
-          "quote": "Fort Lewis College offers a tuition waiver for eligible undergraduate, graduate, and non-degree-seeking students who are enrolled citizens or children of an enrolled citizen of a federally recognized American Indian Tribal Nation or Alaska Native Village."
+          "quote": "Fort Lewis College offers a tuition waiver for eligible undergraduate, graduate, and non-degree-seeking students who are enrolled citizens or children of an enrolled citizen of a federally recognized American Indian Tribal Nation or Alaska Native Village.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fortlewis.edu/tuition-aid/native-american-tuition-waiver",
+          "quoteFound": true
         },
         {
           "title": "Native American Tuition Waiver | Tuition & Aid | Fort Lewis College",
           "url": "https://www.fortlewis.edu/tuition-aid/native-american-tuition-waiver",
-          "quote": "The NATW covers tuition costs only. Students remain responsible for fees, housing, meals, books, and other educational expenses."
+          "quote": "The NATW covers tuition costs only. Students remain responsible for fees, housing, meals, books, and other educational expenses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fortlewis.edu/tuition-aid/native-american-tuition-waiver",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Under the FLC Tuition Promise, tuition is covered for any admitted Colorado resident whose family income is $70,000 or less.",
@@ -25,9 +32,13 @@
         {
           "title": "FLC Tuition Promise | Financial Aid | Fort Lewis College",
           "url": "https://www.fortlewis.edu/tuition-aid/flc-tuition-promise",
-          "quote": "With the FLC Tuition Promise, tuition will be covered for any admitted Colorado resident whose family income is $70,000 or less."
+          "quote": "With the FLC Tuition Promise, tuition will be covered for any admitted Colorado resident whose family income is $70,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fortlewis.edu/tuition-aid/flc-tuition-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
