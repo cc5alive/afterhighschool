@@ -56,6 +56,7 @@ const jsonLd = {
   ...(site ? { url: site } : {}),
   address: { '@type': 'PostalAddress', addressLocality: s.city, addressRegion: s.state, postalCode: s.zip, addressCountry: 'US' }
 };
+const submitMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`What's special: ${s.name}`)}`;
 const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
 ---
 <Layout title={`${s.name} — admissions, cost and outcomes | After High School`} description={description}
@@ -124,7 +125,8 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
           <p class="hl-meta">Written by us from the linked sources and checked against them on {reviewedDate}. Programs and policies change, so confirm details with the school.</p>
         </>
       ) : (
-        <p class="pending-note">Highlights for this school are being written and checked against their sources. Until then, everything on this page comes straight from federal data.</p>
+        <p class="pending-note">We haven't added a fact about {s.name} yet. Every fact here has to link to a source we can check, and we're still working through schools.</p>
+        <p class="pending-note">Know something that makes {s.name} different, like a tuition promise, an unusual calendar or a requirement every student completes? <a href={submitMail}>Email {CONTACT_EMAIL}</a> with a link to where it's stated. We'll check it and add it.</p>
       )}
     </section>
 
