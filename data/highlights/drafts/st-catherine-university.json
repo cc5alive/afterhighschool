@@ -10,9 +10,13 @@
         {
           "title": "About Us - St. Kate's School of Nursing",
           "url": "https://nursing.stkate.edu/about-us/",
-          "quote": "College for Women On-campus undergraduate program open to women only."
+          "quote": "College for Women On-campus undergraduate program open to women only.",
+          "httpStatus": 200,
+          "finalUrl": "https://nursing.stkate.edu/about-us/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

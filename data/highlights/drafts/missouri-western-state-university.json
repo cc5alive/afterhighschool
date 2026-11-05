@@ -10,9 +10,13 @@
         {
           "title": "Applied Learning – MoWest – Missouri Western State University",
           "url": "https://www.missouriwestern.edu/appliedlearning/",
-          "quote": "As Missouri's official applied learning institution, we are committed to providing 100% of our students with an applied learning experience prior to graduation."
+          "quote": "As Missouri's official applied learning institution, we are committed to providing 100% of our students with an applied learning experience prior to graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.missouriwestern.edu/appliedlearning/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

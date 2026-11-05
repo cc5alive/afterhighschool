@@ -10,9 +10,13 @@
         {
           "title": "Explore the Campus - Central State University",
           "url": "https://www.centralstate.edu/admissions-aid-tour-campus/explore-campus",
-          "quote": "As Ohio's only public HBCU and 1890 Land-Grant Institution, Central State has enriched minds and changed lives for over 135 years — always with a focus on the future."
+          "quote": "As Ohio's only public HBCU and 1890 Land-Grant Institution, Central State has enriched minds and changed lives for over 135 years — always with a focus on the future.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.centralstate.edu/admissions-aid-tour-campus/explore-campus",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

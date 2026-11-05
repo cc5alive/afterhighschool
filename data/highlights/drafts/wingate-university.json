@@ -10,9 +10,13 @@
         {
           "title": "Lyceum - Wingate University",
           "url": "https://www.wingate.edu/academics/special-programs/lyceum",
-          "quote": "The Lyceum Program is a graduation requirement for undergraduate students. In order to graduate, students must attend 24 Lyceum events selected from four broad categories"
+          "quote": "The Lyceum Program is a graduation requirement for undergraduate students. In order to graduate, students must attend 24 Lyceum events selected from four broad categories",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wingate.edu/academics/special-programs/lyceum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Parents' Perspective: Grove City College and an Ivy League University",
           "url": "https://blogs.gcc.edu/insider/2017/11/25/parents-perspective-grove-city-college-ivy-league-university/",
-          "quote": "Grove City College has more limited financial aid and does not participate in federal financial aid programs."
+          "quote": "Grove City College has more limited financial aid and does not participate in federal financial aid programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://blogs.gcc.edu/insider/2017/11/25/parents-perspective-grove-city-college-ivy-league-university/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Grove City College sets tuition based on the actual cost to educate students, funding all aid privately without federal or state dollars.",
@@ -20,9 +24,13 @@
         {
           "title": "Frequently Asked Questions - Grove City College - Impact 150",
           "url": "https://www.giving.gcc.edu/s/1472/23/home.aspx?sid=1472&gid=1&pgid=488",
-          "quote": "While Grove City College does not accept federal or state funding, it remains one of the nation's premier values in quality higher education."
+          "quote": "While Grove City College does not accept federal or state funding, it remains one of the nation's premier values in quality higher education.",
+          "httpStatus": 0,
+          "finalUrl": "https://www.giving.gcc.edu/s/1472/23/home.aspx?sid=1472&gid=1&pgid=488",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

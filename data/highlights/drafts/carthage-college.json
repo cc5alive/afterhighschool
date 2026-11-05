@@ -10,9 +10,13 @@
         {
           "title": "J-Term FAQs - Carthage College",
           "url": "https://www.carthage.edu/academics/experiential-learning/january-term/faqs/",
-          "quote": "All students must successfully complete two J-Term courses during their time at Carthage. These can be on-campus courses, study tours, or a mix of both."
+          "quote": "All students must successfully complete two J-Term courses during their time at Carthage. These can be on-campus courses, study tours, or a mix of both.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.carthage.edu/academics/experiential-learning/january-term/faqs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

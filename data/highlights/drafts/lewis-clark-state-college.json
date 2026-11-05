@@ -10,9 +10,13 @@
         {
           "title": "Work Scholars - Financial Aid | Lewis-Clark State",
           "url": "https://www.lcsc.edu/financial-aid/work-scholars",
-          "quote": "Participants work an average of 10 hours a week, earning a full tuition scholarship as well as a paid stipend."
+          "quote": "Participants work an average of 10 hours a week, earning a full tuition scholarship as well as a paid stipend.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lcsc.edu/financial-aid/work-scholars",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

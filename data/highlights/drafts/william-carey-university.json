@@ -10,9 +10,13 @@
         {
           "title": "About Us | College of Osteopathic Medicine | William Carey University",
           "url": "https://www.wmcarey.edu/osteopathic-medicine/about",
-          "quote": "The Mission of the WCUCOM is to prepare men and women to become osteopathic physicians through an emphasis on primary care, lifelong learning, research and scholarly activities, service, including osteopathic clinical service, and graduate medical education."
+          "quote": "The Mission of the WCUCOM is to prepare men and women to become osteopathic physicians through an emphasis on primary care, lifelong learning, research and scholarly activities, service, including osteopathic clinical service, and graduate medical education.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wmcarey.edu/osteopathic-medicine/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Program: Core Curriculum - Shepherd University",
           "url": "https://catalog.shepherd.edu/preview_program.php?catoid=13&poid=1224",
-          "quote": "Shepherd University has established the following Core Curriculum which is required for all bachelor's degrees except the Regents B.A. degree, which has a separate set of requirements found under that section of the Catalog."
+          "quote": "Shepherd University has established the following Core Curriculum which is required for all bachelor's degrees except the Regents B.A. degree, which has a separate set of requirements found under that section of the Catalog.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.shepherd.edu/preview_program.php?catoid=13&poid=1224",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Institutional Identity | About - University of Maryland Eastern Shore",
           "url": "https://www.umes.edu/about/institutional-identity/",
-          "quote": "The University of Maryland Eastern Shore (UMES), the State's Historically Black 1890 Land Grant Institution, is a teaching, research, and doctoral institution that nurtures and launches leaders in a student-centered environment."
+          "quote": "The University of Maryland Eastern Shore (UMES), the State's Historically Black 1890 Land Grant Institution, is a teaching, research, and doctoral institution that nurtures and launches leaders in a student-centered environment.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umes.edu/about/institutional-identity/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

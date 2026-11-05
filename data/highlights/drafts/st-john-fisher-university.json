@@ -10,9 +10,13 @@
         {
           "title": "First-Year Program Academic Courses - St. John Fisher University",
           "url": "https://www.sjf.edu/major-minors/core-curriculum/first-year-program/academic-courses/",
-          "quote": "In your Learning Community, faculty from two different academic disciplines teach two linked courses sharing a common theme, giving you the opportunity to learn about a topic from at least two perspectives."
+          "quote": "In your Learning Community, faculty from two different academic disciplines teach two linked courses sharing a common theme, giving you the opportunity to learn about a topic from at least two perspectives.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sjf.edu/major-minors/core-curriculum/first-year-program/academic-courses/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

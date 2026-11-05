@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid - Husson University",
           "url": "https://www.husson.edu/financial-aid/",
-          "quote": "Husson University prides itself on being the lowest net-price four-year private university in Maine and the 8th lowest in New England (source: IPEDS data, College Navigator website)."
+          "quote": "Husson University prides itself on being the lowest net-price four-year private university in Maine and the 8th lowest in New England (source: IPEDS data, College Navigator website).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.husson.edu/financial-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

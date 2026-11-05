@@ -10,9 +10,13 @@
         {
           "title": "Cost of Attendance | Southwest Minnesota State University",
           "url": "https://www.smsu.edu/campuslife/financialaid/budget.html",
-          "quote": "SMSU offers in-state tuition to nearly everyone. No out-state"
+          "quote": "SMSU offers in-state tuition to nearly everyone. No out-state",
+          "httpStatus": 200,
+          "finalUrl": "https://www.smsu.edu/campuslife/financialaid/budget.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Changing the Name - Truman State University",
           "url": "https://www.truman.edu/about/history/changing-the-name/",
-          "quote": "In 1985, when the passage of House Bill 196 changed the University's mission from an open enrollment, regional, multipurpose university to Missouri's only statewide public liberal arts and sciences institution"
+          "quote": "In 1985, when the passage of House Bill 196 changed the University's mission from an open enrollment, regional, multipurpose university to Missouri's only statewide public liberal arts and sciences institution",
+          "httpStatus": 200,
+          "finalUrl": "https://www.truman.edu/about/history/changing-the-name/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

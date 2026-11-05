@@ -10,9 +10,13 @@
         {
           "title": "Academic Calendar System",
           "url": "https://catalog.rose-hulman.edu/rules-procedures/academic-calendar-system/",
-          "quote": "Rose-Hulman operates on a quarter-based calendar system, beginning with the Fall term and followed by Winter and Spring terms."
+          "quote": "Rose-Hulman operates on a quarter-based calendar system, beginning with the Fall term and followed by Winter and Spring terms.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.rose-hulman.edu/rules-procedures/academic-calendar-system/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Information About Dickinson",
           "url": "https://www.dickinson.edu/info/20184/academic_offices_and_resources/1953/information_about_dickinson",
-          "quote": "History: Founded by Benjamin Rush, the first college chartered in the newly-recognized United States of America in 1783."
+          "quote": "History: Founded by Benjamin Rush, the first college chartered in the newly-recognized United States of America in 1783.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dickinson.edu/info/20184/academic_offices_and_resources/1953/information_about_dickinson",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

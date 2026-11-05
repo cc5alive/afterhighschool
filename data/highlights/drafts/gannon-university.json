@@ -10,9 +10,13 @@
         {
           "title": "About Gannon",
           "url": "https://graduate.catalog.gannon.edu/overview/about-gannon",
-          "quote": "Gannon is a Catholic, Diocesan university dedicated to excellence in teaching, scholarship and service."
+          "quote": "Gannon is a Catholic, Diocesan university dedicated to excellence in teaching, scholarship and service.",
+          "httpStatus": 200,
+          "finalUrl": "https://graduate.catalog.gannon.edu/overview/about-gannon",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Gannon University launched Project NePTWNE, a $24 million environmental sustainability initiative focused on water quality and microplastics in Lake Erie.",
@@ -20,9 +24,13 @@
         {
           "title": "Protect What Matters Most - Gannon Magazine Online Edition",
           "url": "https://magazine.gannon.edu/Article.aspx?date=May2023&title=protect-what-matters-most&issue=15&article=274",
-          "quote": "Project NePTWNE, which is short for Nano & Polymer Technology for Water and Neural-networks in Erie, is Gannon's $24 million initiative toward environmental sustainability."
+          "quote": "Project NePTWNE, which is short for Nano & Polymer Technology for Water and Neural-networks in Erie, is Gannon's $24 million initiative toward environmental sustainability.",
+          "httpStatus": 200,
+          "finalUrl": "https://magazine.gannon.edu/Article.aspx?date=May2023&title=protect-what-matters-most&issue=15&article=274",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

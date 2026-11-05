@@ -10,9 +10,13 @@
         {
           "title": "The Denison Commitment | Admission & Financial Aid",
           "url": "https://denison.edu/campus/admission/denison-commitment",
-          "quote": "Families with a total income less than $100,000 will pay $0 for tuition."
+          "quote": "Families with a total income less than $100,000 will pay $0 for tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://denison.edu/campus/admission/denison-commitment",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Denison meets 100% of demonstrated financial need for all admitted students, including international students.",
@@ -20,9 +24,13 @@
         {
           "title": "The Denison Commitment | Admission & Financial Aid",
           "url": "https://denison.edu/campus/admission/denison-commitment",
-          "quote": "However, Denison meets 100% of demonstrated need for all students — including international students."
+          "quote": "However, Denison meets 100% of demonstrated need for all students — including international students.",
+          "httpStatus": 200,
+          "finalUrl": "https://denison.edu/campus/admission/denison-commitment",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

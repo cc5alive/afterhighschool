@@ -10,9 +10,13 @@
         {
           "title": "The MSOE Guarantee - MSOE",
           "url": "https://www.msoe.edu/about-msoe/mission-vision-values/the-msoe-guarantee/",
-          "quote": "MSOE guarantees that graduates may refresh their knowledge by repeating any undergraduate course they took at MSOE, at no cost, within three years of graduation."
+          "quote": "MSOE guarantees that graduates may refresh their knowledge by repeating any undergraduate course they took at MSOE, at no cost, within three years of graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.msoe.edu/about-msoe/mission-vision-values/the-msoe-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

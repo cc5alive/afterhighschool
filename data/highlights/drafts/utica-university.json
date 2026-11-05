@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Graduation Guarantee - Utica University",
           "url": "https://www.utica.edu/four-year-guarantee",
-          "quote": "If you have met your responsibilities and are not able to graduate in four years, provide you the opportunity to complete any courses required for your degree, free of any tuition and fee charges."
+          "quote": "If you have met your responsibilities and are not able to graduate in four years, provide you the opportunity to complete any courses required for your degree, free of any tuition and fee charges.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utica.edu/four-year-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

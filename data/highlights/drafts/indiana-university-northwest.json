@@ -10,9 +10,13 @@
         {
           "title": "Indiana Partners Tuition - Indiana University Northwest",
           "url": "https://northwest.iu.edu/admissions/pay-for-college/Indiana-partners-tuition.html",
-          "quote": "Through the Indiana Partners Tuition, Indiana University Northwest agrees to charge students no more than 150% of the in-state resident tuition rate for specific programs."
+          "quote": "Through the Indiana Partners Tuition, Indiana University Northwest agrees to charge students no more than 150% of the in-state resident tuition rate for specific programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://northwest.iu.edu/admissions/pay-for-college/Indiana-partners-tuition.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

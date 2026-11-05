@@ -10,9 +10,13 @@
         {
           "title": "About FVSU - About Fort Valley State University",
           "url": "https://www.fvsu.edu/about-fvsu/ctr-about-fort-valley-state-university",
-          "quote": "it is the only university in the world which at once is a University System of Georgia institution, a historically black university, and an 1890 land-grant institution"
+          "quote": "it is the only university in the world which at once is a University System of Georgia institution, a historically black university, and an 1890 land-grant institution",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fvsu.edu/about-fvsu/about-fvsu",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

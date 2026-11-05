@@ -10,9 +10,13 @@
         {
           "title": "Lifetime Guarantee Program | Trine University",
           "url": "https://www.trine.edu/admission-aid/lifetime-guarantee.aspx",
-          "quote": "As a graduate of Trine University's Angola campus, you are welcome to return at any time to enroll in seated undergraduate courses on the Angola campus — at no cost* and for no credit."
+          "quote": "As a graduate of Trine University's Angola campus, you are welcome to return at any time to enroll in seated undergraduate courses on the Angola campus — at no cost* and for no credit.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.trine.edu/admission-aid/lifetime-guarantee.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Trine's Lifetime Guarantee scholarship increases merit awards by $500 for students completing 32 credits in their first year with at least a 2.75 GPA.",
@@ -20,9 +24,13 @@
         {
           "title": "Lifetime Guarantee Program | Trine University",
           "url": "https://www.trine.edu/admission-aid/lifetime-guarantee.aspx",
-          "quote": "Complete at least 32 credits in your first year with a minimum GPA of 2.75, and your merit award will increase by $500."
+          "quote": "Complete at least 32 credits in your first year with a minimum GPA of 2.75, and your merit award will increase by $500.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.trine.edu/admission-aid/lifetime-guarantee.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

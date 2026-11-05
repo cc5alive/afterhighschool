@@ -10,9 +10,13 @@
         {
           "title": "Fairmont State University launches new Access Scholarship - Fairmont State University",
           "url": "https://www.fairmontstate.edu/news/2025/02/fairmont-state-university-launches-new-access-scholarship-provide-free-tuition-incoming-west-virginia-students.aspx",
-          "quote": "The Access Scholarship is a tuition-free guarantee for eligible high school graduates, transfer students, and former Fairmont State students looking to return and complete their degrees."
+          "quote": "The Access Scholarship is a tuition-free guarantee for eligible high school graduates, transfer students, and former Fairmont State students looking to return and complete their degrees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fairmontstate.edu/news/2025/02/fairmont-state-university-launches-new-access-scholarship-provide-free-tuition-incoming-west-virginia-students.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

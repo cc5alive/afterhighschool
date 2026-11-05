@@ -10,9 +10,13 @@
         {
           "title": "History - Alcorn State University",
           "url": "https://www.alcorn.edu/discover-alcorn/history/",
-          "quote": "Alcorn is the oldest public historically Black land-grant institution in the United States and the second-oldest state-supported institution of higher learning in Mississippi."
+          "quote": "Alcorn is the oldest public historically Black land-grant institution in the United States and the second-oldest state-supported institution of higher learning in Mississippi.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.alcorn.edu/discover-alcorn/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

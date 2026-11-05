@@ -10,9 +10,13 @@
         {
           "title": "An Exceptional Journey at FMU - Francis Marion University",
           "url": "https://www.fmarion.edu/admissions/exceptional-journey/",
-          "quote": "The Patriot Promise program makes it possible for all freshman who are South Carolina residents, and have demonstrated financial need, to cover the cost of all tuition and fees during their first year at FMU."
+          "quote": "The Patriot Promise program makes it possible for all freshman who are South Carolina residents, and have demonstrated financial need, to cover the cost of all tuition and fees during their first year at FMU.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fmarion.edu/admissions/exceptional-journey/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

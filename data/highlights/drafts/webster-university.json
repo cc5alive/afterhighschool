@@ -10,9 +10,13 @@
         {
           "title": "Study Abroad | Webster University",
           "url": "https://www.webster.edu/study-abroad/index.php",
-          "quote": "Our unique Global Campus Network, with locations in Athens, Geneva, Leiden and beyond, as well as extensive Study Abroad program options, brings the world"
+          "quote": "Our unique Global Campus Network, with locations in Athens, Geneva, Leiden and beyond, as well as extensive Study Abroad program options, brings the world",
+          "httpStatus": 200,
+          "finalUrl": "https://www.webster.edu/study-abroad/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Webster World Traveler Program provides airfare assistance to full-time undergraduate or graduate students participating in a Webster study abroad program.",
@@ -20,9 +24,13 @@
         {
           "title": "Study Abroad | Webster Leiden",
           "url": "https://www.webster.nl/study-abroad/index.php",
-          "quote": "The Webster World Traveler Program (WWTP) is an award that provides airfare assistance to full-time undergraduate or graduate students at Webster University to study abroad on a Webster study abroad program."
+          "quote": "The Webster World Traveler Program (WWTP) is an award that provides airfare assistance to full-time undergraduate or graduate students at Webster University to study abroad on a Webster study abroad program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.webster.nl/study-abroad/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

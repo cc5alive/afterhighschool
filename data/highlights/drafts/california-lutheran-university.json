@@ -10,9 +10,13 @@
         {
           "title": "4 to Finish Guarantee - Undergraduate Admission | Cal Lutheran",
           "url": "https://www.callutheran.edu/admission/undergraduate/discover/4-to-finish.html",
-          "quote": "If timely graduation will be delayed, then we'll pick up the cost of the extra time to finish your degree."
+          "quote": "If timely graduation will be delayed, then we'll pick up the cost of the extra time to finish your degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.callutheran.edu/admission/undergraduate/discover/4-to-finish.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Cal Lutheran's Public Price Promise scholarship covers the difference in average cost of attendance between Cal Lutheran and University of California schools.",
@@ -20,9 +24,13 @@
         {
           "title": "Public Price Promise - Financial Aid - California Lutheran University",
           "url": "https://www.callutheran.edu/financial-aid/scholarships-grants/details/public-price-promise.html",
-          "quote": "The Public Price Promise scholarship covers the difference in average cost of attendance between Cal Lutheran and UC schools."
+          "quote": "The Public Price Promise scholarship covers the difference in average cost of attendance between Cal Lutheran and UC schools.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.callutheran.edu/financial-aid/scholarships-grants/details/public-price-promise.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

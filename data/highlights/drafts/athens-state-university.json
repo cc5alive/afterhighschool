@@ -10,9 +10,13 @@
         {
           "title": "Transfer Guide - Athens State University",
           "url": "https://www.athens.edu/admissions/transfer-guide/",
-          "quote": "Since Athens State is an upper-division institution and does not offer coursework at the 100/200-level, the Alabama Community College System course directory is used as the baseline for establishing and determining lower-level equivalencies."
+          "quote": "Since Athens State is an upper-division institution and does not offer coursework at the 100/200-level, the Alabama Community College System course directory is used as the baseline for establishing and determining lower-level equivalencies.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.athens.edu/admissions/transfer-guide/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

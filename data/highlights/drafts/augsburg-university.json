@@ -10,9 +10,13 @@
         {
           "title": "Augsburg Possible Scholarship - Augsburg University",
           "url": "https://www.augsburg.edu/augsburg-possible-scholarship/",
-          "quote": "Through the Augsburg Possible Scholarship, students begin their educational journey on a tuition-free pathway. This means that, for eligible students, Augsburg will cover the remaining balance of tuition after other merit-based scholarships, grants, and tuition waivers have been applied."
+          "quote": "Through the Augsburg Possible Scholarship, students begin their educational journey on a tuition-free pathway. This means that, for eligible students, Augsburg will cover the remaining balance of tuition after other merit-based scholarships, grants, and tuition waivers have been applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.augsburg.edu/augsburg-possible-scholarship/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

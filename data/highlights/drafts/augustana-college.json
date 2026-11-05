@@ -10,9 +10,13 @@
         {
           "title": "Augie Choice - Augustana College",
           "url": "https://www.augustana.edu/academics/core/augie-choice",
-          "quote": "Under Augie Choice, all students may receive up to $2000 to support a qualifying hands-on learning experience of their choice: internship, research or study"
+          "quote": "Under Augie Choice, all students may receive up to $2000 to support a qualifying hands-on learning experience of their choice: internship, research or study",
+          "httpStatus": 200,
+          "finalUrl": "https://www.augustana.edu/academics/core/augie-choice",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

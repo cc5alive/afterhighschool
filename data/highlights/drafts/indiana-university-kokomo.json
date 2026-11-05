@@ -10,9 +10,13 @@
         {
           "title": "Kokomo Experience and You: Indiana University Kokomo",
           "url": "https://kokomo.iu.edu/key/index.html",
-          "quote": "The Kokomo Experience and You (KEY) program began to provide IU Kokomo students with unique, hands-on opportunities to explore the fields they want to enter after graduation."
+          "quote": "The Kokomo Experience and You (KEY) program began to provide IU Kokomo students with unique, hands-on opportunities to explore the fields they want to enter after graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://kokomo.iu.edu/key/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid - Texas A&M University-Victoria",
           "url": "https://www.tamuv.edu/financial-aid/",
-          "quote": "Our promise to you: eligible students with family incomes of $65,000 or less will have all tuition and mandatory fees covered through grants and other sources."
+          "quote": "Our promise to you: eligible students with family incomes of $65,000 or less will have all tuition and mandatory fees covered through grants and other sources.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tamuv.edu/financial-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

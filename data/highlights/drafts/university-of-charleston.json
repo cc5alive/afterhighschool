@@ -10,9 +10,13 @@
         {
           "title": "Fast Track/Direct Pathway Options - University of Charleston",
           "url": "https://www.ucwv.edu/academics/majors-degrees/fast-track-direct-pathway-options/",
-          "quote": "Fast Track programs can help you complete your undergraduate degree sooner – sometimes in as few as 3 years."
+          "quote": "Fast Track programs can help you complete your undergraduate degree sooner – sometimes in as few as 3 years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucwv.edu/academics/majors-degrees/fast-track-direct-pathway-options/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Students in the BSBA/MBA program complete their undergraduate business degree in three years and transition into the MBA program to earn both degrees in four years.",
@@ -20,9 +24,13 @@
         {
           "title": "Fast Track/Direct Pathway Options - University of Charleston",
           "url": "https://www.ucwv.edu/academics/majors-degrees/fast-track-direct-pathway-options/",
-          "quote": "Students complete their undergraduate business degree in three years, then transition into the MBA program for their final summer, fall, and spring semesters."
+          "quote": "Students complete their undergraduate business degree in three years, then transition into the MBA program for their final summer, fall, and spring semesters.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucwv.edu/academics/majors-degrees/fast-track-direct-pathway-options/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

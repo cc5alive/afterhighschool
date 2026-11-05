@@ -10,9 +10,13 @@
         {
           "title": "Meet Le Moyne - Le Moyne College",
           "url": "https://www.lemoyne.edu/meet-le-moyne/",
-          "quote": "100% Financial Support Guarantee: 100% of full-time undergraduate students receive institutional merit aid, need-based financial aid, or both."
+          "quote": "100% Financial Support Guarantee: 100% of full-time undergraduate students receive institutional merit aid, need-based financial aid, or both.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lemoyne.edu/meet-le-moyne/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Le Moyne provides a 4-year on-time graduation commitment with clear pathways so students complete their degree on time without extra costs.",
@@ -20,9 +24,13 @@
         {
           "title": "Meet Le Moyne - Le Moyne College",
           "url": "https://www.lemoyne.edu/meet-le-moyne/",
-          "quote": "4-Year On-Time Graduation Commitment: Clear academic pathways ensuring students complete their degree on time without extra costs or delays."
+          "quote": "4-Year On-Time Graduation Commitment: Clear academic pathways ensuring students complete their degree on time without extra costs or delays.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lemoyne.edu/meet-le-moyne/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

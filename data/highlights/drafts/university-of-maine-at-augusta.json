@@ -10,9 +10,13 @@
         {
           "title": "Pine Tree State Pledge - University of Maine at Augusta",
           "url": "https://www.uma.edu/financial/scholarships/pine-tree-state-pledge/",
-          "quote": "Through this tuition guarantee program, qualified and eligible entering in-state, full-time first-year students will not pay any out-of-pocket expenses for tuition (regular UMA tuition) and mandatory fees."
+          "quote": "Through this tuition guarantee program, qualified and eligible entering in-state, full-time first-year students will not pay any out-of-pocket expenses for tuition (regular UMA tuition) and mandatory fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uma.edu/financial/scholarships/pine-tree-state-pledge/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

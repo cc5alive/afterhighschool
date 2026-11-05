@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Curriculum - Bard College",
           "url": "https://www.bard.edu/academics/curriculum/",
-          "quote": "All first-year students participate in a common curriculum—the Language and Thinking Program and First-Year Seminar—and take elective courses."
+          "quote": "All first-year students participate in a common curriculum—the Language and Thinking Program and First-Year Seminar—and take elective courses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bard.edu/academics/curriculum/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "In the second semester of sophomore year, students complete Moderation to transition from the Lower College to the Upper College and establish their major.",
@@ -20,9 +24,13 @@
         {
           "title": "Undergraduate Curriculum - Bard College",
           "url": "https://www.bard.edu/academics/curriculum/",
-          "quote": "Moderation is undertaken in the second semester of the sophomore year. Through this process students make the transition from the Lower College to the Upper College and establish their major in a program."
+          "quote": "Moderation is undertaken in the second semester of the sophomore year. Through this process students make the transition from the Lower College to the Upper College and establish their major in a program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bard.edu/academics/curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Students devote one course each semester of their final year to completing an original Senior Project reviewed by three professors.",
@@ -30,9 +38,13 @@
         {
           "title": "Undergraduate Curriculum - Bard College",
           "url": "https://www.bard.edu/academics/curriculum/",
-          "quote": "One course each semester of the student's final year is devoted to completing the Senior Project. The student submits the completed project to a board of three professors, who conduct a Senior Project Review."
+          "quote": "One course each semester of the student's final year is devoted to completing the Senior Project. The student submits the completed project to a board of three professors, who conduct a Senior Project Review.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bard.edu/academics/curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

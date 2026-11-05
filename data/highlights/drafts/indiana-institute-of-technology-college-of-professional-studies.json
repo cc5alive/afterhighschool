@@ -10,9 +10,13 @@
         {
           "title": "Adult and Online Costs - Student Financial Services - Indiana Tech",
           "url": "https://financialservices.indianatech.edu/costs/adult/",
-          "quote": "The cost of each class includes the book rental fees for textbooks needed."
+          "quote": "The cost of each class includes the book rental fees for textbooks needed.",
+          "httpStatus": 200,
+          "finalUrl": "https://financialservices.indianatech.edu/costs/adult/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

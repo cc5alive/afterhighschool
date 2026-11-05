@@ -10,9 +10,13 @@
         {
           "title": "San Damiano Scholars Program | Marian University",
           "url": "https://www.marian.edu/faith/franciscan-leadership-institute/san-damiano-scholars.php",
-          "quote": "Marian University awards 75 San Damiano Scholars, with awards ranging up to full tuition, to students who are committed to becoming transformational leaders in the Church."
+          "quote": "Marian University awards 75 San Damiano Scholars, with awards ranging up to full tuition, to students who are committed to becoming transformational leaders in the Church.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.marian.edu/faith/franciscan-leadership-institute/san-damiano-scholars",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

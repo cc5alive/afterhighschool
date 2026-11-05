@@ -10,9 +10,13 @@
         {
           "title": "Early Decision vs Early Action - Hawaii Pacific University",
           "url": "https://www.hpu.edu/undergraduate-admissions/first-year/early-decision-action.html",
-          "quote": "Guaranteed tuition – tuition no more than $19,000 a year, for up to four years. Guaranteed housing years one and two."
+          "quote": "Guaranteed tuition – tuition no more than $19,000 a year, for up to four years. Guaranteed housing years one and two.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hpu.edu/undergraduate-admissions/first-year/early-decision-action.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "HPU's waterfront campus utilizes the Aloha Tower Marketplace for student housing at Harbor Lofts, classrooms, and dining.",
@@ -20,9 +24,13 @@
         {
           "title": "The 'Ohana | Aloha Tower Voted as 'Hawai'i's Favorite Building'",
           "url": "https://www.hpu.edu/about-us/the-ohana/article.php?nid=nc08042601",
-          "quote": "The University's Aloha Tower Marketplace houses HPU student housing at its Harbor Lofts, classrooms, dining rooms, its HPU eSports Arena, Sharkey's Cove, and Pier 9 by Sam Choy, which provides healthy, tasty meals to students living on campus."
+          "quote": "The University's Aloha Tower Marketplace houses HPU student housing at its Harbor Lofts, classrooms, dining rooms, its HPU eSports Arena, Sharkey's Cove, and Pier 9 by Sam Choy, which provides healthy, tasty meals to students living on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hpu.edu/about-us/the-ohana/article.php?nid=nc08042601",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

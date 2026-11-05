@@ -10,9 +10,13 @@
         {
           "title": "The Road to Regis - Regis University",
           "url": "https://www.regis.edu/financial-aid/types-of-financial-aid/first-year-and-transfer-students/road-to-regis",
-          "quote": "Road to Regis is designed to ensure our high-need Colorado resident students can access a values-based education at the only Jesuit Catholic university in the Rocky Mountain region."
+          "quote": "Road to Regis is designed to ensure our high-need Colorado resident students can access a values-based education at the only Jesuit Catholic university in the Rocky Mountain region.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.regis.edu/financial-aid/types-of-financial-aid/first-year-and-transfer-students/road-to-regis",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

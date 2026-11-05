@@ -10,9 +10,13 @@
         {
           "title": "Capital Scholars Honors Program - University of Illinois Springfield",
           "url": "https://www.uis.edu/caphonors",
-          "quote": "Participation in the CAP Honors Living Learning Community (Students are required to live on campus their first two years.)"
+          "quote": "Participation in the CAP Honors Living Learning Community (Students are required to live on campus their first two years.)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uis.edu/caphonors",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

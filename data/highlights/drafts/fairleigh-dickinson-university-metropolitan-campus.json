@@ -10,9 +10,13 @@
         {
           "title": "FDU Promise/Latino Promise - Fairleigh Dickinson University",
           "url": "https://www.fdu.edu/program/fdu-promise-latino-promise/",
-          "quote": "Students spend their first two years with FDU Promise/Latino Promise, taking courses toward their intended major and then easily transitioning to the Bachelor's degree once they have completed their Associate's degree."
+          "quote": "Students spend their first two years with FDU Promise/Latino Promise, taking courses toward their intended major and then easily transitioning to the Bachelor's degree once they have completed their Associate's degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fdu.edu/program/fdu-promise-latino-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

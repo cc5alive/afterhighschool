@@ -10,9 +10,13 @@
         {
           "title": "About St. Thomas University - STU Online Programs",
           "url": "https://online.stu.edu/about/",
-          "quote": "In 1988, the University came under the sponsorship of the Archdiocese of Miami, conferring upon St. Thomas the distinction of being the only Catholic Archdiocesan-sponsored university in the state of Florida."
+          "quote": "In 1988, the University came under the sponsorship of the Archdiocese of Miami, conferring upon St. Thomas the distinction of being the only Catholic Archdiocesan-sponsored university in the state of Florida.",
+          "httpStatus": 200,
+          "finalUrl": "https://online.stu.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

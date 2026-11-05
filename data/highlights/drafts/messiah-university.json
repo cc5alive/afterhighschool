@@ -10,9 +10,13 @@
         {
           "title": "ELI Leadership Options | Messiah, a private Christian University in PA",
           "url": "https://www.messiah.edu/eli/pages/eli-leadership-options",
-          "quote": "Messiah University requires all undergraduate students to complete at least one approved Experiential Learning Initiative (ELI) activity prior to graduation."
+          "quote": "Messiah University requires all undergraduate students to complete at least one approved Experiential Learning Initiative (ELI) activity prior to graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.messiah.edu/eli/pages/eli-leadership-options",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "About Berry College",
           "url": "https://www.berry.edu/about/",
-          "quote": "The World's Largest Campus. At 27,000 acres, the Berry campus is a place of tremendous physical beauty, facilities that support unique work-based learning"
+          "quote": "The World's Largest Campus. At 27,000 acres, the Berry campus is a place of tremendous physical beauty, facilities that support unique work-based learning",
+          "httpStatus": 200,
+          "finalUrl": "https://www.berry.edu/about/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Through Berry's LifeWorks program, every student has the opportunity to participate in paid, meaningful student work on campus.",
@@ -20,9 +24,13 @@
         {
           "title": "Berry College Earns National Career Readiness Award",
           "url": "https://www.berry.edu/articles/news/2026/career-readiness",
-          "quote": "Through LifeWorks, every student can participate in paid, meaningful work that connects learning with leadership and calling. These experiences foster"
+          "quote": "Through LifeWorks, every student can participate in paid, meaningful work that connects learning with leadership and calling. These experiences foster",
+          "httpStatus": 200,
+          "finalUrl": "https://www.berry.edu/articles/news/2026/career-readiness",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Clark University provides 'Best Bang for Your Tuition Buck'",
           "url": "https://www.clarku.edu/news/2017/02/17/clark-university-provides-best-bang-for-your-tuition-buck/",
-          "quote": "Accelerated B.A./Master's Degree Program, which offers a fifth year of study tuition-free for students who meet the academic requirements."
+          "quote": "Accelerated B.A./Master's Degree Program, which offers a fifth year of study tuition-free for students who meet the academic requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.clarku.edu/news/2017/02/17/clark-university-provides-best-bang-for-your-tuition-buck/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

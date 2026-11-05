@@ -10,9 +10,13 @@
         {
           "title": "Smith College – A Distinctive Education For Remarkable Women",
           "url": "https://family.smith.edu/",
-          "quote": "With our open curriculum, your student won't be bound by the confines of the standard core curriculum found at most other colleges. Their only requirement outside their major will be one first-year writing course"
+          "quote": "With our open curriculum, your student won't be bound by the confines of the standard core curriculum found at most other colleges. Their only requirement outside their major will be one first-year writing course",
+          "httpStatus": 200,
+          "finalUrl": "https://family.smith.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

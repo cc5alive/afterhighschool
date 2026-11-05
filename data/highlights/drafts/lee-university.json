@@ -10,9 +10,13 @@
         {
           "title": "Service Learning Requirements - Lee University",
           "url": "https://www.leeuniversity.edu/service-learning/student-requirements/",
-          "quote": "Students are required to complete a minimum of 10 service hours per academic semester while enrolled at Lee excluding summer terms (up to 80 hours)."
+          "quote": "Students are required to complete a minimum of 10 service hours per academic semester while enrolled at Lee excluding summer terms (up to 80 hours).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.leeuniversity.edu/service-learning/student-requirements/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

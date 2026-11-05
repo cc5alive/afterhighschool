@@ -10,9 +10,13 @@
         {
           "title": "History, Pride, and Military Tradition | Norwich University - On Campus",
           "url": "https://home.norwich.edu/this-is-norwich/mission-values/history-pride-and-military-tradition",
-          "quote": "Norwich was the first of all private military colleges in the nation. Norwich was the birthplace of ROTC."
+          "quote": "Norwich was the first of all private military colleges in the nation. Norwich was the birthplace of ROTC.",
+          "httpStatus": 200,
+          "finalUrl": "https://home.norwich.edu/this-is-norwich/mission-values/history-pride-and-military-tradition",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

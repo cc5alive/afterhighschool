@@ -10,9 +10,13 @@
         {
           "title": "History - Mississippi Christian University",
           "url": "https://www.mc.edu/about/history",
-          "quote": "MC is the oldest institution of higher learning in Mississippi and was the first co-educational institution in the United States to grant a degree to a woman."
+          "quote": "MC is the oldest institution of higher learning in Mississippi and was the first co-educational institution in the United States to grant a degree to a woman.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mc.edu/about/history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

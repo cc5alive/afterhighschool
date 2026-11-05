@@ -10,9 +10,13 @@
         {
           "title": "Recognition of Excellence - Ohio Northern University",
           "url": "https://www.onu.edu/about/recognition-excellence",
-          "quote": "Key components at ONU: 4-Year graduation guarantee available across most undergraduate programs Offer hands-on high-impact learning, a core component of every academic major"
+          "quote": "Key components at ONU: 4-Year graduation guarantee available across most undergraduate programs Offer hands-on high-impact learning, a core component of every academic major",
+          "httpStatus": 200,
+          "finalUrl": "https://www.onu.edu/about/recognition-excellence",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

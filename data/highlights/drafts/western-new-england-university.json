@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Cost & Aid - Western New England University",
           "url": "https://wne.edu/cost-and-aid/undergraduate/index.cfm",
-          "quote": "for students who are admitted into one of the Massachusetts state schools and awarded the Mass Grant Free Tuition Award, we will match that award to cover full tuition and fees at Western New England University."
+          "quote": "for students who are admitted into one of the Massachusetts state schools and awarded the Mass Grant Free Tuition Award, we will match that award to cover full tuition and fees at Western New England University.",
+          "httpStatus": 200,
+          "finalUrl": "https://wne.edu/cost-and-aid/undergraduate/index.cfm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

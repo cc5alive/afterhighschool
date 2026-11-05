@@ -10,9 +10,13 @@
         {
           "title": "Guaranteed Tuition Program - Rogers State University",
           "url": "https://www.rsu.edu/admissions/cost/guaranteed-tuition-program/",
-          "quote": "First-time RSU students can lock in tuition rates for the duration of their undergraduate education, but not longer than four consecutive academic years."
+          "quote": "First-time RSU students can lock in tuition rates for the duration of their undergraduate education, but not longer than four consecutive academic years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rsu.edu/admissions/cost/guaranteed-tuition-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

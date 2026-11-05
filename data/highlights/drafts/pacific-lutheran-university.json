@@ -10,9 +10,13 @@
         {
           "title": "Fixed Tuition Guarantee | Admission | PLU",
           "url": "https://www.plu.edu/admission/fixed-tuition/",
-          "quote": "The PLU Fixed Tuition Guarantee ensures that your cost of tuition will be locked in from your first day until your graduation day."
+          "quote": "The PLU Fixed Tuition Guarantee ensures that your cost of tuition will be locked in from your first day until your graduation day.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.plu.edu/admission/fixed-tuition/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "The fixed tuition guarantee applies to both incoming first-year and transfer undergraduate students.",
@@ -20,9 +24,13 @@
         {
           "title": "Fixed Tuition Guarantee | Admission | PLU",
           "url": "https://www.plu.edu/admission/fixed-tuition/",
-          "quote": "The fixed tuition guarantee applies to both incoming first-year and transfer undergraduate students."
+          "quote": "The fixed tuition guarantee applies to both incoming first-year and transfer undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.plu.edu/admission/fixed-tuition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

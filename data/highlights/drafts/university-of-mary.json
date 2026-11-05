@@ -10,9 +10,13 @@
         {
           "title": "Year-Round Campus | University of Mary in Bismarck, ND",
           "url": "https://www.umary.edu/academics/year-round-campus",
-          "quote": "Through the University of Mary's one-of-a-kind Year-Round Campus program, you can earn your bachelor's degree in less than three years, your bachelor's and master's in four, or your bachelor's and doctorate in just six"
+          "quote": "Through the University of Mary's one-of-a-kind Year-Round Campus program, you can earn your bachelor's degree in less than three years, your bachelor's and master's in four, or your bachelor's and doctorate in just six",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umary.edu/academics/year-round-campus",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Year-Round Campus students take a full semester of classes each summer at the prior academic year's tuition rate.",
@@ -20,9 +24,13 @@
         {
           "title": "Year-Round Campus | University of Mary in Bismarck, ND",
           "url": "https://www.umary.edu/academics/year-round-campus",
-          "quote": "Each summer, you'll take a full semester of classes at the prior academic year's tuition rate. Over three years, you'll save thousands."
+          "quote": "Each summer, you'll take a full semester of classes at the prior academic year's tuition rate. Over three years, you'll save thousands.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umary.edu/academics/year-round-campus",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

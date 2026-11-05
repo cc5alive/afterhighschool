@@ -10,9 +10,13 @@
         {
           "title": "The Raven Standard | Benedictine College",
           "url": "https://www.benedictine.edu/about/transform-culture/raven-standard",
-          "quote": "The Raven Standard forms students through eight lectures and corresponding workshops to promote personal formation, self-awareness, relationship skills, leadership development and mentorship skills."
+          "quote": "The Raven Standard forms students through eight lectures and corresponding workshops to promote personal formation, self-awareness, relationship skills, leadership development and mentorship skills.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.benedictine.edu/about/transform-culture/raven-standard",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

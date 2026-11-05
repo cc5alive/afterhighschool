@@ -10,9 +10,13 @@
         {
           "title": "Reduced Tuition for Midwest Residents - Indiana University East",
           "url": "https://east.iu.edu/cost-aid/cost-of-attendance/reduced-tuition/midwest.html",
-          "quote": "Through the MSEP, participating institutions agree to charge students no more than 150% of the in-state resident tuition rate for specific programs."
+          "quote": "Through the MSEP, participating institutions agree to charge students no more than 150% of the in-state resident tuition rate for specific programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://east.iu.edu/cost-aid/cost-of-attendance/reduced-tuition/midwest.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

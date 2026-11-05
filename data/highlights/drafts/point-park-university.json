@@ -10,9 +10,13 @@
         {
           "title": "Inside the Playhouse | Point Park University | Pittsburgh, PA",
           "url": "https://www.pointpark.edu/news-copa/insidetheplayhouse",
-          "quote": "The 90,000-square-foot structure, which cost $60 million to build and furnish, is located on approximately 1.6 acres of land along the Forbes Avenue corridor between Wood and Smithfield streets."
+          "quote": "The 90,000-square-foot structure, which cost $60 million to build and furnish, is located on approximately 1.6 acres of land along the Forbes Avenue corridor between Wood and Smithfield streets.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pointpark.edu/news-copa/insidetheplayhouse",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

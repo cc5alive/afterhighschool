@@ -10,9 +10,13 @@
         {
           "title": "Mission | University of Detroit Mercy",
           "url": "https://www.udmercy.edu/about/mission-vision/",
-          "quote": "University of Detroit Mercy is the only university in the world that combines the centuries-old commitment to education of the Society of Jesus and the Religious Sisters of Mercy."
+          "quote": "University of Detroit Mercy is the only university in the world that combines the centuries-old commitment to education of the Society of Jesus and the Religious Sisters of Mercy.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.udmercy.edu/about/mission-vision/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "University of Detroit Mercy is Michigan's oldest and largest Catholic university.",
@@ -20,9 +24,13 @@
         {
           "title": "History | University of Detroit Mercy",
           "url": "https://www.udmercy.edu/about/history.php",
-          "quote": "The legacy of University of Detroit Mercy, Michigan's oldest and largest Catholic university, began over 149 years ago."
+          "quote": "The legacy of University of Detroit Mercy, Michigan's oldest and largest Catholic university, began over 149 years ago.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.udmercy.edu/about/history.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

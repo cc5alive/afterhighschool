@@ -10,9 +10,13 @@
         {
           "title": "Spiritual Life | Dallas Baptist University",
           "url": "https://www.dbu.edu/spiritual-life/",
-          "quote": "Services are offered Monday, Wednesday, and Friday at 10:00 a.m. in the Fall and Spring semesters. Chapel is a required aspect of the DBU undergraduate experience and is necessary for graduation."
+          "quote": "Services are offered Monday, Wednesday, and Friday at 10:00 a.m. in the Fall and Spring semesters. Chapel is a required aspect of the DBU undergraduate experience and is necessary for graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dbu.edu/spiritual-life/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
