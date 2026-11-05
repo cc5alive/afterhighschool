@@ -10,9 +10,13 @@
         {
           "title": "Magis Core Curriculum < Fairfield University",
           "url": "https://catalog.fairfield.edu/undergraduate/curricula/magis-core/",
-          "quote": "The Magis Core provides a common experience for all undergraduates, one that is grounded in the humanistic tradition and is thus a hallmark of a Fairfield education."
+          "quote": "The Magis Core provides a common experience for all undergraduates, one that is grounded in the humanistic tradition and is thus a hallmark of a Fairfield education.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.fairfield.edu/undergraduate/curricula/magis-core/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

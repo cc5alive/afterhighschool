@@ -10,9 +10,13 @@
         {
           "title": "NC Promise - Fayetteville State University",
           "url": "https://www.uncfsu.edu/admission-and-aid/nc-promise",
-          "quote": "Starting fall 2027, undergraduate tuition at FSU will be: $500/ semester for in-state students $4,000/ semester for out-of-state students"
+          "quote": "Starting fall 2027, undergraduate tuition at FSU will be: $500/ semester for in-state students $4,000/ semester for out-of-state students",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uncfsu.edu/admission-and-aid/nc-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

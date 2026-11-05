@@ -10,9 +10,13 @@
         {
           "title": "Points of Pride | Bowie State",
           "url": "https://www.bowiestate.edu/about/at-a-glance/points-of-pride.php",
-          "quote": "Founded in 1865, Bowie State University is the first Historically Black College/University (HBCU) in Maryland and one of the ten oldest in the country."
+          "quote": "Founded in 1865, Bowie State University is the first Historically Black College/University (HBCU) in Maryland and one of the ten oldest in the country.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bowiestate.edu/about/at-a-glance/points-of-pride.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

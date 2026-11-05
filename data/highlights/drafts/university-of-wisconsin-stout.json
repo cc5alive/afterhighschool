@@ -10,9 +10,13 @@
         {
           "title": "Our Polytechnic Advantage | UW-Stout Polytechnic",
           "url": "https://www.uwstout.edu/about-us/our-polytechnic-advantage",
-          "quote": "Unlike other four-year universities, UW-Stout Polytechnic has 3x the labs and studios as traditional classrooms, so you'll spend more time applying your knowledge and skills in actual industry-aligned environments, doing undergraduate research, and in paid co-ops"
+          "quote": "Unlike other four-year universities, UW-Stout Polytechnic has 3x the labs and studios as traditional classrooms, so you'll spend more time applying your knowledge and skills in actual industry-aligned environments, doing undergraduate research, and in paid co-ops",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwstout.edu/about-us/our-polytechnic-advantage",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "History | Millersville University",
           "url": "https://www.millersville.edu/about/history/",
-          "quote": "1859 – Millersville State Normal School (the first Pennsylvania State Normal School)"
+          "quote": "1859 – Millersville State Normal School (the first Pennsylvania State Normal School)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.millersville.edu/about/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

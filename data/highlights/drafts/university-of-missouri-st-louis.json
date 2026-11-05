@@ -10,9 +10,13 @@
         {
           "title": "About the Honors College | UMSL",
           "url": "https://www.umsl.edu/honors/about-us/index.html",
-          "quote": "Small classes (14 students on average, with a max of 18) allow students to learn by active questioning and conversation."
+          "quote": "Small classes (14 students on average, with a max of 18) allow students to learn by active questioning and conversation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umsl.edu/honors/about-us/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

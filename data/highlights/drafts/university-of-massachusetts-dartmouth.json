@@ -10,9 +10,13 @@
         {
           "title": "UMass Dartmouth",
           "url": "https://www.umassd.edu/",
-          "quote": "The UMass Dartmouth Deal covers full tuition and mandatory fees for Massachusetts students who demonstrate financial need."
+          "quote": "The UMass Dartmouth Deal covers full tuition and mandatory fees for Massachusetts students who demonstrate financial need.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umassd.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

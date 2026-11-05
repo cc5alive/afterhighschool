@@ -10,9 +10,13 @@
         {
           "title": "Trojan Guarantee - Scholarships - UA Little Rock",
           "url": "https://ualr.edu/scholarships/trojan-guarantee/",
-          "quote": "The Trojan Guarantee is a new scholarship that ensures most Arkansans a zero-cost bachelor's degree."
+          "quote": "The Trojan Guarantee is a new scholarship that ensures most Arkansans a zero-cost bachelor's degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://ualr.edu/scholarships/trojan-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

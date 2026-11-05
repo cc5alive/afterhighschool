@@ -10,9 +10,13 @@
         {
           "title": "UNA Campus Traditions - University of North Alabama",
           "url": "https://www.una.edu/tradition/",
-          "quote": "Established in 1994 following UNA's first NCAA Division II Football National Championship, Pride Rock is a 60-pound granite stone featuring the paw print of the university's live lion mascot."
+          "quote": "Established in 1994 following UNA's first NCAA Division II Football National Championship, Pride Rock is a 60-pound granite stone featuring the paw print of the university's live lion mascot.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.una.edu/tradition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

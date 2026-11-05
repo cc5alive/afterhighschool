@@ -10,9 +10,13 @@
         {
           "title": "Strategic Plan 2022-2026 | SUNY Buffalo State University",
           "url": "https://suny.buffalostate.edu/strategic-plan",
-          "quote": "As the only urban comprehensive college within SUNY, we take pride in our community and our civic-engaged campus."
+          "quote": "As the only urban comprehensive college within SUNY, we take pride in our community and our civic-engaged campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://suny.buffalostate.edu/strategic-plan",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

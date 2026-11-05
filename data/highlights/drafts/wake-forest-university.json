@@ -10,9 +10,13 @@
         {
           "title": "Affordability | Undergraduate Admissions | Wake Forest University",
           "url": "https://admissions.wfu.edu/affordability/",
-          "quote": "Wake Forest University has announced that undergraduate students from North Carolina whose families make less than $200,000 per year will attend tuition-free, beginning in the fall of 2026."
+          "quote": "Wake Forest University has announced that undergraduate students from North Carolina whose families make less than $200,000 per year will attend tuition-free, beginning in the fall of 2026.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.wfu.edu/affordability/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

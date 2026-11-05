@@ -10,9 +10,13 @@
         {
           "title": "The Westville Experience - Purdue University Northwest",
           "url": "https://www.pnw.edu/admissions/why-pnw/westville-experience/",
-          "quote": "Located just 15 miles from Indiana Dunes National Park, PNW's rural Westville branch campus is a great place to start your journey to a degree."
+          "quote": "Located just 15 miles from Indiana Dunes National Park, PNW's rural Westville branch campus is a great place to start your journey to a degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pnw.edu/admissions/why-pnw/westville-experience/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "UCM Lee's Summit at the Missouri Innovation Campus",
           "url": "https://www.ucmo.edu/about/locations/ucm-lees-summit-campus/missouri-innovation-campus/",
-          "quote": "Founded in 2012, the Missouri Innovation Campus (MIC) Program is a groundbreaking partnership between the University of Central Missouri, the Lee's Summit R-7 School District, Metropolitan Community College and more than 70 Kansas City-area businesses."
+          "quote": "Founded in 2012, the Missouri Innovation Campus (MIC) Program is a groundbreaking partnership between the University of Central Missouri, the Lee's Summit R-7 School District, Metropolitan Community College and more than 70 Kansas City-area businesses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucmo.edu/about/locations/ucm-lees-summit-campus/missouri-innovation-campus/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

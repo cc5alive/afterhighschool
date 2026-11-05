@@ -10,9 +10,13 @@
         {
           "title": "PACT Mentor Program | Mercy University",
           "url": "https://mercy.edu/student-support/pact",
-          "quote": "Our PACT Program offers teams of trained academics and professionals who are here to help you discover your strengths and take charge of your future"
+          "quote": "Our PACT Program offers teams of trained academics and professionals who are here to help you discover your strengths and take charge of your future",
+          "httpStatus": 200,
+          "finalUrl": "https://mercy.edu/student-support/pact",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

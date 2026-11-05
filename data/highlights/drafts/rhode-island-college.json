@@ -10,9 +10,13 @@
         {
           "title": "Hope Scholarship | Rhode Island College",
           "url": "https://www.ric.edu/admissions-financial-aid/scholarship-opportunities/hope-scholarship",
-          "quote": "The Hope Scholarship at Rhode Island College provides eligible RI students with a four-year degree, two years tuition-free."
+          "quote": "The Hope Scholarship at Rhode Island College provides eligible RI students with a four-year degree, two years tuition-free.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ric.edu/admissions-financial-aid/scholarship-opportunities/hope-scholarship",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

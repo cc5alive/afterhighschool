@@ -10,9 +10,13 @@
         {
           "title": "Santa Rosa Island Research Station - CSU Channel Islands",
           "url": "https://www.csuci.edu/office-departments/srirs/index.html",
-          "quote": "Santa Rosa Island Research Station (SRIRS) is its own department under the Division of the Office of the President at California State University Channel Islands (CI)."
+          "quote": "Santa Rosa Island Research Station (SRIRS) is its own department under the Division of the Office of the President at California State University Channel Islands (CI).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csuci.edu/office-departments/srirs/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

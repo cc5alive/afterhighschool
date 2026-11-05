@@ -10,9 +10,13 @@
         {
           "title": "Campuses - Columbus State University",
           "url": "https://www.columbusstate.edu/about/campuses.php",
-          "quote": "CSU's RiverPark Campus features some of the nation's most sophisticated teaching and performance spaces. Stretch your creative mind as you explore the Schwob School of Music, theaters, galleries, and art studios. With housing for more than 400 students"
+          "quote": "CSU's RiverPark Campus features some of the nation's most sophisticated teaching and performance spaces. Stretch your creative mind as you explore the Schwob School of Music, theaters, galleries, and art studios. With housing for more than 400 students",
+          "httpStatus": 200,
+          "finalUrl": "https://www.columbusstate.edu/about/campuses.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

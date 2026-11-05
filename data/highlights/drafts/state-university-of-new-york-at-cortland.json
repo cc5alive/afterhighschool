@@ -10,9 +10,13 @@
         {
           "title": "Outdoor Education and Off-Campus Locations - SUNY Cortland",
           "url": "https://www2.cortland.edu/off-campus/",
-          "quote": "Located in the heart of the Adirondack Mountains, SUNY Cortland's educational facilities on Raquette Lake include the Antlers lodge, Kirby Camp and Camp Huntington, the only National Historic Landmark in the SUNY system."
+          "quote": "Located in the heart of the Adirondack Mountains, SUNY Cortland's educational facilities on Raquette Lake include the Antlers lodge, Kirby Camp and Camp Huntington, the only National Historic Landmark in the SUNY system.",
+          "httpStatus": 200,
+          "finalUrl": "https://www2.cortland.edu/off-campus/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

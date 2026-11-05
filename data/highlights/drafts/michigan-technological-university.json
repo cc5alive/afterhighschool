@@ -10,9 +10,13 @@
         {
           "title": "What is Enterprise? | Enterprise - Michigan Technological University",
           "url": "https://www.mtu.edu/enterprise/program/what-is-enterprise/",
-          "quote": "available to students from any major at Michigan Tech. Enterprise is student-driven, multidisciplinary teams that work like companies on real-world client projects, whether the deliverable is an innovative product, a pioneering solution, or a much-needed service."
+          "quote": "available to students from any major at Michigan Tech. Enterprise is student-driven, multidisciplinary teams that work like companies on real-world client projects, whether the deliverable is an innovative product, a pioneering solution, or a much-needed service.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mtu.edu/enterprise/program/what-is-enterprise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

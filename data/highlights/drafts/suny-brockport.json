@@ -10,9 +10,13 @@
         {
           "title": "Student Organization, Clubs, & Opportunities - SUNY Brockport",
           "url": "https://www.brockport.edu/academics/education/organizations/",
-          "quote": "Delta College is a unique program that can be found exclusively at SUNY Brockport. There is no identical program in the country!"
+          "quote": "Delta College is a unique program that can be found exclusively at SUNY Brockport. There is no identical program in the country!",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brockport.edu/academics/education/organizations/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

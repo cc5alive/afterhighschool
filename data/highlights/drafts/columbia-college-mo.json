@@ -10,9 +10,13 @@
         {
           "title": "Bookstore, Textbooks and Course Materials | Columbia College",
           "url": "https://www.ccis.edu/academic-resources/bookstore",
-          "quote": "Continuing with the Fall 2022 semester, Columbia College still eliminates course fees and provides textbooks required for your courses at no cost."
+          "quote": "Continuing with the Fall 2022 semester, Columbia College still eliminates course fees and provides textbooks required for your courses at no cost.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ccis.edu/academic-resources/bookstore",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

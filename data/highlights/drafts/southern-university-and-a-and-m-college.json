@@ -10,9 +10,13 @@
         {
           "title": "About Title III | Southern University and A&M College",
           "url": "https://www.subr.edu/page/627",
-          "quote": "Southern University and A&M College, the flagship of the Southern University System, is a historically Black, 1890 Land-Grant Institution."
+          "quote": "Southern University and A&M College, the flagship of the Southern University System, is a historically Black, 1890 Land-Grant Institution.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.subr.edu/page/627",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null
