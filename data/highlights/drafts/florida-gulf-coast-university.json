@@ -10,9 +10,13 @@
         {
           "title": "Colloquium - Florida Gulf Coast University",
           "url": "https://www.fgcu.edu/colloquium/",
-          "quote": "University Colloquium introduces students to the complexities of developing the sustainable societal patterns each will face as they launch their careers."
+          "quote": "University Colloquium introduces students to the complexities of developing the sustainable societal patterns each will face as they launch their careers.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fgcu.edu/colloquium/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

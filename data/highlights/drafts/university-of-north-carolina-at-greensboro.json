@@ -10,9 +10,13 @@
         {
           "title": "Fixed Tuition Guarantee Program | Spartan Central",
           "url": "https://spartancentral.uncg.edu/tuition-billing-payments/tuition-fees/fixed-tuition-guarantee-program/",
-          "quote": "Eligible students can lock in their initial tuition rate for up to eight semesters based on the tuition rate during their first semester of study at UNCG."
+          "quote": "Eligible students can lock in their initial tuition rate for up to eight semesters based on the tuition rate during their first semester of study at UNCG.",
+          "httpStatus": 200,
+          "finalUrl": "https://spartancentral.uncg.edu/tuition-billing-payments/tuition-fees/fixed-tuition-guarantee-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

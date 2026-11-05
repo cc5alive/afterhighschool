@@ -10,9 +10,13 @@
         {
           "title": "General Information - Georgia Gwinnett College",
           "url": "https://catalog.ggc.edu/content.php?catoid=49&navoid=7102",
-          "quote": "The college holds the distinction of being the nation's first four-year public college founded in the 21st century"
+          "quote": "The college holds the distinction of being the nation's first four-year public college founded in the 21st century",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.ggc.edu/content.php?catoid=49&navoid=7102",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Beacon Pledge - UMass Boston",
           "url": "https://www.umb.edu/free/",
-          "quote": "If you're a Massachusetts resident with an adjusted gross income of $75,000 or less, you may qualify to attend UMass Boston for $0 in tuition and mandatory fees."
+          "quote": "If you're a Massachusetts resident with an adjusted gross income of $75,000 or less, you may qualify to attend UMass Boston for $0 in tuition and mandatory fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umb.edu/free/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

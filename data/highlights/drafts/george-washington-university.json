@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid | Office of Undergraduate Admissions",
           "url": "https://undergraduate.admissions.gwu.edu/financial-aid",
-          "quote": "Full Tuition Guarantee for students with household income below $100,000"
+          "quote": "Full Tuition Guarantee for students with household income below $100,000",
+          "httpStatus": 200,
+          "finalUrl": "https://undergraduate.admissions.gwu.edu/financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

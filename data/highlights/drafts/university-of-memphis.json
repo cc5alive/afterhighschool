@@ -10,9 +10,13 @@
         {
           "title": "Memphis Promise - Access Memphis - The University of Memphis",
           "url": "https://www.memphis.edu/access/memphispromise/",
-          "quote": "The Memphis Promise is a last-dollar scholarship which fills the gap between a student's financial aid (Federal Pell Grant, Tennessee State Grants/Scholarships, institutional aid) and the cost of tuition."
+          "quote": "The Memphis Promise is a last-dollar scholarship which fills the gap between a student's financial aid (Federal Pell Grant, Tennessee State Grants/Scholarships, institutional aid) and the cost of tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.memphis.edu/access/memphispromise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

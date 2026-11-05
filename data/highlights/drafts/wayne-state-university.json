@@ -10,9 +10,13 @@
         {
           "title": "Tuition pledge programs - Financial Aid - Wayne State University",
           "url": "https://wayne.edu/financial-aid/types/pledge",
-          "quote": "The Heart of Detroit Tuition Pledge offers free tuition for students of Detroit high schools or Detroit residents earning a high school diploma."
+          "quote": "The Heart of Detroit Tuition Pledge offers free tuition for students of Detroit high schools or Detroit residents earning a high school diploma.",
+          "httpStatus": 200,
+          "finalUrl": "https://wayne.edu/financial-aid/types/pledge",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Native Hawaiian Exemption Tuition Status - University of Hawaii",
           "url": "https://manoa.hawaii.edu/admissions/financing/exemption.html",
-          "quote": "The Native Hawaiian Exemption tuition status allows in-state tuition for those who are of Native Hawaiian race/ethnicity/ancestry/descent."
+          "quote": "The Native Hawaiian Exemption tuition status allows in-state tuition for those who are of Native Hawaiian race/ethnicity/ancestry/descent.",
+          "httpStatus": 200,
+          "finalUrl": "https://manoa.hawaii.edu/admissions/financing/exemption.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

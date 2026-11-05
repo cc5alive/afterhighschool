@@ -10,9 +10,13 @@
         {
           "title": "General Education - The University of Rhode Island",
           "url": "https://web.uri.edu/advising/advising-resources/general-education/",
-          "quote": "Whatever major you choose, you'll be required to take 40 credits of Gen Ed courses, with the following basic guidelines: At least one course must be a Grand Challenge course."
+          "quote": "Whatever major you choose, you'll be required to take 40 credits of Gen Ed courses, with the following basic guidelines: At least one course must be a Grand Challenge course.",
+          "httpStatus": 200,
+          "finalUrl": "https://web.uri.edu/advising/advising-resources/general-education/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

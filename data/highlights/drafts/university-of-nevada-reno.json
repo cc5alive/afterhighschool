@@ -10,9 +10,13 @@
         {
           "title": "Pack Promise+ | Free Tuition, Books and Fees for Qualified Students | University of Nevada, Reno",
           "url": "https://www.unr.edu/financial-aid/scholarships/first-year-scholarships/nevada-residents/pack-promise",
-          "quote": "you'll get up to $12,700 in gift aid (grants and scholarships) to help pay for your 2027-2028 tuition, fees and books."
+          "quote": "you'll get up to $12,700 in gift aid (grants and scholarships) to help pay for your 2027-2028 tuition, fees and books.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unr.edu/financial-aid/scholarships/first-year-scholarships/nevada-residents/pack-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Affordable Online University | Transfer Credit | Excelsior",
           "url": "https://www.excelsior.edu/article/affordable-online-college-transfer-credits/",
-          "quote": "The BPS in Business and Management program accepts up to 113 transfer credits. The median number of accepted credits is 76."
+          "quote": "The BPS in Business and Management program accepts up to 113 transfer credits. The median number of accepted credits is 76.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.excelsior.edu/article/affordable-online-college-transfer-credits/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

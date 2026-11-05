@@ -10,9 +10,13 @@
         {
           "title": "Fairhaven Narrative Evaluations | Fairhaven College of Interdisciplinary Studies | Western Washington University",
           "url": "https://fairhaven.wwu.edu/fairhaven-narrative-evaluations",
-          "quote": "Fairhaven College classes do not use the A-to-F grading system. Students evaluate their own performance in detail for each Fairhaven college course."
+          "quote": "Fairhaven College classes do not use the A-to-F grading system. Students evaluate their own performance in detail for each Fairhaven college course.",
+          "httpStatus": 200,
+          "finalUrl": "https://fairhaven.wwu.edu/fairhaven-narrative-evaluations",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

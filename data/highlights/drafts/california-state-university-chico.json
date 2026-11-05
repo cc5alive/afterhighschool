@@ -10,9 +10,13 @@
         {
           "title": "General Education | California State University, Chico",
           "url": "https://catalog.csuchico.edu/colleges-departments/undergraduate-education-academic-success/general-education/",
-          "quote": "General Education (GE) program organizes courses into thematic pathways and allows the opportunity to earn an interdisciplinary minor"
+          "quote": "General Education (GE) program organizes courses into thematic pathways and allows the opportunity to earn an interdisciplinary minor",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.csuchico.edu/colleges-departments/undergraduate-education-academic-success/general-education/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

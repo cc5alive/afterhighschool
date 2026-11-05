@@ -10,9 +10,13 @@
         {
           "title": "Missouri State - Student Affairs - Public Affairs Mission",
           "url": "https://studentaffairs.missouristate.edu/public-affairs-mission.htm",
-          "quote": "Missouri Governor Mel Carnahan signed into law Senate Bill 340 which gave Missouri State University a statewide mission in public affairs."
+          "quote": "Missouri Governor Mel Carnahan signed into law Senate Bill 340 which gave Missouri State University a statewide mission in public affairs.",
+          "httpStatus": 200,
+          "finalUrl": "https://studentaffairs.missouristate.edu/public-affairs-mission.htm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

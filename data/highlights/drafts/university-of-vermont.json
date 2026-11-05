@@ -10,9 +10,13 @@
         {
           "title": "UVM Promise | The University of Vermont",
           "url": "https://www.uvm.edu/studentfinancialservices/uvm-promise",
-          "quote": "whose parents' adjusted gross income (AGI) is $100,000 or less with typical assets, can have their Federal, state, and other secured grants and scholarships supplemented by UVM to cover their tuition and comprehensive fee."
+          "quote": "whose parents' adjusted gross income (AGI) is $100,000 or less with typical assets, can have their Federal, state, and other secured grants and scholarships supplemented by UVM to cover their tuition and comprehensive fee.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uvm.edu/studentfinancialservices/uvm-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

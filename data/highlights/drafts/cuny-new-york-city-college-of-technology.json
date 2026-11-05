@@ -10,9 +10,13 @@
         {
           "title": "About Us - City Tech",
           "url": "https://www.citytech.cuny.edu/about-us/",
-          "quote": "City Tech is the designated college of technology within the City University of New York (CUNY)"
+          "quote": "City Tech is the designated college of technology within the City University of New York (CUNY)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.citytech.cuny.edu/about-us/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

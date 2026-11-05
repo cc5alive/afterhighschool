@@ -10,9 +10,13 @@
         {
           "title": "Cooperative Education | Career Services and Co-op | RIT",
           "url": "https://www.rit.edu/careerservices/students/co-op",
-          "quote": "Cooperative education, or co-op for short, is a hallmark of an RIT education. As the keystone to an experiential education, a co-op gives you the opportunity to apply what you're learning"
+          "quote": "Cooperative education, or co-op for short, is a hallmark of an RIT education. As the keystone to an experiential education, a co-op gives you the opportunity to apply what you're learning",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rit.edu/careerservices/students/co-op",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

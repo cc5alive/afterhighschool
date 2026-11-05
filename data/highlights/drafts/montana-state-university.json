@@ -10,9 +10,13 @@
         {
           "title": "MSU Core General Curricular Requirements | Montana State University Academic Catalog",
           "url": "https://catalog.montana.edu/core-general-curricular-requirements/",
-          "quote": "All students must also take at least one 3 credit course in an approved Research & Creative Experience (R) course."
+          "quote": "All students must also take at least one 3 credit course in an approved Research & Creative Experience (R) course.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.montana.edu/core-general-curricular-requirements/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

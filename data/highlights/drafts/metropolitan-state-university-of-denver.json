@@ -10,9 +10,13 @@
         {
           "title": "The Roadrunner Promise - MSU Denver",
           "url": "https://www.msudenver.edu/financial-aid/roadrunner-promise/",
-          "quote": "The Roadrunner Promise (RRP) is our pledge to cover any remaining tuition and mandatory fees for eligible Colorado students"
+          "quote": "The Roadrunner Promise (RRP) is our pledge to cover any remaining tuition and mandatory fees for eligible Colorado students",
+          "httpStatus": 200,
+          "finalUrl": "https://www.msudenver.edu/financial-aid/roadrunner-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

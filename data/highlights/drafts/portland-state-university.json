@@ -10,9 +10,13 @@
         {
           "title": "Tuition-Free Degree | Portland State University",
           "url": "https://www.pdx.edu/student-finance/tuition-free-degree",
-          "quote": "This program ensures that standard tuition, differential tuition, and mandatory fees are covered through federal, state, and PSU grants and scholarships."
+          "quote": "This program ensures that standard tuition, differential tuition, and mandatory fees are covered through federal, state, and PSU grants and scholarships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pdx.edu/student-finance/tuition-free-degree",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

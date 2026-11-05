@@ -10,9 +10,13 @@
         {
           "title": "About the Transition from IUPUI to IU Indianapolis",
           "url": "https://indianapolis.iu.edu/about/iupui-transition/",
-          "quote": "IU Indianapolis became official on July 1, 2024. The realignment began in 2022 when Indiana University and Purdue University issued a joint memorandum of understanding to separate"
+          "quote": "IU Indianapolis became official on July 1, 2024. The realignment began in 2022 when Indiana University and Purdue University issued a joint memorandum of understanding to separate",
+          "httpStatus": 200,
+          "finalUrl": "https://indianapolis.iu.edu/about/iupui-transition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

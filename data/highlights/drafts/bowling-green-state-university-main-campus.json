@@ -10,9 +10,13 @@
         {
           "title": "The Falcon Tuition Guarantee - Bowling Green State University",
           "url": "https://www.bgsu.edu/bursar/the-falcon-tuition-guarantee.html",
-          "quote": "The Falcon Tuition Guarantee locks in your tuition and fees, housing, meal plan and out-of-state costs for 12 consecutive semesters for undergraduate students."
+          "quote": "The Falcon Tuition Guarantee locks in your tuition and fees, housing, meal plan and out-of-state costs for 12 consecutive semesters for undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bgsu.edu/bursar/the-falcon-tuition-guarantee.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

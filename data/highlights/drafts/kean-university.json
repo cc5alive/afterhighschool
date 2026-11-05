@@ -10,9 +10,13 @@
         {
           "title": "Wenzhou-Kean University | Kean University",
           "url": "https://www.kean.edu/wku",
-          "quote": "Kean University is the only American public university to offer a full campus in China."
+          "quote": "Kean University is the only American public university to offer a full campus in China.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kean.edu/wku",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

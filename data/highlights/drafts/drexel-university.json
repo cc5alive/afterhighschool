@@ -10,9 +10,13 @@
         {
           "title": "Your Co-op Experience | Drexel University",
           "url": "https://drexel.edu/academics/co-op/how-co-op-works",
-          "quote": "Our renowned cooperative education program — Drexel Co-op — allows you to take your education further by integrating full-time professional work experiences into your academic plan of study."
+          "quote": "Our renowned cooperative education program — Drexel Co-op — allows you to take your education further by integrating full-time professional work experiences into your academic plan of study.",
+          "httpStatus": 200,
+          "finalUrl": "https://drexel.edu/academics/co-op/how-co-op-works",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

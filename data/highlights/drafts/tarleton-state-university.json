@@ -10,9 +10,13 @@
         {
           "title": "Tarleton State Promise Program | Become a Texan",
           "url": "https://www.tarleton.edu/becomeatexan/tarleton-promise/",
-          "quote": "Tarleton State will cover tuition, fees, meal plan, and a book allowance after the student's scholarships, grants, and exemptions are applied."
+          "quote": "Tarleton State will cover tuition, fees, meal plan, and a book allowance after the student's scholarships, grants, and exemptions are applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tarleton.edu/becomeatexan/tarleton-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

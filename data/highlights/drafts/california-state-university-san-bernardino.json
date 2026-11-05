@@ -10,9 +10,13 @@
         {
           "title": "History | Palm Desert Campus | CSUSB",
           "url": "https://www.csusb.edu/pdc/about-pdc/history",
-          "quote": "the Palm Desert Campus opened its doors to its first freshman class, becoming the Coachella Valley's only four-year public university."
+          "quote": "the Palm Desert Campus opened its doors to its first freshman class, becoming the Coachella Valley's only four-year public university.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csusb.edu/pdc/about-pdc/history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

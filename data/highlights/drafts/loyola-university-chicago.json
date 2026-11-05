@@ -10,9 +10,13 @@
         {
           "title": "Why Arrupe? | Arrupe | Loyola University Chicago",
           "url": "https://www.luc.edu/arrupe/about/whyarrupe/",
-          "quote": "Every Arrupe student gets A laptop computer A Chicago Transit Authority Pass Breakfast and lunch provided on class days"
+          "quote": "Every Arrupe student gets A laptop computer A Chicago Transit Authority Pass Breakfast and lunch provided on class days",
+          "httpStatus": 200,
+          "finalUrl": "https://www.luc.edu/arrupe/about/whyarrupe/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
