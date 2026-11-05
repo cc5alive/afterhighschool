@@ -10,9 +10,13 @@
         {
           "title": "Award Overview | PathwayOregon",
           "url": "https://pathway.uoregon.edu/award-overview",
-          "quote": "PathwayOregon ensures that academically qualified, federal Pell Grant–eligible Oregonians will have their tuition and fees paid through a combination of federal, state, and university funds."
+          "quote": "PathwayOregon ensures that academically qualified, federal Pell Grant–eligible Oregonians will have their tuition and fees paid through a combination of federal, state, and university funds.",
+          "httpStatus": 200,
+          "finalUrl": "https://pathway.uoregon.edu/award-overview",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

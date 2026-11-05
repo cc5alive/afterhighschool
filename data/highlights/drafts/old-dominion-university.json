@@ -10,14 +10,21 @@
         {
           "title": "Guaranteed Admission | Old Dominion University",
           "url": "https://www.odu.edu/transfer/guaranteed-admission",
-          "quote": "The Guaranteed Admission Agreement is intended to ease the transfer process between the Virginia Community College System (VCCS) and Old Dominion University (ODU)."
+          "quote": "The Guaranteed Admission Agreement is intended to ease the transfer process between the Virginia Community College System (VCCS) and Old Dominion University (ODU).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.odu.edu/transfer/guaranteed-admission",
+          "quoteFound": true
         },
         {
           "title": "Guaranteed Admission | Old Dominion University",
           "url": "https://www.odu.edu/transfer/guaranteed-admission",
-          "quote": "Graduate with a minimum of a 2.5 cumulative GPA (as computed under VCCS policy) in a transfer-oriented or articulated applied associate degree program from a Virginia community college"
+          "quote": "Graduate with a minimum of a 2.5 cumulative GPA (as computed under VCCS policy) in a transfer-oriented or articulated applied associate degree program from a Virginia community college",
+          "httpStatus": 200,
+          "finalUrl": "https://www.odu.edu/transfer/guaranteed-admission",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

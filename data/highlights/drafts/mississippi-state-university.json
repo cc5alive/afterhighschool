@@ -10,9 +10,13 @@
         {
           "title": "Promise Scholars | Holmes Center",
           "url": "https://www.holmescenter.msstate.edu/promise",
-          "quote": "It is designed to help fulfill MSU's land-grant mission by offering academic and other opportunities to entering first-year students whose parent(s) income is $42,000 or less a year."
+          "quote": "It is designed to help fulfill MSU's land-grant mission by offering academic and other opportunities to entering first-year students whose parent(s) income is $42,000 or less a year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.holmescenter.msstate.edu/promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

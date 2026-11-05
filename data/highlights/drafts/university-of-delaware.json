@@ -10,9 +10,13 @@
         {
           "title": "In-State Freshmen | University of Delaware",
           "url": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/in-state-freshmen/",
-          "quote": "Students with a family income of less than $35,000 receive a financial package that allows them to attend UD at little or no up-front cost. The package covers tuition, fees, standard housing and food expenses."
+          "quote": "Students with a family income of less than $35,000 receive a financial package that allows them to attend UD at little or no up-front cost. The package covers tuition, fees, standard housing and food expenses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.udel.edu/apply/undergraduate-admissions/financing-your-degree/in-state-freshmen/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

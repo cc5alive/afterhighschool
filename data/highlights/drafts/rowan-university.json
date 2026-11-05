@@ -10,9 +10,13 @@
         {
           "title": "Rowan Opportunity Program - Rowan Sites - Rowan University",
           "url": "https://sites.rowan.edu/financial-aid/tuition-free/rowan-opportunity.html",
-          "quote": "For students whose family's Adjusted Gross Income is between $0 and $65,000 annually, the net cost of tuition and mandatory student fees after all grants, scholarships, and ROP funding, will be $0."
+          "quote": "For students whose family's Adjusted Gross Income is between $0 and $65,000 annually, the net cost of tuition and mandatory student fees after all grants, scholarships, and ROP funding, will be $0.",
+          "httpStatus": 200,
+          "finalUrl": "https://sites.rowan.edu/financial-aid/tuition-free/rowan-opportunity.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,14 +10,21 @@
         {
           "title": "New Mexico Opportunity Scholarship :: Scholarship Office | The University of New Mexico",
           "url": "https://scholarships.unm.edu/Resources/opportunity-scholarship.html",
-          "quote": "Covers full tuition, mandatory fees and course fees up to $50/credit hour"
+          "quote": "Covers full tuition, mandatory fees and course fees up to $50/credit hour",
+          "httpStatus": 200,
+          "finalUrl": "https://scholarships.unm.edu/Resources/opportunity-scholarship.html",
+          "quoteFound": true
         },
         {
           "title": "New Mexico Opportunity Scholarship :: Scholarship Office | The University of New Mexico",
           "url": "https://scholarships.unm.edu/Resources/opportunity-scholarship.html",
-          "quote": "Any student deemed eligible is awarded the Opportunity Scholarship automatically beginning their first term at UNM."
+          "quote": "Any student deemed eligible is awarded the Opportunity Scholarship automatically beginning their first term at UNM.",
+          "httpStatus": 200,
+          "finalUrl": "https://scholarships.unm.edu/Resources/opportunity-scholarship.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

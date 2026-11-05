@@ -10,9 +10,13 @@
         {
           "title": "What is the Pitt Pell Plus Program? - Financial Aid | University of Pittsburgh",
           "url": "https://financialaid.pitt.edu/faq/what-is-the-pitt-success-pell-match-program/",
-          "quote": "The Pitt Pell Plus Program will double any Federal Pell Grant awarded up to $7,395. This University-wide program will be available to eligible undergraduate students at each of our five campuses (Pittsburgh, Bradford, Greensburg, Johnstown, Titusville)."
+          "quote": "The Pitt Pell Plus Program will double any Federal Pell Grant awarded up to $7,395. This University-wide program will be available to eligible undergraduate students at each of our five campuses (Pittsburgh, Bradford, Greensburg, Johnstown, Titusville).",
+          "httpStatus": 200,
+          "finalUrl": "https://financialaid.pitt.edu/faq/what-is-the-pitt-success-pell-match-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

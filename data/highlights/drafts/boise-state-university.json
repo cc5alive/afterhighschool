@@ -10,9 +10,13 @@
         {
           "title": "Western Undergraduate Exchange (WUE) - Admissions",
           "url": "https://www.boisestate.edu/admissions/cost-aid/wue/",
-          "quote": "WUE (pronounced “woo-ee”) is the Western Undergraduate Exchange, a tuition reciprocity agreement that enables students from member states and territories to enroll in participating two- and four-year public institutions at 150 percent of the university's resident tuition."
+          "quote": "WUE (pronounced “woo-ee”) is the Western Undergraduate Exchange, a tuition reciprocity agreement that enables students from member states and territories to enroll in participating two- and four-year public institutions at 150 percent of the university's resident tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.boisestate.edu/admissions/cost-aid/wue/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

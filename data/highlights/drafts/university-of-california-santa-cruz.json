@@ -10,9 +10,13 @@
         {
           "title": "About UC Santa Cruz",
           "url": "https://www.ucsc.edu/about/",
-          "quote": "Our system of residential colleges—living and learning communities within the university—provides support for the whole student and makes their success a priority."
+          "quote": "Our system of residential colleges—living and learning communities within the university—provides support for the whole student and makes their success a priority.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.ucsc.edu/about/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

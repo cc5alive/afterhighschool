@@ -10,9 +10,13 @@
         {
           "title": "Transfer Tiger Pact, Guaranteed Transfer Admission | Towson University",
           "url": "https://www.towson.edu/admissions/undergrad/transfer/transfer-tiger-pact.html",
-          "quote": "Through the Transfer Tiger Pact, we provide Maryland community college students with guaranteed admission and a clear pathway to earn a bachelor's degree from TU."
+          "quote": "Through the Transfer Tiger Pact, we provide Maryland community college students with guaranteed admission and a clear pathway to earn a bachelor's degree from TU.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.towson.edu/admissions/undergrad/transfer/transfer-tiger-pact.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Graduation Plan",
           "url": "https://provost.uiowa.edu/four-year-graduation-plan",
-          "quote": "Students who fulfill the student responsibilities outlined below have a commitment from the University of Iowa that they will be able to enroll in the courses they need to graduate in their primary major in four years."
+          "quote": "Students who fulfill the student responsibilities outlined below have a commitment from the University of Iowa that they will be able to enroll in the courses they need to graduate in their primary major in four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://provost.uiowa.edu/four-year-graduation-plan",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "If remedies are unavailable for a missing course, the University of Iowa pays the tuition and fees for the student to take the unavailable course in a later term.",
@@ -20,9 +24,13 @@
         {
           "title": "Four-Year Graduation Plan",
           "url": "https://provost.uiowa.edu/four-year-graduation-plan",
-          "quote": "If, for some reason, neither of these two remedies are available to you, the university will pay the tuition and fees for you to take the unavailable course(s) at the University of Iowa in a later term."
+          "quote": "If, for some reason, neither of these two remedies are available to you, the university will pay the tuition and fees for you to take the unavailable course(s) at the University of Iowa in a later term.",
+          "httpStatus": 200,
+          "finalUrl": "https://provost.uiowa.edu/four-year-graduation-plan",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

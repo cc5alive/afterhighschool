@@ -10,9 +10,13 @@
         {
           "title": "GVSU expands tuition-free program to all qualified Michigan students - GVNext",
           "url": "https://www.gvsu.edu/gvnext/2022/gvsu-expands-tuition-free-program-to-all-qualified-michigan-students.htm",
-          "quote": "The Grand Valley Pledge awards full undergraduate tuition (renewable for four years) to qualified students who have a family income of less than $50,000."
+          "quote": "The Grand Valley Pledge awards full undergraduate tuition (renewable for four years) to qualified students who have a family income of less than $50,000.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gvsu.edu/gvnext/2022/gvsu-expands-tuition-free-program-to-all-qualified-michigan-students.htm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

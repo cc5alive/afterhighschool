@@ -10,14 +10,21 @@
         {
           "title": "North Carolina Fixed Tuition Guarantee Program | Student Accounts",
           "url": "https://studentaccounts.appstate.edu/tuition-fees/nc-fixed-tuition-guarantee",
-          "quote": "Appalachian State's Fixed Tuition benefit covers a maximum of 8 consecutive fall and spring semesters."
+          "quote": "Appalachian State's Fixed Tuition benefit covers a maximum of 8 consecutive fall and spring semesters.",
+          "httpStatus": 200,
+          "finalUrl": "https://studentaccounts.appstate.edu/tuition-fees/nc-fixed-tuition-guarantee",
+          "quoteFound": false
         },
         {
           "title": "North Carolina Fixed Tuition Guarantee Program | Student Accounts",
           "url": "https://studentaccounts.appstate.edu/tuition-fees/nc-fixed-tuition-guarantee",
-          "quote": "To qualify for the Fixed Tuition benefit, students must meet all of the following requirements: Undergraduate status (graduate students are not eligible) First-time, degree-seeking status (students pursuing a second bachelor's or classified as non-degree are not eligible) In-state residency"
+          "quote": "To qualify for the Fixed Tuition benefit, students must meet all of the following requirements: Undergraduate status (graduate students are not eligible) First-time, degree-seeking status (students pursuing a second bachelor's or classified as non-degree are not eligible) In-state residency",
+          "httpStatus": 200,
+          "finalUrl": "https://studentaccounts.appstate.edu/tuition-fees/nc-fixed-tuition-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

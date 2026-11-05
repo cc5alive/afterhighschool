@@ -10,9 +10,13 @@
         {
           "title": "Utah State Promise | USU",
           "url": "https://www.usu.edu/financial-support/scholarships/promise",
-          "quote": "If you are selected as a scholarship recipient, the Utah State Promise Scholarship can pay whatever tuition and student body fees your Pell Grants and other scholarships and awards don't cover up to four years."
+          "quote": "If you are selected as a scholarship recipient, the Utah State Promise Scholarship can pay whatever tuition and student body fees your Pell Grants and other scholarships and awards don't cover up to four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usu.edu/financial-support/scholarships/promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Miami's Tuition Promise | Cost of Attendance - Miami University",
           "url": "https://miamioh.edu/admission-aid/costs-financial-aid/miami-tuition-promise.html",
-          "quote": "Miami's Tuition Promise will provide all first-time undergraduate students and their families the certainty that tuition, housing and meals, special purpose fees, and course fees will be frozen over the four years of a student's Miami experience."
+          "quote": "Miami's Tuition Promise will provide all first-time undergraduate students and their families the certainty that tuition, housing and meals, special purpose fees, and course fees will be frozen over the four years of a student's Miami experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://miamioh.edu/admission-aid/costs-financial-aid/miami-tuition-promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

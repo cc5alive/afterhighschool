@@ -10,19 +10,29 @@
         {
           "title": "The Paydirt Promise",
           "url": "https://www.utep.edu/financial-aid/types-of-aid/paydirt-promise.html",
-          "quote": "The Paydirt Promise uses federal, state, and institutional grants and scholarships to cover your tuition and fees."
+          "quote": "The Paydirt Promise uses federal, state, and institutional grants and scholarships to cover your tuition and fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utep.edu/financial-aid/types-of-aid/paydirt-promise.html",
+          "quoteFound": true
         },
         {
           "title": "The Paydirt Promise",
           "url": "https://www.utep.edu/financial-aid/types-of-aid/paydirt-promise.html",
-          "quote": "Have a family income of $100,000 or less."
+          "quote": "Have a family income of $100,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utep.edu/financial-aid/types-of-aid/paydirt-promise.html",
+          "quoteFound": true
         },
         {
           "title": "The Paydirt Promise",
           "url": "https://www.utep.edu/financial-aid/types-of-aid/paydirt-promise.html",
-          "quote": "Be a Texas resident pursuing your first bachelor's degree."
+          "quote": "Be a Texas resident pursuing your first bachelor's degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utep.edu/financial-aid/types-of-aid/paydirt-promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

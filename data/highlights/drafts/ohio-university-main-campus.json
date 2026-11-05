@@ -10,9 +10,13 @@
         {
           "title": "OHIO Guarantee+ | Ohio University",
           "url": "https://www.ohio.edu/guarantee",
-          "quote": "Ohio University's all-in Tuition and Fees Guarantee provides level-rate housing, dining and fees locked in for 12 consecutive semesters for undergraduate students."
+          "quote": "Ohio University's all-in Tuition and Fees Guarantee provides level-rate housing, dining and fees locked in for 12 consecutive semesters for undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ohio.edu/guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

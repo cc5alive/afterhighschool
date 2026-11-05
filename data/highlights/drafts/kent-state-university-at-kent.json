@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Tuition Guarantee Program < Kent State University",
           "url": "https://catalog.kent.edu/academic-policies/undergraduate-tuition-guarantee-program/",
-          "quote": "All eligible new first-year and transfer undergraduate students are given the certainty that the Ohio resident tuition rate (i.e., instructional and general fee), career services fee and room and board plan charges will not increase for their applicable cohort rate."
+          "quote": "All eligible new first-year and transfer undergraduate students are given the certainty that the Ohio resident tuition rate (i.e., instructional and general fee), career services fee and room and board plan charges will not increase for their applicable cohort rate.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.kent.edu/academic-policies/undergraduate-tuition-guarantee-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

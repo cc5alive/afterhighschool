@@ -10,9 +10,13 @@
         {
           "title": "Crimson Commitment Old - The University of Oklahoma",
           "url": "https://www.ou.edu/admissions/affordability/crimson-commitment-old1",
-          "quote": "Crimson Commitment guarantees scholarships and grants to cover tuition and average fees for an OU student who qualifies and receives Oklahoma's Promise."
+          "quote": "Crimson Commitment guarantees scholarships and grants to cover tuition and average fees for an OU student who qualifies and receives Oklahoma's Promise.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ou.edu/admissions/affordability/crimson-commitment-old1",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

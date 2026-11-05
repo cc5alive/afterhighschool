@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Tuition Rates | Student Accounts | Illinois State",
           "url": "https://studentaccounts.illinoisstate.edu/billing/undergraduate-tuition/",
-          "quote": "Incoming undergraduate students enrolled in a degree-seeking program will pay the locked tuition rate for four continuous calendar years."
+          "quote": "Incoming undergraduate students enrolled in a degree-seeking program will pay the locked tuition rate for four continuous calendar years.",
+          "httpStatus": 200,
+          "finalUrl": "https://studentaccounts.illinoisstate.edu/billing/undergraduate-tuition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

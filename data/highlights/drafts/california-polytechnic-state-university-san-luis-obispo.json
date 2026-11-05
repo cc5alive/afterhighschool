@@ -10,9 +10,13 @@
         {
           "title": "Selection Criteria | Cal Poly",
           "url": "https://www.calpoly.edu/admissions/first-year-student/selection-criteria",
-          "quote": "Cal Poly requires you to declare a major when submitting your application. Our selection process considers many factors for admission in an objective format in which applicants compete against other applicants within the same major."
+          "quote": "Cal Poly requires you to declare a major when submitting your application. Our selection process considers many factors for admission in an objective format in which applicants compete against other applicants within the same major.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.calpoly.edu/admissions/first-year-student/selection-criteria",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

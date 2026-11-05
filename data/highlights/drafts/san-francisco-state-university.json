@@ -10,9 +10,13 @@
         {
           "title": "College of Ethnic Studies (CoES) | University Development",
           "url": "https://develop.sfsu.edu/college-ethnic-studies",
-          "quote": "The College of Ethnic Studies (CoES) was established in the Fall of 1969 and was the first program of its kind in the United States."
+          "quote": "The College of Ethnic Studies (CoES) was established in the Fall of 1969 and was the first program of its kind in the United States.",
+          "httpStatus": 200,
+          "finalUrl": "https://develop.sfsu.edu/college-ethnic-studies",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

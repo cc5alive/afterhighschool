@@ -10,14 +10,21 @@
         {
           "title": "Temple Promise | Undergraduate Admissions",
           "url": "https://admissions.temple.edu/costs-aid-scholarships/temple-promise",
-          "quote": "The Temple Promise program covers eligible students' full-time tuition and mandatory university services fee."
+          "quote": "The Temple Promise program covers eligible students' full-time tuition and mandatory university services fee.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.temple.edu/costs-aid-scholarships/temple-promise",
+          "quoteFound": true
         },
         {
           "title": "Temple Promise | Undergraduate Admissions",
           "url": "https://admissions.temple.edu/costs-aid-scholarships/temple-promise",
-          "quote": "To receive the Temple Promise grant, families must have an adjusted gross income of $65,000 or less."
+          "quote": "To receive the Temple Promise grant, families must have an adjusted gross income of $65,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.temple.edu/costs-aid-scholarships/temple-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
