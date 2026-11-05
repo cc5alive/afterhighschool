@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Costs - Syracuse University",
           "url": "https://www.syracuse.edu/admissions-aid/cost/undergraduate-costs/",
-          "quote": "Incoming first-year students are required to live in University housing for their first two years, unless their immediate family lives in the Syracuse area"
+          "quote": "Incoming first-year students are required to live in University housing for their first two years, unless their immediate family lives in the Syracuse area",
+          "httpStatus": 200,
+          "finalUrl": "https://www.syracuse.edu/admissions-aid/cost/undergraduate-costs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

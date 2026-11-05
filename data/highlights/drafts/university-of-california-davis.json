@@ -27,9 +27,13 @@
         {
           "title": "Plan your transfer admission - UC Davis",
           "url": "https://www.ucdavis.edu/admissions/undergraduate/transfer/planning",
-          "quote": "UC Davis TAG assures your admission to UC Davis, one year before your planned enrollment. As a California Community College, or CCC, student, you use the UC TAP to apply for a UC Davis TAG in September"
+          "quote": "UC Davis TAG assures your admission to UC Davis, one year before your planned enrollment. As a California Community College, or CCC, student, you use the UC TAP to apply for a UC Davis TAG in September",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucdavis.edu/admissions/undergraduate/transfer/planning",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

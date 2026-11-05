@@ -10,9 +10,14 @@
         {
           "title": "Curriculum | Middlebury College",
           "url": "https://www.middlebury.edu/college/academics/academic-affairs/curriculum",
-          "quote": "The Middlebury curriculum operates on a 4-1-4 academic calendar. Students enroll in four courses in the fall semester, four courses in the spring semester, and a single course during the winter term. Winter term is a four-week term during the month of January"
+          "quote": "The Middlebury curriculum operates on a 4-1-4 academic calendar. Students enroll in four courses in the fall semester, four courses in the spring semester, and a single course during the winter term. Winter term is a four-week term during the month of January",
+          "httpStatus": 200,
+          "finalUrl": "https://www.middlebury.edu/college/academics/academic-affairs/curriculum",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

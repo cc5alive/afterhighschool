@@ -10,9 +10,13 @@
         {
           "title": "Rotation FAQs - Interhouse Committee - Caltech",
           "url": "https://ihc.caltech.edu/rotation/faqs",
-          "quote": "Rotation is the formal process of getting to know the 8 undergraduate houses at Caltech and ranking which house, if any, you would like to join."
+          "quote": "Rotation is the formal process of getting to know the 8 undergraduate houses at Caltech and ranking which house, if any, you would like to join.",
+          "httpStatus": 200,
+          "finalUrl": "https://ihc.caltech.edu/rotation/faqs",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

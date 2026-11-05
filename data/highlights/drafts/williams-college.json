@@ -10,9 +10,16 @@
         {
           "title": "Tutorials - Williams College",
           "url": "https://www.williams.edu/academics/undergraduate-study/tutorials/",
-          "quote": "Two students. One professor. An in-depth conversation fueled by intellectual curiosity and the spirit of debate. Our tutorial classes offer an academic experience you won't find at most other colleges."
+          "quote": "Two students. One professor. An in-depth conversation fueled by intellectual curiosity and the spirit of debate. Our tutorial classes offer an academic experience you won't find at most other colleges.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.williams.edu/academics/undergraduate-study/tutorials/",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "www.williams.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f340b8c4a1690 performance and security by cloudflare privacy",
+          "closestScore": 0.12
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

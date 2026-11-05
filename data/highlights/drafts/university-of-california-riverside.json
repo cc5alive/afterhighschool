@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions - UCR Housing Services - UC Riverside",
           "url": "https://housing.ucr.edu/faqs",
-          "quote": "All single, first-year freshmen students who meet all Housing deadlines are guaranteed a space in the Residence Halls."
+          "quote": "All single, first-year freshmen students who meet all Housing deadlines are guaranteed a space in the Residence Halls.",
+          "httpStatus": 200,
+          "finalUrl": "https://housing.ucr.edu/faqs",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

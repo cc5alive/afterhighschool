@@ -10,9 +10,14 @@
         {
           "title": "Undergraduate Studies - Trinity University",
           "url": "https://cosb.trinity.edu/content.php?catoid=7&navoid=147",
-          "quote": "All incoming students must complete one First-Year Experience during their first semester at Trinity."
+          "quote": "All incoming students must complete one First-Year Experience during their first semester at Trinity.",
+          "httpStatus": 202,
+          "finalUrl": "https://cosb.trinity.edu/content.php?catoid=7&navoid=147",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

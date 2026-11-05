@@ -10,9 +10,13 @@
         {
           "title": "Students | Landing - First Year Odyssey - University of Georgia",
           "url": "https://fyo.uga.edu/for-students-landing.html",
-          "quote": "These one credit-hour seminars are taught by tenured, tenure-track, clinical, and retired faculty and are graded on an A-F scale. All incoming first-year students, excluding transfer students, must take an FYO seminar during their first year."
+          "quote": "These one credit-hour seminars are taught by tenured, tenure-track, clinical, and retired faculty and are graded on an A-F scale. All incoming first-year students, excluding transfer students, must take an FYO seminar during their first year.",
+          "httpStatus": 200,
+          "finalUrl": "https://fyo.uga.edu/for-students-landing.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

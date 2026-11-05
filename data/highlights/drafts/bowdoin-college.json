@@ -10,9 +10,16 @@
         {
           "title": "Residential Life Policies | Bowdoin College",
           "url": "https://www.bowdoin.edu/dean-of-students/ccs/campus-life/residential-life-policies.html",
-          "quote": "Students are required to live in college housing during their first two years at Bowdoin. Juniors and seniors wishing to live off campus are required to enter the Off-Campus Housing Lottery to receive approval to live in off-campus housing."
+          "quote": "Students are required to live in college housing during their first two years at Bowdoin. Juniors and seniors wishing to live off campus are required to enter the Off-Campus Housing Lottery to receive approval to live in off-campus housing.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bowdoin.edu/dean-of-students/ccs/campus-life/residential-life-policies.html",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "an academically conducive environment. residency requirement. all first-years and sophomores are required to live on campus in residence halls, apartments, or college houses. juniors and seniors interested in living off campus in private rentals should enter the off-campus housing lottery to seek approval to be released from their on",
+          "closestScore": 0.74
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

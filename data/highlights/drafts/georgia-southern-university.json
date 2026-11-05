@@ -10,9 +10,13 @@
         {
           "title": "First Year Students – University Housing - Georgia Southern University",
           "url": "https://www.georgiasouthern.edu/student-life/housing/apply/first-year-students",
-          "quote": "Any undergraduate student new to Georgia Southern University with less than 30 earned credit hours is required to live on campus for an entire academic year."
+          "quote": "Any undergraduate student new to Georgia Southern University with less than 30 earned credit hours is required to live on campus for an entire academic year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.georgiasouthern.edu/student-life/housing/apply/first-year-students",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -27,9 +27,13 @@
         {
           "title": "Academics | Amherst College",
           "url": "https://www.amherst.edu/academiclife",
-          "quote": "To graduate, students must complete four years of coursework, but apart from one first-year seminar and the required courses for their major, they are free to choose their classes."
+          "quote": "To graduate, students must complete four years of coursework, but apart from one first-year seminar and the required courses for their major, they are free to choose their classes.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.amherst.edu/academiclife",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Through the Five College Consortium, Amherst students have cross-registration access to more than 6,000 courses across Smith, Mount Holyoke, Hampshire, and UMass Amherst.",
@@ -37,9 +41,13 @@
         {
           "title": "Academics | Amherst College",
           "url": "https://www.amherst.edu/academiclife",
-          "quote": "Amherst students can choose among more than 6,000 courses for credit at four nearby schools: Smith, Mount Holyoke, and Hampshire Colleges, and the University of Massachusetts Amherst."
+          "quote": "Amherst students can choose among more than 6,000 courses for credit at four nearby schools: Smith, Mount Holyoke, and Hampshire Colleges, and the University of Massachusetts Amherst.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.amherst.edu/academiclife",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

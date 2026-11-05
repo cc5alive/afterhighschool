@@ -10,9 +10,13 @@
         {
           "title": "Guaranteed Professional Programs | UIC Admissions",
           "url": "https://admissions.uic.edu/guaranteed-professional-programs",
-          "quote": "UIC has a program that can guarantee admission to several professional programs, including law, pharmacy and physical therapy, to select first-year students."
+          "quote": "UIC has a program that can guarantee admission to several professional programs, including law, pharmacy and physical therapy, to select first-year students.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.uic.edu/guaranteed-professional-programs",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

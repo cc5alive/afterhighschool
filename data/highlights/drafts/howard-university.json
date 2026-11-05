@@ -10,9 +10,14 @@
         {
           "title": "Explore Residence Halls | Howard University Student Affairs",
           "url": "https://studentaffairs.howard.edu/housing/residence-halls",
-          "quote": "All first-year freshmen and second-years are required to live in University sponsored housing and any exemptions must be submitted via the exemption form."
+          "quote": "All first-year freshmen and second-years are required to live in University sponsored housing and any exemptions must be submitted via the exemption form.",
+          "httpStatus": 200,
+          "finalUrl": "https://studentaffairs.howard.edu/housing/residence-halls",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

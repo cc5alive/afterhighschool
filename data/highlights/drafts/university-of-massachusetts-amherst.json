@@ -10,9 +10,13 @@
         {
           "title": "First-Year Housing : Commonwealth Honors College - UMass Amherst",
           "url": "https://www.umass.edu/honors/commonwealth-honors-college-experience/your-space/first-year-housing",
-          "quote": "All first-year students who are enrolled as full-time (12 credits) are required to live on campus and are automatically billed for room and board."
+          "quote": "All first-year students who are enrolled as full-time (12 credits) are required to live on campus and are automatically billed for room and board.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umass.edu/honors/commonwealth-honors-college-experience/your-space/first-year-housing",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

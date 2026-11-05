@@ -10,9 +10,13 @@
         {
           "title": "Tuition Plans | Bursar Office at UT Dallas",
           "url": "https://bursar.utdallas.edu/tuition/tuition-plans/",
-          "quote": "The guaranteed tuition plan is a plan that locks tuition rates in for four consecutive years and protects the student against increases during those four years."
+          "quote": "The guaranteed tuition plan is a plan that locks tuition rates in for four consecutive years and protects the student against increases during those four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://bursar.utdallas.edu/tuition/tuition-plans/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

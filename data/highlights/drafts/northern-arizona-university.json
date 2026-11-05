@@ -10,9 +10,13 @@
         {
           "title": "Steps to apply: first-year student | NAU",
           "url": "https://nau.edu/how-to-apply/first-year/apply-steps/",
-          "quote": "We offer guaranteed admission to all students who've completed their junior year and are on track to graduate with a core GPA of 2.5+ (4.0 scale)."
+          "quote": "We offer guaranteed admission to all students who've completed their junior year and are on track to graduate with a core GPA of 2.5+ (4.0 scale).",
+          "httpStatus": 200,
+          "finalUrl": "https://nau.edu/how-to-apply/first-year/apply-steps/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

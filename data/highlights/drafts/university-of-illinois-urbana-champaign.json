@@ -10,9 +10,13 @@
         {
           "title": "Expanded Housing - Illinois",
           "url": "https://www.housing.illinois.edu/expanded-housing",
-          "quote": "Because first-year students are required to live on campus, University Housing has more student housing contracts than available space, so expanded housing sites have been added"
+          "quote": "Because first-year students are required to live on campus, University Housing has more student housing contracts than available space, so expanded housing sites have been added",
+          "httpStatus": 200,
+          "finalUrl": "https://www.housing.illinois.edu/expanded-housing",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
