@@ -8,7 +8,10 @@ const file = process.argv[2];
 if (!file) { console.error('Usage: node scripts/import-highlights.mjs <file>'); process.exit(1); }
 
 const raw = fs.readFileSync(file, 'utf8').trim();
-const entries = raw.startsWith('[') ? JSON.parse(raw) : raw.split('\n').filter(Boolean).map((l) => JSON.parse(l));
+const badLines = [];
+const entries = raw.startsWith('[') ? JSON.parse(raw) : raw.split('\n').filter((l) => l.trim()).flatMap((l, i) => {
+  try { return [JSON.parse(l)]; } catch { badLines.push(i + 1); return []; }
+});
 
 const { schools } = JSON.parse(fs.readFileSync('data/scorecard/latest.json', 'utf8'));
 const slugs = new Set(schools.map((s) => s.slug));
@@ -48,6 +51,6 @@ for (const e of entries) {
   report.written.push({ slug: e.slug, facts: facts.length, problems });
 }
 
-console.log(`Wrote ${report.written.length} drafts, skipped ${report.skipped.length}.`);
+console.log(`Wrote ${report.written.length} drafts, skipped ${report.skipped.length}, unreadable lines: ${badLines.length ? badLines.join(', ') : 'none'}.`);
 for (const s of report.skipped) console.log(`SKIP ${s.slug}: ${s.problems.join('; ')}`);
 for (const w of report.written.filter((x) => x.problems.length)) console.log(`NOTE ${w.slug}: ${w.problems.join('; ')}`);
