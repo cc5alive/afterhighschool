@@ -10,9 +10,14 @@
         {
           "title": "Broncho Advantage - UCO",
           "url": "https://www.uco.edu/admissions/tuition/broncho-advantage",
-          "quote": "The Broncho Advantage is a tuition waiver that can pay up to $2,000 per fall/spring semester and up to $1,000 per summer semester toward nonresident tuition charges for four years."
+          "quote": "The Broncho Advantage is a tuition waiver that can pay up to $2,000 per fall/spring semester and up to $1,000 per summer semester toward nonresident tuition charges for four years.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.uco.edu/admissions/tuition/broncho-advantage",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "CMU guarantees admission for charter school students",
           "url": "https://www.cmich.edu/news/details/cmu-guarantees-admission-for-charter-school-students",
-          "quote": "As part of the Charter to CMU Guarantee, all high school seniors attending CMU-authorized schools will have their application fee waived and can apply to CMU for free"
+          "quote": "As part of the Charter to CMU Guarantee, all high school seniors attending CMU-authorized schools will have their application fee waived and can apply to CMU for free",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cmich.edu/news/details/cmu-guarantees-admission-for-charter-school-students",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

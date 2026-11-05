@@ -10,9 +10,13 @@
         {
           "title": "Worldwide College of Aviation - Embry-Riddle Aeronautical University",
           "url": "https://erau.edu/academics/colleges/worldwide-college-of-aviation",
-          "quote": "The Worldwide & Online College of Aviation is dedicated to providing innovative undergraduate and graduate academic programs that prepare students to excel in the dynamic and multidisciplinary field of aerospace and beyond."
+          "quote": "The Worldwide & Online College of Aviation is dedicated to providing innovative undergraduate and graduate academic programs that prepare students to excel in the dynamic and multidisciplinary field of aerospace and beyond.",
+          "httpStatus": 200,
+          "finalUrl": "https://erau.edu/academics/colleges/worldwide-college-of-aviation",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Grants | UW-Eau Claire",
           "url": "https://www.uwec.edu/offices-services/blugold-central/financial-aid-office/types-aid/grants",
-          "quote": "The Wisconsin Tuition Promise is one way in which we strive to do so by covering the cost of tuition and fees for eligible undergraduate students."
+          "quote": "The Wisconsin Tuition Promise is one way in which we strive to do so by covering the cost of tuition and fees for eligible undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwec.edu/offices-services/blugold-central/financial-aid-office/types-aid/grants",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

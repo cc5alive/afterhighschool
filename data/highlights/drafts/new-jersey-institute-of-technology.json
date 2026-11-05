@@ -10,14 +10,21 @@
         {
           "title": "About the University - NJIT Catalog",
           "url": "https://catalog.njit.edu/about-university/",
-          "quote": "Continuing a fourfold mission of instruction, research, economic development and public service, NJIT is among the leading comprehensive polytechnic universities in the nation."
+          "quote": "Continuing a fourfold mission of instruction, research, economic development and public service, NJIT is among the leading comprehensive polytechnic universities in the nation.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.njit.edu/about-university/",
+          "quoteFound": true
         },
         {
           "title": "About the University - NJIT Catalog",
           "url": "https://catalog.njit.edu/about-university/",
-          "quote": "NJIT, a top-ranked public research university, offers undergraduate and graduate students over 125 degree programs ranging from the STEM disciplines to architecture and design, as well as management and humanities."
+          "quote": "NJIT, a top-ranked public research university, offers undergraduate and graduate students over 125 degree programs ranging from the STEM disciplines to architecture and design, as well as management and humanities.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.njit.edu/about-university/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

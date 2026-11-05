@@ -10,9 +10,13 @@
         {
           "title": "History & Traditions - NDSU",
           "url": "https://www.ndsu.edu/about/campus/history-traditions",
-          "quote": "1890 - The institution was founded as North Dakota Agricultural College (NDAC) as the research land-grant institution for the state of North Dakota."
+          "quote": "1890 - The institution was founded as North Dakota Agricultural College (NDAC) as the research land-grant institution for the state of North Dakota.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ndsu.edu/about/campus/history-traditions",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

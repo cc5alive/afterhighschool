@@ -10,14 +10,24 @@
         {
           "title": "Wisconsin Tuition Promise - Financial Aid | UW-La Crosse",
           "url": "https://www.uwlax.edu/finaid/info/types-of-aid/wisconsin-tuition-promise/",
-          "quote": "The program is structured to provide “last dollar” financial support after federal and state grant aid and tuition scholarships are accounted for."
+          "quote": "The program is structured to provide “last dollar” financial support after federal and state grant aid and tuition scholarships are accounted for.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwlax.edu/finaid/info/types-of-aid/wisconsin-tuition-promise/",
+          "quoteFound": true
         },
         {
           "title": "Wisconsin Tuition Promise - Financial Aid | UW-La Crosse",
           "url": "https://www.uwlax.edu/finaid/info/types-of-aid/wisconsin-tuition-promise/",
-          "quote": "Undergraduate students (new first–year and transfer students) with family Adjusted Gross Incomes (AGI) ≤ $55,000 who first enroll at participating UW schools in fall 2025 or spring 2026 will be eligible."
+          "quote": "Undergraduate students (new first–year and transfer students) with family Adjusted Gross Incomes (AGI) ≤ $55,000 who first enroll at participating UW schools in fall 2025 or spring 2026 will be eligible.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwlax.edu/finaid/info/types-of-aid/wisconsin-tuition-promise/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "uwl bookstore housing information textbook rental academic calendar get help/student success you're kind of a big deal! you're part of a group of truly amazing people. at uwl, we are inspired every day by the driven, active and engaged students who",
+          "closestScore": 0.12
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

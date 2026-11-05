@@ -10,9 +10,13 @@
         {
           "title": "The Auraria Campus | University of Colorado Denver",
           "url": "https://www.ucdenver.edu/life/living-on-around-campus/the-auraria-campus",
-          "quote": "CU Denver is part of the Auraria Higher Education Center, a 150-acre tri-institutional setting that also includes Metropolitan State University of Denver and Community College of Denver."
+          "quote": "CU Denver is part of the Auraria Higher Education Center, a 150-acre tri-institutional setting that also includes Metropolitan State University of Denver and Community College of Denver.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cudenver.edu/student-experience/an-urban-campus/the-auraria-campus",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

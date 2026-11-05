@@ -10,9 +10,13 @@
         {
           "title": "About – Meyerhoff Scholars Program – UMBC",
           "url": "https://meyerhoff.umbc.edu/about/",
-          "quote": "supporting students who intend to pursue a Ph.D. or combined M.D./Ph.D. in STEM."
+          "quote": "supporting students who intend to pursue a Ph.D. or combined M.D./Ph.D. in STEM.",
+          "httpStatus": 200,
+          "finalUrl": "https://meyerhoff.umbc.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

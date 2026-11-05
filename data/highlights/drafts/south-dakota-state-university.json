@@ -10,14 +10,21 @@
         {
           "title": "Division of Budget and Finance | South Dakota State University",
           "url": "https://www.sdstate.edu/division-budget-finance",
-          "quote": "SDSU is South Dakota's largest higher education institution."
+          "quote": "SDSU is South Dakota's largest higher education institution.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sdstate.edu/division-budget-finance",
+          "quoteFound": true
         },
         {
           "title": "University Traditions - South Dakota State University",
           "url": "https://www.sdstate.edu/about-us/university-traditions",
-          "quote": "Regardless of the origins of the name of the mascot, SDSU is the only college or university in the nation with a Jackrabbit as its mascot."
+          "quote": "Regardless of the origins of the name of the mascot, SDSU is the only college or university in the nation with a Jackrabbit as its mascot.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sdstate.edu/about-us/university-traditions",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

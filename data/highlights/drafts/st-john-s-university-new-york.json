@@ -10,9 +10,13 @@
         {
           "title": "About St. John's Online | St. John's University Programs",
           "url": "https://online.stjohns.edu/about-us",
-          "quote": "Founded in 1870, St. John's University is a Catholic and Vincentian university that prepares all students for personal and professional success in today's global society."
+          "quote": "Founded in 1870, St. John's University is a Catholic and Vincentian university that prepares all students for personal and professional success in today's global society.",
+          "httpStatus": 200,
+          "finalUrl": "https://online.stjohns.edu/about-us",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

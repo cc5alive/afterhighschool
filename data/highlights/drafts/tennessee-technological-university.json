@@ -10,19 +10,29 @@
         {
           "title": "Undergraduate Admissions - Tennessee Tech Promise",
           "url": "https://www.tntech.edu/admissions/promise.php",
-          "quote": "As a last-dollar scholarship, Tech Promise will pay outstanding mandatory tuition and fees that are not met by other scholarships and grants."
+          "quote": "As a last-dollar scholarship, Tech Promise will pay outstanding mandatory tuition and fees that are not met by other scholarships and grants.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tntech.edu/admissions/promise.php",
+          "quoteFound": true
         },
         {
           "title": "Undergraduate Admissions - Tennessee Tech Promise",
           "url": "https://www.tntech.edu/admissions/promise.php",
-          "quote": "Have a total adjusted gross income of $40,000 or less as determined by the FAFSA"
+          "quote": "Have a total adjusted gross income of $40,000 or less as determined by the FAFSA",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tntech.edu/admissions/promise.php",
+          "quoteFound": true
         },
         {
           "title": "Undergraduate Admissions - Tennessee Tech Promise",
           "url": "https://www.tntech.edu/admissions/promise.php",
-          "quote": "Receive the Tennessee Educational Lottery HOPE Scholarship and federal Pell Grant"
+          "quote": "Receive the Tennessee Educational Lottery HOPE Scholarship and federal Pell Grant",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tntech.edu/admissions/promise.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

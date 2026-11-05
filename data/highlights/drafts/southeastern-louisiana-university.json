@@ -10,14 +10,21 @@
         {
           "title": "Textbook Rental - Southeastern Louisiana University",
           "url": "https://www.southeastern.edu/admin/tb_rental/",
-          "quote": "At Southeastern, students RENT their textbooks instead of having to buy them! Textbook Rental provides Southeastern students an economical alternative to purchasing textbooks."
+          "quote": "At Southeastern, students RENT their textbooks instead of having to buy them! Textbook Rental provides Southeastern students an economical alternative to purchasing textbooks.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southeastern.edu/admin/tb_rental/",
+          "quoteFound": true
         },
         {
           "title": "Textbook Rental - Southeastern Louisiana University",
           "url": "https://www.southeastern.edu/admin/tb_rental/",
-          "quote": "The current rental fee for a course which has a rental book is $60 regardless of the number of textbooks required for a course."
+          "quote": "The current rental fee for a course which has a rental book is $60 regardless of the number of textbooks required for a course.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southeastern.edu/admin/tb_rental/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

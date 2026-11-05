@@ -10,9 +10,13 @@
         {
           "title": "About - Howard University School of Law",
           "url": "https://law.howard.edu/about",
-          "quote": "The U.S. Congress chartered Howard University, a coeducational private institution in Washington, D.C., in 1867. Howard is a historically black institution"
+          "quote": "The U.S. Congress chartered Howard University, a coeducational private institution in Washington, D.C., in 1867. Howard is a historically black institution",
+          "httpStatus": 200,
+          "finalUrl": "https://law.howard.edu/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

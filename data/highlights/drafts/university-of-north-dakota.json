@@ -10,14 +10,21 @@
         {
           "title": "About UND | Grand Forks, ND | University of North Dakota",
           "url": "https://und.edu/about/index.html",
-          "quote": "Founded in 1883, six years before the state itself was established, UND gave North Dakota its name when the former Dakota territories separated into two distinct states."
+          "quote": "Founded in 1883, six years before the state itself was established, UND gave North Dakota its name when the former Dakota territories separated into two distinct states.",
+          "httpStatus": 200,
+          "finalUrl": "https://und.edu/about/index.html",
+          "quoteFound": true
         },
         {
           "title": "History - John D. Odegard School of Aerospace Sciences",
           "url": "https://aero.und.edu/about/history.html",
-          "quote": "The John D. Odegard School of Aerospace Sciences is now the second-largest of UND's degree-granting colleges, and operates one of the largest fleets of civilian flight training in North America."
+          "quote": "The John D. Odegard School of Aerospace Sciences is now the second-largest of UND's degree-granting colleges, and operates one of the largest fleets of civilian flight training in North America.",
+          "httpStatus": 200,
+          "finalUrl": "https://aero.und.edu/about/history.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

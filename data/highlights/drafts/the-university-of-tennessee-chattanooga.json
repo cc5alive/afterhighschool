@@ -10,14 +10,21 @@
         {
           "title": "UT Promise | University of Tennessee at Chattanooga",
           "url": "https://www.utc.edu/enrollment-management-and-student-affairs/financial-aid-and-scholarships/ut-promise",
-          "quote": "guaranteeing free mandatory class fees for qualifying Tennessee residents attending UT's campuses in Knoxville, Chattanooga, Martin, Memphis and Pulaski."
+          "quote": "guaranteeing free mandatory class fees for qualifying Tennessee residents attending UT's campuses in Knoxville, Chattanooga, Martin, Memphis and Pulaski.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utc.edu/enrollment-management-and-student-affairs/financial-aid-and-scholarships/ut-promise",
+          "quoteFound": true
         },
         {
           "title": "UT Promise | University of Tennessee at Chattanooga",
           "url": "https://www.utc.edu/enrollment-management-and-student-affairs/financial-aid-and-scholarships/ut-promise",
-          "quote": "whose family's Adjusted Gross Income is under $75,000 and whose family's total assets are under $75,000 (both determined by the FAFSA)."
+          "quote": "whose family's Adjusted Gross Income is under $75,000 and whose family's total assets are under $75,000 (both determined by the FAFSA).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utc.edu/enrollment-management-and-student-affairs/financial-aid-and-scholarships/ut-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

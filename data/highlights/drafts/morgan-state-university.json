@@ -10,14 +10,21 @@
         {
           "title": "About Morgan State - Morgan State University",
           "url": "https://www.morgan.edu/about",
-          "quote": "The only university to have its entire campus, designated as a National Treasure by the National Trust for Historic Preservation, offers a safe and inviting learning environment"
+          "quote": "The only university to have its entire campus, designated as a National Treasure by the National Trust for Historic Preservation, offers a safe and inviting learning environment",
+          "httpStatus": 200,
+          "finalUrl": "https://www.morgan.edu/about",
+          "quoteFound": true
         },
         {
           "title": "About Morgan State - Morgan State University",
           "url": "https://www.morgan.edu/about",
-          "quote": "Among the nation's most diverse Historically Black Colleges and Universities, and the largest in Maryland, Morgan seeks to ensure that the doors of higher education are opened as wide as possible"
+          "quote": "Among the nation's most diverse Historically Black Colleges and Universities, and the largest in Maryland, Morgan seeks to ensure that the doors of higher education are opened as wide as possible",
+          "httpStatus": 200,
+          "finalUrl": "https://www.morgan.edu/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

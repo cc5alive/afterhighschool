@@ -10,19 +10,38 @@
         {
           "title": "$0 Tuition for Hardworking Ohio Students - Cleveland State University",
           "url": "https://www.csuohio.edu/news/cleveland-state-university-announces-cleveland-state-commitment-0-tuition-for-hardworking-ohio",
-          "quote": "Spring 2027 high school graduate with a GPA of 3.0 or higher."
+          "quote": "Spring 2027 high school graduate with a GPA of 3.0 or higher.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csuohio.edu/news/cleveland-state-university-announces-cleveland-state-commitment-0-tuition-for-hardworking-ohio",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "ohio students. beginning in fall 2027, incoming first-year students who graduate high school in spring 2027 with a 3.0 gpa or higher,",
+          "closestScore": 1
         },
         {
           "title": "$0 Tuition for Hardworking Ohio Students - Cleveland State University",
           "url": "https://www.csuohio.edu/news/cleveland-state-university-announces-cleveland-state-commitment-0-tuition-for-hardworking-ohio",
-          "quote": "Family adjusted gross income of $125,000 or less, confirmed each year through the FAFSA."
+          "quote": "Family adjusted gross income of $125,000 or less, confirmed each year through the FAFSA.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csuohio.edu/news/cleveland-state-university-announces-cleveland-state-commitment-0-tuition-for-hardworking-ohio",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "high school graduate with a gpa of 3.0 or higher family adjusted gross income of $125,000 or less, confirmed each year through the fafsa",
+          "closestScore": 1
         },
         {
           "title": "$0 Tuition for Hardworking Ohio Students - Cleveland State University",
           "url": "https://www.csuohio.edu/news/cleveland-state-university-announces-cleveland-state-commitment-0-tuition-for-hardworking-ohio",
-          "quote": "CSU covers any tuition remaining after federal and state grants and scholarships are applied."
+          "quote": "CSU covers any tuition remaining after federal and state grants and scholarships are applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csuohio.edu/news/cleveland-state-university-announces-cleveland-state-commitment-0-tuition-for-hardworking-ohio",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "or less, confirmed each year through the fafsa csu covers any tuition remaining after federal and state grants and scholarships are applied students remain",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

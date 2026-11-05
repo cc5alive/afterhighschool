@@ -10,9 +10,16 @@
         {
           "title": "Attend college with free tuition, 4WARD Graduation Scholarship",
           "url": "https://www.emich.edu/finaid/types/scholarships/4ward.php",
-          "quote": "When you successfully complete two years at Eastern Michigan University, we will fund your full tuition for your remaining two years."
+          "quote": "When you successfully complete two years at Eastern Michigan University, we will fund your full tuition for your remaining two years.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.emich.edu/finaid/types/scholarships/4ward.php",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "www.emich.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55fc83a8b7b4740",
+          "closestScore": 0.06
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

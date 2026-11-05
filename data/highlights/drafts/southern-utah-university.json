@@ -27,9 +27,13 @@
         {
           "title": "The College Tour at SUU: Sam Nelson",
           "url": "https://www.suu.edu/blog/2022/07/the-college-tour-sam-nelson.html",
-          "quote": "The three-year degree program extends the traditional shortened summer semester to offer three full semesters per year (spring, summer, fall) as an option to expedite degree programs from the traditional four years to three years."
+          "quote": "The three-year degree program extends the traditional shortened summer semester to offer three full semesters per year (spring, summer, fall) as an option to expedite degree programs from the traditional four years to three years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.suu.edu/blog/2022/07/the-college-tour-sam-nelson.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

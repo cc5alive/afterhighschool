@@ -10,9 +10,13 @@
         {
           "title": "Accelerated Programs | Bellevue University",
           "url": "https://www.bellevue.edu/accelerated-programs/",
-          "quote": "You can accelerate your degree completion with a Bellevue University cohort program."
+          "quote": "You can accelerate your degree completion with a Bellevue University cohort program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bellevue.edu/accelerated-programs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

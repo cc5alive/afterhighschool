@@ -10,14 +10,21 @@
         {
           "title": "Toledo Tuition Guarantee",
           "url": "https://www.utoledo.edu/offices/treasurer/tuition/guarantee/",
-          "quote": "The Plan provides a fixed undergraduate tuition rate and fixed-rate fees for four years."
+          "quote": "The Plan provides a fixed undergraduate tuition rate and fixed-rate fees for four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utoledo.edu/offices/treasurer/tuition/guarantee/",
+          "quoteFound": true
         },
         {
           "title": "Toledo Tuition Guarantee",
           "url": "https://www.utoledo.edu/offices/treasurer/tuition/guarantee/",
-          "quote": "On-campus housing and meal plan rates also are guaranteed for four years."
+          "quote": "On-campus housing and meal plan rates also are guaranteed for four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utoledo.edu/offices/treasurer/tuition/guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

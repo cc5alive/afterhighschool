@@ -27,9 +27,13 @@
         {
           "title": "Hall of Presidents | Office of the President - College of Staten Island",
           "url": "https://www.csi.cuny.edu/about-csi/president-leadership/office-president/hall-presidents",
-          "quote": "the only public institution of higher education on Staten Island."
+          "quote": "the only public institution of higher education on Staten Island.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csi.cuny.edu/about-csi/president-leadership/office-president/hall-presidents",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

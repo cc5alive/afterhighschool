@@ -10,9 +10,13 @@
         {
           "title": "Spartan Alliance - University of Tampa",
           "url": "https://www.ut.edu/admissions/spartan-alliance",
-          "quote": "Scholarship that meets students' full demonstrated need (tuition, room, board, and fees)"
+          "quote": "Scholarship that meets students' full demonstrated need (tuition, room, board, and fees)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ut.edu/admissions/spartan-alliance",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

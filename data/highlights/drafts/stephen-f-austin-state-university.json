@@ -10,14 +10,22 @@
         {
           "title": "Purple Promise | SFA",
           "url": "https://www.sfasu.edu/purplepromise",
-          "quote": "Incoming fall first-year and transfer students who qualify will have 100% of their tuition and mandatory fees2 covered for up to four years1 as long as they maintain their eligibility."
+          "quote": "Incoming fall first-year and transfer students who qualify will have 100% of their tuition and mandatory fees2 covered for up to four years1 as long as they maintain their eligibility.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sfasu.edu/purplepromise",
+          "quoteFound": true,
+          "browserChecked": true
         },
         {
           "title": "Purple Promise | SFA",
           "url": "https://www.sfasu.edu/purplepromise",
-          "quote": "Your combined family adjusted gross income must be $100,000 or less, based on the information you enter on your FAFSA."
+          "quote": "Your combined family adjusted gross income must be $100,000 or less, based on the information you enter on your FAFSA.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sfasu.edu/purplepromise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

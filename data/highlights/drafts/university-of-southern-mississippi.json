@@ -10,14 +10,21 @@
         {
           "title": "Undergraduate Admissions - Freshmen | Undergraduate Admissions | The University of Southern Mississippi",
           "url": "https://www.usm.edu/undergraduate-admissions/freshmen.php",
-          "quote": "The University's prestigious Honors College is the sixth-oldest acceptance-based honors college in the nation and the oldest in Mississippi."
+          "quote": "The University's prestigious Honors College is the sixth-oldest acceptance-based honors college in the nation and the oldest in Mississippi.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usm.edu/undergraduate-admissions/freshmen.php",
+          "quoteFound": true
         },
         {
           "title": "Undergraduate Admissions - Freshmen | Undergraduate Admissions | The University of Southern Mississippi",
           "url": "https://www.usm.edu/undergraduate-admissions/freshmen.php",
-          "quote": "Every student in the Honors College receives scholarship support."
+          "quote": "Every student in the Honors College receives scholarship support.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usm.edu/undergraduate-admissions/freshmen.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

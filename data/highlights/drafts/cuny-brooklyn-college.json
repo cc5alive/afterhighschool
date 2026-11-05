@@ -10,9 +10,13 @@
         {
           "title": "About | Brooklyn College",
           "url": "https://www.brooklyn.edu/about/",
-          "quote": "Admission into these programs is very competitive and offers tremendous benefits, including opportunities to engage in activities throughout the city and across the globe, free tuition and laptops, stipends for travel"
+          "quote": "Admission into these programs is very competitive and offers tremendous benefits, including opportunities to engage in activities throughout the city and across the globe, free tuition and laptops, stipends for travel",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brooklyn.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

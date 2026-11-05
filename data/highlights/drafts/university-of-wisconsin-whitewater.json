@@ -27,14 +27,21 @@
         {
           "title": "UW-Whitewater Wisconsin Tuition Promise",
           "url": "https://www.uww.edu/wisconsin-tuition-promise",
-          "quote": "The program guarantees the coverage of tuition and segregated fees not already covered by federal and state grants for students at the Whitewater and Rock County campuses who meet the eligibility requirements."
+          "quote": "The program guarantees the coverage of tuition and segregated fees not already covered by federal and state grants for students at the Whitewater and Rock County campuses who meet the eligibility requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uww.edu/wisconsin-tuition-promise",
+          "quoteFound": true
         },
         {
           "title": "UW-Whitewater Wisconsin Tuition Promise",
           "url": "https://www.uww.edu/wisconsin-tuition-promise",
-          "quote": "Household adjusted gross income $55,000 or less, as reflected in the student's Free Application for Federal Student Aid, or FAFSA"
+          "quote": "Household adjusted gross income $55,000 or less, as reflected in the student's Free Application for Federal Student Aid, or FAFSA",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uww.edu/wisconsin-tuition-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

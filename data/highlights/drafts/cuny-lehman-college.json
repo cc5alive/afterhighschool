@@ -10,9 +10,13 @@
         {
           "title": "About Lehman College",
           "url": "https://www.lehman.edu/about/",
-          "quote": "Lehman College is the City University of New York's only four-year college in the Bronx, serving the borough and surrounding region"
+          "quote": "Lehman College is the City University of New York's only four-year college in the Bronx, serving the borough and surrounding region",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lehman.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

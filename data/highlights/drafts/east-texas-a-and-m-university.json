@@ -10,9 +10,13 @@
         {
           "title": "The President's Promise Scholarship - East Texas A&M University",
           "url": "https://www.etamu.edu/presidentspromise/",
-          "quote": "The scholarship covers all tuition not covered by other grants or scholarships. It will meet 100% of the student's tuition costs for up to four years for new freshmen or up to two years for new transfer students."
+          "quote": "The scholarship covers all tuition not covered by other grants or scholarships. It will meet 100% of the student's tuition costs for up to four years for new freshmen or up to two years for new transfer students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.etamu.edu/presidentspromise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

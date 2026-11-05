@@ -10,14 +10,21 @@
         {
           "title": "Argo 30 Guarantee | University of West Florida",
           "url": "https://uwf.edu/offices/financial-aid/types-of-aid/argo-30-guarantee/",
-          "quote": "UWF's Argo 30 Guarantee is the University's pledge to cover tuition and mandatory fees for low-income students."
+          "quote": "UWF's Argo 30 Guarantee is the University's pledge to cover tuition and mandatory fees for low-income students.",
+          "httpStatus": 200,
+          "finalUrl": "https://uwf.edu/offices/financial-aid/types-of-aid/argo-30-guarantee/",
+          "quoteFound": true
         },
         {
           "title": "Argo 30 Guarantee | University of West Florida",
           "url": "https://uwf.edu/offices/financial-aid/types-of-aid/argo-30-guarantee/",
-          "quote": "Argo 30 will cover all tuition and mandatory fees not covered by other grants or scholarships (up to 30 credit hours each academic year, fall and spring semesters, for a maximum of four years)."
+          "quote": "Argo 30 will cover all tuition and mandatory fees not covered by other grants or scholarships (up to 30 credit hours each academic year, fall and spring semesters, for a maximum of four years).",
+          "httpStatus": 200,
+          "finalUrl": "https://uwf.edu/offices/financial-aid/types-of-aid/argo-30-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

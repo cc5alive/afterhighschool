@@ -10,14 +10,21 @@
         {
           "title": "Kansas Academy of Math & Science | Early College FHSU",
           "url": "https://www.fhsu.edu/kams/",
-          "quote": "KAMS is Kansas' premier early college program designed to provide a STEM-focused academic experience for gifted & talented 11th & 12th grade students."
+          "quote": "KAMS is Kansas' premier early college program designed to provide a STEM-focused academic experience for gifted & talented 11th & 12th grade students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fhsu.edu/kams/",
+          "quoteFound": true
         },
         {
           "title": "Kansas Academy of Math & Science | Early College FHSU",
           "url": "https://www.fhsu.edu/kams/",
-          "quote": "KAMS provides tuition free college credits for those attending a Kansas public high school."
+          "quote": "KAMS provides tuition free college credits for those attending a Kansas public high school.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fhsu.edu/kams/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,14 +10,21 @@
         {
           "title": "The SIUE Commitment - Scholarships | SIUE",
           "url": "https://www.siue.edu/financial-aid/scholarships/scholarships-awards-grants/list-feed/siue-commitment.shtml",
-          "quote": "For qualifying Illinois students, SIUE will help close the gap in tuition, mandatory fees and course-specific fees after utilizing financial aid from all federal, state and institutional sources, including merit-based scholarships."
+          "quote": "For qualifying Illinois students, SIUE will help close the gap in tuition, mandatory fees and course-specific fees after utilizing financial aid from all federal, state and institutional sources, including merit-based scholarships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.siue.edu/financial-aid/scholarships/scholarships-awards-grants/list-feed/siue-commitment.shtml",
+          "quoteFound": true
         },
         {
           "title": "The SIUE Commitment - Scholarships | SIUE",
           "url": "https://www.siue.edu/financial-aid/scholarships/scholarships-awards-grants/list-feed/siue-commitment.shtml",
-          "quote": "Incoming dependent freshmen or transfer students with family income less than $113,575 and assets less than $50,000 based on submitted Free Application for Federal Student Aid (FAFSA)."
+          "quote": "Incoming dependent freshmen or transfer students with family income less than $113,575 and assets less than $50,000 based on submitted Free Application for Federal Student Aid (FAFSA).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.siue.edu/financial-aid/scholarships/scholarships-awards-grants/list-feed/siue-commitment.shtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
