@@ -10,9 +10,13 @@
         {
           "title": "General Information :: Admissions :: USNA",
           "url": "https://www.usna.edu/Admissions/Student-Life/General-Information-for-Midshipmen.php",
-          "quote": "The Navy pays 100% of the tuition, room, and board, medical and dental care costs of Naval Academy midshipmen. This means ALL students who attend the Naval Academy do so on a full scholarship"
+          "quote": "The Navy pays 100% of the tuition, room, and board, medical and dental care costs of Naval Academy midshipmen. This means ALL students who attend the Naval Academy do so on a full scholarship",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usna.edu/Admissions/Student-Life/General-Information-for-Midshipmen.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All midshipmen receive monthly pay of $1,273.20, with $100 per month paid in cash during plebe summer and $200 per month during the remainder of the first year after service deductions.",
@@ -20,9 +24,13 @@
         {
           "title": "General Information :: Admissions :: USNA",
           "url": "https://www.usna.edu/Admissions/Student-Life/General-Information-for-Midshipmen.php",
-          "quote": "Midshipmen pay is $1,273.20 monthly, from which laundry, barber, cobbler, activities fees, yearbook and other service charges are deducted. Actual cash pay is $100 per month during plebe summer and $200 per month for the rest of your first year"
+          "quote": "Midshipmen pay is $1,273.20 monthly, from which laundry, barber, cobbler, activities fees, yearbook and other service charges are deducted. Actual cash pay is $100 per month during plebe summer and $200 per month for the rest of your first year",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usna.edu/Admissions/Student-Life/General-Information-for-Midshipmen.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "First-Year Experience :: Academics :: Swarthmore College",
           "url": "https://www.swarthmore.edu/academics/first-year-experience",
-          "quote": "Swarthmore fosters this freedom with what is essentially a “pass/fail” system for a student's first semester. You're graded, but grades don't go on your transcript—you either get credit or you don't."
+          "quote": "Swarthmore fosters this freedom with what is essentially a “pass/fail” system for a student's first semester. You're graded, but grades don't go on your transcript—you either get credit or you don't.",
+          "httpStatus": 202,
+          "finalUrl": "https://www.swarthmore.edu/academics/first-year-experience",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

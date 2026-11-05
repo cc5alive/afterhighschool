@@ -10,9 +10,13 @@
         {
           "title": "Graduate Debt-Free | College of the Ozarks",
           "url": "https://www.cofo.edu/Cost",
-          "quote": "Each student participates in the on-campus work program for 15 hours per week and two forty-hour work weeks per school year."
+          "quote": "Each student participates in the on-campus work program for 15 hours per week and two forty-hour work weeks per school year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cofo.edu/Cost",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "College of the Ozarks does not participate in federal, state, or private student loan programs, providing a Tuition Assurance Scholarship combined with the student work program so undergraduates graduate debt-free.",
@@ -20,9 +24,13 @@
         {
           "title": "Graduate Debt-Free | College of the Ozarks",
           "url": "https://www.cofo.edu/Cost",
-          "quote": "College of the Ozarks discourages student borrowing, and therefore, does not participate in the federal, state or private loan programs."
+          "quote": "College of the Ozarks discourages student borrowing, and therefore, does not participate in the federal, state or private loan programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cofo.edu/Cost",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

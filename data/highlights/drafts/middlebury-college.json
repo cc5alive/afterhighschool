@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid at Middlebury",
           "url": "https://www.middlebury.edu/college/admissions/financial-aid",
-          "quote": "Middlebury is tuition-free for families with annual incomes up to $175,000. We meet all admitted students' demonstrated financial need."
+          "quote": "Middlebury is tuition-free for families with annual incomes up to $175,000. We meet all admitted students' demonstrated financial need.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.middlebury.edu/college/admissions/financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

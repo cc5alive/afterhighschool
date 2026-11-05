@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Core Curriculum | SFS | Georgetown University",
           "url": "https://sfs.georgetown.edu/academics/undergraduate/core-curriculum/",
-          "quote": "An essential component of our curriculum is proficiency in a second language. By mastering a second language, you'll gain cultural literacy and the communication skills necessary to navigate international environments."
+          "quote": "An essential component of our curriculum is proficiency in a second language. By mastering a second language, you'll gain cultural literacy and the communication skills necessary to navigate international environments.",
+          "httpStatus": 200,
+          "finalUrl": "https://sfs.georgetown.edu/academics/undergraduate/core-curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

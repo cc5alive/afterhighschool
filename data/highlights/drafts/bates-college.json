@@ -10,9 +10,13 @@
         {
           "title": "What is Short Term? | Academics | Bates College",
           "url": "https://www.bates.edu/academics/programs-resources/short-term/",
-          "quote": "Short Term at Bates — four weeks at the height of Maine's spring, from late April through May — is a time for intense, focused work. You'll live and breathe one class, and one class only."
+          "quote": "Short Term at Bates — four weeks at the height of Maine's spring, from late April through May — is a time for intense, focused work. You'll live and breathe one class, and one class only.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bates.edu/academics/programs-resources/short-term/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

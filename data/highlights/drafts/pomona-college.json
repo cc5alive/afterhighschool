@@ -10,9 +10,13 @@
         {
           "title": "The Claremont Colleges | Pomona College",
           "url": "https://www.pomona.edu/about/claremont-colleges",
-          "quote": "Pomona students may supplement the College's already comprehensive curriculum by taking classes at any of the undergraduate Claremont Colleges. The more than 2,700 courses available include intercollegiate majors and a wide range of language offerings."
+          "quote": "Pomona students may supplement the College's already comprehensive curriculum by taking classes at any of the undergraduate Claremont Colleges. The more than 2,700 courses available include intercollegiate majors and a wide range of language offerings.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pomona.edu/about/claremont-colleges",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Students receiving financial aid at Pomona receive financial aid packages with no loans for eight semesters of enrollment.",
@@ -20,9 +24,13 @@
         {
           "title": "Financial Aid Policies | Pomona College",
           "url": "https://www.pomona.edu/financial-aid/policies",
-          "quote": "Students receiving financial assistance will receive standard financial aid packaging (no loans) for 8 semesters of enrollment. Standard full time enrollment for all students is four full courses in each of the eight semesters; the minimum is three courses."
+          "quote": "Students receiving financial assistance will receive standard financial aid packaging (no loans) for 8 semesters of enrollment. Standard full time enrollment for all students is four full courses in each of the eight semesters; the minimum is three courses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pomona.edu/financial-aid/policies",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

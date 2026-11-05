@@ -10,9 +10,13 @@
         {
           "title": "Academics - Hamilton College",
           "url": "https://www.hamilton.edu/academics",
-          "quote": "Most colleges have a core curriculum or distribution requirements; Hamilton does not."
+          "quote": "Most colleges have a core curriculum or distribution requirements; Hamilton does not.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hamilton.edu/academics",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

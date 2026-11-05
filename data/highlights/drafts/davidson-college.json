@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid Policies & Resources - Davidson College",
           "url": "https://www.davidson.edu/admission-and-financial-aid/financial-aid/policies-resources",
-          "quote": "We proudly stand as one of only two dozen schools in the United States that admit students independent of their family's ability to pay, meet 100 percent of calculated need and do so without loans in their aid package."
+          "quote": "We proudly stand as one of only two dozen schools in the United States that admit students independent of their family's ability to pay, meet 100 percent of calculated need and do so without loans in their aid package.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.davidson.edu/admission-and-financial-aid/financial-aid/policies-resources",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "The Colby Commitment - Colby College Admissions",
           "url": "https://afa.colby.edu/cost-and-aid/colby-commitment/",
-          "quote": "If your family has a total income of $75,000 or less and typical assets, we've ensured they will have a parent or guardian contribution of $0."
+          "quote": "If your family has a total income of $75,000 or less and typical assets, we've ensured they will have a parent or guardian contribution of $0.",
+          "httpStatus": 403,
+          "finalUrl": "https://afa.colby.edu/cost-and-aid/colby-commitment/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Through DavisConnects, Colby guarantees all students access to funding for research, internship, and global experiences regardless of their ability to pay.",
@@ -20,9 +24,13 @@
         {
           "title": "The Colby Commitment - Colby College Admissions",
           "url": "https://afa.colby.edu/cost-and-aid/colby-commitment/",
-          "quote": "DavisConnects guarantees all students access to research, internship, and global experiences around the world — regardless of their ability to pay."
+          "quote": "DavisConnects guarantees all students access to research, internship, and global experiences around the world — regardless of their ability to pay.",
+          "httpStatus": 403,
+          "finalUrl": "https://afa.colby.edu/cost-and-aid/colby-commitment/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

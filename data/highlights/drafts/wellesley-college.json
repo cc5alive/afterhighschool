@@ -10,9 +10,13 @@
         {
           "title": "Limitless educational opportunities from Wellesley (and friends!)",
           "url": "https://www.wellesley.edu/w100/limitless-educational-opportunities",
-          "quote": "Cross-registration with Babson, Brandeis, MIT, and Olin College of Engineering: even more classes, dual-degree programs with Olin and MIT, and access to the Bernard M. Gordon-MIT Engineering Leadership Program and the MIT Undergraduate Research Opportunities Program."
+          "quote": "Cross-registration with Babson, Brandeis, MIT, and Olin College of Engineering: even more classes, dual-degree programs with Olin and MIT, and access to the Bernard M. Gordon-MIT Engineering Leadership Program and the MIT Undergraduate Research Opportunities Program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wellesley.edu/w100/limitless-educational-opportunities",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

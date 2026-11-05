@@ -10,9 +10,13 @@
         {
           "title": "Athenaeum | Claremont McKenna College",
           "url": "https://www.cmc.edu/athenaeum",
-          "quote": "Four nights a week during the school year, the Ath brings scholars, public figures, thought leaders, artists, and innovators to engage with the CMC and Claremont College community."
+          "quote": "Four nights a week during the school year, the Ath brings scholars, public figures, thought leaders, artists, and innovators to engage with the CMC and Claremont College community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cmc.edu/athenaeum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

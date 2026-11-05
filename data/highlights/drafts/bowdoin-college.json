@@ -10,9 +10,13 @@
         {
           "title": "Student Aid | Bowdoin College",
           "url": "https://www.bowdoin.edu/student-aid/",
-          "quote": "Plus, every Bowdoin student receives a MacBook Pro and iPad that they can keep after graduation."
+          "quote": "Plus, every Bowdoin student receives a MacBook Pro and iPad that they can keep after graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bowdoin.edu/student-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Bowdoin meets the full calculated financial need of every admitted student with aid packages that are loan free.",
@@ -20,9 +24,13 @@
         {
           "title": "Student Aid | Bowdoin College",
           "url": "https://www.bowdoin.edu/student-aid/",
-          "quote": "Our aid packages are loan free, which means you can concentrate on just being a Bowdoin student."
+          "quote": "Our aid packages are loan free, which means you can concentrate on just being a Bowdoin student.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bowdoin.edu/student-aid/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

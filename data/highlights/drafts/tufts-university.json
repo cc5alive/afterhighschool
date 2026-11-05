@@ -10,9 +10,13 @@
         {
           "title": "About | Experimental College",
           "url": "https://excollege.tufts.edu/about",
-          "quote": "The Experimental College offers small, participation-based courses that engage Tufts undergraduates in ideas shaping the world today. Here at the ExCollege, we are dedicated to innovation and collaborative learning and teaching."
+          "quote": "The Experimental College offers small, participation-based courses that engage Tufts undergraduates in ideas shaping the world today. Here at the ExCollege, we are dedicated to innovation and collaborative learning and teaching.",
+          "httpStatus": 200,
+          "finalUrl": "https://excollege.tufts.edu/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

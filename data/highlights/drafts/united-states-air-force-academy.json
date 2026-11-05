@@ -10,9 +10,13 @@
         {
           "title": "Commitment • United States Air Force Academy",
           "url": "https://www.usafa.edu/admissions/commitment/",
-          "quote": "You will accept an appointment and serve as a commissioned officer in the Air Force or Space Force for at least eight years after graduation, five of which must be active duty"
+          "quote": "You will accept an appointment and serve as a commissioned officer in the Air Force or Space Force for at least eight years after graduation, five of which must be active duty",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usafa.edu/admissions/commitment/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

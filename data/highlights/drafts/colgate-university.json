@@ -10,9 +10,13 @@
         {
           "title": "The Colgate Commitment | Colgate University",
           "url": "https://www.colgate.edu/admission-aid/financial-aid/colgate-commitment",
-          "quote": "Students with an annual family income* of $175,000 or less will generally attend Colgate tuition-free."
+          "quote": "Students with an annual family income* of $175,000 or less will generally attend Colgate tuition-free.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.colgate.edu/admission-aid/financial-aid/colgate-commitment",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

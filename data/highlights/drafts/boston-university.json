@@ -10,9 +10,13 @@
         {
           "title": "Full Tuition Figures | Admissions - Boston University",
           "url": "https://www.bu.edu/admissions/tuition-aid/tuition/",
-          "quote": "We will meet 100% of demonstrated financial need for first-time, first-year students who are US citizens and permanent residents—without loans."
+          "quote": "We will meet 100% of demonstrated financial need for first-time, first-year students who are US citizens and permanent residents—without loans.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bu.edu/admissions/tuition-aid/tuition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Under the BU Promise, admitted first-year domestic students from families earning between $150,001 and $200,000 with typical assets pay no more than $20,000 per academic year toward attendance costs.",
@@ -20,9 +24,13 @@
         {
           "title": "Full Tuition Figures | Admissions - Boston University",
           "url": "https://www.bu.edu/admissions/tuition-aid/tuition/",
-          "quote": "Under this program, admitted first-year students from families with annual household incomes below $200,000 and typical assets can expect to pay no more than $20,000 per academic year toward the cost of attendance."
+          "quote": "Under this program, admitted first-year students from families with annual household incomes below $200,000 and typical assets can expect to pay no more than $20,000 per academic year toward the cost of attendance.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bu.edu/admissions/tuition-aid/tuition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

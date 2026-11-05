@@ -10,9 +10,13 @@
         {
           "title": "Questbridge Application Supplement for 2026-27 - Haverford College",
           "url": "https://admission.haverford.edu/register/QBsupp2627",
-          "quote": "Student ownership is reflected in self-scheduled exams, in the fact that every student completes a Senior Thesis, in shared responsibility for the residential experience, and of course in oversight of the Honor Code itself."
+          "quote": "Student ownership is reflected in self-scheduled exams, in the fact that every student completes a Senior Thesis, in shared responsibility for the residential experience, and of course in oversight of the Honor Code itself.",
+          "httpStatus": 200,
+          "finalUrl": "https://admission.haverford.edu/register/QBsupp2627",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
