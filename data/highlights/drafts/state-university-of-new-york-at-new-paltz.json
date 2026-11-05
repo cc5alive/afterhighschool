@@ -10,9 +10,13 @@
         {
           "title": "Tuition & Fees | SUNY New Paltz Catalog",
           "url": "https://catalog.newpaltz.edu/undergraduate/financial-information-policies/tuition-fees/",
-          "quote": "All students living on campus are required to have a meal plan."
+          "quote": "All students living on campus are required to have a meal plan.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.newpaltz.edu/undergraduate/financial-information-policies/tuition-fees/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

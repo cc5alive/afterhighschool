@@ -10,9 +10,13 @@
         {
           "title": "Torero Promise - Undergraduate Admission - University of San Diego",
           "url": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/torero-promise.php",
-          "quote": "The Torero Promise is a partnership between the University of San Diego and participating diocesan high schools in San Diego and San Bernardino that provides eligible students with a clear pathway to earn admission by meeting the program requirements."
+          "quote": "The Torero Promise is a partnership between the University of San Diego and participating diocesan high schools in San Diego and San Bernardino that provides eligible students with a clear pathway to earn admission by meeting the program requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sandiego.edu/admission-and-aid/undergraduate/apply/torero-promise.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

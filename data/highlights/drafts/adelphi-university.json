@@ -10,9 +10,16 @@
         {
           "title": "Ways to Save | Honors College - Adelphi University",
           "url": "https://www.adelphi.edu/honors/save/",
-          "quote": "$10,000* total tuition per year for students transferring to Adelphi. students must have a minimum GPA of 3.6 and reside in NY, NJ, CT or MA."
+          "quote": "$10,000* total tuition per year for students transferring to Adelphi. students must have a minimum GPA of 3.6 and reside in NY, NJ, CT or MA.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.adelphi.edu/honors/save/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "is guaranteed for up to four years. $10,000* * students must have a minimum gpa of 3.6 and reside in ny, nj, ct or ma total tuition per year for students transferring to adelphi transfer tuition",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

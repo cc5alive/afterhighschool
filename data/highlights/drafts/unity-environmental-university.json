@@ -10,9 +10,13 @@
         {
           "title": "Paying for College - Unity Environmental University",
           "url": "https://unity.edu/distance-education/paying-for-college/",
-          "quote": "Unity locks your tuition through 2030 and unbundles your degree, so you pay only for what you need."
+          "quote": "Unity locks your tuition through 2030 and unbundles your degree, so you pay only for what you need.",
+          "httpStatus": 200,
+          "finalUrl": "https://unity.edu/distance-education/paying-for-college/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "eStout Laptop Program | UW-Stout Polytechnic",
           "url": "https://www.uwstout.edu/academics/estout-laptop-program",
-          "quote": "Upon graduating, the University transfers ownership of the laptop to the graduate."
+          "quote": "Upon graduating, the University transfers ownership of the laptop to the graduate.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwstout.edu/academics/estout-laptop-program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

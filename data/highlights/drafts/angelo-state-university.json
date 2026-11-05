@@ -10,9 +10,13 @@
         {
           "title": "Next Steps for First-Time Students - Angelo State University",
           "url": "https://www.angelo.edu/admissions-and-aid/admitted/first-time-students/",
-          "quote": "Most first year students are required to live on campus."
+          "quote": "Most first year students are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.angelo.edu/admissions-and-aid/admitted/first-time-students/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

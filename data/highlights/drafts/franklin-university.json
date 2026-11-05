@@ -10,9 +10,13 @@
         {
           "title": "Tuition Guarantee | Franklin University",
           "url": "https://www.franklin.edu/tuition-financial-aid/tuition-guarantee",
-          "quote": "Bachelor's and associate degree-seeking students can lock in their first-term tuition rate for up to four years (12 trimesters), while master's students can lock in their first-term rate for up to three years (9 trimesters)."
+          "quote": "Bachelor's and associate degree-seeking students can lock in their first-term tuition rate for up to four years (12 trimesters), while master's students can lock in their first-term rate for up to three years (9 trimesters).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.franklin.edu/tuition-financial-aid/tuition-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Students can transfer up to 94 community or technical college credit hours toward a bachelor's degree at Franklin.",
@@ -20,9 +24,13 @@
         {
           "title": "Online College That Accepts Max Transfer Credits | Franklin.edu",
           "url": "https://www.franklin.edu/transferring-credit",
-          "quote": "Franklin makes it easy to transfer up to 94 of your community or technical college credit hours toward a bachelor's degree."
+          "quote": "Franklin makes it easy to transfer up to 94 of your community or technical college credit hours toward a bachelor's degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.franklin.edu/transferring-credit",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Franklin's Tuition Guarantee locks in first-term tuition rates for bachelor's and associate degree-seeking students for up to four years (12 trimesters).",
@@ -30,9 +38,13 @@
         {
           "title": "Tuition Guarantee | Franklin University",
           "url": "https://www.franklin.edu/tuition-financial-aid/tuition-guarantee",
-          "quote": "Bachelor's and associate degree-seeking students can lock in their first-term tuition rate for up to four years (12 trimesters), while master's students can lock in their first-term rate for up to three years (9 trimesters)."
+          "quote": "Bachelor's and associate degree-seeking students can lock in their first-term tuition rate for up to four years (12 trimesters), while master's students can lock in their first-term rate for up to three years (9 trimesters).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.franklin.edu/tuition-financial-aid/tuition-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Franklin allows students to transfer up to 94 community or technical college credit hours toward a bachelor's degree.",
@@ -40,9 +52,13 @@
         {
           "title": "Online College That Accepts Max Transfer Credits | Franklin.edu",
           "url": "https://www.franklin.edu/transferring-credit",
-          "quote": "Franklin makes it easy to transfer up to 94 of your community or technical college credit hours toward a bachelor's degree."
+          "quote": "Franklin makes it easy to transfer up to 94 of your community or technical college credit hours toward a bachelor's degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.franklin.edu/transferring-credit",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

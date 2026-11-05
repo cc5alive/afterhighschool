@@ -10,14 +10,21 @@
         {
           "title": "Green & Gold Guarantee | Cal Poly Humboldt",
           "url": "https://www.humboldt.edu/guarantee",
-          "quote": "The Green & Gold Guarantee covers tuition and mandatory campus fees so you can focus on your future."
+          "quote": "The Green & Gold Guarantee covers tuition and mandatory campus fees so you can focus on your future.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.humboldt.edu/guarantee",
+          "quoteFound": true
         },
         {
           "title": "Green & Gold Guarantee | Cal Poly Humboldt",
           "url": "https://www.humboldt.edu/guarantee",
-          "quote": "Have a Student Aid Index of 7000 or less."
+          "quote": "Have a Student Aid Index of 7000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.humboldt.edu/guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All first-year students at Cal Poly Humboldt are required to live on campus for their first two years.",
@@ -25,9 +32,13 @@
         {
           "title": "Housing | Cal Poly Humboldt",
           "url": "https://www.humboldt.edu/international-students/housing",
-          "quote": "Effective Fall 2025, all first-year students will be required to live on-campus for the first two years."
+          "quote": "Effective Fall 2025, all first-year students will be required to live on-campus for the first two years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.humboldt.edu/international-students/housing",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

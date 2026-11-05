@@ -10,9 +10,13 @@
         {
           "title": "Living at Quinnipiac",
           "url": "https://www.qu.edu/student-life/residential-life/",
-          "quote": "At Quinnipiac, all incoming students are required to live on campus during their first 3 years."
+          "quote": "At Quinnipiac, all incoming students are required to live on campus during their first 3 years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.qu.edu/student-life/residential-life/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

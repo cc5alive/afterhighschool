@@ -10,9 +10,13 @@
         {
           "title": "1.8 GPA Requirement - Seton Hall University",
           "url": "https://www.shu.edu/residence-life/1-8-gpa-requirement.html",
-          "quote": "Students who wish to live in campus housing must maintain a 1.8 cumulative grade point average."
+          "quote": "Students who wish to live in campus housing must maintain a 1.8 cumulative grade point average.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.shu.edu/residence-life/1-8-gpa-requirement.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

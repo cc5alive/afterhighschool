@@ -10,9 +10,16 @@
         {
           "title": "Mule Grant | University of Central Missouri",
           "url": "https://www.ucmo.edu/future-students/financing-your-education/grants/mule-grant/",
-          "quote": "Eligibility Requirements * <= $75,000 Income. * Be a U.S. citizen or permanent resident. * FAFSA on File before state of Missouri FAFSA priority deadline (typically Feb 1) * Missouri Resident."
+          "quote": "Eligibility Requirements * <= $75,000 Income. * Be a U.S. citizen or permanent resident. * FAFSA on File before state of Missouri FAFSA priority deadline (typically Feb 1) * Missouri Resident.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucmo.edu/future-students/financing-your-education/grants/mule-grant/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "afford. eligibility requirements students entering ucm starting fall 2026 and beyond must meet the following eligibility requirements*: <= $75,000 income be a u.s. citizen or permanent resident fafsa on file before state of missouri fafsa priority deadline (typically feb 1) missouri",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

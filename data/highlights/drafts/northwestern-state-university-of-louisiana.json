@@ -10,9 +10,13 @@
         {
           "title": "Louisiana Scholars' College - Northwestern State University",
           "url": "https://www.nsula.edu/academics/the-louisiana-scholars-college/",
-          "quote": "Louisiana Scholars' College at Northwestern State University is Louisiana's official honors college in liberal arts and sciences."
+          "quote": "Louisiana Scholars' College at Northwestern State University is Louisiana's official honors college in liberal arts and sciences.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nsula.edu/academics/the-louisiana-scholars-college/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,16 @@
         {
           "title": "Student Support Offices and Resources | Gonzaga University",
           "url": "https://www.gonzaga.edu/news-events/stories/student-support-offices-and-resources",
-          "quote": "Gonzaga requires first-year student to live on campus their first two years. During that time, students will live in a residence hall"
+          "quote": "Gonzaga requires first-year student to live on campus their first two years. During that time, students will live in a residence hall",
+          "httpStatus": 403,
+          "finalUrl": "https://www.gonzaga.edu/news-events/stories/student-support-offices-and-resources",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "www.gonzaga.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f5912cd33dc9f performance",
+          "closestScore": 0.06
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

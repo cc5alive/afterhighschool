@@ -10,9 +10,13 @@
         {
           "title": "Thrive: Campus-Living | Gettysburg College",
           "url": "https://www.gettysburg.edu/orientation/thrive/campus-living",
-          "quote": "Recognizing the influence of the environment on development, Gettysburg College requires all students (unless approved as a commuter student) to live on campus."
+          "quote": "Recognizing the influence of the environment on development, Gettysburg College requires all students (unless approved as a commuter student) to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gettysburg.edu/orientation/thrive/campus-living",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

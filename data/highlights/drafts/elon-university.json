@@ -10,9 +10,13 @@
         {
           "title": "Winter Term | Elon University",
           "url": "https://www.elon.edu/u/academics/winter-term/",
-          "quote": "Winter Term at Elon University offers an array of exciting experiences for students that range from short-term study away programs to engaging student-led courses."
+          "quote": "Winter Term at Elon University offers an array of exciting experiences for students that range from short-term study away programs to engaging student-led courses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.elon.edu/u/academics/winter-term/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

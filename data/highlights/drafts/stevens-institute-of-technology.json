@@ -10,9 +10,13 @@
         {
           "title": "CO-OP PROGRAM FAQs | Stevens Institute of Technology",
           "url": "https://www.stevens.edu/career-center/cooperative-education-faq",
-          "quote": "Students do not pay tuition during Co-op Work Semesters, but are required to pay General Service and Student Activity Fees during the Fall and Spring Co-op Work Semesters."
+          "quote": "Students do not pay tuition during Co-op Work Semesters, but are required to pay General Service and Student Activity Fees during the Fall and Spring Co-op Work Semesters.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.stevens.edu/career-center/cooperative-education-faq",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

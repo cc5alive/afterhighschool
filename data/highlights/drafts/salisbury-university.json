@@ -10,9 +10,14 @@
         {
           "title": "Residence Life at Salisbury University",
           "url": "https://www.salisbury.edu/experience-campus/residence-life.aspx",
-          "quote": "Salisbury University has a two-year residency requirement for all first year and sophomore students."
+          "quote": "Salisbury University has a two-year residency requirement for all first year and sophomore students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.salisbury.edu/experience-campus/residence-life.aspx",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

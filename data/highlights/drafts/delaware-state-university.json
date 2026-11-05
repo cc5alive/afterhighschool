@@ -10,9 +10,13 @@
         {
           "title": "Our History - Delaware State University",
           "url": "https://www.desu.edu/about/our-history",
-          "quote": "Its Aviation Program maintains its fleet of planes and base of operation at the Delaware Air Park in Cheswold, DE."
+          "quote": "Its Aviation Program maintains its fleet of planes and base of operation at the Delaware Air Park in Cheswold, DE.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.desu.edu/about/our-history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

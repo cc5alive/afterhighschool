@@ -10,9 +10,13 @@
         {
           "title": "Radford Tuition Promise",
           "url": "https://join.radford.edu/portal/RTP",
-          "quote": "With this Promise, Radford University guarantees that tuition costs will be covered for Virginia residents with an Adjusted Gross Income (AGI) of under $100,000."
+          "quote": "With this Promise, Radford University guarantees that tuition costs will be covered for Virginia residents with an Adjusted Gross Income (AGI) of under $100,000.",
+          "httpStatus": 200,
+          "finalUrl": "https://join.radford.edu/portal/RTP",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

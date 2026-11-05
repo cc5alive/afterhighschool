@@ -10,9 +10,13 @@
         {
           "title": "Housing - The University of Northern Colorado",
           "url": "https://www.unco.edu/campus-life/housing/",
-          "quote": "Most newly enrolled students are required by university policy to live on campus for their first year."
+          "quote": "Most newly enrolled students are required by university policy to live on campus for their first year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unco.edu/campus-life/housing/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

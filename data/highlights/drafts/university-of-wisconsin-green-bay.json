@@ -10,9 +10,16 @@
         {
           "title": "Core General Education Requirements - Academic Catalog",
           "url": "https://catalog.uwgb.edu/undergraduate/planning/cger/",
-          "quote": "Civics & Perspectives. 6 credit hours (2 courses required) 10 course minimum."
+          "quote": "Civics & Perspectives. 6 credit hours (2 courses required) 10 course minimum.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.uwgb.edu/undergraduate/planning/cger/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "6-7 credit hours (2 courses/1 lab required) civics & perspectives 6 credit hours (2 courses required) 10 course minimum 30-35 questions? need",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

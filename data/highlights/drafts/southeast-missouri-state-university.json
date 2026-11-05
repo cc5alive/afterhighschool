@@ -10,9 +10,13 @@
         {
           "title": "On-Campus Housing Requirements | SEMO",
           "url": "https://semo.edu/life-at-semo/living-on-campus/resources/on-campus-requirements",
-          "quote": "The Board of Governors requires all full-time students (enrolled in 12+ credit hours) to live on campus for two academic years (four semesters, excluding summers)."
+          "quote": "The Board of Governors requires all full-time students (enrolled in 12+ credit hours) to live on campus for two academic years (four semesters, excluding summers).",
+          "httpStatus": 200,
+          "finalUrl": "https://semo.edu/life-at-semo/living-on-campus/resources/on-campus-requirements",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

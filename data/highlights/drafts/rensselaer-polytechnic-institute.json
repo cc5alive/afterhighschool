@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions | Career and Professional Development",
           "url": "https://ccpd.rpi.edu/rpi-experience-program/frequently-asked-questions",
-          "quote": "All undergraduate students are required to complete The RPI Experience before graduation."
+          "quote": "All undergraduate students are required to complete The RPI Experience before graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://ccpd.rpi.edu/rpi-experience-program/frequently-asked-questions",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

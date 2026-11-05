@@ -27,9 +27,16 @@
         {
           "title": "Go Blue Guarantee | University of Michigan-Dearborn",
           "url": "https://umdearborn.edu/go-blue-guarantee",
-          "quote": "Students at UM-Dearborn are eligible for the Go Blue Guarantee - University of Michigan's landmark promise of free tuition for high-achieving in-state undergraduate students from qualifying backgrounds."
+          "quote": "Students at UM-Dearborn are eligible for the Go Blue Guarantee - University of Michigan's landmark promise of free tuition for high-achieving in-state undergraduate students from qualifying backgrounds.",
+          "httpStatus": 403,
+          "finalUrl": "https://umdearborn.edu/go-blue-guarantee",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "umdearborn.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f5a52bf7c5d03 performance and security by cloudflare privacy",
+          "closestScore": 0.1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

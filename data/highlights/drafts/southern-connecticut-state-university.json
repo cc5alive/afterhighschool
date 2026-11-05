@@ -10,9 +10,13 @@
         {
           "title": "Housing Options | Southern Connecticut State University",
           "url": "https://www.southernct.edu/student-life/living-on-campus/housing-options",
-          "quote": "Traditional residence hall students are required to purchase a full meal plan."
+          "quote": "Traditional residence hall students are required to purchase a full meal plan.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southernct.edu/student-life/living-on-campus/housing-options",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

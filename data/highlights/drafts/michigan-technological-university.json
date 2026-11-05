@@ -10,9 +10,13 @@
         {
           "title": "Residential Living - Michigan Technological University",
           "url": "https://www.mtu.edu/residential-living/",
-          "quote": "Michigan Technological University requires all first year students to live on campus so that they receive the maximum benefit from our Residence Education"
+          "quote": "Michigan Technological University requires all first year students to live on campus so that they receive the maximum benefit from our Residence Education",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mtu.edu/residential-living/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

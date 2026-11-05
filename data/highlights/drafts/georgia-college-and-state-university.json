@@ -10,9 +10,16 @@
         {
           "title": "New Student Application - University Housing - Georgia College",
           "url": "https://www.gcsu.edu/housing/newapplication",
-          "quote": "Meal Plan Requirement. Freshmen are required to carry a minimum meal plan. Plans are optional for upperclassmen."
+          "quote": "Meal Plan Requirement. Freshmen are required to carry a minimum meal plan. Plans are optional for upperclassmen.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gcsu.edu/housing/newapplication",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "bridge scholars program fee must be paid how to apply click for instructions how to request a roommate click for instructions meal plan requirement new student housing",
+          "closestScore": 0.33
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

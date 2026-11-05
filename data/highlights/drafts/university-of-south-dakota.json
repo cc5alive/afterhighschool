@@ -10,9 +10,13 @@
         {
           "title": "Housing Policies & Forms - University of South Dakota",
           "url": "https://www.usd.edu/Student-Life/Housing-and-Dining/Housing/Housing-Policies-and-Forms",
-          "quote": "The South Dakota Board of Regents (SDBOR) housing states that students must live and dine on campus for their first two years in college following high school graduation."
+          "quote": "The South Dakota Board of Regents (SDBOR) housing states that students must live and dine on campus for their first two years in college following high school graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usd.edu/Student-Life/Housing-and-Dining/Housing/Housing-Policies-and-Forms",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

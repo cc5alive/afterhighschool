@@ -10,9 +10,16 @@
         {
           "title": "Current Student Information - University of North Alabama",
           "url": "https://www.una.edu/honors/current-students/index.html",
-          "quote": "Students must maintain a cumulative 3.25 to remain on scholarship and have “Honors College” on their diploma and transcript. Adequate progress toward completion of Honors coursework. Students are required to take 18 honors hours over their time at UNA."
+          "quote": "Students must maintain a cumulative 3.25 to remain on scholarship and have “Honors College” on their diploma and transcript. Adequate progress toward completion of Honors coursework. Students are required to take 18 honors hours over their time at UNA.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.una.edu/honors/current-students/index.html",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "maintaining your scholarship and graduating with honors. students must maintain a cumulative 3.25 to remain on scholarship and have honors college on their diploma and transcript. adequate progress toward completion of honors coursework students are required to take 18 honors hours over their time at una. we actively encourage",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

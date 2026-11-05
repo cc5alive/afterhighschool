@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions - Columbus State University",
           "url": "https://www.columbusstate.edu/residence-life/frequently-asked-questions.php",
-          "quote": "All entering first year students must reside in on-campus housing operated by the university for two semesters (summer term does not apply)."
+          "quote": "All entering first year students must reside in on-campus housing operated by the university for two semesters (summer term does not apply).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.columbusstate.edu/residence-life/frequently-asked-questions.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

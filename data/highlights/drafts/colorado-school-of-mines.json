@@ -10,9 +10,13 @@
         {
           "title": "Estimated First Year 2026-2027 Cost of Attendance - Financial Aid",
           "url": "https://finaid.mines.edu/estimatedugcoa/",
-          "quote": "All first-year students are required to live on campus."
+          "quote": "All first-year students are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://finaid.mines.edu/estimatedugcoa/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

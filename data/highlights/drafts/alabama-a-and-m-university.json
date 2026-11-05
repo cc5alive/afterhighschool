@@ -10,9 +10,13 @@
         {
           "title": "Housing FAQs - Alabama A&M University",
           "url": "https://www.aamu.edu/campus-life/housing/housing-faq.html",
-          "quote": "All students residing in on-campus housing must participate in the University meal plan."
+          "quote": "All students residing in on-campus housing must participate in the University meal plan.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aamu.edu/campus-life/housing/housing-faq.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

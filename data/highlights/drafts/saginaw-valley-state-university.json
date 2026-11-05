@@ -10,9 +10,13 @@
         {
           "title": "Register for On-Campus Housing - Saginaw Valley State University",
           "url": "https://www.svsu.edu/livingoncampus/housing/contract/",
-          "quote": "Incoming freshmen (First Time in College - FTIC) and freshman transfer residents are required to be on a meal plan regardless of their room placement."
+          "quote": "Incoming freshmen (First Time in College - FTIC) and freshman transfer residents are required to be on a meal plan regardless of their room placement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.svsu.edu/livingoncampus/housing/contract/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

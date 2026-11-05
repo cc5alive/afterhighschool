@@ -10,9 +10,13 @@
         {
           "title": "ram parent university - frequently asked questions",
           "url": "https://www.asurams.edu/enrollment-management/studentsuccessand_new_studentprograms/ram-parent-university-faqs.php",
-          "quote": "Do freshmen have to live on campus their first year? No. ASU does not require freshmen to live on campus."
+          "quote": "Do freshmen have to live on campus their first year? No. ASU does not require freshmen to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.asurams.edu/enrollment-management/studentsuccessand_new_studentprograms/ram-parent-university-faqs.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

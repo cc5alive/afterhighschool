@@ -10,9 +10,13 @@
         {
           "title": "Rates | NMU Housing and Residence Life",
           "url": "https://nmu.edu/housing/rates",
-          "quote": "Most freshman and sophomore students are required to live in a residence hall, unless they meet the qualifications to live off-campus, in an apartment, or in married/family housing."
+          "quote": "Most freshman and sophomore students are required to live in a residence hall, unless they meet the qualifications to live off-campus, in an apartment, or in married/family housing.",
+          "httpStatus": 200,
+          "finalUrl": "https://nmu.edu/housing/rates",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

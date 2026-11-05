@@ -10,9 +10,15 @@
         {
           "title": "Office of Admissions | UNCSA",
           "url": "https://www.uncsa.edu/bulletin/2025-2026/high-school/admissions.pdf",
-          "quote": "Admission to the University of North Carolina School of the Arts is based on demonstrated talent, achievement and career potential. Faculty members of the school to which the applicant is applying assess these areas at the audition and/or interview."
+          "quote": "Admission to the University of North Carolina School of the Arts is based on demonstrated talent, achievement and career potential. Faculty members of the school to which the applicant is applying assess these areas at the audition and/or interview.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uncsa.edu/bulletin/2025-2026/high-school/admissions.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

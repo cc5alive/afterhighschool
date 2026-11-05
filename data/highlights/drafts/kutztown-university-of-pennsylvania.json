@@ -27,9 +27,13 @@
         {
           "title": "New to KU - Kutztown University",
           "url": "https://www.kutztown.edu/about-ku/administrative-offices/residence-life-housing-and-dining-services/housing-information-and-residence-halls/new-to-ku.html",
-          "quote": "Kutztown University requires full-time undergraduate students to reside in university-operated housing for their first two years unless they meet certain criteria for exemption."
+          "quote": "Kutztown University requires full-time undergraduate students to reside in university-operated housing for their first two years unless they meet certain criteria for exemption.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kutztown.edu/about-ku/administrative-offices/residence-life-housing-and-dining-services/housing-information-and-residence-halls/new-to-ku.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

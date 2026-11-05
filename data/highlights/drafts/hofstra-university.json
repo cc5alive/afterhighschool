@@ -10,9 +10,14 @@
         {
           "title": "Accelerated Programs - Graduate Admission - Hofstra University",
           "url": "https://www.hofstra.edu/admission/graduate-admission/accelerated-programs/",
-          "quote": "Students can double count a range of 9-15 credits of graduate courses toward the undergraduate and graduate portion of the accelerated program."
+          "quote": "Students can double count a range of 9-15 credits of graduate courses toward the undergraduate and graduate portion of the accelerated program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hofstra.edu/admission/graduate-admission/accelerated-programs/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

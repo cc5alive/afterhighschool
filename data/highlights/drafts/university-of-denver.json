@@ -10,9 +10,15 @@
         {
           "title": "International Student Admission Response Form - University of Denver",
           "url": "https://www.du.edu/_assets/documents/uga/responseform.pdf",
-          "quote": "I understand that I am required to live on-campus for two years or until I am 21 years old."
+          "quote": "I understand that I am required to live on-campus for two years or until I am 21 years old.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.du.edu/_assets/documents/uga/responseform.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

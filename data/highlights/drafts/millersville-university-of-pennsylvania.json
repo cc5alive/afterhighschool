@@ -10,9 +10,13 @@
         {
           "title": "Living On Campus Guide - Millersville University",
           "url": "https://www.millersville.edu/housing/living-on-campus-guide.php",
-          "quote": "However, students who have not completed 60-credit hours are required to live on campus for the full term of their housing agreement."
+          "quote": "However, students who have not completed 60-credit hours are required to live on campus for the full term of their housing agreement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.millersville.edu/housing/living-on-campus-guide.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
