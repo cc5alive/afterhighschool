@@ -32,7 +32,10 @@ import statusFile from '../../data/school-status.json';
 
 // Closed, closing, merged or changed schools (see data/school-status.json).
 export const schoolStatus = new Map(Object.entries(statusFile.schools));
-const isListed = (s) => schoolStatus.get(s.slug)?.listed !== false;
+// Graduate-only schools (no undergraduates reported) keep a page but aren't listed or indexed:
+// this site is for people choosing where to go after high school.
+export const gradOnly = (s) => !s.undergrads;
+const isListed = (s) => schoolStatus.get(s.slug)?.listed !== false && !gradOnly(s);
 
 // Every school gets a page; `schools` (used by lists, the directory and the sitemap) leaves out unlisted ones.
 export const allSchools = snapshot.schools.map(enrich);

@@ -190,3 +190,8 @@
   .stat-grid { grid-template-columns: 1fr; gap: 16px; }
   .card-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 8px; }
 }
+
+/* A-to-Z school list on state pages */
+.az-list { list-style: none; padding: 0; margin: 0; columns: 2 18em; column-gap: 32px; }
+.az-list li { break-inside: avoid; padding: 5px 0; border-bottom: 1px solid var(--rule); }
+.az-list span { color: var(--muted); font-size: 0.85rem; }

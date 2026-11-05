@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Stat from '../../components/Stat.astro';
-import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug } from '../../lib/data.js';
+import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug, gradOnly } from '../../lib/data.js';
 import {
   pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
   INCOME_BAND_LABEL, admitRateText, scorecardUrl
@@ -59,7 +59,7 @@ const jsonLd = {
 const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
 ---
 <Layout title={`${s.name} — admissions, cost and outcomes | After High School`} description={description}
-  path={`/college/${s.slug}`} nav="colleges" noindex={!COLLEGES_LAUNCHED || status?.listed === false} jsonLd={jsonLd}>
+  path={`/college/${s.slug}`} nav="colleges" noindex={!COLLEGES_LAUNCHED || status?.listed === false || gradOnly(s)} jsonLd={jsonLd}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb">
       <a href="/colleges">Colleges</a> <span aria-hidden="true">/</span>
@@ -73,7 +73,7 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
       <p class="school-links">
         {site && <a class="button" href={site} rel="noopener" target="_blank">School website</a>}
         {calc && <a class="button secondary" href={calc} rel="noopener" target="_blank">Net price calculator</a>}
-        {status?.listed !== false && <a class="button secondary" href={`/compare?schools=${s.slug}`}>Compare</a>}
+        {status?.listed !== false && !gradOnly(s) && <a class="button secondary" href={`/compare?schools=${s.slug}`}>Compare</a>}
       </p>
     </header>
 
@@ -83,6 +83,12 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
         <p>{status.text}</p>
         {statusRelated && <p><a href={`/college/${statusRelated.slug}`}>See {statusRelated.name}</a></p>}
         <p class="status-src">Source{status.sources.length > 1 ? 's' : ''}: {status.sources.map((x, i) => <>{i > 0 && ', '}<a href={x.url} rel="nofollow noopener">{x.title}</a></>)}. Checked {statusChecked}.</p>
+      </aside>
+    )}
+
+    {gradOnly(s) && !status && (
+      <aside class="notice">
+        <strong>Graduate students only.</strong> This school doesn't report any undergraduates to the federal government, so it isn't a place to start right after high school.
       </aside>
     )}
 

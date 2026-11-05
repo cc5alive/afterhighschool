@@ -12,7 +12,8 @@ export function getStaticPaths() {
       title: `Colleges in ${st.name}`,
       intro: `All ${st.count} four-year colleges in ${st.name}, with admit rates, real costs and outcomes from federal data.`,
       preset: { state: st.code },
-      list: schools.filter((s) => s.state === st.code)
+      list: schools.filter((s) => s.state === st.code),
+      stateName: st.name
     }
   }));
   const optional = schools.filter((s) => ['considered_not_required', 'not_considered'].includes(s.testPolicy));
@@ -40,7 +41,8 @@ export function getStaticPaths() {
   ];
 }
 
-const { title, intro, preset, list } = Astro.props;
+const { title, intro, preset, list, stateName } = Astro.props;
+const az = stateName ? [...list].sort((a, b) => a.name.localeCompare(b.name)) : [];
 const path = `/colleges/${Astro.params.list}`;
 ---
 <Layout title={`${title} | After High School`} description={intro} path={path} nav="colleges" noindex={!COLLEGES_LAUNCHED}>
@@ -51,4 +53,12 @@ const path = `/colleges/${Astro.params.list}`;
     <p>Data from College Scorecard, last pulled {pulledDate}.</p>
   </section>
   <Directory initial={list.slice(0, 50)} total={list.length} preset={preset} />
+  {stateName && (
+    <section class="block" aria-labelledby="az">
+      <h2 id="az">Every college in {stateName}, A to Z</h2>
+      <ul class="az-list">
+        {az.map((s) => <li><a href={`/college/${s.slug}`}>{s.name}</a> <span>{s.city}</span></li>)}
+      </ul>
+    </section>
+  )}
 </Layout>
