@@ -10,9 +10,13 @@
         {
           "title": "Special Academic Programs < Haverford College",
           "url": "https://catalog.haverford.edu/academic-regulations/special-academic-programs/",
-          "quote": "In addition to the cooperative agreement with Bryn Mawr and Swarthmore, Haverford has made arrangements with the University of Pennsylvania, and full-time Haverford students are permitted to have library privileges and, upon presentation of the proper credentials, to enroll for courses there without added expense."
+          "quote": "In addition to the cooperative agreement with Bryn Mawr and Swarthmore, Haverford has made arrangements with the University of Pennsylvania, and full-time Haverford students are permitted to have library privileges and, upon presentation of the proper credentials, to enroll for courses there without added expense.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.haverford.edu/academic-regulations/special-academic-programs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

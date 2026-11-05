@@ -10,9 +10,15 @@
         {
           "title": "2025-26 Graduate Program Handbook - Spanish and Portuguese",
           "url": "https://www.spanport.ucsb.edu/media/221",
-          "quote": "UCSB is on a quarter system and each quarter is 10 weeks long."
+          "quote": "UCSB is on a quarter system and each quarter is 10 weeks long.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.spanport.ucsb.edu/sites/default/files/2025-09/2025-26%20Graduate%20Program%20Handbook.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Students who live in residence halls for two years are guaranteed university apartment housing for their junior and senior years.",
@@ -20,9 +26,13 @@
         {
           "title": "Housing, Dining & Auxiliary Enterprises - UC Santa Barbara",
           "url": "https://my.sa.ucsb.edu/catalog/2020-2021/CampusInfo/Housing.aspx",
-          "quote": "Students who live in the residence halls for two years are guaranteed housing in the UCSB apartments for their third and fourth years as long as they meet all"
+          "quote": "Students who live in the residence halls for two years are guaranteed housing in the UCSB apartments for their third and fourth years as long as they meet all",
+          "httpStatus": 200,
+          "finalUrl": "https://my.sa.ucsb.edu/catalog/2020-2021/CampusInfo/Housing.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Promise Scholar program awards $125,000 in grants and scholarships to first-year students over four years and $60,000 to transfer students over two years.",
@@ -30,9 +40,13 @@
         {
           "title": "About | Promise Scholars - UC Santa Barbara",
           "url": "https://promisescholars.sa.ucsb.edu/about",
-          "quote": "The Promise Scholar program offers $125,000 in grants and scholarships (including Pell Grant and Cal Grant) to first-year students over four years and $60,000 to transfer students over two years."
+          "quote": "The Promise Scholar program offers $125,000 in grants and scholarships (including Pell Grant and Cal Grant) to first-year students over four years and $60,000 to transfer students over two years.",
+          "httpStatus": 200,
+          "finalUrl": "https://promisescholars.sa.ucsb.edu/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

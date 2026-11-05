@@ -27,9 +27,13 @@
         {
           "title": "Tuition & Financial Aid - Worcester - College of the Holy Cross",
           "url": "https://www.holycross.edu/admissions-aid/tuition-financial-aid",
-          "quote": "We're committed to meeting 100% of demonstrated need at the time of admission for all accepted students."
+          "quote": "We're committed to meeting 100% of demonstrated need at the time of admission for all accepted students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.holycross.edu/admissions-aid/tuition-financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

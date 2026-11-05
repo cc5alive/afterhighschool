@@ -10,9 +10,13 @@
         {
           "title": "Immersive Curriculum | Babson College",
           "url": "https://www.babson.edu/about/our-approach/immersive-curriculum/",
-          "quote": "Required in the third or fourth year, these experiential learning courses include applied projects at companies and nonprofits."
+          "quote": "Required in the third or fourth year, these experiential learning courses include applied projects at companies and nonprofits.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.babson.edu/about/our-approach/immersive-curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

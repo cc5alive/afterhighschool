@@ -10,9 +10,13 @@
         {
           "title": "CSER FAQs | LU Serve - Liberty University",
           "url": "https://www.liberty.edu/osd/lu-serve/cser/faq/",
-          "quote": "All residential undergraduate students are required to earn one CSER credit for each fall and spring semester they are enrolled full-time, up to a maximum of eight semesters."
+          "quote": "All residential undergraduate students are required to earn one CSER credit for each fall and spring semester they are enrolled full-time, up to a maximum of eight semesters.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.liberty.edu/osd/lu-serve/cser/faq/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

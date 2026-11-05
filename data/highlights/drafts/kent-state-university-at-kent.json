@@ -10,14 +10,24 @@
         {
           "title": "Flashes Go Further Scholarship Program - Kent State University",
           "url": "https://www.kent.edu/fbe-center/flashes-go-further-scholarship-program",
-          "quote": "The Flashes Go Further Scholarship helps make free tuition possible by covering the gap between your grants and scholarships and the full cost of tuition."
+          "quote": "The Flashes Go Further Scholarship helps make free tuition possible by covering the gap between your grants and scholarships and the full cost of tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kent.edu/fbe-center/flashes-go-further-scholarship-program",
+          "quoteFound": true
         },
         {
           "title": "Flashes Go Further Scholarship Program - Kent State University",
           "url": "https://www.kent.edu/fbe-center/flashes-go-further-scholarship-program",
-          "quote": "Submit the FAFSA annually with a total family income of $75,000 or less."
+          "quote": "Submit the FAFSA annually with a total family income of $75,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kent.edu/fbe-center/flashes-go-further-scholarship-program",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "you must meet satisfactory academic progress standards submit the fafsa annually with a total family income of $75,000 or less a family income",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

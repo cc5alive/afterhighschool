@@ -10,9 +10,13 @@
         {
           "title": "Connected Campus: TCU to be Home Sweet Home to More Students",
           "url": "https://www.tcu.edu/news/2025/connected-campus-tcu-to-be-home-sweet-home-to-more-students.php",
-          "quote": "Housing & Residence Life wants first- and second-year Horned Frogs to call campus home, even if just for a couple of years."
+          "quote": "Housing & Residence Life wants first- and second-year Horned Frogs to call campus home, even if just for a couple of years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tcu.edu/news/2025/connected-campus-tcu-to-be-home-sweet-home-to-more-students.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

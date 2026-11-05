@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Housing - Wesleyan University",
           "url": "https://www.wesleyan.edu/reslife/ugrad_housing/",
-          "quote": "Undergraduate students are required to live on campus all four years."
+          "quote": "Undergraduate students are required to live on campus all four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wesleyan.edu/reslife/ugrad_housing/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

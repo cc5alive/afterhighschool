@@ -10,9 +10,13 @@
         {
           "title": "Housing Selection | Colgate University",
           "url": "https://www.colgate.edu/student-life/housing-and-dining/student-housing/housing-selection",
-          "quote": "We're committed to a residential learning environment that requires and guarantees on-campus student housing for all four years."
+          "quote": "We're committed to a residential learning environment that requires and guarantees on-campus student housing for all four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.colgate.edu/student-life/housing-and-dining/student-housing/housing-selection",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "In Colgate's Core Curriculum, students take Core Conversations, a course centered on five shared texts across cultures and eras.",
@@ -20,9 +24,13 @@
         {
           "title": "Core Curriculum | Colgate University",
           "url": "https://www.colgate.edu/academics/core-curriculum",
-          "quote": "Core Conversations is a course focused on five shared texts — defined broadly to include diverse intellectual and creative expressions across cultures and time periods"
+          "quote": "Core Conversations is a course focused on five shared texts — defined broadly to include diverse intellectual and creative expressions across cultures and time periods",
+          "httpStatus": 200,
+          "finalUrl": "https://www.colgate.edu/academics/core-curriculum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All first-year and sophomore students live within their assigned Residential Commons.",
@@ -30,9 +38,13 @@
         {
           "title": "Residence Halls | Colgate University",
           "url": "https://www.colgate.edu/student-life/housing-and-dining/student-housing/residence-halls",
-          "quote": "Throughout the first two years on campus, students live within the living and learning community of their Residential Commons."
+          "quote": "Throughout the first two years on campus, students live within the living and learning community of their Residential Commons.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.colgate.edu/student-life/housing-and-dining/student-housing/residence-halls",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

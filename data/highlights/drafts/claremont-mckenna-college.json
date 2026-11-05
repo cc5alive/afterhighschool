@@ -10,9 +10,13 @@
         {
           "title": "Senior Thesis | Claremont McKenna College",
           "url": "https://www.cmc.edu/registrar/thesis",
-          "quote": "The Senior Thesis is your final general education requirement and the capstone of your undergraduate career."
+          "quote": "The Senior Thesis is your final general education requirement and the capstone of your undergraduate career.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cmc.edu/registrar/thesis",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

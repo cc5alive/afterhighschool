@@ -10,9 +10,16 @@
         {
           "title": "Bridge to Clemson Program",
           "url": "https://www.clemson.edu/admissions/undergraduate-admissions/bridge-to-clemson/",
-          "quote": "The Bridge to Clemson program is a selective academic transfer program offered by invitation only to talented first-year students."
+          "quote": "The Bridge to Clemson program is a selective academic transfer program offered by invitation only to talented first-year students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.clemson.edu/admissions/undergraduate-admissions/bridge-to-clemson/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "to the bridge to clemson program! the bridge to clemson program (bridge program) is a selective academic transfer program offered by invitation only to academically talented first-year students. becoming",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Students participating in the Bridge to Clemson program are guaranteed on-campus housing.",
@@ -20,9 +27,13 @@
         {
           "title": "Bridge to Clemson Student Housing Guide",
           "url": "https://www.clemson.edu/housing-dining/apply-for-housing/academic-year/bridge-to-clemson.html",
-          "quote": "Housing is guaranteed for Bridge to Clemson students."
+          "quote": "Housing is guaranteed for Bridge to Clemson students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.clemson.edu/housing-dining/apply-for-housing/academic-year/bridge-to-clemson.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

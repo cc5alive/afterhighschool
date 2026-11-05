@@ -10,9 +10,16 @@
         {
           "title": "Quick Facts ← Admission ← Vassar College",
           "url": "https://www.vassar.edu/admission/quick-facts/",
-          "quote": "Housing is guaranteed for all four years. 97% of students live on campus."
+          "quote": "Housing is guaranteed for all four years. 97% of students live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.vassar.edu/admission/quick-facts/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "more about diversity and inclusion residential life housing is guaranteed for all four years 97% of students live on campus vassar does not",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Maintaining WUE eligibility | Admission | ASU",
           "url": "https://admission.asu.edu/cost-aid/wue/maintaining-eligibility",
-          "quote": "Beginning with students admitted for fall 2026, ASU will no longer participate in the WUE program."
+          "quote": "Beginning with students admitted for fall 2026, ASU will no longer participate in the WUE program.",
+          "httpStatus": 200,
+          "finalUrl": "https://admission.asu.edu/cost-aid/wue/maintaining-eligibility",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

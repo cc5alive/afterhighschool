@@ -10,9 +10,16 @@
         {
           "title": "Associate in Arts Program | College of Arts & Sciences",
           "url": "https://www.udel.edu/academics/colleges/cas/units/associate-in-arts-program/",
-          "quote": "The University of Delaware Associate in Arts Program (AAP) is a two-year degree program that offers UD courses, taught exclusively by UD faculty, in small"
+          "quote": "The University of Delaware Associate in Arts Program (AAP) is a two-year degree program that offers UD courses, taught exclusively by UD faculty, in small",
+          "httpStatus": 200,
+          "finalUrl": "https://www.udel.edu/academics/colleges/cas/units/associate-in-arts-program/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "visit us > aap is your pathway to a ud degree the associate in arts program (aap) is a two-year degree program that offers ud courses - taught exclusively by ud faculty - in small",
+          "closestScore": 0.88
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

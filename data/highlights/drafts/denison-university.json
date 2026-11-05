@@ -10,9 +10,13 @@
         {
           "title": "Liberal arts students: what you need to know from day #1",
           "url": "https://denison.edu/campus/president/speeches/77893",
-          "quote": "A residential college is a once-in-a-lifetime experience. We expect you to be part of the campus community, to contribute to it actively, and to be shaped by it."
+          "quote": "A residential college is a once-in-a-lifetime experience. We expect you to be part of the campus community, to contribute to it actively, and to be shaped by it.",
+          "httpStatus": 200,
+          "finalUrl": "https://denison.edu/campus/president/speeches/77893",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

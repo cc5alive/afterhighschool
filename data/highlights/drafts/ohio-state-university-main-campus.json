@@ -10,9 +10,13 @@
         {
           "title": "Disability Accommodations - Housing and Residence Education",
           "url": "https://housing.osu.edu/incoming-students",
-          "quote": "All unmarried, full-time students within two years of high school graduation must live on campus, unless exempted, space is no longer available, or they are living with family."
+          "quote": "All unmarried, full-time students within two years of high school graduation must live on campus, unless exempted, space is no longer available, or they are living with family.",
+          "httpStatus": 200,
+          "finalUrl": "https://housing.osu.edu/incoming-students",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

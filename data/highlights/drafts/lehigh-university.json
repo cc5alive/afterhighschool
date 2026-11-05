@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions Regarding Fraternity & Sorority Housing",
           "url": "https://auxiliaryservices.lehigh.edu/fraternity-sorority-housing/frequently-asked-questions-regarding-fraternity-sorority-housing",
-          "quote": "All second-year students are required to live on campus."
+          "quote": "All second-year students are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://auxiliaryservices.lehigh.edu/fraternity-sorority-housing/frequently-asked-questions-regarding-fraternity-sorority-housing",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

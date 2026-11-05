@@ -10,9 +10,13 @@
         {
           "title": "Finish in Four/Through in Two | California State University Long Beach",
           "url": "https://www.csulb.edu/finish-fourthrough-two",
-          "quote": "Guaranteed Course Availability (Students should not waitlist courses)"
+          "quote": "Guaranteed Course Availability (Students should not waitlist courses)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csulb.edu/finish-fourthrough-two",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

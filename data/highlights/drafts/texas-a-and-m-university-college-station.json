@@ -10,9 +10,13 @@
         {
           "title": "Corps of Cadets Scholarships | Aggie One Stop",
           "url": "https://aggie.tamu.edu/paying-for-college/apply-for-scholarships/corps-of-cadets-scholarships.html",
-          "quote": "Corps of Cadets scholarships range in value from $1,000 to $17,000 and carry no military obligation."
+          "quote": "Corps of Cadets scholarships range in value from $1,000 to $17,000 and carry no military obligation.",
+          "httpStatus": 200,
+          "finalUrl": "https://aggie.tamu.edu/paying-for-college/apply-for-scholarships/corps-of-cadets-scholarships.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

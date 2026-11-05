@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions | Admission - Bates College",
           "url": "https://www.bates.edu/admission/apply/frequently-asked-questions/",
-          "quote": "On-campus housing is guaranteed for four years for all Bates students."
+          "quote": "On-campus housing is guaranteed for four years for all Bates students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bates.edu/admission/apply/frequently-asked-questions/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Housing + Dining - Future Students - San Francisco State University",
           "url": "https://future.sfsu.edu/housing-dining",
-          "quote": "SFSU guarantees housing for our first-time freshmen and international students."
+          "quote": "SFSU guarantees housing for our first-time freshmen and international students.",
+          "httpStatus": 200,
+          "finalUrl": "https://future.sfsu.edu/housing-dining",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

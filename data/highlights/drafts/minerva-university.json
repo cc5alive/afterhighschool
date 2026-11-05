@@ -10,9 +10,13 @@
         {
           "title": "Four Year Curriculum - Minerva University",
           "url": "https://www.minerva.edu/four-year-curriculum",
-          "quote": "Your first year is structured around four Cornerstone courses that lay a foundation in the four core competencies that every Minerva student develops"
+          "quote": "Your first year is structured around four Cornerstone courses that lay a foundation in the four core competencies that every Minerva student develops",
+          "httpStatus": 200,
+          "finalUrl": "https://www.minerva.edu/four-year-curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

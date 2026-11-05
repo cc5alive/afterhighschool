@@ -10,9 +10,14 @@
         {
           "title": "Campus Life - Davidson College",
           "url": "https://catalog.davidson.edu/content.php?catoid=13&navoid=446",
-          "quote": "As a four-year residential college community, Davidson students are required to live on-campus all four years."
+          "quote": "As a four-year residential college community, Davidson students are required to live on-campus all four years.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.davidson.edu/content.php?catoid=13&navoid=446",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

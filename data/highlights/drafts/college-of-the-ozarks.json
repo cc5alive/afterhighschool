@@ -10,9 +10,13 @@
         {
           "title": "Vocational | Pillars | Work Education | Work For Tuition College",
           "url": "https://www.cofo.edu/Pillars/Vocational",
-          "quote": "Every full-time student at College of the Ozarks receives a Tuition Assurance scholarship, meaning students do not pay tuition for their academic coursework."
+          "quote": "Every full-time student at College of the Ozarks receives a Tuition Assurance scholarship, meaning students do not pay tuition for their academic coursework.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cofo.edu/Pillars/Vocational",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions | Watauga Residential College",
           "url": "https://watauga.appstate.edu/about/faq",
-          "quote": "Students live in the same residence hall, the Living Learning Center (LLC), take many of their classes there, and share meals with each other and with their faculty."
+          "quote": "Students live in the same residence hall, the Living Learning Center (LLC), take many of their classes there, and share meals with each other and with their faculty.",
+          "httpStatus": 200,
+          "finalUrl": "https://watauga.appstate.edu/about/faq",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

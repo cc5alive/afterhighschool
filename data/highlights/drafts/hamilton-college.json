@@ -10,9 +10,16 @@
         {
           "title": "Community Living - Hamilton College",
           "url": "https://www.hamilton.edu/student-handbook/communityliving/residential-life-policies-and-procedures",
-          "quote": "As a residential college, Hamilton expects all students to live in College housing and participate in the College Board plan each of their four years."
+          "quote": "As a residential college, Hamilton expects all students to live in College housing and participate in the College Board plan each of their four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hamilton.edu/student-handbook/communityliving/residential-life-policies-and-procedures",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "anti-hazing policy demonstration and protest policy freedom of expression/maintenance of public order as a residential college, hamilton requires all students to live in college housing and participate in the college board plan while enrolled. individuals",
+          "closestScore": 0.71
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Every academic concentration at Hamilton includes a required Senior Project.",
@@ -20,9 +27,13 @@
         {
           "title": "Open Curriculum - Hamilton College",
           "url": "https://www.hamilton.edu/academics/open-curriculum/open-curriculum",
-          "quote": "Each concentration includes a Senior Project."
+          "quote": "Each concentration includes a Senior Project.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hamilton.edu/academics/open-curriculum/open-curriculum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

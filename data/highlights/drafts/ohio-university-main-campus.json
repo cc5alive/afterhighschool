@@ -10,9 +10,14 @@
         {
           "title": "Services for Students - Ohio University",
           "url": "https://www.catalogs.ohio.edu/content.php?catoid=107&navoid=11957",
-          "quote": "The Ohio University housing requirement states that students must reside on campus for their first two years of academic study"
+          "quote": "The Ohio University housing requirement states that students must reside on campus for their first two years of academic study",
+          "httpStatus": 202,
+          "finalUrl": "https://www.catalogs.ohio.edu/content.php?catoid=107&navoid=11957",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

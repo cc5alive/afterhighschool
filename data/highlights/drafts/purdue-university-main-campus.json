@@ -10,9 +10,13 @@
         {
           "title": "Pre-Veterinary Medicine Major - Purdue Admissions",
           "url": "https://admissions.purdue.edu/majors/pre-veterinary-medicine/",
-          "quote": "Purdue admits to individual majors."
+          "quote": "Purdue admits to individual majors.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.purdue.edu/majors/pre-veterinary-medicine/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

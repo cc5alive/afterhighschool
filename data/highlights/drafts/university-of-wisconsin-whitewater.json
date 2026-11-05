@@ -10,9 +10,16 @@
         {
           "title": "Tuition | University of Wisconsin-Whitewater",
           "url": "https://www.uww.edu/admissions/tuition",
-          "quote": "The textbook rental program covers 95% of course materials."
+          "quote": "The textbook rental program covers 95% of course materials.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uww.edu/admissions/tuition",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "you academically and socially. what makes uw-whitewater the best value? the textbook rental program covers 95% of course materials",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

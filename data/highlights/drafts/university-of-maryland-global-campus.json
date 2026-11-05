@@ -10,9 +10,13 @@
         {
           "title": "Transfers & Credits | UMGC",
           "url": "https://www.umgc.edu/transfers-and-credits",
-          "quote": "Transfer up to 90 credits from previous coursework toward your education at UMGC."
+          "quote": "Transfer up to 90 credits from previous coursework toward your education at UMGC.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umgc.edu/transfers-and-credits",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

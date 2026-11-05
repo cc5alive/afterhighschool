@@ -10,9 +10,13 @@
         {
           "title": "Policies | University Housing Services | Illinois State",
           "url": "https://housing.illinoisstate.edu/about/policies/",
-          "quote": "The University requires students to live in university housing their first two years out of high school."
+          "quote": "The University requires students to live in university housing their first two years out of high school.",
+          "httpStatus": 200,
+          "finalUrl": "https://housing.illinoisstate.edu/about/policies/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

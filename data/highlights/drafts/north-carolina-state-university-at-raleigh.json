@@ -10,9 +10,13 @@
         {
           "title": "Apply for Housing",
           "url": "https://housing.dasa.ncsu.edu/assignments/incoming-students/apply-for-housing/",
-          "quote": "New first-year students are required to live on-campus for their first two semesters."
+          "quote": "New first-year students are required to live on-campus for their first two semesters.",
+          "httpStatus": 200,
+          "finalUrl": "https://housing.dasa.ncsu.edu/assignments/incoming-students/apply-for-housing/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

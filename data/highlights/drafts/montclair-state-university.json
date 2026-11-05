@@ -10,14 +10,27 @@
         {
           "title": "Red Hawk Advantage Award - Inside Montclair",
           "url": "https://inside.montclair.edu/resources/red-hawk-central/financial-aid-office/grants-and-scholarships/red-hawk-advantage-award",
-          "quote": "The Red Hawk Advantage Award provides up to four semesters of free tuition and fees to eligible New Jersey students at Montclair State University or Bloomfield"
+          "quote": "The Red Hawk Advantage Award provides up to four semesters of free tuition and fees to eligible New Jersey students at Montclair State University or Bloomfield",
+          "httpStatus": 200,
+          "finalUrl": "https://inside.montclair.edu/resources/red-hawk-central/financial-aid-office/grants-and-scholarships/red-hawk-advantage-award",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "red hawk advantage (rha) award provides eligible new jersey students with financial assistance toward tuition and mandatory fees for up to four semesters. the maximum rha award is based on montclair state university's published flat-rate tuition",
+          "closestScore": 0.9
         },
         {
           "title": "Red Hawk Advantage Award - Inside Montclair",
           "url": "https://inside.montclair.edu/resources/red-hawk-central/financial-aid-office/grants-and-scholarships/red-hawk-advantage-award",
-          "quote": "If your family's Adjusted Gross Income (AGI) is between $0 and $65,000 and your high school GPA is 3.0 or higher, you may qualify."
+          "quote": "If your family's Adjusted Gross Income (AGI) is between $0 and $65,000 and your high school GPA is 3.0 or higher, you may qualify.",
+          "httpStatus": 200,
+          "finalUrl": "https://inside.montclair.edu/resources/red-hawk-central/financial-aid-office/grants-and-scholarships/red-hawk-advantage-award",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "who is eligible students must: be a new jersey resident (including nj dream act students) complete the fafsa or nj alternative application meet all nj hesaa deadlines have an agi between $0 and $65,000",
+          "closestScore": 0.29
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

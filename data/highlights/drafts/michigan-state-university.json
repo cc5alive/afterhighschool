@@ -10,9 +10,13 @@
         {
           "title": "Transfer next steps | Transfer admits - MSU Admissions",
           "url": "https://admissions.msu.edu/admitted/transfer-reserve-your-place",
-          "quote": "Transfer students have been waived from the two-year live-on requirement for 2027-28 and will not be required to live on campus."
+          "quote": "Transfer students have been waived from the two-year live-on requirement for 2027-28 and will not be required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.msu.edu/admitted/transfer-reserve-your-place",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
