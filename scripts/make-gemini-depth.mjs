@@ -1,10 +1,12 @@
 // Writes docs/gemini-v3/: prompt files asking Gemini for MORE "What's special" facts for the
 // most-searched schools, listing the facts each school already has so Gemini doesn't repeat them.
 // Usage: node scripts/make-gemini-depth.mjs [schoolCount=500] [perFile=50]
+//        node scripts/make-gemini-depth.mjs --redo <name> <slug,slug,...>   one file for just these schools
 import fs from 'node:fs';
 
-const COUNT = Number(process.argv[2] || 500);
-const PER = Number(process.argv[3] || 50);
+const REDO = process.argv[2] === '--redo' ? { name: process.argv[3], slugs: new Set(process.argv[4].split(',')) } : null;
+const COUNT = REDO ? Infinity : Number(process.argv[2] || 500);
+const PER = REDO ? 1e9 : Number(process.argv[3] || 50);
 const TARGET = 4;
 const OUT = 'docs/gemini-v3';
 
@@ -23,7 +25,7 @@ const ranked = schools
   .filter((s) => s.undergrads >= 500 && s.ownership !== 'private_for_profit' && !s.onlineOnly && !status[s.slug])
   .sort((a, b) => score(b) - score(a))
   .map((s) => ({ s, have: existing(s.slug) }))
-  .filter((x) => x.have.length < TARGET)
+  .filter((x) => x.have.length < TARGET && (!REDO || REDO.slugs.has(x.s.slug)))
   .slice(0, COUNT);
 
 const files = Math.ceil(ranked.length / PER);
@@ -42,6 +44,7 @@ for (let i = 0; i < files; i++) {
     .replaceAll('{{COUNT}}', String(chunk.length))
     .replaceAll('{{BATCH}}', String(i + 1))
     .replaceAll('{{TOTAL}}', String(files));
-  fs.writeFileSync(`${OUT}/file-${String(i + 1).padStart(2, '0')}.md`, `${body}\n${list}\n`);
+  const name = REDO ? REDO.name : `file-${String(i + 1).padStart(2, '0')}`;
+  fs.writeFileSync(`${OUT}/${name}.md`, `${(REDO ? body.replace(/ \(file \d+ of \d+\)/, '') : body)}\n${list}\n`);
 }
 console.log(`${ranked.length} schools in ${files} files; ${ranked.filter((x) => !x.have.length).length} have no facts yet.`);
