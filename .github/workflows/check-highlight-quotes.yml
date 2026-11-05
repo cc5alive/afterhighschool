@@ -3,19 +3,24 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['data/highlights/drafts/*.json', 'scripts/check-highlight-quotes.mjs']
+    paths: ['data/highlights/drafts/*.json', 'scripts/check-highlight-quotes.mjs', 'scripts/check-quotes-browser.mjs']
 permissions:
   contents: write
 concurrency: { group: quote-check, cancel-in-progress: false }
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: node scripts/check-highlight-quotes.mjs
+      - name: Browser pass for quotes a plain fetch couldn't confirm
+        run: |
+          npm install --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
+          node scripts/check-quotes-browser.mjs
       - run: cat data/highlights/drafts/_quote-check.md | head -12 >> "$GITHUB_STEP_SUMMARY"
       - name: Commit results
         run: |
