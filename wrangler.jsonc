@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "afterhighschool",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "not_found_handling": "404-page"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "afterhighschool-waitlist",
+      "database_id": "8e181143-56f8-4d33-acde-d5aba63ffc76"
+    }
+  ],
+  "routes": [
+    { "pattern": "afterhighschool.me", "custom_domain": true },
+    { "pattern": "www.afterhighschool.me", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}

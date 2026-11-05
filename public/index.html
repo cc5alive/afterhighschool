@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>After High School — every path, with the real numbers</title>
+  <meta name="description" content="A free, honest guide to what comes after high school: your real college admission chances, plus trade schools, apprenticeships, gap years and fellowships. Every number linked to its source.">
+  <link rel="canonical" href="https://afterhighschool.me/">
+  <meta property="og:title" content="After High School">
+  <meta property="og:description" content="Every path after high school, with the real numbers. Join the waitlist.">
+  <meta property="og:url" content="https://afterhighschool.me/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#16233B">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800;900&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="/">afterhighschool<span class="tld">.me</span></a>
+    <a class="header-link" href="#join">Join the waitlist</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Every road out of high school, with the real numbers.</h1>
+        <p class="lede">See your honest chances at any US college, and compare them side by side with trade schools, apprenticeships, gap years and fellowships. Free, and every number links to where it came from.</p>
+
+        <form id="join" class="join" action="/api/waitlist" method="post" novalidate>
+          <label class="field">
+            <span class="field-label">Email</span>
+            <input type="email" name="email" autocomplete="email" required maxlength="254" placeholder="you@example.com">
+          </label>
+          <label class="field">
+            <span class="field-label">I'm a</span>
+            <select name="role">
+              <option value="student">Student</option>
+              <option value="parent">Parent or guardian</option>
+              <option value="counselor">Counselor or teacher</option>
+              <option value="other">Something else</option>
+            </select>
+          </label>
+          <label class="check">
+            <input type="checkbox" name="age13" value="yes" required>
+            <span>I'm 13 or older</span>
+          </label>
+          <div class="hp" aria-hidden="true">
+            <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          </div>
+          <button type="submit">Join the waitlist</button>
+          <p class="form-note">Just your email. We'll write when the calculator opens. No ads, and we never sell your information.</p>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
+      <figure class="map" aria-labelledby="map-caption">
+        <svg viewBox="0 0 680 440" role="img" aria-labelledby="map-title">
+          <title id="map-title">A route map: from graduation, six lines lead to college, trade school, apprenticeship, gap year, fellowship and teaching yourself.</title>
+          <g class="lines" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+            <path class="line l1" d="M60 202 H150 L302 50 H440"/>
+            <path class="line l2" d="M60 209 H153 L244 118 H440"/>
+            <path class="line l3" d="M60 216 H156 L186 186 H440"/>
+            <path class="line l4" d="M60 223 H156 L187 254 H440"/>
+            <path class="line l5" d="M60 230 H153 L245 322 H440"/>
+            <path class="line l6" d="M60 237 H150 L303 390 H440"/>
+          </g>
+          <g class="origin">
+            <rect x="44" y="190" width="32" height="60" rx="16"/>
+            <text x="38" y="282" class="st-origin">Graduation</text>
+          </g>
+          <g class="stations">
+            <circle class="s1" cx="440" cy="50" r="10"/>
+            <circle class="s2" cx="440" cy="118" r="10"/>
+            <circle class="s3" cx="440" cy="186" r="10"/>
+            <circle class="s4" cx="440" cy="254" r="10"/>
+            <circle class="s5" cx="440" cy="322" r="10"/>
+            <circle class="s6" cx="440" cy="390" r="10"/>
+          </g>
+          <g class="labels">
+            <text x="462" y="48" class="st-name">College</text>
+            <text x="462" y="66" class="st-sub">four-year and community</text>
+            <text x="462" y="116" class="st-name">Trade school</text>
+            <text x="462" y="134" class="st-sub">electrician, HVAC, nursing</text>
+            <text x="462" y="184" class="st-name">Apprenticeship</text>
+            <text x="462" y="202" class="st-sub">earn while you learn</text>
+            <text x="462" y="252" class="st-name">Gap year</text>
+            <text x="462" y="270" class="st-sub">travel, service, work</text>
+            <text x="462" y="320" class="st-name">Fellowship</text>
+            <text x="462" y="338" class="st-sub">Thiel, Palantir and more</text>
+            <text x="462" y="388" class="st-name">Teach yourself</text>
+            <text x="462" y="406" class="st-sub">courses, bootcamps, projects</text>
+          </g>
+        </svg>
+        <figcaption id="map-caption">College is one line on the map, not the whole map.</figcaption>
+      </figure>
+    </section>
+
+    <section class="promises" aria-labelledby="promises-title">
+      <h2 id="promises-title">What we promise</h2>
+      <dl>
+        <div>
+          <dt>Every number has a receipt.</dt>
+          <dd>Admit rates, test ranges and costs link straight to the federal data or the college's own filing they came from.</dd>
+        </div>
+        <div>
+          <dt>Your odds as an honest range.</dt>
+          <dd>We show how sure we are, and say so plainly when a school doesn't publish the data we'd need.</dd>
+        </div>
+        <div>
+          <dt>Nobody pays to rank higher.</dt>
+          <dd>Colleges can't buy a better spot, and we never sell student information to schools or advertisers.</dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Made in Los Angeles by CC Pearce and Young Chu. Questions or ideas: <a href="mailto:hello@afterhighschool.me">hello@afterhighschool.me</a></p>
+    <p><a href="/privacy">Privacy</a></p>
+  </footer>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>
