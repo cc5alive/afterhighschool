@@ -10,9 +10,13 @@
         {
           "title": "History | Fullerton Arboretum",
           "url": "https://arboretum.fullerton.edu/history.aspx",
-          "quote": "The Arboretum is located on 26 acres of CSU-owned land at the north end of the CSUF campus."
+          "quote": "The Arboretum is located on 26 acres of CSU-owned land at the north end of the CSUF campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://arboretum.fullerton.edu/history.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

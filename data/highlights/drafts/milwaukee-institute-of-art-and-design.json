@@ -10,9 +10,13 @@
         {
           "title": "Your Portfolio - Milwaukee Institute of Art and Design",
           "url": "https://www.miad.edu/admissions/your-portfolio",
-          "quote": "Your portfolio should contain 10-20 examples of your best and most recent work. Select works that demonstrate the depth and breadth of your creative experiences, and that highlight your ideas and conceptual ability as well as your skills."
+          "quote": "Your portfolio should contain 10-20 examples of your best and most recent work. Select works that demonstrate the depth and breadth of your creative experiences, and that highlight your ideas and conceptual ability as well as your skills.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.miad.edu/admissions/your-portfolio",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

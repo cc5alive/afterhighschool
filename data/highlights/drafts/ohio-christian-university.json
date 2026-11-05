@@ -10,9 +10,15 @@
         {
           "title": "Trail Guide - Ohio Christian University",
           "url": "https://info.ohiochristian.edu/TrailGuideFall.pdf",
-          "quote": "All spiritual formation attendances can be earned through chapel, Awaken, or Global Café. A total of 27 attendances must be recorded to successfully meet the requirement each semester."
+          "quote": "All spiritual formation attendances can be earned through chapel, Awaken, or Global Café. A total of 27 attendances must be recorded to successfully meet the requirement each semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://info.ohiochristian.edu/TrailGuideFall.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

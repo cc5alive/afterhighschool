@@ -10,9 +10,13 @@
         {
           "title": "Christian Emphasis - Sterling College",
           "url": "https://www.sterling.edu/about/christian-emphasis",
-          "quote": "Additionally, built into each one of our majors is a service project requirement. This project intentionally integrates the concept of servanthood with a student's academic discipline in order to develop and serve the community around them."
+          "quote": "Additionally, built into each one of our majors is a service project requirement. This project intentionally integrates the concept of servanthood with a student's academic discipline in order to develop and serve the community around them.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sterling.edu/about/christian-emphasis",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

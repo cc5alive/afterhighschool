@@ -10,9 +10,16 @@
         {
           "title": "Write What Gets Made - Academy of Art University",
           "url": "https://www.academyart.edu/news/write-what-gets-made/",
-          "quote": "At Academy of Art University: No standardized test scores required. No prior portfolio required. Open enrollment structure."
+          "quote": "At Academy of Art University: No standardized test scores required. No prior portfolio required. Open enrollment structure.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.academyart.edu/news/write-what-gets-made/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "real-world production. admissions requirements for film & tv writing degrees at academy of art university: no standardized test scores required no prior portfolio required open enrollment structure",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

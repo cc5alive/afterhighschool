@@ -10,9 +10,13 @@
         {
           "title": "Westminster Advantage Scholarship / Financial Aid / Admissions & Aid",
           "url": "https://www.westminster.edu/admissions/financial-aid/advantage-scholarship.cfm",
-          "quote": "Launched fall 2025, the Westminster Advantage allows eligible Pennsylvania students to receive a life-changing Westminster education without owing a single dollar for tuition."
+          "quote": "Launched fall 2025, the Westminster Advantage allows eligible Pennsylvania students to receive a life-changing Westminster education without owing a single dollar for tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.westminster.edu/admissions/financial-aid/advantage-scholarship.cfm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

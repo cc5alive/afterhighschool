@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://wbi.sonoma.edu/",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "wbi.sonoma.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f22c33cfb1ee8 performance and security by cloudflare privacy",
+          "closestScore": 0.15
         }
       ],
       "quoteVerified": false

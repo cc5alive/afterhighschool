@@ -10,9 +10,13 @@
         {
           "title": "Transfer Credit - LSUHSC School of Nursing",
           "url": "https://nursing.lsuhsc.edu/bsn/roadmap.aspx",
-          "quote": "The applicant must complete 37 hours of pre-requisite course work at any accredited college or university before applying to the School of Nursing."
+          "quote": "The applicant must complete 37 hours of pre-requisite course work at any accredited college or university before applying to the School of Nursing.",
+          "httpStatus": 200,
+          "finalUrl": "https://nursing.lsuhsc.edu/bsn/roadmap.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

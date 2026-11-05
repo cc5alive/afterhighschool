@@ -10,9 +10,16 @@
         {
           "title": "Central Way | Admission",
           "url": "https://central.edu/admission/central-way/",
-          "quote": "At Central, we guarantee that you'll graduate on time! In fact, we are so dedicated to ensuring that you finish on time that we'll cover an extra semester if you have to take one."
+          "quote": "At Central, we guarantee that you'll graduate on time! In fact, we are so dedicated to ensuring that you finish on time that we'll cover an extra semester if you have to take one.",
+          "httpStatus": 404,
+          "finalUrl": "https://central.edu/admission/central-way/",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "/ error 404 - page not found page not found we're sorry, that page can't be found. we may have moved that page to a new location or removed it from our site. find someone in the directory start over at the central homepage",
+          "closestScore": 0.18
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

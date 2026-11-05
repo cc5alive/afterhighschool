@@ -10,14 +10,21 @@
         {
           "title": "FAFSA, Financial Aid, Grants, Loans & Scholarships",
           "url": "https://www.brooklinecollege.edu/financial-aid/",
-          "quote": "This merit-based scholarship is available for students enrolled in the BSN program at Brookline College who do not reside in Arizona and who have earned a score of 64 or above on the TEAS entrance test"
+          "quote": "This merit-based scholarship is available for students enrolled in the BSN program at Brookline College who do not reside in Arizona and who have earned a score of 64 or above on the TEAS entrance test",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brooklinecollege.edu/financial-aid/",
+          "quoteFound": true
         },
         {
           "title": "FAFSA, Financial Aid, Grants, Loans & Scholarships",
           "url": "https://www.brooklinecollege.edu/financial-aid/",
-          "quote": "The scholarship is awarded at $2,225 per full-time semester (12+ credits), up to $20,025. Students must remain continuously enrolled full-time and meet Satisfactory Academic Progress standards."
+          "quote": "The scholarship is awarded at $2,225 per full-time semester (12+ credits), up to $20,025. Students must remain continuously enrolled full-time and meet Satisfactory Academic Progress standards.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brooklinecollege.edu/financial-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

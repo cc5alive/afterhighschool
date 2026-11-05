@@ -10,9 +10,13 @@
         {
           "title": "Pierce Promise - NH Free Tuition Program - Franklin Pierce University",
           "url": "https://franklinpierce.edu/admissions/tuition-fees-financial-aid/piercepromise.html",
-          "quote": "Through the Pierce Promise, residents meeting the following criteria are eligible for free tuition and fees toward their undergraduate degree."
+          "quote": "Through the Pierce Promise, residents meeting the following criteria are eligible for free tuition and fees toward their undergraduate degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://franklinpierce.edu/admissions/tuition-fees-financial-aid/piercepromise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

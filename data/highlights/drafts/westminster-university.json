@@ -10,9 +10,13 @@
         {
           "title": "May Term Study Experiences - Westminster University",
           "url": "https://westminsteru.edu/academics/global-learning/may-term-study-experiences/index.html",
-          "quote": "Standard tuition is not charged for May Term Study Experience courses. Instead, a $100 per credit administrative fee is charged in addition to the travel expenses. Each MTSE course is 4 credits, therefore the administrative fee is $400 per MTSE."
+          "quote": "Standard tuition is not charged for May Term Study Experience courses. Instead, a $100 per credit administrative fee is charged in addition to the travel expenses. Each MTSE course is 4 credits, therefore the administrative fee is $400 per MTSE.",
+          "httpStatus": 200,
+          "finalUrl": "https://westminsteru.edu/academics/global-learning/may-term-study-experiences/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

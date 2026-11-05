@@ -10,9 +10,13 @@
         {
           "title": "University History",
           "url": "https://catalog.reinhardt.edu/2026-2027-graduate-academic-catalog/university-history",
-          "quote": "The Conference chartered the new school in 1883, naming the Reverend James T. Linn as its first teacher and president. In January 1884, the institution started classes for 12 students in an old cabinet and wood shop."
+          "quote": "The Conference chartered the new school in 1883, naming the Reverend James T. Linn as its first teacher and president. In January 1884, the institution started classes for 12 students in an old cabinet and wood shop.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.reinhardt.edu/2026-2027-graduate-academic-catalog/university-history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

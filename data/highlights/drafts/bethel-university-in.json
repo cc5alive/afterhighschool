@@ -10,9 +10,16 @@
         {
           "title": "Pilot Promise | Free Tuition for Eligible Indiana Students",
           "url": "https://betheluniversity.edu/admissions-aid/scholarships-and-aid/grants/pilot-promise/",
-          "quote": "Must qualify for the maximum Federal Pell Grant and maximum Indiana State Grant."
+          "quote": "Must qualify for the maximum Federal Pell Grant and maximum Indiana State Grant.",
+          "httpStatus": 200,
+          "finalUrl": "https://betheluniversity.edu/admissions-aid/scholarships-and-aid/grants/pilot-promise/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "an indiana state resident complete the 2026-27 fafsa by april 15, 2027 be eligible for the maximum federal pell grant be eligible for",
+          "closestScore": 0.73
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

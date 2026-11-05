@@ -14,7 +14,9 @@
           "httpStatus": 429,
           "finalUrl": "https://www.newschool.edu/academics/",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "failed to verify your browser code 10 vercel security checkpoint | cle1::1793916120-33d8qphvxj71l9ykb7zfxolsd12kpfbd",
+          "closestScore": 0
         }
       ],
       "quoteVerified": false

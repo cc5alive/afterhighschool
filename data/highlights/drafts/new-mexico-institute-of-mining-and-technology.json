@@ -10,9 +10,14 @@
         {
           "title": "Research Division – EMRTC: New Mexico Tech",
           "url": "https://www.nmt.edu/abq-airport/emrtc.php",
-          "quote": "At 40 square miles, EMRTC is the largest university-owned explosives testing facility in the world and serves as one of NMT's key research divisions."
+          "quote": "At 40 square miles, EMRTC is the largest university-owned explosives testing facility in the world and serves as one of NMT's key research divisions.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nmt.edu/abq-airport/emrtc.php",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

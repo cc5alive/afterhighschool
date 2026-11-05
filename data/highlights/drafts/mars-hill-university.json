@@ -10,9 +10,13 @@
         {
           "title": "Local Lion Promise - Mars Hill University",
           "url": "https://www.mhu.edu/future-students/local-lion-promise/",
-          "quote": "The Local Lion Promise scholarship guarantees a minimum of a 50 percent discount on tuition to traditional undergraduate students who live or attend high school in the counties closest to the MHU campus."
+          "quote": "The Local Lion Promise scholarship guarantees a minimum of a 50 percent discount on tuition to traditional undergraduate students who live or attend high school in the counties closest to the MHU campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mhu.edu/future-students/local-lion-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

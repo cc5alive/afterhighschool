@@ -10,9 +10,16 @@
         {
           "title": "Undergraduate on Campus Transfer Students",
           "url": "https://www.hiu.edu/undergraduate-on-campus/transfer-students.php",
-          "quote": "Yes, our students take 18 units of Bible courses. We also offer weekly chapel services and small groups."
+          "quote": "Yes, our students take 18 units of Bible courses. We also offer weekly chapel services and small groups.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hiu.edu/undergraduate-on-campus/transfer-students.php",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "mean for me? do you have a religion requirement? yes, our students take 18 units of bible courses.we also offer weekly chapel services and small groups. do you",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

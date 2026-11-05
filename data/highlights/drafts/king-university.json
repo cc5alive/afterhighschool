@@ -10,9 +10,13 @@
         {
           "title": "Scholarships and Grants | King University",
           "url": "https://www.king.edu/admissions/financial-aid/scholarships-and-grants/",
-          "quote": "For Tennessee students who are Pell-eligible and TN HOPE-eligible, King guarantees full tuition is covered for four years — a last-dollar award on top of every other scholarship and grant you receive."
+          "quote": "For Tennessee students who are Pell-eligible and TN HOPE-eligible, King guarantees full tuition is covered for four years — a last-dollar award on top of every other scholarship and grant you receive.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.king.edu/admissions/financial-aid/scholarships-and-grants/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

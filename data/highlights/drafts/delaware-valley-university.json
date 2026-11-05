@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://delval.edu/cspd/e360",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "delval.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f1c2d0b2a102a performance and security by cloudflare privacy",
+          "closestScore": 0.03
         }
       ],
       "quoteVerified": false

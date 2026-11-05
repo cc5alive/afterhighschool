@@ -10,9 +10,13 @@
         {
           "title": "Tuition Reduction Q&A • Office of Financial Aid",
           "url": "https://www.emoryhenry.edu/financial-aid/tuition-fees/tuition-reduction-qa/",
-          "quote": "Annual undergraduate tuition has been lowered from $39,975 to $19,990 beginning in the Fall of 2026, bringing the tuition closer to what students typically pay after scholarships and financial aid are applied."
+          "quote": "Annual undergraduate tuition has been lowered from $39,975 to $19,990 beginning in the Fall of 2026, bringing the tuition closer to what students typically pay after scholarships and financial aid are applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.emoryhenry.edu/financial-aid/tuition-fees/tuition-reduction-qa/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

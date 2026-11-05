@@ -10,9 +10,16 @@
         {
           "title": "Tri-S - Anderson University",
           "url": "https://anderson.edu/student-life/tri-s/",
-          "quote": "Anderson University's travel program provides opportunities for students to learn and serve in cross-cultural settings. The Tri-S program began in 1964."
+          "quote": "Anderson University's travel program provides opportunities for students to learn and serve in cross-cultural settings. The Tri-S program began in 1964.",
+          "httpStatus": 202,
+          "finalUrl": "https://anderson.edu/student-life/tri-s/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "anderson.edu checking the site connection security this page requires cookies to be enabled in your browser settings. please check this setting and enable cookies (if disabled)",
+          "closestScore": 0.22
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

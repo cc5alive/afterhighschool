@@ -10,9 +10,13 @@
         {
           "title": "The Hilbert Blueprint - Hilbert College",
           "url": "https://www.hilbert.edu/academics/core-curriculum/blueprint/",
-          "quote": "Three professors from different disciplines teach BLU 301: Junior Symposium, the third-year Blueprint class. This team-taught approach provides students with a unique opportunity to consider world events from multiple perspectives."
+          "quote": "Three professors from different disciplines teach BLU 301: Junior Symposium, the third-year Blueprint class. This team-taught approach provides students with a unique opportunity to consider world events from multiple perspectives.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hilbert.edu/academics/core-curriculum/blueprint/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://enrollment.byu.edu/tuition",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "403 error the request could not be satisfied. request blocked. we can't connect to the server for this app or website at this time. there might be too much traffic or a configuration error. try again later, or contact the app or website owner.",
+          "closestScore": 0.09
         }
       ],
       "quoteVerified": false

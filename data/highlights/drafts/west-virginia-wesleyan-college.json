@@ -10,9 +10,13 @@
         {
           "title": "FAQ – West Virginia Wesleyan College",
           "url": "https://www.wvwc.edu/faq-2/",
-          "quote": "Wesleyan Promise Plus is a full tuition-and-fees scholarship for eligible West Virginia PROMISE Scholarship recipients."
+          "quote": "Wesleyan Promise Plus is a full tuition-and-fees scholarship for eligible West Virginia PROMISE Scholarship recipients.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wvwc.edu/faq-2/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

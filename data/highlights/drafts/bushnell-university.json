@@ -10,9 +10,13 @@
         {
           "title": "Bushnell University Mission and Vision",
           "url": "https://bushnell.edu/about/mission-vision/",
-          "quote": "Weekly chapel attendance is required of traditional undergraduate students enrolled for 12 or more credits per semester."
+          "quote": "Weekly chapel attendance is required of traditional undergraduate students enrolled for 12 or more credits per semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://bushnell.edu/about/mission-vision/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

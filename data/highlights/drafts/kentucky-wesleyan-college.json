@@ -10,9 +10,13 @@
         {
           "title": "Block Plan and Academic Model - Kentucky Wesleyan College",
           "url": "https://kwc.edu/academics/academic-model/",
-          "quote": "At Kentucky Wesleyan, each block is one four-credit course, and you complete four blocks each semester. What does a typical day look like? Class meets from 9 a.m. to noon every weekday."
+          "quote": "At Kentucky Wesleyan, each block is one four-credit course, and you complete four blocks each semester. What does a typical day look like? Class meets from 9 a.m. to noon every weekday.",
+          "httpStatus": 200,
+          "finalUrl": "https://kwc.edu/academics/academic-model/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

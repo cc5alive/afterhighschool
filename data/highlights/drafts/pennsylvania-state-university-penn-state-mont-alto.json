@@ -10,14 +10,27 @@
         {
           "title": "Campus History | Penn State Mont Alto",
           "url": "https://montalto.psu.edu/information/history",
-          "quote": "Penn State Mont Alto was founded in 1903 as the Pennsylvania State Forest Academy."
+          "quote": "Penn State Mont Alto was founded in 1903 as the Pennsylvania State Forest Academy.",
+          "httpStatus": 403,
+          "finalUrl": "https://montalto.psu.edu/information/history",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "montalto.psu.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you",
+          "closestScore": 0.09
         },
         {
           "title": "Campus History | Penn State Mont Alto",
           "url": "https://montalto.psu.edu/information/history",
-          "quote": "Wiestling Hall, built in 1807, is the oldest building in the entire Penn State system."
+          "quote": "Wiestling Hall, built in 1807, is the oldest building in the entire Penn State system.",
+          "httpStatus": 403,
+          "finalUrl": "https://montalto.psu.edu/information/history",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "montalto.psu.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are",
+          "closestScore": 0.09
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

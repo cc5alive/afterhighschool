@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://ecsu.edu/nc-promise/",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "ecsu.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f1c74bf51fb43 performance and security by cloudflare",
+          "closestScore": 0.15
         }
       ],
       "quoteVerified": false

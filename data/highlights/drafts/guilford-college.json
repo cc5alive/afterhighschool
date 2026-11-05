@@ -10,9 +10,13 @@
         {
           "title": "Students love Guilford's latest 3-week session",
           "url": "https://www.guilford.edu/news/2023/05/students-love-guilfords-latest-3-week-session",
-          "quote": "Guilford has been offering three-week terms twice each academic year as part of the Guilford Edge initiative that was launched in 2019. Beginning in 2023-24, the 3-week term will only be offered in the spring"
+          "quote": "Guilford has been offering three-week terms twice each academic year as part of the Guilford Edge initiative that was launched in 2019. Beginning in 2023-24, the 3-week term will only be offered in the spring",
+          "httpStatus": 200,
+          "finalUrl": "https://www.guilford.edu/news/2023/05/students-love-guilfords-latest-3-week-session",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

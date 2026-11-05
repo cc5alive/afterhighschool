@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid | Transylvania University",
           "url": "https://www.transy.edu/financial-aid/",
-          "quote": "The Pell Guarantee ensures that 100% of tuition and fees will be covered through a combination of institutional, federal and state grants and scholarships."
+          "quote": "The Pell Guarantee ensures that 100% of tuition and fees will be covered through a combination of institutional, federal and state grants and scholarships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.transy.edu/financial-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

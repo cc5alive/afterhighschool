@@ -10,9 +10,13 @@
         {
           "title": "TWUPledge | Tennessee Wesleyan University",
           "url": "https://www.tnwesleyan.edu/tuition-aid/twupledge/",
-          "quote": "The TWU Pledge is a last-dollar tuition scholarship that will allow HOPE Scholarship eligible new freshman students with a family adjusted gross income of $50,000 or less to attend Tennessee Wesleyan University tuition-free!"
+          "quote": "The TWU Pledge is a last-dollar tuition scholarship that will allow HOPE Scholarship eligible new freshman students with a family adjusted gross income of $50,000 or less to attend Tennessee Wesleyan University tuition-free!",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tnwesleyan.edu/tuition-aid/twupledge/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

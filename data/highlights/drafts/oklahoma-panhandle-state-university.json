@@ -10,9 +10,13 @@
         {
           "title": "Education - Oklahoma Panhandle State University",
           "url": "https://opsu.edu/arts-education/education/",
-          "quote": "The Panhandle Promise Scholarship pays the expected out-of-pocket costs for tuition and fees a student would face after federal and state aid, and all other scholarships the student receives, are applied."
+          "quote": "The Panhandle Promise Scholarship pays the expected out-of-pocket costs for tuition and fees a student would face after federal and state aid, and all other scholarships the student receives, are applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://opsu.edu/arts-education/education/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

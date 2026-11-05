@@ -10,14 +10,21 @@
         {
           "title": "Brevard College's Enrollment is One of the Largest in the School's ...",
           "url": "https://brevard.edu/brevard-colleges-enrollment-is-one-of-the-largest-in-the-schools-history/",
-          "quote": "A Half-Tuition Scholarship, offered to students from North Carolina, also contributed to the increase in student enrollments."
+          "quote": "A Half-Tuition Scholarship, offered to students from North Carolina, also contributed to the increase in student enrollments.",
+          "httpStatus": 200,
+          "finalUrl": "https://brevard.edu/brevard-colleges-enrollment-is-one-of-the-largest-in-the-schools-history/",
+          "quoteFound": true
         },
         {
           "title": "Brevard College's Enrollment is One of the Largest in the School's ...",
           "url": "https://brevard.edu/brevard-colleges-enrollment-is-one-of-the-largest-in-the-schools-history/",
-          "quote": "The College now has extended the Half-Tuition Scholarships to students from South Carolina."
+          "quote": "The College now has extended the Half-Tuition Scholarships to students from South Carolina.",
+          "httpStatus": 200,
+          "finalUrl": "https://brevard.edu/brevard-colleges-enrollment-is-one-of-the-largest-in-the-schools-history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

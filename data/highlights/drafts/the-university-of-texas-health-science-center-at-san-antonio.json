@@ -10,9 +10,13 @@
         {
           "title": "Size and Location | The University of Texas Health Science Center ...",
           "url": "https://catalog.uthscsa.edu/generalinformation/healthsciencecenter/sizeandlocation/",
-          "quote": "The campus also includes the Mays Cancer Center, home to the UT San Antonio Health Science Center MD Anderson Cancer Center, located at 7979 Wurzbach Road, and one of only four National Cancer Institute-Designated Cancer Centers in Texas"
+          "quote": "The campus also includes the Mays Cancer Center, home to the UT San Antonio Health Science Center MD Anderson Cancer Center, located at 7979 Wurzbach Road, and one of only four National Cancer Institute-Designated Cancer Centers in Texas",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.uthscsa.edu/generalinformation/healthsciencecenter/sizeandlocation/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Tuition Basics | University of Phoenix",
           "url": "https://www.phoenix.edu/tuition-financial-aid.html",
-          "quote": "Beginning November 2, 2026, all new students will be charged the same tuition rates and resource fees in effect for their enrolled program through their completion deadline unless they change programs."
+          "quote": "Beginning November 2, 2026, all new students will be charged the same tuition rates and resource fees in effect for their enrolled program through their completion deadline unless they change programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.phoenix.edu/tuition-financial-aid.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Loma Linda University",
           "url": "https://llu.edu/",
-          "quote": "1 of the only faith-based academic health sciences centers in the U.S. — the only one in California"
+          "quote": "1 of the only faith-based academic health sciences centers in the U.S. — the only one in California",
+          "httpStatus": 200,
+          "finalUrl": "https://llu.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

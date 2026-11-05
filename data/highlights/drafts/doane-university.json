@@ -10,9 +10,16 @@
         {
           "title": "Graduate in Four Years Guaranteed | Doane University in Omaha NE",
           "url": "https://www.doane.edu/four-year-graduation-guarantee",
-          "quote": "We clearly outline what we will do and what we expect from you, if you don't complete your degree in four years, Doane will pay the cost of your remaining classes."
+          "quote": "We clearly outline what we will do and what we expect from you, if you don't complete your degree in four years, Doane will pay the cost of your remaining classes.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.doane.edu/four-year-graduation-guarantee",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "can email the site owner to let them know you were blocked. please include what you were doing when this page came up and the cloudflare ray id found at the bottom of this page. cloudflare ray id: a55f1c638fc0f151 • your",
+          "closestScore": 0.25
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

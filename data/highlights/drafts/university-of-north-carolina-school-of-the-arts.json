@@ -10,9 +10,13 @@
         {
           "title": "Fast Facts - UNCSA",
           "url": "https://www.uncsa.edu/news/news-media-resources/facts.aspx",
-          "quote": "Established by the N.C. General Assembly in 1963, the North Carolina School of the Arts opened in Winston-Salem in 1965 as America's first public arts conservatory."
+          "quote": "Established by the N.C. General Assembly in 1963, the North Carolina School of the Arts opened in Winston-Salem in 1965 as America's first public arts conservatory.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uncsa.edu/news/news-media-resources/facts.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

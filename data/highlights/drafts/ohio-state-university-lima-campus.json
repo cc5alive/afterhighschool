@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://lima.osu.edu/financial-aid/ohio-state-grants",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "lima.osu.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f20c59c41ffae performance and security by cloudflare privacy",
+          "closestScore": 0.08
         },
         {
           "title": "Ohio State Grants",
@@ -23,7 +25,9 @@
           "httpStatus": 403,
           "finalUrl": "https://lima.osu.edu/financial-aid/ohio-state-grants",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f20c59c41ffae performance and security by cloudflare",
+          "closestScore": 0.07
         }
       ],
       "quoteVerified": false

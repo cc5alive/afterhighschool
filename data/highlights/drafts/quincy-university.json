@@ -10,9 +10,13 @@
         {
           "title": "QU Illinois Tuition Promise Program - Quincy University",
           "url": "https://www.quincy.edu/costs-aid/illinois-tuition-promise-program/",
-          "quote": "Through a combination of federal, state, and institutional grants and scholarships, the Illinois Promise Program covers 100% of tuition and required books for eligible Illinois residents pursuing undergraduate degrees."
+          "quote": "Through a combination of federal, state, and institutional grants and scholarships, the Illinois Promise Program covers 100% of tuition and required books for eligible Illinois residents pursuing undergraduate degrees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.quincy.edu/costs-aid/illinois-tuition-promise-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

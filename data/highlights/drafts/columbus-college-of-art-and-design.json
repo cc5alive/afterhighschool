@@ -10,9 +10,13 @@
         {
           "title": "Apply to CCAD | Art & Design College in Columbus",
           "url": "https://www.ccad.edu/apply",
-          "quote": "It's an expression of your talent, passion, and skills, so its contents are intentionally undefined, but it must include 8 to 15 pieces."
+          "quote": "It's an expression of your talent, passion, and skills, so its contents are intentionally undefined, but it must include 8 to 15 pieces.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ccad.edu/apply",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Commuter Students - Dayton, TN - Bryan College",
           "url": "https://www.bryan.edu/campus/students/commuter-students/",
-          "quote": "Full-time residential students are required to obtain at least 35 Christian Formation Credits per semester. Each semester, there will be a minimum of 60 available Christian Formation opportunities for students to receive credit."
+          "quote": "Full-time residential students are required to obtain at least 35 Christian Formation Credits per semester. Each semester, there will be a minimum of 60 available Christian Formation opportunities for students to receive credit.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bryan.edu/campus/students/commuter-students/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

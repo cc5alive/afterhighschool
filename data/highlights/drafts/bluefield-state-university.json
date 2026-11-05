@@ -10,9 +10,14 @@
         {
           "title": "General University Information - Bluefield State University",
           "url": "https://catalog.bluefieldstate.edu/content.php?catoid=16&navoid=3265&print",
-          "quote": "To serve the racially segregated public schools in the coal camps, progressive citizens of both races worked together to establish Bluefield Colored Institute, a “high graded school for Negroes,” in 1895."
+          "quote": "To serve the racially segregated public schools in the coal camps, progressive citizens of both races worked together to establish Bluefield Colored Institute, a “high graded school for Negroes,” in 1895.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.bluefieldstate.edu/content.php?catoid=16&navoid=3265&print",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

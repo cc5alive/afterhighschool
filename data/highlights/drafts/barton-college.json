@@ -10,9 +10,13 @@
         {
           "title": "Alumni Association - Alumni Engagement | Barton College",
           "url": "https://alumni.barton.edu/get-involved/alumni-association/",
-          "quote": "The Barton College Alumni Association includes more than 26,000 graduates and former students from Atlantic Christian College (ACC) and Barton College."
+          "quote": "The Barton College Alumni Association includes more than 26,000 graduates and former students from Atlantic Christian College (ACC) and Barton College.",
+          "httpStatus": 200,
+          "finalUrl": "https://alumni.barton.edu/get-involved/alumni-association/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

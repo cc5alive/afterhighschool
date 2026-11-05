@@ -10,9 +10,14 @@
         {
           "title": "Lasallian Tradition | Christian Brothers University",
           "url": "https://www.cbu.edu/about/lasallian-tradition/",
-          "quote": "Christian Brothers University is one of the six Lasallian colleges and universities in the United States."
+          "quote": "Christian Brothers University is one of the six Lasallian colleges and universities in the United States.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cbu.edu/about/lasallian-tradition/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,14 @@
         {
           "title": "Free Tuition Program at Saint Joseph's College Shines Bright",
           "url": "https://www.sjcme.edu/saint-josephs-college-of-maine-shines-a-light-on-higher-education-with-a-long-standing-free-tuition-program/",
-          "quote": "Founded in 1912 by the Sisters of Mercy, Saint Joseph's College of Maine is the state's only Catholic liberal arts college."
+          "quote": "Founded in 1912 by the Sisters of Mercy, Saint Joseph's College of Maine is the state's only Catholic liberal arts college.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sjcme.edu/saint-josephs-college-of-maine-shines-a-light-on-higher-education-with-a-long-standing-free-tuition-program/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,14 +10,22 @@
         {
           "title": "The Griffin Edge | Gwynedd Mercy University",
           "url": "https://www.gmercyu.edu/griffin-edge",
-          "quote": "A personal and pre-professional development program for all GMercyU undergraduate majors"
+          "quote": "A personal and pre-professional development program for all GMercyU undergraduate majors",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gmercyu.edu/griffin-edge",
+          "quoteFound": true
         },
         {
           "title": "The Griffin Edge | Gwynedd Mercy University",
           "url": "https://www.gmercyu.edu/griffin-edge",
-          "quote": "It begins your very first semester, during GMercyU's First-Year Experience program."
+          "quote": "It begins your very first semester, during GMercyU's First-Year Experience program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gmercyu.edu/griffin-edge",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

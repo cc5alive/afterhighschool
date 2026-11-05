@@ -10,9 +10,13 @@
         {
           "title": "UMB Fast Facts - The University of Maryland, Baltimore",
           "url": "https://www.umaryland.edu/about-umb/umb-fast-facts/",
-          "quote": "As the state's only public health, law, and human services university, UMB confers the majority of professional practice doctoral degrees awarded in Maryland each year."
+          "quote": "As the state's only public health, law, and human services university, UMB confers the majority of professional practice doctoral degrees awarded in Maryland each year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umaryland.edu/about-umb/umb-fast-facts/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

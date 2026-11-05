@@ -10,9 +10,13 @@
         {
           "title": "Auto Restoration - McPherson College",
           "url": "https://www.mcpherson.edu/programs/auto-restoration/",
-          "quote": "Our bachelor's degree in restoration technology is the only of its kind in the nation."
+          "quote": "Our bachelor's degree in restoration technology is the only of its kind in the nation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mcpherson.edu/programs/auto-restoration/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

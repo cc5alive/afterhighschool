@@ -10,14 +10,21 @@
         {
           "title": "Presbyterian Promise Scholarship | Presbyterian College",
           "url": "https://www.presby.edu/costs-and-aid/scholarships/presbyterian-promise-scholarship/",
-          "quote": "New incoming undergraduate students qualify for the Presbyterian Promise Scholarship by indicating their membership in a Presbyterian church, or their attendance at a Presbyterian secondary school, on their application."
+          "quote": "New incoming undergraduate students qualify for the Presbyterian Promise Scholarship by indicating their membership in a Presbyterian church, or their attendance at a Presbyterian secondary school, on their application.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.presby.edu/costs-and-aid/scholarships/presbyterian-promise-scholarship/",
+          "quoteFound": true
         },
         {
           "title": "Presbyterian Promise Scholarship | Presbyterian College",
           "url": "https://www.presby.edu/costs-and-aid/scholarships/presbyterian-promise-scholarship/",
-          "quote": "$24,000+ Minimum award per year 4 years Renewable up to four years $96,000 Total Commitment"
+          "quote": "$24,000+ Minimum award per year 4 years Renewable up to four years $96,000 Total Commitment",
+          "httpStatus": 200,
+          "finalUrl": "https://www.presby.edu/costs-and-aid/scholarships/presbyterian-promise-scholarship/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

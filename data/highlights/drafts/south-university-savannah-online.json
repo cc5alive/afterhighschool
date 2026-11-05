@@ -10,9 +10,16 @@
         {
           "title": "Grants Info - South University",
           "url": "https://www.southuniversity.edu/paying-for-college/grants",
-          "quote": "The Bridge Forward Grant is for eligible newly enrolled students at South University to reward undergraduate students for positive academic progress and continuous full-time enrollment. Students must begin classes on or after September 15th, 2026."
+          "quote": "The Bridge Forward Grant is for eligible newly enrolled students at South University to reward undergraduate students for positive academic progress and continuous full-time enrollment. Students must begin classes on or after September 15th, 2026.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southuniversity.edu/paying-for-college/grants",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "programs are excluded from the 1899 grant. see full eligibility and conditions requirements in the 1889 grant memorandum of understanding. path to graduation grant south university's path to graduation grant is awarded to eligible undergraduate students for positive academic progress and continuous full-time enrollment for",
+          "closestScore": 0.57
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

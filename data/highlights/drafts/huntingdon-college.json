@@ -10,9 +10,13 @@
         {
           "title": "Huntingdon Admission Offers Preview Day",
           "url": "https://www.huntingdon.edu/huntingdon-admission-offers-preview-day/",
-          "quote": "Through the Huntingdon Plan, each full-time undergraduate student is provided a laptop computer for use all four years and theirs to keep at graduation; senior-year travel-study opportunities; books and information resources for fall and spring terms"
+          "quote": "Through the Huntingdon Plan, each full-time undergraduate student is provided a laptop computer for use all four years and theirs to keep at graduation; senior-year travel-study opportunities; books and information resources for fall and spring terms",
+          "httpStatus": 200,
+          "finalUrl": "https://www.huntingdon.edu/huntingdon-admission-offers-preview-day/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

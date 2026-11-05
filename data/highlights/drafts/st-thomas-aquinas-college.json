@@ -10,9 +10,13 @@
         {
           "title": "St. Thomas Aquinas Pledge - St. Thomas Aquinas College",
           "url": "https://stac.edu/about/why-st-thomas-aquinas/st-thomas-aquinas-pledge/",
-          "quote": "The scholarship – $12,500 a year for four years or $50,000 total – automatically renews each year for a total of four years. There is no income requirement."
+          "quote": "The scholarship – $12,500 a year for four years or $50,000 total – automatically renews each year for a total of four years. There is no income requirement.",
+          "httpStatus": 200,
+          "finalUrl": "https://stac.edu/about/why-st-thomas-aquinas/st-thomas-aquinas-pledge/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

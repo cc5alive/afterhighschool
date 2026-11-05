@@ -10,9 +10,13 @@
         {
           "title": "Tuition Guarantee | Heidelberg University",
           "url": "https://www.heidelberg.edu/admission-aid/undergraduate-admission/tuition-guarantee",
-          "quote": "Our Tuition Guarantee locks in tuition costs over four years of study. This means, the tuition you pay for your first year will be the same price you pay for your fourth year."
+          "quote": "Our Tuition Guarantee locks in tuition costs over four years of study. This means, the tuition you pay for your first year will be the same price you pay for your fourth year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.heidelberg.edu/admission-aid/undergraduate-admission/tuition-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

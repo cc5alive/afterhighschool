@@ -10,9 +10,16 @@
         {
           "title": "About | Kennesaw State University",
           "url": "https://www.kennesaw.edu/about/",
-          "quote": "As the third largest university in Georgia, Kennesaw State has over 51,000 students enrolled."
+          "quote": "As the third largest university in Georgia, Kennesaw State has over 51,000 students enrolled.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kennesaw.edu/about/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "region, the nation and around the world. as the third largest university in georgia, kennesaw state has over 51,000 students enrolled in over 190",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

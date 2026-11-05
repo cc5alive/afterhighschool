@@ -10,9 +10,13 @@
         {
           "title": "About Shorter",
           "url": "https://www.shorter.edu/about-shorter/index.php",
-          "quote": "Conceived in the mind of educator Luther Rice Gwaltney, the Cherokee Baptist Female College opened for students in 1873."
+          "quote": "Conceived in the mind of educator Luther Rice Gwaltney, the Cherokee Baptist Female College opened for students in 1873.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.shorter.edu/about-shorter/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

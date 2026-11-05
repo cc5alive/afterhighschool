@@ -10,9 +10,16 @@
         {
           "title": "Admissions Information - Maranatha Baptist University",
           "url": "https://www.mbu.edu/mbu-admissions/information/",
-          "quote": "The Admissions Committee will evaluate the following factors when making an admissions decision to the college: Clear salvation testimony of personal salvation in Jesus Christ. Good Christian character as identified in your essay and character references."
+          "quote": "The Admissions Committee will evaluate the following factors when making an admissions decision to the college: Clear salvation testimony of personal salvation in Jesus Christ. Good Christian character as identified in your essay and character references.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mbu.edu/mbu-admissions/information/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "local church ministry and other god-honoring vocations. the admissions committee will evaluate the following factors when making an admissions decision to the college: clear salvation testimony of personal salvation in jesus christ good christian character as identified in your essay and character references faithful attendance at",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

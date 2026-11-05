@@ -10,9 +10,13 @@
         {
           "title": "NOBTS - Our History - New Orleans Baptist Theological Seminary",
           "url": "https://www.nobts.edu/about/our-history.html",
-          "quote": "New Orleans Seminary was the first theological institution to be created by the direct action of the Southern Baptist Convention."
+          "quote": "New Orleans Seminary was the first theological institution to be created by the direct action of the Southern Baptist Convention.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nobts.edu/about/our-history.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

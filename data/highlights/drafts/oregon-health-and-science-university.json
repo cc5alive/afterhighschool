@@ -10,9 +10,14 @@
         {
           "title": "Nursing School Admissions FAQ: OHSU Requirements and More",
           "url": "https://www.ohsu.edu/school-of-nursing/admissions-faq",
-          "quote": "3-year B.S. program: You must complete 28 prerequisite credits by the end of fall term before you start your program."
+          "quote": "3-year B.S. program: You must complete 28 prerequisite credits by the end of fall term before you start your program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ohsu.edu/school-of-nursing/admissions-faq",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

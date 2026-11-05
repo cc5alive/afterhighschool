@@ -10,9 +10,13 @@
         {
           "title": "The Brenau Promise for HOPE and Pell Recipients",
           "url": "https://www.brenau.edu/admissions/financial-aid/promise/",
-          "quote": "The Brenau Promise for HOPE and Pell Recipients ensures that an eligible student's full tuition and Institutional & Instructional (I&I) development fee are covered after all applicable institutional, state and federal scholarships and grants have been awarded."
+          "quote": "The Brenau Promise for HOPE and Pell Recipients ensures that an eligible student's full tuition and Institutional & Instructional (I&I) development fee are covered after all applicable institutional, state and federal scholarships and grants have been awarded.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brenau.edu/admissions/financial-aid/promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

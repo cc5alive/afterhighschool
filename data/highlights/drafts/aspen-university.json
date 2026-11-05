@@ -10,9 +10,13 @@
         {
           "title": "Payment Methods | Aspen University",
           "url": "https://www.aspen.edu/payment-methods/",
-          "quote": "The Monthly Payment Plan is a private education loan with a 0% fixed rate of interest (0% APR) and no down payment. Each month you'll make one payment of $325, $415 or $450"
+          "quote": "The Monthly Payment Plan is a private education loan with a 0% fixed rate of interest (0% APR) and no down payment. Each month you'll make one payment of $325, $415 or $450",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aspen.edu/payment-methods/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

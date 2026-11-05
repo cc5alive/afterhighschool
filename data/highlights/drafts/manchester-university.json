@@ -10,9 +10,13 @@
         {
           "title": "Our History - Manchester University",
           "url": "https://www.manchester.edu/about/our-history/",
-          "quote": "Established in 1948, the Peace Studies Institute and Program in Conflict Resolution at Manchester University pioneered as the first undergraduate Peace Studies program in the world."
+          "quote": "Established in 1948, the Peace Studies Institute and Program in Conflict Resolution at Manchester University pioneered as the first undergraduate Peace Studies program in the world.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.manchester.edu/about/our-history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

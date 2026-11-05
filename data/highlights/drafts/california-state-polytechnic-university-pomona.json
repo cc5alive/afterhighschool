@@ -10,9 +10,13 @@
         {
           "title": "About Sunday Shows | Cal Poly Pomona",
           "url": "https://cpp.edu/wkkelloggarabianhorsecenter/sunday-shows/about-sunday-shows.shtml",
-          "quote": "the Sunday Shows are held on the first Sunday of the month at 2:00 PM"
+          "quote": "the Sunday Shows are held on the first Sunday of the month at 2:00 PM",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cpp.edu/wkkelloggarabianhorsecenter/sunday-shows/about-sunday-shows.shtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

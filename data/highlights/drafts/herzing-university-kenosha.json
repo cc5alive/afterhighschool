@@ -10,14 +10,21 @@
         {
           "title": "Kenosha Campus - Herzing University",
           "url": "https://www.herzing.edu/kenosha",
-          "quote": "We have 6 start dates spread across full year-round study, resulting in start dates about every two months."
+          "quote": "We have 6 start dates spread across full year-round study, resulting in start dates about every two months.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.herzing.edu/kenosha",
+          "quoteFound": true
         },
         {
           "title": "Kenosha Campus - Herzing University",
           "url": "https://www.herzing.edu/kenosha",
-          "quote": "Does Herzing University have dorms? No, we do not have dormitories."
+          "quote": "Does Herzing University have dorms? No, we do not have dormitories.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.herzing.edu/kenosha",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

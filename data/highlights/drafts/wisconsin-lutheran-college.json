@@ -10,9 +10,13 @@
         {
           "title": "About WLC - Wisconsin Lutheran College",
           "url": "https://www.wlc.edu/about-wlc/index.html",
-          "quote": "Wisconsin Lutheran College is a four-year liberal arts college affiliated with the Wisconsin Evangelical Lutheran Synod."
+          "quote": "Wisconsin Lutheran College is a four-year liberal arts college affiliated with the Wisconsin Evangelical Lutheran Synod.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wlc.edu/about-wlc/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

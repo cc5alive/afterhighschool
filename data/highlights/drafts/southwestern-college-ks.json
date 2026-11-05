@@ -10,9 +10,14 @@
         {
           "title": "Vision and Mission Statement - Southwestern College",
           "url": "https://www.sckans.edu/about/mission/",
-          "quote": "Founded in 1885 by Kansas Methodists and now related to the Great Plains Conference of the United Methodist Church, the college offers bachelor's and graduate degrees on-ground and online."
+          "quote": "Founded in 1885 by Kansas Methodists and now related to the Great Plains Conference of the United Methodist Church, the college offers bachelor's and graduate degrees on-ground and online.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sckans.edu/about/mission/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

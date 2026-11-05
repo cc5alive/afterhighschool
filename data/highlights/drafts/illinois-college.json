@@ -10,9 +10,13 @@
         {
           "title": "Investing in student success | Illinois College",
           "url": "https://www.ic.edu/magazine/spring-2026/investing-student-success",
-          "quote": "For Illinois residents with a 3.0 GPA, the College goes a step further by pledging to meet 100 percent of financial need determined by the FAFSA."
+          "quote": "For Illinois residents with a 3.0 GPA, the College goes a step further by pledging to meet 100 percent of financial need determined by the FAFSA.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ic.edu/magazine/spring-2026/investing-student-success",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

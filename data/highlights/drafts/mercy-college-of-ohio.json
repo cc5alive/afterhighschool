@@ -10,9 +10,13 @@
         {
           "title": "Mission, Vision & Values - Mercy College of Ohio",
           "url": "https://mercycollege.edu/about/mission-vision-values",
-          "quote": "Mercy College of Ohio is a Catholic institution of higher education founded by the Sisters of Mercy and sponsored by Mercy Health. Our focus is to provide healthcare and health science related programs"
+          "quote": "Mercy College of Ohio is a Catholic institution of higher education founded by the Sisters of Mercy and sponsored by Mercy Health. Our focus is to provide healthcare and health science related programs",
+          "httpStatus": 200,
+          "finalUrl": "https://mercycollege.edu/about/mission-vision-values",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

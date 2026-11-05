@@ -10,9 +10,13 @@
         {
           "title": "Senior Study / Undergraduate Research - Maryville College",
           "url": "https://www.maryvillecollege.edu/academics/senior-study/",
-          "quote": "Every degree candidate completes such a project in the major field, under the guidance of a faculty supervisor."
+          "quote": "Every degree candidate completes such a project in the major field, under the guidance of a faculty supervisor.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.maryvillecollege.edu/academics/senior-study/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

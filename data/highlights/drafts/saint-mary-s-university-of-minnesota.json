@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Scholarships and Financial Aid",
           "url": "https://www.smumn.edu/admissions/undergraduate/financial-aid/scholarships/",
-          "quote": "Minnesota, Illinois, or Wisconsin residents with a family AGI under $80,000 who meet eligibility requirements qualify for the Cardinal Promise, which provides a “last dollar” grant that covers your remaining tuition costs for four years of study"
+          "quote": "Minnesota, Illinois, or Wisconsin residents with a family AGI under $80,000 who meet eligibility requirements qualify for the Cardinal Promise, which provides a “last dollar” grant that covers your remaining tuition costs for four years of study",
+          "httpStatus": 200,
+          "finalUrl": "https://www.smumn.edu/admissions/undergraduate/financial-aid/scholarships/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Financial Services - Financial aid - Schreiner University",
           "url": "https://schreiner.edu/financialservices/",
-          "quote": "Note: Your tuition is locked in for four years. No increase!"
+          "quote": "Note: Your tuition is locked in for four years. No increase!",
+          "httpStatus": 200,
+          "finalUrl": "https://schreiner.edu/financialservices/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

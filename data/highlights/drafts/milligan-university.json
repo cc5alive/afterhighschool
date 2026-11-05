@@ -10,9 +10,16 @@
         {
           "title": "Core Curriculum - Milligan University",
           "url": "https://milligan.edu/academics/undergraduate/core-curriculum/",
-          "quote": "Our unique Humanities Program—incorporating history, literature, philosophy, and fine arts—is central to the Milligan liberal arts education."
+          "quote": "Our unique Humanities Program—incorporating history, literature, philosophy, and fine arts—is central to the Milligan liberal arts education.",
+          "httpStatus": 202,
+          "finalUrl": "https://milligan.edu/academics/undergraduate/core-curriculum/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "milligan.edu checking the site connection security this page requires cookies to be enabled in your browser settings. please check this setting and enable cookies (if disabled)",
+          "closestScore": 0.19
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

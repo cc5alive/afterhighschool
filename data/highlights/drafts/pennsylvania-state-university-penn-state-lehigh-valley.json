@@ -10,9 +10,16 @@
         {
           "title": "We Are... Penn State Lehigh Valley",
           "url": "https://lehighvalley.psu.edu/feature/we-are-penn-state-lehigh-valley",
-          "quote": "Students can spend their first two years at one campus, then transition to another of Penn State's twenty undergraduate campuses for the remaining two years. This approach is called the 2+2 plan"
+          "quote": "Students can spend their first two years at one campus, then transition to another of Penn State's twenty undergraduate campuses for the remaining two years. This approach is called the 2+2 plan",
+          "httpStatus": 403,
+          "finalUrl": "https://lehighvalley.psu.edu/feature/we-are-penn-state-lehigh-valley",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "lehighvalley.psu.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f21bbae918bdc performance and security by cloudflare privacy",
+          "closestScore": 0.08
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

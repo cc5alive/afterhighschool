@@ -10,9 +10,13 @@
         {
           "title": "Facts about Mike | LSU",
           "url": "https://lsu.edu/mikethetiger/news/mike_vi_facts.php",
-          "quote": "He is the only live tiger living on a college campus in the U.S."
+          "quote": "He is the only live tiger living on a college campus in the U.S.",
+          "httpStatus": 200,
+          "finalUrl": "https://lsu.edu/mikethetiger/news/mike_vi_facts.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

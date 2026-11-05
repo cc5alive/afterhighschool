@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://nossi.edu/admissions/adult-and-military-students/",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "403 forbidden",
+          "closestScore": 0
         }
       ],
       "quoteVerified": false

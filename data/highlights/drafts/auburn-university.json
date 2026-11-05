@@ -10,9 +10,13 @@
         {
           "title": "War Eagle Flight History | Auburn College of Veterinary Medicine",
           "url": "https://www.vetmed.auburn.edu/war-eagle-flight-25th-anniversary/war-eagle-flight-history/",
-          "quote": "rehabilitating thousands of injured raptors"
+          "quote": "rehabilitating thousands of injured raptors",
+          "httpStatus": 200,
+          "finalUrl": "https://www.vetmed.auburn.edu/raptor/war-eagle-flight-25th-anniversary/war-eagle-flight-history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

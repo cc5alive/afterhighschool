@@ -10,9 +10,14 @@
         {
           "title": "hssu: mission statement",
           "url": "https://www.hssu.edu/rsp_content_cus_ticket.html?wid=50&pid=476",
-          "quote": "Harris-Stowe is designated as one of two Historically Black College and Universities (HBCUs) in Missouri and serves African-Americans and other diverse student populations throughout the state."
+          "quote": "Harris-Stowe is designated as one of two Historically Black College and Universities (HBCUs) in Missouri and serves African-Americans and other diverse student populations throughout the state.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hssu.edu/rsp_content_cus_ticket.html?wid=50&pid=476",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

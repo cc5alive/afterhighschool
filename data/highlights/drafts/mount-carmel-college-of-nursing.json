@@ -10,9 +10,16 @@
         {
           "title": "Admissions Requirements: Traditional Four Year",
           "url": "https://www.mccn.edu/academics/bachelor-of-science/traditional-four-year/admissions-requirements",
-          "quote": "Cumulative grade point average (GPA): Direct Acceptance 3.0. Provisional Acceptance 2.75-2.99."
+          "quote": "Cumulative grade point average (GPA): Direct Acceptance 3.0. Provisional Acceptance 2.75-2.99.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mccn.edu/academics/bachelor-of-science/traditional-four-year/admissions-requirements",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "language accepted) -recommended 1 unit visual or performing art -recommended cumulative grade point average (gpa): direct acceptance 3.0 provisional acceptance 2.75-2.99",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

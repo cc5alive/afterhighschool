@@ -10,14 +10,21 @@
         {
           "title": "Financial Aid & FAFSA | Nursing School Utah & Idaho | Eagle Gate College",
           "url": "https://www.eaglegatecollege.edu/admissions/financial-aid/",
-          "quote": "This grant is available to graduates of Eagle Gate or Provo College's pre-licensure Practical Nursing (PN) Diploma program who enroll in Eagle Gate or Provo College's Bachelor of Science in Nursing (BSN) program."
+          "quote": "This grant is available to graduates of Eagle Gate or Provo College's pre-licensure Practical Nursing (PN) Diploma program who enroll in Eagle Gate or Provo College's Bachelor of Science in Nursing (BSN) program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.eaglegatecollege.edu/admissions/financial-aid/",
+          "quoteFound": true
         },
         {
           "title": "Financial Aid & FAFSA | Nursing School Utah & Idaho | Eagle Gate College",
           "url": "https://www.eaglegatecollege.edu/admissions/financial-aid/",
-          "quote": "It is awarded based on financial need and requires completion of the FAFSA. The maximum grant amount is $7,500, awarded proportionately each semester."
+          "quote": "It is awarded based on financial need and requires completion of the FAFSA. The maximum grant amount is $7,500, awarded proportionately each semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.eaglegatecollege.edu/admissions/financial-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "College Scholarships and Grants | AIU",
           "url": "https://www.aiuniv.edu/tuition-financial-aid/scholarships-grants",
-          "quote": "AIU Academic Progress Scholarship (Atlanta) Up to $3,000 toward tuition and fees for students entering their final 60 credit hours of an AIU Atlanta Fashion Design or Media Production program who have demonstrated leadership potential, academic promise, and achievement."
+          "quote": "AIU Academic Progress Scholarship (Atlanta) Up to $3,000 toward tuition and fees for students entering their final 60 credit hours of an AIU Atlanta Fashion Design or Media Production program who have demonstrated leadership potential, academic promise, and achievement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aiuniv.edu/tuition-financial-aid/scholarships-grants",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "AIU uses intellipath, an online adaptive learning platform that customizes coursework using course-related questions to focus on what students still need to learn.",
@@ -20,9 +24,14 @@
         {
           "title": "Intellipath Adaptive Learning Platform | AIU",
           "url": "https://www.aiuniv.edu/about/intellipath",
-          "quote": "AIU's intellipath® is an online learning tool that helps you build a curriculum for your classes based on what you already know. Using a series of questions related to the course, intellipath® customizes your coursework"
+          "quote": "AIU's intellipath® is an online learning tool that helps you build a curriculum for your classes based on what you already know. Using a series of questions related to the course, intellipath® customizes your coursework",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aiuniv.edu/about/intellipath",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

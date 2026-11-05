@@ -10,14 +10,22 @@
         {
           "title": "Undergraduate Programs | Bachelor of ... - UTMB School of Nursing",
           "url": "https://nursing.utmb.edu/Academics/Programs/Undergraduate/BSN/Traditional",
-          "quote": "Can I take prerequisite courses at UTMB School of Nursing? No. UTMB School of Nursing is an upper division nursing school. You will need to attend a community college or another university to complete the prerequisite courses."
+          "quote": "Can I take prerequisite courses at UTMB School of Nursing? No. UTMB School of Nursing is an upper division nursing school. You will need to attend a community college or another university to complete the prerequisite courses.",
+          "httpStatus": 200,
+          "finalUrl": "https://nursing.utmb.edu/Academics/Programs/Undergraduate/BSN/Traditional",
+          "quoteFound": true
         },
         {
           "title": "Undergraduate Programs | Bachelor of ... - UTMB School of Nursing",
           "url": "https://nursing.utmb.edu/Academics/Programs/Undergraduate/BSN/Traditional",
-          "quote": "Complete 60 semester credit hours of prerequisite coursework at a regionally accredited college or university. Before applying for admission, complete at least 40 of the 60 prerequisite hours, including all five life and physical sciences"
+          "quote": "Complete 60 semester credit hours of prerequisite coursework at a regionally accredited college or university. Before applying for admission, complete at least 40 of the 60 prerequisite hours, including all five life and physical sciences",
+          "httpStatus": 200,
+          "finalUrl": "https://nursing.utmb.edu/Academics/Programs/Undergraduate/BSN/Traditional",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

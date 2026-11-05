@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://www.brandeis.edu/registrar/bulletin/2026-2027/overview/statements/mission-diversity-statements.html",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "403 forbidden",
+          "closestScore": 0
         }
       ],
       "quoteVerified": false

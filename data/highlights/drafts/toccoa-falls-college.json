@@ -10,9 +10,13 @@
         {
           "title": "Christian & Missionary Alliance - University of Toccoa Falls",
           "url": "https://utf.edu/about/christian-missionary-alliance/",
-          "quote": "The University of Toccoa Falls is affiliated with the Christian & Missionary Alliance (C&MA)."
+          "quote": "The University of Toccoa Falls is affiliated with the Christian & Missionary Alliance (C&MA).",
+          "httpStatus": 200,
+          "finalUrl": "https://utf.edu/about/christian-missionary-alliance/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Tuitions & Fees | Cost of Attendance | Dillard University, HBCU",
           "url": "https://www.dillard.edu/about/administration/academic-affairs/tuition-and-fees/",
-          "quote": "All incoming students will have their tuition frozen for their second consecutive academic year. The new pricing structure ensures that all students who graduate in four years will have only one tuition increase while matriculating."
+          "quote": "All incoming students will have their tuition frozen for their second consecutive academic year. The new pricing structure ensures that all students who graduate in four years will have only one tuition increase while matriculating.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dillard.edu/about/administration/academic-affairs/tuition-and-fees/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

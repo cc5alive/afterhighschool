@@ -10,9 +10,13 @@
         {
           "title": "Tuition - The Southern Baptist Theological Seminary",
           "url": "https://www.sbts.edu/financial-aid/tuition/",
-          "quote": "Southern Seminary does not participate in any federal or state student aid programs involving loans or grants. Financial Aid at Southern consists of Cooperative Program funding, scholarships awarded through endowed aid, and a private loan opportunity."
+          "quote": "Southern Seminary does not participate in any federal or state student aid programs involving loans or grants. Financial Aid at Southern consists of Cooperative Program funding, scholarships awarded through endowed aid, and a private loan opportunity.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sbts.edu/financial-aid/tuition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Students who belong to Southern Baptist Churches receive a discounted tuition rate supported by the denomination's Cooperative Program.",
@@ -20,9 +24,16 @@
         {
           "title": "Tuition - The Southern Baptist Theological Seminary",
           "url": "https://www.sbts.edu/financial-aid/tuition/",
-          "quote": "Thanks to the generosity of Southern Baptists in contributing to the Cooperative Program, students who are members of Southern Baptist Churches receive a discounted tuition rate."
+          "quote": "Thanks to the generosity of Southern Baptists in contributing to the Cooperative Program, students who are members of Southern Baptist Churches receive a discounted tuition rate.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sbts.edu/financial-aid/tuition/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "cost per credit hour students who are not members of sbc churches receive this online tuition rate. learn more $332 sbc cost per credit hour members of southern baptist churches receive this discounted tuition rate. estimate",
+          "closestScore": 0.61
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

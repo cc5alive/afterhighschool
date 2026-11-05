@@ -10,9 +10,14 @@
         {
           "title": "The Loras College Promise | Generous Iowa Merit Scholarships",
           "url": "https://loras.edu/promise/",
-          "quote": "Iowa residents eligible to receive the Pell Grant and Iowa Tuition Grant will have their total tuition needs met by the Loras Promise."
+          "quote": "Iowa residents eligible to receive the Pell Grant and Iowa Tuition Grant will have their total tuition needs met by the Loras Promise.",
+          "httpStatus": 200,
+          "finalUrl": "https://loras.edu/promise/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

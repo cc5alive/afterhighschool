@@ -10,9 +10,13 @@
         {
           "title": "Core Curriculum - WIlliam Jewell Alumni",
           "url": "https://alumni.jewell.edu/learn/core-curriculum",
-          "quote": "Important questions are imbedded within our courses throughout the Core and provide a unifying theme for inquiry: What is real? What can we know? How should we live?"
+          "quote": "Important questions are imbedded within our courses throughout the Core and provide a unifying theme for inquiry: What is real? What can we know? How should we live?",
+          "httpStatus": 200,
+          "finalUrl": "https://alumni.jewell.edu/learn/core-curriculum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

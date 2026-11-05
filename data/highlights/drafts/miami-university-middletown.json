@@ -10,9 +10,13 @@
         {
           "title": "Work+ FAQs - Miami University",
           "url": "https://miamioh.edu/regionals/student-resources/work-plus/faq.html",
-          "quote": "Work+ is a program for Miami University Regionals students to obtain an associate or bachelor's degree while working part-time and getting their tuition paid."
+          "quote": "Work+ is a program for Miami University Regionals students to obtain an associate or bachelor's degree while working part-time and getting their tuition paid.",
+          "httpStatus": 200,
+          "finalUrl": "https://miamioh.edu/regionals/student-resources/work-plus/faq.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

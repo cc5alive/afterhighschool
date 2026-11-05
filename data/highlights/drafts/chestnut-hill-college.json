@@ -10,9 +10,13 @@
         {
           "title": "Types Of Aid - Chestnut Hill College",
           "url": "https://www.chc.edu/admissions-aid/financial-aid/types-of-aid/",
-          "quote": "Legacy of Service Scholarship – $4,000 per year for 4 years First-year students who graduated from a Catholic high school are eligible to receive this annual award of $4,000 per year for 4 years."
+          "quote": "Legacy of Service Scholarship – $4,000 per year for 4 years First-year students who graduated from a Catholic high school are eligible to receive this annual award of $4,000 per year for 4 years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.chc.edu/admissions-aid/financial-aid/types-of-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

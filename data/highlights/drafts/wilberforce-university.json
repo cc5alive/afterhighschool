@@ -10,9 +10,16 @@
         {
           "title": "FACULTY HANDBOOK - Wilberforce University",
           "url": "https://wilberforce.edu/wp-content/uploads/2024/03/WU-Faculty-Handbook-Final-2023-2024.pdf",
-          "quote": "Wilberforce University is the nation's first, private, Historically Black College and University (HBCU) owned and operated by African Americans. Its roots trace back to its founding in 1856"
+          "quote": "Wilberforce University is the nation's first, private, Historically Black College and University (HBCU) owned and operated by African Americans. Its roots trace back to its founding in 1856",
+          "httpStatus": 202,
+          "finalUrl": "https://wilberforce.edu/wp-content/uploads/2024/03/WU-Faculty-Handbook-Final-2023-2024.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "wilberforce.edu checking the site connection security this page requires cookies to be enabled in your browser settings. please check this setting and enable cookies (if disabled)",
+          "closestScore": 0.14
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

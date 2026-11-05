@@ -10,14 +10,27 @@
         {
           "title": "Media Kit | Media Center | West Virginia University Institute of ...",
           "url": "https://media.wvutech.edu/about-tech",
-          "quote": "1895: Montgomery Preparatory School was established to prepare students for WVU."
+          "quote": "1895: Montgomery Preparatory School was established to prepare students for WVU.",
+          "httpStatus": 200,
+          "finalUrl": "https://media.wvutech.edu/about-tech",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "and statistics page to find out more. history 1895: montgomery preparatory school was established to prepare students for wvu 1897: classes",
+          "closestScore": 1
         },
         {
           "title": "Media Kit | Media Center | West Virginia University Institute of ...",
           "url": "https://media.wvutech.edu/about-tech",
-          "quote": "2017: Full transition to the Beckley campus completed."
+          "quote": "2017: Full transition to the Beckley campus completed.",
+          "httpStatus": 200,
+          "finalUrl": "https://media.wvutech.edu/about-tech",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "freshman students began classes on wvu tech's beckley campus 2017: full transition to the beckley campus completed our",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

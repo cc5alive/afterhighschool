@@ -10,9 +10,13 @@
         {
           "title": "Stats & Facts - Life University",
           "url": "https://www.life.edu/about/stats-facts/",
-          "quote": "Life University is home to the largest single-campus chiropractic college in the world."
+          "quote": "Life University is home to the largest single-campus chiropractic college in the world.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.life.edu/about/stats-facts/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

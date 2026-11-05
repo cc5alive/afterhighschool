@@ -10,9 +10,13 @@
         {
           "title": "University of Jamestown",
           "url": "https://www.uj.edu/",
-          "quote": "Zero! Number of students who pay full tuition You read that right. Every full-time, undergraduate student receives some type of financial aid."
+          "quote": "Zero! Number of students who pay full tuition You read that right. Every full-time, undergraduate student receives some type of financial aid.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uj.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

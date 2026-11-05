@@ -10,9 +10,13 @@
         {
           "title": "Digital U at CMU | Central Methodist University",
           "url": "https://centralmethodist.edu/academics/digitalu/index.html",
-          "quote": "As a CMU undergraduate student at our main campus in Fayette, Digital U provides you with your very own Apple iPad, loaded with apps and other features to advance skills and expertise."
+          "quote": "As a CMU undergraduate student at our main campus in Fayette, Digital U provides you with your very own Apple iPad, loaded with apps and other features to advance skills and expertise.",
+          "httpStatus": 200,
+          "finalUrl": "https://centralmethodist.edu/academics/digitalu/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

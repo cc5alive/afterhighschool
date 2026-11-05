@@ -10,9 +10,13 @@
         {
           "title": "One Class at a Time | Aquinas College",
           "url": "https://www.aquinas.edu/academics/one-class-at-a-time.html",
-          "quote": "This first-year scheduling option allows you to focus on a single course for 18 days before moving to the next."
+          "quote": "This first-year scheduling option allows you to focus on a single course for 18 days before moving to the next.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aquinas.edu/academics/one-class-at-a-time.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

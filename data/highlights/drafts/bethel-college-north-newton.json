@@ -10,9 +10,13 @@
         {
           "title": "Career Choice Commitment - Bethel College",
           "url": "https://www.bethelks.edu/admissions/career-choice-commitment/",
-          "quote": "If offered, the Career Choice Commitment serves as a loan repayment safety net provided through Bethel at no cost to you or your family. After graduating and becoming employed, if your earnings fall below the program's qualifying income threshold, we will help repay your loans"
+          "quote": "If offered, the Career Choice Commitment serves as a loan repayment safety net provided through Bethel at no cost to you or your family. After graduating and becoming employed, if your earnings fall below the program's qualifying income threshold, we will help repay your loans",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bethelks.edu/admissions/career-choice-commitment/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,16 @@
         {
           "title": "Hastings College Block Schedule",
           "url": "https://www.hastings.edu/academics/hastings-college-block-schedule/",
-          "quote": "Two Classes at a Time. You take just two 4-credit courses per block. Focus, finish them and move seamlessly on to the next two."
+          "quote": "Two Classes at a Time. You take just two 4-credit courses per block. Focus, finish them and move seamlessly on to the next two.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hastings.edu/academics/hastings-college-block-schedule/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "class, and professors report that engaged students perform better! two classes at a time you take just two 4-credit courses per block. focus, finish them and move seamlessly on to the next two. closer",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

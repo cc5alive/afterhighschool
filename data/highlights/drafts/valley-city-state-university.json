@@ -10,9 +10,13 @@
         {
           "title": "Laptop Initiative | Valley City State University",
           "url": "https://www.vcsu.edu/student-life/technology-services/laptop-initiative/",
-          "quote": "All on-campus full-time students, full-time faculty, and most staff are issued either a MacBook Air, or a Microsoft Windows based laptop."
+          "quote": "All on-campus full-time students, full-time faculty, and most staff are issued either a MacBook Air, or a Microsoft Windows based laptop.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.vcsu.edu/student-life/technology-services/laptop-initiative/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

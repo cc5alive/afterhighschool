@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://gallaudet.edu/president/gallaudet-universitys-2026-u-s-news-world-report-rankings-announced/",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "403 forbidden",
+          "closestScore": 0
         },
         {
           "title": "MSCHE Institutional Overview - Gallaudet University",
@@ -23,7 +25,9 @@
           "httpStatus": 403,
           "finalUrl": "https://gallaudet.edu/institutional-research-effectiveness/institutional-effectiveness-certification/accreditations/msche-self-study-timeline/msche-institutional-overview/",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "403 forbidden",
+          "closestScore": 0
         }
       ],
       "quoteVerified": false

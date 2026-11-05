@@ -10,9 +10,14 @@
         {
           "title": "Financial Aid and Scholarships - Rockford University",
           "url": "https://www.rockford.edu/admission/financialaid/",
-          "quote": "Rockford Promise is a location-based scholarship program that provides eligible students from the City of Rockford with the opportunity to attend Rockford University tuition-free."
+          "quote": "Rockford Promise is a location-based scholarship program that provides eligible students from the City of Rockford with the opportunity to attend Rockford University tuition-free.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rockford.edu/admission/financialaid/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

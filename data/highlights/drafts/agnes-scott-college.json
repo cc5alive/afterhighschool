@@ -10,9 +10,14 @@
         {
           "title": "The Agnes Scott 100K Promise | Undergraduate Scholarships ...",
           "url": "https://www.agnesscott.edu/admission/undergraduate-admission/scholarships-financial-aid/100k-promise.html",
-          "quote": "Through the $100K+ Promise, every student admitted for Fall 2027 will receive a renewable merit scholarship worth at least $25,000 per year, totaling $100,000 to $136,000 over four years."
+          "quote": "Through the $100K+ Promise, every student admitted for Fall 2027 will receive a renewable merit scholarship worth at least $25,000 per year, totaling $100,000 to $136,000 over four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.agnesscott.edu/admission/undergraduate-admission/scholarships-financial-aid/100k-promise.html",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

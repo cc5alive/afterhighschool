@@ -10,9 +10,13 @@
         {
           "title": "Compass Curriculum - Millsaps College",
           "url": "https://millsaps.edu/academics/the-millsaps-experience/compass-curriculum/",
-          "quote": "In addition to the Compass Curriculum, you will also take Foundations in your first semester and, before graduation, complete a Major Experience, demonstrate writing proficiency and write a reflection on the value of your Millsaps experience."
+          "quote": "In addition to the Compass Curriculum, you will also take Foundations in your first semester and, before graduation, complete a Major Experience, demonstrate writing proficiency and write a reflection on the value of your Millsaps experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://millsaps.edu/academics/the-millsaps-experience/compass-curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

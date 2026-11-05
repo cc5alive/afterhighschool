@@ -14,7 +14,9 @@
           "httpStatus": 404,
           "finalUrl": "https://www.frostburg.edu/_files/pdfs/Message-04-20-26.pdf",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "server error 404 - file or directory not found. the resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+          "closestScore": 0.03
         }
       ],
       "quoteVerified": false

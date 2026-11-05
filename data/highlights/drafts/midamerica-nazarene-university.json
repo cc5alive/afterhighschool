@@ -10,9 +10,14 @@
         {
           "title": "Student Development - MidAmerica Nazarene University",
           "url": "https://catalog.mnu.edu/content.php?catoid=8&navoid=627",
-          "quote": "Traditional undergraduate students at MNU need to garner (or acrew) 20 Spiritual Formation Credits (SFC) each semester. 10 SFC must be completed by attending our Gathering Chapels, which primarily happen on Tuesdays at 9:30 a.m."
+          "quote": "Traditional undergraduate students at MNU need to garner (or acrew) 20 Spiritual Formation Credits (SFC) each semester. 10 SFC must be completed by attending our Gathering Chapels, which primarily happen on Tuesdays at 9:30 a.m.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.mnu.edu/content.php?catoid=8&navoid=627",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

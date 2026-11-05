@@ -10,9 +10,13 @@
         {
           "title": "History and Traditions | Wilson Edu",
           "url": "https://www.wilson.edu/history-and-traditions",
-          "quote": "Wilson College was founded in 1869 as a college for women, one of the first in the United States."
+          "quote": "Wilson College was founded in 1869 as a college for women, one of the first in the United States.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wilson.edu/history-and-traditions",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

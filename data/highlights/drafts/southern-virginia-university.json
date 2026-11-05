@@ -10,9 +10,13 @@
         {
           "title": "Mission | Southern Virginia University Catalog",
           "url": "https://catalog.svu.edu/about/mission",
-          "quote": "Southern Virginia University is a private, faith-based institution of higher education aligned with the restored gospel of Jesus Christ as taught by The Church of Jesus Christ of Latter-day Saints."
+          "quote": "Southern Virginia University is a private, faith-based institution of higher education aligned with the restored gospel of Jesus Christ as taught by The Church of Jesus Christ of Latter-day Saints.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.svu.edu/about/mission",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

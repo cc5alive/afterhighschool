@@ -10,9 +10,13 @@
         {
           "title": "Agriculture Major - Wilmington College",
           "url": "https://www.wilmington.edu/programs/agriculture",
-          "quote": "Across 267 acres of land, you will find farm animals, greenhouses, a 2.5-acre vegetable garden and a 1,300-gallon rainwater recycling system."
+          "quote": "Across 267 acres of land, you will find farm animals, greenhouses, a 2.5-acre vegetable garden and a 1,300-gallon rainwater recycling system.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wilmington.edu/programs/agriculture",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

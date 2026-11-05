@@ -14,7 +14,9 @@
           "httpStatus": 403,
           "finalUrl": "https://scranton.psu.edu/academics/degrees/2-plus-2-degree-plan",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "scranton.psu.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f21efa90be28b performance and security by cloudflare privacy",
+          "closestScore": 0.09
         },
         {
           "title": "2 + 2 Degree Plan | Penn State Scranton",
@@ -23,7 +25,9 @@
           "httpStatus": 403,
           "finalUrl": "https://scranton.psu.edu/academics/degrees/2-plus-2-degree-plan",
           "quoteFound": null,
-          "browserChecked": true
+          "browserChecked": true,
+          "closest": "this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f21efa90be28b performance and security",
+          "closestScore": 0.25
         }
       ],
       "quoteVerified": false

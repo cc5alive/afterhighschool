@@ -10,9 +10,13 @@
         {
           "title": "Scholarships - Kansas Wesleyan University",
           "url": "https://www.kwu.edu/pay-for-college/financial-aid/scholarships/",
-          "quote": "This is a minimum guarantee of $80,000 in undergraduate scholarships over four years ($20,000 per year)."
+          "quote": "This is a minimum guarantee of $80,000 in undergraduate scholarships over four years ($20,000 per year).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kwu.edu/pay-for-college/financial-aid/scholarships/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

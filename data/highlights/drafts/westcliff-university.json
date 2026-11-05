@@ -10,9 +10,13 @@
         {
           "title": "Scholarships and Grants | Westcliff University",
           "url": "https://www.westcliff.edu/financial-aid/scholarships-and-grants/",
-          "quote": "Civil Servant Scholarship Established to support new domestic students employed in U.S. civil services. Scholarship Criteria: Award amount: 20% tuition discount Application fee waiver Eligible populations include educators, school district employees, federal employees"
+          "quote": "Civil Servant Scholarship Established to support new domestic students employed in U.S. civil services. Scholarship Criteria: Award amount: 20% tuition discount Application fee waiver Eligible populations include educators, school district employees, federal employees",
+          "httpStatus": 200,
+          "finalUrl": "https://www.westcliff.edu/financial-aid/scholarships-and-grants/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

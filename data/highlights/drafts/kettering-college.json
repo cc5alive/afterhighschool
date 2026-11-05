@@ -10,9 +10,16 @@
         {
           "title": "The Healthcare Management Program at Kettering College",
           "url": "https://info.kc.edu/healthcare-management/",
-          "quote": "Our Seventh-day Adventist faith guides us to an approach to healthcare education that focuses on Christian service and philosophy. Located in Dayton, OH, Kettering College offers graduate and undergraduate degrees in health science."
+          "quote": "Our Seventh-day Adventist faith guides us to an approach to healthcare education that focuses on Christian service and philosophy. Located in Dayton, OH, Kettering College offers graduate and undergraduate degrees in health science.",
+          "httpStatus": 200,
+          "finalUrl": "https://info.kc.edu/healthcare-management/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "to our students. we care for you completely, so you can become a better, whole-person provider for the patients you serve. our seventh-day adventist faith guides us to an approach to healthcare education that focuses on christian service and philosophy. first name *",
+          "closestScore": 0.6
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

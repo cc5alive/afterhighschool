@@ -10,9 +10,13 @@
         {
           "title": "Admission Requirements | CalArts",
           "url": "https://calarts.edu/admissions-aid/admissions/admission-requirements",
-          "quote": "Along with the general application, each school has its own specific admissions criteria, including portfolio or audition requirements."
+          "quote": "Along with the general application, each school has its own specific admissions criteria, including portfolio or audition requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://calarts.edu/admissions-aid/admissions/admission-requirements",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

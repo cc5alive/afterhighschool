@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid | Lake Erie College",
           "url": "https://www.lec.edu/financial-aid",
-          "quote": "The Cuyahoga Connect Scholarship supports qualifying students from Cuyahoga County in the Class of 2026. Cost is $7,500 per semester or $15,000 per year Rate locked for four years Designed for full-time commuter students, applied directly to tuition and fees"
+          "quote": "The Cuyahoga Connect Scholarship supports qualifying students from Cuyahoga County in the Class of 2026. Cost is $7,500 per semester or $15,000 per year Rate locked for four years Designed for full-time commuter students, applied directly to tuition and fees",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lec.edu/financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Lake Erie College offers a specialty Twin Scholarship that provides half tuition for each twin enrolled.",
@@ -20,9 +24,13 @@
         {
           "title": "Financial Aid | Lake Erie College",
           "url": "https://www.lec.edu/financial-aid",
-          "quote": "Twin Scholarship – Half tuition for each twin"
+          "quote": "Twin Scholarship – Half tuition for each twin",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lec.edu/financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
