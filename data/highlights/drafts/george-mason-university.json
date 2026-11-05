@@ -10,9 +10,13 @@
         {
           "title": "advance gmu - George Mason University",
           "url": "https://advancesuccess.gmu.edu/",
-          "quote": "ADVANCE helps students smoothly transfer from Northern Virginia Community College to George Mason University to complete their 4-year"
+          "quote": "ADVANCE helps students smoothly transfer from Northern Virginia Community College to George Mason University to complete their 4-year",
+          "httpStatus": 200,
+          "finalUrl": "https://advancesuccess.gmu.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

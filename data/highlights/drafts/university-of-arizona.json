@@ -10,9 +10,13 @@
         {
           "title": "Guaranteed Tuition Program FAQs | Bursar",
           "url": "https://bursar.arizona.edu/tuition/gtp-faq",
-          "quote": "The Guaranteed Tuition Program is the University of Arizona's commitment to provide students, who initially enroll prior or beginning with the Fall 2024/Spring 2025 semester with a constant tuition rate and mandatory fees, as set by the Arizona Board of Regents for eight (8) continuous semesters"
+          "quote": "The Guaranteed Tuition Program is the University of Arizona's commitment to provide students, who initially enroll prior or beginning with the Fall 2024/Spring 2025 semester with a constant tuition rate and mandatory fees, as set by the Arizona Board of Regents for eight (8) continuous semesters",
+          "httpStatus": 200,
+          "finalUrl": "https://bursar.arizona.edu/tuition/gtp-faq",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

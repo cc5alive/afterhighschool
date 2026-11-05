@@ -27,9 +27,16 @@
         {
           "title": "Honor Code and Ecclesiastical Endorsement - BYU Graduate Studies",
           "url": "https://gradstudies.byu.edu/about/honor-code-and-ecclesiastical-endorsement",
-          "quote": "All persons wanting to attend BYU must complete and maintain a valid ecclesiastical endorsement in order to be enrolled at the university."
+          "quote": "All persons wanting to attend BYU must complete and maintain a valid ecclesiastical endorsement in order to be enrolled at the university.",
+          "httpStatus": 403,
+          "finalUrl": "https://gradstudies.byu.edu/about/honor-code-and-ecclesiastical-endorsement",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "much traffic or a configuration error. try again later, or contact the app or website owner. if you provide content to customers through cloudfront, you can find steps to troubleshoot and help",
+          "closestScore": 0.13
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

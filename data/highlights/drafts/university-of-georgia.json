@@ -10,9 +10,13 @@
         {
           "title": "Student FAQs - Experiential Learning",
           "url": "https://el.uga.edu/students/student-faqs/",
-          "quote": "All undergraduate students are required to complete at least one experiential learning activity before graduation. Our faculty have identified courses and other activities that will fulfill the requirement for students in each school and college."
+          "quote": "All undergraduate students are required to complete at least one experiential learning activity before graduation. Our faculty have identified courses and other activities that will fulfill the requirement for students in each school and college.",
+          "httpStatus": 200,
+          "finalUrl": "https://el.uga.edu/students/student-faqs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

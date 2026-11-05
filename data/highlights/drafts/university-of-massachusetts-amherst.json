@@ -10,9 +10,16 @@
         {
           "title": "Amherst Advantage : UMass Amherst",
           "url": "https://www.umass.edu/financialaid/amherst-advantage",
-          "quote": "Beginning with the Fall 2025 semester, if your household earns an adjusted gross income of $75,000 or less, you can qualify to attend UMass Amherst at no cost for tuition and mandatory fees."
+          "quote": "Beginning with the Fall 2025 semester, if your household earns an adjusted gross income of $75,000 or less, you can qualify to attend UMass Amherst at no cost for tuition and mandatory fees.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.umass.edu/financialaid/amherst-advantage",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "can email the site owner to let them know you were blocked. please include what you were doing when this page came up and the cloudflare ray id found at the bottom of this page. cloudflare ray id: a55fbfe29c80ebf6 • your ip: click",
+          "closestScore": 0.19
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

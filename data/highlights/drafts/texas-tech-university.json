@@ -10,9 +10,13 @@
         {
           "title": "Red Raider Guarantee | Financial Aid Home | Texas Tech",
           "url": "https://www.depts.ttu.edu/financialaid/guarantee/",
-          "quote": "Must have a family adjusted gross income of $80,000 or less Must have demonstrated financial need Must be enrolled full-time (at least 12 hours) each semester - Fall/Spring only"
+          "quote": "Must have a family adjusted gross income of $80,000 or less Must have demonstrated financial need Must be enrolled full-time (at least 12 hours) each semester - Fall/Spring only",
+          "httpStatus": 200,
+          "finalUrl": "https://www.depts.ttu.edu/financialaid/guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

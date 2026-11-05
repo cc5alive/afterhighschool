@@ -10,9 +10,13 @@
         {
           "title": "Save and Soar Tuition Plan | University of North Texas",
           "url": "https://studentaccounting.unt.edu/save-and-soar-tuition-plan.html",
-          "quote": "Choose the Save and Soar tuition plan and lock in your tuition rate. Finish your degree faster and focus on what's next by taking advantage of exclusive tuition savings on summer and winter sessions."
+          "quote": "Choose the Save and Soar tuition plan and lock in your tuition rate. Finish your degree faster and focus on what's next by taking advantage of exclusive tuition savings on summer and winter sessions.",
+          "httpStatus": 200,
+          "finalUrl": "https://studentaccounting.unt.edu/save-and-soar-tuition-plan.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

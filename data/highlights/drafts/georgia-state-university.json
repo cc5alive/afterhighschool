@@ -10,9 +10,16 @@
         {
           "title": "Panther Retention Grants | Georgia State Student Success Initiatives",
           "url": "https://success.gsu.edu/panther-retention-grants/",
-          "quote": "Georgia State provides retention grants to students to help cover modest financial shortfalls affecting their ability to pay tuition and fees."
+          "quote": "Georgia State provides retention grants to students to help cover modest financial shortfalls affecting their ability to pay tuition and fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://success.gsu.edu/panther-retention-grants/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "panther retention grants a strategic approach georgia state provides micro grants to students each semester to help cover modest financial shortfalls affecting the students' ability to pay tuition and fees and",
+          "closestScore": 0.94
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

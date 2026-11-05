@@ -27,9 +27,13 @@
         {
           "title": "Co-op - Campus Life | University of Cincinnati",
           "url": "https://www.uc.edu/campus-life/career-co-op-support/gain-experience/co-op.html",
-          "quote": "These programs require 2–5 full-time co-op terms (at least 35 hours/week for 15–18 weeks each) before graduation."
+          "quote": "These programs require 2–5 full-time co-op terms (at least 35 hours/week for 15–18 weeks each) before graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uc.edu/campus-life/career-co-op-support/gain-experience/co-op.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

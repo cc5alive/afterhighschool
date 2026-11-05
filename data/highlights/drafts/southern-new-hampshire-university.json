@@ -10,9 +10,16 @@
         {
           "title": "How Do Online Classes Work? What to Know Before You Start",
           "url": "https://www.snhu.edu/about-us/newsroom/education/what-to-expect-as-an-online-student",
-          "quote": "Undergraduate terms (associate and bachelor's programs): 8 weeks. Graduate terms (master's programs): 10 weeks."
+          "quote": "Undergraduate terms (associate and bachelor's programs): 8 weeks. Graduate terms (master's programs): 10 weeks.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.snhu.edu/about-us/newsroom/education/what-to-expect-as-an-online-student",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "school you attend. at snhu, for example, you can expect the following: undergraduate terms (associate and bachelor's programs): 8 weeks graduate terms (master's programs):",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

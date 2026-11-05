@@ -10,9 +10,13 @@
         {
           "title": "Arkansas Transfer Achievement Scholarship Requirements",
           "url": "https://scholarships.uark.edu/transfer-scholarships/ar-transfer-achievement-eligibility.php",
-          "quote": "The Arkansas Transfer Achievement Scholarship reduces the UAF base undergraduate tuition rate per credit hour to the equivalent in-district UA System two-year"
+          "quote": "The Arkansas Transfer Achievement Scholarship reduces the UAF base undergraduate tuition rate per credit hour to the equivalent in-district UA System two-year",
+          "httpStatus": 200,
+          "finalUrl": "https://scholarships.uark.edu/transfer-scholarships/ar-transfer-achievement-eligibility.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

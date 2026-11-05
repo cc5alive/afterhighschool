@@ -10,9 +10,13 @@
         {
           "title": "Tuition & Fees Calculator - Oregon State Ecampus",
           "url": "https://ecampus.oregonstate.edu/forms/tuition-calculator.htm",
-          "quote": "Oregon State University is on a quarter-term system. There are four quarters each year and classes are 11 weeks long including one week for finals."
+          "quote": "Oregon State University is on a quarter-term system. There are four quarters each year and classes are 11 weeks long including one week for finals.",
+          "httpStatus": 200,
+          "finalUrl": "https://ecampus.oregonstate.edu/forms/tuition-calculator.htm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "University Residency Requirement | SDSU",
           "url": "https://housing.sdsu.edu/resources/requirement",
-          "quote": "First-year students from outside San Diego State University's local admissions area are required to live on campus and have a meal plan for both their first and second years at the university."
+          "quote": "First-year students from outside San Diego State University's local admissions area are required to live on campus and have a meal plan for both their first and second years at the university.",
+          "httpStatus": 200,
+          "finalUrl": "https://housing.sdsu.edu/resources/requirement",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

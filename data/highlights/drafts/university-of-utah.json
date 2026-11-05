@@ -10,9 +10,13 @@
         {
           "title": "For Utah Scholarship - Financial Aid and Scholarships",
           "url": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/for-utah-terms.php",
-          "quote": "The For Utah Scholarship program ensures that four years of tuition and mandatory fees are covered by grant and scholarship assistance from all sources for Utah residents who are eligible for the Pell Grant."
+          "quote": "The For Utah Scholarship program ensures that four years of tuition and mandatory fees are covered by grant and scholarship assistance from all sources for Utah residents who are eligible for the Pell Grant.",
+          "httpStatus": 200,
+          "finalUrl": "https://financialaid.utah.edu/types-of-aid/scholarships/freshman/for-utah-terms.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

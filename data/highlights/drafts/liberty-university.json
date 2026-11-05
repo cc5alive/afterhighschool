@@ -10,9 +10,13 @@
         {
           "title": "Convocation FAQ | LU Stages | Liberty University",
           "url": "https://www.liberty.edu/osd/lu-stages/convocation/faq/",
-          "quote": "All undergraduate and graduate students living on campus are required to attend Convocation on Wednesdays and Fridays."
+          "quote": "All undergraduate and graduate students living on campus are required to attend Convocation on Wednesdays and Fridays.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.liberty.edu/osd/lu-stages/convocation/faq/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

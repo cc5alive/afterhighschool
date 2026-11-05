@@ -10,9 +10,13 @@
         {
           "title": "FIU's Golden Promise | FIU OneStop",
           "url": "https://onestop.fiu.edu/finances/types-of-aid/fius-golden-promise/",
-          "quote": "This program guarantees 100% tuition and fees for Florida residents with a Student Aid Index (SAI) of 0 or less."
+          "quote": "This program guarantees 100% tuition and fees for Florida residents with a Student Aid Index (SAI) of 0 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://onestop.fiu.edu/finances/types-of-aid/fius-golden-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Bobcat Promise : TXST One Stop : Texas State University",
           "url": "https://onestop.txst.edu/financial-aid/learn-more/icons/bobcatpromise.html",
-          "quote": "The Bobcat Promise provides grants for tuition and mandatory fees up to 15 hours per semester to new entering freshmen with a FAFSA® income of $50,000 or less"
+          "quote": "The Bobcat Promise provides grants for tuition and mandatory fees up to 15 hours per semester to new entering freshmen with a FAFSA® income of $50,000 or less",
+          "httpStatus": 200,
+          "finalUrl": "https://onestop.txst.edu/financial-aid/learn-more/icons/bobcatpromise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

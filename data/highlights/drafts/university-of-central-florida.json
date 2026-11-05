@@ -10,9 +10,13 @@
         {
           "title": "DirectConnect to UCF - Guaranteed Admission to UCF",
           "url": "https://directconnect.ucf.edu/",
-          "quote": "DirectConnect to UCF guarantees admission (consistent with university policy) to UCF with an associate degree (A.A.) or statewide articulated (A.S.) degree from one of our partner state colleges."
+          "quote": "DirectConnect to UCF guarantees admission (consistent with university policy) to UCF with an associate degree (A.A.) or statewide articulated (A.S.) degree from one of our partner state colleges.",
+          "httpStatus": 200,
+          "finalUrl": "https://directconnect.ucf.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
