@@ -1,40 +1,40 @@
-# Task: research "What's special" facts for 200 US colleges
+# Task: research "What's special" facts for US colleges (batch 1 of 11)
 
-You're helping build afterhighschool.me, a free, high-trust site that helps 16–18-year-olds decide what to do after high school. Each college page has a short "What's special" section: 1–3 facts that set that school apart, each linked to its source. Readers and parents will act on these facts, so accuracy matters more than coverage. A school with zero facts is fine. A wrong fact is not.
+You're helping build afterhighschool.me, a free, high-trust site that helps 16–18-year-olds decide what to do after high school. Each college page has a "What's special" section: a few facts that set the school apart, each linked to its source. Students and parents will act on these facts, so accuracy matters more than coverage. A school with zero facts is fine. A wrong or vague fact is not.
+
+## You must browse
+
+Use live web search and open each page you cite (Google Search grounding or Deep Research). Do not answer from memory. If you can't browse in this session, reply only with: BROWSING UNAVAILABLE.
+
+Every fact must come from a page you opened in this session, and the `quote` must be copied word for word from that page's text, not paraphrased. We check every quote against the live page automatically; facts whose quote isn't on the page are thrown out. If you didn't open the page, leave the fact out.
 
 ## What makes a good fact
 
-Every fact must be:
-1. **Verifiable on a page you actually opened in this session.** Prefer the school's own website (.edu admissions, financial aid, registrar, official news). Use reputable news only if the school's site doesn't cover it. Never cite Wikipedia, Niche, US News, CollegeVine, Reddit, Quora, PrepScholar, admissions-consulting blogs, or search-result snippets.
-2. **Current.** Check the page date. Prefer pages updated in 2025 or 2026. If the best source is older than 2024, still include it but say so in `concerns`.
-3. **Specific:** a program, requirement, dollar threshold, policy, structure or tradition with concrete details. Not a vibe ("vibrant community", "world-class faculty").
-4. **Distinct:** not true of most similar schools. "Has study abroad" or "has a career center" are out. Good: a co-op program, a required senior thesis, an unusual calendar, a guaranteed-admission rule, an income-based free-tuition program with its thresholds, a residential college system, a consortium for cross-registration, a work college requirement, a service obligation.
-5. **Useful to a 17-year-old deciding whether to apply,** or to their family deciding whether they can afford it.
-6. **Free of superlatives** the source can't back up ("best", "first", "only", "largest") — use them only if the source states it exactly.
+1. **Specific and checkable:** a named program, requirement, policy, dollar or income threshold, calendar, structure or tradition, with its concrete details (numbers, who qualifies, which years).
+2. **Distinct:** not true of most similar schools. Out: "has study abroad", "has an honors college", "offers research opportunities", "strong programs in X". In: a co-op requirement, a senior thesis everyone writes, a block plan or unusual calendar, guaranteed admission rules, applying directly to a specific school or major, nomination or audition required, an income-based free-tuition program with its thresholds, a work-college requirement, a residential college system, a cross-registration consortium, a service or religious requirement all students complete, an HBCU/tribal/women's college with a specific program tied to that mission.
+3. **Useful to a 17-year-old deciding whether to apply,** or their family deciding if they can afford it.
+4. **No marketing language.** Never use: premier, renowned, world-class, world-renowned, nationally recognized, leading, top, vibrant, unique, innovative, robust, high-impact, cutting-edge, best, first, only, largest. The one exception: "first/only/largest" when the source states that exact claim; include it in the quote.
+5. **Current.** Prefer pages from 2025 or 2026. If the source is older or undated, say so in `concerns`.
 
-Priorities, in order: (a) distinctive academic structure or requirements, (b) admissions rules that change your odds (guaranteed admission, applying to a specific college, nomination required, test requirement if unusual for its peers), (c) affordability programs with exact income/asset thresholds and who qualifies, (d) distinctive residential or campus structures.
+Sources: the school's own site first (admissions, financial aid, registrar, catalog, official news). Reputable news only if the school's site doesn't cover it. Never cite Wikipedia, Niche, US News, CollegeVine, Reddit, Quora, PrepScholar, consultant blogs, or search-result pages.
 
 ## Writing rules
 
-- Write in your own words; never copy marketing copy. One to three plain sentences, 40–360 characters.
-- Second person or neutral ("Students…", "You apply to…"). Sentence case. No exclamation marks.
-- Include the exact numbers from the source (income thresholds, credits, years) and who qualifies (residency, Pell eligibility, first-years only, etc.).
-- Don't add anything the source doesn't say. No inferences like "so it's easier to get in".
-- Up to 3 facts per school. Two strong facts beat three weak ones.
+- Your own words, 1–3 plain sentences, 40–360 characters. Second person or neutral ("Students…", "You apply to…"). Sentence case.
+- Include the exact numbers and eligibility from the source. Add nothing the source doesn't say.
+- Aim for 2–3 facts per school. One solid fact beats three padded ones.
 
 ## Output format (important)
 
-Return **JSON Lines**: one JSON object per line, one line per school, in the order given. No commentary before or after, no markdown code fences. Use exactly these keys:
+Return **JSON Lines**: one JSON object per line, one line per school, in the order given. No commentary, no markdown code fences. Exactly these keys:
 
-{"slug":"<slug from the list, unchanged>","researchedAt":"YYYY-MM-DD","facts":[{"text":"<the fact>","sources":[{"title":"<site or page name, e.g. 'Rice Admission, residential colleges'>","url":"<exact https URL you opened>","quote":"<a short verbatim excerpt (under 25 words) from that page that supports the fact>"}]}],"concerns":"<null, or a short note: old source, conflicting info, couldn't open official page, etc.>"}
+{"slug":"<slug from the list, unchanged>","researchedAt":"<today's real date, YYYY-MM-DD>","facts":[{"text":"<the fact>","sources":[{"title":"<site or page name>","url":"<exact https URL you opened, after any redirects>","quote":"<verbatim excerpt from that page, 8–40 words, that supports the fact>"}]}],"concerns":"<null, or a short note: old source, conflicting info, couldn't open official page, etc.>"}
 
-If you can't find a solid fact for a school, still output its line with "facts": [] and explain in "concerns".
+If you find nothing solid, output the line with "facts": [] and a reason in "concerns".
 
-Rules for URLs: only URLs you actually loaded. Don't build or guess URLs from site structure. Don't cite a search-results page. The `quote` must appear on that page word for word; it's how we check your work.
+If you run out of room, end after a complete line and stop. I'll say "continue from <slug>".
 
 ## Schools (slug | name | location | website)
-
-Work through all 200. If you run out of room, stop at the end of a school's line and say nothing else; I'll ask you to continue from the next slug.
 
 colby-college | Colby College | Waterville, ME | www.colby.edu/
 pomona-college | Pomona College | Claremont, CA | www.pomona.edu/
