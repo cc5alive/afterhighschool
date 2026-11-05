@@ -13,7 +13,8 @@
           "quote": "The Bronco Promise provides a tuition-free WMU education for up to four years for eligible first-year students. The University awards these incredible scholarships to hundreds of students annually.",
           "httpStatus": 200,
           "finalUrl": "https://wmich.edu/empowering-futures/scholarships",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         },
         {
           "title": "Scholarships | Empowering Futures | Western Michigan University",
@@ -21,10 +22,11 @@
           "quote": "First-year student for fall entry in the year of admittance. Michigan resident, as defined by WMU's Residency Policy. Have a family household AGI of $50,000 or less and net assets under $75,000.",
           "httpStatus": 200,
           "finalUrl": "https://wmich.edu/empowering-futures/scholarships",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

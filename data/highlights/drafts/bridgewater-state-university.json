@@ -13,10 +13,11 @@
           "quote": "the Bridgewater Commitment will cover the full cost of tuition and mandatory fees for in-state students from families earning $125,000 or less.",
           "httpStatus": 200,
           "finalUrl": "https://www.bridgew.edu/cost-aid/bridgewater-commitment",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

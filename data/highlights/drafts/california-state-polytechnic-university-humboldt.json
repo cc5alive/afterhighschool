@@ -13,10 +13,11 @@
           "quote": "You knew us before as Humboldt State University. But on January 26, 2022 we became Cal Poly Humboldt, California's third polytechnic and the first in Northern California.",
           "httpStatus": 200,
           "finalUrl": "https://www.humboldt.edu/about/polytechnic",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

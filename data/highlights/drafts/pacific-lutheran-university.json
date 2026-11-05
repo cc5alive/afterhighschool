@@ -13,10 +13,11 @@
           "quote": "The PLU Fixed Tuition Guarantee ensures that your cost of tuition will be locked in from your first day until your graduation day.",
           "httpStatus": 200,
           "finalUrl": "https://www.plu.edu/admission/fixed-tuition/",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

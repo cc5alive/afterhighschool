@@ -13,10 +13,11 @@
           "quote": "Through our No Out-of-Pocket Promise, students who commute to the Chicago campus and qualify for the full Pell Grant and Illinois MAP Grant* will have their tuition and mandatory fees fully covered, resulting in no out-of-pocket cost.",
           "httpStatus": 200,
           "finalUrl": "https://explore.dom.edu/portal/chicago",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

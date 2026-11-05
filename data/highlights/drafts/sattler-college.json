@@ -13,10 +13,11 @@
           "quote": "replace traditional college tuition with Entrustment Tuition which awards all accepted students fully-funded tuition in exchange for a student's dedication to kingdom service and financial gratitude.",
           "httpStatus": 200,
           "finalUrl": "https://sattler.edu/entrustment/",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

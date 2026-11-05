@@ -13,10 +13,11 @@
           "quote": "By passing CTU Fast Track™ exams you can save up to 30% on time and tuition by earning college credit for prior knowledge*. Fast Track exams are available at no additional cost to all CTU students.",
           "httpStatus": 200,
           "finalUrl": "https://www.coloradotech.edu/admissions/registrar-evaluation-services/fast-track",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -13,10 +13,11 @@
           "quote": "If you are a Pennsylvania resident with a household income below $75,000 and typical assets, you will attend F&M tuition-free.",
           "httpStatus": 200,
           "finalUrl": "https://www.fandm.edu/financial-aid/commonwealth-commitment.html",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

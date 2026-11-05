@@ -13,10 +13,11 @@
           "quote": "Chapman Scholars receive tuition and class fee credit for a maximum of 18 credit hours, on-campus housing, textbooks, and a stipend for food each eligible fall and spring semester per aid year.",
           "httpStatus": 200,
           "finalUrl": "https://www.pfw.edu/summit-scholars/chapman-scholars",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

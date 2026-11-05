@@ -13,7 +13,8 @@
           "quote": "The Bearkat Promise is SHSU's commitment to making college more affordable for Texas students. The Bearkat Promise covers at least $5,685 in mandatory¹ tuition and fees each semester (15 credit hours) with only grant funds, not loans.",
           "httpStatus": 200,
           "finalUrl": "https://www.shsu.edu/cost-aid/bearkat-promise",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         },
         {
           "title": "Bearkat Promise",
@@ -21,10 +22,11 @@
           "quote": "The Bearkat Promise program supports students with family income² up to $100,000!",
           "httpStatus": 200,
           "finalUrl": "https://www.shsu.edu/cost-aid/bearkat-promise",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -13,10 +13,11 @@
           "quote": "Our aid packages are loan free, which means you can concentrate on just being a Bowdoin student.",
           "httpStatus": 200,
           "finalUrl": "https://www.bowdoin.edu/student-aid/",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

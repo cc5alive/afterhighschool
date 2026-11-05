@@ -13,10 +13,11 @@
           "quote": "Founded in 1846 by the Sisters of Mercy, Saint Xavier University is Chicago's oldest Catholic university and the first Mercy institution of higher learning in the United States.",
           "httpStatus": 200,
           "finalUrl": "https://www.sxu.edu/about/history-traditions/180-anniversary.html",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

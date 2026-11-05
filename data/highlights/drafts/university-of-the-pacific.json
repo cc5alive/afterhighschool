@@ -13,10 +13,11 @@
           "quote": "University of the Pacific is California's oldest university, founded July 10, 1851—less than a year after California received statehood. Established by pioneering Methodist ministers, it remains the only Methodist-related university in California.",
           "httpStatus": 200,
           "finalUrl": "https://www.pacific.edu/about-pacific/history-mission",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

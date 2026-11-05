@@ -13,10 +13,11 @@
           "quote": "Each of our undergraduate programs requires an audition that supplements the Queens College application process; please ensure that you complete both the college application AND the audition request using the links below.",
           "httpStatus": 200,
           "finalUrl": "https://www.qc.cuny.edu/academics/music/undergraduate-admissions/",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null

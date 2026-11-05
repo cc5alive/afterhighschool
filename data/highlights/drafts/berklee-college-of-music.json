@@ -13,10 +13,11 @@
           "quote": "Applying to be a Bachelor of Music or a Bachelor of Arts in Black Music and Culture student at Berklee College of Music requires a live audition and interview.",
           "httpStatus": 200,
           "finalUrl": "https://college.berklee.edu/admissions/undergraduate/auditionandinterview",
-          "quoteFound": false
+          "quoteFound": true,
+          "browserChecked": true
         }
       ],
-      "quoteVerified": false
+      "quoteVerified": true
     }
   ],
   "concerns": null
