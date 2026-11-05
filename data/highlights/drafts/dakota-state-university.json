@@ -10,9 +10,13 @@
         {
           "title": "DSU's Laptop Program - DSU Support Desk",
           "url": "https://support.dsu.edu/TDClient/1796/Portal/KB/?CategoryID=6172",
-          "quote": "DSU's Laptop Program is mandatory for all incoming first-time, first-year undergraduate students, all transfer and all continuing & re-admitted students."
+          "quote": "DSU's Laptop Program is mandatory for all incoming first-time, first-year undergraduate students, all transfer and all continuing & re-admitted students.",
+          "httpStatus": 200,
+          "finalUrl": "https://support.dsu.edu/TDClient/1796/Portal/KB/Category/6172/DSU-s-Laptop-Program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

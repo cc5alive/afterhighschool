@@ -10,9 +10,13 @@
         {
           "title": "Jesuit Promise Tuition Program - Saint Peter's University",
           "url": "https://www.saintpeters.edu/gateway/",
-          "quote": "That is why we created the Jesuit Promise Tuition Program – a unique opportunity that allows qualified students to earn their degree without paying tuition and comprehensive fees."
+          "quote": "That is why we created the Jesuit Promise Tuition Program – a unique opportunity that allows qualified students to earn their degree without paying tuition and comprehensive fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.saintpeters.edu/jesuit-promise-tuition-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

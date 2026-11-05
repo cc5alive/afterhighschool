@@ -10,9 +10,13 @@
         {
           "title": "Join our mailing list - Mount Holyoke College",
           "url": "https://www.mtholyoke.edu/admission/join-our-mailing-list",
-          "quote": "Mount Holyoke College is a women's college that is gender diverse."
+          "quote": "Mount Holyoke College is a women's college that is gender diverse.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mtholyoke.edu/admission/join-our-mailing-list",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Mount Holyoke's Lynk program provides internship funding and career resources to every sophomore and junior.",
@@ -20,9 +24,13 @@
         {
           "title": "Career-Focused Curriculum (The Lynk) - Mount Holyoke College",
           "url": "https://www.mtholyoke.edu/academics/enhance-your-learning/career-focused-curriculum-lynk",
-          "quote": "we created the Lynk — a program that provides every sophomore and junior with internship funding and a toolkit of resources to help them get the most out of an internship experience."
+          "quote": "we created the Lynk — a program that provides every sophomore and junior with internship funding and a toolkit of resources to help them get the most out of an internship experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mtholyoke.edu/academics/enhance-your-learning/career-focused-curriculum-lynk",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

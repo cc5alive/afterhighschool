@@ -10,9 +10,13 @@
         {
           "title": "Redlands Tuition Promise",
           "url": "https://www.redlands.edu/admissions-and-aid/first-year/redlands-tuition-promise",
-          "quote": "As an admitted high school senior from California with a 3.5 GPA or higher who meets income qualifications to be eligible for a Cal Grant you will receive a scholarship that covers full tuition in 2027-28."
+          "quote": "As an admitted high school senior from California with a 3.5 GPA or higher who meets income qualifications to be eligible for a Cal Grant you will receive a scholarship that covers full tuition in 2027-28.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.redlands.edu/admissions-and-aid/first-year/redlands-tuition-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Out-of-state seniors admitted with a 3.0 GPA or higher pay no more than $27,000 for tuition.",
@@ -20,9 +24,13 @@
         {
           "title": "Redlands Tuition Promise",
           "url": "https://www.redlands.edu/admissions-and-aid/first-year/redlands-tuition-promise",
-          "quote": "As an out-of-state admitted high school senior with a 3.0 GPA or higher, you'll pay no more than $27K for tuition in 2027-28."
+          "quote": "As an out-of-state admitted high school senior with a 3.0 GPA or higher, you'll pay no more than $27K for tuition in 2027-28.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.redlands.edu/admissions-and-aid/first-year/redlands-tuition-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

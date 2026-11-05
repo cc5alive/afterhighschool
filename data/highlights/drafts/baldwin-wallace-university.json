@@ -10,9 +10,13 @@
         {
           "title": "Graduation Guarantee | Baldwin Wallace University",
           "url": "https://www.bw.edu/academics/graduation-guarantee/",
-          "quote": "Baldwin Wallace guarantees you'll graduate in four, or we'll pay the tuition for the extra time it takes you to finish."
+          "quote": "Baldwin Wallace guarantees you'll graduate in four, or we'll pay the tuition for the extra time it takes you to finish.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bw.edu/academics/graduation-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Portfolio Requirements by Major | Undergraduate Admissions - ArtCenter College of Design",
           "url": "https://www.artcenter.edu/admissions/undergraduate-admissions/portfolio-requirements/requirements-by-major.html",
-          "quote": "ensure you are crafting a portfolio which meets the specific major requirements as outlined below."
+          "quote": "ensure you are crafting a portfolio which meets the specific major requirements as outlined below.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.artcenter.edu/admissions/undergraduate-admissions/portfolio-requirements/requirements-by-major.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

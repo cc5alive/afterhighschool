@@ -10,9 +10,13 @@
         {
           "title": "Bona Access Guarantee | St. Bonaventure University",
           "url": "https://www.sbu.edu/affordability/bona-access-guarantee",
-          "quote": "Beginning with students entering in fall 2027, the Bona Access Guarantee will cover 100% of tuition for eligible New York State students from families with annual total incomes of $80,000 or less and typical assets."
+          "quote": "Beginning with students entering in fall 2027, the Bona Access Guarantee will cover 100% of tuition for eligible New York State students from families with annual total incomes of $80,000 or less and typical assets.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sbu.edu/affordability/bona-access-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

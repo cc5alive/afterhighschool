@@ -10,9 +10,13 @@
         {
           "title": "Miami University Hamilton",
           "url": "https://miamioh.edu/regionals/campuses-locations/hamilton/",
-          "quote": "Miami Regionals maintains an open admission policy, which means first-time college students are automatically accepted with a high school diploma or GED at any age."
+          "quote": "Miami Regionals maintains an open admission policy, which means first-time college students are automatically accepted with a high school diploma or GED at any age.",
+          "httpStatus": 200,
+          "finalUrl": "https://miamioh.edu/regionals/campuses-locations/hamilton/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Pell-eligible students living in Hamilton who attended local high schools receive free tuition through the Miami Hamilton Promise Scholarship.",
@@ -20,9 +24,13 @@
         {
           "title": "Miami University Regionals Giving Opportunities",
           "url": "https://miamioh.edu/regionals/giving/",
-          "quote": "The Miami Hamilton Promise Scholarship offers free tuition for an associate or bachelor's degree from Miami University Regionals for students who attended high school and live in Hamilton, Ohio, and are Pell eligible (those who display exceptional financial need)."
+          "quote": "The Miami Hamilton Promise Scholarship offers free tuition for an associate or bachelor's degree from Miami University Regionals for students who attended high school and live in Hamilton, Ohio, and are Pell eligible (those who display exceptional financial need).",
+          "httpStatus": 200,
+          "finalUrl": "https://miamioh.edu/regionals/giving/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Minerva Houses - Union College",
           "url": "https://www.union.edu/minerva-programs/living-and-leading-minerva/minerva-houses",
-          "quote": "Every student, faculty member, and most staff members belong to one of the seven Minerva Houses, which provide a center for members' academic and social"
+          "quote": "Every student, faculty member, and most staff members belong to one of the seven Minerva Houses, which provide a center for members' academic and social",
+          "httpStatus": 200,
+          "finalUrl": "https://www.union.edu/minerva-programs/living-and-leading-minerva/minerva-houses",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Union College operates on a trimester calendar of three 10-week terms per year, with students typically taking three courses per term.",
@@ -20,9 +24,13 @@
         {
           "title": "Health Professions | Union College",
           "url": "https://www.union.edu/health-professions",
-          "quote": "Union uses a trimester calendar, which runs from September through mid-June. Students typically take three courses per 10-week trimester."
+          "quote": "Union uses a trimester calendar, which runs from September through mid-June. Students typically take three courses per 10-week trimester.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.union.edu/health-professions",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Promise Program 2025 - University of Wisconsin–Parkside",
           "url": "https://www.uwp.edu/apply/admissions/promise-programs/",
-          "quote": "Both Parkside Promise Plus and the Wisconsin Tuition Promise provide grant support for tuition and fees after federal and state grant aid has been applied."
+          "quote": "Both Parkside Promise Plus and the Wisconsin Tuition Promise provide grant support for tuition and fees after federal and state grant aid has been applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwp.edu/apply/admissions/promise-programs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

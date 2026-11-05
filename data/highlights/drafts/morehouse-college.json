@@ -10,9 +10,13 @@
         {
           "title": "Morehouse College | Historic HBCU in Atlanta, GA",
           "url": "https://morehouse.edu/",
-          "quote": "Morehouse College was founded in 1867 and is an HBCU in Atlanta, Georgia. We are the nation's only historically black private liberal arts college for men."
+          "quote": "Morehouse College was founded in 1867 and is an HBCU in Atlanta, Georgia. We are the nation's only historically black private liberal arts college for men.",
+          "httpStatus": 200,
+          "finalUrl": "https://morehouse.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Bachelor of Arts in Economics - Bellarmine University",
           "url": "https://www.bellarmine.edu/programs/ba-economics/index.php",
-          "quote": "Bellarmine guarantees every student the opportunity to have an internship, develop a career plan, and build a professional network."
+          "quote": "Bellarmine guarantees every student the opportunity to have an internship, develop a career plan, and build a professional network.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bellarmine.edu/programs/ba-economics/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

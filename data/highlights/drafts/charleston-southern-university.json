@@ -10,9 +10,13 @@
         {
           "title": "Tuition Promise Program | CSU - Charleston Southern University",
           "url": "https://www.charlestonsouthern.edu/admissions/financial-aid/types-of-aid/tuition-promise-program/",
-          "quote": "Buc Promise guarantees full tuition will be covered by a combination of federal, state, and institutional aid for eligible South Carolina residents."
+          "quote": "Buc Promise guarantees full tuition will be covered by a combination of federal, state, and institutional aid for eligible South Carolina residents.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.charlestonsouthern.edu/admissions/financial-aid/types-of-aid/tuition-promise-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

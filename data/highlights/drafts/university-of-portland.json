@@ -10,9 +10,13 @@
         {
           "title": "About UP | University of Portland",
           "url": "https://www.up.edu/about-up/index.html",
-          "quote": "Since our inception in 1901, the University has been guided by the Congregation of Holy Cross, a Catholic order of priests and brothers."
+          "quote": "Since our inception in 1901, the University has been guided by the Congregation of Holy Cross, a Catholic order of priests and brothers.",
+          "httpStatus": 0,
+          "finalUrl": "https://www.up.edu/about-up/index.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

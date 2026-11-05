@@ -10,9 +10,13 @@
         {
           "title": "History | University of Montevallo",
           "url": "https://www.montevallo.edu/about-um/history/",
-          "quote": "As Alabama's only public liberal arts university, we take pride in knowing that our curriculum is both challenging and affordable."
+          "quote": "As Alabama's only public liberal arts university, we take pride in knowing that our curriculum is both challenging and affordable.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.montevallo.edu/about-um/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Tuition & Fees | Oregon Tech",
           "url": "https://www.oit.edu/college-costs/tuition-fees",
-          "quote": "Oregon Tech is a public university recognized as Oregon's polytechnic"
+          "quote": "Oregon Tech is a public university recognized as Oregon's polytechnic",
+          "httpStatus": 200,
+          "finalUrl": "https://www.oit.edu/college-costs/tuition-fees",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

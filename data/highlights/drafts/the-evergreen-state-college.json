@@ -10,9 +10,13 @@
         {
           "title": "International Student Admissions | The Evergreen State College",
           "url": "https://www.evergreen.edu/admissions-and-aid/international-student",
-          "quote": "You will design your own interdisciplinary path, receive narrative evaluations instead of grades, and learn through hands-on experiences rather than traditional lectures."
+          "quote": "You will design your own interdisciplinary path, receive narrative evaluations instead of grades, and learn through hands-on experiences rather than traditional lectures.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.evergreen.edu/admissions-and-aid/international-student",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Instead of declaring a major, students build their own area of emphasis from more than 40 fields of study.",
@@ -20,9 +24,13 @@
         {
           "title": "Our Learning Approach | The Evergreen State College",
           "url": "https://www.evergreen.edu/our-learning-approach",
-          "quote": "You can mix a variety of interests and, instead of declaring a major, develop your own area of emphasis in more than 40 Fields of Study based on your unique goals."
+          "quote": "You can mix a variety of interests and, instead of declaring a major, develop your own area of emphasis in more than 40 Fields of Study based on your unique goals.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.evergreen.edu/our-learning-approach",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

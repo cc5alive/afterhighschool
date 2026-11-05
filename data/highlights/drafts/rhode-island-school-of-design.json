@@ -10,9 +10,13 @@
         {
           "title": "RISD Undergraduate Degree Programs and Concentrations",
           "url": "https://www.risd.edu/academics/undergraduate-study",
-          "quote": "All undergraduate students at RISD take first-year studios in Experimental and Foundation Studies, followed by a major course of study in a specific fine"
+          "quote": "All undergraduate students at RISD take first-year studios in Experimental and Foundation Studies, followed by a major course of study in a specific fine",
+          "httpStatus": 200,
+          "finalUrl": "https://www.risd.edu/academics/undergraduate-study",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Wintersession enrollment is mandatory for all first-year students and undergraduate architecture majors.",
@@ -20,9 +24,13 @@
         {
           "title": "RISD Wintersession Study Options",
           "url": "https://www.risd.edu/academics/wintersession",
-          "quote": "All first-year students, undergraduate Architecture majors, and graduate students must enroll in Wintersession. Wintersession enrollment is optional for all other sophomore, junior and senior undergraduate students at RISD."
+          "quote": "All first-year students, undergraduate Architecture majors, and graduate students must enroll in Wintersession. Wintersession enrollment is optional for all other sophomore, junior and senior undergraduate students at RISD.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.risd.edu/academics/wintersession",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

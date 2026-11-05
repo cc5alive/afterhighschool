@@ -10,9 +10,13 @@
         {
           "title": "Jasper Guarantee - Manhattan University",
           "url": "https://manhattan.edu/admissions/undergraduate/jasper-guarantee",
-          "quote": "Beginning Fall 2027, entering undergraduate and transfer students lock in a single baseline tuition rate for eight consecutive semesters, backed by generous financial aid and merit support."
+          "quote": "Beginning Fall 2027, entering undergraduate and transfer students lock in a single baseline tuition rate for eight consecutive semesters, backed by generous financial aid and merit support.",
+          "httpStatus": 200,
+          "finalUrl": "https://manhattan.edu/admissions/undergraduate/jasper-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

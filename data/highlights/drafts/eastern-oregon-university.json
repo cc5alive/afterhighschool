@@ -10,9 +10,13 @@
         {
           "title": "About Eastern Oregon University",
           "url": "https://www.eou.edu/about/",
-          "quote": "Officially designated Oregon's Rural University, EOU cultivates innovative partnerships with communities across the region to"
+          "quote": "Officially designated Oregon's Rural University, EOU cultivates innovative partnerships with communities across the region to",
+          "httpStatus": 200,
+          "finalUrl": "https://www.eou.edu/about/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

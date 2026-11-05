@@ -10,9 +10,13 @@
         {
           "title": "About - Savannah State University",
           "url": "https://savannahstate.edu/about/",
-          "quote": "Savannah State University, the oldest public historically black university in the State of Georgia, develops productive members of a global society through high quality instruction, scholarship, research, service, and community involvement."
+          "quote": "Savannah State University, the oldest public historically black university in the State of Georgia, develops productive members of a global society through high quality instruction, scholarship, research, service, and community involvement.",
+          "httpStatus": 200,
+          "finalUrl": "https://savannahstate.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

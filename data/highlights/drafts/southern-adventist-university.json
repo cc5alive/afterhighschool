@@ -10,9 +10,13 @@
         {
           "title": "SmartStart | Southern Adventist University",
           "url": "https://www.southern.edu/undergrad/see-for-yourself/",
-          "quote": "Southern is offering a 3-credit-hour, class during our third summer session with no tuition charges. This offer is available to undergraduate students enrolling at Southern for the first time."
+          "quote": "Southern is offering a 3-credit-hour, class during our third summer session with no tuition charges. This offer is available to undergraduate students enrolling at Southern for the first time.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southern.edu/undergrad/see-for-yourself/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

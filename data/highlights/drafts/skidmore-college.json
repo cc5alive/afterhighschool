@@ -10,14 +10,21 @@
         {
           "title": "Scribner Seminar Program (SSP) | Skidmore College",
           "url": "https://catalog.skidmore.edu/courses-study/ssp/",
-          "quote": "All first-year students must take one Scribner Seminar in their first semester. This course must be taken for a letter grade."
+          "quote": "All first-year students must take one Scribner Seminar in their first semester. This course must be taken for a letter grade.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.skidmore.edu/courses-study/ssp/",
+          "quoteFound": true
         },
         {
           "title": "Scribner Seminar Program (SSP) | Skidmore College",
           "url": "https://catalog.skidmore.edu/courses-study/ssp/",
-          "quote": "Each seminar, limited to 16 first-year students, allows participants to work together closely and also acts as a foundation and context for future college studies."
+          "quote": "Each seminar, limited to 16 first-year students, allows participants to work together closely and also acts as a foundation and context for future college studies.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.skidmore.edu/courses-study/ssp/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

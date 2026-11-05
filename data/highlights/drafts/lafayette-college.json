@@ -10,9 +10,13 @@
         {
           "title": "Transfer Applicants - Lafayette Admissions",
           "url": "https://admissions.lafayette.edu/apply/transfer-students/",
-          "quote": "Lafayette meets 100% of demonstrated need for all accepted students, including international students."
+          "quote": "Lafayette meets 100% of demonstrated need for all accepted students, including international students.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.lafayette.edu/apply/transfer-students/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

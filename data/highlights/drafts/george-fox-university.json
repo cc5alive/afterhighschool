@@ -10,9 +10,13 @@
         {
           "title": "Juniors Abroad | George Fox University",
           "url": "https://www.georgefox.edu/center-for-study-abroad/juniors-abroad/index.html",
-          "quote": "If you've completed three consecutive years of full-time enrollment, about 50% of the transportation expenses are subsidized by the university. As a result, your cost for a three-week trip is just $2,400."
+          "quote": "If you've completed three consecutive years of full-time enrollment, about 50% of the transportation expenses are subsidized by the university. As a result, your cost for a three-week trip is just $2,400.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.georgefox.edu/center-for-study-abroad/juniors-abroad/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

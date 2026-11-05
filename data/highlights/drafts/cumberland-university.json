@@ -10,9 +10,13 @@
         {
           "title": "TN Promise - Cumberland University",
           "url": "https://www.cumberland.edu/tn-promise/",
-          "quote": "Tennessee Promise is both a scholarship and mentoring program focused on increasing the number of students that attend college in our state. It provides students a last-dollar scholarship, meaning the scholarship will cover the cost of tuition and mandatory fees"
+          "quote": "Tennessee Promise is both a scholarship and mentoring program focused on increasing the number of students that attend college in our state. It provides students a last-dollar scholarship, meaning the scholarship will cover the cost of tuition and mandatory fees",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cumberland.edu/tn-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

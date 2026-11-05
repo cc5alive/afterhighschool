@@ -10,9 +10,13 @@
         {
           "title": "Commencement - Registrar - UMHB",
           "url": "https://www.umhb.edu/resources/registrar/commencement",
-          "quote": "Chapel and Fine Arts Experience requirements must be met. Refer to the undergraduate catalog for details."
+          "quote": "Chapel and Fine Arts Experience requirements must be met. Refer to the undergraduate catalog for details.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umhb.edu/resources/registrar/commencement",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Welcome to UNE Morocco - University of New England",
           "url": "https://www.une.edu/morocco",
-          "quote": "The University of New England's Tangier Campus in Morocco is a one-of-a-kind facility offering enriching global education opportunities for students seeking"
+          "quote": "The University of New England's Tangier Campus in Morocco is a one-of-a-kind facility offering enriching global education opportunities for students seeking",
+          "httpStatus": 200,
+          "finalUrl": "https://www.une.edu/morocco",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

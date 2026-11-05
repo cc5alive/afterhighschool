@@ -10,9 +10,13 @@
         {
           "title": "CU Tuition Guarantee | Campbellsville University",
           "url": "https://www.campbellsville.edu/guarantee-2.html",
-          "quote": "The CU Tuition Guarantee provides 100% tuition coverage for first-time, full-time students from Kentucky who are Pell Grant eligible and have a minimum cumulative high school GPA of 2.0."
+          "quote": "The CU Tuition Guarantee provides 100% tuition coverage for first-time, full-time students from Kentucky who are Pell Grant eligible and have a minimum cumulative high school GPA of 2.0.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.campbellsville.edu/guarantee-2.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

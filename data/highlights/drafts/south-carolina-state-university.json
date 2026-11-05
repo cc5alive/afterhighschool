@@ -10,9 +10,13 @@
         {
           "title": "Sociology - South Carolina State University",
           "url": "https://scsu.edu/academics/programs/sociology.php",
-          "quote": "SC State is the only public land-grant historically black college and university (HBCU) in South Carolina and is frequently rated as one of the most affordable four-year schools in the Palmetto State."
+          "quote": "SC State is the only public land-grant historically black college and university (HBCU) in South Carolina and is frequently rated as one of the most affordable four-year schools in the Palmetto State.",
+          "httpStatus": 200,
+          "finalUrl": "https://scsu.edu/academics/programs/sociology.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

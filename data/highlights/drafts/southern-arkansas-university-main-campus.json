@@ -10,9 +10,13 @@
         {
           "title": "NextStep - Southern Arkansas University",
           "url": "https://www.saumag.edu/nextstep/",
-          "quote": "Students who complete the program requirements are guaranteed to secure a full-time job or gain acceptance into graduate or professional school within six months of graduation."
+          "quote": "Students who complete the program requirements are guaranteed to secure a full-time job or gain acceptance into graduate or professional school within six months of graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.saumag.edu/nextstep/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Roosevelt University: one of the top affordable private colleges in ...",
           "url": "https://www.roosevelt.edu/",
-          "quote": "Through the Roosevelt Pledge, Illinois residents with a family income under $50,000 can attend tuition-free for four years."
+          "quote": "Through the Roosevelt Pledge, Illinois residents with a family income under $50,000 can attend tuition-free for four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.roosevelt.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

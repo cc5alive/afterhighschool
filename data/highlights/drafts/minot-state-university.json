@@ -10,9 +10,13 @@
         {
           "title": "Net Price Calculator - Financial Aid - Minot State University",
           "url": "https://www.minotstateu.edu/finaid/npcalc.shtml",
-          "quote": "All Minot State University students pay in-state tuition."
+          "quote": "All Minot State University students pay in-state tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.minotstateu.edu/finaid/npcalc.shtml",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

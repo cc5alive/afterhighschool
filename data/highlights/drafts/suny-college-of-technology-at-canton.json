@@ -10,9 +10,13 @@
         {
           "title": "2021: SUNY Canton Pet Wing Featured on 'Inside Higher Ed' Website",
           "url": "https://www.canton.edu/news/2021/pet-wing.php",
-          "quote": "The Pet Wing currently houses 104 students and 56 pets, which include cats, sugar gliders, hamsters, rabbits, ferrets, fish, rats and mice."
+          "quote": "The Pet Wing currently houses 104 students and 56 pets, which include cats, sugar gliders, hamsters, rabbits, ferrets, fish, rats and mice.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.canton.edu/news/2021/pet-wing.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
