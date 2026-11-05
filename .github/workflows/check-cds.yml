@@ -23,5 +23,5 @@ jobs:
         run: |
           git config user.name "afterhighschool-bot"
           git config user.email "hello@afterhighschool.me"
-          git add data/cds/drafts
+          git add data/cds/drafts 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "CDS check results [skip ci]" && git pull --rebase -X theirs && git push)
