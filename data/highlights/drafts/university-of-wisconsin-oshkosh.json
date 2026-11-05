@@ -10,9 +10,16 @@
         {
           "title": "Off-Campus Housing Marketplace",
           "url": "https://offcampushousing.uwosh.edu/",
-          "quote": "Additionally, UWO will exempt anyone from the housing requirement if one or more of the following are true by the first day of a fall semester: * They have successfully earned at least 48 credits; * They are at least 21 years of age; * They have lived in a residence hall for four semesters;"
+          "quote": "Additionally, UWO will exempt anyone from the housing requirement if one or more of the following are true by the first day of a fall semester: * They have successfully earned at least 48 credits; * They are at least 21 years of age; * They have lived in a residence hall for four semesters;",
+          "httpStatus": 200,
+          "finalUrl": "https://offcampushousing.uwosh.edu/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "exempted from the housing requirement by completing a commuter card. additionally, uwo will exempt anyone from the housing requirement if one or more of the following are true by the first day of a fall semester: they have successfully earned at least 48 credits; they are at least 21 years of age; they have lived in a residence hall for four semesters; they are married;",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "Out-of-state freshmen with an unweighted GPA of 2.5 or higher qualify for the Titan National Scholar program, paying the Wisconsin in-state tuition rate.",
@@ -20,9 +27,13 @@
         {
           "title": "UW Oshkosh Nonresident Resources",
           "url": "https://www.uwosh.edu/admissions/titan-national-scholars/",
-          "quote": "Nonresident students who qualify will pay the in-state tuition rate (cumulative total of more than $30,000 in savings over four years)."
+          "quote": "Nonresident students who qualify will pay the in-state tuition rate (cumulative total of more than $30,000 in savings over four years).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwosh.edu/admissions/titan-national-scholars/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

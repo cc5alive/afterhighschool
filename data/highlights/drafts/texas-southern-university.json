@@ -10,9 +10,13 @@
         {
           "title": "About TSU - Texas Southern University",
           "url": "https://tsu.edu/about/index.php",
-          "quote": "Located on a sprawling 150-acre campus, TSU is one of the nation's largest historically Black"
+          "quote": "Located on a sprawling 150-acre campus, TSU is one of the nation's largest historically Black",
+          "httpStatus": 200,
+          "finalUrl": "https://tsu.edu/about/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

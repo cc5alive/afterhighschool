@@ -10,9 +10,13 @@
         {
           "title": "Housing Requirements & Exemptions - West Texas A&M University",
           "url": "https://www.wtamu.edu/student-life/residential-living/housing/housing-policy.html",
-          "quote": "Full-time students (enrolled in 12 or more semester hours) under the age of 20 years (by the first class day) are required to live in University housing"
+          "quote": "Full-time students (enrolled in 12 or more semester hours) under the age of 20 years (by the first class day) are required to live in University housing",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wtamu.edu/student-life/residential-living/housing/housing-policy.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

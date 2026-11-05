@@ -10,9 +10,14 @@
         {
           "title": "Osteopathic Medicine | Dual Admission",
           "url": "https://undergrad.nova.edu/academics/premier-programs/dual-admission/osteopathic-medicine/index.html",
-          "quote": "Earn both your bachelor's and your doctorate in six years (2+4), seven years (3+4), or eight years (4+4)."
+          "quote": "Earn both your bachelor's and your doctorate in six years (2+4), seven years (3+4), or eight years (4+4).",
+          "httpStatus": 200,
+          "finalUrl": "https://undergrad.nova.edu/academics/premier-programs/dual-admission/osteopathic-medicine/index.html",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

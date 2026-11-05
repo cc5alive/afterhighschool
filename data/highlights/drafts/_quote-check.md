@@ -1,10 +1,10 @@
 # Quote check
 
-Checked 154 sources on 2026-11-05.
+Checked 167 sources on 2026-11-05.
 
-- Quote found on page: 11
-- Page loaded, quote not found: 53
-- Page failed to load: 90
+- Quote found on page: 19
+- Page loaded, quote not found: 55
+- Page failed to load: 93
 
 | School | Status | Quote found | URL |
 | --- | --- | --- | --- |
@@ -17,6 +17,8 @@ Checked 154 sources on 2026-11-05.
 | baker-university | 200 | no | https://www.bakeru.edu/sites/default/files/imported-documents/2026-01/Baker_Core_2023.pdf |
 | bay-path-university | 200 | no | https://www.baypath.edu/ |
 | baylor-university | 403 | page failed | https://spirituallife.web.baylor.edu/chapel/your-chapel-requirement |
+| belmont-university | 200 | yes | https://www.belmont.edu/bell-core/ |
+| bentley-university | 200 | yes | https://catalog.bentley.edu/undergraduate/degree-requirements/ |
 | bethany-college-wv | 0 | page failed | https://www.bethanywv.edu/academics/undergraduate-studies/bethany-plan/ |
 | bethany-college-wv | 0 | page failed | https://www.bethanywv.edu/academics/undergraduate-studies/bethany-plan/ |
 | bethel-university-in | 200 | no | https://betheluniversity.edu/admissions-aid/scholarships-and-aid/grants/pilot-promise/ |
@@ -25,6 +27,7 @@ Checked 154 sources on 2026-11-05.
 | brandeis-university | 403 | page failed | https://www.brandeis.edu/registrar/bulletin/2026-2027/overview/statements/mission-diversity-statements.html |
 | brigham-young-university-hawaii | 403 | page failed | https://financialaid.byuh.edu/IWORK |
 | brigham-young-university | 403 | page failed | https://enrollment.byu.edu/tuition |
+| california-state-university-monterey-bay | 200 | yes | https://digitalcommons.csumb.edu/caps_thes_all/69/ |
 | carroll-university | 403 | page failed | https://cce.carrollu.edu/ |
 | central-college | 404 | page failed | https://central.edu/admission/central-way/ |
 | claflin-university | 200 | no | https://www.claflin.edu/about/history |
@@ -83,6 +86,7 @@ Checked 154 sources on 2026-11-05.
 | northwest-nazarene-university | 202 | no | https://nnu.edu/admissions-aid/undergraduate-admissions/transfer-to-nnu/faqs-for-transfers/ |
 | northwestern-state-university-of-louisiana | 200 | yes | https://www.nsula.edu/life-at-nsu/campus-housing/ |
 | nossi-college-of-art-and-design | 403 | page failed | https://nossi.edu/admissions/adult-and-military-students/ |
+| nova-southeastern-university | 200 | no | https://undergrad.nova.edu/academics/premier-programs/dual-admission/osteopathic-medicine/index.html |
 | ohio-christian-university | 200 | no | https://info.ohiochristian.edu/TrailGuideFall.pdf |
 | ohio-state-university-lima-campus | 403 | page failed | https://lima.osu.edu/financial-aid/ohio-state-grants |
 | ohio-state-university-lima-campus | 403 | page failed | https://lima.osu.edu/financial-aid/ohio-state-grants |
@@ -104,11 +108,13 @@ Checked 154 sources on 2026-11-05.
 | reed-college | 200 | no | https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf |
 | reed-college | 200 | no | https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf |
 | rutgers-university-newark | 200 | no | https://myrun.newark.rutgers.edu/financing-your-education |
+| sacred-heart-university | 200 | yes | https://sacredheart.smartcatalogiq.com/en/2023-2024/2023-2024-undergraduate-catalog/degrees-and-curricula/the-university-core-curriculum |
 | saint-leo-university | 200 | yes | https://www.saintleo.edu/student-experience/on-campus/residence-life |
 | savannah-college-of-art-and-design | 403 | page failed | https://www.scad.edu/academics/programs/architecture/accelerated-licensure |
 | savannah-college-of-art-and-design | 403 | page failed | https://www.scad.edu/content/two-year-residential-requirement |
 | savannah-college-of-art-and-design | 403 | page failed | https://www.scad.edu/content/prepare-life-scad |
 | simmons-university | 200 | no | https://www.simmons.edu/ |
+| slippery-rock-university-of-pennsylvania | 200 | yes | https://www.sru.edu/life-at-sru/housing/apply-for-housing/first-year-students |
 | sonoma-state-university | 403 | page failed | https://wbi.sonoma.edu/ |
 | southern-university-and-a-and-m-college | 200 | no | https://www.subr.edu/page/627 |
 | southern-utah-university | 200 | no | https://www.suu.edu/parks/ |
@@ -119,9 +125,12 @@ Checked 154 sources on 2026-11-05.
 | stony-brook-university | 0 | page failed | https://news.stonybrook.edu/university/governor-hochul-visits-bnls-new-laboratory-for-biomolecular-structure/ |
 | suny-at-fredonia | 403 | page failed | https://www.fredonia.edu/academics/academic-advising/fredonia4 |
 | texas-a-and-m-university-central-texas | 403 | page failed | https://www.tamuct.edu/am-central-texas-offering-upper-level-courses-and-degree-programs-at-temple-college/ |
+| texas-southern-university | 200 | yes | https://tsu.edu/about/index.php |
 | texas-wesleyan-university | 0 | page failed | https://www.txwesleyan.edu/admissions/financial-aid--scholarships/scholarships-and-aid/types-of-financial-aid/scholarships/freshman-scholarships/ |
 | the-catholic-university-of-america | 403 | page failed | https://www.catholic.edu/faith-service/our-catholic-identity |
 | the-catholic-university-of-america | 403 | page failed | https://www.catholic.edu/faith-service/our-catholic-identity |
+| the-college-of-new-jersey | 403 | page failed | https://recreg.tcnj.edu/wp-content/uploads/sites/166/2010/10/transfercreditcomprehensive1.pdf |
+| the-college-of-new-jersey | 403 | page failed | https://housing.tcnj.edu/wp-content/uploads/sites/173/2024/06/GRL-AY25.pdf |
 | the-new-school | 429 | page failed | https://www.newschool.edu/academics/ |
 | the-new-school | 200 | yes | https://archive2425.catalog.newschool.edu/student-life/housing-and-residential-education |
 | the-southern-baptist-theological-seminary | 200 | no | https://www.sbts.edu/financial-aid/tuition/ |
@@ -147,7 +156,10 @@ Checked 154 sources on 2026-11-05.
 | university-of-saint-joseph | 202 | no | https://www.usj.edu/admissions/tuition-financial-aid/undergrad-tuition-aid/scholarships-grants/ |
 | university-of-st-thomas-mn | 200 | no | https://dfc.stthomas.edu/information-for-families/ |
 | university-of-st-thomas-tx | 200 | no | https://stthom.edu/admissions/ |
+| university-of-the-cumberlands | 0 | page failed | https://www.cucumberlands.edu/tuition-aid |
 | university-of-vermont | 200 | yes | https://www.uvm.edu/studentfinancialservices/uvm-promise |
+| university-of-wisconsin-oshkosh | 200 | no | https://offcampushousing.uwosh.edu/ |
+| university-of-wisconsin-oshkosh | 200 | yes | https://www.uwosh.edu/admissions/titan-national-scholars/ |
 | university-of-wisconsin-whitewater | 200 | no | https://www.uww.edu/admissions/tuition |
 | upper-iowa-university | 403 | page failed | https://uiu.edu/academics/two-at-a-time-option/ |
 | vassar-college | 200 | no | https://www.vassar.edu/admission/quick-facts/ |
@@ -155,6 +167,7 @@ Checked 154 sources on 2026-11-05.
 | warren-wilson-college | 200 | no | https://www.warren-wilson.edu/about/ |
 | warren-wilson-college | 200 | no | https://www.warren-wilson.edu/admission/tuition-and-aid/ncfree/ |
 | wayne-state-college | 403 | page failed | https://www.wsc.edu/rhop |
+| west-texas-a-and-m-university | 200 | yes | https://www.wtamu.edu/student-life/residential-living/housing/housing-policy.html |
 | wheaton-college-massachusetts | 404 | page failed | https://wheatoncollege.edu/about-wheaton-college/the-wheaton-edge/ |
 | wheaton-college | 403 | page failed | https://www.wheaton.edu/about-wheaton/community-covenant |
 | william-peace-university | 0 | page failed | https://peace.edu/students-find-confidence-clarity-and-purpose-through-internships/ |

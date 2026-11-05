@@ -10,9 +10,13 @@
         {
           "title": "BELL Core - General Education | Belmont University",
           "url": "https://www.belmont.edu/bell-core/",
-          "quote": "These courses are unique to Belmont and provide the structural framework for your general education experience, guiding you from your first semester to graduation."
+          "quote": "These courses are unique to Belmont and provide the structural framework for your general education experience, guiding you from your first semester to graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.belmont.edu/bell-core/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
