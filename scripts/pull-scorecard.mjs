@@ -122,6 +122,7 @@ function normalize(raw) {
     menOnly: num(pick(f, 'school.men_only')) === 1,
     womenOnly: num(pick(f, 'school.women_only')) === 1,
     onlineOnly: num(pick(f, 'school.online_only')) === 1,
+    hbcu: num(pick(f, 'school.minority_serving.historically_black')) === 1,
     tribalCollege: num(pick(f, 'school.minority_serving.tribal')) === 1,
     predominantDegree: num(pick(f, 'school.degrees_awarded.predominant')),
     undergrads: num(pick(f, 'latest.student.size')),
@@ -238,10 +239,14 @@ async function main() {
     count: schools.length,
     schools
   };
+  await writeFile('tmp/scorecard-raw.json', JSON.stringify(raw));
+  if (prev.length && JSON.stringify(prev) === JSON.stringify(schools)) {
+    console.log('No changes since the last pull; leaving data files as they are.');
+    return;
+  }
   const json = JSON.stringify(out, null, 1);
   await writeFile('data/scorecard/latest.json', json);
   await writeFile(`data/scorecard/snapshots/${today}.json`, json);
-  await writeFile('tmp/scorecard-raw.json', JSON.stringify(raw));
 
   // A sample of every raw field name for one well-known school, so field mapping can be checked.
   const sample = raw.find((r) => (flatten(r)['school.name'] || '').startsWith('University of North Carolina at Chapel Hill')) || raw[0];
