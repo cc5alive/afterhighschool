@@ -10,9 +10,13 @@
         {
           "title": "Credit for Prior Learning | Charter Oak State College",
           "url": "https://www.charteroak.edu/cpl/",
-          "quote": "Charter Oak State College's Credit for Prior Learning (CPL) program helps you save time, reduce costs, and earn your degree sooner by recognizing what you already know."
+          "quote": "Charter Oak State College's Credit for Prior Learning (CPL) program helps you save time, reduce costs, and earn your degree sooner by recognizing what you already know.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.charteroak.edu/cpl/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

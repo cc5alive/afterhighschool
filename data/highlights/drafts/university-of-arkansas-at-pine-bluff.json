@@ -10,9 +10,13 @@
         {
           "title": "Chancellor Prospectus - University of Arkansas at Pine Bluff",
           "url": "https://uapb.edu/wp-content/uploads/2024/10/UAPB-Chancellor-Prospectus-Final.pdf",
-          "quote": "Created in 1873, UAPB is the second oldest public university in Arkansas and its only public historically black institution in the state. As an 1890 land-grant HBCU, UAPB grew out of the vision that higher education was important"
+          "quote": "Created in 1873, UAPB is the second oldest public university in Arkansas and its only public historically black institution in the state. As an 1890 land-grant HBCU, UAPB grew out of the vision that higher education was important",
+          "httpStatus": 200,
+          "finalUrl": "https://uapb.edu/wp-content/uploads/2024/10/UAPB-Chancellor-Prospectus-Final.pdf",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

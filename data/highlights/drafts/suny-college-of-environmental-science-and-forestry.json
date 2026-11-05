@@ -10,9 +10,13 @@
         {
           "title": "The Ranger School - Academic Catalog - SUNY ESF",
           "url": "https://www.esf.edu/catalog/current/ranger-school.php",
-          "quote": "The SUNY ESF Ranger School in Wanakena, N.Y., offers students a unique educational experience in a spectacular natural setting."
+          "quote": "The SUNY ESF Ranger School in Wanakena, N.Y., offers students a unique educational experience in a spectacular natural setting.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.esf.edu/catalog/current/ranger-school.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

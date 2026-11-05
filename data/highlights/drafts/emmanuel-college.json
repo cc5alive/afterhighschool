@@ -10,9 +10,13 @@
         {
           "title": "Internships & Careers at Emmanuel College, Boston Massachusetts",
           "url": "https://www.emmanuel.edu/beyond-campus/beyond-classroom/internships-careers",
-          "quote": "One hundred percent of Emmanuel students complete an internship as part of the core curriculum. In a city as dynamic as Boston, your options are bound only by the limits of your curiosity."
+          "quote": "One hundred percent of Emmanuel students complete an internship as part of the core curriculum. In a city as dynamic as Boston, your options are bound only by the limits of your curiosity.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.emmanuel.edu/beyond-campus/beyond-classroom/internships-careers",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Emmanuel College is a member of the Colleges of the Fenway consortium in Boston.",
@@ -20,9 +24,13 @@
         {
           "title": "Beyond Campus | Emmanuel College, Boston Massachusetts",
           "url": "https://www.emmanuel.edu/beyond-campus",
-          "quote": "Is Emmanuel College part of the Colleges of the Fenway? Yes."
+          "quote": "Is Emmanuel College part of the Colleges of the Fenway? Yes.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.emmanuel.edu/beyond-campus",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

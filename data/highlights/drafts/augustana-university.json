@@ -10,9 +10,13 @@
         {
           "title": "Academic Calendar - Augustana University",
           "url": "https://www.augie.edu/academics/academic-calendars",
-          "quote": "The Augustana University academic calendar includes a 15-week fall semester, 3.5-week January Interim (J-Term) and 15-week spring semester. Students may also participate in summer college in June and/or July."
+          "quote": "The Augustana University academic calendar includes a 15-week fall semester, 3.5-week January Interim (J-Term) and 15-week spring semester. Students may also participate in summer college in June and/or July.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.augie.edu/academics/academic-calendars",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

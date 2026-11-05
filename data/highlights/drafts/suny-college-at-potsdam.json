@@ -10,9 +10,13 @@
         {
           "title": "The Potsdam Promise | SUNY Potsdam",
           "url": "https://www.potsdam.edu/admissions/potsdam-promise",
-          "quote": "The Potsdam Promise is an exciting initiative designed for high school seniors in St. Lawrence and Franklin counties. Through this program, many students are eligible for guaranteed admission for Fall 2027 along with a free application"
+          "quote": "The Potsdam Promise is an exciting initiative designed for high school seniors in St. Lawrence and Franklin counties. Through this program, many students are eligible for guaranteed admission for Fall 2027 along with a free application",
+          "httpStatus": 200,
+          "finalUrl": "https://www.potsdam.edu/admissions/potsdam-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "The Apprenticeship Degree | Reach University",
           "url": "https://reach.edu/apprenticeship-degree",
-          "quote": "With Apprenticeship Degrees, the workplace transforms into a learning place, with half of the learning coming from on-the-job training."
+          "quote": "With Apprenticeship Degrees, the workplace transforms into a learning place, with half of the learning coming from on-the-job training.",
+          "httpStatus": 200,
+          "finalUrl": "https://reach.edu/apprenticeship-degree",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

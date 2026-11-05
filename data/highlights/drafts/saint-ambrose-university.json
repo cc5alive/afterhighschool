@@ -10,9 +10,13 @@
         {
           "title": "Catholic Values | St. Ambrose University",
           "url": "https://sau.edu/about-sau/catholic-values/",
-          "quote": "Guided by the life and legacy of Saint Ambrose of Milan, St. Ambrose University's Catholic identity is rooted in seven faith tenets:"
+          "quote": "Guided by the life and legacy of Saint Ambrose of Milan, St. Ambrose University's Catholic identity is rooted in seven faith tenets:",
+          "httpStatus": 200,
+          "finalUrl": "https://sau.edu/about-sau/catholic-values/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

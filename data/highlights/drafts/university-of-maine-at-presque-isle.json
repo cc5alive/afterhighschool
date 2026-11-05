@@ -10,9 +10,13 @@
         {
           "title": "What is YourPace? Flexible Online Degrees at UMPI",
           "url": "https://www.umpi.edu/yourpace/what-is-yourpace/",
-          "quote": "YourPace is a flexible, competency-based degree program with 8-week sessions and a flat tuition rate for students who must be 20 years old"
+          "quote": "YourPace is a flexible, competency-based degree program with 8-week sessions and a flat tuition rate for students who must be 20 years old",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umpi.edu/yourpace/what-is-yourpace/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

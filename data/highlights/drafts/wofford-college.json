@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions - Wofford College",
           "url": "https://www.wofford.edu/academics/interim/faq",
-          "quote": "Wofford currently operates under the 4-1-4 academic calendar with the month of January dedicated to Interim."
+          "quote": "Wofford currently operates under the 4-1-4 academic calendar with the month of January dedicated to Interim.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wofford.edu/academics/interim/faq",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

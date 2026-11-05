@@ -10,9 +10,13 @@
         {
           "title": "Collegiate Seminar | Saint Mary's College",
           "url": "https://www.stmarys-ca.edu/academics/undergraduate/collegiate-seminar",
-          "quote": "The Collegiate Seminar is the heart of Saint Mary's core curriculum. It consists of a series of required courses that give every student a firm foundation in the liberal arts."
+          "quote": "The Collegiate Seminar is the heart of Saint Mary's core curriculum. It consists of a series of required courses that give every student a firm foundation in the liberal arts.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.stmarys-ca.edu/academics/undergraduate/collegiate-seminar",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

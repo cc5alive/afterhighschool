@@ -10,9 +10,13 @@
         {
           "title": "Mission, Vision & Values | Indiana Wesleyan University",
           "url": "https://www.indwes.edu/about/mission-purpose/",
-          "quote": "Indiana Wesleyan University is an institution of The Wesleyan Church, a Protestant Christian denomination rooted in the teachings of John Wesley. This affiliation provides theological grounding, accountability, and shared values that shape the university's mission and identity."
+          "quote": "Indiana Wesleyan University is an institution of The Wesleyan Church, a Protestant Christian denomination rooted in the teachings of John Wesley. This affiliation provides theological grounding, accountability, and shared values that shape the university's mission and identity.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.indwes.edu/about/mission-purpose/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

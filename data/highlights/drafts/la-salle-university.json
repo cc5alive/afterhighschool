@@ -10,9 +10,13 @@
         {
           "title": "Accreditations - La Salle University",
           "url": "https://www.lasalle.edu/about/accreditations/",
-          "quote": "La Salle University was chartered in 1863 by the Legislature of the Commonwealth of Pennsylvania and is empowered by that authority to grant academic degrees."
+          "quote": "La Salle University was chartered in 1863 by the Legislature of the Commonwealth of Pennsylvania and is empowered by that authority to grant academic degrees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lasalle.edu/about/accreditations/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

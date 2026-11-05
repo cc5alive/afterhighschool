@@ -10,9 +10,13 @@
         {
           "title": "About • North Greenville University",
           "url": "https://www.ngu.edu/about/",
-          "quote": "A ministry partner of the South Carolina Baptists, North Greenville University is a co-educational liberal arts institution that provides opportunities for higher education in a Christian atmosphere."
+          "quote": "A ministry partner of the South Carolina Baptists, North Greenville University is a co-educational liberal arts institution that provides opportunities for higher education in a Christian atmosphere.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ngu.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

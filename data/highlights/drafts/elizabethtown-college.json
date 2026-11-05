@@ -10,9 +10,13 @@
         {
           "title": "Momentum Program | Elizabethtown College",
           "url": "https://www.etown.edu/programs/momentum/",
-          "quote": "Momentum is a voluntary, no-cost program. Invitations are extended each spring to incoming first-year students who are first-generation or Pell-eligible. Momentum is open to both residential and commuter students."
+          "quote": "Momentum is a voluntary, no-cost program. Invitations are extended each spring to incoming first-year students who are first-generation or Pell-eligible. Momentum is open to both residential and commuter students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.etown.edu/programs/momentum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

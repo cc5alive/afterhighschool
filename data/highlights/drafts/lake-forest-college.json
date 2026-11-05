@@ -10,9 +10,13 @@
         {
           "title": "Forester Flagship Program | Lake Forest College",
           "url": "https://www.lakeforest.edu/admissions/forester-flagship-program",
-          "quote": "Our Forester Flagship Program offers qualified Illinois first-year and transfer students an incredible opportunity: it covers 100% of tuition and fees through grants and scholarships that do not need to be repaid."
+          "quote": "Our Forester Flagship Program offers qualified Illinois first-year and transfer students an incredible opportunity: it covers 100% of tuition and fees through grants and scholarships that do not need to be repaid.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lakeforest.edu/admissions/forester-flagship-program",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

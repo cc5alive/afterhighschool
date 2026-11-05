@@ -10,9 +10,13 @@
         {
           "title": "Key Commitments | Bethel University",
           "url": "https://www.bethel.edu/seminary/about/community/key-commitments",
-          "quote": "Honoring sexuality through fidelity in marriage (between one man and one woman) and abstinence in singleness; cohabitation is not permitted. Abstaining from drugs, tobacco, and other controlled substances."
+          "quote": "Honoring sexuality through fidelity in marriage (between one man and one woman) and abstinence in singleness; cohabitation is not permitted. Abstaining from drugs, tobacco, and other controlled substances.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bethel.edu/seminary/about/community/key-commitments",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Internship Funds | Nazareth University",
           "url": "https://www2.naz.edu/internships/unpaid-internship-scholarships/",
-          "quote": "This grant of $1,500 can help cover undergraduate student costs for an unpaid or underpaid summer internship, study abroad, or summer research."
+          "quote": "This grant of $1,500 can help cover undergraduate student costs for an unpaid or underpaid summer internship, study abroad, or summer research.",
+          "httpStatus": 200,
+          "finalUrl": "https://www2.naz.edu/internships/unpaid-internship-scholarships/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

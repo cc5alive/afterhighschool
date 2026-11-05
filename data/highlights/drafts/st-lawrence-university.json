@@ -10,9 +10,13 @@
         {
           "title": "First Year Program | St. Lawrence University",
           "url": "https://www.stlawu.edu/offices/first-year-program",
-          "quote": "Our First-Year Program (FYP) is one of the oldest living-learning programs in the country, helping students make successful transitions from high school to college, intellectually and socially, since 1987."
+          "quote": "Our First-Year Program (FYP) is one of the oldest living-learning programs in the country, helping students make successful transitions from high school to college, intellectually and socially, since 1987.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.stlawu.edu/offices/first-year-program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "St. Lawrence University requires all undergraduate students to live on campus for their entire college experience.",
@@ -20,9 +24,13 @@
         {
           "title": "Mission and Philosophy - St. Lawrence University",
           "url": "https://www.stlawu.edu/offices/residence-life/mission-and-philosophy",
-          "quote": "St. Lawrence University requires all undergraduate students to reside on-campus for the whole of their University experience."
+          "quote": "St. Lawrence University requires all undergraduate students to reside on-campus for the whole of their University experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.stlawu.edu/offices/residence-life/mission-and-philosophy",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

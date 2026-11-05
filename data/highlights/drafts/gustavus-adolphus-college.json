@@ -10,9 +10,13 @@
         {
           "title": "The Gustie Guarantee | Gustavus Adolphus College",
           "url": "https://gustavus.edu/admission-aid/financial-aid/gustie-guarantee",
-          "quote": "Regardless of your family's income, we'll give you at least $30,000 in scholarships each year for four years ($120,000 total) when you're admitted and file the FAFSA."
+          "quote": "Regardless of your family's income, we'll give you at least $30,000 in scholarships each year for four years ($120,000 total) when you're admitted and file the FAFSA.",
+          "httpStatus": 200,
+          "finalUrl": "https://gustavus.edu/admission-aid/financial-aid/gustie-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

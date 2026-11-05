@@ -10,9 +10,13 @@
         {
           "title": "The DePauw Promise",
           "url": "https://www.depauw.edu/admission-aid/scholarships-aid/the-depauw-promise/",
-          "quote": "Family income up to $50,000* Full direct costs covered, including tuition, housing, meals and required fees. Family income up to $100,000* Full tuition covered."
+          "quote": "Family income up to $50,000* Full direct costs covered, including tuition, housing, meals and required fees. Family income up to $100,000* Full tuition covered.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.depauw.edu/admission-aid/scholarships-aid/the-depauw-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

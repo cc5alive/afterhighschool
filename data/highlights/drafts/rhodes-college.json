@@ -10,9 +10,13 @@
         {
           "title": "Student Fellowships | Rhodes College",
           "url": "https://www.rhodes.edu/academics/turley-center-community-engagement/student-fellowships",
-          "quote": "Rhodes offers many Fellowships outside the conventional classroom that complement and broaden the student's program of liberal arts education."
+          "quote": "Rhodes offers many Fellowships outside the conventional classroom that complement and broaden the student's program of liberal arts education.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rhodes.edu/academics/turley-center-community-engagement/student-fellowships",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

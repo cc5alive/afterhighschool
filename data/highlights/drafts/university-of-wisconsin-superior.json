@@ -10,9 +10,13 @@
         {
           "title": "Tuition Award & Reciprocity Programs - UW-Superior",
           "url": "https://uwsuper.edu/paying-for-college/tuition-award-programs/",
-          "quote": "Living outside Wisconsin or Minnesota? The NTW Award can reduce your nonresident tuition by nearly 50% — automatically considered after admission based on academic merit and/or financial need."
+          "quote": "Living outside Wisconsin or Minnesota? The NTW Award can reduce your nonresident tuition by nearly 50% — automatically considered after admission based on academic merit and/or financial need.",
+          "httpStatus": 200,
+          "finalUrl": "https://uwsuper.edu/paying-for-college/tuition-award-programs/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

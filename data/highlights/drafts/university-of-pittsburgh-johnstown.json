@@ -10,9 +10,13 @@
         {
           "title": "About the University of Pittsburgh at Johnstown - University of Pittsburgh Johnstown - Acalog ACMS™",
           "url": "https://catalog.upj.pitt.edu/content.php?catoid=217&navoid=21890",
-          "quote": "Pitt-Johnstown was founded in 1927 as a two-year college of the University of Pittsburgh."
+          "quote": "Pitt-Johnstown was founded in 1927 as a two-year college of the University of Pittsburgh.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.upj.pitt.edu/content.php?catoid=217&navoid=21890",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

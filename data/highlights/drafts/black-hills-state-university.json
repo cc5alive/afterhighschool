@@ -10,9 +10,13 @@
         {
           "title": "Research Experience for Undergraduates - Black Hills State University",
           "url": "https://bhsu.edu/university-resources/research/reu.html",
-          "quote": "Black Hills State University will host a 10-week REU program centered on underground science at the Sanford Underground Research Facility (SURF) each summer."
+          "quote": "Black Hills State University will host a 10-week REU program centered on underground science at the Sanford Underground Research Facility (SURF) each summer.",
+          "httpStatus": 200,
+          "finalUrl": "https://bhsu.edu/university-resources/research/reu.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

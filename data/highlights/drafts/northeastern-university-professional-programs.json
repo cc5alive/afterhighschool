@@ -10,9 +10,13 @@
         {
           "title": "Experiential Learning Information",
           "url": "https://cps.northeastern.edu/current-students/co-op/experiential-learning-information/",
-          "quote": "What is Co-op? Co-op is an educational program in which you alternate terms of academic study with terms of full-time employment in positions related to your academic and/or career interests in the U.S. or globally."
+          "quote": "What is Co-op? Co-op is an educational program in which you alternate terms of academic study with terms of full-time employment in positions related to your academic and/or career interests in the U.S. or globally.",
+          "httpStatus": 200,
+          "finalUrl": "https://cps.northeastern.edu/current-students/co-op/experiential-learning-information/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

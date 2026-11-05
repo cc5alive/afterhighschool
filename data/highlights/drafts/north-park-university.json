@@ -10,9 +10,13 @@
         {
           "title": "Catalyst - North Park University",
           "url": "https://www.northpark.edu/campus-life-and-services/center-for-civic-engagement/catalyst/",
-          "quote": "Catalyst is North Park University's signature hands-on learning experience—designed to get you out of the classroom and into the world. Whether you're exploring Chicago neighborhoods, meeting with local leaders, or working with community organizations"
+          "quote": "Catalyst is North Park University's signature hands-on learning experience—designed to get you out of the classroom and into the world. Whether you're exploring Chicago neighborhoods, meeting with local leaders, or working with community organizations",
+          "httpStatus": 200,
+          "finalUrl": "https://www.northpark.edu/campus-life-and-services/center-for-civic-engagement/catalyst/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

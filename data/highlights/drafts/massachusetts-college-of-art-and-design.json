@@ -10,9 +10,13 @@
         {
           "title": "A MassArt Education | Massachusetts College of Art and Design ...",
           "url": "https://massart.edu/academics/a-massart-education/",
-          "quote": "As the nation's first and only freestanding public college of art and design, MassArt has spent more than 150 years expanding access to art and design education."
+          "quote": "As the nation's first and only freestanding public college of art and design, MassArt has spent more than 150 years expanding access to art and design education.",
+          "httpStatus": 200,
+          "finalUrl": "https://massart.edu/academics/a-massart-education/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

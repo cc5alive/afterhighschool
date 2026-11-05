@@ -10,9 +10,13 @@
         {
           "title": "Concordia Scholarships",
           "url": "https://www.concordiacollege.edu/tuition-aid/concordia-scholarships/",
-          "quote": "Since Fall 2024, the Concordia Promise Program has covered full tuition for any student eligible to file the FAFSA and newly admitted to Concordia College with an Adjusted Gross Income (AGI) under $90,000."
+          "quote": "Since Fall 2024, the Concordia Promise Program has covered full tuition for any student eligible to file the FAFSA and newly admitted to Concordia College with an Adjusted Gross Income (AGI) under $90,000.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.concordiacollege.edu/tuition-aid/concordia-scholarships/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
