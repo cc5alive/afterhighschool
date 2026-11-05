@@ -10,9 +10,13 @@
         {
           "title": "History - About - Santa Clara University",
           "url": "https://www.scu.edu/aboutscu/history/",
-          "quote": "Santa Clara University is California's oldest operating institution of higher learning."
+          "quote": "Santa Clara University is California's oldest operating institution of higher learning.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.scu.edu/aboutscu/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

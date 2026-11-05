@@ -10,9 +10,13 @@
         {
           "title": "Online Courses: The One Course a Month Option | National University",
           "url": "https://www.nu.edu/blog/online-courses-the-one-course-a-month-option/",
-          "quote": "In practice, National University's courses run in focused four-week and eight-week formats, with monthly start dates that let you take one course at a time."
+          "quote": "In practice, National University's courses run in focused four-week and eight-week formats, with monthly start dates that let you take one course at a time.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nu.edu/blog/online-courses-the-one-course-a-month-option/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

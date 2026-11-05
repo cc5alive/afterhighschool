@@ -10,9 +10,13 @@
         {
           "title": "About - Alabama A&M University",
           "url": "https://www.aamu.edu/about/",
-          "quote": "Reflecting on its heritage as a historical black college and university (HBCU) and a traditional 1890 Land-grant institution, AAMU functions as a teaching, research and public service institution, including extension."
+          "quote": "Reflecting on its heritage as a historical black college and university (HBCU) and a traditional 1890 Land-grant institution, AAMU functions as a teaching, research and public service institution, including extension.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.aamu.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

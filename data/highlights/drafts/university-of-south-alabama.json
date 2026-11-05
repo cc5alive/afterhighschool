@@ -10,9 +10,13 @@
         {
           "title": "Early Acceptance Programs (EAP) | Admissions",
           "url": "https://www.southalabama.edu/departments/admissions/earlyacceptance/",
-          "quote": "The CoM EAP offers a small number of qualified high school seniors a conditional acceptance to the University of South Alabama Frederick P. Whiddon College of Medicine contingent upon satisfactory completion of the Undergraduate program."
+          "quote": "The CoM EAP offers a small number of qualified high school seniors a conditional acceptance to the University of South Alabama Frederick P. Whiddon College of Medicine contingent upon satisfactory completion of the Undergraduate program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southalabama.edu/departments/admissions/earlyacceptance/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

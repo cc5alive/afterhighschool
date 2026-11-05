@@ -10,9 +10,13 @@
         {
           "title": "Military & Veterans | Troy University",
           "url": "https://www.troy.edu/military-veterans/index.html",
-          "quote": "We cap tuition at $250 per credit hour for active-duty service members, reservists and National Guard."
+          "quote": "We cap tuition at $250 per credit hour for active-duty service members, reservists and National Guard.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.troy.edu/military-veterans/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,19 +10,29 @@
         {
           "title": "University of Wyoming Newe & Hinono'ei Scholarship",
           "url": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
-          "quote": "The Wind River Promise Fund is intended to cover the full cost of undergraduate tuition and mandatory fees, contingent upon available funds*."
+          "quote": "The Wind River Promise Fund is intended to cover the full cost of undergraduate tuition and mandatory fees, contingent upon available funds*.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
+          "quoteFound": true
         },
         {
           "title": "University of Wyoming Newe & Hinono'ei Scholarship",
           "url": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
-          "quote": "Be an enrolled member of the Eastern Shoshone Tribe or the Northern Arapaho Tribe."
+          "quote": "Be an enrolled member of the Eastern Shoshone Tribe or the Northern Arapaho Tribe.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
+          "quoteFound": true
         },
         {
           "title": "University of Wyoming Newe & Hinono'ei Scholarship",
           "url": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
-          "quote": "Be a Wyoming resident who graduated from a Wyoming high school or accredited boarding school."
+          "quote": "Be a Wyoming resident who graduated from a Wyoming high school or accredited boarding school.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

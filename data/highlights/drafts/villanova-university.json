@@ -10,9 +10,13 @@
         {
           "title": "Catholic & Augustinian | Villanova University",
           "url": "https://www.villanova.edu/university/mission-ministry/catholic-augustinian.html",
-          "quote": "Founded in 1842, Villanova University is one of two Catholic, Augustinian institutions of higher learning in the United States, sharing this common heritage with Merrimack College."
+          "quote": "Founded in 1842, Villanova University is one of two Catholic, Augustinian institutions of higher learning in the United States, sharing this common heritage with Merrimack College.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.villanova.edu/university/mission-ministry/catholic-augustinian.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

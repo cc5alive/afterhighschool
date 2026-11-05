@@ -10,9 +10,13 @@
         {
           "title": "Grants – Financial Aid - Prairie View A&M University",
           "url": "https://www.pvamu.edu/faid/types-of-aid/grants/",
-          "quote": "The PVAMU Panther Program guarantees that all participating students are provided with tuition support grants up to $2,000 for undergraduate students whose family income is $30,000 or less."
+          "quote": "The PVAMU Panther Program guarantees that all participating students are provided with tuition support grants up to $2,000 for undergraduate students whose family income is $30,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pvamu.edu/faid/types-of-aid/grants/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Grants - UW-Whitewater",
           "url": "https://www.uww.edu/financialaid/types-of-aid/grants",
-          "quote": "The 2025 Wisconsin Tuition Promise can provide up to four years of tuition and segregated fees (less book rental) funding for students from families with a $55,000 or lower adjusted gross income (AGI)."
+          "quote": "The 2025 Wisconsin Tuition Promise can provide up to four years of tuition and segregated fees (less book rental) funding for students from families with a $55,000 or lower adjusted gross income (AGI).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uww.edu/financialaid/types-of-aid/grants",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "First Year Applicants | University of Denver",
           "url": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants",
-          "quote": "Through our Cherrington Global Scholars program, we'll even pay for your flight there and back!"
+          "quote": "Through our Cherrington Global Scholars program, we'll even pay for your flight there and back!",
+          "httpStatus": 200,
+          "finalUrl": "https://www.du.edu/admission-aid/undergraduate/first-year-applicants",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

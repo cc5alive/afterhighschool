@@ -10,9 +10,13 @@
         {
           "title": "NCCU Office of Community Engagement and Service",
           "url": "https://www.nccu.edu/oces",
-          "quote": "Every undergraduate first-degree, re-admitted and transfer student is required to do 15 hours of community service each semester while enrolled full-time."
+          "quote": "Every undergraduate first-degree, re-admitted and transfer student is required to do 15 hours of community service each semester while enrolled full-time.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nccu.edu/oces",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

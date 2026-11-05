@@ -10,9 +10,13 @@
         {
           "title": "NC Promise: Use Your Advantage - Western Carolina University",
           "url": "https://www.wcu.edu/apply/undergraduate-admissions/costs-and-aid/ncpromise-faq.aspx",
-          "quote": "Through NC Promise, tuition for all undergraduate students at WCU has been reduced to $500 per fall and spring semesters for in-state students and $3,500 for out-of-state students."
+          "quote": "Through NC Promise, tuition for all undergraduate students at WCU has been reduced to $500 per fall and spring semesters for in-state students and $3,500 for out-of-state students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wcu.edu/apply/undergraduate-admissions/costs-and-aid/ncpromise-faq.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

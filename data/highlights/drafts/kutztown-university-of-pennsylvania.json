@@ -10,9 +10,13 @@
         {
           "title": "Pa. German Heritage Center - Kutztown University",
           "url": "https://www.kutztown.edu/about-ku/administrative-offices/pennsylvania-german-cultural-heritage-center.html",
-          "quote": "An open-air folklife museum and research center dedicated to the preservation and promotion of Pennsylvania German heritage"
+          "quote": "An open-air folklife museum and research center dedicated to the preservation and promotion of Pennsylvania German heritage",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kutztown.edu/about-ku/administrative-offices/pennsylvania-german-cultural-heritage-center.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

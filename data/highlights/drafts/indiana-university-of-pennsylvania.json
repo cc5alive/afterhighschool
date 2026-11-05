@@ -10,9 +10,13 @@
         {
           "title": "Tuition and Aid - Admissions and Aid - IUP",
           "url": "https://www.iup.edu/admissions/tuition-and-aid.html",
-          "quote": "All students admitted into the Cook Honors College earn four-year, renewable scholarships."
+          "quote": "All students admitted into the Cook Honors College earn four-year, renewable scholarships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.iup.edu/admissions/tuition-and-aid.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

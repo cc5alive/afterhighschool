@@ -10,9 +10,13 @@
         {
           "title": "Toledo Tuition Guarantee - University of Toledo",
           "url": "https://www.utoledo.edu/offices/treasurer/tuition/guarantee/",
-          "quote": "The Plan provides a fixed undergraduate tuition rate and fixed-rate fees for four years. Fees included in the Tuition Guarantee are the general fee and miscellaneous student services fee."
+          "quote": "The Plan provides a fixed undergraduate tuition rate and fixed-rate fees for four years. Fees included in the Tuition Guarantee are the general fee and miscellaneous student services fee.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utoledo.edu/offices/treasurer/tuition/guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

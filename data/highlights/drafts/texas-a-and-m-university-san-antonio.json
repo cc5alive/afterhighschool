@@ -10,9 +10,13 @@
         {
           "title": "Jaguar Promise - Become A Jaguar",
           "url": "https://www.tamusa.edu/jaguar-promise/",
-          "quote": "The Jaguar Promise* is a last-dollar scholarship program that awards FREE tuition, fees and books for eligible undergraduate students."
+          "quote": "The Jaguar Promise* is a last-dollar scholarship program that awards FREE tuition, fees and books for eligible undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tamusa.edu/jaguar-promise/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

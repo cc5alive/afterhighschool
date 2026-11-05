@@ -10,9 +10,13 @@
         {
           "title": "Academics | The New School",
           "url": "https://www.newschool.edu/academics/",
-          "quote": "The New School is the only university where a world-renowned design school, a progressive liberal arts college, a distinguished performing arts college, and legendary graduate programs and colleges come together"
+          "quote": "The New School is the only university where a world-renowned design school, a progressive liberal arts college, a distinguished performing arts college, and legendary graduate programs and colleges come together",
+          "httpStatus": 429,
+          "finalUrl": "https://www.newschool.edu/academics/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

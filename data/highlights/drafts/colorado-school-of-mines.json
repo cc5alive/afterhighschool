@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid for First-Year Students - Financial Aid",
           "url": "https://finaid.mines.edu/firstyear/",
-          "quote": "The Mines Promise Program helps to pay tuition and mandatory fees for those entering as undergraduate students."
+          "quote": "The Mines Promise Program helps to pay tuition and mandatory fees for those entering as undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://finaid.mines.edu/firstyear/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

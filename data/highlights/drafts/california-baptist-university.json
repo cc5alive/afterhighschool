@@ -10,9 +10,13 @@
         {
           "title": "Registering for Classes - California Baptist University",
           "url": "https://calbaptist.edu/life-at-cbu/student-support-services/academic-advising/academic-journey/registering-for-classes",
-          "quote": "Ensure that you are enrolled in Chapel (GNST0500) if you are registered for 7 or more units."
+          "quote": "Ensure that you are enrolled in Chapel (GNST0500) if you are registered for 7 or more units.",
+          "httpStatus": 200,
+          "finalUrl": "https://calbaptist.edu/life-at-cbu/student-support-services/academic-advising/academic-journey/registering-for-classes",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

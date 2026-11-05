@@ -10,14 +10,21 @@
         {
           "title": "Walk-Ins and Academic Resources | California State University, Bakersfield",
           "url": "https://www.csub.edu/advising/academic-resources.shtml",
-          "quote": "Formerly known as the California Promise Program, the Finish in Four and Through in Two Program is a degree pledge program at CSUB"
+          "quote": "Formerly known as the California Promise Program, the Finish in Four and Through in Two Program is a degree pledge program at CSUB",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csub.edu/advising/academic-resources.shtml",
+          "quoteFound": true
         },
         {
           "title": "Walk-Ins and Academic Resources | California State University, Bakersfield",
           "url": "https://www.csub.edu/advising/academic-resources.shtml",
-          "quote": "Students who participate in the pledge program are provided with a dedicated academic advisor and priority registration for each enrollment period."
+          "quote": "Students who participate in the pledge program are provided with a dedicated academic advisor and priority registration for each enrollment period.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csub.edu/advising/academic-resources.shtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

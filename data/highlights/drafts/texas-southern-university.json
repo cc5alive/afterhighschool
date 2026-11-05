@@ -10,9 +10,13 @@
         {
           "title": "Tiger Promise - Texas Southern University",
           "url": "https://tsu.edu/tigerpromise/index.php",
-          "quote": "For eligible first-time freshmen at Texas Southern University (TSU), the Tiger Promise guarantees coverage of tuition and mandatory fees for up to 8 consecutive semesters or 4 years, including summer and winter sessions."
+          "quote": "For eligible first-time freshmen at Texas Southern University (TSU), the Tiger Promise guarantees coverage of tuition and mandatory fees for up to 8 consecutive semesters or 4 years, including summer and winter sessions.",
+          "httpStatus": 200,
+          "finalUrl": "https://tsu.edu/tigerpromise/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

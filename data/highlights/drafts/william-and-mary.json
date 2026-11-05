@@ -10,9 +10,13 @@
         {
           "title": "Pell Grant Guarantee | Undergraduate Admission | William & Mary",
           "url": "https://www.wm.edu/admission/undergraduateadmission/costs-aid/in-state/pell-grant-guarantee/",
-          "quote": "Through the Pell Promise, eligible in-state undergraduate students who qualify for a Federal Pell Grant and demonstrate significant financial need* will receive scholarship aid covering at least the full cost of tuition and fees."
+          "quote": "Through the Pell Promise, eligible in-state undergraduate students who qualify for a Federal Pell Grant and demonstrate significant financial need* will receive scholarship aid covering at least the full cost of tuition and fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wm.edu/admission/undergraduateadmission/costs-aid/in-state/pell-grant-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

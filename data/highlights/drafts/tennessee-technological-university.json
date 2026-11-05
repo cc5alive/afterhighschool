@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Admissions - Tennessee Tech Promise",
           "url": "https://www.tntech.edu/admissions/promise.php",
-          "quote": "As a last-dollar scholarship, Tech Promise will pay outstanding mandatory tuition and fees that are not met by other scholarships and grants. It will not cover specialized academic fees, miscellaneous fees or housing and meal plan charges."
+          "quote": "As a last-dollar scholarship, Tech Promise will pay outstanding mandatory tuition and fees that are not met by other scholarships and grants. It will not cover specialized academic fees, miscellaneous fees or housing and meal plan charges.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tntech.edu/admissions/promise.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Shocker Promise - Wichita State University",
           "url": "https://www.wichita.edu/shockerpromise",
-          "quote": "The Shocker Promise is a 4-year, last-payee scholarship designed to cover remaining costs associated with tuition and fees and after applying all other gift aid"
+          "quote": "The Shocker Promise is a 4-year, last-payee scholarship designed to cover remaining costs associated with tuition and fees and after applying all other gift aid",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wichita.edu/administration/financial_aid/scholarships/shockerpromise.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

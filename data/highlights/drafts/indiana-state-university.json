@@ -10,9 +10,13 @@
         {
           "title": "Sycamore Graduation Guarantee | Indiana State University",
           "url": "https://www.indianastate.edu/advantage/sycamore-graduation-guarantee",
-          "quote": "If students approved for the Guarantee adhere to the Student Responsibilities but are unable to complete the primary degree on time, Indiana State University will pay the tuition and mandatory fees for any remaining courses to complete the degree."
+          "quote": "If students approved for the Guarantee adhere to the Student Responsibilities but are unable to complete the primary degree on time, Indiana State University will pay the tuition and mandatory fees for any remaining courses to complete the degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.indianastate.edu/advantage/sycamore-graduation-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Macaulay Honors College at Lehman",
           "url": "https://www.lehman.edu/chase/macaulay-honors/",
-          "quote": "Macaulay Honors students that attend Lehman will graduate with a dual degree from both Macaulay and Lehman."
+          "quote": "Macaulay Honors students that attend Lehman will graduate with a dual degree from both Macaulay and Lehman.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lehman.edu/chase/macaulay-honors/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

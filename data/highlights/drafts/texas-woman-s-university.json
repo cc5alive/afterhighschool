@@ -10,9 +10,13 @@
         {
           "title": "About TWU | Texas Woman's University | BOLDLY GO",
           "url": "https://twu.edu/about-twu/",
-          "quote": "Texas Woman's University (TWU) is the nation's largest university system focused on women."
+          "quote": "Texas Woman's University (TWU) is the nation's largest university system focused on women.",
+          "httpStatus": 200,
+          "finalUrl": "https://twu.edu/about-twu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Home | University of the Cumberlands",
           "url": "https://www.ucumberlands.edu/",
-          "quote": "All students get free textbooks as part of our One Price Promise."
+          "quote": "All students get free textbooks as part of our One Price Promise.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucumberlands.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

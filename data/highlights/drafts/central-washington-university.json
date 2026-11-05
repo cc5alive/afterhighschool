@@ -10,9 +10,13 @@
         {
           "title": "Benefits and Things to Consider | Central Washington University",
           "url": "https://www.cwu.edu/academics/specialized-programs/running-start/resources/benefits-things-consider.php",
-          "quote": "CWU operates on a quarter system, which may be different from the high school academic calendar."
+          "quote": "CWU operates on a quarter system, which may be different from the high school academic calendar.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cwu.edu/academics/specialized-programs/running-start/resources/benefits-things-consider.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

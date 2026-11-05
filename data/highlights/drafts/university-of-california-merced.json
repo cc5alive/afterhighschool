@@ -10,9 +10,13 @@
         {
           "title": "When will I receive the Blue and Gold award? | Financial Aid",
           "url": "https://financialaid.ucmerced.edu/content/when-will-i-receive-blue-and-gold-award",
-          "quote": "The Blue and Gold Opportunity Plan promises to provide enough gift aid to cover system-wide tuition and fees if you are a California resident who qualifies for financial aid and your family earns less than $80,000 a year."
+          "quote": "The Blue and Gold Opportunity Plan promises to provide enough gift aid to cover system-wide tuition and fees if you are a California resident who qualifies for financial aid and your family earns less than $80,000 a year.",
+          "httpStatus": 200,
+          "finalUrl": "https://financialaid.ucmerced.edu/content/when-will-i-receive-blue-and-gold-award",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

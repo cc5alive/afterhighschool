@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid Office - Central Connecticut State University",
           "url": "https://www.ccsu.edu/financialaid",
-          "quote": "The Pell Promise Initiative is a last-dollar scholarship that covers the full cost of tuition and fees for eligible students after federal and state aid is applied."
+          "quote": "The Pell Promise Initiative is a last-dollar scholarship that covers the full cost of tuition and fees for eligible students after federal and state aid is applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ccsu.edu/financialaid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

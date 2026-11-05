@@ -10,9 +10,13 @@
         {
           "title": "The SIUE Commitment - Scholarships | SIUE",
           "url": "https://www.siue.edu/financial-aid/scholarships/scholarships-awards-grants/list-feed/siue-commitment.shtml",
-          "quote": "For qualifying Illinois students, SIUE will help close the gap in tuition, mandatory fees and course-specific fees after utilizing financial aid from all federal, state and institutional sources"
+          "quote": "For qualifying Illinois students, SIUE will help close the gap in tuition, mandatory fees and course-specific fees after utilizing financial aid from all federal, state and institutional sources",
+          "httpStatus": 200,
+          "finalUrl": "https://www.siue.edu/financial-aid/scholarships/scholarships-awards-grants/list-feed/siue-commitment.shtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

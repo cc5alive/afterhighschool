@@ -10,14 +10,21 @@
         {
           "title": "WUE & WRGP | Admissions | University of Alaska Anchorage",
           "url": "https://www.uaa.alaska.edu/admissions/apply/western-exchange.cshtml",
-          "quote": "Undergraduate students who qualify for the Western Undergraduate Exchange (WUE) program pay 150% of the in-state tuition rate."
+          "quote": "Undergraduate students who qualify for the Western Undergraduate Exchange (WUE) program pay 150% of the in-state tuition rate.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uaa.alaska.edu/admissions/apply/western-exchange.cshtml",
+          "quoteFound": false
         },
         {
           "title": "WUE & WRGP | Admissions | University of Alaska Anchorage",
           "url": "https://www.uaa.alaska.edu/admissions/apply/western-exchange.cshtml",
-          "quote": "To qualify, students must be: Admitted to UAA A resident of a participating state or U.S. territory."
+          "quote": "To qualify, students must be: Admitted to UAA A resident of a participating state or U.S. territory.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uaa.alaska.edu/admissions/apply/western-exchange.cshtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

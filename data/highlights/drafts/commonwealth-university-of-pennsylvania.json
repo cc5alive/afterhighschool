@@ -10,9 +10,13 @@
         {
           "title": "History | Commonwealth University",
           "url": "https://www.commonwealthu.edu/about/history",
-          "quote": "Commonwealth University of Pennsylvania was officially formed on July 1, 2022 when Bloomsburg University, Lock Haven University, and Mansfield University integrated into a single institution."
+          "quote": "Commonwealth University of Pennsylvania was officially formed on July 1, 2022 when Bloomsburg University, Lock Haven University, and Mansfield University integrated into a single institution.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.commonwealthu.edu/about/history",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

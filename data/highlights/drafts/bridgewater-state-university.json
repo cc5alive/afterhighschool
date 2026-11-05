@@ -10,9 +10,13 @@
         {
           "title": "The Bridgewater Commitment | Free Tuition for Massachusetts Families Earning $125,000 or Less | Bridgewater State University",
           "url": "https://www.bridgew.edu/cost-aid/bridgewater-commitment",
-          "quote": "the Bridgewater Commitment will cover the full cost of tuition and mandatory fees for in-state students from families earning $125,000 or less."
+          "quote": "the Bridgewater Commitment will cover the full cost of tuition and mandatory fees for in-state students from families earning $125,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bridgew.edu/cost-aid/bridgewater-commitment",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

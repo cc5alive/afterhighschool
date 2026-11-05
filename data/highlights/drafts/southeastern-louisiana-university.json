@@ -10,9 +10,13 @@
         {
           "title": "Student Policies - Southeastern Louisiana University",
           "url": "https://www.southeastern.edu/admin/tb_rental/student_policies/",
-          "quote": "All students who register at Southeastern will be charged a mandatory textbook rental fee per class (no maximum) if a rental book is required for the course in which they are registered."
+          "quote": "All students who register at Southeastern will be charged a mandatory textbook rental fee per class (no maximum) if a rental book is required for the course in which they are registered.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southeastern.edu/admin/tb_rental/student_policies/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

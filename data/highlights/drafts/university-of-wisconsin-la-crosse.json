@@ -10,9 +10,13 @@
         {
           "title": "Wisconsin Tuition Promise - Financial Aid | UW-La Crosse",
           "url": "https://www.uwlax.edu/finaid/info/types-of-aid/wisconsin-tuition-promise/",
-          "quote": "Wisconsin Tuition Promise is an initiative created by the Universities of Wisconsin to ensure underserved Wisconsin students can attend any UW university without paying tuition or fees."
+          "quote": "Wisconsin Tuition Promise is an initiative created by the Universities of Wisconsin to ensure underserved Wisconsin students can attend any UW university without paying tuition or fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwlax.edu/finaid/info/types-of-aid/wisconsin-tuition-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

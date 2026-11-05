@@ -10,9 +10,13 @@
         {
           "title": "About Embry-Riddle - Embry-Riddle Aeronautical University",
           "url": "https://erau.edu/about",
-          "quote": "Our mission is to teach students the science, practice and business of aviation and aerospace, preparing them for leadership roles in industry, government agencies and the military."
+          "quote": "Our mission is to teach students the science, practice and business of aviation and aerospace, preparing them for leadership roles in industry, government agencies and the military.",
+          "httpStatus": 200,
+          "finalUrl": "https://erau.edu/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

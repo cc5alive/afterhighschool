@@ -10,14 +10,21 @@
         {
           "title": "Saint Louis University Undergraduate Core : SLU - Saint Louis University",
           "url": "https://www.slu.edu/core/index.php",
-          "quote": "The Saint Louis University Core is an integrated intellectual experience completed by all baccalaureate students, regardless of major, program, college, school or campus."
+          "quote": "The Saint Louis University Core is an integrated intellectual experience completed by all baccalaureate students, regardless of major, program, college, school or campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.slu.edu/core/index.php",
+          "quoteFound": true
         },
         {
           "title": "Saint Louis University Undergraduate Core : SLU - Saint Louis University",
           "url": "https://www.slu.edu/core/index.php",
-          "quote": "The University Core prepares all SLU students to be intellectually flexible, creative and reflective critical thinkers in the spirit of the Catholic, Jesuit tradition."
+          "quote": "The University Core prepares all SLU students to be intellectually flexible, creative and reflective critical thinkers in the spirit of the Catholic, Jesuit tradition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.slu.edu/core/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

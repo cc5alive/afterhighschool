@@ -10,9 +10,13 @@
         {
           "title": "Service Learning Institute | California State University Monterey Bay",
           "url": "https://csumb.edu/academics/hands-on-learning/service-learning",
-          "quote": "Every undergraduate student completes at least one service learning course as part of their degree."
+          "quote": "Every undergraduate student completes at least one service learning course as part of their degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://csumb.edu/academics/hands-on-learning/service-learning/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

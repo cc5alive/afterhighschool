@@ -10,9 +10,13 @@
         {
           "title": "Mission and Values — Unity Environmental University",
           "url": "https://unity.edu/about-unity/mission-and-values/",
-          "quote": "We are dedicated to delivering quality education and experiences that produce outstanding environmentally competent professionals and inspire individuals from all walks of life to steward sustainable ecosystems."
+          "quote": "We are dedicated to delivering quality education and experiences that produce outstanding environmentally competent professionals and inspire individuals from all walks of life to steward sustainable ecosystems.",
+          "httpStatus": 200,
+          "finalUrl": "https://unity.edu/about-unity/mission-and-values/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

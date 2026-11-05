@@ -10,9 +10,13 @@
         {
           "title": "Cardinal Commitment - Saginaw Valley State University",
           "url": "https://www.svsu.edu/cardinalcommitment/",
-          "quote": "The SVSU Cardinal Commitment covers tuition for new first-time-in-college students for up to five (5) continuous years or through completion of their first bachelor's degree, whichever is sooner, as long as the student continues to meet eligibility requirements."
+          "quote": "The SVSU Cardinal Commitment covers tuition for new first-time-in-college students for up to five (5) continuous years or through completion of their first bachelor's degree, whichever is sooner, as long as the student continues to meet eligibility requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.svsu.edu/cardinalcommitment/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

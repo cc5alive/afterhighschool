@@ -10,9 +10,13 @@
         {
           "title": "Program Overview - University of Central Arkansas",
           "url": "https://uca.edu/commitment/overview/",
-          "quote": "The UCA Commitment program is a last dollar scholarship that covers tuition and academic fees, designed to support Arkansas students who are Pell eligible or from households earning $100,000 or less a year."
+          "quote": "The UCA Commitment program is a last dollar scholarship that covers tuition and academic fees, designed to support Arkansas students who are Pell eligible or from households earning $100,000 or less a year.",
+          "httpStatus": 200,
+          "finalUrl": "https://uca.edu/commitment/overview/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

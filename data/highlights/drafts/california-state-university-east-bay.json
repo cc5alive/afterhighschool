@@ -10,9 +10,13 @@
         {
           "title": "California Promise Program - Cal State East Bay",
           "url": "https://www.csueastbay.edu/advising/california-promise-program.html",
-          "quote": "The California Promise is a program established through California Senate Bill 412 to facilitate graduation in four years for freshmen, and two years for transfer students."
+          "quote": "The California Promise is a program established through California Senate Bill 412 to facilitate graduation in four years for freshmen, and two years for transfer students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csueastbay.edu/advising/california-promise-program.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

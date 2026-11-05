@@ -10,9 +10,13 @@
         {
           "title": "Buff Promise | WTAMU",
           "url": "https://www.wtamu.edu/student-support/financial-aid/buff-promise/index.html",
-          "quote": "West Texas A&M University has committed 100% of its available resources to cover fall and spring in-state tuition for undergraduate Texas residents who have an annual family income of $80,000—the median income level for our region—or less."
+          "quote": "West Texas A&M University has committed 100% of its available resources to cover fall and spring in-state tuition for undergraduate Texas residents who have an annual family income of $80,000—the median income level for our region—or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wtamu.edu/student-support/financial-aid/buff-promise/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

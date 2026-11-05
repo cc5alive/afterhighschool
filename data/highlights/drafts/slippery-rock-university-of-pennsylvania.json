@@ -10,9 +10,13 @@
         {
           "title": "Out-of-State Students | Slippery Rock University",
           "url": "https://www.sru.edu/admissions/first-year-students/out-of-state-students",
-          "quote": "Tuition Reduction Eligibility Requirements: First-Year Students: 3.0 or higher cumulative GPA on their official final high school transcript"
+          "quote": "Tuition Reduction Eligibility Requirements: First-Year Students: 3.0 or higher cumulative GPA on their official final high school transcript",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sru.edu/admissions/first-year-students/out-of-state-students",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

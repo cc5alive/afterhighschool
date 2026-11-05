@@ -10,9 +10,13 @@
         {
           "title": "Admissions Policies - Wilmington University",
           "url": "https://www.wilmu.edu/admission/policies.aspx",
-          "quote": "Wilmington University honors an open admissions policy and welcomes applications from all interested potential students."
+          "quote": "Wilmington University honors an open admissions policy and welcomes applications from all interested potential students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wilmu.edu/admission/policies.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

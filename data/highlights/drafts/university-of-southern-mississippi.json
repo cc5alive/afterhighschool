@@ -10,9 +10,13 @@
         {
           "title": "Education/Academic Partners | Hydrographic Science Research Center",
           "url": "https://www.usm.edu/hydrographic-science-research-center/education-academic-partners.php",
-          "quote": "The School of Ocean Science and Engineering offers the only ocean engineering degree in the state of Mississippi and one of only 10 such programs in the nation."
+          "quote": "The School of Ocean Science and Engineering offers the only ocean engineering degree in the state of Mississippi and one of only 10 such programs in the nation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usm.edu/hydrographic-science-research-center/education-academic-partners.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

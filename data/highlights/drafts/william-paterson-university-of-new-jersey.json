@@ -10,9 +10,13 @@
         {
           "title": "Tuition-Free Opportunities | William Paterson University",
           "url": "https://www.wpunj.edu/financial-aid/financial-aid-programs/tuition-free-opportunities",
-          "quote": "For New Jersey students with a family adjusted gross income of $65,000 or less, these programs will cover the cost of tuition and fees that are not already paid by federal and state financial aid or other scholarships."
+          "quote": "For New Jersey students with a family adjusted gross income of $65,000 or less, these programs will cover the cost of tuition and fees that are not already paid by federal and state financial aid or other scholarships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wpunj.edu/financial-aid/financial-aid-programs/tuition-free-opportunities",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

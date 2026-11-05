@@ -10,9 +10,13 @@
         {
           "title": "Catholic Identity | Saint Leo University",
           "url": "https://www.saintleo.edu/about/catholic-identity",
-          "quote": "Saint Leo University welcomes and embraces in the Catholic Benedictine tradition individuals of all faiths."
+          "quote": "Saint Leo University welcomes and embraces in the Catholic Benedictine tradition individuals of all faiths.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.saintleo.edu/about/catholic-identity",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

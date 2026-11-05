@@ -10,9 +10,13 @@
         {
           "title": "Metro Rate - Marshall University",
           "url": "https://www.marshall.edu/metro/",
-          "quote": "Starting Fall 2027, Metro tuition covers every county within 150 miles of Huntington. That is 161 counties across Indiana, Kentucky, North Carolina, Ohio, Pennsylvania, Tennessee and Virginia."
+          "quote": "Starting Fall 2027, Metro tuition covers every county within 150 miles of Huntington. That is 161 counties across Indiana, Kentucky, North Carolina, Ohio, Pennsylvania, Tennessee and Virginia.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.marshall.edu/metro/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

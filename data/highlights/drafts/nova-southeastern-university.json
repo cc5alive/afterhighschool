@@ -10,9 +10,13 @@
         {
           "title": "Dual Admission",
           "url": "https://undergrad.nova.edu/academics/premier-programs/dual-admission/index.html",
-          "quote": "With Nova Southeastern University's Dual Admission program, you can reserve your seat in one of NSU's graduate or professional programs while you earn your bachelor's degree and receive an annual $2,000 scholarship."
+          "quote": "With Nova Southeastern University's Dual Admission program, you can reserve your seat in one of NSU's graduate or professional programs while you earn your bachelor's degree and receive an annual $2,000 scholarship.",
+          "httpStatus": 200,
+          "finalUrl": "https://undergrad.nova.edu/academics/premier-programs/dual-admission/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

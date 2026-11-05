@@ -10,9 +10,13 @@
         {
           "title": "Community-Engaged Learning | UW-Eau Claire",
           "url": "https://www.uwec.edu/academics/academic-experience/community-engaged-learning",
-          "quote": "A community-engaged learning project is a graduation requirement. You can complete this project either through a course or an opportunity in your community."
+          "quote": "A community-engaged learning project is a graduation requirement. You can complete this project either through a course or an opportunity in your community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwec.edu/academics/academic-experience/community-engaged-learning",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

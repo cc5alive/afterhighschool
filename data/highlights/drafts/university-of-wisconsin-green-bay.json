@@ -10,9 +10,13 @@
         {
           "title": "Types of Aid - Financial Aid - UW-Green Bay",
           "url": "https://www.uwgb.edu/financial-aid/types-of-aid/",
-          "quote": "The Wisconsin Tuition Promise, a Universities of Wisconsin initiative, strives to make a UW degree as affordable as possible for Wisconsin students by covering the cost of tuition and fees for eligible undergraduate students."
+          "quote": "The Wisconsin Tuition Promise, a Universities of Wisconsin initiative, strives to make a UW degree as affordable as possible for Wisconsin students by covering the cost of tuition and fees for eligible undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwgb.edu/financial-aid/types-of-aid/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "The Best HBCU - Albany State University",
           "url": "https://www.asurams.edu/presidents-office/office-of-marketing-and-communications/besthbcu.php",
-          "quote": "Albany State University (ASU), founded in 1903, is a proud Historically Black College and University (HBCU)."
+          "quote": "Albany State University (ASU), founded in 1903, is a proud Historically Black College and University (HBCU).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.asurams.edu/presidents-office/office-of-marketing-and-communications/besthbcu.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

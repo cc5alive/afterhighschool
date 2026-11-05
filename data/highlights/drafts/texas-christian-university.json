@@ -10,9 +10,13 @@
         {
           "title": "TCU for Texans",
           "url": "https://admissions.tcu.edu/afford/scholarship-aid/tcu-for-texans.php",
-          "quote": "For qualifying first-year Texas students, the TCU for Texans initiative provides full tuition support, food and housing assistance and guaranteed on-campus housing for four years."
+          "quote": "For qualifying first-year Texas students, the TCU for Texans initiative provides full tuition support, food and housing assistance and guaranteed on-campus housing for four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.tcu.edu/afford/scholarship-aid/tcu-for-texans.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

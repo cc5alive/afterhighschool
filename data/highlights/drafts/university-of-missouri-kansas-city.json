@@ -10,9 +10,13 @@
         {
           "title": "Roo Advantage Scholarship - Scholarships and Grants Listing - Financial Aid and Scholarships | UMKC",
           "url": "https://www.umkc.edu/financial-aid/scholarships-grants/roo-advantage-scholarship.php",
-          "quote": "The award ensures tuition and fees are met for full-time, Pell-eligible Missouri and Kansas residents who file the FAFSA by April 1 for Fall admits and Dec. 1 for Spring admits."
+          "quote": "The award ensures tuition and fees are met for full-time, Pell-eligible Missouri and Kansas residents who file the FAFSA by April 1 for Fall admits and Dec. 1 for Spring admits.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umkc.edu/financial-aid/scholarships-grants/roo-advantage-scholarship.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

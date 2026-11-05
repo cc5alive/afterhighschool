@@ -10,9 +10,13 @@
         {
           "title": "Radford Tuition Promise | Radford University",
           "url": "https://www.radford.edu/admissions/cost/tuition-promise.html",
-          "quote": "Radford Tuition Promise is funded through federal, state and institutional gift aid. This means qualifying students will not be required to take out a student loan for their tuition cost."
+          "quote": "Radford Tuition Promise is funded through federal, state and institutional gift aid. This means qualifying students will not be required to take out a student loan for their tuition cost.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.radford.edu/admissions/cost/tuition-promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

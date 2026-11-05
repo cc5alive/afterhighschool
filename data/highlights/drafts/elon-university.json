@@ -10,9 +10,13 @@
         {
           "title": "Elon Experiences Overview | Elon Experiences Transcript | Elon University",
           "url": "https://www.elon.edu/u/elon-experiences-transcript/elon-experiences-overview/",
-          "quote": "The Kernodle Center for Civic Life connects students with service opportunities in the community. Each year students demonstrate Elon's strong commitment to service through their work in the community."
+          "quote": "The Kernodle Center for Civic Life connects students with service opportunities in the community. Each year students demonstrate Elon's strong commitment to service through their work in the community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.elon.edu/u/elon-experiences-transcript/elon-experiences-overview/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,14 +10,21 @@
         {
           "title": "Promise Programs - Student Financial Services - University of Maine",
           "url": "https://umaine.edu/sfs/promise/",
-          "quote": "The INSPIRE Maine Scholarship at the University of Maine and the Downeast Promise at the University of Maine at Machias are Promise Programs designed to help eligible Maine residents with financial need access an affordable college education."
+          "quote": "The INSPIRE Maine Scholarship at the University of Maine and the Downeast Promise at the University of Maine at Machias are Promise Programs designed to help eligible Maine residents with financial need access an affordable college education.",
+          "httpStatus": 200,
+          "finalUrl": "https://umaine.edu/sfs/promise/",
+          "quoteFound": true
         },
         {
           "title": "Promise Programs - Student Financial Services - University of Maine",
           "url": "https://umaine.edu/sfs/promise/",
-          "quote": "Both programs cover 100% of tuition and mandatory fees, for up to 30 credits per year over four years, for eligible Maine residents enrolling full-time as first-year or transfer students."
+          "quote": "Both programs cover 100% of tuition and mandatory fees, for up to 30 credits per year over four years, for eligible Maine residents enrolling full-time as first-year or transfer students.",
+          "httpStatus": 200,
+          "finalUrl": "https://umaine.edu/sfs/promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

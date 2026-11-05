@@ -10,14 +10,21 @@
         {
           "title": "RAI Score Admission",
           "url": "https://admissions.uni.edu/apply/rai-score-requirements",
-          "quote": "To qualify for automatic admission as freshmen, students must achieve a Regent Admission Index (RAI) score of at least 245."
+          "quote": "To qualify for automatic admission as freshmen, students must achieve a Regent Admission Index (RAI) score of at least 245.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.uni.edu/apply/rai-score-requirements",
+          "quoteFound": true
         },
         {
           "title": "RAI Score Admission",
           "url": "https://admissions.uni.edu/apply/rai-score-requirements",
-          "quote": "The RAI combines factors that predict success: ACT or SAT test score, high school cumulative grade-point average and the number of completed high school core courses."
+          "quote": "The RAI combines factors that predict success: ACT or SAT test score, high school cumulative grade-point average and the number of completed high school core courses.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.uni.edu/apply/rai-score-requirements",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

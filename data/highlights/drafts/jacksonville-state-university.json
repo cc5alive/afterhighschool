@@ -10,9 +10,13 @@
         {
           "title": "Birmingham Promise Scholarship - Financial Aid",
           "url": "https://www.jsu.edu/finaid/scholarships/birmingham-promise/index.html",
-          "quote": "The Birmingham Promise scholarship covers college tuition and mandatory fees (Jax State General Fee and course-related fees) for four continuous years in public Alabama colleges."
+          "quote": "The Birmingham Promise scholarship covers college tuition and mandatory fees (Jax State General Fee and course-related fees) for four continuous years in public Alabama colleges.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jsu.edu/finaid/scholarships/birmingham-promise/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

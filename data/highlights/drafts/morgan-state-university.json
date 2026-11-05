@@ -10,9 +10,13 @@
         {
           "title": "Maryland's Largest Historically Black College Named a National ...",
           "url": "https://www.morgan.edu/news/morgan-state-national-treasure",
-          "quote": "the National Trust for Historic Preservation today named Morgan State University a National Treasure."
+          "quote": "the National Trust for Historic Preservation today named Morgan State University a National Treasure.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.morgan.edu/news/morgan-state-national-treasure",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "John D. Odegard School of Aerospace Sciences | University of North Dakota",
           "url": "https://aero.und.edu/",
-          "quote": "The second-largest degree-granting college at UND, the John D. Odegard School of Aerospace Sciences operates one of the largest fleets of civilian aircraft in North America."
+          "quote": "The second-largest degree-granting college at UND, the John D. Odegard School of Aerospace Sciences operates one of the largest fleets of civilian aircraft in North America.",
+          "httpStatus": 200,
+          "finalUrl": "https://aero.und.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

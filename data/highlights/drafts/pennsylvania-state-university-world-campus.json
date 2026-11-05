@@ -10,9 +10,13 @@
         {
           "title": "HR Degree Programs Online - Penn State World Campus",
           "url": "https://www.worldcampus.psu.edu/penn-state-online-human-resources-labor-employment-relations",
-          "quote": "Your Penn State World Campus tuition is the same whether you live in Pennsylvania, across the country, or around the world — World Campus does not charge a higher out-of-state tuition rate for online learners."
+          "quote": "Your Penn State World Campus tuition is the same whether you live in Pennsylvania, across the country, or around the world — World Campus does not charge a higher out-of-state tuition rate for online learners.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.worldcampus.psu.edu/penn-state-online-human-resources-labor-employment-relations",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

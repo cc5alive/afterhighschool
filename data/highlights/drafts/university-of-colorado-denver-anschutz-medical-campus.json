@@ -10,9 +10,13 @@
         {
           "title": "CU Promise | Financial Aid at CU Denver",
           "url": "https://www.cudenver.edu/financial-aid/types-of-aid/grants/cu-promise",
-          "quote": "The University of Colorado Denver (CU Denver) guarantees that eligible Colorado residents from low-income families will be able to afford the academic costs of a college education without going into debt."
+          "quote": "The University of Colorado Denver (CU Denver) guarantees that eligible Colorado residents from low-income families will be able to afford the academic costs of a college education without going into debt.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cudenver.edu/financial-aid/types-of-aid/grants/cu-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Go West. Go Affordably. | UWG",
           "url": "https://www.westga.edu/afford-west.php",
-          "quote": "All legal residents of Alabama (effective Spring 2018), Florida, North Carolina, South Carolina, and Tennessee (effective Fall 2022) are eligible for in-state tuition rates by submitting this Border State Waiver (PDF)."
+          "quote": "All legal residents of Alabama (effective Spring 2018), Florida, North Carolina, South Carolina, and Tennessee (effective Fall 2022) are eligible for in-state tuition rates by submitting this Border State Waiver (PDF).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.westga.edu/afford-west.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

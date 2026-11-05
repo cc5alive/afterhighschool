@@ -10,9 +10,13 @@
         {
           "title": "About New Paltz | SUNY New Paltz Catalog",
           "url": "https://catalog.newpaltz.edu/undergraduate/about-newpaltz/",
-          "quote": "In partnership with MakerBot, the leading manufacturer of desktop 3D printers, the university opened the nation's first MakerBot Innovation Center in 2014."
+          "quote": "In partnership with MakerBot, the leading manufacturer of desktop 3D printers, the university opened the nation's first MakerBot Innovation Center in 2014.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.newpaltz.edu/undergraduate/about-newpaltz/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

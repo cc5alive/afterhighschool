@@ -10,14 +10,21 @@
         {
           "title": "Western Undergraduate Exchange | Idaho State University",
           "url": "https://www.isu.edu/wue/",
-          "quote": "WUE students pay 1.5 times the Idaho resident tuition instead of full non-resident tuition plus resident tuition, for a tremendous cost savings."
+          "quote": "WUE students pay 1.5 times the Idaho resident tuition instead of full non-resident tuition plus resident tuition, for a tremendous cost savings.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.isu.edu/wue/",
+          "quoteFound": true
         },
         {
           "title": "Western Undergraduate Exchange | Idaho State University",
           "url": "https://www.isu.edu/wue/",
-          "quote": "All fields of study at Idaho State University are WUE eligible"
+          "quote": "All fields of study at Idaho State University are WUE eligible",
+          "httpStatus": 200,
+          "finalUrl": "https://www.isu.edu/wue/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

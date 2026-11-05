@@ -10,9 +10,13 @@
         {
           "title": "Determination of Residency For Tuition - Valdosta State University",
           "url": "https://www.valdosta.edu/academics/registrar/residency-for-tuition.php",
-          "quote": "Border States Waiver (For Undergraduate Students who reside in Alabama, Florida, North Carolina, South Carolina, and Tennessee)"
+          "quote": "Border States Waiver (For Undergraduate Students who reside in Alabama, Florida, North Carolina, South Carolina, and Tennessee)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.valdosta.edu/academics/registrar/residency-for-tuition.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

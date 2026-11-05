@@ -10,9 +10,13 @@
         {
           "title": "Tuition and Fees | Northern Michigan University",
           "url": "https://nmu.edu/tuition",
-          "quote": "Includes use of a laptop computer for all full-time (12 credits or more per semester) undergraduate students."
+          "quote": "Includes use of a laptop computer for all full-time (12 credits or more per semester) undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://nmu.edu/tuition",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

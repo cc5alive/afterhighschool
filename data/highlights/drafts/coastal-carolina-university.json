@@ -10,9 +10,13 @@
         {
           "title": "Hackler Course – Coastal Carolina Golf",
           "url": "https://www.coastal.edu/hacklercourse/",
-          "quote": "home to CCU's PGA Golf Management program, one of only 18 university programs accredited by the PGA of America."
+          "quote": "home to CCU's PGA Golf Management program, one of only 18 university programs accredited by the PGA of America.",
+          "httpStatus": 403,
+          "finalUrl": "https://hacklercourse.com/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

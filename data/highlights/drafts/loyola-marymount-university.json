@@ -10,14 +10,21 @@
         {
           "title": "University Core Curriculum | Academic Bulletin",
           "url": "https://bulletin.lmu.edu/core-curriculum/",
-          "quote": "The LMU Core is organized across three levels – Foundations, Explorations, and Integrations."
+          "quote": "The LMU Core is organized across three levels – Foundations, Explorations, and Integrations.",
+          "httpStatus": 200,
+          "finalUrl": "https://bulletin.lmu.edu/core-curriculum/",
+          "quoteFound": false
         },
         {
           "title": "University Core Curriculum | Academic Bulletin",
           "url": "https://bulletin.lmu.edu/core-curriculum/",
-          "quote": "In addition to the above, students will also take one or multiple courses that emphasize mission-driven community engagement, referred to as Experiential Learning for Mission"
+          "quote": "In addition to the above, students will also take one or multiple courses that emphasize mission-driven community engagement, referred to as Experiential Learning for Mission",
+          "httpStatus": 200,
+          "finalUrl": "https://bulletin.lmu.edu/core-curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

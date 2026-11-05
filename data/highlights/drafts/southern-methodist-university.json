@@ -10,14 +10,21 @@
         {
           "title": "SMU Residential Commons - Residence Life and Student Housing - Student Affairs",
           "url": "https://www.smu.edu/studentaffairs/housing/living-on-campus/residential-commons",
-          "quote": "All entering first-year students receive assignment to one of 11 Residential Commons."
+          "quote": "All entering first-year students receive assignment to one of 11 Residential Commons.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.smu.edu/studentaffairs/housing/living-on-campus/residential-commons",
+          "quoteFound": true
         },
         {
           "title": "SMU Residential Commons - Residence Life and Student Housing - Student Affairs",
           "url": "https://www.smu.edu/studentaffairs/housing/living-on-campus/residential-commons",
-          "quote": "Students remain affiliated with their Residential Commons during their time at SMU (and beyond)."
+          "quote": "Students remain affiliated with their Residential Commons during their time at SMU (and beyond).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.smu.edu/studentaffairs/housing/living-on-campus/residential-commons",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

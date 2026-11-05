@@ -10,9 +10,13 @@
         {
           "title": "Garden State Guarantee Program | Financial Aid - NJIT",
           "url": "https://www.njit.edu/financialaid/garden-state-guarantee-program",
-          "quote": "The Garden State Guarantee (GSG) program will provide up to four semesters of free tuition and mandatory fees for undergraduate, New Jersey resident students who attend in-state, public four-year institutions."
+          "quote": "The Garden State Guarantee (GSG) program will provide up to four semesters of free tuition and mandatory fees for undergraduate, New Jersey resident students who attend in-state, public four-year institutions.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.njit.edu/financialaid/garden-state-guarantee-program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

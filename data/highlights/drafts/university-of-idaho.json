@@ -10,14 +10,21 @@
         {
           "title": "In-state scholarships | University of Idaho",
           "url": "https://www.uidaho.edu/financial-aid/scholarships/in-state-scholarship",
-          "quote": "The Go Idaho! program provides a guaranteed amount of scholarship funding to Idaho high school and transfer students."
+          "quote": "The Go Idaho! program provides a guaranteed amount of scholarship funding to Idaho high school and transfer students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uidaho.edu/financial-aid/scholarships/in-state-scholarship",
+          "quoteFound": true
         },
         {
           "title": "In-state scholarships | University of Idaho",
           "url": "https://www.uidaho.edu/financial-aid/scholarships/in-state-scholarship",
-          "quote": "Four-year commitment — First-year students receive funding for up to four years, ensuring long-term support through graduation."
+          "quote": "Four-year commitment — First-year students receive funding for up to four years, ensuring long-term support through graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uidaho.edu/financial-aid/scholarships/in-state-scholarship",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

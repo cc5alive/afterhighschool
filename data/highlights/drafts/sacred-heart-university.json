@@ -10,9 +10,13 @@
         {
           "title": "SHU Facts | Sacred Heart University",
           "url": "https://www.sacredheart.edu/about-shu/shu-facts/",
-          "quote": "Founded in 1963 as a Catholic University by the Most Reverend Walter W. Curtis, Bishop of the Diocese of Bridgeport. The first Catholic University in America to be led and staffed by lay people."
+          "quote": "Founded in 1963 as a Catholic University by the Most Reverend Walter W. Curtis, Bishop of the Diocese of Bridgeport. The first Catholic University in America to be led and staffed by lay people.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sacredheart.edu/about-shu/shu-facts/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Macaulay Honors College | Brooklyn College",
           "url": "https://www.brooklyn.edu/honors-academy/macaulay/",
-          "quote": "Macaulay students receive a full-tuition scholarship*, enhanced curriculum and advisement, technology tools and training, and support from the Macaulay Opportunities Fund"
+          "quote": "Macaulay students receive a full-tuition scholarship*, enhanced curriculum and advisement, technology tools and training, and support from the Macaulay Opportunities Fund",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brooklyn.edu/honors-academy/macaulay/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

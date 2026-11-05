@@ -10,9 +10,13 @@
         {
           "title": "WUE Tuition Rates - Paying for College - Apply - EWU",
           "url": "https://www.ewu.edu/apply/tuition/wue/",
-          "quote": "Newly admitted students from one of the 16 participating western states and territories are eligible for the WUE scholarship. No GPA requirements."
+          "quote": "Newly admitted students from one of the 16 participating western states and territories are eligible for the WUE scholarship. No GPA requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ewu.edu/apply/tuition/wue/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "SUU is the University of the Parks",
           "url": "https://www.suu.edu/parks/",
-          "quote": "SUU is the only designated University of the Parks in the U.S. due to its unique location, academics, recreational opportunities and outdoor career prep."
+          "quote": "SUU is the only designated University of the Parks in the U.S. due to its unique location, academics, recreational opportunities and outdoor career prep.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.suu.edu/parks/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

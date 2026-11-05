@@ -10,14 +10,21 @@
         {
           "title": "The Stockton Promise - Office of Financial Aid | Stockton University",
           "url": "https://stockton.edu/financial-aid/promise.html",
-          "quote": "The Stockton Promise covers 100% of the gap between federal, state* and institutional financial aid funds (grants & scholarships) and the cost of tuition & fees for qualifying students who are in their first or second year of study"
+          "quote": "The Stockton Promise covers 100% of the gap between federal, state* and institutional financial aid funds (grants & scholarships) and the cost of tuition & fees for qualifying students who are in their first or second year of study",
+          "httpStatus": 200,
+          "finalUrl": "https://stockton.edu/financial-aid/promise.html",
+          "quoteFound": true
         },
         {
           "title": "The Stockton Promise - Office of Financial Aid | Stockton University",
           "url": "https://stockton.edu/financial-aid/promise.html",
-          "quote": "Have an adjusted gross income (AGI) of $0 - $65,000 per year AND a Student Aid Index (SAI) of 15,000 or less, as per the FAFSA"
+          "quote": "Have an adjusted gross income (AGI) of $0 - $65,000 per year AND a Student Aid Index (SAI) of 15,000 or less, as per the FAFSA",
+          "httpStatus": 200,
+          "finalUrl": "https://stockton.edu/financial-aid/promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

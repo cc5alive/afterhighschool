@@ -10,9 +10,13 @@
         {
           "title": "Individualized Credit for Prior Learning (iCPL)",
           "url": "https://catalog.sunyempire.edu/undergraduate/cpl/icpl/",
-          "quote": "Empire State University is committed to the idea that students should be awarded credit for verifiable college-level learning regardless of where or how it was acquired."
+          "quote": "Empire State University is committed to the idea that students should be awarded credit for verifiable college-level learning regardless of where or how it was acquired.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.sunyempire.edu/undergraduate/cpl/icpl/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
