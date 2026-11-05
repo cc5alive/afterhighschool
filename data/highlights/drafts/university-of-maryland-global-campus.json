@@ -10,9 +10,13 @@
         {
           "title": "OnlineDegree.com Alliance | UMGC",
           "url": "https://www.umgc.edu/business-partners/global-workforce-solutions/online-degree",
-          "quote": "Go digital! We've replaced costly, bulky textbooks with no-cost digital materials for nearly every course."
+          "quote": "Go digital! We've replaced costly, bulky textbooks with no-cost digital materials for nearly every course.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umgc.edu/business-partners/global-workforce-solutions/online-degree",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -11,9 +11,9 @@
           "title": "Temple University Academics",
           "url": "https://www.temple.edu/academics",
           "quote": "Temple University offers rigorous professional and undergraduate programs across multiple schools in the heart of Philadelphia.",
-          "httpStatus": 200,
+          "httpStatus": 403,
           "finalUrl": "https://www.temple.edu/academics",
-          "quoteFound": false
+          "quoteFound": null
         }
       ],
       "quoteVerified": false

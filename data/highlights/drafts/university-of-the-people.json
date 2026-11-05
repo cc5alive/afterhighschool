@@ -10,14 +10,21 @@
         {
           "title": "UoPeople Fees | Low Cost, High Quality | University of the People",
           "url": "https://www.uopeople.edu/tuition-free/processing-fees/",
-          "quote": "At UoPeople there is no cost for instruction, books, or traditional campus costs. Our mission is to make higher education affordable and accessible."
+          "quote": "At UoPeople there is no cost for instruction, books, or traditional campus costs. Our mission is to make higher education affordable and accessible.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uopeople.edu/tuition-free/processing-fees/",
+          "quoteFound": true
         },
         {
           "title": "UoPeople Fees | Low Cost, High Quality | University of the People",
           "url": "https://www.uopeople.edu/tuition-free/processing-fees/",
-          "quote": "For each undergraduate course, there is an assessment fee of $180."
+          "quote": "For each undergraduate course, there is an assessment fee of $180.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uopeople.edu/tuition-free/processing-fees/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

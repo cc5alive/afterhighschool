@@ -10,9 +10,13 @@
         {
           "title": "Starbucks College Achievement Plan | ASU Starbucks",
           "url": "https://starbucks.asu.edu/",
-          "quote": "the remaining tuition and fees are covered by the Starbucks Tuition Benefit and applied directly to your ASU account before the start of the semester or session."
+          "quote": "the remaining tuition and fees are covered by the Starbucks Tuition Benefit and applied directly to your ASU account before the start of the semester or session.",
+          "httpStatus": 200,
+          "finalUrl": "https://starbucks.asu.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

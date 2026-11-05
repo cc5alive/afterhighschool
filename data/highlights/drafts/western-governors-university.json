@@ -10,9 +10,13 @@
         {
           "title": "Competency-Based Education | A New Way to Learn | WGU",
           "url": "https://www.wgu.edu/about/story/cbe.html",
-          "quote": "Rather than advancing only when the semester or term ends, students finish courses as soon as they've proven competence by passing the necessary assessments."
+          "quote": "Rather than advancing only when the semester or term ends, students finish courses as soon as they've proven competence by passing the necessary assessments.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wgu.edu/about/story/cbe.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

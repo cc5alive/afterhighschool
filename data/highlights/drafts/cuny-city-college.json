@@ -10,14 +10,21 @@
         {
           "title": "Undergraduate: Admission | The City College of New York",
           "url": "https://www.ccny.cuny.edu/engineering/admission",
-          "quote": "Successful freshman applicants to The Grove School of Engineering will have completed a college-preparatory high school program including the following high school courses: Minimum of three years of science (preference given to those who have taken physics and chemistry)"
+          "quote": "Successful freshman applicants to The Grove School of Engineering will have completed a college-preparatory high school program including the following high school courses: Minimum of three years of science (preference given to those who have taken physics and chemistry)",
+          "httpStatus": 403,
+          "finalUrl": "https://www.ccny.cuny.edu/engineering/admission",
+          "quoteFound": null
         },
         {
           "title": "Undergraduate: Admission | The City College of New York",
           "url": "https://www.ccny.cuny.edu/engineering/admission",
-          "quote": "All students must be prepared to begin taking mathematics at the calculus level upon admission"
+          "quote": "All students must be prepared to begin taking mathematics at the calculus level upon admission",
+          "httpStatus": 403,
+          "finalUrl": "https://www.ccny.cuny.edu/engineering/admission",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

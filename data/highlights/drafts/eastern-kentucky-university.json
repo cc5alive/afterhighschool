@@ -10,9 +10,13 @@
         {
           "title": "EKU BookSmart to Provide Textbook Discount and Streamlined Service - Eastern Kentucky University",
           "url": "https://www.eku.edu/news/eku-booksmart-to-provide-textbook-discount-and-streamlined-service/",
-          "quote": "An at-cost rate for students has been negotiated between EKU and Barnes & Noble. Participating students will pay a flat $26 per credit hour for all textbooks and course materials."
+          "quote": "An at-cost rate for students has been negotiated between EKU and Barnes & Noble. Participating students will pay a flat $26 per credit hour for all textbooks and course materials.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.eku.edu/news/eku-booksmart-to-provide-textbook-discount-and-streamlined-service/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

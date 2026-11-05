@@ -1,15 +1,16 @@
 # Quote check
 
-Checked 200 sources on 2026-11-05.
+Checked 218 sources on 2026-11-05.
 
-- Quote found on page: 0
-- Page loaded, quote not found: 116
-- Page failed to load: 84
+- Quote found on page: 10
+- Page loaded, quote not found: 120
+- Page failed to load: 88
 
 | School | Status | Quote found | URL |
 | --- | --- | --- | --- |
 | amherst-college | 404 | page failed | https://www.amherst.edu/academiclife/curriculum |
 | appalachian-state-university | 200 | no | https://www.appstate.edu/about/ |
+| arizona-state-university-digital-immersion | 200 | no | https://starbucks.asu.edu/ |
 | auburn-university | 404 | page failed | https://www.auburn.edu/main/about/index.html |
 | babson-college | 404 | page failed | https://www.babson.edu/academics/undergraduate/fme/ |
 | ball-state-university | 404 | page failed | https://www.bsu.edu/academics/immersive-learning |
@@ -26,6 +27,7 @@ Checked 200 sources on 2026-11-05.
 | california-polytechnic-state-university-san-luis-obispo | 404 | page failed | https://calpoly.edu/about/learn-by-doing |
 | california-state-polytechnic-university-pomona | 404 | page failed | https://www.cpp.edu/about/learn-by-doing.shtml |
 | california-state-university-chico | 200 | no | https://www.csuchico.edu/academics/ |
+| california-state-university-dominguez-hills | 200 | yes | https://news.csudh.edu/toro-tuition-pledge/ |
 | california-state-university-fresno | 404 | page failed | https://www.fresnostate.edu/ag/ |
 | california-state-university-fullerton | 200 | no | https://www.fullerton.edu/academics/ |
 | california-state-university-long-beach | 404 | page failed | https://www.csulb.edu/academics |
@@ -48,14 +50,18 @@ Checked 200 sources on 2026-11-05.
 | colorado-state-university-fort-collins | 0 | page failed | https://colostate.edu/research/ |
 | connecticut-college | 404 | page failed | https://www.conncoll.edu/academics/connections/ |
 | cuny-bernard-m-baruch-college | 0 | page failed | https://www.baruch.cuny.edu/zicklin/ |
+| cuny-city-college | 403 | page failed | https://www.ccny.cuny.edu/engineering/admission |
+| cuny-city-college | 403 | page failed | https://www.ccny.cuny.edu/engineering/admission |
 | cuny-hunter-college | 200 | no | https://www.hunter.cuny.edu/about |
 | cuny-new-york-city-college-of-technology | 404 | page failed | https://www.citytech.cuny.edu/about/ |
+| cuny-queens-college | 200 | no | https://www.qc.cuny.edu/academics/music/undergraduate-admissions/ |
 | davidson-college | 404 | page failed | https://davidson.edu/campus-life/code-of-values/honor-code |
 | denison-university | 404 | page failed | https://www.denison.edu/academics/rdp |
 | depaul-university | 404 | page failed | https://www.depaul.edu/about/our-values/Pages/default.aspx |
 | dickinson-state-university | 200 | no | https://www.dickinsonstate.edu/academics/ |
 | drexel-university | 200 | no | https://drexel.edu/academics/co-op/ |
 | east-carolina-university | 200 | no | https://www.ecu.edu/academics/ |
+| eastern-kentucky-university | 200 | yes | https://www.eku.edu/news/eku-booksmart-to-provide-textbook-discount-and-streamlined-service/ |
 | fairfield-university | 404 | page failed | https://www.fairfield.edu/about/mission/index.html |
 | fisk-university | 200 | no | https://www.fisk.edu/about/history/ |
 | florida-agricultural-and-mechanical-university | 200 | no | https://www.famu.edu/about-famu/index.php |
@@ -104,6 +110,8 @@ Checked 200 sources on 2026-11-05.
 | mount-holyoke-college | 404 | page failed | https://www.mtholyoke.edu/academics/five-colleges |
 | north-carolina-state-university-at-raleigh | 200 | no | https://www.ncsu.edu/research/ |
 | northern-arizona-university | 404 | page failed | https://nau.edu/online/personalized-learning/ |
+| oakland-university | 200 | no | https://www.oakland.edu/tuition-guarantee/ |
+| oakland-university | 200 | yes | https://www.oakland.edu/tuition-guarantee/ |
 | oberlin-college | 404 | page failed | https://www.oberlin.edu/double-degree |
 | ohio-university-main-campus | 404 | page failed | https://www.ohio.edu/about/history |
 | oklahoma-state-university-main-campus | 403 | page failed | https://www.okstate.edu/research/index.html |
@@ -130,10 +138,11 @@ Checked 200 sources on 2026-11-05.
 | swarthmore-college | 202 | no | https://www.swarthmore.edu/academics/honors-program |
 | syracuse-university | 200 | no | https://www.syracuse.edu/academics/ |
 | tarleton-state-university | 404 | page failed | https://www.tarleton.edu/academics/ |
-| temple-university | 200 | no | https://www.temple.edu/academics |
+| temple-university | 403 | page failed | https://www.temple.edu/academics |
 | texas-state-university | 200 | no | https://www.txst.edu/academics.html |
 | texas-tech-university | 200 | no | https://www.depts.ttu.edu/honors/ |
 | the-university-of-alabama | 404 | page failed | https://www.ua.edu/academics/honors |
+| the-university-of-arizona-global-campus | 200 | yes | https://www.uagc.edu/about/why-uagc/flexibility |
 | the-university-of-tennessee-knoxville | 200 | no | https://www.utk.edu/research/ |
 | the-university-of-texas-at-arlington | 200 | no | https://www.uta.edu/academics |
 | the-university-of-texas-at-dallas | 200 | no | https://www.utdallas.edu/mcdermott/ |
@@ -146,6 +155,7 @@ Checked 200 sources on 2026-11-05.
 | tufts-university | 0 | page failed | https://sis.tufts.edu/index.html?p=calendar |
 | united-states-air-force-academy | 200 | no | https://www.academyadmissions.com/the-experience/cadet-life/ |
 | united-states-naval-academy | 200 | no | https://www.usna.edu/Admissions/index.php |
+| university-at-albany | 200 | yes | https://www.albany.edu/cehc |
 | university-at-buffalo | 200 | no | https://www.buffalo.edu/academics.html |
 | university-of-arizona | 200 | no | https://www.arizona.edu/research |
 | university-of-arkansas | 200 | no | https://www.uark.edu/academics/index.php |
@@ -161,12 +171,15 @@ Checked 200 sources on 2026-11-05.
 | university-of-delaware | 200 | no | https://www.udel.edu/academics/global/study-abroad/ |
 | university-of-georgia | 200 | no | https://www.uga.edu/academics/first-year-odyssey.php |
 | university-of-hawaii-at-manoa | 200 | no | https://manoa.hawaii.edu/academics/ |
+| university-of-houston-downtown | 202 | no | https://catalog.uhd.edu/content.php?catoid=13&navoid=956 |
 | university-of-houston | 200 | no | https://www.uh.edu/honors/ |
 | university-of-illinois-chicago | 0 | page failed | https://www.uic.edu/about |
 | university-of-iowa | 200 | no | https://uiowa.edu/academics/ |
 | university-of-kansas | 404 | page failed | https://ku.edu/academics/research |
 | university-of-kentucky | 0 | page failed | https://www.uky.edu/honors/ |
+| university-of-louisiana-at-lafayette | 200 | yes | https://louisiana.edu/honors/academics-honors-program/honors-baccalaureate-thesis |
 | university-of-louisville | 200 | no | https://louisville.edu/research |
+| university-of-maryland-global-campus | 200 | yes | https://www.umgc.edu/business-partners/global-workforce-solutions/online-degree |
 | university-of-massachusetts-amherst | 404 | page failed | https://www.umass.edu/academics/five-colleges |
 | university-of-memphis | 200 | no | https://www.memphis.edu/academics/index.php |
 | university-of-miami | 404 | page failed | https://admissions.miami.edu/undergraduate/academics/honors/foote-fellows/index.html |
@@ -178,7 +191,7 @@ Checked 200 sources on 2026-11-05.
 | university-of-new-mexico-main-campus | 200 | no | https://www.unm.edu/academics/ |
 | university-of-north-carolina-at-charlotte | 200 | no | https://www.charlotte.edu/academics |
 | university-of-north-carolina-at-greensboro | 404 | page failed | https://www.uncg.edu/academics/ |
-| university-of-north-carolina-wilmington | 200 | no | https://www.uncw.edu/academics/ |
+| university-of-north-carolina-wilmington | 403 | page failed | https://www.uncw.edu/academics/ |
 | university-of-north-florida | 404 | page failed | https://www.unf.edu/campus/trails/ |
 | university-of-north-georgia | 200 | no | https://www.ung.edu/military-college/index.php |
 | university-of-north-texas | 200 | no | https://www.unt.edu/academics/ |
@@ -189,6 +202,8 @@ Checked 200 sources on 2026-11-05.
 | university-of-richmond | 404 | page failed | https://www.richmond.edu/about/richmond-guarantee.html |
 | university-of-south-carolina-columbia | 200 | no | https://sc.edu/study/colleges_schools/honors_college/index.php |
 | university-of-south-florida | 200 | no | https://www.usf.edu/research/ |
+| university-of-the-people | 200 | yes | https://www.uopeople.edu/tuition-free/processing-fees/ |
+| university-of-the-people | 200 | yes | https://www.uopeople.edu/tuition-free/processing-fees/ |
 | university-of-utah | 200 | no | https://www.utah.edu/about/ |
 | university-of-virginia-s-college-at-wise | 200 | no | https://www.uvawise.edu/about |
 | university-of-wisconsin-milwaukee | 200 | no | https://uwm.edu/freshwater/ |
@@ -204,6 +219,9 @@ Checked 200 sources on 2026-11-05.
 | wesleyan-university | 404 | page failed | https://www.wesleyan.edu/colleges/ |
 | west-chester-university-of-pennsylvania | 403 | page failed | https://www.wcupa.edu/about/ |
 | west-virginia-university | 404 | page failed | https://www.wvu.edu/research/ |
+| western-governors-university | 200 | yes | https://www.wgu.edu/about/story/cbe.html |
+| western-michigan-university | 200 | no | https://wmich.edu/empowering-futures/scholarships |
+| western-michigan-university | 200 | no | https://wmich.edu/empowering-futures/scholarships |
 | western-washington-university | 200 | no | https://wwu.edu/academics |
 | whitman-college | 200 | no | https://www.whitman.edu/academics/departments-and-programs/ |
 | william-and-mary | 200 | no | https://www.wm.edu/about/history/index.php |
