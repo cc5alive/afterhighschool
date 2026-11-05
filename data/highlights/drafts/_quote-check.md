@@ -1,16 +1,15 @@
 # Quote check
 
-Checked 218 sources on 2026-11-05.
+Checked 207 sources on 2026-11-05.
 
-- Quote found on page: 10
-- Page loaded, quote not found: 120
+- Quote found on page: 1
+- Page loaded, quote not found: 118
 - Page failed to load: 88
 
 | School | Status | Quote found | URL |
 | --- | --- | --- | --- |
 | amherst-college | 404 | page failed | https://www.amherst.edu/academiclife/curriculum |
 | appalachian-state-university | 200 | no | https://www.appstate.edu/about/ |
-| arizona-state-university-digital-immersion | 200 | no | https://starbucks.asu.edu/ |
 | auburn-university | 404 | page failed | https://www.auburn.edu/main/about/index.html |
 | babson-college | 404 | page failed | https://www.babson.edu/academics/undergraduate/fme/ |
 | ball-state-university | 404 | page failed | https://www.bsu.edu/academics/immersive-learning |
@@ -27,7 +26,6 @@ Checked 218 sources on 2026-11-05.
 | california-polytechnic-state-university-san-luis-obispo | 404 | page failed | https://calpoly.edu/about/learn-by-doing |
 | california-state-polytechnic-university-pomona | 404 | page failed | https://www.cpp.edu/about/learn-by-doing.shtml |
 | california-state-university-chico | 200 | no | https://www.csuchico.edu/academics/ |
-| california-state-university-dominguez-hills | 200 | yes | https://news.csudh.edu/toro-tuition-pledge/ |
 | california-state-university-fresno | 404 | page failed | https://www.fresnostate.edu/ag/ |
 | california-state-university-fullerton | 200 | no | https://www.fullerton.edu/academics/ |
 | california-state-university-long-beach | 404 | page failed | https://www.csulb.edu/academics |
@@ -61,7 +59,6 @@ Checked 218 sources on 2026-11-05.
 | dickinson-state-university | 200 | no | https://www.dickinsonstate.edu/academics/ |
 | drexel-university | 200 | no | https://drexel.edu/academics/co-op/ |
 | east-carolina-university | 200 | no | https://www.ecu.edu/academics/ |
-| eastern-kentucky-university | 200 | yes | https://www.eku.edu/news/eku-booksmart-to-provide-textbook-discount-and-streamlined-service/ |
 | fairfield-university | 404 | page failed | https://www.fairfield.edu/about/mission/index.html |
 | fisk-university | 200 | no | https://www.fisk.edu/about/history/ |
 | florida-agricultural-and-mechanical-university | 200 | no | https://www.famu.edu/about-famu/index.php |
@@ -110,8 +107,6 @@ Checked 218 sources on 2026-11-05.
 | mount-holyoke-college | 404 | page failed | https://www.mtholyoke.edu/academics/five-colleges |
 | north-carolina-state-university-at-raleigh | 200 | no | https://www.ncsu.edu/research/ |
 | northern-arizona-university | 404 | page failed | https://nau.edu/online/personalized-learning/ |
-| oakland-university | 200 | no | https://www.oakland.edu/tuition-guarantee/ |
-| oakland-university | 200 | yes | https://www.oakland.edu/tuition-guarantee/ |
 | oberlin-college | 404 | page failed | https://www.oberlin.edu/double-degree |
 | ohio-university-main-campus | 404 | page failed | https://www.ohio.edu/about/history |
 | oklahoma-state-university-main-campus | 403 | page failed | https://www.okstate.edu/research/index.html |
@@ -142,7 +137,6 @@ Checked 218 sources on 2026-11-05.
 | texas-state-university | 200 | no | https://www.txst.edu/academics.html |
 | texas-tech-university | 200 | no | https://www.depts.ttu.edu/honors/ |
 | the-university-of-alabama | 404 | page failed | https://www.ua.edu/academics/honors |
-| the-university-of-arizona-global-campus | 200 | yes | https://www.uagc.edu/about/why-uagc/flexibility |
 | the-university-of-tennessee-knoxville | 200 | no | https://www.utk.edu/research/ |
 | the-university-of-texas-at-arlington | 200 | no | https://www.uta.edu/academics |
 | the-university-of-texas-at-dallas | 200 | no | https://www.utdallas.edu/mcdermott/ |
@@ -155,7 +149,6 @@ Checked 218 sources on 2026-11-05.
 | tufts-university | 0 | page failed | https://sis.tufts.edu/index.html?p=calendar |
 | united-states-air-force-academy | 200 | no | https://www.academyadmissions.com/the-experience/cadet-life/ |
 | united-states-naval-academy | 200 | no | https://www.usna.edu/Admissions/index.php |
-| university-at-albany | 200 | yes | https://www.albany.edu/cehc |
 | university-at-buffalo | 200 | no | https://www.buffalo.edu/academics.html |
 | university-of-arizona | 200 | no | https://www.arizona.edu/research |
 | university-of-arkansas | 200 | no | https://www.uark.edu/academics/index.php |
@@ -179,7 +172,6 @@ Checked 218 sources on 2026-11-05.
 | university-of-kentucky | 0 | page failed | https://www.uky.edu/honors/ |
 | university-of-louisiana-at-lafayette | 200 | yes | https://louisiana.edu/honors/academics-honors-program/honors-baccalaureate-thesis |
 | university-of-louisville | 200 | no | https://louisville.edu/research |
-| university-of-maryland-global-campus | 200 | yes | https://www.umgc.edu/business-partners/global-workforce-solutions/online-degree |
 | university-of-massachusetts-amherst | 404 | page failed | https://www.umass.edu/academics/five-colleges |
 | university-of-memphis | 200 | no | https://www.memphis.edu/academics/index.php |
 | university-of-miami | 404 | page failed | https://admissions.miami.edu/undergraduate/academics/honors/foote-fellows/index.html |
@@ -202,8 +194,6 @@ Checked 218 sources on 2026-11-05.
 | university-of-richmond | 404 | page failed | https://www.richmond.edu/about/richmond-guarantee.html |
 | university-of-south-carolina-columbia | 200 | no | https://sc.edu/study/colleges_schools/honors_college/index.php |
 | university-of-south-florida | 200 | no | https://www.usf.edu/research/ |
-| university-of-the-people | 200 | yes | https://www.uopeople.edu/tuition-free/processing-fees/ |
-| university-of-the-people | 200 | yes | https://www.uopeople.edu/tuition-free/processing-fees/ |
 | university-of-utah | 200 | no | https://www.utah.edu/about/ |
 | university-of-virginia-s-college-at-wise | 200 | no | https://www.uvawise.edu/about |
 | university-of-wisconsin-milwaukee | 200 | no | https://uwm.edu/freshwater/ |
@@ -219,7 +209,6 @@ Checked 218 sources on 2026-11-05.
 | wesleyan-university | 404 | page failed | https://www.wesleyan.edu/colleges/ |
 | west-chester-university-of-pennsylvania | 403 | page failed | https://www.wcupa.edu/about/ |
 | west-virginia-university | 404 | page failed | https://www.wvu.edu/research/ |
-| western-governors-university | 200 | yes | https://www.wgu.edu/about/story/cbe.html |
 | western-michigan-university | 200 | no | https://wmich.edu/empowering-futures/scholarships |
 | western-michigan-university | 200 | no | https://wmich.edu/empowering-futures/scholarships |
 | western-washington-university | 200 | no | https://wwu.edu/academics |
