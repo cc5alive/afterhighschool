@@ -10,9 +10,13 @@
         {
           "title": "UK Invests: Home",
           "url": "https://ukinvests.uky.edu/",
-          "quote": "UK Invests is a first-of-its-kind initiative that helps students build financial confidence through education, investing and engagement."
+          "quote": "UK Invests is a first-of-its-kind initiative that helps students build financial confidence through education, investing and engagement.",
+          "httpStatus": 200,
+          "finalUrl": "https://ukinvests.uky.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

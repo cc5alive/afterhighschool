@@ -10,9 +10,13 @@
         {
           "title": "What is a co-op? Learn & hire co-op students - University of Cincinnati",
           "url": "https://www.uc.edu/news/articles/2023/04/what-is-co-op.html",
-          "quote": "The University of Cincinnati invented co-op in 1906, and remains a national leader in cooperative education."
+          "quote": "The University of Cincinnati invented co-op in 1906, and remains a national leader in cooperative education.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uc.edu/news/articles/2023/04/what-is-co-op.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

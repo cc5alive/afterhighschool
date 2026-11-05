@@ -10,9 +10,13 @@
         {
           "title": "Five College Consortium - UMass Amherst",
           "url": "https://www.umass.edu/gateway/five-college-consortium",
-          "quote": "The Five College Consortium fosters academic excellence through shared resources, joint departments, and inter-campus collaboration."
+          "quote": "The Five College Consortium fosters academic excellence through shared resources, joint departments, and inter-campus collaboration.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umass.edu/gateway/five-college-consortium",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

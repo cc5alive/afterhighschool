@@ -10,9 +10,13 @@
         {
           "title": "Blaze Forward Tuition Program - Financial Aid and Scholarships - UTA",
           "url": "https://www.uta.edu/administration/fao/grants/bfp",
-          "quote": "Using a combination of grants and other gift aid the Blaze Forward Program provides students meeting all eligibility requirements with funding that will cover 100% of their tuition and course fees for the fall and spring semesters."
+          "quote": "Using a combination of grants and other gift aid the Blaze Forward Program provides students meeting all eligibility requirements with funding that will cover 100% of their tuition and course fees for the fall and spring semesters.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uta.edu/administration/fao/grants/bfp",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

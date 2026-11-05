@@ -10,9 +10,13 @@
         {
           "title": "Tuition - BYU Enrollment Services",
           "url": "https://enrollment.byu.edu/tuition",
-          "quote": "In recognition of this support, Church members are assessed lower tuition fees than those who are not members. This practice is similar in principle to that of state universities charging higher tuition to nonresidents."
+          "quote": "In recognition of this support, Church members are assessed lower tuition fees than those who are not members. This practice is similar in principle to that of state universities charging higher tuition to nonresidents.",
+          "httpStatus": 403,
+          "finalUrl": "https://enrollment.byu.edu/tuition",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

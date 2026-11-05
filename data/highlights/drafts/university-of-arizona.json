@@ -10,9 +10,13 @@
         {
           "title": "Guaranteed Tuition Program FAQs - Bursar's Office",
           "url": "https://bursar.arizona.edu/tuition/gtp-faq",
-          "quote": "You will have eight consecutive regular (fall/spring) semesters at the Guaranteed Tuition Program rate to complete your bachelor's degree."
+          "quote": "You will have eight consecutive regular (fall/spring) semesters at the Guaranteed Tuition Program rate to complete your bachelor's degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://bursar.arizona.edu/tuition/gtp-faq",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

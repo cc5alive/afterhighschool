@@ -10,9 +10,13 @@
         {
           "title": "Red Raider Guarantee | Financial Aid Home | Texas Tech",
           "url": "https://www.depts.ttu.edu/financialaid/guarantee/",
-          "quote": "Must be an entering freshman. Must be eligible to complete the Free Application for Federal Student Aid (FAFSA) Must be a Texas resident. Must have a family adjusted gross income of $80,000 or less."
+          "quote": "Must be an entering freshman. Must be eligible to complete the Free Application for Federal Student Aid (FAFSA) Must be a Texas resident. Must have a family adjusted gross income of $80,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.depts.ttu.edu/financialaid/guarantee/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

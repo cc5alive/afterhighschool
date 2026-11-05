@@ -10,9 +10,13 @@
         {
           "title": "Transfer Scholarships - One Stop Student Services",
           "url": "https://onestop.utk.edu/scholarships-financial-aid/scholarships/transfer-students/",
-          "quote": "As a last-dollar award, this scholarship assists with tuition and mandatory fees when combined with other federal, state, and institutional aid."
+          "quote": "As a last-dollar award, this scholarship assists with tuition and mandatory fees when combined with other federal, state, and institutional aid.",
+          "httpStatus": 200,
+          "finalUrl": "https://onestop.utk.edu/scholarships-financial-aid/scholarships/transfer-students/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

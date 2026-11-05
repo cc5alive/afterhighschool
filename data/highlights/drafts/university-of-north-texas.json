@@ -10,9 +10,13 @@
         {
           "title": "North Texas Promise Program - Financial Aid",
           "url": "https://financialaid.unt.edu/north-texas-promise.html",
-          "quote": "Be a Texas resident graduating from a Texas high school. Have a total family income of $100,000 or less* Rank in Top 25% of high school class or be eligible for Federal Pell Grant."
+          "quote": "Be a Texas resident graduating from a Texas high school. Have a total family income of $100,000 or less* Rank in Top 25% of high school class or be eligible for Federal Pell Grant.",
+          "httpStatus": 200,
+          "finalUrl": "https://financialaid.unt.edu/north-texas-promise.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "On-Campus Tuition Rates and Cost per Credit | GCU",
           "url": "https://www.gcu.edu/tuition/on-campus",
-          "quote": "Campus Tuition Rates Frozen Since 2009 This tuition freeze stems from our belief in the importance of a quality, attainable education for all."
+          "quote": "Campus Tuition Rates Frozen Since 2009 This tuition freeze stems from our belief in the importance of a quality, attainable education for all.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gcu.edu/tuition/on-campus",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

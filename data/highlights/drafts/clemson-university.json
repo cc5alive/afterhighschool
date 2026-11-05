@@ -10,9 +10,13 @@
         {
           "title": "Cooperative Education Program: Students - Clemson's Career Center",
           "url": "https://career.clemson.edu/students/",
-          "quote": "Each time students are on rotation with their company, they pay a $300 program fee on iRoar. Students do not pay tuition while on rotation."
+          "quote": "Each time students are on rotation with their company, they pay a $300 program fee on iRoar. Students do not pay tuition while on rotation.",
+          "httpStatus": 200,
+          "finalUrl": "https://career.clemson.edu/students/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Tuition Guarantee - University of Colorado Boulder",
           "url": "https://www.colorado.edu/bursar/costs/cu-boulder-tuition-guarantee",
-          "quote": "Specifically, the Undergraduate Tuition Guarantee allows students and families to count on the same rate of tuition and fees for four consecutive years."
+          "quote": "Specifically, the Undergraduate Tuition Guarantee allows students and families to count on the same rate of tuition and fees for four consecutive years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.colorado.edu/bursar/costs/cu-boulder-tuition-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

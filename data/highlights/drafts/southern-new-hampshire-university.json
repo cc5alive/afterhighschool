@@ -10,9 +10,13 @@
         {
           "title": "Term Start Dates - Undergrad & Graduate | SNHU",
           "url": "https://www.snhu.edu/admission/online/term-start-dates",
-          "quote": "Bachelor's and associate programs consist of six 8-week terms per year. Applications are reviewed on a rolling basis."
+          "quote": "Bachelor's and associate programs consist of six 8-week terms per year. Applications are reviewed on a rolling basis.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.snhu.edu/admission/online/term-start-dates",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

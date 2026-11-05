@@ -10,9 +10,13 @@
         {
           "title": "UCI Office of the Registrar - Transcript Notations",
           "url": "https://www.reg.uci.edu/services/transcripts/notations.html",
-          "quote": "The University of California, Irvine opened in September 1965 operating on the quarter system. Each quarter has ten weeks of instruction."
+          "quote": "The University of California, Irvine opened in September 1965 operating on the quarter system. Each quarter has ten weeks of instruction.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.reg.uci.edu/services/transcripts/notations.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "How does a quarter term compare to a semester term? | Ask Oregon ...",
           "url": "https://ecampus.oregonstate.edu/ask-ecampus/how-does-a-quarter-term-compare-to-a-semester-term/",
-          "quote": "Terms at OSU are divided into fall, winter and spring terms and consist of 10 weeks each, with an additional week for final exams."
+          "quote": "Terms at OSU are divided into fall, winter and spring terms and consist of 10 weeks each, with an additional week for final exams.",
+          "httpStatus": 200,
+          "finalUrl": "https://ecampus.oregonstate.edu/ask-ecampus/how-does-a-quarter-term-compare-to-a-semester-term/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

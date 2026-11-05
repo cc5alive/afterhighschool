@@ -10,9 +10,13 @@
         {
           "title": "UTRGV Tuition Advantage",
           "url": "https://www.utrgv.edu/ucentral/tuition-advantage/",
-          "quote": "The UTRGV Tuition Advantage grant covers the cost of tuition and mandatory fees for students with a family income of $125,000 or less who have unmet financial need."
+          "quote": "The UTRGV Tuition Advantage grant covers the cost of tuition and mandatory fees for students with a family income of $125,000 or less who have unmet financial need.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utrgv.edu/ucentral/tuition-advantage/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

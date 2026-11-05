@@ -10,9 +10,13 @@
         {
           "title": "USC covering tuition, fees for talented students across the state",
           "url": "https://sc.edu/uofsc/posts/2023/10/usc-covering-tuition-fees-for-talented-students-across-state.php",
-          "quote": "The plan announced Friday will cover four years' worth of tuition and academic fees."
+          "quote": "The plan announced Friday will cover four years' worth of tuition and academic fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://sc.edu/uofsc/posts/2023/10/usc-covering-tuition-fees-for-talented-students-across-state.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
