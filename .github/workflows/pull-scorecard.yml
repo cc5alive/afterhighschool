@@ -1,0 +1,57 @@
+name: Pull College Scorecard data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 14 * * 1'   # Mondays 6:17am Pacific
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/pull-scorecard.mjs'
+      - '.github/workflows/pull-scorecard.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pull-scorecard
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Pull and normalize
+        env:
+          SCORECARD_API_KEY: ${{ secrets.SCORECARD_API_KEY }}
+        run: node scripts/pull-scorecard.mjs
+
+      - name: Add report to run summary
+        run: cat data/scorecard/report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Keep the raw API response
+        uses: actions/upload-artifact@v4
+        with:
+          name: scorecard-raw
+          path: tmp/scorecard-raw.json
+          retention-days: 30
+
+      - name: Commit data if it changed
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git add data/scorecard
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Scorecard data pull $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+          fi
