@@ -10,9 +10,13 @@
         {
           "title": "UO Clark Honors College",
           "url": "https://uoregon.edu/academics",
-          "quote": "The Robert D. Clark Honors College offers a small, discussion-based liberal arts curriculum within a major public research university."
+          "quote": "The Robert D. Clark Honors College offers a small, discussion-based liberal arts curriculum within a major public research university.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uoregon.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "VCUarts",
           "url": "https://www.vcu.edu/academics/",
-          "quote": "VCU combines a premier public art school with a comprehensive health sciences center, fostering innovation and creative expression."
+          "quote": "VCU combines a premier public art school with a comprehensive health sciences center, fostering innovation and creative expression.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.vcu.edu/programs/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

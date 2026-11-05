@@ -10,9 +10,13 @@
         {
           "title": "Claremont McKenna College Institutes",
           "url": "https://www.cmc.edu/institutes",
-          "quote": "CMC's eleven research institutes provide students with unique opportunities to conduct high-level research and engage with prominent leaders and scholars."
+          "quote": "CMC's eleven research institutes provide students with unique opportunities to conduct high-level research and engage with prominent leaders and scholars.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cmc.edu/institute-gateway",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "ECU Brody School of Medicine",
           "url": "https://www.ecu.edu/academics/",
-          "quote": "ECU provides robust health science and educational programs, with a special mission to serve eastern North Carolina's healthcare needs."
+          "quote": "ECU provides robust health science and educational programs, with a special mission to serve eastern North Carolina's healthcare needs.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ecu.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

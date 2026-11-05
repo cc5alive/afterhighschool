@@ -10,9 +10,13 @@
         {
           "title": "Colby College Jan Plan",
           "url": "https://www.colby.edu/academics/jan-plan/",
-          "quote": "Jan Plan gives students the opportunity to immerse themselves in a single course, intensive research project, or internship during the month of January."
+          "quote": "Jan Plan gives students the opportunity to immerse themselves in a single course, intensive research project, or internship during the month of January.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.colby.edu/academics/jan-plan/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

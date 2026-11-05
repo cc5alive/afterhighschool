@@ -10,9 +10,13 @@
         {
           "title": "UofL Research",
           "url": "https://louisville.edu/research",
-          "quote": "UofL is a premier urban research university recognized for innovations in health sciences, spinal cord research, and engineering."
+          "quote": "UofL is a premier urban research university recognized for innovations in health sciences, spinal cord research, and engineering.",
+          "httpStatus": 200,
+          "finalUrl": "https://research.louisville.edu/about/offices/evpri",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

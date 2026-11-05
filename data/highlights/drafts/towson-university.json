@@ -10,9 +10,13 @@
         {
           "title": "Towson University Academics",
           "url": "https://www.towson.edu/academics/",
-          "quote": "Towson University provides outstanding professional and liberal arts programs that drive Maryland's workforce and community."
+          "quote": "Towson University provides outstanding professional and liberal arts programs that drive Maryland's workforce and community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.towson.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

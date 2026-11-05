@@ -10,9 +10,13 @@
         {
           "title": "Missouri State Public Affairs Mission",
           "url": "https://www.missouristate.edu/about/public-affairs.htm",
-          "quote": "Missouri State University's official public affairs mission focuses on ethical leadership, cultural competence, and community engagement."
+          "quote": "Missouri State University's official public affairs mission focuses on ethical leadership, cultural competence, and community engagement.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.missouristate.edu/about/public-affairs.htm",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

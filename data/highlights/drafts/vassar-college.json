@@ -10,9 +10,13 @@
         {
           "title": "Vassar College Curriculum",
           "url": "https://www.vassar.edu/academics/curriculum",
-          "quote": "Vassar's curriculum balances breadth and depth, offering students the flexibility to design individualized paths of study and cross-disciplinary concentrations."
+          "quote": "Vassar's curriculum balances breadth and depth, offering students the flexibility to design individualized paths of study and cross-disciplinary concentrations.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.vassar.edu/academics/curriculum",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

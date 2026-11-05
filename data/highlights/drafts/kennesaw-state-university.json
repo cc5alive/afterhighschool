@@ -10,9 +10,13 @@
         {
           "title": "KSU Academics",
           "url": "https://www.kennesaw.edu/academics/",
-          "quote": "Kennesaw State provides innovative degree programs, first-year learning communities, and hands-on research for undergraduate students."
+          "quote": "Kennesaw State provides innovative degree programs, first-year learning communities, and hands-on research for undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kennesaw.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

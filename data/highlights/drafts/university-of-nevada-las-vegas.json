@@ -10,9 +10,13 @@
         {
           "title": "UNLV Hospitality",
           "url": "https://www.unlv.edu/academics/degrees",
-          "quote": "UNLV is internationally recognized for its William F. Harrah College of Hospitality, offering hands-on experience in the entertainment capital."
+          "quote": "UNLV is internationally recognized for its William F. Harrah College of Hospitality, offering hands-on experience in the entertainment capital.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unlv.edu/academics/degrees",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

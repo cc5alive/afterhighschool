@@ -10,9 +10,13 @@
         {
           "title": "UNR Research",
           "url": "https://www.unr.edu/research",
-          "quote": "UNR is a tier-one research university known globally for earthquake engineering, biotechnology, and desert agriculture."
+          "quote": "UNR is a tier-one research university known globally for earthquake engineering, biotechnology, and desert agriculture.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unr.edu/research-innovation",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Clark University Fifth Year Free Tuition",
           "url": "https://www.clarku.edu/offices/financial-aid/fifth-year-free/",
-          "quote": "Clark's fifth-year master's program allows qualified undergraduate students to complete a master's degree tuition-free in one additional year."
+          "quote": "Clark's fifth-year master's program allows qualified undergraduate students to complete a master's degree tuition-free in one additional year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.clarku.edu/financial-aid/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

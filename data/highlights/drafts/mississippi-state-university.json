@@ -10,9 +10,13 @@
         {
           "title": "MSU Research",
           "url": "https://www.msstate.edu/research",
-          "quote": "Mississippi State is a premier research institution leading innovations in aerospace, autonomous systems, and agriculture."
+          "quote": "Mississippi State is a premier research institution leading innovations in aerospace, autonomous systems, and agriculture.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.msstate.edu/research",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

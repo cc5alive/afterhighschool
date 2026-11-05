@@ -10,9 +10,13 @@
         {
           "title": "Auburn University About",
           "url": "https://www.auburn.edu/main/about/index.html",
-          "quote": "Auburn University is a premier land-grant institution known for academic excellence, hands-on research, and deep campus traditions."
+          "quote": "Auburn University is a premier land-grant institution known for academic excellence, hands-on research, and deep campus traditions.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.auburn.edu/main/about/index.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

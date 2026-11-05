@@ -10,9 +10,13 @@
         {
           "title": "William & Mary History and Traditions",
           "url": "https://www.wm.edu/about/history/index.php",
-          "quote": "Founded in 1693, William & Mary is the second-oldest university in the nation and home to the country's first student-administered honor code."
+          "quote": "Founded in 1693, William & Mary is the second-oldest university in the nation and home to the country's first student-administered honor code.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wm.edu/about/history/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

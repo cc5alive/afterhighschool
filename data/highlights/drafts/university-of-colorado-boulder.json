@@ -10,9 +10,13 @@
         {
           "title": "CU Boulder Research",
           "url": "https://www.colorado.edu/research",
-          "quote": "CU Boulder is a powerhouse in aerospace research, leading more NASA-funded space missions than any other public university in the U.S."
+          "quote": "CU Boulder is a powerhouse in aerospace research, leading more NASA-funded space missions than any other public university in the U.S.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.colorado.edu/research",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

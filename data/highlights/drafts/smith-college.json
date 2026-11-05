@@ -10,9 +10,13 @@
         {
           "title": "Smith College Five Colleges",
           "url": "https://www.smith.edu/about-smith/five-college-consortium",
-          "quote": "Smith students have open access to cross-register across the Five College Consortium, offering thousands of additional courses and collaborative campus resources."
+          "quote": "Smith students have open access to cross-register across the Five College Consortium, offering thousands of additional courses and collaborative campus resources.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.smith.edu/about-smith/five-college-consortium",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

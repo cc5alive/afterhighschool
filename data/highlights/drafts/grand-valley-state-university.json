@@ -10,9 +10,13 @@
         {
           "title": "GVSU Academics",
           "url": "https://www.gvsu.edu/academics/",
-          "quote": "Grand Valley State University provides high-quality student-centered degree programs across diverse professional and liberal arts disciplines."
+          "quote": "Grand Valley State University provides high-quality student-centered degree programs across diverse professional and liberal arts disciplines.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gvsu.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

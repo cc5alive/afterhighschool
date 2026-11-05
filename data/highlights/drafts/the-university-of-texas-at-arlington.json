@@ -10,9 +10,13 @@
         {
           "title": "UTA Academics",
           "url": "https://www.uta.edu/academics",
-          "quote": "UTA is a comprehensive research institution offering innovative programs in nursing, engineering, and the liberal arts."
+          "quote": "UTA is a comprehensive research institution offering innovative programs in nursing, engineering, and the liberal arts.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uta.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

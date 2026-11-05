@@ -10,9 +10,13 @@
         {
           "title": "City Tech About",
           "url": "https://www.citytech.cuny.edu/about/",
-          "quote": "City Tech is New York City's premier public college of technology, delivering career-ready degrees in engineering tech and professional fields."
+          "quote": "City Tech is New York City's premier public college of technology, delivering career-ready degrees in engineering tech and professional fields.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.citytech.cuny.edu/about/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

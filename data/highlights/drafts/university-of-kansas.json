@@ -10,9 +10,13 @@
         {
           "title": "KU Undergraduate Research",
           "url": "https://ku.edu/academics/research",
-          "quote": "KU is a flagship research university offering robust undergraduate research opportunities and distinctive academic honors programs."
+          "quote": "KU is a flagship research university offering robust undergraduate research opportunities and distinctive academic honors programs.",
+          "httpStatus": 404,
+          "finalUrl": "https://ku.edu/academics/research",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

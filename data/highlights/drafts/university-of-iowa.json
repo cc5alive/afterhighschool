@@ -10,9 +10,13 @@
         {
           "title": "Iowa Writers' Workshop",
           "url": "https://uiowa.edu/academics/",
-          "quote": "The University of Iowa is globally celebrated for its creative writing programs, including the prestigious Iowa Writers' Workshop."
+          "quote": "The University of Iowa is globally celebrated for its creative writing programs, including the prestigious Iowa Writers' Workshop.",
+          "httpStatus": 200,
+          "finalUrl": "https://uiowa.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

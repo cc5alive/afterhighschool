@@ -10,9 +10,13 @@
         {
           "title": "CSUSM Academics",
           "url": "https://www.csusm.edu/academics/",
-          "quote": "CSUSM provides student-centered undergraduate programs focused on innovation, community partnership, and practical career preparation."
+          "quote": "CSUSM provides student-centered undergraduate programs focused on innovation, community partnership, and practical career preparation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csusm.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

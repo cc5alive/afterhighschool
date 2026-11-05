@@ -10,9 +10,13 @@
         {
           "title": "CSUSB Cybersecurity",
           "url": "https://www.csusb.edu/academics",
-          "quote": "CSUSB provides comprehensive academic programs with national distinction in cybersecurity and public administration."
+          "quote": "CSUSB provides comprehensive academic programs with national distinction in cybersecurity and public administration.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csusb.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

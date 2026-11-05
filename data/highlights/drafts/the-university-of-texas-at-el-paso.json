@@ -10,9 +10,13 @@
         {
           "title": "UTEP Access and Excellence",
           "url": "https://www.utep.edu/about/index.html",
-          "quote": "UTEP is recognized nationally for successfully combining broad access to higher education with top-tier research excellence."
+          "quote": "UTEP is recognized nationally for successfully combining broad access to higher education with top-tier research excellence.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utep.edu/about/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

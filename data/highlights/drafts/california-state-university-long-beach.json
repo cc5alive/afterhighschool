@@ -10,9 +10,13 @@
         {
           "title": "CSULB Academics",
           "url": "https://www.csulb.edu/academics",
-          "quote": "CSULB provides high-quality academic programs with a strong emphasis on student success, diversity, and practical learning."
+          "quote": "CSULB provides high-quality academic programs with a strong emphasis on student success, diversity, and practical learning.",
+          "httpStatus": 404,
+          "finalUrl": "https://web.csulb.edu/academics",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

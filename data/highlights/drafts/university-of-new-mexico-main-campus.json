@@ -10,9 +10,13 @@
         {
           "title": "UNM Honors College",
           "url": "https://www.unm.edu/academics/",
-          "quote": "The University of New Mexico offers distinctive academic programs, including a renowned Honors College and research initiatives."
+          "quote": "The University of New Mexico offers distinctive academic programs, including a renowned Honors College and research initiatives.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unm.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

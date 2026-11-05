@@ -10,9 +10,13 @@
         {
           "title": "Oregon State Research",
           "url": "https://oregonstate.edu/research",
-          "quote": "Oregon State is one of only two universities in the U.S. to hold all four land-, sea-, space- and sun-grant designations, leading in environmental research."
+          "quote": "Oregon State is one of only two universities in the U.S. to hold all four land-, sea-, space- and sun-grant designations, leading in environmental research.",
+          "httpStatus": 200,
+          "finalUrl": "https://oregonstate.edu/research",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

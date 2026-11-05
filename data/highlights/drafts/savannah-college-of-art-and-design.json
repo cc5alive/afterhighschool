@@ -10,9 +10,13 @@
         {
           "title": "SCAD About",
           "url": "https://www.scad.edu/about",
-          "quote": "SCAD prepares talented students for professional careers through specialized degree programs in art, design, and creative industries."
+          "quote": "SCAD prepares talented students for professional careers through specialized degree programs in art, design, and creative industries.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.scad.edu/about",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

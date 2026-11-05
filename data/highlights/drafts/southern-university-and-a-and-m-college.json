@@ -10,9 +10,13 @@
         {
           "title": "Southern University About",
           "url": "https://www.subr.edu/page/about-su",
-          "quote": "Southern University and A&M College is a comprehensive institution offering robust academic degree programs rooted in a proud HBCU heritage."
+          "quote": "Southern University and A&M College is a comprehensive institution offering robust academic degree programs rooted in a proud HBCU heritage.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.subr.edu/404.cfm",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "SHSU Criminal Justice",
           "url": "https://www.shsu.edu/academics/criminal-justice/",
-          "quote": "Sam Houston State University houses a premier College of Criminal Justice, offering specialized forensic and criminal justice degrees."
+          "quote": "Sam Houston State University houses a premier College of Criminal Justice, offering specialized forensic and criminal justice degrees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.shsu.edu/academics/colleges/criminal-justice/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

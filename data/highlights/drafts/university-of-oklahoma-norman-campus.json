@@ -10,9 +10,13 @@
         {
           "title": "OU Meteorology",
           "url": "https://www.ou.edu/content/ou/news_events/research.html",
-          "quote": "The University of Oklahoma is a global leader in meteorology and severe weather research, housing the National Weather Center on campus."
+          "quote": "The University of Oklahoma is a global leader in meteorology and severe weather research, housing the National Weather Center on campus.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.ou.edu/ou/news_events/research.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

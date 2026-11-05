@@ -10,9 +10,13 @@
         {
           "title": "Bucknell University Academics",
           "url": "https://www.bucknell.edu/academics",
-          "quote": "Bucknell uniquely combines a top-tier liberal arts college with professional programs in engineering and management."
+          "quote": "Bucknell uniquely combines a top-tier liberal arts college with professional programs in engineering and management.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bucknell.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

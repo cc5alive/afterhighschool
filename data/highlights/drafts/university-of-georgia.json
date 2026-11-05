@@ -10,9 +10,13 @@
         {
           "title": "UGA First-Year Odyssey",
           "url": "https://www.uga.edu/academics/first-year-odyssey.php",
-          "quote": "The First-Year Odyssey Seminar program introduces incoming students to faculty research through small, engaging classes covering specialized topics."
+          "quote": "The First-Year Odyssey Seminar program introduces incoming students to faculty research through small, engaging classes covering specialized topics.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uga.edu/academics/first-year-odyssey.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Mizzou Journalism",
           "url": "https://missouri.edu/academics/",
-          "quote": "Mizzou is home to the world's first journalism school, pioneering the 'Missouri Method' of hands-on student media experience."
+          "quote": "Mizzou is home to the world's first journalism school, pioneering the 'Missouri Method' of hands-on student media experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://missouri.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

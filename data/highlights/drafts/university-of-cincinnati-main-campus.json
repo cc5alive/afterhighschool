@@ -10,9 +10,13 @@
         {
           "title": "UC Co-op Origin",
           "url": "https://www.uc.edu/about/co-op.html",
-          "quote": "The University of Cincinnati invented cooperative education in 1906, giving students the chance to earn money and real-world experience before graduation."
+          "quote": "The University of Cincinnati invented cooperative education in 1906, giving students the chance to earn money and real-world experience before graduation.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.uc.edu/about/co-op.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

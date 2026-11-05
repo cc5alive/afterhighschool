@@ -10,9 +10,13 @@
         {
           "title": "FAMU About",
           "url": "https://www.famu.edu/about-famu/index.php",
-          "quote": "Florida A&M University is an 1890 land-grant institution dedicated to excellence in teaching, research, and community service."
+          "quote": "Florida A&M University is an 1890 land-grant institution dedicated to excellence in teaching, research, and community service.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.famu.edu/about-famu/index.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

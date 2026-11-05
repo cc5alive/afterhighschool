@@ -10,9 +10,13 @@
         {
           "title": "Montclair State About",
           "url": "https://www.montclair.edu/about/",
-          "quote": "Montclair State University provides a comprehensive public university education with a strong commitment to diversity and community impact."
+          "quote": "Montclair State University provides a comprehensive public university education with a strong commitment to diversity and community impact.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.montclair.edu/about",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

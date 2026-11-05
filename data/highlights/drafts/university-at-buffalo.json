@@ -10,9 +10,13 @@
         {
           "title": "UB Academics",
           "url": "https://www.buffalo.edu/academics.html",
-          "quote": "University at Buffalo is a premier flagship public research university offering extensive professional and undergraduate degree paths."
+          "quote": "University at Buffalo is a premier flagship public research university offering extensive professional and undergraduate degree paths.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.buffalo.edu/home/academics.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

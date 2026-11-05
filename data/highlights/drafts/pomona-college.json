@@ -10,9 +10,13 @@
         {
           "title": "Pomona College Academics",
           "url": "https://www.pomona.edu/academics",
-          "quote": "As the founding member of The Claremont Colleges, Pomona offers students the resources of a major university combined with the close-knit community of a premier liberal arts college."
+          "quote": "As the founding member of The Claremont Colleges, Pomona offers students the resources of a major university combined with the close-knit community of a premier liberal arts college.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pomona.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

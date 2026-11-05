@@ -10,9 +10,13 @@
         {
           "title": "Wayne State Academics",
           "url": "https://wayne.edu/academics",
-          "quote": "Wayne State University is a premier urban research institution providing exceptional medical and undergraduate programs in Detroit."
+          "quote": "Wayne State University is a premier urban research institution providing exceptional medical and undergraduate programs in Detroit.",
+          "httpStatus": 403,
+          "finalUrl": "https://wayne.edu/academics",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

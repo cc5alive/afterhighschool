@@ -10,9 +10,13 @@
         {
           "title": "Regent University About",
           "url": "https://www.regent.edu/about/",
-          "quote": "Regent University is a leading Christian institution dedicated to equipping Christian leaders to change the world through comprehensive academic programs."
+          "quote": "Regent University is a leading Christian institution dedicated to equipping Christian leaders to change the world through comprehensive academic programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.regent.edu/about-regent/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "NC State Research",
           "url": "https://www.ncsu.edu/research/",
-          "quote": "NC State is a leading science and engineering university driving innovation through the Research Triangle partnership."
+          "quote": "NC State is a leading science and engineering university driving innovation through the Research Triangle partnership.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ncsu.edu/research/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

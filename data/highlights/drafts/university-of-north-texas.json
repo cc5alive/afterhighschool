@@ -10,9 +10,13 @@
         {
           "title": "UNT Jazz Studies",
           "url": "https://www.unt.edu/academics/",
-          "quote": "UNT offers internationally acclaimed music programs, including the nation's first jazz degree program, alongside robust research initiatives."
+          "quote": "UNT offers internationally acclaimed music programs, including the nation's first jazz degree program, alongside robust research initiatives.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unt.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

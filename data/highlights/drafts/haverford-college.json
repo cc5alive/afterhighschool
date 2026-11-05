@@ -10,9 +10,13 @@
         {
           "title": "Haverford College Honor Code",
           "url": "https://www.haverford.edu/honor-code",
-          "quote": "The Honor Code governs all aspects of campus life, fostering a community of trust that includes self-scheduled, unproctored examinations."
+          "quote": "The Honor Code governs all aspects of campus life, fostering a community of trust that includes self-scheduled, unproctored examinations.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.haverford.edu/honor-code",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Boston University UROP",
           "url": "https://www.bu.edu/urop/",
-          "quote": "The Undergraduate Research Opportunities Program (UROP) provides funding and support for students in all fields of study to engage in faculty-mentored research."
+          "quote": "The Undergraduate Research Opportunities Program (UROP) provides funding and support for students in all fields of study to engage in faculty-mentored research.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bu.edu/urop/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "FSU Academic Programs",
           "url": "https://www.fsu.edu/academics/index.html",
-          "quote": "FSU offers dedicated living-learning communities and specialized research support for undergraduates across diverse disciplines."
+          "quote": "FSU offers dedicated living-learning communities and specialized research support for undergraduates across diverse disciplines.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.fsu.edu/academics/index.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

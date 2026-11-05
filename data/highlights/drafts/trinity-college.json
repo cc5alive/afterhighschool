@@ -10,9 +10,13 @@
         {
           "title": "Trinity College Urban Curriculum",
           "url": "https://www.trincoll.edu/academics/",
-          "quote": "Trinity leverages its capital city location to connect classroom learning with real-world urban engagement and hands-on internships."
+          "quote": "Trinity leverages its capital city location to connect classroom learning with real-world urban engagement and hands-on internships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.trincoll.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

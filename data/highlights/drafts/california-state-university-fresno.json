@@ -10,9 +10,13 @@
         {
           "title": "Fresno State Farm",
           "url": "https://www.fresnostate.edu/ag/",
-          "quote": "Fresno State's 1,000-acre campus farm provides students with practical, hands-on agricultural and commercial production experience."
+          "quote": "Fresno State's 1,000-acre campus farm provides students with practical, hands-on agricultural and commercial production experience.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.fresnostate.edu/ag/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

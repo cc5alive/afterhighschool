@@ -10,9 +10,13 @@
         {
           "title": "Lehigh University Academics",
           "url": "https://www.lehigh.edu/academics",
-          "quote": "Lehigh offers distinctive cross-college programs, seamlessly blending engineering, business, and arts and sciences education."
+          "quote": "Lehigh offers distinctive cross-college programs, seamlessly blending engineering, business, and arts and sciences education.",
+          "httpStatus": 200,
+          "finalUrl": "https://www2.lehigh.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

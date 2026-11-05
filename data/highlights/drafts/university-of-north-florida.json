@@ -10,9 +10,13 @@
         {
           "title": "UNF Nature Trails",
           "url": "https://www.unf.edu/campus/trails/",
-          "quote": "UNF's scenic campus is situated within a protected nature preserve featuring miles of trails utilized for outdoor recreation and environmental study."
+          "quote": "UNF's scenic campus is situated within a protected nature preserve featuring miles of trails utilized for outdoor recreation and environmental study.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.unf.edu/campus/trails/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

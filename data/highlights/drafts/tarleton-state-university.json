@@ -10,9 +10,13 @@
         {
           "title": "Tarleton State Academics",
           "url": "https://www.tarleton.edu/academics/",
-          "quote": "Tarleton State University provides student-centered undergraduate programs rooted in hands-on learning and agricultural heritage."
+          "quote": "Tarleton State University provides student-centered undergraduate programs rooted in hands-on learning and agricultural heritage.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.tarleton.edu/academics/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

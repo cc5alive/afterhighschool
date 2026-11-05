@@ -10,9 +10,13 @@
         {
           "title": "Syracuse Newhouse School",
           "url": "https://www.syracuse.edu/academics/",
-          "quote": "Syracuse University is renowned for world-class programs in communications, architecture, and public administration."
+          "quote": "Syracuse University is renowned for world-class programs in communications, architecture, and public administration.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.syracuse.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

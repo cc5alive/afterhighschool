@@ -10,9 +10,13 @@
         {
           "title": "WSU Research",
           "url": "https://wsu.edu/research/",
-          "quote": "Washington State University is a leading land-grant research institution driving discoveries in agriculture, clean energy, and health sciences."
+          "quote": "Washington State University is a leading land-grant research institution driving discoveries in agriculture, clean energy, and health sciences.",
+          "httpStatus": 200,
+          "finalUrl": "https://wsu.edu/research/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Texas State Academics",
           "url": "https://www.txst.edu/academics.html",
-          "quote": "Texas State offers diverse academic programs enriched by hands-on research and unique natural resources on campus."
+          "quote": "Texas State offers diverse academic programs enriched by hands-on research and unique natural resources on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.txst.edu/academics.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

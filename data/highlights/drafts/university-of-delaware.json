@@ -10,9 +10,13 @@
         {
           "title": "UD Study Abroad",
           "url": "https://www.udel.edu/academics/global/study-abroad/",
-          "quote": "The University of Delaware was the first American university to offer a study abroad program, a tradition that continues to send thousands of students abroad."
+          "quote": "The University of Delaware was the first American university to offer a study abroad program, a tradition that continues to send thousands of students abroad.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.udel.edu/academics/global/study-abroad/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

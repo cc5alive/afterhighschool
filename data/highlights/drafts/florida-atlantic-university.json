@@ -10,9 +10,13 @@
         {
           "title": "FAU Marine Science",
           "url": "https://www.fau.edu/research/",
-          "quote": "FAU conducts cutting-edge research in marine science, ocean engineering, and biomedical science along South Florida's coastal corridor."
+          "quote": "FAU conducts cutting-edge research in marine science, ocean engineering, and biomedical science along South Florida's coastal corridor.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fau.edu/research/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "College of the Ozarks Cost of Education",
           "url": "https://www.cofo.edu/Admissions/Cost-of-Education",
-          "quote": "Students work 15 hours a week at an assigned campus workstation and two weeks during breaks to cover the cost of education, meaning no tuition is charged."
+          "quote": "Students work 15 hours a week at an assigned campus workstation and two weeks during breaks to cover the cost of education, meaning no tuition is charged.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cofo.edu/Admissions/Cost-of-Education",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

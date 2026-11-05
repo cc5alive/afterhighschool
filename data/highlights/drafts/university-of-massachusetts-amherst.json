@@ -10,9 +10,13 @@
         {
           "title": "UMass Amherst Five Colleges",
           "url": "https://www.umass.edu/academics/five-colleges",
-          "quote": "As part of the Five College Consortium, UMass Amherst students enjoy cross-registration access across five distinct regional campuses."
+          "quote": "As part of the Five College Consortium, UMass Amherst students enjoy cross-registration access across five distinct regional campuses.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.umass.edu/academics/five-colleges",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "URI Oceanography",
           "url": "https://web.uri.edu/academics/",
-          "quote": "URI is a leading sea-grant research institution renowned for marine science, oceanography, and coastal engineering."
+          "quote": "URI is a leading sea-grant research institution renowned for marine science, oceanography, and coastal engineering.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uri.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

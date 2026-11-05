@@ -10,9 +10,13 @@
         {
           "title": "F&M Advantage",
           "url": "https://www.fandm.edu/admission/the-fm-advantage",
-          "quote": "F&M guarantees students a personalized professional development plan, faculty mentoring, and funding support for experiential learning."
+          "quote": "F&M guarantees students a personalized professional development plan, faculty mentoring, and funding support for experiential learning.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fandm.edu/admission/the-fm-advantage",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

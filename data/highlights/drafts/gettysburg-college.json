@@ -10,9 +10,13 @@
         {
           "title": "Gettysburg Eisenhower Institute",
           "url": "https://www.gettysburg.edu/eisenhower-institute/",
-          "quote": "The Eisenhower Institute prepares students for leadership in public policy through distinctive programs, expert mentoring, and real-world engagement."
+          "quote": "The Eisenhower Institute prepares students for leadership in public policy through distinctive programs, expert mentoring, and real-world engagement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gettysburg.edu/academics/interdisciplinary/eisenhower-institute",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

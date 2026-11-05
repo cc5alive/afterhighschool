@@ -10,9 +10,13 @@
         {
           "title": "UH Honors College",
           "url": "https://www.uh.edu/honors/",
-          "quote": "The Honors College at the University of Houston offers an intimate liberal arts college experience within a major research university."
+          "quote": "The Honors College at the University of Houston offers an intimate liberal arts college experience within a major research university.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uh.edu/honors/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Williams College Tutorials",
           "url": "https://www.williams.edu/academics/tutorials/",
-          "quote": "In a tutorial, two students meet weekly with a professor to discuss their own papers and critiques, engaging in a rigorous exchange of ideas."
+          "quote": "In a tutorial, two students meet weekly with a professor to discuss their own papers and critiques, engaging in a rigorous exchange of ideas.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.williams.edu/academics/tutorials/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

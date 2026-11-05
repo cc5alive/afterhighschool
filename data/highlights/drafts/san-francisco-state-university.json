@@ -10,9 +10,13 @@
         {
           "title": "SF State Cinema",
           "url": "https://www.sfsu.edu/academics",
-          "quote": "SF State offers renowned creative arts, cinema, and ethnic studies programs linked directly to the San Francisco community."
+          "quote": "SF State offers renowned creative arts, cinema, and ethnic studies programs linked directly to the San Francisco community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sfsu.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

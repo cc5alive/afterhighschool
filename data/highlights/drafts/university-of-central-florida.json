@@ -10,9 +10,13 @@
         {
           "title": "UCF DirectConnect",
           "url": "https://www.ucf.edu/admissions/transfer/direct-connect-to-ucf/",
-          "quote": "DirectConnect to UCF guarantees admission to UCF for graduates of partner state colleges, streamlining the transfer process."
+          "quote": "DirectConnect to UCF guarantees admission to UCF for graduates of partner state colleges, streamlining the transfer process.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.ucf.edu/admissions/transfer/direct-connect-to-ucf/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

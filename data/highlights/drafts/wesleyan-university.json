@@ -10,9 +10,13 @@
         {
           "title": "Wesleyan University Colleges",
           "url": "https://www.wesleyan.edu/colleges/",
-          "quote": "Wesleyan's unique residential colleges offer structured, interdisciplinary programs of study for select cohorts of undergraduates."
+          "quote": "Wesleyan's unique residential colleges offer structured, interdisciplinary programs of study for select cohorts of undergraduates.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.wesleyan.edu/colleges/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

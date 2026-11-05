@@ -10,9 +10,13 @@
         {
           "title": "UIC About",
           "url": "https://www.uic.edu/about",
-          "quote": "UIC is Chicago's premier public research university, offering world-class medical education and diverse undergraduate degree pathways."
+          "quote": "UIC is Chicago's premier public research university, offering world-class medical education and diverse undergraduate degree pathways.",
+          "httpStatus": 0,
+          "finalUrl": "https://www.uic.edu/about",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

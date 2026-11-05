@@ -10,9 +10,13 @@
         {
           "title": "Fisk University History",
           "url": "https://www.fisk.edu/about/history/",
-          "quote": "Founded in 1866, Fisk University is Nashville's oldest university and boasts a world-class art collection and rich HBCU legacy."
+          "quote": "Founded in 1866, Fisk University is Nashville's oldest university and boasts a world-class art collection and rich HBCU legacy.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fisk.edu/about/history/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

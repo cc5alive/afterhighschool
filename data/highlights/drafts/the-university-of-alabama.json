@@ -10,9 +10,13 @@
         {
           "title": "UA Honors College",
           "url": "https://www.ua.edu/academics/honors",
-          "quote": "The University of Alabama Honors College offers challenging interdisciplinary coursework, dedicated advising, and undergraduate research opportunities."
+          "quote": "The University of Alabama Honors College offers challenging interdisciplinary coursework, dedicated advising, and undergraduate research opportunities.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.ua.edu/academics/honors",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

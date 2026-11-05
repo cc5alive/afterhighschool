@@ -10,9 +10,13 @@
         {
           "title": "Miami University Teaching Excellence",
           "url": "https://miamioh.edu/academics/",
-          "quote": "Miami University is nationally recognized for providing an undergraduate experience that rivals top liberal arts colleges within a public university."
+          "quote": "Miami University is nationally recognized for providing an undergraduate experience that rivals top liberal arts colleges within a public university.",
+          "httpStatus": 200,
+          "finalUrl": "https://miamioh.edu/academic-programs/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

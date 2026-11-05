@@ -10,9 +10,13 @@
         {
           "title": "Wake Forest Test-Optional Policy",
           "url": "https://admissions.wfu.edu/apply/testing-policy/",
-          "quote": "Wake Forest was the first major national university to adopt a test-optional admissions policy, giving applicants the choice of whether to submit scores."
+          "quote": "Wake Forest was the first major national university to adopt a test-optional admissions policy, giving applicants the choice of whether to submit scores.",
+          "httpStatus": 404,
+          "finalUrl": "https://admissions.wfu.edu/apply/testing-policy/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

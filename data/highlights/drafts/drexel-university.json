@@ -10,9 +10,13 @@
         {
           "title": "Drexel Co-op",
           "url": "https://drexel.edu/academics/co-op/",
-          "quote": "Drexel's signature cooperative education program allows students to gain up to 18 months of resume-building professional work experience before graduation."
+          "quote": "Drexel's signature cooperative education program allows students to gain up to 18 months of resume-building professional work experience before graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://drexel.edu/academics/co-op/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

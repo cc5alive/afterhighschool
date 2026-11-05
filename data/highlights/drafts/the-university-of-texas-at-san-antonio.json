@@ -10,9 +10,13 @@
         {
           "title": "UTSA Cybersecurity",
           "url": "https://www.utsa.edu/strategic-plan/cybersecurity.html",
-          "quote": "UTSA is recognized as a national leader in cybersecurity education and research, offering top-tier training and industry partnerships."
+          "quote": "UTSA is recognized as a national leader in cybersecurity education and research, offering top-tier training and industry partnerships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utsa.edu/strategic-plan/cybersecurity.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Bryn Mawr Consortia",
           "url": "https://www.brynmawr.edu/academics/tri-college-consortium",
-          "quote": "Through the Tri-College and Quaker Consortia, students can seamlessly cross-register at Haverford, Swarthmore, and the University of Pennsylvania."
+          "quote": "Through the Tri-College and Quaker Consortia, students can seamlessly cross-register at Haverford, Swarthmore, and the University of Pennsylvania.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brynmawr.edu/academics/tri-college-consortium",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

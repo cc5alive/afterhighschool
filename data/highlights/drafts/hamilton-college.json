@@ -10,9 +10,13 @@
         {
           "title": "Hamilton College Open Curriculum",
           "url": "https://www.hamilton.edu/academics/our-curriculum/open-curriculum",
-          "quote": "With no general education requirements, Hamilton's open curriculum allows students to take charge of their education and select courses that match their passions."
+          "quote": "With no general education requirements, Hamilton's open curriculum allows students to take charge of their education and select courses that match their passions.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.hamilton.edu/404-error?url=%2Facademics%2Four%2Dcurriculum%2Fopen%2Dcurriculum",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "UTRGV Tuition Advantage",
           "url": "https://www.utrgv.gov/tuitionadvantage/",
-          "quote": "The UTRGV Tuition Advantage covers tuition and mandatory fees for undergraduate students whose families have an adjusted gross income of $125,000 or less."
+          "quote": "The UTRGV Tuition Advantage covers tuition and mandatory fees for undergraduate students whose families have an adjusted gross income of $125,000 or less.",
+          "httpStatus": 0,
+          "finalUrl": "https://www.utrgv.gov/tuitionadvantage/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

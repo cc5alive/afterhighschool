@@ -10,9 +10,13 @@
         {
           "title": "Liberty University About",
           "url": "https://www.liberty.edu/about/",
-          "quote": "Liberty University is a Christian academic community training Champions for Christ through residential and distance learning programs."
+          "quote": "Liberty University is a Christian academic community training Champions for Christ through residential and distance learning programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.liberty.edu/about/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

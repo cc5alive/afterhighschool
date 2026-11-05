@@ -10,9 +10,13 @@
         {
           "title": "Swarthmore College Honors Program",
           "url": "https://www.swarthmore.edu/academics/honors-program",
-          "quote": "The Honors Program is modeled on the British external examination system, giving students the opportunity to work closely with faculty in small seminars and defend their work before external examiners."
+          "quote": "The Honors Program is modeled on the British external examination system, giving students the opportunity to work closely with faculty in small seminars and defend their work before external examiners.",
+          "httpStatus": 202,
+          "finalUrl": "https://www.swarthmore.edu/academics/honors-program",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

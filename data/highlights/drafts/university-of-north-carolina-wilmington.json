@@ -10,9 +10,13 @@
         {
           "title": "UNCW Marine Biology",
           "url": "https://www.uncw.edu/academics/",
-          "quote": "UNCW offers specialized marine science and coastal research programs that take advantage of its coastal location."
+          "quote": "UNCW offers specialized marine science and coastal research programs that take advantage of its coastal location.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uncw.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

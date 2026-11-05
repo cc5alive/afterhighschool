@@ -10,9 +10,13 @@
         {
           "title": "IU Bloomington Academics",
           "url": "https://bloomington.iu.edu/academics/index.html",
-          "quote": "IU Bloomington offers top-ranked programs across diverse fields, featuring world-class arts schools and direct admission options."
+          "quote": "IU Bloomington offers top-ranked programs across diverse fields, featuring world-class arts schools and direct admission options.",
+          "httpStatus": 200,
+          "finalUrl": "https://bloomington.iu.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

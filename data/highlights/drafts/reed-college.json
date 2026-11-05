@@ -10,9 +10,13 @@
         {
           "title": "Reed College Senior Thesis",
           "url": "https://www.reed.edu/academics/senior-thesis.html",
-          "quote": "Every Reed student completes a year-long senior thesis, an original piece of research or creative work defended before a faculty committee."
+          "quote": "Every Reed student completes a year-long senior thesis, an original piece of research or creative work defended before a faculty committee.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.reed.edu/academics/senior-thesis.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Rowan University Research",
           "url": "https://www.rowan.edu/home/research/index.html",
-          "quote": "Rowan University is a Carnegie-classified national research institution recognized for rapid growth in health sciences and engineering."
+          "quote": "Rowan University is a Carnegie-classified national research institution recognized for rapid growth in health sciences and engineering.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rowan.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

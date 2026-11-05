@@ -10,9 +10,13 @@
         {
           "title": "BGSU Academics",
           "url": "https://www.bgsu.edu/academics.html",
-          "quote": "BGSU offers unique academic programs, including the nation's first popular culture department and robust aviation and forensic science tracks."
+          "quote": "BGSU offers unique academic programs, including the nation's first popular culture department and robust aviation and forensic science tracks.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bgsu.edu/academics.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

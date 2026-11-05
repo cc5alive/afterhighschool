@@ -10,9 +10,13 @@
         {
           "title": "Hillsdale College Independence",
           "url": "https://www.hillsdale.edu/about/independence/",
-          "quote": "Hillsdale College refuses federal taxpayer funding, preserving its independence by replacing federal student grants and loans with private philanthropy."
+          "quote": "Hillsdale College refuses federal taxpayer funding, preserving its independence by replacing federal student grants and loans with private philanthropy.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hillsdale.edu/404-not-found/?request=https://www.hillsdale.edu/about/independence/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

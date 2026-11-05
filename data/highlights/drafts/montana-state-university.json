@@ -10,9 +10,13 @@
         {
           "title": "Montana State Research",
           "url": "https://www.montana.edu/research/",
-          "quote": "Montana State University is a premier research institution renowned for world-class programs in paleontology, optics, and mountain ecosystems."
+          "quote": "Montana State University is a premier research institution renowned for world-class programs in paleontology, optics, and mountain ecosystems.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.montana.edu/research/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

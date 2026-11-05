@@ -10,9 +10,13 @@
         {
           "title": "Iowa State History",
           "url": "https://www.iastate.edu/about/history",
-          "quote": "Iowa State University is a renowned land-grant institution with a historic legacy in science, agriculture, and engineering innovation."
+          "quote": "Iowa State University is a renowned land-grant institution with a historic legacy in science, agriculture, and engineering innovation.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.iastate.edu/about/history",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

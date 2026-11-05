@@ -10,9 +10,13 @@
         {
           "title": "UNL Raikes School",
           "url": "https://raikes.unl.edu/",
-          "quote": "The Raikes School offers an interdisciplinary honors program combining computer science and business management for elite undergraduates."
+          "quote": "The Raikes School offers an interdisciplinary honors program combining computer science and business management for elite undergraduates.",
+          "httpStatus": 200,
+          "finalUrl": "https://raikes.unl.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

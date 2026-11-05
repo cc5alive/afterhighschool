@@ -10,9 +10,13 @@
         {
           "title": "Ohio University History",
           "url": "https://www.ohio.edu/about/history",
-          "quote": "Founded in 1804, Ohio University is the oldest university in the Northwest Territory, offering distinctive professional programs."
+          "quote": "Founded in 1804, Ohio University is the oldest university in the Northwest Territory, offering distinctive professional programs.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.ohio.edu/about/history",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

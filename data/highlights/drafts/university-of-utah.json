@@ -10,9 +10,13 @@
         {
           "title": "University of Utah About",
           "url": "https://www.utah.edu/about/",
-          "quote": "The University of Utah is the state's flagship institution, combining top-tier research with unmatched access to outdoor recreation."
+          "quote": "The University of Utah is the state's flagship institution, combining top-tier research with unmatched access to outdoor recreation.",
+          "httpStatus": 200,
+          "finalUrl": "https://about.utah.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

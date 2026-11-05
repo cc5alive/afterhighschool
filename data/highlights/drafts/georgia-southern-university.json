@@ -10,9 +10,13 @@
         {
           "title": "Georgia Southern Academics",
           "url": "https://www.georgiasouthern.edu/academics/",
-          "quote": "Georgia Southern University provides student-centered undergraduate and graduate programs focused on professional preparation and research."
+          "quote": "Georgia Southern University provides student-centered undergraduate and graduate programs focused on professional preparation and research.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.georgiasouthern.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "UCI Undergraduate Research",
           "url": "https://www.uci.edu/academics/research.php",
-          "quote": "UCI offers extensive undergraduate research initiatives, enabling students to collaborate with faculty on cutting-edge discoveries."
+          "quote": "UCI offers extensive undergraduate research initiatives, enabling students to collaborate with faculty on cutting-edge discoveries.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.uci.edu/academics/research.php",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

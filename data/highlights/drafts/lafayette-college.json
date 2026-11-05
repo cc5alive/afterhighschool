@@ -10,9 +10,13 @@
         {
           "title": "Lafayette College Academics",
           "url": "https://www.lafayette.edu/academics/",
-          "quote": "Lafayette offers a rare blend of liberal arts and engineering, allowing students to combine technical majors with humanities and social sciences."
+          "quote": "Lafayette offers a rare blend of liberal arts and engineering, allowing students to combine technical majors with humanities and social sciences.",
+          "httpStatus": 200,
+          "finalUrl": "https://academics.lafayette.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Wellesley Cross-Registration",
           "url": "https://www.wellesley.edu/academics/cross-registration",
-          "quote": "Wellesley students may cross-register for courses at MIT, Babson College, and Olin College of Engineering at no additional cost."
+          "quote": "Wellesley students may cross-register for courses at MIT, Babson College, and Olin College of Engineering at no additional cost.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.wellesley.edu/academics/cross-registration",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

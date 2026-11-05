@@ -10,9 +10,13 @@
         {
           "title": "Cal Poly Pomona Learn by Doing",
           "url": "https://www.cpp.edu/about/learn-by-doing.shtml",
-          "quote": "Cal Poly Pomona provides a hands-on polytechnic education where students learn by applying theory to real-world projects and laboratory work."
+          "quote": "Cal Poly Pomona provides a hands-on polytechnic education where students learn by applying theory to real-world projects and laboratory work.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.cpp.edu/about/learn-by-doing.shtml",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

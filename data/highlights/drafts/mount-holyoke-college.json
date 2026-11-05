@@ -10,9 +10,13 @@
         {
           "title": "Mount Holyoke Five Colleges",
           "url": "https://www.mtholyoke.edu/academics/five-colleges",
-          "quote": "As part of the Five College Consortium, Mount Holyoke students can cross-register for classes at Amherst, Smith, Hampshire, and UMass Amherst."
+          "quote": "As part of the Five College Consortium, Mount Holyoke students can cross-register for classes at Amherst, Smith, Hampshire, and UMass Amherst.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.mtholyoke.edu/academics/five-colleges",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

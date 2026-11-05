@@ -10,9 +10,13 @@
         {
           "title": "UH Mānoa Oceanography",
           "url": "https://manoa.hawaii.edu/academics/",
-          "quote": "UH Mānoa is a top-tier research university renowned for unique strengths in oceanography, astronomy, and Pacific-Asian studies."
+          "quote": "UH Mānoa is a top-tier research university renowned for unique strengths in oceanography, astronomy, and Pacific-Asian studies.",
+          "httpStatus": 200,
+          "finalUrl": "https://manoa.hawaii.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

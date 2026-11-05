@@ -10,9 +10,13 @@
         {
           "title": "Binghamton Residential Colleges",
           "url": "https://www.binghamton.edu/residential-life/communities/",
-          "quote": "Binghamton's residential college system creates small, supportive communities within the larger university, pairing housing with integrated programming."
+          "quote": "Binghamton's residential college system creates small, supportive communities within the larger university, pairing housing with integrated programming.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.binghamton.edu/residential-life/communities/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

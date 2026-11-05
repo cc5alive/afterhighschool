@@ -10,9 +10,13 @@
         {
           "title": "GCU About",
           "url": "https://www.gcu.edu/about-gcu",
-          "quote": "Grand Canyon University is a premier Christian university offering flexible online programs and a vibrant traditional campus experience."
+          "quote": "Grand Canyon University is a premier Christian university offering flexible online programs and a vibrant traditional campus experience.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.gcu.edu/about-gcu",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

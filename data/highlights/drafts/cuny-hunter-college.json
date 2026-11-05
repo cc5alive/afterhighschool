@@ -10,9 +10,13 @@
         {
           "title": "Hunter College About",
           "url": "https://www.hunter.cuny.edu/about",
-          "quote": "Hunter College is the flagship public liberal arts college of CUNY, providing exceptional education in New York City."
+          "quote": "Hunter College is the flagship public liberal arts college of CUNY, providing exceptional education in New York City.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hunter.cuny.edu/about/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

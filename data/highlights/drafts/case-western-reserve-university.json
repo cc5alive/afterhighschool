@@ -10,9 +10,13 @@
         {
           "title": "CWRU SAGES Program",
           "url": "https://case.edu/sages/",
-          "quote": "The Seminar Approach to General Education and Scholarship (SAGES) engages students in small, writing-intensive seminars taught by distinguished faculty."
+          "quote": "The Seminar Approach to General Education and Scholarship (SAGES) engages students in small, writing-intensive seminars taught by distinguished faculty.",
+          "httpStatus": 200,
+          "finalUrl": "https://sages.case.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

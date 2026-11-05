@@ -10,9 +10,13 @@
         {
           "title": "WCU About",
           "url": "https://www.wcupa.edu/about/",
-          "quote": "West Chester University provides comprehensive undergraduate and graduate programs grounded in the liberal arts and professional practice."
+          "quote": "West Chester University provides comprehensive undergraduate and graduate programs grounded in the liberal arts and professional practice.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.wcupa.edu/about/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

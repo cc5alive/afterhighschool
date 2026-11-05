@@ -10,9 +10,13 @@
         {
           "title": "Bowdoin College Financial Aid",
           "url": "https://www.bowdoin.edu/admissions/affordability/index.html",
-          "quote": "Bowdoin eliminated loans from all financial aid packages, replacing them entirely with grant aid that does not need to be repaid."
+          "quote": "Bowdoin eliminated loans from all financial aid packages, replacing them entirely with grant aid that does not need to be repaid.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.bowdoin.edu/admissions/affordability/index.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

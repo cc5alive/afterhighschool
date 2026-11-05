@@ -10,9 +10,13 @@
         {
           "title": "CSUF Academics",
           "url": "https://www.fullerton.edu/academics/",
-          "quote": "Cal State Fullerton provides high-impact practices, including undergraduate research and community service learning."
+          "quote": "Cal State Fullerton provides high-impact practices, including undergraduate research and community service learning.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fullerton.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

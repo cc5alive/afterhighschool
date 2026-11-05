@@ -10,9 +10,13 @@
         {
           "title": "LeTourneau University About",
           "url": "https://www.letu.edu/about/index.html",
-          "quote": "LeTourneau University is the Christian Polytechnic University, offering hands-on technical and engineering education integrated with faith."
+          "quote": "LeTourneau University is the Christian Polytechnic University, offering hands-on technical and engineering education integrated with faith.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.letu.edu/about/index.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

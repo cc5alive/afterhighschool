@@ -10,9 +10,13 @@
         {
           "title": "UCSC Colleges",
           "url": "https://www.ucsc.edu/academics/colleges.html",
-          "quote": "UCSC's unique residential college system combines the support of a small liberal arts college with the resources of a major research university."
+          "quote": "UCSC's unique residential college system combines the support of a small liberal arts college with the resources of a major research university.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.ucsc.edu/academics/colleges.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

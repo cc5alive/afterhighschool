@@ -10,9 +10,13 @@
         {
           "title": "UArizona Space Research",
           "url": "https://www.arizona.edu/research",
-          "quote": "UArizona is a leading research university renowned for space sciences, optical sciences, and undergraduate honors research opportunities."
+          "quote": "UArizona is a leading research university renowned for space sciences, optical sciences, and undergraduate honors research opportunities.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.arizona.edu/research",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

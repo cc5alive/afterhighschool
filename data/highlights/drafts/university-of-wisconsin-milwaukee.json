@@ -10,9 +10,13 @@
         {
           "title": "UWM Freshwater Sciences",
           "url": "https://uwm.edu/freshwater/",
-          "quote": "UWM houses the School of Freshwater Sciences, the only graduate school in North America dedicated solely to freshwater research and technology."
+          "quote": "UWM houses the School of Freshwater Sciences, the only graduate school in North America dedicated solely to freshwater research and technology.",
+          "httpStatus": 200,
+          "finalUrl": "https://uwm.edu/freshwater/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

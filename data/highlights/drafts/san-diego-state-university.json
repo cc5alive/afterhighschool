@@ -10,9 +10,13 @@
         {
           "title": "SDSU Weber Honors College",
           "url": "https://www.sdsu.edu/honors",
-          "quote": "The Weber Honors College provides an enriched interdisciplinary curriculum and global leadership opportunities for high-achieving undergraduates."
+          "quote": "The Weber Honors College provides an enriched interdisciplinary curriculum and global leadership opportunities for high-achieving undergraduates.",
+          "httpStatus": 200,
+          "finalUrl": "https://honors.sdsu.edu/?utm_source=www&utm_medium=redirect&utm_campaign=honors",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

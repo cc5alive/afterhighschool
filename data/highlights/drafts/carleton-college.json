@@ -10,9 +10,13 @@
         {
           "title": "Carleton College Academic Calendar",
           "url": "https://www.carleton.edu/calendar/",
-          "quote": "Carleton operates on a trimester system, with three 10-week terms per academic year, allowing students to take a wider variety of courses."
+          "quote": "Carleton operates on a trimester system, with three 10-week terms per academic year, allowing students to take a wider variety of courses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.carleton.edu/calendar/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

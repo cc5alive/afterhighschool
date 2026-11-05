@@ -10,9 +10,13 @@
         {
           "title": "IU Indianapolis Academics",
           "url": "https://indianapolis.iu.edu/academics/index.html",
-          "quote": "IU Indianapolis provides comprehensive professional degrees, medical programs, and community-engaged learning in downtown Indianapolis."
+          "quote": "IU Indianapolis provides comprehensive professional degrees, medical programs, and community-engaged learning in downtown Indianapolis.",
+          "httpStatus": 200,
+          "finalUrl": "https://indianapolis.iu.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

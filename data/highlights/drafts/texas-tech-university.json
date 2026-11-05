@@ -10,9 +10,13 @@
         {
           "title": "Texas Tech Honors College",
           "url": "https://www.depts.ttu.edu/honors/",
-          "quote": "The Honors College at Texas Tech provides an intensive academic environment with small classes and dedicated research mentorship."
+          "quote": "The Honors College at Texas Tech provides an intensive academic environment with small classes and dedicated research mentorship.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.depts.ttu.edu/honors/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

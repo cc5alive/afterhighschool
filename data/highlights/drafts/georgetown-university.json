@@ -10,9 +10,13 @@
         {
           "title": "Georgetown Undergraduate Admission",
           "url": "https://uadmissions.georgetown.edu/first-year/application-process/",
-          "quote": "Applicants must select one of Georgetown’s four undergraduate schools when applying: Georgetown College, the School of Foreign Service, the McDonough School of Business, or the School of Nursing & Health Studies."
+          "quote": "Applicants must select one of Georgetown’s four undergraduate schools when applying: Georgetown College, the School of Foreign Service, the McDonough School of Business, or the School of Nursing & Health Studies.",
+          "httpStatus": 404,
+          "finalUrl": "https://uadmissions.georgetown.edu/first-year/application-process/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

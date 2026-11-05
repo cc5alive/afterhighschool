@@ -10,9 +10,13 @@
         {
           "title": "Fairfield University Jesuit Mission",
           "url": "https://www.fairfield.edu/about/mission/index.html",
-          "quote": "Fairfield University provides a Jesuit education that develops the whole person through rigorous academics and community engagement."
+          "quote": "Fairfield University provides a Jesuit education that develops the whole person through rigorous academics and community engagement.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.fairfield.edu/about/mission/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

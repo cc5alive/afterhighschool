@@ -10,9 +10,13 @@
         {
           "title": "Stony Brook Brookhaven Lab",
           "url": "https://www.stonybrook.edu/commcms/research/",
-          "quote": "Stony Brook co-manages Brookhaven National Laboratory, offering undergraduates unique opportunities to work alongside leading national scientists."
+          "quote": "Stony Brook co-manages Brookhaven National Laboratory, offering undergraduates unique opportunities to work alongside leading national scientists.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.stonybrook.edu/commcms/research/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

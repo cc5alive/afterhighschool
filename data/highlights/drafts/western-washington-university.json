@@ -10,9 +10,13 @@
         {
           "title": "WWU Huxley College",
           "url": "https://wwu.edu/academics",
-          "quote": "Western Washington University houses the nation's first college of the environment, providing top-tier sustainability and ecological studies."
+          "quote": "Western Washington University houses the nation's first college of the environment, providing top-tier sustainability and ecological studies.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.wwu.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

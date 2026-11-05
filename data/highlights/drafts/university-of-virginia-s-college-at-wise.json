@@ -10,9 +10,13 @@
         {
           "title": "UVA Wise About",
           "url": "https://www.uvawise.edu/about",
-          "quote": "As the only four-year public liberal arts college in Virginia, UVA Wise offers a personalized college experience nestled in the mountains."
+          "quote": "As the only four-year public liberal arts college in Virginia, UVA Wise offers a personalized college experience nestled in the mountains.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uvawise.edu/about/our-mission-history",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

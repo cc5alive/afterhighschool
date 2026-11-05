@@ -10,9 +10,13 @@
         {
           "title": "USU Space Research",
           "url": "https://www.usu.edu/research/",
-          "quote": "Utah State University is a leader in space research, having designed and flown experiments on numerous space missions."
+          "quote": "Utah State University is a leader in space research, having designed and flown experiments on numerous space missions.",
+          "httpStatus": 200,
+          "finalUrl": "https://research.usu.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

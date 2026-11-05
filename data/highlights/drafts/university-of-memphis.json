@@ -10,9 +10,13 @@
         {
           "title": "University of Memphis Academics",
           "url": "https://www.memphis.edu/academics/index.php",
-          "quote": "The University of Memphis is a major research university offering innovative degree programs designed for professional and civic leadership."
+          "quote": "The University of Memphis is a major research university offering innovative degree programs designed for professional and civic leadership.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.memphis.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

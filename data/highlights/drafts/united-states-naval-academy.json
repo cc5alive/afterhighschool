@@ -10,9 +10,13 @@
         {
           "title": "USNA Admissions",
           "url": "https://www.usna.edu/Admissions/index.php",
-          "quote": "Accepted students receive a full four-year scholarship, covering tuition, room, and board, in exchange for a service commitment as a commissioned officer upon graduation."
+          "quote": "Accepted students receive a full four-year scholarship, covering tuition, room, and board, in exchange for a service commitment as a commissioned officer upon graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usna.edu/Admissions/index.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

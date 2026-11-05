@@ -10,9 +10,13 @@
         {
           "title": "UCSB Research Centers",
           "url": "https://www.ucsb.edu/research",
-          "quote": "UCSB is a global research powerhouse where undergraduates work alongside faculty in world-class laboratories and interdisciplinary centers."
+          "quote": "UCSB is a global research powerhouse where undergraduates work alongside faculty in world-class laboratories and interdisciplinary centers.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucsb.edu/research",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "SNHU About",
           "url": "https://www.snhu.edu/about-us",
-          "quote": "SNHU is a private, nonprofit institution recognized nationally for flexible online competency-based degree pathways and an active campus."
+          "quote": "SNHU is a private, nonprofit institution recognized nationally for flexible online competency-based degree pathways and an active campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.snhu.edu/about-us",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

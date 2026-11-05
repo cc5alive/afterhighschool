@@ -10,9 +10,13 @@
         {
           "title": "Cal Poly Learn by Doing",
           "url": "https://calpoly.edu/about/learn-by-doing",
-          "quote": "Cal Poly's signature 'Learn by Doing' motto anchors an education centered on practical application, labs, and hands-on projects."
+          "quote": "Cal Poly's signature 'Learn by Doing' motto anchors an education centered on practical application, labs, and hands-on projects.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.calpoly.edu/about/learn-by-doing",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

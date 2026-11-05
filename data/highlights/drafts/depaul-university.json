@@ -10,9 +10,13 @@
         {
           "title": "DePaul Mission",
           "url": "https://www.depaul.edu/about/our-values/Pages/default.aspx",
-          "quote": "DePaul University is a premier Catholic, Vincentian university providing a transformative urban education in Chicago."
+          "quote": "DePaul University is a premier Catholic, Vincentian university providing a transformative urban education in Chicago.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.depaul.edu/about/our-values/Pages/default.aspx",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "ODU Research",
           "url": "https://www.odu.edu/research",
-          "quote": "Old Dominion University is a recognized leader in coastal resilience, modeling, simulation, and maritime research."
+          "quote": "Old Dominion University is a recognized leader in coastal resilience, modeling, simulation, and maritime research.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.odu.edu/research",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

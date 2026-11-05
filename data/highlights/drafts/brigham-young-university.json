@@ -10,9 +10,13 @@
         {
           "title": "BYU Honor Code",
           "url": "https://policy.byu.edu/view/index.php?p=26",
-          "quote": "Students, faculty, and employees are expected to comply with the Honor Code, which includes standards of personal integrity, honesty, and dress."
+          "quote": "Students, faculty, and employees are expected to comply with the Honor Code, which includes standards of personal integrity, honesty, and dress.",
+          "httpStatus": 200,
+          "finalUrl": "https://policy.byu.edu/view/church-educational-system-honor-code",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

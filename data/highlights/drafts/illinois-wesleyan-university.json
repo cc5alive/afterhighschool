@@ -10,9 +10,13 @@
         {
           "title": "Illinois Wesleyan Academics",
           "url": "https://www.iwu.edu/academics/",
-          "quote": "Illinois Wesleyan combines liberal arts depth with professional preparation, ensuring students gain hands-on experience through research and internships."
+          "quote": "Illinois Wesleyan combines liberal arts depth with professional preparation, ensuring students gain hands-on experience through research and internships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.iwu.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Baylor University About",
           "url": "https://www.baylor.edu/about/",
-          "quote": "Baylor University is a private Christian research university committed to academic excellence and Christian values."
+          "quote": "Baylor University is a private Christian research university committed to academic excellence and Christian values.",
+          "httpStatus": 403,
+          "finalUrl": "https://about.web.baylor.edu/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

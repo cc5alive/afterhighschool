@@ -10,9 +10,13 @@
         {
           "title": "UNC Charlotte Academics",
           "url": "https://www.charlotte.edu/academics",
-          "quote": "UNC Charlotte is the Carolinas' urban research university, providing innovative programs tailored to a growing metropolitan region."
+          "quote": "UNC Charlotte is the Carolinas' urban research university, providing innovative programs tailored to a growing metropolitan region.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.charlotte.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

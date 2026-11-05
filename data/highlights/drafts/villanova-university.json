@@ -10,9 +10,13 @@
         {
           "title": "Villanova University Mission",
           "url": "https://www.villanova.edu/university/about-us/our-mission.html",
-          "quote": "Grounded in the teachings of Jesus Christ and the spirit of St. Augustine, Villanova is a community of learning driven by values of truth, unity, and love."
+          "quote": "Grounded in the teachings of Jesus Christ and the spirit of St. Augustine, Villanova is a community of learning driven by values of truth, unity, and love.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.villanova.edu/university/about-us/our-mission.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

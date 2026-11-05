@@ -10,9 +10,13 @@
         {
           "title": "USAFA Admissions Overview",
           "url": "https://www.academyadmissions.com/the-experience/cadet-life/",
-          "quote": "All cadets receive a full scholarship covering tuition, room, and board, alongside a monthly stipend, in exchange for a military service commitment."
+          "quote": "All cadets receive a full scholarship covering tuition, room, and board, alongside a monthly stipend, in exchange for a military service commitment.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usafa.edu/cadet-life/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

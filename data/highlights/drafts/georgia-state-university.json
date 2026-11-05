@@ -10,9 +10,13 @@
         {
           "title": "GSU Student Success",
           "url": "https://gsu.edu/student-success/",
-          "quote": "Georgia State has gained national recognition for innovative student success programs, utilizing predictive analytics to support timely degree completion."
+          "quote": "Georgia State has gained national recognition for innovative student success programs, utilizing predictive analytics to support timely degree completion.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.gsu.edu/student-success/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

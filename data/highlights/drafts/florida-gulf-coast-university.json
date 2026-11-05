@@ -10,9 +10,13 @@
         {
           "title": "FGCU Environmental Requirement",
           "url": "https://www.fgcu.edu/academics/",
-          "quote": "FGCU features a distinctive University Colloquium environmental requirement focusing on the ecology and sustainability of Southwest Florida."
+          "quote": "FGCU features a distinctive University Colloquium environmental requirement focusing on the ecology and sustainability of Southwest Florida.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fgcu.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

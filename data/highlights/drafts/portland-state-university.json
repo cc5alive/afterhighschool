@@ -10,9 +10,13 @@
         {
           "title": "PSU University Studies",
           "url": "https://www.pdx.edu/academics/",
-          "quote": "PSU's innovative University Studies program connects classroom coursework with community-based service learning across Portland."
+          "quote": "PSU's innovative University Studies program connects classroom coursework with community-based service learning across Portland.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pdx.edu/academic-experience",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

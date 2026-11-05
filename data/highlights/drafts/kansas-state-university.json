@@ -10,9 +10,13 @@
         {
           "title": "K-State Research",
           "url": "https://www.k-state.edu/research/",
-          "quote": "Kansas State University is a leading research institution advancing breakthroughs in food safety, agriculture, and animal health."
+          "quote": "Kansas State University is a leading research institution advancing breakthroughs in food safety, agriculture, and animal health.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.k-state.edu/research/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

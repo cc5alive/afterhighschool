@@ -10,9 +10,13 @@
         {
           "title": "JMU Academics",
           "url": "https://www.jmu.edu/academics/index.shtml",
-          "quote": "James Madison University offers innovative undergraduate programs focused on teaching excellence and multidisciplinary learning."
+          "quote": "James Madison University offers innovative undergraduate programs focused on teaching excellence and multidisciplinary learning.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jmu.edu/academics/index.shtml",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "SJSU Silicon Valley Connections",
           "url": "https://www.sjsu.edu/about/silicon-valley.php",
-          "quote": "Situated in the heart of Silicon Valley, SJSU connects engineering and business students directly with leading technology companies for internships and hiring."
+          "quote": "Situated in the heart of Silicon Valley, SJSU connects engineering and business students directly with leading technology companies for internships and hiring.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.sjsu.edu/about/silicon-valley.php",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

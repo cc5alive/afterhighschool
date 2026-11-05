@@ -10,9 +10,13 @@
         {
           "title": "UTK Oak Ridge Partnership",
           "url": "https://www.utk.edu/research/",
-          "quote": "UT Knoxville's unique partnership with Oak Ridge National Laboratory provides students and faculty with unparalleled research opportunities in energy and science."
+          "quote": "UT Knoxville's unique partnership with Oak Ridge National Laboratory provides students and faculty with unparalleled research opportunities in energy and science.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.utk.edu/research",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

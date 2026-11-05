@@ -10,9 +10,13 @@
         {
           "title": "Macalester College Mission",
           "url": "https://www.macalester.edu/about/mission/",
-          "quote": "Macalester provides a high-caliber liberal arts education with a special emphasis on internationalism, multiculturalism, and civic service."
+          "quote": "Macalester provides a high-caliber liberal arts education with a special emphasis on internationalism, multiculturalism, and civic service.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.macalester.edu/about/mission/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

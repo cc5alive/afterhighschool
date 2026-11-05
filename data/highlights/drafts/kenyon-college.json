@@ -10,9 +10,13 @@
         {
           "title": "Kenyon College Literary Tradition",
           "url": "https://www.kenyon.edu/academics/",
-          "quote": "Kenyon is celebrated for its deep literary traditions, highlighted by the renowned Kenyon Review and exceptional faculty mentorship in writing."
+          "quote": "Kenyon is celebrated for its deep literary traditions, highlighted by the renowned Kenyon Review and exceptional faculty mentorship in writing.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kenyon.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

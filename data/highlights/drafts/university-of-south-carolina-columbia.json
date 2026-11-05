@@ -10,9 +10,13 @@
         {
           "title": "UofSC Honors College",
           "url": "https://sc.edu/study/colleges_schools/honors_college/index.php",
-          "quote": "The South Carolina Honors College offers a premier educational experience combining small liberal arts classes with major research university resources."
+          "quote": "The South Carolina Honors College offers a premier educational experience combining small liberal arts classes with major research university resources.",
+          "httpStatus": 200,
+          "finalUrl": "https://sc.edu/study/colleges_schools/honors_college/index.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

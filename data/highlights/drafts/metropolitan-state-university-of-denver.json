@@ -10,9 +10,13 @@
         {
           "title": "MSU Denver About",
           "url": "https://www.msudenver.edu/about/",
-          "quote": "MSU Denver provides accessible, high-quality career-ready education for diverse student populations in Colorado."
+          "quote": "MSU Denver provides accessible, high-quality career-ready education for diverse student populations in Colorado.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.msudenver.edu/about/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

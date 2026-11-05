@@ -10,9 +10,13 @@
         {
           "title": "Uark Academics",
           "url": "https://www.uark.edu/academics/index.php",
-          "quote": "The University of Arkansas offers comprehensive undergraduate and graduate programs with distinguished business and honors tracks."
+          "quote": "The University of Arkansas offers comprehensive undergraduate and graduate programs with distinguished business and honors tracks.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uark.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

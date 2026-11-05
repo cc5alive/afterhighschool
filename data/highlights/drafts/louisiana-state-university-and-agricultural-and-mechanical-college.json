@@ -10,9 +10,13 @@
         {
           "title": "LSU Research",
           "url": "https://www.lsu.edu/research/index.php",
-          "quote": "LSU is a flagship research institution leading critical studies in coastal restoration, energy, and agriculture."
+          "quote": "LSU is a flagship research institution leading critical studies in coastal restoration, energy, and agriculture.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lsu.edu/research/index.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

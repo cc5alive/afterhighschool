@@ -10,9 +10,13 @@
         {
           "title": "Huston-Tillotson History",
           "url": "https://www.htu.edu/about/history",
-          "quote": "Huston-Tillotson University is Austin's first institution of higher learning, offering academic excellence and leadership development in a supportive HBCU environment."
+          "quote": "Huston-Tillotson University is Austin's first institution of higher learning, offering academic excellence and leadership development in a supportive HBCU environment.",
+          "httpStatus": 200,
+          "finalUrl": "https://htu.edu/about/history/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

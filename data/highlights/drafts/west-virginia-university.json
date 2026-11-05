@@ -10,9 +10,13 @@
         {
           "title": "WVU Research",
           "url": "https://www.wvu.edu/research/",
-          "quote": "West Virginia University is a premier land-grant research institution driving innovations in energy, forensic science, and health."
+          "quote": "West Virginia University is a premier land-grant research institution driving innovations in energy, forensic science, and health.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.wvu.edu/research/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "UCR Social Mobility",
           "url": "https://www.ucr.edu/about/achievements",
-          "quote": "UCR is consistently ranked among the top universities in the nation for social mobility, combining high-impact research with student success."
+          "quote": "UCR is consistently ranked among the top universities in the nation for social mobility, combining high-impact research with student success.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.ucr.edu/about/achievements",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

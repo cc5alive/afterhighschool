@@ -10,9 +10,13 @@
         {
           "title": "OSU Research",
           "url": "https://www.okstate.edu/research/index.html",
-          "quote": "Oklahoma State University is a premier land-grant institution advancing research in agriculture, energy, and veterinary medicine."
+          "quote": "Oklahoma State University is a premier land-grant institution advancing research in agriculture, energy, and veterinary medicine.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.okstate.edu/research/index.html",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

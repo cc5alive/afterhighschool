@@ -10,9 +10,13 @@
         {
           "title": "USF Research",
           "url": "https://www.usf.edu/research/",
-          "quote": "USF is a preeminent research university engaging undergraduates in hands-on research and innovative community projects."
+          "quote": "USF is a preeminent research university engaging undergraduates in hands-on research and innovative community projects.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usf.edu/research/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

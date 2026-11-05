@@ -10,9 +10,13 @@
         {
           "title": "FIU About",
           "url": "https://www.fiu.edu/about/index.html",
-          "quote": "FIU is Miami's public research university, emphasizing international focus, practical research, and community engagement."
+          "quote": "FIU is Miami's public research university, emphasizing international focus, practical research, and community engagement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fiu.edu/about/index.html",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

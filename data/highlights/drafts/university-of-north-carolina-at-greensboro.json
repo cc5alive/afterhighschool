@@ -10,9 +10,13 @@
         {
           "title": "UNCG Academics",
           "url": "https://www.uncg.edu/academics/",
-          "quote": "UNCG offers comprehensive undergraduate and graduate programs with specialized strengths in visual and performing arts and health sciences."
+          "quote": "UNCG offers comprehensive undergraduate and graduate programs with specialized strengths in visual and performing arts and health sciences.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.uncg.edu/academics/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

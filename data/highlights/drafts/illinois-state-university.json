@@ -10,9 +10,13 @@
         {
           "title": "ISU History",
           "url": "https://illinoisstate.edu/about/history/",
-          "quote": "Founded in 1857 as Illinois's first public university, Illinois State has a rich history of excellence in teaching and professional preparation."
+          "quote": "Founded in 1857 as Illinois's first public university, Illinois State has a rich history of excellence in teaching and professional preparation.",
+          "httpStatus": 404,
+          "finalUrl": "https://illinoisstate.edu/about/history/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

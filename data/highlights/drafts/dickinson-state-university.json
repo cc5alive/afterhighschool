@@ -10,9 +10,13 @@
         {
           "title": "Dickinson State Programs",
           "url": "https://www.dickinsonstate.edu/academics/",
-          "quote": "Dickinson State University provides flexible career-ready programs designed to serve regional industry and student success."
+          "quote": "Dickinson State University provides flexible career-ready programs designed to serve regional industry and student success.",
+          "httpStatus": 200,
+          "finalUrl": "https://dickinsonstate.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

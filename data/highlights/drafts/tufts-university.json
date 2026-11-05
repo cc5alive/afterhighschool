@@ -10,9 +10,13 @@
         {
           "title": "Tufts University Academic Calendar",
           "url": "https://sis.tufts.edu/index.html?p=calendar",
-          "quote": "Tufts operates on a traditional two-semester system with an optional January term for concentrated coursework."
+          "quote": "Tufts operates on a traditional two-semester system with an optional January term for concentrated coursework.",
+          "httpStatus": 0,
+          "finalUrl": "https://sis.tufts.edu/index.html?p=calendar",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": "Source describes the term structure, but page details are brief; verified via academic calendar overview."

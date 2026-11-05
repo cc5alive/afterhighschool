@@ -10,9 +10,13 @@
         {
           "title": "MTSU Recording Industry",
           "url": "https://www.mtsu.edu/programs/recording-industry/",
-          "quote": "MTSU's recording industry program is internationally acclaimed, offering students hands-on training in professional audio production."
+          "quote": "MTSU's recording industry program is internationally acclaimed, offering students hands-on training in professional audio production.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mtsu.edu/search-program/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

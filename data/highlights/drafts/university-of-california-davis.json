@@ -10,9 +10,13 @@
         {
           "title": "UC Davis Academics",
           "url": "https://www.ucdavis.edu/academics",
-          "quote": "UC Davis is a top-tier research university recognized globally for sustainability, agriculture, veterinary medicine, and life sciences."
+          "quote": "UC Davis is a top-tier research university recognized globally for sustainability, agriculture, veterinary medicine, and life sciences.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucdavis.edu/academics",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

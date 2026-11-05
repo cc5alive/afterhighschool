@@ -10,9 +10,13 @@
         {
           "title": "Chico State Academics",
           "url": "https://www.csuchico.edu/academics/",
-          "quote": "Chico State offers rigorous academic programs with a strong tradition of undergraduate research and hands-on sustainability projects."
+          "quote": "Chico State offers rigorous academic programs with a strong tradition of undergraduate research and hands-on sustainability projects.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csuchico.edu/academics/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

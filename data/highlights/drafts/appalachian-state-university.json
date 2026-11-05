@@ -10,9 +10,13 @@
         {
           "title": "App State About",
           "url": "https://www.appstate.edu/about/",
-          "quote": "Appalachian State University combines premier undergraduate teaching with a vibrant mountain campus environment."
+          "quote": "Appalachian State University combines premier undergraduate teaching with a vibrant mountain campus environment.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.appstate.edu/about/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

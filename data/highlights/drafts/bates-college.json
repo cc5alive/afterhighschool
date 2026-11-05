@@ -10,9 +10,13 @@
         {
           "title": "Bates College Admission Policy",
           "url": "https://www.bates.edu/admission/apply/standardized-testing/",
-          "quote": "Bates was the first college in the nation to make standardized testing optional for admission in 1984, a policy that continues today."
+          "quote": "Bates was the first college in the nation to make standardized testing optional for admission in 1984, a policy that continues today.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.bates.edu/admission/apply/standardized-testing/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "CSU Research",
           "url": "https://colostate.edu/research/",
-          "quote": "Colorado State University is a premier research institution renowned for breakthroughs in infectious disease, atmospheric science, and environmental studies."
+          "quote": "Colorado State University is a premier research institution renowned for breakthroughs in infectious disease, atmospheric science, and environmental studies.",
+          "httpStatus": 0,
+          "finalUrl": "https://colostate.edu/research/",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "CSUN Academics",
           "url": "https://www.csun.edu/academics",
-          "quote": "CSUN offers comprehensive degree programs emphasizing practical experience, student success, and community engagement."
+          "quote": "CSUN offers comprehensive degree programs emphasizing practical experience, student success, and community engagement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csun.edu/academics-csun",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

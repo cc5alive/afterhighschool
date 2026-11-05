@@ -10,9 +10,13 @@
         {
           "title": "UNG Military College Status",
           "url": "https://www.ung.edu/military-college/index.php",
-          "quote": "The University of North Georgia is one of only six federally designated senior military colleges in the nation."
+          "quote": "The University of North Georgia is one of only six federally designated senior military colleges in the nation.",
+          "httpStatus": 200,
+          "finalUrl": "https://ung.edu/military-college-admissions/index.php",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

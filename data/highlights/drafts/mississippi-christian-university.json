@@ -10,9 +10,13 @@
         {
           "title": "Mississippi College About",
           "url": "https://www.mc.edu/about/",
-          "quote": "Mississippi College is a private Christian university dedicated to academic excellence grounded in Christian values."
+          "quote": "Mississippi College is a private Christian university dedicated to academic excellence grounded in Christian values.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mc.edu/about/glance",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": "Slug name matches Mississippi College (MC). Verified via official portal."

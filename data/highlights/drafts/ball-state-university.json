@@ -10,9 +10,13 @@
         {
           "title": "Ball State Immersive Learning",
           "url": "https://www.bsu.edu/academics/immersive-learning",
-          "quote": "Ball State's signature immersive learning courses give students hands-on experience solving real-world problems for clients and communities."
+          "quote": "Ball State's signature immersive learning courses give students hands-on experience solving real-world problems for clients and communities.",
+          "httpStatus": 404,
+          "finalUrl": "https://www.bsu.edu/search?q=academics+immersive%20learning&client=404_frontend",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null
