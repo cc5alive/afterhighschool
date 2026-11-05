@@ -2,7 +2,7 @@
 
 - API total matching filters: 2195
 - Schools kept (50 states + DC): 2148
-- Compared with previous pull: 2148 added, 0 removed, 0 changed
+- Compared with previous pull: 0 added, 0 removed, 2148 changed
 
 ## Field coverage
 
@@ -26,6 +26,7 @@
 | menOnly | 47 | 2% |
 | womenOnly | 29 | 1% |
 | onlineOnly | 49 | 2% |
+| hbcu | 84 | 4% |
 | tribalCollege | 1 | 0% |
 | predominantDegree | 2148 | 100% |
 | undergrads | 1895 | 88% |
