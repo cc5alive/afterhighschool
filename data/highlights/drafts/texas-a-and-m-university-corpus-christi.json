@@ -10,9 +10,13 @@
         {
           "title": "Student Accommodation & Housing | TAMU-CC",
           "url": "https://isc.tamucc.edu/tamucc/student-accommodation",
-          "quote": "All first-year undergraduate students are required to live on campus for your first two semesters at TAMU-CC."
+          "quote": "All first-year undergraduate students are required to live on campus for your first two semesters at TAMU-CC.",
+          "httpStatus": 200,
+          "finalUrl": "https://isc.tamucc.edu/tamucc/student-accommodation",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

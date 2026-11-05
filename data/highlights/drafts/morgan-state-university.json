@@ -10,9 +10,13 @@
         {
           "title": "About Morgan State",
           "url": "https://www.morgan.edu/about",
-          "quote": "Among the nation's most diverse Historically Black Colleges and Universities, and the largest in Maryland, Morgan seeks to ensure that the doors of higher education are opened as wide as possible to as many as possible."
+          "quote": "Among the nation's most diverse Historically Black Colleges and Universities, and the largest in Maryland, Morgan seeks to ensure that the doors of higher education are opened as wide as possible to as many as possible.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.morgan.edu/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

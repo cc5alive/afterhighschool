@@ -10,9 +10,13 @@
         {
           "title": "Student Handbook - Lamar University",
           "url": "https://www.lamar.edu/students/student-affairs/about/student-handbook.html",
-          "quote": "All Lamar University first-year, full-time students are required to live on campus."
+          "quote": "All Lamar University first-year, full-time students are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lamar.edu/students/student-affairs/about/student-handbook.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

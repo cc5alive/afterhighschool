@@ -27,9 +27,16 @@
         {
           "title": "Residency Requirement - Washington, DC - American University",
           "url": "https://www.american.edu/student-affairs/housing/residency-requirement.cfm",
-          "quote": "Students are required to live in campus housing their first and second year."
+          "quote": "Students are required to live in campus housing their first and second year.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.american.edu/student-affairs/housing/residency-requirement.cfm",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f423f1e2706ac performance and security by",
+          "closestScore": 0.18
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

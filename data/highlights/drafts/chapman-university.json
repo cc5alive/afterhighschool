@@ -10,9 +10,13 @@
         {
           "title": "First-Year Student Housing Options | Chapman University",
           "url": "https://www.chapman.edu/housing/housing-options/first-year.aspx",
-          "quote": "As a first-year student at Chapman, you are required to live on campus for your first three years unless you are living with your family within a 30-mile radius"
+          "quote": "As a first-year student at Chapman, you are required to live on campus for your first three years unless you are living with your family within a 30-mile radius",
+          "httpStatus": 200,
+          "finalUrl": "https://www.chapman.edu/housing/housing-options/first-year.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

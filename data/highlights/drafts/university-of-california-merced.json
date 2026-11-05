@@ -10,9 +10,13 @@
         {
           "title": "Housing - UC Merced Admissions",
           "url": "https://admissions.ucmerced.edu/explore/housing",
-          "quote": "Housing is guaranteed for two years for first-year students and one year for transfer students who meet the stated housing application deadlines."
+          "quote": "Housing is guaranteed for two years for first-year students and one year for transfer students who meet the stated housing application deadlines.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.ucmerced.edu/explore/housing",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

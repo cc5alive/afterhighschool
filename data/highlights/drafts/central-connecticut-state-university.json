@@ -10,9 +10,15 @@
         {
           "title": "General Education",
           "url": "https://www.ccsu.edu/english/general-education",
-          "quote": "Thriving in College: 2-3 credits. • This is the university's First Year Experience requirement, designed to introduce students to academic life."
+          "quote": "Thriving in College: 2-3 credits. • This is the university's First Year Experience requirement, designed to introduce students to academic life.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ccsu.edu/sites/default/files/2025-12/Gen%20Ed%20for%20English%20Majors.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

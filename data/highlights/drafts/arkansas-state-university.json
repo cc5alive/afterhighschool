@@ -10,9 +10,13 @@
         {
           "title": "Housing Selections - Arkansas State University",
           "url": "https://www.astate.edu/student-life/housing/housing-selections.html",
-          "quote": "Incoming first-year students are required to live on campus."
+          "quote": "Incoming first-year students are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.astate.edu/student-life/housing/housing-selections.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

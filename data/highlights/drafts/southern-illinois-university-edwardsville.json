@@ -10,9 +10,13 @@
         {
           "title": "University Housing - SIUE",
           "url": "https://www.siue.edu/housing/",
-          "quote": "All first-time, full-time students who graduated high school within the last 12 months and are not commuting less than 60 miles from their legal parent/guardian home address must live on campus."
+          "quote": "All first-time, full-time students who graduated high school within the last 12 months and are not commuting less than 60 miles from their legal parent/guardian home address must live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.siue.edu/housing/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

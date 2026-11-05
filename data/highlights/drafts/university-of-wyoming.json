@@ -10,9 +10,13 @@
         {
           "title": "Residence Halls - University of Wyoming",
           "url": "https://www.uwyo.edu/living/housing/residence-halls/index.html",
-          "quote": "the University of Wyoming Board of Trustees have established a first-year live-in policy requiring newly admitted students to live in the residence halls during their first academic year on campus."
+          "quote": "the University of Wyoming Board of Trustees have established a first-year live-in policy requiring newly admitted students to live in the residence halls during their first academic year on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwyo.edu/living/housing/residence-halls/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Online courses vs. face-to-face learning - Penn State World Campus",
           "url": "https://www.worldcampus.psu.edu/about-us/news-and-features/online-courses-vs-face-to-face-learning",
-          "quote": "Courses offered at Penn State World Campus are asynchronous, meaning that you don't have to be online at any specific time and can complete your assignments and other required course work anytime, on your own schedule, as long as you meet the required deadlines."
+          "quote": "Courses offered at Penn State World Campus are asynchronous, meaning that you don't have to be online at any specific time and can complete your assignments and other required course work anytime, on your own schedule, as long as you meet the required deadlines.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.worldcampus.psu.edu/about-us/news-and-features/online-courses-vs-face-to-face-learning",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

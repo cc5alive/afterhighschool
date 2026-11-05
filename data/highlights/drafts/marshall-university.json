@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions – Marshall Housing",
           "url": "https://www.marshall.edu/housing/faq/",
-          "quote": "All freshmen and sophomores who are under the age of 21 are required to live on campus."
+          "quote": "All freshmen and sophomores who are under the age of 21 are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.marshall.edu/housing/faq/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

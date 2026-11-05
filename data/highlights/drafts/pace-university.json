@@ -10,9 +10,13 @@
         {
           "title": "Core Curriculum Overview | Pace University New York",
           "url": "https://catalog.pace.edu/undergraduate/university-core-curriculum/core-curriculum-overview/",
-          "quote": "The Core Curriculum requires a minimum of 38 credits in the liberal arts and sciences, grouped into three distinct sections: Foundation Courses, the General"
+          "quote": "The Core Curriculum requires a minimum of 38 credits in the liberal arts and sciences, grouped into three distinct sections: Foundation Courses, the General",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.pace.edu/undergraduate/university-core-curriculum/core-curriculum-overview/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

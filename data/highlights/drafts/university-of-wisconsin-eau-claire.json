@@ -10,9 +10,13 @@
         {
           "title": "Housing Forms & Tutorials | UW-Eau Claire",
           "url": "https://www.uwec.edu/offices-services/office-housing-and-residence-life/current-resident-housing-information/housing-5",
-          "quote": "This means that students are expected to live on campus their first two years after High School graduation unless they are approved to commute from home"
+          "quote": "This means that students are expected to live on campus their first two years after High School graduation unless they are approved to commute from home",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwec.edu/offices-services/office-housing-and-residence-life/current-resident-housing-information/housing-5",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

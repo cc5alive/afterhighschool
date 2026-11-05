@@ -10,9 +10,16 @@
         {
           "title": "Financing Your Education | Rutgers MyRun",
           "url": "https://myrun.newark.rutgers.edu/financing-your-education",
-          "quote": "The Honors Living-Learning Community (HLLC) · Offers a residential scholarship that covers room and board"
+          "quote": "The Honors Living-Learning Community (HLLC) · Offers a residential scholarship that covers room and board",
+          "httpStatus": 200,
+          "finalUrl": "https://myrun.newark.rutgers.edu/financing-your-education",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "attending the university. here are a few scholarships: the honors living-learning community (hllc) hllc is a transformative college access and success program that fosters the",
+          "closestScore": 0.57
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Temporary Housing Upon Arrival - Marquette University",
           "url": "https://www.marquette.edu/oie/admitted-students/housing.php",
-          "quote": "All new undergraduate students are required to live in a university residence hall during their first two years of study unless they are 21 years old or older,"
+          "quote": "All new undergraduate students are required to live in a university residence hall during their first two years of study unless they are 21 years old or older,",
+          "httpStatus": 200,
+          "finalUrl": "https://www.marquette.edu/oie/admitted-students/housing.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All undergraduates complete the Marquette Core Curriculum, a four-year general education program rooted in Catholic, Jesuit intellectual traditions.",
@@ -20,9 +24,16 @@
         {
           "title": "Marquette Core Curriculum",
           "url": "https://bulletin.marquette.edu/resources-opportunities/marquette-core-curriculum/",
-          "quote": "The Marquette Core Curriculum (MCC) is the center of every Marquette University undergraduate student's educational experience, providing a distinctive approach that is: * Grounded in the Jesuit Tradition."
+          "quote": "The Marquette Core Curriculum (MCC) is the center of every Marquette University undergraduate student's educational experience, providing a distinctive approach that is: * Grounded in the Jesuit Tradition.",
+          "httpStatus": 200,
+          "finalUrl": "https://bulletin.marquette.edu/resources-opportunities/marquette-core-curriculum/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "curriculum marquette core curriculum overview requirements discovery themes transfer students the marquette core curriculum (mcc) is the center of every marquette university undergraduate student's educational experience, providing a distinctive approach that is: grounded in the jesuit tradition. the",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

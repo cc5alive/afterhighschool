@@ -10,9 +10,16 @@
         {
           "title": "First-Year Students - Housing - The University of Maine",
           "url": "https://umaine.edu/housing/first-year-students/",
-          "quote": "UMaine requires all first-year students to live on campus; All incoming first-year students must submit a housing application."
+          "quote": "UMaine requires all first-year students to live on campus; All incoming first-year students must submit a housing application.",
+          "httpStatus": 200,
+          "finalUrl": "https://umaine.edu/housing/first-year-students/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "is an educational opportunity that all new students should experience. umaine requires all first-year students to live on campus all incoming first-year students must submit a housing application",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Campus Resources | UW-La Crosse Catalog",
           "url": "https://catalog.uwlax.edu/undergraduate/currentstudentinformation/campusresources/",
-          "quote": "First-year students are required to live on campus and occupy two-thirds of the available beds on campus."
+          "quote": "First-year students are required to live on campus and occupy two-thirds of the available beds on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.uwlax.edu/undergraduate/currentstudentinformation/campusresources/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

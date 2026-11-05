@@ -27,9 +27,16 @@
         {
           "title": "Housing Selection at Lock Haven - Commonwealth University",
           "url": "https://www.commonwealthu.edu/campus-life/lock-haven/housing/housing-selection",
-          "quote": "All full-time undergraduate students must live on-campus for their first two years as part of the residency requirement."
+          "quote": "All full-time undergraduate students must live on-campus for their first two years as part of the residency requirement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.commonwealthu.edu/campus-life/lock-haven/housing/housing-selection",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "the spring 2027 semester. current students who wish to live on campus for the upcoming academic year or who are required to live on campus must complete this",
+          "closestScore": 0.35
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

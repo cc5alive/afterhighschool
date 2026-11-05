@@ -10,9 +10,13 @@
         {
           "title": "Individualized Degree Design - SUNY Empire Academic Catalog",
           "url": "https://catalog.sunyempire.edu/undergraduate/earning-undergraduate-degree/indivdegreedesign/",
-          "quote": "When pursuing an individualized degree, the student works with their mentor in an educational planning course to create a degree plan proposal that is reviewed"
+          "quote": "When pursuing an individualized degree, the student works with their mentor in an educational planning course to create a degree plan proposal that is reviewed",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.sunyempire.edu/undergraduate/earning-undergraduate-degree/indivdegreedesign/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

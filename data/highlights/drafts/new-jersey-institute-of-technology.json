@@ -10,9 +10,13 @@
         {
           "title": "Residence Life - NJIT Catalog",
           "url": "https://catalog.njit.edu/graduate/campus-life-student-services/residence-life/",
-          "quote": "First-year students live in Cypress, Martinson, and Redwood Halls. Upper-class students may reside in any hall."
+          "quote": "First-year students live in Cypress, Martinson, and Redwood Halls. Upper-class students may reside in any hall.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.njit.edu/graduate/campus-life-student-services/residence-life/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

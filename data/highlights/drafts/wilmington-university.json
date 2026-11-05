@@ -10,9 +10,13 @@
         {
           "title": "Online Learning FAQs - Wilmington University",
           "url": "https://www.wilmu.edu/onlinelearning/faq.aspx",
-          "quote": "Online classes are offered in 15-week semester formats and 7-week block formats."
+          "quote": "Online classes are offered in 15-week semester formats and 7-week block formats.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wilmu.edu/onlinelearning/faq.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

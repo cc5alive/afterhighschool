@@ -10,9 +10,13 @@
         {
           "title": "Housing Residency Requirements | UWG",
           "url": "https://www.westga.edu/campus-life/housing/housing-residency-requirements.php",
-          "quote": "The University of West Georgia requires all new students to live on campus and maintain a meal plan as part of the first-year residential experience."
+          "quote": "The University of West Georgia requires all new students to live on campus and maintain a meal plan as part of the first-year residential experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.westga.edu/campus-life/housing/housing-residency-requirements.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions | Central Washington University",
           "url": "https://www.cwu.edu/student-life/housing/residence-hall-information/residence-hall-faq.php",
-          "quote": "Freshmen students under the age of 20 and carrying 7 credits or more are required to live on campus."
+          "quote": "Freshmen students under the age of 20 and carrying 7 credits or more are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cwu.edu/student-life/housing/residence-hall-information/residence-hall-faq.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

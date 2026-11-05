@@ -10,9 +10,13 @@
         {
           "title": "Faq - Louisiana Tech University",
           "url": "https://www.latech.edu/student-life/housing-and-dining/housing/faq.php",
-          "quote": "All unmarried, full-time, undergraduate students are required to reside on campus as long as space is available."
+          "quote": "All unmarried, full-time, undergraduate students are required to reside on campus as long as space is available.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.latech.edu/student-life/housing-and-dining/housing/faq.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

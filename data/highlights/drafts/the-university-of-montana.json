@@ -10,9 +10,13 @@
         {
           "title": "Your Guide to Off-Campus Housing - University of Montana Blog",
           "url": "https://blog.umt.edu/your-guide-to-off-campus-housing",
-          "quote": "traditional first-year students with fewer than 30 credits are required to live on campus unless they meet certain requirements."
+          "quote": "traditional first-year students with fewer than 30 credits are required to live on campus unless they meet certain requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://blog.umt.edu/your-guide-to-off-campus-housing",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

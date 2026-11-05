@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions | University Housing | SIU",
           "url": "https://housing.siu.edu/about-us/faq.php",
-          "quote": "Most of our first-year students are required to live on campus. Our upperclassman students are invited to live on campus."
+          "quote": "Most of our first-year students are required to live on campus. Our upperclassman students are invited to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://housing.siu.edu/about-us/faq.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

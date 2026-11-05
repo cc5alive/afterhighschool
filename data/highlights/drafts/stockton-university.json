@@ -10,9 +10,13 @@
         {
           "title": "Residential Life | Stockton University",
           "url": "https://stockton.edu/residential-life/",
-          "quote": "Students can select from single, double, or apartment-style housing, all guaranteed for four years."
+          "quote": "Students can select from single, double, or apartment-style housing, all guaranteed for four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://stockton.edu/residential-life/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

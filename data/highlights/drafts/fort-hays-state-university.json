@@ -10,9 +10,13 @@
         {
           "title": "International Admissions FAQ - Fort Hays State University",
           "url": "https://www.fhsu.edu/international/admissions/FAQ/",
-          "quote": "Students are required to live on-campus for the first year. After the first year, students are eligible to move off campus."
+          "quote": "Students are required to live on-campus for the first year. After the first year, students are eligible to move off campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fhsu.edu/international/admissions/FAQ/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

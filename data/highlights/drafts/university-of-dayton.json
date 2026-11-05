@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Admission FAQ - University of Dayton",
           "url": "https://udayton.edu/apply/undergraduate/resources/admission-faq.php",
-          "quote": "Undergraduate students outside a 40-mile radius are required to live on campus the first two years, but many students — 80% — choose to live on campus all four years."
+          "quote": "Undergraduate students outside a 40-mile radius are required to live on campus the first two years, but many students — 80% — choose to live on campus all four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://udayton.edu/apply/undergraduate/resources/admission-faq.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,16 @@
         {
           "title": "Live 2 Succeed - Housing & Dining - University of Northern Iowa",
           "url": "https://uhd.uni.edu/live-life-on",
-          "quote": "Live on campus for your first two years and you'll: · Receive a $1000 scholarship. Awarded during your second year, $500 will be credited to your account in the"
+          "quote": "Live on campus for your first two years and you'll: · Receive a $1000 scholarship. Awarded during your second year, $500 will be credited to your account in the",
+          "httpStatus": 200,
+          "finalUrl": "https://uhd.uni.edu/live-life-on",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "2 succeed program is designed to do just that. live on campus for your first two years and you'll: receive a $1000 scholarship. awarded during your second year, $500 will be credited to your account in the fall and",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

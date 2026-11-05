@@ -10,9 +10,13 @@
         {
           "title": "Housing, Meal Plans, Other Costs - Bakersfield - CSUB",
           "url": "https://www.csub.edu/isp/earn-a-degree/housing-meal-plans-other-costs.shtml",
-          "quote": "All incoming first-time freshmen who reside more than 60 miles from CSUB are required to live on campus during their first year."
+          "quote": "All incoming first-time freshmen who reside more than 60 miles from CSUB are required to live on campus during their first year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csub.edu/isp/earn-a-degree/housing-meal-plans-other-costs.shtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

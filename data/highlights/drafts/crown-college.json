@@ -10,9 +10,14 @@
         {
           "title": "Crown College Community",
           "url": "https://catalog.crown.edu/content.php?catoid=24&navoid=674",
-          "quote": "Crown College is a residential college. Therefore all students are required to live in college housing except for those who meet one or more of the following criteria"
+          "quote": "Crown College is a residential college. Therefore all students are required to live in college housing except for those who meet one or more of the following criteria",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.crown.edu/content.php?catoid=24&navoid=674",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

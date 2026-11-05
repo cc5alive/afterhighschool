@@ -10,9 +10,13 @@
         {
           "title": "About - Southeastern Louisiana University",
           "url": "https://www.southeastern.edu/admin/tb_rental/about/",
-          "quote": "Southeastern's Textbook Rental system provides an enormous cost savings to students over the course of their college career. Because we rent our textbooks to students, the only thing we ask is that you return them to us!"
+          "quote": "Southeastern's Textbook Rental system provides an enormous cost savings to students over the course of their college career. Because we rent our textbooks to students, the only thing we ask is that you return them to us!",
+          "httpStatus": 200,
+          "finalUrl": "https://www.southeastern.edu/admin/tb_rental/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

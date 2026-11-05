@@ -27,9 +27,14 @@
         {
           "title": "Student Engagement - Northern Kentucky University",
           "url": "https://onlinecatalog.nku.edu/content.php?catoid=31&navoid=5211",
-          "quote": "Unless qualifying for an exemption, new first-year students are required to live on campus."
+          "quote": "Unless qualifying for an exemption, new first-year students are required to live on campus.",
+          "httpStatus": 202,
+          "finalUrl": "https://onlinecatalog.nku.edu/content.php?catoid=31&navoid=5211",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

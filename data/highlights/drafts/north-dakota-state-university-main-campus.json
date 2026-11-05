@@ -10,9 +10,13 @@
         {
           "title": "Residence Halls - NDSU",
           "url": "https://www.ndsu.edu/residence-life/halls",
-          "quote": "all first-year students are required to live in a residence hall on campus."
+          "quote": "all first-year students are required to live in a residence hall on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ndsu.edu/residence-life/halls",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

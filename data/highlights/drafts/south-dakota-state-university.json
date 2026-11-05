@@ -10,9 +10,13 @@
         {
           "title": "Housing Options | South Dakota State University",
           "url": "https://www.sdstate.edu/housing-residential-life/housing-options",
-          "quote": "South Dakota State University has a two-year requirement to live on campus."
+          "quote": "South Dakota State University has a two-year requirement to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sdstate.edu/housing-residential-life/housing-options",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

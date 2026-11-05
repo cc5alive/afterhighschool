@@ -10,9 +10,13 @@
         {
           "title": "Co-op program : The University of Akron, Ohio",
           "url": "https://www.uakron.edu/engineering/co-op/program",
-          "quote": "The Co-op and Placement Program provides paid industry experience to undergraduate students in the College of Engineering and Polymer Science."
+          "quote": "The Co-op and Placement Program provides paid industry experience to undergraduate students in the College of Engineering and Polymer Science.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uakron.edu/engineering/co-op/program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

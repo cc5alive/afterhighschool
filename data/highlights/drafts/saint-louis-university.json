@@ -10,9 +10,13 @@
         {
           "title": "Housing Options : SLU - Saint Louis University",
           "url": "https://www.slu.edu/housing/halls/index.php",
-          "quote": "All undergraduate full-time students are required to live on campus for the first two years of study, but many older students also live at Saint Louis"
+          "quote": "All undergraduate full-time students are required to live on campus for the first two years of study, but many older students also live at Saint Louis",
+          "httpStatus": 200,
+          "finalUrl": "https://www.slu.edu/housing/halls/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

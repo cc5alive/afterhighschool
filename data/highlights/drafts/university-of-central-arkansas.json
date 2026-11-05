@@ -10,9 +10,16 @@
         {
           "title": "Frequently Asked Questions - University of Central Arkansas",
           "url": "https://uca.edu/admissions/apply/faq/",
-          "quote": "Freshmen are required to live on campus their first year, unless they meet exemption criteria."
+          "quote": "Freshmen are required to live on campus their first year, unless they meet exemption criteria.",
+          "httpStatus": 200,
+          "finalUrl": "https://uca.edu/admissions/apply/faq/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "receive advanced placement (ap) credit? can i receive international baccalaureate (ib) credit? when will i register for classes? campus experience should i live on campus?",
+          "closestScore": 0.15
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null
