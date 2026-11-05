@@ -7,25 +7,13 @@ import fs from 'node:fs';
 const DIR = 'data/highlights/drafts';
 const files = fs.readdirSync(DIR).filter((f) => f.endsWith('.json'));
 
-const norm = (s) => String(s || '')
-  .replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ')
-  .replace(/<[^>]+>/g, ' ')
-  .replace(/&nbsp;|&#160;/g, ' ').replace(/&amp;/g, '&').replace(/&#8217;|&rsquo;|&#39;|’/g, "'")
-  .replace(/&#8220;|&#8221;|&ldquo;|&rdquo;|&quot;|[“”]/g, '"').replace(/&#8211;|&#8212;|&ndash;|&mdash;|[–—]/g, '-')
-  .replace(/\s+/g, ' ').trim().toLowerCase();
+import { norm, fetchDocText } from './lib/doc-text.mjs';
 
+// Pages, PDFs and Excel files all become plain text (see lib/doc-text.mjs).
 const cache = new Map();
 async function page(url) {
-  if (cache.has(url)) return cache.get(url);
-  let text = null, finalUrl = url, status = 0;
-  try {
-    const r = await fetch(url, { redirect: 'follow', headers: { 'user-agent': 'Mozilla/5.0 (compatible; afterhighschool-factcheck/1.0)' }, signal: AbortSignal.timeout(15000) });
-    status = r.status; finalUrl = r.url;
-    if (r.ok) text = norm(await r.text());
-  } catch { /* network error */ }
-  const res = { text, finalUrl, status };
-  cache.set(url, res);
-  return res;
+  if (!cache.has(url)) cache.set(url, fetchDocText(url, { timeout: 20000 }));
+  return cache.get(url);
 }
 
 const rows = [];
