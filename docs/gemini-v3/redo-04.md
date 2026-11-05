@@ -1,4 +1,4 @@
-# Task: find MORE "What's special" facts for 32 US colleges
+# Task: find MORE "What's special" facts for 15 US colleges
 
 You're helping build afterhighschool.me, a free, high-trust site that helps 16–18-year-olds decide what to do after high school. Each college page has a "What's special" section: about four short facts that set the school apart, each linked to its source. These are the most-searched schools on the site. Most already have one or two facts, listed under each school. Your job is to add new ones on **different topics**. Families act on these, so accuracy matters more than coverage.
 
@@ -49,160 +49,82 @@ Reply with **JSON Lines only**: one JSON object per line, one line per school, i
 
 JSON rules: every line must parse. Inside strings, write double quotes as \" (or use single quotes ' instead). No line breaks inside a line. If you find nothing new for a school, still output its line with "facts":[] and say why in "concerns". If a school has closed, merged or stopped enrolling, say so in "concerns".
 
-Do all 32 schools. If you get cut off, stop at the end of a complete line; I'll reply "continue" and you pick up with the next school.
+Do all 15 schools. If you get cut off, stop at the end of a complete line; I'll reply "continue" and you pick up with the next school.
 
 ## Schools
 
-### washington-state-university | Washington State University | Pullman, WA | wsu.edu
+### north-carolina-state-university-at-raleigh | North Carolina State University at Raleigh | Raleigh, NC | www.ncsu.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- WSU's Cougar Commitment covers tuition and mandatory fees for Washington residents from low- or middle-income families who receive the Washington College Grant or a Pell Grant.
+- The Goodnight Scholars Program gives $23,000 a year, renewable for four years, to students from low- and middle-income North Carolina families studying STEM or related education majors. You need an invitation to apply.
 
-### the-university-of-texas-at-el-paso | The University of Texas at El Paso | El Paso, TX | www.utep.edu
+### hamilton-college | Hamilton College | Clinton, NY | www.hamilton.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- The Paydirt Promise uses federal, state, and institutional grants and scholarships to cover tuition and fees for Texas residents with family income of $100,000 or less.
+- Hamilton has no core curriculum or distribution requirements.
 
-### temple-university | Temple University | Philadelphia, PA | www.temple.edu
+### villanova-university | Villanova University | Villanova, PA | www.villanova.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- The Temple Promise covers full-time tuition and the mandatory university services fee for eligible students whose families have an adjusted gross income of $65,000 or less.
+- Founded in 1842, Villanova is one of two Catholic, Augustinian colleges in the United States; the other is Merrimack College.
 
-### james-madison-university | James Madison University | Harrisonburg, VA | www.jmu.edu/index.shtml
+### university-of-wisconsin-madison | University of Wisconsin-Madison | Madison, WI | www.wisc.edu
+Find up to 2 new facts.
+Already have (don't repeat these or cover the same topic):
+- Bucky's Tuition Promise pays tuition and segregated fees for four years for new Wisconsin residents whose household income is $65,000 or less. Assets don't count, and there's no separate application, only the FAFSA (and, for fall 2026 entrants, the CSS Profile).
+- For Pell-eligible Wisconsin residents, Bucky's Pell Pathway goes further: grants, scholarships and work-study that meet full financial need, including housing and food, for four years.
+
+### claremont-mckenna-college | Claremont McKenna College | Claremont, CA | www.cmc.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- JMU's Centennial Scholars Program provides financial support to help cover primary attendance costs, including tuition and fees, housing, and a meal plan.
+- Four nights a week during the school year, the Athenaeum brings scholars, public figures and artists to campus to engage with students.
 
-### virginia-commonwealth-university | Virginia Commonwealth University | Richmond, VA | www.vcu.edu
+### babson-college | Babson College | Wellesley, MA | www.babson.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- VCU Honors College Guaranteed Admission Programs allow qualified students to enter professional health programs without competing through general admission later.
+- Every Babson student takes Foundations of Management and Entrepreneurship, where teams come up with a business idea and work out whether it's feasible.
 
-### university-of-oregon | University of Oregon | Eugene, OR | www.uoregon.edu
+### davidson-college | Davidson College | Davidson, NC | davidson.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- PathwayOregon ensures that academically qualified, federal Pell Grant-eligible Oregonians have their tuition and fees paid through federal, state, and university funds.
+- Davidson admits students regardless of their family's ability to pay and meets 100% of calculated need without loans.
 
-### university-of-pittsburgh-pittsburgh-campus | University of Pittsburgh-Pittsburgh Campus | Pittsburgh, PA | www.pitt.edu
+### lehigh-university | Lehigh University | Bethlehem, PA | www.lehigh.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- The Pitt Pell Plus Program doubles any Federal Pell Grant awarded up to $7,395 for eligible undergraduate students across all five campuses.
+- The Lehigh Commitment provides a full tuition grant to undergraduate students from families with total incomes under $75,000.
 
-### cuny-bernard-m-baruch-college | CUNY Bernard M Baruch College | New York, NY | www.baruch.cuny.edu
-Find up to 3 new facts.
-Already have: nothing yet.
-
-### utah-state-university | Utah State University | Logan, UT | www.usu.edu
+### washington-and-lee-university | Washington and Lee University | Lexington, VA | www.wlu.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- Students selected for the Utah State Promise Scholarship get whatever tuition and student body fees their Pell Grants and other awards don't cover, for up to four years.
+- Johnson Scholarships cover tuition, fees, housing and food, plus $10,000 for a summer experience.
 
-### the-university-of-arizona-global-campus | The University of Arizona Global Campus | Chandler, AZ | www.uagc.edu
+### bates-college | Bates College | Lewiston, ME | www.bates.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- Undergraduate programs are structured so students take one course at a time in accelerated 5-week terms, while graduate courses run in 6-week terms.
+- Bates has a four-week Short Term from late April through May, when students take just one class.
 
-### university-at-buffalo | University at Buffalo | Buffalo, NY | www.buffalo.edu
+### california-state-university-long-beach | California State University-Long Beach | Long Beach, CA | www.csulb.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- Under UB's Finish in 4 pledge, students who fulfill all requirements but cannot graduate in four years can complete needed courses free of tuition and comprehensive fees.
+- Through the Long Beach College Promise, eligible local graduates get a tuition-free first year at Long Beach City College and guaranteed admission to Cal State Long Beach if academically eligible.
 
-### east-carolina-university | East Carolina University | Greenville, NC | www.ecu.edu
+### liberty-university | Liberty University | Lynchburg, VA | www.liberty.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- The Pirate Promise transfer program provides participating North Carolina community college students guaranteed admission to ECU upon completing an approved associate degree.
+- Liberty University requires attendance at Convocation for all on-campus, residential students.
 
-### university-of-connecticut | University of Connecticut | Storrs, CT | uconn.edu
+### university-of-maryland-college-park | University of Maryland-College Park | College Park, MD | www.umd.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- UConn's Special Program in Medicine links undergraduate study with four years of medical education, resulting in dual degrees from UConn: a BA/BS and an MD.
+- The Terrapin Commitment covers standard in-state tuition and fees for full-time Maryland students who are Pell-eligible or have family income of $75,000 or less. File the FAFSA by March 1 each year.
 
-### stony-brook-university | Stony Brook University | Stony Brook, NY | www.stonybrook.edu
-Find up to 3 new facts.
-Already have: nothing yet.
-
-### ohio-university-main-campus | Ohio University-Main Campus | Athens, OH | www.ohio.edu
+### university-of-maryland-global-campus | University of Maryland Global Campus | Adelphi, MD | www.umgc.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- Ohio University's all-in Tuition and Fees Guarantee locks in rates for housing, dining and fees for 12 consecutive semesters.
+- Students do not need to buy traditional textbooks for most courses, as the university embeds no-cost open digital course materials directly into online classrooms.
 
-### california-state-university-los-angeles | California State University-Los Angeles | Los Angeles, CA | www.calstatela.edu
+### minerva-university | Minerva University | San Francisco, CA | www.minerva.edu
 Find up to 3 new facts.
 Already have (don't repeat these or cover the same topic):
-- Cal State LA's Early Entrance Program allows qualified gifted students between ages 11 and 15 to enroll as full-time students in the Honors College.
-
-### appalachian-state-university | Appalachian State University | Boone, NC | www.appstate.edu
-Find up to 3 new facts.
-Already have: nothing yet.
-
-### kent-state-university-at-kent | Kent State University at Kent | Kent, OH | www.kent.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Kent State's Undergraduate Tuition Guarantee Program guarantees eligible new first-year and transfer students that Ohio resident tuition, career services fees, and room and board charges will not increase for their cohort.
-
-### university-of-nebraska-lincoln | University of Nebraska-Lincoln | Lincoln, NE | www.unl.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Nebraska Promise covers undergraduate tuition at the University of Nebraska-Lincoln for qualifying in-state students with a family income of $65,000 or less or who are Pell Grant-eligible.
-
-### university-of-delaware | University of Delaware | Newark, DE | www.udel.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Delaware freshmen with family income under $35,000 get an aid package covering tuition, fees, standard housing and food, so they can attend at little or no up-front cost.
-
-### illinois-state-university | Illinois State University | Normal, IL | illinoisstate.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Incoming undergraduate students in a degree-seeking program at Illinois State University pay a locked tuition rate for four continuous calendar years.
-
-### grand-valley-state-university | Grand Valley State University | Allendale, MI | www.gvsu.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- The Grand Valley Pledge awards full undergraduate tuition, renewable for four years, to qualified Michigan students with a family income under $50,000.
-
-### san-francisco-state-university | San Francisco State University | San Francisco, CA | www.sfsu.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Established in the Fall of 1969, San Francisco State's College of Ethnic Studies was the first program of its kind in the United States.
-
-### mississippi-state-university | Mississippi State University | Mississippi State, MS | www.msstate.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- MSU's Promise Scholars Program offers scholarships and academic support to entering first-year Mississippi students whose parents earn $42,000 or less a year.
-
-### montclair-state-university | Montclair State University | Montclair, NJ | www.montclair.edu
-Find up to 3 new facts.
-Already have: nothing yet.
-
-### texas-christian-university | Texas Christian University | Fort Worth, TX | www.tcu.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Qualifying first-year Texas students receive full tuition support, food and housing assistance, and guaranteed four-year on-campus housing through TCU for Texans.
-
-### university-of-california-santa-cruz | University of California-Santa Cruz | Santa Cruz, CA | www.ucsc.edu
-Find up to 3 new facts.
-Already have: nothing yet.
-
-### sam-houston-state-university | Sam Houston State University | Huntsville, TX | www.shsu.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- The Bearkat Promise covers at least $5,685 in mandatory tuition and fees each semester for 15 credit hours using grant funds, supporting Texas students with family income up to $100,000.
-
-### boise-state-university | Boise State University | Boise, ID | www.boisestate.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Under the Western Undergraduate Exchange, eligible nonresident students from member states and territories can enroll at Boise State at 150 percent of resident tuition.
-
-### old-dominion-university | Old Dominion University | Norfolk, VA | www.odu.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Under the Guaranteed Admission Agreement, Virginia Community College System students graduating with a transfer-oriented associate degree and a 2.5 GPA earn guaranteed admission to ODU.
-
-### west-virginia-university | West Virginia University | Morgantown, WV | www.wvu.edu
-Find up to 3 new facts.
-Already have: nothing yet.
-
-### mississippi-christian-university | Mississippi Christian University | Clinton, MS | www.mc.edu
-Find up to 3 new facts.
-Already have (don't repeat these or cover the same topic):
-- Mississippi Christian University is the oldest institution of higher learning in Mississippi and was the first co-educational institution in the United States to grant a degree to a woman.
+- Minerva University undergraduates rotate through multiple global cities over four years, taking coursework integrated with each metropolitan location while living in common residence halls.
