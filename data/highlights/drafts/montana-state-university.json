@@ -10,9 +10,13 @@
         {
           "title": "University Student Housing - Montana State University | Catalog",
           "url": "https://catalog.montana.edu/housing/",
-          "quote": "Students with fewer than 30 earned credit hours (while in a residence hall setting) are required to live in the residence halls."
+          "quote": "Students with fewer than 30 earned credit hours (while in a residence hall setting) are required to live in the residence halls.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.montana.edu/housing/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

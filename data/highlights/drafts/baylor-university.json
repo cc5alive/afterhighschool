@@ -27,9 +27,16 @@
         {
           "title": "Housing Services - Center for Global Engagement | Baylor University",
           "url": "https://globalengagement.web.baylor.edu/international-student-and-scholar-services/support-resources/living-waco/housing-services",
-          "quote": "Remember that first-year students (freshmen) must live on campus their first year."
+          "quote": "Remember that first-year students (freshmen) must live on campus their first year.",
+          "httpStatus": 403,
+          "finalUrl": "https://globalengagement.web.baylor.edu/international-student-and-scholar-services/support-resources/living-waco/housing-services",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "globalengagement.web.baylor.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website",
+          "closestScore": 0
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Take Five Scholars Program : Advising Handbook",
           "url": "https://www.rochester.edu/college/ccas/handbook/take-five.html",
-          "quote": "Accepted students are granted one or two tuition-free semesters to take courses in addition to those needed to complete their degrees."
+          "quote": "Accepted students are granted one or two tuition-free semesters to take courses in addition to those needed to complete their degrees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rochester.edu/college/ccas/handbook/take-five.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

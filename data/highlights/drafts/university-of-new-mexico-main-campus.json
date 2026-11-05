@@ -10,9 +10,13 @@
         {
           "title": "Freshman Residency - UNM Housing - The University of New Mexico",
           "url": "https://housing.unm.edu/resources-info/freshman-residency.html",
-          "quote": "all first time first year freshmen enrolled as full-time students who are younger than 20 years of age by the first day of classes and reside further than 30 miles from UNM's main campus are required to live on campus."
+          "quote": "all first time first year freshmen enrolled as full-time students who are younger than 20 years of age by the first day of classes and reside further than 30 miles from UNM's main campus are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://housing.unm.edu/resources-info/freshman-residency.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

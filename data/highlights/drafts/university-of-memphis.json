@@ -10,14 +10,21 @@
         {
           "title": "Guaranteed Admission Pathways - The University of Memphis",
           "url": "https://www.memphis.edu/admissions/basics/guaranteed_pathway.php",
-          "quote": "There are five pathways for which a student can earn guaranteed admission as an undergraduate student: Earned an Associates degree (AA/AS) from an accredited community college."
+          "quote": "There are five pathways for which a student can earn guaranteed admission as an undergraduate student: Earned an Associates degree (AA/AS) from an accredited community college.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.memphis.edu/admissions/basics/guaranteed_pathway.php",
+          "quoteFound": true
         },
         {
           "title": "Guaranteed Admission Pathways - The University of Memphis",
           "url": "https://www.memphis.edu/admissions/basics/guaranteed_pathway.php",
-          "quote": "A calculated transfer GPA of 2.5 or greater with at least 15 earned hours of college-level credit (excluding developmental coursework)."
+          "quote": "A calculated transfer GPA of 2.5 or greater with at least 15 earned hours of college-level credit (excluding developmental coursework).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.memphis.edu/admissions/basics/guaranteed_pathway.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

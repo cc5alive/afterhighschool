@@ -10,9 +10,13 @@
         {
           "title": "Centennial Hall - Bowling Green State University",
           "url": "https://www.bgsu.edu/housing/centennial-hall.html",
-          "quote": "Bowling Green State University's Board of Trustees has set a Residency Requirement that states a student must live on campus their first two years."
+          "quote": "Bowling Green State University's Board of Trustees has set a Residency Requirement that states a student must live on campus their first two years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bgsu.edu/housing/centennial-hall.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,16 @@
         {
           "title": "Undergraduate – How to Apply - MTSU",
           "url": "https://www.mtsu.edu/how-to-apply/undergraduate/",
-          "quote": "For guaranteed admission, applicants must have completed the recommended college preparatory courses and must present one of the following: 3.0 GPA OR Minimum composite ACT score of 22 OR minimum SAT total score of 1100"
+          "quote": "For guaranteed admission, applicants must have completed the recommended college preparatory courses and must present one of the following: 3.0 GPA OR Minimum composite ACT score of 22 OR minimum SAT total score of 1100",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mtsu.edu/how-to-apply/undergraduate/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "another institution, or following the national attention of one of mtsu's many signature programs, you could become one of the newest blue raiders! first-time freshmen transfer students re-enrolling students transient students post baccalaureate students adult degree completion program non-degree seeking students honors college admission homeschool",
+          "closestScore": 0.21
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

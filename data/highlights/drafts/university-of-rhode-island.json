@@ -10,9 +10,13 @@
         {
           "title": "Apply for Housing - The University of Rhode Island",
           "url": "https://web.uri.edu/housing/apply/",
-          "quote": "At the University of Rhode Island (URI), we are committed to providing on-campus housing to our students. We guarantee housing for all incoming first-year and"
+          "quote": "At the University of Rhode Island (URI), we are committed to providing on-campus housing to our students. We guarantee housing for all incoming first-year and",
+          "httpStatus": 200,
+          "finalUrl": "https://web.uri.edu/housing/apply/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

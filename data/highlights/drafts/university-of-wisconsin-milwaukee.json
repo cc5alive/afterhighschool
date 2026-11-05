@@ -10,9 +10,13 @@
         {
           "title": "Residency Requirement – Housing at UWM",
           "url": "https://uwm.edu/housing/policies/residency-requirement/",
-          "quote": "Those freshman who are not veterans, married or living with parents or guardian shall be required to live in a University operated Residence Hall"
+          "quote": "Those freshman who are not veterans, married or living with parents or guardian shall be required to live in a University operated Residence Hall",
+          "httpStatus": 200,
+          "finalUrl": "https://uwm.edu/housing/policies/residency-requirement/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

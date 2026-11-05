@@ -27,9 +27,16 @@
         {
           "title": "Two-year residential requirement - SCAD.edu",
           "url": "https://www.scad.edu/content/two-year-residential-requirement",
-          "quote": "All new first-time, full-time, first-year students enrolled in on-ground courses are required to live in university housing for their first two academic years (i.e., through the end of the spring quarter of their sophomore year)."
+          "quote": "All new first-time, full-time, first-year students enrolled in on-ground courses are required to live in university housing for their first two academic years (i.e., through the end of the spring quarter of their sophomore year).",
+          "httpStatus": 403,
+          "finalUrl": "https://www.scad.edu/content/two-year-residential-requirement",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "www.scad.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55f3200dbb5a69a performance and security by cloudflare privacy",
+          "closestScore": 0.08
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "SCAD operates on a quarter system with three quarters in the traditional academic year: fall, winter, and spring.",
@@ -37,9 +44,16 @@
         {
           "title": "Prepare for life at SCAD",
           "url": "https://www.scad.edu/content/prepare-life-scad",
-          "quote": "SCAD operates on a quarter system. The traditional academic year includes three quarters: fall, winter and spring."
+          "quote": "SCAD operates on a quarter system. The traditional academic year includes three quarters: fall, winter and spring.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.scad.edu/content/prepare-life-scad",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "www.scad.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a",
+          "closestScore": 0.13
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "FAQs - University of North Georgia",
           "url": "https://ung.edu/military-college-admissions/faqs.php",
-          "quote": "All out-of-state cadets, upon acceptance, will receive the Cadet Grant. The Cadet Grant allows you to pay tuition and fees at the in-state rate."
+          "quote": "All out-of-state cadets, upon acceptance, will receive the Cadet Grant. The Cadet Grant allows you to pay tuition and fees at the in-state rate.",
+          "httpStatus": 200,
+          "finalUrl": "https://ung.edu/military-college-admissions/faqs.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

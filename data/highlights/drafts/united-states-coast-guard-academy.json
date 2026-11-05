@@ -10,14 +10,21 @@
         {
           "title": "Cost And Tuition - United States Coast Guard Academy",
           "url": "https://uscga.edu/admissions/cost-and-tuition/",
-          "quote": "At the Coast Guard Academy there is no cost for tuition, room or board. This elite education, currently valued at more than $280,000, is fully paid for by the government"
+          "quote": "At the Coast Guard Academy there is no cost for tuition, room or board. This elite education, currently valued at more than $280,000, is fully paid for by the government",
+          "httpStatus": 200,
+          "finalUrl": "https://uscga.edu/admissions/cost-and-tuition/",
+          "quoteFound": true
         },
         {
           "title": "Cost And Tuition - United States Coast Guard Academy",
           "url": "https://uscga.edu/admissions/cost-and-tuition/",
-          "quote": "All cadets are paid a salary while attending the Coast Guard Academy."
+          "quote": "All cadets are paid a salary while attending the Coast Guard Academy.",
+          "httpStatus": 200,
+          "finalUrl": "https://uscga.edu/admissions/cost-and-tuition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All incoming freshmen begin their military training with Swab Summer, a seven-week program that includes one week aboard the tall ship Eagle.",
@@ -25,9 +32,13 @@
         {
           "title": "Swab Summer - United States Coast Guard Academy",
           "url": "https://uscga.edu/cadet-life/swab-summer/",
-          "quote": "Swab Summer marks the beginning of freshman year. It is the most difficult and demanding period of military training you will experience as a cadet, taking place over a period of seven weeks, one of which is aboard America's Tall Ship Eagle."
+          "quote": "Swab Summer marks the beginning of freshman year. It is the most difficult and demanding period of military training you will experience as a cadet, taking place over a period of seven weeks, one of which is aboard America's Tall Ship Eagle.",
+          "httpStatus": 200,
+          "finalUrl": "https://uscga.edu/cadet-life/swab-summer/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

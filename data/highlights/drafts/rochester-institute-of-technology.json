@@ -10,9 +10,13 @@
         {
           "title": "International Student Life | Admissions and Aid | RIT",
           "url": "https://www.rit.edu/admissions/international/life-at-rit",
-          "quote": "First-year undergraduate students are required to live on campus and have guaranteed housing."
+          "quote": "First-year undergraduate students are required to live on campus and have guaranteed housing.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rit.edu/admissions/international/life-at-rit",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

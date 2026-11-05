@@ -10,9 +10,13 @@
         {
           "title": "Transfers and Graduates - Rowan Sites",
           "url": "https://sites.rowan.edu/housing/apply/transfer-and-graduates.html",
-          "quote": "Rowan University has a mandatory housing policy for students in their first or second year at the institution, requiring students to live in campus housing."
+          "quote": "Rowan University has a mandatory housing policy for students in their first or second year at the institution, requiring students to live in campus housing.",
+          "httpStatus": 200,
+          "finalUrl": "https://sites.rowan.edu/housing/apply/transfer-and-graduates.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

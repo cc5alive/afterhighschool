@@ -27,9 +27,15 @@
         {
           "title": "An invitation to apply for the position of president Reed College",
           "url": "https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf",
-          "quote": "All students must complete a senior thesis to graduate. A yearlong endeavor, often including original research and creative production, the thesis is followed by an oral defense before professors from several fields."
+          "quote": "All students must complete a senior thesis to graduate. A yearlong endeavor, often including original research and creative production, the thesis is followed by an oral defense before professors from several fields.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "All students must pass a junior qualifying exam testing their knowledge within their major before advancing to their senior thesis.",
@@ -37,9 +43,15 @@
         {
           "title": "An invitation to apply for the position of president Reed College",
           "url": "https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf",
-          "quote": "All students must pass a junior qualifying exam, a comprehensive test of their knowledge of the major fields within their chosen major."
+          "quote": "All students must pass a junior qualifying exam, a comprehensive test of their knowledge of the major fields within their chosen major.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

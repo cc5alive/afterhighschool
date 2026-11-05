@@ -10,9 +10,14 @@
         {
           "title": "The Franklin & Marshall Curriculum - Academic Catalog",
           "url": "https://catalog.fandm.edu/content.php?catoid=4&navoid=104",
-          "quote": "Students who enroll in a particular Connections seminar live together in one of the College Houses. This promotes an integration of the residence hall and"
+          "quote": "Students who enroll in a particular Connections seminar live together in one of the College Houses. This promotes an integration of the residence hall and",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.fandm.edu/content.php?catoid=4&navoid=104",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

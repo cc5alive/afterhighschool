@@ -10,9 +10,13 @@
         {
           "title": "Admitted Students - Drexel University",
           "url": "https://drexel.edu/admissions/undergrad/admitted-students",
-          "quote": "Students who enter as first-year students are required to live on campus or with a parent or legal guardian residing within ten miles of campus for their first two years."
+          "quote": "Students who enter as first-year students are required to live on campus or with a parent or legal guardian residing within ten miles of campus for their first two years.",
+          "httpStatus": 200,
+          "finalUrl": "https://drexel.edu/admissions/undergrad/admitted-students",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
