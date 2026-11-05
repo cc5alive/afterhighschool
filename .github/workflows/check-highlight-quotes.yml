@@ -27,4 +27,4 @@ jobs:
           git config user.name "afterhighschool-bot"
           git config user.email "hello@afterhighschool.me"
           git add data/highlights/drafts
-          git diff --cached --quiet || (git commit -m "Quote check results [skip ci]" && git pull --rebase && git push)
+          git diff --cached --quiet || (git commit -m "Quote check results [skip ci]" && git pull --rebase -X theirs && git push)

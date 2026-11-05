@@ -1,0 +1,46 @@
+{
+  "_about": "Schools that have closed, are closing, merged or changed in ways federal data hasn't caught up with yet. kind: closed | closing | merged | changed. listed:false hides the school from the directory, state and topic lists, similar-school suggestions and the sitemap; its page stays up with the notice. Recheck each entry when the Scorecard pull changes.",
+  "schools": {
+    "trinity-christian-college": {
+      "kind": "closed", "listed": false, "checkedAt": "2026-11-05",
+      "headline": "Trinity Christian College has closed.",
+      "text": "The college closed after the 2025–26 school year and held its last commencement in 2026. It arranged teach-outs with Saint Xavier University, Calvin University and Olivet Nazarene University so current students could finish their degrees. The numbers below describe the college before it closed.",
+      "sources": [{ "title": "Trinity Christian College to close after 2025-26 academic year | Higher Ed Dive", "url": "https://www.highereddive.com/news/trinity-christian-college-closure/804807/" }]
+    },
+    "university-of-providence": {
+      "kind": "closing", "listed": true, "checkedAt": "2026-11-05",
+      "headline": "The University of Providence is closing in summer 2027.",
+      "text": "Its board voted on October 27, 2026, to close at the end of summer 2027. The university says it will share a teach-out plan and keep current students' out-of-pocket costs from going above what they would have paid if it stayed open. If you're thinking about applying, talk to the university first.",
+      "sources": [
+        { "title": "University of Providence to shutter in summer 2027 | Higher Ed Dive", "url": "https://www.highereddive.com/news/university-of-providence-to-shutter-in-summer-2027/873123/" },
+        { "title": "University of Providence to close following 2026-27 academic year | NBC Montana", "url": "https://nbcmontana.com/news/local/university-of-providence-to-close-following-2026-27-academic-year-due-to-financial-woes" }
+      ]
+    },
+    "cambridge-college": {
+      "kind": "merged", "listed": true, "checkedAt": "2026-11-05",
+      "headline": "Cambridge College is now part of Bay Path University.",
+      "text": "Bay Path University completed its acquisition of Cambridge College on July 1, 2024. Cambridge College still enrolls students and runs its own programs as part of Bay Path.",
+      "related": "bay-path-university",
+      "sources": [{ "title": "Bay Path University officially acquires Cambridge College | Cambridge College", "url": "https://www.cambridgecollege.edu/news/bay-path-university-officially-acquires-cambridge-college" }]
+    },
+    "northcentral-university": {
+      "kind": "merged", "listed": false, "checkedAt": "2026-11-05",
+      "headline": "Northcentral University is now part of National University.",
+      "text": "The two universities completed their merger in fall 2022. Northcentral's programs and faculty continue under National University, so apply there instead.",
+      "related": "national-university",
+      "sources": [{ "title": "National and Northcentral have merged | National University", "url": "https://www.nu.edu/national-and-northcentral-have-merged/" }]
+    },
+    "trinity-international-university-illinois": {
+      "kind": "changed", "listed": true, "checkedAt": "2026-11-05",
+      "headline": "Trinity International University no longer offers on-campus undergraduate study in Deerfield.",
+      "text": "In March 2023 its board voted to end residential and in-person undergraduate education after that spring, apart from a combined BA/MDiv program. Its undergraduate college moved fully online. Its divinity and law schools still hold in-person programs.",
+      "sources": [{ "title": "Reimagining the Future | Trinity International University", "url": "https://www.tiu.edu/reimagining-the-future/" }]
+    },
+    "bethany-global-university": {
+      "kind": "changed", "listed": true, "checkedAt": "2026-11-05",
+      "headline": "Bethany Global University has moved online.",
+      "text": "In 2024 the university shifted from in-person classes to an online platform and put its 32-acre Bloomington campus up for sale. Its first full-time online class started in fall 2024.",
+      "sources": [{ "title": "Transwestern markets prime 32-acre site in Bloomington, Minnesota | Transwestern", "url": "https://transwestern.com/news-detail/transwestern-markets-prime-32-acre-site-in-bloomington-minnesota" }]
+    }
+  }
+}

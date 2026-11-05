@@ -30,6 +30,18 @@
 .button.secondary { background: transparent; color: var(--ink); }
 .button.secondary:hover { background: var(--card); color: var(--ink); }
 
+/* Closed / closing / merged / changed school notice: sits above everything else on the page */
+.status-notice {
+  border: 2px solid var(--ink); border-left-width: 8px; background: var(--card);
+  padding: 16px 20px; border-radius: 0 10px 10px 0; margin: 0 0 24px; max-width: 46em;
+}
+.status-notice p { margin: 0 0 8px; }
+.status-notice p:last-child { margin-bottom: 0; }
+.status-head { font-size: 1.15rem; }
+.status-closed, .status-closing { border-color: var(--gap); }
+.status-merged, .status-changed { border-color: var(--trade); }
+.status-src { font-size: 0.85rem; color: var(--muted); }
+
 .notice {
   border-left: 5px solid var(--trade); background: var(--card);
   padding: 14px 18px; border-radius: 0 10px 10px 0; margin: 0 0 24px; max-width: 46em;

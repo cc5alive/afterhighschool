@@ -14,7 +14,7 @@ const docs = fs.readdirSync(DIR).filter((f) => f.endsWith('.json'))
   .map((f) => ({ f, d: JSON.parse(fs.readFileSync(`${DIR}/${f}`, 'utf8')) }));
 const todo = [];
 for (const { d } of docs) for (const fact of d.facts) for (const s of fact.sources) {
-  if (s.quoteFound !== true && !s.browserChecked) todo.push(s);
+  if (s.quoteFound !== true && (!s.browserChecked || s.closest === undefined)) todo.push(s);
 }
 console.log(`browser-checking ${todo.length} sources`);
 
@@ -38,11 +38,30 @@ async function text(url) {
   return t;
 }
 
+// For quotes that still aren't found verbatim, keep the page passage that shares the
+// most words with the quote, so a reviewer can check the fact against what the page says.
+const words = (x) => x.split(/[^a-z0-9$%]+/).filter((w) => w.length > 2);
+function closest(t, quote) {
+  const q = new Set(words(norm(quote)));
+  if (!q.size) return { text: '', score: 0 };
+  const tw = t.split(' ');
+  const n = Math.max(12, Math.min(80, norm(quote).split(' ').length + 10));
+  let best = { i: 0, score: 0 };
+  for (let i = 0; i < tw.length; i += 4) {
+    const win = new Set(words(tw.slice(i, i + n).join(' ')));
+    let hit = 0; for (const w of q) if (win.has(w)) hit++;
+    if (hit / q.size > best.score) best = { i, score: hit / q.size };
+  }
+  return { text: tw.slice(best.i, best.i + n).join(' '), score: Math.round(best.score * 100) / 100 };
+}
+
 let found = 0;
 for (const s of todo) {
   const t = await text(s.url);
   s.browserChecked = true;
-  if (t && s.quote && t.includes(norm(s.quote))) { s.quoteFound = true; found++; }
+  if (t && s.quote && t.includes(norm(s.quote))) { s.quoteFound = true; found++; continue; }
+  if (t && s.quote) { const c = closest(t, s.quote); s.closest = c.text; s.closestScore = c.score; }
+  else s.closest = null;
 }
 await browser.close();
 

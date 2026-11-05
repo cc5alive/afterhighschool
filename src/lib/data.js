@@ -28,12 +28,20 @@ function enrich(s) {
   return { ...s, satLow, satHigh, sizeBand, stateName: STATE_NAMES[s.state] };
 }
 
-export const schools = snapshot.schools.map(enrich);
+import statusFile from '../../data/school-status.json';
+
+// Closed, closing, merged or changed schools (see data/school-status.json).
+export const schoolStatus = new Map(Object.entries(statusFile.schools));
+const isListed = (s) => schoolStatus.get(s.slug)?.listed !== false;
+
+// Every school gets a page; `schools` (used by lists, the directory and the sitemap) leaves out unlisted ones.
+export const allSchools = snapshot.schools.map(enrich);
+export const schools = allSchools.filter(isListed);
 
 // Reviewed "What's special" facts: data/highlights/<slug>.json, one file per school.
 const highlightFiles = import.meta.glob('../../data/highlights/*.json', { eager: true, import: 'default' });
 export const highlights = new Map(Object.values(highlightFiles).map((h) => [h.slug, h]));
-export const bySlug = new Map(schools.map((s) => [s.slug, s]));
+export const bySlug = new Map(allSchools.map((s) => [s.slug, s]));
 export const states = Object.keys(STATE_NAMES)
   .map((code) => ({ code, name: STATE_NAMES[code], slug: stateSlug(code), count: schools.filter((s) => s.state === code).length }))
   .filter((st) => st.count > 0);
@@ -48,7 +56,7 @@ export function similarSchools(s, n = 6) {
     (o.ownership === s.ownership ? 0 : 0.6) +
     (o.state === s.state ? 0 : 0.35);
   return schools
-    .filter((o) => o.id !== s.id && o.undergrads && o.ownership !== 'private_for_profit')
+    .filter((o) => o.id !== s.id && o.undergrads && o.ownership !== 'private_for_profit' && !schoolStatus.has(o.slug))
     .map((o) => ({ o, d: score(o) }))
     .sort((a, b) => a.d - b.d)
     .slice(0, n)
@@ -60,7 +68,7 @@ export function easierSchools(s, n = 4) {
   if (s.admitRate == null || s.admitRate > 0.75) return [];
   const lg = (v) => (v ? Math.log10(v) : 3);
   return schools
-    .filter((o) => o.id !== s.id && o.admitRate != null && o.admitRate >= s.admitRate + 0.15 && o.undergrads && o.ownership !== 'private_for_profit')
+    .filter((o) => o.id !== s.id && o.admitRate != null && o.admitRate >= s.admitRate + 0.15 && o.undergrads && o.ownership !== 'private_for_profit' && !schoolStatus.has(o.slug))
     .map((o) => ({
       o,
       d: Math.abs(lg(o.undergrads) - lg(s.undergrads)) +

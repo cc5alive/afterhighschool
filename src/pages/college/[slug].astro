@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Stat from '../../components/Stat.astro';
-import { schools, similarSchools, easierSchools, pulledDate, stateSlug, highlights } from '../../lib/data.js';
+import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug } from '../../lib/data.js';
 import {
   pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
   INCOME_BAND_LABEL, admitRateText, scorecardUrl
@@ -9,7 +9,7 @@ import {
 import { COLLEGES_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
 
 export function getStaticPaths() {
-  return schools.map((s) => ({ params: { slug: s.slug }, props: { s } }));
+  return allSchools.map((s) => ({ params: { slug: s.slug }, props: { s } }));
 }
 
 const { s } = Astro.props;
@@ -20,6 +20,9 @@ const similar = similarSchools(s);
 const hl = highlights.get(s.slug);
 const reviewedDate = hl && new Date(`${hl.reviewedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 const easier = easierSchools(s);
+const status = schoolStatus.get(s.slug);
+const statusRelated = status?.related && bySlug.get(status.related);
+const statusChecked = status && new Date(`${status.checkedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 
 const bands = Object.entries(s.netPriceByIncome).map(([k, v]) => ({ k, label: INCOME_BAND_LABEL[k], v }));
 const bandMax = Math.max(1, ...bands.map((b) => b.v ?? 0), s.costOfAttendance ?? 0);
@@ -56,7 +59,7 @@ const jsonLd = {
 const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
 ---
 <Layout title={`${s.name} — admissions, cost and outcomes | After High School`} description={description}
-  path={`/college/${s.slug}`} nav="colleges" noindex={!COLLEGES_LAUNCHED} jsonLd={jsonLd}>
+  path={`/college/${s.slug}`} nav="colleges" noindex={!COLLEGES_LAUNCHED || status?.listed === false} jsonLd={jsonLd}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb">
       <a href="/colleges">Colleges</a> <span aria-hidden="true">/</span>
@@ -70,9 +73,18 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
       <p class="school-links">
         {site && <a class="button" href={site} rel="noopener" target="_blank">School website</a>}
         {calc && <a class="button secondary" href={calc} rel="noopener" target="_blank">Net price calculator</a>}
-        <a class="button secondary" href={`/compare?schools=${s.slug}`}>Compare</a>
+        {status?.listed !== false && <a class="button secondary" href={`/compare?schools=${s.slug}`}>Compare</a>}
       </p>
     </header>
+
+    {status && (
+      <aside class={`status-notice status-${status.kind}`} role="note">
+        <p class="status-head"><strong>{status.headline}</strong></p>
+        <p>{status.text}</p>
+        {statusRelated && <p><a href={`/college/${statusRelated.slug}`}>See {statusRelated.name}</a></p>}
+        <p class="status-src">Source{status.sources.length > 1 ? 's' : ''}: {status.sources.map((x, i) => <>{i > 0 && ', '}<a href={x.url} rel="nofollow noopener">{x.title}</a></>)}. Checked {statusChecked}.</p>
+      </aside>
+    )}
 
     {s.ownership === 'private_for_profit' && (
       <aside class="notice">
