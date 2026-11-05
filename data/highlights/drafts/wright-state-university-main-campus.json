@@ -10,14 +10,27 @@
         {
           "title": "Take Flight Program | Enrollment Services - Wright State University",
           "url": "https://www.wright.edu/enrollment-services/financial-aid/take-flight-program",
-          "quote": "In addition to covering the cost of undergraduate tuition, the program also provides the following benefits: Personal laptop for each participant. $100 textbook voucher for each year of participation."
+          "quote": "In addition to covering the cost of undergraduate tuition, the program also provides the following benefits: Personal laptop for each participant. $100 textbook voucher for each year of participation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wright.edu/enrollment-services/financial-aid/take-flight-program",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "by the free application for federal student aid (fafsa) benefits in addition to covering the cost of undergraduate tuition, the program also provides the following benefits: personal laptop for each participant $100 textbook voucher for each year of participation",
+          "closestScore": 1
         },
         {
           "title": "Take Flight Program | Enrollment Services - Wright State University",
           "url": "https://www.wright.edu/enrollment-services/financial-aid/take-flight-program",
-          "quote": "Have a Student AId Index (SAI) of 2,200 or less. Maintain Ohio residency. Enroll full time on the Dayton campus."
+          "quote": "Have a Student AId Index (SAI) of 2,200 or less. Maintain Ohio residency. Enroll full time on the Dayton campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wright.edu/enrollment-services/financial-aid/take-flight-program",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "for the program, students must meet the following: enroll at wright state university's dayton campus directly from high school as a first-time, full-time student for fall 2027 be an ohio",
+          "closestScore": 0.5
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

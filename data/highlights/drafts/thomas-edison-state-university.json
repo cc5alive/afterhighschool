@@ -10,9 +10,13 @@
         {
           "title": "Transfer Credit - Thomas Edison State University - smartcatalogiq.com",
           "url": "https://www.tesu.edu/academics/catalog/transfer-credit",
-          "quote": "maximum of 90 semester hours of community or junior college courses;"
+          "quote": "maximum of 90 semester hours of community or junior college courses;",
+          "httpStatus": 200,
+          "finalUrl": "https://tesu.smartcatalogiq.com/current/undergraduate-catalog/methods-of-learning-and-earning-credit/transfer-credit/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

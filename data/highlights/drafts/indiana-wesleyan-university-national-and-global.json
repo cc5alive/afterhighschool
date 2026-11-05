@@ -10,9 +10,13 @@
         {
           "title": "Global - Online Bachelor in Social Work - Indiana Wesleyan University",
           "url": "https://www.indwes.edu/program/bs-social-work/global/",
-          "quote": "Students take one course at a time in an accelerated format, allowing them to focus deeply on each subject."
+          "quote": "Students take one course at a time in an accelerated format, allowing them to focus deeply on each subject.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.indwes.edu/program/bs-social-work/global/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

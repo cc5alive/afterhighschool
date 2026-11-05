@@ -10,9 +10,13 @@
         {
           "title": "Office of Residential Experience and Community Standards",
           "url": "https://www.saintleo.edu/student-experience/on-campus/residence-life",
-          "quote": "All full-time University Campus students are required to live on campus. Exceptions are allowed for students living and commuting from home, married students, veterans, non-traditional students, or senior students who have earned over 90 credit hours."
+          "quote": "All full-time University Campus students are required to live on campus. Exceptions are allowed for students living and commuting from home, married students, veterans, non-traditional students, or senior students who have earned over 90 credit hours.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.saintleo.edu/student-experience/on-campus/residence-life",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

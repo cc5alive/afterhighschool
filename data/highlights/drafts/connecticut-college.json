@@ -10,14 +10,21 @@
         {
           "title": "Housing - Connecticut College",
           "url": "https://www.conncoll.edu/admission/faq/housing/",
-          "quote": "You are guaranteed housing for all four years."
+          "quote": "You are guaranteed housing for all four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.conncoll.edu/admission/faq/housing/",
+          "quoteFound": true
         },
         {
           "title": "Housing - Connecticut College",
           "url": "https://www.conncoll.edu/admission/faq/housing/",
-          "quote": "Students are required to live in residence at the College unless they are living with their parents, guardians, spouse or dependents within a 50-mile radius of the campus."
+          "quote": "Students are required to live in residence at the College unless they are living with their parents, guardians, spouse or dependents within a 50-mile radius of the campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.conncoll.edu/admission/faq/housing/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

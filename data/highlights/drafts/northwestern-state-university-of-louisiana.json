@@ -10,9 +10,13 @@
         {
           "title": "Northwestern State University Campus Housing",
           "url": "https://www.nsula.edu/life-at-nsu/campus-housing/",
-          "quote": "Per University of Louisiana System policy, all unmarried, full-time undergraduate students are required to live on campus unless they qualify for an exemption."
+          "quote": "Per University of Louisiana System policy, all unmarried, full-time undergraduate students are required to live on campus unless they qualify for an exemption.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nsula.edu/life-at-nsu/campus-housing/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

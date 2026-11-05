@@ -1,9 +1,9 @@
 # Quote check
 
-Checked 143 sources on 2026-11-05.
+Checked 154 sources on 2026-11-05.
 
-- Quote found on page: 2
-- Page loaded, quote not found: 51
+- Quote found on page: 11
+- Page loaded, quote not found: 53
 - Page failed to load: 90
 
 | School | Status | Quote found | URL |
@@ -36,6 +36,8 @@ Checked 143 sources on 2026-11-05.
 | colorado-christian-university | 200 | no | https://www.ccu.edu/_files/documents/cus/lifestyle-covenant.pdf |
 | colorado-christian-university | 200 | no | https://www.ccu.edu/_files/documents/cus/lifestyle-covenant.pdf |
 | commonwealth-university-of-pennsylvania | 200 | no | https://www.commonwealthu.edu/campus-life/lock-haven/housing/housing-selection |
+| connecticut-college | 200 | yes | https://www.conncoll.edu/admission/faq/housing/ |
+| connecticut-college | 200 | yes | https://www.conncoll.edu/admission/faq/housing/ |
 | cuny-bernard-m-baruch-college | 0 | page failed | https://zicklin.baruch.cuny.edu/faculty-research/centers-institutes/subotnick-financial-services-center/ |
 | dakota-wesleyan-university | 0 | page failed | https://www.dwu.edu/Undergraduate-Programs |
 | delaware-valley-university | 403 | page failed | https://delval.edu/cspd/e360 |
@@ -61,6 +63,7 @@ Checked 143 sources on 2026-11-05.
 | high-point-university | 0 | page failed | https://you.highpoint.edu/lifeskills/ |
 | hiram-college | 0 | page failed | https://www.hiram.edu/academics/undergraduate-experience/the-hiram-plan/ |
 | houston-christian-university | 403 | page failed | https://hc.edu/online-learning/orientation/online-clw/ |
+| indiana-wesleyan-university-national-and-global | 200 | yes | https://www.indwes.edu/program/bs-social-work/global/ |
 | jacksonville-university | 200 | no | https://www.ju.edu/socialscience/HistoryBA-BSCurriculumGuide23-24.pdf |
 | judson-university | 403 | page failed | https://www.judsonu.edu/program/rise-program/ |
 | lake-forest-college | 200 | no | https://www.lakeforest.edu/admissions/forester-flagship-program |
@@ -73,9 +76,12 @@ Checked 143 sources on 2026-11-05.
 | minot-state-university | 200 | no | https://www.minotstateu.edu/finaid/npcalc.shtml |
 | morehead-state-university | 403 | page failed | https://www.moreheadstate.edu/academics/colleges/science/engineering-sciences/space-science-center/ |
 | morehead-state-university | 403 | page failed | https://www.moreheadstate.edu/academics/colleges/science/engineering-sciences/space-science-center/ |
+| murray-state-university | 200 | yes | https://www.murraystate.edu/campus/Housing/housingfaq.aspx |
+| murray-state-university | 200 | yes | https://www.murraystate.edu/campus/ResidentialColleges/index.aspx |
 | neumont-college-of-computer-science | 200 | no | https://www.neumont.edu/3-plus-1 |
 | north-central-college | 403 | page failed | https://www.northcentralcollege.edu/cardinal-pledge |
 | northwest-nazarene-university | 202 | no | https://nnu.edu/admissions-aid/undergraduate-admissions/transfer-to-nnu/faqs-for-transfers/ |
+| northwestern-state-university-of-louisiana | 200 | yes | https://www.nsula.edu/life-at-nsu/campus-housing/ |
 | nossi-college-of-art-and-design | 403 | page failed | https://nossi.edu/admissions/adult-and-military-students/ |
 | ohio-christian-university | 200 | no | https://info.ohiochristian.edu/TrailGuideFall.pdf |
 | ohio-state-university-lima-campus | 403 | page failed | https://lima.osu.edu/financial-aid/ohio-state-grants |
@@ -98,6 +104,7 @@ Checked 143 sources on 2026-11-05.
 | reed-college | 200 | no | https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf |
 | reed-college | 200 | no | https://www.reed.edu/presidential-search/assets/downloads/presidential-search-position-statement.pdf |
 | rutgers-university-newark | 200 | no | https://myrun.newark.rutgers.edu/financing-your-education |
+| saint-leo-university | 200 | yes | https://www.saintleo.edu/student-experience/on-campus/residence-life |
 | savannah-college-of-art-and-design | 403 | page failed | https://www.scad.edu/academics/programs/architecture/accelerated-licensure |
 | savannah-college-of-art-and-design | 403 | page failed | https://www.scad.edu/content/two-year-residential-requirement |
 | savannah-college-of-art-and-design | 403 | page failed | https://www.scad.edu/content/prepare-life-scad |
@@ -116,8 +123,10 @@ Checked 143 sources on 2026-11-05.
 | the-catholic-university-of-america | 403 | page failed | https://www.catholic.edu/faith-service/our-catholic-identity |
 | the-catholic-university-of-america | 403 | page failed | https://www.catholic.edu/faith-service/our-catholic-identity |
 | the-new-school | 429 | page failed | https://www.newschool.edu/academics/ |
+| the-new-school | 200 | yes | https://archive2425.catalog.newschool.edu/student-life/housing-and-residential-education |
 | the-southern-baptist-theological-seminary | 200 | no | https://www.sbts.edu/financial-aid/tuition/ |
 | the-university-of-olivet | 202 | no | https://www.uolivet.edu/academics/uolivet-advantage/ |
+| thomas-edison-state-university | 200 | yes | https://www.tesu.edu/academics/catalog/transfer-credit |
 | thomas-more-university | 403 | page failed | https://www.thomasmore.edu/admissions/saints-essentials/ |
 | university-of-arkansas-at-pine-bluff | 200 | no | https://uapb.edu/wp-content/uploads/2024/10/UAPB-Chancellor-Prospectus-Final.pdf |
 | university-of-california-davis | 403 | page failed | https://siss.ucdavis.edu/international-guide/academic-success |
@@ -151,3 +160,5 @@ Checked 143 sources on 2026-11-05.
 | william-peace-university | 0 | page failed | https://peace.edu/students-find-confidence-clarity-and-purpose-through-internships/ |
 | william-peace-university | 0 | page failed | https://peace.edu/counselors/ |
 | williams-college | 403 | page failed | https://www.williams.edu/academics/undergraduate-study/tutorials/ |
+| wright-state-university-main-campus | 200 | no | https://www.wright.edu/enrollment-services/financial-aid/take-flight-program |
+| wright-state-university-main-campus | 200 | no | https://www.wright.edu/enrollment-services/financial-aid/take-flight-program |
