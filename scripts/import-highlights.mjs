@@ -1,10 +1,15 @@
 // Import externally researched highlight drafts (e.g. from Gemini) for review.
-// Usage: node scripts/import-highlights.mjs path/to/batch.json
+// Usage: node scripts/import-highlights.mjs path/to/batch.json [--depth]
+//   --depth  accept schools that already have published facts (for adding more facts to them);
+//            new facts that repeat a published or drafted fact are skipped.
 // Accepts a JSON array or JSON Lines. Valid entries are written to data/highlights/drafts/<slug>.json,
 // which the site does NOT render. Each draft gets source-checked before it moves up to data/highlights/.
 import fs from 'node:fs';
 
-const file = process.argv[2];
+const file = process.argv.slice(2).find((a) => !a.startsWith('--'));
+const DEPTH = process.argv.includes('--depth');
+const key = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+const readJson = (p) => (fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null);
 if (!file) { console.error('Usage: node scripts/import-highlights.mjs <file>'); process.exit(1); }
 
 const raw = fs.readFileSync(file, 'utf8').trim();
@@ -23,7 +28,10 @@ const report = { written: [], skipped: [] };
 for (const e of entries) {
   const problems = [];
   if (!slugs.has(e.slug)) problems.push('unknown slug');
-  if (fs.existsSync(`data/highlights/${e.slug}.json`)) problems.push('already published');
+  const published = readJson(`data/highlights/${e.slug}.json`);
+  const draft = readJson(`data/highlights/drafts/${e.slug}.json`);
+  if (published && !DEPTH) problems.push('already published');
+  const seen = new Set([...(published?.facts || []), ...(draft?.facts || [])].map((f) => key(f.text)));
   const facts = (e.facts || []).filter((f) => {
     const p = [];
     if (!f.text || f.text.length < 40 || f.text.length > 360) p.push('text length');
@@ -32,10 +40,11 @@ for (const e of entries) {
       if (!/^https:\/\//.test(s.url || '')) p.push(`bad url ${s.url}`);
       else if (BAD_HOSTS.test(new URL(s.url).hostname)) p.push(`weak source ${s.url}`);
     }
+    if (seen.has(key(f.text))) p.push('repeats an existing fact');
     if (p.length) problems.push(`fact dropped (${p.join(', ')}): ${String(f.text).slice(0, 60)}…`);
     return !p.length;
   });
-  if (!slugs.has(e.slug) || !facts.length || fs.existsSync(`data/highlights/${e.slug}.json`)) {
+  if (!slugs.has(e.slug) || !facts.length || (published && !DEPTH)) {
     report.skipped.push({ slug: e.slug, problems });
     continue;
   }
@@ -44,7 +53,7 @@ for (const e of entries) {
     reviewedBy: 'draft-external',
     reviewedAt: null,
     researchedAt: e.researchedAt || null,
-    facts: facts.map((f) => ({ text: f.text, sources: f.sources.map((s) => ({ title: s.title, url: s.url, quote: s.quote || null })) })),
+    facts: [...(draft?.facts || []), ...facts.map((f) => ({ text: f.text, sources: f.sources.map((s) => ({ title: s.title, url: s.url, quote: s.quote || null })) }))],
     concerns: e.concerns || null
   };
   fs.writeFileSync(`data/highlights/drafts/${e.slug}.json`, JSON.stringify(out, null, 2) + '\n');
