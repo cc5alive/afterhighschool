@@ -28,7 +28,7 @@ for (const arg of args.filter((x) => !x.startsWith('--'))) {
     if (chosen && (f.quoteVerified || force)) {
       pub.facts.push({
         text: edits.get(`${slug}:${i}`) || f.text,
-        sources: f.sources.map((s) => ({ title: s.title, url: s.finalUrl || s.url }))
+        sources: [...new Map(f.sources.map((s) => [s.finalUrl || s.url, { title: s.title, url: s.finalUrl || s.url }])).values()]
       });
     } else if (!chosen) keep.push(f);
     else console.log(`skip ${slug}:${i} (quote not verified)`);
