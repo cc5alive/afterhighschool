@@ -48,6 +48,13 @@
 .block h2 { font-size: 1.5rem; font-weight: 800; margin: 0 0 14px; }
 .block h3 { font-size: 1.05rem; font-weight: 800; margin: 18px 0 8px; }
 .block-lede { color: var(--muted); max-width: 40em; margin: -4px 0 18px; }
+.highlights { list-style: none; margin: 0 0 12px; padding: 0; display: grid; gap: 18px; max-width: 44em; }
+.highlights li { border-left: 4px solid var(--college); padding: 2px 0 2px 16px; }
+.highlights p { margin: 0; }
+.highlights .hl-src { margin-top: 4px; font-size: 0.85rem; color: var(--muted); }
+.highlights .hl-src a { color: var(--muted); }
+.highlights .hl-src a:hover { color: var(--college); }
+.hl-meta { font-size: 0.875rem; color: var(--muted); max-width: 44em; margin: 0 0 20px; }
 .pending-note { color: var(--muted); max-width: 40em; margin: 0 0 20px; }
 
 .stat-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 40px; margin: 0 0 24px; }

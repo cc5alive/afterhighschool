@@ -29,6 +29,10 @@ function enrich(s) {
 }
 
 export const schools = snapshot.schools.map(enrich);
+
+// Reviewed "What's special" facts: data/highlights/<slug>.json, one file per school.
+const highlightFiles = import.meta.glob('../../data/highlights/*.json', { eager: true, import: 'default' });
+export const highlights = new Map(Object.values(highlightFiles).map((h) => [h.slug, h]));
 export const bySlug = new Map(schools.map((s) => [s.slug, s]));
 export const states = Object.keys(STATE_NAMES)
   .map((code) => ({ code, name: STATE_NAMES[code], slug: stateSlug(code), count: schools.filter((s) => s.state === code).length }))

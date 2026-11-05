@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Stat from '../../components/Stat.astro';
-import { schools, similarSchools, easierSchools, pulledDate, stateSlug } from '../../lib/data.js';
+import { schools, similarSchools, easierSchools, pulledDate, stateSlug, highlights } from '../../lib/data.js';
 import {
   pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
   INCOME_BAND_LABEL, admitRateText, scorecardUrl
@@ -17,6 +17,8 @@ const src = scorecardUrl(s);
 const site = s.url ? (/^https?:\/\//.test(s.url) ? s.url : `https://${s.url}`) : null;
 const calc = s.priceCalculatorUrl ? (/^https?:\/\//.test(s.priceCalculatorUrl) ? s.priceCalculatorUrl : `https://${s.priceCalculatorUrl}`) : null;
 const similar = similarSchools(s);
+const hl = highlights.get(s.slug);
+const reviewedDate = hl && new Date(`${hl.reviewedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 const easier = easierSchools(s);
 
 const bands = Object.entries(s.netPriceByIncome).map(([k, v]) => ({ k, label: INCOME_BAND_LABEL[k], v }));
@@ -89,7 +91,23 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
 
     <section class="block" aria-labelledby="special">
       <h2 id="special">What's special</h2>
-      <p class="pending-note">Highlights for this school are being written and fact-checked by a person. Until then, everything on this page comes straight from federal data.</p>
+      {hl ? (
+        <>
+          <ul class="highlights">
+            {hl.facts.map((f) => (
+              <li>
+                <p>{f.text}</p>
+                <p class="hl-src">Source: {f.sources.map((x, i) => (
+                  <>{i > 0 && '; '}<a href={x.url} rel="noopener" target="_blank">{x.title}</a></>
+                ))}</p>
+              </li>
+            ))}
+          </ul>
+          <p class="hl-meta">Written by us from the linked sources and checked against them on {reviewedDate}. Programs and policies change, so confirm details with the school.</p>
+        </>
+      ) : (
+        <p class="pending-note">Highlights for this school are being written and checked against their sources. Until then, everything on this page comes straight from federal data.</p>
+      )}
     </section>
 
     <section class="block" aria-labelledby="getting-in">
