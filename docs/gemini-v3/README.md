@@ -12,3 +12,6 @@ Import results with `node scripts/import-highlights.mjs <file> --depth`.
 
 ## Redo files
 Gemini's search budget runs out after about 15–20 schools, so long files come back mostly empty. `redo-NN.md` files hold 15 schools each, collected from schools that came back with "search budget" notes or unreadable lines. Make more with `node scripts/make-gemini-depth.mjs --redo <name> <slug,slug,...>`.
+
+## Round 2 (r2-NN.md)
+20 files of 15 schools: the next 300 most-searched schools still short of four facts, skipping schools that already had a fair try this round and schools in files 01, 03 and 06.
