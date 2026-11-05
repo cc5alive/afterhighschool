@@ -1,29 +1,12 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>After High School — every path, with the real numbers</title>
-  <meta name="description" content="A free, honest guide to what comes after high school: your real college admission chances, plus trade schools, apprenticeships, gap years and fellowships. Every number linked to its source.">
-  <link rel="canonical" href="https://afterhighschool.me/">
-  <meta property="og:title" content="After High School">
-  <meta property="og:description" content="Every path after high school, with the real numbers. Join the waitlist.">
-  <meta property="og:url" content="https://afterhighschool.me/">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#16233B">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800;900&display=swap">
-  <link rel="stylesheet" href="/styles.css">
-</head>
-<body>
-  <header class="site-header">
-    <a class="wordmark" href="/">afterhighschool<span class="tld">.me</span></a>
-    <a class="header-link" href="#join">Join the waitlist</a>
-  </header>
-
-  <main>
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  title="After High School — every path, with the real numbers"
+  description="A free, honest guide to what comes after high school: your real college admission chances, plus trade schools, apprenticeships, gap years and fellowships. Every number linked to its source."
+  ogTitle="After High School"
+  path="/"
+>
     <section class="hero">
       <div class="hero-copy">
         <h1>Every road out of high school, with the real numbers.</h1>
@@ -115,13 +98,5 @@
         </div>
       </dl>
     </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>Made in Los Angeles by CC Pearce and Young Chu. Questions or ideas: <a href="mailto:hello@afterhighschool.me">hello@afterhighschool.me</a></p>
-    <p><a href="/privacy">Privacy</a></p>
-  </footer>
-
-  <script src="/app.js" defer></script>
-</body>
-</html>
+  <script is:inline slot="scripts" src="/app.js" defer></script>
+</Layout>

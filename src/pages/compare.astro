@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { COLLEGES_LAUNCHED } from '../lib/site.js';
+---
+<Layout title="Compare colleges side by side | After High School"
+  description="Compare up to four US colleges side by side: admit rate, test scores, real cost, graduation rate, earnings and debt."
+  path="/compare" nav="colleges" noindex={!COLLEGES_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Compare colleges</h1>
+    <p>Add up to four schools. Every number comes from College Scorecard; open a school's page to see sources and notes.</p>
+  </section>
+
+  <form class="compare-picker" id="picker" autocomplete="off">
+    <label class="field">
+      <span class="field-label">Add a school</span>
+      <input type="search" id="pick" placeholder="Start typing a college name" aria-controls="suggest" aria-autocomplete="list">
+    </label>
+    <ul class="suggest" id="suggest" role="listbox" hidden></ul>
+  </form>
+
+  <p class="empty-state" id="compare-empty">Pick a school to start. Tip: every school page has a Compare button.</p>
+  <div class="compare-wrap"><table class="compare-table" id="compare" hidden></table></div>
+
+  <script is:inline slot="scripts" src="/compare.js" defer></script>
+</Layout>

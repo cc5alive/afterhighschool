@@ -240,6 +240,7 @@ select:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 }
 .site-footer p { margin: 0; }
 .site-footer a { color: var(--muted); }
+.footer-links { display: flex; gap: 20px; }
 
 /* Privacy page */
 .prose { max-width: 40em; padding-top: 40px; padding-bottom: 72px; }

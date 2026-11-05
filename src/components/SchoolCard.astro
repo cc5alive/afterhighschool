@@ -1,0 +1,23 @@
+---
+import { OWNERSHIP_LABEL, admitRateText, money, pct, int } from '../lib/format.js';
+const { s } = Astro.props;
+const ar = admitRateText(s);
+---
+<li class="card"
+  data-name={s.name.toLowerCase() + ' ' + (s.city || '').toLowerCase()}
+  data-state={s.state} data-own={s.ownership} data-set={s.setting ?? ''}
+  data-size={s.sizeBand ?? ''} data-ar={s.admitRate ?? (s.openAdmission ? 1 : '')}
+  data-np={s.avgNetPrice ?? ''} data-tp={s.testPolicy ?? ''} data-gr={s.gradRate ?? ''}
+  data-earn={s.medianEarnings10yr ?? ''} data-slug={s.slug}>
+  <a class="card-link" href={`/college/${s.slug}`}>
+    <span class="card-name">{s.name}</span>
+    <span class="card-where">{s.city}, {s.stateName}</span>
+  </a>
+  <dl class="card-facts">
+    <div><dt>Type</dt><dd>{OWNERSHIP_LABEL[s.ownership] ?? '—'}</dd></div>
+    <div><dt>Undergrads</dt><dd>{int(s.undergrads) ?? '—'}</dd></div>
+    <div><dt>Admit rate</dt><dd>{ar ?? '—'}</dd></div>
+    <div><dt>Avg net price</dt><dd>{money(s.avgNetPrice) ?? '—'}</dd></div>
+    <div><dt>Graduates</dt><dd>{pct(s.gradRate) ?? '—'}</dd></div>
+  </dl>
+</li>

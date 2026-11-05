@@ -1,0 +1,105 @@
+---
+// Search + filters + results. Server-renders the first results so the page works without JavaScript;
+// /colleges.js then loads every school and takes over filtering.
+import SchoolCard from './SchoolCard.astro';
+import { states } from '../lib/data.js';
+
+const { initial, total, preset = {} } = Astro.props;
+---
+<form class="filters" id="filters" role="search" aria-label="Filter colleges" data-preset={JSON.stringify(preset)}>
+  <label class="field search">
+    <span class="field-label">Search by name or city</span>
+    <input type="search" name="q" autocomplete="off" placeholder="e.g. Michigan, Austin, Spelman">
+  </label>
+  <label class="field">
+    <span class="field-label">State</span>
+    <select name="state">
+      <option value="">All states</option>
+      {states.map((st) => <option value={st.code}>{st.name}</option>)}
+    </select>
+  </label>
+  <label class="field">
+    <span class="field-label">Type</span>
+    <select name="own">
+      <option value="">Any type</option>
+      <option value="public">Public</option>
+      <option value="private_nonprofit">Private nonprofit</option>
+      <option value="private_for_profit">Private for-profit</option>
+    </select>
+  </label>
+  <label class="field">
+    <span class="field-label">Admit rate</span>
+    <select name="ar">
+      <option value="">Any</option>
+      <option value="0-0.25">Under 25%</option>
+      <option value="0.25-0.5">25–50%</option>
+      <option value="0.5-0.75">50–75%</option>
+      <option value="0.75-1.01">Over 75%</option>
+      <option value="open">Open admission</option>
+    </select>
+  </label>
+  <details class="more-filters">
+    <summary>More filters</summary>
+    <div class="more-grid">
+      <label class="field">
+        <span class="field-label">Average net price</span>
+        <select name="np">
+          <option value="">Any price</option>
+          <option value="10000">Under $10,000</option>
+          <option value="15000">Under $15,000</option>
+          <option value="20000">Under $20,000</option>
+          <option value="30000">Under $30,000</option>
+        </select>
+      </label>
+      <label class="field">
+        <span class="field-label">Size</span>
+        <select name="size">
+          <option value="">Any size</option>
+          <option value="small">Small (under 2,000)</option>
+          <option value="medium">Medium (2,000–15,000)</option>
+          <option value="large">Large (over 15,000)</option>
+        </select>
+      </label>
+      <label class="field">
+        <span class="field-label">Setting</span>
+        <select name="set">
+          <option value="">Any setting</option>
+          <option value="city">City</option>
+          <option value="suburb">Suburb</option>
+          <option value="town">Town</option>
+          <option value="rural">Rural</option>
+        </select>
+      </label>
+      <label class="field">
+        <span class="field-label">Test scores</span>
+        <select name="tp">
+          <option value="">Any policy</option>
+          <option value="optional">Not required (test-optional or test-blind)</option>
+          <option value="required">Required</option>
+        </select>
+      </label>
+    </div>
+  </details>
+</form>
+
+<div class="result-bar">
+  <p class="result-count" id="result-count" aria-live="polite">{total.toLocaleString('en-US')} schools</p>
+  <label>Sort by
+    <select id="sort" name="sort" form="filters">
+      <option value="name">Name, A to Z</option>
+      <option value="ug">Size, largest first</option>
+      <option value="ar">Admit rate, lowest first</option>
+      <option value="np">Net price, lowest first</option>
+      <option value="gr">Graduation rate, highest first</option>
+      <option value="earn">Earnings, highest first</option>
+    </select>
+  </label>
+</div>
+
+<ul class="cards" id="results">
+  {initial.map((s) => <SchoolCard s={s} />)}
+</ul>
+<p class="empty-state" id="empty" hidden>No schools match those filters. Try removing one.</p>
+<p class="show-more"><button type="button" class="button secondary" id="show-more" hidden>Show more schools</button></p>
+
+<script is:inline src="/colleges.js" defer></script>

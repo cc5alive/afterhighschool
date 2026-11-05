@@ -3,10 +3,16 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "dev": "wrangler dev",
+    "build": "astro build",
+    "preview": "npm run build && wrangler dev",
+    "pull": "node scripts/pull-scorecard.mjs",
     "deploy": "wrangler deploy"
   },
   "devDependencies": {
     "wrangler": "^4.0.0"
-  }
+  },
+  "dependencies": {
+    "astro": "^7.4.5"
+  },
+  "type": "module"
 }

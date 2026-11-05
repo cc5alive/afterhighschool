@@ -1,0 +1,178 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Stat from '../../components/Stat.astro';
+import { schools, similarSchools, easierSchools, pulledDate, stateSlug } from '../../lib/data.js';
+import {
+  pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
+  INCOME_BAND_LABEL, admitRateText, scorecardUrl
+} from '../../lib/format.js';
+import { COLLEGES_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  return schools.map((s) => ({ params: { slug: s.slug }, props: { s } }));
+}
+
+const { s } = Astro.props;
+const src = scorecardUrl(s);
+const site = s.url ? (/^https?:\/\//.test(s.url) ? s.url : `https://${s.url}`) : null;
+const calc = s.priceCalculatorUrl ? (/^https?:\/\//.test(s.priceCalculatorUrl) ? s.priceCalculatorUrl : `https://${s.priceCalculatorUrl}`) : null;
+const similar = similarSchools(s);
+const easier = easierSchools(s);
+
+const bands = Object.entries(s.netPriceByIncome).map(([k, v]) => ({ k, label: INCOME_BAND_LABEL[k], v }));
+const bandMax = Math.max(1, ...bands.map((b) => b.v ?? 0), s.costOfAttendance ?? 0);
+const hasBands = bands.some((b) => b.v != null);
+
+const chips = [
+  OWNERSHIP_LABEL[s.ownership],
+  s.setting && SETTING_LABEL[s.setting],
+  s.undergrads != null && `${int(s.undergrads)} undergrads`,
+  s.hbcu && 'HBCU',
+  s.tribalCollege && 'Tribal college',
+  s.womenOnly && "Women's college",
+  s.menOnly && "Men's college",
+  s.onlineOnly && 'Online only'
+].filter(Boolean);
+
+const satRange = s.satLow && s.satHigh ? `${s.satLow}–${s.satHigh}` : null;
+const actRange = s.act.p25 && s.act.p75 ? `${s.act.p25}–${s.act.p75}` : null;
+const admit = admitRateText(s);
+const admitNote = s.admitRate != null
+  ? (s.admitRate < 0.1
+      ? `About 1 in ${Math.round(1 / Math.max(s.admitRate, 0.01))} applicants get in.`
+      : `About ${Math.round(s.admitRate * 10)} in 10 applicants get in.`)
+  : s.openAdmission ? 'Admits nearly everyone who applies.' : null;
+
+const description = `${s.name} in ${s.city}, ${s.stateName}: admit rate, test scores, real cost by family income, graduation rate and earnings, from federal data.`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollegeOrUniversity',
+  name: s.name,
+  ...(site ? { url: site } : {}),
+  address: { '@type': 'PostalAddress', addressLocality: s.city, addressRegion: s.state, postalCode: s.zip, addressCountry: 'US' }
+};
+const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
+---
+<Layout title={`${s.name} — admissions, cost and outcomes | After High School`} description={description}
+  path={`/college/${s.slug}`} nav="colleges" noindex={!COLLEGES_LAUNCHED} jsonLd={jsonLd}>
+  <article class="school">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/colleges">Colleges</a> <span aria-hidden="true">/</span>
+      <a href={`/colleges/${stateSlug(s.state)}`}>{s.stateName}</a>
+    </nav>
+
+    <header class="school-head">
+      <h1>{s.name}</h1>
+      <p class="school-where">{s.city}, {s.stateName}</p>
+      <ul class="chips">{chips.map((c) => <li>{c}</li>)}</ul>
+      <p class="school-links">
+        {site && <a class="button" href={site} rel="noopener" target="_blank">School website</a>}
+        {calc && <a class="button secondary" href={calc} rel="noopener" target="_blank">Net price calculator</a>}
+        <a class="button secondary" href={`/compare?schools=${s.slug}`}>Compare</a>
+      </p>
+    </header>
+
+    {s.ownership === 'private_for_profit' && (
+      <aside class="notice">
+        <strong>This is a for-profit school.</strong> Check the graduation rate, earnings and debt below closely, and compare with public options near you.
+      </aside>
+    )}
+
+    <section class="glance" aria-label="At a glance">
+      <dl class="glance-grid">
+        <Stat big label="Admit rate" value={admit} href={src} />
+        <Stat big label="Average net price" value={money(s.avgNetPrice)} note="per year, after grants" href={src} />
+        <Stat big label="Graduation rate" value={pct(s.gradRate)} note="within 6 years" href={src} />
+        <Stat big label="Median earnings" value={money(s.medianEarnings10yr)} note="10 years after starting" href={src} />
+      </dl>
+    </section>
+
+    <section class="block" aria-labelledby="special">
+      <h2 id="special">What's special</h2>
+      <p class="pending-note">Highlights for this school are being written and fact-checked by a person. Until then, everything on this page comes straight from federal data.</p>
+    </section>
+
+    <section class="block" aria-labelledby="getting-in">
+      <h2 id="getting-in">Getting in</h2>
+      <dl class="stat-grid">
+        <Stat label="Admit rate" value={admit} note={admitNote} href={src} />
+        <Stat label="Test policy" value={s.testPolicy && TEST_POLICY_LABEL[s.testPolicy]} note={s.testPolicy && TEST_POLICY_DETAIL[s.testPolicy]} href={src} />
+        <Stat label="SAT (middle 50%)" value={satRange} note={satRange && 'Reading + math, enrolled first-years who sent scores'} missing="Not reported" href={src} />
+        <Stat label="ACT (middle 50%)" value={actRange} note={actRange && 'Composite, enrolled first-years who sent scores'} missing="Not reported" href={src} />
+      </dl>
+      <div class="chances-slot">
+        <p><strong>Your chances here</strong> — a calculator that shows your odds as an honest range is coming. <a href="/#join">Join the waitlist</a> to hear when it opens.</p>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="cost">
+      <h2 id="cost">What it really costs</h2>
+      <p class="block-lede">Most families pay less than the sticker price. Net price is what's left after grants and scholarships.</p>
+      {hasBands ? (
+        <figure class="bars">
+          <figcaption>Average net price per year, by family income</figcaption>
+          <svg viewBox="0 0 520 200" role="img" aria-label={`Average net price by family income at ${s.name}`}>
+            {bands.map((b, i) => (
+              <g>
+                <text x="0" y={i * 38 + 24} class="bar-label">{b.label}</text>
+                <rect x="110" y={i * 38 + 8} height="22" rx="4" class="bar-track" width="300" />
+                {b.v != null && <rect x="110" y={i * 38 + 8} height="22" rx="4" class="bar-fill" width={Math.max(4, (b.v / bandMax) * 300)} />}
+                <text x="422" y={i * 38 + 24} class="bar-value">{b.v != null ? money(b.v) : 'Not reported'}</text>
+              </g>
+            ))}
+          </svg>
+          <a class="src" href={src} rel="noopener" target="_blank">Source: College Scorecard</a>
+        </figure>
+      ) : null}
+      <dl class="stat-grid">
+        <Stat label="Average net price" value={money(s.avgNetPrice)} note="full-time first-years who got grant aid" href={src} />
+        <Stat label="Total cost of attendance" value={money(s.costOfAttendance)} note="sticker price incl. housing, per year" href={src} />
+        <Stat label={s.ownership === 'public' ? 'Tuition, in-state' : 'Tuition'} value={money(s.tuitionInState)} href={src} />
+        {s.ownership === 'public' && <Stat label="Tuition, out-of-state" value={money(s.tuitionOutOfState)} href={src} />}
+      </dl>
+    </section>
+
+    <section class="block" aria-labelledby="outcomes">
+      <h2 id="outcomes">After you enroll</h2>
+      <dl class="stat-grid">
+        <Stat label="Graduation rate" value={pct(s.gradRate)} note="first-time, full-time students finishing within 6 years" href={src} />
+        <Stat label="Came back for year two" value={pct(s.retentionRate)} note="full-time first-year students" href={src} />
+        <Stat label="Median earnings" value={money(s.medianEarnings10yr)} note="10 years after starting, for students who got federal aid" href={src} />
+        <Stat label="Median debt at graduation" value={money(s.medianDebt)} note="federal loans, students who finished" href={src} />
+      </dl>
+    </section>
+
+    <section class="block" aria-labelledby="students">
+      <h2 id="students">Students</h2>
+      <dl class="stat-grid">
+        <Stat label="Undergraduates" value={int(s.undergrads)} href={src} />
+        <Stat label="Receive Pell grants" value={pct(s.pellRate)} note="a sign of economic diversity" href={src} />
+        <Stat label="First-generation students" value={pct(s.firstGenShare)} note="parents didn't go beyond high school" href={src} />
+      </dl>
+    </section>
+
+    {(similar.length > 0 || easier.length > 0) && (
+      <section class="block" aria-labelledby="similar">
+        <h2 id="similar">Similar schools</h2>
+        {easier.length > 0 && (
+          <>
+            <h3>Similar, and easier to get into</h3>
+            <ul class="mini-list">
+              {easier.map((o) => <li><a href={`/college/${o.slug}`}>{o.name}</a> <span>{o.city}, {o.state} — admits {pct(o.admitRate)}</span></li>)}
+            </ul>
+          </>
+        )}
+        <h3>Also worth a look</h3>
+        <ul class="mini-list">
+          {similar.map((o) => <li><a href={`/college/${o.slug}`}>{o.name}</a> <span>{o.city}, {o.state}{o.admitRate != null ? ` — admits ${pct(o.admitRate)}` : ''}</span></li>)}
+        </ul>
+      </section>
+    )}
+
+    <section class="block sources" aria-labelledby="sources">
+      <h2 id="sources">Where these numbers come from</h2>
+      <p>Every number on this page comes from the U.S. Department of Education's <a href={src} rel="noopener" target="_blank">College Scorecard page for {s.name}</a>, which draws on what the school reports to the federal government and on federal student aid and tax records. We last pulled the data on {pulledDate}. Different measures cover different years; <a href="/methodology">here's how each one works</a>.</p>
+      <p>Spot something wrong? <a href={errorMail}>Report a data error</a>.</p>
+    </section>
+  </article>
+</Layout>

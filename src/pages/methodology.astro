@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { schools, pulledDate } from '../lib/data.js';
+import { COLLEGES_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
+---
+<Layout title="How our data works | After High School"
+  description="Where every number on afterhighschool.me comes from, what each measure means, which schools are included and how often we update."
+  path="/methodology" nav="colleges" noindex={!COLLEGES_LAUNCHED}>
+  <article class="method">
+    <h1>How our data works</h1>
+    <p>Every number on our college pages comes from the U.S. Department of Education's <a href="https://collegescorecard.ed.gov/data/" rel="noopener" target="_blank">College Scorecard</a>. Scorecard combines what colleges report to the federal government (through the IPEDS surveys) with federal student aid and tax records. We don't edit the numbers; we choose which ones to show, explain them in plain words, and link every school back to its Scorecard page.</p>
+
+    <h2>Which schools are included</h2>
+    <p>{schools.length.toLocaleString('en-US')} schools: every currently operating college in the 50 states and DC whose main credential is a bachelor's degree or higher. Schools that mainly award certificates or associate degrees will appear with trade schools and community colleges later. For-profit colleges are included and labeled.</p>
+
+    <h2>How often we update</h2>
+    <p>We check Scorecard every week and rebuild the site when anything changes. The current data was pulled on {pulledDate}. Every pull is kept as a dated snapshot, so we can show what changed and when.</p>
+
+    <h2>What each number means</h2>
+    <dl>
+      <dt>Admit rate</dt>
+      <dd>Share of first-year applicants who were offered admission. Schools with open admission don't report one; we say so instead.</dd>
+      <dt>Test policy</dt>
+      <dd>What the school told the federal government about SAT and ACT scores: required, recommended, considered if sent (test-optional), or not considered (test-blind). Policies change, so confirm on the school's website.</dd>
+      <dt>SAT and ACT ranges</dt>
+      <dd>The middle 50% of scores among enrolled first-year students who sent scores. A quarter scored below the low number and a quarter above the high one. At test-optional schools these students may score higher than applicants overall.</dd>
+      <dt>Average net price</dt>
+      <dd>What full-time first-year students who received grant aid paid on average, after grants and scholarships. It includes tuition, fees, books, and living costs. By income band, it shows the same thing for families in each income range.</dd>
+      <dt>Total cost of attendance</dt>
+      <dd>The sticker price for a year before any aid, including housing and other costs.</dd>
+      <dt>Graduation rate</dt>
+      <dd>Share of first-time, full-time students who finished within six years (150% of normal time).</dd>
+      <dt>Came back for year two</dt>
+      <dd>Share of full-time first-year students who returned the following fall.</dd>
+      <dt>Median earnings</dt>
+      <dd>Middle earnings of former students ten years after they started, among those who received federal aid. It doesn't cover students who never got federal aid.</dd>
+      <dt>Median debt at graduation</dt>
+      <dd>Middle amount of federal student loan debt among students who finished. Private loans and parent loans aren't included.</dd>
+      <dt>Pell grants and first-generation share</dt>
+      <dd>Share of undergraduates receiving federal Pell grants (which go to lower-income students), and share whose parents' highest education was high school or less.</dd>
+    </dl>
+
+    <h2>What we don't do</h2>
+    <p>We don't rank colleges, and no school can pay to appear higher or look better. Sorting options are plain facts, like price or graduation rate. "Similar schools" are picked by size, selectivity, price, type and location, never by payment.</p>
+
+    <h2>Coming next</h2>
+    <p>For the most-searched schools we'll add data from each college's own Common Data Set (GPA profiles, early decision numbers, what admissions offices weigh), and short "What's special" notes written from sourced facts and checked by a person.</p>
+
+    <h2>Found a mistake?</h2>
+    <p>Email <a href={`mailto:${CONTACT_EMAIL}?subject=Data%20error`}>{CONTACT_EMAIL}</a> with the school and the number. We check every report.</p>
+  </article>
+</Layout>

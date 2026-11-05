@@ -1,0 +1,30 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Directory from '../../components/Directory.astro';
+import { schools, states, pulledDate } from '../../lib/data.js';
+import { COLLEGES_LAUNCHED } from '../../lib/site.js';
+
+const initial = schools.slice(0, 50);
+---
+<Layout title="Every US four-year college — admit rates, real costs, outcomes | After High School"
+  description={`Search and filter all ${schools.length.toLocaleString('en-US')} US four-year colleges by state, cost, admit rate, size and test policy, with federal data on every page.`}
+  path="/colleges" nav="colleges" noindex={!COLLEGES_LAUNCHED}>
+  <section class="dir-head">
+    <h1>Every four-year college in the US</h1>
+    <p>{schools.length.toLocaleString('en-US')} schools, from federal College Scorecard data last pulled {pulledDate}. Filter by what matters to you; every school page shows where each number comes from.</p>
+  </section>
+
+  <Directory initial={initial} total={schools.length} />
+
+  <section class="block" aria-labelledby="by-state">
+    <h2 id="by-state">Browse by state</h2>
+    <ul class="state-list">
+      {states.map((st) => <li><a href={`/colleges/${st.slug}`}>{st.name}</a> <span>{st.count}</span></li>)}
+    </ul>
+    <h2>Popular searches</h2>
+    <ul class="state-list">
+      <li><a href="/colleges/test-optional">Test-optional colleges</a></li>
+      <li><a href="/colleges/net-price-under-20000">Average net price under $20,000</a></li>
+    </ul>
+  </section>
+</Layout>

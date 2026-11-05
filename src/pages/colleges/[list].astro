@@ -1,0 +1,54 @@
+---
+// State pages (/colleges/texas) and a few topic pages (/colleges/test-optional).
+import Layout from '../../layouts/Layout.astro';
+import Directory from '../../components/Directory.astro';
+import { schools, states, pulledDate } from '../../lib/data.js';
+import { COLLEGES_LAUNCHED } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  const stateLists = states.map((st) => ({
+    params: { list: st.slug },
+    props: {
+      title: `Colleges in ${st.name}`,
+      intro: `All ${st.count} four-year colleges in ${st.name}, with admit rates, real costs and outcomes from federal data.`,
+      preset: { state: st.code },
+      list: schools.filter((s) => s.state === st.code)
+    }
+  }));
+  const optional = schools.filter((s) => ['considered_not_required', 'not_considered'].includes(s.testPolicy));
+  const affordable = schools.filter((s) => s.avgNetPrice != null && s.avgNetPrice < 20000);
+  return [
+    ...stateLists,
+    {
+      params: { list: 'test-optional' },
+      props: {
+        title: 'Test-optional colleges',
+        intro: `${optional.length.toLocaleString('en-US')} four-year colleges that don't require SAT or ACT scores, as they report to the federal government. Policies change; confirm on each school's site before you apply.`,
+        preset: { tp: 'optional' },
+        list: optional
+      }
+    },
+    {
+      params: { list: 'net-price-under-20000' },
+      props: {
+        title: 'Colleges with an average net price under $20,000',
+        intro: `${affordable.length.toLocaleString('en-US')} four-year colleges where the average student receiving grants pays under $20,000 a year. Your price depends on your family's income; each school page shows it by income band.`,
+        preset: { np: '20000' },
+        list: affordable
+      }
+    }
+  ];
+}
+
+const { title, intro, preset, list } = Astro.props;
+const path = `/colleges/${Astro.params.list}`;
+---
+<Layout title={`${title} | After High School`} description={intro} path={path} nav="colleges" noindex={!COLLEGES_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/colleges">Colleges</a></nav>
+  <section class="dir-head">
+    <h1>{title}</h1>
+    <p>{intro}</p>
+    <p>Data from College Scorecard, last pulled {pulledDate}.</p>
+  </section>
+  <Directory initial={list.slice(0, 50)} total={list.length} preset={preset} />
+</Layout>
