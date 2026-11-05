@@ -10,9 +10,13 @@
         {
           "title": "Florida Memorial University – The official website of FMU.",
           "url": "https://www.fmuniv.edu/",
-          "quote": "Florida Memorial University is a private coeducational institution with the distinction of being one of the oldest academic centers in the state, and the only historically Black university in South Florida."
+          "quote": "Florida Memorial University is a private coeducational institution with the distinction of being one of the oldest academic centers in the state, and the only historically Black university in South Florida.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fmuniv.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

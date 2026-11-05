@@ -10,14 +10,21 @@
         {
           "title": "Career Success | Long Island University",
           "url": "https://liu.edu/career-success",
-          "quote": "You will participate in career success workshops, create your resume during your first semester, and participate in job and internship fairs. LIU Promise offers several resources to guide you throughout your career journey"
+          "quote": "You will participate in career success workshops, create your resume during your first semester, and participate in job and internship fairs. LIU Promise offers several resources to guide you throughout your career journey",
+          "httpStatus": 200,
+          "finalUrl": "https://liu.edu/career-success",
+          "quoteFound": true
         },
         {
           "title": "Career Success | Long Island University",
           "url": "https://liu.edu/career-success",
-          "quote": "Your success coach is your own experienced and trained career coach that will support you every step of the way."
+          "quote": "Your success coach is your own experienced and trained career coach that will support you every step of the way.",
+          "httpStatus": 200,
+          "finalUrl": "https://liu.edu/career-success",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

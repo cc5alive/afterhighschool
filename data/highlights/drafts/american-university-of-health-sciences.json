@@ -10,9 +10,13 @@
         {
           "title": "BSN Academic Program – AUHS",
           "url": "https://www.auhs.edu/bsn-academic-program/",
-          "quote": "The program requires twelve quarters of full time study over a three year period. The full time study program includes general education courses as well as nursing theory and clinical nursing courses."
+          "quote": "The program requires twelve quarters of full time study over a three year period. The full time study program includes general education courses as well as nursing theory and clinical nursing courses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.auhs.edu/bsn-academic-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

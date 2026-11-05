@@ -10,9 +10,13 @@
         {
           "title": "LACM Undergrad Degrees - LACM",
           "url": "https://lacm.edu/lacm-undergraduate/",
-          "quote": "All undergraduate program applicants are required to possess a high school diploma or its equivalent. A minimum cumulative grade point average of 2.5 from the applicant's high school transcript is required for admission."
+          "quote": "All undergraduate program applicants are required to possess a high school diploma or its equivalent. A minimum cumulative grade point average of 2.5 from the applicant's high school transcript is required for admission.",
+          "httpStatus": 200,
+          "finalUrl": "https://lacm.edu/lacm-undergraduate/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Bachelor of Science in Aeronautics - Aviation Degrees | CAU",
           "url": "https://calaero.edu/degree-programs/bachelors/aeronautics/",
-          "quote": "Eligible degree students receive crucial time-saving benefits, including qualifying for a R-ATP with only 1,000 flight hours"
+          "quote": "Eligible degree students receive crucial time-saving benefits, including qualifying for a R-ATP with only 1,000 flight hours",
+          "httpStatus": 200,
+          "finalUrl": "https://calaero.edu/degree-programs/bachelors/aeronautics/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

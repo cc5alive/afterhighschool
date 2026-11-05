@@ -10,9 +10,13 @@
         {
           "title": "USA Today ranks Thomas Aquinas College Among “Best 10 ...",
           "url": "https://www.thomasaquinas.edu/content/usa-today-ranks-thomas-aquinas-college-among-%E2%80%9Cbest-10-colleges-money%E2%80%9D",
-          "quote": "At Thomas Aquinas College, there are no majors, no minors, or electives because all students acquire a broad and fully integrated liberal education."
+          "quote": "At Thomas Aquinas College, there are no majors, no minors, or electives because all students acquire a broad and fully integrated liberal education.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.thomasaquinas.edu/content/usa-today-ranks-thomas-aquinas-college-among-%E2%80%9Cbest-10-colleges-money%E2%80%9D",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

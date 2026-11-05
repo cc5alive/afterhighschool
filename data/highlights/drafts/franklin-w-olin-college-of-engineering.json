@@ -10,9 +10,13 @@
         {
           "title": "Admission + Financial Aid | Olin College of Engineering | Olin ...",
           "url": "https://www.olin.edu/admission",
-          "quote": "To demonstrate this commitment, every student admitted to Olin receives a merit-based tuition scholarship. Additionally, we meet each student's full demonstrated financial need, ensuring that finances won't stand in the way of your education."
+          "quote": "To demonstrate this commitment, every student admitted to Olin receives a merit-based tuition scholarship. Additionally, we meet each student's full demonstrated financial need, ensuring that finances won't stand in the way of your education.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.olin.edu/admission",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Why Curtis? - Curtis Institute of Music",
           "url": "https://www.curtis.edu/apply/why-curtis/",
-          "quote": "Every student admitted to Curtis receives a full-tuition scholarship, making tuition entirely free and ensuring that artistic promise is the only criterion for admission."
+          "quote": "Every student admitted to Curtis receives a full-tuition scholarship, making tuition entirely free and ensuring that artistic promise is the only criterion for admission.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.curtis.edu/apply/why-curtis/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

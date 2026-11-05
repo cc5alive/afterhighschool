@@ -10,9 +10,13 @@
         {
           "title": "Special Academic Programs - Catalog - Norfolk State University",
           "url": "https://catalog.nsu.edu/undergraduate/science-engineering-technology/special-academic-programs/",
-          "quote": "The DNIMAS program is unique. All of its students are supported by full, four-year scholarship/grant aid. It represents a major commitment by Norfolk State University to provide the best possible education in the sciences"
+          "quote": "The DNIMAS program is unique. All of its students are supported by full, four-year scholarship/grant aid. It represents a major commitment by Norfolk State University to provide the best possible education in the sciences",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.nsu.edu/undergraduate/science-engineering-technology/special-academic-programs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

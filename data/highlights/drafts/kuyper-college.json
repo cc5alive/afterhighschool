@@ -10,9 +10,13 @@
         {
           "title": "Work College - Kuyper College",
           "url": "https://www.kuyper.edu/work-college/",
-          "quote": "Kuyper's commitment to learning, working and serving by requiring all residential students to participate in a comprehensive program which integrates classroom learning with the learning you experience within your workplace, and those you serve."
+          "quote": "Kuyper's commitment to learning, working and serving by requiring all residential students to participate in a comprehensive program which integrates classroom learning with the learning you experience within your workplace, and those you serve.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kuyper.edu/work-college/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

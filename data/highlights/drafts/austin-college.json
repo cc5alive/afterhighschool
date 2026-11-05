@@ -10,9 +10,13 @@
         {
           "title": "Academics at Austin College | Sherman, Texas",
           "url": "https://www.austincollege.edu/academics",
-          "quote": "Experience connections between your liberal arts education and life beyond the classroom, providing pathways to meaningful careers and community participation. One Applied Learning Experience Three January Term courses First-Year Experience"
+          "quote": "Experience connections between your liberal arts education and life beyond the classroom, providing pathways to meaningful careers and community participation. One Applied Learning Experience Three January Term courses First-Year Experience",
+          "httpStatus": 200,
+          "finalUrl": "https://www.austincollege.edu/academics",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

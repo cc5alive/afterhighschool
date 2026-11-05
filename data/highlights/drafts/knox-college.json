@@ -10,9 +10,13 @@
         {
           "title": "Knox College | Nationally Ranked Midwest Liberal Arts College in ...",
           "url": "https://www.knox.edu/",
-          "quote": "Each year, you'll take three classes per term for three"
+          "quote": "Each year, you'll take three classes per term for three",
+          "httpStatus": 200,
+          "finalUrl": "https://www.knox.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

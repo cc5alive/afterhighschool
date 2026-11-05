@@ -10,9 +10,13 @@
         {
           "title": "Housing and Residency Requirements | CCU",
           "url": "https://www.ccu.edu/campus-life/residence-life/residency-requirements/",
-          "quote": "unmarried, first-, second-, and third-year students (with CCU start terms beginning in fall 2026) under the age of 21, who are taking courses in the College of Undergraduate Studies (traditional program) are required to live on campus."
+          "quote": "unmarried, first-, second-, and third-year students (with CCU start terms beginning in fall 2026) under the age of 21, who are taking courses in the College of Undergraduate Studies (traditional program) are required to live on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ccu.edu/campus-life/residence-life/residency-requirements/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

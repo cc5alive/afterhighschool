@@ -10,9 +10,13 @@
         {
           "title": "Why Choose College of the Atlantic | Human Ecology & Experiential ...",
           "url": "https://www.coa.edu/about/why-coa/",
-          "quote": "Founded in 1969 as the first—and only—college where every student designs a self-directed major in human ecology, COA blends disciplines, experiences, and community to prepare graduates for meaningful impact."
+          "quote": "Founded in 1969 as the first—and only—college where every student designs a self-directed major in human ecology, COA blends disciplines, experiences, and community to prepare graduates for meaningful impact.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.coa.edu/about/why-coa/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

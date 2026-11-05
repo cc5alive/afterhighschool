@@ -10,9 +10,13 @@
         {
           "title": "College Partnership Program | Community Colleges | Franklin.edu",
           "url": "https://www.franklin.edu/about-us/partnerships/community-college-partnerships",
-          "quote": "All community colleges that partner with Franklin to offer the Pathway Portal will secure a $298 tuition rate as well as free textbooks for bachelor's degree courses at Franklin"
+          "quote": "All community colleges that partner with Franklin to offer the Pathway Portal will secure a $298 tuition rate as well as free textbooks for bachelor's degree courses at Franklin",
+          "httpStatus": 200,
+          "finalUrl": "https://www.franklin.edu/about-us/partnerships/community-college-partnerships",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

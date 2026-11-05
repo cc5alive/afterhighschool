@@ -10,9 +10,13 @@
         {
           "title": "Explanation of the Grading Policy | New College of Florida ...",
           "url": "https://catalog.ncf.edu/undergraduate/grading-policy/",
-          "quote": "New College uses narrative evaluations to provide students with rich"
+          "quote": "New College uses narrative evaluations to provide students with rich",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.ncf.edu/undergraduate/grading-policy/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

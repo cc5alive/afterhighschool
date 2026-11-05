@@ -10,9 +10,13 @@
         {
           "title": "FHU Promise - Freed-Hardeman University",
           "url": "https://fhu.edu/admissions-aid/tuition-fees/fhu-promise/",
-          "quote": "Our student financial service program, FHU Promise, ensures that each student pays or owes at most $6,250 per semester for tuition, food and housing."
+          "quote": "Our student financial service program, FHU Promise, ensures that each student pays or owes at most $6,250 per semester for tuition, food and housing.",
+          "httpStatus": 200,
+          "finalUrl": "https://fhu.edu/admissions-aid/tuition-fees/fhu-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

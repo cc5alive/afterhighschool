@@ -10,9 +10,13 @@
         {
           "title": "Associate of Science in Business Administration » Salem University",
           "url": "https://www.salemu.edu/degrees/associate-business-administration",
-          "quote": "The Associate of Science in Business Administration degree program requires the completion of 60 credits, including at least 24 general education credits and a minimum of 15 credits from the Business Administration core."
+          "quote": "The Associate of Science in Business Administration degree program requires the completion of 60 credits, including at least 24 general education credits and a minimum of 15 credits from the Business Administration core.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.salemu.edu/degrees/associate-business-administration",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

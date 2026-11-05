@@ -10,9 +10,13 @@
         {
           "title": "Professional Development Seminar | Career Prep at Nichols",
           "url": "https://www.nichols.edu/career-readiness/professional-development/slp/pds/",
-          "quote": "The seminar follows a cohort model from the first year through junior year. Students grow together, learn from shared experiences and build the foundation they need to succeed in internships and early career roles."
+          "quote": "The seminar follows a cohort model from the first year through junior year. Students grow together, learn from shared experiences and build the foundation they need to succeed in internships and early career roles.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nichols.edu/career-readiness/professional-development/slp/pds/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

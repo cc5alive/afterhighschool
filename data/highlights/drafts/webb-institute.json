@@ -10,9 +10,13 @@
         {
           "title": "Tuition & Fees | Webb Institute",
           "url": "https://www.webb.edu/admissions/tuition/",
-          "quote": "Webb Institute provides all US students and permanent residents who enroll at Webb with a full-tuition scholarship. This scholarship is valued at over $250,000 per student over the four years."
+          "quote": "Webb Institute provides all US students and permanent residents who enroll at Webb with a full-tuition scholarship. This scholarship is valued at over $250,000 per student over the four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.webb.edu/admissions/tuition/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

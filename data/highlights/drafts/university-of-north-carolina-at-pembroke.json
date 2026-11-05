@@ -10,9 +10,13 @@
         {
           "title": "NC Promise – UNC System",
           "url": "https://www.northcarolina.edu/impact/affordability-efficiency/nc-promise/",
-          "quote": "Through NC Promise, the state has significantly reduced tuition cost for in-state students to $500 per semester at four UNC System institutions: Elizabeth City State University, Fayetteville State University, University of North Carolina Pembroke, and Western Carolina University."
+          "quote": "Through NC Promise, the state has significantly reduced tuition cost for in-state students to $500 per semester at four UNC System institutions: Elizabeth City State University, Fayetteville State University, University of North Carolina Pembroke, and Western Carolina University.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.northcarolina.edu/impact/affordability-efficiency/nc-promise/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

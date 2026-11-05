@@ -10,9 +10,13 @@
         {
           "title": "Accreditation & Authorization | Alaska Bible College",
           "url": "https://www.akbible.edu/accreditation",
-          "quote": "In May 2026, Alaska Bible College received programmatic accreditation through the Council for the Accreditation of Educator Preparation (CAEP) for its Bachelor of Arts in Elementary Education program."
+          "quote": "In May 2026, Alaska Bible College received programmatic accreditation through the Council for the Accreditation of Educator Preparation (CAEP) for its Bachelor of Arts in Elementary Education program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.akbible.edu/accreditation",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

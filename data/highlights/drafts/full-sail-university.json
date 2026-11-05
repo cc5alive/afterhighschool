@@ -10,9 +10,13 @@
         {
           "title": "Virtual Information Sessions - Undergraduate - Full Sail University",
           "url": "https://go.fullsail.edu/bachelors-info-sessions",
-          "quote": "In these sessions, you'll learn how Full Sail University delivers our bachelor's degree curriculum in an accelerated format, as few as 20 months on campus and 27 months online."
+          "quote": "In these sessions, you'll learn how Full Sail University delivers our bachelor's degree curriculum in an accelerated format, as few as 20 months on campus and 27 months online.",
+          "httpStatus": 403,
+          "finalUrl": "https://go.fullsail.edu/bachelors-info-sessions",
+          "quoteFound": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

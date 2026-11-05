@@ -10,9 +10,13 @@
         {
           "title": "Online Learning Experience - Columbia Southern University",
           "url": "https://www.columbiasouthern.edu/admissions/online-learning-experience",
-          "quote": "LifePace Learning® was designed to fit the needs and lifestyles of working adults by combining the flexibility you need with a time-based structure that provides the best opportunity for a consistent path towards graduation."
+          "quote": "LifePace Learning® was designed to fit the needs and lifestyles of working adults by combining the flexibility you need with a time-based structure that provides the best opportunity for a consistent path towards graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.columbiasouthern.edu/admissions/online-learning-experience",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

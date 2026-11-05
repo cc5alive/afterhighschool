@@ -10,9 +10,13 @@
         {
           "title": "Roberts' 4-Year Graduation Guarantee",
           "url": "https://www.roberts.edu/admissions/traditional-undergraduate-admissions/four-year-promise/",
-          "quote": "if you fulfill your responsibilities and are not able to graduate in 4 years, Roberts will pay for the courses you need to graduate."
+          "quote": "if you fulfill your responsibilities and are not able to graduate in 4 years, Roberts will pay for the courses you need to graduate.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.roberts.edu/admissions/traditional-undergraduate-admissions/four-year-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "About - First Year & Pre-Major Program",
           "url": "https://www.uwb.edu/premajor/about-us",
-          "quote": "The Discovery Core (DCX)—a required sequence of courses for first-year students—will strengthen your capacity for active learning, critical and creative inquiry, engagement with diverse perspectives, quantitative reasoning, writing, interdisciplinary thinking, and communication across multiple media platforms."
+          "quote": "The Discovery Core (DCX)—a required sequence of courses for first-year students—will strengthen your capacity for active learning, critical and creative inquiry, engagement with diverse perspectives, quantitative reasoning, writing, interdisciplinary thinking, and communication across multiple media platforms.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwb.edu/premajor/about-us",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

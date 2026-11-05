@@ -10,9 +10,13 @@
         {
           "title": "Graduation | Midland University Catalog",
           "url": "https://undergrad.catalog.midlandu.edu/academicpolicies/graduation",
-          "quote": "The Four-Year Graduation Guarantee applies to all full time undergraduate students entering college for the first time and their completion of one major and one minor, including majors that require on-time acceptance into a specific program of study."
+          "quote": "The Four-Year Graduation Guarantee applies to all full time undergraduate students entering college for the first time and their completion of one major and one minor, including majors that require on-time acceptance into a specific program of study.",
+          "httpStatus": 200,
+          "finalUrl": "https://undergrad.catalog.midlandu.edu/academicpolicies/graduation",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

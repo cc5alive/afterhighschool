@@ -10,9 +10,13 @@
         {
           "title": "Bachelor of Science in Nursing (BSN) | Research College of Nursing",
           "url": "https://researchcollege.edu/programs/traditional-bsn/",
-          "quote": "The HCA Midwest Health Work Loan Forgiveness program covers a significant portion of your tuition. This exclusive agreement trades tuition support for a two-year commitment to work as an RN at an HCA facility"
+          "quote": "The HCA Midwest Health Work Loan Forgiveness program covers a significant portion of your tuition. This exclusive agreement trades tuition support for a two-year commitment to work as an RN at an HCA facility",
+          "httpStatus": 200,
+          "finalUrl": "https://researchcollege.edu/programs/traditional-bsn/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

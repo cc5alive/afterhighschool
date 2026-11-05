@@ -10,9 +10,13 @@
         {
           "title": "Advanced Mentoring Program - Beloit College",
           "url": "https://www.beloit.edu/offices/advising/advanced-mentoring-program/",
-          "quote": "Beloit's Advanced Mentoring Program (or AMP) provides you with a faculty advisor before you even get to campus. They'll help you register for classes, engage with the campus and the community, and start discovering your academic and career pathway."
+          "quote": "Beloit's Advanced Mentoring Program (or AMP) provides you with a faculty advisor before you even get to campus. They'll help you register for classes, engage with the campus and the community, and start discovering your academic and career pathway.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.beloit.edu/offices/advising/advanced-mentoring-program/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

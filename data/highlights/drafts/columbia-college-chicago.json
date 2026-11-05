@@ -10,9 +10,13 @@
         {
           "title": "SiLA Coursework - Semester in LA - Columbia College Chicago",
           "url": "https://www.colum.edu/academics/semester-in-la/courses",
-          "quote": "Passing MEDI 334 is required for participation in the SiLA program. Students who do not complete this course successfully will not be eligible to attend the semester in Los Angeles."
+          "quote": "Passing MEDI 334 is required for participation in the SiLA program. Students who do not complete this course successfully will not be eligible to attend the semester in Los Angeles.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.colum.edu/academics/semester-in-la/courses",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

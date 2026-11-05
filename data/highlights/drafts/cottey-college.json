@@ -10,9 +10,13 @@
         {
           "title": "Why Cottey - Cottey College",
           "url": "https://cottey.edu/why-cottey/",
-          "quote": "Cottey is also owned by the P.E.O. Sisterhood, an organization of over 200,000 women, who support students as they grow into the leaders they want to be!"
+          "quote": "Cottey is also owned by the P.E.O. Sisterhood, an organization of over 200,000 women, who support students as they grow into the leaders they want to be!",
+          "httpStatus": 200,
+          "finalUrl": "https://cottey.edu/why-cottey/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

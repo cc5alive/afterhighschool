@@ -10,9 +10,13 @@
         {
           "title": "Converse At a Glance",
           "url": "https://www.converse.edu/about/converse-at-a-glance/",
-          "quote": "We guarantee all students will be employed full-time or enrolled in graduate school within six months of graduation, or be eligible to return for a full year tuition-free*."
+          "quote": "We guarantee all students will be employed full-time or enrolled in graduate school within six months of graduation, or be eligible to return for a full year tuition-free*.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.converse.edu/about/converse-at-a-glance/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

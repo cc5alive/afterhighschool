@@ -10,9 +10,13 @@
         {
           "title": "The Rhetoric Program at Hampden-Sydney College",
           "url": "https://www.hsc.edu/academics/rhetoric-program",
-          "quote": "The Rhetoric Program, established nearly 50 years ago, is based on a 1978"
+          "quote": "The Rhetoric Program, established nearly 50 years ago, is based on a 1978",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hsc.edu/academics/rhetoric-program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

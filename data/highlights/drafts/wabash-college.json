@@ -10,9 +10,13 @@
         {
           "title": "The Gentleman's Rule | Wabash College",
           "url": "https://www.wabash.edu/aboutwabash/rule",
-          "quote": "“The student is expected to conduct himself at all times, both on and off campus, as a gentleman and a responsible citizen.”"
+          "quote": "“The student is expected to conduct himself at all times, both on and off campus, as a gentleman and a responsible citizen.”",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wabash.edu/aboutwabash/rule",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

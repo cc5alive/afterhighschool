@@ -10,9 +10,13 @@
         {
           "title": "Nursing Programs | Galen College of Nursing",
           "url": "https://galencollege.edu/guidance/nursing-programs",
-          "quote": "Three-Year Bachelor of Science in Nursing (BSN): Earn a bachelor's degree in nursing in three years instead of four, with eligibility to sit for the NCLEX-RN."
+          "quote": "Three-Year Bachelor of Science in Nursing (BSN): Earn a bachelor's degree in nursing in three years instead of four, with eligibility to sit for the NCLEX-RN.",
+          "httpStatus": 200,
+          "finalUrl": "https://galencollege.edu/guidance/nursing-programs",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

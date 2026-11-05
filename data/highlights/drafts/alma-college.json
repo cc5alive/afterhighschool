@@ -10,9 +10,13 @@
         {
           "title": "Alma Commitment at Alma College: Your Success is Our Promise",
           "url": "https://www.alma.edu/academics/the-alma-commitment/",
-          "quote": "The Alma Venture program or other college-sponsored grant programs will provide up to $2,500 to offset the cost of your personalized experience."
+          "quote": "The Alma Venture program or other college-sponsored grant programs will provide up to $2,500 to offset the cost of your personalized experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.alma.edu/academics/the-alma-commitment/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

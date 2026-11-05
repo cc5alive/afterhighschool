@@ -10,9 +10,13 @@
         {
           "title": "Cornell College - Study One Course At A Time",
           "url": "https://www.cornellcollege.edu/",
-          "quote": "One Course At A Time is Cornell College's distinctive approach to academic scheduling where students take one class for 18 days before moving to their next course."
+          "quote": "One Course At A Time is Cornell College's distinctive approach to academic scheduling where students take one class for 18 days before moving to their next course.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cornellcollege.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

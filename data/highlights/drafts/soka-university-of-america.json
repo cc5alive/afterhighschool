@@ -10,9 +10,13 @@
         {
           "title": "Study Abroad | Soka University of America",
           "url": "https://www.soka.edu/academics/undergraduate-studies/study-abroad",
-          "quote": "Every Soka student studies abroad for a semester. It's included in tuition and built into the four-year plan for earning your degree."
+          "quote": "Every Soka student studies abroad for a semester. It's included in tuition and built into the four-year plan for earning your degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.soka.edu/academics/undergraduate-studies/study-abroad",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

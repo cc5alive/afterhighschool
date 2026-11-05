@@ -10,9 +10,13 @@
         {
           "title": "About USMMA | U.S. Merchant Marine Academy",
           "url": "https://www.usmma.edu/about",
-          "quote": "This challenging coursework is augmented by the Academy's Sea Year"
+          "quote": "This challenging coursework is augmented by the Academy's Sea Year",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usmma.edu/about",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

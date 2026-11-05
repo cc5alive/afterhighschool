@@ -10,9 +10,13 @@
         {
           "title": "How it Works - Meredith College",
           "url": "https://www.meredith.edu/strongpoints/how-strongpoints-works/",
-          "quote": "StrongPoints is available to every Meredith student. There's no separate registration – or cost. It's an integral part of your Meredith experience – one that starts at orientation and continues throughout your college career."
+          "quote": "StrongPoints is available to every Meredith student. There's no separate registration – or cost. It's an integral part of your Meredith experience – one that starts at orientation and continues throughout your college career.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.meredith.edu/strongpoints/how-strongpoints-works/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

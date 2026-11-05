@@ -10,9 +10,13 @@
         {
           "title": "American College of the Building Arts | Only Building Arts Degree in ...",
           "url": "https://acba.edu/",
-          "quote": "The American College of the Building Arts is the only accredited college in the United States that fully integrates professional training in the traditional building trades with a liberal arts core curriculum."
+          "quote": "The American College of the Building Arts is the only accredited college in the United States that fully integrates professional training in the traditional building trades with a liberal arts core curriculum.",
+          "httpStatus": 200,
+          "finalUrl": "https://acba.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

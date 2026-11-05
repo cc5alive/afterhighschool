@@ -10,9 +10,13 @@
         {
           "title": "Mission & History » Oakwood University",
           "url": "https://oakwood.edu/our-story/mission-history/",
-          "quote": "The mission of Oakwood University, a historically black, Seventh-day Adventist institution, is to transform students through biblically-based education for service to God and humanity."
+          "quote": "The mission of Oakwood University, a historically black, Seventh-day Adventist institution, is to transform students through biblically-based education for service to God and humanity.",
+          "httpStatus": 200,
+          "finalUrl": "https://oakwood.edu/our-story/mission-history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

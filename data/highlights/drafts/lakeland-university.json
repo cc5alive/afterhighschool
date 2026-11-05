@@ -10,9 +10,13 @@
         {
           "title": "Traditional Undergraduate Financial Aid - Lakeland University",
           "url": "https://lakeland.edu/traditional-undergraduate-financial-aid",
-          "quote": "Lakeland Promise: Wisconsin residents with an AGI of $80,000 or less have tuition covered — the highest income threshold of its kind in the state."
+          "quote": "Lakeland Promise: Wisconsin residents with an AGI of $80,000 or less have tuition covered — the highest income threshold of its kind in the state.",
+          "httpStatus": 200,
+          "finalUrl": "https://lakeland.edu/traditional-undergraduate-financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

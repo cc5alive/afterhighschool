@@ -10,9 +10,13 @@
         {
           "title": "About MICA | MICA",
           "url": "https://www.mica.edu/about-mica/",
-          "quote": "Founded in 1826, MICA is the oldest independent, continuously degree-granting college of art and design in the U.S."
+          "quote": "Founded in 1826, MICA is the oldest independent, continuously degree-granting college of art and design in the U.S.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mica.edu/about-mica/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

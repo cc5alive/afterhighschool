@@ -10,9 +10,13 @@
         {
           "title": "Campus Admissions - Barclay College - Full Tuition Scholarship",
           "url": "https://www.barclaycollege.edu/admissions/campus/",
-          "quote": "That's why we give all students who live in the dorms a Full Tuition scholarship."
+          "quote": "That's why we give all students who live in the dorms a Full Tuition scholarship.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.barclaycollege.edu/admissions/campus/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

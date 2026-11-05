@@ -10,9 +10,13 @@
         {
           "title": "FlexPath from Capella University I Self-Paced Online Learning",
           "url": "https://www.capella.edu/capella-experience/flexpath/",
-          "quote": "Our FlexPath learning format lets you set your own deadlines and use what you know to move at your own pace. Plus, there's one tuition fee per 12-week billing session to help lower costs"
+          "quote": "Our FlexPath learning format lets you set your own deadlines and use what you know to move at your own pace. Plus, there's one tuition fee per 12-week billing session to help lower costs",
+          "httpStatus": 200,
+          "finalUrl": "https://www.capella.edu/capella-experience/flexpath/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Academic Advising - Allegheny College",
           "url": "https://allegheny.edu/academics/academic-advising/",
-          "quote": "Complete a major and a minor with a minimum GPA of 2.0 cumulatively in each."
+          "quote": "Complete a major and a minor with a minimum GPA of 2.0 cumulatively in each.",
+          "httpStatus": 200,
+          "finalUrl": "https://allegheny.edu/academics/academic-advising/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

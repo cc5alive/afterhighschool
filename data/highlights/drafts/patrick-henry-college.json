@@ -10,9 +10,13 @@
         {
           "title": "Core Curriculum | Patrick Henry College (PHC)",
           "url": "https://www.phc.edu/core-curriculum",
-          "quote": "These foundational commitments inspired the formation of PHC's Christian Classical Liberal Arts Core Curriculum, which consists of 63-credits with intermediate proficiency in a foreign language. Every student—regardless of major—takes every Core Curriculum course:"
+          "quote": "These foundational commitments inspired the formation of PHC's Christian Classical Liberal Arts Core Curriculum, which consists of 63-credits with intermediate proficiency in a foreign language. Every student—regardless of major—takes every Core Curriculum course:",
+          "httpStatus": 200,
+          "finalUrl": "https://www.phc.edu/core-curriculum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

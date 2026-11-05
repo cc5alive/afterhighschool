@@ -10,9 +10,13 @@
         {
           "title": "From the President: John Lewis, A Warrior For Justice - American Baptist College",
           "url": "https://abcnash.edu/johnlewis/",
-          "quote": "Coming to Nashville at a young age as a student at American Baptist College, John Lewis was captured by the dream of a world of fairness and equality, ideals of the beloved community."
+          "quote": "Coming to Nashville at a young age as a student at American Baptist College, John Lewis was captured by the dream of a world of fairness and equality, ideals of the beloved community.",
+          "httpStatus": 200,
+          "finalUrl": "https://abcnash.edu/johnlewis/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

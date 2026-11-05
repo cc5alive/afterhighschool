@@ -10,9 +10,13 @@
         {
           "title": "Oak Valley College - The debt-free business degree - California",
           "url": "https://www.oakvalley.edu/",
-          "quote": "You still take eight semesters, you just attend school year-round — taking three semesters the first two years and ending with two semesters your senior year."
+          "quote": "You still take eight semesters, you just attend school year-round — taking three semesters the first two years and ending with two semesters your senior year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.oakvalley.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

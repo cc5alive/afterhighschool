@@ -10,9 +10,13 @@
         {
           "title": "Financial Aid — Sterling College Vermont",
           "url": "https://www.sterlingcollege.edu/financial-aid",
-          "quote": "We are only one of ten Work Colleges in the nation. All students are expected to contribute 80 hours each semester in a job that fits their skillset, allowing them to gain experience and build their resume."
+          "quote": "We are only one of ten Work Colleges in the nation. All students are expected to contribute 80 hours each semester in a job that fits their skillset, allowing them to gain experience and build their resume.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sterlingcollege.edu/financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

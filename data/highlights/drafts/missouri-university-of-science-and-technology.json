@@ -10,14 +10,21 @@
         {
           "title": "Kummer Vanguard Scholars < Missouri University of Science and Technology",
           "url": "https://catalog.mst.edu/undergraduate/generalinformation/kummervanguardscholars/",
-          "quote": "Students from around the world will be selected based on academic and non-academic criteria. Each Kummer Vanguard Scholar will receive between $2,000 a year for up to four years"
+          "quote": "Students from around the world will be selected based on academic and non-academic criteria. Each Kummer Vanguard Scholar will receive between $2,000 a year for up to four years",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.mst.edu/undergraduate/generalinformation/kummervanguardscholars/",
+          "quoteFound": true
         },
         {
           "title": "Kummer Vanguard Scholars < Missouri University of Science and Technology",
           "url": "https://catalog.mst.edu/undergraduate/generalinformation/kummervanguardscholars/",
-          "quote": "First-year students must have a cumulative GPA of 3.4 on an unweighted 4.0 scale and a 26+ ACT/1240+SAT score*."
+          "quote": "First-year students must have a cumulative GPA of 3.4 on an unweighted 4.0 scale and a 26+ ACT/1240+SAT score*.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.mst.edu/undergraduate/generalinformation/kummervanguardscholars/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

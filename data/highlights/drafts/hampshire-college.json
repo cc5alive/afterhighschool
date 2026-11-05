@@ -10,9 +10,13 @@
         {
           "title": "Our Academic Program | Hampshire College",
           "url": "https://www.hampshire.edu/academics/our-academic-program-0",
-          "quote": "Rather, Hampshire students advance through three divisions. Academic"
+          "quote": "Rather, Hampshire students advance through three divisions. Academic",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hampshire.edu/academics/our-academic-program-0",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

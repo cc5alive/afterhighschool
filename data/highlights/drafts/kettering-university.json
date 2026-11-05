@@ -10,9 +10,13 @@
         {
           "title": "Co-op and Career Design | Kettering University Academic Catalog",
           "url": "https://catalog.kettering.edu/undergrad/cooperative-experiential-education/",
-          "quote": "Students alternate 11-week academic terms with 12-week terms of"
+          "quote": "Students alternate 11-week academic terms with 12-week terms of",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.kettering.edu/undergrad/cooperative-experiential-education/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Campus Degree Programs - The Los Angeles Film School - Catalog",
           "url": "https://catalog.lafilm.edu/006-campus-degree-programs/",
-          "quote": "The Bachelor of Science in Audio Production degree program is 120 credit hours and 29 months in length. Students must successfully complete all required coursework with a minimum cumulative grade point average of 2.0."
+          "quote": "The Bachelor of Science in Audio Production degree program is 120 credit hours and 29 months in length. Students must successfully complete all required coursework with a minimum cumulative grade point average of 2.0.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.lafilm.edu/006-campus-degree-programs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

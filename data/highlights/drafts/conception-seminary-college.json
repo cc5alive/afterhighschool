@@ -10,9 +10,13 @@
         {
           "title": "Accreditation - Conception Seminary College",
           "url": "https://www.conception.edu/seminary/accreditation/",
-          "quote": "authorized to grant the following degrees and certificates: Bachelor of Arts in Philosophy, Bachelors in Philosophical and Theological Studies and a certificate in Pre-Theological Studies. CSC is dedicated to providing an enriching and rigorous intellectual formation program"
+          "quote": "authorized to grant the following degrees and certificates: Bachelor of Arts in Philosophy, Bachelors in Philosophical and Theological Studies and a certificate in Pre-Theological Studies. CSC is dedicated to providing an enriching and rigorous intellectual formation program",
+          "httpStatus": 200,
+          "finalUrl": "https://www.conception.edu/seminary/accreditation/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

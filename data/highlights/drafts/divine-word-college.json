@@ -10,9 +10,13 @@
         {
           "title": "Catholic Seminary to Educate Missionaries | Divine Word College",
           "url": "https://www.dwci.edu/about-dwc",
-          "quote": "Welcome to Divine Word College, the only Roman Catholic undergraduate seminary in the U.S. dedicated to educating men and women for missionary service."
+          "quote": "Welcome to Divine Word College, the only Roman Catholic undergraduate seminary in the U.S. dedicated to educating men and women for missionary service.",
+          "httpStatus": 202,
+          "finalUrl": "https://www.dwci.edu/about-dwc",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

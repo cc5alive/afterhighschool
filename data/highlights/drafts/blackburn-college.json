@@ -10,9 +10,13 @@
         {
           "title": "Work Program - Blackburn College",
           "url": "https://blackburn.edu/work-program/",
-          "quote": "Blackburn is the only student-managed Work College in the United States."
+          "quote": "Blackburn is the only student-managed Work College in the United States.",
+          "httpStatus": 200,
+          "finalUrl": "https://blackburn.edu/work-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

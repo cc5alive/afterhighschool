@@ -10,9 +10,13 @@
         {
           "title": "Bachelor of Arts in Architecture - NewSchool of Architecture & Design",
           "url": "https://newschoolarch.edu/bachelor-of-arts-in-architecture/",
-          "quote": "With a total of 180 quarter credits, the program offers a comprehensive blend of required and elective professional credits, ensuring a breadth of knowledge in architectural practices, alongside 60 integrative studies credits to foster a well-rounded education."
+          "quote": "With a total of 180 quarter credits, the program offers a comprehensive blend of required and elective professional credits, ensuring a breadth of knowledge in architectural practices, alongside 60 integrative studies credits to foster a well-rounded education.",
+          "httpStatus": 200,
+          "finalUrl": "https://newschoolarch.edu/bachelor-of-arts-in-architecture/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

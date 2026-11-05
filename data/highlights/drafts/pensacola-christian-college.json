@@ -10,9 +10,13 @@
         {
           "title": "Fourth Year Tuition-Free · Pensacola Christian College",
           "url": "https://www.pcci.edu/admissions/financial-aid/fourth-year-tuition-free.aspx",
-          "quote": "Pay standard tuition for 6 consecutive semesters (3 years) and receive free tuition the 7th and 8th semesters (4th year), up to 17 credit hours per semester."
+          "quote": "Pay standard tuition for 6 consecutive semesters (3 years) and receive free tuition the 7th and 8th semesters (4th year), up to 17 credit hours per semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pcci.edu/admissions/financial-aid/fourth-year-tuition-free.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

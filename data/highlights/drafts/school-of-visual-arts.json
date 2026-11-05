@@ -10,9 +10,13 @@
         {
           "title": "BFA Illustration Curriculum | School of Visual Arts | SVA NYC",
           "url": "https://sva.edu/academics/undergraduate/bfa-illustration/curriculum",
-          "quote": "To earn a Bachelor of Fine Arts degree in Illustration at SVA, students must complete 120 credits as follows: 72 credits in studio art courses 30 credits in humanities & sciences courses"
+          "quote": "To earn a Bachelor of Fine Arts degree in Illustration at SVA, students must complete 120 credits as follows: 72 credits in studio art courses 30 credits in humanities & sciences courses",
+          "httpStatus": 200,
+          "finalUrl": "https://sva.edu/academics/undergraduate/bfa-illustration/curriculum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

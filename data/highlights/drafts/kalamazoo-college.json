@@ -10,9 +10,13 @@
         {
           "title": "K-Plan | Academics | Open Curriculum Colleges - Kalamazoo College",
           "url": "https://www.kzoo.edu/k-plan/",
-          "quote": "Your K-Plan is the four-part, personalized education journey you chart throughout your time at K. Rooted in excellent academics in the liberal arts and sciences, the K-Plan integrates your classroom learning with intercultural experiences, hands-on practice and independent scholarship."
+          "quote": "Your K-Plan is the four-part, personalized education journey you chart throughout your time at K. Rooted in excellent academics in the liberal arts and sciences, the K-Plan integrates your classroom learning with intercultural experiences, hands-on practice and independent scholarship.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kzoo.edu/k-plan/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

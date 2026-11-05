@@ -10,9 +10,13 @@
         {
           "title": "BS in Game Engineering | University of Silicon Valley",
           "url": "https://usv.edu/academics/bs-game-engineering",
-          "quote": "USV students take 3 courses per term instead of the traditional 4."
+          "quote": "USV students take 3 courses per term instead of the traditional 4.",
+          "httpStatus": 200,
+          "finalUrl": "https://usv.edu/academics/bs-game-engineering",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

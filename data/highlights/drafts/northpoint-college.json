@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate | Northpoint College",
           "url": "https://www.northpointcollege.edu/undergraduate",
-          "quote": "The Associate and Bachelor of Arts Degrees in Ministry Leadership have been designed to train effective leaders for today's complex world."
+          "quote": "The Associate and Bachelor of Arts Degrees in Ministry Leadership have been designed to train effective leaders for today's complex world.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.northpointcollege.edu/undergraduate",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

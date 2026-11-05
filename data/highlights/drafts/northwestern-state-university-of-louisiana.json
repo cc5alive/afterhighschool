@@ -10,9 +10,13 @@
         {
           "title": "Louisiana Scholars' College | Northwestern State University",
           "url": "https://www.nsula.edu/academics/the-louisiana-scholars-college/",
-          "quote": "students who have an ACT composite score of 25 (no subscores below 20) and an unweighted GPA of 3.3 (out of 4.0 in Regents' or comparable curriculum) are entitled to automatic admission."
+          "quote": "students who have an ACT composite score of 25 (no subscores below 20) and an unweighted GPA of 3.3 (out of 4.0 in Regents' or comparable curriculum) are entitled to automatic admission.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nsula.edu/academics/the-louisiana-scholars-college/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

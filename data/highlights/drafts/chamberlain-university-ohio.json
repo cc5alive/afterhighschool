@@ -10,9 +10,13 @@
         {
           "title": "BSN and RN to BSN Bachelor's Programs | Chamberlain University",
           "url": "https://www.chamberlain.edu/academics/bachelors-degrees",
-          "quote": "For prospective students without a nursing degree or registered nursing license, Chamberlain University's College of Nursing offers the 3-year Bachelor of Science in Nursing (BSN) degree."
+          "quote": "For prospective students without a nursing degree or registered nursing license, Chamberlain University's College of Nursing offers the 3-year Bachelor of Science in Nursing (BSN) degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.chamberlain.edu/academics/bachelors-degrees",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

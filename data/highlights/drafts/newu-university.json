@@ -10,9 +10,13 @@
         {
           "title": "NewU University - Home of the 3-Year Bachelor's Degree",
           "url": "https://newu.university/",
-          "quote": "NewU is the first 3-year, 120-credit bachelor's degree college in the US. We offer shorter, affordable, career-ready majors."
+          "quote": "NewU is the first 3-year, 120-credit bachelor's degree college in the US. We offer shorter, affordable, career-ready majors.",
+          "httpStatus": 200,
+          "finalUrl": "https://newu.university/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

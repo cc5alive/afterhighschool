@@ -10,9 +10,13 @@
         {
           "title": "GCU Promise | Georgian Court University | Lakewood, New Jersey",
           "url": "https://georgian.edu/gcupromise/",
-          "quote": "GCU Promise covers the cost of all general fees and up to the full cost of tuition based on financial need, and students will continue receiving support for their education as long as they remain eligible for Pell and TAG grants."
+          "quote": "GCU Promise covers the cost of all general fees and up to the full cost of tuition based on financial need, and students will continue receiving support for their education as long as they remain eligible for Pell and TAG grants.",
+          "httpStatus": 200,
+          "finalUrl": "https://georgian.edu/gcupromise/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Transfer Credits | Lionel University",
           "url": "https://www.lionel.edu/transfer-credit",
-          "quote": "180 credits are needed in order to earn a bachelor's degree. Up to 120 credits earned at another accredited institution, through military experience and/or coursework, or through ISSA are eligible for transfer."
+          "quote": "180 credits are needed in order to earn a bachelor's degree. Up to 120 credits earned at another accredited institution, through military experience and/or coursework, or through ISSA are eligible for transfer.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lionel.edu/transfer-credit",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

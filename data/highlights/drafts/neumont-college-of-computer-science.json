@@ -10,9 +10,13 @@
         {
           "title": "3+1 - Neumont University",
           "url": "https://www.neumont.edu/3-plus-1",
-          "quote": "Neumont's accelerated year-round academic model is designed for students who want to complete a bachelor's degree in three years instead of the traditional four."
+          "quote": "Neumont's accelerated year-round academic model is designed for students who want to complete a bachelor's degree in three years instead of the traditional four.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.neumont.edu/3-plus-1",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

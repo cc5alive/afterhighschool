@@ -10,9 +10,13 @@
         {
           "title": "International Students | Coe College",
           "url": "https://www.coe.edu/admission/international-students",
-          "quote": "The Coe Promise guarantees 100% of students will complete an internship, research project or off-campus study experience before graduation."
+          "quote": "The Coe Promise guarantees 100% of students will complete an internship, research project or off-campus study experience before graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.coe.edu/admission/international-students",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

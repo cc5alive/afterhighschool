@@ -10,9 +10,13 @@
         {
           "title": "Wesleyan College History",
           "url": "https://www.wesleyancollege.edu/about/history/wesleyan-college-history.cfm",
-          "quote": "Chartered as the Georgia Female College on December 23, 1836, Wesleyan was founded through the efforts of a group of Macon citizens and the Georgia Conference of the Methodist Episcopal Church as evidence of their concern for the education of women."
+          "quote": "Chartered as the Georgia Female College on December 23, 1836, Wesleyan was founded through the efforts of a group of Macon citizens and the Georgia Conference of the Methodist Episcopal Church as evidence of their concern for the education of women.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wesleyancollege.edu/about/history/wesleyan-college-history.cfm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

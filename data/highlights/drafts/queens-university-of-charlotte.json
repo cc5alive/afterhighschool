@@ -10,9 +10,13 @@
         {
           "title": "Queens University of Charlotte: Welcome to Charlotte's University",
           "url": "https://www.queens.edu/",
-          "quote": "All of our undergrads complete at least one internship before graduating, and it doesn't just happen by chance."
+          "quote": "All of our undergrads complete at least one internship before graduating, and it doesn't just happen by chance.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.queens.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

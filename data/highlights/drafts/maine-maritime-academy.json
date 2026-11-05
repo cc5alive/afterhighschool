@@ -10,9 +10,13 @@
         {
           "title": "Regimental Program - Student Life - Maine Maritime Academy",
           "url": "https://mainemaritime.edu/student-life/regimental-program/",
-          "quote": "As an unlimited license major in Marine Engineering Operations, Marine Engineering Technology, Marine Systems Engineering (5-year track), and Marine Transportation Operations, you'll complete a 37-day summer training program at sea on the Training Ship State of Maine (TSSOM)."
+          "quote": "As an unlimited license major in Marine Engineering Operations, Marine Engineering Technology, Marine Systems Engineering (5-year track), and Marine Transportation Operations, you'll complete a 37-day summer training program at sea on the Training Ship State of Maine (TSSOM).",
+          "httpStatus": 200,
+          "finalUrl": "https://mainemaritime.edu/student-life/regimental-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

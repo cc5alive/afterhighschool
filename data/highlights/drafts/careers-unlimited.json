@@ -10,9 +10,13 @@
         {
           "title": "Utah College of Dental Hygiene",
           "url": "https://www.ucdh.edu/",
-          "quote": "At UCDH you can earn a Bachelor's Degree in Dental Hygiene (BSDH) from a private college in only 20 months*. This unique program is the only one of it's kind in Utah."
+          "quote": "At UCDH you can earn a Bachelor's Degree in Dental Hygiene (BSDH) from a private college in only 20 months*. This unique program is the only one of it's kind in Utah.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ucdh.edu/",
+          "quoteFound": false
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null
