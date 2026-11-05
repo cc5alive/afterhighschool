@@ -10,9 +10,14 @@
         {
           "title": "About - Warren Wilson College",
           "url": "https://www.warren-wilson.edu/about/",
-          "quote": "Warren Wilson College is one of 9 federally recognized work colleges in the United States through the Work College Consortium."
+          "quote": "Warren Wilson College is one of 9 federally recognized work colleges in the United States through the Work College Consortium.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.warren-wilson.edu/about/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "North Carolina residents qualifying for federal or state need-based grants receive full tuition coverage through Warren Wilson College scholarships, need-based grants, and work-grants.",
@@ -20,9 +25,14 @@
         {
           "title": "North Carolina Free Tuition Plan - Warren Wilson College",
           "url": "https://www.warren-wilson.edu/admission/tuition-and-aid/ncfree/",
-          "quote": "All North Carolina residents who qualify for a federal or state need-based grant will receive the remainder of their tuition free through Warren Wilson College scholarships, Warren Wilson College need-based grants and our unique work-grant."
+          "quote": "All North Carolina residents who qualify for a federal or state need-based grant will receive the remainder of their tuition free through Warren Wilson College scholarships, Warren Wilson College need-based grants and our unique work-grant.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.warren-wilson.edu/admission/tuition-and-aid/ncfree/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

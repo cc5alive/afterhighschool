@@ -10,14 +10,22 @@
         {
           "title": "How DWC Works – The Development of Western Civilization Program at Providence College",
           "url": "https://western-civilization.providence.edu/how-dwc-works/",
-          "quote": "The first three semesters of the Development of Western Civilization Program consist of a seminar-style encounter with significant texts from Western and other world civilizations. These three semesters are four credits each and arranged chronologically."
+          "quote": "The first three semesters of the Development of Western Civilization Program consist of a seminar-style encounter with significant texts from Western and other world civilizations. These three semesters are four credits each and arranged chronologically.",
+          "httpStatus": 200,
+          "finalUrl": "https://western-civilization.providence.edu/how-dwc-works/",
+          "quoteFound": true
         },
         {
           "title": "How DWC Works – The Development of Western Civilization Program at Providence College",
           "url": "https://western-civilization.providence.edu/how-dwc-works/",
-          "quote": "The fourth semester of the Development of Western Civilization Program人士 consists of a team-taught, four-credit colloquium."
+          "quote": "The fourth semester of the Development of Western Civilization Program人士 consists of a team-taught, four-credit colloquium.",
+          "httpStatus": 200,
+          "finalUrl": "https://western-civilization.providence.edu/how-dwc-works/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,14 +10,21 @@
         {
           "title": "Brown-Tougaloo Partnership Programs | Tougaloo College",
           "url": "https://www.tougaloo.edu/brown-tougaloo-partnership-programs",
-          "quote": "The formal partnership between Tougaloo College and Brown University was established, creating the first exchange program between an HBCU and an Ivy League institution during the height of the Civil Rights Movement."
+          "quote": "The formal partnership between Tougaloo College and Brown University was established, creating the first exchange program between an HBCU and an Ivy League institution during the height of the Civil Rights Movement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tougaloo.edu/brown-tougaloo-partnership-programs",
+          "quoteFound": true
         },
         {
           "title": "Brown-Tougaloo Partnership Programs | Tougaloo College",
           "url": "https://www.tougaloo.edu/brown-tougaloo-partnership-programs",
-          "quote": "Qualified Tougaloo students spend a semester or academic year at Brown University, experiencing Ivy League academics while maintaining their Tougaloo enrollment."
+          "quote": "Qualified Tougaloo students spend a semester or academic year at Brown University, experiencing Ivy League academics while maintaining their Tougaloo enrollment.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tougaloo.edu/brown-tougaloo-partnership-programs",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Fast Facts and Information | University of Bridgeport",
           "url": "https://www.bridgeport.edu/about/fast-facts",
-          "quote": "In 1913, University of Bridgeport unveiled the first dental hygiene school in the world — the Fones School of Dental Hygiene."
+          "quote": "In 1913, University of Bridgeport unveiled the first dental hygiene school in the world — the Fones School of Dental Hygiene.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bridgeport.edu/about/fast-facts",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

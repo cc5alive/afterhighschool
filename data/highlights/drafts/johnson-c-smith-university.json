@@ -10,9 +10,14 @@
         {
           "title": "Our History | Johnson C. Smith University",
           "url": "https://www.jcsu.edu/who-we-are/our-history",
-          "quote": "In 1867, the Rev. S.C. Alexander and the Rev. W. L. Miller saw the need to establish an institution in the Piedmont region of the South that would deliver education and evangelize to recently freed slaves."
+          "quote": "In 1867, the Rev. S.C. Alexander and the Rev. W. L. Miller saw the need to establish an institution in the Piedmont region of the South that would deliver education and evangelize to recently freed slaves.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jcsu.edu/who-we-are/our-history",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

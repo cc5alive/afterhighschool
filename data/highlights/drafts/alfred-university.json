@@ -10,9 +10,13 @@
         {
           "title": "NYS College of Ceramics | Alfred University",
           "url": "https://www.alfred.edu/academics/colleges-schools/college-ceramics/",
-          "quote": "The Inamori School of Engineering is one of only two institutions in the US that offer a BS in Ceramic Engineering and the only institution in the US that offers degrees in glass science."
+          "quote": "The Inamori School of Engineering is one of only two institutions in the US that offer a BS in Ceramic Engineering and the only institution in the US that offers degrees in glass science.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.alfred.edu/academics/colleges-schools/college-ceramics/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

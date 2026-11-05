@@ -10,9 +10,13 @@
         {
           "title": "McLean County Scholarship Guarantee - Illinois Wesleyan University",
           "url": "https://www.iwu.edu/financial-aid/mclean-county-scholarship.html",
-          "quote": "Students from the high school graduating Class of 2027 who meet the eligibility requirements and are admitted to Illinois Wesleyan University will receive a minimum total scholarship package of $40,000 per year"
+          "quote": "Students from the high school graduating Class of 2027 who meet the eligibility requirements and are admitted to Illinois Wesleyan University will receive a minimum total scholarship package of $40,000 per year",
+          "httpStatus": 200,
+          "finalUrl": "https://www.iwu.edu/financial-aid/mclean-county-scholarship.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

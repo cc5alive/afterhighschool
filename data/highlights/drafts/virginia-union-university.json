@@ -10,14 +10,21 @@
         {
           "title": "Academic Schools of Virginia Union University",
           "url": "https://www.vuu.edu/academics-at-union/academic-schools",
-          "quote": "It was founded in 1865 to give newly emancipated slaves an opportunity for education and advancement."
+          "quote": "It was founded in 1865 to give newly emancipated slaves an opportunity for education and advancement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.vuu.edu/academics-at-union/academic-schools",
+          "quoteFound": true
         },
         {
           "title": "Virginia Union University Welcomes Record-Breaking Class of 2028 with Unprecedented Excitement",
           "url": "https://www.vuu.edu/news/virginia-union-university-welcomes-record-breaking-class-of-2028-with-unprecedented-excitement",
-          "quote": "Founded in 1865, Virginia Union University is a premier historically black university located in Richmond, Virginia."
+          "quote": "Founded in 1865, Virginia Union University is a premier historically black university located in Richmond, Virginia.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.vuu.edu/news/virginia-union-university-welcomes-record-breaking-class-of-2028-with-unprecedented-excitement",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

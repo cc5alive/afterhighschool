@@ -10,9 +10,13 @@
         {
           "title": "Lenoir-Rhyne earns dual recognition in U.S. News & World Report rankings",
           "url": "https://www.lr.edu/news/lenoir-rhyne-earns-dual-recognition-us-news-world-report-rankings",
-          "quote": "In addition, the LR Promise guarantees half off tuition to all undergraduates with a minimum GPA of 3.5."
+          "quote": "In addition, the LR Promise guarantees half off tuition to all undergraduates with a minimum GPA of 3.5.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lr.edu/news/lenoir-rhyne-earns-dual-recognition-us-news-world-report-rankings",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

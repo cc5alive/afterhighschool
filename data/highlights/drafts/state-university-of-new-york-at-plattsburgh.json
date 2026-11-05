@@ -10,9 +10,14 @@
         {
           "title": "North Country Scholarship | SUNY Plattsburgh",
           "url": "https://www.plattsburgh.edu/cost-aid/scholarships/north-country-scholarship.html",
-          "quote": "The North Country Scholarship of $3,500 per year is deducted from non-tuition educational costs. Applicants to our nursing program are eligible for the Cardinal Nursing Scholarship, not the North Country Scholarship."
+          "quote": "The North Country Scholarship of $3,500 per year is deducted from non-tuition educational costs. Applicants to our nursing program are eligible for the Cardinal Nursing Scholarship, not the North Country Scholarship.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.plattsburgh.edu/cost-aid/scholarships/north-country-scholarship.html",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

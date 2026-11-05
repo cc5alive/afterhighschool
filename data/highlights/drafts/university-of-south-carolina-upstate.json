@@ -10,9 +10,13 @@
         {
           "title": "Student Scholarships - USC Upstate",
           "url": "https://uscupstate.edu/tuition-and-financial-aid/scholarships/student-scholarships/",
-          "quote": "Promise Scholars: Up to the full cost of tuition after other aid is applied. Must be a first-time college student graduating from a public high school in Spartanburg, Union, Cherokee or Greenville County"
+          "quote": "Promise Scholars: Up to the full cost of tuition after other aid is applied. Must be a first-time college student graduating from a public high school in Spartanburg, Union, Cherokee or Greenville County",
+          "httpStatus": 200,
+          "finalUrl": "https://uscupstate.edu/tuition-and-financial-aid/scholarships/student-scholarships/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

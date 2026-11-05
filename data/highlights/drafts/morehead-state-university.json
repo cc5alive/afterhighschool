@@ -10,14 +10,23 @@
         {
           "title": "Space Science Center | Morehead State University | Kentucky",
           "url": "https://www.moreheadstate.edu/academics/colleges/science/engineering-sciences/space-science-center/",
-          "quote": "The Space Science Center is home to MSU's Program of Distinction, the Bachelor of Science in Space Systems Engineering and the Master of Science in Space Systems Engineering."
+          "quote": "The Space Science Center is home to MSU's Program of Distinction, the Bachelor of Science in Space Systems Engineering and the Master of Science in Space Systems Engineering.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.moreheadstate.edu/academics/colleges/science/engineering-sciences/space-science-center/",
+          "quoteFound": null,
+          "browserChecked": true
         },
         {
           "title": "Space Science Center | Morehead State University | Kentucky",
           "url": "https://www.moreheadstate.edu/academics/colleges/science/engineering-sciences/space-science-center/",
-          "quote": "It includes a control center for the 21-meter space antenna system on the ridge top above Nunn Hall"
+          "quote": "It includes a control center for the 21-meter space antenna system on the ridge top above Nunn Hall",
+          "httpStatus": 403,
+          "finalUrl": "https://www.moreheadstate.edu/academics/colleges/science/engineering-sciences/space-science-center/",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

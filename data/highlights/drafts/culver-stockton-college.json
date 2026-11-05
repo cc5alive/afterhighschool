@@ -10,9 +10,13 @@
         {
           "title": "John Wood Community College - Culver-Stockton College",
           "url": "https://culver.edu/admissions/transfer-jwcc/",
-          "quote": "Our innovative curriculum is structured as a 12 week + 3 week semester. Our students spend three weeks in experiential educational courses every semester."
+          "quote": "Our innovative curriculum is structured as a 12 week + 3 week semester. Our students spend three weeks in experiential educational courses every semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://culver.edu/admissions/transfer-jwcc/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

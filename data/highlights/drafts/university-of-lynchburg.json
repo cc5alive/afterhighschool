@@ -10,9 +10,14 @@
         {
           "title": "MaxImpact Degrees | University of Lynchburg",
           "url": "https://www.lynchburg.edu/academics/maximpact-degrees/",
-          "quote": "Save 25% on tuition: Reducing the credit load from 120 to 96 credit hours lowers educational costs. Earn your bachelor's in just three years: Complete your degree in six semesters instead of eight."
+          "quote": "Save 25% on tuition: Reducing the credit load from 120 to 96 credit hours lowers educational costs. Earn your bachelor's in just three years: Complete your degree in six semesters instead of eight.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lynchburg.edu/academics/maximpact-degrees/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

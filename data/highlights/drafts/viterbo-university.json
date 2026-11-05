@@ -10,9 +10,14 @@
         {
           "title": "Four-Year Degree Information - Viterbo University",
           "url": "https://www.viterbo.edu/hub-student-success/four-year-degree-information",
-          "quote": "If a student who complies with the terms of the guarantee is unable to graduate within four years, Viterbo will allow them to graduate by either substituting a different course, waiving a course, or not charging tuition"
+          "quote": "If a student who complies with the terms of the guarantee is unable to graduate within four years, Viterbo will allow them to graduate by either substituting a different course, waiving a course, or not charging tuition",
+          "httpStatus": 403,
+          "finalUrl": "https://www.viterbo.edu/hub-student-success/four-year-degree-information",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

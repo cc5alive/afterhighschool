@@ -10,9 +10,13 @@
         {
           "title": "Muskingum Plus Program | Muskingum University",
           "url": "https://www.muskingum.edu/drs/plus",
-          "quote": "At Muskingum, the PLUS Program is here to support you. For over 40 years, we've helped students with learning differences grow their skills, gain confidence, and thrive in college."
+          "quote": "At Muskingum, the PLUS Program is here to support you. For over 40 years, we've helped students with learning differences grow their skills, gain confidence, and thrive in college.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.muskingum.edu/drs/plus",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

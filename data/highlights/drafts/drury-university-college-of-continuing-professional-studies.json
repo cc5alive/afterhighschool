@@ -10,14 +10,21 @@
         {
           "title": "FAQ's | Questions - Drury University",
           "url": "https://www.drury.edu/go/faqs/",
-          "quote": "Drury GO is an evolution of CCPS. The name was changed to reflect the updated program and services offerings as we strive to continue evolving with the needs of our students."
+          "quote": "Drury GO is an evolution of CCPS. The name was changed to reflect the updated program and services offerings as we strive to continue evolving with the needs of our students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.drury.edu/go/faqs/",
+          "quoteFound": true
         },
         {
           "title": "FAQ's | Questions - Drury University",
           "url": "https://www.drury.edu/go/faqs/",
-          "quote": "Classes are offered exclusively online and in the evenings, however. Admissions, tuition, and course requirements are unique to Drury GO and are designed to support our GO students' differing needs than the residential students."
+          "quote": "Classes are offered exclusively online and in the evenings, however. Admissions, tuition, and course requirements are unique to Drury GO and are designed to support our GO students' differing needs than the residential students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.drury.edu/go/faqs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

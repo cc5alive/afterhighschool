@@ -10,9 +10,13 @@
         {
           "title": "Eden Hall Campus",
           "url": "https://www.edenhall.chatham.edu/",
-          "quote": "Nestled on 388 acres of rolling woodlands and fields in Richland Township, PA, you will find the world's first university campus designed to be a showcase for sustainable solutions."
+          "quote": "Nestled on 388 acres of rolling woodlands and fields in Richland Township, PA, you will find the world's first university campus designed to be a showcase for sustainable solutions.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.edenhall.chatham.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Rachel Carson, author of Silent Spring, graduated from Chatham University when it was named the Pennsylvania College for Women.",
@@ -20,9 +24,14 @@
         {
           "title": "Eden Hall Campus",
           "url": "https://www.edenhall.chatham.edu/",
-          "quote": "Pennsylvania College for Women (now Chatham University) graduate Rachel Carson '29 rose to prominence with her book, Silent Spring, as a trailblazing voice questioning the resulting impact of pesticides on people, animals, and the environment."
+          "quote": "Pennsylvania College for Women (now Chatham University) graduate Rachel Carson '29 rose to prominence with her book, Silent Spring, as a trailblazing voice questioning the resulting impact of pesticides on people, animals, and the environment.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.edenhall.chatham.edu/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

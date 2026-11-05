@@ -10,9 +10,14 @@
         {
           "title": "About Faulkner University - Christian University in Alabama",
           "url": "https://www.faulkner.edu/about-faulkner/",
-          "quote": "Church affiliation: Churches of Christ. Date founded: 1942. President: Mitch Henry, J.D. Enrollment: 3,262. Tuition, room and board: $32,730.00."
+          "quote": "Church affiliation: Churches of Christ. Date founded: 1942. President: Mitch Henry, J.D. Enrollment: 3,262. Tuition, room and board: $32,730.00.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.faulkner.edu/about-faulkner/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

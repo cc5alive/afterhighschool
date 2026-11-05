@@ -10,14 +10,21 @@
         {
           "title": "Indianapolis Community Requirement | Butler University",
           "url": "https://www.butler.edu/academics/core/components/indianapolis-community-requirement/",
-          "quote": "Students must take one course in any part of the University that involves active engagement with the Indianapolis community."
+          "quote": "Students must take one course in any part of the University that involves active engagement with the Indianapolis community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.butler.edu/academics/core/components/indianapolis-community-requirement/",
+          "quoteFound": true
         },
         {
           "title": "Indianapolis Community Requirement | Butler University",
           "url": "https://www.butler.edu/academics/core/components/indianapolis-community-requirement/",
-          "quote": "All Butler students entering in fall 2010 or later must complete at least one ICR course before graduation."
+          "quote": "All Butler students entering in fall 2010 or later must complete at least one ICR course before graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.butler.edu/academics/core/components/indianapolis-community-requirement/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Big Blue Pledge | Millikin University",
           "url": "https://millikin.edu/admission/tuition-aid/tuition-fees/big-blue-pledge",
-          "quote": "The Big Blue Pledge will cover 100% of students' undergraduate tuition by combining Millikin grants and scholarships with available state and federal grants, in their first year at Millikin."
+          "quote": "The Big Blue Pledge will cover 100% of students' undergraduate tuition by combining Millikin grants and scholarships with available state and federal grants, in their first year at Millikin.",
+          "httpStatus": 200,
+          "finalUrl": "https://millikin.edu/admission/tuition-aid/tuition-fees/big-blue-pledge",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

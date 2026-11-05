@@ -10,9 +10,13 @@
         {
           "title": "History & Traditions | Elmira College",
           "url": "https://www.elmira.edu/welcome-to-elmira/history-amp-traditions",
-          "quote": "Elmira was the first college for women with a course of study equal in rigor to the best men's colleges."
+          "quote": "Elmira was the first college for women with a course of study equal in rigor to the best men's colleges.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.elmira.edu/welcome-to-elmira/history-amp-traditions",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Located on campus, the Mark Twain Study is the historic site where Mark Twain penned The Adventures of Tom Sawyer and The Adventures of Huckleberry Finn.",
@@ -20,9 +24,14 @@
         {
           "title": "History & Traditions | Elmira College",
           "url": "https://www.elmira.edu/welcome-to-elmira/history-amp-traditions",
-          "quote": "The Mark Twain Study, now located on campus, is the study in which the famous author penned The Adventures of Tom Sawyer, The Adventures of Huckleberry Finn, and other iconic works."
+          "quote": "The Mark Twain Study, now located on campus, is the study in which the famous author penned The Adventures of Tom Sawyer, The Adventures of Huckleberry Finn, and other iconic works.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.elmira.edu/welcome-to-elmira/history-amp-traditions",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

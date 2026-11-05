@@ -10,14 +10,23 @@
         {
           "title": "2 + 2 Degree Plan | Penn State Scranton",
           "url": "https://scranton.psu.edu/academics/degrees/2-plus-2-degree-plan",
-          "quote": "Some students choose to remain at one campus for all four years, while other students spend their first two years at one campus and transition to University Park or another campus for their remaining two years."
+          "quote": "Some students choose to remain at one campus for all four years, while other students spend their first two years at one campus and transition to University Park or another campus for their remaining two years.",
+          "httpStatus": 403,
+          "finalUrl": "https://scranton.psu.edu/academics/degrees/2-plus-2-degree-plan",
+          "quoteFound": null,
+          "browserChecked": true
         },
         {
           "title": "2 + 2 Degree Plan | Penn State Scranton",
           "url": "https://scranton.psu.edu/academics/degrees/2-plus-2-degree-plan",
-          "quote": "We call this the 2 + 2 plan, and it is the most common path for a Penn State degree"
+          "quote": "We call this the 2 + 2 plan, and it is the most common path for a Penn State degree",
+          "httpStatus": 403,
+          "finalUrl": "https://scranton.psu.edu/academics/degrees/2-plus-2-degree-plan",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

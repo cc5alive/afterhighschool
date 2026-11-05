@@ -10,9 +10,13 @@
         {
           "title": "Bible Minor | Cedarville University",
           "url": "https://www.cedarville.edu/academics/programs/bible-minor",
-          "quote": "All students, regardless of major, will complete a Bible minor."
+          "quote": "All students, regardless of major, will complete a Bible minor.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cedarville.edu/academics/programs/bible-minor",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

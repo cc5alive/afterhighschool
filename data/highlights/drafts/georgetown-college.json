@@ -10,9 +10,14 @@
         {
           "title": "Scholarships & Programs of Distinction - Georgetown College",
           "url": "https://www.georgetowncollege.edu/admissions/cost-aid/scholarships-programs-of-distinction/",
-          "quote": "We guarantee that any student eligible for the Pell Grant who maintains at least a 2.5 GPA will have no increase in tuition costs for the four years of college!"
+          "quote": "We guarantee that any student eligible for the Pell Grant who maintains at least a 2.5 GPA will have no increase in tuition costs for the four years of college!",
+          "httpStatus": 403,
+          "finalUrl": "https://www.georgetowncollege.edu/admissions/cost-aid/scholarships-programs-of-distinction/",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

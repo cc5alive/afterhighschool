@@ -10,9 +10,13 @@
         {
           "title": "Prospective Students - UConn Hartford",
           "url": "https://hartford.uconn.edu/admissions/prospective-students/",
-          "quote": "You can begin your UConn career at Hartford and seamlessly transition to UConn's main campus in Storrs to complete your degree, or begin your academic journey here and stay for four years."
+          "quote": "You can begin your UConn career at Hartford and seamlessly transition to UConn's main campus in Storrs to complete your degree, or begin your academic journey here and stay for four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://hartford.uconn.edu/admissions/prospective-students/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

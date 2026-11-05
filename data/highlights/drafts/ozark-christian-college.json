@@ -10,14 +10,23 @@
         {
           "title": "table of contents - My OCC - Ozark Christian College",
           "url": "https://my.occ.edu/ICS/icsfs/2016-2017_Catalog.pdf?target=e1df7d92-a3ef-4dbb-84fe-9c3f57357205",
-          "quote": "A theme verse for our college is Mark 10:45—“not to be served, but to serve .” At OCC, you'll catch a greater vision for reaching out to others with the love and truth of Christ"
+          "quote": "A theme verse for our college is Mark 10:45—“not to be served, but to serve .” At OCC, you'll catch a greater vision for reaching out to others with the love and truth of Christ",
+          "httpStatus": 200,
+          "finalUrl": "https://my.occ.edu/ICS/icsfs/2016-2017_Catalog.pdf?target=e1df7d92-a3ef-4dbb-84fe-9c3f57357205",
+          "quoteFound": false,
+          "browserChecked": true
         },
         {
           "title": "table of contents - My OCC - Ozark Christian College",
           "url": "https://my.occ.edu/ICS/icsfs/2016-2017_Catalog.pdf?target=e1df7d92-a3ef-4dbb-84fe-9c3f57357205",
-          "quote": "Our curriculum backs our commitment—every graduate takes a strong core of top-notch Bible classes ."
+          "quote": "Our curriculum backs our commitment—every graduate takes a strong core of top-notch Bible classes .",
+          "httpStatus": 200,
+          "finalUrl": "https://my.occ.edu/ICS/icsfs/2016-2017_Catalog.pdf?target=e1df7d92-a3ef-4dbb-84fe-9c3f57357205",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

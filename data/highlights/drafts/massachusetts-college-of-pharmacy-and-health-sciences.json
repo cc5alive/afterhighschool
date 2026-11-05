@@ -10,9 +10,13 @@
         {
           "title": "Colleges of the Fenway (COF) Campus Life | MCPHS",
           "url": "https://www.mcphs.edu/student-life/boston/campus-life/colleges-of-the-fenway",
-          "quote": "MCPHS students can cross register for course offerings at all of the universities within the Colleges of the Fenway. By cross-registering, a world of opportunity is available to you."
+          "quote": "MCPHS students can cross register for course offerings at all of the universities within the Colleges of the Fenway. By cross-registering, a world of opportunity is available to you.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mcphs.edu/student-life/boston/campus-life/colleges-of-the-fenway",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

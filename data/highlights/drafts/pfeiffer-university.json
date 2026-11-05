@@ -10,9 +10,13 @@
         {
           "title": "Pfeiffer Life Spring Semester Kickoff (Pfeiffer Life Credit)",
           "url": "https://www.pfeiffer.edu/calendar_event/pfeiffer-life-spring-semester-kickoff-pfeiffer-life-credit/",
-          "quote": "Learn about Pfeiffer University's co-curricular graduation requirement program, Pfeiffer Life!"
+          "quote": "Learn about Pfeiffer University's co-curricular graduation requirement program, Pfeiffer Life!",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pfeiffer.edu/calendar_event/pfeiffer-life-spring-semester-kickoff-pfeiffer-life-credit/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

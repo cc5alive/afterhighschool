@@ -10,14 +10,23 @@
         {
           "title": "Campus Profile - Emmanuel University Overview and Facts",
           "url": "https://eu.edu/about/campus-profile/",
-          "quote": "Founded in 1919 by the International Pentecostal Holiness Church."
+          "quote": "Founded in 1919 by the International Pentecostal Holiness Church.",
+          "httpStatus": 403,
+          "finalUrl": "https://eu.edu/about/campus-profile/",
+          "quoteFound": null,
+          "browserChecked": true
         },
         {
           "title": "Faith and Values - Emmanuel University Christian Beliefs/Principles",
           "url": "https://eu.edu/about/faith-values/",
-          "quote": "We train and mentor the future leadership of the International Pentecostal Holiness Church and those from other Christian traditions."
+          "quote": "We train and mentor the future leadership of the International Pentecostal Holiness Church and those from other Christian traditions.",
+          "httpStatus": 403,
+          "finalUrl": "https://eu.edu/about/faith-values/",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

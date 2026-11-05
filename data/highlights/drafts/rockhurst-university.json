@@ -10,9 +10,13 @@
         {
           "title": "Wisdom Core Curriculum | Rockhurst University",
           "url": "https://www.rockhurst.edu/academics/advising/wisdom-core",
-          "quote": "The Wisdom Core curriculum consists of four components: Cornerstone Seminar, Foundation Courses, Keystone Designations and Threshold Experiences. Together, these will amount to 39-42 credit hours that will comprise the heart of your Jesuit education"
+          "quote": "The Wisdom Core curriculum consists of four components: Cornerstone Seminar, Foundation Courses, Keystone Designations and Threshold Experiences. Together, these will amount to 39-42 credit hours that will comprise the heart of your Jesuit education",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rockhurst.edu/academics/advising/wisdom-core",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

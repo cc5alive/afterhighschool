@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Business School Campus Rotation - BBA | Hult International Business School",
           "url": "https://www.hult.edu/undergraduate/global-rotation/",
-          "quote": "Global Rotation gives you the option to study across our locations in Boston, London, Dubai, and San Francisco during your degree."
+          "quote": "Global Rotation gives you the option to study across our locations in Boston, London, Dubai, and San Francisco during your degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hult.edu/undergraduate/global-rotation/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

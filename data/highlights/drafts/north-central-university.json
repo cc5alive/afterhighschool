@@ -10,9 +10,13 @@
         {
           "title": "Scholarships & Types of Financial Aid | NCU - North Central University",
           "url": "https://www.northcentral.edu/financial-aid/types-of-aid/",
-          "quote": "The Minnesota Tuition Guarantee ensures that NCU will cover any remaining tuition costs in the Fall and Spring terms after state and federal financial aid are applied, for students who meet the eligibility requirements."
+          "quote": "The Minnesota Tuition Guarantee ensures that NCU will cover any remaining tuition costs in the Fall and Spring terms after state and federal financial aid are applied, for students who meet the eligibility requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.northcentral.edu/financial-aid/types-of-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Regent's Tuition Scholarship is a four-year, full-tuition scholarship awarded to one first-time freshman annually based on academic performance, leadership, references, and an essay.",
@@ -20,9 +24,13 @@
         {
           "title": "Scholarships & Types of Financial Aid | NCU - North Central University",
           "url": "https://www.northcentral.edu/financial-aid/types-of-aid/",
-          "quote": "The Regent's Tuition Scholarship is a four-year, full-tuition scholarship awarded to one first-time freshmen student each year based on superior academic performance and leadership/extracurricular experience, two references, and a written essay."
+          "quote": "The Regent's Tuition Scholarship is a four-year, full-tuition scholarship awarded to one first-time freshmen student each year based on superior academic performance and leadership/extracurricular experience, two references, and a written essay.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.northcentral.edu/financial-aid/types-of-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

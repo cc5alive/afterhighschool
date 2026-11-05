@@ -10,14 +10,22 @@
         {
           "title": "Textbooks & Laptop Included* - Northwest Admissions | Northwest",
           "url": "https://www.nwmissouri.edu/admissions/laptop/",
-          "quote": "Rental of your primary textbooks is included in tuition and fees for on-campus, undergraduate students."
+          "quote": "Rental of your primary textbooks is included in tuition and fees for on-campus, undergraduate students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nwmissouri.edu/admissions/laptop/",
+          "quoteFound": true,
+          "browserChecked": true
         },
         {
           "title": "Textbooks & Laptop Included* - Northwest Admissions | Northwest",
           "url": "https://www.nwmissouri.edu/admissions/laptop/",
-          "quote": "Full-time undergraduate (at least 12 credit hours) and graduate students (at least 9 credit hours) will also receive a fully loaded laptop to use while studying at Northwest."
+          "quote": "Full-time undergraduate (at least 12 credit hours) and graduate students (at least 9 credit hours) will also receive a fully loaded laptop to use while studying at Northwest.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nwmissouri.edu/admissions/laptop/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

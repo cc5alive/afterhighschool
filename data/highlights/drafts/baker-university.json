@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Guarantee | Baker University",
           "url": "https://www.bakeru.edu/academic-programs/undergraduate-studies/four-year-guarantee",
-          "quote": "If a student meets the requirements and finds that they are unable to graduate in four years, Baker will cover the tuition for the remaining required courses to complete the degree for free."
+          "quote": "If a student meets the requirements and finds that they are unable to graduate in four years, Baker will cover the tuition for the remaining required courses to complete the degree for free.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bakeru.edu/academic-programs/undergraduate-studies/four-year-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All first-time degree-seeking students at Baker University must complete two Interterm courses to graduate.",
@@ -20,9 +24,14 @@
         {
           "title": "The Baker Core Program",
           "url": "https://www.bakeru.edu/sites/default/files/imported-documents/2026-01/Baker_Core_2023.pdf",
-          "quote": "All first-time degree seeking students must register for Interterm and must successfully complete 2 Interterm courses to graduate."
+          "quote": "All first-time degree seeking students must register for Interterm and must successfully complete 2 Interterm courses to graduate.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bakeru.edu/sites/default/files/imported-documents/2026-01/Baker_Core_2023.pdf",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

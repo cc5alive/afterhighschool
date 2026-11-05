@@ -10,9 +10,13 @@
         {
           "title": "About Us | New Mexico Highlands University Online",
           "url": "https://online.nmhu.edu/about/",
-          "quote": "In 1987, New Mexico Highlands was a founding member of the Hispanic Association of Colleges and Universities (HACU) and has been a Hispanic Serving Institution (HSI) since the inception of such institution designations by the U.S. Department of Education."
+          "quote": "In 1987, New Mexico Highlands was a founding member of the Hispanic Association of Colleges and Universities (HACU) and has been a Hispanic Serving Institution (HSI) since the inception of such institution designations by the U.S. Department of Education.",
+          "httpStatus": 200,
+          "finalUrl": "https://online.nmhu.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

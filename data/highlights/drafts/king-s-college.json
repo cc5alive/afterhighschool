@@ -10,9 +10,13 @@
         {
           "title": "Core Curriculum - King's College",
           "url": "https://www.kings.edu/academics/essentials/core/index.html",
-          "quote": "All students at King's College, regardless of their individual majors, participate in the Core Curriculum, a set of courses and experiences designed to help students develop the intellectual maturity and moral strength to lead purposeful, meaningful lives."
+          "quote": "All students at King's College, regardless of their individual majors, participate in the Core Curriculum, a set of courses and experiences designed to help students develop the intellectual maturity and moral strength to lead purposeful, meaningful lives.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kings.edu/academics/essentials/core/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

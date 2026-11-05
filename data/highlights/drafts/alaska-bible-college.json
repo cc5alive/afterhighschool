@@ -10,14 +10,22 @@
         {
           "title": "Alaska Bible College: Accredited Bible College in Alaska",
           "url": "https://www.akbible.edu/",
-          "quote": "Study Scripture, grow in Christ, and prepare for ministry at Alaska's only accredited four-year Bible college, with study in Palmer and online."
+          "quote": "Study Scripture, grow in Christ, and prepare for ministry at Alaska's only accredited four-year Bible college, with study in Palmer and online.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.akbible.edu/",
+          "quoteFound": false,
+          "browserChecked": true
         },
         {
           "title": "Online Bible Certificate - Alaska Bible College",
           "url": "https://www.akbible.edu/biblecertificate",
-          "quote": "Alaska Bible College is institutionally accredited by the Association for Biblical Higher Education. Full accreditation and authorization details are available on the Accreditation page."
+          "quote": "Alaska Bible College is institutionally accredited by the Association for Biblical Higher Education. Full accreditation and authorization details are available on the Accreditation page.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.akbible.edu/biblecertificate",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

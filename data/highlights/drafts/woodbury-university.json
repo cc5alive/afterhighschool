@@ -10,9 +10,14 @@
         {
           "title": "Why URLA? - Woodbury University",
           "url": "https://woodbury.edu/admissions/undergraduate-admission/why-woodbury/",
-          "quote": "Internships are required for all our majors which means you'll apply your learning with hands on experience and boost your resume."
+          "quote": "Internships are required for all our majors which means you'll apply your learning with hands on experience and boost your resume.",
+          "httpStatus": 200,
+          "finalUrl": "https://woodbury.edu/admissions/undergraduate-admission/why-woodbury/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

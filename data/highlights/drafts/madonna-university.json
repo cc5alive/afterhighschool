@@ -10,9 +10,13 @@
         {
           "title": "Deaf Community Studies Bachelor of Arts (BA) Degree",
           "url": "https://www.madonna.edu/academics/programs/deaf-community-studies/",
-          "quote": "Madonna is the first and only university in Michigan to offer a bachelor's degree in Deaf Community Studies."
+          "quote": "Madonna is the first and only university in Michigan to offer a bachelor's degree in Deaf Community Studies.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.madonna.edu/academics/programs/deaf-community-studies/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

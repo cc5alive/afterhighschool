@@ -10,14 +10,21 @@
         {
           "title": "Self-Paced Programs | UMass Global",
           "url": "https://www.umassglobal.edu/student-experience/why-umassglobal/flexible-ways-to-learn/self-paced",
-          "quote": "UMass Global MyPath is a competency-based learning experience where you progress by demonstrating mastery of defined competencies instead of earning credit for attendance, participation, or weekly assignments."
+          "quote": "UMass Global MyPath is a competency-based learning experience where you progress by demonstrating mastery of defined competencies instead of earning credit for attendance, participation, or weekly assignments.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umassglobal.edu/student-experience/why-umassglobal/flexible-ways-to-learn/self-paced",
+          "quoteFound": true
         },
         {
           "title": "Self-Paced Programs | UMass Global",
           "url": "https://www.umassglobal.edu/student-experience/why-umassglobal/flexible-ways-to-learn/self-paced",
-          "quote": "In UMass Global MyPath, grading is mastery-based instead of using traditional letter grades or GPA."
+          "quote": "In UMass Global MyPath, grading is mastery-based instead of using traditional letter grades or GPA.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umassglobal.edu/student-experience/why-umassglobal/flexible-ways-to-learn/self-paced",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

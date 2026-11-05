@@ -10,9 +10,13 @@
         {
           "title": "History | Columbia College",
           "url": "https://www.columbiasc.edu/about/history",
-          "quote": "In 2020, Columbia College announced that it would welcome men into its residential undergraduate program, becoming fully coeducational with its first coed residential class arriving in fall 2021."
+          "quote": "In 2020, Columbia College announced that it would welcome men into its residential undergraduate program, becoming fully coeducational with its first coed residential class arriving in fall 2021.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.columbiasc.edu/about/history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

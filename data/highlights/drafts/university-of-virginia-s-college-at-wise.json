@@ -10,9 +10,13 @@
         {
           "title": "For Virginians - UVA Wise",
           "url": "https://www.uvawise.edu/affordability/virginians",
-          "quote": "Any student from Virginia whose family has an income of $80,000 or less who qualifies for admission to UVA Wise will have tuition and fees paid on their behalf."
+          "quote": "Any student from Virginia whose family has an income of $80,000 or less who qualifies for admission to UVA Wise will have tuition and fees paid on their behalf.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uvawise.edu/affordability/virginians",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "UCU Tuition-Free Pathway - Union Commonwealth University",
           "url": "https://www.unionky.edu/tuitionfree",
-          "quote": "The UCU Tuition-Free Pathway provides eligible students from local high schools in Knox, Bell, and Clay counties with a tuition-free pathway to Union Commonwealth University."
+          "quote": "The UCU Tuition-Free Pathway provides eligible students from local high schools in Knox, Bell, and Clay counties with a tuition-free pathway to Union Commonwealth University.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unionky.edu/tuitionfree",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

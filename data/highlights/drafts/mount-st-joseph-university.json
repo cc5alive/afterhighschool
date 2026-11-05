@@ -10,9 +10,13 @@
         {
           "title": "Cooperative Education - Mount St. Joseph University",
           "url": "https://www.msj.edu/academics/academic-opportunities/cooperative-experiential-education/",
-          "quote": "Co-op fulfills the University's experiential education requirement for graduation. Co-op is available for students in every academic major."
+          "quote": "Co-op fulfills the University's experiential education requirement for graduation. Co-op is available for students in every academic major.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.msj.edu/academics/academic-opportunities/cooperative-experiential-education/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

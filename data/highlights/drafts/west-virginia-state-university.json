@@ -10,9 +10,13 @@
         {
           "title": "Free for Eight, Enroll at State - West Virginia State University",
           "url": "https://wvstateu.edu/admissions/financial-aid/scholarships/free-for-eight-enroll-at-state/",
-          "quote": "Free for Eight is renewable for four consecutive years (eight semesters) for first time, first year students. Transfer students can renew for two consecutive years (four semesters)."
+          "quote": "Free for Eight is renewable for four consecutive years (eight semesters) for first time, first year students. Transfer students can renew for two consecutive years (four semesters).",
+          "httpStatus": 200,
+          "finalUrl": "https://wvstateu.edu/admissions/financial-aid/scholarships/free-for-eight-enroll-at-state/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

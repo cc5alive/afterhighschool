@@ -10,9 +10,13 @@
         {
           "title": "Bible Teaching - Johnson University",
           "url": "https://johnsonu.edu/bachelors/bible-teaching/",
-          "quote": "All four-year Johnson students complete two majors: one in Bible and Theology and one in their chosen field, such as Bible Teaching."
+          "quote": "All four-year Johnson students complete two majors: one in Bible and Theology and one in their chosen field, such as Bible Teaching.",
+          "httpStatus": 200,
+          "finalUrl": "https://johnsonu.edu/bachelors/bible-teaching/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

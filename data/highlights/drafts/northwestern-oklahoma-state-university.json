@@ -10,14 +10,21 @@
         {
           "title": "Paying For College - Northwestern Oklahoma State University",
           "url": "https://www.nwosu.edu/paying-for-college/",
-          "quote": "First-time freshmen and transfer students attending Northwestern-Alva on a full-time basis who establish a residence in the city may be eligible for additional financial assistance through a unique to Northwestern incentive program."
+          "quote": "First-time freshmen and transfer students attending Northwestern-Alva on a full-time basis who establish a residence in the city may be eligible for additional financial assistance through a unique to Northwestern incentive program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nwosu.edu/paying-for-college/",
+          "quoteFound": true
         },
         {
           "title": "Paying For College - Northwestern Oklahoma State University",
           "url": "https://www.nwosu.edu/paying-for-college/",
-          "quote": "To qualify for this scholarship money, you'll need to live within the Alva city limits."
+          "quote": "To qualify for this scholarship money, you'll need to live within the Alva city limits.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nwosu.edu/paying-for-college/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

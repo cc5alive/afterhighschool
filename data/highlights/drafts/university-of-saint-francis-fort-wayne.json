@@ -10,9 +10,13 @@
         {
           "title": "Saint Francis Promise - University of Saint Francis, Fort Wayne",
           "url": "https://www.sf.edu/cost-and-aid/undergraduate/saint-francis-promise/",
-          "quote": "The Saint Francis Promise covers 100% tuition and standard fees (Semester Fee and Technology Fee) after applicable federal, state and institutional grants and scholarships have been applied."
+          "quote": "The Saint Francis Promise covers 100% tuition and standard fees (Semester Fee and Technology Fee) after applicable federal, state and institutional grants and scholarships have been applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sf.edu/cost-and-aid/undergraduate/saint-francis-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

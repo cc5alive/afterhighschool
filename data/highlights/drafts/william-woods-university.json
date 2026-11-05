@@ -10,14 +10,21 @@
         {
           "title": "Lead Award Program - William Woods University",
           "url": "https://www.williamwoods.edu/student-experience/undergraduate-student-experience/lead-award-program/",
-          "quote": "The LEAD Award program is an annual tuition award granted to all undergraduate students, regardless of financial need, who commit to campus and community involvement."
+          "quote": "The LEAD Award program is an annual tuition award granted to all undergraduate students, regardless of financial need, who commit to campus and community involvement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.williamwoods.edu/student-experience/undergraduate-student-experience/lead-award-program/",
+          "quoteFound": true
         },
         {
           "title": "Lead Award Program - William Woods University",
           "url": "https://www.williamwoods.edu/student-experience/undergraduate-student-experience/lead-award-program/",
-          "quote": "An award of $2,000 is possible for residential students and $1,000 for commuter students each year."
+          "quote": "An award of $2,000 is possible for residential students and $1,000 for commuter students each year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.williamwoods.edu/student-experience/undergraduate-student-experience/lead-award-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

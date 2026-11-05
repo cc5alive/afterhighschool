@@ -10,9 +10,14 @@
         {
           "title": "The Sewanee Pledge | The University of the South | Sewanee",
           "url": "https://new.sewanee.edu/admission-aid/the-sewanee-pledge/",
-          "quote": "We pledge—that you will graduate in four consecutive years (with one major). If you do not, Sewanee will provide up to one additional year of study tuition-free."
+          "quote": "We pledge—that you will graduate in four consecutive years (with one major). If you do not, Sewanee will provide up to one additional year of study tuition-free.",
+          "httpStatus": 200,
+          "finalUrl": "https://new.sewanee.edu/admission-aid/the-sewanee-pledge/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Sewanee students are provided funding for a summer internship or research fellowship and a semester-long study-abroad opportunity at no additional tuition cost.",
@@ -20,9 +25,14 @@
         {
           "title": "The Sewanee Pledge | The University of the South | Sewanee",
           "url": "https://new.sewanee.edu/admission-aid/the-sewanee-pledge/",
-          "quote": "Sewanee students are provided funding for a summer internship or research fellowship, a semester-long study-abroad opportunity at no additional tuition cost, and the ability to graduate with one major in four years."
+          "quote": "Sewanee students are provided funding for a summer internship or research fellowship, a semester-long study-abroad opportunity at no additional tuition cost, and the ability to graduate with one major in four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://new.sewanee.edu/admission-aid/the-sewanee-pledge/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,14 @@
         {
           "title": "Why Choose Hamline | Hamline University - St. Paul, MN",
           "url": "https://www.hamline.edu/about/why-hamline",
-          "quote": "Hamline is Minnesota's first university, founded in 1854."
+          "quote": "Hamline is Minnesota's first university, founded in 1854.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hamline.edu/about/why-hamline",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

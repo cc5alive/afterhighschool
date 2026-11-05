@@ -10,14 +10,22 @@
         {
           "title": "About Us | Florida College",
           "url": "https://floridacollege.edu/about/",
-          "quote": "Located in Tampa, Florida College is a private liberal arts school with a goal of providing higher education with a biblical perspective. This unique environment fosters personal spiritual development and prepares students for better service to their Creator and humanity."
+          "quote": "Located in Tampa, Florida College is a private liberal arts school with a goal of providing higher education with a biblical perspective. This unique environment fosters personal spiritual development and prepares students for better service to their Creator and humanity.",
+          "httpStatus": 200,
+          "finalUrl": "https://floridacollege.edu/about/",
+          "quoteFound": true
         },
         {
           "title": "About Us | Florida College",
           "url": "https://floridacollege.edu/about/",
-          "quote": "100% Christian Faculty and Staff. All faculty and staff members are committed Christians, integrating faith into every aspect of campus life and learning."
+          "quote": "100% Christian Faculty and Staff. All faculty and staff members are committed Christians, integrating faith into every aspect of campus life and learning.",
+          "httpStatus": 200,
+          "finalUrl": "https://floridacollege.edu/about/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

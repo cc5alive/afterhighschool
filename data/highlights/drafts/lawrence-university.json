@@ -10,9 +10,13 @@
         {
           "title": "Björklunden - Lawrence University",
           "url": "https://www.lawrence.edu/about/campus-location/bjorklunden/",
-          "quote": "Björklunden vid Sjön is Lawrence University's 441-acre North Campus. A sanctuary of peace and contemplation, Björklunden resides in picturesque Door County, Wisconsin and features meadows, woods, and more than a mile of unspoiled Lake Michigan shoreline."
+          "quote": "Björklunden vid Sjön is Lawrence University's 441-acre North Campus. A sanctuary of peace and contemplation, Björklunden resides in picturesque Door County, Wisconsin and features meadows, woods, and more than a mile of unspoiled Lake Michigan shoreline.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lawrence.edu/about/campus-location/bjorklunden/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,14 @@
         {
           "title": "The Whitman 10% Promise | Whitman College",
           "url": "https://www.whitman.edu/admission-and-aid/financial-aid-and-costs/the-whitman-10-percent-promise",
-          "quote": "That's the promise in the name. Your family's contribution toward Whitman tuition will never exceed 10% of your income. Full financial need met. Whitman College"
+          "quote": "That's the promise in the name. Your family's contribution toward Whitman tuition will never exceed 10% of your income. Full financial need met. Whitman College",
+          "httpStatus": 200,
+          "finalUrl": "https://www.whitman.edu/admission-and-aid/financial-aid-and-costs/the-whitman-10-percent-promise",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

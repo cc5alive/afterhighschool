@@ -10,9 +10,13 @@
         {
           "title": "Center for Cybersecurity – Montreat College",
           "url": "https://www.montreat.edu/cybersecurity/",
-          "quote": "Montreat College is designated a National Center of Academic Excellence in Cyber Defense Education by the National Security Agency (NSA) and Department of Homeland Security (DHS)."
+          "quote": "Montreat College is designated a National Center of Academic Excellence in Cyber Defense Education by the National Security Agency (NSA) and Department of Homeland Security (DHS).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.montreat.edu/cybersecurity/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

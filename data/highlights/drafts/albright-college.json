@@ -10,9 +10,13 @@
         {
           "title": "Albright College History | Liberal Arts College Reading, PA",
           "url": "https://www.albright.edu/about/history",
-          "quote": "Nearly half of our students combine two or three fields of study, and more than 90% graduate with degrees that blend a powerful liberal arts foundation with workforce-ready preparation."
+          "quote": "Nearly half of our students combine two or three fields of study, and more than 90% graduate with degrees that blend a powerful liberal arts foundation with workforce-ready preparation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.albright.edu/about/history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

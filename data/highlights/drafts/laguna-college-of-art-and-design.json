@@ -10,9 +10,13 @@
         {
           "title": "Internships - LCAD",
           "url": "https://www.lcad.edu/internships/",
-          "quote": "To earn one unit of credit for an off-campus internship, students must satisfactorily complete a minimum of 50 hours of work."
+          "quote": "To earn one unit of credit for an off-campus internship, students must satisfactorily complete a minimum of 50 hours of work.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lcad.edu/internships/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

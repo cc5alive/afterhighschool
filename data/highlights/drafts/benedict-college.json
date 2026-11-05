@@ -10,9 +10,14 @@
         {
           "title": "Why Choose an HBCU? | Columbia, South Carolina",
           "url": "https://benedict.edu/why-choose-an-hbcu/",
-          "quote": "Benedict College, originally Benedict Institute, was founded in 1870 by a woman, Bathsheba A. Benedict under the auspices of the American Baptist Home Mission Society."
+          "quote": "Benedict College, originally Benedict Institute, was founded in 1870 by a woman, Bathsheba A. Benedict under the auspices of the American Baptist Home Mission Society.",
+          "httpStatus": 200,
+          "finalUrl": "https://benedict.edu/why-choose-an-hbcu/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

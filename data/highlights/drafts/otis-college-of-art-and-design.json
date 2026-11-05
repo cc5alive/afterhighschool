@@ -10,9 +10,13 @@
         {
           "title": "Otis College Experience | Handbook | Otis College of Art and Design",
           "url": "https://www.otis.edu/life-otis/student-support-services/student-affairs/handbook/otis-college-experience/index.html",
-          "quote": "Otis College of Art and Design was founded in 1918, when General Harrison Gray Otis, publisher of the Los Angeles Times, bequeathed his MacArthur Park property to the City of Los Angeles for “the advancement of the arts.”"
+          "quote": "Otis College of Art and Design was founded in 1918, when General Harrison Gray Otis, publisher of the Los Angeles Times, bequeathed his MacArthur Park property to the City of Los Angeles for “the advancement of the arts.”",
+          "httpStatus": 200,
+          "finalUrl": "https://www.otis.edu/life-otis/student-support-services/student-affairs/handbook/otis-college-experience/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

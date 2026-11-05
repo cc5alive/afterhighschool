@@ -10,9 +10,14 @@
         {
           "title": "Mission, History & The Claremont Colleges",
           "url": "https://www.pitzer.edu/about/mission-history-claremont-colleges",
-          "quote": "Our community thrives within the mutually supportive framework of The Claremont Colleges, which provide an unsurpassed breadth of academic, athletic, and social opportunities."
+          "quote": "Our community thrives within the mutually supportive framework of The Claremont Colleges, which provide an unsurpassed breadth of academic, athletic, and social opportunities.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pitzer.edu/about/mission-history-claremont-colleges",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

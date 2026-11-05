@@ -10,9 +10,14 @@
         {
           "title": "Quick Facts - Lincoln Memorial University",
           "url": "https://www.lmunet.edu/about-lmu/quick-facts",
-          "quote": "LMU was founded on February 12, 1897, as a living memorial to Abraham Lincoln. For more detailed information about the history of LMU, check our Heritage and Mission."
+          "quote": "LMU was founded on February 12, 1897, as a living memorial to Abraham Lincoln. For more detailed information about the history of LMU, check our Heritage and Mission.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lmunet.edu/about-lmu/quick-facts",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

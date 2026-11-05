@@ -10,9 +10,13 @@
         {
           "title": "Regiment of Cadets | SUNY Maritime College",
           "url": "https://www.sunymaritime.edu/student-life/regiment-cadets",
-          "quote": "Students seeking to pursue a U.S. Coast Guard license must be a cadet in the Regiment of Cadets."
+          "quote": "Students seeking to pursue a U.S. Coast Guard license must be a cadet in the Regiment of Cadets.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sunymaritime.edu/student-life/regiment-cadets",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Regimental license students complete three Summer Sea Terms aboard the training ship Empire State VII.",
@@ -20,9 +24,13 @@
         {
           "title": "Regiment of Cadets | SUNY Maritime College",
           "url": "https://www.sunymaritime.edu/student-life/regiment-cadets",
-          "quote": "In addition to following the Regiment of Cadets established Rules and Regulations and participating in Regimental activities during the school year, cadets will also participate in three Summer Sea Terms aboard the College training ship, Empire State VII."
+          "quote": "In addition to following the Regiment of Cadets established Rules and Regulations and participating in Regimental activities during the school year, cadets will also participate in three Summer Sea Terms aboard the College training ship, Empire State VII.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sunymaritime.edu/student-life/regiment-cadets",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

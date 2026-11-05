@@ -10,9 +10,13 @@
         {
           "title": "History - Vermont State University",
           "url": "https://vermontstate.edu/about/mission-history-values/history/",
-          "quote": "Vermont State University officially launched on July 1, 2023. Vermont State has joined Castleton University, Northern Vermont University, and Vermont Technical College into one institution to better meet the needs of students"
+          "quote": "Vermont State University officially launched on July 1, 2023. Vermont State has joined Castleton University, Northern Vermont University, and Vermont Technical College into one institution to better meet the needs of students",
+          "httpStatus": 200,
+          "finalUrl": "https://vermontstate.edu/about/mission-history-values/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

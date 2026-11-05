@@ -10,9 +10,13 @@
         {
           "title": "Sound Scholars Application - Admission - University of Puget Sound",
           "url": "https://admission.pugetsound.edu/register/soundscholars",
-          "quote": "Sound Scholars is a cohort program that provides social and academic support for local students during their years at Puget Sound and guarantees that their financial aid package will meet their full demonstrated need."
+          "quote": "Sound Scholars is a cohort program that provides social and academic support for local students during their years at Puget Sound and guarantees that their financial aid package will meet their full demonstrated need.",
+          "httpStatus": 200,
+          "finalUrl": "https://admission.pugetsound.edu/register/soundscholars",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

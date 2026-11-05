@@ -10,9 +10,14 @@
         {
           "title": "RISE Program | Program for Students with Intellectual Disabilities",
           "url": "https://www.judsonu.edu/program/rise-program/",
-          "quote": "Through the RISE Program, we give students with intellectual disabilities the college life experience in a Christian community and build upon strengths for independent living and customized employment."
+          "quote": "Through the RISE Program, we give students with intellectual disabilities the college life experience in a Christian community and build upon strengths for independent living and customized employment.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.judsonu.edu/program/rise-program/",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     },
     {
       "text": "The RISE Program provides students with intellectual disabilities an inclusive college life experience culminating in a Certificate of Completion in Liberal Arts within a subject area concentration.",
@@ -20,9 +25,13 @@
         {
           "title": "RISE Program | Judson University Christian College",
           "url": "https://catalog.judsonu.edu/departments-divisions-programs/rise-program/",
-          "quote": "The RISE Program provides students with intellectual disabilities an inclusive college life experience in a Christian community, culminating with the award of a Certificate of Completion in Liberal Arts within a subject area concentration."
+          "quote": "The RISE Program provides students with intellectual disabilities an inclusive college life experience in a Christian community, culminating with the award of a Certificate of Completion in Liberal Arts within a subject area concentration.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.judsonu.edu/departments-divisions-programs/rise-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

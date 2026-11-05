@@ -10,9 +10,14 @@
         {
           "title": "Nelson University's Amazing History",
           "url": "https://www.nelson.edu/about/",
-          "quote": "Recognizing its growth and expanded mission, the institution was renamed Southwestern Assemblies of God University (SAGU)."
+          "quote": "Recognizing its growth and expanded mission, the institution was renamed Southwestern Assemblies of God University (SAGU).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nelson.edu/about/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

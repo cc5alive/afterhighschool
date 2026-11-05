@@ -10,9 +10,13 @@
         {
           "title": "History & Traditions | Alabama State University",
           "url": "https://www.alasu.edu/about/history-tradition.php",
-          "quote": "Constructed on this location, the Lincoln Normal School opened on Nov. 13, 1867, with 113 students — a distinction that makes us one of the oldest HBCUs and the first in Alabama."
+          "quote": "Constructed on this location, the Lincoln Normal School opened on Nov. 13, 1867, with 113 students — a distinction that makes us one of the oldest HBCUs and the first in Alabama.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.alasu.edu/about/history-tradition.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

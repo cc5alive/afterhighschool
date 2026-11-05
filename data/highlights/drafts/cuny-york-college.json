@@ -10,9 +10,14 @@
         {
           "title": "York College / City University of New York - York College - CUNY",
           "url": "https://www.york.cuny.edu/",
-          "quote": "CUNY's only 3.5-year Bachelor/Master in Occupational Therapy. Top-ranked Aviation Management program (College Factual, 2023)."
+          "quote": "CUNY's only 3.5-year Bachelor/Master in Occupational Therapy. Top-ranked Aviation Management program (College Factual, 2023).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.york.cuny.edu/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "History & Traditions - Erskine College",
           "url": "https://www.erskine.edu/about-erskine/history-traditions/",
-          "quote": "Erskine College was founded by the Associate Reformed Presbyterian (ARP) Church in 1839. Prior to this time the church had established an academy for men in Due West, S.C., in 1835"
+          "quote": "Erskine College was founded by the Associate Reformed Presbyterian (ARP) Church in 1839. Prior to this time the church had established an academy for men in Due West, S.C., in 1835",
+          "httpStatus": 200,
+          "finalUrl": "https://www.erskine.edu/about-erskine/history-traditions/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

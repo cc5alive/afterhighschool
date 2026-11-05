@@ -10,9 +10,13 @@
         {
           "title": "Civic Arts - Tusculum University",
           "url": "https://site.tusculum.edu/civic-arts/",
-          "quote": "At Tusculum University, the term Civic Arts replaces the phrase “liberal arts” and renews its meaning to as it was first used by Cicero, the Roman orator, philosopher, statesman and educator from whose villa Tusculum takes its name."
+          "quote": "At Tusculum University, the term Civic Arts replaces the phrase “liberal arts” and renews its meaning to as it was first used by Cicero, the Roman orator, philosopher, statesman and educator from whose villa Tusculum takes its name.",
+          "httpStatus": 200,
+          "finalUrl": "https://site.tusculum.edu/civic-arts/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

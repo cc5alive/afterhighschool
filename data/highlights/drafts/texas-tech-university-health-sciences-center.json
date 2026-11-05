@@ -10,9 +10,13 @@
         {
           "title": "Mission, Vision & Values | Texas Tech University Health Sciences ...",
           "url": "https://www.ttuhsc.edu/about/mission-vision-values",
-          "quote": "As a comprehensive health sciences center, our mission is to enrich the lives of others by educating students to become collaborative health care professionals, providing excellent patient care, and advancing knowledge through innovative research."
+          "quote": "As a comprehensive health sciences center, our mission is to enrich the lives of others by educating students to become collaborative health care professionals, providing excellent patient care, and advancing knowledge through innovative research.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ttuhsc.edu/about/mission-vision-values",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

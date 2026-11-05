@@ -10,9 +10,13 @@
         {
           "title": "Lead Institutions - Arkansas INBRE - UAMS",
           "url": "https://inbre.uams.edu/about-inbre/network-institutions/lead-institutions/",
-          "quote": "The University of Arkansas for Medical Sciences (UAMS) is the only academic health sciences university, public or private, in the state."
+          "quote": "The University of Arkansas for Medical Sciences (UAMS) is the only academic health sciences university, public or private, in the state.",
+          "httpStatus": 200,
+          "finalUrl": "https://inbre.uams.edu/about-inbre/network-institutions/lead-institutions/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Canisius Buffalo Promise Scholarship",
           "url": "https://www.canisius.edu/admissions/undergraduate-admissions/buffalo-promise-scholarship",
-          "quote": "This award automatically covers 100% of the cost of tuition after any government aid for up to four years of undergraduate education at Canisius for eligible accepted students from the Buffalo area."
+          "quote": "This award automatically covers 100% of the cost of tuition after any government aid for up to four years of undergraduate education at Canisius for eligible accepted students from the Buffalo area.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.canisius.edu/admissions/undergraduate-admissions/buffalo-promise-scholarship",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

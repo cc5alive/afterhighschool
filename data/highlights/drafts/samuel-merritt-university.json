@@ -10,9 +10,13 @@
         {
           "title": "Our History - Samuel Merritt University",
           "url": "https://www.samuelmerritt.edu/discover/about-smu/our-history",
-          "quote": "Samuel Merritt College became one of the nation's first hospital-based nursing schools to successfully transition to an accredited four-year degree-granting institution."
+          "quote": "Samuel Merritt College became one of the nation's first hospital-based nursing schools to successfully transition to an accredited four-year degree-granting institution.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.samuelmerritt.edu/discover/about-smu/our-history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "In 1999, Samuel Merritt established the first master's degree program for physician assistants in the western United States.",
@@ -20,9 +24,13 @@
         {
           "title": "Our History - Samuel Merritt University",
           "url": "https://www.samuelmerritt.edu/discover/about-smu/our-history",
-          "quote": "In 1999, it established the first master's degree program for physician assistants in the western United States."
+          "quote": "In 1999, it established the first master's degree program for physician assistants in the western United States.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.samuelmerritt.edu/discover/about-smu/our-history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

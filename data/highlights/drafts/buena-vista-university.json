@@ -10,9 +10,14 @@
         {
           "title": "Discover Buena Vista University",
           "url": "https://www.bvu.edu/en/discover-bvu/",
-          "quote": "BVU became the nation's first “wireless community” by providing laptops to all full-time students and faculty on the Storm Lake campus, connected to a campus-wide wireless network."
+          "quote": "BVU became the nation's first “wireless community” by providing laptops to all full-time students and faculty on the Storm Lake campus, connected to a campus-wide wireless network.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bvu.edu/en/discover-bvu/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

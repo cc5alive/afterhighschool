@@ -10,9 +10,13 @@
         {
           "title": "Mission Values | MCLA - Massachusetts College of Liberal Arts",
           "url": "https://mcla.edu/about-mcla/mission-values/",
-          "quote": "Massachusetts College of Liberal Arts (MCLA) is the Commonwealth's public liberal arts college and a campus of the Massachusetts state university system."
+          "quote": "Massachusetts College of Liberal Arts (MCLA) is the Commonwealth's public liberal arts college and a campus of the Massachusetts state university system.",
+          "httpStatus": 200,
+          "finalUrl": "https://mcla.edu/about-mcla/mission-values/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "MCLA offers 85% tuition reduction programs for undergraduate students residing in Connecticut, Maine, New Hampshire, New York, Rhode Island, and Vermont.",
@@ -20,9 +24,13 @@
         {
           "title": "MCLA at a Glance - Massachusetts College of Liberal Arts",
           "url": "https://mcla.edu/about-mcla/at-a-glance.php",
-          "quote": "MCLA offers 85% tuition reduction programs for students who reside in CT, ME, NH, NY, RI, and VT."
+          "quote": "MCLA offers 85% tuition reduction programs for students who reside in CT, ME, NH, NY, RI, and VT.",
+          "httpStatus": 200,
+          "finalUrl": "https://mcla.edu/about-mcla/at-a-glance/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

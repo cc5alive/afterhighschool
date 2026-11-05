@@ -10,9 +10,13 @@
         {
           "title": "Core Curriculum | Gordon College",
           "url": "https://www.gordon.edu/academics/resources/core",
-          "quote": "The Common Core introduces you to topics and questions that are valuable in developing a Christian worldview, and for pursuing shalom in a diverse world. It ensures that all students, regardless of their majors, will share a common educational experience."
+          "quote": "The Common Core introduces you to topics and questions that are valuable in developing a Christian worldview, and for pursuing shalom in a diverse world. It ensures that all students, regardless of their majors, will share a common educational experience.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gordon.edu/academics/resources/core",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

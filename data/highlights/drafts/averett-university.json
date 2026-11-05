@@ -10,9 +10,13 @@
         {
           "title": "Tuition & Fees - Averett Admissions",
           "url": "https://admissions.averett.edu/prospective-students/tuition-fees/",
-          "quote": "We've reduced our tuition by nearly $15,000 to under $25,000/year! Plus, one simple, comprehensive fee covers all the essentials – technology, activities, health services, parking, and more."
+          "quote": "We've reduced our tuition by nearly $15,000 to under $25,000/year! Plus, one simple, comprehensive fee covers all the essentials – technology, activities, health services, parking, and more.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.averett.edu/prospective-students/tuition-fees/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

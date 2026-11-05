@@ -10,9 +10,13 @@
         {
           "title": "Founders - LeTourneau University",
           "url": "https://www.letu.edu/about/history.html",
-          "quote": "When told it was no longer in use, she suggested establishing a school to educate returning World War II veterans. The site became LeTourneau Technical Institute, founded in 1946 with only male students."
+          "quote": "When told it was no longer in use, she suggested establishing a school to educate returning World War II veterans. The site became LeTourneau Technical Institute, founded in 1946 with only male students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.letu.edu/about/history.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

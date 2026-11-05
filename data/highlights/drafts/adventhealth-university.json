@@ -10,9 +10,13 @@
         {
           "title": "AdventHealth University",
           "url": "https://www.ahu.edu/",
-          "quote": "At AdventHealth University, your education connects you to a leading healthcare system. Learn alongside experienced professionals, apply what you learn in real clinical settings, and gain access to hands-on learning and advanced facilities."
+          "quote": "At AdventHealth University, your education connects you to a leading healthcare system. Learn alongside experienced professionals, apply what you learn in real clinical settings, and gain access to hands-on learning and advanced facilities.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ahu.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

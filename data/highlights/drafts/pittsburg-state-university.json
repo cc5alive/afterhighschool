@@ -10,9 +10,13 @@
         {
           "title": "Cost of attendance for financial aid purposes",
           "url": "https://www.pittstate.edu/financial-aid/cost-of-attendance.html",
-          "quote": "The Gorilla Advantage Tuition Program makes it possible for eligible undergraduate and graduate non-resident students from 32 states to pay resident tuition and fees."
+          "quote": "The Gorilla Advantage Tuition Program makes it possible for eligible undergraduate and graduate non-resident students from 32 states to pay resident tuition and fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pittstate.edu/financial-aid/cost-of-attendance.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

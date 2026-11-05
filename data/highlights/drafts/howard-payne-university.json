@@ -10,9 +10,13 @@
         {
           "title": "Academy of Freedom | Howard Payne University",
           "url": "https://www.hputx.edu/academy-of-freedom/",
-          "quote": "Dedicated in 1969, the Academy of Freedom Museum commemorates humanity's search for lasting freedom and hosts the university's multidisciplinary honors program in civic leadership and public policy."
+          "quote": "Dedicated in 1969, the Academy of Freedom Museum commemorates humanity's search for lasting freedom and hosts the university's multidisciplinary honors program in civic leadership and public policy.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hputx.edu/academy-of-freedom/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Admission to the Guy D. Newman Honors Academy is a highly competitive honor limited to a maximum of 25 students admitted each year.",
@@ -20,9 +24,13 @@
         {
           "title": "Honors Apply Online | Howard Payne University",
           "url": "https://www.hputx.edu/academics/guy-d-newman-honors-academy/honors-apply-online/",
-          "quote": "Admission to the Academy is a highly competitive honor, with a maximum of 25 students admitted each year."
+          "quote": "Admission to the Academy is a highly competitive honor, with a maximum of 25 students admitted each year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hputx.edu/academics/guy-d-newman-honors-academy/honors-apply-online/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

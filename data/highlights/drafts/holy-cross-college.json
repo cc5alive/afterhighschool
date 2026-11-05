@@ -10,14 +10,22 @@
         {
           "title": "Tri-Campus & South Bend Area - Holy Cross",
           "url": "https://www.hcc-nd.edu/tri-campus-sb-area/",
-          "quote": "The University of Notre Dame, Saint Mary's College, and Holy Cross College share a common history, mission, and even the same post office! Together, we form a tri-campus in which many amazing resources—clubs, classes, sporting events, a student newspaper—are shared."
+          "quote": "The University of Notre Dame, Saint Mary's College, and Holy Cross College share a common history, mission, and even the same post office! Together, we form a tri-campus in which many amazing resources—clubs, classes, sporting events, a student newspaper—are shared.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hcc-nd.edu/tri-campus-sb-area/",
+          "quoteFound": true
         },
         {
           "title": "Tri-Campus & South Bend Area - Holy Cross",
           "url": "https://www.hcc-nd.edu/tri-campus-sb-area/",
-          "quote": "Take 1 course per semester at Notre Dame or Saint Mary's. *More info in the Academic Catalog."
+          "quote": "Take 1 course per semester at Notre Dame or Saint Mary's. *More info in the Academic Catalog.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hcc-nd.edu/tri-campus-sb-area/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

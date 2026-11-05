@@ -10,9 +10,13 @@
         {
           "title": "Path to Pittsburgh Campus - Pitt-Greensburg",
           "url": "https://www.greensburg.pitt.edu/academics/path-pittsburgh-campus",
-          "quote": "Pitt-Greensburg works closely with the Pittsburgh campus schools to offer over 100 programs that can be started in Greensburg and completed in Pittsburgh."
+          "quote": "Pitt-Greensburg works closely with the Pittsburgh campus schools to offer over 100 programs that can be started in Greensburg and completed in Pittsburgh.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.greensburg.pitt.edu/academics/path-pittsburgh-campus",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Competitive full-tuition scholarships cover up to 18 credits per semester for four years for students maintaining a 3.5 GPA.",
@@ -20,9 +24,13 @@
         {
           "title": "Full-Tuition Scholarship Competition - Pitt-Greensburg",
           "url": "https://www.greensburg.pitt.edu/admissions/full-tuition-scholarship",
-          "quote": "This award will cover tuition of up to 18 credits per semester (in-state rate) for up to 4 years if the student meets renewal criteria of 3.5 GPA each academic year."
+          "quote": "This award will cover tuition of up to 18 credits per semester (in-state rate) for up to 4 years if the student meets renewal criteria of 3.5 GPA each academic year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.greensburg.pitt.edu/admissions/full-tuition-scholarship",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

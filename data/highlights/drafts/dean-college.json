@@ -10,9 +10,13 @@
         {
           "title": "About Our College | Why Dean?",
           "url": "https://www.dean.edu/about-dean/why-dean/",
-          "quote": "By graduation, every bachelor's degree student completes at least one internship, helping them build professional skills, expand their network, and prepare for life after college."
+          "quote": "By graduation, every bachelor's degree student completes at least one internship, helping them build professional skills, expand their network, and prepare for life after college.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.dean.edu/about-dean/why-dean/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

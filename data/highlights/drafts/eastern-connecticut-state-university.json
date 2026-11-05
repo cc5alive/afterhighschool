@@ -10,9 +10,13 @@
         {
           "title": "President's Office - Eastern Connecticut State University",
           "url": "https://www.easternct.edu/president/index.html",
-          "quote": "Here at Eastern, we take pride in being Connecticut's designated public liberal arts university—a distinction that goes beyond mere titles. It represents our deep commitment to preparing students for lives of purpose and impact"
+          "quote": "Here at Eastern, we take pride in being Connecticut's designated public liberal arts university—a distinction that goes beyond mere titles. It represents our deep commitment to preparing students for lives of purpose and impact",
+          "httpStatus": 200,
+          "finalUrl": "https://www.easternct.edu/president/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

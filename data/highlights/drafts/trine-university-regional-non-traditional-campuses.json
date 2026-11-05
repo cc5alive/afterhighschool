@@ -10,14 +10,22 @@
         {
           "title": "Cost and Investment | TrineOnline |Trine University",
           "url": "https://www.trine.edu/online/tuition-aid/cost-investment.aspx",
-          "quote": "Undergraduate tuition (all undergraduate degrees except RN to BSN) $299"
+          "quote": "Undergraduate tuition (all undergraduate degrees except RN to BSN) $299",
+          "httpStatus": 200,
+          "finalUrl": "https://www.trine.edu/online/tuition-aid/cost-investment.aspx",
+          "quoteFound": true
         },
         {
           "title": "Bachelor's in Applied Management Online Program - Trine University",
           "url": "https://www.trine.edu/online/degrees/business-administration/online-applied-management-bachelor.aspx",
-          "quote": "Transfer up to 90 credit hours toward a bachelor's degree. $299 Cost per credit hour. More than 200 courses with free textbooks."
+          "quote": "Transfer up to 90 credit hours toward a bachelor's degree. $299 Cost per credit hour. More than 200 courses with free textbooks.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.trine.edu/online/degrees/business-administration/online-applied-management-bachelor.aspx",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

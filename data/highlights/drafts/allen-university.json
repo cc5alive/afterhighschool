@@ -10,14 +10,23 @@
         {
           "title": "Support Allen University | Give Today",
           "url": "https://allenuniversity.edu/support",
-          "quote": "1870Founded by the AME Church, and recognized as the first university in South Carolina founded by African Americans to educate African Americans."
+          "quote": "1870Founded by the AME Church, and recognized as the first university in South Carolina founded by African Americans to educate African Americans.",
+          "httpStatus": 200,
+          "finalUrl": "https://allenuniversity.edu/support",
+          "quoteFound": false,
+          "browserChecked": true
         },
         {
           "title": "Support Allen University | Give Today",
           "url": "https://allenuniversity.edu/support",
-          "quote": "ComputerFor every full-time student, with no textbooks to buy."
+          "quote": "ComputerFor every full-time student, with no textbooks to buy.",
+          "httpStatus": 200,
+          "finalUrl": "https://allenuniversity.edu/support",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

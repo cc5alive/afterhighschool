@@ -10,9 +10,13 @@
         {
           "title": "Claflin University Earns a No. 10 Spot",
           "url": "https://www.claflin.edu/news/claflin-university-earns-a-no-10-spot",
-          "quote": "Founded in 1869, Claflin University is South Carolina's first and oldest HBCU."
+          "quote": "Founded in 1869, Claflin University is South Carolina's first and oldest HBCU.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.claflin.edu/news/claflin-university-earns-a-no-10-spot",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Founded in 1869 and named for Lee Claflin, Claflin University was the first South Carolina institution open to all regardless of race.",
@@ -20,9 +24,14 @@
         {
           "title": "History — A Legacy of Firsts Since 1869 - Claflin University",
           "url": "https://www.claflin.edu/about/history",
-          "quote": "Founded in 1869 and named for Lee Claflin, Claflin University was the first South Carolina institution open to all regardless of race."
+          "quote": "Founded in 1869 and named for Lee Claflin, Claflin University was the first South Carolina institution open to all regardless of race.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.claflin.edu/about/history",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

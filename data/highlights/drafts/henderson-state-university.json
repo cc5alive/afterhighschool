@@ -10,9 +10,13 @@
         {
           "title": "Bachelor's Degree in Aviation | Henderson State University",
           "url": "https://www.hsu.edu/academics/aviation-science-and-nursing/aviation/bachelors-aviation/",
-          "quote": "Henderson State's Department of Aviation is Arkansas's only public university program that offers a four-year Bachelor of Science degree specifically in aviation."
+          "quote": "Henderson State's Department of Aviation is Arkansas's only public university program that offers a four-year Bachelor of Science degree specifically in aviation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hsu.edu/academics/aviation-science-and-nursing/aviation/bachelors-aviation/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

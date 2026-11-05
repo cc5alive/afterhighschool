@@ -10,9 +10,13 @@
         {
           "title": "Our History and Spirit | Curry College",
           "url": "https://www.curry.edu/about-us/academic-excellence/history-and-spirit",
-          "quote": "In 1970, it established its Program for Advancement of Learning (PAL), the nation's first college-level program for students with language-based learning difficulties."
+          "quote": "In 1970, it established its Program for Advancement of Learning (PAL), the nation's first college-level program for students with language-based learning difficulties.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.curry.edu/about-us/academic-excellence/history-and-spirit",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

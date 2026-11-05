@@ -10,14 +10,21 @@
         {
           "title": "The Scottish Heritage Program - Lyon College catalog",
           "url": "https://catalog.lyon.edu/the-scottish-heritage-program",
-          "quote": "In addition to an international prize-winning pipe band, Lyon's Scottish heritage is promoted through a Scottish arts bagpipe minor, college credit courses in Highland dance and drumming, and an instructional outreach program."
+          "quote": "In addition to an international prize-winning pipe band, Lyon's Scottish heritage is promoted through a Scottish arts bagpipe minor, college credit courses in Highland dance and drumming, and an instructional outreach program.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.lyon.edu/the-scottish-heritage-program",
+          "quoteFound": true
         },
         {
           "title": "The Scottish Heritage Program - Lyon College catalog",
           "url": "https://catalog.lyon.edu/the-scottish-heritage-program",
-          "quote": "The College offers Scottish Heritage scholarships to pipers, drummers, and dancers, within a range of skill levels."
+          "quote": "The College offers Scottish Heritage scholarships to pipers, drummers, and dancers, within a range of skill levels.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.lyon.edu/the-scottish-heritage-program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

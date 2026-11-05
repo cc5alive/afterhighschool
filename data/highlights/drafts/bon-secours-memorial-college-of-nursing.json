@@ -10,14 +10,21 @@
         {
           "title": "Our History - Bon Secours Memorial College of Nursing",
           "url": "https://www.bsmcon.edu/our-history",
-          "quote": "In response to the growing evidence showing a positive correlation between a nurse's education level and patient outcomes, the school launched a four-year Bachelor of Science in nursing degree in 2010 and became the College we know today."
+          "quote": "In response to the growing evidence showing a positive correlation between a nurse's education level and patient outcomes, the school launched a four-year Bachelor of Science in nursing degree in 2010 and became the College we know today.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bsmcon.edu/our-history",
+          "quoteFound": true
         },
         {
           "title": "Our History - Bon Secours Memorial College of Nursing",
           "url": "https://www.bsmcon.edu/our-history",
-          "quote": "Bon Secours Memorial College of Nursing is a department owned, operated and controlled by Bon Secours Memorial Regional Medical Center, LLC."
+          "quote": "Bon Secours Memorial College of Nursing is a department owned, operated and controlled by Bon Secours Memorial Regional Medical Center, LLC.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bsmcon.edu/our-history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

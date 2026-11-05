@@ -10,9 +10,14 @@
         {
           "title": "About SUNY Geneseo",
           "url": "https://www.geneseo.edu/about/",
-          "quote": "Founded in 1871, SUNY Geneseo is New York's Public Honors College. Students are trained to think critically, communicate effectively, and consider multiple perspectives to solve challenging problems."
+          "quote": "Founded in 1871, SUNY Geneseo is New York's Public Honors College. Students are trained to think critically, communicate effectively, and consider multiple perspectives to solve challenging problems.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.geneseo.edu/about/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

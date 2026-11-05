@@ -10,9 +10,14 @@
         {
           "title": "Simmons University Homepage | Simmons University",
           "url": "https://www.simmons.edu/",
-          "quote": "Located in Boston, Simmons University offers a women-centered undergraduate experience, co-ed graduate programs, and online degrees to unite your passion"
+          "quote": "Located in Boston, Simmons University offers a women-centered undergraduate experience, co-ed graduate programs, and online degrees to unite your passion",
+          "httpStatus": 200,
+          "finalUrl": "https://www.simmons.edu/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "About - Philander Smith University",
           "url": "https://www.philander.edu/about/",
-          "quote": "As the only United Negro College Fund member institution in Arkansas, Philander Smith University strives to provide a quality education for all regardless of race, religion, sex, national origin or ethnic background."
+          "quote": "As the only United Negro College Fund member institution in Arkansas, Philander Smith University strives to provide a quality education for all regardless of race, religion, sex, national origin or ethnic background.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.philander.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

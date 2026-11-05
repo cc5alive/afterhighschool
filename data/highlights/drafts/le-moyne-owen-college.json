@@ -10,9 +10,13 @@
         {
           "title": "Magician Advantage - LeMoyne-Owen College",
           "url": "https://loc.edu/magician-advantage/",
-          "quote": "Starting with the 2025–26 academic year, all admitted, incoming freshmen with a 2.5 GPA or higher will be eligible for the program. The Magician Advantage provides students and families with a financial safety net by helping repay up to $80,000 in federal student, private alternative, and parent PLUS loans if graduates earn $45,000 or less annually."
+          "quote": "Starting with the 2025–26 academic year, all admitted, incoming freshmen with a 2.5 GPA or higher will be eligible for the program. The Magician Advantage provides students and families with a financial safety net by helping repay up to $80,000 in federal student, private alternative, and parent PLUS loans if graduates earn $45,000 or less annually.",
+          "httpStatus": 200,
+          "finalUrl": "https://loc.edu/magician-advantage/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

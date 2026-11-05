@@ -10,9 +10,13 @@
         {
           "title": "Transfer Events - Admission & Aid - MSMU",
           "url": "https://admissions.msmu.edu/portal/tr-info-session",
-          "quote": "As a women's college, MSMU does not consider men for our traditional undergraduate degree programs."
+          "quote": "As a women's college, MSMU does not consider men for our traditional undergraduate degree programs.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.msmu.edu/portal/tr-info-session",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Carbon Neutral | Catawba College",
           "url": "https://www.catawba.edu/gallery/22-23/carbon-neutral/",
-          "quote": "Catawba College has become the 13th college nationwide and first institute of higher learning in the Southeast to meet the group's high standards for determining carbon neutrality."
+          "quote": "Catawba College has become the 13th college nationwide and first institute of higher learning in the Southeast to meet the group's high standards for determining carbon neutrality.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.catawba.edu/gallery/22-23/carbon-neutral/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

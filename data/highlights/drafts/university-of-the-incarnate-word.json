@@ -10,14 +10,21 @@
         {
           "title": "About UIW | About UIW - University of the Incarnate Word",
           "url": "https://www.uiw.edu/about/",
-          "quote": "UIW is the largest Catholic university in Texas and the fourth largest private university in Texas."
+          "quote": "UIW is the largest Catholic university in Texas and the fourth largest private university in Texas.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uiw.edu/about/",
+          "quoteFound": true
         },
         {
           "title": "About UIW | About UIW - University of the Incarnate Word",
           "url": "https://www.uiw.edu/about/",
-          "quote": "UIW is the only Catholic NCAA Division 1 athletics program in the South, and counts 15 sports and 24 men's and women's teams."
+          "quote": "UIW is the only Catholic NCAA Division 1 athletics program in the South, and counts 15 sports and 24 men's and women's teams.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uiw.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

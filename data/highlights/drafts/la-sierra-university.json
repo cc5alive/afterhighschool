@@ -10,9 +10,14 @@
         {
           "title": "Our Faith - About La Sierra University",
           "url": "https://lasierra.edu/about/our-faith/",
-          "quote": "As Seventh-day Adventists, we: Believe in the Bible as the inspired word of God. Trust in Jesus as our Savior. Worship on Saturdays."
+          "quote": "As Seventh-day Adventists, we: Believe in the Bible as the inspired word of God. Trust in Jesus as our Savior. Worship on Saturdays.",
+          "httpStatus": 200,
+          "finalUrl": "https://lasierra.edu/about/our-faith/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

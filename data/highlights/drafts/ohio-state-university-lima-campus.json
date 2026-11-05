@@ -10,14 +10,23 @@
         {
           "title": "Ohio State Grants",
           "url": "https://lima.osu.edu/financial-aid/ohio-state-grants",
-          "quote": "The Regional Campus Commitment program covers tuition and mandatory fees for low-to-middle income, new first-year students. Specifically, after other federal, state, and institutional grants and scholarships are applied to a student's financial aid package, the Regional Campus Commitment will cover any remaining tuition and mandatory fees up to financial need."
+          "quote": "The Regional Campus Commitment program covers tuition and mandatory fees for low-to-middle income, new first-year students. Specifically, after other federal, state, and institutional grants and scholarships are applied to a student's financial aid package, the Regional Campus Commitment will cover any remaining tuition and mandatory fees up to financial need.",
+          "httpStatus": 403,
+          "finalUrl": "https://lima.osu.edu/financial-aid/ohio-state-grants",
+          "quoteFound": null,
+          "browserChecked": true
         },
         {
           "title": "Ohio State Grants",
           "url": "https://lima.osu.edu/financial-aid/ohio-state-grants",
-          "quote": "Have a family Adjusted Gross Income (AGI) of $100,000 or less and have financial need (verified through FAFSA)"
+          "quote": "Have a family Adjusted Gross Income (AGI) of $100,000 or less and have financial need (verified through FAFSA)",
+          "httpStatus": 403,
+          "finalUrl": "https://lima.osu.edu/financial-aid/ohio-state-grants",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

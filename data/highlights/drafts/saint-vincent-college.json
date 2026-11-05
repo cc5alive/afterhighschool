@@ -10,9 +10,13 @@
         {
           "title": "Bearcat Advantage Program | Latrobe, PA | Saint Vincent College",
           "url": "https://www.stvincent.edu/admission-aid/bearcat-advantage/index.html",
-          "quote": "The Bearcat Advantage program is here to help make college more affordable and accessible for Pennsylvania families earning less than $100,000 per year."
+          "quote": "The Bearcat Advantage program is here to help make college more affordable and accessible for Pennsylvania families earning less than $100,000 per year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.stvincent.edu/admission-aid/bearcat-advantage/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

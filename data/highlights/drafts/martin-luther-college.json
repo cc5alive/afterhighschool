@@ -10,9 +10,13 @@
         {
           "title": "About – Martin Luther College",
           "url": "https://mlc-wels.edu/about/",
-          "quote": "We are the WELS College of Ministry. We exist solely to train future pastors, teachers, and staff ministers for the public ministry in the Wisconsin Evangelical Lutheran Synod."
+          "quote": "We are the WELS College of Ministry. We exist solely to train future pastors, teachers, and staff ministers for the public ministry in the Wisconsin Evangelical Lutheran Synod.",
+          "httpStatus": 200,
+          "finalUrl": "https://mlc-wels.edu/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

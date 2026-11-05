@@ -10,9 +10,13 @@
         {
           "title": "Kenyon in Brief",
           "url": "https://www.kenyon.edu/kenyon-in-brief/",
-          "quote": "Every student completes a senior capstone, often tying together ideas and themes they've explored across courses and interests."
+          "quote": "Every student completes a senior capstone, often tying together ideas and themes they've explored across courses and interests.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kenyon.edu/kenyon-in-brief/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

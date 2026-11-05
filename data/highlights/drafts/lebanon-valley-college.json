@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Guarantee | Admission and Financial Aid",
           "url": "https://www.lvc.edu/admission-aid/financial-aid-costs/four-year-guarantee/",
-          "quote": "At LVC, we make sure full-time, non-transfer students can complete requirements for the baccalaureate degree in four academic years (eight semesters), or we'll provide the additional courses needed for the degree without charge."
+          "quote": "At LVC, we make sure full-time, non-transfer students can complete requirements for the baccalaureate degree in four academic years (eight semesters), or we'll provide the additional courses needed for the degree without charge.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lvc.edu/admission-aid/financial-aid-costs/four-year-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

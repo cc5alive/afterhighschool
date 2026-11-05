@@ -10,9 +10,14 @@
         {
           "title": "Board of Trustees approves second master's degree, continues...",
           "url": "https://www.newberry.edu/news/board-of-trustees-approves-second-masters-degree-continues-tuition-promise-welcomes-new-members",
-          "quote": "The board also voted to extend the College's Tuition Promise, program which freezes tuition for incoming first-year students for their four years at Newberry College."
+          "quote": "The board also voted to extend the College's Tuition Promise, program which freezes tuition for incoming first-year students for their four years at Newberry College.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.newberry.edu/news/board-of-trustees-approves-second-masters-degree-continues-tuition-promise-welcomes-new-members",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

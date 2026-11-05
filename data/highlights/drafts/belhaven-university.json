@@ -10,9 +10,14 @@
         {
           "title": "Free Master's Degree Offer: Belhaven University | Jackson, MS",
           "url": "https://www.belhaven.edu/admission/undergrad/aid/free-masters-degree.html",
-          "quote": "Belhaven is the only university in the country to give​​ traditional-campus students full-tuition scholarships for an online master's degree … a value of up to $25,000!"
+          "quote": "Belhaven is the only university in the country to give​​ traditional-campus students full-tuition scholarships for an online master's degree … a value of up to $25,000!",
+          "httpStatus": 200,
+          "finalUrl": "https://www.belhaven.edu/admission/undergrad/aid/free-masters-degree.html",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

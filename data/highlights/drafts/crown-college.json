@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Financial Aid | Crown College",
           "url": "https://www.crown.edu/cost-aid/undergrad-finaid/",
-          "quote": "Any new incoming Campus students currently attending a C&MA church will receive a 50% tuition discount."
+          "quote": "Any new incoming Campus students currently attending a C&MA church will receive a 50% tuition discount.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.crown.edu/cost-aid/undergrad-finaid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

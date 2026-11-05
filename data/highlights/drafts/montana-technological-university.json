@@ -10,9 +10,13 @@
         {
           "title": "Strategic Plan - Montana Tech",
           "url": "https://www.mtech.edu/about/strategic-plan/",
-          "quote": "Montana Tech stands apart as the state's only university officially designated as a special focus STEM institution."
+          "quote": "Montana Tech stands apart as the state's only university officially designated as a special focus STEM institution.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mtech.edu/about/strategic-plan/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

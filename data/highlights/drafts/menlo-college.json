@@ -10,9 +10,13 @@
         {
           "title": "Student Services - Menlo College",
           "url": "https://www.menlo.edu/career-services/student-career-services/",
-          "quote": "Completing at least one internship is a graduation requirement for all business majors, and optional as an elective for psychology majors."
+          "quote": "Completing at least one internship is a graduation requirement for all business majors, and optional as an elective for psychology majors.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.menlo.edu/career-services/student-career-services/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

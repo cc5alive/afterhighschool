@@ -10,14 +10,21 @@
         {
           "title": "The Adirondacks - Paul Smith's College",
           "url": "https://www.paulsmiths.edu/life-at-paul-smiths/local-communities/",
-          "quote": "We're the only four-year college in the world-famous Adirondack Park. The only campus in the country with a student-run sawmill, a biathlon range, and a lumberjack sports arena."
+          "quote": "We're the only four-year college in the world-famous Adirondack Park. The only campus in the country with a student-run sawmill, a biathlon range, and a lumberjack sports arena.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.paulsmiths.edu/life-at-paul-smiths/local-communities/",
+          "quoteFound": true
         },
         {
           "title": "Fun Facts - Paul Smith's College",
           "url": "https://www.paulsmiths.edu/about/fun-facts/",
-          "quote": "Paul Smith's College has 14,200 acres of land, the same size as Manhattan."
+          "quote": "Paul Smith's College has 14,200 acres of land, the same size as Manhattan.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.paulsmiths.edu/about/fun-facts/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

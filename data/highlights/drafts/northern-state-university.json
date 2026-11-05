@@ -10,9 +10,13 @@
         {
           "title": "Freshman Scholarships | Northern State University",
           "url": "https://northern.edu/financial-aid/scholarships/freshmen",
-          "quote": "The Dakota Corps scholarships are four-year, full-tuition-and-fee scholarships for South Dakota high school seniors who plan to major in and then become employed in one of the following critical-need occupations"
+          "quote": "The Dakota Corps scholarships are four-year, full-tuition-and-fee scholarships for South Dakota high school seniors who plan to major in and then become employed in one of the following critical-need occupations",
+          "httpStatus": 200,
+          "finalUrl": "https://northern.edu/financial-aid/scholarships/freshmen",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Scholarships & Grants - Bradley University",
           "url": "https://www.bradley.edu/admissions/financial-aid/scholarships-grants/",
-          "quote": "The Bradley Commitment is a financial aid package that provides scholarships and grants to cover tuition for students who are Illinois residents and have a family annual gross income (AGI) of $65,000 or less."
+          "quote": "The Bradley Commitment is a financial aid package that provides scholarships and grants to cover tuition for students who are Illinois residents and have a family annual gross income (AGI) of $65,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bradley.edu/admissions/financial-aid/scholarships-grants/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

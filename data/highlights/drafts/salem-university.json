@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate » Salem University",
           "url": "https://www.salemu.edu/admissions/undergraduate/",
-          "quote": "Salem students take just one course per month to allow for a better balance of academics, home life, work, and other obligations that students may have."
+          "quote": "Salem students take just one course per month to allow for a better balance of academics, home life, work, and other obligations that students may have.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.salemu.edu/admissions/undergraduate/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

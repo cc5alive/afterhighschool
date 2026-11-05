@@ -10,9 +10,13 @@
         {
           "title": "Our values | St. Norbert College",
           "url": "https://snc.edu/mission/our-values",
-          "quote": "Today, St. Norbert College, the only Norbertine institution of higher education in the world carries forward his mission through a vibrant Catholic, liberal"
+          "quote": "Today, St. Norbert College, the only Norbertine institution of higher education in the world carries forward his mission through a vibrant Catholic, liberal",
+          "httpStatus": 200,
+          "finalUrl": "https://snc.edu/mission/our-values",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

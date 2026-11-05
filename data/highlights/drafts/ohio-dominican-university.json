@@ -10,14 +10,21 @@
         {
           "title": "Catholic Promise Program - Ohio Dominican University",
           "url": "https://www.ohiodominican.edu/admissions/undergraduate/catholic-promise-program.html",
-          "quote": "The program will provide eligible students who graduate from one of the Columbus Diocese's 11 high schools with financial resources and support to help make an ODU education attainable."
+          "quote": "The program will provide eligible students who graduate from one of the Columbus Diocese's 11 high schools with financial resources and support to help make an ODU education attainable.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ohiodominican.edu/admissions/undergraduate/catholic-promise-program.html",
+          "quoteFound": true
         },
         {
           "title": "Catholic Promise Program - Ohio Dominican University",
           "url": "https://www.ohiodominican.edu/admissions/undergraduate/catholic-promise-program.html",
-          "quote": "For those accepted to the Columbus Catholic Promise Program, ODU will also cover tuition and the student services fee* after all applicable scholarships and financial aid (including standard Federal Student Loans) have been applied."
+          "quote": "For those accepted to the Columbus Catholic Promise Program, ODU will also cover tuition and the student services fee* after all applicable scholarships and financial aid (including standard Federal Student Loans) have been applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ohiodominican.edu/admissions/undergraduate/catholic-promise-program.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

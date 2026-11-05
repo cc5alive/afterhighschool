@@ -10,9 +10,13 @@
         {
           "title": "College Unveils New Finish in 4 Program - Dominican University",
           "url": "https://www.duny.edu/college-unveils-new-finish-4-program/",
-          "quote": "If a student follows the requirements of the program, but is not able to graduate in four years, the College will cover the cost of any remaining courses needed to complete a degree."
+          "quote": "If a student follows the requirements of the program, but is not able to graduate in four years, the College will cover the cost of any remaining courses needed to complete a degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.duny.edu/college-unveils-new-finish-4-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

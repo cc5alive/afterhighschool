@@ -10,14 +10,21 @@
         {
           "title": "Why Wesleyan - Wesleyan College",
           "url": "https://www.wesleyancollege.edu/about/Why-Wesleyan.cfm",
-          "quote": "Wesleyan College is the first college in the world chartered to grant degrees to women. Accelerating equality for women since 1836, Wesleyan provides students with an academically rigorous education in an environment designed to build the strength and resiliency needed to thrive."
+          "quote": "Wesleyan College is the first college in the world chartered to grant degrees to women. Accelerating equality for women since 1836, Wesleyan provides students with an academically rigorous education in an environment designed to build the strength and resiliency needed to thrive.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wesleyancollege.edu/about/Why-Wesleyan.cfm",
+          "quoteFound": true
         },
         {
           "title": "Why Wesleyan - Wesleyan College",
           "url": "https://www.wesleyancollege.edu/about/Why-Wesleyan.cfm",
-          "quote": "100% of students engage in paid internships, research or study abroad"
+          "quote": "100% of students engage in paid internships, research or study abroad",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wesleyancollege.edu/about/Why-Wesleyan.cfm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

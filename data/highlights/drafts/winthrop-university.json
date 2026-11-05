@@ -10,9 +10,13 @@
         {
           "title": "Cultural Events - Requirement | Winthrop University",
           "url": "https://www.winthrop.edu/culturalevents/requirement.aspx",
-          "quote": "By graduation, each undergraduate student who began at Winthrop as a freshman is required to attend three cultural events for every 20 hours completed at Winthrop University, not to exceed a maximum requirement of 18 cultural events."
+          "quote": "By graduation, each undergraduate student who began at Winthrop as a freshman is required to attend three cultural events for every 20 hours completed at Winthrop University, not to exceed a maximum requirement of 18 cultural events.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.winthrop.edu/culturalevents/requirement.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

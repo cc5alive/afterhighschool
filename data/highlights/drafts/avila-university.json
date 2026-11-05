@@ -10,9 +10,13 @@
         {
           "title": "Academics offered - Avila University",
           "url": "https://www.avila.edu/academics-offered/",
-          "quote": "The University guarantees all majors a research or internship experience opportunity as part of a University initiative. That same initiative, the Avila Promise, helps pay for their expenses at these conferences."
+          "quote": "The University guarantees all majors a research or internship experience opportunity as part of a University initiative. That same initiative, the Avila Promise, helps pay for their expenses at these conferences.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.avila.edu/academics-offered/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

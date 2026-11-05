@@ -10,14 +10,21 @@
         {
           "title": "Global Immersion - Minerva University",
           "url": "https://www.minerva.edu/global-immersion/",
-          "quote": "Undergraduate students live and learn in multiple global cities, integrating their academic work with each location. Each city is intentionally selected and aligned with the curriculum—so what you study and where you are reinforce one another."
+          "quote": "Undergraduate students live and learn in multiple global cities, integrating their academic work with each location. Each city is intentionally selected and aligned with the curriculum—so what you study and where you are reinforce one another.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.minerva.edu/global-immersion/",
+          "quoteFound": true
         },
         {
           "title": "Global Immersion - Minerva University",
           "url": "https://www.minerva.edu/global-immersion/",
-          "quote": "Undergraduate students live together in Minerva residence halls in each city, creating a built-in global community."
+          "quote": "Undergraduate students live together in Minerva residence halls in each city, creating a built-in global community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.minerva.edu/global-immersion/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

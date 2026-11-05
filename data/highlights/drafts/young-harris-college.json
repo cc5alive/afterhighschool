@@ -10,14 +10,21 @@
         {
           "title": "Tuition and fees - Young Harris College",
           "url": "https://www.yhc.edu/pay-for-college/tuition-and-fees/",
-          "quote": "That's why textbooks are included in your tuition at no extra cost, allowing you to fully immerse yourself in your chosen subjects."
+          "quote": "That's why textbooks are included in your tuition at no extra cost, allowing you to fully immerse yourself in your chosen subjects.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yhc.edu/pay-for-college/tuition-and-fees/",
+          "quoteFound": true
         },
         {
           "title": "Financial Aid & Scholarships | Young Harris College",
           "url": "https://www.yhc.edu/pay-for-college/financial-aid/",
-          "quote": "At YHC, your tuition covers all required textbooks. You'll start each semester with the materials you need, already paid for."
+          "quote": "At YHC, your tuition covers all required textbooks. You'll start each semester with the materials you need, already paid for.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.yhc.edu/pay-for-college/financial-aid/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

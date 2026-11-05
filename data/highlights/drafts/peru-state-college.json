@@ -10,9 +10,13 @@
         {
           "title": "Nebraska State College Tuition Guarantee",
           "url": "https://www.nscs.edu/information-for/students/Guarantee",
-          "quote": "The Nebraska State College Tuition Guarantee ensures that Pell-qualified Nebraska students can attend Chadron State, Peru State, or Wayne State College tuition-free."
+          "quote": "The Nebraska State College Tuition Guarantee ensures that Pell-qualified Nebraska students can attend Chadron State, Peru State, or Wayne State College tuition-free.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.nscs.edu/information-for/students/Guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

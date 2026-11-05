@@ -10,9 +10,14 @@
         {
           "title": "Ministry Leadership Bachelor's Degree, BA - Lancaster Bible College",
           "url": "https://www.lbc.edu/academics/bachelor-programs/ministry-leadership-degree/",
-          "quote": "Bachelor of Arts (BA) (122 Credits) LBC Foundation Studies Courses 4 Credits. Bible & Theology Core Courses 30 Credits. Arts & Sciences Core Courses 31 Credits."
+          "quote": "Bachelor of Arts (BA) (122 Credits) LBC Foundation Studies Courses 4 Credits. Bible & Theology Core Courses 30 Credits. Arts & Sciences Core Courses 31 Credits.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lbc.edu/academics/bachelor-programs/ministry-leadership-degree/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

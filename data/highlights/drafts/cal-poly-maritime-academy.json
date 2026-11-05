@@ -10,9 +10,13 @@
         {
           "title": "Cal Poly Maritime Academy: Home",
           "url": "https://maritime.calpoly.edu/",
-          "quote": "Located at our scenic waterfront Cal Poly Solano Campus in Vallejo, California, Cal Poly Maritime Academy is the only degree-granting maritime academy on the West Coast."
+          "quote": "Located at our scenic waterfront Cal Poly Solano Campus in Vallejo, California, Cal Poly Maritime Academy is the only degree-granting maritime academy on the West Coast.",
+          "httpStatus": 200,
+          "finalUrl": "https://maritime.calpoly.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

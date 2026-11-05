@@ -10,9 +10,14 @@
         {
           "title": "Undergraduate Application Requirements: Transfer Students",
           "url": "https://www.pratt.edu/resources/undergraduate-application-requirements-transfer-students/",
-          "quote": "At Pratt, all incoming students are required to complete our First-Year Foundation Program. The foundation year is an essential part of every student's academic experience, as it provides the core courses needed for success"
+          "quote": "At Pratt, all incoming students are required to complete our First-Year Foundation Program. The foundation year is an essential part of every student's academic experience, as it provides the core courses needed for success",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pratt.edu/resources/undergraduate-application-requirements-transfer-students/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

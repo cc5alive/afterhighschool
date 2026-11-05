@@ -10,9 +10,13 @@
         {
           "title": "Whittier College History",
           "url": "https://www.whittier.edu/about/history",
-          "quote": "Both the town and the College were named in honor of John Greenleaf Whittier, prominent Quaker, poet, and leader in the abolitionist movement."
+          "quote": "Both the town and the College were named in honor of John Greenleaf Whittier, prominent Quaker, poet, and leader in the abolitionist movement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.whittier.edu/about/history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Through the Whittier Scholars Program, students have the opportunity to design their own individualized major.",
@@ -20,9 +24,13 @@
         {
           "title": "Whittier Scholars Program",
           "url": "https://www.whittier.edu/academics/whittierscholars",
-          "quote": "The Whittier Scholars Program offers students the opportunity to design their own major, tailored just for them."
+          "quote": "The Whittier Scholars Program offers students the opportunity to design their own major, tailored just for them.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.whittier.edu/academics/whittierscholars",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

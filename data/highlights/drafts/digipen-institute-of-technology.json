@@ -10,9 +10,13 @@
         {
           "title": "Academic Preparatory and STEAM Courses - About DigiPen Academy",
           "url": "https://academy.digipen.edu/about-us/",
-          "quote": "DIT was the first school in the world to offer a Bachelor's degree in Video Game Development"
+          "quote": "DIT was the first school in the world to offer a Bachelor's degree in Video Game Development",
+          "httpStatus": 200,
+          "finalUrl": "https://academy.digipen.edu/about-us/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

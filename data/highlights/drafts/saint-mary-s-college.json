@@ -10,9 +10,13 @@
         {
           "title": "SMC/ND Co-Exchange Program | Saint Mary's College",
           "url": "https://www.saintmarys.edu/academics/resources/registrar/students/notre-dame-co-exchange",
-          "quote": "Saint Mary's students may take classes at the University of Notre Dame through the SMC/ND Co-Exchange Program."
+          "quote": "Saint Mary's students may take classes at the University of Notre Dame through the SMC/ND Co-Exchange Program.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.saintmarys.edu/academics/resources/registrar/students/notre-dame-co-exchange",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

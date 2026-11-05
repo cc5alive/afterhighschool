@@ -10,9 +10,13 @@
         {
           "title": "International Students Thrive at Bennington",
           "url": "https://www.bennington.edu/admissions/international-students-thrive-bennington",
-          "quote": "In Bennington's open approach to education, there are no required courses and no set majors. Each student develops an individual course of study, together with a faculty advisor"
+          "quote": "In Bennington's open approach to education, there are no required courses and no set majors. Each student develops an individual course of study, together with a faculty advisor",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bennington.edu/admissions/international-students-thrive-bennington",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Every year, every Bennington College student spends six weeks in an off-campus work experience through the annual Field Work Term.",
@@ -20,9 +24,13 @@
         {
           "title": "International Students Thrive at Bennington",
           "url": "https://www.bennington.edu/admissions/international-students-thrive-bennington",
-          "quote": "Every year, every Bennington student spends 6 weeks in an authentic off-campus work experience somewhere in the world."
+          "quote": "Every year, every Bennington student spends 6 weeks in an authentic off-campus work experience somewhere in the world.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bennington.edu/admissions/international-students-thrive-bennington",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

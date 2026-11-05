@@ -10,9 +10,13 @@
         {
           "title": "History | Westfield State University",
           "url": "https://www.westfield.ma.edu/about/history",
-          "quote": "1839: Founded by Horace Mann as the first public coeducational school for teacher education in the U.S."
+          "quote": "1839: Founded by Horace Mann as the first public coeducational school for teacher education in the U.S.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.westfield.ma.edu/about/history",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

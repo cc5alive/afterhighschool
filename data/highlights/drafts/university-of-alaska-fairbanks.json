@@ -10,9 +10,13 @@
         {
           "title": "UAF Home | University of Alaska Fairbanks",
           "url": "https://www.uaf.edu/",
-          "quote": "Starting in fall 2027, we've unlocked Alaska by eliminating out-of-state tuition! At the University of Alaska Fairbanks you'll automatically receive the in-state tuition rate, regardless of where you're coming from."
+          "quote": "Starting in fall 2027, we've unlocked Alaska by eliminating out-of-state tuition! At the University of Alaska Fairbanks you'll automatically receive the in-state tuition rate, regardless of where you're coming from.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uaf.edu/uaf/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

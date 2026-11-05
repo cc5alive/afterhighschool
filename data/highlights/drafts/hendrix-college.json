@@ -10,9 +10,13 @@
         {
           "title": "English Odyssey Guide | Hendrix College",
           "url": "https://www.hendrix.edu/Catalog/Odyssey/English_Odyssey_Guide/",
-          "quote": "While the graduation requirement includes the completion of an approved experience in at least three of the six Odyssey categories, the Program importantly allows students to learn more about themselves and the world around them."
+          "quote": "While the graduation requirement includes the completion of an approved experience in at least three of the six Odyssey categories, the Program importantly allows students to learn more about themselves and the world around them.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hendrix.edu/Catalog/Odyssey/English_Odyssey_Guide/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

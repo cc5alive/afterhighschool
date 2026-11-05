@@ -10,14 +10,21 @@
         {
           "title": "First Year Student Scholarships | Capital University, Columbus Ohio",
           "url": "https://www.capital.edu/admission-aid/first-year-students/first-year-student-scholarships/",
-          "quote": "The Capital Gateway Scholarship will bring your total award up to full tuition and fees after other qualifying scholarships, awards, and grants are applied."
+          "quote": "The Capital Gateway Scholarship will bring your total award up to full tuition and fees after other qualifying scholarships, awards, and grants are applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.capital.edu/admission-aid/first-year-students/first-year-student-scholarships/",
+          "quoteFound": true
         },
         {
           "title": "First Year Student Scholarships | Capital University, Columbus Ohio",
           "url": "https://www.capital.edu/admission-aid/first-year-students/first-year-student-scholarships/",
-          "quote": "Available to current Ohio high school seniors with an annual household income of $60,000 or less who complete the FAFSA annually."
+          "quote": "Available to current Ohio high school seniors with an annual household income of $60,000 or less who complete the FAFSA annually.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.capital.edu/admission-aid/first-year-students/first-year-student-scholarships/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

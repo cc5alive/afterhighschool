@@ -10,9 +10,13 @@
         {
           "title": "Practical Skills Academy | North Carolina Wesleyan University",
           "url": "https://ncwu.edu/academics/practical-skills-academy/",
-          "quote": "The Practical Skills Academy at North Carolina Wesleyan University offers life and professional skills for students in areas that are not typically covered in traditional coursework."
+          "quote": "The Practical Skills Academy at North Carolina Wesleyan University offers life and professional skills for students in areas that are not typically covered in traditional coursework.",
+          "httpStatus": 200,
+          "finalUrl": "https://ncwu.edu/academics/practical-skills-academy/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

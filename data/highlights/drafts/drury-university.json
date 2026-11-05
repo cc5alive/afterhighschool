@@ -10,9 +10,13 @@
         {
           "title": "Drury Fusion Curriculum | Certificate | Major | Minor",
           "url": "https://www.drury.edu/academics/drury-fusion-curriculum/",
-          "quote": "Each Drury student is guaranteed at least three credentials (credentials being majors, minors, and certificates). Of the three credentials, at least one must be in the “Life” category and one must be in the “Profession” category."
+          "quote": "Each Drury student is guaranteed at least three credentials (credentials being majors, minors, and certificates). Of the three credentials, at least one must be in the “Life” category and one must be in the “Profession” category.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.drury.edu/academics/drury-fusion-curriculum/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

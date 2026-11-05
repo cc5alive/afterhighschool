@@ -10,9 +10,13 @@
         {
           "title": "Flagship 50® - Oglethorpe University",
           "url": "https://oglethorpe.edu/admission/flagship50/",
-          "quote": "If you qualify, we will match the in-state flagship tuition for all 50 states, including the District of Columbia and U.S. Territories. You literally get a private school education at a state school price."
+          "quote": "If you qualify, we will match the in-state flagship tuition for all 50 states, including the District of Columbia and U.S. Territories. You literally get a private school education at a state school price.",
+          "httpStatus": 200,
+          "finalUrl": "https://oglethorpe.edu/admission/flagship50/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,14 +10,21 @@
         {
           "title": "Oregon Access Scholarship | Full-Tuition Scholarship at WU",
           "url": "https://willamette.edu/cost-aid/financial-aid/undergrad/oregon-access-scholarship",
-          "quote": "Willamette University is proud to offer the Oregon Access Scholarship at Willamette College, a full-tuition scholarship designed to make a Willamette education more accessible for Oregon students."
+          "quote": "Willamette University is proud to offer the Oregon Access Scholarship at Willamette College, a full-tuition scholarship designed to make a Willamette education more accessible for Oregon students.",
+          "httpStatus": 200,
+          "finalUrl": "https://willamette.edu/cost-aid/financial-aid/undergrad/oregon-access-scholarship",
+          "quoteFound": true
         },
         {
           "title": "Oregon Access Scholarship | Full-Tuition Scholarship at WU",
           "url": "https://willamette.edu/cost-aid/financial-aid/undergrad/oregon-access-scholarship",
-          "quote": "Demonstrate an adjusted gross family income of less than $80,000 annually based on information submitted through the FAFSA or ORSAA.* Have a Student Aid Index (SAI) of 0 or less."
+          "quote": "Demonstrate an adjusted gross family income of less than $80,000 annually based on information submitted through the FAFSA or ORSAA.* Have a Student Aid Index (SAI) of 0 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://willamette.edu/cost-aid/financial-aid/undergrad/oregon-access-scholarship",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

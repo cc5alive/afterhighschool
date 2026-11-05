@@ -10,9 +10,14 @@
         {
           "title": "USF Tuition Promise",
           "url": "https://tuitionpromise.usiouxfalls.edu/",
-          "quote": "USF is thrilled to announce that prospective students can now receive full tuition! To qualify, a student must meet all requirements: Enroll as a first-time, full-time freshman. Have a high school cumulative GPA of 3.0 or higher."
+          "quote": "USF is thrilled to announce that prospective students can now receive full tuition! To qualify, a student must meet all requirements: Enroll as a first-time, full-time freshman. Have a high school cumulative GPA of 3.0 or higher.",
+          "httpStatus": 200,
+          "finalUrl": "https://tuitionpromise.usiouxfalls.edu/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

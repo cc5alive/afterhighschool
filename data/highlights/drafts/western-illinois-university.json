@@ -10,14 +10,21 @@
         {
           "title": "Tuition Guarantee - WIU",
           "url": "https://www.wiu.edu/student_success/undergraduate_admissions/prospective/guaranteesCost.php",
-          "quote": "Western Illinois University ensures that your college years will be a good investment with its guaranteed four-year rate for tuition."
+          "quote": "Western Illinois University ensures that your college years will be a good investment with its guaranteed four-year rate for tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wiu.edu/student_success/undergraduate_admissions/prospective/guaranteesCost.php",
+          "quoteFound": true
         },
         {
           "title": "Tuition Guarantee - WIU",
           "url": "https://www.wiu.edu/student_success/undergraduate_admissions/prospective/guaranteesCost.php",
-          "quote": "Western was the first university in Illinois to offer this guarantee."
+          "quote": "Western was the first university in Illinois to offer this guarantee.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wiu.edu/student_success/undergraduate_admissions/prospective/guaranteesCost.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

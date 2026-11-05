@@ -10,9 +10,13 @@
         {
           "title": "About | Messina - Loyola University Maryland",
           "url": "https://www.loyola.edu/department/messina/about/",
-          "quote": "Messina is a year-long program for all first-year students at Loyola that fosters connections with faculty, administrators, peer leaders, and Loyola's rich Jesuit tradition of innovation, academic excellence, and community engagement."
+          "quote": "Messina is a year-long program for all first-year students at Loyola that fosters connections with faculty, administrators, peer leaders, and Loyola's rich Jesuit tradition of innovation, academic excellence, and community engagement.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.loyola.edu/department/messina/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

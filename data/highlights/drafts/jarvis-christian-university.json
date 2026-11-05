@@ -10,14 +10,23 @@
         {
           "title": "Affordability - Jarvis Christian University",
           "url": "https://www.jarvis.edu/affordability/",
-          "quote": "Through the Jarvis Promise, all students are eligible for a merit-based Academic Pathway Scholarship or a rebate ($500 per semester), amounting to approximately $4,000 over a four-year period."
+          "quote": "Through the Jarvis Promise, all students are eligible for a merit-based Academic Pathway Scholarship or a rebate ($500 per semester), amounting to approximately $4,000 over a four-year period.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jarvis.edu/affordability/",
+          "quoteFound": true,
+          "browserChecked": true
         },
         {
           "title": "About - Jarvis Christian University",
           "url": "https://www.jarvis.edu/about/",
-          "quote": "Founded in 1912, Jarvis Christian University is a private, historically Black liberal arts university affiliated with the Christian Church (Disciples of Christ)."
+          "quote": "Founded in 1912, Jarvis Christian University is a private, historically Black liberal arts university affiliated with the Christian Church (Disciples of Christ).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jarvis.edu/about/",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

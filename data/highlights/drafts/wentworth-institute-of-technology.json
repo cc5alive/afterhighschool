@@ -10,9 +10,13 @@
         {
           "title": "What is Co-op? – Co-ops + Careers | Wentworth Institute of Technology",
           "url": "https://coopsandcareers.wit.edu/channels/what-is-co-op/",
-          "quote": "Unlike most schools, co-op at Wentworth is a requirement: all undergraduate day students must successfully complete two co-op semesters in order to graduate."
+          "quote": "Unlike most schools, co-op at Wentworth is a requirement: all undergraduate day students must successfully complete two co-op semesters in order to graduate.",
+          "httpStatus": 200,
+          "finalUrl": "https://coopsandcareers.wit.edu/channels/what-is-co-op/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

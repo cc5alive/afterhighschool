@@ -10,9 +10,13 @@
         {
           "title": "Our Mission - Caldwell University",
           "url": "https://www.caldwell.edu/about/mission/",
-          "quote": "Founded in 1939 by the Sisters of Saint Dominic, Caldwell University promotes intellectual, spiritual, and aesthetic growth to a diverse population and welcomes all cultures and faith traditions."
+          "quote": "Founded in 1939 by the Sisters of Saint Dominic, Caldwell University promotes intellectual, spiritual, and aesthetic growth to a diverse population and welcomes all cultures and faith traditions.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.caldwell.edu/about/mission/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

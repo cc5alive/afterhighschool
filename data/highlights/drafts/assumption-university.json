@@ -10,9 +10,13 @@
         {
           "title": "Study Abroad - Assumption University",
           "url": "https://www.assumption.edu/undergraduate-studies/study-abroad-opportunities",
-          "quote": "Assumption University will bill you for home tuition and the standard room and board fee, applying to that bill all financial aid that would have applied to a semester at home, whether federal, private, or Assumption scholarship funds."
+          "quote": "Assumption University will bill you for home tuition and the standard room and board fee, applying to that bill all financial aid that would have applied to a semester at home, whether federal, private, or Assumption scholarship funds.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.assumption.edu/undergraduate-studies/study-abroad-opportunities",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

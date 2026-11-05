@@ -10,9 +10,13 @@
         {
           "title": "Stairs to Success - Keystone College",
           "url": "https://www.keystone.edu/academics/stairs/",
-          "quote": "The Keystone Promise is our pledge to students that they will have a job offer or a placement in graduate school within six months of graduating."
+          "quote": "The Keystone Promise is our pledge to students that they will have a job offer or a placement in graduate school within six months of graduating.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.keystone.edu/academics/stairs/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

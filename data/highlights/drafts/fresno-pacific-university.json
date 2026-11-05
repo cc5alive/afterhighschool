@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Admission | Fresno Pacific University",
           "url": "https://www.fresno.edu/undergraduate/admission",
-          "quote": "If you fulfill your responsibilities and are unable to graduate in four years, you will receive the needed courses the following semester at no cost in tuition or fees."
+          "quote": "If you fulfill your responsibilities and are unable to graduate in four years, you will receive the needed courses the following semester at no cost in tuition or fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fresno.edu/undergraduate/admission",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

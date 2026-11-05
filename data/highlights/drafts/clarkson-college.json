@@ -10,9 +10,13 @@
         {
           "title": "Our Story | Clarkson College",
           "url": "https://www.clarksoncollege.edu/about/our-story",
-          "quote": "In 1888, the hospital organized the first training school for nurses in Nebraska, the Bishop Clarkson Memorial School of Nursing, under the leadership of Meliora Clarkson."
+          "quote": "In 1888, the hospital organized the first training school for nurses in Nebraska, the Bishop Clarkson Memorial School of Nursing, under the leadership of Meliora Clarkson.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.clarksoncollege.edu/about/our-story",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

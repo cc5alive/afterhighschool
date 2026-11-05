@@ -10,9 +10,13 @@
         {
           "title": "Wesleyan Ministers Dependent Grant | Southern Wesleyan University",
           "url": "https://www.swu.edu/on-campus/financial-aid/federal-state-aid/wesleyan-ministers-dependent-grant/",
-          "quote": "WMDG covers 50% of tuition cost during fall and spring terms. Up to 100% of tuition cost may be covered through the combination of other institutional aid."
+          "quote": "WMDG covers 50% of tuition cost during fall and spring terms. Up to 100% of tuition cost may be covered through the combination of other institutional aid.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.swu.edu/on-campus/financial-aid/federal-state-aid/wesleyan-ministers-dependent-grant/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

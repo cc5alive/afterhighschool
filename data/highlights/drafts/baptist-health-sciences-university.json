@@ -10,14 +10,21 @@
         {
           "title": "Senior Year Tuition Deferral Program | Baptist Health Sciences University",
           "url": "https://www.baptistu.edu/tuition-financial-aid/senior-year-tuition-deferral-program",
-          "quote": "For those students selected, the college will defer clinical tuition. Following graduation, licensure, and successful completion of the employment process, Baptist Memorial Health Care Corporation (BMHCC) will hire each program participant as a full-time employee of a BMHCC hospital."
+          "quote": "For those students selected, the college will defer clinical tuition. Following graduation, licensure, and successful completion of the employment process, Baptist Memorial Health Care Corporation (BMHCC) will hire each program participant as a full-time employee of a BMHCC hospital.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.baptistu.edu/tuition-financial-aid/senior-year-tuition-deferral-program",
+          "quoteFound": true
         },
         {
           "title": "Senior Year Tuition Deferral Program | Baptist Health Sciences University",
           "url": "https://www.baptistu.edu/tuition-financial-aid/senior-year-tuition-deferral-program",
-          "quote": "The agreement specifies that each participant will agree to work for Baptist while earning forgiveness each month of work during this work period."
+          "quote": "The agreement specifies that each participant will agree to work for Baptist while earning forgiveness each month of work during this work period.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.baptistu.edu/tuition-financial-aid/senior-year-tuition-deferral-program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

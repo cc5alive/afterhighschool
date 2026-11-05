@@ -10,9 +10,13 @@
         {
           "title": "Jones Learning Center - University of the Ozarks",
           "url": "https://ozarks.edu/academics/jones-learning-center/",
-          "quote": "The Jones Learning Center (JLC) is designed to serve students with documented learning disabilities, Attention Deficit/Hyperactivity Disorder (AD/HD), or Autism Spectrum Disorder (ASD) with average or above average intellectual abilities."
+          "quote": "The Jones Learning Center (JLC) is designed to serve students with documented learning disabilities, Attention Deficit/Hyperactivity Disorder (AD/HD), or Autism Spectrum Disorder (ASD) with average or above average intellectual abilities.",
+          "httpStatus": 200,
+          "finalUrl": "https://ozarks.edu/academics/jones-learning-center/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

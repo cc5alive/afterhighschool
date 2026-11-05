@@ -10,9 +10,13 @@
         {
           "title": "About Geneva",
           "url": "https://www.geneva.edu/about-geneva/",
-          "quote": "Geneva was founded and is governed by the Reformed Presbyterian Church of North America (RPCNA) and is a founding member of both the Council for Christian Colleges and Universities (CCCU) and the International Association for Christian Education (IACE)."
+          "quote": "Geneva was founded and is governed by the Reformed Presbyterian Church of North America (RPCNA) and is a founding member of both the Council for Christian Colleges and Universities (CCCU) and the International Association for Christian Education (IACE).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.geneva.edu/about-geneva/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

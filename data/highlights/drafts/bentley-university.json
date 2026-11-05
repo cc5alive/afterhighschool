@@ -10,9 +10,13 @@
         {
           "title": "Pulsifer Career Career | Bentley University",
           "url": "https://www.bentley.edu/university-life/pulsifer-career-development",
-          "quote": "89% of undergraduate students complete at least one internship"
+          "quote": "89% of undergraduate students complete at least one internship",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bentley.edu/university-life/pulsifer-career-development",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

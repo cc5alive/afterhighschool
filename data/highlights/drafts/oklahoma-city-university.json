@@ -10,9 +10,14 @@
         {
           "title": "Our History - Oklahoma City University",
           "url": "https://www.okcu.edu/about/presidents-office/our-history",
-          "quote": "Founded in 1904, what we know now as Oklahoma City University had several names and locations in its early years. One thing has remained constant; the university has remained firmly attached to its Methodist roots."
+          "quote": "Founded in 1904, what we know now as Oklahoma City University had several names and locations in its early years. One thing has remained constant; the university has remained firmly attached to its Methodist roots.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.okcu.edu/about/presidents-office/our-history",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

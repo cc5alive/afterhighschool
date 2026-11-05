@@ -10,9 +10,13 @@
         {
           "title": "WU Promise Grant - Walsh University",
           "url": "https://www.walsh.edu/admissions/wupromise.html",
-          "quote": "Beginning with the 2027–28 academic year, the WU Promise Grant will cover all remaining tuition for eligible first-time, degree-seeking students after federal, state, and institutional aid are applied."
+          "quote": "Beginning with the 2027–28 academic year, the WU Promise Grant will cover all remaining tuition for eligible first-time, degree-seeking students after federal, state, and institutional aid are applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.walsh.edu/admissions/wupromise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Mission Statement - UMF Catalog On-Line",
           "url": "https://catalog.umf.maine.edu/show.php?type=subcategory&id=2&version=2008-2009",
-          "quote": "As Maine's first institution of public higher education, UMF is rooted in tradition but also values innovation."
+          "quote": "As Maine's first institution of public higher education, UMF is rooted in tradition but also values innovation.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.umf.maine.edu/show.php?type=subcategory&id=2&version=2008-2009",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

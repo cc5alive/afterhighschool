@@ -10,9 +10,13 @@
         {
           "title": "A University Focused on Serving | Briar Cliff University",
           "url": "https://www.briarcliff.edu/family-and-friends/parents/news/a-university-focused-on-serving",
-          "quote": "All students are required to do 20 hours of service per year during their undergraduate experience. These opportunities are often embedded in the curriculum or within activities across campus."
+          "quote": "All students are required to do 20 hours of service per year during their undergraduate experience. These opportunities are often embedded in the curriculum or within activities across campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.briarcliff.edu/family-and-friends/parents/news/a-university-focused-on-serving",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

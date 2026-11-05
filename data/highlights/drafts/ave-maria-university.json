@@ -10,9 +10,13 @@
         {
           "title": "Catholic Culture | Ave Maria University",
           "url": "https://www.avemaria.edu/campus-life/catholic-culture",
-          "quote": "A one-of-a-kind campus program that honors the work of Mother Teresa by nurturing young adults who share her compassion for others. Participate in events and service projects, with the opportunity to earn the Mother Teresa Scholar designation."
+          "quote": "A one-of-a-kind campus program that honors the work of Mother Teresa by nurturing young adults who share her compassion for others. Participate in events and service projects, with the opportunity to earn the Mother Teresa Scholar designation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.avemaria.edu/campus-life/catholic-culture",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

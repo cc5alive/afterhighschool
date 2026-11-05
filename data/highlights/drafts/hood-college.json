@@ -10,14 +10,22 @@
         {
           "title": "Hood College Launches 'Hood Advantage Program' for Students in Maryland",
           "url": "https://www.hood.edu/news/hood-college-launches-hood-advantage-program-students-maryland",
-          "quote": "By covering remaining tuition costs after federal grants and scholarships, qualifying students are guaranteed to have their tuition covered each year without loans for up to four years."
+          "quote": "By covering remaining tuition costs after federal grants and scholarships, qualifying students are guaranteed to have their tuition covered each year without loans for up to four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hood.edu/news/hood-college-launches-hood-advantage-program-students-maryland",
+          "quoteFound": true
         },
         {
           "title": "Hood College Launches 'Hood Advantage Program' for Students in Maryland",
           "url": "https://www.hood.edu/news/hood-college-launches-hood-advantage-program-students-maryland",
-          "quote": "Live in a household with an adjusted gross income of $50,000 or less."
+          "quote": "Live in a household with an adjusted gross income of $50,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hood.edu/news/hood-college-launches-hood-advantage-program-students-maryland",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

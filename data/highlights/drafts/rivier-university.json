@@ -10,9 +10,13 @@
         {
           "title": "Employment Promise Program | Rivier University",
           "url": "https://www.rivier.edu/academics/career-development/employment-promise-program/",
-          "quote": "Graduates unemployed nine months after graduation may choose either: Federal Loan Repayment. Rivier University will make the graduate's monthly federal subsidized student loan payment for up to 12 months OR Tuition-free Graduate Study."
+          "quote": "Graduates unemployed nine months after graduation may choose either: Federal Loan Repayment. Rivier University will make the graduate's monthly federal subsidized student loan payment for up to 12 months OR Tuition-free Graduate Study.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rivier.edu/academics/career-development/employment-promise-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

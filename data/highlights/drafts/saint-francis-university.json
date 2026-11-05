@@ -10,9 +10,14 @@
         {
           "title": "Flash Facts, Rankings, and More | Saint Francis University",
           "url": "https://www.francis.edu/about-us/facts-and-stats",
-          "quote": "oldest Franciscan college in the United States. founded in 1847 by six friars from Ireland. one of the first Catholic co-ed colleges in the nation."
+          "quote": "oldest Franciscan college in the United States. founded in 1847 by six friars from Ireland. one of the first Catholic co-ed colleges in the nation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.francis.edu/about-us/facts-and-stats",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

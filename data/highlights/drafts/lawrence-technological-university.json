@@ -10,9 +10,13 @@
         {
           "title": "Laptop Program - Lawrence Technological University",
           "url": "https://ltu.edu/ehelp/laptop-program/",
-          "quote": "The laptop program at Lawrence Tech ensures that students are well prepared to take advantage of advanced learning opportunities, have greater access to educational resources, and achieve a competitive edge in the workplace."
+          "quote": "The laptop program at Lawrence Tech ensures that students are well prepared to take advantage of advanced learning opportunities, have greater access to educational resources, and achieve a competitive edge in the workplace.",
+          "httpStatus": 200,
+          "finalUrl": "https://ltu.edu/ehelp/laptop-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

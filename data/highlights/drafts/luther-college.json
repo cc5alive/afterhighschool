@@ -10,9 +10,14 @@
         {
           "title": "Paideia | Luther College",
           "url": "https://www.luther.edu/academics/approach-to-academics/core-curriculum/paideia",
-          "quote": "Paideia includes three courses. In your first year, you will complete Paideia 111 and 112: Enduring Questions. When you are a junior or a senior, you will take Paideia 450: Ethical Choices."
+          "quote": "Paideia includes three courses. In your first year, you will complete Paideia 111 and 112: Enduring Questions. When you are a junior or a senior, you will take Paideia 450: Ethical Choices.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.luther.edu/academics/approach-to-academics/core-curriculum/paideia",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

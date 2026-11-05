@@ -10,9 +10,13 @@
         {
           "title": "Independent Study | The College of Wooster",
           "url": "https://wooster.edu/research/independent-study",
-          "quote": "Independent Study, often called I.S., is a required senior research or creative project completed by every student at The College of Wooster."
+          "quote": "Independent Study, often called I.S., is a required senior research or creative project completed by every student at The College of Wooster.",
+          "httpStatus": 200,
+          "finalUrl": "https://wooster.edu/research/independent-study",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

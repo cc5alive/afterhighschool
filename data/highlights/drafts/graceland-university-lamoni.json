@@ -10,9 +10,13 @@
         {
           "title": "Graceland University Student Life: House Social System",
           "url": "https://www.graceland.edu/student-life/house-social-system/",
-          "quote": "Every student is assigned to a house starting their first year, and they remain a member of their house through graduation."
+          "quote": "Every student is assigned to a house starting their first year, and they remain a member of their house through graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.graceland.edu/student-life/house-social-system/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

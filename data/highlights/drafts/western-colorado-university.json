@@ -10,14 +10,21 @@
         {
           "title": "The Mountaineer Promise - Western Colorado University",
           "url": "https://western.edu/admissions/financial-services/scholarships-financial-aid/mountaineer-promise/",
-          "quote": "The Mountaineer Promise guarantees that standard tuition and mandatory fees will be covered through a combination of federal, state, and institutional scholarships and grants for eligible Colorado residents."
+          "quote": "The Mountaineer Promise guarantees that standard tuition and mandatory fees will be covered through a combination of federal, state, and institutional scholarships and grants for eligible Colorado residents.",
+          "httpStatus": 200,
+          "finalUrl": "https://western.edu/admissions/financial-services/scholarships-financial-aid/mountaineer-promise/",
+          "quoteFound": true
         },
         {
           "title": "The Mountaineer Promise - Western Colorado University",
           "url": "https://western.edu/admissions/financial-services/scholarships-financial-aid/mountaineer-promise/",
-          "quote": "We commit to covering the standard tuition and mandatory fees, up to 18 credits, for all students whose families' Adjusted Gross Income is less than $70,000 a year"
+          "quote": "We commit to covering the standard tuition and mandatory fees, up to 18 credits, for all students whose families' Adjusted Gross Income is less than $70,000 a year",
+          "httpStatus": 200,
+          "finalUrl": "https://western.edu/admissions/financial-services/scholarships-financial-aid/mountaineer-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

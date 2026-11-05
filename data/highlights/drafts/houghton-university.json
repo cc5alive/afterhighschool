@@ -10,9 +10,13 @@
         {
           "title": "Scholarships and Grants | Houghton University",
           "url": "https://www.houghton.edu/undergraduate/tuition-aid/types-of-aid/scholarships-grants/",
-          "quote": "The Founder's Promise Scholarship is awarded to Pell-eligible students to elevate their financial aid offer to equal the cost of tuition."
+          "quote": "The Founder's Promise Scholarship is awarded to Pell-eligible students to elevate their financial aid offer to equal the cost of tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.houghton.edu/undergraduate/tuition-aid/types-of-aid/scholarships-grants/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

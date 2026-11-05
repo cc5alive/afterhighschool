@@ -10,9 +10,13 @@
         {
           "title": "History - Goldey-Beacom College",
           "url": "https://www.gbc.edu/about/history/",
-          "quote": "The College traces its origins to September 1, 1886 when business educator H.S. Goldey opened the Wilmington Commercial College with only five students."
+          "quote": "The College traces its origins to September 1, 1886 when business educator H.S. Goldey opened the Wilmington Commercial College with only five students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.gbc.edu/about/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

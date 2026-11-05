@@ -10,9 +10,14 @@
         {
           "title": "Computer Science (BS) | Seton Hill University",
           "url": "https://www.setonhill.edu/academics/degrees-programs/undergraduate-programs/computer-science-bs.html",
-          "quote": "Seton Hill is an Apple Distinguished School, in part because of our Mobile Learning at the Hill Program, which provides a MacBook Air to all traditional full-time bachelor's degree seeking students."
+          "quote": "Seton Hill is an Apple Distinguished School, in part because of our Mobile Learning at the Hill Program, which provides a MacBook Air to all traditional full-time bachelor's degree seeking students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.setonhill.edu/academics/degrees-programs/undergraduate-programs/computer-science-bs.html",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Honor Code - CalTech Admissions",
           "url": "https://www.admissions.caltech.edu/why-caltech/student-life/honor-code",
-          "quote": "No member of the Caltech community shall take unfair advantage of any other member of the Caltech community."
+          "quote": "No member of the Caltech community shall take unfair advantage of any other member of the Caltech community.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.admissions.caltech.edu/why-caltech/student-life/honor-code",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All Caltech undergraduates must complete a STEM core curriculum including a yearlong physics course and mathematics covering multivariable calculus and linear algebra.",
@@ -20,9 +24,13 @@
         {
           "title": "Core Curriculum - CalTech Admissions",
           "url": "https://www.admissions.caltech.edu/why-caltech/academics/core-curriculum",
-          "quote": "The core curriculum at Caltech consists of: First Year Mathematics: 27 units (covering Multivariable Calculus and Linear Algebra) First Year Physics: 27 units (yearlong course)"
+          "quote": "The core curriculum at Caltech consists of: First Year Mathematics: 27 units (covering Multivariable Calculus and Linear Algebra) First Year Physics: 27 units (yearlong course)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.admissions.caltech.edu/why-caltech/academics/core-curriculum",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

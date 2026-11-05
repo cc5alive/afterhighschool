@@ -10,9 +10,13 @@
         {
           "title": "Office of Title V Initiatives - Adams State University",
           "url": "https://www.adams.edu/titlev/",
-          "quote": "Adams State University is Colorado's premier four-year Hispanic-Serving Institution (HSI)."
+          "quote": "Adams State University is Colorado's premier four-year Hispanic-Serving Institution (HSI).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.adams.edu/titlev/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "The Adams Promise covers tuition and campus fees for full-time Colorado resident undergraduates from families with adjusted gross incomes of $70,000 or less.",
@@ -20,14 +24,21 @@
         {
           "title": "Adams Promise - Free Tuition and Fees! - Financial Aid - Adams ...",
           "url": "https://www.adams.edu/financial-aid/promise/",
-          "quote": "The Adams Promise covers tuition and mandatory campus-wide fees (after all federal and state funds are applied)"
+          "quote": "The Adams Promise covers tuition and mandatory campus-wide fees (after all federal and state funds are applied)",
+          "httpStatus": 200,
+          "finalUrl": "https://www.adams.edu/financial-aid/promise/",
+          "quoteFound": true
         },
         {
           "title": "Adams Promise - Free Tuition and Fees! - Financial Aid - Adams ...",
           "url": "https://www.adams.edu/financial-aid/promise/",
-          "quote": "Dependent student whose family adjusted gross income is $70K or less Enrolled full-time at Adams State, on campus First-time freshman or transfer student Resident of the State of Colorado"
+          "quote": "Dependent student whose family adjusted gross income is $70K or less Enrolled full-time at Adams State, on campus First-time freshman or transfer student Resident of the State of Colorado",
+          "httpStatus": 200,
+          "finalUrl": "https://www.adams.edu/financial-aid/promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

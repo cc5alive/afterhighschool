@@ -10,9 +10,13 @@
         {
           "title": "The President's Club Mission & History - Hillsdale College",
           "url": "https://www.hillsdale.edu/support/presidents-club/mission-history/",
-          "quote": "In response, Hillsdale's trustees made a bold decision to notify students that they no longer could accept federal taxpayer aid to attend Hillsdale. Simultaneously, they committed to replacing the lost federal taxpayer dollars with private ones"
+          "quote": "In response, Hillsdale's trustees made a bold decision to notify students that they no longer could accept federal taxpayer aid to attend Hillsdale. Simultaneously, they committed to replacing the lost federal taxpayer dollars with private ones",
+          "httpStatus": 200,
+          "finalUrl": "https://www.hillsdale.edu/support/presidents-club/mission-history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

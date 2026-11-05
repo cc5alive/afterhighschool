@@ -10,9 +10,13 @@
         {
           "title": "PGA Golf Management | Programs | Methodist University",
           "url": "https://www.methodist.edu/academics/program/pgm/",
-          "quote": "In addition, the on-campus golf course known as “Downback” is for the exclusive use of PGA Golf Management students, and includes a practice facility with short game area, putting green, bunkers, and 65 hitting stations."
+          "quote": "In addition, the on-campus golf course known as “Downback” is for the exclusive use of PGA Golf Management students, and includes a practice facility with short game area, putting green, bunkers, and 65 hitting stations.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.methodist.edu/academics/program/pgm/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

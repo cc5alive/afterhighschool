@@ -10,9 +10,13 @@
         {
           "title": "Mustangs Guarantee Program - MSU Texas",
           "url": "https://msutexas.edu/finaid/m-guarantee.php",
-          "quote": "The Mustangs Guarantee Program will cover the remaining balance of any tuition and mandatory fees that are NOT covered by other grants, scholarships, exemptions, benefits, and/or waiver programs received by the student."
+          "quote": "The Mustangs Guarantee Program will cover the remaining balance of any tuition and mandatory fees that are NOT covered by other grants, scholarships, exemptions, benefits, and/or waiver programs received by the student.",
+          "httpStatus": 200,
+          "finalUrl": "https://msutexas.edu/finaid/m-guarantee.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

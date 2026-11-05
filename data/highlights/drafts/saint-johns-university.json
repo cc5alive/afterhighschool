@@ -10,9 +10,13 @@
         {
           "title": "Our Unique Partnership | CSB+SJU - College of Saint Benedict",
           "url": "https://www.csbsju.edu/about/how-we-work-together/",
-          "quote": "Students take classes on both campuses. In fact, CSB and SJU share one common curriculum. Classes are co-ed and graduation requirements are the same for both schools."
+          "quote": "Students take classes on both campuses. In fact, CSB and SJU share one common curriculum. Classes are co-ed and graduation requirements are the same for both schools.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csbsju.edu/about/how-we-work-together/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

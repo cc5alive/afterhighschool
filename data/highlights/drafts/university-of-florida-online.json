@@ -10,9 +10,13 @@
         {
           "title": "Tuition & Fees | University of Florida Online",
           "url": "https://ufonline.ufl.edu/tuition/tuition-fees/",
-          "quote": "UF Online tuition for Florida residents is set at 75% of standard in state tuition."
+          "quote": "UF Online tuition for Florida residents is set at 75% of standard in state tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://ufonline.ufl.edu/tuition/tuition-fees/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

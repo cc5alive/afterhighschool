@@ -10,9 +10,13 @@
         {
           "title": "Why TLU? | Texas Lutheran University",
           "url": "https://www.tlu.edu/about-tlu/why-tlu/",
-          "quote": "When you're admitted to Texas Lutheran University you will receive at least $25,000/year for four years if you have a high school core academic GPA of 4.0."
+          "quote": "When you're admitted to Texas Lutheran University you will receive at least $25,000/year for four years if you have a high school core academic GPA of 4.0.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tlu.edu/about-tlu/why-tlu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

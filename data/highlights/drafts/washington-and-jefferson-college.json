@@ -10,9 +10,13 @@
         {
           "title": "Chart Your Own Course | Washington and Jefferson College",
           "url": "https://www.washjeff.edu/student-life/the-magellan-project/",
-          "quote": "W&J College provides funding so that you can set sail in the summer months, exploring a passion, an interest, an internship, a study abroad opportunity, a research trip, or all of the above."
+          "quote": "W&J College provides funding so that you can set sail in the summer months, exploring a passion, an interest, an internship, a study abroad opportunity, a research trip, or all of the above.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.washjeff.edu/student-life/the-magellan-project/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

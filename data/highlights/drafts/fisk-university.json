@@ -10,14 +10,21 @@
         {
           "title": "Fisk University History",
           "url": "https://www.fisk.edu/about/history/",
-          "quote": "permitted construction of Jubilee Hall, the South's first permanent structure built for the education of black students."
+          "quote": "permitted construction of Jubilee Hall, the South's first permanent structure built for the education of black students.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fisk.edu/about/history/",
+          "quoteFound": true
         },
         {
           "title": "Fisk University History",
           "url": "https://www.fisk.edu/about/history/",
-          "quote": "As a designated National Historical Landmark, today, Jubilee Hall remains the dramatic focal point of Fisk's campus."
+          "quote": "As a designated National Historical Landmark, today, Jubilee Hall remains the dramatic focal point of Fisk's campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fisk.edu/about/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,14 +10,21 @@
         {
           "title": "Heritage of Northeastern State University",
           "url": "https://nsuok.edu/heritage/default.aspx",
-          "quote": "Back in 1846, Northeastern State University was founded as the Cherokee National Female Seminary."
+          "quote": "Back in 1846, Northeastern State University was founded as the Cherokee National Female Seminary.",
+          "httpStatus": 200,
+          "finalUrl": "https://nsuok.edu/heritage/default.aspx",
+          "quoteFound": true
         },
         {
           "title": "Heritage of Northeastern State University",
           "url": "https://nsuok.edu/heritage/default.aspx",
-          "quote": "This historic link to the Cherokee Nation and Indian Territory make Northeastern the oldest institution of higher learning in Oklahoma."
+          "quote": "This historic link to the Cherokee Nation and Indian Territory make Northeastern the oldest institution of higher learning in Oklahoma.",
+          "httpStatus": 200,
+          "finalUrl": "https://nsuok.edu/heritage/default.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

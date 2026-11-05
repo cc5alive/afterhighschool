@@ -10,9 +10,13 @@
         {
           "title": "Bluefield University Announces New and Updated Affordable Tuition Rates",
           "url": "https://www.bluefield.edu/bluefield-university-announces-new-and-updated-affordable-tuition-rates/",
-          "quote": "Eligible students must have a 3.0 GPA to qualify for a tuition rate of $15,000. This tuition program was established to provide an exclusive rate to all Virginia high school, homeschool students, and students transferring from any Virginia Community College."
+          "quote": "Eligible students must have a 3.0 GPA to qualify for a tuition rate of $15,000. This tuition program was established to provide an exclusive rate to all Virginia high school, homeschool students, and students transferring from any Virginia Community College.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bluefield.edu/bluefield-university-announces-new-and-updated-affordable-tuition-rates/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

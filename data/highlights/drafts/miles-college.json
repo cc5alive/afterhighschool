@@ -10,9 +10,14 @@
         {
           "title": "About Miles | Miles College",
           "url": "https://www.miles.edu/about-miles",
-          "quote": "Miles College is a senior, private, liberal arts Historically Black Colleges and Universities (HBCU)."
+          "quote": "Miles College is a senior, private, liberal arts Historically Black Colleges and Universities (HBCU).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.miles.edu/about-miles",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

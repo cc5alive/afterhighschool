@@ -10,14 +10,21 @@
         {
           "title": "Inspire Scholarship",
           "url": "https://www.desu.edu/admissions/financial-aid/scholarships/inspire-scholarship",
-          "quote": "Delaware State University offers a 4-year, full tuition Inspire Scholarship available to qualifying Delaware high school graduates who enroll at Delaware State University in the fall semester right after high school graduation."
+          "quote": "Delaware State University offers a 4-year, full tuition Inspire Scholarship available to qualifying Delaware high school graduates who enroll at Delaware State University in the fall semester right after high school graduation.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.desu.edu/admissions/financial-aid/scholarships/inspire-scholarship",
+          "quoteFound": true
         },
         {
           "title": "Inspire Scholarship",
           "url": "https://www.desu.edu/admissions/financial-aid/scholarships/inspire-scholarship",
-          "quote": "To apply, you must have a cumulative overall GPA of at least 2.75 or higher on a 4.0 scale, as indicated on your official high school transcript."
+          "quote": "To apply, you must have a cumulative overall GPA of at least 2.75 or higher on a 4.0 scale, as indicated on your official high school transcript.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.desu.edu/admissions/financial-aid/scholarships/inspire-scholarship",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

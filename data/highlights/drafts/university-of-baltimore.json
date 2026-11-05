@@ -10,9 +10,13 @@
         {
           "title": "Admission Requirements and Applying to UBalt",
           "url": "https://www.ubalt.edu/admission-and-aid/transfer-admissions/apply-to-transfer/index.cfm",
-          "quote": "Maryland Community College graduates who transfer directly to UBalt are guaranteed admission."
+          "quote": "Maryland Community College graduates who transfer directly to UBalt are guaranteed admission.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ubalt.edu/admission-and-aid/transfer-admissions/apply-to-transfer/index.cfm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

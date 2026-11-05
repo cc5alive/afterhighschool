@@ -10,9 +10,13 @@
         {
           "title": "Academic Partnerships - Bryn Mawr College",
           "url": "https://www.brynmawr.edu/academics/academic-opportunities/academic-partnerships",
-          "quote": "Bryn Mawr and Haverford Colleges join together with Swarthmore College to form the Tri-College Consortium. The Tri-Co offers students the opportunities to take classes not offered on their campus, and to choose majors which collaborate between the three schools."
+          "quote": "Bryn Mawr and Haverford Colleges join together with Swarthmore College to form the Tri-College Consortium. The Tri-Co offers students the opportunities to take classes not offered on their campus, and to choose majors which collaborate between the three schools.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.brynmawr.edu/academics/academic-opportunities/academic-partnerships",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

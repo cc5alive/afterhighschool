@@ -10,9 +10,13 @@
         {
           "title": "UPIKE Pledge",
           "url": "https://www.upike.edu/undergraduate/financial-aid/scholarships/upike-pledge/",
-          "quote": "The UPIKE Pledge guarantees the rest of your tuition is covered after your grants and scholarships are applied."
+          "quote": "The UPIKE Pledge guarantees the rest of your tuition is covered after your grants and scholarships are applied.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.upike.edu/undergraduate/financial-aid/scholarships/upike-pledge/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

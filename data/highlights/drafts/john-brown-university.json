@@ -10,9 +10,14 @@
         {
           "title": "Scholarships and Grants | On-Campus Undergrad | John Brown University",
           "url": "https://www.jbu.edu/financial-aid/on-campus-undergraduate/scholarships-and-aid/scholarships/",
-          "quote": "Through the JBU Arkansas Affordability Promise, qualifying Arkansas undergraduate students who receive the maximum Federal Pell Grant will have 100% of tuition covered through gift aid."
+          "quote": "Through the JBU Arkansas Affordability Promise, qualifying Arkansas undergraduate students who receive the maximum Federal Pell Grant will have 100% of tuition covered through gift aid.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jbu.edu/financial-aid/on-campus-undergraduate/scholarships-and-aid/scholarships/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

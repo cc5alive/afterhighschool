@@ -10,14 +10,21 @@
         {
           "title": "Cross-Cultural Program - Bluffton University",
           "url": "https://www.bluffton.edu/academiclife/xcultural/index.aspx",
-          "quote": "A cross-cultural experience is a required part of Bluffton's general education program that invites students to engage meaningfully with cultures, communities and perspectives different from their own."
+          "quote": "A cross-cultural experience is a required part of Bluffton's general education program that invites students to engage meaningfully with cultures, communities and perspectives different from their own.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bluffton.edu/academiclife/xcultural/index.aspx",
+          "quoteFound": true
         },
         {
           "title": "Cross-Cultural Program - Bluffton University",
           "url": "https://www.bluffton.edu/academiclife/xcultural/index.aspx",
-          "quote": "More than 95 percent of Bluffton students fulfill the cross cultural requirement with a cross cultural experience following their sophomore year."
+          "quote": "More than 95 percent of Bluffton students fulfill the cross cultural requirement with a cross cultural experience following their sophomore year.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bluffton.edu/academiclife/xcultural/index.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Augustinian Scholarship | Westmont College",
           "url": "https://www.westmont.edu/admissions/affording-college/scholarships/augustinian.html",
-          "quote": "Westmont welcomes 60 incoming first-year students to the program each year. The highest financial award level, granted to about 30 of these scholars, covers 75% of tuition."
+          "quote": "Westmont welcomes 60 incoming first-year students to the program each year. The highest financial award level, granted to about 30 of these scholars, covers 75% of tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.westmont.edu/admissions/affording-college/scholarships/augustinian.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

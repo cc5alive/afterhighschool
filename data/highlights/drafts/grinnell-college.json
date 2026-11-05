@@ -10,9 +10,13 @@
         {
           "title": "Individually Advised Curriculum | Grinnell College",
           "url": "https://www.grinnell.edu/admission/why-grinnell/academics/individually-advised",
-          "quote": "With just one required class sequence - the First-Year Tutorial and First-Year Experience courses - more than 500 course offerings, and no general education requirements or core curriculum, you can explore your interests through all their twists and turns."
+          "quote": "With just one required class sequence - the First-Year Tutorial and First-Year Experience courses - more than 500 course offerings, and no general education requirements or core curriculum, you can explore your interests through all their twists and turns.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.grinnell.edu/admission/why-grinnell/academics/individually-advised",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,14 @@
         {
           "title": "New Nebraskan Tuition Waiver | Financial Aid | University of Nebraska at Kearney",
           "url": "https://www.unk.edu/offices/financial_aid/new-nebraskan-scholarship/index.php",
-          "quote": "The University of Nebraska at Kearney helps eligible out-of-state undergraduate students pay the Nebraska in-state tuition rate through the New Nebraskan Tuition Waiver."
+          "quote": "The University of Nebraska at Kearney helps eligible out-of-state undergraduate students pay the Nebraska in-state tuition rate through the New Nebraskan Tuition Waiver.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unk.edu/offices/financial_aid/new-nebraskan-scholarship/index.php",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

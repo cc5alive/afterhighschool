@@ -10,9 +10,13 @@
         {
           "title": "Mission & History - William Penn University",
           "url": "https://www.wmpenn.edu/get-to-know-wpu/mission-history/",
-          "quote": "Founded in 1873 by Quaker settlers who strongly valued education and then named for the Quaker, William Penn, the University was located in Oskaloosa and graduated its first class in 1875."
+          "quote": "Founded in 1873 by Quaker settlers who strongly valued education and then named for the Quaker, William Penn, the University was located in Oskaloosa and graduated its first class in 1875.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wmpenn.edu/get-to-know-wpu/mission-history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "History | La Roche University",
           "url": "https://laroche.edu/academics/areas_of_study/history/",
-          "quote": "Included in the cost of tuition, our Study Abroad+Study USA program offers you the chance to travel abroad or within the United States at little or no additional cost."
+          "quote": "Included in the cost of tuition, our Study Abroad+Study USA program offers you the chance to travel abroad or within the United States at little or no additional cost.",
+          "httpStatus": 200,
+          "finalUrl": "https://laroche.edu/academics/areas_of_study/history/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

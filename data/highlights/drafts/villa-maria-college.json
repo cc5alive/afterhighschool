@@ -10,9 +10,14 @@
         {
           "title": "Villa Maria College | Event Details",
           "url": "https://visit.villa.edu/event/villa.events.356922",
-          "quote": "Perks of being a Viking: Textbooks and supplies are free for all students. Eat for free in our brand new Commons – all students get $75/semester in Viking Bucks. Viking Ride – all students get a monthly Lyft credit to get to & from campus for free. Free NFTA bus passes for all students. Parking is always free and there are lots close to all buildings. No Friday classes."
+          "quote": "Perks of being a Viking: Textbooks and supplies are free for all students. Eat for free in our brand new Commons – all students get $75/semester in Viking Bucks. Viking Ride – all students get a monthly Lyft credit to get to & from campus for free. Free NFTA bus passes for all students. Parking is always free and there are lots close to all buildings. No Friday classes.",
+          "httpStatus": 200,
+          "finalUrl": "https://visit.villa.edu/event/villa.events.356922",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

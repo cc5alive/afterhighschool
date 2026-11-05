@@ -10,14 +10,21 @@
         {
           "title": "Heritage - Bethany College",
           "url": "https://www.bethanylb.edu/heritage",
-          "quote": "Every year since 1882, the Bethany Oratorio Society has presented Handel's Messiah at the college – the longest-running annual performances in North America."
+          "quote": "Every year since 1882, the Bethany Oratorio Society has presented Handel's Messiah at the college – the longest-running annual performances in North America.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bethanylb.edu/heritage",
+          "quoteFound": true
         },
         {
           "title": "Heritage - Bethany College",
           "url": "https://www.bethanylb.edu/heritage",
-          "quote": "Swedish-Lutheran settlers worked with the Rev. Dr. Carl A. Swensson, Bethany's founder, to establish Bethany Academy on October 15, 1881, in the sacristy of Bethany Lutheran Church in Lindsborg, Kan."
+          "quote": "Swedish-Lutheran settlers worked with the Rev. Dr. Carl A. Swensson, Bethany's founder, to establish Bethany Academy on October 15, 1881, in the sacristy of Bethany Lutheran Church in Lindsborg, Kan.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bethanylb.edu/heritage",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

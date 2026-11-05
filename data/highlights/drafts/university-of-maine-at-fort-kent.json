@@ -10,14 +10,23 @@
         {
           "title": "Fort Kent Promise Program",
           "url": "https://www.umfk.edu/admissions/promise-program/",
-          "quote": "The Promise Program guarantees that first-time, full-time, Pell Grant-eligible students from Maine will receive an annual tuition discount package that covers the cost of tuition and fees for the academic year (30 credits plus standard fees)."
+          "quote": "The Promise Program guarantees that first-time, full-time, Pell Grant-eligible students from Maine will receive an annual tuition discount package that covers the cost of tuition and fees for the academic year (30 credits plus standard fees).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umfk.edu/admissions/promise-program/",
+          "quoteFound": true,
+          "browserChecked": true
         },
         {
           "title": "Fort Kent Promise Program",
           "url": "https://www.umfk.edu/admissions/promise-program/",
-          "quote": "The tuition guarantee is valid for eight consecutive traditional semesters (fall and spring terms). Students must maintain an accumulative GPA of 2.00 and earn a minimum of 12 credit hours each semester."
+          "quote": "The tuition guarantee is valid for eight consecutive traditional semesters (fall and spring terms). Students must maintain an accumulative GPA of 2.00 and earn a minimum of 12 credit hours each semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umfk.edu/admissions/promise-program/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

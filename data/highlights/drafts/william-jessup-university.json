@@ -10,9 +10,14 @@
         {
           "title": "Stilgebouer Legacy Society - William Jessup University",
           "url": "https://legacy.jessup.edu/legacy.html",
-          "quote": "Larry observed the significant changes that took place as Jessup went from its modest roots as San Jose Bible College to a fast-growing liberal arts university that continues to keep Christ as its central focus."
+          "quote": "Larry observed the significant changes that took place as Jessup went from its modest roots as San Jose Bible College to a fast-growing liberal arts university that continues to keep Christ as its central focus.",
+          "httpStatus": 403,
+          "finalUrl": "https://legacy.jessup.edu/legacy.html",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

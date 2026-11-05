@@ -10,9 +10,14 @@
         {
           "title": "LCU Guarantee",
           "url": "https://lcu.edu/financial-assistance/scholarships/lcu-guarantee",
-          "quote": "Lubbock Christian University has implemented a plan to guarantee 100% of the cost of tuition and mandatory fees to new entering first year students who are Texas residents and are full Pell Grant eligible."
+          "quote": "Lubbock Christian University has implemented a plan to guarantee 100% of the cost of tuition and mandatory fees to new entering first year students who are Texas residents and are full Pell Grant eligible.",
+          "httpStatus": 200,
+          "finalUrl": "https://lcu.edu/financial-assistance/scholarships/lcu-guarantee",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

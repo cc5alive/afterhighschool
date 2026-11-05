@@ -10,14 +10,21 @@
         {
           "title": "Grace and Caroline Program | Mount Mary University",
           "url": "https://mtmary.edu/grace/index.htm",
-          "quote": "Every year, Mount Mary University awards Grace Scholarships to 20 female high school students who live in Milwaukee or West Milwaukee, equipping them with everything they need to succeed in college and their chosen career path."
+          "quote": "Every year, Mount Mary University awards Grace Scholarships to 20 female high school students who live in Milwaukee or West Milwaukee, equipping them with everything they need to succeed in college and their chosen career path.",
+          "httpStatus": 200,
+          "finalUrl": "https://mtmary.edu//admissions-and-aid/affordability/grace-caroline-program.html/index.htm",
+          "quoteFound": true
         },
         {
           "title": "Grace and Caroline Program | Mount Mary University",
           "url": "https://mtmary.edu/grace/index.htm",
-          "quote": "Grace Scholar students receive financial aid and scholarship funds to cover 85%-95% of tuition annually for four years."
+          "quote": "Grace Scholar students receive financial aid and scholarship funds to cover 85%-95% of tuition annually for four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://mtmary.edu//admissions-and-aid/affordability/grace-caroline-program.html/index.htm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

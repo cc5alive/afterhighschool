@@ -10,14 +10,21 @@
         {
           "title": "History of Parker University (Parker College of Chiropractic)",
           "url": "https://www.parker.edu/history-of-the-university/",
-          "quote": "Parker University (formerly Parker College of Chiropractic) is named for its late founder, Dr. James William Parker."
+          "quote": "Parker University (formerly Parker College of Chiropractic) is named for its late founder, Dr. James William Parker.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.parker.edu/history-of-the-university/",
+          "quoteFound": true
         },
         {
           "title": "History of Parker University (Parker College of Chiropractic)",
           "url": "https://www.parker.edu/history-of-the-university/",
-          "quote": "In April 2011, Parker College of Chiropractic officially became Parker University, paving the way for new healthcare degree programs that expand students' knowledge and provide more opportunities for Parker graduates to serve."
+          "quote": "In April 2011, Parker College of Chiropractic officially became Parker University, paving the way for new healthcare degree programs that expand students' knowledge and provide more opportunities for Parker graduates to serve.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.parker.edu/history-of-the-university/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

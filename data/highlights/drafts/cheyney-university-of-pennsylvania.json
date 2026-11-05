@@ -10,14 +10,21 @@
         {
           "title": "The First HBCU - Cheyney University of Pennsylvania",
           "url": "https://cheyney.edu/who-we-are/the-first-hbcu/",
-          "quote": "On February 25, 1837, Cheyney University of Pennsylvania became the nation's first Historically Black College and University (HBCU)."
+          "quote": "On February 25, 1837, Cheyney University of Pennsylvania became the nation's first Historically Black College and University (HBCU).",
+          "httpStatus": 200,
+          "finalUrl": "https://cheyney.edu/who-we-are/the-first-hbcu/",
+          "quoteFound": true
         },
         {
           "title": "The First HBCU - Cheyney University of Pennsylvania",
           "url": "https://cheyney.edu/who-we-are/the-first-hbcu/",
-          "quote": "As a charter member of the Pennsylvania State System of Higher Education (PASSHE), Cheyney State College became Cheyney University of Pennsylvania in 1983, the oldest of the fourteen member institutions and the only HBCU in the state system."
+          "quote": "As a charter member of the Pennsylvania State System of Higher Education (PASSHE), Cheyney State College became Cheyney University of Pennsylvania in 1983, the oldest of the fourteen member institutions and the only HBCU in the state system.",
+          "httpStatus": 200,
+          "finalUrl": "https://cheyney.edu/who-we-are/the-first-hbcu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

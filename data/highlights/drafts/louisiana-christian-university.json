@@ -10,9 +10,13 @@
         {
           "title": "Meet LCU – Louisiana Christian University",
           "url": "https://lcuniversity.edu/about/meet-lcu/",
-          "quote": "Louisiana Christian University is the only Baptist, Christian liberal arts college in Louisiana."
+          "quote": "Louisiana Christian University is the only Baptist, Christian liberal arts college in Louisiana.",
+          "httpStatus": 200,
+          "finalUrl": "https://lcuniversity.edu/about/meet-lcu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "LCU uses a no-fee, flat-rate tuition model to remove unexpected fee costs and keep tuition accessible.",
@@ -20,9 +24,13 @@
         {
           "title": "Meet LCU – Louisiana Christian University",
           "url": "https://lcuniversity.edu/about/meet-lcu/",
-          "quote": "Through scholarships applied to a no-fee, flat-rate tuition, the University works to remove financial barriers and keep Christ-centered education within reach."
+          "quote": "Through scholarships applied to a no-fee, flat-rate tuition, the University works to remove financial barriers and keep Christ-centered education within reach.",
+          "httpStatus": 200,
+          "finalUrl": "https://lcuniversity.edu/about/meet-lcu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

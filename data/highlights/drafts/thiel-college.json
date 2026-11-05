@@ -10,14 +10,21 @@
         {
           "title": "Historic pipe organ donated to Thiel College to be featured in David Johnson Memorial Chapel",
           "url": "https://www.thiel.edu/newsroom/press-releases/detail/historic-pipe-organ-donated-to-thiel-college-to-be-featured-in-david-johnso",
-          "quote": "Thiel College was formed in 1866 under the leadership of the Lutheran pastor William A. Passavant."
+          "quote": "Thiel College was formed in 1866 under the leadership of the Lutheran pastor William A. Passavant.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.thiel.edu/newsroom/press-releases/detail/historic-pipe-organ-donated-to-thiel-college-to-be-featured-in-david-johnso",
+          "quoteFound": true
         },
         {
           "title": "Historic pipe organ donated to Thiel College to be featured in David Johnson Memorial Chapel",
           "url": "https://www.thiel.edu/newsroom/press-releases/detail/historic-pipe-organ-donated-to-thiel-college-to-be-featured-in-david-johnso",
-          "quote": "Thiel College history is firmly rooted in the Lutheran tradition."
+          "quote": "Thiel College history is firmly rooted in the Lutheran tradition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.thiel.edu/newsroom/press-releases/detail/historic-pipe-organ-donated-to-thiel-college-to-be-featured-in-david-johnso",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Home - Dalton State",
           "url": "https://www.daltonstate.edu/",
-          "quote": "Dalton State–Georgia's first Hispanic-Serving Institution–has earned the Seal of Excelencia for its emphasis on student success."
+          "quote": "Dalton State–Georgia's first Hispanic-Serving Institution–has earned the Seal of Excelencia for its emphasis on student success.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.daltonstate.edu/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

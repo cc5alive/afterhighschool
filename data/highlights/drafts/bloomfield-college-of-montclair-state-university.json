@@ -10,9 +10,13 @@
         {
           "title": "Bloomfield College - Montclair State University",
           "url": "https://www.montclair.edu/academics/schools-colleges/bloomfield-college",
-          "quote": "Bloomfield is proud to be New Jersey's only four-year Predominantly Black Institution (PBI), Hispanic-Serving Institution (HSI), and Minority-Serving Institution (MSI)."
+          "quote": "Bloomfield is proud to be New Jersey's only four-year Predominantly Black Institution (PBI), Hispanic-Serving Institution (HSI), and Minority-Serving Institution (MSI).",
+          "httpStatus": 200,
+          "finalUrl": "https://www.montclair.edu/academics/schools-colleges/bloomfield-college",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

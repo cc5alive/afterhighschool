@@ -10,9 +10,13 @@
         {
           "title": "Tuition Guarantee | Chadron State College",
           "url": "https://www.csc.edu/start/tuition-guarantee/",
-          "quote": "The State College Tuition Guarantee ensures that Pell-eligible resident and non-resident students can attend Chadron State tuition-free. The program applies to new undergraduate and transfer students at Chadron State College."
+          "quote": "The State College Tuition Guarantee ensures that Pell-eligible resident and non-resident students can attend Chadron State tuition-free. The program applies to new undergraduate and transfer students at Chadron State College.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.csc.edu/start/tuition-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

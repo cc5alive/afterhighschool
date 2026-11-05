@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Graduation Guarantee - Chaminade University of Honolulu",
           "url": "https://chaminade.edu/student-success/academic-advising/four-year-graduation-guarantee/",
-          "quote": "We're here to make sure you graduate in four years. And if we don't hold up our end of the bargain, any remaining coursework required to complete your degree won't cost you. That's right, those courses will be free."
+          "quote": "We're here to make sure you graduate in four years. And if we don't hold up our end of the bargain, any remaining coursework required to complete your degree won't cost you. That's right, those courses will be free.",
+          "httpStatus": 200,
+          "finalUrl": "https://chaminade.edu/student-success/academic-advising/four-year-graduation-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

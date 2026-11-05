@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Degree Guarantee - Randolph-Macon College",
           "url": "https://www.rmc.edu/admissions-and-aid/tuition-and-aid/four-year-degree-guarantee/",
-          "quote": "if you don't graduate in four years, we'll waive tuition for courses to complete your degree."
+          "quote": "if you don't graduate in four years, we'll waive tuition for courses to complete your degree.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rmc.edu/admissions-and-aid/tuition-and-aid/four-year-degree-guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "January term, known on campus as J-Term, is a 20-day mini-mester between the fall and spring semesters.",
@@ -20,9 +24,13 @@
         {
           "title": "January Term - Randolph-Macon College",
           "url": "https://www.rmc.edu/academics/hands-on-learning/j-term/",
-          "quote": "Affectionately called “J-Term” on campus, January term is our 20-day mini-mester between fall and spring semester."
+          "quote": "Affectionately called “J-Term” on campus, January term is our 20-day mini-mester between fall and spring semester.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rmc.edu/academics/hands-on-learning/j-term/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

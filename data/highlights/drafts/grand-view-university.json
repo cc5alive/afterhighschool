@@ -10,9 +10,14 @@
         {
           "title": "Our History | Grand View University",
           "url": "https://www.grandview.edu/about/about-gv/our-history",
-          "quote": "1896. Grand View College was founded by members of the Danish Evangelical Lutheran Church in America."
+          "quote": "1896. Grand View College was founded by members of the Danish Evangelical Lutheran Church in America.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.grandview.edu/about/about-gv/our-history",
+          "quoteFound": false,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

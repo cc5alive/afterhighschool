@@ -10,9 +10,13 @@
         {
           "title": "Catholic Identity | Saint Michael's College",
           "url": "https://www.smcvt.edu/about-smc/catholic-identity/",
-          "quote": "Saint Michael's College is unique: we're the only Edmundite college in the world."
+          "quote": "Saint Michael's College is unique: we're the only Edmundite college in the world.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.smcvt.edu/about-smc/catholic-identity/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

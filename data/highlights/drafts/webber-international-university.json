@@ -10,14 +10,21 @@
         {
           "title": "Webber Prepares to Welcome Back Students for 99th Year",
           "url": "https://www.webber.edu/260386-2/",
-          "quote": "Established in 1927 by Roger Babson as the first college chartered under Florida's then new charitable and educational laws, Webber International University is a private, not-for-profit, independent institution offering degrees at the associate's, bachelor's, and master's levels."
+          "quote": "Established in 1927 by Roger Babson as the first college chartered under Florida's then new charitable and educational laws, Webber International University is a private, not-for-profit, independent institution offering degrees at the associate's, bachelor's, and master's levels.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.webber.edu/260386-2/",
+          "quoteFound": true
         },
         {
           "title": "Webber Prepares to Welcome Back Students for 99th Year",
           "url": "https://www.webber.edu/260386-2/",
-          "quote": "Founded as America's second school of business for women"
+          "quote": "Founded as America's second school of business for women",
+          "httpStatus": 200,
+          "finalUrl": "https://www.webber.edu/260386-2/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

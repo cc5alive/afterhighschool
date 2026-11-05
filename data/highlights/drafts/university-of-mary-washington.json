@@ -10,9 +10,13 @@
         {
           "title": "The Honor System | University of Mary Washington Academic Catalog",
           "url": "https://catalog.umw.edu/university/honor-system/",
-          "quote": "Another element basic to the University's mission is adherence to the Honor System, which applies to every student enrolled at the University and constitutes one of the distinctive features of student life at the institution."
+          "quote": "Another element basic to the University's mission is adherence to the Honor System, which applies to every student enrolled at the University and constitutes one of the distinctive features of student life at the institution.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.umw.edu/university/honor-system/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

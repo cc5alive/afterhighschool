@@ -10,9 +10,13 @@
         {
           "title": "The OWU Connection | Ohio Wesleyan University",
           "url": "https://www.owu.edu/academics/the-owu-connection/",
-          "quote": "Every Ohio Wesleyan student – in every major – participates in the OWU Connection. It is the foundational part of OWU's academic program that ensures every OWU student will graduate with hands-on experience and a global perspective."
+          "quote": "Every Ohio Wesleyan student – in every major – participates in the OWU Connection. It is the foundational part of OWU's academic program that ensures every OWU student will graduate with hands-on experience and a global perspective.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.owu.edu/academics/the-owu-connection/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Concordia Texas Promise - Concordia University Texas",
           "url": "https://www.concordia.edu/concordia-texas-promise.html",
-          "quote": "This scholarship program covers the remaining tuition costs after federal, state, and other institutional aid is applied, ensuring that you can focus on your studies without the burden of unmet tuition expenses."
+          "quote": "This scholarship program covers the remaining tuition costs after federal, state, and other institutional aid is applied, ensuring that you can focus on your studies without the burden of unmet tuition expenses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.concordia.edu/concordia-texas-promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

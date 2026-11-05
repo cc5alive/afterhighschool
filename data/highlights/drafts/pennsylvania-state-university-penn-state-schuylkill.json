@@ -10,9 +10,14 @@
         {
           "title": "Penn State Schuylkill Co-Op",
           "url": "https://schuylkill.psu.edu/campus-life/career-development-center/co-operative-education",
-          "quote": "Across the full four years of their undergraduate experience, students learn through integrating rigorous coursework with three full-time work experiences, and relevant career development training."
+          "quote": "Across the full four years of their undergraduate experience, students learn through integrating rigorous coursework with three full-time work experiences, and relevant career development training.",
+          "httpStatus": 403,
+          "finalUrl": "https://schuylkill.psu.edu/campus-life/career-development-center/co-operative-education",
+          "quoteFound": null,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

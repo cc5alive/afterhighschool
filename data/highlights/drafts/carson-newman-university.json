@@ -10,9 +10,13 @@
         {
           "title": "Tennessee Promise | Carson-Newman University",
           "url": "https://www.cn.edu/admissions-and-aid/transfer-admissions/tennessee-promise/",
-          "quote": "Students who participate in the Tennessee Promise program and successfully complete an associate degree at Carson-Newman or at a Tennessee Community College may qualify for the Carson-Newman Promise Scholarship toward a bachelor degree for their junior and senior years."
+          "quote": "Students who participate in the Tennessee Promise program and successfully complete an associate degree at Carson-Newman or at a Tennessee Community College may qualify for the Carson-Newman Promise Scholarship toward a bachelor degree for their junior and senior years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.cn.edu/admissions-and-aid/transfer-admissions/tennessee-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

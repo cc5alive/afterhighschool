@@ -10,9 +10,13 @@
         {
           "title": "Academic Approach | Sarah Lawrence College",
           "url": "https://www.sarahlawrence.edu/undergraduate/academic-approach.html",
-          "quote": "Where 11:1 becomes 1:1. At Sarah Lawrence, learning happens around the seminar table and through conference work, where students collaborate closely with professors to develop original projects that reflect how they think, create, and engage with the world."
+          "quote": "Where 11:1 becomes 1:1. At Sarah Lawrence, learning happens around the seminar table and through conference work, where students collaborate closely with professors to develop original projects that reflect how they think, create, and engage with the world.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.sarahlawrence.edu/undergraduate/academic-approach.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

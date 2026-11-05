@@ -10,14 +10,21 @@
         {
           "title": "About - Judson College",
           "url": "https://judsoncollege.com/about/",
-          "quote": "Judson College began in 1994 as an undergraduate school of Southeastern Baptist Theological Seminary, which opened its doors in 1950 with a mandate to train students to serve churches along the east coast of the United States."
+          "quote": "Judson College began in 1994 as an undergraduate school of Southeastern Baptist Theological Seminary, which opened its doors in 1950 with a mandate to train students to serve churches along the east coast of the United States.",
+          "httpStatus": 200,
+          "finalUrl": "https://judsoncollege.com/about/",
+          "quoteFound": true
         },
         {
           "title": "About - Judson College",
           "url": "https://judsoncollege.com/about/",
-          "quote": "As a fully accredited, four-year Christian college, Judson College combines the best of a conservative biblical and theological education with professional training in a vibrant Christian community."
+          "quote": "As a fully accredited, four-year Christian college, Judson College combines the best of a conservative biblical and theological education with professional training in a vibrant Christian community.",
+          "httpStatus": 200,
+          "finalUrl": "https://judsoncollege.com/about/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

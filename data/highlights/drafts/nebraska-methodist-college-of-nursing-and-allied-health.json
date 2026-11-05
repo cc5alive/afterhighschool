@@ -10,14 +10,21 @@
         {
           "title": "Accreditation And Affiliations | Nebraska Methodist College",
           "url": "https://www.methodistcollege.edu/about/accreditation-affiliations",
-          "quote": "Nebraska Methodist College has enjoyed a close relationship with Methodist Hospital, another affiliate of Methodist Health System, since the College was founded as the Methodist Hospital School of Nursing in 1891."
+          "quote": "Nebraska Methodist College has enjoyed a close relationship with Methodist Hospital, another affiliate of Methodist Health System, since the College was founded as the Methodist Hospital School of Nursing in 1891.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.methodistcollege.edu/about/accreditation-affiliations",
+          "quoteFound": true
         },
         {
           "title": "What High School Juniors Can Do To Prepare for College",
           "url": "https://blog.methodistcollege.edu/what-high-school-juniors-can-do-to-prepare-for-college",
-          "quote": "Established in 1891, NMC is an affiliate of the Methodist Health System and is fully accredited by The Higher Learning Commission of the North Central Association of Colleges and Schools."
+          "quote": "Established in 1891, NMC is an affiliate of the Methodist Health System and is fully accredited by The Higher Learning Commission of the North Central Association of Colleges and Schools.",
+          "httpStatus": 200,
+          "finalUrl": "https://blog.methodistcollege.edu/what-high-school-juniors-can-do-to-prepare-for-college",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

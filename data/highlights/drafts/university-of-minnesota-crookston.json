@@ -10,9 +10,14 @@
         {
           "title": "Out-of-State Residents/Reciprocity - University of Minnesota Crookston",
           "url": "https://crk.umn.edu/financial-aid-and-scholarships/reciprocity",
-          "quote": "All students are charged the standard in-state tuition rate, regardless of residency status."
+          "quote": "All students are charged the standard in-state tuition rate, regardless of residency status.",
+          "httpStatus": 200,
+          "finalUrl": "https://crk.umn.edu/financial-aid-and-scholarships/reciprocity",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "UMN Crookston has a flat-rate tuition strategy which makes all credits above 13 per semester tuition-free.",
@@ -20,9 +25,13 @@
         {
           "title": "Tuition - One Stop Student Services, Crookston",
           "url": "https://onestop.crk.umn.edu/finances/costs/tuition",
-          "quote": "The UMN Crookston has a flat-rate tuition strategy which makes all credits above 13 per semester tuition-free."
+          "quote": "The UMN Crookston has a flat-rate tuition strategy which makes all credits above 13 per semester tuition-free.",
+          "httpStatus": 200,
+          "finalUrl": "https://onestop.crk.umn.edu/finances/costs/tuition",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

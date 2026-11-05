@@ -10,9 +10,13 @@
         {
           "title": "Bridgewater College Named One of Best in Virginia by College Choice",
           "url": "https://www.bridgewater.edu/events-news/news/bridgewater-college-named-one-of-best-in-virginia-by-college-choice/",
-          "quote": "Bridgewater College is a private, four-year liberal arts college located in the Central Shenandoah Valley of Virginia. Founded in 1880, it was the state's first private, coeducational college."
+          "quote": "Bridgewater College is a private, four-year liberal arts college located in the Central Shenandoah Valley of Virginia. Founded in 1880, it was the state's first private, coeducational college.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bridgewater.edu/events-news/news/bridgewater-college-named-one-of-best-in-virginia-by-college-choice/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
