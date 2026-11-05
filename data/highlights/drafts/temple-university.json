@@ -10,9 +10,13 @@
         {
           "title": "Tuition & Financial Aid - Fox School of Business - Temple University",
           "url": "https://www.fox.temple.edu/academics/undergraduate-programs/tuition-financial-aid",
-          "quote": "Fly in 4 Graduation Partnership guarantees that you can complete your degree on time—or Temple will pay for your remaining coursework."
+          "quote": "Fly in 4 Graduation Partnership guarantees that you can complete your degree on time—or Temple will pay for your remaining coursework.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fox.temple.edu/academics/undergraduate-programs/tuition-financial-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

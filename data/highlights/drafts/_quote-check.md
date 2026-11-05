@@ -1,9 +1,9 @@
 # Quote check
 
-Checked 137 sources on 2026-11-05.
+Checked 146 sources on 2026-11-05.
 
-- Quote found on page: 2
-- Page loaded, quote not found: 45
+- Quote found on page: 8
+- Page loaded, quote not found: 48
 - Page failed to load: 90
 
 | School | Status | Quote found | URL |
@@ -36,6 +36,7 @@ Checked 137 sources on 2026-11-05.
 | colorado-christian-university | 200 | no | https://www.ccu.edu/_files/documents/cus/lifestyle-covenant.pdf |
 | commonwealth-university-of-pennsylvania | 200 | no | https://www.commonwealthu.edu/campus-life/lock-haven/housing/housing-selection |
 | cuny-bernard-m-baruch-college | 0 | page failed | https://zicklin.baruch.cuny.edu/faculty-research/centers-institutes/subotnick-financial-services-center/ |
+| cuny-hunter-college | 200 | no | https://www2.hunter.cuny.edu/pending-migration/senate/common-core/hcc-catalog-5-8-13.pdf |
 | dakota-wesleyan-university | 0 | page failed | https://www.dwu.edu/Undergraduate-Programs |
 | delaware-valley-university | 403 | page failed | https://delval.edu/cspd/e360 |
 | doane-university | 403 | page failed | https://www.doane.edu/four-year-graduation-guarantee |
@@ -60,6 +61,7 @@ Checked 137 sources on 2026-11-05.
 | hiram-college | 0 | page failed | https://www.hiram.edu/academics/undergraduate-experience/the-hiram-plan/ |
 | houston-christian-university | 403 | page failed | https://hc.edu/online-learning/orientation/online-clw/ |
 | jacksonville-university | 200 | no | https://www.ju.edu/socialscience/HistoryBA-BSCurriculumGuide23-24.pdf |
+| james-madison-university | 200 | yes | https://www.jmu.edu/news/2025/09/05-eria-research.shtml |
 | judson-university | 403 | page failed | https://www.judsonu.edu/program/rise-program/ |
 | lake-forest-college | 200 | no | https://www.lakeforest.edu/admissions/forester-flagship-program |
 | lynn-university | 403 | page failed | https://www.lynn.edu/academics/core-curriculum |
@@ -108,7 +110,9 @@ Checked 137 sources on 2026-11-05.
 | state-university-of-new-york-at-plattsburgh | 403 | page failed | https://www.plattsburgh.edu/cost-aid/scholarships/north-country-scholarship.html |
 | stetson-university | 403 | page failed | https://www.stetson.edu/other/cultural-credit/ |
 | stony-brook-university | 0 | page failed | https://news.stonybrook.edu/university/governor-hochul-visits-bnls-new-laboratory-for-biomolecular-structure/ |
+| stony-brook-university | 202 | no | https://www.stonybrook.edu/catalog/undergraduate/page/the-stony-brook-curriculum-sbc/ |
 | suny-at-fredonia | 403 | page failed | https://www.fredonia.edu/academics/academic-advising/fredonia4 |
+| temple-university | 200 | yes | https://www.fox.temple.edu/academics/undergraduate-programs/tuition-financial-aid |
 | texas-a-and-m-university-central-texas | 403 | page failed | https://www.tamuct.edu/am-central-texas-offering-upper-level-courses-and-degree-programs-at-temple-college/ |
 | texas-wesleyan-university | 0 | page failed | https://www.txwesleyan.edu/admissions/financial-aid--scholarships/scholarships-and-aid/types-of-financial-aid/scholarships/freshman-scholarships/ |
 | the-catholic-university-of-america | 403 | page failed | https://www.catholic.edu/faith-service/our-catholic-identity |
@@ -116,6 +120,7 @@ Checked 137 sources on 2026-11-05.
 | the-new-school | 429 | page failed | https://www.newschool.edu/academics/ |
 | the-southern-baptist-theological-seminary | 200 | no | https://www.sbts.edu/financial-aid/tuition/ |
 | the-university-of-olivet | 202 | no | https://www.uolivet.edu/academics/uolivet-advantage/ |
+| the-university-of-texas-at-el-paso | 200 | yes | https://catalog.utep.edu/admissions/undergraduate/freshman/ |
 | thomas-more-university | 403 | page failed | https://www.thomasmore.edu/admissions/saints-essentials/ |
 | university-of-arkansas-at-pine-bluff | 200 | no | https://uapb.edu/wp-content/uploads/2024/10/UAPB-Chancellor-Prospectus-Final.pdf |
 | university-of-california-davis | 403 | page failed | https://siss.ucdavis.edu/international-guide/academic-success |
@@ -130,15 +135,19 @@ Checked 137 sources on 2026-11-05.
 | university-of-michigan-flint | 403 | page failed | https://www.umflint.edu/finaid/go-blue-guarantee/ |
 | university-of-north-carolina-asheville | 403 | yes | https://www.unca.edu/in-the-news/unc-asheville-covers-tuitionfees-for-families-earning-up-to-100k-in-nc-ga-sc-tn-and-va/ |
 | university-of-north-carolina-school-of-the-arts | 200 | no | https://www.uncsa.edu/bulletin/2025-2026/high-school/admissions.pdf |
+| university-of-oregon | 200 | yes | https://business.uoregon.edu/programs/undergraduate/apply/tuition |
 | university-of-saint-joseph | 202 | no | https://www.usj.edu/admissions/tuition-financial-aid/undergrad-tuition-aid/scholarships-grants/ |
 | university-of-saint-joseph | 202 | no | https://www.usj.edu/admissions/tuition-financial-aid/undergrad-tuition-aid/scholarships-grants/ |
 | university-of-st-thomas-mn | 200 | no | https://dfc.stthomas.edu/information-for-families/ |
 | university-of-st-thomas-tx | 200 | no | https://stthom.edu/admissions/ |
 | university-of-vermont | 200 | yes | https://www.uvm.edu/studentfinancialservices/uvm-promise |
 | upper-iowa-university | 403 | page failed | https://uiu.edu/academics/two-at-a-time-option/ |
+| utah-state-university | 200 | yes | https://loa.usu.edu/ |
+| virginia-commonwealth-university | 200 | no | https://oslel.vcu.edu/transform-llp/prospective-students/ |
 | viterbo-university | 403 | page failed | https://www.viterbo.edu/hub-student-success/four-year-degree-information |
 | warren-wilson-college | 200 | no | https://www.warren-wilson.edu/about/ |
 | warren-wilson-college | 200 | no | https://www.warren-wilson.edu/admission/tuition-and-aid/ncfree/ |
+| washington-state-university | 200 | yes | https://writingprogram.wsu.edu/uwpsubmission/ |
 | wayne-state-college | 403 | page failed | https://www.wsc.edu/rhop |
 | wheaton-college-massachusetts | 404 | page failed | https://wheatoncollege.edu/about-wheaton-college/the-wheaton-edge/ |
 | wheaton-college | 403 | page failed | https://www.wheaton.edu/about-wheaton/community-covenant |

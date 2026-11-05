@@ -10,9 +10,13 @@
         {
           "title": "Undergraduate Tuition and Fees | Lundquist College of Business",
           "url": "https://business.uoregon.edu/programs/undergraduate/apply/tuition",
-          "quote": "The Oregon Guarantee provides each University of Oregon student a fixed tuition rate for up to five years."
+          "quote": "The Oregon Guarantee provides each University of Oregon student a fixed tuition rate for up to five years.",
+          "httpStatus": 200,
+          "finalUrl": "https://business.uoregon.edu/programs/undergraduate/apply/tuition",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

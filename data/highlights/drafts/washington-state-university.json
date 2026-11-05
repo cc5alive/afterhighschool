@@ -10,9 +10,13 @@
         {
           "title": "University Writing Portfolio (UWP) - The Writing Program",
           "url": "https://writingprogram.wsu.edu/uwpsubmission/",
-          "quote": "is a mid-career diagnostic used to determine if your writing abilities are ready for the writing demands of advanced-level"
+          "quote": "is a mid-career diagnostic used to determine if your writing abilities are ready for the writing demands of advanced-level",
+          "httpStatus": 200,
+          "finalUrl": "https://writingprogram.wsu.edu/uwpsubmission/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

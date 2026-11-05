@@ -10,9 +10,15 @@
         {
           "title": "The Hunter Core Requirement - CUNY",
           "url": "https://www2.hunter.cuny.edu/pending-migration/senate/common-core/hcc-catalog-5-8-13.pdf",
-          "quote": "Beyond the CUNY Common Core, Hunter requires students to complete 12 credits for the Hunter Focus."
+          "quote": "Beyond the CUNY Common Core, Hunter requires students to complete 12 credits for the Hunter Focus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www2.hunter.cuny.edu/pending-migration/senate/common-core/hcc-catalog-5-8-13.pdf",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": null
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

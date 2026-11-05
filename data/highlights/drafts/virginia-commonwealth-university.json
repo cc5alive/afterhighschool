@@ -10,9 +10,16 @@
         {
           "title": "Prospective Students - VCU Transform",
           "url": "https://oslel.vcu.edu/transform-llp/prospective-students/",
-          "quote": "Commit to a 2-year living-learning experience and live in the West Grace North Residence Hall."
+          "quote": "Commit to a 2-year living-learning experience and live in the West Grace North Residence Hall.",
+          "httpStatus": 200,
+          "finalUrl": "https://oslel.vcu.edu/transform-llp/prospective-students/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "apply in their first-year to join as a sophomore commit to a 2-year living-learning experience and live in the west grace north residence hall have",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null
