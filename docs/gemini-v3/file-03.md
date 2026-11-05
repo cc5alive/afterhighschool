@@ -27,7 +27,7 @@ Specific, true of this school and not most similar schools, and useful to someon
 - **Admissions:** guaranteed admission rules, applying directly to a college or major, a required interview, audition or portfolio for the whole school, a transfer guarantee
 - **Calendar:** quarters, block plan, a January or May term everyone takes
 - **Requirements every student completes:** co-op, internship, senior thesis or capstone, study abroad, service, a distinctive core curriculum with a name and a concrete structure
-- **Structure:** residential colleges or houses, a required years-on-campus rule, a cross-registration consortium, open curriculum, no grades, a medical, law or other guaranteed-pathway program for undergrads
+- **Structure:** residential colleges or houses, a rule that students live on campus for two or more years (a first-year-only rule is too common to count), a cross-registration consortium, open curriculum, no grades, a medical, law or other guaranteed-pathway program for undergrads
 - **Identity with a concrete program:** HBCU, tribal college, women's college, work college, service academy, a land-grant extension mission students take part in
 
 **Don't include:**
