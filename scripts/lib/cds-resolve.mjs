@@ -33,8 +33,22 @@ async function browserDoc(url) {
     return { doc: { ...d, status: r.status(), finalUrl: url }, html: null, url };
   } catch { return null; } finally { await page.close(); }
 }
-const blocked = (doc) => doc.text == null && [0, 401, 403, 406, 429, 503].includes(doc.status);
+const blocked = (doc) => doc.text == null && [0, 401, 403, 405, 406, 429, 503].includes(doc.status);
+// Some schools post their CDS on Google Drive, Google Sheets or Box. Their share links open a viewer,
+// so read the file through the host's download link instead (the share link stays the cited source).
+export function downloadUrl(u) {
+  let m;
+  if ((m = u.match(/^https:\/\/drive\.google\.com\/file\/d\/([\w-]+)/))) return `https://drive.google.com/uc?export=download&id=${m[1]}`;
+  if ((m = u.match(/^https:\/\/docs\.google\.com\/spreadsheets\/d\/([\w-]+)/))) return `https://docs.google.com/spreadsheets/d/${m[1]}/export?format=xlsx`;
+  if ((m = u.match(/^https:\/\/([\w-]+\.)?box\.com\/s\/(\w+)/))) return `https://${m[1] || 'app.'}box.com/shared/static/${m[2]}`;
+  return null;
+}
 async function getDoc(url) {
+  const dl = downloadUrl(url);
+  if (dl) {
+    const d = await getDoc(dl);
+    return { doc: { ...d.doc, finalUrl: url }, html: d.html };
+  }
   const doc = await fetchDocText(url, { timeout: 60000 });
   if (!blocked(doc)) return { doc, html: null };
   const b = await browserDoc(url);
@@ -72,7 +86,7 @@ function cdsLinks(html, base) {
     const label = norm(m[2]) + ' ' + decoded.toLowerCase();
     if (!/common.?data.?set|\bcds\b|cds[_-]/.test(label)) continue;
     const y = yearOf(label);
-    const file = /\.(pdf|xlsx?)(\?|$)/i.test(href);
+    const file = /\.(pdf|xlsx?)(\?|$)/i.test(href) || !!downloadUrl(href);
     links.push({ href, y, file, score: y * 10 + (file ? 5 : 0) });
   }
   return links.sort((a, b) => b.score - a.score);
