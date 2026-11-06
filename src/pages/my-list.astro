@@ -35,7 +35,7 @@ import Layout from '../layouts/Layout.astro';
     <a class="button secondary" id="compare-link" href="/compare">Compare the first four</a>
   </div>
 
-  <p class="empty-state" id="empty" hidden>Your list is empty. Add a school above, or use <strong>Save to my list</strong> on any school's page.</p>
+  <p class="empty-state" id="empty" hidden>Your list is empty. Add a school above, or use <strong>Save to my list</strong> on any college or trade school page.</p>
   <p class="empty-state" id="loading">Loading your list…</p>
   <ul class="ml-list" id="list"></ul>
 
@@ -91,11 +91,22 @@ import Layout from '../layouts/Layout.astro';
     const key = sortEl.value;
     const v = (s) => all[s];
     if (key === 'name') slugs = [...slugs].sort((a, b) => v(a).n.localeCompare(v(b).n));
-    if (key === 'admit') slugs = [...slugs].sort((a, b) => (v(a).d.admit ?? 2) - (v(b).d.admit ?? 2));
+    if (key === 'admit') slugs = [...slugs].sort((a, b) => (v(a).d?.admit ?? 2) - (v(b).d?.admit ?? 2));
     if (key === 'price') slugs = [...slugs].sort((a, b) => (v(a).np ?? 1e9) - (v(b).np ?? 1e9));
     const hasProfile = ['gpa', 'sat', 'act'].some((k) => String(p[k] ?? '').trim());
     listEl.innerHTML = slugs.map((s) => {
       const x = all[s];
+      if (x.t) return `<li class="ml-item">
+        <div class="ml-head">
+          <a class="card-link" href="/trades/school/${s.slice(2)}"><span class="card-name">${esc(x.n)}</span><span class="card-where">${esc(x.c)}, ${esc(x.st)} · ${esc(x.k)}</span></a>
+          <button type="button" class="linkish ml-remove" data-remove="${s}" aria-label="Remove ${esc(x.n)} from my list">Remove</button>
+        </div>
+        <dl class="card-facts ml-facts">
+          <div><dt>Avg net price</dt><dd>${money(x.np)}</dd></div>
+          <div><dt>Finish program</dt><dd>${pct(x.cr)}</dd></div>
+          <div><dt>Median earnings, 6 yrs</dt><dd>${money(x.earn)}</dd></div>
+        </dl>
+      </li>`;
       const admit = x.oa ? 'Admits nearly all' : pct(x.d.admit);
       return `<li class="ml-item">
         <div class="ml-head">
@@ -110,11 +121,13 @@ import Layout from '../layouts/Layout.astro';
         ${hasProfile ? (x.oa ? '<p class="ml-note">Open admission: nearly everyone who applies gets in.</p>' : stand(x.d, p)) : ''}
       </li>`;
     }).join('');
-    if (!hasProfile && slugs.length) listEl.insertAdjacentHTML('afterbegin', '<li class="ml-hint">Enter your GPA or a test score above to see where you\'d stand at each school.</li>');
-    const first4 = slugs.slice(0, 4);
+    if (!hasProfile && slugs.some((s) => !all[s].t)) listEl.insertAdjacentHTML('afterbegin', '<li class="ml-hint">Enter your GPA or a test score above to see where you\'d stand at each school.</li>');
+    const first4 = slugs.filter((s) => !all[s].t).slice(0, 4);
     const cl = document.getElementById('compare-link');
     cl.href = `/compare?schools=${first4.join(',')}`;
-    cl.textContent = slugs.length > 4 ? 'Compare the first four' : slugs.length > 1 ? 'Compare these side by side' : 'Compare';
+    const nCol = slugs.filter((s) => !all[s].t).length;
+    cl.hidden = nCol === 0;
+    cl.textContent = nCol > 4 ? 'Compare the first four colleges' : nCol > 1 ? 'Compare these colleges side by side' : 'Compare';
   }
 
   profileForm.addEventListener('input', () => {
@@ -139,7 +152,7 @@ import Layout from '../layouts/Layout.astro';
     if (!all || q.length < 2) { sug.hidden = true; return; }
     const saved = new Set(loadList());
     matches = Object.entries(all).filter(([s, x]) => !saved.has(s) && norm(`${x.n} ${x.c}`).includes(q)).slice(0, 8);
-    sug.innerHTML = matches.map(([s, x]) => `<li><button type="button" data-slug="${s}">${esc(x.n)} <small>${esc(x.c)}, ${esc(x.st)}</small></button></li>`).join('');
+    sug.innerHTML = matches.map(([s, x]) => `<li><button type="button" data-slug="${s}">${esc(x.n)} <small>${esc(x.c)}, ${esc(x.st)}${x.t ? ` · ${esc(x.k)}` : ''}</small></button></li>`).join('');
     sug.hidden = matches.length === 0;
   });
   const add = (slug) => { saveList([...loadList(), slug]); pick.value = ''; sug.hidden = true; pick.focus(); };

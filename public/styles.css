@@ -261,3 +261,11 @@ select:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
   .join button { width: 100%; }
   .header-link { display: none; }
 }
+
+/* Homepage: way into each section */
+.explore { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 24px; }
+.explore-link { display: inline-flex; align-items: center; min-height: 48px; padding: 10px 20px 8px; border-radius: 999px; font-weight: 800; text-decoration: none; color: #fff; }
+.explore-link.path-college { background: var(--college); }
+.explore-link.path-trade { background: var(--trade); color: var(--ink); }
+.explore-link:hover { filter: brightness(1.08); text-decoration: underline; }
+.map a text { text-decoration: underline; }

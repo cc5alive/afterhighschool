@@ -1,5 +1,5 @@
 ---
-import { CONTACT_EMAIL } from '../lib/site.js';
+import { CONTACT_EMAIL, TRADES_LAUNCHED } from '../lib/site.js';
 
 const {
   title,
@@ -40,6 +40,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
     {nav === 'colleges' ? (
       <nav class="section-nav" aria-label="Colleges">
         <a href="/colleges">Colleges</a>
+        {TRADES_LAUNCHED && <a href="/trades">Trades</a>}
         <a href="/compare">Compare</a>
         <a href="/my-list">My list<span data-list-count></span></a>
       </nav>

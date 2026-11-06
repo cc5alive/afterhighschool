@@ -1,7 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { schools, pulledDate } from '../lib/data.js';
-import { COLLEGES_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
+import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js';
 ---
 <Layout title="How our data works | After High School"
   description="Where every number on afterhighschool.me comes from, what each measure means, which schools are included and how often we update."
@@ -52,6 +53,25 @@ import { COLLEGES_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
     <p>On a school's page you can enter your GPA and test scores to see how they compare with that school's first-year students: which GPA range you'd fall in and how many students had a higher or lower one, and whether your SAT or ACT score is below, inside or above the middle half of scores. We use the school's Common Data Set when we have it and federal data otherwise, and we say which.</p>
     <p>It doesn't give you a percent chance of getting in. No public source tells us how a particular applicant's odds work, and admission at selective schools depends a lot on essays, recommendations and other things numbers can't capture, so a percentage would be a guess dressed up as a fact. Your numbers stay in your browser. We don't store or send them.</p>
     <p>You can also save schools to <a href="/my-list">My list</a>, which shows where you'd stand at each saved school on one page, along with its admit rate, average net price and graduation rate. Your list stays in your browser too.</p>
+
+    {TRADES_LAUNCHED && (
+      <>
+        <h2>Trade schools and two-year colleges</h2>
+        <p>The <a href="/trades">trades section</a> covers {tradeSchools.length.toLocaleString('en-US')} schools from the same College Scorecard data: currently operating schools whose most common award is a certificate (trade, career and technical schools) or an associate degree (two-year and community colleges). We last pulled it on {tradePulledDate}, and it updates every week.</p>
+        <p>We group federal program codes into {tradeIndex.length} trades a student would recognize, like electrician or medical assisting. The grouping is ours; the program names, completions and earnings are the federal government's. Programs that don't fit a trade we cover are still listed on each school's page.</p>
+        <dl>
+          <dt>Finished last year</dt>
+          <dd>How many students completed that program at that school in the latest year reported.</dd>
+          <dt>Program earnings</dt>
+          <dd>Median earnings one year after finishing, for graduates of that program at that school who received federal student aid. These cover graduates from a few years back and are only published when enough students are counted, so most programs don't have them. Where a school's figure is missing, we show the national median for everyone who finished that kind of program, labelled as national.</dd>
+          <dt>Finish their program</dt>
+          <dd>Share of first-time, full-time students who finished within one and a half times the normal length of their program, for the whole school.</dd>
+          <dt>Median earnings 6 and 10 years after starting</dt>
+          <dd>For all students at the school who received federal aid, whether or not they finished.</dd>
+        </dl>
+        <p>Most trade and career schools are run for profit. We flag that on each for-profit school's page and suggest comparing with public options, because completion, earnings and debt vary widely.</p>
+      </>
+    )}
 
     <h2>What we don't do</h2>
     <p>We don't rank colleges, and no school can pay to appear higher or look better. Sorting options are plain facts, like price or graduation rate. "Similar schools" are picked by size, selectivity, price, type and location, never by payment.</p>

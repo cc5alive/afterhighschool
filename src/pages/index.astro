@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { TRADES_LAUNCHED } from '../lib/site.js';
 ---
 <Layout
   title="After High School — every path, with the real numbers"
@@ -11,6 +12,11 @@ import Layout from '../layouts/Layout.astro';
       <div class="hero-copy">
         <h1>Every road out of high school, with the real numbers.</h1>
         <p class="lede">See how your grades and test scores compare at any US college, and line college up next to trade schools, apprenticeships, gap years and fellowships. Free, and every number links to where it came from.</p>
+
+        <p class="explore">
+          <a class="explore-link path-college" href="/colleges">Explore colleges</a>
+          {TRADES_LAUNCHED && <a class="explore-link path-trade" href="/trades">Explore trade schools</a>}
+        </p>
 
         <form id="join" class="join" action="/api/waitlist" method="post" novalidate>
           <label class="field">
@@ -34,7 +40,7 @@ import Layout from '../layouts/Layout.astro';
             <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
           </div>
           <button type="submit">Join the waitlist</button>
-          <p class="form-note">Just your email. We'll write when trade schools, apprenticeships and the other paths go live. No ads, and we never sell your information.</p>
+          <p class="form-note">Just your email. {TRADES_LAUNCHED ? "We'll write when apprenticeships and the other paths go live." : "We'll write when trade schools, apprenticeships and the other paths go live."} No ads, and we never sell your information.</p>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -63,9 +69,9 @@ import Layout from '../layouts/Layout.astro';
             <circle class="s6" cx="440" cy="390" r="10"/>
           </g>
           <g class="labels">
-            <text x="462" y="48" class="st-name">College</text>
+            <a href="/colleges"><text x="462" y="48" class="st-name">College</text></a>
             <text x="462" y="66" class="st-sub">four-year and community</text>
-            <text x="462" y="116" class="st-name">Trade school</text>
+            {TRADES_LAUNCHED ? <a href="/trades"><text x="462" y="116" class="st-name">Trade school</text></a> : <text x="462" y="116" class="st-name">Trade school</text>}
             <text x="462" y="134" class="st-sub">electrician, HVAC, nursing</text>
             <text x="462" y="184" class="st-name">Apprenticeship</text>
             <text x="462" y="202" class="st-sub">earn while you learn</text>
@@ -89,8 +95,8 @@ import Layout from '../layouts/Layout.astro';
           <dd>Admit rates, test ranges and costs link straight to the federal data or the college's own filing they came from.</dd>
         </div>
         <div>
-          <dt>Your odds as an honest range.</dt>
-          <dd>We show how sure we are, and say so plainly when a school doesn't publish the data we'd need.</dd>
+          <dt>A comparison, not a guess.</dt>
+          <dd>We show where your grades and scores fall among a school's students, never a made-up percent chance, and say so plainly when a school doesn't publish the data we'd need.</dd>
         </div>
         <div>
           <dt>Nobody pays to rank higher.</dt>

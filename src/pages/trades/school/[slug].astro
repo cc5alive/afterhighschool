@@ -50,6 +50,7 @@ const description = `${s.name} in ${s.city}, ${s.stateName}: programs, real cost
       <p class="school-links">
         {site && <a class="button" href={site} rel="noopener" target="_blank">School website</a>}
         {calc && <a class="button secondary" href={calc} rel="noopener" target="_blank">Net price calculator</a>}
+        <button type="button" class="button secondary" data-save-slug={`t:${s.slug}`} aria-pressed="false">Save to my list</button>
       </p>
     </header>
 

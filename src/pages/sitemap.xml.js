@@ -1,5 +1,6 @@
 import { schools, states, pulledAt } from '../lib/data.js';
-import { COLLEGES_LAUNCHED } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED } from '../lib/site.js';
+import { tradeIndex, tradeSchools } from '../lib/trade-data.js';
 
 const SITE = 'https://afterhighschool.me';
 
@@ -14,6 +15,14 @@ export function GET() {
     for (const st of states) urls.push({ loc: `/colleges/${st.slug}`, lastmod: day });
     urls.push({ loc: '/colleges/test-optional', lastmod: day }, { loc: '/colleges/net-price-under-20000', lastmod: day });
     for (const s of schools) urls.push({ loc: `/college/${s.slug}`, lastmod: day });
+  }
+  if (TRADES_LAUNCHED) {
+    urls.push({ loc: '/trades', lastmod: day });
+    for (const t of tradeIndex) {
+      urls.push({ loc: `/trades/${t.slug}`, lastmod: day });
+      for (const st of t.states) urls.push({ loc: `/trades/${t.slug}/${st.slug}`, lastmod: day });
+    }
+    for (const s of tradeSchools) urls.push({ loc: `/trades/school/${s.slug}`, lastmod: day });
   }
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
     .map((u) => `  <url><loc>${SITE}${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`)
