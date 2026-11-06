@@ -43,11 +43,12 @@ Built 2026-11-06.
 | commonwealth-university-of-pennsylvania | 2025-2026 | 23 |  |
 | cornell-university | 2025-2026 | 16 | C11 buckets sum to 3.0 |
 | creighton-university | 2025-2026 | 11 | C1 failed consistency (applied 6389, admitted 5888, enrolled 1248, federal admit rate 0.7975) |
+| cuny-bernard-m-baruch-college | 2024-2025 | 32 | gpa_200_pct: reads disagree (0 vs 0.13), left out |
 | dartmouth-college | 2025-2026 | 35 |  |
 | davidson-college | 2025-2026 | 31 | class rank inconsistent |
 | denison-university | 2025-2026 | 12 | sat_p50: reader 1360, Gemini 1400 (quote matched); act_p25: reads disagree (28 vs 30), left out; act scores inconsistent (undefined, 31, 33) |
 | duke-university | 2025-2026 | 29 |  |
-| east-carolina-university | 2024-2025 | 34 |  |
+| east-carolina-university | 2024-2025 | 40 |  |
 | emory-university | 2024-2025 | 43 | enrolled_total: reader 1438, Gemini 1443 (quote matched); waitlist_admitted: reader 109, Gemini 274 (quote matched); act_p25: reader 32, Gemini 33 (quote matched); rank_top10_pct: reader 80, Gemini 76 (quote matched); gpa_400_pct: reader 17.41, Gemini 14 (quote matched); gpa_375_pct: reader 58.38, Gemini 63 (quote matched); gpa_350_pct: reader 21.24, Gemini 21 (quote matched); gpa_325_pct: reader 2.53, Gemini 2 (quote matched); gpa_300_pct: reads disagree (0.44 vs 0), left out; ed_applied: reader 4193, Gemini 4728 (quote matched); ed_admitted: reader 974, Gemini 1049 (quote matched); factor_recommendations: reader Very Important, Gemini Important (quote matched) |
 | fairfield-university | 2025-2026 | 49 |  |
 | florida-agricultural-and-mechanical-university | 2023-2024 | 12 | C11 buckets sum to 132.5 |
@@ -130,7 +131,7 @@ Built 2026-11-06.
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 46 |  |
 | united-states-military-academy | 2024-2025 | 32 |  |
-| university-at-buffalo | 2025-2026 | 35 |  |
+| university-at-buffalo | 2025-2026 | 42 | gpa_average out of range |
 | university-of-akron-main-campus | 2025-2026 | 31 | C1 failed consistency (applied 13503, admitted 10427, enrolled 2169, federal admit rate 0.5967) |
 | university-of-alabama-in-huntsville | 2025-2026 | 39 |  |
 | university-of-arizona | 2099-2100 | 14 | C11 left blank by the school |
@@ -145,6 +146,7 @@ Built 2026-11-06.
 | university-of-central-florida | 2025-2026 | 31 | waitlist_admitted: reader 343, Gemini 50 (quote matched); sat_p25: reader 1220, Gemini 1210 (quote matched); sat_p50: reads disagree (1280 vs 1260), left out; sat_p75: reads disagree (1350 vs 1340), left out; act_p50: reads disagree (28 vs 27), left out; act_p75: reads disagree (30 vs 29), left out; rank_top25_pct: reader 68, Gemini 69 (quote matched); gpa_400_pct: reader 70, Gemini 67.9 (quote matched); gpa_375_pct: reads disagree (17.8 vs 18.5), left out; gpa_350_pct: reads disagree (10.3 vs 12), left out; gpa_325_pct: reader 1.5, Gemini 1.4 (quote matched); gpa_300_pct: reader 0.2, Gemini 0.1 (quote matched); C11 buckets sum to 69.5; sat scores inconsistent (1210, undefined, undefined); act scores inconsistent (25, undefined, undefined) |
 | university-of-chicago | 2025-2026 | 41 |  |
 | university-of-cincinnati-main-campus | 2025-2026 | 43 |  |
+| university-of-connecticut | 2024-2025 | 34 |  |
 | university-of-florida | 2024-2025 | 35 | applied_total: reader 5159, Gemini 73557 (quote matched); admitted_total: reader 1676, Gemini 17804 (quote matched); enrolled_total: reader 303, Gemini 7513 (quote matched) |
 | university-of-georgia | 2024-2025 | 41 |  |
 | university-of-houston | 2025-2026 | 43 |  |
@@ -176,7 +178,7 @@ Built 2026-11-06.
 | university-of-oklahoma-norman-campus | 2025-2026 | 43 |  |
 | university-of-oregon | 2025-2026 | 0 |  |
 | university-of-pennsylvania | 2025-2026 | 43 |  |
-| university-of-pittsburgh-pittsburgh-campus | 2024-2025 | 0 |  |
+| university-of-pittsburgh-pittsburgh-campus | 2024-2025 | 21 |  |
 | university-of-rhode-island | 2025-2026 | 38 |  |
 | university-of-richmond | 2024-2025 | 33 |  |
 | university-of-south-carolina-columbia | 2025-2026 | 1 |  |

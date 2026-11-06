@@ -1,0 +1,133 @@
+{
+  "slug": "university-of-connecticut",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 28,
+      "quote": "number of wait-listed students admitted: 28"
+    },
+    "rank_top10_pct": {
+      "value": 47.15,
+      "quote": "percent in top tenth of high school graduating class 47.15%"
+    },
+    "rank_top25_pct": {
+      "value": 83.1,
+      "quote": "percent in top quarter of high school graduating class 83.10%"
+    },
+    "applied_total": {
+      "value": 55479,
+      "quote": "total first-time, first-year men who applied 23,683 / total first-time, first-year women who applied 31,770 / total first-time, first-year another gender who applied 24 / total first-time, first-year unknown gender who applied 2",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 29065,
+      "quote": "total first-time, first-year men who were admitted 11,403 / total first-time, first-year women who were admitted 17,652 / total first-time, first-year another gender who were admitted 10 / total first-time, first-year unknown gender who were admitted",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1220,
+      "quote": "sat composite 1220 1340 1420"
+    },
+    "sat_p50": {
+      "value": 1340,
+      "quote": "sat composite 1220 1340 1420"
+    },
+    "sat_p75": {
+      "value": 1420,
+      "quote": "sat composite 1220 1340 1420"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 28 31 33"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Important",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
