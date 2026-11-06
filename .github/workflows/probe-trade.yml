@@ -1,0 +1,21 @@
+name: Probe trade-school data (debug)
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - env: { SCORECARD_API_KEY: '${{ secrets.SCORECARD_API_KEY }}' }
+        run: node scripts/probe-trade.mjs
+      - name: Push the probe output to the trade-debug branch (not main, so nothing deploys)
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git checkout --orphan trade-debug
+          git rm -rq --cached .
+          git add -f probe
+          git commit -qm "Trade probe"
+          git push -f origin trade-debug
