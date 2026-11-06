@@ -92,6 +92,12 @@ function normalize(raw) {
     programYearCalendar: pick(f, 'latest.cost.attendance.program_year') != null,
     completionRate: num(pick(f, 'latest.completion.completion_rate_less_than_4yr_150nt', 'latest.completion.rate_suppressed.lt_four_year_150percent',
       'latest.completion.completion_rate_4yr_150nt', 'latest.completion.rate_suppressed.four_year', 'latest.completion.rate_suppressed.overall')),
+    // Federal Outcome Measures: where everyone who started here (full- and part-time, first-time or not) stood 8 years later.
+    // "transfer" = enrolled at another college without first earning an award here.
+    outcomes8yr: (() => {
+      const o = Object.fromEntries(['award', 'transfer', 'still_enrolled', 'unknown'].map((k) => [k, num(pick(f, `latest.completion.outcome_percentage.all_students.8yr.${k}`))]));
+      return o.award == null && o.transfer == null ? null : { award: o.award, transfer: o.transfer, stillEnrolled: o.still_enrolled, unknown: o.unknown };
+    })(),
     medianEarnings6yr: num(pick(f, 'latest.earnings.6_yrs_after_entry.median')),
     medianEarnings10yr: num(pick(f, 'latest.earnings.10_yrs_after_entry.median')),
     shareOver28k6yr: num(pick(f, 'latest.earnings.6_yrs_after_entry.percent_greater_than_28000')),
@@ -151,7 +157,7 @@ async function main() {
     const progs = group.flatMap((s) => s.programs);
     lines.push(`## ${label}: ${n}`, '',
       '| Field | Schools with it |', '| --- | --- |',
-      ...['students', 'avgNetPrice', 'tuitionInState', 'costOfAttendance', 'completionRate', 'medianEarnings6yr', 'medianEarnings10yr', 'medianDebt', 'url'].map((k) => `| ${k} | ${has(k)} (${pctOf(has(k), n)}) |`),
+      ...['students', 'avgNetPrice', 'tuitionInState', 'costOfAttendance', 'completionRate', 'outcomes8yr', 'medianEarnings6yr', 'medianEarnings10yr', 'medianDebt', 'url'].map((k) => `| ${k} | ${has(k)} (${pctOf(has(k), n)}) |`),
       `| has at least one program | ${group.filter((s) => s.programs.length).length} (${pctOf(group.filter((s) => s.programs.length).length, n)}) |`, '',
       `Programs: ${progs.length}. With school-level 1-year earnings: ${progs.filter((p) => p.earn1).length} (${pctOf(progs.filter((p) => p.earn1).length, progs.length)}). With a national median for the program type: ${progs.filter((p) => national[`${p.cip}-${p.level}`]).length} (${pctOf(progs.filter((p) => national[`${p.cip}-${p.level}`]).length, progs.length)}).`, '');
     const fam = {};

@@ -1,0 +1,14 @@
+{
+ "_about": "Official statewide transfer sites, one per state where we found one. Each entry lists candidate URLs in order; scripts/check-transfer-links.mjs keeps the first that loads and records its page title in portals-check.json. Only checked links appear on the site.",
+ "CA": { "name": "ASSIST", "urls": ["https://assist.org/"] },
+ "NY": { "name": "SUNY Transfer", "urls": ["https://transfer.suny.edu/"] },
+ "IL": { "name": "Illinois Articulation Initiative (iTransfer)", "urls": ["https://itransfer.org/"] },
+ "PA": { "name": "PA College Transfer", "urls": ["https://collegetransfer.pa.gov/Student", "https://collegetransfer.pa.gov/"] },
+ "FL": { "name": "Florida Department of Education: College and University Transfer", "urls": ["https://www.fldoe.org/schools/higher-ed/fl-college-system/dual-enroll-transfer/postsecondary-articulation.stml"] },
+ "VA": { "name": "Transfer Virginia", "urls": ["https://www.transfervirginia.org/"] },
+ "NC": { "name": "NC Community Colleges: Comprehensive Articulation Agreement", "urls": ["https://nccommunitycolleges.edu/comprehensive-articulation-agreement-caa", "https://www.northcarolina.edu/students/transfer/NCCCS/"] },
+ "TN": { "name": "Tennessee Transfer Pathway", "urls": ["https://www.tn.gov/thec/bureaus/academic-affairs/articulation-and-transfer/tennessee-transfer-pathway.html", "https://www.tbr.edu/initiatives/tennessee-transfer-pathway"] },
+ "CO": { "name": "Colorado Department of Higher Education: Transfer", "urls": ["https://transfer.highered.colorado.gov/"] },
+ "MA": { "name": "MassTransfer", "urls": ["https://www.mass.edu/masstransfer/"] },
+ "AZ": { "name": "AZTransfer", "urls": ["https://aztransfer.com/"] }
+}

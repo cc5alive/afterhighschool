@@ -1,0 +1,25 @@
+name: Check state transfer links
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 11 7 * *' # monthly
+  push:
+    branches: [main]
+    paths: ['data/transfer/portals.json', 'scripts/check-transfer-links.mjs']
+permissions:
+  contents: write
+concurrency: { group: transfer-links, cancel-in-progress: false }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/check-transfer-links.mjs
+      - name: Commit results
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git add data/transfer/portals-check.json
+          git diff --cached --quiet || (git commit -m "Transfer link check results" && git pull --rebase -X theirs && git push)
