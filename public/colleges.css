@@ -285,3 +285,30 @@ button.button { cursor: pointer; font-family: inherit; }
   .site-header { flex-wrap: wrap; row-gap: 10px; }
   .section-nav { width: 100%; gap: 20px; }
 }
+
+/* Trades */
+.trade-grid { list-style: none; margin: 0 0 24px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.trade-grid a { display: grid; gap: 4px; height: 100%; box-sizing: border-box; background: var(--card); border-radius: 12px; padding: 14px 16px; text-decoration: none; border-top: 5px solid var(--trade); }
+.trade-grid a:hover .trade-name { text-decoration: underline; }
+.trade-name { font-weight: 800; font-size: 1.05rem; }
+.trade-meta { color: var(--muted); font-size: 0.9rem; }
+.trade-earn { font-size: 0.875rem; }
+.table-scroll { overflow-x: auto; }
+.nat-table { border-collapse: collapse; width: 100%; max-width: 56em; font-size: 0.95rem; }
+.nat-table th, .nat-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+.nat-table thead th { font-size: 0.8rem; color: var(--muted); }
+.nat-table td { white-space: nowrap; font-weight: 700; }
+.state-links li span { color: var(--muted); font-size: 0.85rem; }
+.tr-results { list-style: none; padding: 0; margin: 0; }
+.tr-facts { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.tp-groups { display: grid; gap: 18px; margin-bottom: 12px; }
+.tp-group h3 { margin: 0 0 6px; font-size: 1.05rem; }
+.tp-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.tp-list li { background: var(--card); border-radius: 10px; padding: 10px 14px; display: grid; gap: 2px; }
+.tp-title { font-weight: 700; }
+.tp-cred, .tp-earn { font-size: 0.9rem; color: var(--muted); }
+.tp-earn strong { color: var(--ink); }
+.tp-nat { margin-left: 8px; }
+.tp-other { margin: 12px 0; }
+.tp-other summary { cursor: pointer; font-weight: 700; margin-bottom: 8px; }
+@media (max-width: 640px) { .tr-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tp-nat { display: block; margin: 0; } }

@@ -1,0 +1,42 @@
+---
+// Schools in one state that offer one trade.
+import Layout from '../../../layouts/Layout.astro';
+import { tradeIndex, national, tradePulledDate, KIND_LABEL } from '../../../lib/trade-data.js';
+import { CREDENTIAL } from '../../../lib/trades.js';
+import { money, int, pct, OWNERSHIP_LABEL } from '../../../lib/format.js';
+import { TRADES_LAUNCHED } from '../../../lib/site.js';
+export function getStaticPaths() {
+  return tradeIndex.flatMap((t) => t.states.map((st) => ({ params: { trade: t.slug, state: st.slug }, props: { t, st } })));
+}
+const { t, st } = Astro.props;
+const creds = (progs) => [...new Set(progs.map((p) => CREDENTIAL[p.level]))].join(', ');
+const finished = (progs) => progs.reduce((a, p) => a + (p.awards || 0), 0);
+const earn = (progs) => progs.map((p) => p.earn1).filter(Boolean);
+---
+<Layout title={`${t.name} schools in ${st.name} | After High School`}
+  description={`${st.list.length} schools in ${st.name} offer ${t.name.toLowerCase()} programs. Compare cost, completion and earnings from federal data.`}
+  path={`/trades/${t.slug}/${st.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/trades">Trades</a><span aria-hidden="true">/</span><a href={`/trades/${t.slug}`}>{t.name}</a></nav>
+  <section class="compare-head">
+    <h1>{t.name} schools in {st.name}</h1>
+    <p>{st.list.length} {st.list.length === 1 ? 'school offers' : 'schools offer'} a certificate or associate degree in {t.name.toLowerCase()}, listed A to Z. Numbers are from federal data; open a school for its programs, costs by family income and sources.</p>
+  </section>
+  <ul class="results tr-results">
+    {st.list.map(({ s, progs }) => (
+      <li class="card tr-card">
+        <a class="card-link" href={`/trades/school/${s.slug}`}>
+          <span class="card-name">{s.name}</span>
+          <span class="card-where">{s.city} · {KIND_LABEL[s.kind]} · {OWNERSHIP_LABEL[s.ownership]}</span>
+        </a>
+        <dl class="card-facts tr-facts">
+          <div><dt>Offers</dt><dd>{creds(progs)}</dd></div>
+          <div><dt>Finished last year</dt><dd>{int(finished(progs)) ?? '—'}</dd></div>
+          <div><dt>Avg net price</dt><dd>{money(s.avgNetPrice) ?? '—'}</dd></div>
+          <div><dt>Finish program</dt><dd>{pct(s.completionRate) ?? '—'}</dd></div>
+          <div><dt>Grads earn, 1 yr</dt><dd>{earn(progs).length ? money(Math.max(...earn(progs))) : '—'}</dd></div>
+        </dl>
+      </li>
+    ))}
+  </ul>
+  <p class="wys-src">"Finish program" is the share of first-time, full-time students who finish within 1.5 times the normal length, for the whole school. "Grads earn" is this school's own figure for the trade's program where federal data reports it. Data from College Scorecard, pulled {tradePulledDate}.</p>
+</Layout>

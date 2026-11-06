@@ -1,0 +1,29 @@
+---
+// Trades hub: every trade we cover, how many schools offer it, and what people earn nationally.
+import Layout from '../../layouts/Layout.astro';
+import { tradeIndex, tradeSchools, tradePulledDate } from '../../lib/trade-data.js';
+import { money, int } from '../../lib/format.js';
+import { TRADES_LAUNCHED } from '../../lib/site.js';
+const trades = [...tradeIndex].sort((a, b) => a.name.localeCompare(b.name));
+const cert = (t) => t.nat.find((n) => n.level === 1);
+---
+<Layout title="Trade schools and career training by trade | After High School"
+  description="Find trade schools, career schools and community colleges by trade, with federal numbers on cost, completion and what graduates earn."
+  path="/trades" nav="colleges" noindex={!TRADES_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Trades and career training</h1>
+    <p>Certificates and two-year degrees that lead straight to a job. Pick a trade to see what people earn nationally and which schools near you offer it. {int(tradeSchools.length)} trade schools, career schools and two-year colleges, all from federal data.</p>
+  </section>
+  <ul class="trade-grid">
+    {trades.map((t) => (
+      <li>
+        <a href={`/trades/${t.slug}`}>
+          <span class="trade-name">{t.name}</span>
+          <span class="trade-meta">{int(t.count)} schools</span>
+          {cert(t)?.earn1 && <span class="trade-earn">Certificate holders nationally: {money(cert(t).earn1)} median, a year after finishing</span>}
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="wys-src">Earnings are national medians for people who finished a certificate in the trade's main program and received federal student aid, from College Scorecard. Data pulled {tradePulledDate}.</p>
+</Layout>

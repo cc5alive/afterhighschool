@@ -1,0 +1,146 @@
+---
+// One trade, career or two-year school: what you can study, what it costs, and how students do.
+import Layout from '../../../layouts/Layout.astro';
+import Stat from '../../../components/Stat.astro';
+import { tradeSchools, national, tradePulledDate, KIND_LABEL } from '../../../lib/trade-data.js';
+import { stateSlug } from '../../../lib/data.js';
+import { CREDENTIAL } from '../../../lib/trades.js';
+import { pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, INCOME_BAND_LABEL, scorecardUrl } from '../../../lib/format.js';
+import { TRADES_LAUNCHED, CONTACT_EMAIL } from '../../../lib/site.js';
+
+export function getStaticPaths() {
+  return tradeSchools.map((s) => ({ params: { slug: s.slug }, props: { s } }));
+}
+const { s } = Astro.props;
+const src = scorecardUrl(s);
+const site = s.url ? (/^https?:\/\//.test(s.url) ? s.url : `https://${s.url}`) : null;
+const calc = s.priceCalculatorUrl ? (/^https?:\/\//.test(s.priceCalculatorUrl) ? s.priceCalculatorUrl : `https://${s.priceCalculatorUrl}`) : null;
+const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
+
+const chips = [
+  KIND_LABEL[s.kind], OWNERSHIP_LABEL[s.ownership], s.setting && SETTING_LABEL[s.setting],
+  s.students != null && `${int(s.students)} students`, s.onlineOnly && 'Online only'
+].filter(Boolean);
+
+// Programs: those in a trade we cover, grouped by trade; everything else listed after.
+const byTrade = new Map();
+for (const p of s.tradePrograms) byTrade.set(p.trade.slug, { trade: p.trade, progs: [...(byTrade.get(p.trade.slug)?.progs || []), p] });
+const tradeGroups = [...byTrade.values()].sort((a, b) => a.trade.name.localeCompare(b.trade.name));
+const tradeCips = new Set(s.tradePrograms.map((p) => `${p.cip}-${p.level}`));
+const other = s.programs.filter((p) => !tradeCips.has(`${p.cip}-${p.level}`) && p.level <= 2).sort((a, b) => a.title.localeCompare(b.title));
+const nat = (p) => national[`${p.cip}-${p.level}`];
+
+const bands = Object.entries(s.netPriceByIncome).map(([k, v]) => ({ k, label: INCOME_BAND_LABEL[k], v }));
+const bandMax = Math.max(1, ...bands.map((b) => b.v ?? 0), s.costOfAttendance ?? 0);
+const hasBands = bands.some((b) => b.v != null);
+const description = `${s.name} in ${s.city}, ${s.stateName}: programs, real cost by family income, completion rate, earnings and debt, from federal data.`;
+---
+<Layout title={`${s.name}: programs, cost and outcomes | After High School`} description={description}
+  path={`/trades/school/${s.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED}>
+  <article class="school">
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="/trades">Trades</a><span aria-hidden="true">/</span>
+      <span>{s.stateName}</span>
+    </nav>
+
+    <header class="school-head">
+      <h1>{s.name}</h1>
+      <p class="school-where">{s.city}, {s.stateName}</p>
+      <ul class="chips">{chips.map((c) => <li>{c}</li>)}</ul>
+      <p class="school-links">
+        {site && <a class="button" href={site} rel="noopener" target="_blank">School website</a>}
+        {calc && <a class="button secondary" href={calc} rel="noopener" target="_blank">Net price calculator</a>}
+      </p>
+    </header>
+
+    {s.ownership === 'private_for_profit' && (
+      <aside class="notice">
+        <strong>This is a for-profit school.</strong> Check the completion rate, earnings and debt below closely, and compare with public schools and community colleges near you that offer the same program.
+      </aside>
+    )}
+
+    <section class="block" aria-labelledby="programs">
+      <h2 id="programs">What you can study</h2>
+      <p class="block-lede">Programs this school reported awarding, with how many students finished one in the latest year. Where the federal data has it, we show what this school's graduates earned a year after finishing; the national figure is for everyone who finished that kind of program anywhere.</p>
+      {tradeGroups.length > 0 ? (
+        <div class="tp-groups">
+          {tradeGroups.map((g) => (
+            <div class="tp-group">
+              <h3><a href={`/trades/${g.trade.slug}`}>{g.trade.name}</a></h3>
+              <ul class="tp-list">
+                {g.progs.map((p) => (
+                  <li>
+                    <span class="tp-title">{p.title}</span>
+                    <span class="tp-cred">{CREDENTIAL[p.level]}{p.awards != null && ` · ${int(p.awards)} finished`}</span>
+                    <span class="tp-earn">
+                      {p.earn1 ? <>Graduates here earned <strong>{money(p.earn1)}</strong> a year after finishing</> : 'Earnings for this school not reported'}
+                      {nat(p)?.earn1 && <span class="tp-nat">Nationally: {money(nat(p).earn1)}</span>}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      ) : <p class="pending-note">None of this school's programs fall in the trades we cover yet. Its other programs are listed below.</p>}
+      {other.length > 0 && (
+        <details class="tp-other">
+          <summary>Other programs ({other.length})</summary>
+          <ul class="tp-list">
+            {other.map((p) => (
+              <li>
+                <span class="tp-title">{p.title}</span>
+                <span class="tp-cred">{CREDENTIAL[p.level]}{p.awards != null && ` · ${int(p.awards)} finished`}</span>
+                <span class="tp-earn">{p.earn1 ? <>Graduates here earned <strong>{money(p.earn1)}</strong> a year after</> : ''}{nat(p)?.earn1 && <span class="tp-nat">Nationally: {money(nat(p).earn1)}</span>}</span>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+      <a class="src" href={src} rel="noopener" target="_blank">Source: College Scorecard</a>
+    </section>
+
+    <section class="block" aria-labelledby="cost">
+      <h2 id="cost">What it really costs</h2>
+      <p class="block-lede">Net price is what students paid after grants and scholarships.{s.programYearCalendar && ' This school prices by program rather than by school year, so costs are for a full program year.'}</p>
+      {hasBands && (
+        <figure class="bars">
+          <figcaption>Average net price per year, by family income</figcaption>
+          <svg viewBox="0 0 520 200" role="img" aria-label={`Average net price by family income at ${s.name}`}>
+            {bands.map((b, i) => (
+              <g>
+                <text x="0" y={i * 38 + 24} class="bar-label">{b.label}</text>
+                <rect x="110" y={i * 38 + 8} height="22" rx="4" class="bar-track" width="300" />
+                {b.v != null && <rect x="110" y={i * 38 + 8} height="22" rx="4" class="bar-fill" width={Math.max(4, (b.v / bandMax) * 300)} />}
+                <text x="422" y={i * 38 + 24} class="bar-value">{b.v != null ? money(b.v) : 'Not reported'}</text>
+              </g>
+            ))}
+          </svg>
+          <a class="src" href={src} rel="noopener" target="_blank">Source: College Scorecard</a>
+        </figure>
+      )}
+      <dl class="stat-grid">
+        <Stat label="Average net price" value={money(s.avgNetPrice)} note="per year, students who got grant aid" href={src} />
+        <Stat label="Total cost of attendance" value={money(s.costOfAttendance)} note="sticker price incl. living costs, per year" href={src} />
+        <Stat label={s.ownership === 'public' ? 'Tuition, in-state' : 'Tuition'} value={money(s.tuitionInState)} href={src} />
+        <Stat label="Students with federal loans" value={pct(s.loanRate)} href={src} />
+      </dl>
+    </section>
+
+    <section class="block" aria-labelledby="outcomes">
+      <h2 id="outcomes">How students do</h2>
+      <dl class="stat-grid">
+        <Stat label="Finish their program" value={pct(s.completionRate)} note="first-time, full-time students finishing within 1.5 times the normal length" href={src} />
+        <Stat label="Median earnings" value={money(s.medianEarnings6yr)} note="6 years after starting, students who got federal aid" href={src} />
+        <Stat label="Median earnings, later" value={money(s.medianEarnings10yr)} note="10 years after starting" href={src} />
+        <Stat label="Median debt at completion" value={money(s.medianDebt)} note="federal loans, students who finished" href={src} />
+      </dl>
+    </section>
+
+    <section class="block sources" aria-labelledby="sources">
+      <h2 id="sources">Where these numbers come from</h2>
+      <p>Every number on this page comes from the U.S. Department of Education's <a href={src} rel="noopener" target="_blank">College Scorecard page for {s.name}</a>, which draws on what the school reports to the federal government and on federal student aid and tax records. Program earnings cover graduates who received federal student aid. We last pulled the data on {tradePulledDate}.</p>
+      <p>Spot something wrong? <a href={errorMail}>Report a data error</a>.</p>
+    </section>
+  </article>
+</Layout>

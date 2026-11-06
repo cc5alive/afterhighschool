@@ -1,0 +1,47 @@
+---
+// One trade: national earnings for its programs and the states where schools offer it.
+import Layout from '../../layouts/Layout.astro';
+import { tradeIndex, tradePulledDate } from '../../lib/trade-data.js';
+import { CREDENTIAL } from '../../lib/trades.js';
+import { money, int } from '../../lib/format.js';
+import { TRADES_LAUNCHED } from '../../lib/site.js';
+export function getStaticPaths() {
+  return tradeIndex.map((t) => ({ params: { trade: t.slug }, props: { t } }));
+}
+const { t } = Astro.props;
+---
+<Layout title={`${t.name} schools and programs | After High School`}
+  description={`${int(t.count)} schools offer ${t.name.toLowerCase()} programs. See what graduates earn nationally and find schools by state, with federal data on cost and completion.`}
+  path={`/trades/${t.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/trades">Trades</a></nav>
+  <section class="compare-head">
+    <h1>{t.name}</h1>
+    <p>{int(t.count)} trade schools, career schools and two-year colleges offer a certificate or associate degree in {t.name.toLowerCase()}.</p>
+  </section>
+
+  {t.nat.length > 0 && (
+    <section class="block" aria-labelledby="earn">
+      <h2 id="earn">What people earn, nationally</h2>
+      <p class="block-lede">Median earnings of everyone who finished each kind of program, at any school, among students who got federal aid.</p>
+      <div class="table-scroll">
+        <table class="nat-table">
+          <thead><tr><th scope="col">Program</th><th scope="col">Credential</th><th scope="col">1 year after</th><th scope="col">5 years after</th></tr></thead>
+          <tbody>
+            {t.nat.map((n) => (
+              <tr><th scope="row">{n.title}</th><td>{CREDENTIAL[n.level]}</td><td>{money(n.earn1) ?? '—'}</td><td>{money(n.earn5) ?? '—'}</td></tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <a class="src" href="https://collegescorecard.ed.gov/data/" rel="noopener" target="_blank">Source: College Scorecard, field of study data</a>
+    </section>
+  )}
+
+  <section class="block" aria-labelledby="where">
+    <h2 id="where">Find a school by state</h2>
+    <ul class="az-list state-links">
+      {t.states.map((st) => <li><a href={`/trades/${t.slug}/${st.slug}`}>{st.name}</a> <span>{st.list.length}</span></li>)}
+    </ul>
+  </section>
+  <p class="wys-src">Data from College Scorecard, pulled {tradePulledDate}.</p>
+</Layout>

@@ -4,4 +4,7 @@
 // but carry noindex and stay out of the sitemap, so nothing half-checked shows up in Google.
 export const COLLEGES_LAUNCHED = true;
 
+// Trade and two-year schools: reachable by URL but noindex and out of the sitemap until reviewed.
+export const TRADES_LAUNCHED = false;
+
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';
