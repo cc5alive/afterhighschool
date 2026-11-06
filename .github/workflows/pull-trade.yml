@@ -38,5 +38,5 @@ jobs:
           git config user.email "hello@afterhighschool.me"
           git add data/trade
           git diff --cached --quiet && exit 0
-          git commit -qm "Trade and two-year school data pull [skip ci]"
+          git commit -qm "Trade and two-year school data pull"
           git pull --rebase -X theirs -q && git push -q
