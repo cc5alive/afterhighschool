@@ -1,0 +1,104 @@
+{
+  "slug": "university-of-utah",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://data.utah.edu/wp-content/uploads/2026/08/CDS_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 30036,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 30036"
+    },
+    "admitted_total": {
+      "value": 27076,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 27076"
+    },
+    "enrolled_total": {
+      "value": 6513,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 6513"
+    },
+    "sat_submit_pct": {
+      "value": 14,
+      "quote": "Submitting SAT Scores 14.00"
+    },
+    "act_submit_pct": {
+      "value": 36,
+      "quote": "Submitting ACT Scores 36.00"
+    },
+    "sat_p25": {
+      "value": 1120,
+      "quote": "SAT Composite 1120 1230 1320"
+    },
+    "sat_p50": {
+      "value": 1230,
+      "quote": "SAT Composite 1120 1230 1320"
+    },
+    "sat_p75": {
+      "value": 1320,
+      "quote": "SAT Composite 1120 1230 1320"
+    },
+    "act_p25": {
+      "value": 22,
+      "quote": "ACT Composite 22 25 29"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "ACT Composite 22 25 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT Composite 22 25 29"
+    },
+    "gpa_400_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA of 4.0 10.00"
+    },
+    "gpa_375_pct": {
+      "value": 36,
+      "quote": "Percent who had GPA between 3.75 and 3.99 36.00"
+    },
+    "gpa_350_pct": {
+      "value": 24,
+      "quote": "Percent who had GPA between 3.50 and 3.74 24.00"
+    },
+    "gpa_325_pct": {
+      "value": 18,
+      "quote": "Percent who had GPA between 3.25 and 3.49 18.00"
+    },
+    "gpa_300_pct": {
+      "value": 9,
+      "quote": "Percent who had GPA between 3.00 and 3.24 9.00"
+    },
+    "gpa_250_pct": {
+      "value": 3,
+      "quote": "Percent who had GPA between 2.50 and 2.99 3.00"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0"
+    },
+    "gpa_average": {
+      "value": 3.64,
+      "quote": "Average High School GPA 3.64"
+    },
+    "gpa_submit_pct": {
+      "value": 98,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.00"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Early action closing date: 12 1"
+    }
+  },
+  "concerns": null
+}

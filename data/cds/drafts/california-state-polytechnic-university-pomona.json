@@ -1,0 +1,152 @@
+{
+  "slug": "california-state-polytechnic-university-pomona",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2025.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 48258,
+      "quote": "45,487 2,378 393 0 48,258"
+    },
+    "admitted_total": {
+      "value": 35688,
+      "quote": "33,895 1,600 193 0 35,688"
+    },
+    "enrolled_total": {
+      "value": 4004,
+      "quote": "3,962 29 13 0 4,004"
+    },
+    "waitlist_offered": {
+      "value": 1152,
+      "quote": "Number of qualified applicants offered a place on waiting list: 1,152"
+    },
+    "waitlist_accepted": {
+      "value": 596,
+      "quote": "Number accepting a place on the waiting list: 596"
+    },
+    "waitlist_admitted": {
+      "value": 58,
+      "quote": "Number of wait-listed students admitted: 58"
+    },
+    "gpa_400_pct": {
+      "value": 31.53,
+      "quote": "Percent who had GPA of 4.0 31.53%"
+    },
+    "gpa_375_pct": {
+      "value": 23.68,
+      "quote": "Percent who had GPA between 3.75 and 3.99 23.68%"
+    },
+    "gpa_350_pct": {
+      "value": 15.55,
+      "quote": "Percent who had GPA between 3.50 and 3.74 15.55%"
+    },
+    "gpa_325_pct": {
+      "value": 11.71,
+      "quote": "Percent who had GPA between 3.25 and 3.49 11.71%"
+    },
+    "gpa_300_pct": {
+      "value": 9.52,
+      "quote": "Percent who had GPA between 3.00 and 3.24 9.52%"
+    },
+    "gpa_250_pct": {
+      "value": 7.9,
+      "quote": "Percent who had GPA between 2.50 and 2.99 7.90%"
+    },
+    "gpa_200_pct": {
+      "value": 0.11,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.11%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.7,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.70"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100.00%"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
