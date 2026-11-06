@@ -1,0 +1,112 @@
+{
+  "slug": "university-of-maryland-college-park",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "University of Maryland Common Data Set 2025-2026",
+    "url": "https://irpa.umd.edu/InstitutionalData/cds.html"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 67101,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 67,101"
+    },
+    "admitted_total": {
+      "value": 30218,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 30,218"
+    },
+    "enrolled_total": {
+      "value": 6559,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 6,559"
+    },
+    "waitlist_offered": {
+      "value": 247,
+      "quote": "Number of qualified applicants offered a place on waiting list: 247"
+    },
+    "waitlist_accepted": {
+      "value": 0,
+      "quote": "Number accepting a place on the waiting list: 0"
+    },
+    "waitlist_admitted": {
+      "value": 0,
+      "quote": "Number of wait-listed students admitted: 0"
+    },
+    "sat_submit_pct": {
+      "value": 40,
+      "quote": "SAT 0.4"
+    },
+    "act_submit_pct": {
+      "value": 10,
+      "quote": "ACT 0.1"
+    },
+    "sat_p25": {
+      "value": 1410,
+      "quote": "SAT composite 1,410"
+    },
+    "sat_p50": {
+      "value": 1470,
+      "quote": "SAT composite 1,470"
+    },
+    "sat_p75": {
+      "value": 1520,
+      "quote": "SAT composite 1,520"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "ACT composite 32"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "ACT composite 34"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT composite 35"
+    },
+    "rank_top25_pct": {
+      "value": 80,
+      "quote": "Percent in top quarter of high school graduating class 0.8"
+    },
+    "rank_submit_pct": {
+      "value": 0,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 0.0"
+    },
+    "gpa_375_pct": {
+      "value": 90,
+      "quote": "Percent who had GPA between 3.75 and 3.99 0.9"
+    },
+    "gpa_350_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 3.50 and 3.74 0.1"
+    },
+    "gpa_325_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 3.25 and 3.49 0.0"
+    },
+    "gpa_300_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 3.00 and 3.24 0.0"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 2.50 and 2.99 0.0"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.0"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.0"
+    },
+    "gpa_average": {
+      "value": 4.4,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 4.4"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "First or only early decision plan closing date: Month No"
+    }
+  },
+  "concerns": null
+}

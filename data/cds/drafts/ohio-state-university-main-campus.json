@@ -1,0 +1,56 @@
+{
+  "slug": "ohio-state-university-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "The Ohio State University Common Data Set 2025-2026 (Columbus Campus)",
+    "url": "https://irp.osu.edu/institutional-data-and-reports"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 81392,
+      "quote": "Total 81,392"
+    },
+    "admitted_total": {
+      "value": 40047,
+      "quote": "Total 40,047"
+    },
+    "enrolled_total": {
+      "value": 8248,
+      "quote": "Total 8,248"
+    },
+    "sat_submit_pct": {
+      "value": 25,
+      "quote": "SAT 25.00"
+    },
+    "act_submit_pct": {
+      "value": 42,
+      "quote": "ACT 42.00"
+    },
+    "sat_p25": {
+      "value": 1300,
+      "quote": "SAT composite 1300"
+    },
+    "sat_p50": {
+      "value": 1380,
+      "quote": "SAT composite 1380"
+    },
+    "sat_p75": {
+      "value": 1440,
+      "quote": "SAT composite 1440"
+    },
+    "act_p25": {
+      "value": 27,
+      "quote": "ACT composite 27"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "ACT composite 30"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "ACT composite 32"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "bates-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.bates.edu/research/files/2026/06/CDS_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 9660,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 9660"
+    },
+    "admitted_total": {
+      "value": 1433,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 1433"
+    },
+    "enrolled_total": {
+      "value": 493,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 493"
+    },
+    "waitlist_offered": {
+      "value": 2103,
+      "quote": "Number of qualified applicants offered a place on waiting list: 2103"
+    },
+    "waitlist_accepted": {
+      "value": 795,
+      "quote": "Number accepting a place on the waiting list: 795"
+    },
+    "waitlist_admitted": {
+      "value": 39,
+      "quote": "Number of wait-listed students admitted: 39"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 12.98,
+      "quote": "Submitting SAT Scores 12.98"
+    },
+    "act_submit_pct": {
+      "value": 8.32,
+      "quote": "Submitting ACT Scores 8.32"
+    },
+    "sat_p25": {
+      "value": 1325,
+      "quote": "SAT Composite 1325"
+    },
+    "sat_p50": {
+      "value": 1440,
+      "quote": "SAT Composite 1440"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "SAT Composite 1510"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "ACT Composite 31"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "ACT Composite 32"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "rank_top10_pct": {
+      "value": 62.5,
+      "quote": "Percent in top tenth of high school graduating class 62.50"
+    },
+    "rank_top25_pct": {
+      "value": 90.24,
+      "quote": "Percent in top quarter of high school graduating class 90.24"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan Yes"
+    },
+    "ed_applied": {
+      "value": 949,
+      "quote": "Number of early decision applications received by your institution 949"
+    },
+    "ed_admitted": {
+      "value": 318,
+      "quote": "Number of applicants admitted under early decision plan 318"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan No"
+    }
+  },
+  "concerns": null
+}

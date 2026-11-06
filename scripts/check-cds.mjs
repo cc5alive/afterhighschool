@@ -5,7 +5,8 @@
 // C7 factors: the checkmark in the factor's row must sit under the column Gemini claimed ("layout").
 // Sets values[key].found = true | false | null (document unreadable) and values[key].how.
 import fs from 'node:fs';
-import { squash, norm, fetchDocText } from './lib/doc-text.mjs';
+import { squash, norm } from './lib/doc-text.mjs';
+import { resolveCds } from './lib/cds-resolve.mjs';
 import { CDS_FIELDS, CDS_FACTORS, FACTOR_LEVELS } from './lib/cds-fields.mjs';
 
 const DIR = 'data/cds/drafts';
@@ -72,13 +73,16 @@ function checkFactors(rows, values) {
 }
 
 const cache = new Map();
-const doc = (url) => { if (!cache.has(url)) cache.set(url, fetchDocText(url, { timeout: 45000 })); return cache.get(url); };
+const doc = (url) => { if (!cache.has(url)) cache.set(url, resolveCds(url)); return cache.get(url); };
 
 const report = [];
 for (const f of files) {
   const d = JSON.parse(fs.readFileSync(`${DIR}/${f}`, 'utf8'));
   if (!all && d.checkedAt) continue;
-  const r = await doc(d.source.url);
+  const res = await doc(d.source.url);
+  const r = res.doc;
+  // A page that links to the CDS: cite the document itself, keep the page for reference.
+  if (res.url && res.url !== d.source.url && r.text) { d.source.page = d.source.url; d.source.url = res.url; }
   d.httpStatus = r.status; d.finalUrl = r.finalUrl; d.docKind = r.kind;
   const factors = r.text == null ? {} : checkFactors(r.rows, d.values);
   for (const [key, item] of Object.entries(d.values)) {
