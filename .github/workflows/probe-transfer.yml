@@ -1,0 +1,24 @@
+name: Probe transfer data (debug)
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: |
+          npm install --no-save --no-package-lock playwright@1.49.1
+          npx playwright install --with-deps chromium
+      - env: { SCORECARD_API_KEY: '${{ secrets.SCORECARD_API_KEY }}' }
+        run: node scripts/probe-transfer.mjs
+      - name: Push the probe output to the transfer-debug branch (not main, so nothing deploys)
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git checkout --orphan transfer-debug
+          git rm -rq --cached .
+          git add -f probe
+          git commit -qm "Transfer probe"
+          git push -f origin transfer-debug
