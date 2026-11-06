@@ -1,0 +1,180 @@
+{
+  "slug": "michigan-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Michigan State University Common Data Set 2025-26",
+    "url": "https://ir.msu.edu/cds"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 62965,
+      "quote": "AppliedC1 62,965"
+    },
+    "admitted_total": {
+      "value": 52411,
+      "quote": "AdmittedC1 52,411"
+    },
+    "enrolled_total": {
+      "value": 9355,
+      "quote": "EnrolledC1 9,355"
+    },
+    "waitlist_offered": {
+      "value": 4241,
+      "quote": "Offered a placeC2 4,241"
+    },
+    "waitlist_admitted": {
+      "value": 2254,
+      "quote": "Admitted from waitlistC2 2,254"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record Important"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank Not considered"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA Very important"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores Considered"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application essay Important"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s) Not considered"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview Considered"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities Important"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability Considered"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities Considered"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation Considered"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation Not considered"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence Not considered"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency Not considered"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment Not considered"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work Considered"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience Considered"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest Considered"
+    },
+    "sat_submit_pct": {
+      "value": 51.5,
+      "quote": "Submitted SATC9 51.5%"
+    },
+    "act_submit_pct": {
+      "value": 6.8,
+      "quote": "Submitted ACTC9 6.8%"
+    },
+    "sat_p25": {
+      "value": 1100,
+      "quote": "SAT Composite 25th percentile 1100"
+    },
+    "sat_p50": {
+      "value": 1210,
+      "quote": "SAT Composite 50th percentile 1210"
+    },
+    "sat_p75": {
+      "value": 1310,
+      "quote": "SAT Composite 75th percentile 1310"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "ACT Composite 25th percentile 25"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "ACT Composite 50th percentile 28"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "ACT Composite 75th percentile 31"
+    },
+    "gpa_400_pct": {
+      "value": 24.41,
+      "quote": "GPA of 4.0 24.41%"
+    },
+    "gpa_375_pct": {
+      "value": 28.1,
+      "quote": "GPA 3.75-3.99 28.10%"
+    },
+    "gpa_350_pct": {
+      "value": 23.8,
+      "quote": "GPA 3.50-3.74 23.80%"
+    },
+    "gpa_325_pct": {
+      "value": 15.14,
+      "quote": "GPA 3.25-3.49 15.14%"
+    },
+    "gpa_300_pct": {
+      "value": 7.04,
+      "quote": "GPA 3.00-3.24 7.04%"
+    },
+    "gpa_250_pct": {
+      "value": 1.5,
+      "quote": "GPA 2.50-2.99 1.50%"
+    },
+    "gpa_200_pct": {
+      "value": 0.01,
+      "quote": "GPA 2.0-2.49 0.01%"
+    },
+    "gpa_100_pct": {
+      "value": 0.01,
+      "quote": "GPA 1.0-1.99 0.01%"
+    },
+    "gpa_average": {
+      "value": 3.74,
+      "quote": "Average high school GPAC12 3.74"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decisionC21 Not offered"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Early actionC22 Offered"
+    }
+  },
+  "concerns": null
+}
