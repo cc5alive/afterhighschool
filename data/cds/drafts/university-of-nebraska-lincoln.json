@@ -3,102 +3,178 @@
   "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set 2025-2026",
-    "url": "https://iea.unl.edu/common-data-set-2025-2026/"
+    "url": "https://iea.unl.edu/common-data-set-2025-2026/c-first-time-first-year-admission/applications/",
+    "page": "https://iea.unl.edu/common-data-set-2025-2026/"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "applied_total": {
       "value": 18648,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 18648"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 18648",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 16372,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 16372"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 16372",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 4734,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 4734"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 4734",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 7,
-      "quote": "Percent submitting SAT scores: 7%"
+      "quote": "Percent submitting SAT scores: 7%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 81,
-      "quote": "Percent submitting ACT scores: 81%"
+      "quote": "Percent submitting ACT scores: 81%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 1070,
-      "quote": "SAT Composite 1070"
+      "quote": "SAT Composite 1070",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1190,
-      "quote": "SAT Composite 1190"
+      "quote": "SAT Composite 1190",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1310,
-      "quote": "SAT Composite 1310"
+      "quote": "SAT Composite 1310",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 21,
-      "quote": "ACT Composite 21"
+      "quote": "ACT Composite 21",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 24,
-      "quote": "ACT Composite 24"
+      "quote": "ACT Composite 24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 28,
-      "quote": "ACT Composite 28"
+      "quote": "ACT Composite 28",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_top10_pct": {
       "value": 30,
-      "quote": "Percent in top tenth of high school graduating class 30"
+      "quote": "Percent in top tenth of high school graduating class 30",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_top25_pct": {
       "value": 56,
-      "quote": "Percent in top quarter of high school graduating class 56"
+      "quote": "Percent in top quarter of high school graduating class 56",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_submit_pct": {
       "value": 41,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 41"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 41",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 8,
-      "quote": "Percent who had GPA of 4.0 8"
+      "quote": "Percent who had GPA of 4.0 8",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_375_pct": {
       "value": 24,
-      "quote": "Percent who had GPA between 3.75 and 3.99 24"
+      "quote": "Percent who had GPA between 3.75 and 3.99 24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_350_pct": {
       "value": 21,
-      "quote": "Percent who had GPA between 3.50 and 3.74 21"
+      "quote": "Percent who had GPA between 3.50 and 3.74 21",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_325_pct": {
       "value": 30,
-      "quote": "Percent who had GPA between 3.25 and 3.49 30"
+      "quote": "Percent who had GPA between 3.25 and 3.49 30",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_300_pct": {
       "value": 12,
-      "quote": "Percent who had GPA between 3.00 and 3.24 12"
+      "quote": "Percent who had GPA between 3.00 and 3.24 12",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_250_pct": {
       "value": 4,
-      "quote": "Percent who had GPA between 2.50 and 2.99 4"
+      "quote": "Percent who had GPA between 2.50 and 2.99 4",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_200_pct": {
       "value": 1,
-      "quote": "Percent who had GPA between 2.0 and 2.49 1"
+      "quote": "Percent who had GPA between 2.0 and 2.49 1",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early decision: Does your institution offer an early decision plan... no"
+      "quote": "Early decision: Does your institution offer an early decision plan... no",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Early action: Do you have a non binding early action plan... no"
+      "quote": "Early action: Do you have a non binding early action plan... no",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://iea.unl.edu/common-data-set-2025-2026/c-first-time-first-year-admission/applications/",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 3,
+  "total": 23
 }

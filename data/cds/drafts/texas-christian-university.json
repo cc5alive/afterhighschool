@@ -9,160 +9,283 @@
   "values": {
     "applied_total": {
       "value": 22680,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 22680"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 22680",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 10906,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 10906"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 10906",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 2754,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled 2754"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 2754",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "waitlist_offered": {
       "value": 3676,
-      "quote": "Number of qualified applicants offered a place on waiting list: 3676"
+      "quote": "Number of qualified applicants offered a place on waiting list: 3676",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 1083,
-      "quote": "Number accepting a place on the waiting list: 1083"
+      "quote": "Number accepting a place on the waiting list: 1083",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 396,
-      "quote": "Number of wait-listed students admitted: 396"
+      "quote": "Number of wait-listed students admitted: 396",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record X"
+      "quote": "Rigor of secondary school record X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank X"
+      "quote": "Class rank X",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA X"
+      "quote": "Academic GPA X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores X"
+      "quote": "Standardized test scores X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay X"
+      "quote": "Application Essay X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Recommendation(s) X"
+      "quote": "Recommendation(s) X",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_interview": {
       "value": "Considered",
-      "quote": "Interview X"
+      "quote": "Interview X",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities X"
+      "quote": "Extracurricular activities X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent/ability X"
+      "quote": "Talent/ability X",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character/personal qualities X"
+      "quote": "Character/personal qualities X",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation X"
+      "quote": "First generation X",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_alumni": {
       "value": "Considered",
-      "quote": "Alumni/ae relation X"
+      "quote": "Alumni/ae relation X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence X"
+      "quote": "Geographical residence X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency X"
+      "quote": "State residency X",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_religion": {
       "value": "Considered",
-      "quote": "Religious affiliation/commitment X"
+      "quote": "Religious affiliation/commitment X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work X"
+      "quote": "Volunteer work X",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience X"
+      "quote": "Work experience X",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant's interest X"
+      "quote": "Level of applicant's interest X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 27,
-      "quote": "Submitting SAT Scores 27%"
+      "quote": "Submitting SAT Scores 27%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 21,
-      "quote": "Submitting ACT Scores 21%"
+      "quote": "Submitting ACT Scores 21%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1110,
-      "quote": "SAT Composite 1110"
+      "quote": "SAT Composite 1110",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1240,
-      "quote": "SAT Composite 1240"
+      "quote": "SAT Composite 1240",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1330,
-      "quote": "SAT Composite 1330"
+      "quote": "SAT Composite 1330",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 26,
-      "quote": "ACT Composite 26"
+      "quote": "ACT Composite 26",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 30,
-      "quote": "ACT Composite 30"
+      "quote": "ACT Composite 30",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 31,
-      "quote": "ACT Composite 31"
+      "quote": "ACT Composite 31",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 45.6,
-      "quote": "Percent in top tenth of high school graduating class 45.6%"
+      "quote": "Percent in top tenth of high school graduating class 45.6%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 77.9,
-      "quote": "Percent in top quarter of high school graduating class 77.9%"
+      "quote": "Percent in top quarter of high school graduating class 77.9%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 36.5,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 36.5%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 36.5%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "yes",
-      "quote": "Does your institution offer an early decision plan... Yes"
+      "quote": "Does your institution offer an early decision plan... Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ed_applied": {
       "value": 1373,
-      "quote": "Number of early decision applications received by your institution 1373"
+      "quote": "Number of early decision applications received by your institution 1373",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_admitted": {
       "value": 935,
-      "quote": "Number of applicants admitted under early decision plan 935"
+      "quote": "Number of applicants admitted under early decision plan 935",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Do you have a nonbinding early action plan... Yes"
+      "quote": "Do you have a nonbinding early action plan... Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://ir.tcu.edu/wp-content/uploads/2026/03/CDS-2025-26-TCU.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 28,
+  "total": 39
 }

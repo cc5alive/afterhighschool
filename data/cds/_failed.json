@@ -54,11 +54,6 @@
   "at": "2026-11-06",
   "reason": "no CDS document found from https://moreheadstate.edu/about/leadership/ppe/institutional-research/institutional-data/common-data-sets"
  },
- "university-of-delaware": {
-  "url": "https://ire.udel.edu/common-data-set",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://ire.udel.edu/common-data-set"
- },
  "university-of-maine": {
   "url": "https://umaine.edu/oira/?p=8269",
   "at": "2026-11-06",
@@ -235,9 +230,9 @@
   "reason": "no CDS document found from https://academics.fresnostate.edu/oie/data/common.html"
  },
  "illinois-state-university": {
-  "url": "https://ir.library.illinoisstate.edu/cds/",
+  "url": "https://prpa.illinoisstate.edu/downloads/CDS_2025-2026_ILSTU_FINAL2.pdf",
   "at": "2026-11-06",
-  "reason": "no CDS document found from https://ir.library.illinoisstate.edu/cds/"
+  "reason": "document failed to load (HTTP 404)"
  },
  "university-of-oregon": {
   "url": "https://ir.uoregon.edu/overview",

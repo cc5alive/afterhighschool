@@ -3,54 +3,94 @@
   "cdsYear": "2025-2026",
   "source": {
     "title": "Kent State University Common Dataset (CDS) 2025-2026",
-    "url": "https://www.kent.edu/ir/common-dataset-cds"
+    "url": "https://www-s3-live.kent.edu/s3fs-root/s3fs-public/file/AC%20CDS_2025-2026-Final_web_2.docx?VersionId=.Fbn4wXWNvEEjLjHuC2X0JHHopDGTHcZ",
+    "page": "https://www.kent.edu/ir/common-dataset-cds"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "applied_total": {
       "value": 25526,
-      "quote": "Applications 25,526"
+      "quote": "Applications 25,526",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 16015,
-      "quote": "Admitted 16,015"
+      "quote": "Admitted 16,015",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 4026,
-      "quote": "Enrolled 4,026"
+      "quote": "Enrolled 4,026",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_submit_pct": {
       "value": 16,
-      "quote": "16% SUB"
+      "quote": "16% SUB",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 43,
-      "quote": "43% SUB"
+      "quote": "43% SUB",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 990,
-      "quote": "SAT 25–75 990–1230"
+      "quote": "SAT 25–75 990–1230",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1120,
-      "quote": "MED 1120"
+      "quote": "MED 1120",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1230,
-      "quote": "SAT 25–75 990–1230"
+      "quote": "SAT 25–75 990–1230",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 18,
-      "quote": "ACT 25–75 18–25"
+      "quote": "ACT 25–75 18–25",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 21,
-      "quote": "MED 21"
+      "quote": "MED 21",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 25,
-      "quote": "ACT 25–75 18–25"
+      "quote": "ACT 25–75 18–25",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www-s3-live.kent.edu/s3fs-root/s3fs-public/file/AC%20CDS_2025-2026-Final_web_2.docx?VersionId=.Fbn4wXWNvEEjLjHuC2X0JHHopDGTHcZ",
+  "docKind": "docx",
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 11
 }

@@ -1,0 +1,143 @@
+{
+  "slug": "university-of-delaware",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/e/2019/files/2025/07/CDS2425_UDelaware.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 39742,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4119 33360 2263 39742"
+    },
+    "admitted_total": {
+      "value": 27517,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2913 23364 1240 27517"
+    },
+    "enrolled_total": {
+      "value": 4075,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1381 2638 56 4075"
+    },
+    "waitlist_admitted": {
+      "value": 2087,
+      "quote": "number of wait-listed students admitted: 2087"
+    },
+    "rank_top10_pct": {
+      "value": 31.5,
+      "quote": "percent in top tenth of high school graduating class 31.50"
+    },
+    "rank_top25_pct": {
+      "value": 64.2,
+      "quote": "percent in top quarter of high school graduating class 64.20"
+    },
+    "gpa_average": {
+      "value": 3.98,
+      "quote": "average high school gpa 3.98"
+    },
+    "gpa_submit_pct": {
+      "value": 98.7,
+      "quote": "percent submitting gpa 98.70"
+    },
+    "sat_p25": {
+      "value": 1220,
+      "quote": "sat composite 1220 1300 1370"
+    },
+    "sat_p50": {
+      "value": 1300,
+      "quote": "sat composite 1220 1300 1370"
+    },
+    "sat_p75": {
+      "value": 1370,
+      "quote": "sat composite 1220 1300 1370"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 30 32"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 28 30 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 28 30 32"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Very Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

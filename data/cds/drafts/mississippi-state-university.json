@@ -9,36 +9,66 @@
   "values": {
     "sat_submit_pct": {
       "value": 6,
-      "quote": "6% SUB"
+      "quote": "6% SUB",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 85,
-      "quote": "85% SUB"
+      "quote": "85% SUB",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 1100,
-      "quote": "SAT composite 25th percentile 1100"
+      "quote": "SAT composite 25th percentile 1100",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1200,
-      "quote": "SAT composite 50th percentile 1200"
+      "quote": "SAT composite 50th percentile 1200",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1340,
-      "quote": "SAT composite 75th percentile 1340"
+      "quote": "SAT composite 75th percentile 1340",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 21,
-      "quote": "ACT composite 25th percentile 21"
+      "quote": "ACT composite 25th percentile 21",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 25,
-      "quote": "ACT composite 50th percentile 25"
+      "quote": "ACT composite 50th percentile 25",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 29,
-      "quote": "ACT composite 75th percentile 29"
+      "quote": "ACT composite 75th percentile 29",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.ir.msstate.edu/cdsets.php",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 8
 }

@@ -9,40 +9,73 @@
   "values": {
     "applied_total": {
       "value": 27261,
-      "quote": "Total first-time, first-year (degree-seeking) who applied: 27,261"
+      "quote": "Total first-time, first-year (degree-seeking) who applied: 27,261",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 25274,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted: 25,274"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted: 25,274",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 4335,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled: 4,335"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled: 4,335",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p25": {
       "value": 920,
-      "quote": "SAT Composite 25th percentile: 920"
+      "quote": "SAT Composite 25th percentile: 920",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1170,
-      "quote": "SAT Composite 75th percentile: 1170"
+      "quote": "SAT Composite 75th percentile: 1170",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 21,
-      "quote": "ACT Composite 25th percentile: 21"
+      "quote": "ACT Composite 25th percentile: 21",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 30,
-      "quote": "ACT Composite 75th percentile: 30"
+      "quote": "ACT Composite 75th percentile: 30",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early decision: Does your institution offer an early decision plan... No"
+      "quote": "Early decision: Does your institution offer an early decision plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Early action: Do you have a nonbinding early action plan... No"
+      "quote": "Early action: Do you have a nonbinding early action plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.gvsu.edu/cms4/asset/EFAB4AD2-A926-8D16-A5685AB71E0C7DC3/cds_2025-2026.xlsx",
+  "docKind": "xlsx",
+  "checkedAt": "2026-11-06",
+  "verified": 7,
+  "total": 9
 }
