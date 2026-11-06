@@ -130,7 +130,7 @@ Built 2026-11-06.
 | the-university-of-montana | 2025-2026 | 38 |  |
 | the-university-of-tennessee-chattanooga | 2025-2026 | 37 |  |
 | the-university-of-tennessee-knoxville | 2025-2026 | 49 |  |
-| the-university-of-texas-at-austin | 2024-2025 | 0 |  |
+| the-university-of-texas-at-austin | 2025-2026 | 26 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | the-university-of-texas-at-dallas | 2024-2025 | 22 | reader and Gemini read different documents (2025 vs 2024); used the reader one; newer document gave too few values; used the other |
 | the-university-of-texas-at-el-paso | 2025-2026 | 10 | C11 buckets sum to 0.1 |
 | the-university-of-texas-at-san-antonio | 2024-2025 | 15 | reader and Gemini read different documents (2024 vs 2023); used the reader one; gpa_submit_pct implausibly low |
