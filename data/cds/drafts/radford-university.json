@@ -1,0 +1,117 @@
+{
+  "slug": "radford-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.radford.edu/institutional-research/_documents/cds-2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 12.5,
+      "quote": "percent in top tenth of high school graduating class 12.5%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 33.4,
+      "quote": "percent in top quarter of high school graduating class 33.4%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 28.8,
+      "quote": "percent who had gpa of 4.0 28.8% 17.8% 19.1%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 16,
+      "quote": "percent who had gpa between 3.75 and 3.99 16.0% 17.1% 17.0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 12.9,
+      "quote": "percent who had gpa between 3.50 and 3.74 12.9% 19.3% 18.5%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 12.3,
+      "quote": "percent who had gpa between 3.25 and 3.49 12.3% 15.2% 14.8%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 14.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 14.1% 14.1% 14.1%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 15.3,
+      "quote": "percent who had gpa between 2.50 and 2.99 15.3% 15.4% 15.4%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0.6,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.6% 1.1% 1.1%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "sat composite 950 1,040 1,140",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1040,
+      "quote": "sat composite 950 1,040 1,140",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1140,
+      "quote": "sat composite 950 1,040 1,140",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.radford.edu/institutional-research/_documents/cds-2025.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 14,
+  "total": 14
+}

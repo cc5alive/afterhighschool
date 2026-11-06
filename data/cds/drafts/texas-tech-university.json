@@ -1,0 +1,131 @@
+{
+  "slug": "texas-tech-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.depts.ttu.edu/irim/CommonDataSets/TTU_CDS_2025-2026-4-30-26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 38566,
+      "quote": "total first-time, first-year (degree-seeking) who applied 29 33395 3560 1582 38566",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 26634,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 574 23726 2312 22 26634",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 7579,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 6847 606 126 7579",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 25,
+      "quote": "percent in top tenth of high school graduating class 25",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 54.3,
+      "quote": "percent in top quarter of high school graduating class 54.3",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 7.1,
+      "quote": "percent who had gpa of 4.0 7.1 2.4 4.5",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 41.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 41.1 26.8 33.3",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 33.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 33.1 41.1 37.5",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 13.4,
+      "quote": "percent who had gpa between 3.25 and 3.49 13.4 21.1 17.6",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 3.7,
+      "quote": "percent who had gpa between 3.00 and 3.24 3.7 5.7 4.8",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 1.5,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.5 2.5 2.0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.1 0.3 0.2",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.1 0.1",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100 100 100",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.64,
+      "quote": "average high school gpa 3.64",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 99.8,
+      "quote": "percent submitting gpa 99.8",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.depts.ttu.edu/irim/CommonDataSets/TTU_CDS_2025-2026-4-30-26.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 16,
+  "total": 16
+}

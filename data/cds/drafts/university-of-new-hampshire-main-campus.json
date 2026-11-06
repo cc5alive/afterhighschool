@@ -1,0 +1,103 @@
+{
+  "slug": "university-of-new-hampshire-main-campus",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.unh.edu/institutional-research/sites/default/files/media/2026-09/CDS%202025-2026%20UNH%20Published%209.2.26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 21567,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4548 16521 498 21567",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 19224,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 425 3939 14860 19224",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 2302,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1040 1228 34 2302",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 38.12,
+      "quote": "percent who had gpa of 4.0 38.12 24.67 27.40",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 13.92,
+      "quote": "percent who had gpa between 3.75 and 3.99 13.92 17.47 16.75",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 16.27,
+      "quote": "percent who had gpa between 3.50 and 3.74 16.27 16.48 16.44",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 13.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 13.70 16.27 15.75",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 10.71,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.71 14.03 13.35",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 7.28,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.28 10.753 10.05",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 .05 .04 totals should = 100% 100 100.001 100",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.64,
+      "quote": "average high school gpa 3.64",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.unh.edu/institutional-research/sites/default/files/media/2026-09/CDS%202025-2026%20UNH%20Published%209.2.26.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 12,
+  "total": 12
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "duke-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "sat_p25": {
+      "value": 1510,
+      "quote": "sat composite 1510 1550 1570",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1550,
+      "quote": "sat composite 1510 1550 1570",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1570,
+      "quote": "sat composite 1510 1550 1570",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 35 35",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 34 35 35",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 34 35 35",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 6,
+  "total": 6
+}

@@ -1,0 +1,257 @@
+{
+  "slug": "university-of-vermont",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.uvm.edu/d10-files/documents/2026-06/CDS_2025-2026_C.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 25434,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1948 22205 1281 25434",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 18576,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1491 16695 390 18576",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 2810,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 542 2228 40 2810",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 142,
+      "quote": "number of wait-listed students admitted: 142",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 35,
+      "quote": "percent in top tenth of high school graduating class 35%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 68,
+      "quote": "percent in top quarter of high school graduating class 68%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_applied": {
+      "value": 396,
+      "quote": "number of early decision applications received by your institution 396",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_admitted": {
+      "value": 363,
+      "quote": "number of applicants admitted under early decision plan 363",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1300,
+      "quote": "sat composite 1300 1360 1430",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1360,
+      "quote": "sat composite 1300 1360 1430",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1430,
+      "quote": "sat composite 1300 1360 1430",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 31 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 29 31 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 29 31 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_first_generation": {
+      "value": "Important",
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_geography": {
+      "value": "Important",
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_state_residency": {
+      "value": "Important",
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.uvm.edu/d10-files/documents/2026-06/CDS_2025-2026_C.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 33,
+  "total": 34
+}

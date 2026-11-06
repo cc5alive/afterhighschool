@@ -1,0 +1,117 @@
+{
+  "slug": "the-university-of-tennessee-chattanooga",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.utc.edu/sites/default/files/2026-09/cds-2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 12313,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1 9621 2581 110 12313",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 8819,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 38 7530 1251 0 8819",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 2378,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2127 241 10 0 2378",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 25.5,
+      "quote": "percent who had gpa of 4.0 25.5 13.3 25.4",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 23,
+      "quote": "percent who had gpa between 3.75 and 3.99 23 33.3 23",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 18.6,
+      "quote": "percent who had gpa between 3.50 and 3.74 18.6 0 18.5",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 16.3,
+      "quote": "percent who had gpa between 3.25 and 3.49 16.3 20 16.4",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 9.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 9.1 6.7 9.1",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 7,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.0 6.7 7.0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0.5,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.5 20 0.6",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.62,
+      "quote": "average high school gpa 3.62",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 99.7,
+      "quote": "percent submitting gpa 99.7",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.utc.edu/sites/default/files/2026-09/cds-2025-2026.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 14,
+  "total": 14
+}

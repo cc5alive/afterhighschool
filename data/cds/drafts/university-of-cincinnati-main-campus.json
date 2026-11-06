@@ -1,0 +1,131 @@
+{
+  "slug": "university-of-cincinnati-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 33750,
+      "quote": "total first-time, first-year (degree-seeking) who applied 19700 11319 2731 33750",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 29715,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2274 17820 9621 29715",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 6497,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4730 1464 303 6497",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 22.1,
+      "quote": "percent in top tenth of high school graduating class 22.1",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 47.28,
+      "quote": "percent in top quarter of high school graduating class 47.28",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 39.7,
+      "quote": "percent who had gpa of 4.0 39.7 17.96 24.8",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 23.79,
+      "quote": "percent who had gpa between 3.75 and 3.99 23.79 19.47 20.83",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 16.22,
+      "quote": "percent who had gpa between 3.50 and 3.74 16.22 19.47 18.45",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 10.38,
+      "quote": "percent who had gpa between 3.25 and 3.49 10.38 16.91 14.86",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 6.31,
+      "quote": "percent who had gpa between 3.00 and 3.24 6.31 13.73 11.4",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 3.6,
+      "quote": "percent who had gpa between 2.50 and 2.99 3.60 11.65 9.12",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0 0.65 0.44",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0.17 0.11",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.67,
+      "quote": "average high school gpa 3.67",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 99.72,
+      "quote": "percent submitting gpa 99.72",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 16,
+  "total": 16
+}

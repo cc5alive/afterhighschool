@@ -1,0 +1,117 @@
+{
+  "slug": "university-of-new-mexico-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://oia.unm.edu/resources/cds_25_26_updated.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 13589,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 6870 5939 780 13589",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 10866,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 226 5608 5032 0 10866",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 3775,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 3040 647 88 0 3775",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 12.9,
+      "quote": "percent who had gpa of 4.0 12.9",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 18,
+      "quote": "percent who had gpa between 3.75 and 3.99 18",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 20.8,
+      "quote": "percent who had gpa between 3.50 and 3.74 20.8",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 11.8,
+      "quote": "percent who had gpa between 3.25 and 3.49 11.8",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 16.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 16.1",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 17.8,
+      "quote": "percent who had gpa between 2.50 and 2.99 17.8",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 2.6,
+      "quote": "percent who had gpa between 2.0 and 2.49 2.6",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.4,
+      "quote": "average high school gpa 3.40",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 75.5,
+      "quote": "percent submitting gpa 75.5",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://oia.unm.edu/resources/cds_25_26_updated.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 14,
+  "total": 14
+}

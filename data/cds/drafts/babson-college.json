@@ -10,43 +10,43 @@
     "applied_total": {
       "value": 9381,
       "quote": "Total first-time, first-year (degree-seeking) who applied 1315 4635 3388 43 9381",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "admitted_total": {
       "value": 1603,
       "quote": "Total first-time, first-year (degree-seeking) who were admitted 237 951 408 7 1603",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "enrolled_total": {
       "value": 625,
       "quote": "Total first-time, first-year (degree-seeking) enrolled 105 347 166 7 625",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "waitlist_offered": {
       "value": 3579,
       "quote": "Number of qualified applicants offered a place on waiting list: 3579",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "waitlist_accepted": {
       "value": 1458,
       "quote": "Number accepting a place on the waiting list: 1458",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "waitlist_admitted": {
       "value": 105,
       "quote": "Number of wait-listed students admitted: 105",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "factor_rigor": {
@@ -178,57 +178,57 @@
     "sat_submit_pct": {
       "value": 22,
       "quote": "Submitting SAT Scores 22.00 139",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "near",
       "note": null
     },
     "act_submit_pct": {
       "value": 3,
       "quote": "Submitting ACT Scores 3.00 21",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "near",
       "note": null
     },
     "sat_p25": {
       "value": 1410,
       "quote": "SAT Composite 1410 1460 1500",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "sat_p50": {
       "value": 1460,
       "quote": "SAT Composite 1410 1460 1500",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "sat_p75": {
       "value": 1500,
       "quote": "SAT Composite 1410 1460 1500",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "act_p25": {
       "value": 31,
       "quote": "ACT Composite 31 32 34",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "act_p50": {
       "value": 32,
       "quote": "ACT Composite 31 32 34",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "act_p75": {
       "value": 34,
       "quote": "ACT Composite 31 32 34",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "ed_offered": {
@@ -241,15 +241,15 @@
     "ed_applied": {
       "value": 1109,
       "quote": "Number of early decision applications received by your institution 1,109",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "ed_admitted": {
       "value": 305,
       "quote": "Number of applicants admitted under early decision plan 305",
-      "found": false,
-      "how": null,
+      "found": true,
+      "how": "quote",
       "note": null
     },
     "ea_offered": {
@@ -264,6 +264,7 @@
   "httpStatus": 200,
   "finalUrl": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf",
   "docKind": "pdf",
-  "verified": 0,
-  "total": 36
+  "verified": 16,
+  "total": 36,
+  "checkedAt": "2026-11-06"
 }

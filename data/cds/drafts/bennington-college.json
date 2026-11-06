@@ -1,0 +1,201 @@
+{
+  "slug": "bennington-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 2709,
+      "quote": "total first-time, first-year (degree-seeking) who applied 36 1242 1431 0 2709",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 1008,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 26 871 111 0 1008",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 163,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 11 122 30 0 163",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 43,
+      "quote": "number of wait-listed students admitted: 43",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 30.95,
+      "quote": "percent in top tenth of high school graduating class 30.95",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 66.67,
+      "quote": "percent in top quarter of high school graduating class 66.67",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 0,
+      "quote": "percent who had gpa of 4.0 0.00 7.02 7.02",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 3.51,
+      "quote": "percent who had gpa between 3.75 and 3.99 3.51 33.33 36.84",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 5.26,
+      "quote": "percent who had gpa between 3.50 and 3.74 5.26 31.58 36.84",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 1.75,
+      "quote": "percent who had gpa between 3.25 and 3.49 1.75 12.28 14.04",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.00 3.51 3.51",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 1.75,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.75 0.00 1.75",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00 0.00 0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.00 0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.67,
+      "quote": "average high school gpa 3.67",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 34.97,
+      "quote": "percent submitting gpa 34.97",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_applied": {
+      "value": 272,
+      "quote": "number of early decision applications received by your institution: 272",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_admitted": {
+      "value": 47,
+      "quote": "number of applicants admitted under early decision plan: 47",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1335,
+      "quote": "sat composite 1335 1410 1475",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1410,
+      "quote": "sat composite 1335 1410 1475",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1475,
+      "quote": "sat composite 1335 1410 1475",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 33 34 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 25,
+  "total": 26
+}

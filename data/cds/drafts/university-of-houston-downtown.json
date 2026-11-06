@@ -1,0 +1,306 @@
+{
+  "slug": "university-of-houston-downtown",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.uhd.edu/documents/provost/ie/institutional-research/common-data-set/cds-2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 7355,
+      "quote": "total first-time, first-year (degree-seeking) who applied 7,215 91 49 0 7,355",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 6465,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6,347 79 39 0 6,465",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 1185,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1,165 7 13 0 1,185",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 7,
+      "quote": "percent in top tenth of high school graduating class 7%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 24,
+      "quote": "percent in top quarter of high school graduating class 24%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_submit_pct": {
+      "value": 68,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 68%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 16.65,
+      "quote": "percent who had gpa of 4.0 16.65% 5.61% 13.16%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 11.59,
+      "quote": "percent who had gpa between 3.75 and 3.99 11.59% 6.95% 10.13%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 15.29,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.29% 13.64% 14.77%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 16.77,
+      "quote": "percent who had gpa between 3.25 and 3.49 16.77% 21.66% 18.31%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 16.03,
+      "quote": "percent who had gpa between 3.00 and 3.24 16.03% 19.52% 17.13%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 21.33,
+      "quote": "percent who had gpa between 2.50 and 2.99 21.33% 31.28% 24.47%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 2.1,
+      "quote": "percent who had gpa between 2.0 and 2.49 2.10% 1.34% 1.86%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0.25,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.25% 0.00% 0.17%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00% 0.00% 0.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.33,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who c12 3.33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 100.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 880,
+      "quote": "sat composite 880 970 1050",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 970,
+      "quote": "sat composite 880 970 1050",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1050,
+      "quote": "sat composite 880 970 1050",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 16,
+      "quote": "act composite 16 19 21",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 19,
+      "quote": "act composite 16 19 21",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 21,
+      "quote": "act composite 16 19 21",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.uhd.edu/documents/provost/ie/institutional-research/common-data-set/cds-2025-2026.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 41,
+  "total": 41
+}

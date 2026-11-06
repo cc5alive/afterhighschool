@@ -1,0 +1,54 @@
+{
+  "slug": "boise-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.boisestate.edu/ie/wp-content/uploads/sites/501/2026/04/Boise-State-University-CDS_2025-2026_PDF.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 17582,
+      "quote": "total first-time, first-year (degree-seeking) who applied 9980 7535 67 17582",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 14749,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 7920 6778 51 14749",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 3881,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2273 1590 18 3881",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00 0.00 0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 5,
+      "quote": "percent submitting gpa common data set 202 5 -202 6",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.boisestate.edu/ie/wp-content/uploads/sites/501/2026/04/Boise-State-University-CDS_2025-2026_PDF.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 5,
+  "total": 5
+}

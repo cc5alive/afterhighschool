@@ -1,0 +1,173 @@
+{
+  "slug": "wentworth-institute-of-technology",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://wit.edu/sites/default/files/2026-07/Wentworth_CDS_25_26_final6.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 6692,
+      "quote": "total first-time, first-year (degree-seeking) who applied 690 373 609 5020 6692",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 5875,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 688 372 460 4355 5875",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 1104,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 688 372 44 0 1104",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 22,
+      "quote": "percent in top tenth of high school graduating class 22.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 30,
+      "quote": "percent in top quarter of high school graduating class 30.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 30.5,
+      "quote": "percent who had gpa of 4.0 30.50 20.76 23.05",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 15.44,
+      "quote": "percent who had gpa between 3.75 and 3.99 15.44 12.22 12.98",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 21.24,
+      "quote": "percent who had gpa between 3.50 and 3.74 21.24 21.23 21.23",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 10.42,
+      "quote": "percent who had gpa between 3.25 and 3.49 10.42 14.23 13.34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 10.81,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.81 14.00 13.25",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 11.2,
+      "quote": "percent who had gpa between 2.50 and 2.99 11.20 15.30 14.34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0.39,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.39 2.14 1.72",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.12 0.09",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.48,
+      "quote": "average high school gpa 3.48",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.00",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1180,
+      "quote": "sat composite 1180 1300 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1300,
+      "quote": "sat composite 1180 1300 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1390,
+      "quote": "sat composite 1180 1300 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 30 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 26 30 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 26 30 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://wit.edu/sites/default/files/2026-07/Wentworth_CDS_25_26_final6.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 22,
+  "total": 22
+}

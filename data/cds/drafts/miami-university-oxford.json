@@ -1,0 +1,306 @@
+{
+  "slug": "miami-university-oxford",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://miamioh.edu/analytics-institutional-research/_documents/cds/cds2024-25.xlsx"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 5362,
+      "quote": "total first-time, first-year who applied 39580 17842 16376 5362 ---",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 1822,
+      "quote": "total first-time, first-year who were admitted 29843 14348 13673 1822 ---",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 39,
+      "quote": "total first-time, first-year who enrolled 4192 2706 1447 39 ---",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 236,
+      "quote": "number of wait-listed students admitted: 236",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 0.5722,
+      "quote": "percent who had gpa of 4.0 0.5722 0.2783 0.4006",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 0.1577,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.1577 0.2227 0.1957",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 0.1107,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.1107 0.179 0.1506",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 0.0671,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.0671 0.1353 0.1069",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 0.0516,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.0516 0.1022 0.0811",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 0.0384,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.0384 0.0764 0.0606",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0.0023,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0023 0.0061 0.0045",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 0",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 1,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 1",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_applied": {
+      "value": 521,
+      "quote": "number of early decision applications received by your institution 521",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_admitted": {
+      "value": 438,
+      "quote": "number of applicants admitted under early decision plan 438",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1240,
+      "quote": "sat composite 1240 1300 1378",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1300,
+      "quote": "sat composite 1240 1300 1378",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1378,
+      "quote": "sat composite 1240 1300 1378",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 28 30",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 25 28 30",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "act composite 25 28 30",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://miamioh.edu/analytics-institutional-research/_documents/cds/cds2024-25.xlsx",
+  "checkedAt": "2026-11-06",
+  "verified": 40,
+  "total": 41
+}
