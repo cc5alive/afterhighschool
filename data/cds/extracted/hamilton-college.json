@@ -1,0 +1,150 @@
+{
+  "slug": "hamilton-college",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.hamilton.edu/documents/CDS%202025-26%20Excel%20Final.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 8904,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1611 3707 3586 8904"
+    },
+    "admitted_total": {
+      "value": 1210,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 334 780 96 1210"
+    },
+    "enrolled_total": {
+      "value": 478,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 130 308 40 478"
+    },
+    "waitlist_admitted": {
+      "value": 49,
+      "quote": "number of wait-listed students admitted: 49"
+    },
+    "rank_top10_pct": {
+      "value": 86.36,
+      "quote": "percent in top tenth of high school graduating class 86.36%"
+    },
+    "rank_top25_pct": {
+      "value": 97.73,
+      "quote": "percent in top quarter of high school graduating class 97.73%"
+    },
+    "rank_submit_pct": {
+      "value": 18.41,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 18.41%"
+    },
+    "ed_applied": {
+      "value": 1120,
+      "quote": "number of early decision applications received by your institution 1120"
+    },
+    "ed_admitted": {
+      "value": 315,
+      "quote": "number of applicants admitted under early decision plan 315"
+    },
+    "sat_p25": {
+      "value": 1440,
+      "quote": "sat composite 1440 1480 1510"
+    },
+    "sat_p50": {
+      "value": 1480,
+      "quote": "sat composite 1440 1480 1510"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "sat composite 1440 1480 1510"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

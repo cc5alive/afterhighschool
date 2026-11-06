@@ -1,0 +1,186 @@
+{
+  "slug": "bucknell-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.bucknell.edu/sites/default/files/institutional-research/common_data_set_2025-26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11561,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2044 6884 2631 2 11561"
+    },
+    "admitted_total": {
+      "value": 3723,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 751 2816 156 0 3723"
+    },
+    "enrolled_total": {
+      "value": 1037,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 224 771 42 0 1037"
+    },
+    "waitlist_admitted": {
+      "value": 150,
+      "quote": "number of wait-listed students admitted: 150"
+    },
+    "rank_top10_pct": {
+      "value": 56,
+      "quote": "percent in top tenth of high school graduating class 56%"
+    },
+    "rank_top25_pct": {
+      "value": 85,
+      "quote": "percent in top quarter of high school graduating class 85%"
+    },
+    "rank_submit_pct": {
+      "value": 18,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 18%"
+    },
+    "gpa_400_pct": {
+      "value": 8,
+      "quote": "percent who had gpa of 4.0 8.00%"
+    },
+    "gpa_375_pct": {
+      "value": 27.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 27.10%"
+    },
+    "gpa_350_pct": {
+      "value": 27.29,
+      "quote": "percent who had gpa between 3.50 and 3.74 27.29%"
+    },
+    "gpa_325_pct": {
+      "value": 22.47,
+      "quote": "percent who had gpa between 3.25 and 3.49 22.47%"
+    },
+    "gpa_300_pct": {
+      "value": 11.28,
+      "quote": "percent who had gpa between 3.00 and 3.24 11.28%"
+    },
+    "gpa_250_pct": {
+      "value": 3.47,
+      "quote": "percent who had gpa between 2.50 and 2.99 3.47%"
+    },
+    "gpa_200_pct": {
+      "value": 0.39,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.39%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 100.00%"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 100.00%"
+    },
+    "ed_applied": {
+      "value": 1200,
+      "quote": "number of early decision applications received by your institution 1200"
+    },
+    "ed_admitted": {
+      "value": 656,
+      "quote": "number of applicants admitted under early decision plan 656"
+    },
+    "sat_p25": {
+      "value": 1170,
+      "quote": "sat composite 1170 1270 1360"
+    },
+    "sat_p50": {
+      "value": 1270,
+      "quote": "sat composite 1170 1270 1360"
+    },
+    "sat_p75": {
+      "value": 1360,
+      "quote": "sat composite 1170 1270 1360"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 29 32"
+    },
+    "act_p50": {
+      "value": 29,
+      "quote": "act composite 25 29 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 25 29 32"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,150 @@
+{
+  "slug": "washington-and-lee-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://my.wlu.edu/document/2025-common-data-set"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who applied 923 3568 4472 0"
+    },
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 209 925 80 0"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 95 359 45 0"
+    },
+    "waitlist_admitted": {
+      "value": 2,
+      "quote": "number of wait-listed students admitted: 2"
+    },
+    "rank_top10_pct": {
+      "value": 85.26,
+      "quote": "percent in top tenth of high school graduating class 85.26%"
+    },
+    "rank_top25_pct": {
+      "value": 98.72,
+      "quote": "percent in top quarter of high school graduating class 98.72%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
+    },
+    "ed_applied": {
+      "value": 1048,
+      "quote": "number of early decision applications received by your institution 1048"
+    },
+    "ed_admitted": {
+      "value": 289,
+      "quote": "number of applicants admitted under early decision plan 289"
+    },
+    "sat_p25": {
+      "value": 1430,
+      "quote": "sat composite 1430 1480 1530"
+    },
+    "sat_p50": {
+      "value": 1480,
+      "quote": "sat composite 1430 1480 1530"
+    },
+    "sat_p75": {
+      "value": 1530,
+      "quote": "sat composite 1430 1480 1530"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 33 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 33 33 34"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Considered",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,154 @@
+{
+  "slug": "texas-christian-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ir.tcu.edu/wp-content/uploads/2026/03/CDS-2025-26-TCU.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 22680,
+      "quote": "total first-time, first-year (degree-seeking) who applied 10757 10483 1277 163 22680"
+    },
+    "admitted_total": {
+      "value": 10906,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 4663 5818 338 87 10906"
+    },
+    "enrolled_total": {
+      "value": 2754,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1260 1397 81 16 2754"
+    },
+    "waitlist_admitted": {
+      "value": 396,
+      "quote": "number of wait-listed students admitted: 396"
+    },
+    "rank_top10_pct": {
+      "value": 45.6,
+      "quote": "percent in top tenth of high school graduating class 45.6%"
+    },
+    "rank_top25_pct": {
+      "value": 77.9,
+      "quote": "percent in top quarter of high school graduating class 77.9%"
+    },
+    "rank_submit_pct": {
+      "value": 36.5,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 36.5%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
+    },
+    "ed_applied": {
+      "value": 1373,
+      "quote": "number of early decision applications received by your institution 1373"
+    },
+    "ed_admitted": {
+      "value": 935,
+      "quote": "number of applicants admitted under early decision plan 935"
+    },
+    "sat_p25": {
+      "value": 1110,
+      "quote": "sat composite 1110 1240 1330"
+    },
+    "sat_p50": {
+      "value": 1240,
+      "quote": "sat composite 1110 1240 1330"
+    },
+    "sat_p75": {
+      "value": 1330,
+      "quote": "sat composite 1110 1240 1330"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 30 31"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 26 30 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 26 30 31"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Important",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

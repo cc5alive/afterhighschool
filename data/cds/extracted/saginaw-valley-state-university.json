@@ -1,0 +1,106 @@
+{
+  "slug": "saginaw-valley-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.svsu.edu/media/officeofinstitutionalresearch/CDS%202025-2026.xlsx"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 11586,
+      "quote": "total first-time, first-year (degree-seeking) who applied 9532 496 1558 0 11586 c.206 if yes, do you release that information to students? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "admitted_total": {
+      "value": 9087,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 7650 344 1093 0 9087 c.207 do you release that information to school counselors? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "enrolled_total": {
+      "value": 1336,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1231 36 69 0 1336 c.301 high school completion requirement high school diploma is required and ged is accepted first-time, first-year admission admissions requirements high school completion undergraduates first-time, first-year all all all x"
+    },
+    "waitlist_admitted": {
+      "value": 4,
+      "quote": "number of wait-listed students admitted: c.514 english 4 first-time, first-year admission admissions requirements high school units recommended undergraduates first-time, first-year all all all carnegie units"
+    },
+    "rank_top10_pct": {
+      "value": 0.21215880893300249,
+      "quote": "percent in top tenth of high school graduating class 0.21215880893300249 c.1125 percent who had gpa between 3.00 and 3.24 0.11296738265712013 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_top25_pct": {
+      "value": 0.47022332506203474,
+      "quote": "percent in top quarter of high school graduating class 0.47022332506203474 c.1126 percent who had gpa between 2.50 and 2.99 0.12171837708830549 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_submit_pct": {
+      "value": 0.6032934131736527,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.6032934131736527 c.1130 total 1 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "gpa_400_pct": {
+      "value": 0.19888623707239458,
+      "quote": "percent who had gpa of 4.0 0.19888623707239458 0.19888623707239458 c.1305 can on-line application fee be waived for applicants with financial need? first-time, first-year admission admission policies application fee undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_375_pct": {
+      "value": 0.22275258552108193,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.22275258552108193 0.22275258552108193 c.1401 does your institution have an application closing date? no first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_350_pct": {
+      "value": 0.17740652346857597,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.17740652346857597 0.17740652346857597 c.1402 application closing date (fall): month first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_325_pct": {
+      "value": 0.13365155131264916,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.13365155131264916 0.13365155131264916 c.1403 application closing date (fall): day first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "gpa_300_pct": {
+      "value": 0.11296738265712013,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.11296738265712013 0.11296738265712013 c.1404 priority date: month first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_250_pct": {
+      "value": 0.12171837708830549,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.12171837708830549 0.12171837708830549 c.1405 priority date: day first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "gpa_200_pct": {
+      "value": 0.031821797931583136,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.031821797931583136 0.031821797931583136 c.1501 are first-time, first-year students accepted for terms other than the fall? yes first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_100_pct": {
+      "value": 0.0007955449482895784,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0007955449482895784 0.0007955449482895784 c.1601 yes, on a rolling basis: first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all x"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 c.1602 beginning date: month first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_submit_pct": {
+      "value": 0.9408682634730539,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 0.9408682634730539 c.1606 date: day first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    }
+  },
+  "concerns": null
+}

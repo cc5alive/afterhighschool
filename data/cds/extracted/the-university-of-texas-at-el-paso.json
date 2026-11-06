@@ -1,0 +1,46 @@
+{
+  "slug": "the-university-of-texas-at-el-paso",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.utep.edu/planning/cierp/_Files/docs/common-data-set/CDS%202025-26%20-Masked%20-%20v2.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "gpa_400_pct": {
+      "value": 0,
+      "quote": "percent who had gpa of 4.0 0.00% 0.16% 0.16%"
+    },
+    "gpa_below1_pct": {
+      "value": 0.05,
+      "quote": "percent who had gpa below 1.0 0.05% 0.18% 0.24%"
+    },
+    "sat_p25": {
+      "value": 850,
+      "quote": "sat composite 850 950 1050"
+    },
+    "sat_p50": {
+      "value": 950,
+      "quote": "sat composite 850 950 1050"
+    },
+    "sat_p75": {
+      "value": 1050,
+      "quote": "sat composite 850 950 1050"
+    },
+    "act_p25": {
+      "value": 15,
+      "quote": "act composite 15 19 22"
+    },
+    "act_p50": {
+      "value": 19,
+      "quote": "act composite 15 19 22"
+    },
+    "act_p75": {
+      "value": 22,
+      "quote": "act composite 15 19 22"
+    }
+  },
+  "concerns": null
+}

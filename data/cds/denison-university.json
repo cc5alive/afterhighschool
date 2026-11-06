@@ -1,19 +1,36 @@
 {
   "slug": "denison-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Denison University Common Data Set, 2024-2025",
+    "title": "Common Data Set",
     "url": "https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf"
   },
   "builtAt": "2026-11-06",
   "values": {
-    "act_p25": 30,
-    "act_p50": 31,
-    "act_p75": 33
+    "applied_total": 12202,
+    "admitted_total": 2385,
+    "enrolled_total": 623,
+    "waitlist_admitted": 31,
+    "sat_p25": 1270,
+    "sat_p50": 1400,
+    "sat_p75": 1420,
+    "rank_top10_pct": 45,
+    "rank_top25_pct": 78,
+    "ed_applied": 1589,
+    "ed_admitted": 394,
+    "ed_offered": "yes"
   },
   "basis": {
-    "act_p25": "gemini",
-    "act_p50": "gemini",
-    "act_p75": "gemini"
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "gemini",
+    "sat_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader"
   }
 }

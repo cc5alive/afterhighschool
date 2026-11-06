@@ -1,0 +1,49 @@
+{
+  "slug": "commonwealth-university-of-pennsylvania",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.commonwealthu.edu/offices-directory/institutional-effectiveness/institutional-research/common-data-set-2025-2026"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 8055,
+    "admitted_total": 7346,
+    "enrolled_total": 2084,
+    "sat_p25": 980,
+    "sat_p50": 1090,
+    "sat_p75": 1190,
+    "act_p25": 21,
+    "act_p50": 23,
+    "act_p75": 26,
+    "gpa_400_pct": 8.1,
+    "gpa_375_pct": 18.2,
+    "gpa_350_pct": 24.8,
+    "gpa_325_pct": 12.6,
+    "gpa_300_pct": 13.8,
+    "gpa_250_pct": 15.8,
+    "gpa_200_pct": 6.3,
+    "gpa_100_pct": 0.4,
+    "gpa_below1_pct": 0
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader"
+  }
+}

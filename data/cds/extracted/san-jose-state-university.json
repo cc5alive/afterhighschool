@@ -1,0 +1,162 @@
+{
+  "slug": "san-jose-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 37124,
+      "quote": "total first-time, first-year (degree-seeking) who applied 34882 1432 810 0 37124"
+    },
+    "admitted_total": {
+      "value": 29845,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 28137 1070 638 0 29845"
+    },
+    "enrolled_total": {
+      "value": 4943,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 4750 76 117 0 4943"
+    },
+    "gpa_400_pct": {
+      "value": 20.6,
+      "quote": "percent who had gpa of 4.0 20.6% 16.7% 17.1%"
+    },
+    "gpa_375_pct": {
+      "value": 21.2,
+      "quote": "percent who had gpa between 3.75 and 3.99 21.2% 17.3% 17.6%"
+    },
+    "gpa_350_pct": {
+      "value": 19.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 19.1% 20.1% 20.0%"
+    },
+    "gpa_325_pct": {
+      "value": 17.6,
+      "quote": "percent who had gpa between 3.25 and 3.49 17.6% 18.7% 18.6%"
+    },
+    "gpa_300_pct": {
+      "value": 13.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 13.1% 13.4% 13.4%"
+    },
+    "gpa_250_pct": {
+      "value": 7.8,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.8% 13.3% 12.8%"
+    },
+    "gpa_200_pct": {
+      "value": 0.9,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.9% 0.4% 0.5%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.0% 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% 0.0% 0.0%"
+    },
+    "gpa_submit_pct": {
+      "value": 99.41,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.41%"
+    },
+    "sat_p25": {
+      "value": 1010,
+      "quote": "sat composite 1010 1160 1270"
+    },
+    "sat_p50": {
+      "value": 1160,
+      "quote": "sat composite 1010 1160 1270"
+    },
+    "sat_p75": {
+      "value": 1270,
+      "quote": "sat composite 1010 1160 1270"
+    },
+    "act_p25": {
+      "value": 17,
+      "quote": "act composite 17 23 27"
+    },
+    "act_p50": {
+      "value": 23,
+      "quote": "act composite 17 23 27"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "act composite 17 23 27"
+    },
+    "factor_rigor": {
+      "value": "Not Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Important",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

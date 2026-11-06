@@ -1,0 +1,82 @@
+{
+  "slug": "denison-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 12202,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1574 4987 5641 0 12202"
+    },
+    "admitted_total": {
+      "value": 2385,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 500 1455 430 0 2385"
+    },
+    "enrolled_total": {
+      "value": 623,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 151 410 62 0 623"
+    },
+    "waitlist_admitted": {
+      "value": 31,
+      "quote": "number of wait-listed students admitted: 31"
+    },
+    "rank_top10_pct": {
+      "value": 45,
+      "quote": "percent in top tenth of high school graduating class 45.00"
+    },
+    "rank_top25_pct": {
+      "value": 78,
+      "quote": "percent in top quarter of high school graduating class 78.00"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00 0.00 0.00"
+    },
+    "gpa_submit_pct": {
+      "value": 5,
+      "quote": "percent submitting gpa common data set 202 5 -202 6"
+    },
+    "ed_applied": {
+      "value": 1589,
+      "quote": "number of early decision applications received by your institution: 1,589"
+    },
+    "ed_admitted": {
+      "value": 394,
+      "quote": "number of applicants admitted under early decision plan: 394"
+    },
+    "sat_p25": {
+      "value": 1270,
+      "quote": "sat composite 1270 1360 1420"
+    },
+    "sat_p50": {
+      "value": 1360,
+      "quote": "sat composite 1270 1360 1420"
+    },
+    "sat_p75": {
+      "value": 1420,
+      "quote": "sat composite 1270 1360 1420"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 28 31 33"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

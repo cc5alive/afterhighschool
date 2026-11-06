@@ -1,0 +1,38 @@
+{
+  "slug": "university-of-california-los-angeles",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://apb.ucla.edu/file/f8f5c864-93be-4b44-b646-7807a685749f"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0"
+    },
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 0"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 0"
+    },
+    "waitlist_admitted": {
+      "value": 1514,
+      "quote": "number of wait-listed students admitted: 1514"
+    },
+    "gpa_average": {
+      "value": 3.94,
+      "quote": "average high school gpa 3.94"
+    },
+    "gpa_submit_pct": {
+      "value": 99.8,
+      "quote": "percent submitting gpa 99.80"
+    }
+  },
+  "concerns": null
+}

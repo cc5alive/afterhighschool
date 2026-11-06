@@ -1,0 +1,118 @@
+{
+  "slug": "santa-clara-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.scu.edu/media/offices/institutional-research/ff/common-data-set/rba13-Common_Data_Set_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 20032,
+      "quote": "total first-time, first-year (degree-seeking) who applied 10205 7213 2604 10 20032"
+    },
+    "admitted_total": {
+      "value": 9592,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 4923 3921 745 3 9592"
+    },
+    "enrolled_total": {
+      "value": 1641,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 956 541 142 2 1641"
+    },
+    "waitlist_admitted": {
+      "value": 263,
+      "quote": "number of wait-listed students admitted: 263"
+    },
+    "rank_top10_pct": {
+      "value": 47,
+      "quote": "percent in top tenth of high school graduating class 47.00"
+    },
+    "rank_top25_pct": {
+      "value": 74,
+      "quote": "percent in top quarter of high school graduating class 74.00"
+    },
+    "gpa_400_pct": {
+      "value": 13,
+      "quote": "percent who had gpa of 4.0 13.00 9.00 10.43"
+    },
+    "gpa_375_pct": {
+      "value": 47,
+      "quote": "percent who had gpa between 3.75 and 3.99 47.00 41.00 43.42"
+    },
+    "gpa_350_pct": {
+      "value": 25,
+      "quote": "percent who had gpa between 3.50 and 3.74 25.00 31.00 28.60"
+    },
+    "gpa_325_pct": {
+      "value": 12,
+      "quote": "percent who had gpa between 3.25 and 3.49 12.00 14.00 13.41"
+    },
+    "gpa_300_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 3.00 and 3.24 3.00 4.00 3.41"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 0 1.00 0.73"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0 0 0"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 0"
+    },
+    "gpa_average": {
+      "value": 3.72,
+      "quote": "average high school gpa 3.72"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.00"
+    },
+    "ed_applied": {
+      "value": 611,
+      "quote": "number of early decision applications received by your institution: 611"
+    },
+    "ed_admitted": {
+      "value": 467,
+      "quote": "number of applicants admitted under early decision plan: 467"
+    },
+    "sat_p25": {
+      "value": 1330,
+      "quote": "sat composite 1330 1410 1470"
+    },
+    "sat_p50": {
+      "value": 1410,
+      "quote": "sat composite 1330 1410 1470"
+    },
+    "sat_p75": {
+      "value": 1470,
+      "quote": "sat composite 1330 1410 1470"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 29 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 29 31 33"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

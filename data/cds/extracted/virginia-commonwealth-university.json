@@ -1,0 +1,54 @@
+{
+  "slug": "virginia-commonwealth-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://irds.vcu.edu/media/decision-support/pdf/commondatasets/VirginiaCommonwealthUniversityCDSFinalADA.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "sat_submit_pct": {
+      "value": 85,
+      "quote": "percent submitting sat scores 85% number submitting sat scores 38 05"
+    },
+    "rank_top10_pct": {
+      "value": 18.35,
+      "quote": "percent in top tenth of high school graduating class 18.35"
+    },
+    "rank_top25_pct": {
+      "value": 45.03,
+      "quote": "percent in top quarter of high school graduating class 45.03"
+    },
+    "gpa_400_pct": {
+      "value": 27.11,
+      "quote": "percent who had gpa of 4.0 27.11"
+    },
+    "gpa_375_pct": {
+      "value": 3.99,
+      "quote": "percent who had gpa between 3.75 and 3.99 18.08"
+    },
+    "gpa_325_pct": {
+      "value": 16.57,
+      "quote": "percent who had gpa between 3.25 and 3.49 16.57"
+    },
+    "gpa_300_pct": {
+      "value": 11.34,
+      "quote": "percent who had gpa between 3.00 and 3.24 11.34"
+    },
+    "gpa_200_pct": {
+      "value": 0.3,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.30"
+    },
+    "gpa_100_pct": {
+      "value": 0.02,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.02"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    }
+  },
+  "concerns": null
+}

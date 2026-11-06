@@ -1,0 +1,106 @@
+{
+  "slug": "case-western-reserve-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 39332,
+      "quote": "total first-time, first-year (degree-seeking) who applied 3596 24624 11112 39332"
+    },
+    "admitted_total": {
+      "value": 13890,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 972 10558 2360 13890"
+    },
+    "enrolled_total": {
+      "value": 1663,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 210 1333 120 1663"
+    },
+    "waitlist_admitted": {
+      "value": 688,
+      "quote": "number of wait-listed students admitted: 688"
+    },
+    "rank_top10_pct": {
+      "value": 70,
+      "quote": "percent in top tenth of high school graduating class 70%"
+    },
+    "rank_top25_pct": {
+      "value": 93,
+      "quote": "percent in top quarter of high school graduating class 93%"
+    },
+    "gpa_400_pct": {
+      "value": 19,
+      "quote": "percent who had gpa of 4.0 19.0% 9.9% 16.4%"
+    },
+    "gpa_375_pct": {
+      "value": 48.7,
+      "quote": "percent who had gpa between 3.75 and 3.99 48.7% 46.7% 48.2%"
+    },
+    "gpa_350_pct": {
+      "value": 23.9,
+      "quote": "percent who had gpa between 3.50 and 3.74 23.9% 30.5% 25.7%"
+    },
+    "gpa_325_pct": {
+      "value": 6.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 6.7% 10.3% 7.7%"
+    },
+    "gpa_300_pct": {
+      "value": 1.4,
+      "quote": "percent who had gpa between 3.00 and 3.24 1.4% 2.1% 1.7%"
+    },
+    "gpa_250_pct": {
+      "value": 0.3,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.3% 0.5% 0.3%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100.00% 100.00% 100.00%"
+    },
+    "gpa_average": {
+      "value": 3.78,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year c12 3.78"
+    },
+    "ed_applied": {
+      "value": 1053,
+      "quote": "number of early decision applications received by your institution 1053"
+    },
+    "ed_admitted": {
+      "value": 263,
+      "quote": "number of applicants admitted under early decision plan 263"
+    },
+    "sat_p25": {
+      "value": 1440,
+      "quote": "sat composite 1440 1490 1530"
+    },
+    "sat_p50": {
+      "value": 1490,
+      "quote": "sat composite 1440 1490 1530"
+    },
+    "sat_p75": {
+      "value": 1530,
+      "quote": "sat composite 1440 1490 1530"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 32 33 34"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

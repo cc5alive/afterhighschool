@@ -1,0 +1,150 @@
+{
+  "slug": "lehigh-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 19342,
+      "quote": "total first-time, first-year (degree-seeking) who applied 3090 12070 4182 19342"
+    },
+    "admitted_total": {
+      "value": 5601,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1010 4415 176 5601"
+    },
+    "enrolled_total": {
+      "value": 1535,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 352 1112 71 1535"
+    },
+    "waitlist_admitted": {
+      "value": 80,
+      "quote": "number of wait-listed students admitted: 80"
+    },
+    "rank_top10_pct": {
+      "value": 60,
+      "quote": "percent in top tenth of high school graduating class 60.00%"
+    },
+    "rank_top25_pct": {
+      "value": 86.76,
+      "quote": "percent in top quarter of high school graduating class 86.76%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
+    },
+    "ed_applied": {
+      "value": 2040,
+      "quote": "number of early decision applications received by your institution 2040"
+    },
+    "ed_admitted": {
+      "value": 966,
+      "quote": "number of applicants admitted under early decision plan 966"
+    },
+    "sat_p25": {
+      "value": 1380,
+      "quote": "sat composite 1380 1430 1480"
+    },
+    "sat_p50": {
+      "value": 1430,
+      "quote": "sat composite 1380 1430 1480"
+    },
+    "sat_p75": {
+      "value": 1480,
+      "quote": "sat composite 1380 1430 1480"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "act composite 31 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 31 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 31 33 34"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

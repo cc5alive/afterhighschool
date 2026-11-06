@@ -1,0 +1,42 @@
+{
+  "slug": "macalester-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.macalester.edu/institutional-research/wp-content/uploads/sites/515/CDS_2025-2026_Macalester-College_completed-1.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 82,
+      "quote": "number of wait-listed students admitted: 82"
+    },
+    "rank_top10_pct": {
+      "value": 53,
+      "quote": "percent in top tenth of high school graduating class 53"
+    },
+    "rank_top25_pct": {
+      "value": 89,
+      "quote": "percent in top quarter of high school graduating class 89"
+    },
+    "gpa_submit_pct": {
+      "value": 5,
+      "quote": "percent submitting gpa common data set 202 5 -202 6"
+    },
+    "ed_applied": {
+      "value": 479,
+      "quote": "number of early decision applications received by your institution: 479"
+    },
+    "ed_admitted": {
+      "value": 201,
+      "quote": "number of applicants admitted under early decision plan: 201"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

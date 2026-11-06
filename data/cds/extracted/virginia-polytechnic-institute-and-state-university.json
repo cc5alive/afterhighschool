@@ -1,0 +1,146 @@
+{
+  "slug": "virginia-polytechnic-institute-and-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://aie.vt.edu/content/dam/aie_vt_edu/common-data-set/25-26/2025-2026-CDS.xlsx"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 57755,
+      "quote": "total first-time, first-year (degree-seeking) who applied 20900 31104 5751 57755 c.206 if yes, do you release that information to students? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "admitted_total": {
+      "value": 31515,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 9893 18311 3311 31515 c.207 do you release that information to school counselors? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "enrolled_total": {
+      "value": 7133,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 4439 2368 326 7133 c.301 high school completion requirement high school diploma is required and ged is not accepted first-time, first-year admission admissions requirements high school completion undergraduates first-time, first-year all all all x"
+    },
+    "waitlist_admitted": {
+      "value": 4295,
+      "quote": "number of wait-listed students admitted: 4295 c.514 english first-time, first-year admission admissions requirements high school units recommended undergraduates first-time, first-year all all all carnegie units"
+    },
+    "rank_top10_pct": {
+      "value": 0.01,
+      "quote": "percent in top tenth of high school graduating class c.1125 percent who had gpa between 3.00 and 3.24 0.01 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_submit_pct": {
+      "value": 1,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: c.1130 total 1 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "gpa_400_pct": {
+      "value": 0.75,
+      "quote": "percent who had gpa of 4.0 0.75 0.58 0.67 c.1305 can on-line application fee be waived for applicants with financial need? yes first-time, first-year admission admission policies application fee undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_375_pct": {
+      "value": 0.14,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.14 0.22 0.18 c.1401 does your institution have an application closing date? yes first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_350_pct": {
+      "value": 0.07,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.07 0.13 0.1 c.1402 application closing date (fall): month 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_325_pct": {
+      "value": 0.03,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.03 0.05 0.04 c.1403 application closing date (fall): day 15 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "gpa_300_pct": {
+      "value": 0.01,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.01 0.01 c.1404 priority date: month 11 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_250_pct": {
+      "value": 0.01,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.01 0.01 c.1405 priority date: day 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "gpa_submit_pct": {
+      "value": 0.97,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 0.97 c.1606 date: day 28 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 30 32 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 28 30 32 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 28 30 32 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Very Important",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Very Important",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Very Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

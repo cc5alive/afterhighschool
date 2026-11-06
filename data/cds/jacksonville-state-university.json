@@ -1,0 +1,39 @@
+{
+  "slug": "jacksonville-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://jsu.edu/ire/common-data-set/2025_2026-cds-jacksonville-state-university.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "rank_top10_pct": 17.22,
+    "rank_top25_pct": 37.75,
+    "gpa_400_pct": 30.2,
+    "gpa_375_pct": 7.2,
+    "gpa_350_pct": 17.7,
+    "gpa_325_pct": 12.3,
+    "gpa_300_pct": 13.1,
+    "gpa_250_pct": 11.7,
+    "gpa_200_pct": 7.7,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.45,
+    "gpa_submit_pct": 85.25
+  },
+  "basis": {
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

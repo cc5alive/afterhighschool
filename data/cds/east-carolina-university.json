@@ -1,0 +1,47 @@
+{
+  "slug": "east-carolina-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ipar.ecu.edu/wp-content/pv-uploads/sites/130/CDS_2024-2025_Redacted.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_p25": 1060,
+    "sat_p50": 1150,
+    "sat_p75": 1220,
+    "act_p25": 19,
+    "act_p50": 22,
+    "act_p75": 25,
+    "rank_top10_pct": 11,
+    "rank_top25_pct": 31,
+    "gpa_400_pct": 2.71,
+    "gpa_375_pct": 14.67,
+    "gpa_350_pct": 17.46,
+    "gpa_325_pct": 17.96,
+    "gpa_300_pct": 18.88,
+    "gpa_250_pct": 26.92,
+    "gpa_200_pct": 1.39,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0
+  },
+  "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader"
+  }
+}

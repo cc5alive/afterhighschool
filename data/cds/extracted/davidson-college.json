@@ -1,0 +1,82 @@
+{
+  "slug": "davidson-college",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.davidson.edu/media/9718/download?attachment"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 8933,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1402 3957 3574 8933"
+    },
+    "admitted_total": {
+      "value": 1127,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 85 234 808 1127"
+    },
+    "enrolled_total": {
+      "value": 531,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 93 386 52 531"
+    },
+    "waitlist_admitted": {
+      "value": 28,
+      "quote": "number of wait-listed students admitted: 28"
+    },
+    "rank_top10_pct": {
+      "value": 80,
+      "quote": "percent in top tenth of high school graduating class 80"
+    },
+    "rank_top25_pct": {
+      "value": 20,
+      "quote": "percent in top quarter of high school graduating class 20"
+    },
+    "gpa_400_pct": {
+      "value": 40.91,
+      "quote": "percent who had gpa of 4.0 40.91 35.42"
+    },
+    "gpa_375_pct": {
+      "value": 34.3,
+      "quote": "percent who had gpa between 3.75 and 3.99 34.30 31.60"
+    },
+    "gpa_350_pct": {
+      "value": 23.14,
+      "quote": "percent who had gpa between 3.50 and 3.74 23.14 26.39"
+    },
+    "gpa_325_pct": {
+      "value": 1.65,
+      "quote": "percent who had gpa between 3.25 and 3.49 1.65 4.86"
+    },
+    "gpa_300_pct": {
+      "value": 1.73,
+      "quote": "percent who had gpa between 3.00 and 3.24 1.73"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100 100 0"
+    },
+    "gpa_average": {
+      "value": 3.85,
+      "quote": "average high school gpa 3.85"
+    },
+    "gpa_submit_pct": {
+      "value": 99.81,
+      "quote": "percent submitting gpa 99.81"
+    },
+    "ed_applied": {
+      "value": 1232,
+      "quote": "number of early decision applications received by your institution: 1232"
+    },
+    "ed_admitted": {
+      "value": 358,
+      "quote": "number of applicants admitted under early decision plan: 358"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

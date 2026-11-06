@@ -2,7 +2,7 @@
   "slug": "babson-college",
   "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set 2024-2025 - Babson College",
+    "title": "Common Data Set",
     "url": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf"
   },
   "builtAt": "2026-11-06",
@@ -26,12 +26,12 @@
     "ed_offered": "yes"
   },
   "basis": {
-    "applied_total": "gemini",
-    "admitted_total": "gemini",
-    "enrolled_total": "gemini",
+    "applied_total": "both",
+    "admitted_total": "both",
+    "enrolled_total": "both",
     "waitlist_offered": "gemini",
     "waitlist_accepted": "gemini",
-    "waitlist_admitted": "gemini",
+    "waitlist_admitted": "both",
     "sat_submit_pct": "gemini",
     "act_submit_pct": "gemini",
     "sat_p25": "gemini",
@@ -40,7 +40,7 @@
     "act_p25": "gemini",
     "act_p50": "gemini",
     "act_p75": "gemini",
-    "ed_applied": "gemini",
-    "ed_admitted": "gemini"
+    "ed_applied": "both",
+    "ed_admitted": "both"
   }
 }

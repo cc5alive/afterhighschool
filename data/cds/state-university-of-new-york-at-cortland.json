@@ -1,0 +1,47 @@
+{
+  "slug": "state-university-of-new-york-at-cortland",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www2.cortland.edu/offices/institutional-research-and-assessment/file-uploads/common-data-sets/CDS_2025-2026_SUNY_Cortland.xlsx"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 18352,
+    "admitted_total": 11451,
+    "enrolled_total": 1353,
+    "waitlist_admitted": 211,
+    "rank_top10_pct": 0.14,
+    "rank_top25_pct": 0.4,
+    "rank_submit_pct": 0.386,
+    "gpa_400_pct": 4.47,
+    "gpa_375_pct": 16.87,
+    "gpa_350_pct": 17.99,
+    "gpa_325_pct": 17.53,
+    "gpa_300_pct": 14.68,
+    "gpa_250_pct": 18.72,
+    "gpa_200_pct": 7.06,
+    "gpa_100_pct": 2.68,
+    "gpa_below1_pct": 0,
+    "factor_rigor": "Not Considered"
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "rank_submit_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "factor_rigor": "reader"
+  }
+}

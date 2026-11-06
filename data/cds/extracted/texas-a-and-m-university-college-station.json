@@ -1,0 +1,66 @@
+{
+  "slug": "texas-a-and-m-university-college-station",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://abpa.tamu.edu/accountability-rankings/common-data-set.html"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "html",
+  "values": {
+    "applied_total": {
+      "value": 62967,
+      "quote": "total first-time, first-year (degree-seeking) who applied 49,156 10,882 2,929 0 62,967"
+    },
+    "admitted_total": {
+      "value": 32531,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 26,620 4,489 1,422 0 32,531"
+    },
+    "enrolled_total": {
+      "value": 12484,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 11,694 632 158 0 12,484"
+    },
+    "rank_top10_pct": {
+      "value": 71.56,
+      "quote": "percent in top tenth of high school graduating class 71.56"
+    },
+    "rank_top25_pct": {
+      "value": 93.14,
+      "quote": "percent in top quarter of high school graduating class 93.14"
+    },
+    "rank_submit_pct": {
+      "value": 72.15,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 72.15"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 n/a n/a n/a totals should = 100% 0.00 0.00 0.00"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "sat composite 1160 1280 1390"
+    },
+    "sat_p50": {
+      "value": 1280,
+      "quote": "sat composite 1160 1280 1390"
+    },
+    "sat_p75": {
+      "value": 1390,
+      "quote": "sat composite 1160 1280 1390"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "act composite 24 28 32"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 24 28 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 24 28 32"
+    }
+  },
+  "concerns": null
+}

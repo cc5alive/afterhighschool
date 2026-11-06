@@ -1,0 +1,86 @@
+{
+  "slug": "state-university-of-new-york-at-cortland",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www2.cortland.edu/offices/institutional-research-and-assessment/file-uploads/common-data-sets/CDS_2025-2026_SUNY_Cortland.xlsx"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 18352,
+      "quote": "total first-time, first-year (degree-seeking) who applied 16712 711 85 844 18352 c.206 if yes, do you release that information to students? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "admitted_total": {
+      "value": 11451,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 10429 618 48 356 11451 c.207 do you release that information to school counselors? no first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "enrolled_total": {
+      "value": 1353,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1282 63 8 0 1353 c.301 high school completion requirement high school diploma is required and ged is accepted first-time, first-year admission admissions requirements high school completion undergraduates first-time, first-year all all all x"
+    },
+    "waitlist_admitted": {
+      "value": 211,
+      "quote": "number of wait-listed students admitted: 211 c.514 english 4 first-time, first-year admission admissions requirements high school units recommended undergraduates first-time, first-year all all all carnegie units"
+    },
+    "rank_top10_pct": {
+      "value": 0.14,
+      "quote": "percent in top tenth of high school graduating class 0.14 c.1125 percent who had gpa between 3.00 and 3.24 0.1833 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_top25_pct": {
+      "value": 0.4,
+      "quote": "percent in top quarter of high school graduating class 0.4 c.1126 percent who had gpa between 2.50 and 2.99 0.0798 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_submit_pct": {
+      "value": 0.386,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.386 c.1130 total 1 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "gpa_400_pct": {
+      "value": 0.0447,
+      "quote": "percent who had gpa of 4.0 0.0447 0.0407 c.1305 can on-line application fee be waived for applicants with financial need? yes first-time, first-year admission admission policies application fee undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_375_pct": {
+      "value": 0.1687,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.1687 0.1744 c.1401 does your institution have an application closing date? no first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_350_pct": {
+      "value": 0.1799,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.1799 0.269 c.1402 application closing date (fall): month first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_325_pct": {
+      "value": 0.1753,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.1753 0.2476 c.1403 application closing date (fall): day first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "gpa_300_pct": {
+      "value": 0.1468,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.1468 0.1833 c.1404 priority date: month 12 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_250_pct": {
+      "value": 0.1872,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.1872 0.0798 c.1405 priority date: day 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "gpa_200_pct": {
+      "value": 0.0706,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0706 0.0052 c.1501 are first-time, first-year students accepted for terms other than the fall? yes first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
+    },
+    "gpa_100_pct": {
+      "value": 0.0268,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0268 0 c.1601 yes, on a rolling basis: ü first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all x"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 c.1602 beginning date: month first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_submit_pct": {
+      "value": 0.9885,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 0.9885 c.1606 date: day first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "factor_rigor": {
+      "value": "Not Considered",
+      "quote": "Rigor of secondary school record"
+    }
+  },
+  "concerns": null
+}

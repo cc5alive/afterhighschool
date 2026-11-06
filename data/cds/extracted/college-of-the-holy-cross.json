@@ -1,0 +1,94 @@
+{
+  "slug": "college-of-the-holy-cross",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.holycross.edu/document/common-data-set-20232024"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 38,
+      "quote": "percent in top tenth of high school graduating class 38%"
+    },
+    "rank_top25_pct": {
+      "value": 69,
+      "quote": "percent in top quarter of high school graduating class 69%"
+    },
+    "gpa_400_pct": {
+      "value": 4,
+      "quote": "percent who had gpa of 4.0"
+    },
+    "gpa_375_pct": {
+      "value": 3.75,
+      "quote": "percent who had gpa between 3.75 and 3.99"
+    },
+    "gpa_350_pct": {
+      "value": 3.5,
+      "quote": "percent who had gpa between 3.50 and 3.74"
+    },
+    "gpa_325_pct": {
+      "value": 3.25,
+      "quote": "percent who had gpa between 3.25 and 3.49"
+    },
+    "gpa_300_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 3.00 and 3.24"
+    },
+    "gpa_250_pct": {
+      "value": 2.5,
+      "quote": "percent who had gpa between 2.50 and 2.99"
+    },
+    "gpa_200_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 2.0 and 2.49"
+    },
+    "gpa_100_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 1.0 and 1.99"
+    },
+    "gpa_below1_pct": {
+      "value": 1,
+      "quote": "percent who had gpa below 1.0"
+    },
+    "ed_applied": {
+      "value": 761,
+      "quote": "number of early decision applications received by your institution: 761"
+    },
+    "ed_admitted": {
+      "value": 511,
+      "quote": "number of applicants admitted under early decision plan: 511"
+    },
+    "sat_p25": {
+      "value": 1270,
+      "quote": "sat composite (400 ‐ 1600) 1270 1340 1420"
+    },
+    "sat_p50": {
+      "value": 1340,
+      "quote": "sat composite (400 ‐ 1600) 1270 1340 1420"
+    },
+    "sat_p75": {
+      "value": 1420,
+      "quote": "sat composite (400 ‐ 1600) 1270 1340 1420"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite (0 ‐ 36) 28 30 32"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite (0 ‐ 36) 28 30 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite (0 ‐ 36) 28 30 32"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

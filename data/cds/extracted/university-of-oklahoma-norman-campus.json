@@ -1,0 +1,66 @@
+{
+  "slug": "university-of-oklahoma-norman-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ou.edu/content/dam/irr/docs/common-data-sets/norman-campus-only/2025-26-nc/University%20of%20Oklahoma,%202025-26%20CDS.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 1553,
+      "quote": "total first-time, first-year who applied 29195 6694 20948 1553"
+    },
+    "enrolled_total": {
+      "value": 139,
+      "quote": "total first-time, first-year who enrolled 6229 2927 3163 139"
+    },
+    "waitlist_admitted": {
+      "value": 133,
+      "quote": "number of wait-listed students admitted: 133"
+    },
+    "rank_top10_pct": {
+      "value": 29.7,
+      "quote": "percent in top tenth of high school graduating class 29.7%"
+    },
+    "rank_top25_pct": {
+      "value": 58.3,
+      "quote": "percent in top quarter of high school graduating class 58.3%"
+    },
+    "gpa_400_pct": {
+      "value": 11.4,
+      "quote": "percent who had gpa of 4.0 11.40%"
+    },
+    "gpa_375_pct": {
+      "value": 31.4,
+      "quote": "percent who had gpa between 3.75 and 3.99 31.40%"
+    },
+    "gpa_350_pct": {
+      "value": 26.8,
+      "quote": "percent who had gpa between 3.50 and 3.74 26.80%"
+    },
+    "gpa_325_pct": {
+      "value": 18.5,
+      "quote": "percent who had gpa between 3.25 and 3.49 18.50%"
+    },
+    "gpa_300_pct": {
+      "value": 10.3,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.30%"
+    },
+    "gpa_250_pct": {
+      "value": 1.6,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.60%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 100.00%"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 100.00%"
+    }
+  },
+  "concerns": null
+}

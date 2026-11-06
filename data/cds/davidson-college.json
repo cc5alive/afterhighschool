@@ -1,0 +1,40 @@
+{
+  "slug": "davidson-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.davidson.edu/media/9718/download?attachment"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 8933,
+    "admitted_total": 1127,
+    "enrolled_total": 531,
+    "waitlist_admitted": 28,
+    "gpa_400_pct": 40.91,
+    "gpa_375_pct": 34.3,
+    "gpa_350_pct": 23.14,
+    "gpa_325_pct": 1.65,
+    "gpa_300_pct": 1.73,
+    "gpa_average": 3.85,
+    "gpa_submit_pct": 99.81,
+    "ed_applied": 1232,
+    "ed_admitted": 358,
+    "ed_offered": "yes"
+  },
+  "basis": {
+    "applied_total": "both",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader"
+  }
+}

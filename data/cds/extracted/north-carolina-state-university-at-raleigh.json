@@ -1,0 +1,66 @@
+{
+  "slug": "north-carolina-state-university-at-raleigh",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2025-26.v1.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 49350,
+      "quote": "total first-time, first-year (degree-seeking) who applied 24141 3357 21852 49350"
+    },
+    "admitted_total": {
+      "value": 19510,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 7508 11157 845 19510"
+    },
+    "enrolled_total": {
+      "value": 5774,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4864 165 745 5774"
+    },
+    "waitlist_admitted": {
+      "value": 476,
+      "quote": "number of wait-listed students admitted: 476"
+    },
+    "rank_top10_pct": {
+      "value": 41,
+      "quote": "percent in top tenth of high school graduating class 41"
+    },
+    "rank_top25_pct": {
+      "value": 78,
+      "quote": "percent in top quarter of high school graduating class 78"
+    },
+    "gpa_400_pct": {
+      "value": 19.93,
+      "quote": "percent who had gpa of 4.0 19.93"
+    },
+    "gpa_375_pct": {
+      "value": 58.27,
+      "quote": "percent who had gpa between 3.75 and 3.99 58.27"
+    },
+    "gpa_350_pct": {
+      "value": 18.89,
+      "quote": "percent who had gpa between 3.50 and 3.74 18.89"
+    },
+    "gpa_325_pct": {
+      "value": 2.26,
+      "quote": "percent who had gpa between 3.25 and 3.49 2.26"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 100"
+    },
+    "gpa_average": {
+      "value": 3.84,
+      "quote": "average high school gpa 3.84"
+    },
+    "gpa_submit_pct": {
+      "value": 98.11,
+      "quote": "percent submitting gpa 98.11"
+    }
+  },
+  "concerns": null
+}

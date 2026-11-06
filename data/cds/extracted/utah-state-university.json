@@ -1,0 +1,58 @@
+{
+  "slug": "utah-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.usu.edu/oda/files/common-data-sets/CDS2025-26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 22,
+      "quote": "percent in top tenth of high school graduating class 22%"
+    },
+    "rank_top25_pct": {
+      "value": 45,
+      "quote": "percent in top quarter of high school graduating class 45%"
+    },
+    "gpa_400_pct": {
+      "value": 12.5,
+      "quote": "percent who had gpa of 4.0 12.50%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.6,
+      "quote": "average high school gpa of all degree - seeking, first - time, c12 3.6"
+    },
+    "sat_p25": {
+      "value": 1090,
+      "quote": "sat composite 1090 1190 1310"
+    },
+    "sat_p50": {
+      "value": 1190,
+      "quote": "sat composite 1090 1190 1310"
+    },
+    "sat_p75": {
+      "value": 1310,
+      "quote": "sat composite 1090 1190 1310"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite 20 24 27"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "act composite 20 24 27"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "act composite 20 24 27"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "pennsylvania-state-university-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://opair.psu.edu/files/2026/09/CDS_2025_2026_UniversityPark_v3.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 106547,
+      "quote": "total first-time, first-year who applied 21321 72861 12365 106547"
+    },
+    "admitted_total": {
+      "value": 58952,
+      "quote": "total first-time, first-year who were admitted 12096 38846 8010 58952"
+    },
+    "enrolled_total": {
+      "value": 9148,
+      "quote": "total first-time, first-year who enrolled 4674 3768 706 9148"
+    },
+    "waitlist_admitted": {
+      "value": 46,
+      "quote": "number of wait-listed students admitted: 46"
+    },
+    "rank_top10_pct": {
+      "value": 37,
+      "quote": "percent in top tenth of high school graduating class 37%"
+    },
+    "rank_top25_pct": {
+      "value": 74,
+      "quote": "percent in top quarter of high school graduating class 74%"
+    },
+    "gpa_400_pct": {
+      "value": 12,
+      "quote": "percent who had gpa of 4.0 12% 6% 8%"
+    },
+    "gpa_375_pct": {
+      "value": 43,
+      "quote": "percent who had gpa between 3.75 and 3.99 43% 35% 38%"
+    },
+    "gpa_350_pct": {
+      "value": 26,
+      "quote": "percent who had gpa between 3.50 and 3.74 26% 32% 29%"
+    },
+    "gpa_325_pct": {
+      "value": 12,
+      "quote": "percent who had gpa between 3.25 and 3.49 12% 18% 16%"
+    },
+    "gpa_300_pct": {
+      "value": 5,
+      "quote": "percent who had gpa between 3.00 and 3.24 5% 7% 6%"
+    },
+    "gpa_250_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 2.50 and 2.99 2% 2% 2%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0% 0% 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100.0% 100.0% 100.0%"
+    },
+    "sat_p25": {
+      "value": 1280,
+      "quote": "sat composite 1280 1340 1410"
+    },
+    "sat_p50": {
+      "value": 1340,
+      "quote": "sat composite 1280 1340 1410"
+    },
+    "sat_p75": {
+      "value": 1410,
+      "quote": "sat composite 1280 1340 1410"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 30 32"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 28 30 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 28 30 32"
+    }
+  },
+  "concerns": null
+}

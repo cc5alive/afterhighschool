@@ -1,0 +1,98 @@
+{
+  "slug": "the-university-of-tennessee-knoxville",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://irsa.utk.edu/wp-content/uploads/sites/5/2026/07/CDS_2025-26_All__-1.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 53841,
+      "quote": "total first-time, first-year (degree-seeking) who applied in-state out-of-state international unknown total 11,980 41,408 452 0 53,841"
+    },
+    "admitted_total": {
+      "value": 23464,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 8,725 14,526 213 0 23,464"
+    },
+    "enrolled_total": {
+      "value": 7143,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 4,326 2,764 53 0 7,143"
+    },
+    "waitlist_admitted": {
+      "value": 134,
+      "quote": "number of wait-listed students admitted: 134"
+    },
+    "rank_top10_pct": {
+      "value": 47,
+      "quote": "percent in top tenth of high school graduating class 47%"
+    },
+    "rank_top25_pct": {
+      "value": 77,
+      "quote": "percent in top quarter of high school graduating class 77%"
+    },
+    "gpa_400_pct": {
+      "value": 80,
+      "quote": "percent who had gpa of 4.0 80% 80.00%"
+    },
+    "gpa_375_pct": {
+      "value": 12,
+      "quote": "percent who had gpa between 3.75 and 3.99 12% 12.00%"
+    },
+    "gpa_350_pct": {
+      "value": 5,
+      "quote": "percent who had gpa between 3.50 and 3.74 5% 5.00%"
+    },
+    "gpa_325_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 3.25 and 3.49 2% 2.00%"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1% 1.00%"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 0% 0.00%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0% 0.00%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0.00%"
+    },
+    "sat_p25": {
+      "value": 1280,
+      "quote": "sat composite 1280 1330 1380"
+    },
+    "sat_p50": {
+      "value": 1330,
+      "quote": "sat composite 1280 1330 1380"
+    },
+    "sat_p75": {
+      "value": 1380,
+      "quote": "sat composite 1280 1330 1380"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 29 31"
+    },
+    "act_p50": {
+      "value": 29,
+      "quote": "act composite 26 29 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 26 29 31"
+    }
+  },
+  "concerns": null
+}

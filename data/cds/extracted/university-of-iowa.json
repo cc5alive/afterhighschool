@@ -1,0 +1,70 @@
+{
+  "slug": "university-of-iowa",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://provost.uiowa.edu/sites/provost.uiowa.edu/files/2025-09/cds_2425_0.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 27770,
+      "quote": "total first-time, first-year (degree-seeking) who applied 5714 20664 1392 0 27770"
+    },
+    "admitted_total": {
+      "value": 23222,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 4978 17627 617 0 23222"
+    },
+    "enrolled_total": {
+      "value": 5208,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2813 2338 57 0 5208"
+    },
+    "waitlist_admitted": {
+      "value": 13,
+      "quote": "number of wait-listed students admitted: 13"
+    },
+    "rank_top10_pct": {
+      "value": 38.46,
+      "quote": "percent in top tenth of high school graduating class 38.46"
+    },
+    "rank_top25_pct": {
+      "value": 74.36,
+      "quote": "percent in top quarter of high school graduating class 74.36"
+    },
+    "gpa_average": {
+      "value": 3.83,
+      "quote": "average high school gpa 3.83"
+    },
+    "gpa_submit_pct": {
+      "value": 99.06,
+      "quote": "percent submitting gpa 99.06"
+    },
+    "sat_p25": {
+      "value": 1140,
+      "quote": "sat composite 1140 1230 1313"
+    },
+    "sat_p50": {
+      "value": 1230,
+      "quote": "sat composite 1140 1230 1313"
+    },
+    "sat_p75": {
+      "value": 1313,
+      "quote": "sat composite 1140 1230 1313"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "act composite 21 24 28"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "act composite 21 24 28"
+    },
+    "act_p75": {
+      "value": 28,
+      "quote": "act composite 21 24 28"
+    }
+  },
+  "concerns": null
+}

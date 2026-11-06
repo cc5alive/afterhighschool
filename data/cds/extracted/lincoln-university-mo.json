@@ -1,0 +1,82 @@
+{
+  "slug": "lincoln-university-mo",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.lincolnu.edu/about-lincoln/oira/common-data-set-2023-2024.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "gpa_400_pct": {
+      "value": 3.6,
+      "quote": "percent who had gpa of 4.0 3.6% 0.0% 6.5%"
+    },
+    "gpa_375_pct": {
+      "value": 8.7,
+      "quote": "percent who had gpa between 3.75 and 3.99 8.7% 2.7% 13.6%"
+    },
+    "gpa_350_pct": {
+      "value": 8.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 8.1% 3.3% 12.0%"
+    },
+    "gpa_325_pct": {
+      "value": 9.6,
+      "quote": "percent who had gpa between 3.25 and 3.49 9.6% 7.3% 11.4%"
+    },
+    "gpa_300_pct": {
+      "value": 12.6,
+      "quote": "percent who had gpa between 3.00 and 3.24 12.6% 14.0% 11.4%"
+    },
+    "gpa_250_pct": {
+      "value": 26.3,
+      "quote": "percent who had gpa between 2.50 and 2.99 26.3% 31.3% 22.3%"
+    },
+    "gpa_200_pct": {
+      "value": 23.1,
+      "quote": "percent who had gpa between 2.0 and 2.49 23.1% 32.7% 15.2%"
+    },
+    "gpa_100_pct": {
+      "value": 8.1,
+      "quote": "percent who had gpa between 1.0 and 1.99 8.1% 8.7% 7.6%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% 0.0% 0.0%"
+    },
+    "gpa_average": {
+      "value": 2.9,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 2.9"
+    },
+    "gpa_submit_pct": {
+      "value": 96,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 96.0%"
+    },
+    "sat_p25": {
+      "value": 798,
+      "quote": "sat composite (400 - 1600) 798 875 1025"
+    },
+    "sat_p50": {
+      "value": 875,
+      "quote": "sat composite (400 - 1600) 798 875 1025"
+    },
+    "sat_p75": {
+      "value": 1025,
+      "quote": "sat composite (400 - 1600) 798 875 1025"
+    },
+    "act_p25": {
+      "value": 14,
+      "quote": "act composite (0 - 36) 14 16 20"
+    },
+    "act_p50": {
+      "value": 16,
+      "quote": "act composite (0 - 36) 14 16 20"
+    },
+    "act_p75": {
+      "value": 20,
+      "quote": "act composite (0 - 36) 14 16 20"
+    }
+  },
+  "concerns": null
+}

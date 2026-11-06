@@ -1,0 +1,50 @@
+{
+  "slug": "babson-college",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 9381,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1315 4635 3388 43 9381"
+    },
+    "admitted_total": {
+      "value": 1603,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 237 951 408 7 1603"
+    },
+    "enrolled_total": {
+      "value": 625,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 105 347 166 7 625"
+    },
+    "waitlist_admitted": {
+      "value": 105,
+      "quote": "number of wait-listed students admitted: 105"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0"
+    },
+    "gpa_submit_pct": {
+      "value": 4,
+      "quote": "percent submitting gpa common data set 202 4 -202 5"
+    },
+    "ed_applied": {
+      "value": 1109,
+      "quote": "number of early decision applications received by your institution: 1109"
+    },
+    "ed_admitted": {
+      "value": 305,
+      "quote": "number of applicants admitted under early decision plan: 305"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

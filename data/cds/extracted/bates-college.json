@@ -1,0 +1,50 @@
+{
+  "slug": "bates-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.bates.edu/research/files/2026/06/CDS_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 9660,
+      "quote": "total first-time, first-year (degree-seeking) who applied 3 356 4262 5039 9660"
+    },
+    "admitted_total": {
+      "value": 1433,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 160 95 1178 0 1433"
+    },
+    "enrolled_total": {
+      "value": 493,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 47 403 43 0 493"
+    },
+    "waitlist_admitted": {
+      "value": 39,
+      "quote": "number of wait-listed students admitted: 39"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0"
+    },
+    "gpa_submit_pct": {
+      "value": 5,
+      "quote": "percent submitting gpa common data set 202 5 -202 6"
+    },
+    "ed_applied": {
+      "value": 949,
+      "quote": "number of early decision applications received by your institution: 949"
+    },
+    "ed_admitted": {
+      "value": 318,
+      "quote": "number of applicants admitted under early decision plan: 318"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

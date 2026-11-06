@@ -1,0 +1,142 @@
+{
+  "slug": "the-university-of-texas-at-san-antonio",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.utsa.edu/ir/docs/resources/commonDataSet/CDS_2024-2025.xlsx"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 0,
+      "quote": "total first-time, first-year who applied 25422 23871 1093 458 0"
+    },
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year who were admitted 22063 20828 793 442 0"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year who enrolled 5980 5771 105 104 0"
+    },
+    "rank_top10_pct": {
+      "value": 0.16,
+      "quote": "percent in top tenth of high school graduating class 0.16"
+    },
+    "rank_top25_pct": {
+      "value": 0.55,
+      "quote": "percent in top quarter of high school graduating class 0.55"
+    },
+    "rank_submit_pct": {
+      "value": 0.98,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.98"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0"
+    },
+    "gpa_submit_pct": {
+      "value": 0,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 0"
+    },
+    "sat_p25": {
+      "value": 1010,
+      "quote": "sat composite 1010 1110 1210"
+    },
+    "sat_p50": {
+      "value": 1110,
+      "quote": "sat composite 1010 1110 1210"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "sat composite 1010 1110 1210"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 23 25"
+    },
+    "act_p50": {
+      "value": 23,
+      "quote": "act composite 19 23 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 19 23 25"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

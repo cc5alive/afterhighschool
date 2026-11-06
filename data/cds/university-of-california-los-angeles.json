@@ -1,0 +1,19 @@
+{
+  "slug": "university-of-california-los-angeles",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://apb.ucla.edu/file/f8f5c864-93be-4b44-b646-7807a685749f"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "waitlist_admitted": 1514,
+    "gpa_average": 3.94,
+    "gpa_submit_pct": 99.8
+  },
+  "basis": {
+    "waitlist_admitted": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

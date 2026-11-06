@@ -1,0 +1,58 @@
+{
+  "slug": "university-of-north-texas",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://institutionalresearch.unt.edu/cds_univnorthtx_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 41247,
+      "quote": "total first-time, first-year (degree-seeking) who applied 36749 2245 2253 41247"
+    },
+    "admitted_total": {
+      "value": 29242,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 26788 1537 917 29242"
+    },
+    "enrolled_total": {
+      "value": 6388,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 5782 238 368 6388"
+    },
+    "rank_top10_pct": {
+      "value": 13,
+      "quote": "percent in top tenth of high school graduating class 13.00"
+    },
+    "rank_top25_pct": {
+      "value": 39,
+      "quote": "percent in top quarter of high school graduating class 39.00"
+    },
+    "sat_p25": {
+      "value": 960,
+      "quote": "sat composite 960 1080 1210"
+    },
+    "sat_p50": {
+      "value": 1080,
+      "quote": "sat composite 960 1080 1210"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "sat composite 960 1080 1210"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 26"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 19 22 26"
+    }
+  },
+  "concerns": null
+}
