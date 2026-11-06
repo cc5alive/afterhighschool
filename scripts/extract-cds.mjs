@@ -14,6 +14,14 @@ const DIR = 'data/cds/extracted';
 fs.mkdirSync(DIR, { recursive: true });
 const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
+// Sources that failed are remembered so each run doesn't spend minutes re-trying them.
+// A failed school is tried again when its URL in sources.json changes, after 14 days, or with --retry.
+const FAILED = 'data/cds/_failed.json';
+const failed = fs.existsSync(FAILED) ? JSON.parse(fs.readFileSync(FAILED, 'utf8')) : {};
+const retry = force || process.argv.includes('--retry');
+const today = new Date().toISOString().slice(0, 10);
+const fresh = (f, url) => f && f.url === url && (Date.now() - Date.parse(f.at)) < 14 * 864e5;
+const fail = (slug, url, reason) => { failed[slug] = { url, at: today, reason }; log.push(`${slug}: ${reason}`); };
 
 // Each CDS value is read from the table row that carries its printed label. Values in the same
 // row (or a numbers-only row right below, as wrapped PDF tables often have) are the candidates.
@@ -127,11 +135,13 @@ let made = 0;
 const log = [];
 for (const [slug, src] of Object.entries(sources)) {
   if (!force && fs.existsSync(`${DIR}/${slug}.json`)) continue;
+  if (!retry && fresh(failed[slug], src.url)) continue;
   let resolved;
-  try { resolved = await resolveCds(src.url); } catch (err) { log.push(`${slug}: error ${err.message}`); continue; }
+  try { resolved = await resolveCds(src.url); } catch (err) { fail(slug, src.url, `error ${err.message}`); continue; }
   const doc = resolved.doc;
-  if (doc.text == null) { log.push(`${slug}: document failed to load (HTTP ${doc.status})`); continue; }
-  if (!looksLikeCds(doc.text)) { log.push(`${slug}: no CDS document found from ${src.url}`); continue; }
+  if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
+  if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
+  delete failed[slug];
   const values = { ...readRows(doc.rows), ...readScores(doc.rows), ...factors(doc.rows) };
   if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
   if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
@@ -143,6 +153,8 @@ for (const [slug, src] of Object.entries(sources)) {
   made++;
   log.push(`${slug}: ${doc.kind}, ${Object.keys(values).length} values`);
 }
+for (const k of Object.keys(failed)) if (!sources[k]) delete failed[k];
+fs.writeFileSync(FAILED, JSON.stringify(failed, null, 1) + '\n');
 console.log(log.join('\n'));
-console.log(`wrote ${made} drafts`);
+console.log(`wrote ${made} drafts; ${Object.keys(failed).length} sources currently failing (see ${FAILED})`);
 await closeBrowser();
