@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.wabash.edu/institutional_research/common",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 8,
+  "readerVersion": 9,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -38,34 +38,6 @@
     "rank_submit_pct": {
       "value": 38.6,
       "quote": "C.1006 percent of total first-time, first-year students who submitted high school class rank:: 0.386"
-    },
-    "gpa_400_pct": {
-      "value": 2.9,
-      "quote": "C.1121 percent who had gpa of 4.0: 0.029"
-    },
-    "gpa_375_pct": {
-      "value": 26.1,
-      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.261"
-    },
-    "gpa_350_pct": {
-      "value": 24.9,
-      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.249"
-    },
-    "gpa_325_pct": {
-      "value": 27.8,
-      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.278"
-    },
-    "gpa_300_pct": {
-      "value": 13.3,
-      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.133"
-    },
-    "gpa_250_pct": {
-      "value": 5,
-      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.05"
-    },
-    "gpa_below1_pct": {
-      "value": 1,
-      "quote": "percent who had gpa below 1.0 c.1602 beginning date: month 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
     },
     "gpa_average": {
       "value": 3.52,
@@ -122,10 +94,6 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C.1801 does your institution allow students to postpone enrollment after admission?: Yes"
-    },
-    "waitlist_offered": {
-      "value": 3,
-      "quote": "C.202 number of qualified applicants offered a place on waiting list:: 3"
     },
     "sat_submit_pct": {
       "value": 40.5,
@@ -210,6 +178,30 @@
     "factor_interest": {
       "value": "Very Important",
       "quote": "C.718 level of applicant's interest: Very Important"
+    },
+    "gpa_400_pct": {
+      "value": 2.9,
+      "quote": "C.1121 percent who had gpa of 4.0: 0.029"
+    },
+    "gpa_375_pct": {
+      "value": 26.1,
+      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.261"
+    },
+    "gpa_350_pct": {
+      "value": 24.9,
+      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.249"
+    },
+    "gpa_325_pct": {
+      "value": 27.8,
+      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.278"
+    },
+    "gpa_300_pct": {
+      "value": 13.3,
+      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.133"
+    },
+    "gpa_250_pct": {
+      "value": 5,
+      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.05"
     }
   },
   "concerns": null

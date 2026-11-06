@@ -8,7 +8,7 @@
   "sourceUrl": "https://irp.cornell.edu/wp-content/uploads/2026/09/CDS-Cornell-2025-2026-v2.xlsx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 8,
+  "readerVersion": 9,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -17,7 +17,7 @@
     },
     "admitted_total": {
       "value": 6077,
-      "quote": "C.117 total first-time, first-year students who were admitted: 6077"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1720 3693 664 0 6077 c.207 do you release that information to school counselors? - first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
     },
     "enrolled_total": {
       "value": 3827,
@@ -52,8 +52,8 @@
       "quote": "number of early decision applications received by your institution 10057"
     },
     "ed_admitted": {
-      "value": 10057,
-      "quote": "C.2111 number of applicants admitted under early decision plan: 10057"
+      "value": 1889,
+      "quote": "number of applicants admitted under early decision plan 1889"
     },
     "sat_p25": {
       "value": 1490,

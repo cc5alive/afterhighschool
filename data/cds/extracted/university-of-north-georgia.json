@@ -8,7 +8,7 @@
   "sourceUrl": "https://ung.edu/institutional-effectiveness-research-administration/institutional-research/common-data-set.php",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 8,
+  "readerVersion": 9,
   "docKind": "xlsx",
   "values": {
     "rank_top10_pct": {
@@ -22,42 +22,6 @@
     "rank_submit_pct": {
       "value": 28.57,
       "quote": "C.1006 percent of total first-time, first-year students who submitted high school class rank:: 0.2857"
-    },
-    "gpa_400_pct": {
-      "value": 10.2,
-      "quote": "C.1121 percent who had gpa of 4.0: 0.10197290230568101"
-    },
-    "gpa_375_pct": {
-      "value": 20.06,
-      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.2006180175897314"
-    },
-    "gpa_350_pct": {
-      "value": 18.8,
-      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.18801996672212978"
-    },
-    "gpa_325_pct": {
-      "value": 16.19,
-      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.1618730686950321"
-    },
-    "gpa_300_pct": {
-      "value": 16.21,
-      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.1621107677680057"
-    },
-    "gpa_250_pct": {
-      "value": 14.21,
-      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.142144045638222"
-    },
-    "gpa_200_pct": {
-      "value": 4.3,
-      "quote": "C.1127 percent who had gpa between 2.0 and 2.49: 0.043023532208224385"
-    },
-    "gpa_100_pct": {
-      "value": 0.02,
-      "quote": "C.1128 percent who had gpa between 1.0 and 1.99: 0.0002376990729736154"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "C.1129 percent who had gpa below 1.0: 0"
     },
     "gpa_average": {
       "value": 3.41,
@@ -190,6 +154,42 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "C.718 level of applicant's interest: Not Considered"
+    },
+    "gpa_400_pct": {
+      "value": 10.2,
+      "quote": "C.1121 percent who had gpa of 4.0: 0.10197290230568101"
+    },
+    "gpa_375_pct": {
+      "value": 20.06,
+      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.2006180175897314"
+    },
+    "gpa_350_pct": {
+      "value": 18.8,
+      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.18801996672212978"
+    },
+    "gpa_325_pct": {
+      "value": 16.19,
+      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.1618730686950321"
+    },
+    "gpa_300_pct": {
+      "value": 16.21,
+      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.1621107677680057"
+    },
+    "gpa_250_pct": {
+      "value": 14.21,
+      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.142144045638222"
+    },
+    "gpa_200_pct": {
+      "value": 4.3,
+      "quote": "C.1127 percent who had gpa between 2.0 and 2.49: 0.043023532208224385"
+    },
+    "gpa_100_pct": {
+      "value": 0.02,
+      "quote": "C.1128 percent who had gpa between 1.0 and 1.99: 0.0002376990729736154"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "C.1129 percent who had gpa below 1.0: 0"
     }
   },
   "concerns": null

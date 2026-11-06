@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.uh.edu/ir/reports/common-data-sets/cds-data/common_data_set_2025-2026_final.xlsx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 8,
+  "readerVersion": 9,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -34,42 +34,6 @@
     "rank_submit_pct": {
       "value": 71.3,
       "quote": "C.1006 percent of total first-time, first-year students who submitted high school class rank:: 0.713"
-    },
-    "gpa_400_pct": {
-      "value": 2.71,
-      "quote": "C.1121 percent who had gpa of 4.0: 0.0271"
-    },
-    "gpa_375_pct": {
-      "value": 21.82,
-      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.2182"
-    },
-    "gpa_350_pct": {
-      "value": 26.98,
-      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.2698"
-    },
-    "gpa_325_pct": {
-      "value": 22.49,
-      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.2249"
-    },
-    "gpa_300_pct": {
-      "value": 15.28,
-      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.1528"
-    },
-    "gpa_250_pct": {
-      "value": 9.42,
-      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.0942"
-    },
-    "gpa_200_pct": {
-      "value": 1.16,
-      "quote": "C.1127 percent who had gpa between 2.0 and 2.49: 0.0116"
-    },
-    "gpa_100_pct": {
-      "value": 0.12,
-      "quote": "C.1128 percent who had gpa between 1.0 and 1.99: 0.0012"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "C.1129 percent who had gpa below 1.0: 0"
     },
     "gpa_average": {
       "value": 3.46,
@@ -202,6 +166,42 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "C.718 level of applicant's interest: Not Considered"
+    },
+    "gpa_400_pct": {
+      "value": 2.71,
+      "quote": "C.1121 percent who had gpa of 4.0: 0.0271"
+    },
+    "gpa_375_pct": {
+      "value": 21.82,
+      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.2182"
+    },
+    "gpa_350_pct": {
+      "value": 26.98,
+      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.2698"
+    },
+    "gpa_325_pct": {
+      "value": 22.49,
+      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.2249"
+    },
+    "gpa_300_pct": {
+      "value": 15.28,
+      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.1528"
+    },
+    "gpa_250_pct": {
+      "value": 9.42,
+      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.0942"
+    },
+    "gpa_200_pct": {
+      "value": 1.16,
+      "quote": "C.1127 percent who had gpa between 2.0 and 2.49: 0.0116"
+    },
+    "gpa_100_pct": {
+      "value": 0.12,
+      "quote": "C.1128 percent who had gpa between 1.0 and 1.99: 0.0012"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "C.1129 percent who had gpa below 1.0: 0"
     }
   },
   "concerns": null

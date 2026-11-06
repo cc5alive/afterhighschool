@@ -8,7 +8,7 @@
   "sourceUrl": "https://aie.vt.edu/analytics-and-ai/common-data-set.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 8,
+  "readerVersion": 9,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -34,30 +34,6 @@
     "rank_submit_pct": {
       "value": 1,
       "quote": "percent of total first-time, first-year students who submitted high school class rank: c.1130 total 1 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
-    },
-    "gpa_400_pct": {
-      "value": 67,
-      "quote": "C.1121 percent who had gpa of 4.0: 0.67"
-    },
-    "gpa_375_pct": {
-      "value": 18,
-      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.18"
-    },
-    "gpa_350_pct": {
-      "value": 10,
-      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.1"
-    },
-    "gpa_325_pct": {
-      "value": 4,
-      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.04"
-    },
-    "gpa_300_pct": {
-      "value": 1,
-      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.01"
-    },
-    "gpa_250_pct": {
-      "value": 0.01,
-      "quote": "percent who had gpa between 2.50 and 2.99 0.01 0.01 c.1405 priority date: day 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
     },
     "gpa_average": {
       "value": 4.06,
@@ -186,6 +162,26 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "C.718 level of applicant's interest: Not Considered"
+    },
+    "gpa_400_pct": {
+      "value": 67,
+      "quote": "C.1121 percent who had gpa of 4.0: 0.67"
+    },
+    "gpa_375_pct": {
+      "value": 18,
+      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.18"
+    },
+    "gpa_350_pct": {
+      "value": 10,
+      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.1"
+    },
+    "gpa_325_pct": {
+      "value": 4,
+      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.04"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.01"
     }
   },
   "concerns": null
