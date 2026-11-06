@@ -1,0 +1,212 @@
+{
+  "slug": "carnegie-mellon-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "CARNEGIE MELLON UNIVERSITY COMMON DATA SET 2024-2025",
+    "url": "https://www.cmu.edu/ira/CDS/pdf/cds_2024-25/common-data-set-2024-2025-26jun2025.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 33941,
+      "quote": "Total first-time, first-year (freshman) who applied: 33,941"
+    },
+    "admitted_total": {
+      "value": 3959,
+      "quote": "Total first-time, first-year (freshman) who were admitted: 3,959"
+    },
+    "enrolled_total": {
+      "value": 1808,
+      "quote": "Total first-time, first-year (freshman) who enrolled: 1,808"
+    },
+    "waitlist_offered": {
+      "value": 16484,
+      "quote": "Number of qualified applicants offered a place on waiting list: 16,484"
+    },
+    "waitlist_accepted": {
+      "value": 10062,
+      "quote": "Number of wait-listed students who accepted a place on the list: 10,062"
+    },
+    "waitlist_admitted": {
+      "value": 32,
+      "quote": "Number of wait-listed students admitted: 32"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant interest"
+    },
+    "sat_submit_pct": {
+      "value": 52.6,
+      "quote": "Percent Submitting SAT 52.6%"
+    },
+    "act_submit_pct": {
+      "value": 22.4,
+      "quote": "Percent Submitting ACT 22.4%"
+    },
+    "sat_p25": {
+      "value": 1510,
+      "quote": "SAT Composite 1510"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "SAT Composite 1540"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "SAT Composite 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "ACT Composite 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT Composite 35"
+    },
+    "rank_top10_pct": {
+      "value": 94.2,
+      "quote": "Percent in top tenth of high school graduating class 94.2%"
+    },
+    "rank_top25_pct": {
+      "value": 97.9,
+      "quote": "Percent in top quarter of high school graduating class 97.9%"
+    },
+    "rank_submit_pct": {
+      "value": 53.8,
+      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school class rank: 53.8%"
+    },
+    "gpa_400_pct": {
+      "value": 46.9,
+      "quote": "Percent who had GPA of 4.0 46.9%"
+    },
+    "gpa_375_pct": {
+      "value": 38.3,
+      "quote": "Percent who had GPA of between 3.75 and 3.99 38.3%"
+    },
+    "gpa_350_pct": {
+      "value": 11.3,
+      "quote": "Percent who had GPA between 3.50 and 3.74 11.3%"
+    },
+    "gpa_325_pct": {
+      "value": 2.6,
+      "quote": "Percent who had GPA between 3.25 and 3.49 2.6%"
+    },
+    "gpa_300_pct": {
+      "value": 0.3,
+      "quote": "Percent who had GPA between 3.00 and 3.24 0.3%"
+    },
+    "gpa_250_pct": {
+      "value": 0.4,
+      "quote": "Percent who had GPA between 2.50 and 2.99 0.4%"
+    },
+    "gpa_200_pct": {
+      "value": 0.06,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.06%"
+    },
+    "gpa_100_pct": {
+      "value": 0.06,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.06%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.89,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year (freshman) students who submitted GPA 3.89"
+    },
+    "gpa_submit_pct": {
+      "value": 98,
+      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school GPA: 98.0%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan Yes"
+    },
+    "ed_applied": {
+      "value": 4423,
+      "quote": "Number of early decision applications received by your institution: 4,423"
+    },
+    "ed_admitted": {
+      "value": 612,
+      "quote": "Number of applicants admitted under early decision plan: 612"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan No"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "boston-college",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set & BC Facts - Boston College",
+    "url": "https://www.bc.edu/bc-web/sites/common-data-set.html"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 39686,
+      "quote": "Applicants: 39,686"
+    },
+    "enrolled_total": {
+      "value": 2479,
+      "quote": "Enrolled: 2,479"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Factor: Rigor of secondary school record | Very Important: X"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Factor: Class rank | Important: X"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Factor: Academic GPA | Very Important: X"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Factor: Standardized test scores | Important: X"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Factor: Application Essay | Important: X"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Factor: Recommendation(s) | Important: X"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Factor: Extracurricular activities | Important: X"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Factor: Talent/ability | Important: X"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Factor: Character/personal qualities | Important: X"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "Factor: First generation | Considered: X"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Factor: Geographical residence | Considered: X"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "Factor: State residency | Not Considered: X"
+    },
+    "factor_religion": {
+      "value": "Considered",
+      "quote": "Factor: Religious affiliation/commitment | Considered: X"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Factor: Volunteer work | Important: X"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Factor: Work experience | Considered: X"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Factor: Level of applicant's interest | Not Considered: X"
+    },
+    "sat_p25": {
+      "value": 1440,
+      "quote": "25%: 33/1440"
+    },
+    "sat_p75": {
+      "value": 1520,
+      "quote": "75%: 35/1520"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "25%: 33/1440"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "75%: 35/1520"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Early Decision: Yes"
+    }
+  },
+  "concerns": null
+}
