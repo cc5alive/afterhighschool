@@ -1,0 +1,160 @@
+{
+  "slug": "arizona-state-university-campus-immersion",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://uoia.asu.edu/sites/g/files/litvpz1436/files/2026-06/CDS%202025-26%20-%20ASU%20Campus%20Immersion.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 69617,
+      "quote": "Total first-time, first-year who applied Total 69,617"
+    },
+    "admitted_total": {
+      "value": 61533,
+      "quote": "Total first-time, first-year who were admitted Total 61,533"
+    },
+    "enrolled_total": {
+      "value": 13665,
+      "quote": "Total first-time, first-year who enrolled Total 13,665"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant’s interest"
+    },
+    "rank_top10_pct": {
+      "value": 29.9,
+      "quote": "Percent in top tenth of high school graduating class 29.9%"
+    },
+    "rank_top25_pct": {
+      "value": 60.3,
+      "quote": "Percent in top quarter of high school graduating class 60.3%"
+    },
+    "rank_submit_pct": {
+      "value": 52,
+      "quote": "Percent of total first-time, first-year students who submitted high school class 52.0%"
+    },
+    "gpa_400_pct": {
+      "value": 9,
+      "quote": "Percent who had GPA of 4.0 9.0%"
+    },
+    "gpa_375_pct": {
+      "value": 27.5,
+      "quote": "Percent who had GPA between 3.75 and 3.99 27.5%"
+    },
+    "gpa_350_pct": {
+      "value": 22.3,
+      "quote": "Percent who had GPA between 3.50 and 3.74 22.3%"
+    },
+    "gpa_325_pct": {
+      "value": 17.6,
+      "quote": "Percent who had GPA between 3.25 and 3.49 17.6%"
+    },
+    "gpa_300_pct": {
+      "value": 13.4,
+      "quote": "Percent who had GPA between 3.00 and 3.24 13.4%"
+    },
+    "gpa_250_pct": {
+      "value": 9.1,
+      "quote": "Percent who had GPA between 2.50 and 2.99 9.1%"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 2.0 and 2.49 1.0%"
+    },
+    "gpa_100_pct": {
+      "value": 0.1,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.1%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.52,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.52"
+    },
+    "gpa_submit_pct": {
+      "value": 97.8,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 97.8%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an No"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "wellesley-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 8506,
+      "quote": "Total first-time, first-year (degree-seeking) who applied Total 8506"
+    },
+    "admitted_total": {
+      "value": 1258,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted Total 1258"
+    },
+    "enrolled_total": {
+      "value": 576,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled Total 576"
+    },
+    "waitlist_offered": {
+      "value": 2214,
+      "quote": "Number of qualified applicants offered a place on waiting list: 2214"
+    },
+    "waitlist_accepted": {
+      "value": 1121,
+      "quote": "Number accepting a place on the waiting list: 1121"
+    },
+    "waitlist_admitted": {
+      "value": 59,
+      "quote": "Number of wait-listed students admitted: 59"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant’s interest"
+    },
+    "sat_submit_pct": {
+      "value": 44,
+      "quote": "Submitting SAT Scores 44%"
+    },
+    "act_submit_pct": {
+      "value": 18,
+      "quote": "Submitting ACT Scores 18%"
+    },
+    "sat_p25": {
+      "value": 1460,
+      "quote": "SAT Composite 1460"
+    },
+    "sat_p50": {
+      "value": 1500,
+      "quote": "50th Percentile Score 1500"
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "75th Percentile Score 1540"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "50th Percentile Score 34"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "75th Percentile Score 35"
+    },
+    "rank_top10_pct": {
+      "value": 88,
+      "quote": "Percent in top tenth of high school graduating class 88%"
+    },
+    "rank_top25_pct": {
+      "value": 99,
+      "quote": "Percent in top quarter of high school graduating class 99%"
+    },
+    "rank_submit_pct": {
+      "value": 25,
+      "quote": "Percent of total first-time, first-year students who submitted high school 25%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan (an admission plan Yes"
+    },
+    "ed_applied": {
+      "value": 1023,
+      "quote": "Number of early decision applications received by your institution 1023"
+    },
+    "ed_admitted": {
+      "value": 301,
+      "quote": "Number of applicants admitted under early decision plan 301"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are No"
+    }
+  },
+  "concerns": null
+}
