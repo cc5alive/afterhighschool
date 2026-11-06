@@ -1,0 +1,156 @@
+{
+  "slug": "babson-college",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025 - Babson College",
+    "url": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 9381,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 1315 4635 3388 43 9381"
+    },
+    "admitted_total": {
+      "value": 1603,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 237 951 408 7 1603"
+    },
+    "enrolled_total": {
+      "value": 625,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 105 347 166 7 625"
+    },
+    "waitlist_offered": {
+      "value": 3579,
+      "quote": "Number of qualified applicants offered a place on waiting list: 3579"
+    },
+    "waitlist_accepted": {
+      "value": 1458,
+      "quote": "Number accepting a place on the waiting list: 1458"
+    },
+    "waitlist_admitted": {
+      "value": 105,
+      "quote": "Number of wait-listed students admitted: 105"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 22,
+      "quote": "Submitting SAT Scores 22.00 139"
+    },
+    "act_submit_pct": {
+      "value": 3,
+      "quote": "Submitting ACT Scores 3.00 21"
+    },
+    "sat_p25": {
+      "value": 1410,
+      "quote": "SAT Composite 1410 1460 1500"
+    },
+    "sat_p50": {
+      "value": 1460,
+      "quote": "SAT Composite 1410 1460 1500"
+    },
+    "sat_p75": {
+      "value": 1500,
+      "quote": "SAT Composite 1410 1460 1500"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "ACT Composite 31 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "ACT Composite 31 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "ACT Composite 31 32 34"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Early decision Yes"
+    },
+    "ed_applied": {
+      "value": 1109,
+      "quote": "Number of early decision applications received by your institution 1,109"
+    },
+    "ed_admitted": {
+      "value": 305,
+      "quote": "Number of applicants admitted under early decision plan 305"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Early action Yes"
+    }
+  },
+  "concerns": null
+}

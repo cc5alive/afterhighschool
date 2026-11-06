@@ -1,0 +1,152 @@
+{
+  "slug": "university-of-wisconsin-madison",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set - Data, Academic Planning & Institutional Research",
+    "url": "https://data.wisc.edu/common-data-set-and-rankings/"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 73912,
+      "quote": "Applied 36,086 37,800 26 73,912"
+    },
+    "admitted_total": {
+      "value": 30167,
+      "quote": "Admitted 13,597 16,559 11 30,167"
+    },
+    "enrolled_total": {
+      "value": 8495,
+      "quote": "Enrolled 3,524 4,971 0 8,495"
+    },
+    "waitlist_offered": {
+      "value": 6476,
+      "quote": "Number of qualified applicants offered a place on waiting list: 6,476"
+    },
+    "waitlist_accepted": {
+      "value": 4317,
+      "quote": "Number accepting a place on the waiting list: 4,317"
+    },
+    "waitlist_admitted": {
+      "value": 1088,
+      "quote": "Number of wait-listed students admitted: 1,088"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendations"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent or ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character and personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Important",
+      "quote": "State residence"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation or commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant interest"
+    },
+    "sat_submit_pct": {
+      "value": 12,
+      "quote": "SAT 12% SUB"
+    },
+    "act_submit_pct": {
+      "value": 29,
+      "quote": "ACT 29% SUB"
+    },
+    "sat_p25": {
+      "value": 1400,
+      "quote": "SAT composite 1,400 1,450 1,490"
+    },
+    "sat_p50": {
+      "value": 1450,
+      "quote": "SAT composite 1,400 1,450 1,490"
+    },
+    "sat_p75": {
+      "value": 1490,
+      "quote": "SAT composite 1,400 1,450 1,490"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "ACT composite 29 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "ACT composite 29 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "ACT composite 29 31 33"
+    },
+    "gpa_average": {
+      "value": 3.91,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.91"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+    }
+  },
+  "concerns": null
+}

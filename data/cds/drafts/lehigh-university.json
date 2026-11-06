@@ -1,0 +1,168 @@
+{
+  "slug": "lehigh-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026 - Institutional Data @ Lehigh",
+    "url": "https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 19342,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 3090 12070 4182 19342"
+    },
+    "admitted_total": {
+      "value": 5601,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 1010 4415 176 5601"
+    },
+    "enrolled_total": {
+      "value": 1535,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 352 1112 71 1535"
+    },
+    "waitlist_offered": {
+      "value": 4083,
+      "quote": "Number of qualified applicants offered a place on waiting list: 4083"
+    },
+    "waitlist_accepted": {
+      "value": 1988,
+      "quote": "Number accepting a place on the waiting list: 1988"
+    },
+    "waitlist_admitted": {
+      "value": 80,
+      "quote": "Number of wait-listed students admitted: 80"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 33.03,
+      "quote": "Submitting SAT Scores 33.03% 507"
+    },
+    "act_submit_pct": {
+      "value": 10.29,
+      "quote": "Submitting ACT Scores 10.29% 158"
+    },
+    "sat_p25": {
+      "value": 1380,
+      "quote": "SAT Composite 1380 1430 1480"
+    },
+    "sat_p50": {
+      "value": 1430,
+      "quote": "SAT Composite 1380 1430 1480"
+    },
+    "sat_p75": {
+      "value": 1480,
+      "quote": "SAT Composite 1380 1430 1480"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "ACT Composite 31 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "ACT Composite 31 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "ACT Composite 31 33 34"
+    },
+    "rank_top10_pct": {
+      "value": 60,
+      "quote": "Percent in top tenth of high school graduating class 60.00%"
+    },
+    "rank_top25_pct": {
+      "value": 86.76,
+      "quote": "Percent in top quarter of high school graduating class 86.76%"
+    },
+    "rank_submit_pct": {
+      "value": 23.13,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank 23.13%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Early decision Yes"
+    },
+    "ed_applied": {
+      "value": 2040,
+      "quote": "Number of early decision applications received by your institution 2,040"
+    },
+    "ed_admitted": {
+      "value": 966,
+      "quote": "Number of applicants admitted under early decision plan 966"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action No"
+    }
+  },
+  "concerns": null
+}
