@@ -6,7 +6,7 @@ const {
   description,
   path = '/',
   noindex = false,
-  nav = 'home',          // 'home' shows only the waitlist link; 'colleges' shows the section nav
+  nav = 'home',          // 'home' shows only the email-updates link; 'colleges' shows the section nav
   ogTitle,
   jsonLd
 } = Astro.props;
@@ -50,7 +50,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
         <a href="/my-list">My list<span data-list-count></span></a>
       </nav>
     ) : (
-      <a class="header-link" href="#join">Join the waitlist</a>
+      <a class="header-link" href="/#join">Get updates</a>
     )}
   </header>
 

@@ -57,7 +57,7 @@ async function joinWaitlist(request, env) {
   try {
     body = await readBody(request);
   } catch {
-    return json({ error: 'Send your email address to join the waitlist.' }, 400);
+    return json({ error: 'Send your email address to sign up.' }, 400);
   }
 
   // Honeypot: real people never fill this field. Pretend it worked.
@@ -71,7 +71,7 @@ async function joinWaitlist(request, env) {
     return json({ error: 'Enter an email address like you@example.com.' }, 400);
   }
   if (!age13) {
-    return json({ error: 'You need to be 13 or older to join the waitlist.' }, 400);
+    return json({ error: 'You need to be 13 or older to sign up.' }, 400);
   }
 
   try {
@@ -105,7 +105,7 @@ export default {
     }
 
     if (url.pathname === '/api/waitlist') {
-      if (request.method !== 'POST') return json({ error: 'Use POST to join the waitlist.' }, 405);
+      if (request.method !== 'POST') return json({ error: 'Use POST to sign up.' }, 405);
       return joinWaitlist(request, env);
     }
 

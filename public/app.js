@@ -10,7 +10,7 @@
   };
 
   if (new URLSearchParams(location.search).has('joined')) {
-    say("You're on the list. We'll email you when the calculator opens.", 'ok');
+    say("You're signed up. We'll email you when we add new paths or make big updates.", 'ok');
   }
 
   form.addEventListener('submit', async (event) => {
@@ -22,7 +22,7 @@
       return;
     }
     if (!form.age13.checked) {
-      say('You need to be 13 or older to join the waitlist.', 'err');
+      say('You need to be 13 or older to sign up.', 'err');
       form.age13.focus();
       return;
     }
@@ -43,7 +43,7 @@
       const data = await res.json().catch(() => ({}));
       if (res.ok) {
         form.reset();
-        say("You're on the list. We'll email you when the calculator opens.", 'ok');
+        say("You're signed up. We'll email you when we add new paths or make big updates.", 'ok');
       } else {
         say(data.error || "That didn't go through. Try again in a minute.", 'err');
       }
