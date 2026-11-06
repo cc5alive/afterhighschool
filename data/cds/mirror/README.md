@@ -20,3 +20,9 @@ UVA shows its CDS in embedded Qlik dashboards that only render in a browser. Its
 the rendered section C and D pages in CC's Chrome and written into `university-of-virginia-main-campus.rows.json`
 in the standard CDS labels; every count was checked against its parts (the male, female and unknown columns add
 up to each total). UVA left its GPA table blank. Its ACT 75th percentile is 34.25: individual ACT scores are whole numbers, but a percentile can fall between them when it is interpolated, so it is published as reported.
+
+Brown shows its CDS as a Tableau workbook (tableau.brown.edu, linked from its institutional research page) that
+draws the numbers on a canvas. Its 2025-26 section C and D figures were read from the rendered C - Admissions
+and D - Transfer Admissions tabs in CC's Chrome and written into `brown-university.rows.json` in the standard CDS
+labels; each count was checked against its gender columns. Brown doesn't collect GPA and reported the wait-list
+offered and accepted counts as N/A, so those are left out.

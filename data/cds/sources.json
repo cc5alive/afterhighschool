@@ -490,7 +490,10 @@
   "title": "Common Data Set 2025-2026"
  },
  "brown-university": {
-  "url": "https://oir.brown.edu/institutional-data/common-data-set"
+  "url": "https://oir.brown.edu/institutional-data/common-data-set",
+  "year": "2025-2026",
+  "title": "Common Data Set 2025-2026",
+  "mirror": "data/cds/mirror/brown-university.rows.json"
  },
  "university-of-florida": {
   "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf"

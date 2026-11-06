@@ -17,7 +17,7 @@ Built 2026-11-06.
 | boston-university | - | 25 |  |
 | bowdoin-college | 2025-2026 | 41 |  |
 | brigham-young-university | 2024-2025 | 0 |  |
-| brown-university | 2025-2026 | 0 |  |
+| brown-university | 2025-2026 | 41 |  |
 | bucknell-university | 2025-2026 | 47 | SAT 1170-1360 far from federal 1310-1470; ACT 25-32 far from federal 30-33 |
 | california-institute-of-technology | 2025-2026 | 28 |  |
 | california-polytechnic-state-university-san-luis-obispo | 2025-2026 | 41 |  |

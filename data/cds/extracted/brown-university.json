@@ -1,0 +1,182 @@
+{
+  "slug": "brown-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://oir.brown.edu/institutional-data/common-data-set"
+  },
+  "sourceUrl": "https://oir.brown.edu/institutional-data/common-data-set",
+  "mirror": "data/cds/mirror/brown-university.rows.json",
+  "mirrorHash": "d309c2a27a81",
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 7,
+  "docKind": "ocr",
+  "values": {
+    "applied_total": {
+      "value": 42774,
+      "quote": "c1 total first-time, first-year (degree-seeking) who applied 42,774"
+    },
+    "admitted_total": {
+      "value": 2710,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2,710"
+    },
+    "enrolled_total": {
+      "value": 1719,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1,719"
+    },
+    "waitlist_admitted": {
+      "value": 295,
+      "quote": "number of wait-listed students admitted 295"
+    },
+    "sat_submit_pct": {
+      "value": 77,
+      "quote": "percent submitting sat scores 77%"
+    },
+    "act_submit_pct": {
+      "value": 28,
+      "quote": "percent submitting act scores 28%"
+    },
+    "rank_top10_pct": {
+      "value": 93,
+      "quote": "percent in top tenth of high school graduating class 93%"
+    },
+    "rank_top25_pct": {
+      "value": 98,
+      "quote": "percent in top quarter of high school graduating class 98%"
+    },
+    "rank_submit_pct": {
+      "value": 29,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank 29%"
+    },
+    "ed_applied": {
+      "value": 5062,
+      "quote": "number of early decision applications received by your institution 5,062"
+    },
+    "ed_admitted": {
+      "value": 907,
+      "quote": "number of applicants admitted under early decision plan 907"
+    },
+    "sat_p25": {
+      "value": 1470,
+      "quote": "sat composite 1470 1520 1550"
+    },
+    "sat_p50": {
+      "value": 1520,
+      "quote": "sat composite 1470 1520 1550"
+    },
+    "sat_p75": {
+      "value": 1550,
+      "quote": "sat composite 1470 1520 1550"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 35 35"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 33 35 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 35 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3306,
+      "quote": "D2 total 3,306 154 103"
+    },
+    "transfer_admitted": {
+      "value": 154,
+      "quote": "D2 total 3,306 154 103"
+    },
+    "transfer_enrolled": {
+      "value": 103,
+      "quote": "D2 total 3,306 154 103"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 c18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}
