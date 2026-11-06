@@ -10,7 +10,7 @@
 | avgNetPrice | 2304 (91%) |
 | tuitionInState | 2458 (97%) |
 | costOfAttendance | 2316 (92%) |
-| completionRate | 2205 (87%) |
+| completionRate | 2350 (93%) |
 | medianEarnings6yr | 2185 (86%) |
 | medianEarnings10yr | 2075 (82%) |
 | medianDebt | 1818 (72%) |
@@ -31,7 +31,7 @@ Ownership: private_for_profit 1702, public 660, private_nonprofit 169
 | avgNetPrice | 882 (94%) |
 | tuitionInState | 929 (99%) |
 | costOfAttendance | 894 (95%) |
-| completionRate | 564 (60%) |
+| completionRate | 872 (93%) |
 | medianEarnings6yr | 879 (94%) |
 | medianEarnings10yr | 870 (93%) |
 | medianDebt | 743 (79%) |
