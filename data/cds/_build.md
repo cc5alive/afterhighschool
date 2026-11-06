@@ -19,7 +19,7 @@ Built 2026-11-06.
 | brigham-young-university | 2024-2025 | 0 |  |
 | brown-university | 2025-2026 | 0 |  |
 | bucknell-university | 2025-2026 | 42 | SAT 1170-1360 far from federal 1310-1470; ACT 25-32 far from federal 30-33 |
-| california-institute-of-technology | - | 6 |  |
+| california-institute-of-technology | 2025-2026 | 26 |  |
 | california-polytechnic-state-university-san-luis-obispo | 2025-2026 | 40 |  |
 | california-state-polytechnic-university-humboldt | 2025-2026 | 36 |  |
 | california-state-polytechnic-university-pomona | 2025-2026 | 35 |  |
@@ -110,7 +110,7 @@ Built 2026-11-06.
 | san-jose-state-university | 2025-2026 | 40 |  |
 | santa-clara-university | 2025-2026 | 26 |  |
 | skidmore-college | 2024-2025 | 42 |  |
-| smith-college | 2024-2025 | 23 | reader and Gemini read different documents (2023 vs 2024); used the Gemini one |
+| smith-college | 2024-2025 | 23 |  |
 | spelman-college | 2025-2026 | 29 | gpa_250_pct: reads disagree (0.28 vs 0.16), left out |
 | stanford-university | 2025-2026 | 32 |  |
 | state-university-of-new-york-at-cortland | 2025-2026 | 18 |  |
@@ -138,7 +138,7 @@ Built 2026-11-06.
 | university-of-akron-main-campus | 2025-2026 | 31 | C1 failed consistency (applied 13503, admitted 10427, enrolled 2169, federal admit rate 0.5967) |
 | university-of-alabama-in-huntsville | 2025-2026 | 39 |  |
 | university-of-arizona | 2099-2100 | 14 | C11 left blank by the school |
-| university-of-arkansas | 2025-2026 | 28 | reader and Gemini read different documents (? vs 2025); used the Gemini one |
+| university-of-arkansas | 2025-2026 | 46 |  |
 | university-of-california-berkeley | 2025-2026 | 15 |  |
 | university-of-california-davis | 2025-2026 | 35 |  |
 | university-of-california-irvine | 2025-2026 | 24 |  |
@@ -158,7 +158,7 @@ Built 2026-11-06.
 | university-of-idaho | - | 18 | gpa_below1_pct read as the "totals = 100%" note |
 | university-of-illinois-chicago | 2025-2026 | 39 | SAT 1030-1300 far from federal 1130-1350 |
 | university-of-illinois-urbana-champaign | 2025-2026 | 32 | C11 buckets sum to 18.0 |
-| university-of-iowa | 2024-2025 | 32 | reader and Gemini read different documents (2024 vs 2025); used the Gemini one; newer document gave too few values; used the other |
+| university-of-iowa | 2025-2026 | 34 |  |
 | university-of-kansas | 2024-2025 | 19 | sat_submit_pct: reader 8, Gemini 8.6 (quote matched); act_submit_pct: reader 55, Gemini 55.2 (quote matched); act_p25: reader 2, Gemini 20 (quote matched); act_p50: reads disagree (2 vs 24), left out; act_p75: reads disagree (4 vs 28), left out; rank_top25_pct: reader 5, Gemini 54 (quote matched); gpa_400_pct: reader 3, Gemini 36 (quote matched); gpa_375_pct: reader 2, Gemini 23 (quote matched); gpa_325_pct: reader 1, Gemini 11 (quote matched); C1 failed consistency (applied 22363, admitted undefined, enrolled undefined, federal admit rate 0.9348); act scores inconsistent (20, undefined, undefined); ed counts inconsistent (undefined, 24) |
 | university-of-kentucky | 2025-2026 | 31 |  |
 | university-of-louisville | 2024-2025 | 33 |  |
@@ -182,7 +182,7 @@ Built 2026-11-06.
 | university-of-oklahoma-norman-campus | 2025-2026 | 43 |  |
 | university-of-oregon | 2025-2026 | 0 |  |
 | university-of-pennsylvania | 2025-2026 | 43 |  |
-| university-of-pittsburgh-pittsburgh-campus | 2025-2026 | 21 | reader and Gemini read different documents (2024 vs 2025); used the Gemini one |
+| university-of-pittsburgh-pittsburgh-campus | 2025-2026 | 39 |  |
 | university-of-rhode-island | 2025-2026 | 38 |  |
 | university-of-richmond | 2024-2025 | 33 |  |
 | university-of-south-carolina-columbia | 2025-2026 | 1 |  |
@@ -198,7 +198,7 @@ Built 2026-11-06.
 | vanderbilt-university | 2025-2026 | 45 |  |
 | vassar-college | 2025-2026 | 38 |  |
 | villanova-university | 2025-2026 | 47 |  |
-| virginia-commonwealth-university | 2024-2025 | 27 | reader and Gemini read different documents (? vs 2024); used the Gemini one |
+| virginia-commonwealth-university | 2024-2025 | 42 | applied_total: reads disagree (21201 vs 24804), left out; C1 failed consistency (applied undefined, admitted 20769, enrolled 4449, federal admit rate 0.9262) |
 | virginia-polytechnic-institute-and-state-university | 2025-2026 | 17 |  |
 | wabash-college | 2025-2026 | 15 | C11 buckets sum to 2.0 |
 | wake-forest-university | 2025-2026 | 25 | sat scores inconsistent (1420, undefined, undefined); act scores inconsistent (32, undefined, undefined) |

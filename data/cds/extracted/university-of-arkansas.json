@@ -1,34 +1,143 @@
 {
   "slug": "university-of-arkansas",
-  "cdsYear": "2099-2100",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://osai.uark.edu/datasets/cds/cds99-00.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://osai.uark.edu/datasets/cds/cds25-26v2.pdf"
   },
+  "sourceUrl": "https://osai.uark.edu/datasets/cds/cds25-26v2.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 5,
   "docKind": "pdf",
   "values": {
-    "sat_submit_pct": {
-      "value": 19.8,
-      "quote": "percent submitting sat scores 19.8 number submitting sat scores 444"
+    "applied_total": {
+      "value": 32928,
+      "quote": "total first-time, first-year (degree-seeking) who applied 8988 22358 1578 4 32928"
     },
-    "act_submit_pct": {
-      "value": 95.8,
-      "quote": "percent submitting act scores 95.8 number submitting act scores 2,152"
+    "admitted_total": {
+      "value": 24326,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 7116 17028 182 0 24326"
+    },
+    "enrolled_total": {
+      "value": 6956,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 3206 3707 43 0 6956"
+    },
+    "waitlist_admitted": {
+      "value": 32,
+      "quote": "number of wait-listed students admitted: 32"
+    },
+    "rank_top10_pct": {
+      "value": 25.9,
+      "quote": "percent in top tenth of high school graduating class 25.9%"
     },
     "rank_top25_pct": {
-      "value": 65.7,
-      "quote": "percent in top quarter of high school graduating class 65.7"
+      "value": 53.2,
+      "quote": "percent in top quarter of high school graduating class 53.2%"
     },
-    "gpa_100_pct": {
-      "value": 0.1,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.1"
+    "gpa_average": {
+      "value": 3.83,
+      "quote": "average high school gpa 3.83"
     },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 0.0"
+    "gpa_submit_pct": {
+      "value": 99.9,
+      "quote": "percent submitting gpa 99.9%"
+    },
+    "sat_p25": {
+      "value": 1020,
+      "quote": "sat composite 1020 1110 1210"
+    },
+    "sat_p50": {
+      "value": 1110,
+      "quote": "sat composite 1020 1110 1210"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "sat composite 1020 1110 1210"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "act composite 21 24 28"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "act composite 21 24 28"
+    },
+    "act_p75": {
+      "value": 28,
+      "quote": "act composite 21 24 28"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null

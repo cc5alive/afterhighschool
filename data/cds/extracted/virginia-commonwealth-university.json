@@ -1,58 +1,180 @@
 {
   "slug": "virginia-commonwealth-university",
-  "cdsYear": null,
+  "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://irds.vcu.edu/media/decision-support/pdf/commondatasets/VirginiaCommonwealthUniversityCDSFinalADA.pdf"
+    "title": "Virginia Commonwealth University Common Data Set 2024-2025",
+    "url": "https://irds.vcu.edu/media/decision-support/pdf/commondatasets/CommonDataSet2024-25.pdf"
   },
+  "sourceUrl": "https://irds.vcu.edu/media/decision-support/pdf/commondatasets/CommonDataSet2024-25.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 5,
   "docKind": "pdf",
   "values": {
-    "sat_submit_pct": {
-      "value": 85,
-      "quote": "percent submitting sat scores 85% number submitting sat scores 38 05"
+    "admitted_total": {
+      "value": 20769,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 15171 4401 596 601 20769"
+    },
+    "enrolled_total": {
+      "value": 4449,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 3806 469 84 90 4449"
+    },
+    "waitlist_admitted": {
+      "value": 17,
+      "quote": "number of wait-listed students admitted: 17"
     },
     "rank_top10_pct": {
-      "value": 18.35,
-      "quote": "percent in top tenth of high school graduating class 18.35"
+      "value": 17,
+      "quote": "percent in top tenth of high school graduating class 17.00"
     },
     "rank_top25_pct": {
-      "value": 45.03,
-      "quote": "percent in top quarter of high school graduating class 45.03"
+      "value": 40,
+      "quote": "percent in top quarter of high school graduating class 40.00"
     },
     "gpa_400_pct": {
-      "value": 27.11,
-      "quote": "percent who had gpa of 4.0 27.11"
+      "value": 26.29,
+      "quote": "percent who had gpa of 4.0 37.50 20.42 26.29"
     },
     "gpa_375_pct": {
-      "value": 18.08,
-      "quote": "percent who had gpa between 3.75 and 3.99 18.08"
+      "value": 16.66,
+      "quote": "percent who had gpa between 3.75 and 3.99 17.81 16.06 16.66"
+    },
+    "gpa_350_pct": {
+      "value": 16.93,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.36 17.75 16.93"
     },
     "gpa_325_pct": {
-      "value": 16.57,
-      "quote": "percent who had gpa between 3.25 and 3.49 16.57"
+      "value": 15.27,
+      "quote": "percent who had gpa between 3.25 and 3.49 12.64 16.65 15.27"
     },
     "gpa_300_pct": {
-      "value": 11.34,
-      "quote": "percent who had gpa between 3.00 and 3.24 11.34"
+      "value": 13.16,
+      "quote": "percent who had gpa between 3.00 and 3.24 9.01 15.33 13.16"
+    },
+    "gpa_250_pct": {
+      "value": 11.4,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.61 13.39 11.40"
     },
     "gpa_200_pct": {
-      "value": 0.3,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.30"
+      "value": 0.26,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.07 0.37 0.26"
     },
     "gpa_100_pct": {
-      "value": 0.02,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.02"
+      "value": 0.03,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.03 0.03"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 0"
+      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00"
     },
     "gpa_average": {
-      "value": 3.68,
-      "quote": "c12. average high school gpa of all degree - seeking, first - time, first - year (freshman) students wh o submitted gpa: 3.68"
+      "value": 3.63,
+      "quote": "average high school gpa 3.63"
+    },
+    "gpa_submit_pct": {
+      "value": 97.89,
+      "quote": "percent submitting gpa 97.89"
+    },
+    "applied_total": {
+      "value": 21201,
+      "quote": "total first-time, first-year men who applied 7729 / total first-time, first-year women who applied 13449 / total first-time, first-year of another gender who applied 16 / total first-time, first-year of unknown gender who applied 7",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1010,
+      "quote": "sat composite 1010 1140 1260"
+    },
+    "sat_p50": {
+      "value": 1140,
+      "quote": "sat composite 1010 1140 1260"
+    },
+    "sat_p75": {
+      "value": 1260,
+      "quote": "sat composite 1010 1140 1260"
+    },
+    "act_p25": {
+      "value": 22,
+      "quote": "act composite 22 25 30"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "act composite 22 25 30"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "act composite 22 25 30"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null

@@ -1,107 +1,15 @@
 {
   "slug": "smith-college",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://www.smith.edu/sites/default/files/2024-05/CDS_2023_2024_Published_19April24.pdf"
+    "title": "Smith College Common Data Set 2024-25 v2",
+    "url": "https://www1.smith.edu/sites/default/files/2025-02/2024-2025-CDS-Smith-PUB19Dec24%20v2.pdf"
   },
+  "sourceUrl": "https://www1.smith.edu/sites/default/files/2025-02/2024-2025-CDS-Smith-PUB19Dec24%20v2.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 5,
   "docKind": "pdf",
-  "values": {
-    "waitlist_admitted": {
-      "value": 54,
-      "quote": "number of wait-listed students admitted: 54"
-    },
-    "rank_top10_pct": {
-      "value": 77,
-      "quote": "percent in top tenth of high school graduating class 77%"
-    },
-    "rank_top25_pct": {
-      "value": 96,
-      "quote": "percent in top quarter of high school graduating class 96%"
-    },
-    "gpa_400_pct": {
-      "value": 83,
-      "quote": "percent who had gpa of 4.0 83%"
-    },
-    "gpa_375_pct": {
-      "value": 13,
-      "quote": "percent who had gpa between 3.75 and 3.99 13%"
-    },
-    "gpa_350_pct": {
-      "value": 4,
-      "quote": "percent who had gpa between 3.50 and 3.74 4%"
-    },
-    "gpa_325_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 3.25 and 3.49 0%"
-    },
-    "gpa_300_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 3.00 and 3.24 0%"
-    },
-    "gpa_250_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 2.50 and 2.99 0%"
-    },
-    "gpa_200_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 2.0 and 2.49 0%"
-    },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0%"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 0%"
-    },
-    "gpa_average": {
-      "value": 4.2,
-      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 4.2"
-    },
-    "gpa_submit_pct": {
-      "value": 83,
-      "quote": "percent of total first-time, first-year students who submitted high school gpa: 83%"
-    },
-    "ed_applied": {
-      "value": 930,
-      "quote": "number of early decision applications received by your institution: 930"
-    },
-    "ed_admitted": {
-      "value": 303,
-      "quote": "number of applicants admitted under early decision plan: 303"
-    },
-    "sat_p25": {
-      "value": 1430,
-      "quote": "sat composite (400 - 1600) 1430 1470 1520"
-    },
-    "sat_p50": {
-      "value": 1470,
-      "quote": "sat composite (400 - 1600) 1430 1470 1520"
-    },
-    "sat_p75": {
-      "value": 1520,
-      "quote": "sat composite (400 - 1600) 1430 1470 1520"
-    },
-    "act_p25": {
-      "value": 32,
-      "quote": "act composite (0 - 36) 32 33 34"
-    },
-    "act_p50": {
-      "value": 33,
-      "quote": "act composite (0 - 36) 32 33 34"
-    },
-    "act_p75": {
-      "value": 34,
-      "quote": "act composite (0 - 36) 32 33 34"
-    },
-    "ed_offered": {
-      "value": "yes",
-      "quote": null
-    }
-  },
-  "concerns": null
+  "values": {},
+  "concerns": "no CDS values recognized (document may be scanned or laid out unusually)"
 }

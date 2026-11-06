@@ -1,77 +1,86 @@
 {
   "slug": "university-of-iowa",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set",
-    "url": "https://provost.uiowa.edu/sites/provost.uiowa.edu/files/2025-09/cds_2425_0.pdf"
+    "url": "https://provost.uiowa.edu/sites/provost.uiowa.edu/files/2026-04/CDS_2526.pdf"
   },
+  "sourceUrl": "https://provost.uiowa.edu/sites/provost.uiowa.edu/files/2026-04/CDS_2526.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 5,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 27770,
-      "quote": "total first-time, first-year (degree-seeking) who applied 5714 20664 1392 0 27770"
+    "gpa_400_pct": {
+      "value": 35.45,
+      "quote": "percent who had gpa of 4.0 38.43% 25.12% 35.45%"
     },
-    "admitted_total": {
-      "value": 23222,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 4978 17627 617 0 23222"
+    "gpa_375_pct": {
+      "value": 28.83,
+      "quote": "percent who had gpa between 3.75 and 3.99 28.18% 31.10% 28.83%"
     },
-    "enrolled_total": {
-      "value": 5208,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 2813 2338 57 0 5208"
+    "gpa_350_pct": {
+      "value": 18.88,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.94% 29.08% 18.88%"
     },
-    "waitlist_admitted": {
-      "value": 13,
-      "quote": "number of wait-listed students admitted: 13"
+    "gpa_325_pct": {
+      "value": 12.08,
+      "quote": "percent who had gpa between 3.25 and 3.49 11.91% 12.68% 12.08%"
     },
-    "rank_top10_pct": {
-      "value": 38.46,
-      "quote": "percent in top tenth of high school graduating class 38.46"
+    "gpa_300_pct": {
+      "value": 3.82,
+      "quote": "percent who had gpa between 3.00 and 3.24 4.45% 1.62% 3.82%"
     },
-    "rank_top25_pct": {
-      "value": 74.36,
-      "quote": "percent in top quarter of high school graduating class 74.36"
+    "gpa_250_pct": {
+      "value": 0.9,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.07% 0.32% 0.90%"
+    },
+    "gpa_200_pct": {
+      "value": 0.04,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.02% 0.08% 0.04%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0%"
     },
     "gpa_average": {
-      "value": 3.83,
-      "quote": "average high school gpa 3.83"
-    },
-    "gpa_submit_pct": {
-      "value": 99.06,
-      "quote": "percent submitting gpa 99.06"
+      "value": 3.86,
+      "quote": "average high school gpa of all degree - seeking, first - time, first - year students who submitted gpa: 3.86"
     },
     "sat_p25": {
-      "value": 1140,
-      "quote": "sat composite 1140 1230 1313"
+      "value": 1130,
+      "quote": "sat composite 1,130 1,230 1,320"
     },
     "sat_p50": {
       "value": 1230,
-      "quote": "sat composite 1140 1230 1313"
+      "quote": "sat composite 1,130 1,230 1,320"
     },
     "sat_p75": {
-      "value": 1313,
-      "quote": "sat composite 1140 1230 1313"
+      "value": 1320,
+      "quote": "sat composite 1,130 1,230 1,320"
     },
     "act_p25": {
       "value": 21,
-      "quote": "act composite 21 24 28"
+      "quote": "act composite 21 25 28"
     },
     "act_p50": {
-      "value": 24,
-      "quote": "act composite 21 24 28"
+      "value": 25,
+      "quote": "act composite 21 25 28"
     },
     "act_p75": {
       "value": 28,
-      "quote": "act composite 21 24 28"
+      "quote": "act composite 21 25 28"
     },
     "factor_rigor": {
       "value": "Very Important",
       "quote": "Rigor of secondary school record"
     },
     "factor_class_rank": {
-      "value": "Very Important",
+      "value": "Considered",
       "quote": "Class rank"
     },
     "factor_gpa": {

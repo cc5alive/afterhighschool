@@ -1,38 +1,121 @@
 {
   "slug": "california-institute-of-technology",
-  "cdsYear": null,
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://finance.caltech.edu/documents/25197/cds_2023.pdf"
+    "title": "Caltech CDS 2025-26",
+    "url": "https://iro.caltech.edu/documents/35129/Caltech_CDS_2025-26_August_2026.pdf"
   },
+  "sourceUrl": "https://iro.caltech.edu/documents/35129/Caltech_CDS_2025-26_August_2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 5,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 16626,
-      "quote": "total first-time, first-year (degree-seeking) who applied 16626"
-    },
-    "admitted_total": {
-      "value": 448,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 448"
-    },
-    "enrolled_total": {
-      "value": 224,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 224"
-    },
     "waitlist_admitted": {
       "value": 1,
       "quote": "number of wait-listed students admitted: 1"
     },
     "rank_top10_pct": {
-      "value": 96.43,
-      "quote": "percent in top tenth of high school graduating class 96.43"
+      "value": 97.3,
+      "quote": "percent in top tenth of high school graduating class 97.30"
     },
     "rank_top25_pct": {
       "value": 100,
       "quote": "percent in top quarter of high school graduating class 100.00"
+    },
+    "applied_total": {
+      "value": 11285,
+      "quote": "total first-time, first-year men who applied 7772 / total first-time, first-year women who applied 3513",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 428,
+      "quote": "total first-time, first-year men who were admitted 224 / total first-time, first-year women who were admitted 204",
+      "how": "sum of gender rows"
+    },
+    "act_p25": {
+      "value": 35,
+      "quote": "act composite 35 35 36"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 35 35 36"
+    },
+    "act_p75": {
+      "value": 36,
+      "quote": "act composite 35 35 36"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null
