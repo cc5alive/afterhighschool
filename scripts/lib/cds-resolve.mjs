@@ -86,7 +86,7 @@ function cdsLinks(html, base) {
     const label = norm(m[2]) + ' ' + decoded.toLowerCase();
     if (!/common.?data.?set|\bcds\b|cds[_-]/.test(label)) continue;
     const y = yearOf(label);
-    const file = /\.(pdf|xlsx?)(\?|$)/i.test(href) || !!downloadUrl(href);
+    const file = /\.(pdf|xlsx?|docx)(\?|$)/i.test(href) || !!downloadUrl(href);
     links.push({ href, y, file, score: y * 10 + (file ? 5 : 0) });
   }
   return links.sort((a, b) => b.score - a.score);

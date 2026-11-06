@@ -15,6 +15,7 @@ export const squash = (s) => norm(s).replace(/[^a-z0-9%$.]/g, '');
 export function kindOf(buf, contentType = '', url = '') {
   const head = buf.subarray(0, 5).toString('latin1');
   if (head.startsWith('%PDF') || /pdf/i.test(contentType)) return 'pdf';
+  if ((head.startsWith('PK') && /wordprocessingml/i.test(contentType)) || /\.docx($|\?)/i.test(url)) return 'docx';
   if ((head.startsWith('PK') && /sheet|excel|officedocument|octet/i.test(contentType)) || /\.xlsx?($|\?)/i.test(url)) return 'xlsx';
   return 'html';
 }
@@ -84,6 +85,43 @@ async function xlsxDoc(buf) {
   return { raw: rows.map((r) => r.map((c) => c.s).join(' ')).join('\n'), rows };
 }
 
+// Word (.docx): read word/document.xml from the zip (SheetJS ships a zip reader) and turn each table
+// row into cells and each paragraph into a one-cell row. Ticked checkboxes count as "X".
+async function docxDoc(buf) {
+  let XLSX;
+  try { XLSX = (await import('xlsx')).default; } catch { return null; }
+  const zip = XLSX.CFB.read(buf, { type: 'buffer' });
+  const entry = XLSX.CFB.find(zip, 'word/document.xml') || XLSX.CFB.find(zip, '/word/document.xml');
+  if (!entry) return null;
+  const xml = Buffer.from(entry.content).toString('utf8');
+  const unesc = (t) => t.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, '&');
+  const text = (frag) => {
+    let t = [...frag.matchAll(/<w:t(?:\s[^>]*)?>([^<]*)<\/w:t>|<w:tab\/>|<w:br\/>/g)].map((m) => (m[1] != null ? unesc(m[1]) : ' ')).join('');
+    if (!/[☒☑✓✔x]/i.test(t) && /w14:checked w14:val="(1|true)"|<w:checked\/>|<w:checkBox>[\s\S]*?<w:default w:val="1"/.test(frag)) t = `${t} X`;
+    return t.replace(/\s+/g, ' ').trim();
+  };
+  const rows = [];
+  for (const m of xml.matchAll(/<w:tbl>[\s\S]*?<\/w:tbl>|<w:p[ >][\s\S]*?<\/w:p>/g)) {
+    const block = m[0];
+    if (block.startsWith('<w:tbl>')) {
+      for (const tr of block.match(/<w:tr[ >][\s\S]*?<\/w:tr>/g) || []) {
+        let x = 0; const cells = [];
+        for (const tc of tr.match(/<w:tc>[\s\S]*?<\/w:tc>/g) || []) {
+          const span = Number((tc.match(/<w:gridSpan w:val="(\d+)"/) || [])[1] || 1);
+          const s = text(tc);
+          if (s) cells.push({ x: x * 100, s });
+          x += span;
+        }
+        if (cells.length) rows.push(cells);
+      }
+    } else {
+      const s = text(block);
+      if (s) rows.push([{ x: 0, s }]);
+    }
+  }
+  return { raw: rows.map((r) => r.map((c) => c.s).join(' ')).join('\n'), rows };
+}
+
 function htmlDoc(html) {
   const rows = [];
   for (const tr of html.match(/<tr[\s\S]*?<\/tr>/gi) || []) {
@@ -103,7 +141,7 @@ function htmlDoc(html) {
 export async function docFromBuffer(buf, contentType = '', url = '') {
   const kind = kindOf(buf, contentType, url);
   let doc = null;
-  try { doc = kind === 'pdf' ? await pdfDoc(buf) : kind === 'xlsx' ? await xlsxDoc(buf) : htmlDoc(buf.toString('utf8')); } catch { /* unreadable */ }
+  try { doc = kind === 'pdf' ? await pdfDoc(buf) : kind === 'xlsx' ? await xlsxDoc(buf) : kind === 'docx' ? await docxDoc(buf) : htmlDoc(buf.toString('utf8')); } catch { /* unreadable */ }
   return { kind, text: doc ? norm(doc.raw) : null, rows: doc ? doc.rows : null };
 }
 
