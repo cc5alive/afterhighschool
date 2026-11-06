@@ -15,7 +15,7 @@ fs.mkdirSync(DIR, { recursive: true });
 const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 2;
+const READER_VERSION = 3;
 const current = (slug) => { try { return JSON.parse(fs.readFileSync(`${DIR}/${slug}.json`, 'utf8')).readerVersion === READER_VERSION; } catch { return false; } };
 // Sources that failed are remembered so each run doesn't spend minutes re-trying them.
 // A failed school is tried again when its URL in sources.json changes, after 14 days, or with --retry.
@@ -68,6 +68,7 @@ const parse = (s, type) => {
 };
 const rowText = (r) => norm(r.map((c) => c.s).join(' '));
 const isNumbersOnly = (r) => r.length > 0 && r.every((c) => /^[\d,.\s%]+$/.test(c.s));
+const isFooter = (r) => /common data set|page \d/.test(rowText(r));
 
 function readRows(rows) {
   const out = {};
@@ -77,7 +78,7 @@ function readRows(rows) {
       const text = rowText(rows[i]);
       if (!re.test(text)) continue;
       let cells = rows[i], quoteRows = [rows[i]];
-      if (!cells.some((c) => parse(c.s, type) != null) && rows[i + 1]
+      if (!cells.some((c) => parse(c.s, type) != null) && rows[i + 1] && !isFooter(rows[i + 1])
           && (isNumbersOnly(rows[i + 1]) || rowText(rows[i + 1]).replace(/[\d.,%\s]/g, '').length < 40)) {
         cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]);
       } else if (pick === 'last' && rows[i + 1] && isNumbersOnly(rows[i + 1])) {
@@ -95,10 +96,38 @@ function readRows(rows) {
         // the sum of the others; failing that, the largest.
         const vals = nums.map((c) => parse(c.s, type));
         const sum = vals.reduce((a, b) => a + b, 0);
-        value = vals.find((x) => vals.length > 2 && Math.abs(x * 2 - sum) <= 2) ?? Math.max(...vals);
+        value = vals.length === 1 ? vals[0] : (vals.find((x) => vals.length > 2 && Math.abs(x * 2 - sum) <= 2) ?? null);
+        if (!value) continue; // a blank or broken total field: C1 falls back to the gender rows below
       }
       out[key] = { value, quote: quoteRows.map(rowText).join(' ') };
     }
+  }
+  return out;
+}
+
+// C1 also lists applicants, admits and enrollees by gender. When the total row is blank, broken ("##")
+// or reads 0, the total is the sum of those rows.
+const C1_VERB = { applied_total: /who applied$/, admitted_total: /who were admitted$/, enrolled_total: /(who )?enrolled$/ };
+function c1FromGender(rows, out) {
+  for (const [key, verb] of Object.entries(C1_VERB)) {
+    if (out[key]?.value) continue;
+    let sum = 0, n = 0; const quote = [];
+    for (let i = 0; i < (rows || []).length; i++) {
+      let r = rows[i];
+      if (!/^total first-time, first-year (men|women|males|females|students of|of another|of unknown|another|unknown)/.test(rowText(r))) continue;
+      // Long labels wrap: the number and the rest of the label can sit on the next one or two rows.
+      for (let j = i + 1; j <= i + 2 && rows[j]; j++) {
+        const t = rowText(rows[j]);
+        if (/^total |first-time, first-year student/.test(t) || isFooter(rows[j])) break;
+        if (isNumbersOnly(rows[j]) || t.replace(/[\d,]/g, '').trim().length < 25) r = r.concat(rows[j]); else break;
+      }
+      const text = rowText(r.filter((c) => parse(c.s, 'count') == null)).trim();
+      if (!verb.test(text)) continue;
+      const nums = r.slice(1).map((c) => parse(c.s, 'count')).filter((x) => x != null);
+      if (nums.length) sum += nums[nums.length - 1];
+      n++; quote.push(rowText(r));
+    }
+    if (n >= 2 && sum > 0) out[key] = { value: sum, quote: quote.join(' / '), how: 'sum of gender rows' };
   }
   return out;
 }
@@ -142,30 +171,34 @@ function factors(rows) {
   return out;
 }
 
-let made = 0;
-const log = [];
-for (const [slug, src] of Object.entries(sources)) {
-  if (!force && current(slug)) continue;
-  if (!retry && fresh(failed[slug], src.url)) continue;
-  let resolved;
-  try { resolved = await resolveCds(src.url); } catch (err) { fail(slug, src.url, `error ${err.message}`); continue; }
-  const doc = resolved.doc;
-  if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
-  if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
-  delete failed[slug];
-  const values = { ...readRows(doc.rows), ...readScores(doc.rows), ...factors(doc.rows) };
-  if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
-  if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
-  const docUrl = resolved.url || src.url;
-  const d = { slug, cdsYear: src.year || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null), source: { title: src.title || 'Common Data Set', url: docUrl },
-    researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
-  if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
-  fs.writeFileSync(`${DIR}/${slug}.json`, JSON.stringify(d, null, 2) + '\n');
-  made++;
-  log.push(`${slug}: ${doc.kind}, ${Object.keys(values).length} values`);
+export { readRows, readScores, factors, c1FromGender };
+// Run only when called directly (tests import the readers above).
+if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) {
+  let made = 0;
+  const log = [];
+  for (const [slug, src] of Object.entries(sources)) {
+    if (!force && current(slug)) continue;
+    if (!retry && fresh(failed[slug], src.url)) continue;
+    let resolved;
+    try { resolved = await resolveCds(src.url); } catch (err) { fail(slug, src.url, `error ${err.message}`); continue; }
+    const doc = resolved.doc;
+    if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
+    if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
+    delete failed[slug];
+    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows) };
+    if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
+    if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
+    const docUrl = resolved.url || src.url;
+    const d = { slug, cdsYear: src.year || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null), source: { title: src.title || 'Common Data Set', url: docUrl },
+      researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
+    if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
+    fs.writeFileSync(`${DIR}/${slug}.json`, JSON.stringify(d, null, 2) + '\n');
+    made++;
+    log.push(`${slug}: ${doc.kind}, ${Object.keys(values).length} values`);
+  }
+  for (const k of Object.keys(failed)) if (!sources[k]) delete failed[k];
+  fs.writeFileSync(FAILED, JSON.stringify(failed, null, 1) + '\n');
+  console.log(log.join('\n'));
+  console.log(`wrote ${made} drafts; ${Object.keys(failed).length} sources currently failing (see ${FAILED})`);
+  await closeBrowser();
 }
-for (const k of Object.keys(failed)) if (!sources[k]) delete failed[k];
-fs.writeFileSync(FAILED, JSON.stringify(failed, null, 1) + '\n');
-console.log(log.join('\n'));
-console.log(`wrote ${made} drafts; ${Object.keys(failed).length} sources currently failing (see ${FAILED})`);
-await closeBrowser();
