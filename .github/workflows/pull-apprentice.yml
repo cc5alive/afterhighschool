@@ -1,0 +1,51 @@
+name: Pull apprenticeship occupation data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 14 1 * *'   # monthly; BLS updates these files once a year
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/pull-apprentice.mjs'
+      - 'src/lib/apprenticeships.js'
+      - '.github/workflows/pull-apprentice.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pull-apprentice
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Download BLS files
+        run: |
+          mkdir -p tmp/apprentice && cd tmp/apprentice
+          UA="afterhighschool.me data pull (hello@afterhighschool.me)"
+          curl -fsSL -A "$UA" -o occupation.xlsx https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx
+          curl -fsSL -A "$UA" -o soc.xlsx https://www.bls.gov/soc/2018/soc_2018_definitions.xlsx
+          curl -fsSL -A "$UA" -o nat.zip https://www.bls.gov/oes/special-requests/oesm25nat.zip
+          curl -fsSL -A "$UA" -o st.zip https://www.bls.gov/oes/special-requests/oesm25st.zip
+          unzip -o -q nat.zip && unzip -o -q st.zip
+          mv oesm25nat/national_M2025_dl.xlsx national.xlsx && mv oesm25st/state_M2025_dl.xlsx state.xlsx
+      - run: npm install --no-save --no-package-lock xlsx@0.18.5
+      - run: node scripts/pull-apprentice.mjs
+      - name: Add report to run summary
+        run: cat data/apprentice/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit data
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git add data/apprentice
+          git diff --cached --quiet && exit 0
+          git commit -qm "Apprenticeship occupation data pull"
+          git pull --rebase -X theirs -q && git push -q
