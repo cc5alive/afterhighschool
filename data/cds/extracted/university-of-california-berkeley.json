@@ -1,0 +1,75 @@
+{
+  "slug": "university-of-california-berkeley",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "UC Berkeley Common Data Set 2025-2026",
+    "url": "https://docs.google.com/spreadsheets/d/1INsGFH6MhaO-MFMBZ1Dngcn84FeN-hc0BLS0-v8TL_k/edit"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 126864,
+      "quote": "total first-time, first-year (degree-seeking) who applied 126864"
+    },
+    "admitted_total": {
+      "value": 14524,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 14524"
+    },
+    "enrolled_total": {
+      "value": 6687,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 6687"
+    },
+    "waitlist_admitted": {
+      "value": 0,
+      "quote": "number of wait-listed students admitted: 0 *updated may 2026"
+    },
+    "gpa_400_pct": {
+      "value": 0.398,
+      "quote": "percent who had gpa of 4.0 0.398"
+    },
+    "gpa_375_pct": {
+      "value": 0.501,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.501"
+    },
+    "gpa_350_pct": {
+      "value": 0.081,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.081"
+    },
+    "gpa_325_pct": {
+      "value": 0.014,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.014"
+    },
+    "gpa_300_pct": {
+      "value": 0.003,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.003"
+    },
+    "gpa_250_pct": {
+      "value": 0.002,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.002"
+    },
+    "gpa_200_pct": {
+      "value": 0.001,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.001"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    },
+    "gpa_average": {
+      "value": 3.9,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.9"
+    },
+    "gpa_submit_pct": {
+      "value": 1,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 1"
+    }
+  },
+  "concerns": null
+}

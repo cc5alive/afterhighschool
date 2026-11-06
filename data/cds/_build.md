@@ -115,7 +115,7 @@ Built 2026-11-06.
 | university-of-alabama-in-huntsville | 2025-2026 | 39 |  |
 | university-of-arizona | 2099-2100 | 14 | C11 left blank by the school |
 | university-of-arkansas | 2099-2100 | 3 | C11 buckets sum to 0.1 |
-| university-of-california-berkeley | 2025-2026 | 0 |  |
+| university-of-california-berkeley | 2025-2026 | 15 |  |
 | university-of-california-davis | 2025-2026 | 35 |  |
 | university-of-california-irvine | 2025-2026 | 24 |  |
 | university-of-california-los-angeles | 2025-2026 | 32 |  |

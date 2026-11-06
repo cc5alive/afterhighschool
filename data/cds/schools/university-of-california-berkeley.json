@@ -1,0 +1,43 @@
+{
+  "slug": "university-of-california-berkeley",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "UC Berkeley Common Data Set 2025-2026",
+    "url": "https://docs.google.com/spreadsheets/d/1INsGFH6MhaO-MFMBZ1Dngcn84FeN-hc0BLS0-v8TL_k/edit"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 126864,
+    "admitted_total": 14524,
+    "enrolled_total": 6687,
+    "waitlist_admitted": 0,
+    "gpa_400_pct": 39.8,
+    "gpa_375_pct": 50.1,
+    "gpa_350_pct": 8.1,
+    "gpa_325_pct": 1.4,
+    "gpa_300_pct": 0.3,
+    "gpa_250_pct": 0.2,
+    "gpa_200_pct": 0.1,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.9,
+    "gpa_submit_pct": 100
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}
