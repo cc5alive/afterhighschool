@@ -1,0 +1,37 @@
+{
+  "slug": "clemson-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://open.clemson.edu/cgi/viewcontent.cgi?article=1017&context=cds"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 64805,
+    "admitted_total": 27498,
+    "enrolled_total": 5084,
+    "waitlist_admitted": 1801,
+    "sat_p25": 1250,
+    "sat_p50": 1330,
+    "sat_p75": 1400,
+    "rank_top10_pct": 54.57,
+    "rank_top25_pct": 92.08,
+    "transfer_applied": 3829,
+    "transfer_admitted": 2452,
+    "transfer_enrolled": 1798
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
+  }
+}

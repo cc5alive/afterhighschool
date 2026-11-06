@@ -109,11 +109,6 @@
   "at": "2026-11-06",
   "reason": "no CDS document found from https://ira.okstate.edu/site-files/documents/cds/CDS-2025-2026-PDF.pdf"
  },
- "princeton-university": {
-  "url": "https://ir.princeton.edu/document/606",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://ir.princeton.edu/document/606"
- },
  "brown-university": {
   "url": "https://oir.brown.edu/institutional-data/common-data-set",
   "at": "2026-11-06",
@@ -234,11 +229,6 @@
   "at": "2026-11-06",
   "reason": "no CDS document found from https://air.sfsu.edu/"
  },
- "new-york-university": {
-  "url": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL.xlsx",
-  "at": "2026-11-06",
-  "reason": "document failed to load (HTTP 200)"
- },
  "university-of-missouri-columbia": {
   "url": "https://udair.missouri.edu/mu-data/common-data-set",
   "at": "2026-11-06",
@@ -268,15 +258,5 @@
   "url": "https://docs.gato.txst.edu/779002/Common%20Data%20Set%202025-2026.pdf",
   "at": "2026-11-06",
   "reason": "document failed to load (HTTP 404)"
- },
- "johns-hopkins-university": {
-  "url": "https://oira.jhu.edu/wp-content/uploads/2025-2026-CDS-Johns-Hopkins-University-v2.pdf",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://oira.jhu.edu/wp-content/uploads/2025-2026-CDS-Johns-Hopkins-University-v2.pdf"
- },
- "clemson-university": {
-  "url": "https://open.clemson.edu/cgi/viewcontent.cgi?article=1017&context=cds",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://open.clemson.edu/cgi/viewcontent.cgi?article=1017&context=cds"
  }
 }

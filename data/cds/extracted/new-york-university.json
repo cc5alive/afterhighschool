@@ -1,0 +1,107 @@
+{
+  "slug": "new-york-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL.xlsx"
+  },
+  "sourceUrl": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL.xlsx",
+  "mirror": "data/cds/mirror/new-york-university.xlsx",
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 7,
+  "docKind": "xlsx",
+  "values": {
+    "enrolled_total": {
+      "value": 5662,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 5662"
+    },
+    "gpa_400_pct": {
+      "value": 0.172,
+      "quote": "percent who had gpa of 4.0 0.172"
+    },
+    "gpa_375_pct": {
+      "value": 0.547,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.547"
+    },
+    "gpa_350_pct": {
+      "value": 0.214,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.214"
+    },
+    "gpa_325_pct": {
+      "value": 0.052,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.052"
+    },
+    "gpa_300_pct": {
+      "value": 0.01,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.01"
+    },
+    "gpa_250_pct": {
+      "value": 0.004,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.004"
+    },
+    "gpa_200_pct": {
+      "value": 0.001,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.001"
+    },
+    "gpa_average": {
+      "value": 3.814,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.814"
+    },
+    "gpa_submit_pct": {
+      "value": 1,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 1"
+    },
+    "applied_total": {
+      "value": 114125,
+      "quote": "total first-time, first-year males who applied 46307 / total first-time, first-year females who applied 67818 / total first-time, first-year students of unknown sex who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 10340,
+      "quote": "total first-time, first-year males who were admitted 4231 / total first-time, first-year females who were admitted 6109 / total first-time, first-year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1480,
+      "quote": "sat composite 1480 1520 1550"
+    },
+    "sat_p50": {
+      "value": 1520,
+      "quote": "sat composite 1480 1520 1550"
+    },
+    "sat_p75": {
+      "value": 1550,
+      "quote": "sat composite 1480 1520 1550"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "transfer_applied": {
+      "value": 10681,
+      "quote": "D2 total 10681 4128 1549"
+    },
+    "transfer_admitted": {
+      "value": 4128,
+      "quote": "D2 total 10681 4128 1549"
+    },
+    "transfer_enrolled": {
+      "value": 1549,
+      "quote": "D2 total 10681 4128 1549"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    }
+  },
+  "concerns": null
+}

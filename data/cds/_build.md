@@ -35,6 +35,7 @@ Built 2026-11-06.
 | case-western-reserve-university | - | 49 |  |
 | citadel-military-college-of-south-carolina | 2025-2026 | 19 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | claremont-mckenna-college | 2025-2026 | 41 |  |
+| clemson-university | 2025-2026 | 12 | C11 buckets sum to 10.8 |
 | colgate-university | 2025-2026 | 50 |  |
 | college-of-the-holy-cross | 2023-2024 | 19 |  |
 | colorado-college | 2025-2026 | 54 |  |
@@ -71,6 +72,7 @@ Built 2026-11-06.
 | iowa-state-university | 2025-2026 | 44 |  |
 | jacksonville-state-university | 2025-2026 | 37 |  |
 | james-madison-university | 2025-2026 | 36 |  |
+| johns-hopkins-university | 2025-2026 | 42 | act scores inconsistent (35, 35, 35) |
 | kennesaw-state-university | 2025-2026 | 25 |  |
 | kent-state-university-at-kent | 2025-2026 | 0 |  |
 | lehigh-university | 2025-2026 | 42 |  |
@@ -86,7 +88,7 @@ Built 2026-11-06.
 | mississippi-state-university | 2024-2025 | 0 |  |
 | montana-state-university | 2025-2026 | 40 | C1 failed consistency (applied 19892, admitted 19769, enrolled 3743, federal admit rate 0.8214) |
 | montclair-state-university | 2025-2026 | 43 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
-| new-york-university | 2025-2026 | 0 |  |
+| new-york-university | 2025-2026 | 22 |  |
 | north-carolina-state-university-at-raleigh | 2025-2026 | 48 |  |
 | northeastern-illinois-university | 2024-2025 | 1 |  |
 | northeastern-university | - | 41 | gpa_below1_pct read as the "totals = 100%" note |
@@ -98,7 +100,7 @@ Built 2026-11-06.
 | old-dominion-university | 2025-2026 | 44 |  |
 | oregon-state-university | 2025-2026 | 41 |  |
 | pennsylvania-state-university-main-campus | 2025-2026 | 33 |  |
-| princeton-university | 2025-2026 | 0 |  |
+| princeton-university | 2025-2026 | 38 |  |
 | purdue-university-main-campus | 2025-2026 | 37 | rank_top10_pct: reads disagree (0.52035749751738 vs 52), left out; gpa_400_pct: reads disagree (0.4266 vs 43), left out; gpa_375_pct: reads disagree (0.2797 vs 28), left out; gpa_350_pct: reads disagree (0.1591 vs 16), left out; gpa_325_pct: reads disagree (0.0822 vs 8), left out; gpa_300_pct: reads disagree (0.0332 vs 3), left out; gpa_250_pct: reads disagree (0.0171 vs 2), left out; C11 buckets sum to 0.0 |
 | radford-university | - | 36 |  |
 | rice-university | 2025-2026 | 40 |  |

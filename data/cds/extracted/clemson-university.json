@@ -1,0 +1,77 @@
+{
+  "slug": "clemson-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://open.clemson.edu/cgi/viewcontent.cgi?article=1017&context=cds"
+  },
+  "sourceUrl": "https://open.clemson.edu/cgi/viewcontent.cgi?article=1017&context=cds",
+  "mirror": "data/cds/mirror/clemson-university.rows.json",
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 7,
+  "docKind": "ocr",
+  "values": {
+    "applied_total": {
+      "value": 64805,
+      "quote": "total first-time, first-year (degree-seeking) who applied 10697 52651 1457 64805"
+    },
+    "admitted_total": {
+      "value": 27498,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted; 5661 21277 560 27498"
+    },
+    "enrolled_total": {
+      "value": 5084,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2669 2357 58 5084"
+    },
+    "waitlist_admitted": {
+      "value": 1801,
+      "quote": "number of wait-listed students admitted: 1801"
+    },
+    "rank_top10_pct": {
+      "value": 54.57,
+      "quote": "percent in top tenth of high school graduating class 54.57"
+    },
+    "rank_top25_pct": {
+      "value": 92.08,
+      "quote": "percent in top quarter of high school graduating class 92.08"
+    },
+    "gpa_375_pct": {
+      "value": 9.46,
+      "quote": "percent who had gpa between 3.75 and 3.99 9.46"
+    },
+    "gpa_325_pct": {
+      "value": 0.98,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.98"
+    },
+    "gpa_250_pct": {
+      "value": 0.31,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.31"
+    },
+    "sat_p25": {
+      "value": 1250,
+      "quote": "sat composite 1250 1330 1400"
+    },
+    "sat_p50": {
+      "value": 1330,
+      "quote": "sat composite 1250 1330 1400"
+    },
+    "sat_p75": {
+      "value": 1400,
+      "quote": "sat composite 1250 1330 1400"
+    },
+    "transfer_applied": {
+      "value": 3829,
+      "quote": "D2 total 3829 2452 1798"
+    },
+    "transfer_admitted": {
+      "value": 2452,
+      "quote": "D2 total 3829 2452 1798"
+    },
+    "transfer_enrolled": {
+      "value": 1798,
+      "quote": "D2 total 3829 2452 1798"
+    }
+  },
+  "concerns": null
+}

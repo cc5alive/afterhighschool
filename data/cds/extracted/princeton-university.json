@@ -1,0 +1,169 @@
+{
+  "slug": "princeton-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://ir.princeton.edu/document/606"
+  },
+  "sourceUrl": "https://ir.princeton.edu/document/606",
+  "mirror": "data/cds/mirror/princeton-university.pdf",
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 7,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 42303,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4602 27134 10567 42303"
+    },
+    "admitted_total": {
+      "value": 1868,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 229 1398 241 1868"
+    },
+    "enrolled_total": {
+      "value": 1408,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 191 1031 186 1408"
+    },
+    "waitlist_admitted": {
+      "value": 36,
+      "quote": "number of wait-listed students admitted: 36"
+    },
+    "gpa_400_pct": {
+      "value": 72,
+      "quote": "percent who had gpa of 4.0 76% 51% 72%"
+    },
+    "gpa_375_pct": {
+      "value": 24,
+      "quote": "percent who had gpa between 3.75 and 3.99 21% 36% 24%"
+    },
+    "gpa_350_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 3.50 and 3.74 2% 9% 3%"
+    },
+    "gpa_325_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.25 and 3.49 1% 4% 1%"
+    },
+    "gpa_average": {
+      "value": 3.96,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.96"
+    },
+    "sat_p25": {
+      "value": 1490,
+      "quote": "sat composite 1490 1530 1560"
+    },
+    "sat_p50": {
+      "value": 1530,
+      "quote": "sat composite 1490 1530 1560"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "sat composite 1490 1530 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2274,
+      "quote": "D2 total 2,274 42 32"
+    },
+    "transfer_admitted": {
+      "value": 42,
+      "quote": "D2 total 2,274 42 32"
+    },
+    "transfer_enrolled": {
+      "value": 32,
+      "quote": "D2 total 2,274 42 32"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "2 years",
+      "quote": "C18 maximum period of postponement: 2 years"
+    }
+  },
+  "concerns": null
+}
