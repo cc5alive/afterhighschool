@@ -3,178 +3,311 @@
   "cdsYear": "2025-2026",
   "source": {
     "title": "Michigan State University Common Data Set 2025-26",
-    "url": "https://ir.msu.edu/cds"
+    "url": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+    "page": "https://ir.msu.edu/cds"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "applied_total": {
       "value": 62965,
-      "quote": "AppliedC1 62,965"
+      "quote": "AppliedC1 62,965",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 52411,
-      "quote": "AdmittedC1 52,411"
+      "quote": "AdmittedC1 52,411",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 9355,
-      "quote": "EnrolledC1 9,355"
+      "quote": "EnrolledC1 9,355",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_offered": {
       "value": 4241,
-      "quote": "Offered a placeC2 4,241"
+      "quote": "Offered a placeC2 4,241",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_admitted": {
       "value": 2254,
-      "quote": "Admitted from waitlistC2 2,254"
+      "quote": "Admitted from waitlistC2 2,254",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Important",
-      "quote": "Rigor of secondary school record Important"
+      "quote": "Rigor of secondary school record Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "Class rank Not considered"
+      "quote": "Class rank Not considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA Very important"
+      "quote": "Academic GPA Very important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores Considered"
+      "quote": "Standardized test scores Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application essay Important"
+      "quote": "Application essay Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s) Not considered"
+      "quote": "Recommendation(s) Not considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interview": {
       "value": "Considered",
-      "quote": "Interview Considered"
+      "quote": "Interview Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities Important"
+      "quote": "Extracurricular activities Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent/ability Considered"
+      "quote": "Talent/ability Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character/personal qualities Considered"
+      "quote": "Character/personal qualities Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation Considered"
+      "quote": "First generation Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation Not considered"
+      "quote": "Alumni/ae relation Not considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence Not considered"
+      "quote": "Geographical residence Not considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency Not considered"
+      "quote": "State residency Not considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment Not considered"
+      "quote": "Religious affiliation/commitment Not considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work Considered"
+      "quote": "Volunteer work Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience Considered"
+      "quote": "Work experience Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant's interest Considered"
+      "quote": "Level of applicant's interest Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "sat_submit_pct": {
       "value": 51.5,
-      "quote": "Submitted SATC9 51.5%"
+      "quote": "Submitted SATC9 51.5%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 6.8,
-      "quote": "Submitted ACTC9 6.8%"
+      "quote": "Submitted ACTC9 6.8%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 1100,
-      "quote": "SAT Composite 25th percentile 1100"
+      "quote": "SAT Composite 25th percentile 1100",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1210,
-      "quote": "SAT Composite 50th percentile 1210"
+      "quote": "SAT Composite 50th percentile 1210",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1310,
-      "quote": "SAT Composite 75th percentile 1310"
+      "quote": "SAT Composite 75th percentile 1310",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 25,
-      "quote": "ACT Composite 25th percentile 25"
+      "quote": "ACT Composite 25th percentile 25",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p50": {
       "value": 28,
-      "quote": "ACT Composite 50th percentile 28"
+      "quote": "ACT Composite 50th percentile 28",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 31,
-      "quote": "ACT Composite 75th percentile 31"
+      "quote": "ACT Composite 75th percentile 31",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 24.41,
-      "quote": "GPA of 4.0 24.41%"
+      "quote": "GPA of 4.0 24.41%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_375_pct": {
       "value": 28.1,
-      "quote": "GPA 3.75-3.99 28.10%"
+      "quote": "GPA 3.75-3.99 28.10%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_350_pct": {
       "value": 23.8,
-      "quote": "GPA 3.50-3.74 23.80%"
+      "quote": "GPA 3.50-3.74 23.80%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_325_pct": {
       "value": 15.14,
-      "quote": "GPA 3.25-3.49 15.14%"
+      "quote": "GPA 3.25-3.49 15.14%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_300_pct": {
       "value": 7.04,
-      "quote": "GPA 3.00-3.24 7.04%"
+      "quote": "GPA 3.00-3.24 7.04%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_250_pct": {
       "value": 1.5,
-      "quote": "GPA 2.50-2.99 1.50%"
+      "quote": "GPA 2.50-2.99 1.50%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0.01,
-      "quote": "GPA 2.0-2.49 0.01%"
+      "quote": "GPA 2.0-2.49 0.01%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0.01,
-      "quote": "GPA 1.0-1.99 0.01%"
+      "quote": "GPA 1.0-1.99 0.01%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_average": {
       "value": 3.74,
-      "quote": "Average high school GPAC12 3.74"
+      "quote": "Average high school GPAC12 3.74",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early decisionC21 Not offered"
+      "quote": "Early decisionC21 Not offered",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Early actionC22 Offered"
+      "quote": "Early actionC22 Offered",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 1,
+  "total": 42
 }

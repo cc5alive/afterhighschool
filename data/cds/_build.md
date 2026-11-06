@@ -6,12 +6,12 @@ Built 2026-11-06.
 | --- | --- | --- | --- |
 | amherst-college | 2025-2026 | 38 |  |
 | arizona-state-university-campus-immersion | 2025-2026 | 34 |  |
-| auburn-university | - | 15 |  |
+| auburn-university | 2025-2026 | 41 |  |
 | babson-college | 2024-2025 | 35 |  |
 | barnard-college | 2025-2026 | 16 | rank_top10_pct: reader 0.96, Gemini 96 (quote matched); rank_top25_pct: reader 0.98, Gemini 98 (quote matched); C11 buckets sum to 3.0; ed counts inconsistent (undefined, 476) |
 | bates-college | 2025-2026 | 31 | SAT 1325-1510 far from federal 1420-1530 |
 | bennington-college | 2025-2026 | 26 |  |
-| binghamton-university | - | 39 |  |
+| binghamton-university | 2024-2025 | 46 |  |
 | boise-state-university | 2025-2026 | 3 |  |
 | boston-college | 2024-2025 | 32 | applied_total: reader 34779, Gemini 39686 (quote matched); enrolled_total: reader 2394, Gemini 2479 (quote matched); sat_p25: reader 1460, Gemini 1440 (quote matched) |
 | boston-university | 2024-2025 | 24 |  |
@@ -49,6 +49,7 @@ Built 2026-11-06.
 | emory-university | 2024-2025 | 43 | enrolled_total: reader 1438, Gemini 1443 (quote matched); waitlist_admitted: reader 109, Gemini 274 (quote matched); act_p25: reader 32, Gemini 33 (quote matched); rank_top10_pct: reader 80, Gemini 76 (quote matched); gpa_400_pct: reader 17.41, Gemini 14 (quote matched); gpa_375_pct: reader 58.38, Gemini 63 (quote matched); gpa_350_pct: reader 21.24, Gemini 21 (quote matched); gpa_325_pct: reader 2.53, Gemini 2 (quote matched); gpa_300_pct: reads disagree (0.44 vs 0), left out; ed_applied: reader 4193, Gemini 4728 (quote matched); ed_admitted: reader 974, Gemini 1049 (quote matched); factor_recommendations: reader Very Important, Gemini Important (quote matched) |
 | fairfield-university | 2025-2026 | 44 |  |
 | florida-agricultural-and-mechanical-university | 2023-2024 | 12 | C11 buckets sum to 132.5 |
+| florida-international-university | 2025-2026 | 43 |  |
 | george-mason-university | 2025-2026 | 35 |  |
 | georgetown-university | 2025-2026 | 34 |  |
 | georgia-institute-of-technology-main-campus | 2025-2026 | 44 | gpa_below1_pct: reader 95.31, Gemini 0 (quote matched) |
@@ -62,7 +63,7 @@ Built 2026-11-06.
 | indiana-university-bloomington | 2024-2025 | 45 |  |
 | iowa-state-university | 2025-2026 | 37 |  |
 | jacksonville-state-university | 2025-2026 | 34 |  |
-| kennesaw-state-university | 2025-2026 | 21 |  |
+| kennesaw-state-university | 2025-2026 | 25 |  |
 | lehigh-university | 2025-2026 | 37 |  |
 | lincoln-university-mo | 2023-2024 | 17 |  |
 | louisiana-state-university-and-agricultural-and-mechanical-college | - | 39 |  |
@@ -70,7 +71,7 @@ Built 2026-11-06.
 | macalester-college | 2025-2026 | 26 |  |
 | massachusetts-institute-of-technology | 2025-2026 | 35 |  |
 | miami-university-oxford | 2024-2025 | 24 |  |
-| michigan-state-university | 2025-2026 | 35 |  |
+| michigan-state-university | 2025-2026 | 35 | act scores inconsistent (25, undefined, undefined) |
 | middle-tennessee-state-university | 2025-2026 | 11 | C11 buckets sum to 105.9 |
 | middlebury-college | 2024-2025 | 35 |  |
 | montana-state-university | 2025-2026 | 35 | C1 failed consistency (applied 19892, admitted 19769, enrolled 3743, federal admit rate 0.8214) |
@@ -85,9 +86,9 @@ Built 2026-11-06.
 | ohio-wesleyan-university | 2025-2026 | 30 |  |
 | old-dominion-university | 2025-2026 | 37 |  |
 | oregon-state-university | 2025-2026 | 37 |  |
-| pennsylvania-state-university-main-campus | 2025-2026 | 21 |  |
+| pennsylvania-state-university-main-campus | 2025-2026 | 28 |  |
 | princeton-university | 2025-2026 | 0 |  |
-| purdue-university-main-campus | 2025-2026 | 23 |  |
+| purdue-university-main-campus | 2025-2026 | 33 | rank_top10_pct: reads disagree (0.52035749751738 vs 52), left out; gpa_400_pct: reads disagree (0.4266 vs 43), left out; gpa_375_pct: reads disagree (0.2797 vs 28), left out; gpa_350_pct: reads disagree (0.1591 vs 16), left out; gpa_325_pct: reads disagree (0.0822 vs 8), left out; gpa_300_pct: reads disagree (0.0332 vs 3), left out; gpa_250_pct: reads disagree (0.0171 vs 2), left out; C11 buckets sum to 0.0 |
 | radford-university | - | 32 |  |
 | rice-university | 2025-2026 | 37 |  |
 | rochester-institute-of-technology | 2025-2026 | 34 |  |
@@ -96,7 +97,7 @@ Built 2026-11-06.
 | san-diego-state-university | 2025-2026 | 34 |  |
 | san-jose-state-university | 2025-2026 | 38 |  |
 | santa-clara-university | 2025-2026 | 26 |  |
-| skidmore-college | 2024-2025 | 37 |  |
+| skidmore-college | 2024-2025 | 42 |  |
 | smith-college | 2023-2024 | 30 | waitlist_admitted: reader 54, Gemini 43 (quote matched); sat_p25: reader 1430, Gemini 1450 (quote matched); sat_p50: reader 1470, Gemini 1480 (quote matched); act_p50: reader 33, Gemini 34 (quote matched); act_p75: reader 34, Gemini 35 (quote matched); rank_top10_pct: reader 77, Gemini 79 (quote matched); rank_top25_pct: reader 96, Gemini 97 (quote matched); gpa_400_pct: reader 83, Gemini 82 (quote matched); gpa_375_pct: reader 13, Gemini 15 (quote matched); gpa_350_pct: reader 4, Gemini 3 (quote matched); gpa_325_pct: reader 0, Gemini 1 (quote matched); ed_applied: reader 930, Gemini 924 (quote matched); ed_admitted: reader 303, Gemini 353 (quote matched) |
 | spelman-college | 2025-2026 | 29 | gpa_250_pct: reads disagree (0.28 vs 0.16), left out |
 | stanford-university | 2025-2026 | 32 |  |
@@ -177,7 +178,7 @@ Built 2026-11-06.
 | university-of-wisconsin-parkside | 2024-2025 | 36 | C1 failed consistency (applied 2048, admitted 1997, enrolled 522, federal admit rate 0.7539) |
 | utah-state-university | 2025-2026 | 9 | C11 buckets sum to 12.5 |
 | vanderbilt-university | 2025-2026 | 45 |  |
-| vassar-college | 2025-2026 | 27 |  |
+| vassar-college | 2025-2026 | 38 |  |
 | villanova-university | 2025-2026 | 47 |  |
 | virginia-commonwealth-university | - | 4 | C11 buckets sum to 73.4 |
 | virginia-polytechnic-institute-and-state-university | 2025-2026 | 17 |  |

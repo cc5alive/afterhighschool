@@ -9,184 +9,325 @@
   "values": {
     "applied_total": {
       "value": 33513,
-      "quote": "Total Applied 33,513"
+      "quote": "Total Applied 33,513",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 26622,
-      "quote": "Total Admitted 26,622"
+      "quote": "Total Admitted 26,622",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 9537,
-      "quote": "Total First-Year Enrollees 9,537"
+      "quote": "Total First-Year Enrollees 9,537",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Not Considered",
-      "quote": "Rigor of secondary school record Not Considered"
+      "quote": "Rigor of secondary school record Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "Class rank Not Considered"
+      "quote": "Class rank Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA Very Important"
+      "quote": "Academic GPA Very Important",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_test_scores": {
       "value": "Very Important",
-      "quote": "Standardized test scores Very Important"
+      "quote": "Standardized test scores Very Important",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_essay": {
       "value": "Not Considered",
-      "quote": "Application Essay Not Considered"
+      "quote": "Application Essay Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s) Not Considered"
+      "quote": "Recommendation(s) Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview Not Considered"
+      "quote": "Interview Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_extracurriculars": {
       "value": "Not Considered",
-      "quote": "Extracurricular activities Not Considered"
+      "quote": "Extracurricular activities Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_talent": {
       "value": "Not Considered",
-      "quote": "Talent/ability Not Considered"
+      "quote": "Talent/ability Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_character": {
       "value": "Not Considered",
-      "quote": "Character/personal qualities Not Considered"
+      "quote": "Character/personal qualities Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_first_generation": {
       "value": "Not Considered",
-      "quote": "First generation Not Considered"
+      "quote": "First generation Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation Not Considered"
+      "quote": "Alumni/ae relation Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence Not Considered"
+      "quote": "Geographical residence Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency Not Considered"
+      "quote": "State residency Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment Not Considered"
+      "quote": "Religious affiliation/commitment Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_volunteer": {
       "value": "Not Considered",
-      "quote": "Volunteer work Not Considered"
+      "quote": "Volunteer work Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_work": {
       "value": "Not Considered",
-      "quote": "Work experience Not Considered"
+      "quote": "Work experience Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant's interest Not Considered"
+      "quote": "Level of applicant's interest Not Considered",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "sat_submit_pct": {
       "value": 41,
-      "quote": "Submitting SAT Scores 41%"
+      "quote": "Submitting SAT Scores 41%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 12,
-      "quote": "Submitting ACT Scores 12%"
+      "quote": "Submitting ACT Scores 12%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1010,
-      "quote": "SAT Composite 1010"
+      "quote": "SAT Composite 1010",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1100,
-      "quote": "SAT Composite 1100"
+      "quote": "SAT Composite 1100",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1210,
-      "quote": "SAT Composite 1210"
+      "quote": "SAT Composite 1210",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 19,
-      "quote": "ACT Composite 19"
+      "quote": "ACT Composite 19",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 22,
-      "quote": "ACT Composite 22"
+      "quote": "ACT Composite 22",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 26,
-      "quote": "ACT Composite 26"
+      "quote": "ACT Composite 26",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 18,
-      "quote": "Percent in top tenth of high school graduating class 18%"
+      "quote": "Percent in top tenth of high school graduating class 18%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 43,
-      "quote": "Percent in top quarter of high school graduating class 43%"
+      "quote": "Percent in top quarter of high school graduating class 43%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 78,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 78%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 78%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 6.17,
-      "quote": "Percent who had GPA of 4.0 6.17%"
+      "quote": "Percent who had GPA of 4.0 6.17%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 21.35,
-      "quote": "Percent who had GPA between 3.75 and 3.99 21.35%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 21.35%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 24.69,
-      "quote": "Percent who had GPA between 3.50 and 3.74 24.69%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 24.69%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 23.75,
-      "quote": "Percent who had GPA between 3.25 and 3.49 23.75%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 23.75%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 14.83,
-      "quote": "Percent who had GPA between 3.00 and 3.24 14.83%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 14.83%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 9.18,
-      "quote": "Percent who had GPA between 2.50 and 2.99 9.18%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 9.18%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0.03,
-      "quote": "Percent who had GPA between 2.0 and 2.49 0.03%"
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.03%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0.00%"
+      "quote": "Percent who had GPA below 1.0 0.00%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_average": {
       "value": 3.48,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.48"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.48",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 98.49,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.49%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.49%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan? No"
+      "quote": "Does your institution offer an early decision plan? No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Do you have a nonbinding early action plan? No"
+      "quote": "Do you have a nonbinding early action plan? No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://campus.kennesaw.edu/offices-services/data-strategy/institutional-research/publications/common-data-set/cds-2025-2026.php",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 25,
+  "total": 45
 }
