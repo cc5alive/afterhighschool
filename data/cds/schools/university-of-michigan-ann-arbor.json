@@ -28,7 +28,22 @@
     "gpa_100_pct": 0,
     "gpa_below1_pct": 0,
     "gpa_average": 3.9,
-    "gpa_submit_pct": 97.8
+    "gpa_submit_pct": 97.8,
+    "factor_class_rank": "Not Considered",
+    "factor_gpa": "Very Important",
+    "factor_test_scores": "Important",
+    "factor_essay": "Important",
+    "factor_recommendations": "Important",
+    "factor_interview": "Not Considered",
+    "factor_extracurriculars": "Considered",
+    "factor_talent": "Considered",
+    "factor_first_generation": "Important",
+    "factor_alumni": "Not Considered",
+    "factor_geography": "Considered",
+    "factor_state_residency": "Considered",
+    "factor_volunteer": "Considered",
+    "factor_work": "Considered",
+    "factor_interest": "Considered"
   },
   "basis": {
     "waitlist_offered": "gemini",
@@ -52,6 +67,21 @@
     "gpa_100_pct": "reader",
     "gpa_below1_pct": "reader",
     "gpa_average": "both",
-    "gpa_submit_pct": "gemini"
+    "gpa_submit_pct": "gemini",
+    "factor_class_rank": "reader",
+    "factor_gpa": "reader",
+    "factor_test_scores": "reader",
+    "factor_essay": "reader",
+    "factor_recommendations": "reader",
+    "factor_interview": "reader",
+    "factor_extracurriculars": "reader",
+    "factor_talent": "reader",
+    "factor_first_generation": "reader",
+    "factor_alumni": "reader",
+    "factor_geography": "reader",
+    "factor_state_residency": "reader",
+    "factor_volunteer": "reader",
+    "factor_work": "reader",
+    "factor_interest": "reader"
   }
 }

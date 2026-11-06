@@ -7,21 +7,9 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 84462,
-      "quote": "total first-time, first-year (degree-seeking) who applied 84462 2123 1639"
-    },
-    "admitted_total": {
-      "value": 38399,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 38399 1005 701"
-    },
-    "enrolled_total": {
-      "value": 5714,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 5714 67 103"
-    },
     "gpa_400_pct": {
       "value": 20.01,
       "quote": "percent who had gpa of 4.0 20.01%"
@@ -58,9 +46,28 @@
       "value": 0,
       "quote": "percent who had gpa below 1.0 0.00%"
     },
+    "gpa_average": {
+      "value": 3.66,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students 3.66"
+    },
     "gpa_submit_pct": {
       "value": 99.44,
       "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.44%"
+    },
+    "applied_total": {
+      "value": 88276,
+      "quote": "total first-time, first-year males who applied 35507 / total first-time, first-year females who applied 51236 / total first-time, first-year students of unknown sex who applied 1533",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 40105,
+      "quote": "total first-time, first-year males who were admitted 15255 / total first-time, first-year females who were admitted 23965 / total first-time, first-year students of unknown sex who were admitted 885",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 5884,
+      "quote": "total first-time, first-year males who enrolled 2331 / total first-time, first-year females who enrolled 3431 / total first-time, first-year students of unknown sex who enrolled 122",
+      "how": "sum of gender rows"
     },
     "factor_rigor": {
       "value": "Not Considered",

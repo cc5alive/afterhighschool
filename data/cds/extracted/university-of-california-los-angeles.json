@@ -7,21 +7,9 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) who applied 0"
-    },
-    "admitted_total": {
-      "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 0"
-    },
-    "enrolled_total": {
-      "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 0"
-    },
     "waitlist_admitted": {
       "value": 1514,
       "quote": "number of wait-listed students admitted: 1514"
@@ -33,6 +21,88 @@
     "gpa_submit_pct": {
       "value": 99.8,
       "quote": "percent submitting gpa 99.80"
+    },
+    "applied_total": {
+      "value": 138587,
+      "quote": "total first-time, first-year men who applied 65079 / total first-time, first-year women who applied 73508",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 12820,
+      "quote": "total first-time, first-year men who were admitted 5546 / total first-time, first-year women who were admitted 7274",
+      "how": "sum of gender rows"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null

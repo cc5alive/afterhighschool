@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -37,10 +37,6 @@
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 totals should = 100% 0.00 0.00 0.00"
-    },
-    "gpa_submit_pct": {
-      "value": 5,
-      "quote": "percent submitting gpa common data set 202 5 -202 6"
     },
     "ed_applied": {
       "value": 1589,

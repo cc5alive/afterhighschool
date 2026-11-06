@@ -7,17 +7,9 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 20089,
-      "quote": "total first-time, first-year (degree-seeking) who applied 20089 15530 7973 362 ##"
-    },
-    "enrolled_total": {
-      "value": 1382,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 1382 1170 53 0 ##"
-    },
     "waitlist_admitted": {
       "value": 0,
       "quote": "number of wait-listed students admitted: 0"
@@ -65,6 +57,25 @@
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0.0% 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.74,
+      "quote": "c12 average high school gpa of all degree-seeking, first- 3.74"
+    },
+    "applied_total": {
+      "value": 43954,
+      "quote": "total first-time, first-year males who applied 13988 / total first-time, first-year females who applied 29790 / total first-time, first-year students of unknown sex who 176 applied",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 33009,
+      "quote": "total first-time, first-year males who were admitted 9702 / total first-time, first-year females who were admitted 23296 / total first-time, first-year students of unknown sex who 11 were admitted",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2605,
+      "quote": "total first-time, first-year males who enrolled 720 / total first-time, first-year females who enrolled 1885 / total first-time, first-year students of unknown sex who 0 enrolled",
+      "how": "sum of gender rows"
     }
   },
   "concerns": null

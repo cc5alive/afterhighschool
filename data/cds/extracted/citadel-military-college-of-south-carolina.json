@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -33,6 +33,10 @@
     "rank_submit_pct": {
       "value": 0.74,
       "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.74 c.1130 total 0 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "gpa_average": {
+      "value": 3.75,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.75 c.1605 date: month first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
     },
     "gpa_submit_pct": {
       "value": 0.955,
@@ -61,74 +65,6 @@
     "act_p75": {
       "value": 26,
       "quote": "act composite 21 23 26 c.980 act reading: total 1.001 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
-    },
-    "factor_class_rank": {
-      "value": "Important",
-      "quote": "Class rank"
-    },
-    "factor_gpa": {
-      "value": "Very Important",
-      "quote": "Academic GPA"
-    },
-    "factor_test_scores": {
-      "value": "Considered",
-      "quote": "Standardized test scores"
-    },
-    "factor_essay": {
-      "value": "Not Considered",
-      "quote": "Application Essay"
-    },
-    "factor_recommendations": {
-      "value": "Considered",
-      "quote": "Recommendation(s)"
-    },
-    "factor_interview": {
-      "value": "Not Considered",
-      "quote": "Interview"
-    },
-    "factor_extracurriculars": {
-      "value": "Considered",
-      "quote": "Extracurricular activities"
-    },
-    "factor_talent": {
-      "value": "Considered",
-      "quote": "Talent/ability"
-    },
-    "factor_character": {
-      "value": "Very Important",
-      "quote": "Character/personal qualities"
-    },
-    "factor_first_generation": {
-      "value": "Considered",
-      "quote": "First generation"
-    },
-    "factor_alumni": {
-      "value": "Not Considered",
-      "quote": "Alumni/ae relation"
-    },
-    "factor_geography": {
-      "value": "Considered",
-      "quote": "Geographical residence"
-    },
-    "factor_state_residency": {
-      "value": "Important",
-      "quote": "State residency"
-    },
-    "factor_religion": {
-      "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
-    },
-    "factor_volunteer": {
-      "value": "Considered",
-      "quote": "Volunteer work"
-    },
-    "factor_work": {
-      "value": "Considered",
-      "quote": "Work experience"
-    },
-    "factor_interest": {
-      "value": "Considered",
-      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null

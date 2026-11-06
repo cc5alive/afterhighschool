@@ -23,13 +23,8 @@
     "gpa_200_pct": 3.18,
     "gpa_100_pct": 0.08,
     "gpa_below1_pct": 0,
-    "gpa_submit_pct": 94.09,
-    "factor_class_rank": "Not Considered",
-    "factor_gpa": "Very Important",
-    "factor_test_scores": "Not Considered",
-    "factor_essay": "Not Considered",
-    "factor_recommendations": "Not Considered",
-    "factor_alumni": "Considered"
+    "gpa_average": 3.55,
+    "gpa_submit_pct": 94.09
   },
   "basis": {
     "applied_total": "reader",
@@ -48,12 +43,7 @@
     "gpa_200_pct": "reader",
     "gpa_100_pct": "reader",
     "gpa_below1_pct": "reader",
-    "gpa_submit_pct": "reader",
-    "factor_class_rank": "reader",
-    "factor_gpa": "reader",
-    "factor_test_scores": "reader",
-    "factor_essay": "reader",
-    "factor_recommendations": "reader",
-    "factor_alumni": "reader"
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
   }
 }

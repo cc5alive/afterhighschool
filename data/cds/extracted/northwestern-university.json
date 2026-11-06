@@ -7,13 +7,9 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
-    "enrolled_total": {
-      "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) enrolled c or t c or t c or t 0"
-    },
     "waitlist_admitted": {
       "value": 59,
       "quote": "number of wait-listed students admitted: 59"
@@ -21,6 +17,16 @@
     "gpa_below1_pct": {
       "value": 100,
       "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
+    },
+    "applied_total": {
+      "value": 49474,
+      "quote": "total first-time, first-year men who applied 23,774 / total first-time, first-year women who applied 25,686 / total first-time, first-year of another gender who applied 14 / total first-time, first-year unknown gender who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 3806,
+      "quote": "total first-time, first-year men who were admitted 1,735 / total first-time, first-year women who were admitted 2,070 / total first-time, first-year of another gender who were admitted 1 / total first-time, first-year unknown gender who were admitted 0",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1510,
@@ -45,6 +51,70 @@
     "act_p75": {
       "value": 35,
       "quote": "act composite 34 34 35"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null

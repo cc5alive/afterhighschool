@@ -7,21 +7,9 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 12216,
-      "quote": "total first-time, first-year who applied 12216 4915 3213 3827"
-    },
-    "admitted_total": {
-      "value": 6710,
-      "quote": "total first-time, first-year who were admitted 6710 3225 2208 1169"
-    },
-    "enrolled_total": {
-      "value": 519,
-      "quote": "total first-time, first-year who enrolled 519 341 127 45"
-    },
     "rank_top10_pct": {
       "value": 45,
       "quote": "percent in top tenth of high school graduating class 45%"
@@ -41,6 +29,16 @@
     "ed_admitted": {
       "value": 52,
       "quote": "number of applicants admitted under early decision plan 52"
+    },
+    "applied_total": {
+      "value": 12216,
+      "quote": "total first-time, first-year men who applied 7687 / total first-time, first-year women who applied 4529 / total first-time, first-year another gender who applied / total first-time, first-year unknown gender who applied",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 6710,
+      "quote": "total first-time, first-year men who were admitted 4039 / total first-time, first-year women who were admitted 2671 / total first-time, first-year another gender who were admitted / total first-time, first-year unknown gender who were admitted",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1190,

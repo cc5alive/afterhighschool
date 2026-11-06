@@ -9,7 +9,6 @@
   "values": {
     "applied_total": 76247,
     "admitted_total": 12751,
-    "enrolled_total": 4063,
     "sat_p25": 1400,
     "sat_p50": 1470,
     "sat_p75": 1530,
@@ -28,6 +27,7 @@
     "gpa_200_pct": 0,
     "gpa_100_pct": 0,
     "gpa_below1_pct": 0,
+    "gpa_average": 4.47,
     "gpa_submit_pct": 89.9,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Important",
@@ -51,7 +51,6 @@
   "basis": {
     "applied_total": "reader",
     "admitted_total": "reader",
-    "enrolled_total": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",
     "sat_p75": "reader",
@@ -70,6 +69,7 @@
     "gpa_200_pct": "reader",
     "gpa_100_pct": "reader",
     "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
     "gpa_submit_pct": "reader",
     "factor_rigor": "reader",
     "factor_class_rank": "reader",

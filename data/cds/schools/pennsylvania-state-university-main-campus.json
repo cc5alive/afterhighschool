@@ -26,7 +26,8 @@
     "gpa_300_pct": 5,
     "gpa_250_pct": 2,
     "gpa_200_pct": 0,
-    "gpa_100_pct": 0
+    "gpa_100_pct": 0,
+    "gpa_average": 3.67
   },
   "basis": {
     "applied_total": "reader",
@@ -48,6 +49,7 @@
     "gpa_300_pct": "reader",
     "gpa_250_pct": "reader",
     "gpa_200_pct": "reader",
-    "gpa_100_pct": "reader"
+    "gpa_100_pct": "reader",
+    "gpa_average": "reader"
   }
 }

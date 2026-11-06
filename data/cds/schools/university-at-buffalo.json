@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "applied_total": 45637,
+    "admitted_total": 36780,
+    "enrolled_total": 5155,
     "waitlist_admitted": 106,
     "act_p25": 27,
     "act_p50": 29,
@@ -41,6 +44,9 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "waitlist_admitted": "reader",
     "act_p25": "reader",
     "act_p50": "reader",

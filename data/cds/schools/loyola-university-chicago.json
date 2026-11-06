@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "applied_total": 43954,
+    "admitted_total": 33009,
+    "enrolled_total": 2605,
     "waitlist_admitted": 0,
     "rank_top10_pct": 37.3,
     "rank_top25_pct": 69.3,
@@ -18,9 +21,13 @@
     "gpa_250_pct": 3.6,
     "gpa_200_pct": 0,
     "gpa_100_pct": 0,
-    "gpa_below1_pct": 0
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.74
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "waitlist_admitted": "reader",
     "rank_top10_pct": "reader",
     "rank_top25_pct": "reader",
@@ -32,6 +39,7 @@
     "gpa_250_pct": "reader",
     "gpa_200_pct": "reader",
     "gpa_100_pct": "reader",
-    "gpa_below1_pct": "reader"
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader"
   }
 }

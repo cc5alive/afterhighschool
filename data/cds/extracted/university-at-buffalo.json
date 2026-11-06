@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -53,6 +53,21 @@
     "gpa_submit_pct": {
       "value": 92.7,
       "quote": "percent of total first-time, first-year students who submitted high school gpa: 92.7%"
+    },
+    "applied_total": {
+      "value": 45637,
+      "quote": "total first-time, first-year males who applied 22,006 / total first-time, first-year females who applied 23,601 / total first-time, first-year students of unknown gender who applied 30",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 36780,
+      "quote": "total first-time, first-year males who were admitted 17,557 / total first-time, first-year females who were admitted 19,201 / total first-time, first-year students of unknown gender who were admitted 22",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 5155,
+      "quote": "total first-time, first-year males who enrolled 2,756 / total first-time, first-year females who enrolled 2,396 / total first-time, first-year students of unknown sex who enrolled 3",
+      "how": "sum of gender rows"
     },
     "act_p25": {
       "value": 27,

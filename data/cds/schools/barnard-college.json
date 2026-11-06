@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "applied_total": 10426,
+    "admitted_total": 1048,
+    "enrolled_total": 702,
     "waitlist_admitted": 150,
     "sat_p25": 1480,
     "sat_p50": 1510,
@@ -18,6 +21,9 @@
     "rank_top25_pct": 98
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "waitlist_admitted": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",

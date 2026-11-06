@@ -20,6 +20,7 @@
     "act_p75": 33,
     "rank_top10_pct": 84,
     "rank_top25_pct": 98,
+    "gpa_average": 3.92,
     "gpa_submit_pct": 94,
     "factor_class_rank": "Not Considered",
     "factor_gpa": "Very Important",
@@ -40,9 +41,9 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
-    "applied_total": "both",
-    "admitted_total": "both",
-    "enrolled_total": "both",
+    "applied_total": "gemini",
+    "admitted_total": "gemini",
+    "enrolled_total": "gemini",
     "sat_submit_pct": "gemini",
     "act_submit_pct": "gemini",
     "sat_p25": "both",
@@ -53,6 +54,7 @@
     "act_p75": "both",
     "rank_top10_pct": "both",
     "rank_top25_pct": "both",
+    "gpa_average": "reader",
     "gpa_submit_pct": "both",
     "factor_class_rank": "both",
     "factor_gpa": "both",

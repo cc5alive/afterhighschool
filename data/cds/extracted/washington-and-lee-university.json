@@ -7,21 +7,9 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 4472,
-      "quote": "total first-time, first-year (degree-seeking) who applied 923 3568 4472 0"
-    },
-    "admitted_total": {
-      "value": 925,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 209 925 80 0"
-    },
-    "enrolled_total": {
-      "value": 359,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 95 359 45 0"
-    },
     "waitlist_admitted": {
       "value": 2,
       "quote": "number of wait-listed students admitted: 2"
@@ -45,6 +33,21 @@
     "ed_admitted": {
       "value": 289,
       "quote": "number of applicants admitted under early decision plan 289"
+    },
+    "applied_total": {
+      "value": 8963,
+      "quote": "total first-time, first-year males who applied 4600 / total first-time, first-year females who applied 4362 / total first-time, first-year students of unknown sex who applied 1",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 1214,
+      "quote": "total first-time, first-year males who were admitted 561 / total first-time, first-year females who were admitted 653 / total first-time, first-year students of unknown sex who were admitted",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 499,
+      "quote": "total first-time, first-year males who enrolled 230 / total first-time, first-year females who enrolled 269 / total first-time, first-year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1430,

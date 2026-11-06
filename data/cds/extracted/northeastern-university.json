@@ -7,24 +7,27 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "html",
   "values": {
-    "applied_total": {
-      "value": 105256,
-      "quote": "total first-time, first-year (degree-seeking) who applied 13,365 72,870 18,754 267 105,256"
-    },
-    "admitted_total": {
-      "value": 5920,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 1,384 3,801 735 0 5,920"
-    },
-    "enrolled_total": {
-      "value": 2736,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 763 1,666 306 1 2,736"
-    },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 100% 0% 0%"
+    },
+    "applied_total": {
+      "value": 105257,
+      "quote": "total first-time, first-year males who applied 46,252 / total first-time, first-year females who applied 58,959 / total first-time, first-year students of unknown sex who applied 46",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 5920,
+      "quote": "total first-time, first-year males who were admitted 2,458 / total first-time, first-year females who were admitted 3,458 / total first-time, first-year students of unknown sex who were admitted 4",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2736,
+      "quote": "total first-time, first-year males who enrolled 1,171 / total first-time, first-year females who enrolled 1,561 / total first-time, first-year students of unknown sex who enrolled 4",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1440,
@@ -49,78 +52,6 @@
     "act_p75": {
       "value": 34,
       "quote": "act composite 33 33 34"
-    },
-    "factor_rigor": {
-      "value": "Very Important",
-      "quote": "Rigor of secondary school record"
-    },
-    "factor_class_rank": {
-      "value": "Considered",
-      "quote": "Class rank"
-    },
-    "factor_gpa": {
-      "value": "Very Important",
-      "quote": "Academic GPA"
-    },
-    "factor_test_scores": {
-      "value": "Very Important",
-      "quote": "Standardized test scores"
-    },
-    "factor_essay": {
-      "value": "Considered",
-      "quote": "Application Essay"
-    },
-    "factor_recommendations": {
-      "value": "Very Important",
-      "quote": "Recommendation(s)"
-    },
-    "factor_interview": {
-      "value": "Not Considered",
-      "quote": "Interview"
-    },
-    "factor_extracurriculars": {
-      "value": "Important",
-      "quote": "Extracurricular activities"
-    },
-    "factor_talent": {
-      "value": "Important",
-      "quote": "Talent/ability"
-    },
-    "factor_character": {
-      "value": "Important",
-      "quote": "Character/personal qualities"
-    },
-    "factor_first_generation": {
-      "value": "Considered",
-      "quote": "First generation"
-    },
-    "factor_alumni": {
-      "value": "Not Considered",
-      "quote": "Alumni/ae relation"
-    },
-    "factor_geography": {
-      "value": "Considered",
-      "quote": "Geographical residence"
-    },
-    "factor_state_residency": {
-      "value": "Not Considered",
-      "quote": "State residency"
-    },
-    "factor_religion": {
-      "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
-    },
-    "factor_volunteer": {
-      "value": "Important",
-      "quote": "Volunteer work"
-    },
-    "factor_work": {
-      "value": "Important",
-      "quote": "Work experience"
-    },
-    "factor_interest": {
-      "value": "Considered",
-      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null

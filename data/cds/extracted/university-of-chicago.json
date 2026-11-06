@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -53,6 +53,25 @@
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0% 0% 0.00%"
+    },
+    "gpa_average": {
+      "value": 4.54,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 4.54"
+    },
+    "applied_total": {
+      "value": 45533,
+      "quote": "total first-time, first-year males who applied 19929 / total first-time, first-year females who applied 24578 / total first-time, first-year students of unknown sex who applied 1026",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 2039,
+      "quote": "total first-time, first-year males who were admitted 1169 / total first-time, first-year females who were admitted 870 / total first-time, first-year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 1786,
+      "quote": "total first-time, first-year males who enrolled 1042 / total first-time, first-year females who enrolled 744 / total first-time, first-year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1500,

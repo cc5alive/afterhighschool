@@ -7,20 +7,20 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 73557,
-      "quote": "total first-time, first-year who applied 73,557 39,022 29,376"
+      "value": 5159,
+      "quote": "total first-time, first-year who applied 5,159 -"
     },
     "admitted_total": {
-      "value": 17804,
-      "quote": "total first-time, first-year who were admitted 17,804 9,294 6,834"
+      "value": 1676,
+      "quote": "total first-time, first-year who were admitted 1,676 -"
     },
     "enrolled_total": {
-      "value": 7513,
-      "quote": "total first-time, first-year who enrolled 7,513 5,719 1,491"
+      "value": 303,
+      "quote": "total first-time, first-year who enrolled 303 -"
     },
     "rank_top10_pct": {
       "value": 84,
@@ -45,6 +45,10 @@
     "gpa_below1_pct": {
       "value": 100,
       "quote": "percent who had gpa below 1.0 totals should = 100% 100.00% 0.00% 100.00%"
+    },
+    "gpa_average": {
+      "value": 3.92,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who 3.92"
     },
     "gpa_submit_pct": {
       "value": 94,
