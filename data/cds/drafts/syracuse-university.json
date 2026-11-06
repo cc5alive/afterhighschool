@@ -1,0 +1,212 @@
+{
+  "slug": "syracuse-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://effectiveness.syr.edu/wp-content/uploads/2026/09/CDS_2025-26_Complete.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 46645,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 46645"
+    },
+    "admitted_total": {
+      "value": 22756,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 22756"
+    },
+    "enrolled_total": {
+      "value": 3969,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 3969"
+    },
+    "waitlist_offered": {
+      "value": 14242,
+      "quote": "Number of qualified applicants offered a place on waiting list: 14242"
+    },
+    "waitlist_accepted": {
+      "value": 6530,
+      "quote": "Number accepting a place on the waiting list: 6530"
+    },
+    "waitlist_admitted": {
+      "value": 2039,
+      "quote": "Number of wait-listed students admitted: 2039"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 23,
+      "quote": "Submitting SAT Scores 23.00%"
+    },
+    "act_submit_pct": {
+      "value": 8,
+      "quote": "Submitting ACT Scores 8.00%"
+    },
+    "sat_p25": {
+      "value": 1300,
+      "quote": "SAT Composite 1300"
+    },
+    "sat_p50": {
+      "value": 1350,
+      "quote": "SAT Composite 1350"
+    },
+    "sat_p75": {
+      "value": 1410,
+      "quote": "SAT Composite 1410"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "ACT Composite 29"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "ACT Composite 31"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "rank_top10_pct": {
+      "value": 36.1,
+      "quote": "Percent in top tenth of high school graduating class 36.10%"
+    },
+    "rank_top25_pct": {
+      "value": 68.6,
+      "quote": "Percent in top quarter of high school graduating class 68.60%"
+    },
+    "rank_submit_pct": {
+      "value": 19.7,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 19.70%"
+    },
+    "gpa_400_pct": {
+      "value": 29.46,
+      "quote": "Percent who had GPA of 4.0 29.46%"
+    },
+    "gpa_375_pct": {
+      "value": 20.43,
+      "quote": "Percent who had GPA between 3.75 and 3.99 20.43%"
+    },
+    "gpa_350_pct": {
+      "value": 21.85,
+      "quote": "Percent who had GPA between 3.50 and 3.74 21.85%"
+    },
+    "gpa_325_pct": {
+      "value": 15.02,
+      "quote": "Percent who had GPA between 3.25 and 3.49 15.02%"
+    },
+    "gpa_300_pct": {
+      "value": 10.42,
+      "quote": "Percent who had GPA between 3.00 and 3.24 10.42%"
+    },
+    "gpa_250_pct": {
+      "value": 2.43,
+      "quote": "Percent who had GPA between 2.50 and 2.99 2.43%"
+    },
+    "gpa_200_pct": {
+      "value": 0.4,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.40%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.71,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.71"
+    },
+    "gpa_submit_pct": {
+      "value": 99.65,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.65%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    },
+    "ed_applied": {
+      "value": 2654,
+      "quote": "Number of early decision applications received by your institution 2654"
+    },
+    "ed_admitted": {
+      "value": 1478,
+      "quote": "Number of applicants admitted under early decision plan 1478"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}
