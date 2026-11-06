@@ -8,6 +8,10 @@ const file = process.argv[2];
 if (!file) { console.error('Usage: node scripts/import-cds.mjs <file>'); process.exit(1); }
 const { schools } = JSON.parse(fs.readFileSync('data/scorecard/latest.json', 'utf8'));
 const slugs = new Set(schools.map((s) => s.slug));
+const sources = fs.existsSync('data/cds/sources.json') ? JSON.parse(fs.readFileSync('data/cds/sources.json', 'utf8')) : {};
+// Gemini sometimes names score keys the long way; map them to ours.
+const ALIAS = { sat_composite_p25: 'sat_p25', sat_composite_p50: 'sat_p50', sat_composite_p75: 'sat_p75',
+  act_composite_p25: 'act_p25', act_composite_p50: 'act_p50', act_composite_p75: 'act_p75' };
 const bad = [], out = [];
 const lines = fs.readFileSync(file, 'utf8').split('\n').filter((l) => l.trim());
 lines.forEach((l, i) => { try { out.push(JSON.parse(l)); } catch { bad.push(i + 1); } });
@@ -17,9 +21,15 @@ let written = 0;
 for (const e of out) {
   const notes = [];
   if (!slugs.has(e.slug)) { console.log(`SKIP ${e.slug}: unknown slug`); continue; }
+  // No document link from Gemini: fall back to the CDS page we already list for the school.
+  if ((!e.source?.url || !/^https:\/\//.test(e.source.url)) && sources[e.slug]?.url) {
+    e.source = { title: e.source?.title || 'Common Data Set', url: sources[e.slug].url };
+    notes.push('used the CDS page from sources.json');
+  }
   if (!e.source?.url || !/^https:\/\//.test(e.source.url)) { console.log(`SKIP ${e.slug}: no CDS document URL${e.concerns ? ` (${e.concerns})` : ''}`); continue; }
   const values = {};
-  for (const [k, v] of Object.entries(e.values || {})) {
+  for (const [k0, v] of Object.entries(e.values || {})) {
+    const k = ALIAS[k0] || k0;
     if (v == null || v.value == null || v.value === '') continue;
     if (!CDS_FIELDS[k] && !CDS_FACTORS[k]) { notes.push(`unknown key ${k}`); continue; }
     if (CDS_FACTORS[k] && !FACTOR_LEVELS.some((lv) => lv.toLowerCase() === String(v.value).toLowerCase())) { notes.push(`bad factor level for ${k}`); continue; }

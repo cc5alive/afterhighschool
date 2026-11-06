@@ -1,0 +1,156 @@
+{
+  "slug": "columbia-university-in-the-city-of-new-york",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Columbia College and Columbia Engineering 2024–2025 Common Data Set",
+    "url": "https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2024-25_Columbia_College_and_Columbia_Engineering_CDS.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 60247,
+      "quote": "Total first-time, first-year (degree-seeking) who applied: 60,247"
+    },
+    "admitted_total": {
+      "value": 2325,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted: 2,325"
+    },
+    "enrolled_total": {
+      "value": 1483,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled: 1,483"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 44,
+      "quote": "Submitting SAT Scores: 44%"
+    },
+    "act_submit_pct": {
+      "value": 17,
+      "quote": "Submitting ACT Scores: 17%"
+    },
+    "sat_p25": {
+      "value": 1510,
+      "quote": "SAT Composite 25th Percentile: 1510"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "SAT Composite 50th Percentile: 1540"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "SAT Composite 75th Percentile: 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "ACT Composite 25th Percentile: 34"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "ACT Composite 50th Percentile: 35"
+    },
+    "act_p75": {
+      "value": 36,
+      "quote": "ACT Composite 75th Percentile: 36"
+    },
+    "rank_top10_pct": {
+      "value": 94,
+      "quote": "Percent in top tenth of high school graduating class: 94%"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "Percent in top quarter of high school graduating class: 100%"
+    },
+    "rank_submit_pct": {
+      "value": 25.7,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 25.7%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Early Decision: Yes"
+    },
+    "ed_applied": {
+      "value": 6007,
+      "quote": "Early Decision applications received: 6,007"
+    },
+    "ed_admitted": {
+      "value": 795,
+      "quote": "Applicants admitted under early decision plan: 795"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early Action: No"
+    }
+  },
+  "concerns": null
+}

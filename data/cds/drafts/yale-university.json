@@ -1,0 +1,148 @@
+{
+  "slug": "yale-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-26",
+    "url": "https://oir.yale.edu/sites/default/files/yale_cds_2025-26_md_20260616.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "waitlist_offered": {
+      "value": 944,
+      "quote": "Number of qualified applicants offered a place on waiting list 944"
+    },
+    "waitlist_accepted": {
+      "value": 738,
+      "quote": "Number accepting a place on the waiting list 738"
+    },
+    "waitlist_admitted": {
+      "value": 32,
+      "quote": "Number of wait-listed students admitted 32"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commiment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 67,
+      "quote": "Submitting SAT Scores 67%"
+    },
+    "act_submit_pct": {
+      "value": 25,
+      "quote": "Submitting ACT Scores 25%"
+    },
+    "sat_p25": {
+      "value": 1480,
+      "quote": "SAT Composite 1480"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "SAT Composite 1540"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "SAT Composite 1560"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT Composite 35"
+    },
+    "rank_top10_pct": {
+      "value": 97,
+      "quote": "Percent in top tenth of high school graduating class 97%"
+    },
+    "rank_top25_pct": {
+      "value": 99,
+      "quote": "Percent in top quarter of high school graduating class 99%"
+    },
+    "rank_submit_pct": {
+      "value": 31,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank 31%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+    }
+  },
+  "concerns": null
+}

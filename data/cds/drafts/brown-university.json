@@ -1,0 +1,160 @@
+{
+  "slug": "brown-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Brown University Common Data Set 2025-26",
+    "url": "https://oir.brown.edu/institutional-data/common-data-set"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 42774,
+      "quote": "Total Applied 42,774"
+    },
+    "admitted_total": {
+      "value": 2710,
+      "quote": "Total Admitted 2,710"
+    },
+    "enrolled_total": {
+      "value": 1719,
+      "quote": "Total Enrolled 1,719"
+    },
+    "waitlist_admitted": {
+      "value": 295,
+      "quote": "Number of wait-listed students admitted: 295"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendations"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent or ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character and personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation or commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant interest"
+    },
+    "sat_submit_pct": {
+      "value": 77,
+      "quote": "SAT 77"
+    },
+    "act_submit_pct": {
+      "value": 28,
+      "quote": "ACT 28"
+    },
+    "sat_p25": {
+      "value": 1470,
+      "quote": "SAT composite 1,470"
+    },
+    "sat_p50": {
+      "value": 1520,
+      "quote": "SAT composite 1,520"
+    },
+    "sat_p75": {
+      "value": 1550,
+      "quote": "SAT composite 1,550"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "ACT composite 33"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "ACT composite 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT composite 35"
+    },
+    "rank_top10_pct": {
+      "value": 93,
+      "quote": "Percent in top tenth of high school graduating class 93"
+    },
+    "rank_top25_pct": {
+      "value": 98,
+      "quote": "Percent in top quarter of high school graduating class 98"
+    },
+    "rank_submit_pct": {
+      "value": 29.3,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 29.3"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes"
+    },
+    "ed_applied": {
+      "value": 5062,
+      "quote": "Number of early decision applications received by your institution 5,062"
+    },
+    "ed_admitted": {
+      "value": 907,
+      "quote": "Number of applicants admitted under early decision plan 907"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    }
+  },
+  "concerns": null
+}

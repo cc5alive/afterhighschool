@@ -1,0 +1,52 @@
+{
+  "slug": "university-of-california-berkeley",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://opa.berkeley.edu/campus-data/common-data-set"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 126864,
+      "quote": "Total Applied 126,864"
+    },
+    "admitted_total": {
+      "value": 14524,
+      "quote": "Total Admitted 14,524"
+    },
+    "enrolled_total": {
+      "value": 6687,
+      "quote": "Total Enrolled 6,687"
+    },
+    "waitlist_offered": {
+      "value": 9102,
+      "quote": "Number of qualified applicants offered a place on waiting list: 9,102"
+    },
+    "waitlist_accepted": {
+      "value": 6479,
+      "quote": "Number accepting a place on the waiting list: 6,479"
+    },
+    "waitlist_admitted": {
+      "value": 1,
+      "quote": "Number of wait-listed students admitted: 1"
+    },
+    "gpa_average": {
+      "value": 3.9,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.90"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 1"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision plan: N"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action plan: N"
+    }
+  },
+  "concerns": "School does not host a standalone direct PDF/XLSX file on berkeley.edu; landing page links externally to cloud-hosted file."
+}

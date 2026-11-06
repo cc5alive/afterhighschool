@@ -1,0 +1,136 @@
+{
+  "slug": "northwestern-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://enrollment.northwestern.edu/data/2024-2025.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "waitlist_admitted": {
+      "value": 59,
+      "quote": "Number of wait-listed students admitted: 59"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 46,
+      "quote": "Submitting SAT Scores 46%"
+    },
+    "act_submit_pct": {
+      "value": 23,
+      "quote": "Submitting ACT Scores 23%"
+    },
+    "sat_p25": {
+      "value": 1510,
+      "quote": "SAT Composite 1510"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "SAT Composite 1540"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "SAT Composite 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT Composite 35"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes"
+    },
+    "ed_applied": {
+      "value": 5154,
+      "quote": "Number of early decision applications received by your institution: 5,154"
+    },
+    "ed_admitted": {
+      "value": 1186,
+      "quote": "Number of applicants admitted under early decision plan: 1,186"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action: Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    }
+  },
+  "concerns": null
+}

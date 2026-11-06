@@ -1,0 +1,168 @@
+{
+  "slug": "university-of-florida",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025 - UF Main Campus",
+    "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 73557,
+      "quote": "Total first-time, first-year who applied 73,557"
+    },
+    "admitted_total": {
+      "value": 17804,
+      "quote": "Total first-time, first-year who were admitted 17,804"
+    },
+    "enrolled_total": {
+      "value": 7513,
+      "quote": "Total first-time, first-year who enrolled 7,513"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 80,
+      "quote": "Submitting SAT Scores 80%"
+    },
+    "act_submit_pct": {
+      "value": 40,
+      "quote": "Submitting ACT Scores 40%"
+    },
+    "sat_p25": {
+      "value": 1330,
+      "quote": "SAT Composite 1330"
+    },
+    "sat_p50": {
+      "value": 1400,
+      "quote": "SAT Composite 1400"
+    },
+    "sat_p75": {
+      "value": 1470,
+      "quote": "SAT Composite 1470"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "ACT Composite 29"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "ACT Composite 31"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "rank_top10_pct": {
+      "value": 84,
+      "quote": "Percent in top tenth of high school graduating class 84%"
+    },
+    "rank_top25_pct": {
+      "value": 98,
+      "quote": "Percent in top quarter of high school graduating class 98%"
+    },
+    "rank_submit_pct": {
+      "value": 85,
+      "quote": "Percent of total first-time, first-year students who submitted high school rank 85"
+    },
+    "gpa_400_pct": {
+      "value": 53,
+      "quote": "Percent who had GPA of 4.0 53.00%"
+    },
+    "gpa_375_pct": {
+      "value": 41,
+      "quote": "Percent who had GPA between 3.75 and 3.99 41.00%"
+    },
+    "gpa_350_pct": {
+      "value": 6,
+      "quote": "Percent who had GPA between 3.50 and 3.74 6.00%"
+    },
+    "gpa_average": {
+      "value": 3.92,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.92"
+    },
+    "gpa_submit_pct": {
+      "value": 94,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 94.00%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C21 Early Decision No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "C22 Early action Yes"
+    }
+  },
+  "concerns": null
+}

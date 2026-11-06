@@ -1,0 +1,132 @@
+{
+  "slug": "boston-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Boston UniversityCommon Data Set",
+    "url": "https://www.bu.edu/asir/files/2025/03/cds-2025-c.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 78769,
+      "quote": "Applied. 78,769."
+    },
+    "admitted_total": {
+      "value": 8749,
+      "quote": "Admitted. 8,749."
+    },
+    "enrolled_total": {
+      "value": 3268,
+      "quote": "Full-time enrolled. 3,268."
+    },
+    "waitlist_offered": {
+      "value": 15339,
+      "quote": "Total freshman applicants placed on wait-list. 15339."
+    },
+    "waitlist_accepted": {
+      "value": 8996,
+      "quote": "Total freshman applicants accepting place on wait-list. 8996."
+    },
+    "waitlist_admitted": {
+      "value": 18,
+      "quote": "Total freshman applicants accepted from wait-list. 18."
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "gpa_average": {
+      "value": 3.88,
+      "quote": "3.88."
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent of total freshman submitting high school GPA. 100.0%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan for first-time, first-year (freshman) applicants for fall enrollment? Yes"
+    },
+    "ed_applied": {
+      "value": 6854,
+      "quote": "Number of early decision applications received by your institution. 6854."
+    },
+    "ed_admitted": {
+      "value": 1936,
+      "quote": "Number of applicants admitted under early decision plan. 1936."
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early Action. Do you have a nonbinding early action plan: No"
+    }
+  },
+  "concerns": null
+}

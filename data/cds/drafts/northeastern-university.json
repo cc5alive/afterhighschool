@@ -1,0 +1,184 @@
+{
+  "slug": "northeastern-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set - University Decision Support",
+    "url": "https://uds.northeastern.edu/university-facts/common-data-set/"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 105256,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 105,256"
+    },
+    "admitted_total": {
+      "value": 5920,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 5,920"
+    },
+    "enrolled_total": {
+      "value": 2736,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 2,736"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 22,
+      "quote": "Submitting SAT Scores 22%"
+    },
+    "act_submit_pct": {
+      "value": 6,
+      "quote": "Submitting ACT Scores 6%"
+    },
+    "sat_p25": {
+      "value": 1440,
+      "quote": "SAT Composite 1440"
+    },
+    "sat_p50": {
+      "value": 1480,
+      "quote": "SAT Composite 1480"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "SAT Composite 1510"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "rank_top10_pct": {
+      "value": 40,
+      "quote": "Percent in top tenth of high school graduating class 40%"
+    },
+    "rank_top25_pct": {
+      "value": 70,
+      "quote": "Percent in top quarter of high school graduating class 70%"
+    },
+    "rank_submit_pct": {
+      "value": 7,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank 7%"
+    },
+    "gpa_400_pct": {
+      "value": 82,
+      "quote": "Percent who had GPA of 4.0 82%"
+    },
+    "gpa_375_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 3.75 and 3.99 10%"
+    },
+    "gpa_350_pct": {
+      "value": 6,
+      "quote": "Percent who had GPA between 3.50 and 3.74 6%"
+    },
+    "gpa_325_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 3.25 and 3.49 1%"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 3.00 and 3.24 1%"
+    },
+    "gpa_average": {
+      "value": 4.22,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA 4.22"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA 100%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan for first-time, first-year applicants for fall enrollment? Yes"
+    },
+    "ed_applied": {
+      "value": 5404,
+      "quote": "Number of early decision applications received by your institution 5,404"
+    },
+    "ed_admitted": {
+      "value": 1910,
+      "quote": "Number of applicants admitted under early decision plan 1,910"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+    }
+  },
+  "concerns": null
+}
