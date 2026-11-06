@@ -1,0 +1,23 @@
+{
+  "slug": "university-of-minnesota-twin-cities",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2025_2026_tc_0.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 43929,
+    "admitted_total": 34648,
+    "enrolled_total": 7180,
+    "rank_top10_pct": 37.69,
+    "rank_top25_pct": 71.22
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader"
+  }
+}

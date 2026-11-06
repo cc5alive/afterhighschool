@@ -1,0 +1,45 @@
+{
+  "slug": "university-of-cincinnati-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 33750,
+    "admitted_total": 29715,
+    "enrolled_total": 6497,
+    "rank_top10_pct": 22.1,
+    "rank_top25_pct": 47.28,
+    "gpa_400_pct": 39.7,
+    "gpa_375_pct": 23.79,
+    "gpa_350_pct": 16.22,
+    "gpa_325_pct": 10.38,
+    "gpa_300_pct": 6.31,
+    "gpa_250_pct": 3.6,
+    "gpa_200_pct": 0,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.67,
+    "gpa_submit_pct": 99.72
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

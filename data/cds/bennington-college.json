@@ -1,0 +1,46 @@
+{
+  "slug": "bennington-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 2709,
+    "admitted_total": 1008,
+    "enrolled_total": 163,
+    "waitlist_admitted": 43,
+    "sat_p25": 1335,
+    "sat_p50": 1410,
+    "sat_p75": 1475,
+    "act_p25": 33,
+    "act_p50": 34,
+    "act_p75": 34,
+    "rank_top10_pct": 30.95,
+    "rank_top25_pct": 66.67,
+    "gpa_average": 3.67,
+    "gpa_submit_pct": 34.97,
+    "ed_applied": 272,
+    "ed_admitted": 47,
+    "ed_offered": "yes"
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader"
+  }
+}

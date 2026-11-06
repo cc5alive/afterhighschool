@@ -1,0 +1,47 @@
+{
+  "slug": "michigan-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 62965,
+    "admitted_total": 52411,
+    "enrolled_total": 9355,
+    "waitlist_admitted": 2254,
+    "rank_top10_pct": 20.18,
+    "rank_top25_pct": 52.75,
+    "gpa_400_pct": 33.72,
+    "gpa_375_pct": 30.17,
+    "gpa_350_pct": 20.01,
+    "gpa_325_pct": 10.37,
+    "gpa_300_pct": 4.51,
+    "gpa_250_pct": 1.22,
+    "gpa_200_pct": 0,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.74,
+    "gpa_submit_pct": 92
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

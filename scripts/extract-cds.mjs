@@ -2,14 +2,16 @@
 // CDS values by their printed labels, so every value comes with the exact line it was read from.
 // Usage: node scripts/extract-cds.mjs   (reads data/cds/sources.json: { "<slug>": { "url", "year", "title" } };
 //        skips schools that already have a draft; runs in GitHub Actions with pdfjs-dist and xlsx installed)
-// Writes data/cds/drafts/<slug>.json in the same shape as scripts/import-cds.mjs, for check-cds.mjs to confirm.
+// Writes data/cds/extracted/<slug>.json (same shape as Gemini drafts). Every value is read from the document
+// itself, with the row it came from as its quote; scripts/build-cds.mjs sanity-checks and publishes.
 import fs from 'node:fs';
 import { norm } from './lib/doc-text.mjs';
 import { resolveCds, yearOf, looksLikeCds } from './lib/cds-resolve.mjs';
 import { CDS_FACTORS, FACTOR_LEVELS } from './lib/cds-fields.mjs';
 
 const SOURCES = 'data/cds/sources.json';
-const DIR = 'data/cds/drafts';
+const DIR = 'data/cds/extracted';
+fs.mkdirSync(DIR, { recursive: true });
 const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 

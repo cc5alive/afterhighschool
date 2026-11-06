@@ -1,0 +1,41 @@
+{
+  "slug": "texas-a-and-m-university-college-station",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set | Academic and Business Performance Analytics",
+    "url": "https://abpa.tamu.edu/accountability-rankings/common-data-set.html"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 62967,
+    "admitted_total": 32531,
+    "enrolled_total": 12484,
+    "sat_submit_pct": 76.72,
+    "act_submit_pct": 18.68,
+    "sat_p25": 1160,
+    "sat_p50": 1280,
+    "sat_p75": 1390,
+    "act_p25": 24,
+    "act_p50": 28,
+    "act_p75": 32,
+    "rank_top10_pct": 71.56,
+    "rank_top25_pct": 93.14,
+    "rank_submit_pct": 72.15
+  },
+  "basis": {
+    "applied_total": "gemini",
+    "admitted_total": "gemini",
+    "enrolled_total": "gemini",
+    "sat_submit_pct": "gemini",
+    "act_submit_pct": "gemini",
+    "sat_p25": "gemini",
+    "sat_p50": "gemini",
+    "sat_p75": "gemini",
+    "act_p25": "gemini",
+    "act_p50": "gemini",
+    "act_p75": "gemini",
+    "rank_top10_pct": "gemini",
+    "rank_top25_pct": "gemini",
+    "rank_submit_pct": "gemini"
+  }
+}

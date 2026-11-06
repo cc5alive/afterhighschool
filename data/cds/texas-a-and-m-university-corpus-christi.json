@@ -1,0 +1,49 @@
+{
+  "slug": "texas-a-and-m-university-corpus-christi",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.tamucc.edu/president/pir/cds_2025-2026-word_web.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_p25": 980,
+    "sat_p50": 1090,
+    "sat_p75": 1190,
+    "act_p25": 18,
+    "act_p50": 22,
+    "act_p75": 25,
+    "rank_top10_pct": 5,
+    "rank_top25_pct": 29,
+    "gpa_400_pct": 3,
+    "gpa_375_pct": 25,
+    "gpa_350_pct": 23,
+    "gpa_325_pct": 19,
+    "gpa_300_pct": 14,
+    "gpa_250_pct": 13,
+    "gpa_200_pct": 3,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.42
+  },
+  "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader"
+  }
+}

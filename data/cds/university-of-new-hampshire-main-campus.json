@@ -1,0 +1,35 @@
+{
+  "slug": "university-of-new-hampshire-main-campus",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.unh.edu/institutional-research/sites/default/files/media/2026-09/CDS%202025-2026%20UNH%20Published%209.2.26.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 21567,
+    "admitted_total": 19224,
+    "enrolled_total": 2302,
+    "gpa_400_pct": 38.12,
+    "gpa_375_pct": 13.92,
+    "gpa_350_pct": 16.27,
+    "gpa_325_pct": 13.7,
+    "gpa_300_pct": 10.71,
+    "gpa_250_pct": 7.28,
+    "gpa_average": 3.64,
+    "gpa_submit_pct": 100
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

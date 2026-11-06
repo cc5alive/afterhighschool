@@ -1,0 +1,51 @@
+{
+  "slug": "old-dominion-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.odu.edu/sites/default/files/2026/documents/cds-2025-2026.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 15024,
+    "admitted_total": 13725,
+    "enrolled_total": 2697,
+    "sat_p25": 1120,
+    "sat_p50": 1190,
+    "sat_p75": 1270,
+    "act_p25": 22,
+    "act_p50": 25,
+    "act_p75": 27,
+    "rank_top10_pct": 12,
+    "rank_top25_pct": 35,
+    "gpa_400_pct": 25,
+    "gpa_375_pct": 18,
+    "gpa_350_pct": 16,
+    "gpa_325_pct": 11,
+    "gpa_300_pct": 11,
+    "gpa_250_pct": 19,
+    "gpa_average": 3.43,
+    "gpa_submit_pct": 100
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

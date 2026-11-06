@@ -1,0 +1,25 @@
+{
+  "slug": "duke-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_p25": 1510,
+    "sat_p50": 1550,
+    "sat_p75": 1570,
+    "act_p25": 34,
+    "act_p50": 35,
+    "act_p75": 35
+  },
+  "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader"
+  }
+}

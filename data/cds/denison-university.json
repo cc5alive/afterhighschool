@@ -1,0 +1,19 @@
+{
+  "slug": "denison-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Denison University Common Data Set, 2024-2025",
+    "url": "https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "act_p25": 30,
+    "act_p50": 31,
+    "act_p75": 33
+  },
+  "basis": {
+    "act_p25": "gemini",
+    "act_p50": "gemini",
+    "act_p75": "gemini"
+  }
+}

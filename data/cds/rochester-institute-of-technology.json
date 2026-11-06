@@ -1,0 +1,46 @@
+{
+  "slug": "rochester-institute-of-technology",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.rit.edu/institutionalresearch/sites/rit.edu.institutionalresearch/files/documents/Common%20Data%20Set%20PDFs/RIT_CDS_2025_26_FINAL_20260603.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 31565,
+    "admitted_total": 22439,
+    "enrolled_total": 2959,
+    "waitlist_admitted": 164,
+    "sat_p25": 1310,
+    "sat_p50": 1380,
+    "sat_p75": 1440,
+    "act_p25": 30,
+    "act_p50": 32,
+    "act_p75": 34,
+    "rank_top10_pct": 40,
+    "rank_top25_pct": 63,
+    "gpa_average": 3.9,
+    "gpa_submit_pct": 98.6,
+    "ed_applied": 1405,
+    "ed_admitted": 1028,
+    "ed_offered": "yes"
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader"
+  }
+}

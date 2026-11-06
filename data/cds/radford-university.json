@@ -1,0 +1,41 @@
+{
+  "slug": "radford-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.radford.edu/institutional-research/_documents/cds-2025.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_p25": 950,
+    "sat_p50": 1040,
+    "sat_p75": 1140,
+    "rank_top10_pct": 12.5,
+    "rank_top25_pct": 33.4,
+    "gpa_400_pct": 28.8,
+    "gpa_375_pct": 16,
+    "gpa_350_pct": 12.9,
+    "gpa_325_pct": 12.3,
+    "gpa_300_pct": 14.1,
+    "gpa_250_pct": 15.3,
+    "gpa_200_pct": 0.6,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0
+  },
+  "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader"
+  }
+}

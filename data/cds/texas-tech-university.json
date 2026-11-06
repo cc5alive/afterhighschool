@@ -1,0 +1,43 @@
+{
+  "slug": "texas-tech-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.depts.ttu.edu/irim/CommonDataSets/TTU_CDS_2025-2026-4-30-26.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 38566,
+    "admitted_total": 26634,
+    "enrolled_total": 7579,
+    "rank_top10_pct": 25,
+    "rank_top25_pct": 54.3,
+    "gpa_400_pct": 7.1,
+    "gpa_375_pct": 41.1,
+    "gpa_350_pct": 33.1,
+    "gpa_325_pct": 13.4,
+    "gpa_300_pct": 3.7,
+    "gpa_250_pct": 1.5,
+    "gpa_200_pct": 0.1,
+    "gpa_100_pct": 0.1,
+    "gpa_average": 3.64,
+    "gpa_submit_pct": 99.8
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

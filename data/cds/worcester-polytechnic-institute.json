@@ -1,0 +1,47 @@
+{
+  "slug": "worcester-polytechnic-institute",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.wpi.edu/sites/default/files/2026-05/WPI_CDS_2025-2026.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "waitlist_admitted": 460,
+    "rank_top10_pct": 51,
+    "rank_top25_pct": 83,
+    "gpa_400_pct": 60,
+    "gpa_375_pct": 19,
+    "gpa_350_pct": 15,
+    "gpa_325_pct": 4,
+    "gpa_300_pct": 2,
+    "gpa_250_pct": 0,
+    "gpa_200_pct": 0,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "ed_applied": 397,
+    "ed_admitted": 310,
+    "ea_applied": 8882,
+    "ea_admitted": 6151,
+    "ed_offered": "yes",
+    "ea_offered": "yes"
+  },
+  "basis": {
+    "waitlist_admitted": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader",
+    "ea_applied": "reader",
+    "ea_admitted": "reader"
+  }
+}

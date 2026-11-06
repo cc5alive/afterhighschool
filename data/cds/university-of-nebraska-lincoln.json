@@ -1,0 +1,19 @@
+{
+  "slug": "university-of-nebraska-lincoln",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://iea.unl.edu/common-data-set-2025-2026/c-first-time-first-year-admission/applications/"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 18648,
+    "admitted_total": 16372,
+    "enrolled_total": 4734
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader"
+  }
+}
