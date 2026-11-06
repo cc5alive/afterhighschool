@@ -5,6 +5,8 @@
 // Writes data/cds/extracted/<slug>.json (same shape as Gemini drafts). Every value is read from the document
 // itself, with the row it came from as its quote; scripts/build-cds.mjs sanity-checks and publishes.
 import fs from 'node:fs';
+import crypto from 'node:crypto';
+const hashOf = (p) => { try { return crypto.createHash('sha1').update(fs.readFileSync(p)).digest('hex').slice(0, 12); } catch { return null; } };
 import { norm, docFromBuffer } from './lib/doc-text.mjs';
 import { resolveCds, yearOf, looksLikeCds, closeBrowser, downloadUrl } from './lib/cds-resolve.mjs';
 import { CDS_FACTORS, FACTOR_LEVELS } from './lib/cds-fields.mjs';
@@ -23,7 +25,7 @@ const current = (slug, src) => {
   try {
     const e = JSON.parse(fs.readFileSync(`${DIR}/${slug}.json`, 'utf8'));
     if (e.readerVersion !== READER_VERSION) return false;
-    if (src.mirror && e.mirror !== src.mirror) return false;
+    if (src.mirror && (e.mirror !== src.mirror || e.mirrorHash !== hashOf(src.mirror))) return false;
     if (e.sourceUrl) return e.sourceUrl === src.url;
     return !isFile(src.url) || e.source?.url === src.url;
   } catch { return false; }
@@ -168,7 +170,8 @@ function readScores(rows) {
   for (const [name, lo, hi] of [['sat', 400, 1600], ['act', 1, 36]]) {
     for (const r of rows || []) {
       if (!new RegExp(`^${name} composite\\b`).test(labelText(r))) continue;
-      const v = r.slice(1).map((c) => parse(c.s, 'count')).filter((x) => x != null && x >= lo && x <= hi);
+      // Percentiles can fall between whole scores when a school interpolates (UVA reports an ACT 75th percentile of 34.25).
+      const v = r.slice(1).map((c) => (name === 'act' && /^\d{1,2}\.\d{1,2}$/.test(c.s.trim()) ? Number(c.s.trim()) : parse(c.s, 'count'))).filter((x) => x != null && x >= lo && x <= hi);
       if (v.length < 3 || !(v[0] <= v[1] && v[1] <= v[2])) continue;
       const q = rowText(r);
       out[`${name}_p25`] = { value: v[0], quote: q }; out[`${name}_p50`] = { value: v[1], quote: q }; out[`${name}_p75`] = { value: v[2], quote: q };
@@ -307,7 +310,7 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     // Temporary download hosts (Box, Google) expire: cite the listed link instead.
     const docUrl = resolved.url && !/boxcloud\.com|googleusercontent\.com/.test(resolved.url) ? resolved.url : src.url;
-    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, mirror: src.mirror || undefined,
+    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, mirror: src.mirror || undefined, mirrorHash: src.mirror ? hashOf(src.mirror) : undefined,
       researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
     if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
     fs.writeFileSync(`${DIR}/${slug}.json`, JSON.stringify(d, null, 2) + '\n');
