@@ -7,6 +7,7 @@
   },
   "sourceUrl": "https://ira.virginia.edu/common-data-set/common-data-set-2025-2026",
   "mirror": "data/cds/mirror/university-of-virginia-main-campus.rows.json",
+  "mirrorHash": "bfff99cc50b0",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 7,
@@ -75,6 +76,18 @@
     "sat_p75": {
       "value": 1510,
       "quote": "sat composite 1410 1470 1510"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 34.25"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 34.25"
+    },
+    "act_p75": {
+      "value": 34.25,
+      "quote": "act composite 32 33 34.25"
     },
     "factor_rigor": {
       "value": "Very Important",
