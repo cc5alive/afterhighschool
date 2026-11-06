@@ -2,8 +2,8 @@
   "slug": "virginia-commonwealth-university",
   "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://irds.vcu.edu/media/decision-support/pdf/commondatasets/VirginiaCommonwealthUniversityCDSFinalADA.pdf"
+    "title": "Virginia Commonwealth University Common Data Set 2024-2025",
+    "url": "https://irds.vcu.edu/media/decision-support/pdf/commondatasets/CommonDataSet2024-25.pdf"
   },
   "builtAt": "2026-11-06",
   "values": {
@@ -23,6 +23,15 @@
     "act_p75": 30,
     "rank_top10_pct": 17,
     "rank_top25_pct": 40,
+    "gpa_400_pct": 26.29,
+    "gpa_375_pct": 16.66,
+    "gpa_350_pct": 16.93,
+    "gpa_325_pct": 15.27,
+    "gpa_300_pct": 13.16,
+    "gpa_250_pct": 11.4,
+    "gpa_200_pct": 0.26,
+    "gpa_100_pct": 0.03,
+    "gpa_below1_pct": 0,
     "gpa_average": 3.63,
     "gpa_submit_pct": 97.89
   },
@@ -43,6 +52,15 @@
     "act_p75": "gemini",
     "rank_top10_pct": "gemini",
     "rank_top25_pct": "gemini",
+    "gpa_400_pct": "gemini",
+    "gpa_375_pct": "gemini",
+    "gpa_350_pct": "gemini",
+    "gpa_325_pct": "gemini",
+    "gpa_300_pct": "gemini",
+    "gpa_250_pct": "gemini",
+    "gpa_200_pct": "gemini",
+    "gpa_100_pct": "gemini",
+    "gpa_below1_pct": "gemini",
     "gpa_average": "gemini",
     "gpa_submit_pct": "gemini"
   }

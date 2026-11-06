@@ -1,9 +1,9 @@
 {
   "slug": "university-of-arkansas",
-  "cdsYear": "2099-2100",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://osai.uark.edu/datasets/cds/cds99-00.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://osai.uark.edu/datasets/cds/cds25-26v2.pdf"
   },
   "builtAt": "2026-11-06",
   "values": {
@@ -62,7 +62,7 @@
     "gpa_250_pct": "gemini",
     "gpa_200_pct": "gemini",
     "gpa_100_pct": "gemini",
-    "gpa_below1_pct": "both",
+    "gpa_below1_pct": "gemini",
     "gpa_average": "gemini",
     "gpa_submit_pct": "gemini"
   }

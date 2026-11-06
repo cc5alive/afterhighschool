@@ -1,6 +1,10 @@
 name: Check Common Data Set values
 on:
   workflow_dispatch:
+    inputs:
+      refresh: { description: 'Look for newer CDS files for every school', type: boolean, default: false }
+  schedule:
+    - cron: '23 10 4 * *' # monthly: colleges post new CDS files through the fall and spring
   push:
     branches: [main]
     paths: ['data/cds/sources.json', 'data/cds/drafts/*.json', 'scripts/extract-cds.mjs', 'scripts/check-cds.mjs', 'scripts/build-cds.mjs', 'scripts/lib/doc-text.mjs', 'scripts/lib/cds-fields.mjs', 'scripts/lib/cds-resolve.mjs']
@@ -10,7 +14,7 @@ concurrency: { group: cds-check, cancel-in-progress: false }
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,15 +23,19 @@ jobs:
         run: |
           npm install --no-save --no-package-lock pdfjs-dist@4.10.38 xlsx@0.18.5 playwright@1.49.1
           npx playwright install --with-deps chromium
+      - name: Look for newer CDS files (monthly)
+        if: github.event_name == 'schedule' || inputs.refresh
+        run: node scripts/refresh-cds.mjs
       - name: Read CDS documents listed in data/cds/sources.json
-        run: '[ -f data/cds/sources.json ] && node scripts/extract-cds.mjs || true'
+        run: '[ -f data/cds/sources.json ] && node scripts/extract-cds.mjs ${{ (github.event_name == ''schedule'' || inputs.refresh) && ''--pages'' || '''' }} || true'
       - run: node scripts/check-cds.mjs
       - name: Publish values that pass the consistency checks
         run: node scripts/build-cds.mjs
       - run: '[ -f data/cds/drafts/_cds-check.md ] && head -40 data/cds/drafts/_cds-check.md >> "$GITHUB_STEP_SUMMARY" || true'
+      - run: '[ -f data/cds/_refresh.md ] && cat data/cds/_refresh.md >> "$GITHUB_STEP_SUMMARY" || true'
       - name: Commit results
         run: |
           git config user.name "afterhighschool-bot"
           git config user.email "hello@afterhighschool.me"
           git add data/cds 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "CDS check results [skip ci]" && git pull --rebase -X theirs && git push)
+          git diff --cached --quiet || (git commit -m "CDS check results" && git pull --rebase -X theirs && git push)

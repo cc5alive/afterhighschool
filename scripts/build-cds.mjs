@@ -6,6 +6,7 @@
 // Usage: node scripts/build-cds.mjs
 import fs from 'node:fs';
 import { CDS_FIELDS, CDS_FACTORS } from './lib/cds-fields.mjs';
+import { yearOf } from './lib/cds-resolve.mjs';
 
 const read = (p) => (fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null);
 const list = (d) => (fs.existsSync(d) ? fs.readdirSync(d).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5)) : []);
@@ -17,10 +18,12 @@ const same = (a, b) => (typeof a === 'number' && typeof b === 'number' ? Math.ab
 const GPA = ['gpa_400_pct', 'gpa_375_pct', 'gpa_350_pct', 'gpa_325_pct', 'gpa_300_pct', 'gpa_250_pct', 'gpa_200_pct', 'gpa_100_pct', 'gpa_below1_pct'];
 const report = [];
 
-for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds/drafts')])]) {
-  const E = read(`data/cds/extracted/${slug}.json`), G = read(`data/cds/drafts/${slug}.json`);
-  const school = bySlug.get(slug);
-  if (!school) continue;
+// The CDS year a read came from: its own label, else the year in the document's URL or title.
+const yr = (r) => (r ? yearOf(`${r.cdsYear || ''} ${r.source?.url || ''} ${r.source?.title || ''}`) : 0);
+
+// Combine the two reads into one set of checked values. Both reads must come from the same document
+// (or the same CDS year), so every value on the page matches the document it cites.
+function combine(E, G, school) {
   const v = {}, basis = {}, notes = [];
   for (const k of [...Object.keys(CDS_FIELDS), ...Object.keys(CDS_FACTORS)]) {
     const e = E?.values?.[k], g = G?.values?.[k]?.found === true ? G.values[k] : null;
@@ -81,8 +84,35 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
   const w = ['waitlist_offered', 'waitlist_accepted', 'waitlist_admitted'];
   if (v.waitlist_offered != null && v.waitlist_admitted != null && v.waitlist_admitted > v.waitlist_offered) drop(w, 'wait list counts inconsistent');
 
-  const src = (E && E.source) || G.source;
-  const year = E?.cdsYear || G?.cdsYear || null;
+  return { v, basis, notes };
+}
+
+for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds/drafts')])]) {
+  const school = bySlug.get(slug);
+  if (!school) continue;
+  let E = read(`data/cds/extracted/${slug}.json`), G = read(`data/cds/drafts/${slug}.json`);
+  const pre = [];
+  let alt = null;
+  if (E && G && E.source?.url !== G.source?.url) {
+    const ye = yr(E), yg = yr(G);
+    if (!ye || ye !== yg) {
+      // Different documents from different (or unknown) years: use the newer one, the reader's on a tie.
+      if (yg > ye) { alt = { E, G: null }; E = null; } else { alt = { E: null, G }; G = null; }
+      pre.push(`reader and Gemini read different documents (${ye || '?'} vs ${yg || '?'}); used the ${E ? 'reader' : 'Gemini'} one`);
+    }
+  }
+  let r = combine(E, G, school);
+  // If the newer document gave too little to publish, fall back to the other one.
+  if (alt && Object.keys(r.v).length < 3) {
+    const r2 = combine(alt.E, alt.G, school);
+    if (Object.keys(r2.v).length >= 3) { r = r2; E = alt.E; G = alt.G; pre.push('newer document gave too few values; used the other'); }
+  }
+  const { v, basis } = r;
+  const notes = [...pre, ...r.notes];
+  const rec = E || G;
+  const src = rec.source;
+  const y = yr(rec);
+  const year = rec.cdsYear || (y ? `${y}-${y + 1}` : null);
   const n = Object.keys(v).length;
   report.push(`| ${slug} | ${year || '-'} | ${n} | ${notes.join('; ').replace(/\|/g, '/') || ''} |`);
   fs.mkdirSync('data/cds/schools', { recursive: true });

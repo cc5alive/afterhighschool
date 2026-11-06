@@ -66,7 +66,7 @@ export const yearOf = (s) => {
   }
   for (const m of t.matchAll(/cds[\s_-]*(\d\d)[\s_-]?(\d\d)/g)) {
     const a = 2000 + Number(m[1]);
-    if (Number(m[2]) === (a + 1) % 100) best = Math.max(best, a);
+    if (Number(m[2]) === (a + 1) % 100 && a >= 2015 && a <= 2030) best = Math.max(best, a);
   }
   return best;
 };
