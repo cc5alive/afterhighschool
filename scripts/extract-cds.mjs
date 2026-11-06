@@ -15,7 +15,7 @@ fs.mkdirSync(DIR, { recursive: true });
 const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 4;
+const READER_VERSION = 5;
 const current = (slug) => { try { return JSON.parse(fs.readFileSync(`${DIR}/${slug}.json`, 'utf8')).readerVersion === READER_VERSION; } catch { return false; } };
 // Sources that failed are remembered so each run doesn't spend minutes re-trying them.
 // A failed school is tried again when its URL in sources.json changes, after 14 days, or with --retry.
@@ -70,11 +70,12 @@ const rowText = (r) => norm(r.map((c) => c.s).join(' '));
 // Some PDFs print the item code (C1, C11 …) in front of each row's label, and some say "(freshman)".
 const labelText = (r) => rowText(r).replace(/^c\d{1,2}[a-z]?\.?\s+/, '').replace(/\s*\(freshmen?\)/g, '');
 const isNumbersOnly = (r) => r.length > 0 && r.every((c) => /^[\d,.\s%]+$/.test(c.s));
-const isFooter = (r) => /common data set|page \d/.test(rowText(r));
+const isFooter = (r) => /common data set|page \d|^totals? should/.test(rowText(r));
 
 function readRows(rows) {
   const out = {};
   if (!rows) return out;
+  const gpaCols = {};
   for (const [key, [re, type, pick]] of Object.entries(ROWS)) {
     for (let i = 0; i < rows.length && !out[key]; i++) {
       const text = labelText(rows[i]);
@@ -83,15 +84,20 @@ function readRows(rows) {
       if (!cells.some((c) => parse(c.s, type) != null) && rows[i + 1] && !isFooter(rows[i + 1])
           && (isNumbersOnly(rows[i + 1]) || rowText(rows[i + 1]).replace(/[\d.,%\s]/g, '').length < 40)) {
         cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]);
-      } else if (pick === 'last' && rows[i + 1] && isNumbersOnly(rows[i + 1])) {
+      } else if (pick === 'last' && rows[i + 1] && isNumbersOnly(rows[i + 1]) && !isFooter(rows[i + 1])) {
         cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]);
       }
-      // Numbers that are part of the label itself ("4.0", "3.75 and 3.99") sit at the label's start;
-      // only cells to the right of the first cell count.
-      const firstX = rows[i][0].x;
-      const nums = cells.filter((c) => c.x > firstX + 1 && parse(c.s, type) != null).sort((a, b) => a.x - b.x);
+      // Numbers that are part of the label itself ("4.0", "3.75 and 3.99") can sit in their own cells:
+      // skip the cells that make up the matched label, then only cells further right count.
+      const matchLen = (text.match(re) || [''])[0].replace(/\s/g, '').length;
+      let used = 0, k = 0;
+      const label = rows[i].map((c) => norm(c.s).replace(/^c\d{1,2}[a-z]?\.?$/, '')).map((t) => t.replace(/\s*\(freshmen?\)/g, ''));
+      while (k < rows[i].length && used < matchLen) { used += label[k].replace(/\s/g, '').length; k++; }
+      const labelEndX = rows[i][Math.max(0, k - 1)].x;
+      const nums = cells.filter((c, ci) => (ci >= k || cells !== rows[i] && ci >= rows[i].length) && c.x > labelEndX && parse(c.s, type) != null).sort((a, b) => a.x - b.x);
       if (!nums.length) continue;
       let value = parse(nums[0].s, type);
+      if (/^gpa_\d|^gpa_below/.test(key)) { gpaCols[key] = nums.map((c) => parse(c.s, type)); }
       if (pick === 'last') {
         // C1 rows list men, women, another gender and a total, but schools order the columns differently
         // (total first in the 2025-26 template, last in older ones). The total is the number that equals
@@ -102,6 +108,17 @@ function readRows(rows) {
         if (!value) continue; // a blank or broken total field: C1 falls back to the gender rows below
       }
       out[key] = { value, quote: quoteRows.map(rowText).join(' ') };
+    }
+  }
+  // C11 now has up to three columns (students who sent test scores, who didn't, and all students).
+  // Use the column that adds up to 100% — the rightmost one ("all students") when several do.
+  const keys = Object.keys(gpaCols);
+  const width = Math.max(0, ...keys.map((k) => gpaCols[k].length));
+  if (width > 1) {
+    const ok = (t) => (t >= 95 && t <= 105) || (t >= 0.95 && t <= 1.05);
+    for (let j = width - 1; j >= 0; j--) {
+      const t = keys.reduce((a, k) => a + (gpaCols[k][j] ?? 0), 0);
+      if (ok(t)) { for (const k of keys) if (gpaCols[k][j] != null) out[k].value = gpaCols[k][j]; break; }
     }
   }
   return out;

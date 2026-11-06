@@ -57,7 +57,7 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
     if (sum > 0.9 && sum < 1.1) { for (const k of present) v[k] = Math.round(v[k] * 10000) / 100; sum *= 100; }
     if (v.gpa_below1_pct === 100 && sum > 150) { drop(['gpa_below1_pct'], 'gpa_below1_pct read as the "totals = 100%" note'); sum -= 100; }
     if (sum === 0) drop(GPA, 'C11 left blank by the school');
-    else if (present.length < 5 || sum < 95 || sum > 105) drop(GPA, `C11 buckets sum to ${sum.toFixed(1)}`);
+    else if (present.length < 2 || sum < 95 || sum > 105) drop(GPA, `C11 buckets sum to ${sum.toFixed(1)}`);
   }
   if ('gpa_average' in v && (v.gpa_average < 2 || v.gpa_average > 5)) drop(['gpa_average'], 'gpa_average out of range');
   if ('gpa_submit_pct' in v && v.gpa_submit_pct < 10) drop(['gpa_submit_pct'], 'gpa_submit_pct implausibly low');
