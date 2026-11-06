@@ -10,9 +10,13 @@
         {
           "title": "Expenses | Montana State University Academic Catalog",
           "url": "https://catalog.montana.edu/expenses/",
-          "quote": "Montana Residents of one-fourth American Indian blood or more, or enrolled members of a state or federally recognized Indian Tribe which is located within the boundaries of the State of Montana, are eligible for a tuition waiver upon demonstration of financial need."
+          "quote": "Montana Residents of one-fourth American Indian blood or more, or enrolled members of a state or federally recognized Indian Tribe which is located within the boundaries of the State of Montana, are eligible for a tuition waiver upon demonstration of financial need.",
+          "httpStatus": 200,
+          "finalUrl": "https://catalog.montana.edu/expenses/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

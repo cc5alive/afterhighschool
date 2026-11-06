@@ -10,9 +10,13 @@
         {
           "title": "Indy Achieves Scholarship - Support for Marion County Residents",
           "url": "https://indianapolis.iu.edu/cost-aid/scholarships/apply/iu-indianapolis/indy-achieves.html",
-          "quote": "Indy Achieves scholars receive last-dollar scholarship that covers the gap between students' financial needs and the tuition cost."
+          "quote": "Indy Achieves scholars receive last-dollar scholarship that covers the gap between students' financial needs and the tuition cost.",
+          "httpStatus": 200,
+          "finalUrl": "https://indianapolis.iu.edu/cost-aid/scholarships/apply/iu-indianapolis/indy-achieves.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "About Us - City Tech - CUNY",
           "url": "https://www.citytech.cuny.edu/about-us/",
-          "quote": "City Tech is the designated college of technology within the City University of New York (CUNY), a national model for industry-aligned education"
+          "quote": "City Tech is the designated college of technology within the City University of New York (CUNY), a national model for industry-aligned education",
+          "httpStatus": 200,
+          "finalUrl": "https://www.citytech.cuny.edu/about-us/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "City Tech is the largest public college of technology in New York State.",
@@ -20,9 +24,13 @@
         {
           "title": "Virtual Tour - City Tech - CUNY",
           "url": "https://www.citytech.cuny.edu/campus-tours/virtual-tour.aspx",
-          "quote": "New York City College of Technology (City Tech) is the largest public college of technology in New York State and a national model for technological education."
+          "quote": "New York City College of Technology (City Tech) is the largest public college of technology in New York State and a national model for technological education.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.citytech.cuny.edu/campus-tours/virtual-tour.aspx",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

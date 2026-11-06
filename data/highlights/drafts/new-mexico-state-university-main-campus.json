@@ -10,9 +10,13 @@
         {
           "title": "NM Opportunity Scholarship - | New Mexico State University - BE ...",
           "url": "https://fa.nmsu.edu/scholarships/opportunity.html",
-          "quote": "The State of New Mexico currently has two different NM Opportunity scholarships that assist in covering up to 100% tuition and required fees, as well as up to $50 per credit hour for course-specific fees."
+          "quote": "The State of New Mexico currently has two different NM Opportunity scholarships that assist in covering up to 100% tuition and required fees, as well as up to $50 per credit hour for course-specific fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://fa.nmsu.edu/scholarships/opportunity.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "The Hilltopper Guarantee | Western Kentucky University",
           "url": "https://www.wku.edu/guarantee/",
-          "quote": "WKU guarantees 100% tuition coverage for any first-time, first-year freshman from Kentucky who receives Pell and KY College Access Program Grant assistance and has at least a 3.0 cumulative unweighted high school GPA."
+          "quote": "WKU guarantees 100% tuition coverage for any first-time, first-year freshman from Kentucky who receives Pell and KY College Access Program Grant assistance and has at least a 3.0 cumulative unweighted high school GPA.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.wku.edu/guarantee/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Cooperative Education and Internships | RIT",
           "url": "https://www.rit.edu/cooperative-education",
-          "quote": "At RIT, co-op is built into most programs. You'll alternate blocks of co-op with semesters of on-campus study."
+          "quote": "At RIT, co-op is built into most programs. You'll alternate blocks of co-op with semesters of on-campus study.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rit.edu/cooperative-education",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "Students pay no university tuition or fees while working on co-op assignments.",
@@ -20,9 +24,13 @@
         {
           "title": "Cooperative Education and Internships | RIT",
           "url": "https://www.rit.edu/cooperative-education",
-          "quote": "You won't be charged fees or tuition for your co-ops or internships, because we believe you should be able to focus on developing your skills"
+          "quote": "You won't be charged fees or tuition for your co-ops or internships, because we believe you should be able to focus on developing your skills",
+          "httpStatus": 200,
+          "finalUrl": "https://www.rit.edu/cooperative-education",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

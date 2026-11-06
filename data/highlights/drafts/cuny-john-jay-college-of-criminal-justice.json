@@ -10,9 +10,13 @@
         {
           "title": "Mission & Values | John Jay College of Criminal Justice",
           "url": "https://www.jjay.cuny.edu/about/mission-values",
-          "quote": "A premier liberal arts college, John Jay College of Criminal Justice is a diverse and inclusive community seeking justice in its many dimensions."
+          "quote": "A premier liberal arts college, John Jay College of Criminal Justice is a diverse and inclusive community seeking justice in its many dimensions.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jjay.cuny.edu/about/mission-values",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

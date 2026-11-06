@@ -10,9 +10,13 @@
         {
           "title": "Focus Requirements for Students – General Education",
           "url": "https://manoa.hawaii.edu/gened/req/focus/",
-          "quote": "These courses focus on issues in Native Hawaiian and Asian or Pacific cultures and history; they promote cross-cultural understanding between nations and cultures."
+          "quote": "These courses focus on issues in Native Hawaiian and Asian or Pacific cultures and history; they promote cross-cultural understanding between nations and cultures.",
+          "httpStatus": 200,
+          "finalUrl": "https://manoa.hawaii.edu/gened/req/focus/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

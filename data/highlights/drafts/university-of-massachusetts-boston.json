@@ -10,9 +10,13 @@
         {
           "title": "Beacon Pledge - Financial Aid - UMass Boston",
           "url": "https://www.umb.edu/financial-aid/apply-for-financial-aid/beacon-pledge/",
-          "quote": "If you're a Massachusetts resident with a household adjusted gross income of $75,000 or less, your tuition and mandatory fees are covered by federal, state, and institutional grants and scholarships."
+          "quote": "If you're a Massachusetts resident with a household adjusted gross income of $75,000 or less, your tuition and mandatory fees are covered by federal, state, and institutional grants and scholarships.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umb.edu/financial-aid/apply-for-financial-aid/beacon-pledge/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

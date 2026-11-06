@@ -10,9 +10,14 @@
         {
           "title": "About Immersive Learning | Ball State University",
           "url": "https://www.bsu.edu/about/administrativeoffices/immersive-learning/about-immersive-learning",
-          "quote": "Every student completes at least one course that includes one of the following high-impact practices: undergraduate research; immersive learning; study abroad or study away"
+          "quote": "Every student completes at least one course that includes one of the following high-impact practices: undergraduate research; immersive learning; study abroad or study away",
+          "httpStatus": 403,
+          "finalUrl": "https://www.bsu.edu/about/administrativeoffices/immersive-learning/about-immersive-learning",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

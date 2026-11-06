@@ -10,9 +10,13 @@
         {
           "title": "Fixed Tuition Guarantee Program - Spartan Central - UNC Greensboro",
           "url": "https://spartancentral.uncg.edu/tuition-billing-payments/tuition-fees/fixed-tuition-guarantee-program/",
-          "quote": "This statute requires that all UNC institutions fix tuition for up to eight consecutive semesters (excluding summer sessions) for North Carolina residents who meet certain requirements."
+          "quote": "This statute requires that all UNC institutions fix tuition for up to eight consecutive semesters (excluding summer sessions) for North Carolina residents who meet certain requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://spartancentral.uncg.edu/tuition-billing-payments/tuition-fees/fixed-tuition-guarantee-program/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

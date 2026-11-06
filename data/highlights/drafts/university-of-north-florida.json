@@ -10,9 +10,13 @@
         {
           "title": "UNF: The Jacksonville Commitment Scholarship",
           "url": "https://www.unf.edu/scholarships/jaxcommitment.html",
-          "quote": "UNF has committed to providing funding to help with the cost of a University education for eligible students. The scholarship award is valued at $24,000 over four years."
+          "quote": "UNF has committed to providing funding to help with the cost of a University education for eligible students. The scholarship award is valued at $24,000 over four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unf.edu/scholarships/jaxcommitment.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

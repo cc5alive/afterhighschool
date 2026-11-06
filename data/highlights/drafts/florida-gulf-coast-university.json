@@ -10,9 +10,13 @@
         {
           "title": "Frequently Asked Questions - Department of Health Sciences",
           "url": "https://www.fgcu.edu/mariebcollege/healthsciences/faq",
-          "quote": "Right now the rule is 80 hours of service learning for students entering FGCU as freshmen and sophomores and 40 hours of service learning for students entering as juniors and seniors"
+          "quote": "Right now the rule is 80 hours of service learning for students entering FGCU as freshmen and sophomores and 40 hours of service learning for students entering as juniors and seniors",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fgcu.edu/mariebcollege/healthsciences/faq",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     },
     {
       "text": "All students receiving a baccalaureate degree from FGCU must complete at least three semester hours of sustainability coursework.",
@@ -20,9 +24,13 @@
         {
           "title": "Undergraduate Requirements - Florida Gulf Coast University",
           "url": "https://www.fgcu.edu/academics/undergraduaterequirements/",
-          "quote": "Students receiving a baccalaureate degree from FGCU must complete at least three (3) semester hours of sustainability coursework with a minimum grade of C."
+          "quote": "Students receiving a baccalaureate degree from FGCU must complete at least three (3) semester hours of sustainability coursework with a minimum grade of C.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.fgcu.edu/academics/undergraduaterequirements/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

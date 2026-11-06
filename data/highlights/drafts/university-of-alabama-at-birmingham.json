@@ -10,9 +10,13 @@
         {
           "title": "Birmingham Promise - Cost & Aid",
           "url": "https://www.uab.edu/cost-aid/promise",
-          "quote": "The UAB Birmingham Promise Scholarship covers tuition for up to 15 credit hours per semester and may be awarded for up to four years (8 semesters) of full-time undergraduate study at UAB."
+          "quote": "The UAB Birmingham Promise Scholarship covers tuition for up to 15 credit hours per semester and may be awarded for up to four years (8 semesters) of full-time undergraduate study at UAB.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uab.edu/cost-aid/promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

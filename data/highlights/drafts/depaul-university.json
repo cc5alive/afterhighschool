@@ -10,9 +10,13 @@
         {
           "title": "Academics | College of Liberal Arts and Social Sciences - Chicago, IL",
           "url": "https://las.depaul.edu/academics",
-          "quote": "Our quarter system structures educational opportunity that fits your unique goals. The ten-week terms make it easier to add a second major or a minor"
+          "quote": "Our quarter system structures educational opportunity that fits your unique goals. The ten-week terms make it easier to add a second major or a minor",
+          "httpStatus": 200,
+          "finalUrl": "https://las.depaul.edu/academics",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

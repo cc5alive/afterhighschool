@@ -10,9 +10,13 @@
         {
           "title": "About N.C. A&T - North Carolina A&T",
           "url": "https://www.ncat.edu/about/index.php",
-          "quote": "We are a top-flight research university, the largest historically black university in the country, the #1 producer of degrees awarded to African Americans in North Carolina"
+          "quote": "We are a top-flight research university, the largest historically black university in the country, the #1 producer of degrees awarded to African Americans in North Carolina",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ncat.edu/about/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Freshman Guaranteed Scholarship - Tarleton State University",
           "url": "https://www.tarleton.edu/scholarships/guaranteed-awards/freshman-guaranteed-scholarship/",
-          "quote": "Tarleton State University will guarantee scholarship levels to entering first-time freshmen who graduate in the top half of their high school class and are pursuing a Bachelor's degree from Tarleton State University."
+          "quote": "Tarleton State University will guarantee scholarship levels to entering first-time freshmen who graduate in the top half of their high school class and are pursuing a Bachelor's degree from Tarleton State University.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tarleton.edu/scholarships/guaranteed-awards/freshman-guaranteed-scholarship/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Falcon Tuition Guarantee FAQ - Bowling Green State University",
           "url": "https://www.bgsu.edu/bursar/the-falcon-tuition-guarantee/falcon-tuition-guarantee-faq.html",
-          "quote": "The Falcon Tuition Guarantee provides all undergraduate, first-time students and their families the certainty that tuition, on-campus housing and meal plans, out-of-state surcharge, special purpose fees and course and class fees will not increase over the four academic years"
+          "quote": "The Falcon Tuition Guarantee provides all undergraduate, first-time students and their families the certainty that tuition, on-campus housing and meal plans, out-of-state surcharge, special purpose fees and course and class fees will not increase over the four academic years",
+          "httpStatus": 200,
+          "finalUrl": "https://www.bgsu.edu/bursar/the-falcon-tuition-guarantee/falcon-tuition-guarantee-faq.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

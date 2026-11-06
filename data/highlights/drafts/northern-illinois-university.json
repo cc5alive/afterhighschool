@@ -10,9 +10,13 @@
         {
           "title": "AIM HIGH Huskie Pledge Program | Financial Aid and Scholarship ...",
           "url": "https://www.niu.edu/financial-aid/grants/aim-high/huskie-pledge/index.shtml",
-          "quote": "For students who meet all eligibility requirements, the aid program helps completely cover first-year tuition and general fees."
+          "quote": "For students who meet all eligibility requirements, the aid program helps completely cover first-year tuition and general fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.niu.edu/financial-aid/grants/aim-high/huskie-pledge/index.shtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

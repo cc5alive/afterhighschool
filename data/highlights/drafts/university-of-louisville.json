@@ -10,9 +10,16 @@
         {
           "title": "FTF Cardinal Commitment Grant | University of Louisville",
           "url": "https://louisville.edu/cost-aid/undergraduate-scholarships-aid/kentucky-southern-indiana-scholarships-aid/ftf-cardinal",
-          "quote": "100% Tuition coverage for students who receive a Pell Grant, Cap Grant and KEES***"
+          "quote": "100% Tuition coverage for students who receive a Pell Grant, Cap Grant and KEES***",
+          "httpStatus": 200,
+          "finalUrl": "https://louisville.edu/cost-aid/undergraduate-scholarships-aid/kentucky-southern-indiana-scholarships-aid/ftf-cardinal",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "income information obtained from the fafsa no scholarship application required 100% tuition coverage** for students who receive a pell grant, cap grant and kees***",
+          "closestScore": 1
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Kean Tuition Promise | Kean University",
           "url": "https://www.kean.edu/ktp",
-          "quote": "The Kean Tuition Promise program benefits incoming freshmen with a household adjusted gross income (AGI) of less than $65K."
+          "quote": "The Kean Tuition Promise program benefits incoming freshmen with a household adjusted gross income (AGI) of less than $65K.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.kean.edu/ktp",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

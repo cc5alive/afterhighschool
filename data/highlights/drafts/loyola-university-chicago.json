@@ -10,9 +10,13 @@
         {
           "title": "Why Arrupe? | Arrupe | Loyola University Chicago",
           "url": "https://www.luc.edu/arrupe/about/whyarrupe/",
-          "quote": "At Arrupe, you can earn a two-year associate's degree in Liberal Arts, Business, or Social and Behavioral Sciences—and we'll help you do it with little to no debt."
+          "quote": "At Arrupe, you can earn a two-year associate's degree in Liberal Arts, Business, or Social and Behavioral Sciences—and we'll help you do it with little to no debt.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.luc.edu/arrupe/about/whyarrupe/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

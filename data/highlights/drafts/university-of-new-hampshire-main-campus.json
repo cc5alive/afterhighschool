@@ -10,9 +10,13 @@
         {
           "title": "New Hampshire Promise | University of New Hampshire",
           "url": "https://www.unh.edu/admissions-aid/new-hampshire-promise",
-          "quote": "incoming first-year students who are New Hampshire residents and have a total family income of up to $100,000 a year can pay no tuition at any USNH institution"
+          "quote": "incoming first-year students who are New Hampshire residents and have a total family income of up to $100,000 a year can pay no tuition at any USNH institution",
+          "httpStatus": 200,
+          "finalUrl": "https://www.unh.edu/admissions-aid/new-hampshire-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

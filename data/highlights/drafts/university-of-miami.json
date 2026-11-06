@@ -10,9 +10,13 @@
         {
           "title": "Cognates Program of General Education | Undergraduate Admission",
           "url": "https://admissions.miami.edu/undergraduate/academics/cognates-program/index.html",
-          "quote": "A cognate is a set of at least three related courses. Students take one cognate in each of the three areas of knowledge: Arts and Humanities, People and Society, and STEM."
+          "quote": "A cognate is a set of at least three related courses. Students take one cognate in each of the three areas of knowledge: Arts and Humanities, People and Society, and STEM.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.miami.edu/undergraduate/academics/cognates-program/index.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

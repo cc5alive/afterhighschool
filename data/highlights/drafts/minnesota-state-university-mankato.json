@@ -10,9 +10,13 @@
         {
           "title": "North Star Promise Scholarship | Minnesota State University, Mankato",
           "url": "https://www.mnsu.edu/paying-for-college/scholarships/north-star-promise-scholarship/",
-          "quote": "The North Star Promise Scholarship creates a tuition- and fee-free pathway to higher education for qualifying Minnesota students. It's a “last-dollar” scholarship, meaning it covers any remaining tuition and mandatory fees."
+          "quote": "The North Star Promise Scholarship creates a tuition- and fee-free pathway to higher education for qualifying Minnesota students. It's a “last-dollar” scholarship, meaning it covers any remaining tuition and mandatory fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.mnsu.edu/paying-for-college/scholarships/north-star-promise-scholarship/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
