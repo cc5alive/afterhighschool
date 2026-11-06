@@ -5,6 +5,6 @@
 export const COLLEGES_LAUNCHED = true;
 
 // Trade and two-year schools: reachable by URL but noindex and out of the sitemap until reviewed.
-export const TRADES_LAUNCHED = false;
+export const TRADES_LAUNCHED = true;
 
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';
