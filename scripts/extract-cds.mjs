@@ -127,7 +127,8 @@ let made = 0;
 const log = [];
 for (const [slug, src] of Object.entries(sources)) {
   if (!force && fs.existsSync(`${DIR}/${slug}.json`)) continue;
-  const resolved = await resolveCds(src.url);
+  let resolved;
+  try { resolved = await resolveCds(src.url); } catch (err) { log.push(`${slug}: error ${err.message}`); continue; }
   const doc = resolved.doc;
   if (doc.text == null) { log.push(`${slug}: document failed to load (HTTP ${doc.status})`); continue; }
   if (!looksLikeCds(doc.text)) { log.push(`${slug}: no CDS document found from ${src.url}`); continue; }

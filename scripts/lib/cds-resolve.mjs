@@ -31,7 +31,8 @@ export async function resolveCds(url, depth = 2) {
   const links = [];
   for (const m of page.html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
     let href; try { href = new URL(m[1], page.url).toString(); } catch { continue; }
-    const label = norm(m[2]) + ' ' + decodeURIComponent(href).toLowerCase();
+    let decoded = href; try { decoded = decodeURIComponent(href); } catch { /* keep raw */ }
+    const label = norm(m[2]) + ' ' + decoded.toLowerCase();
     if (!/common.?data.?set|\bcds\b|cds[_-]/.test(label)) continue;
     const y = yearOf(label);
     const file = /\.(pdf|xlsx?)(\?|$)/i.test(href);
