@@ -26,6 +26,7 @@ const current = (slug, src) => {
     const e = JSON.parse(fs.readFileSync(`${DIR}/${slug}.json`, 'utf8'));
     if (e.readerVersion !== READER_VERSION) return false;
     if (src.mirror && (e.mirror !== src.mirror || e.mirrorHash !== hashOf(src.mirror))) return false;
+    if (JSON.stringify(e.extra || []) !== JSON.stringify(src.extra || [])) return false;
     if (e.sourceUrl) return e.sourceUrl === src.url;
     return !isFile(src.url) || e.source?.url === src.url;
   } catch { return false; }
@@ -382,6 +383,14 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
       } else resolved = await resolveCds(src.url);
     } catch (err) { fail(slug, src.url, `error ${err.message}`); continue; }
     const doc = resolved.doc;
+    // Some colleges post each CDS section as its own file (William & Mary): `extra` lists the other
+    // section files, read and added after the main one. `cite` is then the page that lists them all.
+    for (const u of src.extra || []) {
+      try {
+        const x = (await resolveCds(u)).doc;
+        if (x?.rows?.length) { doc.rows = (doc.rows || []).concat(x.rows); doc.text = `${doc.text || ''} ${x.text || ''}`; }
+      } catch (err) { log.push(`${slug}: extra file ${u} failed (${err.message})`); }
+    }
     if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
     if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
     delete failed[slug];
@@ -404,8 +413,8 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     // Temporary download hosts (Box, Google) expire: cite the listed link instead.
-    const docUrl = resolved.url && !/boxcloud\.com|googleusercontent\.com/.test(resolved.url) ? resolved.url : src.url;
-    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, mirror: src.mirror || undefined, mirrorHash: src.mirror ? hashOf(src.mirror) : undefined,
+    const docUrl = src.cite || (resolved.url && !/boxcloud\.com|googleusercontent\.com/.test(resolved.url) ? resolved.url : src.url);
+    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, extra: src.extra || undefined, mirror: src.mirror || undefined, mirrorHash: src.mirror ? hashOf(src.mirror) : undefined,
       researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
     if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
     fs.writeFileSync(`${DIR}/${slug}.json`, JSON.stringify(d, null, 2) + '\n');
