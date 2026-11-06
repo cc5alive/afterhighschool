@@ -55,6 +55,7 @@ Built 2026-11-06.
 | florida-agricultural-and-mechanical-university | 2023-2024 | 13 | C11 buckets sum to 132.5 |
 | florida-atlantic-university | 2024-2025 | 0 |  |
 | florida-international-university | 2025-2026 | 44 |  |
+| florida-state-university | 2025-2026 | 23 |  |
 | george-mason-university | 2025-2026 | 51 |  |
 | georgetown-university | 2025-2026 | 38 |  |
 | georgia-institute-of-technology-main-campus | 2025-2026 | 49 | gpa_below1_pct: reader 95.31, Gemini 0 (quote matched) |

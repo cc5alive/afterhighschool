@@ -1,0 +1,110 @@
+{
+  "slug": "florida-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://ir.fsu.edu/CommonDataSet.aspx"
+  },
+  "sourceUrl": "https://ir.fsu.edu/CommonDataSet.aspx",
+  "mirror": "data/cds/mirror/florida-state-university.rows.json",
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 7,
+  "docKind": "ocr",
+  "values": {
+    "applied_total": {
+      "value": 85469,
+      "quote": "total first-time, first-year (degree-seeking) who applied 44,631 34,530 6,308 85,469"
+    },
+    "admitted_total": {
+      "value": 20364,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 15,196 4,671 497 20,364"
+    },
+    "waitlist_admitted": {
+      "value": 5,
+      "quote": "number of wait-listed students admitted: 5"
+    },
+    "rank_top10_pct": {
+      "value": 77.8,
+      "quote": "percent in top tenth of high school graduating class 77.8%"
+    },
+    "rank_top25_pct": {
+      "value": 91.6,
+      "quote": "percent in top quarter of high school graduating class 91.6%"
+    },
+    "gpa_400_pct": {
+      "value": 11.7,
+      "quote": "percent who had gpa of 4.0 11.7% percent who had gpa of 4.0+ 89.7%"
+    },
+    "gpa_375_pct": {
+      "value": 42,
+      "quote": "percent who had gpa between 3.75 and 3.99 42.0% percent who had gpa between 3.75 and 3.99 6.3%"
+    },
+    "gpa_350_pct": {
+      "value": 30.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 30.1% percent who had gpa between 3.50 and 3.74 2.6%"
+    },
+    "gpa_325_pct": {
+      "value": 12.6,
+      "quote": "percent who had gpa between 3.25 and 3.49 12.6% percent who had gpa between 3.25 and 3.49 0.6%"
+    },
+    "gpa_300_pct": {
+      "value": 2.5,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.5% percent who had gpa between 3.00 and 3.24 0.4%"
+    },
+    "gpa_250_pct": {
+      "value": 0.9,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.9%, percent who had gpa between 2.50 and 2.99 0.3%"
+    },
+    "gpa_200_pct": {
+      "value": 0.2,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.2% percent who had gpa between 2.00 and 2.49 0.1%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0% percent who had gpa between 1.00 and 1.99 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% percent who had gpa below 1.00 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.72,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students c12 ee 3 om \" 3.72 4.29"
+    },
+    "gpa_submit_pct": {
+      "value": 99.4,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.4% 99.9%"
+    },
+    "enrolled_total": {
+      "value": 6559,
+      "quote": "total first-time, first-year males who enrolled 2,716 / total first-time, first-year females who enrolled 3,843 / total first-time, first-year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1300,
+      "quote": "sat composite 1300 1360 1410"
+    },
+    "sat_p50": {
+      "value": 1360,
+      "quote": "sat composite 1300 1360 1410"
+    },
+    "sat_p75": {
+      "value": 1410,
+      "quote": "sat composite 1300 1360 1410"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    }
+  },
+  "concerns": null
+}
