@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       slugs: { description: 'space-separated slugs', required: true }
+permissions:
+  contents: write
 jobs:
   dump:
     runs-on: ubuntu-latest
@@ -12,5 +14,12 @@ jobs:
         with: { node-version: 22 }
       - run: npm install --no-save --no-package-lock pdfjs-dist@4.10.38 xlsx@0.18.5
       - run: node scripts/dump-cds-text.mjs ${{ inputs.slugs }}
-      - uses: actions/upload-artifact@v4
-        with: { name: cds-dump, path: cds-dump/ }
+      - name: Push the dumps to the cds-debug branch (not main, so nothing deploys)
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git checkout --orphan cds-debug
+          git rm -rq --cached .
+          git add -f cds-dump
+          git commit -qm "CDS text dumps"
+          git push -f origin cds-debug
