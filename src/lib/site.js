@@ -8,6 +8,6 @@ export const COLLEGES_LAUNCHED = true;
 export const TRADES_LAUNCHED = true;
 
 // Apprenticeship guide: reachable by URL but noindex and out of the sitemap until reviewed.
-export const APPRENTICESHIPS_LAUNCHED = false;
+export const APPRENTICESHIPS_LAUNCHED = true;
 
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';
