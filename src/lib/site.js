@@ -10,4 +10,7 @@ export const TRADES_LAUNCHED = true;
 // Apprenticeship guide: reachable by URL but noindex and out of the sitemap until reviewed.
 export const APPRENTICESHIPS_LAUNCHED = true;
 
+// Community college and transfer guide: reachable by URL but noindex and out of the sitemap until reviewed.
+export const TRANSFER_LAUNCHED = false;
+
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';

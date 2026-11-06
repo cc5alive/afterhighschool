@@ -6,7 +6,7 @@ import { tradeSchools, national, tradePulledDate, KIND_LABEL } from '../../../li
 import { stateSlug } from '../../../lib/data.js';
 import { CREDENTIAL } from '../../../lib/trades.js';
 import { pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, INCOME_BAND_LABEL, scorecardUrl } from '../../../lib/format.js';
-import { TRADES_LAUNCHED, CONTACT_EMAIL } from '../../../lib/site.js';
+import { TRADES_LAUNCHED, TRANSFER_LAUNCHED, CONTACT_EMAIL } from '../../../lib/site.js';
 
 export function getStaticPaths() {
   return tradeSchools.map((s) => ({ params: { slug: s.slug }, props: { s } }));
@@ -33,6 +33,7 @@ const nat = (p) => national[`${p.cip}-${p.level}`];
 const bands = Object.entries(s.netPriceByIncome).map(([k, v]) => ({ k, label: INCOME_BAND_LABEL[k], v }));
 const bandMax = Math.max(1, ...bands.map((b) => b.v ?? 0), s.costOfAttendance ?? 0);
 const hasBands = bands.some((b) => b.v != null);
+const isTransferCollege = s.ownership === 'public' && s.programs.some((p) => p.level === 2 && p.awards > 0);
 const description = `${s.name} in ${s.city}, ${s.stateName}: programs, real cost by family income, completion rate, earnings and debt, from federal data.`;
 ---
 <Layout title={`${s.displayName}: programs, cost and outcomes | After High School`} description={description}
@@ -135,7 +136,10 @@ const description = `${s.name} in ${s.city}, ${s.stateName}: programs, real cost
         <Stat label="Median earnings" value={money(s.medianEarnings6yr)} note="6 years after starting, students who got federal aid" href={src} />
         <Stat label="Median earnings, later" value={money(s.medianEarnings10yr)} note="10 years after starting" href={src} />
         <Stat label="Median debt at completion" value={money(s.medianDebt)} note="federal loans, students who finished" href={src} />
+        {s.outcomes8yr && <Stat label="Earned a degree or certificate here" value={pct(s.outcomes8yr.award)} note="all students who started, 8 years later" href={src} />}
+        {s.outcomes8yr && <Stat label="Left for another college before finishing" value={pct(s.outcomes8yr.transfer)} note="all students who started, 8 years later" href={src} />}
       </dl>
+      {s.outcomes8yr && isTransferCollege && TRANSFER_LAUNCHED && <p class="block-lede">Planning to transfer to a four-year school? See <a href={`/transfer/${stateSlug(s.state)}`}>how transfer works in {s.stateName}</a>.</p>}
     </section>
 
     <section class="block sources" aria-labelledby="sources">

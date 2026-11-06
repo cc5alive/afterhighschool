@@ -1,0 +1,85 @@
+---
+// Community college and transfer guide: how starting at a community college works, what it saves,
+// the honest odds, how to keep your credits, and each state's transfer rules.
+import Layout from '../../layouts/Layout.astro';
+import { transferStates, ecsSource } from '../../lib/transfer-data.js';
+import { TRANSFER_LAUNCHED } from '../../lib/site.js';
+
+const SRC = {
+  cb: { name: 'College Board, Trends in College Pricing 2026', url: 'https://research.collegeboard.org/trends/college-pricing/highlights' },
+  nsc: { name: 'National Student Clearinghouse Research Center, May 2024', url: 'https://www.studentclearinghouse.org/nscblog/tracking-transfers-the-path-to-achieving-a-bachelors-degree/' },
+  gao: { name: 'U.S. Government Accountability Office, report GAO-17-574 (2017)', url: 'https://www.gao.gov/assets/700/691070.pdf' }
+};
+const twoYear = 4210, fourYear = 12290;
+const guaranteed = transferStates.filter((s) => s.policy?.guaranteedAssociate?.answer === 'Yes').length;
+---
+<Layout title="Start at community college, then transfer | After High School"
+  description="How starting at a community college and transferring to a four-year school works: what it saves, how many students make it, how to keep your credits, and your state's transfer rules."
+  path="/transfer" nav="colleges" noindex={!TRANSFER_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Start at community college, then transfer</h1>
+    <p>Lots of students take their first two years at a community college, where tuition is much lower, then transfer to a four-year school to finish a bachelor's degree. It can save real money. It also takes a plan, because not every class you take will count after you transfer.</p>
+  </section>
+
+  <section class="block" aria-labelledby="save">
+    <h2 id="save">What it can save</h2>
+    <dl class="xfer-compare">
+      <div><dt>Community college</dt><dd><strong>${twoYear.toLocaleString('en-US')}</strong> a year</dd><dd class="xfer-sub">average tuition and fees, public two-year, in-district</dd></div>
+      <div><dt>Public university</dt><dd><strong>${fourYear.toLocaleString('en-US')}</strong> a year</dd><dd class="xfer-sub">average tuition and fees, public four-year, in-state</dd></div>
+    </dl>
+    <p class="block-lede">Those are 2026–27 sticker prices. Two years at the lower price is about ${((fourYear - twoYear) * 2).toLocaleString('en-US')} less in tuition. Many students pay even less: on average, first-time, full-time students at public two-year colleges have received enough grant aid to cover their tuition and fees since 2009–10. Rent, food, books and getting to class cost money wherever you go.</p>
+    <a class="src" href={SRC.cb.url} rel="noopener" target="_blank">Source: {SRC.cb.name}</a>
+  </section>
+
+  <section class="block" aria-labelledby="odds">
+    <h2 id="odds">How many students make it</h2>
+    <p class="block-lede">This is the part people skip. Of first-time students who started at a community college in fall 2016, working toward a degree:</p>
+    <dl class="xfer-odds">
+      <div><dt>31%</dt><dd>transferred to a four-year school within six years</dd></div>
+      <div><dt>49%</dt><dd>of those who transferred finished a bachelor's degree</dd></div>
+      <div><dt>16%</dt><dd>of everyone who started earned a bachelor's degree within six years</dd></div>
+    </dl>
+    <p class="block-lede">Exact figures: 31.2%, 49.1% and 15.7%. The students who make it usually plan their transfer from the start: they know where they're headed and take the classes that school requires.</p>
+    <a class="src" href={SRC.nsc.url} rel="noopener" target="_blank">Source: {SRC.nsc.name}</a>
+  </section>
+
+  <section class="block" aria-labelledby="credits">
+    <h2 id="credits">Why credits get lost</h2>
+    <p class="block-lede">When a four-year school reviews your transcript, it decides which classes count, and whether they count toward your major or only as electives. In the largest federal study, students who transferred lost an estimated 43% of their credits on average. Students moving between two public schools lost 37%. That study followed students who started college in 2003–04, so it's old, but it's still the best national estimate.</p>
+    <a class="src" href={SRC.gao.url} rel="noopener" target="_blank">Source: {SRC.gao.name}</a>
+  </section>
+
+  <section class="block" aria-labelledby="plan">
+    <h2 id="plan">How to keep your credits</h2>
+    <ol class="xfer-steps">
+      <li><strong>Pick a target school and major early.</strong> What counts depends on both. If you're not sure yet, pick a likely one and adjust.</li>
+      <li><strong>Find your state's transfer agreement.</strong> Many states guarantee that a specific transfer associate degree, or a set of general-education classes, will be accepted by public universities. Your state's page below links to its official transfer site where we found one.</li>
+      <li><strong>See a transfer adviser every term.</strong> Ask which classes count at your target school, and keep a copy of every plan you agree on.</li>
+      <li><strong>Take the classes your major needs.</strong> General-education classes are only part of it. Many majors expect certain math, science or intro courses before you arrive.</li>
+      <li><strong>Check before you register.</strong> Use your state's transfer site or the university's course-equivalency tool to see how a class transfers.</li>
+      <li><strong>Watch transfer deadlines.</strong> Transfer applications, financial aid and transfer scholarships often have their own dates.</li>
+    </ol>
+  </section>
+
+  <section class="block" aria-labelledby="states">
+    <h2 id="states">Your state's transfer rules</h2>
+    <p class="block-lede">Each state page shows its statewide transfer rules, its official transfer site where we found one, and its public community and technical colleges with how their students did. In {guaranteed} states, a statewide rule guarantees that an associate degree transfers as a whole.</p>
+    <ul class="xfer-states">
+      {transferStates.map((s) => (
+        <li><a href={`/transfer/${s.slug}`}><span>{s.name}</span>{s.policy?.guaranteedAssociate?.answer === 'Yes' && <span class="xfer-yes">Guaranteed associate transfer</span>}</a></li>
+      ))}
+    </ul>
+    <p class="wys-src">"Guaranteed associate transfer" means the state has a statewide rule that an associate degree transfers as a whole, according to the <a href={ecsSource.url} rel="noopener" target="_blank">{ecsSource.name}, {ecsSource.title}</a> ({ecsSource.date}). States without one may still have guarantees with particular universities.</p>
+  </section>
+
+  <section class="block sources" aria-labelledby="sources">
+    <h2 id="sources">Where these numbers come from</h2>
+    <ul class="xfer-srcs">
+      <li>Tuition and grant aid: <a href={SRC.cb.url} rel="noopener" target="_blank">{SRC.cb.name}</a>.</li>
+      <li>Transfer and graduation rates: <a href={SRC.nsc.url} rel="noopener" target="_blank">{SRC.nsc.name}</a>, students who started at a two-year college in fall 2016.</li>
+      <li>Lost credits: <a href={SRC.gao.url} rel="noopener" target="_blank">{SRC.gao.name}</a>, pages 15–16.</li>
+      <li>State transfer rules: <a href={ecsSource.url} rel="noopener" target="_blank">{ecsSource.name}, {ecsSource.title}</a>.</li>
+      <li>Colleges and their outcomes: the U.S. Department of Education's College Scorecard.</li>
+    </ul>
+  </section>
+</Layout>

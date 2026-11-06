@@ -118,6 +118,10 @@ function assignSlugs(schools) {
     for (const s of group) { const st = `${base}-${(s.state || '').toLowerCase()}`; byState.set(st, [...(byState.get(st) || []), s]); }
     for (const [st, g2] of byState) { if (g2.length === 1) { g2[0].slug = st; continue; } for (const s of g2) s.slug = `${st}-${slugify(s.city || String(s.id))}`; }
   }
+  // Two campuses with the same name in the same city: add the federal ID so each keeps its own page.
+  const seen = new Map();
+  for (const s of schools) seen.set(s.slug, (seen.get(s.slug) || 0) + 1);
+  for (const s of schools) if (seen.get(s.slug) > 1) s.slug = `${s.slug}-${s.id}`;
 }
 
 const pctOf = (n, d) => (d ? `${Math.round((100 * n) / d)}%` : '-');

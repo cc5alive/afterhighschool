@@ -1,0 +1,86 @@
+---
+// One state's transfer picture: statewide rules, the official transfer site, and its public
+// community and technical colleges with where their students stood eight years after starting.
+import Layout from '../../layouts/Layout.astro';
+import { transferStates, ecsSource, ECS_QUESTIONS, portalCheckedDate } from '../../lib/transfer-data.js';
+import { tradePulledDate } from '../../lib/trade-data.js';
+import { money, pct, int } from '../../lib/format.js';
+import { TRANSFER_LAUNCHED } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  return transferStates.map((st) => ({ params: { state: st.slug }, props: { st } }));
+}
+const { st } = Astro.props;
+const withOutcomes = st.colleges.filter((s) => s.outcomes8yr?.transfer != null);
+---
+<Layout title={`Community college transfer in ${st.name} | After High School`}
+  description={`How transferring from a community college works in ${st.name}: statewide transfer rules, the official transfer site, and ${st.colleges.length} public community and technical colleges with federal outcome data.`}
+  path={`/transfer/${st.slug}`} nav="colleges" noindex={!TRANSFER_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/transfer">Transfer</a><span aria-hidden="true">/</span><span>{st.name}</span></nav>
+  <section class="compare-head">
+    <h1>Community college transfer in {st.name}</h1>
+    <p>What {st.name} guarantees when you move from a community college to a public university, where to check how your classes transfer, and how students at each public community and technical college did.</p>
+  </section>
+
+  {st.portal && (
+    <section class="block" aria-labelledby="portal">
+      <h2 id="portal">Start here</h2>
+      <p class="block-lede">{st.name}'s official transfer site shows which classes count where and the state's transfer agreements.</p>
+      <p><a class="button" href={st.portal.url} rel="noopener" target="_blank">{st.portal.name}</a></p>
+      <p class="wys-src">Link checked {portalCheckedDate}.</p>
+    </section>
+  )}
+
+  {st.policy && (
+    <section class="block" aria-labelledby="rules">
+      <h2 id="rules">Statewide transfer rules</h2>
+      <p class="block-lede">Whether {st.name} has these four statewide rules, as of {ecsSource.date}. Rules change, and many colleges have their own agreements on top of these, so confirm with a transfer adviser.</p>
+      <dl class="xfer-rules">
+        {ECS_QUESTIONS.map((q) => {
+          const a = st.policy[q.key]?.answer;
+          return (
+            <div class:list={['xfer-rule', { yes: a === 'Yes' }]}>
+              <dt>{q.label}</dt>
+              <dd class="xfer-ans">{a === 'Yes' ? 'Yes' : a === 'No' ? 'No statewide rule' : 'Not reported'}</dd>
+              <dd class="xfer-plain">{q.plain}</dd>
+            </div>
+          );
+        })}
+      </dl>
+      <a class="src" href={st.profileUrl} rel="noopener" target="_blank">Source: {ecsSource.name}, {st.name} profile ({ecsSource.title})</a>
+    </section>
+  )}
+
+  <section class="block" aria-labelledby="colleges">
+    <h2 id="colleges">Public community and technical colleges ({st.colleges.length})</h2>
+    {st.colleges.length ? (
+      <>
+        <p class="block-lede">Public colleges in {st.name} that awarded associate degrees in the latest federal data, A to Z. "Eight years later" follows everyone who started there, full-time or part-time, first-time or not.</p>
+        <ul class="results tr-results">
+          {st.colleges.map((s) => (
+            <li class="card tr-card">
+              <div class="card-main">
+                <a class="card-link" href={`/trades/school/${s.slug}`}>
+                  <span class="card-name">{s.name}</span>
+                  <span class="card-where">{s.city}{s.students != null && ` · ${int(s.students)} students`}</span>
+                </a>
+                <button type="button" class="linkish card-save" data-save-slug={`t:${s.slug}`} data-off-text="Save to my list" data-on-text="Saved" aria-pressed="false" aria-label={`Save ${s.name} to my list`}>Save to my list</button>
+              </div>
+              <dl class="card-facts tr-facts">
+                <div><dt>Avg net price</dt><dd>{money(s.avgNetPrice) ?? '—'}</dd></div>
+                <div><dt>Earned a degree or certificate there</dt><dd>{pct(s.outcomes8yr?.award) ?? '—'}</dd></div>
+                <div><dt>Left for another college before finishing</dt><dd>{pct(s.outcomes8yr?.transfer) ?? '—'}</dd></div>
+              </dl>
+            </li>
+          ))}
+        </ul>
+        <p class="wys-src">"Earned a degree or certificate there" and "Left for another college before finishing" are where students stood eight years after starting, from the federal Outcome Measures survey. Students who earned an associate degree and then transferred count under the first number, so the second only counts students who left before finishing. {withOutcomes.length < st.colleges.length && `${st.colleges.length - withOutcomes.length} ${st.colleges.length - withOutcomes.length === 1 ? 'college has' : 'colleges have'} no outcome figures yet. `}Average net price is what students paid per year after grants. Data from College Scorecard, pulled {tradePulledDate}.</p>
+      </>
+    ) : <p class="pending-note">We don't have public community or technical colleges listed for {st.name} in the federal data.</p>}
+  </section>
+
+  <section class="block sources" aria-labelledby="sources">
+    <h2 id="sources">Where this comes from</h2>
+    <p>Statewide rules are from the <a href={st.profileUrl} rel="noopener" target="_blank">{ecsSource.name}'s {st.name} profile</a> in {ecsSource.title}, published {ecsSource.date}. College figures are from the U.S. Department of Education's College Scorecard; open a college for its full page and source links. See <a href="/transfer">the transfer guide</a> for what transfer can save and how to keep your credits.</p>
+  </section>
+</Layout>

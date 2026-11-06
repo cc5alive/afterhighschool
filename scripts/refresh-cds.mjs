@@ -42,6 +42,8 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
       if (!r.doc.text || !looksLikeCds(r.doc.text)) continue;
       const y = yearOf(u) || (have ? have + 1 : 0);
       if (y <= have) continue;
+      // Some hosts ignore the file name (docs.gato.txst.edu/<id>/<anything>), so the document itself must say the new year.
+      if (yearOf(r.doc.text.slice(0, 6000)) < y) continue;
       sources[slug] = { url: u, year: `${y}-${y + 1}`, title: `Common Data Set ${y}-${y + 1}` };
       found.push(`| ${slug} | ${src.url} | ${u} |`);
       break;

@@ -329,3 +329,30 @@ button.button { cursor: pointer; font-family: inherit; }
 .ap-tag { font-size: 0.8rem; font-weight: 700; color: var(--apprentice); }
 .ap-cross { margin: 0 0 24px; }
 .section-nav { flex-wrap: wrap; row-gap: 6px; }
+
+/* Transfer: a change of lines, community college (trade orange) to university (college blue) */
+.xfer-compare { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 0 0 16px; max-width: 46em; }
+.xfer-compare > div { background: var(--card); border-radius: 12px; padding: 14px 16px; border-left: 6px solid var(--trade); }
+.xfer-compare > div + div { border-left-color: var(--college); }
+.xfer-compare dt { font-weight: 800; }
+.xfer-compare dd { margin: 4px 0 0; }
+.xfer-compare dd strong { font-size: 1.6rem; }
+.xfer-sub { color: var(--muted); font-size: 0.875rem; }
+.xfer-odds { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 0 0 16px; max-width: 46em; }
+.xfer-odds > div { border-top: 3px solid var(--ink); padding-top: 8px; }
+.xfer-odds dt { font-size: 2.2rem; font-weight: 800; line-height: 1.1; }
+.xfer-odds dd { margin: 4px 0 0; color: var(--muted); }
+.xfer-steps { max-width: 46em; padding-left: 1.4em; margin: 0 0 20px; display: grid; gap: 10px; }
+.xfer-states { list-style: none; margin: 0 0 16px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; }
+.xfer-states a { display: grid; gap: 2px; height: 100%; box-sizing: border-box; background: var(--card); border-radius: 10px; padding: 10px 14px; text-decoration: none; font-weight: 700;
+  border-top: 5px solid; border-image: linear-gradient(90deg, var(--trade) 50%, var(--college) 50%) 1; }
+.xfer-states a:hover span:first-child { text-decoration: underline; }
+.xfer-yes { font-size: 0.8rem; font-weight: 700; color: var(--apprentice); }
+.xfer-rules { display: grid; gap: 10px; margin: 0 0 14px; max-width: 46em; }
+.xfer-rule { background: var(--card); border-radius: 10px; padding: 12px 16px; display: grid; grid-template-columns: 1fr auto; gap: 4px 16px; }
+.xfer-rule dt { font-weight: 800; }
+.xfer-ans { margin: 0; font-weight: 700; color: var(--muted); }
+.xfer-rule.yes .xfer-ans { color: var(--apprentice); }
+.xfer-plain { margin: 0; grid-column: 1 / -1; color: var(--muted); font-size: 0.95rem; }
+.xfer-srcs { max-width: 46em; padding-left: 1.2em; }
+@media (max-width: 640px) { .xfer-compare, .xfer-odds { grid-template-columns: 1fr; } }
