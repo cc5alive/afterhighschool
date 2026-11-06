@@ -13,7 +13,7 @@ function walk(d) {
     else if (f.endsWith('.html')) {
       const html = fs.readFileSync(p, 'utf8');
       const where = '/' + path.relative('dist', p).replace(/\.html$/, '').replace(/(^|\/)index$/, '');
-      for (const m of html.matchAll(/href="(https?:\/\/[^"#]+)/g)) {
+      for (const m of html.matchAll(/<a\b[^>]*\bhref="(https?:\/\/[^"#]+)/g)) {
         const u = m[1].replace(/&amp;/g, '&');
         if (/^https?:\/\/(www\.)?afterhighschool\.me/.test(u)) continue;
         if (!pages.has(u)) pages.set(u, new Set());
@@ -31,7 +31,7 @@ const urls = [...pages.keys()].filter((u) => {
 });
 if (scorecardSample) urls.push(scorecardSample);
 
-const UA = 'Mozilla/5.0 (compatible; afterhighschool.me link check; +https://afterhighschool.me; hello@afterhighschool.me)';
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36';
 async function check(u) {
   for (const method of ['HEAD', 'GET']) {
     try {
@@ -47,7 +47,7 @@ async function check(u) {
   return { status: 0, error: 'unknown' };
 }
 const classify = (r) => r.status >= 200 && r.status < 400 ? 'ok'
-  : [404, 410].includes(r.status) || ['ENOTFOUND', 'EAI_AGAIN_FINAL'].includes(r.error) ? 'broken'
+  : [404, 410].includes(r.status) || r.error === 'ENOTFOUND' || /ERR_NAME_NOT_RESOLVED/.test(r.error || '') ? 'broken'
   : [401, 403, 405, 406, 429, 999].includes(r.status) ? 'blocked' : 'error';
 
 // A few requests at a time, and never more than two to one host at once.
@@ -70,6 +70,28 @@ for (const u of urls.filter((u) => classify(results[u]) !== 'ok' && classify(res
   const again = await check(u);
   if (classify(again) === 'ok' || classify(again) === 'blocked') results[u] = again;
 }
+
+// Many sites answer automated requests with 404 or refuse them. Before calling a link broken,
+// open it in a real browser; only links that fail there too are reported (and hidden on the site).
+try {
+  const { chromium } = await import('playwright');
+  const browser = await chromium.launch();
+  const ctx = await browser.newContext({ userAgent: UA, locale: 'en-US' });
+  for (const u of urls.filter((u) => classify(results[u]) === 'broken')) {
+    const page = await ctx.newPage();
+    try {
+      const resp = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 30000 });
+      const st = resp ? resp.status() : 0;
+      if (st && st < 400) results[u] = { status: st, final: page.url() !== u ? page.url() : undefined, via: 'browser' };
+      else results[u] = { ...results[u], status: st || results[u].status, via: 'browser' };
+    } catch (e) {
+      // PDFs and downloads abort navigation; a download means the file exists.
+      if (/download|ERR_ABORTED/i.test(e.message)) results[u] = { status: 200, via: 'browser (download)' };
+      else results[u] = { ...results[u], via: 'browser', error: results[u].error || e.message.split('\n')[0].slice(0, 80) };
+    } finally { await page.close(); }
+  }
+  await browser.close();
+} catch (e) { console.log('browser recheck skipped:', e.message); }
 
 const rows = urls.map((u) => ({ url: u, ...results[u], kind: classify(results[u]), pages: [...pages.get(u)].slice(0, 5), pageCount: pages.get(u).size }));
 const count = (k) => rows.filter((r) => r.kind === k).length;

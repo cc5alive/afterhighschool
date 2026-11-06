@@ -15,6 +15,10 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - run: npm ci
+      - name: A browser for rechecking links that look broken
+        run: |
+          npm install --no-save --no-package-lock playwright@1.49.1
+          npx playwright install --with-deps chromium
       - run: npm run build
       - run: node scripts/check-links.mjs
       - run: head -60 data/linkcheck/report.md >> "$GITHUB_STEP_SUMMARY"

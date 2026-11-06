@@ -1,4 +1,5 @@
 ---
+import { schoolLink } from '../../lib/links.js';
 import Layout from '../../layouts/Layout.astro';
 import Stat from '../../components/Stat.astro';
 import CdsPanel from '../../components/CdsPanel.astro';
@@ -16,8 +17,8 @@ export function getStaticPaths() {
 
 const { s } = Astro.props;
 const src = scorecardUrl(s);
-const site = s.url ? (/^https?:\/\//.test(s.url) ? s.url : `https://${s.url}`) : null;
-const calc = s.priceCalculatorUrl ? (/^https?:\/\//.test(s.priceCalculatorUrl) ? s.priceCalculatorUrl : `https://${s.priceCalculatorUrl}`) : null;
+const site = schoolLink(s.url);
+const calc = schoolLink(s.priceCalculatorUrl);
 const similar = similarSchools(s);
 const hl = highlights.get(s.slug);
 const reviewedDate = hl && new Date(`${hl.reviewedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });

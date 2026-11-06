@@ -291,7 +291,8 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows) };
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
-    const docUrl = resolved.url || src.url;
+    // Temporary download hosts (Box, Google) expire: cite the listed link instead.
+    const docUrl = resolved.url && !/boxcloud\.com|googleusercontent\.com/.test(resolved.url) ? resolved.url : src.url;
     const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url,
       researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
     if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';

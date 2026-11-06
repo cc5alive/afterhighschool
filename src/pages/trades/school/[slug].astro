@@ -1,5 +1,6 @@
 ---
 // One trade, career or two-year school: what you can study, what it costs, and how students do.
+import { schoolLink } from '../../../lib/links.js';
 import Layout from '../../../layouts/Layout.astro';
 import Stat from '../../../components/Stat.astro';
 import { tradeSchools, national, tradePulledDate, KIND_LABEL } from '../../../lib/trade-data.js';
@@ -13,8 +14,8 @@ export function getStaticPaths() {
 }
 const { s } = Astro.props;
 const src = scorecardUrl(s);
-const site = s.url ? (/^https?:\/\//.test(s.url) ? s.url : `https://${s.url}`) : null;
-const calc = s.priceCalculatorUrl ? (/^https?:\/\//.test(s.priceCalculatorUrl) ? s.priceCalculatorUrl : `https://${s.priceCalculatorUrl}`) : null;
+const site = schoolLink(s.url);
+const calc = schoolLink(s.priceCalculatorUrl);
 const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
 
 const chips = [
