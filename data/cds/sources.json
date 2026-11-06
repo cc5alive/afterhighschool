@@ -146,7 +146,10 @@
   "title": "Common Data Set 2024-2025"
  },
  "florida-state-university": {
-  "url": "https://ir.fsu.edu/CommonDataSet.aspx"
+  "url": "https://ir.fsu.edu/CommonDataSet.aspx",
+  "year": "2025-2026",
+  "title": "Common Data Set 2025-2026",
+  "mirror": "data/cds/mirror/florida-state-university.rows.json"
  },
  "university-of-north-texas": {
   "url": "https://institutionalresearch.unt.edu/cds_univnorthtx_2025-2026.pdf",
