@@ -6,7 +6,7 @@ const {
   description,
   path = '/',
   noindex = false,
-  nav = 'home',          // 'home' shows only the email-updates link; 'colleges' shows the section nav
+  nav = 'home',          // 'colleges' also loads colleges.css and the save buttons; every page shows the main menu
   ogTitle,
   jsonLd
 } = Astro.props;
@@ -37,8 +37,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
 <body>
   <header class="site-header">
     <a class="wordmark" href="/">afterhighschool<span class="tld">.me</span></a>
-    {nav === 'colleges' ? (
-      <nav class="section-nav" aria-label="Main">
+    <nav class="section-nav" aria-label="Main">
         <a href="/colleges">Colleges</a>
         <details class="nav-paths">
           <summary>Other paths</summary>
@@ -55,21 +54,19 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
         </details>
         <a href="/compare">Compare</a>
         <a href="/my-list">My list<span data-list-count></span></a>
-      </nav>
-    ) : (
-      <a class="header-link" href="/#join">Get updates</a>
-    )}
+    </nav>
   </header>
 
   <main>
     <slot />
   </main>
-  {nav === 'colleges' && <script>import { wireSaveButtons } from '../lib/mylist.js'; wireSaveButtons();
+  {nav === 'colleges' && <script>import { wireSaveButtons } from '../lib/mylist.js'; wireSaveButtons();</script>}
+  <script>
     // Close the paths menu when you click elsewhere or press Escape.
     const menu = document.querySelector('.nav-paths');
     document.addEventListener('click', (e) => { if (menu && !menu.contains(e.target)) menu.open = false; });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary').focus(); } });
-  </script>}
+  </script>
 
   <footer class="site-footer">
     <slot name="footer">
