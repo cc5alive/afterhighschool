@@ -1,0 +1,35 @@
+{
+  "slug": "texas-state-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://docs.gato.txst.edu/743980/CDS-2024-2025%20from%20richard.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 33907,
+      "quote": "total first-time, first-year (degree-seeking) who applied 30,147 2,557 1,203 33,907"
+    },
+    "admitted_total": {
+      "value": 30498,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 27,156 2,190 1,152 30,498"
+    },
+    "enrolled_total": {
+      "value": 8195,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 7,649 152 394 8,195"
+    },
+    "rank_top10_pct": {
+      "value": 11.36,
+      "quote": "percent in top tenth of high school graduating class 11.36"
+    },
+    "rank_top25_pct": {
+      "value": 42.64,
+      "quote": "percent in top quarter of high school graduating class 42.64"
+    }
+  },
+  "concerns": null
+}

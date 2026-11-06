@@ -35,7 +35,7 @@ Built 2026-11-06.
 | claremont-mckenna-college | 2025-2026 | 36 |  |
 | colgate-university | 2025-2026 | 45 |  |
 | college-of-the-holy-cross | 2023-2024 | 19 |  |
-| colorado-college | 2025-2026 | 38 |  |
+| colorado-college | 2025-2026 | 49 |  |
 | columbia-university-in-the-city-of-new-york | 2024-2025 | 34 | C11 buckets sum to 100.0 |
 | commonwealth-university-of-pennsylvania | 2025-2026 | 23 |  |
 | cornell-university | 2025-2026 | 16 | C11 buckets sum to 3.0 |
@@ -58,6 +58,7 @@ Built 2026-11-06.
 | harvard-university | 2025-2026 | 40 |  |
 | haverford-college | 2024-2025 | 33 |  |
 | illinois-institute-of-technology | 2024-2025 | 31 |  |
+| indiana-university-bloomington | 2024-2025 | 45 |  |
 | iowa-state-university | 2025-2026 | 37 |  |
 | jacksonville-state-university | 2025-2026 | 34 |  |
 | kennesaw-state-university | 2025-2026 | 21 |  |
@@ -89,14 +90,14 @@ Built 2026-11-06.
 | radford-university | - | 32 |  |
 | rice-university | 2025-2026 | 37 |  |
 | rochester-institute-of-technology | 2025-2026 | 34 |  |
-| rutgers-university-new-brunswick | 2025-2026 | 26 |  |
+| rutgers-university-new-brunswick | 2025-2026 | 23 | applied_total: reader 78122, Gemini 43347 (quote matched); admitted_total: reader 45800, Gemini 28326 (quote matched); act_p25: reader 29, Gemini 28 (quote matched); act_p50: reads disagree (32 vs 31), left out; act_p75: reads disagree (34 vs 33), left out; rank_top10_pct: reader 35, Gemini 30 (quote matched); rank_top25_pct: reader 75, Gemini 66 (quote matched); act scores inconsistent (28, undefined, undefined) |
 | saginaw-valley-state-university | 2025-2026 | 18 |  |
 | san-diego-state-university | 2025-2026 | 34 |  |
 | san-jose-state-university | 2025-2026 | 38 |  |
 | santa-clara-university | 2025-2026 | 26 |  |
 | skidmore-college | 2024-2025 | 37 |  |
-| smith-college | 2023-2024 | 23 |  |
-| spelman-college | 2025-2026 | 26 |  |
+| smith-college | 2023-2024 | 30 | waitlist_admitted: reader 54, Gemini 43 (quote matched); sat_p25: reader 1430, Gemini 1450 (quote matched); sat_p50: reader 1470, Gemini 1480 (quote matched); act_p50: reader 33, Gemini 34 (quote matched); act_p75: reader 34, Gemini 35 (quote matched); rank_top10_pct: reader 77, Gemini 79 (quote matched); rank_top25_pct: reader 96, Gemini 97 (quote matched); gpa_400_pct: reader 83, Gemini 82 (quote matched); gpa_375_pct: reader 13, Gemini 15 (quote matched); gpa_350_pct: reader 4, Gemini 3 (quote matched); gpa_325_pct: reader 0, Gemini 1 (quote matched); ed_applied: reader 930, Gemini 924 (quote matched); ed_admitted: reader 303, Gemini 353 (quote matched) |
+| spelman-college | 2025-2026 | 29 | gpa_250_pct: reads disagree (0.28 vs 0.16), left out |
 | stanford-university | 2025-2026 | 32 |  |
 | state-university-of-new-york-at-cortland | 2025-2026 | 18 |  |
 | stony-brook-university | 2025-2026 | 23 |  |
@@ -105,6 +106,7 @@ Built 2026-11-06.
 | texas-a-and-m-university-college-station | 2025-2026 | 14 |  |
 | texas-a-and-m-university-corpus-christi | 2025-2026 | 36 |  |
 | texas-christian-university | 2025-2026 | 34 |  |
+| texas-state-university | 2024-2025 | 14 |  |
 | texas-tech-university | 2025-2026 | 33 |  |
 | the-university-of-alabama | 2025-2026 | 22 |  |
 | the-university-of-montana | 2025-2026 | 33 |  |
@@ -134,7 +136,7 @@ Built 2026-11-06.
 | university-of-cincinnati-main-campus | 2025-2026 | 34 |  |
 | university-of-florida | 2024-2025 | 35 | applied_total: reader 5159, Gemini 73557 (quote matched); admitted_total: reader 1676, Gemini 17804 (quote matched); enrolled_total: reader 303, Gemini 7513 (quote matched) |
 | university-of-georgia | 2024-2025 | 41 |  |
-| university-of-houston | 2025-2026 | 23 |  |
+| university-of-houston | 2025-2026 | 43 |  |
 | university-of-houston-downtown | 2025-2026 | 41 |  |
 | university-of-idaho | - | 18 | gpa_below1_pct read as the "totals = 100%" note |
 | university-of-illinois-chicago | 2025-2026 | 34 |  |
@@ -163,7 +165,7 @@ Built 2026-11-06.
 | university-of-pennsylvania | 2025-2026 | 43 |  |
 | university-of-pittsburgh-pittsburgh-campus | 2024-2025 | 0 |  |
 | university-of-rhode-island | 2025-2026 | 38 |  |
-| university-of-richmond | 2024-2025 | 28 |  |
+| university-of-richmond | 2024-2025 | 33 |  |
 | university-of-south-carolina-columbia | 2025-2026 | 1 |  |
 | university-of-south-florida | 2025-2026 | 32 | sat scores inconsistent (1160, undefined, undefined); act scores inconsistent (25, undefined, undefined) |
 | university-of-southern-california | 2024-2025 | 36 |  |

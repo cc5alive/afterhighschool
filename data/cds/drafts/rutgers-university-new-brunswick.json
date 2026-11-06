@@ -9,128 +9,227 @@
   "values": {
     "applied_total": {
       "value": 43347,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 43,347"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 43,347",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 28326,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 28,326"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 28,326",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 7681,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled 7,681"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 7,681",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_submit_pct": {
       "value": 50.9,
-      "quote": "Percent submitting SAT scores 50.9%"
+      "quote": "Percent submitting SAT scores 50.9%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 5.4,
-      "quote": "Percent submitting ACT scores 5.4%"
+      "quote": "Percent submitting ACT scores 5.4%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 28,
-      "quote": "ACT Composite 28"
+      "quote": "ACT Composite 28",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 31,
-      "quote": "ACT Composite 31"
+      "quote": "ACT Composite 31",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 33,
-      "quote": "ACT Composite 33"
+      "quote": "ACT Composite 33",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 30,
-      "quote": "Percent in top tenth of high school graduating class 30%"
+      "quote": "Percent in top tenth of high school graduating class 30%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 66,
-      "quote": "Percent in top quarter of high school graduating class 66%"
+      "quote": "Percent in top quarter of high school graduating class 66%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 14,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 14%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 14%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan... No"
+      "quote": "Does your institution offer an early decision plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Do you have a nonbinding early action plan... Yes"
+      "quote": "Do you have a nonbinding early action plan... Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_interview": {
       "value": "Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_character": {
       "value": "Important",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://oirap.rutgers.edu/CDS/2023/New%20Brunswick%20CDS_2023-2024_final_V1.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 8,
+  "total": 31
 }
