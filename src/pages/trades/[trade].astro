@@ -4,11 +4,13 @@ import Layout from '../../layouts/Layout.astro';
 import { tradeIndex, tradePulledDate } from '../../lib/trade-data.js';
 import { CREDENTIAL } from '../../lib/trades.js';
 import { money, int } from '../../lib/format.js';
-import { TRADES_LAUNCHED } from '../../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED } from '../../lib/site.js';
+import { occupations } from '../../lib/apprentice-data.js';
 export function getStaticPaths() {
   return tradeIndex.map((t) => ({ params: { trade: t.slug }, props: { t } }));
 }
 const { t } = Astro.props;
+const onTheJob = APPRENTICESHIPS_LAUNCHED ? occupations.filter((o) => o.trade === t.slug) : [];
 ---
 <Layout title={`${t.name} schools and programs | After High School`}
   description={`${int(t.count)} schools offer ${t.name.toLowerCase()} programs. See what graduates earn nationally and find schools by state, with federal data on cost and completion.`}
@@ -35,6 +37,13 @@ const { t } = Astro.props;
       </div>
       <a class="src" href="https://collegescorecard.ed.gov/data/" rel="noopener" target="_blank">Source: College Scorecard, field of study data</a>
     </section>
+  )}
+
+  {onTheJob.length > 0 && (
+    <aside class="ap-callout ap-cross">
+      <strong>Or learn it on the job.</strong> You can also get into this work through a paid apprenticeship:{' '}
+      {onTheJob.map((o, i) => <>{i > 0 && ', '}<a href={`/apprenticeships/${o.slug}`}>{o.name.toLowerCase()}</a></>)}.
+    </aside>
   )}
 
   <section class="block" aria-labelledby="where">

@@ -1,7 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { schools, pulledDate } from '../lib/data.js';
-import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
+import { occupations as apOccupations, wageYear, projectionYears } from '../lib/apprentice-data.js';
 import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js';
 ---
 <Layout title="How our data works | After High School"
@@ -70,6 +71,14 @@ import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js'
           <dd>For all students at the school who received federal aid, whether or not they finished.</dd>
         </dl>
         <p>Most trade and career schools are run for profit. We flag that on each for-profit school's page and suggest comparing with public options, because completion, earnings and debt vary widely.</p>
+      </>
+    )}
+
+    {APPRENTICESHIPS_LAUNCHED && (
+      <>
+        <h2>Apprenticeships</h2>
+        <p>The <a href="/apprenticeships">apprenticeship guide</a> is organized by job, not by program, because the Department of Labor doesn't publish a downloadable list of individual apprenticeship programs. It covers {apOccupations.length} jobs. We include a job only if the Bureau of Labor Statistics names apprenticeship as its typical training, or its Occupational Outlook Handbook page describes an apprenticeship route; we quote those sentences on the page.</p>
+        <p>Pay is from the BLS wage survey ({wageYear}) and covers all workers in the job, so apprentices usually start lower. Jobs, openings and growth are BLS Employment Projections ({projectionYears}). To find actual openings, each page links to the Department of Labor's apprenticeship finder, and where it fits, to schools that teach the same trade.</p>
       </>
     )}
 

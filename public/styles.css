@@ -269,3 +269,4 @@ select:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 .explore-link.path-trade { background: var(--trade); color: var(--ink); }
 .explore-link:hover { filter: brightness(1.08); text-decoration: underline; }
 .map a text { text-decoration: underline; }
+.explore-link.path-apprentice { background: var(--apprentice); }

@@ -1,5 +1,6 @@
 import { schools, states, pulledAt } from '../lib/data.js';
-import { COLLEGES_LAUNCHED, TRADES_LAUNCHED } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED } from '../lib/site.js';
+import { occupations } from '../lib/apprentice-data.js';
 import { tradeIndex, tradeSchools } from '../lib/trade-data.js';
 
 const SITE = 'https://afterhighschool.me';
@@ -23,6 +24,10 @@ export function GET() {
       for (const st of t.states) urls.push({ loc: `/trades/${t.slug}/${st.slug}`, lastmod: day });
     }
     for (const s of tradeSchools) if (!s.thin) urls.push({ loc: `/trades/school/${s.slug}`, lastmod: day });
+  }
+  if (APPRENTICESHIPS_LAUNCHED) {
+    urls.push({ loc: '/apprenticeships', lastmod: day });
+    for (const o of occupations) urls.push({ loc: `/apprenticeships/${o.slug}`, lastmod: day });
   }
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
     .map((u) => `  <url><loc>${SITE}${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`)

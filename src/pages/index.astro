@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { TRADES_LAUNCHED } from '../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED } from '../lib/site.js';
 ---
 <Layout
   title="After High School — every path, with the real numbers"
@@ -16,6 +16,7 @@ import { TRADES_LAUNCHED } from '../lib/site.js';
         <p class="explore">
           <a class="explore-link path-college" href="/colleges">Explore colleges</a>
           {TRADES_LAUNCHED && <a class="explore-link path-trade" href="/trades">Explore trade schools</a>}
+          {APPRENTICESHIPS_LAUNCHED && <a class="explore-link path-apprentice" href="/apprenticeships">Explore apprenticeships</a>}
         </p>
 
         <form id="join" class="join" action="/api/waitlist" method="post" novalidate>
@@ -40,7 +41,7 @@ import { TRADES_LAUNCHED } from '../lib/site.js';
             <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
           </div>
           <button type="submit">Join the waitlist</button>
-          <p class="form-note">Just your email. {TRADES_LAUNCHED ? "We'll write when apprenticeships and the other paths go live." : "We'll write when trade schools, apprenticeships and the other paths go live."} No ads, and we never sell your information.</p>
+          <p class="form-note">Just your email. {APPRENTICESHIPS_LAUNCHED ? "We'll write when gap years, fellowships and the other paths go live." : TRADES_LAUNCHED ? "We'll write when apprenticeships and the other paths go live." : "We'll write when trade schools, apprenticeships and the other paths go live."} No ads, and we never sell your information.</p>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -73,7 +74,7 @@ import { TRADES_LAUNCHED } from '../lib/site.js';
             <text x="462" y="66" class="st-sub">four-year and community</text>
             {TRADES_LAUNCHED ? <a href="/trades"><text x="462" y="116" class="st-name">Trade school</text></a> : <text x="462" y="116" class="st-name">Trade school</text>}
             <text x="462" y="134" class="st-sub">electrician, HVAC, nursing</text>
-            <text x="462" y="184" class="st-name">Apprenticeship</text>
+            {APPRENTICESHIPS_LAUNCHED ? <a href="/apprenticeships"><text x="462" y="184" class="st-name">Apprenticeship</text></a> : <text x="462" y="184" class="st-name">Apprenticeship</text>}
             <text x="462" y="202" class="st-sub">earn while you learn</text>
             <text x="462" y="252" class="st-name">Gap year</text>
             <text x="462" y="270" class="st-sub">travel, service, work</text>

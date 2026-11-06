@@ -17,6 +17,7 @@ import { APPRENTICESHIPS_LAUNCHED } from '../../lib/site.js';
       <li>
         <a href={`/apprenticeships/${o.slug}`}>
           <span class="trade-name">{o.name}</span>
+          {o.blsApprenticeship && <span class="ap-tag">Apprenticeship is the usual path</span>}
           <span class="trade-earn">Median pay: <strong>{money(o.wages.median)}</strong> a year</span>
           {o.projections.openings != null && <span class="trade-meta">About {o.projections.openings.toLocaleString('en-US')} openings a year</span>}
         </a>

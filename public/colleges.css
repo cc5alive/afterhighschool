@@ -326,3 +326,6 @@ button.button { cursor: pointer; font-family: inherit; }
 .ap-text { font-size: 1.1rem; }
 .ap-pay li { grid-template-columns: 11em 1fr 5em; }
 .ap-pay .hbar-fill { background: var(--apprentice); }
+.ap-tag { font-size: 0.8rem; font-weight: 700; color: var(--apprentice); }
+.ap-cross { margin: 0 0 24px; }
+.section-nav { flex-wrap: wrap; row-gap: 6px; }
