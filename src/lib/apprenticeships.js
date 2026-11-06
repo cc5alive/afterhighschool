@@ -32,7 +32,8 @@ export const OCCUPATIONS = [
   { slug: 'machinist', name: 'Machinist', soc: '51-4041', trade: 'welding' },
   { slug: 'tool-and-die-maker', name: 'Tool and die maker', soc: '51-4111', trade: 'welding' },
   { slug: 'welder', name: 'Welder', soc: '51-4121', trade: 'welding' },
-  { slug: 'industrial-mechanic', name: 'Industrial machinery mechanic', soc: '49-9041', trade: 'industrial-maintenance' },
+  // Shares an OOH page with millwrights: ignore sentences about millwrights.
+  { slug: 'industrial-mechanic', name: 'Industrial machinery mechanic', soc: '49-9041', trade: 'industrial-maintenance', exclude: /millwright/i },
   { slug: 'diesel-mechanic', name: 'Diesel mechanic', soc: '49-3031', trade: 'auto-diesel-aviation-mechanic' },
   { slug: 'auto-technician', name: 'Automotive service technician', soc: '49-3023', trade: 'auto-diesel-aviation-mechanic' },
   { slug: 'aircraft-mechanic', name: 'Aircraft mechanic', soc: '49-3011', trade: 'auto-diesel-aviation-mechanic' },
@@ -41,7 +42,6 @@ export const OCCUPATIONS = [
   { slug: 'chef', name: 'Chef and head cook', soc: '35-1011', trade: 'culinary' },
   { slug: 'pharmacy-technician', name: 'Pharmacy technician', soc: '29-2052', trade: 'medical-assisting' },
   { slug: 'medical-assistant', name: 'Medical assistant', soc: '31-9092', trade: 'medical-assisting' },
-  { slug: 'firefighter', name: 'Firefighter', soc: '33-2011', trade: 'police-fire' },
   { slug: 'it-support-specialist', name: 'IT support specialist', soc: '15-1232', trade: 'computer-it' },
   { slug: 'barber', name: 'Barber', soc: '39-5011', trade: 'cosmetology' },
   { slug: 'cosmetologist', name: 'Hairstylist and cosmetologist', soc: '39-5012', trade: 'cosmetology' }

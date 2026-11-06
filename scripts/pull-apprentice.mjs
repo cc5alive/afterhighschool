@@ -63,15 +63,18 @@ for (const r of rows(`${DIR}/soc.xlsx`)) if (r && want.has(r[1])) defs[r[1]] = S
 // OOH "How to Become One": sentences that mention apprenticeship.
 const strip = (h) => h.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ')
   .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&#8217;|&rsquo;/g, '’').replace(/&#8212;|&mdash;/g, '—').replace(/&[a-z#0-9]+;/g, ' ').replace(/\s+/g, ' ').trim();
-async function oohQuotes(url) {
+async function oohQuotes(url, exclude) {
   if (!url) return { status: 'no OOH page', quotes: [] };
   try {
     const r = await fetch(url, { headers: { 'user-agent': UA } });
     if (!r.ok) return { status: `HTTP ${r.status}`, quotes: [] };
     const html = await r.text();
-    const tab = html.match(/id="tab-4"[\s\S]*?(?=id="tab-5")/)?.[0] || html;
-    const text = strip(tab);
-    const sentences = text.split(/(?<=[.!?])\s+(?=[A-Z])/).filter((s) => /apprentic/i.test(s) && s.length < 400);
+    const tab = html.match(/id="tab-4"[^>]*>([\s\S]*?)(?=id="tab-5")/)?.[1] || '';
+    // Drop the section heading ("How to Become a … About this section") and sub-headings run into sentences.
+    const text = strip(tab).replace(/^.*?About this section\s*/, '');
+    const HEAD = /^(Training|Education|Licenses, Certifications, and Registrations|Advancement|Work Experience in a Related Occupation|Other Experience|Important Qualities)\s+(?=[A-Z])/;
+    const sentences = text.split(/(?<=[.!?])\s+(?=[A-Z])/).map((s) => s.replace(HEAD, '').trim())
+      .filter((s) => /apprentic/i.test(s) && s.length < 400 && !(exclude && exclude.test(s)));
     return { status: 'ok', quotes: sentences.slice(0, 3) };
   } catch (e) { return { status: `error ${e.message}`, quotes: [] }; }
 }
@@ -79,7 +82,7 @@ async function oohQuotes(url) {
 const out = [], report = [];
 for (const o of OCCUPATIONS) {
   const e = ep[o.soc];
-  const q = await oohQuotes(e?.ooh);
+  const q = await oohQuotes(e?.ooh, o.exclude);
   const blsApprenticeship = /apprentice/i.test(e?.training || '');
   const publish = !!e && !!nat[o.soc]?.median && (blsApprenticeship || q.quotes.length > 0);
   report.push(`| ${o.name} | ${o.soc} | ${e ? 'yes' : 'NO'} | ${nat[o.soc]?.median ?? '-'} | ${e?.training ?? '-'} | ${q.status}, ${q.quotes.length} quotes | ${publish ? 'publish' : 'skip'} |`);
