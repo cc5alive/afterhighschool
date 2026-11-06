@@ -18,7 +18,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 8; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template
+const READER_VERSION = 9; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -385,7 +385,22 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
     if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
     delete failed[slug];
-    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows), ...readCodes(doc.rows) };
+    const codes = readCodes(doc.rows);
+    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows) };
+    // Answer codes win. C11 rows are one set: never mix rows from two readers (one may read fractions, one percents).
+    if (Object.keys(codes).some((k) => /^gpa_\d|^gpa_below/.test(k))) for (const k of Object.keys(values)) if (/^gpa_\d|^gpa_below/.test(k)) delete values[k];
+    const before = { ...values };
+    Object.assign(values, codes);
+    // A school's template can link an answer to the wrong row (Cornell's 2025-26 file puts its early
+    // decision applications in the admits cell). A code value that breaks a basic nesting rule goes back
+    // to what the printed form says, or is left out.
+    const v = (k) => values[k]?.value;
+    const LE = [['admitted_total', 'applied_total'], ['enrolled_total', 'admitted_total'], ['ed_admitted', 'ed_applied'], ['ed_admitted', 'admitted_total'],
+      ['waitlist_accepted', 'waitlist_offered'], ['waitlist_admitted', 'waitlist_offered'], ['transfer_admitted', 'transfer_applied'], ['transfer_enrolled', 'transfer_admitted']];
+    for (const [a, b] of LE) {
+      if (typeof v(a) !== 'number' || typeof v(b) !== 'number' || v(a) <= v(b)) continue;
+      for (const k of [a, b]) if (codes[k]) { if (before[k]) values[k] = before[k]; else delete values[k]; }
+    }
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     // Temporary download hosts (Box, Google) expire: cite the listed link instead.
