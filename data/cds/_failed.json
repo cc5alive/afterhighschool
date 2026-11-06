@@ -165,19 +165,9 @@
   "reason": "no CDS document found from https://ira.okstate.edu/site-files/documents/cds/cds2526.pdf"
  },
  "university-of-california-berkeley": {
-  "url": "https://opa.berkeley.edu/campus-data/common-data-set",
+  "url": "https://docs.google.com/spreadsheets/d/1INsGFH6MhaO-MFMBZ1Dngcn84FeN-hc0BLS0-v8TL_k/edit",
   "at": "2026-11-06",
-  "reason": "no CDS document found from https://opa.berkeley.edu/campus-data/common-data-set"
- },
- "cornell-university": {
-  "url": "https://irp.dpb.cornell.edu/wp-content/uploads/2025/07/CDS-2024-2025-v6-print.pdf",
-  "at": "2026-11-06",
-  "reason": "document failed to load (HTTP 0)"
- },
- "university-of-pennsylvania": {
-  "url": "https://ira.upenn.edu/penn-numbers/common-data-set",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://ira.upenn.edu/penn-numbers/common-data-set"
+  "reason": "error Maximum call stack size exceeded"
  },
  "princeton-university": {
   "url": "https://ir.princeton.edu/other-university-data/common-data-set",
@@ -188,11 +178,6 @@
   "url": "https://ira.howard.edu/institutional-research/institutional-data/common-data-set",
   "at": "2026-11-06",
   "reason": "document failed to load (HTTP 404)"
- },
- "stanford-university": {
-  "url": "https://irds.stanford.edu/data-findings/cds",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://irds.stanford.edu/data-findings/cds"
  },
  "brown-university": {
   "url": "https://oir.brown.edu/institutional-data/common-data-set",
@@ -360,8 +345,8 @@
   "reason": "no CDS document found from https://air.sfsu.edu/"
  },
  "new-york-university": {
-  "url": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL%20%28no%20G%29.pdf",
+  "url": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL.xlsx",
   "at": "2026-11-06",
-  "reason": "document failed to load (HTTP 405)"
+  "reason": "document failed to load (HTTP 200)"
  }
 }

@@ -1,0 +1,154 @@
+{
+  "slug": "cornell-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Cornell Common Data Set 2025-26",
+    "url": "https://irp.cornell.edu/wp-content/uploads/2026/09/CDS-Cornell-2025-2026-v2.xlsx"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 72523,
+      "quote": "total first-time, first-year (degree-seeking) who applied 12978 40979 18566 0 72523 c.206 if yes, do you release that information to students? - first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "admitted_total": {
+      "value": 6077,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1720 3693 664 0 6077 c.207 do you release that information to school counselors? - first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "enrolled_total": {
+      "value": 3827,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1190 2248 389 0 3827 c.301 high school completion requirement high school diploma is required and ged is accepted first-time, first-year admission admissions requirements high school completion undergraduates first-time, first-year all all all x"
+    },
+    "waitlist_admitted": {
+      "value": 254,
+      "quote": "number of wait-listed students admitted: 254 c.514 english - first-time, first-year admission admissions requirements high school units recommended undergraduates first-time, first-year all all all carnegie units"
+    },
+    "rank_top10_pct": {
+      "value": 0.84,
+      "quote": "percent in top tenth of high school graduating class 0.84 c.1125 percent who had gpa between 3.00 and 3.24 - first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_top25_pct": {
+      "value": 0.97,
+      "quote": "percent in top quarter of high school graduating class 0.97 c.1126 percent who had gpa between 2.50 and 2.99 - first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_submit_pct": {
+      "value": 0.12169312169312169,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.12169312169312169 c.1130 total 0 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "gpa_350_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.50 and 3.74 - - - c.1402 application closing date (fall): month 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_325_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 3.25 and 3.49 - - - c.1403 application closing date (fall): day 2 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "ed_applied": {
+      "value": 10057,
+      "quote": "number of early decision applications received by your institution 10057"
+    },
+    "ed_admitted": {
+      "value": 1889,
+      "quote": "number of applicants admitted under early decision plan 1889"
+    },
+    "sat_p25": {
+      "value": 1490,
+      "quote": "sat composite 1490 1530 1550 c.977 act reading: 12-17 - first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "sat_p50": {
+      "value": 1530,
+      "quote": "sat composite 1490 1530 1550 c.977 act reading: 12-17 - first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "sat_p75": {
+      "value": 1550,
+      "quote": "sat composite 1490 1530 1550 c.977 act reading: 12-17 - first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

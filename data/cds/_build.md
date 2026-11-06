@@ -34,7 +34,7 @@ Built 2026-11-06.
 | colorado-college | 2025-2026 | 20 |  |
 | columbia-university-in-the-city-of-new-york | 2024-2025 | 34 | C11 buckets sum to 100.0 |
 | commonwealth-university-of-pennsylvania | 2025-2026 | 18 |  |
-| cornell-university | 2024-2025 | 0 |  |
+| cornell-university | 2025-2026 | 33 | C11 buckets sum to 3.0 |
 | creighton-university | 2025-2026 | 11 | C1 failed consistency (applied 6389, admitted 5888, enrolled 1248, federal admit rate 0.7975) |
 | dartmouth-college | 2025-2026 | 32 | C11 buckets sum to 0.0 |
 | davidson-college | 2025-2026 | 14 | gpa_below1_pct read as the "totals = 100%" note; class rank inconsistent |
@@ -71,7 +71,7 @@ Built 2026-11-06.
 | northeastern-illinois-university | 2024-2025 | 1 |  |
 | northeastern-university | 2025-2026 | 43 |  |
 | northern-arizona-university | 2025-2026 | 40 |  |
-| northwestern-university | 2025-2026 | 14 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.0769) |
+| northwestern-university | 2024-2025 | 12 | C1 failed consistency (applied undefined, admitted undefined, enrolled 0, federal admit rate 0.0769); C11 buckets sum to 100.0 |
 | ohio-state-university-main-campus | 2025-2026 | 0 |  |
 | ohio-wesleyan-university | 2025-2026 | 15 |  |
 | old-dominion-university | 2025-2026 | 19 | gpa_below1_pct read as the "totals = 100%" note |
@@ -88,7 +88,7 @@ Built 2026-11-06.
 | skidmore-college | 2024-2025 | 38 |  |
 | smith-college | 2023-2024 | 23 | C1 failed consistency (applied 0, admitted undefined, enrolled 0, federal admit rate 0.21) |
 | spelman-college | 2025-2026 | 26 | gpa_below1_pct read as the "totals = 100%" note |
-| stanford-university | 2025-2026 | 0 |  |
+| stanford-university | 2025-2026 | 27 | C11 buckets sum to 24.0 |
 | state-university-of-new-york-at-cortland | 2025-2026 | 17 | gpa_submit_pct implausibly low |
 | stony-brook-university | 2025-2026 | 37 | C1 failed consistency (applied 8447, admitted 5667, enrolled 439, federal admit rate 0.4904); gpa_submit_pct implausibly low |
 | temple-university | - | 27 | C11 buckets sum to 0.0 |
@@ -139,11 +139,12 @@ Built 2026-11-06.
 | university-of-new-mexico-main-campus | 2025-2026 | 11 | C1 failed consistency (applied 13589, admitted 10866, enrolled 3775, federal admit rate 0.9518) |
 | university-of-north-carolina-at-chapel-hill | 2025-2026 | 37 | C1 failed consistency (applied 76247, admitted 12751, enrolled 0, federal admit rate 0.1534) |
 | university-of-north-carolina-at-charlotte | 2025-2026 | 38 | gpa_submit_pct implausibly low |
+| university-of-north-dakota | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.769) |
 | university-of-north-georgia | 2025-2026 | 35 | gpa_submit_pct implausibly low |
 | university-of-north-texas | 2025-2026 | 11 |  |
 | university-of-northern-colorado | 2023-2024 | 3 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |
 | university-of-oklahoma-norman-campus | 2025-2026 | 11 | C1 failed consistency (applied 1553, admitted undefined, enrolled 139, federal admit rate 0.766) |
-| university-of-pennsylvania | 2025-2026 | 0 |  |
+| university-of-pennsylvania | 2025-2026 | 2 | C11 buckets sum to 32.0 |
 | university-of-pittsburgh-pittsburgh-campus | 2024-2025 | 0 |  |
 | university-of-rhode-island | 2025-2026 | 20 |  |
 | university-of-richmond | 2024-2025 | 15 | C1 failed consistency (applied 3931, admitted 338, enrolled 90, federal admit rate 0.222); C11 buckets sum to 33.0 |

@@ -1,0 +1,26 @@
+{
+  "slug": "university-of-pennsylvania",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "2025-26 Penn Common Data Set",
+    "url": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 72544,
+      "quote": "total first-time, first-year (degree-seeking) who applied 72,544"
+    },
+    "admitted_total": {
+      "value": 3570,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 3,570"
+    },
+    "gpa_375_pct": {
+      "value": 32,
+      "quote": "percent who had gpa between 3.75 and 3.99 32%"
+    }
+  },
+  "concerns": null
+}
