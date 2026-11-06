@@ -1,6 +1,6 @@
 # Apprenticeship data pull
 
-30 of 41 occupations published.
+29 of 40 occupations published.
 
 | Occupation | SOC | In projections | National median | BLS typical training | OOH | Result |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -33,7 +33,6 @@
 | Machinist | 51-4041 | yes | 58750 | Long-term on-the-job training | ok, 3 quotes | publish |
 | Tool and die maker | 51-4111 | yes | 64050 | Long-term on-the-job training | ok, 3 quotes | publish |
 | Welder | 51-4121 | yes | 53750 | Moderate-term on-the-job training | ok, 2 quotes | publish |
-| Industrial machinery mechanic | 49-9041 | yes | 64520 | Long-term on-the-job training | ok, 3 quotes | publish |
 | Diesel mechanic | 49-3031 | yes | 61770 | Long-term on-the-job training | ok, 0 quotes | skip |
 | Automotive service technician | 49-3023 | yes | 50620 | Short-term on-the-job training | ok, 1 quotes | publish |
 | Aircraft mechanic | 49-3011 | yes | 79870 | None | ok, 0 quotes | skip |
