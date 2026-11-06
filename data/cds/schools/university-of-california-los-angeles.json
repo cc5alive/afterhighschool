@@ -7,13 +7,31 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "waitlist_offered": 20563,
+    "waitlist_accepted": 13612,
     "waitlist_admitted": 1514,
+    "rank_top25_pct": 0,
+    "gpa_400_pct": 58.8,
+    "gpa_375_pct": 34.6,
+    "gpa_350_pct": 4.9,
+    "gpa_325_pct": 1,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
     "gpa_average": 3.94,
     "gpa_submit_pct": 99.8
   },
   "basis": {
-    "waitlist_admitted": "reader",
-    "gpa_average": "reader",
-    "gpa_submit_pct": "reader"
+    "waitlist_offered": "gemini",
+    "waitlist_accepted": "gemini",
+    "waitlist_admitted": "both",
+    "rank_top25_pct": "gemini",
+    "gpa_400_pct": "gemini",
+    "gpa_375_pct": "gemini",
+    "gpa_350_pct": "gemini",
+    "gpa_325_pct": "gemini",
+    "gpa_100_pct": "gemini",
+    "gpa_below1_pct": "gemini",
+    "gpa_average": "both",
+    "gpa_submit_pct": "both"
   }
 }

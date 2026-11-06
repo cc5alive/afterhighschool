@@ -1,33 +1,49 @@
 {
   "slug": "northwestern-university",
-  "cdsYear": "2025-2026",
+  "cdsYear": "2024-2025",
   "source": {
     "title": "Common Data Set",
-    "url": "https://commondataset.org/wp-content/uploads/2025/11/CDS-PDF-2025-2026-Excel_Template.xlsx"
+    "url": "https://enrollment.northwestern.edu/data/2024-2025.pdf"
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "docKind": "xlsx",
+  "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) who applied 0 c.206 if yes, do you release that information to students? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
-    },
-    "admitted_total": {
-      "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 0 c.207 do you release that information to school counselors? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
-    },
     "enrolled_total": {
       "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 0 c.301 high school completion requirement first-time, first-year admission admissions requirements high school completion undergraduates first-time, first-year all all all x"
+      "quote": "total first-time, first-year (degree-seeking) enrolled c or t c or t c or t 0"
     },
-    "rank_submit_pct": {
-      "value": 0,
-      "quote": "percent of total first-time, first-year students who submitted high school class rank: c.1130 total 0 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    "waitlist_admitted": {
+      "value": 59,
+      "quote": "number of wait-listed students admitted: 59"
     },
-    "factor_rigor": {
-      "value": "Not Considered",
-      "quote": "Rigor of secondary school record"
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
+    },
+    "sat_p25": {
+      "value": 1510,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 34 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 34 34 35"
     }
   },
   "concerns": null

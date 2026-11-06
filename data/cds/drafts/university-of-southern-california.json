@@ -9,116 +9,206 @@
   "values": {
     "applied_total": {
       "value": 82027,
-      "quote": "Total first-time, first-year students who applied: 82,027."
+      "quote": "Total first-time, first-year students who applied: 82,027.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 8050,
-      "quote": "Total first-time, first-year students who were admitted: 8,050."
+      "quote": "Total first-time, first-year students who were admitted: 8,050.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 3489,
-      "quote": "Total first-time, first-year students enrolled: 3,489."
+      "quote": "Total first-time, first-year students enrolled: 3,489.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": false,
+      "how": null,
+      "note": "document shows Very Important"
     },
     "factor_essay": {
       "value": "Very Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Very Important",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Very Important",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 30,
-      "quote": "Percent of enrolled students who submitted SAT scores: 30%"
+      "quote": "Percent of enrolled students who submitted SAT scores: 30%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 12,
-      "quote": "Percent of enrolled students who submitted ACT scores: 12%"
+      "quote": "Percent of enrolled students who submitted ACT scores: 12%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 32,
-      "quote": "ACT Composite 25th Percentile: 32"
+      "quote": "ACT Composite 25th Percentile: 32",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 33,
-      "quote": "ACT Composite 50th Percentile: 33"
+      "quote": "ACT Composite 50th Percentile: 33",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 35,
-      "quote": "ACT Composite 75th Percentile: 35"
+      "quote": "ACT Composite 75th Percentile: 35",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early decision plan: No"
+      "quote": "Early decision plan: No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Early action plan: Yes"
+      "quote": "Early action plan: Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://oir.usc.edu/wp-content/uploads/sites/3/2025/10/CDS_2024-2025_FINAL-3.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 15,
+  "total": 28
 }

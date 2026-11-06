@@ -3,166 +3,290 @@
   "cdsYear": "2025-2026",
   "source": {
     "title": "Vanderbilt University Common Data Set 2025-26",
-    "url": "https://www.vanderbilt.edu/data/public-data/common-data-sets/"
+    "url": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2026/07/CDS_2025-2026.xlsx",
+    "page": "https://www.vanderbilt.edu/data/public-data/common-data-sets/"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "applied_total": {
       "value": 48196,
-      "quote": "Total Applied 48,196"
+      "quote": "Total Applied 48,196",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 2593,
-      "quote": "Total Admitted 2,593"
+      "quote": "Total Admitted 2,593",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 1635,
-      "quote": "Total Enrolled 1,635"
+      "quote": "Total Enrolled 1,635",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_admitted": {
       "value": 207,
-      "quote": "Number of wait-listed students admitted: 207"
+      "quote": "Number of wait-listed students admitted: 207",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Very Important",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Important",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Very Important",
-      "quote": "Application essay"
+      "quote": "Application essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Recommendations"
+      "quote": "Recommendations",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Very Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent / ability"
+      "quote": "Talent / ability",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Very Important",
-      "quote": "Character / personal qualities"
+      "quote": "Character / personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Considered",
-      "quote": "Alumni relation"
+      "quote": "Alumni relation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residence"
+      "quote": "State residence",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation / commitment"
+      "quote": "Religious affiliation / commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 24,
-      "quote": "SAT 0.2"
+      "quote": "SAT 0.2",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "act_submit_pct": {
       "value": 28,
-      "quote": "ACT 0.3"
+      "quote": "ACT 0.3",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "sat_p25": {
       "value": 1510,
-      "quote": "SAT composite 1,510"
+      "quote": "SAT composite 1,510",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1530,
-      "quote": "SAT composite 1,530"
+      "quote": "SAT composite 1,530",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1560,
-      "quote": "SAT composite 1,560"
+      "quote": "SAT composite 1,560",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 34,
-      "quote": "ACT composite 34"
+      "quote": "ACT composite 34",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 35,
-      "quote": "ACT composite 35"
+      "quote": "ACT composite 35",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 35,
-      "quote": "ACT composite 35"
+      "quote": "ACT composite 35",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 90,
-      "quote": "Percent in top tenth of high school graduating class 0.9"
+      "quote": "Percent in top tenth of high school graduating class 0.9",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "rank_top25_pct": {
       "value": 100,
-      "quote": "Percent in top quarter of high school graduating class 1.0"
+      "quote": "Percent in top quarter of high school graduating class 1.0",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "rank_submit_pct": {
       "value": 20,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 0.2"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 0.2",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "gpa_average": {
       "value": 3.9,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.90"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.90",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 1.0"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 1.0",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "ed_offered": {
       "value": "yes",
-      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes"
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ed_applied": {
       "value": 6202,
-      "quote": "Number of early decision applications received by your institution 6,202"
+      "quote": "Number of early decision applications received by your institution 6,202",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_admitted": {
       "value": 874,
-      "quote": "Number of applicants admitted under early decision plan 874"
+      "quote": "Number of applicants admitted under early decision plan 874",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2026/07/CDS_2025-2026.xlsx",
+  "docKind": "xlsx",
+  "checkedAt": "2026-11-06",
+  "verified": 27,
+  "total": 39
 }

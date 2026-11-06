@@ -1,0 +1,146 @@
+{
+  "slug": "columbia-university-in-the-city-of-new-york",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2024-25_Columbia_College_and_Columbia_Engineering_CDS.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 60247,
+      "quote": "total first-time, first-year (degree-seeking) who applied 60,247"
+    },
+    "admitted_total": {
+      "value": 2325,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2,325"
+    },
+    "enrolled_total": {
+      "value": 1483,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1,483"
+    },
+    "rank_top10_pct": {
+      "value": 94,
+      "quote": "percent in top tenth of high school graduating class 94%"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "percent in top quarter of high school graduating class 100%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 100%"
+    },
+    "ed_applied": {
+      "value": 6007,
+      "quote": "number of early decision applications received by your institution: 6,007"
+    },
+    "ed_admitted": {
+      "value": 795,
+      "quote": "number of applicants admitted under early decision plan: 795"
+    },
+    "sat_p25": {
+      "value": 1510,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 35 36"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 34 35 36"
+    },
+    "act_p75": {
+      "value": 36,
+      "quote": "act composite 34 35 36"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

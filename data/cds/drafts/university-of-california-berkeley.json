@@ -9,44 +9,80 @@
   "values": {
     "applied_total": {
       "value": 126864,
-      "quote": "Total Applied 126,864"
+      "quote": "Total Applied 126,864",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 14524,
-      "quote": "Total Admitted 14,524"
+      "quote": "Total Admitted 14,524",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 6687,
-      "quote": "Total Enrolled 6,687"
+      "quote": "Total Enrolled 6,687",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_offered": {
       "value": 9102,
-      "quote": "Number of qualified applicants offered a place on waiting list: 9,102"
+      "quote": "Number of qualified applicants offered a place on waiting list: 9,102",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_accepted": {
       "value": 6479,
-      "quote": "Number accepting a place on the waiting list: 6,479"
+      "quote": "Number accepting a place on the waiting list: 6,479",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_admitted": {
       "value": 1,
-      "quote": "Number of wait-listed students admitted: 1"
+      "quote": "Number of wait-listed students admitted: 1",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_average": {
       "value": 3.9,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.90"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.90",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 1"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 1",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early decision plan: N"
+      "quote": "Early decision plan: N",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Early action plan: N"
+      "quote": "Early action plan: N",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": "School does not host a standalone direct PDF/XLSX file on berkeley.edu; landing page links externally to cloud-hosted file."
+  "concerns": "School does not host a standalone direct PDF/XLSX file on berkeley.edu; landing page links externally to cloud-hosted file.",
+  "httpStatus": 200,
+  "finalUrl": "https://opa.berkeley.edu/campus-data/common-data-set",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 10
 }

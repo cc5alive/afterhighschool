@@ -9,124 +9,220 @@
   "values": {
     "applied_total": {
       "value": 78769,
-      "quote": "Applied. 78,769."
+      "quote": "Applied. 78,769.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 8749,
-      "quote": "Admitted. 8,749."
+      "quote": "Admitted. 8,749.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 3268,
-      "quote": "Full-time enrolled. 3,268."
+      "quote": "Full-time enrolled. 3,268.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_offered": {
       "value": 15339,
-      "quote": "Total freshman applicants placed on wait-list. 15339."
+      "quote": "Total freshman applicants placed on wait-list. 15339.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_accepted": {
       "value": 8996,
-      "quote": "Total freshman applicants accepting place on wait-list. 8996."
+      "quote": "Total freshman applicants accepting place on wait-list. 8996.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_admitted": {
       "value": 18,
-      "quote": "Total freshman applicants accepted from wait-list. 18."
+      "quote": "Total freshman applicants accepted from wait-list. 18.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_character": {
       "value": "Important",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "gpa_average": {
       "value": 3.88,
-      "quote": "3.88."
+      "quote": "3.88.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent of total freshman submitting high school GPA. 100.0%"
+      "quote": "Percent of total freshman submitting high school GPA. 100.0%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "yes",
-      "quote": "Does your institution offer an early decision plan for first-time, first-year (freshman) applicants for fall enrollment? Yes"
+      "quote": "Does your institution offer an early decision plan for first-time, first-year (freshman) applicants for fall enrollment? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ed_applied": {
       "value": 6854,
-      "quote": "Number of early decision applications received by your institution. 6854."
+      "quote": "Number of early decision applications received by your institution. 6854.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_admitted": {
       "value": 1936,
-      "quote": "Number of applicants admitted under early decision plan. 1936."
+      "quote": "Number of applicants admitted under early decision plan. 1936.",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Early Action. Do you have a nonbinding early action plan: No"
+      "quote": "Early Action. Do you have a nonbinding early action plan: No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.bu.edu/asir/files/2025/03/cds-2025-c.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 15,
+  "total": 30
 }

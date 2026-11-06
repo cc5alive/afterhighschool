@@ -9,176 +9,311 @@
   "values": {
     "applied_total": {
       "value": 105256,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 105,256"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 105,256",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 5920,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 5,920"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 5,920",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 2736,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled 2,736"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 2,736",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": false,
+      "how": null,
+      "note": "document shows Very Important"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": false,
+      "how": null,
+      "note": "document shows Very Important"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Important",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Important",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Important",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 22,
-      "quote": "Submitting SAT Scores 22%"
+      "quote": "Submitting SAT Scores 22%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 6,
-      "quote": "Submitting ACT Scores 6%"
+      "quote": "Submitting ACT Scores 6%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1440,
-      "quote": "SAT Composite 1440"
+      "quote": "SAT Composite 1440",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1480,
-      "quote": "SAT Composite 1480"
+      "quote": "SAT Composite 1480",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1510,
-      "quote": "SAT Composite 1510"
+      "quote": "SAT Composite 1510",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 33,
-      "quote": "ACT Composite 33"
+      "quote": "ACT Composite 33",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 33,
-      "quote": "ACT Composite 33"
+      "quote": "ACT Composite 33",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 34,
-      "quote": "ACT Composite 34"
+      "quote": "ACT Composite 34",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 40,
-      "quote": "Percent in top tenth of high school graduating class 40%"
+      "quote": "Percent in top tenth of high school graduating class 40%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 70,
-      "quote": "Percent in top quarter of high school graduating class 70%"
+      "quote": "Percent in top quarter of high school graduating class 70%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 7,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank 7%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank 7%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 82,
-      "quote": "Percent who had GPA of 4.0 82%"
+      "quote": "Percent who had GPA of 4.0 82%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 10,
-      "quote": "Percent who had GPA between 3.75 and 3.99 10%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 10%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 6,
-      "quote": "Percent who had GPA between 3.50 and 3.74 6%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 6%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 1,
-      "quote": "Percent who had GPA between 3.25 and 3.49 1%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 1%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 1,
-      "quote": "Percent who had GPA between 3.00 and 3.24 1%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 1%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 4.22,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA 4.22"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA 4.22",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA 100%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA 100%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "yes",
-      "quote": "Does your institution offer an early decision plan for first-time, first-year applicants for fall enrollment? Yes"
+      "quote": "Does your institution offer an early decision plan for first-time, first-year applicants for fall enrollment? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ed_applied": {
       "value": 5404,
-      "quote": "Number of early decision applications received by your institution 5,404"
+      "quote": "Number of early decision applications received by your institution 5,404",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_admitted": {
       "value": 1910,
-      "quote": "Number of applicants admitted under early decision plan 1,910"
+      "quote": "Number of applicants admitted under early decision plan 1,910",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://uds.northeastern.edu/university-facts/common-data-set/",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 38,
+  "total": 43
 }

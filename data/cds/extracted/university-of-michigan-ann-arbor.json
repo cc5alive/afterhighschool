@@ -1,0 +1,78 @@
+{
+  "slug": "university-of-michigan-ann-arbor",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2025-26_umaa.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "gpa_400_pct": {
+      "value": 38.8,
+      "quote": "percent who had gpa of 4.0 38.8%"
+    },
+    "gpa_375_pct": {
+      "value": 55.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 55.1%"
+    },
+    "gpa_350_pct": {
+      "value": 4.8,
+      "quote": "percent who had gpa between 3.50 and 3.74 4.8%"
+    },
+    "gpa_325_pct": {
+      "value": 0.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.7%"
+    },
+    "gpa_300_pct": {
+      "value": 0.4,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.4%"
+    },
+    "gpa_250_pct": {
+      "value": 0.2,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.2%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.9,
+      "quote": "average high school gpa: 3.9"
+    },
+    "sat_p25": {
+      "value": 1370,
+      "quote": "sat composite 1370 1470 1530"
+    },
+    "sat_p50": {
+      "value": 1470,
+      "quote": "sat composite 1370 1470 1530"
+    },
+    "sat_p75": {
+      "value": 1530,
+      "quote": "sat composite 1370 1470 1530"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 32 33 34"
+    }
+  },
+  "concerns": null
+}
