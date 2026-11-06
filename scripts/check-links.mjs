@@ -83,11 +83,15 @@ try {
       const resp = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 30000 });
       const st = resp ? resp.status() : 0;
       if (st && st < 400) results[u] = { status: st, final: page.url() !== u ? page.url() : undefined, via: 'browser' };
-      else results[u] = { ...results[u], status: st || results[u].status, via: 'browser' };
+      else {
+        // Some sites block data-center traffic with a bare 404. Count it as confirmed only when the page itself says not found.
+        const text = await page.evaluate(() => `${document.title} ${document.body ? document.body.innerText.slice(0, 2000) : ''}`).catch(() => '');
+        results[u] = { ...results[u], status: st || results[u].status, via: 'browser', confirmed: /not found|404|no longer (exists|available)|doesn.t exist|page you requested|cannot be found|can.t be found/i.test(text) };
+      }
     } catch (e) {
       // PDFs and downloads abort navigation; a download means the file exists.
       if (/download|ERR_ABORTED/i.test(e.message)) results[u] = { status: 200, via: 'browser (download)' };
-      else results[u] = { ...results[u], via: 'browser', error: results[u].error || e.message.split('\n')[0].slice(0, 80) };
+      else results[u] = { ...results[u], via: 'browser', error: results[u].error || e.message.split('\n')[0].slice(0, 80), confirmed: /ERR_NAME_NOT_RESOLVED/.test(e.message) };
     } finally { await page.close(); }
   }
   await browser.close();
