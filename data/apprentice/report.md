@@ -1,6 +1,6 @@
 # Apprenticeship data pull
 
-31 of 42 occupations published.
+30 of 41 occupations published.
 
 | Occupation | SOC | In projections | National median | BLS typical training | OOH | Result |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -42,7 +42,6 @@
 | Chef and head cook | 35-1011 | yes | 62470 | None | ok, 3 quotes | publish |
 | Pharmacy technician | 29-2052 | yes | 45750 | Moderate-term on-the-job training | ok, 0 quotes | skip |
 | Medical assistant | 31-9092 | yes | 45690 | None | ok, 1 quotes | publish |
-| Firefighter | 33-2011 | yes | 59280 | Long-term on-the-job training | ok, 1 quotes | publish |
 | IT support specialist | 15-1232 | yes | 61860 | Moderate-term on-the-job training | ok, 0 quotes | skip |
 | Barber | 39-5011 | yes | 38210 | None | ok, 0 quotes | skip |
 | Hairstylist and cosmetologist | 39-5012 | yes | 35790 | None | ok, 0 quotes | skip |
