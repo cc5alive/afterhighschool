@@ -11,7 +11,6 @@ export function getStaticPaths() {
 const { t, st } = Astro.props;
 const creds = (progs) => [...new Set(progs.map((p) => CREDENTIAL[p.level]))].join(', ');
 const finished = (progs) => progs.reduce((a, p) => a + (p.awards || 0), 0);
-const earn = (progs) => progs.map((p) => p.earn1).filter(Boolean);
 ---
 <Layout title={`${t.name} schools in ${st.name} | After High School`}
   description={`${st.list.length} schools in ${st.name} offer ${t.name.toLowerCase()} programs. Compare cost, completion and earnings from federal data.`}
@@ -33,10 +32,10 @@ const earn = (progs) => progs.map((p) => p.earn1).filter(Boolean);
           <div><dt>Finished last year</dt><dd>{int(finished(progs)) ?? '—'}</dd></div>
           <div><dt>Avg net price</dt><dd>{money(s.avgNetPrice) ?? '—'}</dd></div>
           <div><dt>Finish program</dt><dd>{pct(s.completionRate) ?? '—'}</dd></div>
-          <div><dt>Grads earn, 1 yr</dt><dd>{earn(progs).length ? money(Math.max(...earn(progs))) : '—'}</dd></div>
+          <div><dt>Median earnings</dt><dd>{money(s.medianEarnings6yr) ?? '—'}</dd></div>
         </dl>
       </li>
     ))}
   </ul>
-  <p class="wys-src">"Finish program" is the share of first-time, full-time students who finish within 1.5 times the normal length, for the whole school. "Grads earn" is this school's own figure for the trade's program where federal data reports it. Data from College Scorecard, pulled {tradePulledDate}.</p>
+  <p class="wys-src">"Finish program" is the share of first-time, full-time students who finish within 1.5 times the normal length, for the whole school. "Median earnings" is for all students at the school who got federal aid, 6 years after they started; program-level earnings are on each school's page where reported. Data from College Scorecard, pulled {tradePulledDate}.</p>
 </Layout>

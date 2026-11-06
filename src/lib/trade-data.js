@@ -12,13 +12,13 @@ export const tradeSchools = snap.schools
   .map((s) => ({
     ...s,
     stateName: STATE_NAMES[s.state],
-    kind: s.predominantDegree === 1 ? 'certificate' : 'two-year',
+    kind: s.predominantDegree === 2 ? 'two-year' : s.ownership === 'public' ? 'public-technical' : 'certificate',
     // Programs in a known trade, with the trade attached.
     tradePrograms: s.programs.map((p) => ({ ...p, trade: tradeFor(p.cip) })).filter((p) => p.trade)
   }));
 export const tradeSchoolBySlug = new Map(tradeSchools.map((s) => [s.slug, s]));
 
-export const KIND_LABEL = { certificate: 'Trade or career school', 'two-year': 'Two-year college' };
+export const KIND_LABEL = { certificate: 'Trade or career school', 'public-technical': 'Public technical or community college', 'two-year': 'Two-year college' };
 
 // For each trade: which schools offer it, and in which states.
 export const tradeIndex = TRADES.map((t) => {
