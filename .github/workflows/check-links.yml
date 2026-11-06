@@ -1,0 +1,26 @@
+name: Check outside links
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 12 9 * *' # monthly
+permissions:
+  contents: write
+concurrency: { group: link-check, cancel-in-progress: false }
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci
+      - run: npm run build
+      - run: node scripts/check-links.mjs
+      - run: head -60 data/linkcheck/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Commit the report (data only, no deploy)
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git add data/linkcheck
+          git diff --cached --quiet || (git commit -m "Link check results [skip ci]" && ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ])
