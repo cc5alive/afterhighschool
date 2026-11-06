@@ -373,3 +373,6 @@ button.button { cursor: pointer; font-family: inherit; }
 .sy-status a { font-size: 0.85rem; }
 .sy-actions { margin: 12px 0 6px; }
 @media (max-width: 640px) { .sy-facts { grid-template-columns: 1fr; } }
+.sy-defer { list-style: none; margin: 0 0 8px; padding: 0; columns: 2 18em; column-gap: 32px; }
+.sy-defer li { break-inside: avoid; padding: 4px 0; }
+.sy-defer span { display: block; color: var(--muted); font-size: 0.875rem; }

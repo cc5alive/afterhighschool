@@ -3,6 +3,11 @@
 import Layout from '../layouts/Layout.astro';
 import { PROGRAMS, SEGAL, SERVICE_CHECKED } from '../lib/service-years.js';
 import { GAP_LAUNCHED } from '../lib/site.js';
+import { schools, cds } from '../lib/data.js';
+const withDeferral = schools.map((sc) => ({ sc, c: cds.get(sc.slug) })).filter((x) => x.c?.values?.deferral_allowed)
+  .sort((a, b) => a.sc.name.localeCompare(b.sc.name));
+const defYes = withDeferral.filter((x) => x.c.values.deferral_allowed === 'yes');
+const defNo = withDeferral.filter((x) => x.c.values.deferral_allowed === 'no');
 ---
 <Layout title="Gap years and service years that pay | After High School"
   description="Gap-year programs that pay you or cost nothing: AmeriCorps NCCC, City Year, conservation corps, Job Corps and YouthBuild. Who can join, how long, what you get, from each program's own pages."
@@ -37,6 +42,26 @@ import { GAP_LAUNCHED } from '../lib/site.js';
     <p class="block-lede">Finish a full-time AmeriCorps term (NCCC, City Year and many corps are AmeriCorps programs) and you earn an education award equal to the maximum Pell Grant: ${SEGAL.amount.toLocaleString('en-US')} for {SEGAL.fy}. You have seven years to use it, for tuition at colleges and trade schools that take federal aid, some GI Bill-approved programs, or to pay down qualifying student loans.</p>
     <p class="wys-src">Sources: <a href={SEGAL.source} rel="noopener" target="_blank">AmeriCorps, Segal AmeriCorps Education Award</a>; <a href={SEGAL.source2} rel="noopener" target="_blank">New York State Commission on National and Community Service, FY 2026 award amounts</a>. Checked {SERVICE_CHECKED}.</p>
   </section>
+
+  {withDeferral.length > 0 && (
+    <section class="block" aria-labelledby="defer">
+      <h2 id="defer">Colleges that let you defer</h2>
+      <p class="block-lede">If you've been admitted, many colleges will hold your spot while you take a year off. Of the {withDeferral.length} colleges whose own Common Data Set we've read and that answer the question, {defYes.length} say admitted students can postpone enrolling and {defNo.length} say they can't. Policies have conditions (deposits, approval, what you can do during the year), so ask the college before you commit.</p>
+      <details class="tp-other">
+        <summary>Colleges that allow deferral ({defYes.length})</summary>
+        <ul class="sy-defer">
+          {defYes.map(({ sc, c }) => <li><a href={`/college/${sc.slug}`}>{sc.name}</a>{c.values.deferral_max && <span>{c.values.deferral_max}</span>}</li>)}
+        </ul>
+      </details>
+      {defNo.length > 0 && (
+        <details class="tp-other">
+          <summary>Colleges that don't ({defNo.length})</summary>
+          <ul class="sy-defer">{defNo.map(({ sc }) => <li><a href={`/college/${sc.slug}`}>{sc.name}</a></li>)}</ul>
+        </details>
+      )}
+      <p class="wys-src">From each college's Common Data Set (item C18, deferred admission), linked on its page. "Longest postponement" is in the college's own words.</p>
+    </section>
+  )}
 
   <section class="block" aria-labelledby="before">
     <h2 id="before">Before you sign up</h2>

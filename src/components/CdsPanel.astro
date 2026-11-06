@@ -1,7 +1,7 @@
 ---
 // "From the school's own report": Common Data Set numbers (GPA spread, early decision, wait list,
 // test scores, class rank, what admissions weighs). Every number links to the CDS document it came from.
-import { TRANSFER_LAUNCHED } from '../lib/site.js';
+import { TRANSFER_LAUNCHED, GAP_LAUNCHED } from '../lib/site.js';
 const { c, name } = Astro.props;
 const v = c.values;
 const int = (n) => n.toLocaleString('en-US');
@@ -123,6 +123,13 @@ const src = c.source.url;
   </dl>
   {(ed != null || ea != null) && overall != null && (
     <p class="cds-note">Early applicants often include recruited athletes and students who knew this was their first choice, so a higher early rate doesn't mean applying early raises any one student's odds by that much.</p>
+  )}
+
+  {v.deferral_allowed && (
+    <p class="cds-line"><strong>Taking a gap year?</strong> {v.deferral_allowed === 'yes'
+      ? <>{name} says admitted students can postpone enrolling{v.deferral_max && <> (longest postponement, in its words: "{v.deferral_max}")</>}. Ask the admissions office how to request it before you commit to anything.</>
+      : <>{name} says it doesn't let admitted students postpone enrolling.</>}
+      {GAP_LAUNCHED && <> <a href="/gap-years">Gap years and service years</a></>}</p>
   )}
 
   {hasFactors && (

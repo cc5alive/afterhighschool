@@ -42,6 +42,9 @@ export const CDS_FIELDS = {
   ea_offered: { section: 'C22', type: 'yesno', label: 'Do you have a nonbinding early action plan' },
   ea_applied: { section: 'C22', type: 'count', label: 'Number of early action applications received' },
   ea_admitted: { section: 'C22', type: 'count', label: 'Number of applicants admitted under early action' },
+  // C18: deferred admission (the school's own words for the longest postponement)
+  deferral_allowed: { section: 'C18', type: 'text', label: 'Does your institution allow students to postpone enrollment after admission' },
+  deferral_max: { section: 'C18', type: 'text', label: 'If yes, maximum period of postponement' },
   // D2: degree-seeking transfer students (totals across all genders), fall term of the CDS year
   transfer_applied: { section: 'D2', type: 'count', label: 'Total transfer applicants' },
   transfer_admitted: { section: 'D2', type: 'count', label: 'Total admitted transfer applicants' },

@@ -16,7 +16,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 6; // 6: reads D2 transfer admissions
+const READER_VERSION = 7; // 6: D2 transfer admissions; 7: C18 deferred admission
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -177,6 +177,47 @@ function readScores(rows) {
   return out;
 }
 
+// C18: deferred admission. Yes/No (a ticked box, or the only Yes or No given) and the longest postponement, in the school's words.
+const TICK = '(?:x|☒|☑|■|✓|✔)';
+function readDeferral(rows) {
+  if (!rows) return {};
+  let best = null;
+  rows.forEach((r, i) => {
+    const k = r.findIndex((c) => /postpone enrollment after/.test(norm(c.s)));
+    if (k >= 0 && !/practice of permitting/.test(rowText(r)) && (!best || k < best.k)) best = { i, k };
+  });
+  if (!best) return {};
+  let end = best.i + 1;
+  while (end < Math.min(rows.length, best.i + 5) && !/maximum period of postponement|^c19\b|early admission/.test(rowText(rows[end]))) end++;
+  const cells = [...rows[best.i].slice(best.k), ...rows.slice(best.i + 1, end).flat()];
+  const text = norm(cells.map((c) => c.s).join(' ')).replace(/\(?yes or no\)?/g, ' ');
+  let answer = null;
+  const yesTick = new RegExp(`${TICK}\\s*yes\\b`).test(text), noTick = new RegExp(`${TICK}\\s*no\\b`).test(text);
+  if (yesTick !== noTick) answer = yesTick ? 'yes' : 'no';
+  else if (!/[☐□]/.test(text)) {
+    const y = /\byes\b/.test(text), n = /\bno\b/.test(text);
+    if (y !== n) answer = y ? 'yes' : 'no';
+  }
+  if (!answer) return {};
+  const out = { deferral_allowed: { value: answer, quote: `C18 ${text.slice(0, 160)}` } };
+  const m = rows[end] && /maximum period of postponement/.test(rowText(rows[end])) ? end : -1;
+  if (answer === 'yes' && m < 0) {
+    // Some files drop the "maximum period" label and leave only the answer ("One academic year").
+    const r = rows.slice(best.i + 1, end).find((x) => rowText(x).length < 80 && /\b(years?|semesters?|terms?|months?)\b/.test(rowText(x)) && !/postpone/.test(rowText(x)));
+    if (r) { const period = r.map((c) => c.s).join(' ').replace(/\s+/g, ' ').trim().replace(/\.$/, ''); out.deferral_max = { value: period[0].toUpperCase() + period.slice(1), quote: `C18 ${period}` }; }
+  }
+  if (answer === 'yes' && m >= 0) {
+    const r = rows[m];
+    const at = r.findIndex((c) => /maximum period/.test(norm(c.s)));
+    let period = r.slice(at + 1).map((c) => c.s).join(' ').replace(/^[\s:]+/, '').trim();
+    const next = rows[m + 1];
+    if (!period && next && !/^c19\b|early admission|^c\d/.test(rowText(next)) && rowText(next).length <= 200) period = next.map((c) => c.s).join(' ').trim();
+    period = period.replace(/\s+/g, ' ').replace(/\.$/, '');
+    if (period && period.length <= 200 && /[a-z]/i.test(period)) out.deferral_max = { value: period[0].toUpperCase() + period.slice(1), quote: `C18 maximum period of postponement: ${period}` };
+  }
+  return out;
+}
+
 // D2: transfer applicants, admits and enrollees. The "Total" row in the few rows after the D2 heading,
 // read left to right (applicants, admitted, enrolled).
 function readTransfer(rows) {
@@ -234,7 +275,7 @@ function factors(rows) {
 }
 
 const log = [];
-export { readRows, readScores, factors, c1FromGender, readTransfer };
+export { readRows, readScores, factors, c1FromGender, readTransfer, readDeferral };
 // Run only when called directly (tests import the readers above).
 if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) {
   let made = 0;
@@ -247,7 +288,7 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
     if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
     delete failed[slug];
-    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows) };
+    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows) };
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     const docUrl = resolved.url || src.url;
