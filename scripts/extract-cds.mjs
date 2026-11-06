@@ -184,11 +184,11 @@ function factors(rows) {
   return out;
 }
 
+const log = [];
 export { readRows, readScores, factors, c1FromGender };
 // Run only when called directly (tests import the readers above).
 if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) {
   let made = 0;
-  const log = [];
   for (const [slug, src] of Object.entries(sources)) {
     if (!force && current(slug)) continue;
     if (!retry && fresh(failed[slug], src.url)) continue;
