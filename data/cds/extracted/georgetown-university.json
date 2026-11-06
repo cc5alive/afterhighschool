@@ -1,0 +1,139 @@
+{
+  "slug": "georgetown-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 4,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 26822,
+      "quote": "total first-time, first-year (degree-seeking) who applied 243 22653 3926 26822"
+    },
+    "admitted_total": {
+      "value": 3618,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 48 3244 326 3618"
+    },
+    "enrolled_total": {
+      "value": 1589,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 27 1429 133 1589"
+    },
+    "waitlist_admitted": {
+      "value": 356,
+      "quote": "number of wait-listed students admitted: 356"
+    },
+    "rank_top10_pct": {
+      "value": 87,
+      "quote": "percent in top tenth of high school graduating class 87%"
+    },
+    "rank_top25_pct": {
+      "value": 97,
+      "quote": "percent in top quarter of high school graduating class 97%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
+    },
+    "sat_p25": {
+      "value": 1405,
+      "quote": "sat composite 1405 1480 1530"
+    },
+    "sat_p50": {
+      "value": 1480,
+      "quote": "sat composite 1405 1480 1530"
+    },
+    "sat_p75": {
+      "value": 1530,
+      "quote": "sat composite 1405 1480 1530"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 32 34 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Important",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

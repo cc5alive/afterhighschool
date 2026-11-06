@@ -1,0 +1,147 @@
+{
+  "slug": "rice-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Rice University Common Data Set 2025 - 2026",
+    "url": "https://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 4,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 36791,
+      "quote": "total first-time, first-year students who applied 36791"
+    },
+    "admitted_total": {
+      "value": 2948,
+      "quote": "total first-time, first-year students who were admitted 2,948"
+    },
+    "enrolled_total": {
+      "value": 1263,
+      "quote": "total first-time, first-year students who enrolled 1263"
+    },
+    "waitlist_admitted": {
+      "value": 66,
+      "quote": "number of wait-listed students admitted: 66"
+    },
+    "rank_top10_pct": {
+      "value": 90,
+      "quote": "percent in top tenth of high school graduating class 90%"
+    },
+    "rank_top25_pct": {
+      "value": 97,
+      "quote": "percent in top quarter of high school graduating class 97%"
+    },
+    "ed_applied": {
+      "value": 5748,
+      "quote": "number of early decision applications received by your institution 5,748"
+    },
+    "ed_admitted": {
+      "value": 647,
+      "quote": "number of applicants admitted under early decision plan 647"
+    },
+    "sat_p25": {
+      "value": 1510,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 35 36"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 34 35 36"
+    },
+    "act_p75": {
+      "value": 36,
+      "quote": "act composite 34 35 36"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

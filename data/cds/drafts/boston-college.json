@@ -9,96 +9,171 @@
   "values": {
     "applied_total": {
       "value": 39686,
-      "quote": "Applicants: 39,686"
+      "quote": "Applicants: 39,686",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 2479,
-      "quote": "Enrolled: 2,479"
+      "quote": "Enrolled: 2,479",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Factor: Rigor of secondary school record | Very Important: X"
+      "quote": "Factor: Rigor of secondary school record | Very Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Important",
-      "quote": "Factor: Class rank | Important: X"
+      "quote": "Factor: Class rank | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Factor: Academic GPA | Very Important: X"
+      "quote": "Factor: Academic GPA | Very Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Important",
-      "quote": "Factor: Standardized test scores | Important: X"
+      "quote": "Factor: Standardized test scores | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Factor: Application Essay | Important: X"
+      "quote": "Factor: Application Essay | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Factor: Recommendation(s) | Important: X"
+      "quote": "Factor: Recommendation(s) | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Factor: Extracurricular activities | Important: X"
+      "quote": "Factor: Extracurricular activities | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Factor: Talent/ability | Important: X"
+      "quote": "Factor: Talent/ability | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Important",
-      "quote": "Factor: Character/personal qualities | Important: X"
+      "quote": "Factor: Character/personal qualities | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "Factor: First generation | Considered: X"
+      "quote": "Factor: First generation | Considered: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Factor: Geographical residence | Considered: X"
+      "quote": "Factor: Geographical residence | Considered: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "Factor: State residency | Not Considered: X"
+      "quote": "Factor: State residency | Not Considered: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Considered",
-      "quote": "Factor: Religious affiliation/commitment | Considered: X"
+      "quote": "Factor: Religious affiliation/commitment | Considered: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Important",
-      "quote": "Factor: Volunteer work | Important: X"
+      "quote": "Factor: Volunteer work | Important: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Factor: Work experience | Considered: X"
+      "quote": "Factor: Work experience | Considered: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Factor: Level of applicant's interest | Not Considered: X"
+      "quote": "Factor: Level of applicant's interest | Not Considered: X",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "sat_p25": {
       "value": 1440,
-      "quote": "25%: 33/1440"
+      "quote": "25%: 33/1440",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1520,
-      "quote": "75%: 35/1520"
+      "quote": "75%: 35/1520",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 33,
-      "quote": "25%: 33/1440"
+      "quote": "25%: 33/1440",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 35,
-      "quote": "75%: 35/1520"
+      "quote": "75%: 35/1520",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "yes",
-      "quote": "Early Decision: Yes"
+      "quote": "Early Decision: Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.bc.edu/bc-web/sites/common-data-set.html",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 22,
+  "total": 23
 }

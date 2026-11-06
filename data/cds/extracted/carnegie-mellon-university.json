@@ -1,0 +1,99 @@
+{
+  "slug": "carnegie-mellon-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "CARNEGIE MELLON UNIVERSITY COMMON DATA SET 2024-2025",
+    "url": "https://www.cmu.edu/ira/CDS/pdf/cds_2024-25/common-data-set-2024-2025-26jun2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 4,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 94.2,
+      "quote": "percent in top tenth of high school graduating class 94.2%"
+    },
+    "rank_top25_pct": {
+      "value": 97.9,
+      "quote": "percent in top quarter of high school graduating class 97.9%"
+    },
+    "gpa_400_pct": {
+      "value": 4,
+      "quote": "percent who had gpa of 4.0 46.9%"
+    },
+    "gpa_350_pct": {
+      "value": 11.3,
+      "quote": "percent who had gpa between 3.50 and 3.74 11.3%"
+    },
+    "gpa_325_pct": {
+      "value": 2.6,
+      "quote": "percent who had gpa between 3.25 and 3.49 2.6%"
+    },
+    "gpa_300_pct": {
+      "value": 0.3,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.3%"
+    },
+    "gpa_250_pct": {
+      "value": 0.4,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.4%"
+    },
+    "gpa_200_pct": {
+      "value": 0.06,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.06%"
+    },
+    "gpa_100_pct": {
+      "value": 0.06,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.06%"
+    },
+    "gpa_below1_pct": {
+      "value": 1,
+      "quote": "percent who had gpa below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.89,
+      "quote": "average high school gpa of all degree - seeking, first - time, first - year (freshman) students who submitted gpa 3.89"
+    },
+    "ed_applied": {
+      "value": 4423,
+      "quote": "number of early decision applications received by your institution: 4,423"
+    },
+    "ed_admitted": {
+      "value": 612,
+      "quote": "number of applicants admitted under early decision plan : 612"
+    },
+    "sat_p25": {
+      "value": 1510,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "sat composite 1510 1540 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}
