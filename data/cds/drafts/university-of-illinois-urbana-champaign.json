@@ -3,158 +3,276 @@
   "cdsYear": "2025-2026",
   "source": {
     "title": "University of Illinois Urbana-Champaign Common Data Set 2025-2026",
-    "url": "https://uofi.box.com/shared/static/orx4vnmzkt2drmgoiksxpfs39pr42uor.xlsx"
+    "url": "https://public.boxcloud.com/d/1/b1!8gZri_D9JnM1bEHuvn0RD11BVURLWzAM7ro6u3TNKf0o3HkPQUo5VdRN_0cd9C8424G8jqNV4FPaF-y89Fo4NStAHTLMyw1L2G7lfz_NCTC7sVoWO_hK9_iAMPANj5kCyhrvwFJ0vZLe5DbCrtcYKJsRjH0vAF18UcO2lrMiriHav3pLlvhwGeMHXlbA0cGHZ42BcBhDCMA3EKoRznbkIl7zWtJF86lmL3JsTCuJHv-SFdzHgqZjIv048wgFpndyglllDDaC2ehxB1RNZXx-fF6UrJ6su6Ly2lJXi5Oqziux-XFTyq4roHARjrgVdq2hef80oGR3-RM9PS89ksEZAmZmvS4bQNDfR4xaBEtnztF3tzUVNzIkdbETkEN7BnUAkemPHqctNjJaVRk9nHbelnYOZQx_pgJhYc9ifO0YB73e8PDx7Qr1eq1GjdKgKBuLb7486G2JT5JN3GmW-oEFHp4sxXf5yqSA_C-zaY7M82gD-ZkV1Xm8DOG4eQ8DophG4iPC-e8IC6pYiJ4SGV5GvzqtxXnvVJZyxvaWg2uQQH4in9hfiDbh8bCzp_6TOcFjxv7-ngwASyjjK3_qmvxnJrLgzFklWK2W_aGJ-2IfYQBVcZTzaNk_PrPef2uXs9G7jdNo7r6foHx0z3edzHASXd3HbEHUQykJL1WPSdx4-Tqvq4uMNQb2VqGO05Sc8D0dGPwa9Cc9IklGRv6_Y2BdnOLGXD2entd8q6I1YQc3GdJsRPFuWgmsS-03MA9OKYPNk_reVNcNyd7WQbkwtaNkuRnR6A7ckJhTUXIsocbZpPbXBi6qs3xCU893NCPi62oLmjSxpnFnkXr_T9NQKpql4HZXZPHgamvg_tCkAi6ZrOBXu0L6k7TPBVYjyY6XV4IfvYiRE0zjPy_5p7tSjqZDGYBXZ1dKoT-BcfbNjoO3fl5Rc7vbXO4JUC2d8cLKFCAwb-pcsjJFqLz6qLvP4fMkXX0rUVKTM0hU7QInHyinX-IRk4JFJSxV5YwymbPAi657PsoVEqylrxSy_lyTnqAftTBVr76VuV9HTHdlhXF2-ZcGAKzHBSuvdcmBCsgYgCzz-5mlCP6CX2Re7nHGssfZg0K1xwGPX1y7aBkb880QCrO5bfgwIRLIhba8n6YA9jqBpFkQpLqM1a8PFZCh5PFTprLgdvuwnvPQsNIJbqOhJycyTZbEB4QTylt62hl_qTjKRUq9rwGMQUj0DNxz9a443edzg9TADKQpyt7EAoiLYubPiiYec9D-UKv0oS-ScdrleAyT9Ldz_bxYwhF_VqAznwI_zXpX0AbuXsFuvP3-z3twzd7qbA_M00gQ9dQtEMFBzJs0o3dRYVqHrpFSRnGsIEKSSa_31T3-B8WXEOunNy59ODru5VYfXgF0UkyDOgYrYD_yux4gRbkckTzcPmq-zfVsG46OwSHrik39FXXYZD3_CP2jvmX84ShQ2WjAIp8U7trA5T21hZo-VvdECOoPYApefcWZTUuKkunbxqFBooHO9M5gixHxGJYnQC67FVAwWzLraauRoTeChdeuPn4cCi9xk6nXHp6yoGL_WpyxQYQ6qC_544lU-Ps40Q../download",
+    "page": "https://uofi.box.com/shared/static/orx4vnmzkt2drmgoiksxpfs39pr42uor.xlsx"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "applied_total": {
       "value": 83045,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 83045"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 83045",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 30384,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 30384"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 30384",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 9207,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled 9207"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 9207",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "waitlist_offered": {
       "value": 6826,
-      "quote": "Number of qualified applicants offered a place on waiting list: 6826"
+      "quote": "Number of qualified applicants offered a place on waiting list: 6826",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 4317,
-      "quote": "Number accepting a place on the waiting list: 4317"
+      "quote": "Number accepting a place on the waiting list: 4317",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 1,
-      "quote": "Number of wait-listed students admitted: 1"
+      "quote": "Number of wait-listed students admitted: 1",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Very Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Very Important",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Very Important",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Very Important",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant’s interest"
+      "quote": "Level of applicant’s interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 42.59,
-      "quote": "Submitting SAT Scores 0.4259"
+      "quote": "Submitting SAT Scores 0.4259",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "act_submit_pct": {
       "value": 14.07,
-      "quote": "Submitting ACT Scores 0.14069999999999999"
+      "quote": "Submitting ACT Scores 0.14069999999999999",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "sat_p25": {
       "value": 1390,
-      "quote": "SAT Composite 1390"
+      "quote": "SAT Composite 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1442,
-      "quote": "50th Percentile Score 1442"
+      "quote": "50th Percentile Score 1442",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1520,
-      "quote": "75th Percentile Score 1520"
+      "quote": "75th Percentile Score 1520",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 31,
-      "quote": "ACT Composite 31"
+      "quote": "ACT Composite 31",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 32.3,
-      "quote": "50th Percentile Score 32.299999999999997"
+      "quote": "50th Percentile Score 32.299999999999997",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "act_p75": {
       "value": 34,
-      "quote": "75th Percentile Score 34"
+      "quote": "75th Percentile Score 34",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 61.64,
-      "quote": "Percent in top tenth of high school graduating class 0.61638361638361605"
+      "quote": "Percent in top tenth of high school graduating class 0.61638361638361605",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "rank_top25_pct": {
       "value": 88.76,
-      "quote": "Percent in top quarter of high school graduating class 0.88761238761238803"
+      "quote": "Percent in top quarter of high school graduating class 0.88761238761238803",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "rank_submit_pct": {
       "value": 21.74,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 0.21744324970131401"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 0.21744324970131401",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan No"
+      "quote": "Does your institution offer an early decision plan No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://public.boxcloud.com/d/1/b1!8gZri_D9JnM1bEHuvn0RD11BVURLWzAM7ro6u3TNKf0o3HkPQUo5VdRN_0cd9C8424G8jqNV4FPaF-y89Fo4NStAHTLMyw1L2G7lfz_NCTC7sVoWO_hK9_iAMPANj5kCyhrvwFJ0vZLe5DbCrtcYKJsRjH0vAF18UcO2lrMiriHav3pLlvhwGeMHXlbA0cGHZ42BcBhDCMA3EKoRznbkIl7zWtJF86lmL3JsTCuJHv-SFdzHgqZjIv048wgFpndyglllDDaC2ehxB1RNZXx-fF6UrJ6su6Ly2lJXi5Oqziux-XFTyq4roHARjrgVdq2hef80oGR3-RM9PS89ksEZAmZmvS4bQNDfR4xaBEtnztF3tzUVNzIkdbETkEN7BnUAkemPHqctNjJaVRk9nHbelnYOZQx_pgJhYc9ifO0YB73e8PDx7Qr1eq1GjdKgKBuLb7486G2JT5JN3GmW-oEFHp4sxXf5yqSA_C-zaY7M82gD-ZkV1Xm8DOG4eQ8DophG4iPC-e8IC6pYiJ4SGV5GvzqtxXnvVJZyxvaWg2uQQH4in9hfiDbh8bCzp_6TOcFjxv7-ngwASyjjK3_qmvxnJrLgzFklWK2W_aGJ-2IfYQBVcZTzaNk_PrPef2uXs9G7jdNo7r6foHx0z3edzHASXd3HbEHUQykJL1WPSdx4-Tqvq4uMNQb2VqGO05Sc8D0dGPwa9Cc9IklGRv6_Y2BdnOLGXD2entd8q6I1YQc3GdJsRPFuWgmsS-03MA9OKYPNk_reVNcNyd7WQbkwtaNkuRnR6A7ckJhTUXIsocbZpPbXBi6qs3xCU893NCPi62oLmjSxpnFnkXr_T9NQKpql4HZXZPHgamvg_tCkAi6ZrOBXu0L6k7TPBVYjyY6XV4IfvYiRE0zjPy_5p7tSjqZDGYBXZ1dKoT-BcfbNjoO3fl5Rc7vbXO4JUC2d8cLKFCAwb-pcsjJFqLz6qLvP4fMkXX0rUVKTM0hU7QInHyinX-IRk4JFJSxV5YwymbPAi657PsoVEqylrxSy_lyTnqAftTBVr76VuV9HTHdlhXF2-ZcGAKzHBSuvdcmBCsgYgCzz-5mlCP6CX2Re7nHGssfZg0K1xwGPX1y7aBkb880QCrO5bfgwIRLIhba8n6YA9jqBpFkQpLqM1a8PFZCh5PFTprLgdvuwnvPQsNIJbqOhJycyTZbEB4QTylt62hl_qTjKRUq9rwGMQUj0DNxz9a443edzg9TADKQpyt7EAoiLYubPiiYec9D-UKv0oS-ScdrleAyT9Ldz_bxYwhF_VqAznwI_zXpX0AbuXsFuvP3-z3twzd7qbA_M00gQ9dQtEMFBzJs0o3dRYVqHrpFSRnGsIEKSSa_31T3-B8WXEOunNy59ODru5VYfXgF0UkyDOgYrYD_yux4gRbkckTzcPmq-zfVsG46OwSHrik39FXXYZD3_CP2jvmX84ShQ2WjAIp8U7trA5T21hZo-VvdECOoPYApefcWZTUuKkunbxqFBooHO9M5gixHxGJYnQC67FVAwWzLraauRoTeChdeuPn4cCi9xk6nXHp6yoGL_WpyxQYQ6qC_544lU-Ps40Q../download",
+  "docKind": "xlsx",
+  "checkedAt": "2026-11-06",
+  "verified": 29,
+  "total": 37
 }

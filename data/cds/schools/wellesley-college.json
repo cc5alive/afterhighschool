@@ -2,15 +2,19 @@
   "slug": "wellesley-college",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf?dm=1773253066"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf"
   },
   "builtAt": "2026-11-06",
   "values": {
     "applied_total": 8506,
     "admitted_total": 1258,
     "enrolled_total": 576,
+    "waitlist_offered": 2214,
+    "waitlist_accepted": 1121,
     "waitlist_admitted": 59,
+    "sat_submit_pct": 44,
+    "act_submit_pct": 18,
     "sat_p25": 1460,
     "sat_p50": 1500,
     "sat_p75": 1540,
@@ -19,6 +23,7 @@
     "act_p75": 35,
     "rank_top10_pct": 88,
     "rank_top25_pct": 99,
+    "rank_submit_pct": 25,
     "ed_applied": 1023,
     "ed_admitted": 301,
     "ed_offered": "yes"
@@ -27,16 +32,21 @@
     "applied_total": "reader",
     "admitted_total": "reader",
     "enrolled_total": "reader",
-    "waitlist_admitted": "reader",
-    "sat_p25": "reader",
+    "waitlist_offered": "gemini",
+    "waitlist_accepted": "gemini",
+    "waitlist_admitted": "both",
+    "sat_submit_pct": "gemini",
+    "act_submit_pct": "gemini",
+    "sat_p25": "both",
     "sat_p50": "reader",
     "sat_p75": "reader",
-    "act_p25": "reader",
+    "act_p25": "both",
     "act_p50": "reader",
     "act_p75": "reader",
-    "rank_top10_pct": "reader",
-    "rank_top25_pct": "reader",
-    "ed_applied": "reader",
-    "ed_admitted": "reader"
+    "rank_top10_pct": "both",
+    "rank_top25_pct": "both",
+    "rank_submit_pct": "gemini",
+    "ed_applied": "both",
+    "ed_admitted": "both"
   }
 }

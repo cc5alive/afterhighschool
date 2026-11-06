@@ -1,0 +1,71 @@
+{
+  "slug": "university-of-illinois-urbana-champaign",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "University of Illinois Urbana-Champaign Common Data Set 2025-2026",
+    "url": "https://public.boxcloud.com/d/1/b1!sh6lsJgyejST_O7-6JYorMfK6RFox8Tiscn1XA5yb5aZMPw4I8s5PsOydOj_0yWFXFZyIFK6J0zVALtn6ex7qnFSCXWWSX2I1IJEdcSjyZeXpSYKe5RQip6THQq7S_Xw8Gj1eK_IyITzzml-Upq-VNyuKusSoUL_BAUn-DOlvyXG7X4dRX2EXf-hgyHswxNBvgJriBRh1foqsMwZKctro0DXM6H5HlJEyClyD6pg2DYTAT16QD1Y4-aG9uEmW_-hcdFpt5dQFyR6NuoVB6sEjPqWgMpUEpi68TltknqbafgSNGj9AL7H_spErJdlpXOQJv4Ofmkb8pTJ7g8fFMABN0_lfjvfqxHu7s0UjW_KFwOGipvh1heE-OYXUZd1oCTUz-1cfiy7zAWebhc7yhugYZ8DncV8UpCEaL7nTYnFt1nTkfaNpW6rGl5I5KRa1H6re8tsvhEdUOYFPMYu4XunLdAyALLgDUrxjEwqqXmGQJm-rqA14Krkaf6yNM7YCgYdiT6VUzqeNPZTp8PjI7T6Qt181zj_dq4feTiRJKlhYWwUDqSn2Gv6YhqNZiRFS9ty-uZp49gZcPBweO_5gmsMaISct63B9iT53edHOTSksMxP3vGIfe2v5ywj0mFKZKcbmbT4VXZd_FJyAGHp91BekhFjzdLtq3NIyha6rzEjQ4kITmCdcr_m5oJ3eMvqJsAt4qTXLWnBUzNT4DfJukGqoyxo2CBOOO3HR1oFLHn9SMkqsb7_W-rQOnpcRJ6nbFmw6Mx7UhTtNhHMnJ00I82UT5dY1z9LQEMobDxjUfitj9Ua7PwRA5OFoQb-5KWhhoaxv3VsKxpWvD_UP-4E87cbxaAmV3P-bLp3T-8_f5v466KraL_VRUdFpb3Fveko4DXJnlrO6632BddjDp8pftkWRoUBDMQqFtsw1Z0A_5laDQM9wDs7irYQUHcsmW6Dhk1AnfzNJPEwqHsALqgZ4X2bUyEgpxv-OJPmvzPgr3k8iaR1JPfR4Q2WmZc5ZeLAx4EPtIWCLAk6RjI2V4zyqUq_7DeZ6cI0hyCQsTb69g8Zfdu6JBk4dDOj-oM04LHHu6-lbw_bEp4EWaYshv8RCSPnumP0Rii2dcfpDH8ixCRgVKCfa2bkMwUq88g0_mULVCK-Jfm7CKs9gYhGbH6p3VpclhBJBC8XG8Dsvq8UUWVMjLQ51EqHjAUiFS_S1rSQ25EjYG5R2aRLCHU6D1iD7X9H7C3y1R1QlYf1vhpJObXGz4kxiIgLn4E_bdblOPKhqY7dCSIRgjO9iapwQfNb3TuI3S7s4okSkFhPb3ODiqZ1byaphq0m9l0wox2e4dUD-o8o0cRZ47qTvI46SIbuGI6IsnBFBcPXvTMqOlmv9CWNGdPp7wHySlJ00sUiN91G0p0jX_EaT_saKsEEfLX5KDGwC3Bujntk4VrHIh_dtdUaaIgRQa24vpp0uTlw8NqTfl9Pl0x8I1V4BgIjqLZvSiSdb4rHFWQ3mpEWjuZwsMaz74GopG29S4VvEMAO0yvuCp5aQ6LdPMGci8fmlwlZalcdKDXva53G9uiNfZPqCPX-wB5rKoCv/download"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 83045,
+      "quote": "total first-time, first-year (degree-seeking) who applied 29419 32702 20924 0 83045 c.206 if yes, do you release that information to students? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "admitted_total": {
+      "value": 30384,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 14509 9495 6380 30384 c.207 do you release that information to school counselors? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "enrolled_total": {
+      "value": 9207,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 6587 1210 1410 9207 c.301 high school completion requirement high school diploma is required and ged is accepted first-time, first-year admission admissions requirements high school completion undergraduates first-time, first-year all all all x"
+    },
+    "waitlist_admitted": {
+      "value": 1,
+      "quote": "number of wait-listed students admitted: 1 c.514 english 4 first-time, first-year admission admissions requirements high school units recommended undergraduates first-time, first-year all all all carnegie units"
+    },
+    "rank_top10_pct": {
+      "value": 0.616383616383616,
+      "quote": "percent in top tenth of high school graduating class 0.616383616383616 c.1125 percent who had gpa between 3.00 and 3.24 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_top25_pct": {
+      "value": 0.887612387612388,
+      "quote": "percent in top quarter of high school graduating class 0.887612387612388 c.1126 percent who had gpa between 2.50 and 2.99 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "rank_submit_pct": {
+      "value": 0.217443249701314,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.217443249701314 c.1130 total 0 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "gpa_350_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.50 and 3.74 c.1402 application closing date (fall): month 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_325_pct": {
+      "value": 5,
+      "quote": "percent who had gpa between 3.25 and 3.49 c.1403 application closing date (fall): day 5 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "gpa_300_pct": {
+      "value": 11,
+      "quote": "percent who had gpa between 3.00 and 3.24 c.1404 priority date: month 11 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
+    },
+    "gpa_250_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.50 and 2.99 c.1405 priority date: day 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "sat_p25": {
+      "value": 1390,
+      "quote": "sat composite 1390 1442 1520 c.977 act reading: 12-17 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "sat_p50": {
+      "value": 1442,
+      "quote": "sat composite 1390 1442 1520 c.977 act reading: 12-17 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "sat_p75": {
+      "value": 1520,
+      "quote": "sat composite 1390 1442 1520 c.977 act reading: 12-17 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    }
+  },
+  "concerns": null
+}

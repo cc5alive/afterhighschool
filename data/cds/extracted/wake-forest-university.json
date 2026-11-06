@@ -1,9 +1,9 @@
 {
   "slug": "wake-forest-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://prod.wp.cdn.aws.wfu.edu/sites/202/2025/07/CDS-2024-2025-fillable-WFU.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://prod.wp.cdn.aws.wfu.edu/sites/202/2026/06/CDS_2025-2026-PDF_Template_WFU.pdf"
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
@@ -11,26 +11,26 @@
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
-      "value": 64.2,
-      "quote": "percent in top tenth of high school graduating class 64.2"
+      "value": 61.2,
+      "quote": "percent in top tenth of high school graduating class 61.2"
     },
     "rank_top25_pct": {
-      "value": 91.8,
-      "quote": "percent in top quarter of high school graduating class 91.8"
+      "value": 89.6,
+      "quote": "percent in top quarter of high school graduating class 89.6"
     },
     "applied_total": {
-      "value": 18727,
-      "quote": "total first-time, first-year men who applied 8224 / total first-time, first-year women who applied 10498 / total first-time, first-year of another gender who applied 5 / total first-time, first-year of unknown gender who applied",
+      "value": 19600,
+      "quote": "total first-time, first-year men who applied 8235 / total first-time, first-year women who applied 11360 / total first-time, first-year unknown sex who applied 5",
       "how": "sum of gender rows"
     },
     "admitted_total": {
-      "value": 4058,
-      "quote": "total first-time, first-year men who were admitted 1919 / total first-time, first-year women who were admitted 2137 / total first-time, first-year of another gender who were admitted 2 / total first-time, first-year of unknown gender who were admitted",
+      "value": 4068,
+      "quote": "total first-time, first-year men who were admitted 1965 / total first-time, first-year women who were admitted 2103 / total first-time, first-year unknown sex who were admitted 0",
       "how": "sum of gender rows"
     },
     "enrolled_total": {
-      "value": 1466,
-      "quote": "total first-time, first-year men who enrolled 672 / total first-time, first-year women who enrolled 794 / total first-time, first-year of another gender who enrolled 0 / total first-time, first-year of unknown gender who enrolled",
+      "value": 1544,
+      "quote": "total first-time, first-year men who enrolled 676 / total first-time, first-year women who enrolled 868 / total first-time, first-year unknown sex who enrolled 0",
       "how": "sum of gender rows"
     },
     "factor_rigor": {

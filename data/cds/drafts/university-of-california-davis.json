@@ -9,152 +9,269 @@
   "values": {
     "applied_total": {
       "value": 102988,
-      "quote": "Total first-time, first-year (degree-seeking) who applied Total 102,988"
+      "quote": "Total first-time, first-year (degree-seeking) who applied Total 102,988",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 45674,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted Total 45,674"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted Total 45,674",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 6824,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled Total 6,824"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled Total 6,824",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_offered": {
       "value": 17582,
-      "quote": "Number of qualified applicants offered a place on waiting list: 17,582"
+      "quote": "Number of qualified applicants offered a place on waiting list: 17,582",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 9747,
-      "quote": "Number accepting a place on the waiting list: 9,747"
+      "quote": "Number accepting a place on the waiting list: 9,747",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 3758,
-      "quote": "Number of wait-listed students admitted: 3,758"
+      "quote": "Number of wait-listed students admitted: 3,758",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Not Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Important",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Important",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Important",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Important",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant’s interest"
+      "quote": "Level of applicant’s interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 66.14,
-      "quote": "Percent who had GPA of 4.0 66.14%"
+      "quote": "Percent who had GPA of 4.0 66.14%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 23.08,
-      "quote": "Percent who had GPA between 3.75 and 3.99 23.08%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 23.08%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 8.4,
-      "quote": "Percent who had GPA between 3.50 and 3.74 8.40%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 8.40%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 1.91,
-      "quote": "Percent who had GPA between 3.25 and 3.49 1.91%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 1.91%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 0.43,
-      "quote": "Percent who had GPA between 3.00 and 3.24 0.43%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 0.43%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 0.04,
-      "quote": "Percent who had GPA between 2.50 and 2.99 0.04%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 0.04%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0,
-      "quote": "Percent who had GPA between 2.0 and 2.49 0.00%"
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.00%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0.00%"
+      "quote": "Percent who had GPA below 1.0 0.00%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_average": {
       "value": 4.03,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who 4.03"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who 4.03",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100.00%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan No"
+      "quote": "Does your institution offer an early decision plan No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission No"
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 28,
+  "total": 37
 }

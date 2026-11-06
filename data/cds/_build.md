@@ -4,7 +4,7 @@ Built 2026-11-06.
 
 | School | Year | Values published | Notes |
 | --- | --- | --- | --- |
-| arizona-state-university-campus-immersion | 2025-2026 | 33 |  |
+| arizona-state-university-campus-immersion | 2025-2026 | 34 |  |
 | auburn-university | - | 15 |  |
 | babson-college | 2024-2025 | 35 |  |
 | barnard-college | 2025-2026 | 12 | ed counts inconsistent (undefined, 476) |
@@ -37,10 +37,10 @@ Built 2026-11-06.
 | commonwealth-university-of-pennsylvania | 2025-2026 | 23 |  |
 | cornell-university | 2025-2026 | 16 | C11 buckets sum to 3.0 |
 | creighton-university | 2025-2026 | 11 | C1 failed consistency (applied 6389, admitted 5888, enrolled 1248, federal admit rate 0.7975) |
-| dartmouth-college | 2025-2026 | 32 |  |
+| dartmouth-college | 2025-2026 | 35 |  |
 | davidson-college | 2025-2026 | 31 | class rank inconsistent |
 | denison-university | 2025-2026 | 12 | sat_p50: reader 1360, Gemini 1400 (quote matched); act_p25: reads disagree (28 vs 30), left out; act scores inconsistent (undefined, 31, 33) |
-| duke-university | 2025-2026 | 27 |  |
+| duke-university | 2025-2026 | 29 |  |
 | east-carolina-university | 2024-2025 | 34 |  |
 | emory-university | 2024-2025 | 43 | enrolled_total: reader 1438, Gemini 1443 (quote matched); waitlist_admitted: reader 109, Gemini 274 (quote matched); act_p25: reader 32, Gemini 33 (quote matched); rank_top10_pct: reader 80, Gemini 76 (quote matched); gpa_400_pct: reader 17.41, Gemini 14 (quote matched); gpa_375_pct: reader 58.38, Gemini 63 (quote matched); gpa_350_pct: reader 21.24, Gemini 21 (quote matched); gpa_325_pct: reader 2.53, Gemini 2 (quote matched); gpa_300_pct: reads disagree (0.44 vs 0), left out; ed_applied: reader 4193, Gemini 4728 (quote matched); ed_admitted: reader 974, Gemini 1049 (quote matched); factor_recommendations: reader Very Important, Gemini Important (quote matched) |
 | fairfield-university | 2025-2026 | 44 |  |
@@ -62,7 +62,7 @@ Built 2026-11-06.
 | louisiana-state-university-and-agricultural-and-mechanical-college | - | 39 |  |
 | loyola-university-chicago | 2025-2026 | 16 |  |
 | macalester-college | 2025-2026 | 26 |  |
-| massachusetts-institute-of-technology | 2025-2026 | 13 |  |
+| massachusetts-institute-of-technology | 2025-2026 | 35 |  |
 | miami-university-oxford | 2024-2025 | 24 |  |
 | michigan-state-university | 2025-2026 | 35 |  |
 | middle-tennessee-state-university | 2025-2026 | 11 | C11 buckets sum to 105.9 |
@@ -79,6 +79,7 @@ Built 2026-11-06.
 | old-dominion-university | 2025-2026 | 37 |  |
 | oregon-state-university | 2025-2026 | 37 |  |
 | pennsylvania-state-university-main-campus | 2025-2026 | 21 |  |
+| princeton-university | 2025-2026 | 0 |  |
 | purdue-university-main-campus | 2025-2026 | 23 |  |
 | radford-university | - | 32 |  |
 | rice-university | 2025-2026 | 37 |  |
@@ -102,7 +103,8 @@ Built 2026-11-06.
 | the-university-of-alabama | 2025-2026 | 22 |  |
 | the-university-of-montana | 2025-2026 | 33 |  |
 | the-university-of-tennessee-chattanooga | 2025-2026 | 32 |  |
-| the-university-of-tennessee-knoxville | 2025-2026 | 39 |  |
+| the-university-of-tennessee-knoxville | 2025-2026 | 44 |  |
+| the-university-of-texas-at-austin | 2024-2025 | 0 |  |
 | the-university-of-texas-at-dallas | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.6513) |
 | the-university-of-texas-at-el-paso | 2025-2026 | 6 | C11 buckets sum to 0.1 |
 | the-university-of-texas-at-san-antonio | 2024-2025 | 12 | gpa_submit_pct implausibly low |
@@ -114,7 +116,7 @@ Built 2026-11-06.
 | university-of-arizona | 2099-2100 | 14 | C11 left blank by the school |
 | university-of-arkansas | 2099-2100 | 3 | C11 buckets sum to 0.1 |
 | university-of-california-berkeley | 2025-2026 | 0 |  |
-| university-of-california-davis | - | 9 | gpa_below1_pct read as the "totals = 100%" note |
+| university-of-california-davis | 2025-2026 | 35 |  |
 | university-of-california-irvine | 2025-2026 | 24 |  |
 | university-of-california-los-angeles | 2025-2026 | 32 |  |
 | university-of-california-riverside | 2025-2026 | 29 |  |
@@ -128,6 +130,7 @@ Built 2026-11-06.
 | university-of-houston-downtown | 2025-2026 | 41 |  |
 | university-of-idaho | - | 18 | gpa_below1_pct read as the "totals = 100%" note |
 | university-of-illinois-chicago | 2025-2026 | 34 |  |
+| university-of-illinois-urbana-champaign | 2025-2026 | 32 | C11 buckets sum to 18.0 |
 | university-of-iowa | 2024-2025 | 32 |  |
 | university-of-kentucky | 2025-2026 | 31 |  |
 | university-of-louisville | 2024-2025 | 33 |  |
@@ -154,7 +157,7 @@ Built 2026-11-06.
 | university-of-rhode-island | 2025-2026 | 38 |  |
 | university-of-richmond | 2024-2025 | 28 |  |
 | university-of-south-carolina-columbia | 2025-2026 | 1 |  |
-| university-of-south-florida | 2025-2026 | 30 |  |
+| university-of-south-florida | 2025-2026 | 32 | sat scores inconsistent (1160, undefined, undefined); act scores inconsistent (25, undefined, undefined) |
 | university-of-southern-california | 2024-2025 | 36 |  |
 | university-of-vermont | 2025-2026 | 33 |  |
 | university-of-washington-seattle-campus | 2025-2026 | 33 |  |
@@ -168,10 +171,10 @@ Built 2026-11-06.
 | virginia-commonwealth-university | - | 4 | C11 buckets sum to 73.4 |
 | virginia-polytechnic-institute-and-state-university | 2025-2026 | 17 |  |
 | wabash-college | 2025-2026 | 15 | C11 buckets sum to 2.0 |
-| wake-forest-university | 2024-2025 | 23 |  |
+| wake-forest-university | 2025-2026 | 25 | sat scores inconsistent (1420, undefined, undefined); act scores inconsistent (32, undefined, undefined) |
 | washington-and-lee-university | 2025-2026 | 37 | C11 left blank by the school |
 | washington-university-in-st-louis | 2025-2026 | 34 |  |
-| wellesley-college | 2025-2026 | 15 |  |
+| wellesley-college | 2025-2026 | 20 |  |
 | wentworth-institute-of-technology | 2025-2026 | 40 |  |
 | west-virginia-university | 2024-2025 | 22 |  |
 | western-kentucky-university | 2025-2026 | 19 | ACT 18-25 far from federal 16-21 |
