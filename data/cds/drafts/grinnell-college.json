@@ -3,146 +3,255 @@
   "cdsYear": "2024-2025",
   "source": {
     "title": "Grinnell College Common Data Set 2024-2025",
-    "url": "https://www.grinnell.edu/doc/grinnell-college-common-data-set-2024-2025"
+    "url": "https://www.grinnell.edu/sites/default/files/docs/2025-03/Grinnell-2024-2025-Common-Data-Set.pdf",
+    "page": "https://www.grinnell.edu/doc/grinnell-college-common-data-set-2024-2025"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "applied_total": {
       "value": 9758,
-      "quote": "Total first-time, first-year students who applied 9758"
+      "quote": "Total first-time, first-year students who applied 9758",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 1416,
-      "quote": "Total first-time, first-year students who were admitted 1416"
+      "quote": "Total first-time, first-year students who were admitted 1416",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 438,
-      "quote": "Total first-time, first-year students who enrolled 438"
+      "quote": "Total first-time, first-year students who enrolled 438",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_offered": {
       "value": 2021,
-      "quote": "Number of qualified applicants offered a place on waiting list: 2021"
+      "quote": "Number of qualified applicants offered a place on waiting list: 2021",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 1180,
-      "quote": "Number accepting a place on the waiting list: 1180"
+      "quote": "Number accepting a place on the waiting list: 1180",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 36,
-      "quote": "Number of wait-listed students admitted: 36"
+      "quote": "Number of wait-listed students admitted: 36",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Very Important",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Important",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application essay"
+      "quote": "Application essay",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Very Important",
-      "quote": "Recommendations"
+      "quote": "Recommendations",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent or ability"
+      "quote": "Talent or ability",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character and personal qualities"
+      "quote": "Character and personal qualities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Considered",
-      "quote": "Alumni relation"
+      "quote": "Alumni relation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation or commitment"
+      "quote": "Religious affiliation or commitment",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant interest"
+      "quote": "Level of applicant interest",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "sat_submit_pct": {
       "value": 29,
-      "quote": "SAT 29"
+      "quote": "SAT 29",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 21,
-      "quote": "ACT 21"
+      "quote": "ACT 21",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 1430,
-      "quote": "SAT composite 1430"
+      "quote": "SAT composite 1430",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p50": {
       "value": 1490,
-      "quote": "SAT composite 1490"
+      "quote": "SAT composite 1490",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1520,
-      "quote": "SAT composite 1520"
+      "quote": "SAT composite 1520",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 31,
-      "quote": "ACT composite 31"
+      "quote": "ACT composite 31",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p50": {
       "value": 34,
-      "quote": "ACT composite 34"
+      "quote": "ACT composite 34",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 34,
-      "quote": "ACT composite 34"
+      "quote": "ACT composite 34",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "ed_offered": {
       "value": "yes",
-      "quote": "Does your institution offer an early decision plan Yes"
+      "quote": "Does your institution offer an early decision plan Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ed_applied": {
       "value": 828,
-      "quote": "Number of early decision applications received by your institution 828"
+      "quote": "Number of early decision applications received by your institution 828",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_admitted": {
       "value": 283,
-      "quote": "Number of applicants admitted under early decision plan 283"
+      "quote": "Number of applicants admitted under early decision plan 283",
+      "found": true,
+      "how": "quote",
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.grinnell.edu/sites/default/files/docs/2025-03/Grinnell-2024-2025-Common-Data-Set.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 14,
+  "total": 34
 }

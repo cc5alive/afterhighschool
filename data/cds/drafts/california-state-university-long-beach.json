@@ -9,128 +9,227 @@
   "values": {
     "factor_rigor": {
       "value": "Considered",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": false,
+      "how": null,
+      "note": "document shows Very Important"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Not Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Not Considered",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Not Considered",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_character": {
       "value": "Not Considered",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Not Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Not Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Not Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 20.01,
-      "quote": "Percent who had GPA of 4.0 20.01%"
+      "quote": "Percent who had GPA of 4.0 20.01%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 26.63,
-      "quote": "Percent who had GPA between 3.75 and 3.99 26.63%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 26.63%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 23.47,
-      "quote": "Percent who had GPA between 3.50 and 3.74 23.47%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 23.47%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 14.82,
-      "quote": "Percent who had GPA between 3.25 and 3.49 14.82%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.82%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 10,
-      "quote": "Percent who had GPA between 3.00 and 3.24 10.00%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 10.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 5.04,
-      "quote": "Percent who had GPA between 2.50 and 2.99 5.04%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 5.04%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0.03,
-      "quote": "Percent who had GPA between 2.0 and 2.49 0.03%"
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.03%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0.00%"
+      "quote": "Percent who had GPA below 1.0 0.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.66,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.66"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.66",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 99.44,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.44%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.44%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan No"
+      "quote": "Does your institution offer an early decision plan No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Do you have a nonbinding early action plan No"
+      "quote": "Do you have a nonbinding early action plan No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.csulb.edu/sites/default/files/2026/documents/CDS%202025%20-%202026%20%28PDF%29_0.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 23,
+  "total": 31
 }

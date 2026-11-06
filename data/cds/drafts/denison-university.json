@@ -3,126 +3,220 @@
   "cdsYear": "2024-2025",
   "source": {
     "title": "Denison University Common Data Set, 2024-2025",
-    "url": "https://denison.edu/forms/common-data-set"
+    "url": "https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf",
+    "page": "https://denison.edu/forms/common-data-set"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "enrolled_total": {
       "value": 621,
-      "quote": "Enrolled total 621"
+      "quote": "Enrolled total 621",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_offered": {
       "value": 2213,
-      "quote": "Number of qualified applicants offered a place on waiting list: 2,213"
+      "quote": "Number of qualified applicants offered a place on waiting list: 2,213",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_accepted": {
       "value": 464,
-      "quote": "Number accepting a place on the waiting list: 464"
+      "quote": "Number accepting a place on the waiting list: 464",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_admitted": {
       "value": 76,
-      "quote": "Number of wait-listed students admitted: 76"
+      "quote": "Number of wait-listed students admitted: 76",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Very Important",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Very Important",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Very Important",
-      "quote": "Application essay"
+      "quote": "Application essay",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Very Important",
-      "quote": "Recommendations"
+      "quote": "Recommendations",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Very Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Very Important",
-      "quote": "Talent or ability"
+      "quote": "Talent or ability",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Very Important",
-      "quote": "Character and personal qualities"
+      "quote": "Character and personal qualities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Very Important",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Very Important",
-      "quote": "Alumni relation"
+      "quote": "Alumni relation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Very Important",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Very Important",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Very Important",
-      "quote": "Religious affiliation or commitment"
+      "quote": "Religious affiliation or commitment",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Very Important",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Very Important",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Very Important",
-      "quote": "Level of applicant interest"
+      "quote": "Level of applicant interest",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "sat_submit_pct": {
       "value": 29,
-      "quote": "SAT 29"
+      "quote": "SAT 29",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 22,
-      "quote": "ACT 22"
+      "quote": "ACT 22",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 1340,
-      "quote": "SAT composite 1340"
+      "quote": "SAT composite 1340",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1400,
-      "quote": "SAT composite 1400"
+      "quote": "SAT composite 1400",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1480,
-      "quote": "SAT composite 1480"
+      "quote": "SAT composite 1480",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 30,
-      "quote": "ACT composite 30"
+      "quote": "ACT composite 30",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p50": {
       "value": 31,
-      "quote": "ACT composite 31"
+      "quote": "ACT composite 31",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 33,
-      "quote": "ACT composite 33"
+      "quote": "ACT composite 33",
+      "found": true,
+      "how": "near",
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://denison.edu/sites/default/files/forms/2026-08/cds_du_20252026_published_updated2026.08.14.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 4,
+  "total": 29
 }
