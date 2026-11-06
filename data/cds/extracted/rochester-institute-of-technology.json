@@ -7,21 +7,9 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 31565,
-      "quote": "total first-time, first-year (degree-seeking) who applied 10339 17331 3895 31565 10339 17331 3895 31565"
-    },
-    "admitted_total": {
-      "value": 22439,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 6532 13290 2617 2617 22439 6532 13290 22439"
-    },
-    "enrolled_total": {
-      "value": 2959,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 1192 1672 95 95 2959 1192 1672 2959"
-    },
     "waitlist_admitted": {
       "value": 164,
       "quote": "number of wait-listed students admitted: 164"
@@ -50,6 +38,16 @@
       "value": 1028,
       "quote": "number of applicants admitted under early decision plan: 1028"
     },
+    "applied_total": {
+      "value": 31527,
+      "quote": "total first-time, first-year men who applied 18303 18303 / total first-time, first-year women who applied 13224 13224",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 22411,
+      "quote": "total first-time, first-year men who were admitted 13142 13142 / total first-time, first-year women who were admitted 9269 9269",
+      "how": "sum of gender rows"
+    },
     "sat_p25": {
       "value": 1310,
       "quote": "sat composite 1310 1380 1440"
@@ -73,6 +71,78 @@
     "act_p75": {
       "value": 34,
       "quote": "act composite 30 32 34"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
     },
     "ed_offered": {
       "value": "yes",

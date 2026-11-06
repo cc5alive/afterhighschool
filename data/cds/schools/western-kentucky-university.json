@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "applied_total": 9692,
+    "admitted_total": 8863,
+    "enrolled_total": 2643,
     "sat_p25": 930,
     "sat_p50": 1040,
     "sat_p75": 1130,
@@ -20,9 +23,14 @@
     "gpa_250_pct": 13.01,
     "gpa_200_pct": 3.41,
     "gpa_100_pct": 0,
-    "gpa_below1_pct": 0
+    "gpa_below1_pct": 0,
+    "factor_gpa": "Very Important",
+    "factor_test_scores": "Considered"
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",
     "sat_p75": "reader",
@@ -36,6 +44,8 @@
     "gpa_250_pct": "reader",
     "gpa_200_pct": "reader",
     "gpa_100_pct": "reader",
-    "gpa_below1_pct": "reader"
+    "gpa_below1_pct": "reader",
+    "factor_gpa": "reader",
+    "factor_test_scores": "reader"
   }
 }

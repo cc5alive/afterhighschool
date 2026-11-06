@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 2,
+  "readerVersion": 4,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -54,6 +54,21 @@
       "value": 0,
       "quote": "percent who had gpa below 1.0 0% 0% 0%"
     },
+    "applied_total": {
+      "value": 9169,
+      "quote": "total first-time, first-year males who applied 3,306 / total first-time, first-year females who applied 5,849 / total first-time, first-year students of unknowns gender who applied 14",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 8196,
+      "quote": "total first-time, first-year males who were admitted 2,879 / total first-time, first-year females who were admitted 5,305 / total first-time, first-year students of unknown sex who were admitted 12",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 1408,
+      "quote": "total first-time, first-year males who enrolled 478 / total first-time, first-year females who enrolled 925 / total first-time, first-year students of unknown sex who enrolled 5",
+      "how": "sum of gender rows"
+    },
     "sat_p25": {
       "value": 950,
       "quote": "sat composite 950 1,040 1,140"
@@ -65,6 +80,66 @@
     "sat_p75": {
       "value": 1140,
       "quote": "sat composite 950 1,040 1,140"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null
