@@ -213,7 +213,7 @@ function readDeferral(rows) {
     const next = rows[m + 1];
     if (!period && next && !/^c19\b|early admission|^c\d/.test(rowText(next)) && rowText(next).length <= 200) period = next.map((c) => c.s).join(' ').trim();
     period = period.replace(/\s+/g, ' ').replace(/\.$/, '');
-    if (period && period.length <= 200 && /[a-z]/i.test(period)) out.deferral_max = { value: period[0].toUpperCase() + period.slice(1), quote: `C18 maximum period of postponement: ${period}` };
+    if (period && period.length <= 200 && /[a-z]/i.test(period) && !/common data set|\bcds\b|page \d/i.test(period)) out.deferral_max = { value: period[0].toUpperCase() + period.slice(1), quote: `C18 maximum period of postponement: ${period}` };
   }
   return out;
 }

@@ -81,7 +81,7 @@ function combine(E, G, school) {
     if ((a != null || b != null) && !(a > 0 && b >= 0 && b <= a)) drop([`${p}_applied`, `${p}_admitted`], `${p} counts inconsistent (${a}, ${b})`);
     else if (a > 0) v[`${p}_offered`] = 'yes';
   }
-  if (v.deferral_allowed !== 'yes') delete v.deferral_max;
+  if (v.deferral_allowed !== 'yes' || /common data set|\bcds\b|page \d/i.test(v.deferral_max || '')) delete v.deferral_max;
   const T = ['transfer_applied', 'transfer_admitted', 'transfer_enrolled'];
   if (T.some((k) => k in v) && !(v.transfer_applied > 0 && v.transfer_admitted <= v.transfer_applied && (v.transfer_enrolled == null || v.transfer_enrolled <= v.transfer_admitted)))
     drop(T, `transfer counts inconsistent (${v.transfer_applied}, ${v.transfer_admitted}, ${v.transfer_enrolled})`);

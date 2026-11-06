@@ -82,7 +82,7 @@ Built 2026-11-06.
 | miami-university-oxford | 2024-2025 | 27 |  |
 | michigan-state-university | 2025-2026 | 38 | act scores inconsistent (25, undefined, undefined) |
 | middle-tennessee-state-university | 2025-2026 | 16 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C11 buckets sum to 105.9 |
-| middlebury-college | 2024-2025 | 40 |  |
+| middlebury-college | 2024-2025 | 39 |  |
 | mississippi-state-university | 2024-2025 | 0 |  |
 | montana-state-university | 2025-2026 | 40 | C1 failed consistency (applied 19892, admitted 19769, enrolled 3743, federal admit rate 0.8214) |
 | montclair-state-university | 2025-2026 | 43 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
