@@ -1,0 +1,143 @@
+{
+  "slug": "california-polytechnic-state-university-san-luis-obispo",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "California Polytechnic State University Common Data Set 2025-2026",
+    "url": "https://content-calpoly-edu.s3.amazonaws.com/ir/1/images/CDS-PDF-2025-2026_final_web_0.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 71309,
+      "quote": "total first-time, first-year (degree-seeking) who applied 63520 7109 680 71309"
+    },
+    "admitted_total": {
+      "value": 21367,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 16743 4413 211 21367"
+    },
+    "enrolled_total": {
+      "value": 5456,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4368 1055 33 5456"
+    },
+    "waitlist_admitted": {
+      "value": 599,
+      "quote": "number of wait-listed students admitted: 599"
+    },
+    "rank_top10_pct": {
+      "value": 45.71,
+      "quote": "percent in top tenth of high school graduating class 45.71"
+    },
+    "rank_top25_pct": {
+      "value": 79.24,
+      "quote": "percent in top quarter of high school graduating class 79.24"
+    },
+    "gpa_average": {
+      "value": 4.03,
+      "quote": "average high school gpa 4.03"
+    },
+    "gpa_submit_pct": {
+      "value": 99.62,
+      "quote": "percent submitting gpa 99.62"
+    },
+    "sat_p25": {
+      "value": 1240,
+      "quote": "sat composite 1240 1330 1420"
+    },
+    "sat_p50": {
+      "value": 1330,
+      "quote": "sat composite 1240 1330 1420"
+    },
+    "sat_p75": {
+      "value": 1420,
+      "quote": "sat composite 1240 1330 1420"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 28 31 33"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

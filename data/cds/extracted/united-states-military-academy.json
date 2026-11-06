@@ -1,0 +1,143 @@
+{
+  "slug": "united-states-military-academy",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-25",
+    "url": "https://s3.amazonaws.com/usma-media/inline-images/about/g5/G5OIR_CDS_2024-2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 12316,
+      "quote": "total first-time, first-year (degree-seeking) who applied 782 11397 137 12316"
+    },
+    "admitted_total": {
+      "value": 1534,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 96 1419 19 1534"
+    },
+    "enrolled_total": {
+      "value": 1195,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 81 1098 16 1195"
+    },
+    "rank_top10_pct": {
+      "value": 43,
+      "quote": "percent in top tenth of high school graduating class 43"
+    },
+    "rank_top25_pct": {
+      "value": 67,
+      "quote": "percent in top quarter of high school graduating class 67"
+    },
+    "gpa_400_pct": {
+      "value": 75.57,
+      "quote": "percent who had gpa of 4.0 75.57"
+    },
+    "gpa_375_pct": {
+      "value": 8.67,
+      "quote": "percent who had gpa between 3.75 and 3.99 8.67"
+    },
+    "gpa_350_pct": {
+      "value": 9.85,
+      "quote": "percent who had gpa between 3.50 and 3.74 9.85"
+    },
+    "gpa_325_pct": {
+      "value": 3.07,
+      "quote": "percent who had gpa between 3.25 and 3.49 3.07"
+    },
+    "gpa_300_pct": {
+      "value": 2.05,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.05"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 .08 percent who had gpa below 1.0 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    },
+    "gpa_average": {
+      "value": 4.1,
+      "quote": "average high school gpa 4.1"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Very Important",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

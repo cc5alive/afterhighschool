@@ -9,184 +9,325 @@
   "values": {
     "applied_total": {
       "value": 12316,
-      "quote": "AP_RECD_1ST_N val=12316"
+      "quote": "AP_RECD_1ST_N val=12316",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 1534,
-      "quote": "AP_ADMT_1ST_N val=1534"
+      "quote": "AP_ADMT_1ST_N val=1534",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 1195,
-      "quote": "EN_TOT_1ST_N val=1195"
+      "quote": "EN_TOT_1ST_N val=1195",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Q111_1 val=VI state=1"
+      "quote": "Q111_1 val=VI state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Q111_2 val=C state=1"
+      "quote": "Q111_2 val=C state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Q111_3 val=VI state=1"
+      "quote": "Q111_3 val=VI state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Very Important",
-      "quote": "Q111_4 val=VI state=1"
+      "quote": "Q111_4 val=VI state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Q111_5 val=I state=1"
+      "quote": "Q111_5 val=I state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Q111_6 val=I state=1"
+      "quote": "Q111_6 val=I state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interview": {
       "value": "Very Important",
-      "quote": "Q112_1 val=VI state=1"
+      "quote": "Q112_1 val=VI state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Q112_2 val=I state=1"
+      "quote": "Q112_2 val=I state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Q112_3 val=I state=1"
+      "quote": "Q112_3 val=I state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Very Important",
-      "quote": "Q112_4 val=VI state=1"
+      "quote": "Q112_4 val=VI state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Not Considered",
-      "quote": "Q112_5 val=NC state=1"
+      "quote": "Q112_5 val=NC state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Q112_6 val=NC state=1"
+      "quote": "Q112_6 val=NC state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Q112_7 val=NC state=1"
+      "quote": "Q112_7 val=NC state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "Q112_8 val=NC state=1"
+      "quote": "Q112_8 val=NC state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Q112_9 val=NC state=1"
+      "quote": "Q112_9 val=NC state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Q112_11 val=C state=1"
+      "quote": "Q112_11 val=C state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Q112_12 val=C state=1"
+      "quote": "Q112_12 val=C state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Important",
-      "quote": "Q112_13 val=I state=1"
+      "quote": "Q112_13 val=I state=1",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "sat_submit_pct": {
       "value": 68,
-      "quote": "SUBMIT_SAT1_P val=68"
+      "quote": "SUBMIT_SAT1_P val=68",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 32,
-      "quote": "SUBMIT_ACT_P val=32"
+      "quote": "SUBMIT_ACT_P val=32",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 1210,
-      "quote": "SAT1_COMP_25TH_P val=1210"
+      "quote": "SAT1_COMP_25TH_P val=1210",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1330,
-      "quote": "SAT1_COMP_50TH_P val=1330"
+      "quote": "SAT1_COMP_50TH_P val=1330",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1420,
-      "quote": "SAT1_COMP_75TH_P val=1420"
+      "quote": "SAT1_COMP_75TH_P val=1420",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 27,
-      "quote": "ACT_COMP_25TH_P val=27"
+      "quote": "ACT_COMP_25TH_P val=27",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 31,
-      "quote": "ACT_COMP_50TH_P val=31"
+      "quote": "ACT_COMP_50TH_P val=31",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 33,
-      "quote": "ACT_COMP_75TH_P val=33"
+      "quote": "ACT_COMP_75TH_P val=33",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_top10_pct": {
       "value": 43,
-      "quote": "FRSH_HS_RANK_10_P val=43"
+      "quote": "FRSH_HS_RANK_10_P val=43",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_top25_pct": {
       "value": 67,
-      "quote": "FRSH_HS_RANK_25_P val=67"
+      "quote": "FRSH_HS_RANK_25_P val=67",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_submit_pct": {
       "value": 99,
-      "quote": "FRSH_HS_RANK_SUBMIT_P val=99"
+      "quote": "FRSH_HS_RANK_SUBMIT_P val=99",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 75.57,
-      "quote": "FRSH_GPA_SUBMIT_1_P val=75.57"
+      "quote": "FRSH_GPA_SUBMIT_1_P val=75.57",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_375_pct": {
       "value": 8.67,
-      "quote": "FRSH_GPA_SUBMIT_2_P val=8.67"
+      "quote": "FRSH_GPA_SUBMIT_2_P val=8.67",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_350_pct": {
       "value": 9.85,
-      "quote": "FRSH_GPA_SUBMIT_3_P val=9.85"
+      "quote": "FRSH_GPA_SUBMIT_3_P val=9.85",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_325_pct": {
       "value": 3.07,
-      "quote": "FRSH_GPA_SUBMIT_4_P val=3.07"
+      "quote": "FRSH_GPA_SUBMIT_4_P val=3.07",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_300_pct": {
       "value": 2.05,
-      "quote": "FRSH_GPA_SUBMIT_5_P val=2.05"
+      "quote": "FRSH_GPA_SUBMIT_5_P val=2.05",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_250_pct": {
       "value": 0.55,
-      "quote": "FRSH_GPA_SUBMIT_6_P val=.55"
+      "quote": "FRSH_GPA_SUBMIT_6_P val=.55",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "gpa_200_pct": {
       "value": 0.16,
-      "quote": "FRSH_GPA_SUBMIT_7_P val=.16"
+      "quote": "FRSH_GPA_SUBMIT_7_P val=.16",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "gpa_100_pct": {
       "value": 0.08,
-      "quote": "FRSH_GPA_SUBMIT_8_P val=.08"
+      "quote": "FRSH_GPA_SUBMIT_8_P val=.08",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "FRSH_GPA_SUBMIT_9_P val=0"
+      "quote": "FRSH_GPA_SUBMIT_9_P val=0",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_average": {
       "value": 4.1,
-      "quote": "FRSH_GPA val=4.1"
+      "quote": "FRSH_GPA val=4.1",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "FRSH_GPA_SUBMIT_P val=100"
+      "quote": "FRSH_GPA_SUBMIT_P val=100",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "AD_EDEC val=N"
+      "quote": "AD_EDEC val=N",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "AD_EACT val=N"
+      "quote": "AD_EACT val=N",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://s3.amazonaws.com/usma-media/inline-images/about/g5/G5OIR_CDS_2024-2025.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 45
 }

@@ -1,0 +1,123 @@
+{
+  "slug": "bowdoin-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.bowdoin.edu/ir/pdf/bowdoin-cds_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 14045,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 540 7464 6041 14045"
+    },
+    "admitted_total": {
+      "value": 957,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 76 74 807 0 957"
+    },
+    "enrolled_total": {
+      "value": 515,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 51 427 37 0 515"
+    },
+    "waitlist_admitted": {
+      "value": 5,
+      "quote": "number of wait-listed students admitted: 5"
+    },
+    "rank_top10_pct": {
+      "value": 89.05,
+      "quote": "percent in top tenth of high school graduating class 89.05"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "percent in top quarter of high school graduating class 100"
+    },
+    "ed_applied": {
+      "value": 1985,
+      "quote": "number of early decision applications received by your institution: 1985"
+    },
+    "ed_admitted": {
+      "value": 296,
+      "quote": "number of applicants admitted under early decision plan: 296"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

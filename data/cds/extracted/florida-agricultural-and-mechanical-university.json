@@ -1,0 +1,43 @@
+{
+  "slug": "florida-agricultural-and-mechanical-university",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Florida Agricultural and Mechanical University Common Data Set 2023-2024",
+    "url": "https://www.famu.edu/administration/strategic-planning-analysis-and-institutional-effectiveness/institutional-research/surveys/pdf/cds/CDS_2023-2024.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 23.29,
+      "quote": "percent in top tenth of high school graduating class 23.29%"
+    },
+    "rank_top25_pct": {
+      "value": 27.4,
+      "quote": "percent in top quarter of high school graduating class 27.40%"
+    },
+    "gpa_400_pct": {
+      "value": 32.53,
+      "quote": "percent who had gpa of 4.0 c or t c or t 32.53%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
+    },
+    "sat_p25": {
+      "value": 1040,
+      "quote": "sat composite 1040 1090 1150"
+    },
+    "sat_p50": {
+      "value": 1090,
+      "quote": "sat composite 1040 1090 1150"
+    },
+    "sat_p75": {
+      "value": 1150,
+      "quote": "sat composite 1040 1090 1150"
+    }
+  },
+  "concerns": null
+}

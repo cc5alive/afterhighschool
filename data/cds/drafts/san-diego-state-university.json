@@ -9,152 +9,269 @@
   "values": {
     "applied_total": {
       "value": 95444,
-      "quote": "C1 Total first-time, first-year (degree seeking) who applied 95444"
+      "quote": "C1 Total first-time, first-year (degree seeking) who applied 95444",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 35709,
-      "quote": "C1 Total first-time, first-year (degree seeking) admitted 35709"
+      "quote": "C1 Total first-time, first-year (degree seeking) admitted 35709",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 6911,
-      "quote": "C1 Total first-time, first-year (degree seeking) enrolled 6911"
+      "quote": "C1 Total first-time, first-year (degree seeking) enrolled 6911",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "waitlist_offered": {
       "value": 11627,
-      "quote": "C2 Number of qualified applicants offered a place on waiting list 11,627"
+      "quote": "C2 Number of qualified applicants offered a place on waiting list 11,627",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 6016,
-      "quote": "C2 Number accepting a place on the waiting list 6,016"
+      "quote": "C2 Number accepting a place on the waiting list 6,016",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 962,
-      "quote": "C2 Number of wait-listed students admitted 962"
+      "quote": "C2 Number of wait-listed students admitted 962",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "C7 Rigor of secondary school record"
+      "quote": "C7 Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "C7 Class rank"
+      "quote": "C7 Class rank",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "C7 Academic GPA"
+      "quote": "C7 Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Not Considered",
-      "quote": "C7 Standardized test scores"
+      "quote": "C7 Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Not Considered",
-      "quote": "C7 Application Essay"
+      "quote": "C7 Application Essay",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "C7 Recommendations"
+      "quote": "C7 Recommendations",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "C7 Interview"
+      "quote": "C7 Interview",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Not Considered",
-      "quote": "C7 Extracurricular activities"
+      "quote": "C7 Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Not Considered",
-      "quote": "C7 Talent/ability"
+      "quote": "C7 Talent/ability",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Not Considered",
-      "quote": "C7 Character/personal qualities"
+      "quote": "C7 Character/personal qualities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Not Considered",
-      "quote": "C7 First generation"
+      "quote": "C7 First generation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "C7 Alumni/ae relation"
+      "quote": "C7 Alumni/ae relation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "C7 Geographical residence"
+      "quote": "C7 Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "C7 State residency"
+      "quote": "C7 State residency",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "C7 Religious affiliation/commitment"
+      "quote": "C7 Religious affiliation/commitment",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Not Considered",
-      "quote": "C7 Volunteer work"
+      "quote": "C7 Volunteer work",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Not Considered",
-      "quote": "C7 Work experience"
+      "quote": "C7 Work experience",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "C7 Level of applicant's interest"
+      "quote": "C7 Level of applicant's interest",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "rank_top10_pct": {
       "value": 25,
-      "quote": "C10 Percent in top tenth of high school graduating class 25%"
+      "quote": "C10 Percent in top tenth of high school graduating class 25%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 66,
-      "quote": "C10 Percent in top quarter of high school graduating class 66%"
+      "quote": "C10 Percent in top quarter of high school graduating class 66%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 29,
-      "quote": "C10 Percent of total first-time, first-year (freshmen) students who submitted high school class rank: 29%"
+      "quote": "C10 Percent of total first-time, first-year (freshmen) students who submitted high school class rank: 29%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 34,
-      "quote": "C11 Percent who had GPA of 4.0 34%"
+      "quote": "C11 Percent who had GPA of 4.0 34%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 31,
-      "quote": "Percent who had GPA between 3.75 and 3.99 31%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 31%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 21,
-      "quote": "Percent who had GPA between 3.50 and 3.74 21%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 21%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 10,
-      "quote": "Percent who had GPA between 3.25 and 3.49 10%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 10%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 3,
-      "quote": "Percent who had GPA between 3.00 and 3.24 3%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 3%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 1,
-      "quote": "Percent who had GPA between 2.50 and 2.99 1%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 1%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.82,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.82"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.82",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "C21 Does your institution offer an early decision plan... X No"
+      "quote": "C21 Does your institution offer an early decision plan... X No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "C22 Do you have a nonbinding early action plan... X No"
+      "quote": "C22 Do you have a nonbinding early action plan... X No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://asir.sdsu.edu/Documents/CommonDataSets/CDS_2025-26.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 17,
+  "total": 37
 }

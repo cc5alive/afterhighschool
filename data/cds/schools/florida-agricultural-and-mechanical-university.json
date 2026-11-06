@@ -1,0 +1,37 @@
+{
+  "slug": "florida-agricultural-and-mechanical-university",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Florida Agricultural and Mechanical University Common Data Set 2023-2024",
+    "url": "https://www.famu.edu/administration/strategic-planning-analysis-and-institutional-effectiveness/institutional-research/surveys/pdf/cds/CDS_2023-2024.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_submit_pct": 83.4,
+    "act_submit_pct": 44.5,
+    "sat_p25": 1040,
+    "sat_p50": 1090,
+    "sat_p75": 1150,
+    "act_p25": 19.5,
+    "act_p50": 21.75,
+    "act_p75": 23.75,
+    "rank_top10_pct": 23.29,
+    "rank_top25_pct": 27.4,
+    "gpa_average": 3.75,
+    "gpa_submit_pct": 99.85
+  },
+  "basis": {
+    "sat_submit_pct": "gemini",
+    "act_submit_pct": "gemini",
+    "sat_p25": "both",
+    "sat_p50": "both",
+    "sat_p75": "both",
+    "act_p25": "gemini",
+    "act_p50": "gemini",
+    "act_p75": "gemini",
+    "rank_top10_pct": "both",
+    "rank_top25_pct": "both",
+    "gpa_average": "gemini",
+    "gpa_submit_pct": "gemini"
+  }
+}
