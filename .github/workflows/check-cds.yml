@@ -7,7 +7,7 @@ on:
     - cron: '23 10 4 * *' # monthly: colleges post new CDS files through the fall and spring
   push:
     branches: [main]
-    paths: ['data/cds/sources.json', 'data/cds/drafts/*.json', 'scripts/extract-cds.mjs', 'scripts/check-cds.mjs', 'scripts/build-cds.mjs', 'scripts/lib/doc-text.mjs', 'scripts/lib/cds-fields.mjs', 'scripts/lib/cds-resolve.mjs']
+    paths: ['data/cds/mirror/**', 'data/cds/sources.json', 'data/cds/drafts/*.json', 'scripts/extract-cds.mjs', 'scripts/check-cds.mjs', 'scripts/build-cds.mjs', 'scripts/lib/doc-text.mjs', 'scripts/lib/cds-fields.mjs', 'scripts/lib/cds-resolve.mjs']
 permissions:
   contents: write
 concurrency: { group: cds-check, cancel-in-progress: false }

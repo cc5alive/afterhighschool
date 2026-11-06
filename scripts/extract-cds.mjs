@@ -5,7 +5,7 @@
 // Writes data/cds/extracted/<slug>.json (same shape as Gemini drafts). Every value is read from the document
 // itself, with the row it came from as its quote; scripts/build-cds.mjs sanity-checks and publishes.
 import fs from 'node:fs';
-import { norm } from './lib/doc-text.mjs';
+import { norm, docFromBuffer } from './lib/doc-text.mjs';
 import { resolveCds, yearOf, looksLikeCds, closeBrowser, downloadUrl } from './lib/cds-resolve.mjs';
 import { CDS_FACTORS, FACTOR_LEVELS } from './lib/cds-fields.mjs';
 
@@ -23,6 +23,7 @@ const current = (slug, src) => {
   try {
     const e = JSON.parse(fs.readFileSync(`${DIR}/${slug}.json`, 'utf8'));
     if (e.readerVersion !== READER_VERSION) return false;
+    if (src.mirror && e.mirror !== src.mirror) return false;
     if (e.sourceUrl) return e.sourceUrl === src.url;
     return !isFile(src.url) || e.source?.url === src.url;
   } catch { return false; }
@@ -281,9 +282,18 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
   let made = 0;
   for (const [slug, src] of Object.entries(sources)) {
     if (!force && current(slug, src) && !(pages && !isFile(src.url))) continue;
-    if (!retry && fresh(failed[slug], src.url)) continue;
+    if (!retry && !src.mirror && fresh(failed[slug], src.url)) continue;
     let resolved;
-    try { resolved = await resolveCds(src.url); } catch (err) { fail(slug, src.url, `error ${err.message}`); continue; }
+    try {
+      // Some schools block automated downloads (bot checks). For those, a person downloads the official file
+      // and we keep a copy in data/cds/mirror/; the page still cites the school's own link (src.url).
+      if (src.mirror && fs.existsSync(src.mirror)) {
+        const buf = fs.readFileSync(src.mirror);
+        const ext = src.mirror.split('.').pop().toLowerCase();
+        const type = { pdf: 'application/pdf', xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', xls: 'application/vnd.ms-excel', docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' }[ext] || '';
+        resolved = { doc: { ...(await docFromBuffer(buf, type, src.mirror)), status: 200 }, url: src.url };
+      } else resolved = await resolveCds(src.url);
+    } catch (err) { fail(slug, src.url, `error ${err.message}`); continue; }
     const doc = resolved.doc;
     if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
     if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
@@ -293,7 +303,7 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     // Temporary download hosts (Box, Google) expire: cite the listed link instead.
     const docUrl = resolved.url && !/boxcloud\.com|googleusercontent\.com/.test(resolved.url) ? resolved.url : src.url;
-    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url,
+    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, mirror: src.mirror || undefined,
       researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
     if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
     fs.writeFileSync(`${DIR}/${slug}.json`, JSON.stringify(d, null, 2) + '\n');
