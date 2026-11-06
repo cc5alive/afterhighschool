@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED } from '../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED } from '../lib/site.js';
 ---
 <Layout
   title="After High School — every path, with the real numbers"
@@ -44,7 +44,7 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNC
             <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
           </div>
           <button type="submit">Join the waitlist</button>
-          <p class="form-note">Just your email. {MILITARY_LAUNCHED ? "We'll write when fellowships and the other sections go live." : GAP_LAUNCHED ? "We'll write when fellowships, military paths and the other sections go live." : APPRENTICESHIPS_LAUNCHED ? "We'll write when gap years, fellowships and the other paths go live." : TRADES_LAUNCHED ? "We'll write when apprenticeships and the other paths go live." : "We'll write when trade schools, apprenticeships and the other paths go live."} No ads, and we never sell your information.</p>
+          <p class="form-note">Just your email. {SELF_LAUNCHED ? "We'll write when we add new paths and big updates." : MILITARY_LAUNCHED ? "We'll write when fellowships and the other sections go live." : GAP_LAUNCHED ? "We'll write when fellowships, military paths and the other sections go live." : APPRENTICESHIPS_LAUNCHED ? "We'll write when gap years, fellowships and the other paths go live." : TRADES_LAUNCHED ? "We'll write when apprenticeships and the other paths go live." : "We'll write when trade schools, apprenticeships and the other paths go live."} No ads, and we never sell your information.</p>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>
@@ -81,9 +81,9 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNC
             <text x="462" y="202" class="st-sub">earn while you learn</text>
             {GAP_LAUNCHED ? <a href="/gap-years"><text x="462" y="252" class="st-name">Gap year</text></a> : <text x="462" y="252" class="st-name">Gap year</text>}
             <text x="462" y="270" class="st-sub">travel, service, work</text>
-            <text x="462" y="320" class="st-name">Fellowship</text>
+            {SELF_LAUNCHED ? <a href="/fellowships"><text x="462" y="320" class="st-name">Fellowship</text></a> : <text x="462" y="320" class="st-name">Fellowship</text>}
             <text x="462" y="338" class="st-sub">Thiel, Palantir and more</text>
-            <text x="462" y="388" class="st-name">Teach yourself</text>
+            {SELF_LAUNCHED ? <a href="/teach-yourself"><text x="462" y="388" class="st-name">Teach yourself</text></a> : <text x="462" y="388" class="st-name">Teach yourself</text>}
             <text x="462" y="406" class="st-sub">courses, bootcamps, projects</text>
           </g>
         </svg>

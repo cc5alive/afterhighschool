@@ -19,4 +19,7 @@ export const GAP_LAUNCHED = true;
 // Military paths (launched Nov 6, 2026).
 export const MILITARY_LAUNCHED = true;
 
+// Teach yourself and fellowships: reachable by URL but noindex and out of the sitemap until reviewed.
+export const SELF_LAUNCHED = false;
+
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';

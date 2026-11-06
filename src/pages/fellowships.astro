@@ -1,0 +1,43 @@
+---
+// Fellowships that fund young people to build something instead of (or before) college. Only a few exist.
+import Layout from '../layouts/Layout.astro';
+import { SELF_LAUNCHED } from '../lib/site.js';
+const CHECKED = 'November 6, 2026';
+---
+<Layout title="Fellowships that pay you to build instead of going to college | After High School"
+  description="The few programs that fund young people to work on their own ideas instead of college, like the Thiel Fellowship and Emergent Ventures: who can apply and what they give, from their own pages."
+  path="/fellowships" nav="colleges" noindex={!SELF_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Fellowships</h1>
+    <p>A handful of programs give young people money to work on their own ideas, sometimes instead of college. They're rare and very selective, so treat them as a long shot to apply for alongside your other plans, not a plan by themselves.</p>
+  </section>
+
+  <ul class="sy-list fel-list">
+    <li class="sy-card">
+      <h2>Thiel Fellowship</h2>
+      <p class="sy-run">Thiel Foundation</p>
+      <p class="sy-what">Money to work full time on something you're building instead of school.</p>
+      <dl class="sy-facts">
+        <div><dt>Who can apply</dt><dd>Anyone 22 or younger without a college degree, as an individual (not a team). You can apply while in school, but you'd have to leave school to accept.</dd></div>
+        <div><dt>What you get</dt><dd>$250,000 over two years. The foundation takes no ownership of your company.</dd></div>
+        <div><dt>When to apply</dt><dd>Any time; applications are accepted year-round.</dd></div>
+        <div><dt>What they look for</dt><dd>Meaningful progress toward a concrete idea. You don't need a registered company or finished product, and you can live anywhere.</dd></div>
+      </dl>
+      <p class="sy-actions"><a class="button" href="https://thielfellowship.org/faq" rel="noopener" target="_blank">Read the Thiel Fellowship FAQ</a></p>
+      <p class="wys-src">Source: <a href="https://thielfellowship.org/faq" rel="noopener" target="_blank">Thiel Fellowship: FAQ</a>. Checked {CHECKED}.</p>
+    </li>
+    <li class="sy-card">
+      <h2>Emergent Ventures</h2>
+      <p class="sy-run">Mercatus Center at George Mason University</p>
+      <p class="sy-what">Grants and fellowships for people with ambitious ideas to improve society, plus funds for specific areas such as science policy and travel for career development.</p>
+      <dl class="sy-facts">
+        <div><dt>Who can apply</dt><dd>Anyone 13 or older. One application per person and project.</dd></div>
+        <div><dt>What you get</dt><dd>A grant; the program doesn't list typical amounts.</dd></div>
+        <div class="sy-get"><dt>Good to know</dt><dd>It doesn't accept AI-written applications and doesn't give feedback or status updates.</dd></div>
+      </dl>
+      <p class="sy-actions"><a class="button" href="https://www.mercatus.org/emergent-ventures" rel="noopener" target="_blank">Go to Emergent Ventures</a></p>
+      <p class="wys-src">Source: <a href="https://www.mercatus.org/emergent-ventures" rel="noopener" target="_blank">Mercatus Center: Emergent Ventures</a>. Checked {CHECKED}.</p>
+    </li>
+  </ul>
+  <p class="wys-src">We list only programs whose terms we could confirm on their own pages. Know one we should add? Email <a href="mailto:hello@afterhighschool.me">hello@afterhighschool.me</a>.</p>
+</Layout>

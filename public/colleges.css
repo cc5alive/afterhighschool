@@ -383,3 +383,11 @@ button.button { cursor: pointer; font-family: inherit; }
 .mil-ages li { display: flex; justify-content: space-between; border-bottom: 1px solid var(--rule); padding: 4px 0; }
 .mil-tiers { max-width: 24em; margin: 12px 0 8px; }
 .mil-tiers caption { text-align: left; font-weight: 700; padding-bottom: 6px; }
+
+/* Teach yourself and fellowships */
+.self-facts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.self-facts > div, .self-facts > div + div { border-left-color: var(--self); }
+.self-list .sy-card { border-left-color: var(--self); }
+.self-list h3 { margin: 0 0 6px; font-size: 1.2rem; }
+.fel-list .sy-card { border-left-color: var(--fellow); }
+@media (max-width: 640px) { .self-facts { grid-template-columns: 1fr; } }

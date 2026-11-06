@@ -1,0 +1,65 @@
+---
+// Teaching yourself: free courses, and earning college credit by exam (CLEP) for little or no money.
+import Layout from '../layouts/Layout.astro';
+import { SELF_LAUNCHED } from '../lib/site.js';
+const CHECKED = 'November 6, 2026';
+const S = {
+  wiki: { label: 'Wikipedia: College Level Examination Program (citing the College Board)', url: 'https://en.wikipedia.org/wiki/College_Level_Examination_Program' },
+  hacc: { label: 'HACC testing center: CLEP (updated August 2026)', url: 'https://libguides.hacc.edu/learningcommons/testing/CLEP' },
+  suffolk: { label: 'Suffolk County Community College: CLEP fees', url: 'https://sunysuffolk.edu/apply-enroll/transfer-students/CLEP/fees.jsp' },
+  ms: { label: 'Modern States: FAQ', url: 'https://modernstates.org/faq/' },
+  ocw: { label: 'MIT Open Learning: MIT OpenCourseWare', url: 'https://openlearning.mit.edu/courses-programs/mit-opencourseware' },
+  khan: { label: 'Khan Academy Help Center: does it cost money?', url: 'https://support.khanacademy.org/hc/en-us/articles/202260114-Does-it-cost-money-to-use-Khan-Academy' }
+};
+---
+<Layout title="Teach yourself: free courses and college credit by exam | After High School"
+  description="How to learn on your own after high school: free courses from MIT OpenCourseWare and Khan Academy, and how CLEP exams can earn you college credit for $97 or less, sometimes free."
+  path="/teach-yourself" nav="colleges" noindex={!SELF_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Teach yourself</h1>
+    <p>You can learn a lot on your own for free, and some of it can count as college credit later. Here's what's free, how credit by exam works, and the catch: what you learn alone only counts when someone recognizes it, so check before you count on it.</p>
+  </section>
+
+  <section class="block" aria-labelledby="clep">
+    <h2 id="clep">Earn college credit by exam (CLEP)</h2>
+    <p class="block-lede">CLEP exams, run by the College Board, test what you'd learn in an intro college course. Pass one and a college that accepts it gives you credit, so you skip the class and its tuition.</p>
+    <dl class="xfer-compare self-facts">
+      <div><dt>Exams</dt><dd><strong>36</strong> subjects</dd><dd class="xfer-sub">covering intro college courses</dd></div>
+      <div><dt>Cost</dt><dd><strong>$97</strong> per exam</dd><dd class="xfer-sub">plus a test center fee, for example $20 at HACC or $44 at Suffolk County Community College</dd></div>
+      <div><dt>Colleges</dt><dd><strong>About 2,900</strong></dd><dd class="xfer-sub">grant credit for CLEP, each with its own passing scores and limits</dd></div>
+    </dl>
+    <p class="block-lede">U.S. service members can take CLEP exams for free. Before you test, look up the college you plan to attend: what score it needs, which exams it takes, and how many CLEP credits it allows.</p>
+    <p class="wys-src">Sources: <a href={S.wiki.url} rel="noopener" target="_blank">{S.wiki.label}</a>; <a href={S.hacc.url} rel="noopener" target="_blank">{S.hacc.label}</a>; <a href={S.suffolk.url} rel="noopener" target="_blank">{S.suffolk.label}</a>. Checked {CHECKED}.</p>
+
+    <h3>Take CLEP for free through Modern States</h3>
+    <p class="block-lede">Modern States offers 32 free online courses taught by college professors, with free textbooks, that prepare you for CLEP exams. Finish a course (an average of 75% on its quizzes and at least 75% on its final, with retakes allowed) and you get a voucher that pays the CLEP exam fee. Some test centers still charge their own fee. You need to be 13 or older.</p>
+    <p class="wys-src">Source: <a href={S.ms.url} rel="noopener" target="_blank">{S.ms.label}</a>. Checked {CHECKED}.</p>
+  </section>
+
+  <section class="block" aria-labelledby="free">
+    <h2 id="free">Free courses</h2>
+    <ul class="sy-list self-list">
+      <li class="sy-card">
+        <h3>MIT OpenCourseWare</h3>
+        <p class="sy-what">Free, openly licensed teaching materials from more than 2,500 MIT courses, open to anyone.</p>
+        <p class="sy-actions"><a class="button" href="https://ocw.mit.edu/" rel="noopener" target="_blank">Go to MIT OpenCourseWare</a></p>
+        <p class="wys-src">Source: <a href={S.ocw.url} rel="noopener" target="_blank">{S.ocw.label}</a>. Checked {CHECKED}.</p>
+      </li>
+      <li class="sy-card">
+        <h3>Khan Academy</h3>
+        <p class="sy-what">A nonprofit with free online lessons and practice. It says learning there "is always free."</p>
+        <p class="sy-actions"><a class="button" href="https://www.khanacademy.org/" rel="noopener" target="_blank">Go to Khan Academy</a></p>
+        <p class="wys-src">Source: <a href={S.khan.url} rel="noopener" target="_blank">{S.khan.label}</a>. Checked {CHECKED}.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section class="block" aria-labelledby="count">
+    <h2 id="count">Making it count</h2>
+    <ul class="xfer-srcs">
+      <li><strong>For college credit,</strong> use exams a college recognizes (like CLEP), and check that college's policy first.</li>
+      <li><strong>For a job,</strong> show what you can do: a portfolio, projects you built, or a certification employers in that field ask for. Look at real job postings to see which ones they name.</li>
+      <li><strong>Keep a record.</strong> Save your course list, scores and projects in one place so you can show them later.</li>
+    </ul>
+  </section>
+</Layout>
