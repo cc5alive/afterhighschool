@@ -8,7 +8,7 @@ const PER = Number(process.argv[3] || 10);
 const OUT = 'docs/gemini-cds';
 const { schools } = JSON.parse(fs.readFileSync('data/scorecard/latest.json', 'utf8'));
 const status = JSON.parse(fs.readFileSync('data/school-status.json', 'utf8')).schools;
-const have = (slug) => fs.existsSync(`data/cds/${slug}.json`) || fs.existsSync(`data/cds/drafts/${slug}.json`);
+const have = (slug) => fs.existsSync(`data/cds/schools/${slug}.json`) || fs.existsSync(`data/cds/extracted/${slug}.json`) || fs.existsSync(`data/cds/drafts/${slug}.json`);
 
 const score = (s) => Math.log10(s.undergrads) + (s.admitRate != null && s.admitRate < 0.5 ? (0.5 - s.admitRate) * 4 : 0);
 const ranked = schools

@@ -1,4 +1,4 @@
-// Publishes Common Data Set values to data/cds/<slug>.json from two independent reads:
+// Publishes Common Data Set values to data/cds/schools/<slug>.json from two independent reads:
 //   data/cds/extracted/<slug>.json  values our reader took straight from the school's CDS document
 //   data/cds/drafts/<slug>.json     values Gemini copied, kept only where check-cds.mjs confirmed them
 // A value goes live only if it was read from the document and passes the consistency checks below.
@@ -70,7 +70,8 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
   const year = E?.cdsYear || G?.cdsYear || null;
   const n = Object.keys(v).length;
   report.push(`| ${slug} | ${year || '-'} | ${n} | ${notes.join('; ').replace(/\|/g, '/') || ''} |`);
-  const out = `data/cds/${slug}.json`;
+  fs.mkdirSync('data/cds/schools', { recursive: true });
+  const out = `data/cds/schools/${slug}.json`;
   if (n < 3) { if (fs.existsSync(out)) fs.unlinkSync(out); continue; }
   fs.writeFileSync(out, JSON.stringify({ slug, cdsYear: year, source: { title: src.title || 'Common Data Set', url: src.url }, builtAt: today, values: v, basis }, null, 2) + '\n');
 }
