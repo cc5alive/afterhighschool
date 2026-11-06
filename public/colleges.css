@@ -195,3 +195,29 @@
 .az-list { list-style: none; padding: 0; margin: 0; columns: 2 18em; column-gap: 32px; }
 .az-list li { break-inside: avoid; padding: 5px 0; border-bottom: 1px solid var(--rule); }
 .az-list span { color: var(--muted); font-size: 0.85rem; }
+
+/* Common Data Set panel inside "Getting in" */
+.cds { border-top: 1px solid var(--rule); margin-top: 8px; padding-top: 20px; }
+.cds-title { font-size: 1.15rem; margin: 0 0 6px; }
+.cds-intro { color: var(--muted); max-width: 44em; margin: 0 0 18px; }
+.cds-gpa { margin-bottom: 16px; }
+.cds-note { font-size: 0.875rem; color: var(--muted); max-width: 44em; margin: 6px 0 18px; }
+.cds-line { margin: 0 0 18px; }
+.cds-stats { margin-bottom: 8px; }
+.cds-factors { margin: 20px 0 8px; }
+.cds-factors h4 { font-size: 1rem; font-weight: 800; margin: 0 0 12px; }
+.factor-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px; }
+.factor-group { background: var(--card); border-radius: 10px; padding: 12px 14px; border-top: 4px solid var(--rule); }
+.factor-group.lv-very-important { border-top-color: var(--college); }
+.factor-group.lv-important { border-top-color: #7fa3ff; }
+.factor-group.lv-considered { border-top-color: var(--muted); }
+.factor-level { font-weight: 800; margin: 0 0 6px; }
+.factor-group ul { margin: 0; padding-left: 18px; display: grid; gap: 3px; font-size: 0.95rem; }
+.lv-not-considered { opacity: 0.85; }
+.cds-meta { font-size: 0.8rem; color: var(--muted); margin: 14px 0 20px; }
+.hbars { list-style: none; margin: 0 0 4px; padding: 0; display: grid; gap: 8px; max-width: 560px; }
+.hbars li { display: grid; grid-template-columns: 6.5em 1fr 3.2em; align-items: center; gap: 10px; }
+.hbar-label { font-weight: 600; font-size: 0.9rem; }
+.hbar-track { height: 18px; background: color-mix(in srgb, var(--rule) 50%, transparent); border-radius: 4px; overflow: hidden; }
+.hbar-fill { display: block; height: 100%; background: var(--college); border-radius: 4px; }
+.hbar-value { font-weight: 800; font-size: 0.9rem; text-align: right; }

@@ -5,10 +5,10 @@ Built 2026-11-06.
 | School | Year | Values published | Notes |
 | --- | --- | --- | --- |
 | babson-college | 2024-2025 | 17 | C11 buckets sum to 0.0; gpa_submit_pct implausibly low |
-| bates-college | 2025-2026 | 16 | C11 buckets sum to 0.0; gpa_submit_pct implausibly low |
+| bates-college | 2025-2026 | 13 | C11 buckets sum to 0.0; gpa_submit_pct implausibly low; SAT 1325-1510 far from federal 1420-1530 |
 | bennington-college | 2025-2026 | 17 | C11 buckets sum to 12.3 |
 | boise-state-university | 2025-2026 | 3 | C11 buckets sum to 0.0; gpa_submit_pct implausibly low |
-| bucknell-university | 2025-2026 | 43 |  |
+| bucknell-university | 2025-2026 | 37 | SAT 1170-1360 far from federal 1310-1470; ACT 25-32 far from federal 30-33 |
 | california-state-university-long-beach | 2025-2026 | 31 |  |
 | case-western-reserve-university | - | 22 | gpa_below1_pct read as the "totals = 100%" note |
 | claremont-mckenna-college | 2025-2026 | 36 | C11 buckets sum to 0.0 |
@@ -88,5 +88,5 @@ Built 2026-11-06.
 | washington-and-lee-university | 2025-2026 | 34 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.1397); C11 buckets sum to 0.0 |
 | wentworth-institute-of-technology | 2025-2026 | 22 |  |
 | west-virginia-university | 2024-2025 | 22 |  |
-| western-kentucky-university | 2025-2026 | 17 |  |
+| western-kentucky-university | 2025-2026 | 14 | ACT 18-25 far from federal 16-21 |
 | worcester-polytechnic-institute | 2025-2026 | 18 | C1 failed consistency (applied 12355, admitted undefined, enrolled 1300, federal admit rate 0.6016) |

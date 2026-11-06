@@ -57,6 +57,12 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
     if ([a, b, c].some((x) => x != null) && !(a >= lo && c <= hi && a < c && (b == null || (a <= b && b <= c))))
       drop([`${t}_p25`, `${t}_p50`, `${t}_p75`], `${t} scores inconsistent (${a}, ${b}, ${c})`);
   }
+  // Test scores should be close to the federal figures (a different year, so allow some drift).
+  const fedSat = school.sat?.readingP25 && school.sat?.mathP25 ? [school.sat.readingP25 + school.sat.mathP25, school.sat.readingP75 + school.sat.mathP75] : null;
+  if (fedSat && v.sat_p25 != null && (Math.abs(v.sat_p25 - fedSat[0]) > 90 || Math.abs(v.sat_p75 - fedSat[1]) > 90))
+    drop(['sat_p25', 'sat_p50', 'sat_p75'], `SAT ${v.sat_p25}-${v.sat_p75} far from federal ${fedSat[0]}-${fedSat[1]}`);
+  if (school.act?.p25 && v.act_p25 != null && (Math.abs(v.act_p25 - school.act.p25) > 3 || Math.abs(v.act_p75 - school.act.p75) > 3))
+    drop(['act_p25', 'act_p50', 'act_p75'], `ACT ${v.act_p25}-${v.act_p75} far from federal ${school.act.p25}-${school.act.p75}`);
   if ('rank_top10_pct' in v && 'rank_top25_pct' in v && v.rank_top10_pct > v.rank_top25_pct) drop(['rank_top10_pct', 'rank_top25_pct'], 'class rank inconsistent');
   for (const p of ['ed', 'ea']) {
     const a = v[`${p}_applied`], b = v[`${p}_admitted`];

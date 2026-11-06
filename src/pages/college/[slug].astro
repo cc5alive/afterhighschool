@@ -1,7 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import Stat from '../../components/Stat.astro';
-import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug, gradOnly } from '../../lib/data.js';
+import CdsPanel from '../../components/CdsPanel.astro';
+import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug, gradOnly, cds } from '../../lib/data.js';
 import {
   pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
   INCOME_BAND_LABEL, admitRateText, scorecardUrl
@@ -20,6 +21,7 @@ const similar = similarSchools(s);
 const hl = highlights.get(s.slug);
 const reviewedDate = hl && new Date(`${hl.reviewedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 const easier = easierSchools(s);
+const cd = cds.get(s.slug);
 const status = schoolStatus.get(s.slug);
 const statusRelated = status?.related && bySlug.get(status.related);
 const statusChecked = status && new Date(`${status.checkedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
@@ -138,6 +140,7 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
         <Stat label="SAT (middle 50%)" value={satRange} note={satRange && 'Reading + math, enrolled first-years who sent scores'} missing="Not reported" href={src} />
         <Stat label="ACT (middle 50%)" value={actRange} note={actRange && 'Composite, enrolled first-years who sent scores'} missing="Not reported" href={src} />
       </dl>
+      {cd && <CdsPanel c={cd} name={s.name} />}
       <div class="chances-slot">
         <p><strong>Your chances here</strong> — a calculator that shows your odds as an honest range is coming. <a href="/#join">Join the waitlist</a> to hear when it opens.</p>
       </div>

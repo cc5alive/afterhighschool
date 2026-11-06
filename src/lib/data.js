@@ -44,6 +44,10 @@ export const schools = allSchools.filter(isListed);
 // Reviewed "What's special" facts: data/highlights/<slug>.json, one file per school.
 const highlightFiles = import.meta.glob('../../data/highlights/*.json', { eager: true, import: 'default' });
 export const highlights = new Map(Object.values(highlightFiles).map((h) => [h.slug, h]));
+
+// Common Data Set values read from each school's own CDS document: data/cds/schools/<slug>.json
+const cdsFiles = import.meta.glob('../../data/cds/schools/*.json', { eager: true, import: 'default' });
+export const cds = new Map(Object.values(cdsFiles).map((c) => [c.slug, c]));
 export const bySlug = new Map(allSchools.map((s) => [s.slug, s]));
 export const states = Object.keys(STATE_NAMES)
   .map((code) => ({ code, name: STATE_NAMES[code], slug: stateSlug(code), count: schools.filter((s) => s.state === code).length }))

@@ -1,0 +1,133 @@
+---
+// "From the school's own report": Common Data Set numbers (GPA spread, early decision, wait list,
+// test scores, class rank, what admissions weighs). Every number links to the CDS document it came from.
+const { c, name } = Astro.props;
+const v = c.values;
+const int = (n) => n.toLocaleString('en-US');
+const pctTxt = (n) => `${Math.round(n)}%`;
+const rate = (a, b) => (a != null && b > 0 ? a / b : null);
+const year = c.cdsYear ? c.cdsYear.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2') : null;
+const checked = new Date(`${c.builtAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+
+// GPA spread: the CDS buckets, with everything under 2.5 combined.
+const gpaRows = [
+  ['4.0', v.gpa_400_pct], ['3.75–3.99', v.gpa_375_pct], ['3.50–3.74', v.gpa_350_pct], ['3.25–3.49', v.gpa_325_pct],
+  ['3.00–3.24', v.gpa_300_pct], ['2.50–2.99', v.gpa_250_pct],
+  ['Below 2.50', [v.gpa_200_pct, v.gpa_100_pct, v.gpa_below1_pct].some((x) => x != null) ? (v.gpa_200_pct || 0) + (v.gpa_100_pct || 0) + (v.gpa_below1_pct || 0) : null]
+].filter(([, x]) => x != null);
+const hasGpa = gpaRows.length >= 5;
+const gpaMax = Math.max(1, ...gpaRows.map(([, x]) => x));
+const above375 = hasGpa ? (v.gpa_400_pct || 0) + (v.gpa_375_pct || 0) : null;
+
+const overall = rate(v.admitted_total, v.applied_total);
+const ed = rate(v.ed_admitted, v.ed_applied);
+const ea = rate(v.ea_admitted, v.ea_applied);
+const wl = v.waitlist_admitted != null && v.waitlist_accepted > 0 ? rate(v.waitlist_admitted, v.waitlist_accepted) : null;
+const sat = v.sat_p25 && v.sat_p75 ? `${v.sat_p25}–${v.sat_p75}` : null;
+const act = v.act_p25 && v.act_p75 ? `${v.act_p25}–${v.act_p75}` : null;
+
+const FACTOR = {
+  factor_rigor: 'How challenging your classes were', factor_gpa: 'GPA', factor_class_rank: 'Class rank',
+  factor_test_scores: 'Test scores', factor_essay: 'Essay', factor_recommendations: 'Recommendations',
+  factor_interview: 'Interview', factor_extracurriculars: 'Activities', factor_talent: 'A talent or ability',
+  factor_character: 'Character and personal qualities', factor_first_generation: 'Being first in your family to go to college',
+  factor_alumni: 'Family who went there (legacy)', factor_geography: 'Where you live', factor_state_residency: 'Living in the state',
+  factor_religion: 'Religious affiliation', factor_volunteer: 'Volunteer work', factor_work: 'Work experience',
+  factor_interest: 'Showing interest in the school'
+};
+const LEVELS = ['Very Important', 'Important', 'Considered', 'Not Considered'];
+const LEVEL_LABEL = { 'Very Important': 'Very important', Important: 'Important', Considered: 'Considered', 'Not Considered': 'Not considered' };
+const factors = LEVELS.map((lv) => ({ lv, items: Object.keys(FACTOR).filter((k) => v[k] === lv).map((k) => FACTOR[k]) })).filter((g) => g.items.length);
+const hasFactors = factors.reduce((a, g) => a + g.items.length, 0) >= 8;
+const src = c.source.url;
+---
+<div class="cds">
+  <h3 class="cds-title">From {name}'s own report</h3>
+  <p class="cds-intro">These numbers come from the school's Common Data Set{year && ` for ${year}`}, a standard report colleges publish about their applicants and first-year students. <a href={src} rel="noopener" target="_blank">Open the report</a>.</p>
+
+  {hasGpa && (
+    <figure class="bars cds-gpa">
+      <figcaption>High school GPA of first-year students{v.gpa_submit_pct != null && v.gpa_submit_pct < 100 && ` (the ${pctTxt(v.gpa_submit_pct)} who reported one)`}</figcaption>
+      <ul class="hbars" aria-label={`Share of first-year students at ${name} in each high school GPA range`}>
+        {gpaRows.map(([label, x]) => (
+          <li>
+            <span class="hbar-label">{label}</span>
+            <span class="hbar-track"><span class="hbar-fill" style={`width:${x > 0 ? Math.max(1.5, (x / gpaMax) * 100) : 0}%`}></span></span>
+            <span class="hbar-value">{x < 1 && x > 0 ? '<1%' : pctTxt(x)}</span>
+          </li>
+        ))}
+      </ul>
+      <p class="cds-note">
+        {above375 != null && `${pctTxt(above375)} had a 3.75 or higher.`}
+        {v.gpa_average != null && ` The average was ${v.gpa_average.toFixed(2)}.`}
+        {' '}Schools count GPA differently (weighted or not), so compare ranges loosely.
+      </p>
+    </figure>
+  )}
+  {!hasGpa && v.gpa_average != null && (
+    <p class="cds-line"><strong>Average high school GPA:</strong> {v.gpa_average.toFixed(2)}{v.gpa_submit_pct != null && ` (the ${pctTxt(v.gpa_submit_pct)} of first-years who reported one)`}</p>
+  )}
+
+  <dl class="stat-grid cds-stats">
+    {overall != null && (
+      <div class="stat"><dt>Admit rate in this report</dt><dd>
+        <span class="stat-value">{pctTxt(overall * 100)}</span>
+        <span class="stat-note">{int(v.admitted_total)} admitted of {int(v.applied_total)} first-year applicants</span>
+      </dd></div>
+    )}
+    {ed != null && (
+      <div class="stat"><dt>Early decision admit rate</dt><dd>
+        <span class="stat-value">{pctTxt(ed * 100)}</span>
+        <span class="stat-note">{int(v.ed_admitted)} admitted of {int(v.ed_applied)}. Early decision is binding: you commit to attend if admitted.</span>
+      </dd></div>
+    )}
+    {ea != null && (
+      <div class="stat"><dt>Early action admit rate</dt><dd>
+        <span class="stat-value">{pctTxt(ea * 100)}</span>
+        <span class="stat-note">{int(v.ea_admitted)} admitted of {int(v.ea_applied)}. Early action isn't binding.</span>
+      </dd></div>
+    )}
+    {wl != null && (
+      <div class="stat"><dt>Off the wait list</dt><dd>
+        <span class="stat-value">{pctTxt(wl * 100)}</span>
+        <span class="stat-note">{int(v.waitlist_admitted)} admitted of {int(v.waitlist_accepted)} who stayed on the wait list{v.waitlist_offered != null && ` (${int(v.waitlist_offered)} were offered a spot)`}</span>
+      </dd></div>
+    )}
+    {sat && (
+      <div class="stat"><dt>SAT, middle 50%</dt><dd>
+        <span class="stat-value">{sat}</span>
+        <span class="stat-note">{v.sat_submit_pct != null ? `${pctTxt(v.sat_submit_pct)} of first-years sent SAT scores` : 'First-years who sent scores'}</span>
+      </dd></div>
+    )}
+    {act && (
+      <div class="stat"><dt>ACT, middle 50%</dt><dd>
+        <span class="stat-value">{act}</span>
+        <span class="stat-note">{v.act_submit_pct != null ? `${pctTxt(v.act_submit_pct)} of first-years sent ACT scores` : 'First-years who sent scores'}</span>
+      </dd></div>
+    )}
+    {v.rank_top10_pct != null && (
+      <div class="stat"><dt>Top 10% of their class</dt><dd>
+        <span class="stat-value">{pctTxt(v.rank_top10_pct)}</span>
+        <span class="stat-note">{v.rank_top25_pct != null && `${pctTxt(v.rank_top25_pct)} were in the top quarter. `}{v.rank_submit_pct != null && `Based on the ${pctTxt(v.rank_submit_pct)} whose school ranks.`}</span>
+      </dd></div>
+    )}
+  </dl>
+  {(ed != null || ea != null) && overall != null && (
+    <p class="cds-note">Early applicants often include recruited athletes and students who knew this was their first choice, so a higher early rate doesn't mean applying early raises any one student's odds by that much.</p>
+  )}
+
+  {hasFactors && (
+    <div class="cds-factors">
+      <h4>What the admissions office says it weighs</h4>
+      <div class="factor-grid">
+        {factors.map((g) => (
+          <div class={`factor-group lv-${g.lv.toLowerCase().replace(/ /g, '-')}`}>
+            <p class="factor-level">{LEVEL_LABEL[g.lv]}</p>
+            <ul>{g.items.map((t) => <li>{t}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+  <p class="cds-meta">Read from the school's Common Data Set and checked for consistency on {checked}. <a href={src} rel="noopener" target="_blank">Source: {name} Common Data Set{year && ` ${year}`}</a></p>
+</div>
