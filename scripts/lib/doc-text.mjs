@@ -99,6 +99,14 @@ function htmlDoc(html) {
   return { raw: html, rows };
 }
 
+// Parses an already-downloaded document (used by the browser fallback too).
+export async function docFromBuffer(buf, contentType = '', url = '') {
+  const kind = kindOf(buf, contentType, url);
+  let doc = null;
+  try { doc = kind === 'pdf' ? await pdfDoc(buf) : kind === 'xlsx' ? await xlsxDoc(buf) : htmlDoc(buf.toString('utf8')); } catch { /* unreadable */ }
+  return { kind, text: doc ? norm(doc.raw) : null, rows: doc ? doc.rows : null };
+}
+
 // Returns { text, rows, kind, status, finalUrl }; text is normalized (lowercase, single spaces) or null.
 export async function fetchDocText(url, { timeout = 30000 } = {}) {
   let status = 0, finalUrl = url, text = null, kind = null, rows = null;
@@ -111,9 +119,7 @@ export async function fetchDocText(url, { timeout = 30000 } = {}) {
     status = r.status; finalUrl = r.url;
     if (r.ok) {
       const buf = Buffer.from(await r.arrayBuffer());
-      kind = kindOf(buf, r.headers.get('content-type') || '', finalUrl);
-      const doc = kind === 'pdf' ? await pdfDoc(buf) : kind === 'xlsx' ? await xlsxDoc(buf) : htmlDoc(buf.toString('utf8'));
-      if (doc) { text = norm(doc.raw); rows = doc.rows; }
+      ({ text, rows, kind } = await docFromBuffer(buf, r.headers.get('content-type') || '', finalUrl));
     }
   } catch { /* network or parse error: text stays null */ }
   return { text, rows, kind, status, finalUrl };

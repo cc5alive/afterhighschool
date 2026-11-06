@@ -6,7 +6,7 @@
 // itself, with the row it came from as its quote; scripts/build-cds.mjs sanity-checks and publishes.
 import fs from 'node:fs';
 import { norm } from './lib/doc-text.mjs';
-import { resolveCds, yearOf, looksLikeCds } from './lib/cds-resolve.mjs';
+import { resolveCds, yearOf, looksLikeCds, closeBrowser } from './lib/cds-resolve.mjs';
 import { CDS_FACTORS, FACTOR_LEVELS } from './lib/cds-fields.mjs';
 
 const SOURCES = 'data/cds/sources.json';
@@ -145,3 +145,4 @@ for (const [slug, src] of Object.entries(sources)) {
 }
 console.log(log.join('\n'));
 console.log(`wrote ${made} drafts`);
+await closeBrowser();

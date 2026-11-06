@@ -6,7 +6,7 @@
 // Sets values[key].found = true | false | null (document unreadable) and values[key].how.
 import fs from 'node:fs';
 import { squash, norm } from './lib/doc-text.mjs';
-import { resolveCds } from './lib/cds-resolve.mjs';
+import { resolveCds, closeBrowser } from './lib/cds-resolve.mjs';
 import { CDS_FIELDS, CDS_FACTORS, FACTOR_LEVELS } from './lib/cds-fields.mjs';
 
 const DIR = 'data/cds/drafts';
@@ -103,3 +103,4 @@ const md = ['# CDS check', '', `Checked ${report.length} schools on ${new Date()
   '| School | Document | Status | Values confirmed |', '| --- | --- | --- | --- |', ...report].join('\n');
 if (report.length) fs.writeFileSync(`${DIR}/_cds-check.md`, md + '\n');
 console.log(`checked ${report.length} schools`);
+await closeBrowser();
