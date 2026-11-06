@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.unco.edu/common-data-set/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -121,6 +121,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1073,
+      "quote": "D2 total 1,073 1,036 526"
+    },
+    "transfer_admitted": {
+      "value": 1036,
+      "quote": "D2 total 1,073 1,036 526"
+    },
+    "transfer_enrolled": {
+      "value": 526,
+      "quote": "D2 total 1,073 1,036 526"
     }
   },
   "concerns": null

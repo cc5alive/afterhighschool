@@ -2,12 +2,13 @@
   "slug": "university-of-houston",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.uh.edu/ir/reports/common-data-sets/cds-data/common_data_set_2025-2026_final.xlsx"
   },
+  "sourceUrl": "https://www.uh.edu/ir/reports/common-data-sets/cds-data/common_data_set_2025-2026_final.xlsx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -101,6 +102,18 @@
     "act_p75": {
       "value": 28,
       "quote": "act composite 22 25 28 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 8358,
+      "quote": "D2 total 8358 7390 4415"
+    },
+    "transfer_admitted": {
+      "value": 7390,
+      "quote": "D2 total 8358 7390 4415"
+    },
+    "transfer_enrolled": {
+      "value": 4415,
+      "quote": "D2 total 8358 7390 4415"
     }
   },
   "concerns": null

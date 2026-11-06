@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.ir.iastate.edu/files/documents/cds/CDS-25-26.pdf"
   },
+  "sourceUrl": "https://www.ir.iastate.edu/files/documents/cds/CDS-25-26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -157,6 +158,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2757,
+      "quote": "D2 total 2,757 2,206 1,351"
+    },
+    "transfer_admitted": {
+      "value": 2206,
+      "quote": "D2 total 2,757 2,206 1,351"
+    },
+    "transfer_enrolled": {
+      "value": 1351,
+      "quote": "D2 total 2,757 2,206 1,351"
     }
   },
   "concerns": null

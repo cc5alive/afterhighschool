@@ -2,7 +2,7 @@
   "slug": "university-of-new-mexico-main-campus",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://oia.unm.edu/resources/cds_25_26_updated.pdf"
   },
   "builtAt": "2026-11-06",
@@ -17,7 +17,10 @@
     "gpa_100_pct": 0,
     "gpa_below1_pct": 0,
     "gpa_average": 3.4,
-    "gpa_submit_pct": 75.5
+    "gpa_submit_pct": 75.5,
+    "transfer_applied": 2619,
+    "transfer_admitted": 1876,
+    "transfer_enrolled": 1185
   },
   "basis": {
     "gpa_400_pct": "reader",
@@ -30,6 +33,9 @@
     "gpa_100_pct": "reader",
     "gpa_below1_pct": "reader",
     "gpa_average": "reader",
-    "gpa_submit_pct": "reader"
+    "gpa_submit_pct": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

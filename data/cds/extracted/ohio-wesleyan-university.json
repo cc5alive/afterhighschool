@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.owu.edu/files/resources/cds-2025-2026-owu.pdf"
   },
+  "sourceUrl": "https://www.owu.edu/files/resources/cds-2025-2026-owu.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -125,6 +126,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 252,
+      "quote": "D2 total 252 133 5"
+    },
+    "transfer_admitted": {
+      "value": 133,
+      "quote": "D2 total 252 133 5"
+    },
+    "transfer_enrolled": {
+      "value": 5,
+      "quote": "D2 total 252 133 5"
     },
     "ed_offered": {
       "value": "yes",

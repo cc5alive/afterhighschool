@@ -2,7 +2,7 @@
   "slug": "colorado-college",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf"
   },
   "builtAt": "2026-11-06",
@@ -37,6 +37,9 @@
     "gpa_submit_pct": 87.06,
     "ed_applied": 764,
     "ed_admitted": 272,
+    "transfer_applied": 177,
+    "transfer_admitted": 72,
+    "transfer_enrolled": 25,
     "factor_rigor": "Important",
     "factor_class_rank": "Considered",
     "factor_gpa": "Important",
@@ -88,6 +91,9 @@
     "gpa_submit_pct": "both",
     "ed_applied": "both",
     "ed_admitted": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "reader",
     "factor_class_rank": "reader",
     "factor_gpa": "reader",

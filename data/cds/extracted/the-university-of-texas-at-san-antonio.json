@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.utsa.edu/ir/docs/resources/commonDataSet/CDS_2024-2025.xlsx"
   },
+  "sourceUrl": "https://www.utsa.edu/ir/docs/resources/commonDataSet/CDS_2024-2025.xlsx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -61,6 +62,18 @@
     "act_p75": {
       "value": 25,
       "quote": "act composite 19 23 25"
+    },
+    "transfer_applied": {
+      "value": 5215,
+      "quote": "D2 total 5215 4668 3153"
+    },
+    "transfer_admitted": {
+      "value": 4668,
+      "quote": "D2 total 5215 4668 3153"
+    },
+    "transfer_enrolled": {
+      "value": 3153,
+      "quote": "D2 total 5215 4668 3153"
     }
   },
   "concerns": null

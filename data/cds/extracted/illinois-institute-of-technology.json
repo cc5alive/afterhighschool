@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.iit.edu/oii/common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -132,6 +132,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 928,
+      "quote": "D2 total 928 377 221"
+    },
+    "transfer_admitted": {
+      "value": 377,
+      "quote": "D2 total 928 377 221"
+    },
+    "transfer_enrolled": {
+      "value": 221,
+      "quote": "D2 total 928 377 221"
     },
     "ed_offered": {
       "value": "yes",

@@ -2,7 +2,7 @@
   "slug": "fairfield-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.fairfield.edu/_files/documents/pdfs/4422120485_about_offices-and-departments_institutional-research_common-data-sheet-2025-26_03302026.pdf"
   },
   "builtAt": "2026-11-06",
@@ -37,6 +37,9 @@
     "gpa_submit_pct": 99,
     "ed_applied": 689,
     "ed_admitted": 566,
+    "transfer_applied": 515,
+    "transfer_admitted": 41,
+    "transfer_enrolled": 35,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Considered",
     "factor_gpa": "Very Important",
@@ -88,6 +91,9 @@
     "gpa_submit_pct": "both",
     "ed_applied": "both",
     "ed_admitted": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "both",
     "factor_class_rank": "both",
     "factor_gpa": "both",

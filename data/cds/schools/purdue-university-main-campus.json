@@ -2,7 +2,7 @@
   "slug": "purdue-university-main-campus",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Purdue University Common Data Set 2025-2026",
     "url": "https://www.purdue.edu/idata/wp-content/uploads/2026/04/CDS-2025-2026.xlsx"
   },
   "builtAt": "2026-11-06",
@@ -23,6 +23,9 @@
     "rank_submit_pct": 31.29,
     "gpa_average": 3.81,
     "gpa_submit_pct": 92.76,
+    "transfer_applied": 4422,
+    "transfer_admitted": 1882,
+    "transfer_enrolled": 1058,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Considered",
     "factor_gpa": "Very Important",
@@ -58,6 +61,9 @@
     "rank_submit_pct": "reader",
     "gpa_average": "both",
     "gpa_submit_pct": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "gemini",
     "factor_class_rank": "gemini",
     "factor_gpa": "gemini",

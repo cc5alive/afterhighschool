@@ -8,7 +8,7 @@
   "sourceUrl": "https://miamioh.edu/institutional-research/common-data-set.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -102,6 +102,18 @@
     "act_p75": {
       "value": 30,
       "quote": "act composite 25 28 30"
+    },
+    "transfer_applied": {
+      "value": 1426,
+      "quote": "D2 total 1426 696 398"
+    },
+    "transfer_admitted": {
+      "value": 696,
+      "quote": "D2 total 1426 696 398"
+    },
+    "transfer_enrolled": {
+      "value": 398,
+      "quote": "D2 total 1426 696 398"
     },
     "ed_offered": {
       "value": "yes",

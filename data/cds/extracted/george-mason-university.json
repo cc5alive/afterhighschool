@@ -2,12 +2,13 @@
   "slug": "george-mason-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://oiep.gmu.edu/wp-content/uploads/2026/02/CDS-PDF-2025-2026_PDF_Template_Final_02_19.pdf"
   },
+  "sourceUrl": "https://oiep.gmu.edu/wp-content/uploads/2026/02/CDS-PDF-2025-2026_PDF_Template_Final_02_19.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -149,6 +150,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 5185,
+      "quote": "D2 total 5185 4304 2959"
+    },
+    "transfer_admitted": {
+      "value": 4304,
+      "quote": "D2 total 5185 4304 2959"
+    },
+    "transfer_enrolled": {
+      "value": 2959,
+      "quote": "D2 total 5185 4304 2959"
     }
   },
   "concerns": null

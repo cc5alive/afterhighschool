@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://ir.ucr.edu/sites/default/files/2026-05/cds-2025-2026.pdf"
   },
+  "sourceUrl": "https://ir.ucr.edu/sites/default/files/2026-05/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -125,6 +126,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 13778,
+      "quote": "D2 total 13,778 9,341 1,607"
+    },
+    "transfer_admitted": {
+      "value": 9341,
+      "quote": "D2 total 13,778 9,341 1,607"
+    },
+    "transfer_enrolled": {
+      "value": 1607,
+      "quote": "D2 total 13,778 9,341 1,607"
     }
   },
   "concerns": null

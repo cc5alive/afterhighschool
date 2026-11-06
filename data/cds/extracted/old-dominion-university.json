@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.odu.edu/sites/default/files/2026/documents/cds-2025-2026.pdf"
   },
+  "sourceUrl": "https://www.odu.edu/sites/default/files/2026/documents/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -157,6 +158,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3264,
+      "quote": "D2 total 3,264 2,868 1,696"
+    },
+    "transfer_admitted": {
+      "value": 2868,
+      "quote": "D2 total 3,264 2,868 1,696"
+    },
+    "transfer_enrolled": {
+      "value": 1696,
+      "quote": "D2 total 3,264 2,868 1,696"
     }
   },
   "concerns": null

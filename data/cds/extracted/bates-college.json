@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.bates.edu/research/files/2026/06/CDS_2025-2026.pdf"
   },
+  "sourceUrl": "https://www.bates.edu/research/files/2026/06/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -105,6 +106,18 @@
     "factor_interest": {
       "value": "Important",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 165,
+      "quote": "D2 total 165 34 10"
+    },
+    "transfer_admitted": {
+      "value": 34,
+      "quote": "D2 total 165 34 10"
+    },
+    "transfer_enrolled": {
+      "value": 10,
+      "quote": "D2 total 165 34 10"
     },
     "ed_offered": {
       "value": "yes",

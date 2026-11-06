@@ -5,9 +5,10 @@
     "title": "Cornell Common Data Set 2025-26",
     "url": "https://irp.cornell.edu/wp-content/uploads/2026/09/CDS-Cornell-2025-2026-v2.xlsx"
   },
+  "sourceUrl": "https://irp.cornell.edu/wp-content/uploads/2026/09/CDS-Cornell-2025-2026-v2.xlsx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -77,6 +78,18 @@
     "act_p75": {
       "value": 35,
       "quote": "act composite 33 34 35 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 7381,
+      "quote": "D2 total 7381 864 625"
+    },
+    "transfer_admitted": {
+      "value": 864,
+      "quote": "D2 total 7381 864 625"
+    },
+    "transfer_enrolled": {
+      "value": 625,
+      "quote": "D2 total 7381 864 625"
     },
     "ed_offered": {
       "value": "yes",

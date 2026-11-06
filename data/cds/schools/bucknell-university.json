@@ -2,7 +2,7 @@
   "slug": "bucknell-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2024-2025 | Bucknell University",
     "url": "https://www.bucknell.edu/sites/default/files/institutional-research/common_data_set_2025-26.pdf"
   },
   "builtAt": "2026-11-06",
@@ -31,6 +31,9 @@
     "gpa_submit_pct": 100,
     "ed_applied": 1200,
     "ed_admitted": 656,
+    "transfer_applied": 146,
+    "transfer_admitted": 58,
+    "transfer_enrolled": 32,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Considered",
     "factor_gpa": "Very Important",
@@ -75,6 +78,9 @@
     "gpa_submit_pct": "both",
     "ed_applied": "both",
     "ed_admitted": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "both",
     "factor_class_rank": "both",
     "factor_gpa": "both",

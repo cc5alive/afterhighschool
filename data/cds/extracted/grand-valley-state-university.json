@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.gvsu.edu/ia/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -86,6 +86,18 @@
     "act_p75": {
       "value": 30,
       "quote": "act composite 21 26 30 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 2973,
+      "quote": "D2 total 2973 2449 1121"
+    },
+    "transfer_admitted": {
+      "value": 2449,
+      "quote": "D2 total 2973 2449 1121"
+    },
+    "transfer_enrolled": {
+      "value": 1121,
+      "quote": "D2 total 2973 2449 1121"
     }
   },
   "concerns": null

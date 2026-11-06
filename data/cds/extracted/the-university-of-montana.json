@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.umt.edu/institutional-research/documents/cds-pdf-2025-2026_pdf_template1.pdf"
   },
+  "sourceUrl": "https://www.umt.edu/institutional-research/documents/cds-pdf-2025-2026_pdf_template1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -143,6 +144,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1578,
+      "quote": "D2 total 1578 1278 639"
+    },
+    "transfer_admitted": {
+      "value": 1278,
+      "quote": "D2 total 1578 1278 639"
+    },
+    "transfer_enrolled": {
+      "value": 639,
+      "quote": "D2 total 1578 1278 639"
     }
   },
   "concerns": null

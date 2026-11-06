@@ -8,7 +8,7 @@
   "sourceUrl": "https://iraps.ucsc.edu/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -70,6 +70,18 @@
     "gpa_submit_pct": {
       "value": 99.26,
       "quote": "percent submitting gpa 99.26%"
+    },
+    "transfer_applied": {
+      "value": 12832,
+      "quote": "D2 total 12,832 8,86 0"
+    },
+    "transfer_admitted": {
+      "value": 886,
+      "quote": "D2 total 12,832 8,86 0"
+    },
+    "transfer_enrolled": {
+      "value": 0,
+      "quote": "D2 total 12,832 8,86 0"
     }
   },
   "concerns": null

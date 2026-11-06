@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2026/08/CDS_2025-2026_to_publish-1.pdf"
   },
+  "sourceUrl": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2026/08/CDS_2025-2026_to_publish-1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -168,6 +169,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3231,
+      "quote": "D2 total 3,231 380 311"
+    },
+    "transfer_admitted": {
+      "value": 380,
+      "quote": "D2 total 3,231 380 311"
+    },
+    "transfer_enrolled": {
+      "value": 311,
+      "quote": "D2 total 3,231 380 311"
     }
   },
   "concerns": null

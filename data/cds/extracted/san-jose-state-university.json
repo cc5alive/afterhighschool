@@ -2,12 +2,13 @@
   "slug": "san-jose-state-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf"
   },
+  "sourceUrl": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -161,6 +162,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 9242,
+      "quote": "D2 total 9,242 7,662 3,738"
+    },
+    "transfer_admitted": {
+      "value": 7662,
+      "quote": "D2 total 9,242 7,662 3,738"
+    },
+    "transfer_enrolled": {
+      "value": 3738,
+      "quote": "D2 total 9,242 7,662 3,738"
     }
   },
   "concerns": null

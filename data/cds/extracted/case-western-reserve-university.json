@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf"
   },
+  "sourceUrl": "https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -165,6 +166,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 661,
+      "quote": "D2 total 661 173 51"
+    },
+    "transfer_admitted": {
+      "value": 173,
+      "quote": "D2 total 661 173 51"
+    },
+    "transfer_enrolled": {
+      "value": 51,
+      "quote": "D2 total 661 173 51"
     },
     "ed_offered": {
       "value": "yes",

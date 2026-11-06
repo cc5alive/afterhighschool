@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.wabash.edu/institutional_research/common",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -94,6 +94,18 @@
     "sat_p75": {
       "value": 1335,
       "quote": "sat composite 1130 1250 1335 c.977 act reading: 12-17 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 40,
+      "quote": "D2 total 40 11 4"
+    },
+    "transfer_admitted": {
+      "value": 11,
+      "quote": "D2 total 40 11 4"
+    },
+    "transfer_enrolled": {
+      "value": 4,
+      "quote": "D2 total 40 11 4"
     },
     "ed_offered": {
       "value": "yes",

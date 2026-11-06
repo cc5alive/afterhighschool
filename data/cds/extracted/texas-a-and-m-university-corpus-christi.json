@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.tamucc.edu/president/pir/cds_2025-2026-word_web.pdf"
   },
+  "sourceUrl": "https://www.tamucc.edu/president/pir/cds_2025-2026-word_web.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -153,6 +154,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1114,
+      "quote": "D2 total 1114 1000 596"
+    },
+    "transfer_admitted": {
+      "value": 1000,
+      "quote": "D2 total 1114 1000 596"
+    },
+    "transfer_enrolled": {
+      "value": 596,
+      "quote": "D2 total 1114 1000 596"
     }
   },
   "concerns": null

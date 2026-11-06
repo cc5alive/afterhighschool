@@ -18,7 +18,10 @@
     "act_p75": 25,
     "rank_top10_pct": 16,
     "rank_top25_pct": 55,
-    "rank_submit_pct": 98
+    "rank_submit_pct": 98,
+    "transfer_applied": 5215,
+    "transfer_admitted": 4668,
+    "transfer_enrolled": 3153
   },
   "basis": {
     "applied_total": "reader",
@@ -32,6 +35,9 @@
     "act_p75": "reader",
     "rank_top10_pct": "reader",
     "rank_top25_pct": "reader",
-    "rank_submit_pct": "reader"
+    "rank_submit_pct": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

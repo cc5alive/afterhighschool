@@ -5,9 +5,10 @@
     "title": "Common Data Set 2024-2025",
     "url": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf"
   },
+  "sourceUrl": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -127,6 +128,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2455,
+      "quote": "D2 total 2,455 1,626 754"
+    },
+    "transfer_admitted": {
+      "value": 1626,
+      "quote": "D2 total 2,455 1,626 754"
+    },
+    "transfer_enrolled": {
+      "value": 754,
+      "quote": "D2 total 2,455 1,626 754"
     }
   },
   "concerns": null

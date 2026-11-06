@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.govst.edu/sites/default/files/2026-08/Common%20Data%20Set.pdf"
   },
+  "sourceUrl": "https://www.govst.edu/sites/default/files/2026-08/Common%20Data%20Set.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -153,6 +154,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1514,
+      "quote": "D2 total 1,514 943 521"
+    },
+    "transfer_admitted": {
+      "value": 943,
+      "quote": "D2 total 1,514 943 521"
+    },
+    "transfer_enrolled": {
+      "value": 521,
+      "quote": "D2 total 1,514 943 521"
     }
   },
   "concerns": null

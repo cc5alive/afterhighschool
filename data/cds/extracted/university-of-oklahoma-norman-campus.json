@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://ou.edu/content/dam/irr/docs/common-data-sets/norman-campus-only/2025-26-nc/University%20of%20Oklahoma,%202025-26%20CDS.pdf"
   },
+  "sourceUrl": "https://ou.edu/content/dam/irr/docs/common-data-sets/norman-campus-only/2025-26-nc/University%20of%20Oklahoma,%202025-26%20CDS.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -138,6 +139,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 4334,
+      "quote": "D2 total 4,334 2,509 1,438"
+    },
+    "transfer_admitted": {
+      "value": 2509,
+      "quote": "D2 total 4,334 2,509 1,438"
+    },
+    "transfer_enrolled": {
+      "value": 1438,
+      "quote": "D2 total 4,334 2,509 1,438"
     }
   },
   "concerns": null

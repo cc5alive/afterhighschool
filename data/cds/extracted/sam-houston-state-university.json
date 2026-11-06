@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-2026",
     "url": "https://www.shsu.edu/offices-departments/data-analytics-decision-support/documents/fall-2025-cds-final_v2.pdf"
   },
+  "sourceUrl": "https://www.shsu.edu/offices-departments/data-analytics-decision-support/documents/fall-2025-cds-final_v2.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -128,6 +129,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3393,
+      "quote": "D2 total 3,393 3,090 1,886"
+    },
+    "transfer_admitted": {
+      "value": 3090,
+      "quote": "D2 total 3,393 3,090 1,886"
+    },
+    "transfer_enrolled": {
+      "value": 1886,
+      "quote": "D2 total 3,393 3,090 1,886"
     }
   },
   "concerns": null

@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-2026",
     "url": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf"
   },
+  "sourceUrl": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -129,6 +130,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 17211,
+      "quote": "D2 total 17,211 9,684 2,614"
+    },
+    "transfer_admitted": {
+      "value": 9684,
+      "quote": "D2 total 17,211 9,684 2,614"
+    },
+    "transfer_enrolled": {
+      "value": 2614,
+      "quote": "D2 total 17,211 9,684 2,614"
     }
   },
   "concerns": null

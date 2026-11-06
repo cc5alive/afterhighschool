@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.umass.edu/uair/data/admissions-and-enrollment-reports",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -170,6 +170,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3622,
+      "quote": "D2 total 3,622 2,371 1,190"
+    },
+    "transfer_admitted": {
+      "value": 2371,
+      "quote": "D2 total 3,622 2,371 1,190"
+    },
+    "transfer_enrolled": {
+      "value": 1190,
+      "quote": "D2 total 3,622 2,371 1,190"
     }
   },
   "concerns": null

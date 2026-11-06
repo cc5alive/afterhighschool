@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://effectiveness.syr.edu/wp-content/uploads/2026/09/CDS_2025-26_Complete.pdf"
   },
+  "sourceUrl": "https://effectiveness.syr.edu/wp-content/uploads/2026/09/CDS_2025-26_Complete.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -157,6 +158,18 @@
     "factor_interest": {
       "value": "Important",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1608,
+      "quote": "D2 total 1608 805 320"
+    },
+    "transfer_admitted": {
+      "value": 805,
+      "quote": "D2 total 1608 805 320"
+    },
+    "transfer_enrolled": {
+      "value": 320,
+      "quote": "D2 total 1608 805 320"
     },
     "ed_offered": {
       "value": "yes",

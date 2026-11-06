@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.usu.edu/oda/files/common-data-sets/CDS2025-26.pdf"
   },
+  "sourceUrl": "https://www.usu.edu/oda/files/common-data-sets/CDS2025-26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -53,6 +54,18 @@
     "act_p75": {
       "value": 27,
       "quote": "act composite 20 24 27"
+    },
+    "transfer_applied": {
+      "value": 2555,
+      "quote": "D2 total 2,555 2,226 1,225"
+    },
+    "transfer_admitted": {
+      "value": 2226,
+      "quote": "D2 total 2,555 2,226 1,225"
+    },
+    "transfer_enrolled": {
+      "value": 1225,
+      "quote": "D2 total 2,555 2,226 1,225"
     }
   },
   "concerns": null

@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.uvm.edu/d10-files/documents/2026-06/CDS_2025-2026_C.pdf"
   },
+  "sourceUrl": "https://www.uvm.edu/d10-files/documents/2026-06/CDS_2025-2026_C.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -137,6 +138,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 827,
+      "quote": "D2 total 827 695 296"
+    },
+    "transfer_admitted": {
+      "value": 695,
+      "quote": "D2 total 827 695 296"
+    },
+    "transfer_enrolled": {
+      "value": 296,
+      "quote": "D2 total 827 695 296"
     },
     "ed_offered": {
       "value": "yes",

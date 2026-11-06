@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.utc.edu/sites/default/files/2026-09/cds-2025-2026.pdf"
   },
+  "sourceUrl": "https://www.utc.edu/sites/default/files/2026-09/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -137,6 +138,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1868,
+      "quote": "D2 total 1868 1120 733"
+    },
+    "transfer_admitted": {
+      "value": 1120,
+      "quote": "D2 total 1868 1120 733"
+    },
+    "transfer_enrolled": {
+      "value": 733,
+      "quote": "D2 total 1868 1120 733"
     }
   },
   "concerns": null

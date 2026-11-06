@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf"
   },
+  "sourceUrl": "https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -113,6 +114,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 132,
+      "quote": "D2 total 132 28 15"
+    },
+    "transfer_admitted": {
+      "value": 28,
+      "quote": "D2 total 132 28 15"
+    },
+    "transfer_enrolled": {
+      "value": 15,
+      "quote": "D2 total 132 28 15"
     },
     "ed_offered": {
       "value": "yes",

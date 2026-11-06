@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-2026",
     "url": "https://www.usf.edu/ods/documents/cds/usf-cds-2025-2026-final-v2.pdf"
   },
+  "sourceUrl": "https://www.usf.edu/ods/documents/cds/usf-cds-2025-2026-final-v2.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -129,6 +130,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 11480,
+      "quote": "D2 total 11480 6098 3342"
+    },
+    "transfer_admitted": {
+      "value": 6098,
+      "quote": "D2 total 11480 6098 3342"
+    },
+    "transfer_enrolled": {
+      "value": 3342,
+      "quote": "D2 total 11480 6098 3342"
     }
   },
   "concerns": null

@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://web.uri.edu/ir/wp-content/uploads/sites/276/CDS-PDF-2025-2026_fillablePDF.pdf"
   },
+  "sourceUrl": "https://web.uri.edu/ir/wp-content/uploads/sites/276/CDS-PDF-2025-2026_fillablePDF.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -157,6 +158,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1718,
+      "quote": "D2 total 1718 1124 628"
+    },
+    "transfer_admitted": {
+      "value": 1124,
+      "quote": "D2 total 1718 1124 628"
+    },
+    "transfer_enrolled": {
+      "value": 628,
+      "quote": "D2 total 1718 1124 628"
     },
     "ed_offered": {
       "value": "yes",

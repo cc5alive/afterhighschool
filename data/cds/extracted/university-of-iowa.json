@@ -8,7 +8,7 @@
   "sourceUrl": "https://provost.uiowa.edu/sites/provost.uiowa.edu/files/2026-04/CDS_2526.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -146,6 +146,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2489,
+      "quote": "D2 total 2,489 1,789 1,033"
+    },
+    "transfer_admitted": {
+      "value": 1789,
+      "quote": "D2 total 2,489 1,789 1,033"
+    },
+    "transfer_enrolled": {
+      "value": 1033,
+      "quote": "D2 total 2,489 1,789 1,033"
     }
   },
   "concerns": null

@@ -33,6 +33,9 @@
     "gpa_submit_pct": 98,
     "ed_applied": 4423,
     "ed_admitted": 612,
+    "transfer_applied": 1688,
+    "transfer_admitted": 94,
+    "transfer_enrolled": 37,
     "factor_interest": "Not Considered",
     "ed_offered": "yes"
   },
@@ -63,6 +66,9 @@
     "gpa_submit_pct": "gemini",
     "ed_applied": "both",
     "ed_admitted": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_interest": "reader"
   }
 }

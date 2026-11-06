@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.wpi.edu/sites/default/files/2026-05/WPI_CDS_2025-2026.pdf"
   },
+  "sourceUrl": "https://www.wpi.edu/sites/default/files/2026-05/WPI_CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -157,6 +158,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 248,
+      "quote": "D2 total 248 198 63"
+    },
+    "transfer_admitted": {
+      "value": 198,
+      "quote": "D2 total 248 198 63"
+    },
+    "transfer_enrolled": {
+      "value": 63,
+      "quote": "D2 total 248 198 63"
     },
     "ed_offered": {
       "value": "yes",

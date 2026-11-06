@@ -15,7 +15,10 @@
     "act_p75": 27,
     "rank_top10_pct": 22,
     "rank_top25_pct": 45,
-    "gpa_average": 3.6
+    "gpa_average": 3.6,
+    "transfer_applied": 2555,
+    "transfer_admitted": 2226,
+    "transfer_enrolled": 1225
   },
   "basis": {
     "sat_p25": "reader",
@@ -26,6 +29,9 @@
     "act_p75": "reader",
     "rank_top10_pct": "reader",
     "rank_top25_pct": "reader",
-    "gpa_average": "reader"
+    "gpa_average": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

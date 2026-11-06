@@ -27,7 +27,10 @@
     "gpa_100_pct": 0,
     "gpa_below1_pct": 0,
     "gpa_average": 3.316,
-    "gpa_submit_pct": 99.67
+    "gpa_submit_pct": 99.67,
+    "transfer_applied": 6519,
+    "transfer_admitted": 5410,
+    "transfer_enrolled": 2154
   },
   "basis": {
     "applied_total": "reader",
@@ -50,6 +53,9 @@
     "gpa_100_pct": "reader",
     "gpa_below1_pct": "reader",
     "gpa_average": "reader",
-    "gpa_submit_pct": "reader"
+    "gpa_submit_pct": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

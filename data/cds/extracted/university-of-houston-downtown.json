@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.uhd.edu/documents/provost/ie/institutional-research/common-data-set/cds-2025-2026.pdf"
   },
+  "sourceUrl": "https://www.uhd.edu/documents/provost/ie/institutional-research/common-data-set/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -173,6 +174,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2911,
+      "quote": "D2 total 2,911 2,778 1,868"
+    },
+    "transfer_admitted": {
+      "value": 2778,
+      "quote": "D2 total 2,911 2,778 1,868"
+    },
+    "transfer_enrolled": {
+      "value": 1868,
+      "quote": "D2 total 2,911 2,778 1,868"
     }
   },
   "concerns": null

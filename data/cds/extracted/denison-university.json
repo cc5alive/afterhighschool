@@ -8,7 +8,7 @@
   "sourceUrl": "https://denison.edu/forms/common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -66,6 +66,18 @@
     "act_p75": {
       "value": 33,
       "quote": "act composite 28 31 33"
+    },
+    "transfer_applied": {
+      "value": 284,
+      "quote": "D2 total 284 58 23"
+    },
+    "transfer_admitted": {
+      "value": 58,
+      "quote": "D2 total 284 58 23"
+    },
+    "transfer_enrolled": {
+      "value": 23,
+      "quote": "D2 total 284 58 23"
     },
     "ed_offered": {
       "value": "yes",

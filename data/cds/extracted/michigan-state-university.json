@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf"
   },
+  "sourceUrl": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -149,6 +150,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3315,
+      "quote": "D2 total 3315 2619 1365"
+    },
+    "transfer_admitted": {
+      "value": 2619,
+      "quote": "D2 total 3315 2619 1365"
+    },
+    "transfer_enrolled": {
+      "value": 1365,
+      "quote": "D2 total 3315 2619 1365"
     }
   },
   "concerns": null

@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://ira.howard.edu/sites/ira.howard.edu/files/2026-06/CDS%20PDF%202526_06.25.26.pdf"
   },
+  "sourceUrl": "https://ira.howard.edu/sites/ira.howard.edu/files/2026-06/CDS%20PDF%202526_06.25.26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -145,6 +146,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 902,
+      "quote": "D2 total 902 622 194"
+    },
+    "transfer_admitted": {
+      "value": 622,
+      "quote": "D2 total 902 622 194"
+    },
+    "transfer_enrolled": {
+      "value": 194,
+      "quote": "D2 total 902 622 194"
     },
     "ed_offered": {
       "value": "yes",

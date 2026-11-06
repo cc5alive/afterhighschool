@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.luc.edu/oira/institutionaldata/commondataset/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -77,6 +77,18 @@
       "value": 2605,
       "quote": "total first-time, first-year males who enrolled 720 / total first-time, first-year females who enrolled 1885 / total first-time, first-year students of unknown sex who 0 enrolled",
       "how": "sum of gender rows"
+    },
+    "transfer_applied": {
+      "value": 3175,
+      "quote": "D2 total 3,175 1,541 393"
+    },
+    "transfer_admitted": {
+      "value": 1541,
+      "quote": "D2 total 3,175 1,541 393"
+    },
+    "transfer_enrolled": {
+      "value": 393,
+      "quote": "D2 total 3,175 1,541 393"
     }
   },
   "concerns": null

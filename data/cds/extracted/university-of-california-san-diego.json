@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf"
   },
+  "sourceUrl": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -149,6 +150,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 23577,
+      "quote": "D2 total 23,577 12,440 3,591"
+    },
+    "transfer_admitted": {
+      "value": 12440,
+      "quote": "D2 total 23,577 12,440 3,591"
+    },
+    "transfer_enrolled": {
+      "value": 3591,
+      "quote": "D2 total 23,577 12,440 3,591"
     }
   },
   "concerns": null

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.csusb.edu/institutional-research/studies-reports",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -138,6 +138,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 7356,
+      "quote": "D2 total 7356 6497 2477"
+    },
+    "transfer_admitted": {
+      "value": 6497,
+      "quote": "D2 total 7356 6497 2477"
+    },
+    "transfer_enrolled": {
+      "value": 2477,
+      "quote": "D2 total 7356 6497 2477"
     }
   },
   "concerns": null

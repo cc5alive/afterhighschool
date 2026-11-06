@@ -8,7 +8,7 @@
   "sourceUrl": "https://my.wlu.edu/document/2025-common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -141,6 +141,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 100,
+      "quote": "D2 total 100 7 3"
+    },
+    "transfer_admitted": {
+      "value": 7,
+      "quote": "D2 total 100 7 3"
+    },
+    "transfer_enrolled": {
+      "value": 3,
+      "quote": "D2 total 100 7 3"
     },
     "ed_offered": {
       "value": "yes",

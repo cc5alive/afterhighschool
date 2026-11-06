@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf"
   },
+  "sourceUrl": "https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -125,6 +126,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1603,
+      "quote": "D2 total 1,603 244 84"
+    },
+    "transfer_admitted": {
+      "value": 244,
+      "quote": "D2 total 1,603 244 84"
+    },
+    "transfer_enrolled": {
+      "value": 84,
+      "quote": "D2 total 1,603 244 84"
     }
   },
   "concerns": null

@@ -18,6 +18,9 @@
     "rank_top25_pct": 78,
     "ed_applied": 1589,
     "ed_admitted": 394,
+    "transfer_applied": 284,
+    "transfer_admitted": 58,
+    "transfer_enrolled": 23,
     "ed_offered": "yes"
   },
   "basis": {
@@ -31,6 +34,9 @@
     "rank_top10_pct": "reader",
     "rank_top25_pct": "reader",
     "ed_applied": "reader",
-    "ed_admitted": "reader"
+    "ed_admitted": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

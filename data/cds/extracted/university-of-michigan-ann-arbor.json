@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2025-26_umaa.pdf"
   },
+  "sourceUrl": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2025-26_umaa.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -133,6 +134,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 6845,
+      "quote": "D2 total 6,845 2,394 1,533"
+    },
+    "transfer_admitted": {
+      "value": 2394,
+      "quote": "D2 total 6,845 2,394 1,533"
+    },
+    "transfer_enrolled": {
+      "value": 1533,
+      "quote": "D2 total 6,845 2,394 1,533"
     }
   },
   "concerns": null

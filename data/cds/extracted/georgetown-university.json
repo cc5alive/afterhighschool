@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-2026",
     "url": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2"
   },
+  "sourceUrl": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -129,6 +130,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2878,
+      "quote": "D2 total 2,878 319 190"
+    },
+    "transfer_admitted": {
+      "value": 319,
+      "quote": "D2 total 2,878 319 190"
+    },
+    "transfer_enrolled": {
+      "value": 190,
+      "quote": "D2 total 2,878 319 190"
     }
   },
   "concerns": null

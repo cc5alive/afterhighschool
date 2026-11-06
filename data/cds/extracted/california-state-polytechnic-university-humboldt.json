@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.humboldt.edu/irar/common-data-sets",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -157,6 +157,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 4576,
+      "quote": "D2 total 4,576 3,877 887"
+    },
+    "transfer_admitted": {
+      "value": 3877,
+      "quote": "D2 total 4,576 3,877 887"
+    },
+    "transfer_enrolled": {
+      "value": 887,
+      "quote": "D2 total 4,576 3,877 887"
     }
   },
   "concerns": null

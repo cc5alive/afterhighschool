@@ -34,6 +34,9 @@
     "ed_admitted": 70,
     "ea_applied": 5282,
     "ea_admitted": 1599,
+    "transfer_applied": 254,
+    "transfer_admitted": 16,
+    "transfer_enrolled": 7,
     "ed_offered": "yes",
     "ea_offered": "yes"
   },
@@ -64,6 +67,9 @@
     "ed_applied": "both",
     "ed_admitted": "both",
     "ea_applied": "both",
-    "ea_admitted": "both"
+    "ea_admitted": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

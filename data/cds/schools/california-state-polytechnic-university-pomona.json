@@ -2,7 +2,7 @@
   "slug": "california-state-polytechnic-university-pomona",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.cpp.edu/data/documents/common-data-sets/cds2025.pdf"
   },
   "builtAt": "2026-11-06",
@@ -24,6 +24,9 @@
     "gpa_below1_pct": 0,
     "gpa_average": 3.7,
     "gpa_submit_pct": 100,
+    "transfer_applied": 12677,
+    "transfer_admitted": 9053,
+    "transfer_enrolled": 2448,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Not Considered",
     "factor_gpa": "Very Important",
@@ -61,6 +64,9 @@
     "gpa_below1_pct": "gemini",
     "gpa_average": "reader",
     "gpa_submit_pct": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "both",
     "factor_class_rank": "both",
     "factor_gpa": "both",

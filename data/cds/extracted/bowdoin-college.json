@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-2026",
     "url": "https://www.bowdoin.edu/ir/pdf/bowdoin-cds_2025-2026.pdf"
   },
+  "sourceUrl": "https://www.bowdoin.edu/ir/pdf/bowdoin-cds_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -113,6 +114,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 362,
+      "quote": "D2 total 362 29 12"
+    },
+    "transfer_admitted": {
+      "value": 29,
+      "quote": "D2 total 362 29 12"
+    },
+    "transfer_enrolled": {
+      "value": 12,
+      "quote": "D2 total 362 29 12"
     },
     "ed_offered": {
       "value": "yes",

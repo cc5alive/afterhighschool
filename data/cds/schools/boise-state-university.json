@@ -9,11 +9,17 @@
   "values": {
     "applied_total": 17582,
     "admitted_total": 14749,
-    "enrolled_total": 3881
+    "enrolled_total": 3881,
+    "transfer_applied": 3286,
+    "transfer_admitted": 2765,
+    "transfer_enrolled": 1612
   },
   "basis": {
     "applied_total": "both",
     "admitted_total": "reader",
-    "enrolled_total": "both"
+    "enrolled_total": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

@@ -2,12 +2,13 @@
   "slug": "colorado-college",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf"
   },
+  "sourceUrl": "https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -157,6 +158,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 177,
+      "quote": "D2 total 177 72 25"
+    },
+    "transfer_admitted": {
+      "value": 72,
+      "quote": "D2 total 177 72 25"
+    },
+    "transfer_enrolled": {
+      "value": 25,
+      "quote": "D2 total 177 72 25"
     },
     "ed_offered": {
       "value": "yes",

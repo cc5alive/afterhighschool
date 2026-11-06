@@ -8,7 +8,7 @@
   "sourceUrl": "https://ir.tcu.edu/facts-data",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -142,6 +142,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 949,
+      "quote": "D2 total 949 797 394"
+    },
+    "transfer_admitted": {
+      "value": 797,
+      "quote": "D2 total 949 797 394"
+    },
+    "transfer_enrolled": {
+      "value": 394,
+      "quote": "D2 total 949 797 394"
     },
     "ed_offered": {
       "value": "yes",

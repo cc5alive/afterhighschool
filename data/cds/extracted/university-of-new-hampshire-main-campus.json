@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.unh.edu/institutional-research/sites/default/files/media/2026-09/CDS%202025-2026%20UNH%20Published%209.2.26.pdf"
   },
+  "sourceUrl": "https://www.unh.edu/institutional-research/sites/default/files/media/2026-09/CDS%202025-2026%20UNH%20Published%209.2.26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -125,6 +126,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1013,
+      "quote": "D2 total 1013 908 417"
+    },
+    "transfer_admitted": {
+      "value": 908,
+      "quote": "D2 total 1013 908 417"
+    },
+    "transfer_enrolled": {
+      "value": 417,
+      "quote": "D2 total 1013 908 417"
     }
   },
   "concerns": null

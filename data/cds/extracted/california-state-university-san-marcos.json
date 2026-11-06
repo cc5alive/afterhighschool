@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.csusm.edu/ipa/campus-data/common-data-set.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -94,6 +94,18 @@
     "sat_p75": {
       "value": 1113,
       "quote": "sat composite 860 1010 1113 c.977 act reading: 12-17 0.2307 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 6519,
+      "quote": "D2 total 6519 5410 2154"
+    },
+    "transfer_admitted": {
+      "value": 5410,
+      "quote": "D2 total 6519 5410 2154"
+    },
+    "transfer_enrolled": {
+      "value": 2154,
+      "quote": "D2 total 6519 5410 2154"
     }
   },
   "concerns": null

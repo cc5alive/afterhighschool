@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.utep.edu/planning/cierp/institutional-research/common-data-set/cds-pdf-reports.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -42,6 +42,18 @@
     "act_p75": {
       "value": 22,
       "quote": "act composite 15 19 22"
+    },
+    "transfer_applied": {
+      "value": 2350,
+      "quote": "D2 total 2,350 2,219 1,593"
+    },
+    "transfer_admitted": {
+      "value": 2219,
+      "quote": "D2 total 2,350 2,219 1,593"
+    },
+    "transfer_enrolled": {
+      "value": 1593,
+      "quote": "D2 total 2,350 2,219 1,593"
     }
   },
   "concerns": null

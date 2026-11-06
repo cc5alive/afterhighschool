@@ -8,7 +8,7 @@
   "sourceUrl": "https://uakron.edu/ir/common-data-set.dot",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
@@ -148,6 +148,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1882,
+      "quote": "D2 total 1882 926 540"
+    },
+    "transfer_admitted": {
+      "value": 926,
+      "quote": "D2 total 1882 926 540"
+    },
+    "transfer_enrolled": {
+      "value": 540,
+      "quote": "D2 total 1882 926 540"
     }
   },
   "concerns": null

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.davidson.edu/media/9718/download?attachment",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -138,6 +138,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 152,
+      "quote": "D2 total 152 28 17"
+    },
+    "transfer_admitted": {
+      "value": 28,
+      "quote": "D2 total 152 28 17"
+    },
+    "transfer_enrolled": {
+      "value": 17,
+      "quote": "D2 total 152 28 17"
     },
     "ed_offered": {
       "value": "yes",

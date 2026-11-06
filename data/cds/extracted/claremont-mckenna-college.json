@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.cmc.edu/sites/default/files/CDS_2025-26.pdf"
   },
+  "sourceUrl": "https://www.cmc.edu/sites/default/files/CDS_2025-26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -136,6 +137,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 307,
+      "quote": "D2 total 307 25 14"
+    },
+    "transfer_admitted": {
+      "value": 25,
+      "quote": "D2 total 307 25 14"
+    },
+    "transfer_enrolled": {
+      "value": 14,
+      "quote": "D2 total 307 25 14"
     },
     "ed_offered": {
       "value": "yes",

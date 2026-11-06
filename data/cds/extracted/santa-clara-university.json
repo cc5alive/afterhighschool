@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.scu.edu/institutional-research/documentation/visualizations/common-data-set-cds/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -110,6 +110,18 @@
     "act_p75": {
       "value": 33,
       "quote": "act composite 29 31 33"
+    },
+    "transfer_applied": {
+      "value": 1206,
+      "quote": "D2 total 1206 780 247"
+    },
+    "transfer_admitted": {
+      "value": 780,
+      "quote": "D2 total 1206 780 247"
+    },
+    "transfer_enrolled": {
+      "value": 247,
+      "quote": "D2 total 1206 780 247"
     },
     "ed_offered": {
       "value": "yes",

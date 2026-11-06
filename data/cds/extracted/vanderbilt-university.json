@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.vanderbilt.edu/data/public-data/common-data-sets/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -114,6 +114,18 @@
     "act_p75": {
       "value": 35,
       "quote": "act composite 34 35 35 c.980 act reading: total 1 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 3177,
+      "quote": "D2 total 3177 831 446"
+    },
+    "transfer_admitted": {
+      "value": 831,
+      "quote": "D2 total 3177 831 446"
+    },
+    "transfer_enrolled": {
+      "value": 446,
+      "quote": "D2 total 3177 831 446"
     },
     "ed_offered": {
       "value": "yes",

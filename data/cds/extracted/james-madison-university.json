@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-26",
     "url": "https://www.jmu.edu/pair/ir/common-data-set/cds-2025.docx"
   },
+  "sourceUrl": "https://www.jmu.edu/pair/ir/common-data-set/cds-2025.docx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "docx",
   "values": {
     "applied_total": {
@@ -133,6 +134,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1769,
+      "quote": "D2 total 1769 1346 808"
+    },
+    "transfer_admitted": {
+      "value": 1346,
+      "quote": "D2 total 1769 1346 808"
+    },
+    "transfer_enrolled": {
+      "value": 808,
+      "quote": "D2 total 1769 1346 808"
     }
   },
   "concerns": null

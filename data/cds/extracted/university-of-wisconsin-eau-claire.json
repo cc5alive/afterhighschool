@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.uwec.edu/sites/default/files/2025-11/CDS2025-2026.pdf"
   },
+  "sourceUrl": "https://www.uwec.edu/sites/default/files/2025-11/CDS2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -165,6 +166,18 @@
     "factor_interest": {
       "value": "Important",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 750,
+      "quote": "D2 total 750 565 372"
+    },
+    "transfer_admitted": {
+      "value": 565,
+      "quote": "D2 total 750 565 372"
+    },
+    "transfer_enrolled": {
+      "value": 372,
+      "quote": "D2 total 750 565 372"
     }
   },
   "concerns": null

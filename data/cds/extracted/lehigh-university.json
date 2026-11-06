@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf"
   },
+  "sourceUrl": "https://data.lehigh.edu/sites/data.lehigh.edu/files/1302026-CDS-2025-2026-FINAL.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -137,6 +138,18 @@
     "factor_interest": {
       "value": "Important",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 804,
+      "quote": "D2 total 804 195 60"
+    },
+    "transfer_admitted": {
+      "value": 195,
+      "quote": "D2 total 804 195 60"
+    },
+    "transfer_enrolled": {
+      "value": 60,
+      "quote": "D2 total 804 195 60"
     },
     "ed_offered": {
       "value": "yes",

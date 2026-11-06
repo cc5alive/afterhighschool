@@ -8,7 +8,7 @@
   "sourceUrl": "https://haverford.edu/sites/default/files/Office/President/CDS_2024-2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -138,6 +138,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 194,
+      "quote": "D2 total 194 24 7"
+    },
+    "transfer_admitted": {
+      "value": 24,
+      "quote": "D2 total 194 24 7"
+    },
+    "transfer_enrolled": {
+      "value": 7,
+      "quote": "D2 total 194 24 7"
     },
     "ed_offered": {
       "value": "yes",

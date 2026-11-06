@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.boisestate.edu/ie/wp-content/uploads/sites/501/2026/04/Boise-State-University-CDS_2025-2026_PDF.pdf"
   },
+  "sourceUrl": "https://www.boisestate.edu/ie/wp-content/uploads/sites/501/2026/04/Boise-State-University-CDS_2025-2026_PDF.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,6 +22,18 @@
     "enrolled_total": {
       "value": 3881,
       "quote": "total first-time, first-year (degree-seeking) enrolled 2273 1590 18 3881"
+    },
+    "transfer_applied": {
+      "value": 3286,
+      "quote": "D2 total 3286 2765 1612"
+    },
+    "transfer_admitted": {
+      "value": 2765,
+      "quote": "D2 total 3286 2765 1612"
+    },
+    "transfer_enrolled": {
+      "value": 1612,
+      "quote": "D2 total 3286 2765 1612"
     }
   },
   "concerns": null

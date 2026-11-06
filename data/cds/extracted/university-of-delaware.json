@@ -5,9 +5,10 @@
     "title": "Common Data Set 2024-2025",
     "url": "https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/e/2019/files/2025/07/CDS2425_UDelaware.pdf"
   },
+  "sourceUrl": "https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/e/2019/files/2025/07/CDS2425_UDelaware.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -137,6 +138,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2033,
+      "quote": "D2 total 2033 1157 642"
+    },
+    "transfer_admitted": {
+      "value": 1157,
+      "quote": "D2 total 2033 1157 642"
+    },
+    "transfer_enrolled": {
+      "value": 642,
+      "quote": "D2 total 2033 1157 642"
     }
   },
   "concerns": null

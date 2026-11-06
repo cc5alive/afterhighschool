@@ -5,9 +5,10 @@
     "title": "Common Data Set 2024-2025",
     "url": "https://ir.baruch.cuny.edu/wp-content/uploads/sites/23/2025/07/CDS-2024-2025-FINAL-Jun-12.pdf"
   },
+  "sourceUrl": "https://ir.baruch.cuny.edu/wp-content/uploads/sites/23/2025/07/CDS-2024-2025-FINAL-Jun-12.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
@@ -135,6 +136,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 7244,
+      "quote": "D2 total 7244 3687 1641"
+    },
+    "transfer_admitted": {
+      "value": 3687,
+      "quote": "D2 total 7244 3687 1641"
+    },
+    "transfer_enrolled": {
+      "value": 1641,
+      "quote": "D2 total 7244 3687 1641"
     }
   },
   "concerns": null

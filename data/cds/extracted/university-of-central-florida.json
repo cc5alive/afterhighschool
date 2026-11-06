@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://analytics.ucf.edu/wp-content/uploads/2026/07/Common-Data-Set-2025-2026.pdf"
   },
+  "sourceUrl": "https://analytics.ucf.edu/wp-content/uploads/2026/07/Common-Data-Set-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -169,6 +170,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 12709,
+      "quote": "D2 total 12,709 8,826 5,870"
+    },
+    "transfer_admitted": {
+      "value": 8826,
+      "quote": "D2 total 12,709 8,826 5,870"
+    },
+    "transfer_enrolled": {
+      "value": 5870,
+      "quote": "D2 total 12,709 8,826 5,870"
     }
   },
   "concerns": null

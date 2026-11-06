@@ -8,7 +8,7 @@
   "sourceUrl": "https://inside.montclair.edu/administration/institutional-research-and-effectiveness-office/institutional-reports/common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -162,6 +162,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3640,
+      "quote": "D2 total 3,640 2,959 1,403"
+    },
+    "transfer_admitted": {
+      "value": 2959,
+      "quote": "D2 total 3,640 2,959 1,403"
+    },
+    "transfer_enrolled": {
+      "value": 1403,
+      "quote": "D2 total 3,640 2,959 1,403"
     }
   },
   "concerns": null

@@ -8,7 +8,7 @@
   "sourceUrl": "https://jsu.edu/ire/common-data-set/index.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -149,6 +149,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1267,
+      "quote": "D2 total 1267 792 500"
+    },
+    "transfer_admitted": {
+      "value": 792,
+      "quote": "D2 total 1267 792 500"
+    },
+    "transfer_enrolled": {
+      "value": 500,
+      "quote": "D2 total 1267 792 500"
     }
   },
   "concerns": null

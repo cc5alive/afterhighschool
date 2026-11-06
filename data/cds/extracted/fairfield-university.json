@@ -2,12 +2,13 @@
   "slug": "fairfield-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.fairfield.edu/_files/documents/pdfs/4422120485_about_offices-and-departments_institutional-research_common-data-sheet-2025-26_03302026.pdf"
   },
+  "sourceUrl": "https://www.fairfield.edu/_files/documents/pdfs/4422120485_about_offices-and-departments_institutional-research_common-data-sheet-2025-26_03302026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -181,6 +182,18 @@
     "factor_interest": {
       "value": "Very Important",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 515,
+      "quote": "D2 total 515 41 35"
+    },
+    "transfer_admitted": {
+      "value": 41,
+      "quote": "D2 total 515 41 35"
+    },
+    "transfer_enrolled": {
+      "value": 35,
+      "quote": "D2 total 515 41 35"
     },
     "ed_offered": {
       "value": "yes",

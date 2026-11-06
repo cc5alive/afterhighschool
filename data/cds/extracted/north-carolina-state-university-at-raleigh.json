@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2025-26.v1.pdf"
   },
+  "sourceUrl": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2025-26.v1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -129,6 +130,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 5383,
+      "quote": "D2 total 5383 2405 1663"
+    },
+    "transfer_admitted": {
+      "value": 2405,
+      "quote": "D2 total 5383 2405 1663"
+    },
+    "transfer_enrolled": {
+      "value": 1663,
+      "quote": "D2 total 5383 2405 1663"
     }
   },
   "concerns": null

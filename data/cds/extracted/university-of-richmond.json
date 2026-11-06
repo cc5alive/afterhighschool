@@ -2,12 +2,13 @@
   "slug": "university-of-richmond",
   "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2024-2025",
     "url": "https://ifx.richmond.edu/pdfs/CDS2024-25.pdf"
   },
+  "sourceUrl": "https://ifx.richmond.edu/pdfs/CDS2024-25.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -113,6 +114,18 @@
     "act_p75": {
       "value": 35,
       "quote": "act composite 33 34 35"
+    },
+    "transfer_applied": {
+      "value": 362,
+      "quote": "D2 total 362 165 60"
+    },
+    "transfer_admitted": {
+      "value": 165,
+      "quote": "D2 total 362 165 60"
+    },
+    "transfer_enrolled": {
+      "value": 60,
+      "quote": "D2 total 362 165 60"
     },
     "ed_offered": {
       "value": "yes",

@@ -30,6 +30,9 @@
     "gpa_submit_pct": 100,
     "ed_applied": 521,
     "ed_admitted": 438,
+    "transfer_applied": 1426,
+    "transfer_admitted": 696,
+    "transfer_enrolled": 398,
     "ed_offered": "yes"
   },
   "basis": {
@@ -55,6 +58,9 @@
     "gpa_average": "reader",
     "gpa_submit_pct": "reader",
     "ed_applied": "reader",
-    "ed_admitted": "reader"
+    "ed_admitted": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

@@ -5,9 +5,10 @@
     "title": "Rice University Common Data Set 2025 - 2026",
     "url": "https://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf"
   },
+  "sourceUrl": "https://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -137,6 +138,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1675,
+      "quote": "D2 total 1,675 125 74"
+    },
+    "transfer_admitted": {
+      "value": 125,
+      "quote": "D2 total 1,675 125 74"
+    },
+    "transfer_enrolled": {
+      "value": 74,
+      "quote": "D2 total 1,675 125 74"
     },
     "ed_offered": {
       "value": "yes",

@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-2026",
     "url": "https://data.utah.edu/wp-content/uploads/2026/08/CDS_2025-2026.pdf"
   },
+  "sourceUrl": "https://data.utah.edu/wp-content/uploads/2026/08/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -137,6 +138,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3599,
+      "quote": "D2 total 3599 3065 1499"
+    },
+    "transfer_admitted": {
+      "value": 3065,
+      "quote": "D2 total 3599 3065 1499"
+    },
+    "transfer_enrolled": {
+      "value": 1499,
+      "quote": "D2 total 3599 3065 1499"
     }
   },
   "concerns": null

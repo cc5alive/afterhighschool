@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf"
   },
+  "sourceUrl": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -109,6 +110,18 @@
     "act_p75": {
       "value": 34,
       "quote": "act composite 33 34 34"
+    },
+    "transfer_applied": {
+      "value": 112,
+      "quote": "D2 total 112 46 11"
+    },
+    "transfer_admitted": {
+      "value": 46,
+      "quote": "D2 total 112 46 11"
+    },
+    "transfer_enrolled": {
+      "value": 11,
+      "quote": "D2 total 112 46 11"
     },
     "ed_offered": {
       "value": "yes",

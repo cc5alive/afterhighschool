@@ -8,7 +8,7 @@
   "sourceUrl": "https://ir.charlotte.edu/resources",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -102,6 +102,18 @@
     "act_p75": {
       "value": 27,
       "quote": "act composite 21 24 27 c.980 act reading: total 0.9999999999999999 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 5457,
+      "quote": "D2 total 5457 4882 2987"
+    },
+    "transfer_admitted": {
+      "value": 4882,
+      "quote": "D2 total 5457 4882 2987"
+    },
+    "transfer_enrolled": {
+      "value": 2987,
+      "quote": "D2 total 5457 4882 2987"
     }
   },
   "concerns": null

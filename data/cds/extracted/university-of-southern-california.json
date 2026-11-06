@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://oir.usc.edu/wp-content/uploads/sites/3/2025/10/CDS_2024-2025_FINAL-3.pdf"
   },
+  "sourceUrl": "https://oir.usc.edu/wp-content/uploads/sites/3/2025/10/CDS_2024-2025_FINAL-3.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -153,6 +154,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 11019,
+      "quote": "D2 total 11,019 2,381 1,339"
+    },
+    "transfer_admitted": {
+      "value": 2381,
+      "quote": "D2 total 11,019 2,381 1,339"
+    },
+    "transfer_enrolled": {
+      "value": 1339,
+      "quote": "D2 total 11,019 2,381 1,339"
     }
   },
   "concerns": null

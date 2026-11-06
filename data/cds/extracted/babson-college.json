@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf"
   },
+  "sourceUrl": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -105,6 +106,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 543,
+      "quote": "D2 total 543 126 55"
+    },
+    "transfer_admitted": {
+      "value": 126,
+      "quote": "D2 total 543 126 55"
+    },
+    "transfer_enrolled": {
+      "value": 55,
+      "quote": "D2 total 543 126 55"
     },
     "ed_offered": {
       "value": "yes",

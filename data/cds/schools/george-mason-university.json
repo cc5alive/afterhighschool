@@ -2,7 +2,7 @@
   "slug": "george-mason-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://oiep.gmu.edu/wp-content/uploads/2026/02/CDS-PDF-2025-2026_PDF_Template_Final_02_19.pdf"
   },
   "builtAt": "2026-11-06",
@@ -35,6 +35,9 @@
     "gpa_below1_pct": 0,
     "gpa_average": 3.66,
     "gpa_submit_pct": 99.7,
+    "transfer_applied": 5185,
+    "transfer_admitted": 4304,
+    "transfer_enrolled": 2959,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Not Considered",
     "factor_gpa": "Very Important",
@@ -83,6 +86,9 @@
     "gpa_below1_pct": "both",
     "gpa_average": "both",
     "gpa_submit_pct": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "reader",
     "factor_class_rank": "reader",
     "factor_gpa": "reader",

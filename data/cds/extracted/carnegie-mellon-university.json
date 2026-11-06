@@ -5,9 +5,10 @@
     "title": "CARNEGIE MELLON UNIVERSITY COMMON DATA SET 2024-2025",
     "url": "https://www.cmu.edu/ira/CDS/pdf/cds_2024-25/common-data-set-2024-2025-26jun2025.pdf"
   },
+  "sourceUrl": "https://www.cmu.edu/ira/CDS/pdf/cds_2024-25/common-data-set-2024-2025-26jun2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -89,6 +90,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1688,
+      "quote": "D2 total 1,688 94 37"
+    },
+    "transfer_admitted": {
+      "value": 94,
+      "quote": "D2 total 1,688 94 37"
+    },
+    "transfer_enrolled": {
+      "value": 37,
+      "quote": "D2 total 1,688 94 37"
     },
     "ed_offered": {
       "value": "yes",

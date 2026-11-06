@@ -2,12 +2,13 @@
   "slug": "middle-tennessee-state-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2026/07/CDS_2025-2026.pdf"
   },
+  "sourceUrl": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2026/07/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -89,6 +90,18 @@
     "factor_recommendations": {
       "value": "Considered",
       "quote": "Recommendation(s)"
+    },
+    "transfer_applied": {
+      "value": 4205,
+      "quote": "D2 total 4205 2503 1493"
+    },
+    "transfer_admitted": {
+      "value": 2503,
+      "quote": "D2 total 4205 2503 1493"
+    },
+    "transfer_enrolled": {
+      "value": 1493,
+      "quote": "D2 total 4205 2503 1493"
     }
   },
   "concerns": null

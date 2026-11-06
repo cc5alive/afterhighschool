@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.csun.edu/institutional-research/explore-csun-data/common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -137,6 +137,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 13924,
+      "quote": "D2 total 13924 10027 4335"
+    },
+    "transfer_admitted": {
+      "value": 10027,
+      "quote": "D2 total 13924 10027 4335"
+    },
+    "transfer_enrolled": {
+      "value": 4335,
+      "quote": "D2 total 13924 10027 4335"
     }
   },
   "concerns": null

@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2025_2026_tc_0.pdf"
   },
+  "sourceUrl": "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2025_2026_tc_0.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -101,6 +102,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 6670,
+      "quote": "D2 total 6670 3420 1843"
+    },
+    "transfer_admitted": {
+      "value": 3420,
+      "quote": "D2 total 6670 3420 1843"
+    },
+    "transfer_enrolled": {
+      "value": 1843,
+      "quote": "D2 total 6670 3420 1843"
     }
   },
   "concerns": null

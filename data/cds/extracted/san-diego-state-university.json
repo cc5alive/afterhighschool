@@ -2,12 +2,13 @@
   "slug": "san-diego-state-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://asir.sdsu.edu/Documents/CommonDataSets/CDS_2025-2026_updated%207-28.pdf"
   },
+  "sourceUrl": "https://asir.sdsu.edu/Documents/CommonDataSets/CDS_2025-2026_updated%207-28.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -117,6 +118,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 16556,
+      "quote": "D2 total 16,556 9,093 4,432"
+    },
+    "transfer_admitted": {
+      "value": 9093,
+      "quote": "D2 total 16,556 9,093 4,432"
+    },
+    "transfer_enrolled": {
+      "value": 4432,
+      "quote": "D2 total 16,556 9,093 4,432"
     }
   },
   "concerns": null

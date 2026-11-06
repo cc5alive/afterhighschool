@@ -8,7 +8,7 @@
   "sourceUrl": "https://sites.uci.edu/irap/files/2026/05/2025-26-CDS-PDF-Upload.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -98,6 +98,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 25377,
+      "quote": "D2 total 25377 10033 2794"
+    },
+    "transfer_admitted": {
+      "value": 10033,
+      "quote": "D2 total 25377 10033 2794"
+    },
+    "transfer_enrolled": {
+      "value": 2794,
+      "quote": "D2 total 25377 10033 2794"
     }
   },
   "concerns": null

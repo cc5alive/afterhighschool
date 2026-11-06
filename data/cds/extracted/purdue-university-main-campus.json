@@ -2,12 +2,13 @@
   "slug": "purdue-university-main-campus",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Purdue University Common Data Set 2025-2026",
     "url": "https://www.purdue.edu/idata/wp-content/uploads/2026/04/CDS-2025-2026.xlsx"
   },
+  "sourceUrl": "https://www.purdue.edu/idata/wp-content/uploads/2026/04/CDS-2025-2026.xlsx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -101,6 +102,18 @@
     "act_p75": {
       "value": 34,
       "quote": "act composite 28 32 34"
+    },
+    "transfer_applied": {
+      "value": 4422,
+      "quote": "D2 total 4422 1882 1058"
+    },
+    "transfer_admitted": {
+      "value": 1882,
+      "quote": "D2 total 4422 1882 1058"
+    },
+    "transfer_enrolled": {
+      "value": 1058,
+      "quote": "D2 total 4422 1882 1058"
     }
   },
   "concerns": null

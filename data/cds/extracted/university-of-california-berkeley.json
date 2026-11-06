@@ -5,9 +5,10 @@
     "title": "UC Berkeley Common Data Set 2025-2026",
     "url": "https://docs.google.com/spreadsheets/d/1INsGFH6MhaO-MFMBZ1Dngcn84FeN-hc0BLS0-v8TL_k/edit"
   },
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1INsGFH6MhaO-MFMBZ1Dngcn84FeN-hc0BLS0-v8TL_k/edit",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -69,6 +70,18 @@
     "gpa_submit_pct": {
       "value": 1,
       "quote": "percent of total first-time, first-year students who submitted high school gpa: 1"
+    },
+    "transfer_applied": {
+      "value": 23401,
+      "quote": "D2 total 23401 5658 3055"
+    },
+    "transfer_admitted": {
+      "value": 5658,
+      "quote": "D2 total 23401 5658 3055"
+    },
+    "transfer_enrolled": {
+      "value": 3055,
+      "quote": "D2 total 23401 5658 3055"
     }
   },
   "concerns": null

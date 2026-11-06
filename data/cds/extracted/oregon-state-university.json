@@ -8,7 +8,7 @@
   "sourceUrl": "https://institutionalresearch.oregonstate.edu/common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -158,6 +158,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 5596,
+      "quote": "D2 total 5,596 4,595 2,805"
+    },
+    "transfer_admitted": {
+      "value": 4595,
+      "quote": "D2 total 5,596 4,595 2,805"
+    },
+    "transfer_enrolled": {
+      "value": 2805,
+      "quote": "D2 total 5,596 4,595 2,805"
     }
   },
   "concerns": null

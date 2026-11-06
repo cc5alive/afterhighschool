@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.colgate.edu/sites/default/files/2026-07/CDS-PDF-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -142,6 +142,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 423,
+      "quote": "D2 total 423 58 13"
+    },
+    "transfer_admitted": {
+      "value": 58,
+      "quote": "D2 total 423 58 13"
+    },
+    "transfer_enrolled": {
+      "value": 13,
+      "quote": "D2 total 423 58 13"
     },
     "ed_offered": {
       "value": "yes",

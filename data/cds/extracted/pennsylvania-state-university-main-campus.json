@@ -8,7 +8,7 @@
   "sourceUrl": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/d/114442/files/2026/06/UniversityPark_CDS_2025_2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -94,6 +94,18 @@
     "act_p75": {
       "value": 32,
       "quote": "act composite 28 30 32"
+    },
+    "transfer_applied": {
+      "value": 1508,
+      "quote": "D2 total 1508 925 379"
+    },
+    "transfer_admitted": {
+      "value": 925,
+      "quote": "D2 total 1508 925 379"
+    },
+    "transfer_enrolled": {
+      "value": 379,
+      "quote": "D2 total 1508 925 379"
     }
   },
   "concerns": null

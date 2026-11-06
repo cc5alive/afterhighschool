@@ -8,7 +8,7 @@
   "sourceUrl": "https://aie.vt.edu/analytics-and-ai/common-data-set.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -78,6 +78,18 @@
     "act_p75": {
       "value": 32,
       "quote": "act composite 28 30 32 c.980 act reading: total 0 first-time, first-year admission first-time, first-year profile test scores undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "transfer_applied": {
+      "value": 3824,
+      "quote": "D2 total 3824 1921 1176"
+    },
+    "transfer_admitted": {
+      "value": 1921,
+      "quote": "D2 total 3824 1921 1176"
+    },
+    "transfer_enrolled": {
+      "value": 1176,
+      "quote": "D2 total 3824 1921 1176"
     }
   },
   "concerns": null

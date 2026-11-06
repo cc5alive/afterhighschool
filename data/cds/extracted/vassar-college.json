@@ -2,12 +2,13 @@
   "slug": "vassar-college",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf"
   },
+  "sourceUrl": "https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -113,6 +114,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 365,
+      "quote": "D2 total 365 54 14"
+    },
+    "transfer_admitted": {
+      "value": 54,
+      "quote": "D2 total 365 54 14"
+    },
+    "transfer_enrolled": {
+      "value": 14,
+      "quote": "D2 total 365 54 14"
     },
     "ed_offered": {
       "value": "yes",

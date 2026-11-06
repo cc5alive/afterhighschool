@@ -2,12 +2,13 @@
   "slug": "the-university-of-alabama",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "The University of Alabama: Common Data Set 2025-26",
     "url": "https://oira.ua.edu/d/sites/all/files/reports26/CDS%202025-26%20FINAL%209Dec2025.pdf"
   },
+  "sourceUrl": "https://oira.ua.edu/d/sites/all/files/reports26/CDS%202025-26%20FINAL%209Dec2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -97,6 +98,18 @@
     "act_p75": {
       "value": 31,
       "quote": "act composite 22 26 31 26"
+    },
+    "transfer_applied": {
+      "value": 5718,
+      "quote": "D2 total 5,718 2,919 1,257"
+    },
+    "transfer_admitted": {
+      "value": 2919,
+      "quote": "D2 total 5,718 2,919 1,257"
+    },
+    "transfer_enrolled": {
+      "value": 1257,
+      "quote": "D2 total 5,718 2,919 1,257"
     }
   },
   "concerns": null

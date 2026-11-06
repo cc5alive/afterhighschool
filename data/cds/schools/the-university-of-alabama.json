@@ -2,7 +2,7 @@
   "slug": "the-university-of-alabama",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "The University of Alabama: Common Data Set 2025-26",
     "url": "https://oira.ua.edu/d/sites/all/files/reports26/CDS%202025-26%20FINAL%209Dec2025.pdf"
   },
   "builtAt": "2026-11-06",
@@ -30,7 +30,10 @@
     "gpa_100_pct": 0,
     "gpa_below1_pct": 0,
     "gpa_average": 3.85,
-    "gpa_submit_pct": 98.9
+    "gpa_submit_pct": 98.9,
+    "transfer_applied": 5718,
+    "transfer_admitted": 2919,
+    "transfer_enrolled": 1257
   },
   "basis": {
     "applied_total": "both",
@@ -56,6 +59,9 @@
     "gpa_100_pct": "both",
     "gpa_below1_pct": "both",
     "gpa_average": "both",
-    "gpa_submit_pct": "both"
+    "gpa_submit_pct": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
   }
 }

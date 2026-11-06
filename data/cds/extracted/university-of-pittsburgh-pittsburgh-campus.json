@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.ir.pitt.edu/sites/default/files/2026-06/2025-2026%20Pittsburgh%20Common%20Data%20Set.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -153,6 +153,18 @@
     "factor_interest": {
       "value": "Important",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2645,
+      "quote": "D2 total 2,645 1,413 771"
+    },
+    "transfer_admitted": {
+      "value": 1413,
+      "quote": "D2 total 2,645 1,413 771"
+    },
+    "transfer_enrolled": {
+      "value": 771,
+      "quote": "D2 total 2,645 1,413 771"
     }
   },
   "concerns": null

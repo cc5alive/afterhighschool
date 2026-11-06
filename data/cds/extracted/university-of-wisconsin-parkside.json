@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.uwp.edu/live/offices/institutional-research/cds/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -166,6 +166,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 525,
+      "quote": "D2 total 525 515 330"
+    },
+    "transfer_admitted": {
+      "value": 515,
+      "quote": "D2 total 525 515 330"
+    },
+    "transfer_enrolled": {
+      "value": 330,
+      "quote": "D2 total 525 515 330"
     }
   },
   "concerns": null

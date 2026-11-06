@@ -2,7 +2,7 @@
   "slug": "san-jose-state-university",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf"
   },
   "builtAt": "2026-11-06",
@@ -29,6 +29,9 @@
     "gpa_below1_pct": 0,
     "gpa_average": 3.5,
     "gpa_submit_pct": 99.41,
+    "transfer_applied": 9242,
+    "transfer_admitted": 7662,
+    "transfer_enrolled": 3738,
     "factor_rigor": "Not Considered",
     "factor_class_rank": "Not Considered",
     "factor_gpa": "Very Important",
@@ -71,6 +74,9 @@
     "gpa_below1_pct": "both",
     "gpa_average": "reader",
     "gpa_submit_pct": "both",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "both",
     "factor_class_rank": "both",
     "factor_gpa": "both",

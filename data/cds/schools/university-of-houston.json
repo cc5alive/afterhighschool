@@ -2,7 +2,7 @@
   "slug": "university-of-houston",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://www.uh.edu/ir/reports/common-data-sets/cds-data/common_data_set_2025-2026_final.xlsx"
   },
   "builtAt": "2026-11-06",
@@ -32,6 +32,9 @@
     "gpa_below1_pct": 0,
     "gpa_average": 3.46,
     "gpa_submit_pct": 97.86,
+    "transfer_applied": 8358,
+    "transfer_admitted": 7390,
+    "transfer_enrolled": 4415,
     "factor_rigor": "Considered",
     "factor_class_rank": "Considered",
     "factor_gpa": "Important",
@@ -77,6 +80,9 @@
     "gpa_below1_pct": "reader",
     "gpa_average": "reader",
     "gpa_submit_pct": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "gemini",
     "factor_class_rank": "gemini",
     "factor_gpa": "gemini",

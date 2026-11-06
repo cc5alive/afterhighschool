@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf"
   },
+  "sourceUrl": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -141,6 +142,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 5870,
+      "quote": "D2 total 5,870 2,633 2,124"
+    },
+    "transfer_admitted": {
+      "value": 2633,
+      "quote": "D2 total 5,870 2,633 2,124"
+    },
+    "transfer_enrolled": {
+      "value": 2124,
+      "quote": "D2 total 5,870 2,633 2,124"
     }
   },
   "concerns": null

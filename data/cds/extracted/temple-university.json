@@ -1,13 +1,14 @@
 {
   "slug": "temple-university",
-  "cdsYear": null,
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
+    "title": "Common Data Set 2025-2026",
     "url": "https://ira.temple.edu/sites/ira/files/media/document/CDS%202025-26_Temple%20University_0.pdf"
   },
+  "sourceUrl": "https://ira.temple.edu/sites/ira/files/media/document/CDS%202025-26_Temple%20University_0.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -117,6 +118,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2954,
+      "quote": "D2 total 2,954 2,211 924"
+    },
+    "transfer_admitted": {
+      "value": 2211,
+      "quote": "D2 total 2,954 2,211 924"
+    },
+    "transfer_enrolled": {
+      "value": 924,
+      "quote": "D2 total 2,954 2,211 924"
     }
   },
   "concerns": null

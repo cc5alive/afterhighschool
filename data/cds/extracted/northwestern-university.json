@@ -8,7 +8,7 @@
   "sourceUrl": "https://enrollment.northwestern.edu/data/2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -117,6 +117,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 4562,
+      "quote": "D2 total 4,562 498 249"
+    },
+    "transfer_admitted": {
+      "value": 498,
+      "quote": "D2 total 4,562 498 249"
+    },
+    "transfer_enrolled": {
+      "value": 249,
+      "quote": "D2 total 4,562 498 249"
     }
   },
   "concerns": null

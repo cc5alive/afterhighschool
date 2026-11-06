@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf"
   },
+  "sourceUrl": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -145,6 +146,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 5084,
+      "quote": "D2 total 5084 2569 1302"
+    },
+    "transfer_admitted": {
+      "value": 2569,
+      "quote": "D2 total 5084 2569 1302"
+    },
+    "transfer_enrolled": {
+      "value": 1302,
+      "quote": "D2 total 5084 2569 1302"
     }
   },
   "concerns": null

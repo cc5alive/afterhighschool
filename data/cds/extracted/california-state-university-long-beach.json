@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.csulb.edu/sites/default/files/2026/documents/CDS%202025%20-%202026%20%28PDF%29_0.pdf"
   },
+  "sourceUrl": "https://www.csulb.edu/sites/default/files/2026/documents/CDS%202025%20-%202026%20%28PDF%29_0.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -140,6 +141,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 26319,
+      "quote": "D2 total 26,319 13,204 4,407"
+    },
+    "transfer_admitted": {
+      "value": 13204,
+      "quote": "D2 total 26,319 13,204 4,407"
+    },
+    "transfer_enrolled": {
+      "value": 4407,
+      "quote": "D2 total 26,319 13,204 4,407"
     }
   },
   "concerns": null

@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://www.binghamton.edu/offices/oir/institutional-data/cds2025.pdf"
   },
+  "sourceUrl": "https://www.binghamton.edu/offices/oir/institutional-data/cds2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -161,6 +162,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 4727,
+      "quote": "D2 total 4,727 2,097 853"
+    },
+    "transfer_admitted": {
+      "value": 2097,
+      "quote": "D2 total 4,727 2,097 853"
+    },
+    "transfer_enrolled": {
+      "value": 853,
+      "quote": "D2 total 4,727 2,097 853"
     },
     "ea_offered": {
       "value": "yes",

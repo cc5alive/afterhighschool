@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf"
   },
+  "sourceUrl": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -120,6 +121,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1812,
+      "quote": "D2 total 1,812 157 92"
+    },
+    "transfer_admitted": {
+      "value": 157,
+      "quote": "D2 total 1,812 157 92"
+    },
+    "transfer_enrolled": {
+      "value": 92,
+      "quote": "D2 total 1,812 157 92"
     }
   },
   "concerns": null

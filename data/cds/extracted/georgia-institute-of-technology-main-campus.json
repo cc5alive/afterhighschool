@@ -5,9 +5,10 @@
     "title": "Common Data Set",
     "url": "https://irp.gatech.edu/sites/default/files/CDS/CDS_2025-2026_FINAL_R4_03JUN2026.pdf"
   },
+  "sourceUrl": "https://irp.gatech.edu/sites/default/files/CDS/CDS_2025-2026_FINAL_R4_03JUN2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -169,6 +170,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3939,
+      "quote": "D2 total 3,939 789 663"
+    },
+    "transfer_admitted": {
+      "value": 789,
+      "quote": "D2 total 3,939 789 663"
+    },
+    "transfer_enrolled": {
+      "value": 663,
+      "quote": "D2 total 3,939 789 663"
     }
   },
   "concerns": null

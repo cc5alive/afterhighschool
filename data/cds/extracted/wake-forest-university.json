@@ -5,9 +5,10 @@
     "title": "Common Data Set 2025-2026",
     "url": "https://prod.wp.cdn.aws.wfu.edu/sites/202/2026/06/CDS_2025-2026-PDF_Template_WFU.pdf"
   },
+  "sourceUrl": "https://prod.wp.cdn.aws.wfu.edu/sites/202/2026/06/CDS_2025-2026-PDF_Template_WFU.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -104,6 +105,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 464,
+      "quote": "D2 total 464 173 59"
+    },
+    "transfer_admitted": {
+      "value": 173,
+      "quote": "D2 total 464 173 59"
+    },
+    "transfer_enrolled": {
+      "value": 59,
+      "quote": "D2 total 464 173 59"
     }
   },
   "concerns": null

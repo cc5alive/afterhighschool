@@ -8,7 +8,7 @@
   "sourceUrl": "https://oira.harvard.edu/files/2026/07/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -150,6 +150,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2042,
+      "quote": "D2 total 2,042 13 12"
+    },
+    "transfer_admitted": {
+      "value": 13,
+      "quote": "D2 total 2,042 13 12"
+    },
+    "transfer_enrolled": {
+      "value": 12,
+      "quote": "D2 total 2,042 13 12"
     }
   },
   "concerns": null

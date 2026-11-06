@@ -8,7 +8,7 @@
   "sourceUrl": "https://louisville.edu/common-data-set/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -142,6 +142,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2935,
+      "quote": "D2 total 2935 2016 1026"
+    },
+    "transfer_admitted": {
+      "value": 2016,
+      "quote": "D2 total 2935 2016 1026"
+    },
+    "transfer_enrolled": {
+      "value": 1026,
+      "quote": "D2 total 2935 2016 1026"
     }
   },
   "concerns": null

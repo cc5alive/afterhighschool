@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.svsu.edu/oir/commondataset/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -82,6 +82,18 @@
     "gpa_submit_pct": {
       "value": 0.9408682634730539,
       "quote": "percent of total first-time, first-year students who submitted high school gpa: 0.9408682634730539 c.1606 date: day first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
+    },
+    "transfer_applied": {
+      "value": 1017,
+      "quote": "D2 total 1017 718 376"
+    },
+    "transfer_admitted": {
+      "value": 718,
+      "quote": "D2 total 1017 718 376"
+    },
+    "transfer_enrolled": {
+      "value": 376,
+      "quote": "D2 total 1017 718 376"
     }
   },
   "concerns": null

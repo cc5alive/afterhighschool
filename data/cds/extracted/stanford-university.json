@@ -5,9 +5,10 @@
     "title": "Stanford CDS 2025-2026",
     "url": "https://drive.google.com/file/d/1GIPKgVj1d86dkmLkHI_mZVCk_iY6kiCp/view"
   },
+  "sourceUrl": "https://drive.google.com/file/d/1GIPKgVj1d86dkmLkHI_mZVCk_iY6kiCp/view",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 5,
+  "readerVersion": 6,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -137,6 +138,18 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 4532,
+      "quote": "D2 total ( 4,532 )"
+    },
+    "transfer_admitted": {
+      "value": 102,
+      "quote": "D2 total ( 4,532 )"
+    },
+    "transfer_enrolled": {
+      "value": 89,
+      "quote": "D2 total ( 4,532 )"
     }
   },
   "concerns": null
