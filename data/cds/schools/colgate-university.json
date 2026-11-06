@@ -1,0 +1,44 @@
+{
+  "slug": "colgate-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.colgate.edu/media/75541/download?attachment"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 17310,
+    "admitted_total": 3030,
+    "enrolled_total": 805,
+    "waitlist_admitted": 23,
+    "rank_top10_pct": 79,
+    "rank_top25_pct": 96,
+    "gpa_400_pct": 32,
+    "gpa_375_pct": 42,
+    "gpa_350_pct": 22,
+    "gpa_325_pct": 3,
+    "gpa_300_pct": 1,
+    "gpa_average": 3.85,
+    "gpa_submit_pct": 100,
+    "ed_applied": 1342,
+    "ed_admitted": 477,
+    "ed_offered": "yes"
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader"
+  }
+}

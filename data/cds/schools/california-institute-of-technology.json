@@ -1,0 +1,25 @@
+{
+  "slug": "california-institute-of-technology",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://finance.caltech.edu/documents/25197/cds_2023.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 16626,
+    "admitted_total": 448,
+    "enrolled_total": 224,
+    "waitlist_admitted": 1,
+    "rank_top10_pct": 96.43,
+    "rank_top25_pct": 100
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader"
+  }
+}

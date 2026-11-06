@@ -1,0 +1,23 @@
+{
+  "slug": "middle-tennessee-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2026/07/CDS_2025-2026.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 17724,
+    "admitted_total": 11277,
+    "enrolled_total": 3267,
+    "gpa_average": 3.62,
+    "gpa_submit_pct": 100
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

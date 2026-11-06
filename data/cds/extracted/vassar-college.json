@@ -1,0 +1,58 @@
+{
+  "slug": "vassar-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11118,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2194 5219 3705 11118"
+    },
+    "admitted_total": {
+      "value": 2327,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 185 616 1526 2327"
+    },
+    "enrolled_total": {
+      "value": 697,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 214 420 63 697"
+    },
+    "waitlist_admitted": {
+      "value": 30,
+      "quote": "number of wait-listed students admitted: 30"
+    },
+    "rank_top10_pct": {
+      "value": 79,
+      "quote": "percent in top tenth of high school graduating class 79.00"
+    },
+    "rank_top25_pct": {
+      "value": 97,
+      "quote": "percent in top quarter of high school graduating class 97.00"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0"
+    },
+    "gpa_submit_pct": {
+      "value": 5,
+      "quote": "percent submitting gpa common data set 202 5 -202 6"
+    },
+    "ed_applied": {
+      "value": 1046,
+      "quote": "number of early decision applications received by your institution: 1046"
+    },
+    "ed_admitted": {
+      "value": 402,
+      "quote": "number of applicants admitted under early decision plan: 402"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

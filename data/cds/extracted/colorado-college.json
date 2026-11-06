@@ -1,0 +1,94 @@
+{
+  "slug": "colorado-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 8822,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 1605 4847 2370 8822"
+    },
+    "admitted_total": {
+      "value": 1949,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 164 300 1485 0 1949"
+    },
+    "enrolled_total": {
+      "value": 510,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 89 383 38 0 510"
+    },
+    "waitlist_admitted": {
+      "value": 20,
+      "quote": "number of wait-listed students admitted: 20"
+    },
+    "rank_top10_pct": {
+      "value": 58.1,
+      "quote": "percent in top tenth of high school graduating class 58.10"
+    },
+    "rank_top25_pct": {
+      "value": 86.3,
+      "quote": "percent in top quarter of high school graduating class 86.3"
+    },
+    "gpa_400_pct": {
+      "value": 52.59,
+      "quote": "percent who had gpa of 4.0 52.59 40.78 44.37"
+    },
+    "gpa_375_pct": {
+      "value": 22.96,
+      "quote": "percent who had gpa between 3.75 and 3.99 22.96 23.3 23.2"
+    },
+    "gpa_350_pct": {
+      "value": 12.59,
+      "quote": "percent who had gpa between 3.50 and 3.74 12.59 21.68 18.92"
+    },
+    "gpa_325_pct": {
+      "value": 8.89,
+      "quote": "percent who had gpa between 3.25 and 3.49 8.89 10.03 9.68"
+    },
+    "gpa_300_pct": {
+      "value": 2.97,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.97 3.24 3.15"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 0 0.97 0.68"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0 0 0"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 0"
+    },
+    "gpa_average": {
+      "value": 3.93,
+      "quote": "average high school gpa 3.93"
+    },
+    "gpa_submit_pct": {
+      "value": 87.06,
+      "quote": "percent submitting gpa 87.06"
+    },
+    "ed_applied": {
+      "value": 764,
+      "quote": "number of early decision applications received by your institution: 764"
+    },
+    "ed_admitted": {
+      "value": 272,
+      "quote": "number of applicants admitted under early decision plan: 272"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

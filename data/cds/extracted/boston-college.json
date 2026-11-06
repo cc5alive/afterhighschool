@@ -1,0 +1,146 @@
+{
+  "slug": "boston-college",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.bc.edu/content/dam/bc1/offices/irp/ir/cds/Boston_College_CDS_2024-2025_Final.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 21,
+      "quote": "total first-time, first-year who applied 34779 5401 25661 3696 21"
+    },
+    "admitted_total": {
+      "value": 2,
+      "quote": "total first-time, first-year who were admitted 5632 896 4116 618 2"
+    },
+    "enrolled_total": {
+      "value": 1,
+      "quote": "total first-time, first-year who enrolled 2394 471 1708 214 1"
+    },
+    "waitlist_admitted": {
+      "value": 352,
+      "quote": "number of wait-listed students admitted: 352"
+    },
+    "rank_top10_pct": {
+      "value": 90,
+      "quote": "percent in top tenth of high school graduating class 90.0%"
+    },
+    "rank_top25_pct": {
+      "value": 96.9,
+      "quote": "percent in top quarter of high school graduating class 96.9%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.0% 0.0% 0.0%"
+    },
+    "ed_applied": {
+      "value": 4288,
+      "quote": "number of early decision applications received by your institution 4288"
+    },
+    "ed_admitted": {
+      "value": 1434,
+      "quote": "number of applicants admitted under early decision plan 1434"
+    },
+    "sat_p25": {
+      "value": 1460,
+      "quote": "sat composite 1460 1500 1520"
+    },
+    "sat_p50": {
+      "value": 1500,
+      "quote": "sat composite 1460 1500 1520"
+    },
+    "sat_p75": {
+      "value": 1520,
+      "quote": "sat composite 1460 1500 1520"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

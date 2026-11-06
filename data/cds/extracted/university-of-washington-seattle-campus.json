@@ -1,0 +1,74 @@
+{
+  "slug": "university-of-washington-seattle-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_seattle.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 72933,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 15260 44619 13054 72933"
+    },
+    "admitted_total": {
+      "value": 30446,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 4653 6980 18813 0 30446"
+    },
+    "enrolled_total": {
+      "value": 7129,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4595 1843 691 0 7129"
+    },
+    "waitlist_admitted": {
+      "value": 2252,
+      "quote": "number of wait-listed students admitted: 2252"
+    },
+    "gpa_400_pct": {
+      "value": 18.12,
+      "quote": "percent who had gpa of 4.0 18.12"
+    },
+    "gpa_375_pct": {
+      "value": 58.07,
+      "quote": "percent who had gpa between 3.75 and 3.99 58.07"
+    },
+    "gpa_350_pct": {
+      "value": 18.08,
+      "quote": "percent who had gpa between 3.50 and 3.74 18.08"
+    },
+    "gpa_325_pct": {
+      "value": 4.42,
+      "quote": "percent who had gpa between 3.25 and 3.49 4.42"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 01.00"
+    },
+    "gpa_250_pct": {
+      "value": 0.24,
+      "quote": "percent who had gpa between 2.50 and 2.99 00.24"
+    },
+    "gpa_200_pct": {
+      "value": 0.07,
+      "quote": "percent who had gpa between 2.0 and 2.49 00.07"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    },
+    "gpa_average": {
+      "value": 3.835791,
+      "quote": "average high school gpa 3.835791"
+    },
+    "gpa_submit_pct": {
+      "value": 99.87,
+      "quote": "percent submitting gpa 99.87"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "barnard-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://barnard.edu/sites/default/files/2026-10/Barnard_CDS_2025-2026II.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0"
+    },
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 0"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 0"
+    },
+    "waitlist_admitted": {
+      "value": 150,
+      "quote": "number of wait-listed students admitted: 150"
+    },
+    "rank_top10_pct": {
+      "value": 0.96,
+      "quote": "percent in top tenth of high school graduating class 0.96"
+    },
+    "rank_top25_pct": {
+      "value": 0.98,
+      "quote": "percent in top quarter of high school graduating class 0.98"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00 0.00 0.00"
+    },
+    "gpa_submit_pct": {
+      "value": 5,
+      "quote": "percent submitting gpa common data set 202 5 -202 6"
+    },
+    "ed_admitted": {
+      "value": 476,
+      "quote": "number of applicants admitted under early decision plan: 476"
+    },
+    "sat_p25": {
+      "value": 1480,
+      "quote": "sat composite 1480 1510 1540"
+    },
+    "sat_p50": {
+      "value": 1510,
+      "quote": "sat composite 1480 1510 1540"
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "sat composite 1480 1510 1540"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 32 34 35"
+    }
+  },
+  "concerns": null
+}

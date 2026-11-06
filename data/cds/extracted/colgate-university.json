@@ -1,0 +1,82 @@
+{
+  "slug": "colgate-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.colgate.edu/media/75541/download?attachment"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 17310,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2975 7380 6955 17310"
+    },
+    "admitted_total": {
+      "value": 3030,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 303 648 2079 3030"
+    },
+    "enrolled_total": {
+      "value": 805,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 183 571 51 805"
+    },
+    "waitlist_admitted": {
+      "value": 23,
+      "quote": "number of wait-listed students admitted: 23"
+    },
+    "rank_top10_pct": {
+      "value": 79,
+      "quote": "percent in top tenth of high school graduating class 79"
+    },
+    "rank_top25_pct": {
+      "value": 96,
+      "quote": "percent in top quarter of high school graduating class 96"
+    },
+    "gpa_400_pct": {
+      "value": 32,
+      "quote": "percent who had gpa of 4.0 32 30 31"
+    },
+    "gpa_375_pct": {
+      "value": 42,
+      "quote": "percent who had gpa between 3.75 and 3.99 42 36 38"
+    },
+    "gpa_350_pct": {
+      "value": 22,
+      "quote": "percent who had gpa between 3.50 and 3.74 22 23 23"
+    },
+    "gpa_325_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 3.25 and 3.49 3 10 7"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1 1 1"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100 100 100"
+    },
+    "gpa_average": {
+      "value": 3.85,
+      "quote": "average high school gpa 3.85"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100"
+    },
+    "ed_applied": {
+      "value": 1342,
+      "quote": "number of early decision applications received by your institution: 1342"
+    },
+    "ed_admitted": {
+      "value": 477,
+      "quote": "number of applicants admitted under early decision plan: 477"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

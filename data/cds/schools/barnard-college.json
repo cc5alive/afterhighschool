@@ -1,0 +1,31 @@
+{
+  "slug": "barnard-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://barnard.edu/sites/default/files/2026-10/Barnard_CDS_2025-2026II.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "waitlist_admitted": 150,
+    "sat_p25": 1480,
+    "sat_p50": 1510,
+    "sat_p75": 1540,
+    "act_p25": 32,
+    "act_p50": 34,
+    "act_p75": 35,
+    "rank_top10_pct": 0.96,
+    "rank_top25_pct": 0.98
+  },
+  "basis": {
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader"
+  }
+}

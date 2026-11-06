@@ -1,0 +1,42 @@
+{
+  "slug": "william-and-mary",
+  "cdsYear": "2099-2100",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.wm.edu/offices/ir/university_data/cds/cds9900.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 132,
+      "quote": "number of wait-listed students admitted 132"
+    },
+    "sat_submit_pct": {
+      "value": 99,
+      "quote": "percent submitting sat scores 99"
+    },
+    "act_submit_pct": {
+      "value": 1,
+      "quote": "percent submitting act scores 1"
+    },
+    "rank_top25_pct": {
+      "value": 97,
+      "quote": "percent in top quarter of high school graduating class 97"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    },
+    "ed_admitted": {
+      "value": 381,
+      "quote": "number of applicants admitted under early decision plan 381"
+    }
+  },
+  "concerns": null
+}

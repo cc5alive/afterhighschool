@@ -1,0 +1,174 @@
+{
+  "slug": "university-of-north-carolina-at-chapel-hill",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://oira.unc.edu/wp-content/uploads/sites/297/2026/06/CDS_UNCCH_2025-26_20260615.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 76247,
+      "quote": "total first-time, first-year who applied 31,665 44,582 0 76,247"
+    },
+    "admitted_total": {
+      "value": 12751,
+      "quote": "total first-time, first-year who were admitted 5,305 7,446 0 12,751"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year who enrolled 4,063 728 300 0"
+    },
+    "rank_top10_pct": {
+      "value": 76.2,
+      "quote": "percent in top tenth of high school graduating class 76.2%"
+    },
+    "rank_top25_pct": {
+      "value": 96.7,
+      "quote": "percent in top quarter of high school graduating class 96.7%"
+    },
+    "rank_submit_pct": {
+      "value": 66,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 66%"
+    },
+    "gpa_400_pct": {
+      "value": 96.3,
+      "quote": "percent who had gpa of 4.0 96.3% 92.0% 94.6%"
+    },
+    "gpa_375_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 3.75 and 3.99 2.0% 4.0% 2.8%"
+    },
+    "gpa_350_pct": {
+      "value": 0.8,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.8% 1.8% 1.2%"
+    },
+    "gpa_325_pct": {
+      "value": 0.6,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.6% 1.1% 0.8%"
+    },
+    "gpa_300_pct": {
+      "value": 0.2,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.2% 0.9% 0.5%"
+    },
+    "gpa_250_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.1% 0.2% 0.1%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0% 0.0% 0.0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.0% 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% 0.0% 0.0%"
+    },
+    "gpa_submit_pct": {
+      "value": 89.9,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 89.9%"
+    },
+    "sat_p25": {
+      "value": 1400,
+      "quote": "sat composite 1400 1470 1530"
+    },
+    "sat_p50": {
+      "value": 1470,
+      "quote": "sat composite 1400 1470 1530"
+    },
+    "sat_p75": {
+      "value": 1530,
+      "quote": "sat composite 1400 1470 1530"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 29 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 29 32 34"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Very Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

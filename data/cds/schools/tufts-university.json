@@ -1,0 +1,37 @@
+{
+  "slug": "tufts-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://provost.tufts.edu/institutionalresearch/wp-content/uploads/sites/5/CDS_2025-2026.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 33415,
+    "admitted_total": 3613,
+    "enrolled_total": 1765,
+    "waitlist_admitted": 71,
+    "sat_p25": 1460,
+    "sat_p50": 1500,
+    "sat_p75": 1520,
+    "act_p25": 33,
+    "act_p50": 34,
+    "act_p75": 35,
+    "rank_top10_pct": 87,
+    "rank_top25_pct": 96
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader"
+  }
+}

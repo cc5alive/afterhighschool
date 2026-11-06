@@ -1,0 +1,122 @@
+{
+  "slug": "yale-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://oir.yale.edu/sites/default/files/yale_cds_2025-26_md_20260616.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 97,
+      "quote": "percent in top tenth of high school graduating class 97%"
+    },
+    "rank_top25_pct": {
+      "value": 99,
+      "quote": "percent in top quarter of high school graduating class 99%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.0%"
+    },
+    "sat_p25": {
+      "value": 1480,
+      "quote": "sat composite 1480 1540 1560"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "sat composite 1480 1540 1560"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "sat composite 1480 1540 1560"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

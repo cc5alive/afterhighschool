@@ -1,0 +1,86 @@
+{
+  "slug": "kennesaw-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://campus.kennesaw.edu/offices-services/data-strategy/institutional-research/publications/common-data-set/cds-2025-2026.php"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "html",
+  "values": {
+    "applied_total": {
+      "value": 33513,
+      "quote": "total first-time, first-year (degree-seeking) who applied 33,513"
+    },
+    "admitted_total": {
+      "value": 26622,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 26,622"
+    },
+    "enrolled_total": {
+      "value": 9537,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 9,537"
+    },
+    "gpa_400_pct": {
+      "value": 6.17,
+      "quote": "percent who had gpa of 4.0 n/a n/a 6.17%"
+    },
+    "gpa_375_pct": {
+      "value": 21.35,
+      "quote": "percent who had gpa between 3.75 and 3.99 n/a n/a 21.35%"
+    },
+    "gpa_350_pct": {
+      "value": 24.69,
+      "quote": "percent who had gpa between 3.50 and 3.74 n/a n/a 24.69%"
+    },
+    "gpa_325_pct": {
+      "value": 23.75,
+      "quote": "percent who had gpa between 3.25 and 3.49 n/a n/a 23.75%"
+    },
+    "gpa_300_pct": {
+      "value": 14.83,
+      "quote": "percent who had gpa between 3.00 and 3.24 n/a n/a 14.83%"
+    },
+    "gpa_250_pct": {
+      "value": 9.18,
+      "quote": "percent who had gpa between 2.50 and 2.99 n/a n/a 9.18%"
+    },
+    "gpa_200_pct": {
+      "value": 0.03,
+      "quote": "percent who had gpa between 2.0 and 2.49 n/a n/a 0.03%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 n/a n/a 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 n/a n/a 0.00%"
+    },
+    "sat_p25": {
+      "value": 1010,
+      "quote": "sat composite 1010 1100 1210 1111.35"
+    },
+    "sat_p50": {
+      "value": 1100,
+      "quote": "sat composite 1010 1100 1210 1111.35"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "sat composite 1010 1100 1210 1111.35"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 26 22.38"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 26 22.38"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 19 22 26 22.38"
+    }
+  },
+  "concerns": null
+}

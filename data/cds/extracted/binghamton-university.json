@@ -1,0 +1,170 @@
+{
+  "slug": "binghamton-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.binghamton.edu/offices/oir/institutional-data/cds2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 61188,
+      "quote": "total first-time, first-year (degree-seeking) who applied 49217 8932 2810 229 61188"
+    },
+    "admitted_total": {
+      "value": 22832,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 14324 6586 1744 178 22832"
+    },
+    "enrolled_total": {
+      "value": 3201,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 2600 502 99 0 3201"
+    },
+    "rank_top10_pct": {
+      "value": 51,
+      "quote": "percent in top tenth of high school graduating class 51%"
+    },
+    "rank_top25_pct": {
+      "value": 87,
+      "quote": "percent in top quarter of high school graduating class 87%"
+    },
+    "rank_submit_pct": {
+      "value": 21,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 21%"
+    },
+    "gpa_400_pct": {
+      "value": 69,
+      "quote": "percent who had gpa of 4.0 69% 59% 63.92%"
+    },
+    "gpa_375_pct": {
+      "value": 17,
+      "quote": "percent who had gpa between 3.75 and 3.99 17% 18% 17.61%"
+    },
+    "gpa_350_pct": {
+      "value": 10,
+      "quote": "percent who had gpa between 3.50 and 3.74 10% 13% 11.56%"
+    },
+    "gpa_325_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 3.25 and 3.49 3% 5% 4.25%"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1% 3% 2.16%"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 0% 1% 0.50%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100.00% 100.00% 100.00%"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 100.00%"
+    },
+    "ea_applied": {
+      "value": 34283,
+      "quote": "number of early action applications received by your institution 34283"
+    },
+    "ea_admitted": {
+      "value": 14315,
+      "quote": "number of applicants admitted under early action plan 14315"
+    },
+    "sat_p25": {
+      "value": 1320,
+      "quote": "sat composite 1320 1410 1480"
+    },
+    "sat_p50": {
+      "value": 1410,
+      "quote": "sat composite 1320 1410 1480"
+    },
+    "sat_p75": {
+      "value": 1480,
+      "quote": "sat composite 1320 1410 1480"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "act composite 31 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 31 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 31 33 34"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "university-of-washington-seattle-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_seattle.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 72933,
+    "admitted_total": 30446,
+    "enrolled_total": 7129,
+    "waitlist_admitted": 2252,
+    "gpa_400_pct": 18.12,
+    "gpa_375_pct": 58.07,
+    "gpa_350_pct": 18.08,
+    "gpa_325_pct": 4.42,
+    "gpa_300_pct": 1,
+    "gpa_250_pct": 0.24,
+    "gpa_200_pct": 0.07,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.835791,
+    "gpa_submit_pct": 99.87
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

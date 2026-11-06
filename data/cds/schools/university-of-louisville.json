@@ -1,0 +1,47 @@
+{
+  "slug": "university-of-louisville",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://louisville.widen.net/content/s7kzlpdmo1/original/Common-Data-Set-2024-2025-final.pdf?u=nfnp1l&download=true"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_p25": 1010,
+    "sat_p50": 1120,
+    "sat_p75": 1230,
+    "act_p25": 19,
+    "act_p50": 23,
+    "act_p75": 27,
+    "rank_top10_pct": 24.8,
+    "rank_top25_pct": 52.2,
+    "gpa_400_pct": 39,
+    "gpa_375_pct": 17,
+    "gpa_350_pct": 16,
+    "gpa_325_pct": 12,
+    "gpa_300_pct": 8,
+    "gpa_250_pct": 8,
+    "gpa_200_pct": 0,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0
+  },
+  "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader"
+  }
+}

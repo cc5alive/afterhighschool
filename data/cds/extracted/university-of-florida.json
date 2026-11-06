@@ -1,0 +1,94 @@
+{
+  "slug": "university-of-florida",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS%202025-26_v8_08.14.2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 90523,
+      "quote": "total first-time, first-year (degree-seeking) who applied 42,172 39,420 90,523"
+    },
+    "admitted_total": {
+      "value": 18403,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 9,387 8,086 18,403"
+    },
+    "enrolled_total": {
+      "value": 7619,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 5,856 1,608 7,619"
+    },
+    "waitlist_admitted": {
+      "value": 1,
+      "quote": "number of wait-listed students admitted: 1"
+    },
+    "rank_top10_pct": {
+      "value": 85,
+      "quote": "percent in top tenth of high school graduating class 85%"
+    },
+    "rank_top25_pct": {
+      "value": 98,
+      "quote": "percent in top quarter of high school graduating class 98%"
+    },
+    "gpa_400_pct": {
+      "value": 58,
+      "quote": "percent who had gpa of 4.0 58%"
+    },
+    "gpa_375_pct": {
+      "value": 38,
+      "quote": "percent who had gpa between 3.75 and 3.99 38%"
+    },
+    "gpa_350_pct": {
+      "value": 4,
+      "quote": "percent who had gpa between 3.50 and 3.74 4%"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 <1% percent who had gpa between 2.0 and 2.49 0%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0%"
+    },
+    "gpa_submit_pct": {
+      "value": 95,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 95%"
+    },
+    "sat_p25": {
+      "value": 1330,
+      "quote": "sat composite 1330 1410 1490"
+    },
+    "sat_p50": {
+      "value": 1410,
+      "quote": "sat composite 1330 1410 1490"
+    },
+    "sat_p75": {
+      "value": 1490,
+      "quote": "sat composite 1330 1410 1490"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 32 33"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 29 32 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 29 32 33"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,154 @@
+{
+  "slug": "university-of-chicago",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://data.uchicago.edu/files/2026/08/CDS_2025-2026_to_publish-1.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 97,
+      "quote": "percent in top tenth of high school graduating class 97%"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "percent in top quarter of high school graduating class 100%"
+    },
+    "gpa_400_pct": {
+      "value": 59,
+      "quote": "percent who had gpa of 4.0 59% 49% 56.76%"
+    },
+    "gpa_375_pct": {
+      "value": 27,
+      "quote": "percent who had gpa between 3.75 and 3.99 27% 26% 26.85%"
+    },
+    "gpa_350_pct": {
+      "value": 9,
+      "quote": "percent who had gpa between 3.50 and 3.74 9% 12% 9.91%"
+    },
+    "gpa_325_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 3.25 and 3.49 2% 5% 2.79%"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1% 8% 2.88%"
+    },
+    "gpa_250_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.50 and 2.99 1% 1% 0.72%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0% 0% 0.09%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0.00%"
+    },
+    "sat_p25": {
+      "value": 1500,
+      "quote": "sat composite 1500 1540 1560"
+    },
+    "sat_p50": {
+      "value": 1540,
+      "quote": "sat composite 1500 1540 1560"
+    },
+    "sat_p75": {
+      "value": 1560,
+      "quote": "sat composite 1500 1540 1560"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 34 35 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Considered",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

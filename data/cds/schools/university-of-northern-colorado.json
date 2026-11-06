@@ -1,0 +1,19 @@
+{
+  "slug": "university-of-northern-colorado",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.unco.edu/app/uploads/2025/10/UNC-Common-Data-Set-2023-24.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_p25": 970,
+    "sat_p50": 1070,
+    "sat_p75": 1170
+  },
+  "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader"
+  }
+}

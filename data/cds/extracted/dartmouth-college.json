@@ -1,0 +1,146 @@
+{
+  "slug": "dartmouth-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.dartmouth.edu/oir/pdfs/cds_2025-26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 28230,
+      "quote": "total first-time, first-year (degree-seeking) who applied 516 19551 8163 28230"
+    },
+    "admitted_total": {
+      "value": 1699,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1699"
+    },
+    "enrolled_total": {
+      "value": 1205,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 27 1024 154 1205"
+    },
+    "rank_top10_pct": {
+      "value": 96,
+      "quote": "percent in top tenth of high school graduating class 96%"
+    },
+    "rank_top25_pct": {
+      "value": 99,
+      "quote": "percent in top quarter of high school graduating class 99%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
+    },
+    "ed_applied": {
+      "value": 3552,
+      "quote": "number of early decision applications received by your institution 3552"
+    },
+    "ed_admitted": {
+      "value": 768,
+      "quote": "number of applicants admitted under early decision plan 768"
+    },
+    "sat_p25": {
+      "value": 1440,
+      "quote": "sat composite 1440 1520 1550"
+    },
+    "sat_p50": {
+      "value": 1520,
+      "quote": "sat composite 1440 1520 1550"
+    },
+    "sat_p75": {
+      "value": 1550,
+      "quote": "sat composite 1440 1520 1550"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 32 34 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

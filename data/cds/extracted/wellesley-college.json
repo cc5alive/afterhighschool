@@ -1,0 +1,78 @@
+{
+  "slug": "wellesley-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf?dm=1773253066"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 8506,
+      "quote": "total first-time, first-year (degree-seeking) who applied 698 4676 3132 8506"
+    },
+    "admitted_total": {
+      "value": 1258,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 151 1000 107 1258"
+    },
+    "enrolled_total": {
+      "value": 576,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 71 433 72 576"
+    },
+    "waitlist_admitted": {
+      "value": 59,
+      "quote": "number of wait-listed students admitted: 59"
+    },
+    "rank_top10_pct": {
+      "value": 88,
+      "quote": "percent in top tenth of high school graduating class 88%"
+    },
+    "rank_top25_pct": {
+      "value": 99,
+      "quote": "percent in top quarter of high school graduating class 99%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
+    },
+    "ed_applied": {
+      "value": 1023,
+      "quote": "number of early decision applications received by your institution 1023"
+    },
+    "ed_admitted": {
+      "value": 301,
+      "quote": "number of applicants admitted under early decision plan 301"
+    },
+    "sat_p25": {
+      "value": 1460,
+      "quote": "sat composite 1460 1500 1540"
+    },
+    "sat_p50": {
+      "value": 1500,
+      "quote": "sat composite 1460 1500 1540"
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "sat composite 1460 1500 1540"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

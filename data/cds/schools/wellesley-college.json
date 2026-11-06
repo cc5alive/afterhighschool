@@ -1,0 +1,42 @@
+{
+  "slug": "wellesley-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf?dm=1773253066"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 8506,
+    "admitted_total": 1258,
+    "enrolled_total": 576,
+    "waitlist_admitted": 59,
+    "sat_p25": 1460,
+    "sat_p50": 1500,
+    "sat_p75": 1540,
+    "act_p25": 33,
+    "act_p50": 34,
+    "act_p75": 35,
+    "rank_top10_pct": 88,
+    "rank_top25_pct": 99,
+    "ed_applied": 1023,
+    "ed_admitted": 301,
+    "ed_offered": "yes"
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader"
+  }
+}

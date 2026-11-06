@@ -1,0 +1,46 @@
+{
+  "slug": "university-of-northern-colorado",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.unco.edu/app/uploads/2025/10/UNC-Common-Data-Set-2023-24.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "gpa_400_pct": {
+      "value": 24,
+      "quote": "percent who had gpa of 4.0 c or t c or t 24 %"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 c or t c or t 0%"
+    },
+    "sat_p25": {
+      "value": 970,
+      "quote": "sat composite 970 1070 1170"
+    },
+    "sat_p50": {
+      "value": 1070,
+      "quote": "sat composite 970 1070 1170"
+    },
+    "sat_p75": {
+      "value": 1170,
+      "quote": "sat composite 970 1070 1170"
+    },
+    "act_p25": {
+      "value": 17,
+      "quote": "act composite 17 22 26"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 17 22 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 17 22 26"
+    }
+  },
+  "concerns": null
+}

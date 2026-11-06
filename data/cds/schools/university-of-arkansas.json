@@ -1,0 +1,19 @@
+{
+  "slug": "university-of-arkansas",
+  "cdsYear": "2099-2100",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://osai.uark.edu/datasets/cds/cds99-00.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_submit_pct": 19.8,
+    "act_submit_pct": 95.8,
+    "rank_top25_pct": 65.7
+  },
+  "basis": {
+    "sat_submit_pct": "reader",
+    "act_submit_pct": "reader",
+    "rank_top25_pct": "reader"
+  }
+}

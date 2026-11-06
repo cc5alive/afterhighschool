@@ -1,0 +1,70 @@
+{
+  "slug": "loyola-university-chicago",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.luc.edu/media/lucedu/oie/CDS%202025-26%20-%20Loyola%20University%20Chicago%20-%20Final_af.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 362,
+      "quote": "total first-time, first-year (degree-seeking) who applied 20089 15530 7973 362 ##"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1382 1170 53 0 ##"
+    },
+    "waitlist_admitted": {
+      "value": 0,
+      "quote": "number of wait-listed students admitted: 0"
+    },
+    "rank_top10_pct": {
+      "value": 37.3,
+      "quote": "percent in top tenth of high school graduating class 37.3%"
+    },
+    "rank_top25_pct": {
+      "value": 69.3,
+      "quote": "percent in top quarter of high school graduating class 69.3%"
+    },
+    "gpa_400_pct": {
+      "value": 35.8,
+      "quote": "percent who had gpa of 4.0 35.8% 42.6%"
+    },
+    "gpa_375_pct": {
+      "value": 20.5,
+      "quote": "percent who had gpa between 3.75 and 3.99 20.5% 19.7%"
+    },
+    "gpa_350_pct": {
+      "value": 18.2,
+      "quote": "percent who had gpa between 3.50 and 3.74 18.2% 16.3%"
+    },
+    "gpa_325_pct": {
+      "value": 13.4,
+      "quote": "percent who had gpa between 3.25 and 3.49 13.4% 11.5%"
+    },
+    "gpa_300_pct": {
+      "value": 8.5,
+      "quote": "percent who had gpa between 3.00 and 3.24 8.5% 6.6%"
+    },
+    "gpa_250_pct": {
+      "value": 3.6,
+      "quote": "percent who had gpa between 2.50 and 2.99 3.6% 3.3%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0% 0.0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% 0.0%"
+    }
+  },
+  "concerns": null
+}

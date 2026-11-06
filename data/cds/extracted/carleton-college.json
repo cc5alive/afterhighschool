@@ -1,0 +1,58 @@
+{
+  "slug": "carleton-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 6796,
+      "quote": "total first-time, first-year (degree-seeking) who applied 636 2870 3290 6796"
+    },
+    "admitted_total": {
+      "value": 1480,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 132 221 1127 1480"
+    },
+    "enrolled_total": {
+      "value": 518,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 88 376 54 518"
+    },
+    "waitlist_admitted": {
+      "value": 33,
+      "quote": "number of wait-listed students admitted: 33"
+    },
+    "rank_top10_pct": {
+      "value": 77,
+      "quote": "percent in top tenth of high school graduating class 77"
+    },
+    "rank_top25_pct": {
+      "value": 94,
+      "quote": "percent in top quarter of high school graduating class 94"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0"
+    },
+    "gpa_submit_pct": {
+      "value": 5,
+      "quote": "percent submitting gpa common data set 202 5 -202 6"
+    },
+    "ed_applied": {
+      "value": 760,
+      "quote": "number of early decision applications received by your institution: 760"
+    },
+    "ed_admitted": {
+      "value": 263,
+      "quote": "number of applicants admitted under early decision plan: 263"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "university-of-akron-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.uakron.edu/ir/docs/CDS/CDS%202025-2026%20University%20of%20Akron%20Main%20Campus.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0"
+    },
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 0"
+    },
+    "enrolled_total": {
+      "value": 2169,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2004 140 25 2169"
+    },
+    "rank_top10_pct": {
+      "value": 29.36,
+      "quote": "percent in top tenth of high school graduating class 29.36"
+    },
+    "rank_top25_pct": {
+      "value": 59.33,
+      "quote": "percent in top quarter of high school graduating class 59.33"
+    },
+    "gpa_400_pct": {
+      "value": 27.03,
+      "quote": "percent who had gpa of 4.0 27.03 9.11 22.76"
+    },
+    "gpa_375_pct": {
+      "value": 19.39,
+      "quote": "percent who had gpa between 3.75 and 3.99 19.39 9.11 16.94"
+    },
+    "gpa_350_pct": {
+      "value": 14.3,
+      "quote": "percent who had gpa between 3.50 and 3.74 14.30 12.60 13.90"
+    },
+    "gpa_325_pct": {
+      "value": 12.3,
+      "quote": "percent who had gpa between 3.25 and 3.49 12.30 13.76 12.65"
+    },
+    "gpa_300_pct": {
+      "value": 7.94,
+      "quote": "percent who had gpa between 3.00 and 3.24 7.94 12.21 8.96"
+    },
+    "gpa_250_pct": {
+      "value": 12.06,
+      "quote": "percent who had gpa between 2.50 and 2.99 12.06 25.00 15.14"
+    },
+    "gpa_200_pct": {
+      "value": 6.42,
+      "quote": "percent who had gpa between 2.0 and 2.49 6.42 15.89 8.68"
+    },
+    "gpa_100_pct": {
+      "value": 0.56,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.56 2.13 0.92"
+    },
+    "gpa_below1_pct": {
+      "value": 0.19,
+      "quote": "percent who had gpa below 1.0 0.19 0.05"
+    },
+    "gpa_average": {
+      "value": 3.47,
+      "quote": "average high school gpa 3.47"
+    },
+    "gpa_submit_pct": {
+      "value": 99.9,
+      "quote": "percent submitting gpa 99.9"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "university-of-florida",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS%202025-26_v8_08.14.2026.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 90523,
+    "admitted_total": 18403,
+    "enrolled_total": 7619,
+    "waitlist_admitted": 1,
+    "sat_p25": 1330,
+    "sat_p50": 1410,
+    "sat_p75": 1490,
+    "act_p25": 29,
+    "act_p50": 32,
+    "act_p75": 33,
+    "rank_top10_pct": 85,
+    "rank_top25_pct": 98,
+    "gpa_400_pct": 58,
+    "gpa_375_pct": 38,
+    "gpa_350_pct": 4,
+    "gpa_250_pct": 0,
+    "gpa_200_pct": 0,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_submit_pct": 95
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

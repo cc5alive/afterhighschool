@@ -1,0 +1,70 @@
+{
+  "slug": "middle-tennessee-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2026/07/CDS_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 17724,
+      "quote": "total first-time, first-year (degree-seeking) who applied 10033 5562 2129 17724"
+    },
+    "admitted_total": {
+      "value": 11277,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1061 7797 2419 11277"
+    },
+    "enrolled_total": {
+      "value": 3267,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2836 288 143 3267"
+    },
+    "gpa_400_pct": {
+      "value": 23.87,
+      "quote": "percent who had gpa of 4.0 23.87 15.84 23.62"
+    },
+    "gpa_375_pct": {
+      "value": 25.23,
+      "quote": "percent who had gpa between 3.75 and 3.99 25.23 17.82 25"
+    },
+    "gpa_350_pct": {
+      "value": 19.55,
+      "quote": "percent who had gpa between 3.50 and 3.74 19.55 18.82 19.52"
+    },
+    "gpa_325_pct": {
+      "value": 14.24,
+      "quote": "percent who had gpa between 3.25 and 3.49 14.24 15.84 14.29"
+    },
+    "gpa_300_pct": {
+      "value": 10.48,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.48 12.87 10.56"
+    },
+    "gpa_250_pct": {
+      "value": 5.84,
+      "quote": "percent who had gpa between 2.50 and 2.99 5.84 9.9 5.97"
+    },
+    "gpa_200_pct": {
+      "value": 3.96,
+      "quote": "percent who had gpa between 2.0 and 2.49 .6 3.96 .7"
+    },
+    "gpa_100_pct": {
+      "value": 2.97,
+      "quote": "percent who had gpa between 1.0 and 1.99 .19 2.97 .28"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 1.98 .06"
+    },
+    "gpa_average": {
+      "value": 3.62,
+      "quote": "average high school gpa 3.62"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100"
+    }
+  },
+  "concerns": null
+}

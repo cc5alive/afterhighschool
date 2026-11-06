@@ -1,0 +1,34 @@
+{
+  "slug": "university-of-arkansas",
+  "cdsYear": "2099-2100",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://osai.uark.edu/datasets/cds/cds99-00.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "sat_submit_pct": {
+      "value": 19.8,
+      "quote": "percent submitting sat scores 19.8 number submitting sat scores 444"
+    },
+    "act_submit_pct": {
+      "value": 95.8,
+      "quote": "percent submitting act scores 95.8 number submitting act scores 2,152"
+    },
+    "rank_top25_pct": {
+      "value": 65.7,
+      "quote": "percent in top quarter of high school graduating class 65.7"
+    },
+    "gpa_100_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.1"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0"
+    }
+  },
+  "concerns": null
+}

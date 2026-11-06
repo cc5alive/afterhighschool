@@ -1,0 +1,66 @@
+{
+  "slug": "california-state-university-northridge",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://live-csu-northridge.pantheonsite.io/sites/default/files/2026-04/CDS%202025%20v2.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 0"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 0"
+    },
+    "gpa_400_pct": {
+      "value": 11.64,
+      "quote": "percent who had gpa of 4.0 11.64 11.64"
+    },
+    "gpa_375_pct": {
+      "value": 11.85,
+      "quote": "percent who had gpa between 3.75 and 3.99 11.85 11.85"
+    },
+    "gpa_350_pct": {
+      "value": 15.64,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.64 15.64"
+    },
+    "gpa_325_pct": {
+      "value": 16.38,
+      "quote": "percent who had gpa between 3.25 and 3.49 16.38 16.38"
+    },
+    "gpa_300_pct": {
+      "value": 17.72,
+      "quote": "percent who had gpa between 3.00 and 3.24 17.72 17.72"
+    },
+    "gpa_250_pct": {
+      "value": 22.5,
+      "quote": "percent who had gpa between 2.50 and 2.99 22.50 22.50"
+    },
+    "gpa_200_pct": {
+      "value": 3.82,
+      "quote": "percent who had gpa between 2.0 and 2.49 3.82 3.82"
+    },
+    "gpa_100_pct": {
+      "value": 0.45,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.45 0.45"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00 0.00"
+    },
+    "gpa_average": {
+      "value": 3.33,
+      "quote": "average high school gpa 3.33"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.00"
+    }
+  },
+  "concerns": null
+}

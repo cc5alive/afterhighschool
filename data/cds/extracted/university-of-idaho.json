@@ -1,0 +1,98 @@
+{
+  "slug": "university-of-idaho",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://content-hub.uidaho.edu/api/public/content/bf62e21cc0114b06bed65dc2a5e6c633?v=aee281dc"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 6222,
+      "quote": "total first-time, first-year students who applied in fall 2023 6,000.0 6,222.0"
+    },
+    "enrolled_total": {
+      "value": 956,
+      "quote": "total first-time, first-year students enrolled in fall 2023 913.0 956.0"
+    },
+    "rank_top10_pct": {
+      "value": 15.6,
+      "quote": "percent in top tenth of high school graduating class 15.6%"
+    },
+    "rank_top25_pct": {
+      "value": 36.7,
+      "quote": "percent in top quarter of high school graduating class 36.7%"
+    },
+    "gpa_400_pct": {
+      "value": 7.8,
+      "quote": "percent who had gpa of 4.0 7.8% 6.8% 7.4%"
+    },
+    "gpa_375_pct": {
+      "value": 27.6,
+      "quote": "percent who had gpa between 3.75 and 3.99 27.6% 22.7% 25.7%"
+    },
+    "gpa_350_pct": {
+      "value": 18.4,
+      "quote": "percent who had gpa between 3.50 and 3.74 18.4% 19.3% 18.7%"
+    },
+    "gpa_325_pct": {
+      "value": 14.9,
+      "quote": "percent who had gpa between 3.25 and 3.49 14.9% 19.3% 16.6%"
+    },
+    "gpa_300_pct": {
+      "value": 13.4,
+      "quote": "percent who had gpa between 3.00 and 3.24 13.4% 13.7% 13.6%"
+    },
+    "gpa_250_pct": {
+      "value": 14.3,
+      "quote": "percent who had gpa between 2.50 and 2.99 14.3% 15.2% 14.6%"
+    },
+    "gpa_200_pct": {
+      "value": 3.4,
+      "quote": "percent who had gpa between 2.0 and 2.49 3.4% 3.0% 3.2%"
+    },
+    "gpa_100_pct": {
+      "value": 0.3,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.3% 0.1% 0.2%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 total 100.0% 100.0% 100.0%"
+    },
+    "gpa_average": {
+      "value": 3.4,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.4"
+    },
+    "gpa_submit_pct": {
+      "value": 98.3,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 98.3%"
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "sat composite (400 - 1600) 950 1076 1200"
+    },
+    "sat_p50": {
+      "value": 1076,
+      "quote": "sat composite (400 - 1600) 950 1076 1200"
+    },
+    "sat_p75": {
+      "value": 1200,
+      "quote": "sat composite (400 - 1600) 950 1076 1200"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite (0 - 36) 20 25 29"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "act composite (0 - 36) 20 25 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "act composite (0 - 36) 20 25 29"
+    }
+  },
+  "concerns": null
+}

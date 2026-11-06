@@ -1,0 +1,38 @@
+{
+  "slug": "california-institute-of-technology",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://finance.caltech.edu/documents/25197/cds_2023.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 16626,
+      "quote": "total first-time, first-year (degree-seeking) who applied 16626"
+    },
+    "admitted_total": {
+      "value": 448,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 448"
+    },
+    "enrolled_total": {
+      "value": 224,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 224"
+    },
+    "waitlist_admitted": {
+      "value": 1,
+      "quote": "number of wait-listed students admitted: 1"
+    },
+    "rank_top10_pct": {
+      "value": 96.43,
+      "quote": "percent in top tenth of high school graduating class 96.43"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "percent in top quarter of high school graduating class 100.00"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "kennesaw-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://campus.kennesaw.edu/offices-services/data-strategy/institutional-research/publications/common-data-set/cds-2025-2026.php"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 33513,
+    "admitted_total": 26622,
+    "enrolled_total": 9537,
+    "sat_p25": 1010,
+    "sat_p50": 1100,
+    "sat_p75": 1210,
+    "act_p25": 19,
+    "act_p50": 22,
+    "act_p75": 26,
+    "gpa_400_pct": 6.17,
+    "gpa_375_pct": 21.35,
+    "gpa_350_pct": 24.69,
+    "gpa_325_pct": 23.75,
+    "gpa_300_pct": 14.83,
+    "gpa_250_pct": 9.18,
+    "gpa_200_pct": 0.03,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader"
+  }
+}

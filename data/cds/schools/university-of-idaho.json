@@ -1,0 +1,49 @@
+{
+  "slug": "university-of-idaho",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://content-hub.uidaho.edu/api/public/content/bf62e21cc0114b06bed65dc2a5e6c633?v=aee281dc"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "sat_p25": 950,
+    "sat_p50": 1076,
+    "sat_p75": 1200,
+    "act_p25": 20,
+    "act_p50": 25,
+    "act_p75": 29,
+    "rank_top10_pct": 15.6,
+    "rank_top25_pct": 36.7,
+    "gpa_400_pct": 7.8,
+    "gpa_375_pct": 27.6,
+    "gpa_350_pct": 18.4,
+    "gpa_325_pct": 14.9,
+    "gpa_300_pct": 13.4,
+    "gpa_250_pct": 14.3,
+    "gpa_200_pct": 3.4,
+    "gpa_100_pct": 0.3,
+    "gpa_average": 3.4,
+    "gpa_submit_pct": 98.3
+  },
+  "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

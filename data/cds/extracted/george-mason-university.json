@@ -1,0 +1,82 @@
+{
+  "slug": "george-mason-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://oiep.gmu.edu/wp-content/uploads/2026/02/CDS-PDF-2025-2026_PDF_Template_Final_02_19.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 26014,
+      "quote": "total first-time, first-year (degree-seeking) who applied 16236 9778 26014"
+    },
+    "admitted_total": {
+      "value": 22495,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 14222 8273 22495"
+    },
+    "enrolled_total": {
+      "value": 4337,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 3620 717 4337"
+    },
+    "waitlist_admitted": {
+      "value": 415,
+      "quote": "number of wait-listed students admitted: 415"
+    },
+    "rank_top10_pct": {
+      "value": 23.2,
+      "quote": "percent in top tenth of high school graduating class 23.20"
+    },
+    "rank_top25_pct": {
+      "value": 54.64,
+      "quote": "percent in top quarter of high school graduating class 54.64"
+    },
+    "gpa_400_pct": {
+      "value": 24.7,
+      "quote": "percent who had gpa of 4.0 24.70"
+    },
+    "gpa_375_pct": {
+      "value": 21.7,
+      "quote": "percent who had gpa between 3.75 and 3.99 21.70"
+    },
+    "gpa_350_pct": {
+      "value": 22.8,
+      "quote": "percent who had gpa between 3.50 and 3.74 22.80"
+    },
+    "gpa_325_pct": {
+      "value": 19.9,
+      "quote": "percent who had gpa between 3.25 and 3.49 19.90"
+    },
+    "gpa_300_pct": {
+      "value": 10.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.10"
+    },
+    "gpa_250_pct": {
+      "value": 0.8,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.80"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0"
+    },
+    "gpa_average": {
+      "value": 3.66,
+      "quote": "average high school gpa 3.66"
+    },
+    "gpa_submit_pct": {
+      "value": 99.7,
+      "quote": "percent submitting gpa 99.70"
+    }
+  },
+  "concerns": null
+}

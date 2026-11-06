@@ -1,0 +1,66 @@
+{
+  "slug": "tufts-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://provost.tufts.edu/institutionalresearch/wp-content/uploads/sites/5/CDS_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 33415,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4733 19414 9260 8 33415"
+    },
+    "admitted_total": {
+      "value": 3613,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 659 2422 531 1 3613"
+    },
+    "enrolled_total": {
+      "value": 1765,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 364 1132 268 1 1765"
+    },
+    "waitlist_admitted": {
+      "value": 71,
+      "quote": "number of wait-listed students admitted: 71"
+    },
+    "rank_top10_pct": {
+      "value": 87,
+      "quote": "percent in top tenth of high school graduating class 87.00"
+    },
+    "rank_top25_pct": {
+      "value": 96,
+      "quote": "percent in top quarter of high school graduating class 96.00"
+    },
+    "ed_admitted": {
+      "value": 1071,
+      "quote": "number of applicants admitted under early decision plan: 1071"
+    },
+    "sat_p25": {
+      "value": 1460,
+      "quote": "sat composite 1460 1500 1520"
+    },
+    "sat_p50": {
+      "value": 1500,
+      "quote": "sat composite 1460 1500 1520"
+    },
+    "sat_p75": {
+      "value": 1520,
+      "quote": "sat composite 1460 1500 1520"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
+    }
+  },
+  "concerns": null
+}
