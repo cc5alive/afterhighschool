@@ -31,3 +31,7 @@ draws the numbers on a canvas. Its 2025-26 section C and D figures were read fro
 and D - Transfer Admissions tabs in CC's Chrome and written into `brown-university.rows.json` in the standard CDS
 labels; each count was checked against its gender columns. Brown doesn't collect GPA and reported the wait-list
 offered and accepted counts as N/A, so those are left out.
+
+Williams' site turns away GitHub's servers (HTTP 403), and its PDF can't be read as text in a browser. Its
+2025-26 section C and D figures were read from the PDF in CC's Chrome and written into `williams-college.rows.json`
+in the standard CDS labels; each count was checked against its parts. Williams left C11 and the average GPA blank.

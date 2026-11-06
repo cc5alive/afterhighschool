@@ -18,7 +18,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 10; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets; 10: no C11 from split groups only
+const READER_VERSION = 11; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets; 10: no C11 from split groups only; 11: "students admitted" C1 label (WPI)
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -45,7 +45,7 @@ const fail = (slug, url, reason) => { failed[slug] = { url, at: today, reason };
 // pick: 'first' = first number after the label; 'last' = rightmost column (the C1 "Total" column).
 const ROWS = {
   applied_total: [/^total first-time, first-year (?:\(degree-seeking\) )?(?:students )?who applied/, 'count', 'last'],
-  admitted_total: [/^total first-time, first-year (?:\(degree-seeking\) )?(?:students )?who were admitted/, 'count', 'last'],
+  admitted_total: [/^total first-time, first-year (?:\(degree-seeking\) )?(?:students )?(?:who were )?admitted/, 'count', 'last'],
   enrolled_total: [/^total (?:full-time )?first-time, first-year (?:\(degree-seeking\) )?(?:students )?(?:who )?enrolled/, 'count', 'last'],
   waitlist_offered: [/^number of qualified applicants offered a place on wait ?list/, 'count', 'first'],
   waitlist_accepted: [/^number accepting a place on the wait ?list/, 'count', 'first'],
@@ -140,7 +140,7 @@ function readRows(rows) {
 
 // C1 also lists applicants, admits and enrollees by gender. When the total row is blank, broken ("##")
 // or reads 0, the total is the sum of those rows.
-const C1_VERB = { applied_total: /who applied$/, admitted_total: /who were admitted$/, enrolled_total: /(who )?enrolled$/ };
+const C1_VERB = { applied_total: /who applied$/, admitted_total: /(who were )?admitted$/, enrolled_total: /(who )?enrolled$/ };
 function c1FromGender(rows, out) {
   for (const [key, verb] of Object.entries(C1_VERB)) {
     if (out[key]?.value) continue;

@@ -635,7 +635,8 @@
  "williams-college": {
   "url": "https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf",
   "year": "2025-2026",
-  "title": "Williams College Common Data Set 2025-2026"
+  "title": "Williams College Common Data Set 2025-2026",
+  "mirror": "data/cds/mirror/williams-college.rows.json"
  },
  "colgate-university": {
   "url": "https://www.colgate.edu/sites/default/files/2026-07/CDS-PDF-2025-2026.pdf",

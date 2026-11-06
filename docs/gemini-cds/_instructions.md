@@ -29,6 +29,10 @@ For each key, give the value and a **quote**: the row's label as printed in the 
 
 **C22 (early action):** ea_offered ("yes" or "no"), ea_applied, ea_admitted (only if the document reports them)
 
+**C18 (deferred admission):** deferral_allowed ("yes" or "no": can admitted students postpone enrolling?), deferral_max (the maximum period of postponement, in the document's words, only if deferral_allowed is "yes")
+
+**D2 (transfer students, use the "Total" row):** transfer_applied, transfer_admitted, transfer_enrolled
+
 **C7 (how much each factor counts in first-year admission):** for each row of the C7 grid, give the column that is checked: "Very Important", "Important", "Considered" or "Not Considered". The quote is just the row label as printed. Keys: factor_rigor (Rigor of secondary school record), factor_class_rank, factor_gpa (Academic GPA), factor_test_scores, factor_essay, factor_recommendations, factor_interview, factor_extracurriculars, factor_talent (Talent/ability), factor_character (Character/personal qualities), factor_first_generation, factor_alumni (Alumni/ae relation), factor_geography (Geographical residence), factor_state_residency, factor_religion (Religious affiliation/commitment), factor_volunteer, factor_work (Work experience), factor_interest (Level of applicant's interest)
 
 Values: write numbers without commas or % signs (4213, not "4,213"; 24.5, not "24.50%"). Keep the commas and % signs as printed inside the quote.
