@@ -9,148 +9,262 @@
   "values": {
     "applied_total": {
       "value": 26403,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 26403"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 26403",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 22732,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 22732"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 22732",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 4420,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 4420"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 4420",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Not Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Not Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Considered",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Considered",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "sat_submit_pct": {
       "value": 6.24,
-      "quote": "Percent Submitting SAT Scores 6.24"
+      "quote": "Percent Submitting SAT Scores 6.24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 1.11,
-      "quote": "Percent Submitting ACT Scores 1.11"
+      "quote": "Percent Submitting ACT Scores 1.11",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 3.6,
-      "quote": "3.60"
+      "quote": "3.60",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 25.03,
-      "quote": "25.03"
+      "quote": "25.03",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 21.39,
-      "quote": "21.39"
+      "quote": "21.39",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 19.24,
-      "quote": "19.24"
+      "quote": "19.24",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 17.12,
-      "quote": "17.12"
+      "quote": "17.12",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 13.11,
-      "quote": "13.11"
+      "quote": "13.11",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0.5,
-      "quote": "0.50"
+      "quote": "0.50",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "0.00"
+      "quote": "0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "0.00"
+      "quote": "0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.46,
-      "quote": "Average High School GPA 3.46"
+      "quote": "Average High School GPA 3.46",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 99.23,
-      "quote": "Percent Submitting GPA 99.23"
+      "quote": "Percent Submitting GPA 99.23",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan ... No"
+      "quote": "Does your institution offer an early decision plan ... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Do you have a nonbinding early action plan ... Yes"
+      "quote": "Do you have a nonbinding early action plan ... Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://wpcdn.web.wsu.edu/wp-provost/uploads/sites/3285/2026/05/CDS_2025-2026-PDF_For-Website.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 14,
+  "total": 36
 }

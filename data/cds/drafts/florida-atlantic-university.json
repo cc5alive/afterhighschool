@@ -9,184 +9,325 @@
   "values": {
     "applied_total": {
       "value": 31511,
-      "quote": "Total 31511"
+      "quote": "Total 31511",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "admitted_total": {
       "value": 20838,
-      "quote": "Total 20838"
+      "quote": "Total 20838",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "enrolled_total": {
       "value": 4232,
-      "quote": "Total 4232"
+      "quote": "Total 4232",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_test_scores": {
       "value": "Very Important",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_essay": {
       "value": "Not Considered",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_extracurriculars": {
       "value": "Considered",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "sat_submit_pct": {
       "value": 76.25,
-      "quote": "Submitting SAT Scores 76.25"
+      "quote": "Submitting SAT Scores 76.25",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "act_submit_pct": {
       "value": 22.73,
-      "quote": "Submitting ACT Scores 22.73"
+      "quote": "Submitting ACT Scores 22.73",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "sat_p25": {
       "value": 1040,
-      "quote": "SAT Composite 1040"
+      "quote": "SAT Composite 1040",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "sat_p50": {
       "value": 1110,
-      "quote": "SAT Composite 1110"
+      "quote": "SAT Composite 1110",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "sat_p75": {
       "value": 1210,
-      "quote": "SAT Composite 1210"
+      "quote": "SAT Composite 1210",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "act_p25": {
       "value": 21,
-      "quote": "ACT Composite 21"
+      "quote": "ACT Composite 21",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "act_p50": {
       "value": 23,
-      "quote": "ACT Composite 23"
+      "quote": "ACT Composite 23",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "act_p75": {
       "value": 26,
-      "quote": "ACT Composite 26"
+      "quote": "ACT Composite 26",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "rank_top10_pct": {
       "value": 16.64,
-      "quote": "Percent in top tenth of high school graduating class 16.64"
+      "quote": "Percent in top tenth of high school graduating class 16.64",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "rank_top25_pct": {
       "value": 45.69,
-      "quote": "Percent in top quarter of high school graduating class 45.69"
+      "quote": "Percent in top quarter of high school graduating class 45.69",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "rank_submit_pct": {
       "value": 64.18,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 64.18"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 64.18",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_400_pct": {
       "value": 37.3,
-      "quote": "Percent who had GPA of 4.0 37.30"
+      "quote": "Percent who had GPA of 4.0 37.30",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_375_pct": {
       "value": 19.77,
-      "quote": "Percent who had GPA between 3.75 and 3.99 19.77"
+      "quote": "Percent who had GPA between 3.75 and 3.99 19.77",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_350_pct": {
       "value": 19.56,
-      "quote": "Percent who had GPA between 3.50 and 3.74 19.56"
+      "quote": "Percent who had GPA between 3.50 and 3.74 19.56",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_325_pct": {
       "value": 13.83,
-      "quote": "Percent who had GPA between 3.25 and 3.49 13.83"
+      "quote": "Percent who had GPA between 3.25 and 3.49 13.83",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_300_pct": {
       "value": 8.26,
-      "quote": "Percent who had GPA between 3.00 and 3.24 8.26"
+      "quote": "Percent who had GPA between 3.00 and 3.24 8.26",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_250_pct": {
       "value": 1.07,
-      "quote": "Percent who had GPA between 2.50 and 2.99 1.07"
+      "quote": "Percent who had GPA between 2.50 and 2.99 1.07",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_200_pct": {
       "value": 0.19,
-      "quote": "Percent who had GPA between 2.0 and 2.49 0.19"
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.19",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_100_pct": {
       "value": 0.02,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.02"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.02",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0.00"
+      "quote": "Percent who had GPA below 1.0 0.00",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_average": {
       "value": 3.83,
-      "quote": "Average High School GPA 3.83"
+      "quote": "Average High School GPA 3.83",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "gpa_submit_pct": {
       "value": 99.79,
-      "quote": "Percent Submitting GPA 99.79"
+      "quote": "Percent Submitting GPA 99.79",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No",
+      "found": null,
+      "how": null,
+      "note": "document failed to load"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 404,
+  "finalUrl": "https://www.fau.edu/iea/documents/pdf/cds/cds-2024-2025.pdf",
+  "docKind": null,
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 45
 }

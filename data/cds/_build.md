@@ -49,8 +49,9 @@ Built 2026-11-06.
 | duke-university | 2025-2026 | 29 |  |
 | east-carolina-university | 2024-2025 | 34 |  |
 | emory-university | 2024-2025 | 43 | enrolled_total: reader 1438, Gemini 1443 (quote matched); waitlist_admitted: reader 109, Gemini 274 (quote matched); act_p25: reader 32, Gemini 33 (quote matched); rank_top10_pct: reader 80, Gemini 76 (quote matched); gpa_400_pct: reader 17.41, Gemini 14 (quote matched); gpa_375_pct: reader 58.38, Gemini 63 (quote matched); gpa_350_pct: reader 21.24, Gemini 21 (quote matched); gpa_325_pct: reader 2.53, Gemini 2 (quote matched); gpa_300_pct: reads disagree (0.44 vs 0), left out; ed_applied: reader 4193, Gemini 4728 (quote matched); ed_admitted: reader 974, Gemini 1049 (quote matched); factor_recommendations: reader Very Important, Gemini Important (quote matched) |
-| fairfield-university | 2025-2026 | 44 |  |
+| fairfield-university | 2025-2026 | 49 |  |
 | florida-agricultural-and-mechanical-university | 2023-2024 | 12 | C11 buckets sum to 132.5 |
+| florida-atlantic-university | 2024-2025 | 0 |  |
 | florida-international-university | 2025-2026 | 43 |  |
 | george-mason-university | 2025-2026 | 46 |  |
 | georgetown-university | 2025-2026 | 34 |  |
@@ -67,6 +68,7 @@ Built 2026-11-06.
 | indiana-university-bloomington | 2024-2025 | 45 |  |
 | iowa-state-university | 2025-2026 | 39 |  |
 | jacksonville-state-university | 2025-2026 | 34 |  |
+| james-madison-university | 2025-2026 | 31 |  |
 | kennesaw-state-university | 2025-2026 | 25 |  |
 | lehigh-university | 2025-2026 | 37 |  |
 | lincoln-university-mo | 2023-2024 | 17 |  |
@@ -84,7 +86,7 @@ Built 2026-11-06.
 | north-carolina-state-university-at-raleigh | 2025-2026 | 43 |  |
 | northeastern-illinois-university | 2024-2025 | 1 |  |
 | northeastern-university | 2025-2026 | 39 | gpa_below1_pct read as the "totals = 100%" note |
-| northern-arizona-university | 2025-2026 | 41 |  |
+| northern-arizona-university | 2025-2026 | 43 |  |
 | northwestern-university | 2024-2025 | 30 | C11 buckets sum to 100.0 |
 | ohio-state-university-main-campus | 2025-2026 | 0 |  |
 | ohio-wesleyan-university | 2025-2026 | 30 |  |
@@ -110,7 +112,7 @@ Built 2026-11-06.
 | stony-brook-university | 2025-2026 | 23 |  |
 | swarthmore-college | 2025-2026 | 0 |  |
 | syracuse-university | 2025-2026 | 49 |  |
-| temple-university | - | 27 |  |
+| temple-university | 2024-2025 | 23 | applied_total: reads disagree (42824 vs 40817), left out; admitted_total: reads disagree (36922 vs 32838), left out; enrolled_total: reads disagree (5303 vs 4926), left out; sat_p25: reader 1030, Gemini 1130 (quote matched); sat_p50: reads disagree (1200 vs 1250), left out; sat_p75: reads disagree (1310 vs 1358), left out; act_p25: reader 23, Gemini 24 (quote matched); act_p50: reads disagree (27 vs 29), left out; act_p75: reads disagree (30 vs 31), left out; sat scores inconsistent (1130, undefined, undefined); act scores inconsistent (24, undefined, undefined) |
 | texas-a-and-m-university-college-station | 2025-2026 | 14 |  |
 | texas-a-and-m-university-corpus-christi | 2025-2026 | 36 |  |
 | texas-christian-university | 2025-2026 | 34 |  |
@@ -149,27 +151,29 @@ Built 2026-11-06.
 | university-of-idaho | - | 18 | gpa_below1_pct read as the "totals = 100%" note |
 | university-of-illinois-chicago | 2025-2026 | 39 | SAT 1030-1300 far from federal 1130-1350 |
 | university-of-illinois-urbana-champaign | 2025-2026 | 32 | C11 buckets sum to 18.0 |
-| university-of-iowa | 2024-2025 | 38 | applied_total: reads disagree (27770 vs 31454), left out; enrolled_total: reads disagree (5208 vs 5561), left out; waitlist_admitted: reader 13, Gemini 1 (quote matched); sat_p25: reader 1140, Gemini 1130 (quote matched); sat_p75: reads disagree (1313 vs 1320), left out; act_p50: reads disagree (24 vs 25), left out; gpa_average: reader 3.83, Gemini 3.86 (quote matched); gpa_submit_pct: reader 99.06, Gemini 99.42 (quote matched); factor_class_rank: reader Very Important, Gemini Considered (quote matched); C1 failed consistency (applied undefined, admitted 23222, enrolled undefined, federal admit rate 0.8362); sat scores inconsistent (1130, 1230, undefined) |
+| university-of-iowa | 2024-2025 | 32 |  |
+| university-of-kansas | 2024-2025 | 19 | sat_submit_pct: reader 8, Gemini 8.6 (quote matched); act_submit_pct: reader 55, Gemini 55.2 (quote matched); act_p25: reader 2, Gemini 20 (quote matched); act_p50: reads disagree (2 vs 24), left out; act_p75: reads disagree (4 vs 28), left out; rank_top25_pct: reader 5, Gemini 54 (quote matched); gpa_400_pct: reader 3, Gemini 36 (quote matched); gpa_375_pct: reader 2, Gemini 23 (quote matched); gpa_325_pct: reader 1, Gemini 11 (quote matched); C1 failed consistency (applied 22363, admitted undefined, enrolled undefined, federal admit rate 0.9348); act scores inconsistent (20, undefined, undefined); ed counts inconsistent (undefined, 24) |
 | university-of-kentucky | 2025-2026 | 31 |  |
 | university-of-louisville | 2024-2025 | 33 |  |
 | university-of-maryland-college-park | 2025-2026 | 0 |  |
-| university-of-massachusetts-amherst | - | 40 |  |
+| university-of-massachusetts-amherst | 2025-2026 | 45 |  |
 | university-of-miami | 2024-2025 | 26 |  |
 | university-of-michigan-ann-arbor | 2025-2026 | 37 |  |
 | university-of-minnesota-twin-cities | 2025-2026 | 32 |  |
-| university-of-mississippi | - | 0 |  |
+| university-of-mississippi | 2024-2025 | 0 |  |
 | university-of-missouri-columbia | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.7847) |
 | university-of-nebraska-lincoln | 2025-2026 | 3 |  |
-| university-of-nevada-las-vegas | 2025-2026 | 0 |  |
+| university-of-nevada-las-vegas | 2025-2026 | 21 | SAT 870-1180 far from federal 1010-1240 |
 | university-of-new-hampshire-main-campus | - | 29 |  |
 | university-of-new-mexico-main-campus | 2025-2026 | 11 | C1 failed consistency (applied 13589, admitted 10866, enrolled 3775, federal admit rate 0.9518) |
 | university-of-north-carolina-at-chapel-hill | 2025-2026 | 40 |  |
-| university-of-north-carolina-at-charlotte | 2025-2026 | 23 |  |
+| university-of-north-carolina-at-charlotte | 2025-2026 | 31 | enrolled_total: reader 4934, Gemini 4657 (quote matched); sat_p50: reads disagree (1250 vs 1240), left out; sat_p75: reads disagree (1340 vs 1320), left out; act_p75: reads disagree (27 vs 28), left out; rank_top10_pct: reader 0.1857, Gemini 16 (quote matched); rank_top25_pct: reader 0.4708, Gemini 45 (quote matched); rank_submit_pct: reader 0.5523, Gemini 57.33 (quote matched); gpa_400_pct: reader 0.0436, Gemini 4.68 (quote matched); gpa_375_pct: reader 0.23568, Gemini 24.29 (quote matched); gpa_350_pct: reader 0.30595, Gemini 31.36 (quote matched); gpa_325_pct: reader 0.25982, Gemini 23.47 (quote matched); gpa_300_pct: reader 0.12505, Gemini 13.43 (quote matched); gpa_250_pct: reader 0.02486, Gemini 2.57 (quote matched); gpa_200_pct: reader 0.00396, Gemini 0.12 (quote matched); gpa_100_pct: reader 0.00108, Gemini 0.07 (quote matched); sat scores inconsistent (1150, undefined, undefined); act scores inconsistent (21, 24, undefined) |
 | university-of-north-dakota | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.769) |
 | university-of-north-georgia | 2025-2026 | 20 |  |
 | university-of-north-texas | 2025-2026 | 28 |  |
 | university-of-northern-colorado | 2023-2024 | 22 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |
 | university-of-oklahoma-norman-campus | 2025-2026 | 43 |  |
+| university-of-oregon | 2025-2026 | 0 |  |
 | university-of-pennsylvania | 2025-2026 | 43 |  |
 | university-of-pittsburgh-pittsburgh-campus | 2024-2025 | 0 |  |
 | university-of-rhode-island | 2025-2026 | 38 |  |
@@ -187,11 +191,12 @@ Built 2026-11-06.
 | vanderbilt-university | 2025-2026 | 45 |  |
 | vassar-college | 2025-2026 | 38 |  |
 | villanova-university | 2025-2026 | 47 |  |
-| virginia-commonwealth-university | - | 4 | C11 buckets sum to 73.4 |
+| virginia-commonwealth-university | 2024-2025 | 18 | sat_submit_pct: reader 85, Gemini 33.7 (quote matched); rank_top10_pct: reader 18.35, Gemini 17 (quote matched); rank_top25_pct: reader 45.03, Gemini 40 (quote matched); gpa_400_pct: reads disagree (27.11 vs 26.29), left out; gpa_375_pct: reads disagree (18.08 vs 16.66), left out; gpa_325_pct: reads disagree (16.57 vs 15.27), left out; gpa_300_pct: reads disagree (11.34 vs 13.16), left out; gpa_200_pct: reads disagree (0.3 vs 0.26), left out; gpa_average: reader 3.68, Gemini 3.63 (quote matched); C11 buckets sum to 28.3 |
 | virginia-polytechnic-institute-and-state-university | 2025-2026 | 17 |  |
 | wabash-college | 2025-2026 | 15 | C11 buckets sum to 2.0 |
 | wake-forest-university | 2025-2026 | 25 | sat scores inconsistent (1420, undefined, undefined); act scores inconsistent (32, undefined, undefined) |
 | washington-and-lee-university | 2025-2026 | 37 | C11 left blank by the school |
+| washington-state-university | 2025-2026 | 32 |  |
 | washington-university-in-st-louis | 2025-2026 | 34 |  |
 | wellesley-college | 2025-2026 | 20 |  |
 | wentworth-institute-of-technology | 2025-2026 | 40 |  |

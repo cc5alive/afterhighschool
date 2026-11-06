@@ -3,42 +3,73 @@
   "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set 2025-26",
-    "url": "https://www.utep.edu/planning/cierp/institutional-research/common-data-set/cds-pdf-reports.html"
+    "url": "https://www.utep.edu/planning/cierp/_Files/docs/common-data-set/CDS%202025-26%20-Masked%20-%20v2.pdf",
+    "page": "https://www.utep.edu/planning/cierp/institutional-research/common-data-set/cds-pdf-reports.html"
   },
   "researchedAt": "2026-11-05",
   "values": {
     "applied_total": {
       "value": 12357,
-      "quote": "12,357 first-year students applied"
+      "quote": "12,357 first-year students applied",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 12350,
-      "quote": "12,350 were admitted"
+      "quote": "12,350 were admitted",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 4569,
-      "quote": "4,569 admitted students enrolled"
+      "quote": "4,569 admitted students enrolled",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 850,
-      "quote": "middle-50% SAT of 850–1050"
+      "quote": "middle-50% SAT of 850–1050",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1050,
-      "quote": "middle-50% SAT of 850–1050"
+      "quote": "middle-50% SAT of 850–1050",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 15,
-      "quote": "ACT of 15–22"
+      "quote": "ACT of 15–22",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 22,
-      "quote": "ACT of 15–22"
+      "quote": "ACT of 15–22",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "This school does not report an Early Decision lane"
+      "quote": "This school does not report an Early Decision lane",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.utep.edu/planning/cierp/_files/docs/common-data-set/cds%202025-26%20-masked%20-%20v2.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 8
 }
