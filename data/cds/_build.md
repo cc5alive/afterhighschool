@@ -61,7 +61,7 @@ Built 2026-11-06.
 | georgia-institute-of-technology-main-campus | 2025-2026 | 49 | gpa_below1_pct: reader 95.31, Gemini 0 (quote matched) |
 | georgia-southern-university | 2025-2026 | 0 |  |
 | governors-state-university | - | 41 |  |
-| grand-valley-state-university | 2025-2026 | 43 |  |
+| grand-valley-state-university | 2025-2026 | 36 |  |
 | grinnell-college | 2024-2025 | 15 |  |
 | hamilton-college | - | 42 |  |
 | harvard-university | 2025-2026 | 45 |  |

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.gvsu.edu/ia/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 9,
+  "readerVersion": 10,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -158,34 +158,6 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "C.718 level of applicant's interest: Not Considered"
-    },
-    "gpa_400_pct": {
-      "value": 19.2,
-      "quote": "C.1101 percent who had gpa of 4.0: 0.19196"
-    },
-    "gpa_375_pct": {
-      "value": 20.74,
-      "quote": "C.1102 percent who had gpa between 3.75 and 3.99: 0.20735"
-    },
-    "gpa_350_pct": {
-      "value": 16.89,
-      "quote": "C.1103 percent who had gpa between 3.50 and 3.74: 0.16888"
-    },
-    "gpa_325_pct": {
-      "value": 11.76,
-      "quote": "C.1104 percent who had gpa between 3.25 and 3.49: 0.11757"
-    },
-    "gpa_300_pct": {
-      "value": 11.84,
-      "quote": "C.1105 percent who had gpa between 3.00 and 3.24: 0.11843"
-    },
-    "gpa_250_pct": {
-      "value": 16.29,
-      "quote": "C.1106 percent who had gpa between 2.50 and 2.99: 0.16289"
-    },
-    "gpa_200_pct": {
-      "value": 3.29,
-      "quote": "C.1107 percent who had gpa between 2.0 and 2.49: 0.03292"
     }
   },
   "concerns": null
