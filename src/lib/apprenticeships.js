@@ -32,8 +32,6 @@ export const OCCUPATIONS = [
   { slug: 'machinist', name: 'Machinist', soc: '51-4041', trade: 'welding' },
   { slug: 'tool-and-die-maker', name: 'Tool and die maker', soc: '51-4111', trade: 'welding' },
   { slug: 'welder', name: 'Welder', soc: '51-4121', trade: 'welding' },
-  // Shares an OOH page with millwrights: ignore sentences about millwrights.
-  { slug: 'industrial-mechanic', name: 'Industrial machinery mechanic', soc: '49-9041', trade: 'industrial-maintenance', exclude: /millwright/i },
   { slug: 'diesel-mechanic', name: 'Diesel mechanic', soc: '49-3031', trade: 'auto-diesel-aviation-mechanic' },
   { slug: 'auto-technician', name: 'Automotive service technician', soc: '49-3023', trade: 'auto-diesel-aviation-mechanic' },
   { slug: 'aircraft-mechanic', name: 'Aircraft mechanic', soc: '49-3011', trade: 'auto-diesel-aviation-mechanic' },
