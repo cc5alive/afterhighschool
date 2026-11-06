@@ -71,7 +71,7 @@ Built 2026-11-06.
 | northeastern-illinois-university | 2024-2025 | 1 |  |
 | northeastern-university | 2025-2026 | 43 |  |
 | northern-arizona-university | 2025-2026 | 40 |  |
-| northwestern-university | 2024-2025 | 12 | C1 failed consistency (applied undefined, admitted undefined, enrolled 0, federal admit rate 0.0769); C11 buckets sum to 100.0 |
+| northwestern-university | 2025-2026 | 14 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.0769) |
 | ohio-state-university-main-campus | 2025-2026 | 0 |  |
 | ohio-wesleyan-university | 2025-2026 | 15 |  |
 | old-dominion-university | 2025-2026 | 19 | gpa_below1_pct read as the "totals = 100%" note |
