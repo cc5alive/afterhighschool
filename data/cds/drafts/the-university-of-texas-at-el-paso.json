@@ -1,0 +1,44 @@
+{
+  "slug": "the-university-of-texas-at-el-paso",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-26",
+    "url": "https://www.utep.edu/planning/cierp/institutional-research/common-data-set/cds-pdf-reports.html"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 12357,
+      "quote": "12,357 first-year students applied"
+    },
+    "admitted_total": {
+      "value": 12350,
+      "quote": "12,350 were admitted"
+    },
+    "enrolled_total": {
+      "value": 4569,
+      "quote": "4,569 admitted students enrolled"
+    },
+    "sat_p25": {
+      "value": 850,
+      "quote": "middle-50% SAT of 850–1050"
+    },
+    "sat_p75": {
+      "value": 1050,
+      "quote": "middle-50% SAT of 850–1050"
+    },
+    "act_p25": {
+      "value": 15,
+      "quote": "ACT of 15–22"
+    },
+    "act_p75": {
+      "value": 22,
+      "quote": "ACT of 15–22"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "This school does not report an Early Decision lane"
+    }
+  },
+  "concerns": null
+}

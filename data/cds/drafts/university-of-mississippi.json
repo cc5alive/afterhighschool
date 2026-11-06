@@ -1,0 +1,64 @@
+{
+  "slug": "university-of-mississippi",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://olemiss.edu/irep/institutional-research/common-data/"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 33363,
+      "quote": "Applications 33,363"
+    },
+    "admitted_total": {
+      "value": 32223,
+      "quote": "Admits 32,223"
+    },
+    "enrolled_total": {
+      "value": 5972,
+      "quote": "Enrolled 5,972"
+    },
+    "sat_submit_pct": {
+      "value": 23,
+      "quote": "23% SUB"
+    },
+    "act_submit_pct": {
+      "value": 60,
+      "quote": "60% SUB"
+    },
+    "sat_p25": {
+      "value": 1000,
+      "quote": "SAT 25–75 1000–1200"
+    },
+    "sat_p50": {
+      "value": 1090,
+      "quote": "MED 1090"
+    },
+    "sat_p75": {
+      "value": 1200,
+      "quote": "SAT 25–75 1000–1200"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "ACT 25–75 21–29"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "MED 25"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT 25–75 21–29"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "No Early Decision reported"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Ole Miss does not offer an Early Decision or Early Action plan"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "james-madison-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-26",
+    "url": "https://www.jmu.edu/pair/ir/common-data-set/Common%20Data%20Set%202025-26.docx"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 42595,
+      "quote": "29,300 offers out of 42,595 applications"
+    },
+    "admitted_total": {
+      "value": 29300,
+      "quote": "29,300 offers out of 42,595 applications"
+    },
+    "enrolled_total": {
+      "value": 4935,
+      "quote": "4,935 enrolled first-years"
+    },
+    "waitlist_offered": {
+      "value": 2973,
+      "quote": "offered 2,973 students a waitlist spot"
+    },
+    "waitlist_admitted": {
+      "value": 704,
+      "quote": "admitted 704 off it"
+    },
+    "sat_p25": {
+      "value": 1180,
+      "quote": "1180 to 1330 middle 50% SAT (enrolled, fall 2025, CDS 2025-26)"
+    },
+    "sat_p75": {
+      "value": 1330,
+      "quote": "1180 to 1330 middle 50% SAT (enrolled, fall 2025, CDS 2025-26)"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "The matching ACT range is 25-29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "The matching ACT range is 25-29"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "JMU checks 'No' to offering Early Decision in every Common Data Set filing"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "JMU does offer non-binding Early Action"
+    }
+  },
+  "concerns": null
+}
