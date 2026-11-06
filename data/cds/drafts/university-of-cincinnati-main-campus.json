@@ -1,0 +1,192 @@
+{
+  "slug": "university-of-cincinnati-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 33750,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 33750"
+    },
+    "admitted_total": {
+      "value": 29715,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 29715"
+    },
+    "enrolled_total": {
+      "value": 6497,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 6497"
+    },
+    "sat_submit_pct": {
+      "value": 8.97,
+      "quote": "Submitting SAT Scores 8.97"
+    },
+    "act_submit_pct": {
+      "value": 24.53,
+      "quote": "Submitting ACT Scores 24.53"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "SAT Composite 1160"
+    },
+    "sat_p50": {
+      "value": 1250,
+      "quote": "SAT Composite 1250"
+    },
+    "sat_p75": {
+      "value": 1340,
+      "quote": "SAT Composite 1340"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "ACT Composite 24"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "ACT Composite 27"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "ACT Composite 30"
+    },
+    "rank_top10_pct": {
+      "value": 22.1,
+      "quote": "Percent in top tenth of high school graduating class 22.10"
+    },
+    "rank_top25_pct": {
+      "value": 47.28,
+      "quote": "Percent in top quarter of high school graduating class 47.28"
+    },
+    "rank_submit_pct": {
+      "value": 43.59,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 43.59"
+    },
+    "gpa_400_pct": {
+      "value": 24.8,
+      "quote": "Percent who had GPA of 4.0 24.80"
+    },
+    "gpa_375_pct": {
+      "value": 20.83,
+      "quote": "Percent who had GPA between 3.75 and 3.99 20.83"
+    },
+    "gpa_350_pct": {
+      "value": 18.45,
+      "quote": "Percent who had GPA between 3.50 and 3.74 18.45"
+    },
+    "gpa_325_pct": {
+      "value": 14.86,
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.86"
+    },
+    "gpa_300_pct": {
+      "value": 11.4,
+      "quote": "Percent who had GPA between 3.00 and 3.24 11.40"
+    },
+    "gpa_250_pct": {
+      "value": 9.12,
+      "quote": "Percent who had GPA between 2.50 and 2.99 9.12"
+    },
+    "gpa_200_pct": {
+      "value": 0.44,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.44"
+    },
+    "gpa_100_pct": {
+      "value": 0.11,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.11"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.67,
+      "quote": "Average High School GPA 3.67"
+    },
+    "gpa_submit_pct": {
+      "value": 99.72,
+      "quote": "Percent Submitting GPA 99.72"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Do you have a nonbinding early action plan... Yes"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "california-state-university-sacramento",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.csus.edu/information-resources-technology/institutional-research/common-data-set/cds_2025-2026-final.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 26342,
+      "quote": "26,342"
+    },
+    "admitted_total": {
+      "value": 24648,
+      "quote": "24,648"
+    },
+    "enrolled_total": {
+      "value": 3742,
+      "quote": "3,742"
+    },
+    "gpa_400_pct": {
+      "value": 11.72,
+      "quote": "11.72%"
+    },
+    "gpa_375_pct": {
+      "value": 14.27,
+      "quote": "14.27%"
+    },
+    "gpa_350_pct": {
+      "value": 17.59,
+      "quote": "17.59%"
+    },
+    "gpa_325_pct": {
+      "value": 17.16,
+      "quote": "17.16%"
+    },
+    "gpa_300_pct": {
+      "value": 16.39,
+      "quote": "16.39%"
+    },
+    "gpa_250_pct": {
+      "value": 19.68,
+      "quote": "19.68%"
+    },
+    "gpa_200_pct": {
+      "value": 3.11,
+      "quote": "3.11%"
+    },
+    "gpa_100_pct": {
+      "value": 0.08,
+      "quote": "0.08%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "0"
+    },
+    "gpa_average": {
+      "value": 3.38,
+      "quote": "3.38"
+    },
+    "gpa_submit_pct": {
+      "value": 99.57,
+      "quote": "99.57%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "No"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "louisiana-state-university-and-agricultural-and-mechanical-college",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.lsu.edu/data/common-data-set/2024/3_2425_admissions.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 47065,
+      "quote": "47065"
+    },
+    "admitted_total": {
+      "value": 34513,
+      "quote": "34513"
+    },
+    "enrolled_total": {
+      "value": 7925,
+      "quote": "7925"
+    },
+    "sat_submit_pct": {
+      "value": 7,
+      "quote": "7%"
+    },
+    "act_submit_pct": {
+      "value": 40,
+      "quote": "40%"
+    },
+    "sat_p25": {
+      "value": 1180,
+      "quote": "1180"
+    },
+    "sat_p50": {
+      "value": 1250,
+      "quote": "1250"
+    },
+    "sat_p75": {
+      "value": 1320,
+      "quote": "1320"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "24"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "27"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "30"
+    },
+    "rank_top10_pct": {
+      "value": 26,
+      "quote": "26%"
+    },
+    "rank_top25_pct": {
+      "value": 54,
+      "quote": "54%"
+    },
+    "rank_submit_pct": {
+      "value": 77,
+      "quote": "77%"
+    },
+    "gpa_400_pct": {
+      "value": 36.56,
+      "quote": "36.56%"
+    },
+    "gpa_375_pct": {
+      "value": 21.8,
+      "quote": "21.80%"
+    },
+    "gpa_350_pct": {
+      "value": 17.79,
+      "quote": "17.79%"
+    },
+    "gpa_325_pct": {
+      "value": 13.9,
+      "quote": "13.90%"
+    },
+    "gpa_300_pct": {
+      "value": 9.07,
+      "quote": "9.07%"
+    },
+    "gpa_250_pct": {
+      "value": 0.81,
+      "quote": "0.81%"
+    },
+    "gpa_200_pct": {
+      "value": 0.05,
+      "quote": "0.05%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0.01,
+      "quote": "0.01%"
+    },
+    "gpa_average": {
+      "value": 3.83,
+      "quote": "3.83"
+    },
+    "gpa_submit_pct": {
+      "value": 99.32,
+      "quote": "99.32%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "No"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
