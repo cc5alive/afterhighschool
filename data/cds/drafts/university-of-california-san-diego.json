@@ -1,0 +1,131 @@
+{
+  "slug": "university-of-california-san-diego",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 87584,
+      "quote": "total first-time, first-year (degree-seeking) who applied 87584",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 21677,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 21677",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 5431,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 5431",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 5284,
+      "quote": "number of wait-listed students admitted: 5,284",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 100,
+      "quote": "percent in top tenth of high school graduating class 100%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "percent in top quarter of high school graduating class 100%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 31,
+      "quote": "percent who had gpa of 4.0 31%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 54,
+      "quote": "percent who had gpa between 3.75 and 3.99 54%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 13,
+      "quote": "percent who had gpa between 3.50 and 3.74 13%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 3.25 and 3.49 2%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 3.00 and 3.24 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 94,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 16,
+  "total": 16
+}

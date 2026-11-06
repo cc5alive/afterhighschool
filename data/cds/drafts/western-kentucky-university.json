@@ -1,0 +1,75 @@
+{
+  "slug": "western-kentucky-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.wku.edu/instres/documents/cds_2025_2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "gpa_average": {
+      "value": 3.47,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: average high school gpa: 3.47",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 99.8,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: percent submitting high school gpa: 99.8%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 930,
+      "quote": "sat composite 930 1040 1130",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1040,
+      "quote": "sat composite 930 1040 1130",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1130,
+      "quote": "sat composite 930 1040 1130",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 21 25",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "act composite 18 21 25",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 18 21 25",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.wku.edu/instres/documents/cds_2025_2026.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 8,
+  "total": 8
+}

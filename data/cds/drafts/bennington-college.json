@@ -1,0 +1,103 @@
+{
+  "slug": "bennington-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 1431,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1431",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 26,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 26",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 11,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 11",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 43,
+      "quote": "number of wait-listed students admitted: 43",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.67,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: average high school gpa 3.67",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_admitted": {
+      "value": 47,
+      "quote": "number of applicants admitted under early decision plan: 47",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1335,
+      "quote": "sat composite 1335 1410 1475",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1410,
+      "quote": "sat composite 1335 1410 1475",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1475,
+      "quote": "sat composite 1335 1410 1475",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 33 34 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 12,
+  "total": 12
+}

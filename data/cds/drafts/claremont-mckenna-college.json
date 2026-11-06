@@ -1,0 +1,250 @@
+{
+  "slug": "claremont-mckenna-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.cmc.edu/sites/default/files/CDS_2025-26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 2599,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2599",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 267,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 267",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 136,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 136",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 61,
+      "quote": "number of wait-listed students admitted: 61",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 64,
+      "quote": "percent in top tenth of high school graduating class 64%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 94,
+      "quote": "percent in top quarter of high school graduating class 94%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_applied": {
+      "value": 978,
+      "quote": "number of early decision applications received by your institution 978",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_admitted": {
+      "value": 216,
+      "quote": "number of applicants admitted under early decision plan 216",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1480,
+      "quote": "sat composite 1480 1510 1540",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1510,
+      "quote": "sat composite 1480 1510 1540",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "sat composite 1480 1510 1540",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interview": {
+      "value": "Important",
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.cmc.edu/sites/default/files/CDS_2025-26.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 32,
+  "total": 33
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "wentworth-institute-of-technology",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://wit.edu/sites/default/files/2026-07/Wentworth_CDS_25_26_final6.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 609,
+      "quote": "total first-time, first-year (degree-seeking) who applied 609",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 688,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 688",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 688,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 688",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.48,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: average high school gpa 3.48",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1180,
+      "quote": "sat composite 1180 1300 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1300,
+      "quote": "sat composite 1180 1300 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1390,
+      "quote": "sat composite 1180 1300 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 30 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 26 30 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 26 30 33",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://wit.edu/sites/default/files/2026-07/Wentworth_CDS_25_26_final6.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 10,
+  "total": 10
+}

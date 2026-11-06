@@ -1,0 +1,159 @@
+{
+  "slug": "old-dominion-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.odu.edu/sites/default/files/2026/documents/cds-2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11577,
+      "quote": "total first-time, first-year (degree-seeking) who applied 11577",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 10701,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 10701",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 2494,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 2494",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 1,
+      "quote": "number of wait-listed students admitted: yes or no cds-c page 1",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top10_pct": {
+      "value": 12,
+      "quote": "percent in top tenth of high school graduating class 12%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "rank_top25_pct": {
+      "value": 35,
+      "quote": "percent in top quarter of high school graduating class 35%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_400_pct": {
+      "value": 25,
+      "quote": "percent who had gpa of 4.0 25%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_375_pct": {
+      "value": 18,
+      "quote": "percent who had gpa between 3.75 and 3.99 18%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_350_pct": {
+      "value": 16,
+      "quote": "percent who had gpa between 3.50 and 3.74 16%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_325_pct": {
+      "value": 11,
+      "quote": "percent who had gpa between 3.25 and 3.49 11%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_300_pct": {
+      "value": 11,
+      "quote": "percent who had gpa between 3.00 and 3.24 11%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_250_pct": {
+      "value": 19,
+      "quote": "percent who had gpa between 2.50 and 2.99 19%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 100.00%",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1120,
+      "quote": "sat composite 1120 1190 1270",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1190,
+      "quote": "sat composite 1120 1190 1270",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1270,
+      "quote": "sat composite 1120 1190 1270",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 22,
+      "quote": "act composite 22 25 27",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "act composite 22 25 27",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "act composite 22 25 27",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.odu.edu/sites/default/files/2026/documents/cds-2025-2026.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 20,
+  "total": 20
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "rochester-institute-of-technology",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.rit.edu/institutionalresearch/sites/rit.edu.institutionalresearch/files/documents/Common%20Data%20Set%20PDFs/RIT_CDS_2025_26_FINAL_20260603.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 10339,
+      "quote": "total first-time, first-year (degree-seeking) who applied 10339",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "admitted_total": {
+      "value": 6532,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6532",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "enrolled_total": {
+      "value": 1192,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1192",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "waitlist_admitted": {
+      "value": 164,
+      "quote": "number of wait-listed students admitted: 164",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "gpa_average": {
+      "value": 3.9,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: average high school gpa 3.90",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "ed_admitted": {
+      "value": 1028,
+      "quote": "number of applicants admitted under early decision plan: 1028",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p25": {
+      "value": 1310,
+      "quote": "sat composite 1310 1380 1440",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p50": {
+      "value": 1380,
+      "quote": "sat composite 1310 1380 1440",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "sat_p75": {
+      "value": 1440,
+      "quote": "sat composite 1310 1380 1440",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p25": {
+      "value": 30,
+      "quote": "act composite 30 32 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 30 32 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 30 32 34",
+      "found": true,
+      "how": "quote",
+      "note": null
+    }
+  },
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.rit.edu/institutionalresearch/sites/rit.edu.institutionalresearch/files/documents/Common%20Data%20Set%20PDFs/RIT_CDS_2025_26_FINAL_20260603.pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 12,
+  "total": 12
+}
