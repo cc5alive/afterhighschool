@@ -287,7 +287,11 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     try {
       // Some schools block automated downloads (bot checks). For those, a person downloads the official file
       // and we keep a copy in data/cds/mirror/; the page still cites the school's own link (src.url).
-      if (src.mirror && fs.existsSync(src.mirror)) {
+      if (src.mirror && fs.existsSync(src.mirror) && src.mirror.endsWith('.rows.json')) {
+        // A scanned report: rows made by OCR (scripts/ocr-cds.py), checked by the same consistency rules.
+        const rows = JSON.parse(fs.readFileSync(src.mirror, 'utf8'));
+        resolved = { doc: { kind: 'ocr', status: 200, rows, text: norm(rows.map((r) => r.map((c) => c.s).join(' ')).join(' ')) }, url: src.url };
+      } else if (src.mirror && fs.existsSync(src.mirror)) {
         const buf = fs.readFileSync(src.mirror);
         const ext = src.mirror.split('.').pop().toLowerCase();
         const type = { pdf: 'application/pdf', xlsx: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', xls: 'application/vnd.ms-excel', docx: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' }[ext] || '';
