@@ -35,7 +35,7 @@ Built 2026-11-06.
 | case-western-reserve-university | - | 49 |  |
 | citadel-military-college-of-south-carolina | 2025-2026 | 19 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | claremont-mckenna-college | 2025-2026 | 41 |  |
-| clemson-university | 2025-2026 | 12 | C11 buckets sum to 10.8 |
+| clemson-university | 2025-2026 | 48 |  |
 | colgate-university | 2025-2026 | 50 |  |
 | college-of-the-holy-cross | 2023-2024 | 19 |  |
 | colorado-college | 2025-2026 | 54 |  |

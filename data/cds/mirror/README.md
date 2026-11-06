@@ -5,8 +5,13 @@ downloads the official Common Data Set, and the file is kept here. `data/cds/sou
 `"mirror": "data/cds/mirror/<slug>.<ext>"` next to the college's own `url`, which is what the site cites.
 The reader treats the copy exactly like a downloaded file. Replace it when the college posts a newer year.
 
-Scanned reports with no text (Clemson 2025-26) are run through OCR with `scripts/ocr-cds.py`; the
-`.rows.json` it writes is what the reader uses. Key numbers were checked against the page images by hand.
+Scanned reports with no text can be run through OCR with `scripts/ocr-cds.py`, but OCR misses tables and tick
+boxes. Clemson posts its CDS only as a scanned PDF (open.clemson.edu), so `clemson-university.rows.json` was
+transcribed by hand from the page images of `clemson-university.pdf` (sections C and D), and every count was
+checked against its parts. Clemson's own document is off by one in C1: admitted men, women and unknown add to
+27,497 against the 27,498 total in its residency table, and enrolled women (2,940) is one more than its full-time
+plus part-time count (2,939). We publish the totals Clemson printed (64,805 applied, 27,498 admitted, 5,084
+enrolled), which agree with the residency table.
 
 Florida State publishes its CDS as web pages behind a section picker. CC saved screenshots of sections C and D
 (kept in `florida-state-university/`); they were run through OCR into `florida-state-university.rows.json`.
