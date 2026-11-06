@@ -41,7 +41,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
       <nav class="section-nav" aria-label="Colleges">
         <a href="/colleges">Colleges</a>
         <a href="/compare">Compare</a>
-        <a href="/#join">Join the waitlist</a>
+        <a href="/my-list">My list<span data-list-count></span></a>
       </nav>
     ) : (
       <a class="header-link" href="#join">Join the waitlist</a>
@@ -51,6 +51,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
   <main>
     <slot />
   </main>
+  {nav === 'colleges' && <script>import { wireSaveButtons } from '../lib/mylist.js'; wireSaveButtons();</script>}
 
   <footer class="site-footer">
     <slot name="footer">

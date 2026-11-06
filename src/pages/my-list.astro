@@ -1,0 +1,150 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout title="My list | After High School"
+  description="Save colleges and see how your GPA and test scores compare at each one, side by side."
+  path="/my-list" nav="colleges" noindex={true}>
+  <section class="compare-head">
+    <h1>My list</h1>
+    <p>Save schools as you browse and see how your numbers compare at each one. Your list and your numbers stay in this browser. We don't store or send them.</p>
+  </section>
+
+  <form class="wys-form ml-profile" id="profile" novalidate>
+    <label>Your high school GPA<input name="gpa" inputmode="decimal" placeholder="e.g. 3.7" autocomplete="off" /></label>
+    <label>SAT total<input name="sat" inputmode="numeric" placeholder="400–1600" autocomplete="off" /></label>
+    <label>ACT composite<input name="act" inputmode="numeric" placeholder="1–36" autocomplete="off" /></label>
+  </form>
+
+  <form class="compare-picker" id="picker" autocomplete="off">
+    <label class="field">
+      <span class="field-label">Add a school</span>
+      <input type="search" id="pick" placeholder="Start typing a college name" aria-controls="suggest" aria-autocomplete="list" />
+    </label>
+    <ul class="suggest" id="suggest" role="listbox" hidden></ul>
+  </form>
+
+  <div class="ml-bar" id="bar" hidden>
+    <label>Sort by
+      <select id="sort">
+        <option value="added">Order added</option>
+        <option value="name">Name</option>
+        <option value="admit">Admit rate, low to high</option>
+        <option value="price">Average net price, low to high</option>
+      </select>
+    </label>
+    <a class="button secondary" id="compare-link" href="/compare">Compare the first four</a>
+  </div>
+
+  <p class="empty-state" id="empty" hidden>Your list is empty. Add a school above, or use <strong>Save to my list</strong> on any school's page.</p>
+  <p class="empty-state" id="loading">Loading your list…</p>
+  <ul class="ml-list" id="list"></ul>
+
+  <p class="wys-src ml-src">Where you'd stand uses each school's own Common Data Set when we have it and College Scorecard otherwise. Test ranges describe enrolled first-years who sent scores. It's a comparison, not a prediction: open a school's page for the details and sources.</p>
+</Layout>
+
+<script>
+  import { GPA_LABELS, num, placeScore, placeGpa, loadProfile, saveProfile } from '../lib/stand.js';
+  import { loadList, saveList } from '../lib/mylist.js';
+
+  const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]);
+  const money = (v) => (v == null ? '—' : `$${Math.round(v).toLocaleString('en-US')}`);
+  const pct = (v) => (v == null ? '—' : `${Math.round(v * 100)}%`);
+  const listEl = document.getElementById('list');
+  const emptyEl = document.getElementById('empty');
+  const loadingEl = document.getElementById('loading');
+  const bar = document.getElementById('bar');
+  const sortEl = document.getElementById('sort');
+  const profileForm = document.getElementById('profile');
+  let all = null;
+
+  const profile = loadProfile();
+  for (const k of ['gpa', 'sat', 'act']) if (profile[k] != null) profileForm.elements[k].value = profile[k];
+
+  function standCell(label, r) {
+    return `<div class="ml-stand tone-${r.tone || 'none'}"><dt>${label}</dt><dd>${esc(r.text)}${r.src ? `<span class="ml-tag">${r.src}</span>` : ''}</dd></div>`;
+  }
+
+  function stand(d, p) {
+    const g = num(p.gpa, 0, 5), sat = num(p.sat, 400, 1600), act = num(p.act, 1, 36);
+    const cells = [];
+    if (g != null) {
+      if (d.gpa) { const r = placeGpa(g, d.gpa); cells.push(standCell('Your GPA', { tone: r.tone, text: r.b === 0 ? r.short : `${GPA_LABELS[r.b]} range · ${r.short}`, src: 'school report' })); }
+      else if (d.gpaAvg != null) cells.push(standCell('Your GPA', { tone: g >= d.gpaAvg + 0.1 ? 'above' : g <= d.gpaAvg - 0.25 ? 'below' : 'mid', text: `Average was ${d.gpaAvg.toFixed(2)}`, src: 'school report' }));
+      else cells.push(standCell('Your GPA', { text: 'No figures from this school' }));
+    }
+    for (const [label, score, range, from] of [['Your SAT', sat, d.sat, d.satFrom], ['Your ACT', act, d.act, d.actFrom]]) {
+      if (score == null) continue;
+      if (!range) { cells.push(standCell(label, { text: 'No figures from this school' })); continue; }
+      const r = placeScore(score, range);
+      cells.push(standCell(label, { tone: r.tone, text: `${r.short} (${range[0]}–${range[2]})`, src: from === 'cds' ? 'school report' : 'federal' }));
+    }
+    return cells.length ? `<dl class="ml-stands">${cells.join('')}</dl>` : '';
+  }
+
+  function render() {
+    if (!all) return;
+    const p = loadProfile();
+    let slugs = loadList().filter((s) => all[s]);
+    loadingEl.hidden = true;
+    emptyEl.hidden = slugs.length > 0;
+    bar.hidden = slugs.length === 0;
+    const key = sortEl.value;
+    const v = (s) => all[s];
+    if (key === 'name') slugs = [...slugs].sort((a, b) => v(a).n.localeCompare(v(b).n));
+    if (key === 'admit') slugs = [...slugs].sort((a, b) => (v(a).d.admit ?? 2) - (v(b).d.admit ?? 2));
+    if (key === 'price') slugs = [...slugs].sort((a, b) => (v(a).np ?? 1e9) - (v(b).np ?? 1e9));
+    const hasProfile = ['gpa', 'sat', 'act'].some((k) => String(p[k] ?? '').trim());
+    listEl.innerHTML = slugs.map((s) => {
+      const x = all[s];
+      const admit = x.oa ? 'Admits nearly all' : pct(x.d.admit);
+      return `<li class="ml-item">
+        <div class="ml-head">
+          <a class="card-link" href="/college/${s}"><span class="card-name">${esc(x.n)}</span><span class="card-where">${esc(x.c)}, ${esc(x.st)}</span></a>
+          <button type="button" class="linkish ml-remove" data-remove="${s}" aria-label="Remove ${esc(x.n)} from my list">Remove</button>
+        </div>
+        <dl class="card-facts ml-facts">
+          <div><dt>Admit rate</dt><dd>${admit}</dd></div>
+          <div><dt>Avg net price</dt><dd>${money(x.np)}</dd></div>
+          <div><dt>Graduates</dt><dd>${pct(x.gr)}</dd></div>
+        </dl>
+        ${hasProfile ? (x.oa ? '<p class="ml-note">Open admission: nearly everyone who applies gets in.</p>' : stand(x.d, p)) : ''}
+      </li>`;
+    }).join('');
+    if (!hasProfile && slugs.length) listEl.insertAdjacentHTML('afterbegin', '<li class="ml-hint">Enter your GPA or a test score above to see where you\'d stand at each school.</li>');
+    const first4 = slugs.slice(0, 4);
+    const cl = document.getElementById('compare-link');
+    cl.href = `/compare?schools=${first4.join(',')}`;
+    cl.textContent = slugs.length > 4 ? 'Compare the first four' : slugs.length > 1 ? 'Compare these side by side' : 'Compare';
+  }
+
+  profileForm.addEventListener('input', () => {
+    saveProfile({ gpa: profileForm.elements.gpa.value.trim(), sat: profileForm.elements.sat.value.trim(), act: profileForm.elements.act.value.trim() });
+    render();
+  });
+  profileForm.addEventListener('submit', (e) => e.preventDefault());
+  sortEl.addEventListener('change', render);
+  listEl.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-remove]');
+    if (b) saveList(loadList().filter((s) => s !== b.dataset.remove));
+  });
+  window.addEventListener('ahs-list-change', render);
+
+  // Add-a-school picker.
+  const pick = document.getElementById('pick');
+  const sug = document.getElementById('suggest');
+  let matches = [];
+  const norm = (t) => t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  pick.addEventListener('input', () => {
+    const q = norm(pick.value.trim());
+    if (!all || q.length < 2) { sug.hidden = true; return; }
+    const saved = new Set(loadList());
+    matches = Object.entries(all).filter(([s, x]) => !saved.has(s) && norm(`${x.n} ${x.c}`).includes(q)).slice(0, 8);
+    sug.innerHTML = matches.map(([s, x]) => `<li><button type="button" data-slug="${s}">${esc(x.n)} <small>${esc(x.c)}, ${esc(x.st)}</small></button></li>`).join('');
+    sug.hidden = matches.length === 0;
+  });
+  const add = (slug) => { saveList([...loadList(), slug]); pick.value = ''; sug.hidden = true; pick.focus(); };
+  sug.addEventListener('click', (e) => { const li = e.target.closest('[data-slug]'); if (li) add(li.dataset.slug); });
+  document.getElementById('picker').addEventListener('submit', (e) => { e.preventDefault(); if (matches[0]) add(matches[0][0]); });
+
+  fetch('/data/stand.json').then((r) => r.json()).then((d) => { all = d; render(); }).catch(() => { loadingEl.textContent = "Couldn't load school data. Refresh to try again."; });
+</script>

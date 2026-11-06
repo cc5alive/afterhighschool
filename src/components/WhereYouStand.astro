@@ -3,40 +3,10 @@
 // last year's first-year students, using the school's own Common Data Set when we have it and
 // federal College Scorecard figures otherwise. It never shows a percent chance: no source backs one.
 // The scores a student enters stay in their browser (localStorage) so they carry across school pages.
+import { standData } from '../lib/stand.js';
 const { s, c, scorecardHref } = Astro.props;
-const v = c?.values || {};
 const year = c?.cdsYear ? c.cdsYear.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2') : null;
-
-const fromCds = (k) => (v[k] != null ? v[k] : null);
-const satCds = v.sat_p25 && v.sat_p75 ? [v.sat_p25, v.sat_p50 ?? null, v.sat_p75] : null;
-const actCds = v.act_p25 && v.act_p75 ? [v.act_p25, v.act_p50 ?? null, v.act_p75] : null;
-const satFed = s.satLow && s.satHigh ? [s.satLow, null, s.satHigh] : null;
-const actFed = s.act.p25 && s.act.p75 ? [s.act.p25, s.act.midpoint ?? null, s.act.p75] : null;
-
-const GPA_KEYS = ['gpa_400_pct', 'gpa_375_pct', 'gpa_350_pct', 'gpa_325_pct', 'gpa_300_pct', 'gpa_250_pct', 'gpa_200_pct', 'gpa_100_pct', 'gpa_below1_pct'];
-const gpa = GPA_KEYS.filter((k) => v[k] != null).length >= 5 ? GPA_KEYS.map((k) => v[k] ?? 0) : null;
-
-const admitCds = v.admitted_total && v.applied_total ? v.admitted_total / v.applied_total : null;
-// Factors beyond grades and scores that the school rates "very important".
-const VERY = {
-  factor_essay: 'essays', factor_recommendations: 'recommendations', factor_interview: 'the interview', factor_extracurriculars: 'activities',
-  factor_talent: 'a talent or ability', factor_character: 'character and personal qualities'
-};
-const veryImportant = Object.keys(VERY).filter((k) => v[k] === 'Very Important').map((k) => VERY[k]);
-
-const data = {
-  name: s.name,
-  sat: satCds || satFed, satFrom: satCds ? 'cds' : satFed ? 'fed' : null,
-  act: actCds || actFed, actFrom: actCds ? 'cds' : actFed ? 'fed' : null,
-  satSubmit: fromCds('sat_submit_pct'), actSubmit: fromCds('act_submit_pct'),
-  gpa, gpaSubmit: fromCds('gpa_submit_pct'), gpaAvg: fromCds('gpa_average'),
-  admit: admitCds ?? s.admitRate, admitFrom: admitCds != null ? 'cds' : s.admitRate != null ? 'fed' : null,
-  ed: v.ed_applied > 0 && v.ed_admitted != null ? [v.ed_admitted, v.ed_applied] : null,
-  ea: v.ea_applied > 0 && v.ea_admitted != null ? [v.ea_admitted, v.ea_applied] : null,
-  veryImportant,
-  gpaImportance: v.factor_gpa || null, testImportance: v.factor_test_scores || null,
-  openAdmission: !!s.openAdmission
-};
+const data = standData(s, c);
 const usable = !!(data.sat || data.act || data.gpa);
 const cdsHref = c?.source?.url;
 ---
@@ -49,7 +19,7 @@ const cdsHref = c?.source?.url;
       <label>SAT total<input name="sat" inputmode="numeric" placeholder="400–1600" autocomplete="off" /></label>
       <label>ACT composite<input name="act" inputmode="numeric" placeholder="1–36" autocomplete="off" /></label>
     </form>
-    <p class="wys-hint">Leave out anything you don't have. Your numbers stay in this browser and fill in on other school pages.</p>
+    <p class="wys-hint">Leave out anything you don't have. Your numbers stay in this browser and fill in on other school pages. <button type="button" class="linkish" data-save-slug={s.slug} data-off-text="Save this school to my list" data-on-text="Saved to my list" aria-pressed="false">Save this school to my list</button> <a href="/my-list">See my list</a></p>
     <div class="wys-out" aria-live="polite"></div>
     <p class="wys-src">
       Sources:{' '}
@@ -66,24 +36,8 @@ const cdsHref = c?.source?.url;
 )}
 
 <script>
-  const KEY = 'ahs-profile';
-  const load = () => { try { return JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch { return {}; } };
-  const save = (p) => { try { localStorage.setItem(KEY, JSON.stringify(p)); } catch { /* private mode: fine */ } };
-  const pct = (x) => (x > 0 && x < 1 ? '<1%' : `${Math.round(x)}%`);
+  import { GPA_LABELS, pctText as pct, num, placeScore as place, placeGpa, loadProfile as load, saveProfile as save } from '../lib/stand.js';
   const esc = (t) => String(t).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]);
-  const num = (t, lo, hi) => { const x = Number(String(t).trim()); return t !== '' && Number.isFinite(x) && x >= lo && x <= hi ? x : null; };
-
-  const GPA_LABELS = ['4.0', '3.75–3.99', '3.50–3.74', '3.25–3.49', '3.00–3.24', '2.50–2.99', '2.00–2.49', '1.00–1.99', 'below 1.0'];
-  const gpaBucket = (g) => (g >= 4 ? 0 : g >= 3.75 ? 1 : g >= 3.5 ? 2 : g >= 3.25 ? 3 : g >= 3 ? 4 : g >= 2.5 ? 5 : g >= 2 ? 6 : g >= 1 ? 7 : 8);
-
-  function place(score, [p25, p50, p75]) {
-    if (score < p25) return { tone: 'below', text: 'below the middle half: fewer than 1 in 4 students who sent scores had a score this low' };
-    if (score >= p75) return { tone: 'above', text: 'in the top quarter of students who sent scores' };
-    if (p50 != null) return score < p50
-      ? { tone: 'mid', text: 'in the middle half, below the median' }
-      : { tone: 'mid', text: 'in the middle half, at or above the median' };
-    return { tone: 'mid', text: 'in the middle half of students who sent scores' };
-  }
 
   function strip(score, range, lo, hi, label) {
     const [p25, p50, p75] = range;
@@ -105,11 +59,7 @@ const cdsHref = c?.source?.url;
     const g = num(p.gpa, 0, 5), sat = num(p.sat, 400, 1600), act = num(p.act, 1, 36);
 
     if (g != null && d.gpa) {
-      const b = gpaBucket(g);
-      const higher = d.gpa.slice(0, b).reduce((a, x) => a + x, 0);
-      const same = d.gpa[b];
-      const lower = Math.max(0, 100 - higher - same);
-      const tone = b === 0 || higher < 25 ? 'above' : higher >= 75 ? 'below' : 'mid';
+      const { b, higher, same, lower, tone } = placeGpa(g, d.gpa);
       const rows = d.gpa.slice(0, 6).map((x, i) => `<li class="${i === b ? 'is-you' : ''}"><span class="hbar-label">${GPA_LABELS[i]}</span><span class="hbar-track"><span class="hbar-fill" style="width:${x > 0 ? Math.max(1.5, x) : 0}%"></span></span><span class="hbar-value">${pct(x)}</span></li>`).join('');
       parts.push(`<div class="wys-item tone-${tone}">
         <h4>GPA ${esc(g.toFixed(2))}</h4>

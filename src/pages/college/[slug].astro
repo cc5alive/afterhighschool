@@ -78,6 +78,7 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
         {site && <a class="button" href={site} rel="noopener" target="_blank">School website</a>}
         {calc && <a class="button secondary" href={calc} rel="noopener" target="_blank">Net price calculator</a>}
         {status?.listed !== false && !gradOnly(s) && <a class="button secondary" href={`/compare?schools=${s.slug}`}>Compare</a>}
+        {status?.listed !== false && !gradOnly(s) && <button type="button" class="button secondary" data-save-slug={s.slug} aria-pressed="false">Save to my list</button>}
       </p>
     </header>
 
