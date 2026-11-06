@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['data/cds/drafts/*.json', 'scripts/check-cds.mjs', 'scripts/lib/doc-text.mjs', 'scripts/lib/cds-fields.mjs']
+    paths: ['data/cds/sources.json', 'data/cds/drafts/*.json', 'scripts/extract-cds.mjs', 'scripts/check-cds.mjs', 'scripts/lib/doc-text.mjs', 'scripts/lib/cds-fields.mjs']
 permissions:
   contents: write
 concurrency: { group: cds-check, cancel-in-progress: false }
@@ -17,6 +17,8 @@ jobs:
         with: { node-version: 22 }
       - name: Readers for PDF and Excel documents
         run: npm install --no-save --no-package-lock pdfjs-dist@4.10.38 xlsx@0.18.5
+      - name: Read CDS documents listed in data/cds/sources.json
+        run: '[ -f data/cds/sources.json ] && node scripts/extract-cds.mjs || true'
       - run: node scripts/check-cds.mjs
       - run: '[ -f data/cds/drafts/_cds-check.md ] && head -40 data/cds/drafts/_cds-check.md >> "$GITHUB_STEP_SUMMARY" || true'
       - name: Commit results
