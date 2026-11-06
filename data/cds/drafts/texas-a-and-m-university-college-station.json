@@ -9,128 +9,227 @@
   "values": {
     "applied_total": {
       "value": 62967,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 49,156 10,882 2,929 0 62,967"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 49,156 10,882 2,929 0 62,967",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 32531,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 26,620 4,489 1,422 0 32,531"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 26,620 4,489 1,422 0 32,531",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 12484,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled 11,694 632 158 0 12,484"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 11,694 632 158 0 12,484",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_class_rank": {
       "value": "Very Important",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_recommendations": {
       "value": "Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_extracurriculars": {
       "value": "Very Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_talent": {
       "value": "Very Important",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_first_generation": {
       "value": "Important",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_geography": {
       "value": "Important",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_state_residency": {
       "value": "Important",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "sat_submit_pct": {
       "value": 76.72,
-      "quote": "Submitting SAT Scores 76.72 9605"
+      "quote": "Submitting SAT Scores 76.72 9605",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 18.68,
-      "quote": "Submitting ACT Scores 18.68 2339"
+      "quote": "Submitting ACT Scores 18.68 2339",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1160,
-      "quote": "SAT Composite 1160 1280 1390"
+      "quote": "SAT Composite 1160 1280 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1280,
-      "quote": "SAT Composite 1160 1280 1390"
+      "quote": "SAT Composite 1160 1280 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1390,
-      "quote": "SAT Composite 1160 1280 1390"
+      "quote": "SAT Composite 1160 1280 1390",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 24,
-      "quote": "ACT Composite 24 28 32"
+      "quote": "ACT Composite 24 28 32",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 28,
-      "quote": "ACT Composite 24 28 32"
+      "quote": "ACT Composite 24 28 32",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 32,
-      "quote": "ACT Composite 24 28 32"
+      "quote": "ACT Composite 24 28 32",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 71.56,
-      "quote": "Percent in top tenth of high school graduating class 71.56"
+      "quote": "Percent in top tenth of high school graduating class 71.56",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 93.14,
-      "quote": "Percent in top quarter of high school graduating class 93.14"
+      "quote": "Percent in top quarter of high school graduating class 93.14",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 72.15,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 72.15"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 72.15",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early Decision No"
+      "quote": "Early Decision No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Early Action No"
+      "quote": "Early Action No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://abpa.tamu.edu/accountability-rankings/common-data-set.html",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 14,
+  "total": 31
 }

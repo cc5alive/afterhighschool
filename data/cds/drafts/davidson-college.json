@@ -9,12 +9,24 @@
   "values": {
     "applied_total": {
       "value": 8933,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 1402 3957 3574 8933"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 1402 3957 3574 8933",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 1127,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 234 808 85 1127"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 234 808 85 1127",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": "The 2025-2026 CDS published on Davidson College's official website leaves waitlist (C2), admissions factors (C7), test scores (C9), class rank (C10), GPA (C11-C12), and early admission plans (C21-C22) blank or uncompleted."
+  "concerns": "The 2025-2026 CDS published on Davidson College's official website leaves waitlist (C2), admissions factors (C7), test scores (C9), class rank (C10), GPA (C11-C12), and early admission plans (C21-C22) blank or uncompleted.",
+  "httpStatus": 200,
+  "finalUrl": "https://www.davidson.edu/media/9718/download?attachment",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 2
 }

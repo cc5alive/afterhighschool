@@ -9,144 +9,255 @@
   "values": {
     "applied_total": {
       "value": 73912,
-      "quote": "Applied 36,086 37,800 26 73,912"
+      "quote": "Applied 36,086 37,800 26 73,912",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 30167,
-      "quote": "Admitted 13,597 16,559 11 30,167"
+      "quote": "Admitted 13,597 16,559 11 30,167",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 8495,
-      "quote": "Enrolled 3,524 4,971 0 8,495"
+      "quote": "Enrolled 3,524 4,971 0 8,495",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_offered": {
       "value": 6476,
-      "quote": "Number of qualified applicants offered a place on waiting list: 6,476"
+      "quote": "Number of qualified applicants offered a place on waiting list: 6,476",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_accepted": {
       "value": 4317,
-      "quote": "Number accepting a place on the waiting list: 4,317"
+      "quote": "Number accepting a place on the waiting list: 4,317",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_admitted": {
       "value": 1088,
-      "quote": "Number of wait-listed students admitted: 1,088"
+      "quote": "Number of wait-listed students admitted: 1,088",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application essay"
+      "quote": "Application essay",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Recommendations"
+      "quote": "Recommendations",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent or ability"
+      "quote": "Talent or ability",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Important",
-      "quote": "Character and personal qualities"
+      "quote": "Character and personal qualities",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni relation"
+      "quote": "Alumni relation",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Important",
-      "quote": "State residence"
+      "quote": "State residence",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation or commitment"
+      "quote": "Religious affiliation or commitment",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant interest"
+      "quote": "Level of applicant interest",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "sat_submit_pct": {
       "value": 12,
-      "quote": "SAT 12% SUB"
+      "quote": "SAT 12% SUB",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 29,
-      "quote": "ACT 29% SUB"
+      "quote": "ACT 29% SUB",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p25": {
       "value": 1400,
-      "quote": "SAT composite 1,400 1,450 1,490"
+      "quote": "SAT composite 1,400 1,450 1,490",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1450,
-      "quote": "SAT composite 1,400 1,450 1,490"
+      "quote": "SAT composite 1,400 1,450 1,490",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1490,
-      "quote": "SAT composite 1,400 1,450 1,490"
+      "quote": "SAT composite 1,400 1,450 1,490",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 29,
-      "quote": "ACT composite 29 31 33"
+      "quote": "ACT composite 29 31 33",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 31,
-      "quote": "ACT composite 29 31 33"
+      "quote": "ACT composite 29 31 33",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 33,
-      "quote": "ACT composite 29 31 33"
+      "quote": "ACT composite 29 31 33",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_average": {
       "value": 3.91,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.91"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.91",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 202,
+  "finalUrl": "https://data.wisc.edu/common-data-set-and-rankings/",
+  "docKind": "html",
+  "checkedAt": "2026-11-06",
+  "verified": 0,
+  "total": 35
 }
