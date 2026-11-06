@@ -36,7 +36,7 @@ jobs:
           curl -fsSL -A "$UA" -o nat.zip https://www.bls.gov/oes/special-requests/oesm25nat.zip
           curl -fsSL -A "$UA" -o st.zip https://www.bls.gov/oes/special-requests/oesm25st.zip
           unzip -o -q nat.zip && unzip -o -q st.zip
-          mv oesm25nat/national_M2025_dl.xlsx national.xlsx && mv oesm25st/state_M2025_dl.xlsx state.xlsx
+          chmod -R u+rwX . && cp oesm25nat/national_M2025_dl.xlsx national.xlsx && cp oesm25st/state_M2025_dl.xlsx state.xlsx
       - run: npm install --no-save --no-package-lock xlsx@0.18.5
       - run: node scripts/pull-apprentice.mjs
       - name: Add report to run summary
