@@ -1,0 +1,180 @@
+{
+  "slug": "middle-tennessee-state-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2025/02/CDS_2024_2025.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 14989,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 14989"
+    },
+    "admitted_total": {
+      "value": 10356,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 10356"
+    },
+    "enrolled_total": {
+      "value": 3149,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 3149"
+    },
+    "sat_submit_pct": {
+      "value": 6,
+      "quote": "Submitting SAT Scores 6.00"
+    },
+    "act_submit_pct": {
+      "value": 93,
+      "quote": "Submitting ACT Scores 93.00"
+    },
+    "sat_p25": {
+      "value": 1010,
+      "quote": "SAT Composite 1010"
+    },
+    "sat_p50": {
+      "value": 1120,
+      "quote": "SAT Composite 1120"
+    },
+    "sat_p75": {
+      "value": 1220,
+      "quote": "SAT Composite 1220"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "ACT Composite 20"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "ACT Composite 22"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "ACT Composite 26"
+    },
+    "gpa_400_pct": {
+      "value": 24,
+      "quote": "Percent who had GPA of 4.0 24.00"
+    },
+    "gpa_375_pct": {
+      "value": 26,
+      "quote": "Percent who had GPA between 3.75 and 3.99 26.00"
+    },
+    "gpa_350_pct": {
+      "value": 18,
+      "quote": "Percent who had GPA between 3.50 and 3.74 18.00"
+    },
+    "gpa_325_pct": {
+      "value": 14,
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.00"
+    },
+    "gpa_300_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 3.00 and 3.24 10.00"
+    },
+    "gpa_250_pct": {
+      "value": 7,
+      "quote": "Percent who had GPA between 2.50 and 2.99 7.00"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 2.0 and 2.49 1.00"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.65,
+      "quote": "Average High School GPA 3.65"
+    },
+    "gpa_submit_pct": {
+      "value": 99.8,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA 99.80"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision: Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action: Do you have a nonbinding early action plan... No"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
