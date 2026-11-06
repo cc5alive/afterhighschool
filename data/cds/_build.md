@@ -16,6 +16,7 @@ Built 2026-11-06.
 | boston-college | 2024-2025 | 32 | applied_total: reader 34779, Gemini 39686 (quote matched); enrolled_total: reader 2394, Gemini 2479 (quote matched); sat_p25: reader 1460, Gemini 1440 (quote matched) |
 | boston-university | 2024-2025 | 24 |  |
 | bowdoin-college | 2025-2026 | 36 |  |
+| brigham-young-university | 2024-2025 | 0 |  |
 | brown-university | 2025-2026 | 0 |  |
 | bucknell-university | 2025-2026 | 37 | SAT 1170-1360 far from federal 1310-1470; ACT 25-32 far from federal 30-33 |
 | california-institute-of-technology | - | 6 |  |
@@ -28,10 +29,10 @@ Built 2026-11-06.
 | california-state-university-northridge | 2025-2026 | 31 |  |
 | california-state-university-san-bernardino | 2025-2026 | 32 |  |
 | california-state-university-san-marcos | 2025-2026 | 21 |  |
-| carleton-college | 2025-2026 | 27 |  |
+| carleton-college | 2025-2026 | 37 | waitlist_admitted: reader 33, Gemini 52 (quote matched); rank_top10_pct: reader 77, Gemini 63 (quote matched); rank_top25_pct: reader 94, Gemini 93 (quote matched); ed_applied: reader 760, Gemini 667 (quote matched); ed_admitted: reader 263, Gemini 244 (quote matched) |
 | carnegie-mellon-university | 2024-2025 | 28 |  |
 | case-western-reserve-university | - | 40 |  |
-| citadel-military-college-of-south-carolina | 2025-2026 | 14 |  |
+| citadel-military-college-of-south-carolina | 2025-2026 | 20 | sat_p25: reader 1010, Gemini 1100 (quote matched); sat_p50: reads disagree (1130 vs 1180), left out; sat_p75: reads disagree (1220 vs 1270), left out; act_p25: reader 21, Gemini 22 (quote matched); act_p50: reads disagree (23 vs 25), left out; act_p75: reads disagree (26 vs 27), left out; rank_top10_pct: reader 0.1, Gemini 8 (quote matched); rank_top25_pct: reader 0.25, Gemini 28 (quote matched); gpa_average: reads disagree (3.75 vs 3.79), left out; gpa_submit_pct: reads disagree (0.955 vs 100), left out; sat scores inconsistent (1100, undefined, undefined); act scores inconsistent (22, undefined, undefined) |
 | claremont-mckenna-college | 2025-2026 | 36 |  |
 | colgate-university | 2025-2026 | 45 |  |
 | college-of-the-holy-cross | 2023-2024 | 19 |  |
@@ -107,8 +108,8 @@ Built 2026-11-06.
 | texas-a-and-m-university-corpus-christi | 2025-2026 | 36 |  |
 | texas-christian-university | 2025-2026 | 34 |  |
 | texas-state-university | 2024-2025 | 14 |  |
-| texas-tech-university | 2025-2026 | 33 |  |
-| the-university-of-alabama | 2025-2026 | 22 |  |
+| texas-tech-university | 2025-2026 | 41 |  |
+| the-university-of-alabama | 2025-2026 | 24 |  |
 | the-university-of-montana | 2025-2026 | 33 |  |
 | the-university-of-tennessee-chattanooga | 2025-2026 | 32 |  |
 | the-university-of-tennessee-knoxville | 2025-2026 | 44 |  |
@@ -148,7 +149,7 @@ Built 2026-11-06.
 | university-of-massachusetts-amherst | - | 40 |  |
 | university-of-miami | 2024-2025 | 26 |  |
 | university-of-michigan-ann-arbor | 2025-2026 | 37 |  |
-| university-of-minnesota-twin-cities | 2025-2026 | 23 |  |
+| university-of-minnesota-twin-cities | 2025-2026 | 32 |  |
 | university-of-mississippi | - | 0 |  |
 | university-of-missouri-columbia | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.7847) |
 | university-of-nebraska-lincoln | 2025-2026 | 3 |  |
@@ -159,7 +160,7 @@ Built 2026-11-06.
 | university-of-north-carolina-at-charlotte | 2025-2026 | 23 |  |
 | university-of-north-dakota | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.769) |
 | university-of-north-georgia | 2025-2026 | 20 |  |
-| university-of-north-texas | 2025-2026 | 26 |  |
+| university-of-north-texas | 2025-2026 | 28 |  |
 | university-of-northern-colorado | 2023-2024 | 22 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |
 | university-of-oklahoma-norman-campus | 2025-2026 | 32 |  |
 | university-of-pennsylvania | 2025-2026 | 43 |  |
