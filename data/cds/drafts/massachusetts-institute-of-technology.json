@@ -1,0 +1,160 @@
+{
+  "slug": "massachusetts-institute-of-technology",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "2025-26 Common Data Set",
+    "url": "https://ir.mit.edu/projects/2025-26-common-data-set/"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 29281,
+      "quote": "Total first-time, first-year who applied 29,281"
+    },
+    "admitted_total": {
+      "value": 1334,
+      "quote": "Total first-time, first-year who were admitted 1,334"
+    },
+    "enrolled_total": {
+      "value": 1152,
+      "quote": "Total first-time, first-year enrolled 1,152"
+    },
+    "waitlist_offered": {
+      "value": 561,
+      "quote": "Number of qualified applicants offered a place on waiting list: 561"
+    },
+    "waitlist_accepted": {
+      "value": 468,
+      "quote": "Number accepting a place on the waiting list: 468"
+    },
+    "waitlist_admitted": {
+      "value": 10,
+      "quote": "Number of wait-listed students admitted: 10"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Important",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 83,
+      "quote": "Submitting SAT Scores 83%"
+    },
+    "act_submit_pct": {
+      "value": 31,
+      "quote": "Submitting ACT Scores 31%"
+    },
+    "sat_p25": {
+      "value": 1520,
+      "quote": "SAT Composite 1520"
+    },
+    "sat_p50": {
+      "value": 1550,
+      "quote": "SAT Composite 1520 1550 1570"
+    },
+    "sat_p75": {
+      "value": 1570,
+      "quote": "SAT Composite 1520 1550 1570"
+    },
+    "act_p25": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "act_p50": {
+      "value": 35,
+      "quote": "ACT Composite 34 35 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT Composite 34 35 35"
+    },
+    "rank_top10_pct": {
+      "value": 97,
+      "quote": "Percent in top tenth of high school graduating class 97%"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "Percent in top quarter of high school graduating class 100%"
+    },
+    "rank_submit_pct": {
+      "value": 31,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 31%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision: Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? ___Yes _X_No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Early action: Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? _X_Yes ___No"
+    }
+  },
+  "concerns": null
+}
