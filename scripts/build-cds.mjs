@@ -81,6 +81,9 @@ function combine(E, G, school) {
     if ((a != null || b != null) && !(a > 0 && b >= 0 && b <= a)) drop([`${p}_applied`, `${p}_admitted`], `${p} counts inconsistent (${a}, ${b})`);
     else if (a > 0) v[`${p}_offered`] = 'yes';
   }
+  const T = ['transfer_applied', 'transfer_admitted', 'transfer_enrolled'];
+  if (T.some((k) => k in v) && !(v.transfer_applied > 0 && v.transfer_admitted <= v.transfer_applied && (v.transfer_enrolled == null || v.transfer_enrolled <= v.transfer_admitted)))
+    drop(T, `transfer counts inconsistent (${v.transfer_applied}, ${v.transfer_admitted}, ${v.transfer_enrolled})`);
   const w = ['waitlist_offered', 'waitlist_accepted', 'waitlist_admitted'];
   if (v.waitlist_offered != null && v.waitlist_admitted != null && v.waitlist_admitted > v.waitlist_offered) drop(w, 'wait list counts inconsistent');
 

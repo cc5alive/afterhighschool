@@ -41,7 +41,11 @@ export const CDS_FIELDS = {
   ed_admitted: { section: 'C21', type: 'count', label: 'Number of applicants admitted under early decision plan' },
   ea_offered: { section: 'C22', type: 'yesno', label: 'Do you have a nonbinding early action plan' },
   ea_applied: { section: 'C22', type: 'count', label: 'Number of early action applications received' },
-  ea_admitted: { section: 'C22', type: 'count', label: 'Number of applicants admitted under early action' }
+  ea_admitted: { section: 'C22', type: 'count', label: 'Number of applicants admitted under early action' },
+  // D2: degree-seeking transfer students (totals across all genders), fall term of the CDS year
+  transfer_applied: { section: 'D2', type: 'count', label: 'Total transfer applicants' },
+  transfer_admitted: { section: 'D2', type: 'count', label: 'Total admitted transfer applicants' },
+  transfer_enrolled: { section: 'D2', type: 'count', label: 'Total enrolled transfer applicants' }
 };
 
 // C7: relative importance of each factor in first-year admission decisions.

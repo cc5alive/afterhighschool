@@ -1,7 +1,7 @@
 // Community college and transfer guide: state transfer policies, official state transfer sites,
 // and each state's public two-year colleges with federal outcome data.
 import ecs from '../../data/transfer/ecs-2022.json';
-import { STATE_NAMES, stateSlug } from './data.js';
+import { STATE_NAMES, stateSlug, schools, cds } from './data.js';
 import { tradeSchools } from './trade-data.js';
 
 // Link-check results are optional: until the first check runs, no state site links show.
@@ -21,8 +21,11 @@ const communityColleges = tradeSchools.filter((s) => s.ownership === 'public' &&
 export const transferStates = Object.entries(STATE_NAMES).map(([code, name]) => {
   const policy = ecs.states[code] || null;
   const colleges = communityColleges.filter((s) => s.state === code).sort((a, b) => a.name.localeCompare(b.name));
+  // Four-year colleges in the state whose own Common Data Set reports transfer admissions (D2).
+  const universities = schools.filter((s) => s.state === code && cds.get(s.slug)?.values?.transfer_applied > 0)
+    .map((s) => ({ s, c: cds.get(s.slug) })).sort((a, b) => a.s.name.localeCompare(b.s.name));
   return {
-    code, name, slug: stateSlug(code), policy,
+    code, name, slug: stateSlug(code), policy, universities,
     profileUrl: ecs.profileUrl.replace('{ST}', code),
     portal: checks.states[code] || null,
     colleges

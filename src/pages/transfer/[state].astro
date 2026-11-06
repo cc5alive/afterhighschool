@@ -79,8 +79,39 @@ const withOutcomes = st.colleges.filter((s) => s.outcomes8yr?.transfer != null);
     ) : <p class="pending-note">We don't have public community or technical colleges listed for {st.name} in the federal data.</p>}
   </section>
 
+  {st.universities.length > 0 && (
+    <section class="block" aria-labelledby="unis">
+      <h2 id="unis">Transfer admission at four-year colleges</h2>
+      <p class="block-lede">Four-year colleges in {st.name} whose own Common Data Set reports how many transfer students applied and got in, A to Z. Admit rates for transfer students can be very different from first-year rates. More colleges will appear as we read their reports.</p>
+      <ul class="results tr-results">
+        {st.universities.map(({ s, c }) => {
+          const v = c.values;
+          const r = v.transfer_admitted / v.transfer_applied;
+          const fy = v.applied_total > 0 && v.admitted_total != null ? v.admitted_total / v.applied_total : null;
+          return (
+            <li class="card tr-card">
+              <div class="card-main">
+                <a class="card-link" href={`/college/${s.slug}`}>
+                  <span class="card-name">{s.name}</span>
+                  <span class="card-where">{s.city}{c.cdsYear && ` · fall ${c.cdsYear.slice(0, 4)}`}</span>
+                </a>
+              </div>
+              <dl class="card-facts tr-facts">
+                <div><dt>Transfer applicants</dt><dd>{int(v.transfer_applied)}</dd></div>
+                <div><dt>Transfer admit rate</dt><dd>{r > 0 && r < 0.01 ? '<1%' : pct(r)}</dd></div>
+                <div><dt>Transfers enrolled</dt><dd>{int(v.transfer_enrolled) ?? '—'}</dd></div>
+                <div><dt>First-year admit rate</dt><dd>{pct(fy) ?? '—'}</dd></div>
+                <div><dt>Source</dt><dd><a href={c.source.url} rel="noopener" target="_blank">CDS {c.cdsYear ? c.cdsYear.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2') : ''}</a></dd></div>
+              </dl>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )}
+
   <section class="block sources" aria-labelledby="sources">
     <h2 id="sources">Where this comes from</h2>
-    <p>Statewide rules are from the <a href={st.profileUrl} rel="noopener" target="_blank">{ecsSource.name}'s {st.name} profile</a> in {ecsSource.title}, published {ecsSource.date}. College figures are from the U.S. Department of Education's College Scorecard; open a college for its full page and source links. See <a href="/transfer">the transfer guide</a> for what transfer can save and how to keep your credits.</p>
+    <p>Transfer admission numbers come from each college's own Common Data Set (section D2), linked on each row. Statewide rules are from the <a href={st.profileUrl} rel="noopener" target="_blank">{ecsSource.name}'s {st.name} profile</a> in {ecsSource.title}, published {ecsSource.date}. College figures are from the U.S. Department of Education's College Scorecard; open a college for its full page and source links. See <a href="/transfer">the transfer guide</a> for what transfer can save and how to keep your credits.</p>
   </section>
 </Layout>

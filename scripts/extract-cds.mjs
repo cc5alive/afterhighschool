@@ -16,7 +16,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 5;
+const READER_VERSION = 6; // 6: reads D2 transfer admissions
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -177,6 +177,28 @@ function readScores(rows) {
   return out;
 }
 
+// D2: transfer applicants, admits and enrollees. The "Total" row in the few rows after the D2 heading,
+// read left to right (applicants, admitted, enrolled).
+function readTransfer(rows) {
+  if (!rows) return {};
+  const start = rows.findIndex((r) => /degree ?-? ?seeking transfer\b|enrolled as degree ?-?$/.test(rowText(r)));
+  if (start < 0) return {};
+  for (let j = start + 1; j < Math.min(rows.length, start + 16); j++) {
+    const t = rowText(rows[j]);
+    if (/^d3\b|application for admission|indicate terms/.test(t)) break;
+    // The row's own label must be "Total" (some spreadsheets carry a second, unrelated table to the right).
+    const k = rows[j].findIndex((c) => /^total:?$/.test(norm(c.s)));
+    if (k < 0 || rows[j].slice(0, k).some((c) => parse(c.s, 'count') != null)) continue;
+    const nums = rows[j].slice(k + 1).map((c) => parse(c.s, 'count')).filter((x) => x != null).slice(0, 3);
+    if (nums.length < 3) continue;
+    const [a, b, e] = nums;
+    if (!(a > 0 && b <= a && e <= b)) return {};
+    const quote = `D2 ${rowText(rows[j].slice(k, k + 4))}`;
+    return { transfer_applied: { value: a, quote }, transfer_admitted: { value: b, quote }, transfer_enrolled: { value: e, quote } };
+  }
+  return {};
+}
+
 // C7 grid: the column of each factor row's checkmark, using cell positions.
 const MARK = /^(x|✓|✔|√|☒|■|●|•)$/i;
 function factors(rows) {
@@ -212,7 +234,7 @@ function factors(rows) {
 }
 
 const log = [];
-export { readRows, readScores, factors, c1FromGender };
+export { readRows, readScores, factors, c1FromGender, readTransfer };
 // Run only when called directly (tests import the readers above).
 if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) {
   let made = 0;
@@ -225,7 +247,7 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
     if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
     delete failed[slug];
-    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows) };
+    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows) };
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     const docUrl = resolved.url || src.url;

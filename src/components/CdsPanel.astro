@@ -1,6 +1,7 @@
 ---
 // "From the school's own report": Common Data Set numbers (GPA spread, early decision, wait list,
 // test scores, class rank, what admissions weighs). Every number links to the CDS document it came from.
+import { TRANSFER_LAUNCHED } from '../lib/site.js';
 const { c, name } = Astro.props;
 const v = c.values;
 const int = (n) => n.toLocaleString('en-US');
@@ -22,6 +23,8 @@ const above375 = hasGpa ? (v.gpa_400_pct || 0) + (v.gpa_375_pct || 0) : null;
 const overall = rate(v.admitted_total, v.applied_total);
 const ed = rate(v.ed_admitted, v.ed_applied);
 const ea = rate(v.ea_admitted, v.ea_applied);
+const xfer = rate(v.transfer_admitted, v.transfer_applied);
+const fall = c.cdsYear ? c.cdsYear.slice(0, 4) : null;
 const wl = v.waitlist_admitted != null && v.waitlist_accepted > 0 ? rate(v.waitlist_admitted, v.waitlist_accepted) : null;
 const sat = v.sat_p25 && v.sat_p75 ? `${v.sat_p25}–${v.sat_p75}` : null;
 const act = v.act_p25 && v.act_p75 ? `${v.act_p25}–${v.act_p75}` : null;
@@ -43,7 +46,7 @@ const src = c.source.url;
 ---
 <div class="cds">
   <h3 class="cds-title">From {name}'s own report</h3>
-  <p class="cds-intro">These numbers come from the school's Common Data Set{year && ` for ${year}`}, a standard report colleges publish about their applicants and first-year students. <a href={src} rel="noopener" target="_blank">Open the report</a>.</p>
+  <p class="cds-intro">These numbers come from the school's Common Data Set{year && ` for ${year}`}, a standard report colleges publish about their applicants, first-year students and transfer students. <a href={src} rel="noopener" target="_blank">Open the report</a>.</p>
 
   {hasGpa && (
     <figure class="bars cds-gpa">
@@ -91,6 +94,12 @@ const src = c.source.url;
       <div class="stat"><dt>Off the wait list</dt><dd>
         <span class="stat-value">{pctTxt(wl * 100)}</span>
         <span class="stat-note">{int(v.waitlist_admitted)} admitted of {int(v.waitlist_accepted)} who stayed on the wait list{v.waitlist_offered != null && ` (${int(v.waitlist_offered)} were offered a spot)`}</span>
+      </dd></div>
+    )}
+    {xfer != null && (
+      <div class="stat"><dt>Transfer admit rate</dt><dd>
+        <span class="stat-value">{xfer > 0 && xfer < 0.01 ? '<1%' : pctTxt(xfer * 100)}</span>
+        <span class="stat-note">{int(v.transfer_admitted)} admitted of {int(v.transfer_applied)} transfer applicants{fall && ` for fall ${fall}`}{v.transfer_enrolled != null && `; ${int(v.transfer_enrolled)} enrolled`}. {TRANSFER_LAUNCHED && <a href="/transfer">How transferring works</a>}</span>
       </dd></div>
     )}
     {sat && (
