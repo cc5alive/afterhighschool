@@ -1,0 +1,46 @@
+{
+  "slug": "rutgers-university-new-brunswick",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://irds.rutgers.edu/PDFs/CDS/New%20Brunswick%20CDS_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 78122,
+      "quote": "total first-time, first-year (degree-seeking) who applied 36871 27106 14145 78122"
+    },
+    "admitted_total": {
+      "value": 45800,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 19093 17496 9211 45800"
+    },
+    "enrolled_total": {
+      "value": 8178,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 5995 1251 932 8178"
+    },
+    "rank_top10_pct": {
+      "value": 35,
+      "quote": "percent in top tenth of high school graduating class 35.00"
+    },
+    "rank_top25_pct": {
+      "value": 75,
+      "quote": "percent in top quarter of high school graduating class 75.00"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 29 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 29 32 34"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "university-of-south-florida",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.usf.edu/ods/documents/cds/usf-cds-2025-2026-final-v2.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 71722,
+      "quote": "total first-time, first-year (degree-seeking) who applied 7283 63880 559 71722"
+    },
+    "admitted_total": {
+      "value": 29196,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 493 5533 23170 29196"
+    },
+    "enrolled_total": {
+      "value": 6730,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 5484 759 487 6730"
+    },
+    "rank_top10_pct": {
+      "value": 29.1,
+      "quote": "percent in top tenth of high school graduating class 29.1"
+    },
+    "rank_top25_pct": {
+      "value": 62.8,
+      "quote": "percent in top quarter of high school graduating class 62.8"
+    },
+    "gpa_400_pct": {
+      "value": 61.99,
+      "quote": "percent who had gpa of 4.0 61.99"
+    },
+    "gpa_375_pct": {
+      "value": 17.9,
+      "quote": "percent who had gpa between 3.75 and 3.99 17.90"
+    },
+    "gpa_350_pct": {
+      "value": 11.7,
+      "quote": "percent who had gpa between 3.50 and 3.74 11.70"
+    },
+    "gpa_325_pct": {
+      "value": 5.79,
+      "quote": "percent who had gpa between 3.25 and 3.49 5.79"
+    },
+    "gpa_300_pct": {
+      "value": 2.01,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.01"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 99.98"
+    },
+    "gpa_average": {
+      "value": 4.09,
+      "quote": "average high school gpa 4.09"
+    },
+    "gpa_submit_pct": {
+      "value": 99.9,
+      "quote": "percent submitting gpa 99.9"
+    }
+  },
+  "concerns": null
+}

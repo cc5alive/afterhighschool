@@ -1,0 +1,29 @@
+{
+  "slug": "rutgers-university-new-brunswick",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://irds.rutgers.edu/PDFs/CDS/New%20Brunswick%20CDS_2025-2026.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 78122,
+    "admitted_total": 45800,
+    "enrolled_total": 8178,
+    "act_p25": 29,
+    "act_p50": 32,
+    "act_p75": 34,
+    "rank_top10_pct": 35,
+    "rank_top25_pct": 75
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader"
+  }
+}

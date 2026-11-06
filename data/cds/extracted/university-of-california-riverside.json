@@ -1,0 +1,58 @@
+{
+  "slug": "university-of-california-riverside",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ir.ucr.edu/sites/default/files/2026-05/cds-2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 61184,
+      "quote": "total first-time, first-year who applied 51,828 3,137 6,219 61,184"
+    },
+    "admitted_total": {
+      "value": 52676,
+      "quote": "total first-time, first-year who were admitted 44,686 2,810 5,180 52,676"
+    },
+    "enrolled_total": {
+      "value": 6686,
+      "quote": "total first-time, first-year who enrolled 6,431 111 144 6,686"
+    },
+    "waitlist_admitted": {
+      "value": 0,
+      "quote": "number of wait-listed students admitted: 0"
+    },
+    "gpa_400_pct": {
+      "value": 29,
+      "quote": "percent who had gpa of 4.0 29.0%"
+    },
+    "gpa_375_pct": {
+      "value": 22.2,
+      "quote": "percent who had gpa between 3.75 and 3.99 22.2%"
+    },
+    "gpa_350_pct": {
+      "value": 23,
+      "quote": "percent who had gpa between 3.50 and 3.74 23.0%"
+    },
+    "gpa_325_pct": {
+      "value": 16.2,
+      "quote": "percent who had gpa between 3.25 and 3.49 16.2%"
+    },
+    "gpa_300_pct": {
+      "value": 9.2,
+      "quote": "percent who had gpa between 3.00 and 3.24 9.2%"
+    },
+    "gpa_250_pct": {
+      "value": 0.4,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.4%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100.0%"
+    }
+  },
+  "concerns": null
+}

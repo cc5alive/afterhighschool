@@ -1,0 +1,66 @@
+{
+  "slug": "university-of-kentucky",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://irads.uky.edu/sites/default/files/2026-07/university-of-kentucky-cds-2025-2026-flat.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 33387,
+      "quote": "total first-time, first-year (degree-seeking) who applied 9,087 23,214 1,086 33,387"
+    },
+    "admitted_total": {
+      "value": 31222,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 8,658 21,588 976 31,222"
+    },
+    "enrolled_total": {
+      "value": 6960,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4,096 2,778 86 6,960"
+    },
+    "rank_top10_pct": {
+      "value": 28.1,
+      "quote": "percent in top tenth of high school graduating class 28.1"
+    },
+    "rank_top25_pct": {
+      "value": 55.5,
+      "quote": "percent in top quarter of high school graduating class 55.5"
+    },
+    "gpa_average": {
+      "value": 3.58,
+      "quote": "average high school gpa 3.58"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.0"
+    },
+    "sat_p25": {
+      "value": 1058,
+      "quote": "sat composite 1,058 1,165 1,270"
+    },
+    "sat_p50": {
+      "value": 1165,
+      "quote": "sat composite 1,058 1,165 1,270"
+    },
+    "sat_p75": {
+      "value": 1270,
+      "quote": "sat composite 1,058 1,165 1,270"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "act composite 21 24 28"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "act composite 21 24 28"
+    },
+    "act_p75": {
+      "value": 28,
+      "quote": "act composite 21 24 28"
+    }
+  },
+  "concerns": null
+}

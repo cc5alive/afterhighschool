@@ -1,0 +1,146 @@
+{
+  "slug": "haverford-college",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.haverford.edu/sites/default/files/Office/President/CDS_2024-2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 3521,
+      "quote": "total first-time, first-year who applied 7341 641 3179 3521"
+    },
+    "admitted_total": {
+      "value": 125,
+      "quote": "total first-time, first-year who were admitted 908 79 704 125"
+    },
+    "enrolled_total": {
+      "value": 47,
+      "quote": "total first-time, first-year who enrolled 387 46 294 47"
+    },
+    "waitlist_admitted": {
+      "value": 3,
+      "quote": "number of wait-listed students admitted: 3"
+    },
+    "rank_top10_pct": {
+      "value": 94.1,
+      "quote": "percent in top tenth of high school graduating class 94.1%"
+    },
+    "rank_top25_pct": {
+      "value": 98.8,
+      "quote": "percent in top quarter of high school graduating class 98.8%"
+    },
+    "ed_applied": {
+      "value": 745,
+      "quote": "number of early decision applications received by your institution 745"
+    },
+    "ed_admitted": {
+      "value": 219,
+      "quote": "number of applicants admitted under early decision plan 219"
+    },
+    "sat_p25": {
+      "value": 1470,
+      "quote": "sat composite sat evidence-based reading and 1470 1500 1540"
+    },
+    "sat_p50": {
+      "value": 1500,
+      "quote": "sat composite sat evidence-based reading and 1470 1500 1540"
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "sat composite sat evidence-based reading and 1470 1500 1540"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

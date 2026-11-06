@@ -1,0 +1,166 @@
+{
+  "slug": "university-of-southern-california",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 83488,
+      "quote": "total first-time, first-year (degree-seeking) who applied 32499 34374 16615 0 83488"
+    },
+    "admitted_total": {
+      "value": 9345,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 3692 3378 2275 0 9345"
+    },
+    "enrolled_total": {
+      "value": 3759,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1701 1198 860 0 3759"
+    },
+    "rank_top10_pct": {
+      "value": 69,
+      "quote": "percent in top tenth of high school graduating class 69%"
+    },
+    "rank_top25_pct": {
+      "value": 89,
+      "quote": "percent in top quarter of high school graduating class 89%"
+    },
+    "gpa_400_pct": {
+      "value": 35,
+      "quote": "percent who had gpa of 4.0 35% 23% 28.20%"
+    },
+    "gpa_375_pct": {
+      "value": 54,
+      "quote": "percent who had gpa between 3.75 and 3.99 54% 51% 52.00%"
+    },
+    "gpa_350_pct": {
+      "value": 10,
+      "quote": "percent who had gpa between 3.50 and 3.74 10% 18% 14.30%"
+    },
+    "gpa_325_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.25 and 3.49 1% 5% 3.50%"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1% 2% 1.10%"
+    },
+    "gpa_250_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.50 and 2.99 1% 0.70%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0% 0.20%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00%"
+    },
+    "sat_p25": {
+      "value": 1470,
+      "quote": "sat composite 1470 1510 1540"
+    },
+    "sat_p50": {
+      "value": 1510,
+      "quote": "sat composite 1470 1510 1540"
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "sat composite 1470 1510 1540"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 35"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 32 33 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

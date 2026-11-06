@@ -1,0 +1,45 @@
+{
+  "slug": "university-of-illinois-chicago",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "http://oir.uic.edu/wp-content/uploads/sites/213/2026/06/CDS_Final_2025_26.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 29929,
+    "admitted_total": 22674,
+    "enrolled_total": 5405,
+    "rank_top10_pct": 23,
+    "rank_top25_pct": 52,
+    "gpa_400_pct": 5,
+    "gpa_375_pct": 23,
+    "gpa_350_pct": 25,
+    "gpa_325_pct": 20,
+    "gpa_300_pct": 16,
+    "gpa_250_pct": 10,
+    "gpa_200_pct": 0,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.45,
+    "gpa_submit_pct": 98.61
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

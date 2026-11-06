@@ -1,0 +1,42 @@
+{
+  "slug": "wake-forest-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://prod.wp.cdn.aws.wfu.edu/sites/202/2025/07/CDS-2024-2025-fillable-WFU.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0"
+    },
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 0"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 0"
+    },
+    "rank_top10_pct": {
+      "value": 64.2,
+      "quote": "percent in top tenth of high school graduating class 64.2"
+    },
+    "rank_top25_pct": {
+      "value": 91.8,
+      "quote": "percent in top quarter of high school graduating class 91.8"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0"
+    },
+    "gpa_submit_pct": {
+      "value": 4,
+      "quote": "percent submitting gpa common data set 202 4 -202 5"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "california-state-university-los-angeles",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.calstatela.edu/sites/default/files/CDS2526_CalStateLA.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 36694,
+    "admitted_total": 33209,
+    "enrolled_total": 2920,
+    "gpa_400_pct": 7.82,
+    "gpa_375_pct": 9.18,
+    "gpa_350_pct": 15.98,
+    "gpa_325_pct": 14.28,
+    "gpa_300_pct": 20.068,
+    "gpa_250_pct": 23.469,
+    "gpa_200_pct": 8.84,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.21
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "university-of-illinois-chicago",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "http://oir.uic.edu/wp-content/uploads/sites/213/2026/06/CDS_Final_2025_26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 29929,
+      "quote": "total first-time, first-year (degree-seeking) who applied 29929 29929"
+    },
+    "admitted_total": {
+      "value": 22674,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 22674 22674"
+    },
+    "enrolled_total": {
+      "value": 5405,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 5405 5405"
+    },
+    "rank_top10_pct": {
+      "value": 23,
+      "quote": "percent in top tenth of high school graduating class 23"
+    },
+    "rank_top25_pct": {
+      "value": 52,
+      "quote": "percent in top quarter of high school graduating class 52"
+    },
+    "gpa_400_pct": {
+      "value": 5,
+      "quote": "percent who had gpa of 4.0 5 3 3.75"
+    },
+    "gpa_375_pct": {
+      "value": 23,
+      "quote": "percent who had gpa between 3.75 and 3.99 23 19 21.03"
+    },
+    "gpa_350_pct": {
+      "value": 25,
+      "quote": "percent who had gpa between 3.50 and 3.74 25 23 23.73"
+    },
+    "gpa_325_pct": {
+      "value": 20,
+      "quote": "percent who had gpa between 3.25 and 3.49 20 24 22.08"
+    },
+    "gpa_300_pct": {
+      "value": 16,
+      "quote": "percent who had gpa between 3.00 and 3.24 16 21 18.49"
+    },
+    "gpa_250_pct": {
+      "value": 10,
+      "quote": "percent who had gpa between 2.50 and 2.99 10 11 10.69"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0 0 .19"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 0.04"
+    },
+    "gpa_average": {
+      "value": 3.45,
+      "quote": "average high school gpa 3.45"
+    },
+    "gpa_submit_pct": {
+      "value": 98.61,
+      "quote": "percent submitting gpa 98.61"
+    }
+  },
+  "concerns": null
+}

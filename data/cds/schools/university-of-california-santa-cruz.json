@@ -1,0 +1,43 @@
+{
+  "slug": "university-of-california-santa-cruz",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2025-26-revised.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 66374,
+    "admitted_total": 48274,
+    "enrolled_total": 4596,
+    "waitlist_admitted": 2648,
+    "gpa_400_pct": 35.86,
+    "gpa_375_pct": 36.43,
+    "gpa_350_pct": 22.16,
+    "gpa_325_pct": 4.71,
+    "gpa_300_pct": 0.75,
+    "gpa_250_pct": 0.07,
+    "gpa_200_pct": 0.02,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.87,
+    "gpa_submit_pct": 99.26
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

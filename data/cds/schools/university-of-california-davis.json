@@ -1,0 +1,33 @@
+{
+  "slug": "university-of-california-davis",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS%202023-24%20UCD.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "waitlist_admitted": 4387,
+    "gpa_400_pct": 73.4,
+    "gpa_375_pct": 19.9,
+    "gpa_350_pct": 5,
+    "gpa_325_pct": 1.3,
+    "gpa_300_pct": 0.4,
+    "gpa_250_pct": 0.1,
+    "gpa_below1_pct": 0,
+    "gpa_average": 4.1,
+    "gpa_submit_pct": 100
+  },
+  "basis": {
+    "waitlist_admitted": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

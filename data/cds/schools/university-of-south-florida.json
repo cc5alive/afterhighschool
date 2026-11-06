@@ -1,0 +1,39 @@
+{
+  "slug": "university-of-south-florida",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.usf.edu/ods/documents/cds/usf-cds-2025-2026-final-v2.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 71722,
+    "admitted_total": 29196,
+    "enrolled_total": 6730,
+    "rank_top10_pct": 29.1,
+    "rank_top25_pct": 62.8,
+    "gpa_400_pct": 61.99,
+    "gpa_375_pct": 17.9,
+    "gpa_350_pct": 11.7,
+    "gpa_325_pct": 5.79,
+    "gpa_300_pct": 2.01,
+    "gpa_below1_pct": 0,
+    "gpa_average": 4.09,
+    "gpa_submit_pct": 99.9
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

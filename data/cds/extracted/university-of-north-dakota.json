@@ -1,0 +1,34 @@
+{
+  "slug": "university-of-north-dakota",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://commondataset.org/wp-content/uploads/2025/11/CDS-PDF-2025-2026-Excel_Template.xlsx"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 c.206 if yes, do you release that information to students? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "admitted_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 0 c.207 do you release that information to school counselors? first-time, first-year admission wait list policy undergraduates first-time, first-year all all all yesno"
+    },
+    "enrolled_total": {
+      "value": 0,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 0 c.301 high school completion requirement first-time, first-year admission admissions requirements high school completion undergraduates first-time, first-year all all all x"
+    },
+    "rank_submit_pct": {
+      "value": 0,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: c.1130 total 0 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "factor_rigor": {
+      "value": "Not Considered",
+      "quote": "Rigor of secondary school record"
+    }
+  },
+  "concerns": null
+}

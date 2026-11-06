@@ -1,0 +1,130 @@
+{
+  "slug": "washington-university-in-st-louis",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 7830,
+      "quote": "total first-time, first-year who applied 33,283 2,017 23,436 7,830"
+    },
+    "admitted_total": {
+      "value": 575,
+      "quote": "total first-time, first-year who were admitted 3,968 390 3,003 575"
+    },
+    "enrolled_total": {
+      "value": 275,
+      "quote": "total first-time, first-year who enrolled 1,961 279 1,407 275"
+    },
+    "waitlist_admitted": {
+      "value": 327,
+      "quote": "number of wait-listed students admitted 327"
+    },
+    "rank_top10_pct": {
+      "value": 86,
+      "quote": "percent in top tenth of high school graduating class 86%"
+    },
+    "rank_top25_pct": {
+      "value": 98,
+      "quote": "percent in top quarter of high school graduating class 98%"
+    },
+    "sat_p25": {
+      "value": 1500,
+      "quote": "sat composite 1500 1530 1550"
+    },
+    "sat_p50": {
+      "value": 1530,
+      "quote": "sat composite 1500 1530 1550"
+    },
+    "sat_p75": {
+      "value": 1550,
+      "quote": "sat composite 1500 1530 1550"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Important",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "university-of-california-santa-cruz",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2025-26-revised.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 66374,
+      "quote": "total first-time, first-year (degree-seeking) who applied 52,573 66,374 7,248 6,554"
+    },
+    "admitted_total": {
+      "value": 48274,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 37,433 6,097 4,745 48,274"
+    },
+    "enrolled_total": {
+      "value": 4596,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4,183 252 161 4,596"
+    },
+    "waitlist_admitted": {
+      "value": 2648,
+      "quote": "number of wait-listed students admitted: 2,648"
+    },
+    "gpa_400_pct": {
+      "value": 35.86,
+      "quote": "percent who had gpa of 4.0 35.86%"
+    },
+    "gpa_375_pct": {
+      "value": 36.43,
+      "quote": "percent who had gpa between 3.75 and 3.99 36.43%"
+    },
+    "gpa_350_pct": {
+      "value": 22.16,
+      "quote": "percent who had gpa between 3.50 and 3.74 22.16%"
+    },
+    "gpa_325_pct": {
+      "value": 4.71,
+      "quote": "percent who had gpa between 3.25 and 3.49 4.71%"
+    },
+    "gpa_300_pct": {
+      "value": 0.75,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.75%"
+    },
+    "gpa_250_pct": {
+      "value": 0.07,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.07%"
+    },
+    "gpa_200_pct": {
+      "value": 0.02,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.02%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.87,
+      "quote": "average high school gpa 3.87"
+    },
+    "gpa_submit_pct": {
+      "value": 99.26,
+      "quote": "percent submitting gpa 99.26%"
+    }
+  },
+  "concerns": null
+}
