@@ -1,0 +1,146 @@
+{
+  "slug": "claremont-mckenna-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.cmc.edu/sites/default/files/CDS_2025-26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 2344,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2599 1996 2344"
+    },
+    "admitted_total": {
+      "value": 115,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 267 273 115"
+    },
+    "enrolled_total": {
+      "value": 57,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 136 142 57"
+    },
+    "waitlist_admitted": {
+      "value": 61,
+      "quote": "number of wait-listed students admitted: 61"
+    },
+    "rank_top10_pct": {
+      "value": 64,
+      "quote": "percent in top tenth of high school graduating class 64% 32"
+    },
+    "rank_top25_pct": {
+      "value": 94,
+      "quote": "percent in top quarter of high school graduating class 94% 47"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
+    },
+    "ed_applied": {
+      "value": 978,
+      "quote": "number of early decision applications received by your institution 978"
+    },
+    "ed_admitted": {
+      "value": 216,
+      "quote": "number of applicants admitted under early decision plan 216"
+    },
+    "sat_p25": {
+      "value": 1480,
+      "quote": "sat composite 1480 1510 1540 1502 1510"
+    },
+    "sat_p50": {
+      "value": 1510,
+      "quote": "sat composite 1480 1510 1540 1502 1510"
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "sat composite 1480 1510 1540 1502 1510"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35 34 34"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35 34 34"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35 34 34"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Important",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

@@ -9,7 +9,7 @@ Built 2026-11-06.
 | bennington-college | 2025-2026 | 17 | C11 buckets sum to 12.3 |
 | boise-state-university | 2025-2026 | 3 | C11 buckets sum to 0.0; gpa_submit_pct implausibly low |
 | california-state-university-long-beach | 2025-2026 | 23 |  |
-| claremont-mckenna-college | 2025-2026 | 31 |  |
+| claremont-mckenna-college | 2025-2026 | 36 | C11 buckets sum to 0.0 |
 | college-of-the-holy-cross | 2023-2024 | 19 |  |
 | davidson-college | 2025-2026 | 0 | C1 failed consistency (applied 8933, admitted undefined, enrolled undefined, federal admit rate 0.1337) |
 | denison-university | 2024-2025 | 3 | sat scores inconsistent (undefined, 1400, undefined) |
