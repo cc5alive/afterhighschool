@@ -32,7 +32,7 @@ Built 2026-11-06.
 | california-state-university-san-marcos | 2025-2026 | 21 |  |
 | carleton-college | 2025-2026 | 37 | waitlist_admitted: reader 33, Gemini 52 (quote matched); rank_top10_pct: reader 77, Gemini 63 (quote matched); rank_top25_pct: reader 94, Gemini 93 (quote matched); ed_applied: reader 760, Gemini 667 (quote matched); ed_admitted: reader 263, Gemini 244 (quote matched) |
 | carnegie-mellon-university | 2024-2025 | 28 |  |
-| case-western-reserve-university | - | 40 |  |
+| case-western-reserve-university | 2025-2026 | 44 |  |
 | citadel-military-college-of-south-carolina | 2025-2026 | 20 | sat_p25: reader 1010, Gemini 1100 (quote matched); sat_p50: reads disagree (1130 vs 1180), left out; sat_p75: reads disagree (1220 vs 1270), left out; act_p25: reader 21, Gemini 22 (quote matched); act_p50: reads disagree (23 vs 25), left out; act_p75: reads disagree (26 vs 27), left out; rank_top10_pct: reader 0.1, Gemini 8 (quote matched); rank_top25_pct: reader 0.25, Gemini 28 (quote matched); gpa_average: reads disagree (3.75 vs 3.79), left out; gpa_submit_pct: reads disagree (0.955 vs 100), left out; sat scores inconsistent (1100, undefined, undefined); act scores inconsistent (22, undefined, undefined) |
 | claremont-mckenna-college | 2025-2026 | 36 |  |
 | colgate-university | 2025-2026 | 45 |  |
@@ -55,12 +55,14 @@ Built 2026-11-06.
 | george-mason-university | 2025-2026 | 46 |  |
 | georgetown-university | 2025-2026 | 34 |  |
 | georgia-institute-of-technology-main-campus | 2025-2026 | 44 | gpa_below1_pct: reader 95.31, Gemini 0 (quote matched) |
+| georgia-southern-university | 2025-2026 | 0 |  |
 | governors-state-university | - | 33 | sat scores inconsistent (870, 870, 870) |
 | grand-valley-state-university | 2025-2026 | 17 | C1 failed consistency (applied 27261, admitted undefined, enrolled 4335, federal admit rate 0.8302) |
 | grinnell-college | 2024-2025 | 15 |  |
 | hamilton-college | 2025-2026 | 38 |  |
 | harvard-university | 2025-2026 | 40 |  |
 | haverford-college | 2024-2025 | 33 |  |
+| howard-university | 2025-2026 | 45 |  |
 | illinois-institute-of-technology | 2024-2025 | 31 |  |
 | indiana-university-bloomington | 2024-2025 | 45 |  |
 | iowa-state-university | 2025-2026 | 39 |  |
@@ -86,6 +88,7 @@ Built 2026-11-06.
 | northwestern-university | 2024-2025 | 30 | C11 buckets sum to 100.0 |
 | ohio-state-university-main-campus | 2025-2026 | 0 |  |
 | ohio-wesleyan-university | 2025-2026 | 30 |  |
+| oklahoma-state-university-main-campus | 2025-2026 | 0 |  |
 | old-dominion-university | 2025-2026 | 37 |  |
 | oregon-state-university | 2025-2026 | 37 |  |
 | pennsylvania-state-university-main-campus | 2025-2026 | 28 |  |
@@ -106,6 +109,7 @@ Built 2026-11-06.
 | state-university-of-new-york-at-cortland | 2025-2026 | 18 |  |
 | stony-brook-university | 2025-2026 | 23 |  |
 | swarthmore-college | 2025-2026 | 0 |  |
+| syracuse-university | 2025-2026 | 49 |  |
 | temple-university | - | 27 |  |
 | texas-a-and-m-university-college-station | 2025-2026 | 14 |  |
 | texas-a-and-m-university-corpus-christi | 2025-2026 | 36 |  |
@@ -117,7 +121,7 @@ Built 2026-11-06.
 | the-university-of-tennessee-chattanooga | 2025-2026 | 32 |  |
 | the-university-of-tennessee-knoxville | 2025-2026 | 44 |  |
 | the-university-of-texas-at-austin | 2024-2025 | 0 |  |
-| the-university-of-texas-at-dallas | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.6513) |
+| the-university-of-texas-at-dallas | 2025-2026 | 22 | applied_total: reader 0, Gemini 31789 (quote matched); admitted_total: reader 0, Gemini 20704 (quote matched); enrolled_total: reader 0, Gemini 4196 (quote matched); rank_submit_pct: reader 0, Gemini 56.67 (quote matched); factor_rigor: reader Not Considered, Gemini Very Important (quote matched) |
 | the-university-of-texas-at-el-paso | 2025-2026 | 6 | C11 buckets sum to 0.1 |
 | the-university-of-texas-at-san-antonio | 2024-2025 | 14 | sat_p25: reader 1010, Gemini 1008 (quote matched); sat_p50: reader 1110, Gemini 1100 (quote matched); sat_p75: reader 1210, Gemini 1200 (quote matched); act_p50: reader 23, Gemini 22 (quote matched); act_p75: reader 25, Gemini 26 (quote matched); rank_top10_pct: reader 0.16, Gemini 17 (quote matched); rank_top25_pct: reader 0.55, Gemini 55 (quote matched); rank_submit_pct: reader 0.98, Gemini 96 (quote matched); gpa_submit_pct implausibly low |
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
@@ -132,7 +136,7 @@ Built 2026-11-06.
 | university-of-california-davis | 2025-2026 | 35 |  |
 | university-of-california-irvine | 2025-2026 | 24 |  |
 | university-of-california-los-angeles | 2025-2026 | 32 |  |
-| university-of-california-riverside | 2025-2026 | 29 |  |
+| university-of-california-riverside | 2025-2026 | 28 | applied_total: reads disagree (61184 vs 57714), left out; admitted_total: reads disagree (52676 vs 44356), left out; enrolled_total: reads disagree (6686 vs 5419), left out; waitlist_admitted: reader 0, Gemini 2789 (quote matched); gpa_400_pct: reader 29, Gemini 33.9 (quote matched); gpa_375_pct: reader 22.2, Gemini 26.9 (quote matched); gpa_350_pct: reader 23, Gemini 23.8 (quote matched); gpa_325_pct: reader 16.2, Gemini 11.9 (quote matched); gpa_300_pct: reader 9.2, Gemini 3.1 (quote matched) |
 | university-of-california-san-diego | 2025-2026 | 35 |  |
 | university-of-california-santa-cruz | 2025-2026 | 15 |  |
 | university-of-central-florida | 2025-2026 | 31 | waitlist_admitted: reader 343, Gemini 50 (quote matched); sat_p25: reader 1220, Gemini 1210 (quote matched); sat_p50: reads disagree (1280 vs 1260), left out; sat_p75: reads disagree (1350 vs 1340), left out; act_p50: reads disagree (28 vs 27), left out; act_p75: reads disagree (30 vs 29), left out; rank_top25_pct: reader 68, Gemini 69 (quote matched); gpa_400_pct: reader 70, Gemini 67.9 (quote matched); gpa_375_pct: reads disagree (17.8 vs 18.5), left out; gpa_350_pct: reads disagree (10.3 vs 12), left out; gpa_325_pct: reader 1.5, Gemini 1.4 (quote matched); gpa_300_pct: reader 0.2, Gemini 0.1 (quote matched); C11 buckets sum to 69.5; sat scores inconsistent (1210, undefined, undefined); act scores inconsistent (25, undefined, undefined) |
@@ -143,9 +147,9 @@ Built 2026-11-06.
 | university-of-houston | 2025-2026 | 43 |  |
 | university-of-houston-downtown | 2025-2026 | 41 |  |
 | university-of-idaho | - | 18 | gpa_below1_pct read as the "totals = 100%" note |
-| university-of-illinois-chicago | 2025-2026 | 34 |  |
+| university-of-illinois-chicago | 2025-2026 | 39 | SAT 1030-1300 far from federal 1130-1350 |
 | university-of-illinois-urbana-champaign | 2025-2026 | 32 | C11 buckets sum to 18.0 |
-| university-of-iowa | 2024-2025 | 32 |  |
+| university-of-iowa | 2024-2025 | 38 | applied_total: reads disagree (27770 vs 31454), left out; enrolled_total: reads disagree (5208 vs 5561), left out; waitlist_admitted: reader 13, Gemini 1 (quote matched); sat_p25: reader 1140, Gemini 1130 (quote matched); sat_p75: reads disagree (1313 vs 1320), left out; act_p50: reads disagree (24 vs 25), left out; gpa_average: reader 3.83, Gemini 3.86 (quote matched); gpa_submit_pct: reader 99.06, Gemini 99.42 (quote matched); factor_class_rank: reader Very Important, Gemini Considered (quote matched); C1 failed consistency (applied undefined, admitted 23222, enrolled undefined, federal admit rate 0.8362); sat scores inconsistent (1130, 1230, undefined) |
 | university-of-kentucky | 2025-2026 | 31 |  |
 | university-of-louisville | 2024-2025 | 33 |  |
 | university-of-maryland-college-park | 2025-2026 | 0 |  |
@@ -165,7 +169,7 @@ Built 2026-11-06.
 | university-of-north-georgia | 2025-2026 | 20 |  |
 | university-of-north-texas | 2025-2026 | 28 |  |
 | university-of-northern-colorado | 2023-2024 | 22 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |
-| university-of-oklahoma-norman-campus | 2025-2026 | 32 |  |
+| university-of-oklahoma-norman-campus | 2025-2026 | 43 |  |
 | university-of-pennsylvania | 2025-2026 | 43 |  |
 | university-of-pittsburgh-pittsburgh-campus | 2024-2025 | 0 |  |
 | university-of-rhode-island | 2025-2026 | 38 |  |

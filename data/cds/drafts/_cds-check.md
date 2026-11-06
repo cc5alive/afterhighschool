@@ -1,13 +1,16 @@
 # CDS check
 
-Checked 7 schools on 2026-11-06.
+Checked 10 schools on 2026-11-06.
 
 | School | Document | Status | Values confirmed |
 | --- | --- | --- | --- |
-| bucknell-university | pdf | 200 | 41 of 50 |
-| california-state-polytechnic-university-pomona | pdf | 200 | 30 of 35 |
-| colorado-state-university-fort-collins | pdf | 200 | 31 of 37 |
-| george-mason-university | pdf | 200 | 28 of 48 |
-| iowa-state-university | pdf | 200 | 38 of 42 |
-| san-jose-state-university | pdf | 200 | 38 of 42 |
-| university-of-utah | pdf | 200 | 22 of 23 |
+| case-western-reserve-university | pdf | 200 | 20 of 46 |
+| georgia-southern-university | html | 200 | 0 of 42 |
+| howard-university | pdf | 200 | 14 of 39 |
+| oklahoma-state-university-main-campus | html | 200 | 0 of 45 |
+| syracuse-university | pdf | 200 | 30 of 50 |
+| the-university-of-texas-at-dallas | pdf | 200 | 22 of 34 |
+| university-of-california-riverside | pdf | 200 | 12 of 34 |
+| university-of-illinois-chicago | pdf | 200 | 10 of 33 |
+| university-of-iowa | pdf | 200 | 35 of 45 |
+| university-of-oklahoma-norman-campus | pdf | 200 | 24 of 45 |
