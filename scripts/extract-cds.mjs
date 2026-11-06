@@ -18,7 +18,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 9; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets
+const READER_VERSION = 10; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets; 10: no C11 from split groups only
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -291,15 +291,16 @@ function readCodes(rows) {
     if (value != null) out[key] = { value, quote: quote(code, a) };
   }
   if (out.deferral_allowed?.value !== 'yes') delete out.deferral_max;
-  // C11: the "all students" block if it adds to 100%, else students who sent scores, else those who didn't.
-  for (const start of [1121, 1101, 1111]) {
-    const vals = GPA_KEYS.map((_, i) => { const a = ans[`C.${start + i}`]; return a && a.answer !== '' ? pct(a.answer) : null; });
-    const sum = vals.reduce((s, v) => s + (v ?? 0), 0);
-    if (vals.some((v) => v != null) && sum >= 95 && sum <= 105) {
-      GPA_KEYS.forEach((k, i) => { if (vals[i] != null) out[k] = { value: vals[i], quote: quote(`C.${start + i}`, ans[`C.${start + i}`]) }; });
-      break;
-    }
-  }
+  // C11: the "all students" block. Some colleges fill only one block (often the first) for everyone,
+  // so a single filled block is used too. If only the two split groups are filled (sent test scores /
+  // didn't), neither describes the whole class, so C11 is left out (Grand Valley State 2025-26).
+  const block = (start) => GPA_KEYS.map((_, i) => { const a = ans[`C.${start + i}`]; return a && a.answer !== '' ? pct(a.answer) : null; });
+  const adds = (vals) => { const s = vals.reduce((a, v) => a + (v ?? 0), 0); return vals.some((v) => v != null) && s >= 95 && s <= 105; };
+  const blocks = [1121, 1101, 1111].map((start) => ({ start, vals: block(start) })).filter((b) => adds(b.vals));
+  const use = blocks.find((b) => b.start === 1121) || (blocks.length === 1 ? blocks[0] : null);
+  if (use) GPA_KEYS.forEach((k, i) => { if (use.vals[i] != null) out[k] = { value: use.vals[i], quote: quote(`C.${use.start + i}`, ans[`C.${use.start + i}`]) }; });
+  // Mark that the file has the template's C11 so the printed-form read of C11 isn't used instead.
+  if (!use && blocks.length > 1) out._c11_split = true;
   return out;
 }
 
@@ -397,7 +398,8 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     const codes = readCodes(doc.rows);
     const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows) };
     // Answer codes win. C11 rows are one set: never mix rows from two readers (one may read fractions, one percents).
-    if (Object.keys(codes).some((k) => /^gpa_\d|^gpa_below/.test(k))) for (const k of Object.keys(values)) if (/^gpa_\d|^gpa_below/.test(k)) delete values[k];
+    if (codes._c11_split || Object.keys(codes).some((k) => /^gpa_\d|^gpa_below/.test(k))) for (const k of Object.keys(values)) if (/^gpa_\d|^gpa_below/.test(k)) delete values[k];
+    delete codes._c11_split;
     const before = { ...values };
     Object.assign(values, codes);
     // A school's template can link an answer to the wrong row (Cornell's 2025-26 file puts its early
