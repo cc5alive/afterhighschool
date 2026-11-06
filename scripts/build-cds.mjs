@@ -66,7 +66,7 @@ function combine(E, G, school) {
   if ('gpa_submit_pct' in v && v.gpa_submit_pct < 10) drop(['gpa_submit_pct'], 'gpa_submit_pct implausibly low');
   for (const [t, lo, hi] of [['sat', 400, 1600], ['act', 1, 36]]) {
     const [a, b, c] = ['p25', 'p50', 'p75'].map((p) => v[`${t}_${p}`]);
-    if ([a, b, c].some((x) => x != null) && !(a >= lo && c <= hi && a < c && (b == null || (a <= b && b <= c))))
+    if ([a, b, c].some((x) => x != null) && !(a >= lo && c <= hi && a <= c && (b == null || (a <= b && b <= c))))
       drop([`${t}_p25`, `${t}_p50`, `${t}_p75`], `${t} scores inconsistent (${a}, ${b}, ${c})`);
   }
   // Test scores should be close to the federal figures (a different year, so allow some drift).

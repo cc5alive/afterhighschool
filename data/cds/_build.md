@@ -59,7 +59,7 @@ Built 2026-11-06.
 | georgetown-university | 2025-2026 | 38 |  |
 | georgia-institute-of-technology-main-campus | 2025-2026 | 49 | gpa_below1_pct: reader 95.31, Gemini 0 (quote matched) |
 | georgia-southern-university | 2025-2026 | 0 |  |
-| governors-state-university | - | 38 | sat scores inconsistent (870, 870, 870) |
+| governors-state-university | - | 41 |  |
 | grand-valley-state-university | 2025-2026 | 24 |  |
 | grinnell-college | 2024-2025 | 15 |  |
 | hamilton-college | - | 42 |  |
@@ -72,7 +72,7 @@ Built 2026-11-06.
 | iowa-state-university | 2025-2026 | 44 |  |
 | jacksonville-state-university | 2025-2026 | 37 |  |
 | james-madison-university | 2025-2026 | 36 |  |
-| johns-hopkins-university | 2025-2026 | 42 | act scores inconsistent (35, 35, 35) |
+| johns-hopkins-university | 2025-2026 | 45 |  |
 | kennesaw-state-university | 2025-2026 | 25 |  |
 | kent-state-university-at-kent | 2025-2026 | 0 |  |
 | lehigh-university | 2025-2026 | 42 |  |
