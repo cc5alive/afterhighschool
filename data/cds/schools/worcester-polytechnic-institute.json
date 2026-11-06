@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "applied_total": 12355,
+    "admitted_total": 7647,
+    "enrolled_total": 1300,
     "waitlist_admitted": 460,
     "rank_top10_pct": 51,
     "rank_top25_pct": 83,
@@ -50,6 +53,9 @@
     "ea_offered": "yes"
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "waitlist_admitted": "reader",
     "rank_top10_pct": "reader",
     "rank_top25_pct": "reader",

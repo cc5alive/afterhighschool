@@ -215,5 +215,5 @@ Built 2026-11-06.
 | western-kentucky-university | 2025-2026 | 20 | ACT 18-25 far from federal 16-21 |
 | william-and-mary | 2025-2026 | 45 |  |
 | williams-college | 2025-2026 | 44 |  |
-| worcester-polytechnic-institute | 2025-2026 | 41 | C1 failed consistency (applied 12355, admitted undefined, enrolled 1300, federal admit rate 0.6016) |
+| worcester-polytechnic-institute | 2025-2026 | 44 |  |
 | yale-university | 2025-2026 | 36 |  |

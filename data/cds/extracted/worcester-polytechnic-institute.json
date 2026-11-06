@@ -8,12 +8,16 @@
   "sourceUrl": "https://www.wpi.edu/sites/default/files/2026-05/WPI_CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 10,
+  "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 12355,
       "quote": "total first-time, first-year students who applied 8,522 3,820 13 12,355"
+    },
+    "admitted_total": {
+      "value": 7647,
+      "quote": "total first-time, first-year students admitted 5,158 2,482 7 7,647"
     },
     "enrolled_total": {
       "value": 1300,
