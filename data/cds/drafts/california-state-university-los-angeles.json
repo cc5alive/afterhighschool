@@ -1,0 +1,72 @@
+{
+  "slug": "california-state-university-los-angeles",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.calstatela.edu/sites/default/files/CDS2526_CalStateLA.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 36694,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 33359 2539 796 36694"
+    },
+    "admitted_total": {
+      "value": 33209,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 31008 1744 457 33209"
+    },
+    "enrolled_total": {
+      "value": 2920,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 2905 0 15 2920"
+    },
+    "gpa_400_pct": {
+      "value": 6.26,
+      "quote": "Percent who had GPA of 4.0 6.26"
+    },
+    "gpa_375_pct": {
+      "value": 9.77,
+      "quote": "Percent who had GPA between 3.75 and 3.99 9.77"
+    },
+    "gpa_350_pct": {
+      "value": 14.74,
+      "quote": "Percent who had GPA between 3.50 and 3.74 14.74"
+    },
+    "gpa_325_pct": {
+      "value": 16.54,
+      "quote": "Percent who had GPA between 3.25 and 3.49 16.54"
+    },
+    "gpa_300_pct": {
+      "value": 18.38,
+      "quote": "Percent who had GPA between 3.00 and 3.24 18.38"
+    },
+    "gpa_250_pct": {
+      "value": 26.62,
+      "quote": "Percent who had GPA between 2.50 and 2.99 26.62"
+    },
+    "gpa_200_pct": {
+      "value": 7.22,
+      "quote": "Percent who had GPA between 2.0 and 2.49 7.22"
+    },
+    "gpa_100_pct": {
+      "value": 0.47,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.47"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.21,
+      "quote": "Average High School GPA 3.21"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "No"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "university-of-connecticut",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "waitlist_offered": {
+      "value": 2438,
+      "quote": "Number of qualified applicants offered a place on waiting list: 2,438"
+    },
+    "waitlist_accepted": {
+      "value": 642,
+      "quote": "Number accepting a place on the waiting list: 642"
+    },
+    "waitlist_admitted": {
+      "value": 28,
+      "quote": "Number of wait-listed students admitted: 28"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 36,
+      "quote": "Submitting SAT Scores 36%"
+    },
+    "act_submit_pct": {
+      "value": 5,
+      "quote": "Submitting ACT Scores 5%"
+    },
+    "sat_p25": {
+      "value": 1220,
+      "quote": "SAT Composite 1220"
+    },
+    "sat_p50": {
+      "value": 1340,
+      "quote": "SAT Composite 1340"
+    },
+    "sat_p75": {
+      "value": 1420,
+      "quote": "SAT Composite 1420"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "ACT Composite 28"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "ACT Composite 31"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "rank_top10_pct": {
+      "value": 47.15,
+      "quote": "Percent in top tenth of high school graduating class 47.15%"
+    },
+    "rank_top25_pct": {
+      "value": 83.1,
+      "quote": "Percent in top quarter of high school graduating class 83.10%"
+    },
+    "rank_submit_pct": {
+      "value": 35.28,
+      "quote": "Percent of total first-time, first-year (freshmen) students who submitted high school class rank: 35.28%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "No"
+    }
+  },
+  "concerns": null
+}
