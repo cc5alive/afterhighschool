@@ -1,5 +1,5 @@
 ---
-import { CONTACT_EMAIL, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED } from '../lib/site.js';
+import { CONTACT_EMAIL, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED } from '../lib/site.js';
 
 const {
   title,
@@ -44,6 +44,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
         {APPRENTICESHIPS_LAUNCHED && <a href="/apprenticeships">Apprenticeships</a>}
         {TRANSFER_LAUNCHED && <a href="/transfer">Transfer</a>}
         {GAP_LAUNCHED && <a href="/gap-years">Gap years</a>}
+        {MILITARY_LAUNCHED && <a href="/military">Military</a>}
         <a href="/compare">Compare</a>
         <a href="/my-list">My list<span data-list-count></span></a>
       </nav>

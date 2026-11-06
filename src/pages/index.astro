@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED } from '../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED } from '../lib/site.js';
 ---
 <Layout
   title="After High School — every path, with the real numbers"
@@ -19,6 +19,7 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNC
           {APPRENTICESHIPS_LAUNCHED && <a class="explore-link path-apprentice" href="/apprenticeships">Explore apprenticeships</a>}
           {TRANSFER_LAUNCHED && <a class="explore-link path-transfer" href="/transfer">Start at community college</a>}
           {GAP_LAUNCHED && <a class="explore-link path-gap" href="/gap-years">Explore gap years</a>}
+          {MILITARY_LAUNCHED && <a class="explore-link path-military" href="/military">Explore the military</a>}
         </p>
 
         <form id="join" class="join" action="/api/waitlist" method="post" novalidate>
@@ -43,7 +44,7 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNC
             <label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
           </div>
           <button type="submit">Join the waitlist</button>
-          <p class="form-note">Just your email. {GAP_LAUNCHED ? "We'll write when fellowships, military paths and the other sections go live." : APPRENTICESHIPS_LAUNCHED ? "We'll write when gap years, fellowships and the other paths go live." : TRADES_LAUNCHED ? "We'll write when apprenticeships and the other paths go live." : "We'll write when trade schools, apprenticeships and the other paths go live."} No ads, and we never sell your information.</p>
+          <p class="form-note">Just your email. {MILITARY_LAUNCHED ? "We'll write when fellowships and the other sections go live." : GAP_LAUNCHED ? "We'll write when fellowships, military paths and the other sections go live." : APPRENTICESHIPS_LAUNCHED ? "We'll write when gap years, fellowships and the other paths go live." : TRADES_LAUNCHED ? "We'll write when apprenticeships and the other paths go live." : "We'll write when trade schools, apprenticeships and the other paths go live."} No ads, and we never sell your information.</p>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
       </div>

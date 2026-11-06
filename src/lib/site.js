@@ -16,4 +16,7 @@ export const TRANSFER_LAUNCHED = true;
 // Gap years and service years (launched Nov 6, 2026).
 export const GAP_LAUNCHED = true;
 
+// Military paths: reachable by URL but noindex and out of the sitemap until reviewed.
+export const MILITARY_LAUNCHED = false;
+
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';

@@ -1,0 +1,100 @@
+---
+// Military paths after high school: enlisting, ROTC, the service academies, and how service pays for school.
+// Every fact is from an official source, linked where it appears.
+import Layout from '../layouts/Layout.astro';
+import { MILITARY_LAUNCHED } from '../lib/site.js';
+const CHECKED = 'November 6, 2026';
+const SRC = {
+  join: { label: "Today's Military (U.S. Department of Defense): eligibility requirements", url: 'https://www.todaysmilitary.com/how-to-join/eligibility-requirements' },
+  rotc: { label: 'James Madison University Army ROTC: scholarships', url: 'https://www.jmu.edu/rotc/prospective-cadets/scholarships.shtml' },
+  nrotc: { label: 'Naval Service Training Command: NROTC', url: 'https://www.netc.navy.mil/Commands/Naval-Service-Training-Command/NROTC/Prospective-Midshipmen/Scholarship-and-Non-Scholarship-Options/Marine-Corps-Scholarships/' },
+  crs: { label: 'Congressional Research Service, IF13219, May 8, 2026', url: 'https://www.everycrsreport.com/files/2026-05-08_IF13219_e274a5f7c6a2ee923703f72590ac1a6b0953e2a3.pdf' },
+  ta: { label: 'Department of the Air Force: Military Tuition Assistance', url: 'https://myairforcebenefits.us.af.mil/Benefit-Library/Federal-Benefits/Military-Tuition-Assistance-%28MilTA%29?serv=26' },
+  gi: { label: 'U.S. Department of Veterans Affairs: Post-9/11 GI Bill rates', url: 'https://www.va.gov/education/benefit-rates/post-9-11-gi-bill-rates/' }
+};
+const AGES = [['Army', 42], ['Navy', 41], ['Air Force', 41], ['Coast Guard', 41], ['Space Force (enlisted)', 42], ['Marine Corps', 28]];
+const TIERS = [['36 months or more', '100%'], ['30 to 35 months', '90%'], ['24 to 29 months', '80%'], ['18 to 23 months', '70%'], ['6 to 17 months', '60%'], ['90 days to 5 months', '50%']];
+---
+<Layout title="The military after high school: enlisting, ROTC and the academies | After High School"
+  description="How the main military paths work after high school: enlisting, ROTC scholarships, the service academies, and how Tuition Assistance and the GI Bill pay for school. From official sources."
+  path="/military" nav="colleges" noindex={!MILITARY_LAUNCHED}>
+  <section class="compare-head">
+    <h1>The military</h1>
+    <p>You can enlist right out of high school, go to college on an ROTC scholarship, or attend a service academy. Each path comes with pay or free school, and each comes with years of required service that you're legally bound to. Here's how the main paths work, from official sources.</p>
+  </section>
+
+  <ul class="sy-list mil-list">
+    <li class="sy-card" id="enlist">
+      <h2>Enlist after high school</h2>
+      <p class="sy-what">You join one branch, complete basic training and train for a military job.</p>
+      <dl class="sy-facts">
+        <div><dt>Minimum age</dt><dd>17 with a parent's consent, 18 without.</dd></div>
+        <div><dt>Education</dt><dd>A high school diploma is preferred. You can enlist with a GED, but some branches limit your options.</dd></div>
+        <div class="sy-get"><dt>Oldest age to enlist for active duty</dt><dd><ul class="mil-ages">{AGES.map(([b, a]) => <li><span>{b}</span><strong>{a}</strong></li>)}</ul></dd></div>
+        <div class="sy-get"><dt>Citizenship</dt><dd>U.S. citizens and green card holders can enlist; other properly documented noncitizens may, with limited options. The Space Force requires U.S. citizenship.</dd></div>
+      </dl>
+      <p class="wys-src">Source: <a href={SRC.join.url} rel="noopener" target="_blank">{SRC.join.label}</a>. Checked {CHECKED}.</p>
+    </li>
+
+    <li class="sy-card" id="rotc">
+      <h2>ROTC: college on a military scholarship</h2>
+      <p class="sy-what">You go to a regular college, take military science classes and train alongside your degree, and become an officer when you graduate. The Army, Navy and Air Force each run ROTC programs Here is what one Army ROTC program lists:</p>
+      <dl class="sy-facts">
+        <div class="sy-get"><dt>What the scholarship pays</dt><dd><ul>
+          <li>Full tuition and fees (or room and board instead, if you qualify)</li>
+          <li>$1,200 a year for books</li>
+          <li>$420 a month, up to 10 months a year, for every contracted cadet</li>
+        </ul></dd></div>
+        <div><dt>Length</dt><dd>Two, three or four years, depending on how much of your degree is left.</dd></div>
+        <div><dt>Who can apply</dt><dd>U.S. citizens ages 17 to 31 with at least a 2.50 high school GPA who have taken the SAT or ACT (no minimum score) and meet Army physical standards.</dd></div>
+        <div class="sy-get"><dt>What you owe</dt><dd>Eight years total: four years of active duty and four in the Army Reserve or National Guard, or all eight in the Reserve or Guard while working a civilian job.</dd></div>
+      </dl>
+      <p class="sy-note">Navy and Air Force ROTC scholarships have their own amounts and service terms. Ask each program directly.</p>
+      <p class="wys-src">Sources: <a href={SRC.rotc.url} rel="noopener" target="_blank">{SRC.rotc.label}</a>; <a href={SRC.nrotc.url} rel="noopener" target="_blank">{SRC.nrotc.label}</a>. Checked {CHECKED}.</p>
+    </li>
+
+    <li class="sy-card" id="academies">
+      <h2>The service academies</h2>
+      <p class="sy-what">Four years of college at no tuition, with military training, then service as an officer. The five academies are West Point (Army), the Naval Academy, the Air Force Academy, the Merchant Marine Academy and the Coast Guard Academy.</p>
+      <dl class="sy-facts">
+        <div><dt>Age</dt><dd>At least 17 and not yet 23 on July 1 of the year you'd enter (up to 25 for the Merchant Marine Academy).</dd></div>
+        <div><dt>Other rules</dt><dd>U.S. citizen or national, unmarried, not pregnant, and no legal obligation to support a child or other dependent.</dd></div>
+        <div class="sy-get"><dt>Nomination</dt><dd>West Point, the Naval Academy, the Air Force Academy and the Merchant Marine Academy require a nomination, usually from your member of Congress. The Coast Guard Academy doesn't. A nomination doesn't guarantee admission.</dd></div>
+        <div class="sy-get"><dt>Also required</dt><dd>Strong grades and activities, the SAT or ACT, a medical exam and a fitness test.</dd></div>
+        <div class="sy-get"><dt>What you owe</dt><dd>At least nine years in all, including five years of active duty as an officer after graduation.</dd></div>
+      </dl>
+      <p class="wys-src">Source: <a href={SRC.crs.url} rel="noopener" target="_blank">{SRC.crs.label}</a>. Checked {CHECKED}.</p>
+    </li>
+  </ul>
+
+  <section class="block" aria-labelledby="pay">
+    <h2 id="pay">How service pays for school</h2>
+    <h3>Tuition Assistance, while you serve</h3>
+    <p class="block-lede">Tuition Assistance pays for classes you take while serving. The Air Force and Space Force pay up to $250 per semester hour, up to $4,500 a year. Other branches set their own rules. Officers who use it owe two more years of service.</p>
+    <p class="wys-src">Source: <a href={SRC.ta.url} rel="noopener" target="_blank">{SRC.ta.label}</a>. Checked {CHECKED}.</p>
+
+    <h3>The Post-9/11 GI Bill, after you serve</h3>
+    <p class="block-lede">After at least 90 days of active duty, the GI Bill pays part of college or training; after 36 months it pays the full benefit. For August 2026 through July 2027:</p>
+    <ul class="xfer-srcs">
+      <li><strong>Public colleges:</strong> net in-state tuition and required fees.</li>
+      <li><strong>Private colleges:</strong> up to $30,908.34 a year.</li>
+      <li><strong>Books:</strong> up to $1,000 a year.</li>
+      <li><strong>Housing:</strong> a monthly allowance based on military housing pay where your school is, or up to $1,198 a month if all your classes are online.</li>
+    </ul>
+    <table class="nat-table mil-tiers">
+      <caption>Share of the full benefit, by time on active duty</caption>
+      <thead><tr><th>Active duty</th><th>Benefit</th></tr></thead>
+      <tbody>{TIERS.map(([t, p]) => <tr><td>{t}</td><td>{p}</td></tr>)}</tbody>
+    </table>
+    <p class="wys-src">Source: <a href={SRC.gi.url} rel="noopener" target="_blank">{SRC.gi.label}</a>. Checked {CHECKED}.</p>
+  </section>
+
+  <section class="block" aria-labelledby="before">
+    <h2 id="before">Before you sign anything</h2>
+    <ul class="xfer-srcs">
+      <li><strong>Talk to more than one branch.</strong> Each recruiter represents one branch.</li>
+      <li><strong>Read your contract.</strong> Your job, any bonus, and how long you're committing should be written into it. A service commitment is a legal obligation.</li>
+      <li><strong>Bring someone with you.</strong> A parent, counselor or veteran you trust can help you ask questions.</li>
+    </ul>
+  </section>
+</Layout>

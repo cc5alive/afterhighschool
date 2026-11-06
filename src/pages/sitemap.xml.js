@@ -1,5 +1,5 @@
 import { schools, states, pulledAt } from '../lib/data.js';
-import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED } from '../lib/site.js';
 import { transferStates } from '../lib/transfer-data.js';
 import { occupations } from '../lib/apprentice-data.js';
 import { tradeIndex, tradeSchools } from '../lib/trade-data.js';
@@ -35,6 +35,7 @@ export function GET() {
     for (const s of transferStates) urls.push({ loc: `/transfer/${s.slug}`, lastmod: day });
   }
   if (GAP_LAUNCHED) urls.push({ loc: '/gap-years', lastmod: day });
+  if (MILITARY_LAUNCHED) urls.push({ loc: '/military', lastmod: day });
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
     .map((u) => `  <url><loc>${SITE}${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`)
     .join('\n')}\n</urlset>\n`;
