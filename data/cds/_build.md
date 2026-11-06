@@ -193,6 +193,7 @@ Built 2026-11-06.
 | university-of-southern-california | 2024-2025 | 39 |  |
 | university-of-utah | 2025-2026 | 45 |  |
 | university-of-vermont | 2025-2026 | 38 |  |
+| university-of-virginia-main-campus | 2025-2026 | 39 |  |
 | university-of-washington-seattle-campus | 2025-2026 | 37 | gpa_400_pct: reads disagree (18.12 vs 18.1), left out; gpa_325_pct: reads disagree (4.42 vs 4.4), left out; gpa_250_pct: reads disagree (0.24 vs 0.2), left out; C11 buckets sum to 77.2 |
 | university-of-wisconsin-eau-claire | 2025-2026 | 40 | C1 failed consistency (applied 6785, admitted 2612, enrolled 1742, federal admit rate 0.8234) |
 | university-of-wisconsin-madison | 2025-2026 | 0 |  |

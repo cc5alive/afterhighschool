@@ -1,0 +1,177 @@
+{
+  "slug": "university-of-virginia-main-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://ira.virginia.edu/common-data-set/common-data-set-2025-2026"
+  },
+  "sourceUrl": "https://ira.virginia.edu/common-data-set/common-data-set-2025-2026",
+  "mirror": "data/cds/mirror/university-of-virginia-main-campus.rows.json",
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 7,
+  "docKind": "ocr",
+  "values": {
+    "applied_total": {
+      "value": 64457,
+      "quote": "c1 total first-time, first-year (degree-seeking) who applied 64,457"
+    },
+    "admitted_total": {
+      "value": 10086,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 10,086"
+    },
+    "enrolled_total": {
+      "value": 3978,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 3,978"
+    },
+    "waitlist_offered": {
+      "value": 8398,
+      "quote": "number of qualified applicants offered a place on wait list 8,398"
+    },
+    "waitlist_accepted": {
+      "value": 5225,
+      "quote": "number accepting a place on the wait list 5,225"
+    },
+    "waitlist_admitted": {
+      "value": 125,
+      "quote": "number of wait-listed students admitted 125"
+    },
+    "sat_submit_pct": {
+      "value": 48.7,
+      "quote": "percent submitting sat scores 48.7%"
+    },
+    "act_submit_pct": {
+      "value": 14.5,
+      "quote": "percent submitting act scores 14.5%"
+    },
+    "rank_top10_pct": {
+      "value": 90.3,
+      "quote": "percent in top tenth of high school graduating class 90.3%"
+    },
+    "rank_top25_pct": {
+      "value": 98.4,
+      "quote": "percent in top quarter of high school graduating class 98.4%"
+    },
+    "rank_submit_pct": {
+      "value": 30.4,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank 30.4%"
+    },
+    "ed_applied": {
+      "value": 4969,
+      "quote": "number of early decision applications received by your institution 4,969"
+    },
+    "ed_admitted": {
+      "value": 1376,
+      "quote": "number of applicants admitted under early decision plan 1,376"
+    },
+    "sat_p25": {
+      "value": 1410,
+      "quote": "sat composite 1410 1470 1510"
+    },
+    "sat_p50": {
+      "value": 1470,
+      "quote": "sat composite 1410 1470 1510"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "sat composite 1410 1470 1510"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Very Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 4877,
+      "quote": "D2 total 4,877 1,323 864"
+    },
+    "transfer_admitted": {
+      "value": 1323,
+      "quote": "D2 total 4,877 1,323 864"
+    },
+    "transfer_enrolled": {
+      "value": 864,
+      "quote": "D2 total 4,877 1,323 864"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 c18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "N/A",
+      "quote": "C18 maximum period of postponement: N/A"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}
