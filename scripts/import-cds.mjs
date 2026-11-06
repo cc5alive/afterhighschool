@@ -48,7 +48,8 @@ for (const e of out) {
   const direct = /\.(pdf|xlsx?)(\?|$)|\/document\/\d+|\/pdf$|box\.com\/(s|shared)\/|drive\.google|docs\.google/i.test(e.source.url);
   const pub = fs.existsSync(`data/cds/schools/${e.slug}.json`) ? JSON.parse(fs.readFileSync(`data/cds/schools/${e.slug}.json`, 'utf8')) : null;
   const cur = sources[e.slug]?.url;
-  const newer = cur && yearOf(e.source.url + ' ' + (e.cdsYear || '')) > yearOf(cur + ' ' + (sources[e.slug]?.year || ''));
+  // "Newer" means newer than both our listed source and the year we already publish.
+  const newer = cur && yearOf(e.source.url + ' ' + (e.cdsYear || '')) > Math.max(yearOf(cur + ' ' + (sources[e.slug]?.year || '')), yearOf(pub?.cdsYear || ''));
   if (direct && cur !== e.source.url && (!pub || Object.keys(pub.values || {}).length < 15 || newer)) {
     sources[e.slug] = { url: e.source.url, year: e.cdsYear || null, title: e.source.title || 'Common Data Set' };
     sourcesChanged.push(e.slug);
