@@ -22,9 +22,9 @@ jobs:
       - run: npm run build
       - run: node scripts/check-links.mjs
       - run: head -60 data/linkcheck/report.md >> "$GITHUB_STEP_SUMMARY"
-      - name: Commit the report (data only, no deploy)
+      - name: Commit the report (deploys, so confirmed-broken school links drop off the site)
         run: |
           git config user.name "afterhighschool-bot"
           git config user.email "hello@afterhighschool.me"
           git add data/linkcheck
-          git diff --cached --quiet || (git commit -m "Link check results [skip ci]" && ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ])
+          git diff --cached --quiet || (git commit -m "Link check results" && ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ])
