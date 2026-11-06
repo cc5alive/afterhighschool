@@ -9,68 +9,122 @@
   "values": {
     "applied_total": {
       "value": 26342,
-      "quote": "26,342"
+      "quote": "26,342",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 24648,
-      "quote": "24,648"
+      "quote": "24,648",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 3742,
-      "quote": "3,742"
+      "quote": "3,742",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 11.72,
-      "quote": "11.72%"
+      "quote": "11.72%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 14.27,
-      "quote": "14.27%"
+      "quote": "14.27%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 17.59,
-      "quote": "17.59%"
+      "quote": "17.59%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 17.16,
-      "quote": "17.16%"
+      "quote": "17.16%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 16.39,
-      "quote": "16.39%"
+      "quote": "16.39%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 19.68,
-      "quote": "19.68%"
+      "quote": "19.68%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 3.11,
-      "quote": "3.11%"
+      "quote": "3.11%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0.08,
-      "quote": "0.08%"
+      "quote": "0.08%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "0"
+      "quote": "0",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.38,
-      "quote": "3.38"
+      "quote": "3.38",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 99.57,
-      "quote": "99.57%"
+      "quote": "99.57%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "No"
+      "quote": "No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "No"
+      "quote": "No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.csus.edu/information-resources-technology/institutional-research/common-data-set/cds_2025-2026-final.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 14,
+  "total": 16
 }

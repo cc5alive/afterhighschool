@@ -27,6 +27,7 @@ Built 2026-11-06.
 | california-state-university-long-beach | 2025-2026 | 32 |  |
 | california-state-university-los-angeles | 2025-2026 | 31 |  |
 | california-state-university-northridge | 2025-2026 | 31 |  |
+| california-state-university-sacramento | 2025-2026 | 32 |  |
 | california-state-university-san-bernardino | 2025-2026 | 32 |  |
 | california-state-university-san-marcos | 2025-2026 | 21 |  |
 | carleton-college | 2025-2026 | 37 | waitlist_admitted: reader 33, Gemini 52 (quote matched); rank_top10_pct: reader 77, Gemini 63 (quote matched); rank_top25_pct: reader 94, Gemini 93 (quote matched); ed_applied: reader 760, Gemini 667 (quote matched); ed_admitted: reader 263, Gemini 244 (quote matched) |
@@ -66,7 +67,7 @@ Built 2026-11-06.
 | kennesaw-state-university | 2025-2026 | 25 |  |
 | lehigh-university | 2025-2026 | 37 |  |
 | lincoln-university-mo | 2023-2024 | 17 |  |
-| louisiana-state-university-and-agricultural-and-mechanical-college | - | 39 |  |
+| louisiana-state-university-and-agricultural-and-mechanical-college | 2024-2025 | 43 |  |
 | loyola-university-chicago | 2025-2026 | 16 |  |
 | macalester-college | 2025-2026 | 26 |  |
 | massachusetts-institute-of-technology | 2025-2026 | 35 |  |
@@ -117,7 +118,7 @@ Built 2026-11-06.
 | the-university-of-texas-at-austin | 2024-2025 | 0 |  |
 | the-university-of-texas-at-dallas | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.6513) |
 | the-university-of-texas-at-el-paso | 2025-2026 | 6 | C11 buckets sum to 0.1 |
-| the-university-of-texas-at-san-antonio | 2024-2025 | 12 | gpa_submit_pct implausibly low |
+| the-university-of-texas-at-san-antonio | 2024-2025 | 14 | sat_p25: reader 1010, Gemini 1008 (quote matched); sat_p50: reader 1110, Gemini 1100 (quote matched); sat_p75: reader 1210, Gemini 1200 (quote matched); act_p50: reader 23, Gemini 22 (quote matched); act_p75: reader 25, Gemini 26 (quote matched); rank_top10_pct: reader 0.16, Gemini 17 (quote matched); rank_top25_pct: reader 0.55, Gemini 55 (quote matched); rank_submit_pct: reader 0.98, Gemini 96 (quote matched); gpa_submit_pct implausibly low |
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 46 |  |
 | united-states-military-academy | 2024-2025 | 32 |  |
@@ -125,7 +126,7 @@ Built 2026-11-06.
 | university-of-akron-main-campus | 2025-2026 | 31 | C1 failed consistency (applied 13503, admitted 10427, enrolled 2169, federal admit rate 0.5967) |
 | university-of-alabama-in-huntsville | 2025-2026 | 39 |  |
 | university-of-arizona | 2099-2100 | 14 | C11 left blank by the school |
-| university-of-arkansas | 2099-2100 | 3 | C11 buckets sum to 0.1 |
+| university-of-arkansas | 2099-2100 | 28 | sat_submit_pct: reader 19.8, Gemini 31.2 (quote matched); act_submit_pct: reader 95.8, Gemini 72.2 (quote matched); rank_top25_pct: reader 65.7, Gemini 53.2 (quote matched); gpa_100_pct: reader 0.1, Gemini 0 (quote matched) |
 | university-of-california-berkeley | 2025-2026 | 15 |  |
 | university-of-california-davis | 2025-2026 | 35 |  |
 | university-of-california-irvine | 2025-2026 | 24 |  |
@@ -135,7 +136,7 @@ Built 2026-11-06.
 | university-of-california-santa-cruz | 2025-2026 | 15 |  |
 | university-of-central-florida | 2025-2026 | 31 | waitlist_admitted: reader 343, Gemini 50 (quote matched); sat_p25: reader 1220, Gemini 1210 (quote matched); sat_p50: reads disagree (1280 vs 1260), left out; sat_p75: reads disagree (1350 vs 1340), left out; act_p50: reads disagree (28 vs 27), left out; act_p75: reads disagree (30 vs 29), left out; rank_top25_pct: reader 68, Gemini 69 (quote matched); gpa_400_pct: reader 70, Gemini 67.9 (quote matched); gpa_375_pct: reads disagree (17.8 vs 18.5), left out; gpa_350_pct: reads disagree (10.3 vs 12), left out; gpa_325_pct: reader 1.5, Gemini 1.4 (quote matched); gpa_300_pct: reader 0.2, Gemini 0.1 (quote matched); C11 buckets sum to 69.5; sat scores inconsistent (1210, undefined, undefined); act scores inconsistent (25, undefined, undefined) |
 | university-of-chicago | 2025-2026 | 41 |  |
-| university-of-cincinnati-main-campus | 2025-2026 | 34 |  |
+| university-of-cincinnati-main-campus | 2025-2026 | 43 |  |
 | university-of-florida | 2024-2025 | 35 | applied_total: reader 5159, Gemini 73557 (quote matched); admitted_total: reader 1676, Gemini 17804 (quote matched); enrolled_total: reader 303, Gemini 7513 (quote matched) |
 | university-of-georgia | 2024-2025 | 41 |  |
 | university-of-houston | 2025-2026 | 43 |  |
