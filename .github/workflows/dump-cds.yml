@@ -1,0 +1,16 @@
+name: Dump CDS text (debug)
+on:
+  workflow_dispatch:
+    inputs:
+      slugs: { description: 'space-separated slugs', required: true }
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --no-save --no-package-lock pdfjs-dist@4.10.38 xlsx@0.18.5
+      - run: node scripts/dump-cds-text.mjs ${{ inputs.slugs }}
+      - uses: actions/upload-artifact@v4
+        with: { name: cds-dump, path: cds-dump/ }
