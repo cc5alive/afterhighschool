@@ -16,6 +16,14 @@ export const tradeSchools = snap.schools
     // Programs in a known trade, with the trade attached.
     tradePrograms: s.programs.map((p) => ({ ...p, trade: tradeFor(p.cip) })).filter((p) => p.trade)
   }));
+// Names shared by more than one school in a state (chains with several campuses): titles add the city.
+const nameCount = new Map();
+for (const s of tradeSchools) nameCount.set(`${s.name}|${s.state}`, (nameCount.get(`${s.name}|${s.state}`) || 0) + 1);
+for (const s of tradeSchools) {
+  s.displayName = nameCount.get(`${s.name}|${s.state}`) > 1 ? `${s.name} (${s.city})` : s.name;
+  // Pages with no programs, price or earnings have nothing useful yet: keep them out of search.
+  s.thin = !s.programs.length && s.avgNetPrice == null && s.medianEarnings6yr == null;
+}
 export const tradeSchoolBySlug = new Map(tradeSchools.map((s) => [s.slug, s]));
 
 export const KIND_LABEL = { certificate: 'Trade or career school', 'public-technical': 'Public technical or community college', 'two-year': 'Two-year college' };

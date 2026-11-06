@@ -23,10 +23,13 @@ const finished = (progs) => progs.reduce((a, p) => a + (p.awards || 0), 0);
   <ul class="results tr-results">
     {st.list.map(({ s, progs }) => (
       <li class="card tr-card">
-        <a class="card-link" href={`/trades/school/${s.slug}`}>
-          <span class="card-name">{s.name}</span>
-          <span class="card-where">{s.city} · {KIND_LABEL[s.kind]} · {OWNERSHIP_LABEL[s.ownership]}</span>
-        </a>
+        <div class="card-main">
+          <a class="card-link" href={`/trades/school/${s.slug}`}>
+            <span class="card-name">{s.name}</span>
+            <span class="card-where">{s.city} · {KIND_LABEL[s.kind]} · {OWNERSHIP_LABEL[s.ownership]}</span>
+          </a>
+          <button type="button" class="linkish card-save" data-save-slug={`t:${s.slug}`} data-off-text="Save to my list" data-on-text="Saved" aria-pressed="false" aria-label={`Save ${s.name} to my list`}>Save to my list</button>
+        </div>
         <dl class="card-facts tr-facts">
           <div><dt>Offers</dt><dd>{creds(progs)}</dd></div>
           <div><dt>Finished last year</dt><dd>{int(finished(progs)) ?? '—'}</dd></div>

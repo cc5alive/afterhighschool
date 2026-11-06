@@ -35,8 +35,8 @@ const bandMax = Math.max(1, ...bands.map((b) => b.v ?? 0), s.costOfAttendance ??
 const hasBands = bands.some((b) => b.v != null);
 const description = `${s.name} in ${s.city}, ${s.stateName}: programs, real cost by family income, completion rate, earnings and debt, from federal data.`;
 ---
-<Layout title={`${s.name}: programs, cost and outcomes | After High School`} description={description}
-  path={`/trades/school/${s.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED}>
+<Layout title={`${s.displayName}: programs, cost and outcomes | After High School`} description={description}
+  path={`/trades/school/${s.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED || s.thin}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb">
       <a href="/trades">Trades</a><span aria-hidden="true">/</span>

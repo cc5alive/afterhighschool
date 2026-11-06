@@ -50,7 +50,14 @@
       d.append(el('dt', null, k), el('dd', null, v));
       dl.append(d);
     }
-    li.append(a, dl);
+    const main = el('div', 'card-main');
+    const save = el('button', 'linkish card-save', 'Save to my list');
+    save.type = 'button';
+    Object.assign(save.dataset, { saveSlug: r.slug, offText: 'Save to my list', onText: 'Saved' });
+    save.setAttribute('aria-pressed', 'false');
+    save.setAttribute('aria-label', `Save ${r.name} to my list`);
+    main.append(a, save);
+    li.append(main, dl);
     return li;
   }
 
@@ -107,6 +114,7 @@
     const f = current();
     const hits = rows.filter((r) => matches(r, f)).sort(SORTS[f.sort] || SORTS.name);
     list.replaceChildren(...hits.slice(0, shown).map(card));
+    window.dispatchEvent(new CustomEvent('ahs-list-change')); // refresh Save buttons
     countEl.textContent = `${hits.length.toLocaleString('en-US')} ${hits.length === 1 ? 'school' : 'schools'}`;
     emptyEl.hidden = hits.length > 0;
     moreBtn.hidden = hits.length <= shown;

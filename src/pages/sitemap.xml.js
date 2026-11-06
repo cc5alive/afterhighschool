@@ -22,7 +22,7 @@ export function GET() {
       urls.push({ loc: `/trades/${t.slug}`, lastmod: day });
       for (const st of t.states) urls.push({ loc: `/trades/${t.slug}/${st.slug}`, lastmod: day });
     }
-    for (const s of tradeSchools) urls.push({ loc: `/trades/school/${s.slug}`, lastmod: day });
+    for (const s of tradeSchools) if (!s.thin) urls.push({ loc: `/trades/school/${s.slug}`, lastmod: day });
   }
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
     .map((u) => `  <url><loc>${SITE}${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`)
