@@ -1,7 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { schools, pulledDate } from '../lib/data.js';
-import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
 import { occupations as apOccupations, wageYear, projectionYears } from '../lib/apprentice-data.js';
 import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js';
 ---
@@ -79,6 +79,13 @@ import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js'
         <h2>Apprenticeships</h2>
         <p>The <a href="/apprenticeships">apprenticeship guide</a> is organized by job, not by program, because the Department of Labor doesn't publish a downloadable list of individual apprenticeship programs. It covers {apOccupations.length} jobs. We include a job only if the Bureau of Labor Statistics names apprenticeship as its typical training, or its Occupational Outlook Handbook page describes an apprenticeship route; we quote those sentences on the page.</p>
         <p>Pay is from the BLS wage survey ({wageYear}) and covers all workers in the job, so apprentices usually start lower. Jobs, openings and growth are BLS Employment Projections ({projectionYears}). To find actual openings, each page links to the Department of Labor's apprenticeship finder, and where it fits, to schools that teach the same trade.</p>
+      </>
+    )}
+    {TRANSFER_LAUNCHED && (
+      <>
+        <h2>Community college and transfer</h2>
+        <p>The <a href="/transfer">transfer guide</a> uses national figures from the College Board (tuition and grant aid), the National Student Clearinghouse Research Center (how many community college students transfer and earn a bachelor's) and the U.S. Government Accountability Office (lost credits), each linked where it appears. State rules come from the Education Commission of the States' 2022 survey of transfer and articulation policies, so they show what each state had in July 2022. Official state transfer sites are links we found and check every month; a link that stops loading is dropped.</p>
+        <p>Each state page lists public colleges that awarded associate degrees in the latest College Scorecard data. Their eight-year outcomes come from the federal Outcome Measures survey, which follows everyone who started, full-time or part-time, first-time or transferring in. A student who earned an award there counts as earning one even if they later transferred, so "left for another college before finishing" understates how many students transfer overall.</p>
       </>
     )}
 

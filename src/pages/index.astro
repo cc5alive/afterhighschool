@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED } from '../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED } from '../lib/site.js';
 ---
 <Layout
   title="After High School — every path, with the real numbers"
@@ -17,6 +17,7 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED } from '../lib/site.js';
           <a class="explore-link path-college" href="/colleges">Explore colleges</a>
           {TRADES_LAUNCHED && <a class="explore-link path-trade" href="/trades">Explore trade schools</a>}
           {APPRENTICESHIPS_LAUNCHED && <a class="explore-link path-apprentice" href="/apprenticeships">Explore apprenticeships</a>}
+          {TRANSFER_LAUNCHED && <a class="explore-link path-transfer" href="/transfer">Start at community college</a>}
         </p>
 
         <form id="join" class="join" action="/api/waitlist" method="post" novalidate>
