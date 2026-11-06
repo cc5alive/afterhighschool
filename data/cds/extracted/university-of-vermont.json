@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -33,10 +33,6 @@
     "rank_top25_pct": {
       "value": 68,
       "quote": "percent in top quarter of high school graduating class 68%"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
     },
     "ed_applied": {
       "value": 396,

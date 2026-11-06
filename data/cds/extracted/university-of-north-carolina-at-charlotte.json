@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -35,35 +35,35 @@
       "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.5523 c.1130 total 0.9999999999999998 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
     },
     "gpa_400_pct": {
-      "value": 0.05542,
+      "value": 0.0436,
       "quote": "percent who had gpa of 4.0 0.05542 0.07321 0.0436 c.1305 can on-line application fee be waived for applicants with financial need? yes first-time, first-year admission admission policies application fee undergraduates first-time, first-year all all all yesno"
     },
     "gpa_375_pct": {
-      "value": 0.25612,
+      "value": 0.23568,
       "quote": "percent who had gpa between 3.75 and 3.99 0.25612 0.28688 0.23568 c.1401 does your institution have an application closing date? yes first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
     },
     "gpa_350_pct": {
-      "value": 0.31197,
+      "value": 0.30595,
       "quote": "percent who had gpa between 3.50 and 3.74 0.31197 0.32104 0.30595 c.1402 application closing date (fall): month 6 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
     },
     "gpa_325_pct": {
-      "value": 0.24139,
+      "value": 0.25982,
       "quote": "percent who had gpa between 3.25 and 3.49 0.24139 0.21367 0.25982 c.1403 application closing date (fall): day 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
     },
     "gpa_300_pct": {
-      "value": 0.10955,
+      "value": 0.12505,
       "quote": "percent who had gpa between 3.00 and 3.24 0.10955 0.08623 0.12505 c.1404 priority date: month first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
     },
     "gpa_250_pct": {
-      "value": 0.02165,
+      "value": 0.02486,
       "quote": "percent who had gpa between 2.50 and 2.99 0.02165 0.01681 0.02486 c.1405 priority date: day first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
     },
     "gpa_200_pct": {
-      "value": 0.00325,
+      "value": 0.00396,
       "quote": "percent who had gpa between 2.0 and 2.49 0.00325 0.00217 0.00396 c.1501 are first-time, first-year students accepted for terms other than the fall? yes first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
     },
     "gpa_100_pct": {
-      "value": 0.00065,
+      "value": 0.00108,
       "quote": "percent who had gpa between 1.0 and 1.99 0.00065 0 0.00108 c.1601 yes, on a rolling basis: first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all x"
     },
     "gpa_below1_pct": {

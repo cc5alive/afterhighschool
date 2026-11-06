@@ -7,8 +7,69 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "html",
-  "values": {},
-  "concerns": "no CDS values recognized (document may be scanned or laid out unusually)"
+  "values": {
+    "applied_total": {
+      "value": 59121,
+      "quote": "total first-time, first-year (degree-seeking) who applied 59,121"
+    },
+    "admitted_total": {
+      "value": 27724,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 27,724"
+    },
+    "enrolled_total": {
+      "value": 6112,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 6,112"
+    },
+    "rank_top10_pct": {
+      "value": 35,
+      "quote": "percent in top tenth of high school graduating class 35%"
+    },
+    "rank_top25_pct": {
+      "value": 65,
+      "quote": "percent in top quarter of high school graduating class 65%"
+    },
+    "rank_submit_pct": {
+      "value": 34,
+      "quote": "percent of total first-time, first-year (freshmen) students who submitted high school class rank: 34%"
+    },
+    "gpa_400_pct": {
+      "value": 64.02,
+      "quote": "percent who had gpa of 4.0 64.02%"
+    },
+    "gpa_375_pct": {
+      "value": 20.25,
+      "quote": "percent who had gpa between 3.75 and 3.99 20.25%"
+    },
+    "gpa_350_pct": {
+      "value": 10.38,
+      "quote": "percent who had gpa between 3.50 and 3.74 10.38%"
+    },
+    "gpa_325_pct": {
+      "value": 3.8,
+      "quote": "percent who had gpa between 3.25 and 3.49 3.80%"
+    },
+    "gpa_300_pct": {
+      "value": 1.19,
+      "quote": "percent who had gpa between 3.00 and 3.24 1.19%"
+    },
+    "gpa_250_pct": {
+      "value": 0.29,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.29%"
+    },
+    "gpa_200_pct": {
+      "value": 0.05,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.05%"
+    },
+    "gpa_100_pct": {
+      "value": 0.02,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.02%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00%"
+    }
+  },
+  "concerns": null
 }

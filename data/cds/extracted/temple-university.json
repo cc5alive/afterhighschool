@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,10 +21,6 @@
     "enrolled_total": {
       "value": 5303,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 3,339 1,779 185 0 5303"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
     },
     "sat_p25": {
       "value": 1030,

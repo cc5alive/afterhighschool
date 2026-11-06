@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "xlsx",
   "values": {
     "waitlist_admitted": {
@@ -27,31 +27,31 @@
       "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.31"
     },
     "gpa_400_pct": {
-      "value": 0.5829,
+      "value": 0.4543,
       "quote": "percent who had gpa of 4.0 0.5829 0.3646 0.4543"
     },
     "gpa_375_pct": {
-      "value": 0.2371,
+      "value": 0.2476,
       "quote": "percent who had gpa between 3.75 and 3.99 0.2371 0.2549 0.2476"
     },
     "gpa_350_pct": {
-      "value": 0.1351,
+      "value": 0.1759,
       "quote": "percent who had gpa between 3.50 and 3.74 0.1351 0.2044 0.1759"
     },
     "gpa_325_pct": {
-      "value": 0.0319,
+      "value": 0.0775,
       "quote": "percent who had gpa between 3.25 and 3.49 0.0319 0.1093 0.0775"
     },
     "gpa_300_pct": {
-      "value": 0.0129,
+      "value": 0.0432,
       "quote": "percent who had gpa between 3.00 and 3.24 0.0129 0.0643 0.0432"
     },
     "gpa_250_pct": {
-      "value": 0,
+      "value": 0.0013,
       "quote": "percent who had gpa between 2.50 and 2.99 0 0.002 0.0013"
     },
     "gpa_200_pct": {
-      "value": 0,
+      "value": 0.0003,
       "quote": "percent who had gpa between 2.0 and 2.49 0 0.0004 0.0003"
     },
     "gpa_100_pct": {

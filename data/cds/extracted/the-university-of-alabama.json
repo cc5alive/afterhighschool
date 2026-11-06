@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -31,27 +31,27 @@
       "quote": "percent of total first-time, first-year students who submitted high school class rank: 37.5%"
     },
     "gpa_400_pct": {
-      "value": 49,
+      "value": 40,
       "quote": "percent who had gpa of 4.0 49% 17% 40%"
     },
     "gpa_375_pct": {
-      "value": 20,
+      "value": 19,
       "quote": "percent who had gpa between 3.75 and 3.99 20% 18% 19%"
     },
     "gpa_350_pct": {
-      "value": 15,
+      "value": 17,
       "quote": "percent who had gpa between 3.50 and 3.74 15% 22% 17%"
     },
     "gpa_325_pct": {
-      "value": 9,
+      "value": 12,
       "quote": "percent who had gpa between 3.25 and 3.49 9% 20% 12%"
     },
     "gpa_300_pct": {
-      "value": 5,
+      "value": 9,
       "quote": "percent who had gpa between 3.00 and 3.24 5% 17% 9%"
     },
     "gpa_250_pct": {
-      "value": 2,
+      "value": 3,
       "quote": "percent who had gpa between 2.50 and 2.99 2% 6% 3%"
     },
     "gpa_200_pct": {

@@ -7,27 +7,72 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "html",
   "values": {
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 100% 0% 0%"
-    },
     "applied_total": {
-      "value": 105257,
-      "quote": "total first-time, first-year males who applied 46,252 / total first-time, first-year females who applied 58,959 / total first-time, first-year students of unknown sex who applied 46",
-      "how": "sum of gender rows"
+      "value": 105256,
+      "quote": "total first-time, first-year (degree-seeking) who applied 13,365 72,870 18,754 267 105,256"
     },
     "admitted_total": {
       "value": 5920,
-      "quote": "total first-time, first-year males who were admitted 2,458 / total first-time, first-year females who were admitted 3,458 / total first-time, first-year students of unknown sex who were admitted 4",
-      "how": "sum of gender rows"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1,384 3,801 735 0 5,920"
     },
     "enrolled_total": {
       "value": 2736,
-      "quote": "total first-time, first-year males who enrolled 1,171 / total first-time, first-year females who enrolled 1,561 / total first-time, first-year students of unknown sex who enrolled 4",
-      "how": "sum of gender rows"
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 763 1,666 306 1 2,736"
+    },
+    "rank_top10_pct": {
+      "value": 40,
+      "quote": "percent in top tenth of high school graduating class 40%"
+    },
+    "rank_top25_pct": {
+      "value": 70,
+      "quote": "percent in top quarter of high school graduating class 70%"
+    },
+    "rank_submit_pct": {
+      "value": 7,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank 7%"
+    },
+    "gpa_400_pct": {
+      "value": 82,
+      "quote": "percent who had gpa of 4.0 82%"
+    },
+    "gpa_375_pct": {
+      "value": 10,
+      "quote": "percent who had gpa between 3.75 and 3.99 10%"
+    },
+    "gpa_350_pct": {
+      "value": 6,
+      "quote": "percent who had gpa between 3.50 and 3.74 6%"
+    },
+    "gpa_325_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.25 and 3.49 1%"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 100% 0% 0%"
+    },
+    "gpa_average": {
+      "value": 4.22,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa 4.22"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa 100%"
+    },
+    "ed_applied": {
+      "value": 5404,
+      "quote": "number of early decision applications received by your institution 5,404"
+    },
+    "ed_admitted": {
+      "value": 1910,
+      "quote": "number of applicants admitted under early decision plan 1,910"
     },
     "sat_p25": {
       "value": 1440,
@@ -52,6 +97,10 @@
     "act_p75": {
       "value": 34,
       "quote": "act composite 33 33 34"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
     }
   },
   "concerns": null

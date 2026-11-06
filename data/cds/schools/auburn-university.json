@@ -1,0 +1,43 @@
+{
+  "slug": "auburn-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://ir.auburn.edu/common-data-set/2025/section-c.php"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "applied_total": 59121,
+    "admitted_total": 27724,
+    "enrolled_total": 6112,
+    "rank_top10_pct": 35,
+    "rank_top25_pct": 65,
+    "rank_submit_pct": 34,
+    "gpa_400_pct": 64.02,
+    "gpa_375_pct": 20.25,
+    "gpa_350_pct": 10.38,
+    "gpa_325_pct": 3.8,
+    "gpa_300_pct": 1.19,
+    "gpa_250_pct": 0.29,
+    "gpa_200_pct": 0.05,
+    "gpa_100_pct": 0.02,
+    "gpa_below1_pct": 0
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "rank_submit_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader"
+  }
+}

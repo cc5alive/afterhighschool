@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -23,39 +23,39 @@
       "quote": "total first-time, first-year (degree-seeking) who enrolled 3243 2776 141 0 6160"
     },
     "gpa_400_pct": {
-      "value": 40.01,
+      "value": 30.93,
       "quote": "percent who had gpa of 4.0 40.01% 19.52% 30.93%"
     },
     "gpa_375_pct": {
-      "value": 28.67,
+      "value": 26.8,
       "quote": "percent who had gpa between 3.75 and 3.99 28.67% 24.46% 26.80%"
     },
     "gpa_350_pct": {
-      "value": 16.01,
+      "value": 18.18,
       "quote": "percent who had gpa between 3.50 and 3.74 16.01% 20.91% 18.18%"
     },
     "gpa_325_pct": {
-      "value": 7.7,
+      "value": 11.25,
       "quote": "percent who had gpa between 3.25 and 3.49 7.70% 15.71% 11.25%"
     },
     "gpa_300_pct": {
-      "value": 4.43,
+      "value": 7.29,
       "quote": "percent who had gpa between 3.00 and 3.24 4.43% 10.87% 7.29%"
     },
     "gpa_250_pct": {
-      "value": 2.86,
+      "value": 5,
       "quote": "percent who had gpa between 2.50 and 2.99 2.86% 7.69% 5.00%"
     },
     "gpa_200_pct": {
-      "value": 0.23,
+      "value": 0.4,
       "quote": "percent who had gpa between 2.0 and 2.49 0.23% 0.62% 0.40%"
     },
     "gpa_100_pct": {
-      "value": 0.09,
+      "value": 0.02,
       "quote": "percent who had gpa between 1.0 and 1.99 0.09% 0.04% 0.02%"
     },
     "gpa_below1_pct": {
-      "value": 0,
+      "value": 0.13,
       "quote": "percent who had gpa below 1.0 0.00% 0.18% 0.13%"
     },
     "gpa_average": {

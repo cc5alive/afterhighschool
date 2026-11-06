@@ -7,59 +7,76 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "html",
   "values": {
+    "applied_total": {
+      "value": 8055,
+      "quote": "total first-time, first-year (degree-seeking) who applied 7,031 1,011 13 0 8,055"
+    },
+    "admitted_total": {
+      "value": 7346,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6,390 943 13 0 7,346"
+    },
+    "enrolled_total": {
+      "value": 2084,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1,886 185 13 0 2,084"
+    },
+    "rank_top10_pct": {
+      "value": 9.8,
+      "quote": "percent in top tenth of high school graduating class 9.8%"
+    },
+    "rank_top25_pct": {
+      "value": 32.1,
+      "quote": "percent in top quarter of high school graduating class 32.1%"
+    },
+    "rank_submit_pct": {
+      "value": 75.3,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 75.3%"
+    },
     "gpa_400_pct": {
-      "value": 8.1,
+      "value": 12,
       "quote": "percent who had gpa of 4.0 24.1% 8.1% 12.0%"
     },
     "gpa_375_pct": {
-      "value": 18.2,
+      "value": 21.2,
       "quote": "percent who had gpa between 3.75 and 3.99 30.6% 18.2% 21.2%"
     },
     "gpa_350_pct": {
-      "value": 24.8,
+      "value": 24,
       "quote": "percent who had gpa between 3.50 and 3.74 21.6% 24.8% 24.0%"
     },
     "gpa_325_pct": {
-      "value": 12.6,
+      "value": 11.4,
       "quote": "percent who had gpa between 3.25 and 3.49 7.8% 12.6% 11.4%"
     },
     "gpa_300_pct": {
-      "value": 13.8,
+      "value": 11.9,
       "quote": "percent who had gpa between 3.00 and 3.24 5.9% 13.8% 11.9%"
     },
     "gpa_250_pct": {
-      "value": 15.8,
+      "value": 13.8,
       "quote": "percent who had gpa between 2.50 and 2.99 7.6% 15.8% 13.8%"
     },
     "gpa_200_pct": {
-      "value": 6.3,
+      "value": 5.3,
       "quote": "percent who had gpa between 2.0 and 2.49 2.4% 6.3% 5.3%"
     },
     "gpa_100_pct": {
-      "value": 0.4,
+      "value": 0.3,
       "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.4% 0.3%"
     },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0.0% 0.0% 0.0%"
     },
-    "applied_total": {
-      "value": 8055,
-      "quote": "total first-time, first-year males who applied 3,251 / total first-time, first-year females who applied 4,804 / total first-time, first-year students of unknown sex who applied 0",
-      "how": "sum of gender rows"
+    "gpa_average": {
+      "value": 3.43,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.43"
     },
-    "admitted_total": {
-      "value": 7346,
-      "quote": "total first-time, first-year males who were admitted 2,978 / total first-time, first-year females who were admitted 4,368 / total first-time, first-year students of unknown sex who were admitted 0",
-      "how": "sum of gender rows"
-    },
-    "enrolled_total": {
-      "value": 2084,
-      "quote": "total first-time, first-year males who enrolled 884 / total first-time, first-year females who enrolled 1,200 / total first-time, first-year students of unknown sex who enrolled 0",
-      "how": "sum of gender rows"
+    "gpa_submit_pct": {
+      "value": 99.95,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.95%"
     },
     "sat_p25": {
       "value": 980,

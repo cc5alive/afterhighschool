@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -39,7 +39,7 @@
       "quote": "percent who had gpa between 2.50 and 2.99 0.1%"
     },
     "gpa_below1_pct": {
-      "value": 0,
+      "value": 100,
       "quote": "percent who had gpa below 1.0 total 0.0% 0.0% 100.0%"
     },
     "gpa_average": {

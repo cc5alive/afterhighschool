@@ -16,15 +16,20 @@
     "act_p25": 21,
     "act_p50": 23,
     "act_p75": 26,
-    "gpa_400_pct": 8.1,
-    "gpa_375_pct": 18.2,
-    "gpa_350_pct": 24.8,
-    "gpa_325_pct": 12.6,
-    "gpa_300_pct": 13.8,
-    "gpa_250_pct": 15.8,
-    "gpa_200_pct": 6.3,
-    "gpa_100_pct": 0.4,
-    "gpa_below1_pct": 0
+    "rank_top10_pct": 9.8,
+    "rank_top25_pct": 32.1,
+    "rank_submit_pct": 75.3,
+    "gpa_400_pct": 12,
+    "gpa_375_pct": 21.2,
+    "gpa_350_pct": 24,
+    "gpa_325_pct": 11.4,
+    "gpa_300_pct": 11.9,
+    "gpa_250_pct": 13.8,
+    "gpa_200_pct": 5.3,
+    "gpa_100_pct": 0.3,
+    "gpa_below1_pct": 0,
+    "gpa_average": 3.43,
+    "gpa_submit_pct": 99.95
   },
   "basis": {
     "applied_total": "reader",
@@ -36,6 +41,9 @@
     "act_p25": "reader",
     "act_p50": "reader",
     "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "rank_submit_pct": "reader",
     "gpa_400_pct": "reader",
     "gpa_375_pct": "reader",
     "gpa_350_pct": "reader",
@@ -44,6 +52,8 @@
     "gpa_250_pct": "reader",
     "gpa_200_pct": "reader",
     "gpa_100_pct": "reader",
-    "gpa_below1_pct": "reader"
+    "gpa_below1_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
   }
 }

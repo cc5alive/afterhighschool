@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -23,7 +23,7 @@
       "quote": "total first-time, first-year (degree-seeking) enrolled 2127 241 10 0 2378"
     },
     "gpa_400_pct": {
-      "value": 25.5,
+      "value": 25.4,
       "quote": "percent who had gpa of 4.0 25.5 13.3 25.4"
     },
     "gpa_375_pct": {
@@ -31,11 +31,11 @@
       "quote": "percent who had gpa between 3.75 and 3.99 23 33.3 23"
     },
     "gpa_350_pct": {
-      "value": 18.6,
+      "value": 18.5,
       "quote": "percent who had gpa between 3.50 and 3.74 18.6 0 18.5"
     },
     "gpa_325_pct": {
-      "value": 16.3,
+      "value": 16.4,
       "quote": "percent who had gpa between 3.25 and 3.49 16.3 20 16.4"
     },
     "gpa_300_pct": {
@@ -47,7 +47,7 @@
       "quote": "percent who had gpa between 2.50 and 2.99 7.0 6.7 7.0"
     },
     "gpa_200_pct": {
-      "value": 0.5,
+      "value": 0.6,
       "quote": "percent who had gpa between 2.0 and 2.49 0.5 20 0.6"
     },
     "gpa_100_pct": {

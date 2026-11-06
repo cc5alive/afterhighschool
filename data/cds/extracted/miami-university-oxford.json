@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -27,31 +27,31 @@
       "quote": "number of wait-listed students admitted: 236"
     },
     "gpa_400_pct": {
-      "value": 0.5722,
+      "value": 0.4006,
       "quote": "percent who had gpa of 4.0 0.5722 0.2783 0.4006"
     },
     "gpa_375_pct": {
-      "value": 0.1577,
+      "value": 0.1957,
       "quote": "percent who had gpa between 3.75 and 3.99 0.1577 0.2227 0.1957"
     },
     "gpa_350_pct": {
-      "value": 0.1107,
+      "value": 0.1506,
       "quote": "percent who had gpa between 3.50 and 3.74 0.1107 0.179 0.1506"
     },
     "gpa_325_pct": {
-      "value": 0.0671,
+      "value": 0.1069,
       "quote": "percent who had gpa between 3.25 and 3.49 0.0671 0.1353 0.1069"
     },
     "gpa_300_pct": {
-      "value": 0.0516,
+      "value": 0.0811,
       "quote": "percent who had gpa between 3.00 and 3.24 0.0516 0.1022 0.0811"
     },
     "gpa_250_pct": {
-      "value": 0.0384,
+      "value": 0.0606,
       "quote": "percent who had gpa between 2.50 and 2.99 0.0384 0.0764 0.0606"
     },
     "gpa_200_pct": {
-      "value": 0.0023,
+      "value": 0.0045,
       "quote": "percent who had gpa between 2.0 and 2.49 0.0023 0.0061 0.0045"
     },
     "gpa_100_pct": {

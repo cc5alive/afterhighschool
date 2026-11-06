@@ -7,23 +7,36 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "html",
   "values": {
     "applied_total": {
       "value": 29281,
-      "quote": "total first-time, first-year men who applied 18,101 / total first-time, first-year women who applied 9,389 / total first-time, first-year of unknown sex who applied 1,791",
-      "how": "sum of gender rows"
+      "quote": "total first-time, first-year who applied 29,281"
     },
     "admitted_total": {
       "value": 1334,
-      "quote": "total first-time, first-year men who were admitted 632 / total first-time, first-year women who were admitted 638 / total first-time, first-year of unknown sex who were admitted 64",
-      "how": "sum of gender rows"
+      "quote": "total first-time, first-year who were admitted 1,334"
     },
     "enrolled_total": {
       "value": 1152,
-      "quote": "total first-time, first-year men who enrolled 561 / total first-time, first-year women who enrolled 535 / total first-time, first-year of unknown sex who enrolled 56",
-      "how": "sum of gender rows"
+      "quote": "total first-time, first-year enrolled 1,152"
+    },
+    "waitlist_admitted": {
+      "value": 10,
+      "quote": "number of wait-listed students admitted: 10"
+    },
+    "rank_top10_pct": {
+      "value": 97,
+      "quote": "percent in top tenth of high school graduating class 97%"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "percent in top quarter of high school graduating class 100%"
+    },
+    "rank_submit_pct": {
+      "value": 31,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 31%"
     },
     "sat_p25": {
       "value": 1520,

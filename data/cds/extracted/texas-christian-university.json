@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -37,10 +37,6 @@
     "rank_submit_pct": {
       "value": 36.5,
       "quote": "percent of total first-time, first-year students who submitted high school class rank: 36.5%"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 totals should = 100% 0.00% 0.00% 0.00%"
     },
     "ed_applied": {
       "value": 1373,

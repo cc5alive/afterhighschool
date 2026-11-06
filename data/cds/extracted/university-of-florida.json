@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -41,10 +41,6 @@
     "gpa_350_pct": {
       "value": 6,
       "quote": "percent who had gpa between 3.50 and 3.74 6 0 6.00%"
-    },
-    "gpa_below1_pct": {
-      "value": 100,
-      "quote": "percent who had gpa below 1.0 totals should = 100% 100.00% 0.00% 100.00%"
     },
     "gpa_average": {
       "value": 3.92,

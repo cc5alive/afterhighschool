@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -35,27 +35,27 @@
       "quote": "percent in top quarter of high school graduating class 86.3"
     },
     "gpa_400_pct": {
-      "value": 52.59,
+      "value": 44.37,
       "quote": "percent who had gpa of 4.0 52.59 40.78 44.37"
     },
     "gpa_375_pct": {
-      "value": 22.96,
+      "value": 23.2,
       "quote": "percent who had gpa between 3.75 and 3.99 22.96 23.3 23.2"
     },
     "gpa_350_pct": {
-      "value": 12.59,
+      "value": 18.92,
       "quote": "percent who had gpa between 3.50 and 3.74 12.59 21.68 18.92"
     },
     "gpa_325_pct": {
-      "value": 8.89,
+      "value": 9.68,
       "quote": "percent who had gpa between 3.25 and 3.49 8.89 10.03 9.68"
     },
     "gpa_300_pct": {
-      "value": 2.97,
+      "value": 3.15,
       "quote": "percent who had gpa between 3.00 and 3.24 2.97 3.24 3.15"
     },
     "gpa_250_pct": {
-      "value": 0,
+      "value": 0.68,
       "quote": "percent who had gpa between 2.50 and 2.99 0 0.97 0.68"
     },
     "gpa_200_pct": {

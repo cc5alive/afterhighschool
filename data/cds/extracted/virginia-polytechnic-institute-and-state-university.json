@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -35,19 +35,19 @@
       "quote": "percent of total first-time, first-year students who submitted high school class rank: c.1130 total 1 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
     },
     "gpa_400_pct": {
-      "value": 0.75,
+      "value": 0.58,
       "quote": "percent who had gpa of 4.0 0.75 0.58 0.67 c.1305 can on-line application fee be waived for applicants with financial need? yes first-time, first-year admission admission policies application fee undergraduates first-time, first-year all all all yesno"
     },
     "gpa_375_pct": {
-      "value": 0.14,
+      "value": 0.22,
       "quote": "percent who had gpa between 3.75 and 3.99 0.14 0.22 0.18 c.1401 does your institution have an application closing date? yes first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all yesno"
     },
     "gpa_350_pct": {
-      "value": 0.07,
+      "value": 0.13,
       "quote": "percent who had gpa between 3.50 and 3.74 0.07 0.13 0.1 c.1402 application closing date (fall): month 1 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all mm"
     },
     "gpa_325_pct": {
-      "value": 0.03,
+      "value": 0.05,
       "quote": "percent who had gpa between 3.25 and 3.49 0.03 0.05 0.04 c.1403 application closing date (fall): day 15 first-time, first-year admission admission policies application dates undergraduates first-time, first-year all all all dd"
     },
     "gpa_300_pct": {

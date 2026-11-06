@@ -7,7 +7,7 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 4,
+  "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -31,40 +31,36 @@
       "quote": "percent in top quarter of high school graduating class 54.3"
     },
     "gpa_400_pct": {
-      "value": 7.1,
+      "value": 4.5,
       "quote": "percent who had gpa of 4.0 7.1 2.4 4.5"
     },
     "gpa_375_pct": {
-      "value": 41.1,
+      "value": 33.3,
       "quote": "percent who had gpa between 3.75 and 3.99 41.1 26.8 33.3"
     },
     "gpa_350_pct": {
-      "value": 33.1,
+      "value": 37.5,
       "quote": "percent who had gpa between 3.50 and 3.74 33.1 41.1 37.5"
     },
     "gpa_325_pct": {
-      "value": 13.4,
+      "value": 17.6,
       "quote": "percent who had gpa between 3.25 and 3.49 13.4 21.1 17.6"
     },
     "gpa_300_pct": {
-      "value": 3.7,
+      "value": 4.8,
       "quote": "percent who had gpa between 3.00 and 3.24 3.7 5.7 4.8"
     },
     "gpa_250_pct": {
-      "value": 1.5,
+      "value": 2,
       "quote": "percent who had gpa between 2.50 and 2.99 1.5 2.5 2.0"
     },
     "gpa_200_pct": {
-      "value": 0.1,
+      "value": 0.2,
       "quote": "percent who had gpa between 2.0 and 2.49 0.1 0.3 0.2"
     },
     "gpa_100_pct": {
       "value": 0.1,
       "quote": "percent who had gpa between 1.0 and 1.99 0.1 0.1"
-    },
-    "gpa_below1_pct": {
-      "value": 100,
-      "quote": "percent who had gpa below 1.0 totals should = 100% 100 100 100"
     },
     "gpa_average": {
       "value": 3.64,
