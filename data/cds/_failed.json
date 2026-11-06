@@ -268,5 +268,15 @@
   "url": "https://docs.gato.txst.edu/779002/Common%20Data%20Set%202025-2026.pdf",
   "at": "2026-11-06",
   "reason": "document failed to load (HTTP 404)"
+ },
+ "johns-hopkins-university": {
+  "url": "https://oira.jhu.edu/wp-content/uploads/2025-2026-CDS-Johns-Hopkins-University-v2.pdf",
+  "at": "2026-11-06",
+  "reason": "no CDS document found from https://oira.jhu.edu/wp-content/uploads/2025-2026-CDS-Johns-Hopkins-University-v2.pdf"
+ },
+ "clemson-university": {
+  "url": "https://open.clemson.edu/cgi/viewcontent.cgi?article=1017&context=cds",
+  "at": "2026-11-06",
+  "reason": "no CDS document found from https://open.clemson.edu/cgi/viewcontent.cgi?article=1017&context=cds"
  }
 }
