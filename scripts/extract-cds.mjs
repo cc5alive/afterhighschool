@@ -13,56 +13,89 @@ const DIR = 'data/cds/drafts';
 const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 
-const NUM = '(\\d{1,3}(?:,\\d{3})+|\\d+(?:\\.\\d+)?)';
-const GAP = '[^0-9]{0,40}?';                  // header words or blank cells between label and value
-const PCT = '(\\d{1,3}(?:\\.\\d+)?)\\s*%';
-
-// key: [label regex (normalized lowercase text), value regex, kind]
-const PATTERNS = {
-  applied_total: [/total first-time, first-year (?:\(degree-seeking\) )?(?:students )?who applied/, NUM],
-  admitted_total: [/total first-time, first-year (?:\(degree-seeking\) )?(?:students )?who were admitted/, NUM],
-  enrolled_total: [/total (?:full-time )?first-time, first-year (?:\(degree-seeking\) )?(?:students )?(?:who )?enrolled/, NUM],
-  waitlist_offered: [/number of qualified applicants offered a place on wait list:?/, NUM],
-  waitlist_accepted: [/number accepting a place on the wait list:?/, NUM],
-  waitlist_admitted: [/number of wait-listed students admitted:?/, NUM],
-  sat_submit_pct: [/percent submitting sat scores/, PCT],
-  act_submit_pct: [/percent submitting act scores/, PCT],
-  rank_top10_pct: [/percent in top tenth of high school graduating class/, PCT],
-  rank_top25_pct: [/percent in top quarter of high school graduating class/, PCT],
-  rank_submit_pct: [/percent of total first-time, first-year students who submitted high school class rank:?/, PCT],
-  gpa_400_pct: [/percent who had gpa of 4\.0/, PCT],
-  gpa_375_pct: [/percent who had gpa between 3\.75 and 3\.99/, PCT],
-  gpa_350_pct: [/percent who had gpa between 3\.50 and 3\.74/, PCT],
-  gpa_325_pct: [/percent who had gpa between 3\.25 and 3\.49/, PCT],
-  gpa_300_pct: [/percent who had gpa between 3\.00 and 3\.24/, PCT],
-  gpa_250_pct: [/percent who had gpa between 2\.50 and 2\.99/, PCT],
-  gpa_200_pct: [/percent who had gpa between 2\.0 and 2\.49/, PCT],
-  gpa_100_pct: [/percent who had gpa between 1\.0 and 1\.99/, PCT],
-  gpa_below1_pct: [/percent who had gpa below 1\.0/, PCT],
-  gpa_average: [/average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa:?/, '([1-5]\\.\\d{1,2})'],
-  gpa_submit_pct: [/percent of total first-time, first-year students who submitted high school gpa:?/, PCT],
-  ed_applied: [/number of early decision applications received by (?:your|the) institution/, NUM],
-  ed_admitted: [/number of applicants admitted under early decision plan/, NUM],
-  ea_applied: [/number of early action applications received by (?:your|the) institution/, NUM],
-  ea_admitted: [/number of applicants admitted under early action plan/, NUM]
+// Each CDS value is read from the table row that carries its printed label. Values in the same
+// row (or a numbers-only row right below, as wrapped PDF tables often have) are the candidates.
+// pick: 'first' = first number after the label; 'last' = rightmost column (the C1 "Total" column).
+const ROWS = {
+  applied_total: [/^total first-time, first-year (?:\(degree-seeking\) )?(?:students )?who applied/, 'count', 'last'],
+  admitted_total: [/^total first-time, first-year (?:\(degree-seeking\) )?(?:students )?who were admitted/, 'count', 'last'],
+  enrolled_total: [/^total (?:full-time )?first-time, first-year (?:\(degree-seeking\) )?(?:students )?(?:who )?enrolled/, 'count', 'last'],
+  waitlist_offered: [/^number of qualified applicants offered a place on wait ?list/, 'count', 'first'],
+  waitlist_accepted: [/^number accepting a place on the wait ?list/, 'count', 'first'],
+  waitlist_admitted: [/^number of wait-?listed students admitted/, 'count', 'first'],
+  sat_submit_pct: [/^percent submitting sat scores/, 'pct', 'first'],
+  act_submit_pct: [/^percent submitting act scores/, 'pct', 'first'],
+  rank_top10_pct: [/^percent in top tenth of high school graduating class/, 'pct', 'first'],
+  rank_top25_pct: [/^percent in top quarter of high school graduating class/, 'pct', 'first'],
+  rank_submit_pct: [/^percent of total first-time, first-year students who submitted high school class rank/, 'pct', 'first'],
+  gpa_400_pct: [/^percent who had gpa of 4\.0/, 'pct', 'first'],
+  gpa_375_pct: [/^percent who had gpa between 3\.75 and 3\.99/, 'pct', 'first'],
+  gpa_350_pct: [/^percent who had gpa between 3\.50 and 3\.74/, 'pct', 'first'],
+  gpa_325_pct: [/^percent who had gpa between 3\.25 and 3\.49/, 'pct', 'first'],
+  gpa_300_pct: [/^percent who had gpa between 3\.00 and 3\.24/, 'pct', 'first'],
+  gpa_250_pct: [/^percent who had gpa between 2\.50 and 2\.99/, 'pct', 'first'],
+  gpa_200_pct: [/^percent who had gpa between 2\.0 and 2\.49/, 'pct', 'first'],
+  gpa_100_pct: [/^percent who had gpa between 1\.0 and 1\.99/, 'pct', 'first'],
+  gpa_below1_pct: [/^percent who had gpa below 1\.0/, 'pct', 'first'],
+  gpa_average: [/^average high school gpa\b/, 'gpa', 'first'],
+  gpa_submit_pct: [/^percent (?:of total first-time, first-year students who submitted high school gpa|submitting gpa)/, 'pct', 'first'],
+  ed_applied: [/^number of early decision applications received by (?:your|the) institution/, 'count', 'first'],
+  ed_admitted: [/^number of applicants admitted under early decision plan/, 'count', 'first'],
+  ea_applied: [/^number of early action applications received by (?:your|the) institution/, 'count', 'first'],
+  ea_admitted: [/^number of applicants admitted under early action plan/, 'count', 'first']
 };
 
-function find(text, labelRe, valueRe) {
-  const re = new RegExp(`(${labelRe.source})${GAP}${valueRe}`);
-  const m = text.match(re);
-  if (!m) return null;
-  const raw = m[2];
-  return { value: Number(raw.replace(/,/g, '')), quote: m[0] };
+const parse = (s, type) => {
+  const t = s.replace(/[,\s]/g, '').replace(/%$/, '');
+  if (!/^\d+(\.\d+)?$/.test(t)) return null;
+  const v = Number(t);
+  if (type === 'pct') return v <= 100 ? v : null;
+  if (type === 'gpa') return v >= 1 && v <= 5 && t.includes('.') ? v : null;
+  return Number.isInteger(v) ? v : null;
+};
+const rowText = (r) => norm(r.map((c) => c.s).join(' '));
+const isNumbersOnly = (r) => r.length > 0 && r.every((c) => /^[\d,.\s%]+$/.test(c.s));
+
+function readRows(rows) {
+  const out = {};
+  if (!rows) return out;
+  for (const [key, [re, type, pick]] of Object.entries(ROWS)) {
+    for (let i = 0; i < rows.length && !out[key]; i++) {
+      const text = rowText(rows[i]);
+      if (!re.test(text)) continue;
+      let cells = rows[i], quoteRows = [rows[i]];
+      if (!cells.some((c) => parse(c.s, type) != null) && rows[i + 1]
+          && (isNumbersOnly(rows[i + 1]) || rowText(rows[i + 1]).replace(/[\d.,%\s]/g, '').length < 40)) {
+        cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]);
+      } else if (pick === 'last' && rows[i + 1] && isNumbersOnly(rows[i + 1])) {
+        cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]);
+      }
+      // Numbers that are part of the label itself ("4.0", "3.75 and 3.99") sit at the label's start;
+      // only cells to the right of the first cell count.
+      const firstX = rows[i][0].x;
+      const nums = cells.filter((c) => c.x > firstX + 1 && parse(c.s, type) != null).sort((a, b) => a.x - b.x);
+      if (!nums.length) continue;
+      const cell = pick === 'last' ? nums[nums.length - 1] : nums[0];
+      out[key] = { value: parse(cell.s, type), quote: quoteRows.map(rowText).join(' ') };
+    }
+  }
+  return out;
 }
 
-// SAT/ACT composite rows: three scores in a row (25th, 50th, 75th percentile).
-function scores(text, name, lo, hi) {
-  const m = text.match(new RegExp(`${name} composite${GAP}(\\d{2,4})\\s+(\\d{2,4})\\s+(\\d{2,4})`));
-  if (!m) return {};
-  const v = m.slice(1, 4).map(Number);
-  if (!v.every((x) => x >= lo && x <= hi) || !(v[0] <= v[1] && v[1] <= v[2])) return {};
-  const k = name === 'sat' ? 'sat' : 'act';
-  return { [`${k}_p25`]: { value: v[0], quote: m[0] }, [`${k}_p50`]: { value: v[1], quote: m[0] }, [`${k}_p75`]: { value: v[2], quote: m[0] } };
+// SAT/ACT composite rows: three scores (25th, 50th, 75th percentile).
+function readScores(rows) {
+  const out = {};
+  for (const [name, lo, hi] of [['sat', 400, 1600], ['act', 1, 36]]) {
+    for (const r of rows || []) {
+      if (!new RegExp(`^${name} composite\\b`).test(rowText(r))) continue;
+      const v = r.slice(1).map((c) => parse(c.s, 'count')).filter((x) => x != null && x >= lo && x <= hi);
+      if (v.length < 3 || !(v[0] <= v[1] && v[1] <= v[2])) continue;
+      const q = rowText(r);
+      out[`${name}_p25`] = { value: v[0], quote: q }; out[`${name}_p50`] = { value: v[1], quote: q }; out[`${name}_p75`] = { value: v[2], quote: q };
+      break;
+    }
+  }
+  return out;
 }
 
 // C7 grid: the column of each factor row's checkmark, using cell positions.
@@ -96,12 +129,7 @@ for (const [slug, src] of Object.entries(sources)) {
   const doc = resolved.doc;
   if (doc.text == null) { log.push(`${slug}: document failed to load (HTTP ${doc.status})`); continue; }
   if (!looksLikeCds(doc.text)) { log.push(`${slug}: no CDS document found from ${src.url}`); continue; }
-  const values = {};
-  for (const [key, [label, value]] of Object.entries(PATTERNS)) {
-    const hit = find(doc.text, label, value);
-    if (hit) values[key] = hit;
-  }
-  Object.assign(values, scores(doc.text, 'sat', 400, 1600), scores(doc.text, 'act', 1, 36), factors(doc.rows));
+  const values = { ...readRows(doc.rows), ...readScores(doc.rows), ...factors(doc.rows) };
   if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
   if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
   const docUrl = resolved.url || src.url;

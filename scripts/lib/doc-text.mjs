@@ -38,12 +38,27 @@ async function pdfDoc(buf) {
       if (!rows.has(y)) rows.set(y, []);
       rows.get(y).push({ x: it.transform[4], s: it.str });
     }
+    // Fillable CDS forms keep their numbers and checkmarks in form fields, not page text: add them
+    // as cells at the field's position (a checked box becomes "X").
+    try {
+      for (const a of await page.getAnnotations({ intent: 'display' })) {
+        if (a.subtype !== 'Widget' || !a.rect) continue;
+        let v = null;
+        if (a.fieldType === 'Tx' && a.fieldValue != null && String(a.fieldValue).trim()) v = String(a.fieldValue).trim();
+        else if (a.fieldType === 'Btn' && (a.checkBox || a.radioButton) && a.fieldValue && a.fieldValue !== 'Off'
+          && (!a.radioButton || a.fieldValue === a.buttonValue)) v = 'X';
+        if (!v) continue;
+        const y = Math.round(a.rect[1] + 2);
+        if (!rows.has(y)) rows.set(y, []);
+        rows.get(y).push({ x: a.rect[0] + 1, s: v });
+      }
+    } catch { /* no form fields */ }
     // Merge items whose y differs by a point or two (same visual line).
     const ys = [...rows.keys()].sort((a, b) => b - a);
     const merged = [];
     for (const y of ys) {
       const last = merged[merged.length - 1];
-      if (last && Math.abs(last.y - y) <= 2) last.cells.push(...rows.get(y));
+      if (last && Math.abs(last.y - y) <= 3) last.cells.push(...rows.get(y));
       else merged.push({ y, cells: [...rows.get(y)] });
     }
     for (const m of merged) {
