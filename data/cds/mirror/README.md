@@ -15,3 +15,8 @@ and checked (the gender rows add up to the totals).
 
 UT Austin's 2025-26 PDF uses a font that drops some letters ("otal" for "Total"), so its rows combine the
 PDF's text with an OCR'd copy of the D2 transfer table. UT left its SAT/ACT and GPA tables blank.
+
+UVA shows its CDS in embedded Qlik dashboards that only render in a browser. Its key figures were read from
+the rendered section C and D pages in CC's Chrome and written into `university-of-virginia-main-campus.rows.json`
+in the standard CDS labels; every count was checked against its parts (the male, female and unknown columns add
+up to each total). UVA left its GPA table blank, and its ACT 75th percentile (34.25) isn't a whole score, so ACT is left out.
