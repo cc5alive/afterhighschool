@@ -1,0 +1,160 @@
+{
+  "slug": "san-diego-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-26",
+    "url": "https://asir.sdsu.edu/Documents/CommonDataSets/CDS_2025-26.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 95444,
+      "quote": "C1 Total first-time, first-year (degree seeking) who applied 95444"
+    },
+    "admitted_total": {
+      "value": 35709,
+      "quote": "C1 Total first-time, first-year (degree seeking) admitted 35709"
+    },
+    "enrolled_total": {
+      "value": 6911,
+      "quote": "C1 Total first-time, first-year (degree seeking) enrolled 6911"
+    },
+    "waitlist_offered": {
+      "value": 11627,
+      "quote": "C2 Number of qualified applicants offered a place on waiting list 11,627"
+    },
+    "waitlist_accepted": {
+      "value": 6016,
+      "quote": "C2 Number accepting a place on the waiting list 6,016"
+    },
+    "waitlist_admitted": {
+      "value": 962,
+      "quote": "C2 Number of wait-listed students admitted 962"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "C7 Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "C7 Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "C7 Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "C7 Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "C7 Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "C7 Recommendations"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "C7 Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "C7 Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "C7 Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "C7 Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "C7 First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "C7 Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "C7 Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "C7 State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "C7 Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "C7 Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "C7 Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "C7 Level of applicant's interest"
+    },
+    "rank_top10_pct": {
+      "value": 25,
+      "quote": "C10 Percent in top tenth of high school graduating class 25%"
+    },
+    "rank_top25_pct": {
+      "value": 66,
+      "quote": "C10 Percent in top quarter of high school graduating class 66%"
+    },
+    "rank_submit_pct": {
+      "value": 29,
+      "quote": "C10 Percent of total first-time, first-year (freshmen) students who submitted high school class rank: 29%"
+    },
+    "gpa_400_pct": {
+      "value": 34,
+      "quote": "C11 Percent who had GPA of 4.0 34%"
+    },
+    "gpa_375_pct": {
+      "value": 31,
+      "quote": "Percent who had GPA between 3.75 and 3.99 31%"
+    },
+    "gpa_350_pct": {
+      "value": 21,
+      "quote": "Percent who had GPA between 3.50 and 3.74 21%"
+    },
+    "gpa_325_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 3.25 and 3.49 10%"
+    },
+    "gpa_300_pct": {
+      "value": 3,
+      "quote": "Percent who had GPA between 3.00 and 3.24 3%"
+    },
+    "gpa_250_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 2.50 and 2.99 1%"
+    },
+    "gpa_average": {
+      "value": 3.82,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.82"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C21 Does your institution offer an early decision plan... X No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "C22 Do you have a nonbinding early action plan... X No"
+    }
+  },
+  "concerns": null
+}
