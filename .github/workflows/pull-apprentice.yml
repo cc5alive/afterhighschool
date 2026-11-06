@@ -48,4 +48,4 @@ jobs:
           git add data/apprentice
           git diff --cached --quiet && exit 0
           git commit -qm "Apprenticeship occupation data pull"
-          git pull --rebase -X theirs -q && git push -q
+          ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ]

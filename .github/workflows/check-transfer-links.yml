@@ -22,4 +22,4 @@ jobs:
           git config user.name "afterhighschool-bot"
           git config user.email "hello@afterhighschool.me"
           git add data/transfer/portals-check.json
-          git diff --cached --quiet || (git commit -m "Transfer link check results" && git pull --rebase -X theirs && git push)
+          git diff --cached --quiet || (git commit -m "Transfer link check results" && ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ])
