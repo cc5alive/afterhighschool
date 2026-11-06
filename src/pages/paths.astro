@@ -1,0 +1,77 @@
+---
+// Every path after high school side by side: what it costs, how long it takes, what you're paid along
+// the way and what you owe afterward. Numbers are computed from our data or taken from the sourced
+// facts on each path's own page, which each row links to.
+import Layout from '../layouts/Layout.astro';
+import { schools, pulledDate } from '../lib/data.js';
+import { tradeSchools, tradePulledDate } from '../lib/trade-data.js';
+import { occupations, wageYear, apprenticeSources } from '../lib/apprentice-data.js';
+import { SEGAL } from '../lib/service-years.js';
+import { money } from '../lib/format.js';
+
+const median = (xs) => { const a = xs.filter((x) => x != null).sort((x, y) => x - y); return a.length ? a[Math.floor(a.length / 2)] : null; };
+const fourYear = schools.filter((s) => s.undergrads > 0 && s.predominantDegree === 3);
+const pub4 = median(fourYear.filter((s) => s.ownership === 'public').map((s) => s.avgNetPrice));
+const priv4 = median(fourYear.filter((s) => s.ownership === 'private_nonprofit').map((s) => s.avgNetPrice));
+const cc = median(tradeSchools.filter((s) => s.ownership === 'public' && s.programs.some((p) => p.level === 2 && p.awards > 0)).map((s) => s.avgNetPrice));
+const cert = median(tradeSchools.filter((s) => s.predominantDegree === 1).map((s) => s.avgNetPrice));
+const pay = occupations.map((o) => o.wages.median).filter(Boolean).sort((a, b) => a - b);
+const SC = 'https://collegescorecard.ed.gov/';
+
+const ROWS = [
+  { path: 'Four-year college', href: '/colleges', color: 'college',
+    cost: `Half of public four-year colleges have an average net price under <strong>${money(pub4)}</strong> a year; private nonprofit, under <strong>${money(priv4)}</strong>.`,
+    time: 'Four years for a bachelor\'s degree.', paid: 'No, though many students work part time.',
+    owe: 'Any loans you take out.', src: [{ l: `College Scorecard, our calculation (pulled ${pulledDate})`, u: SC }] },
+  { path: 'Community college, then transfer', href: '/transfer', color: 'transfer',
+    cost: `Half of public community and technical colleges have an average net price under <strong>${money(cc)}</strong> a year, for the first two years.`,
+    time: 'About two years there, then two at a university, if your credits transfer.', paid: 'No.',
+    owe: 'Any loans you take out.', src: [{ l: `College Scorecard, our calculation (pulled ${tradePulledDate})`, u: SC }] },
+  { path: 'Trade or career school', href: '/trades', color: 'trade',
+    cost: `Half of certificate-focused schools have an average net price under <strong>${money(cert)}</strong> a year. Many are for-profit, so compare with community colleges.`,
+    time: 'A certificate or a two-year associate degree.', paid: 'No.',
+    owe: 'Any loans you take out.', src: [{ l: `College Scorecard, our calculation (pulled ${tradePulledDate})`, u: SC }] },
+  { path: 'Apprenticeship', href: '/apprenticeships', color: 'apprentice',
+    cost: 'You\'re hired and learn on the job.',
+    time: 'Depends on the trade; see each job\'s page.', paid: `Yes, you're hired. Fully trained workers in the ${occupations.length} jobs we cover earn a median of <strong>${money(pay[0])}</strong> to <strong>${money(pay[pay.length - 1])}</strong> a year.`,
+    owe: 'Nothing.', src: [{ l: `BLS wage data, ${wageYear}`, u: apprenticeSources.wages }] },
+  { path: 'Service year', href: '/gap-years', color: 'gap',
+    cost: 'Free. Programs like AmeriCorps NCCC cover housing and meals.',
+    time: 'A few months to a year (AmeriCorps NCCC: 10 to 11 months).', paid: `A living allowance, plus a <strong>$${SEGAL.amount.toLocaleString('en-US')}</strong> education award when you finish a full AmeriCorps term.`,
+    owe: 'Nothing.', src: [{ l: 'AmeriCorps and program pages, on our gap years page', u: '/gap-years' }] },
+  { path: 'Military', href: '/military', color: 'military',
+    cost: 'Free. ROTC scholarships and the academies cover college tuition.',
+    time: 'Enlistment contracts vary; ROTC means eight years of service, the academies at least nine years in all.', paid: 'Yes, service members are paid. The GI Bill helps pay for school afterward.',
+    owe: 'Years of required service.', src: [{ l: 'Official sources, on our military page', u: '/military' }] },
+  { path: 'Teach yourself', href: '/teach-yourself', color: 'self',
+    cost: `Many courses are free. CLEP exams for college credit cost <strong>$97</strong> each, or nothing through Modern States.`,
+    time: 'Your pace.', paid: 'No.',
+    owe: 'Nothing.', src: [{ l: 'College Board and Modern States, on our teach yourself page', u: '/teach-yourself' }] },
+  { path: 'Fellowship', href: '/fellowships', color: 'fellow',
+    cost: 'Free.', time: 'The Thiel Fellowship runs two years.', paid: `The Thiel Fellowship gives <strong>$250,000</strong> over two years, but very few people get one.`,
+    owe: 'Nothing, but you must leave school to accept.', src: [{ l: 'Thiel Fellowship FAQ, on our fellowships page', u: '/fellowships' }] }
+];
+---
+<Layout title="Every path after high school, side by side | After High School"
+  description="College, community college, trade school, apprenticeship, service year, military, teaching yourself and fellowships compared: cost, time, pay along the way and what you owe after. From federal data and official sources."
+  path="/paths" nav="colleges">
+  <section class="compare-head">
+    <h1>Every path, side by side</h1>
+    <p>A quick comparison of the main paths after high school. Costs are averages after grants, so your own price could be higher or lower; open each path for details and sources. These aren't rankings. The right path depends on what you want to do.</p>
+  </section>
+  <ul class="pc-list">
+    {ROWS.map((r) => (
+      <li class={`pc-row pc-${r.color}`}>
+        <h2><a href={r.href}>{r.path}</a></h2>
+        <dl>
+          <div><dt>Cost</dt><dd set:html={r.cost} /></div>
+          <div><dt>How long</dt><dd set:html={r.time} /></div>
+          <div><dt>Paid along the way?</dt><dd set:html={r.paid} /></div>
+          <div><dt>What you owe after</dt><dd>{r.owe}</dd></div>
+        </dl>
+        <p class="wys-src">Source: {r.src.map((s) => <a href={s.u} rel={s.u.startsWith('http') ? 'noopener' : undefined} target={s.u.startsWith('http') ? '_blank' : undefined}>{s.l}</a>)}</p>
+      </li>
+    ))}
+  </ul>
+  <p class="wys-src">"Average net price" is what students who got grant aid paid per year, including living costs, after grants and scholarships, as each school reports it to the U.S. Department of Education. "Half of schools under" means the median across the schools in our lists.</p>
+</Layout>

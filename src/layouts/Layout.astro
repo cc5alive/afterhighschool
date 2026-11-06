@@ -38,14 +38,21 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
   <header class="site-header">
     <a class="wordmark" href="/">afterhighschool<span class="tld">.me</span></a>
     {nav === 'colleges' ? (
-      <nav class="section-nav" aria-label="Colleges">
+      <nav class="section-nav" aria-label="Main">
         <a href="/colleges">Colleges</a>
-        {TRADES_LAUNCHED && <a href="/trades">Trades</a>}
-        {APPRENTICESHIPS_LAUNCHED && <a href="/apprenticeships">Apprenticeships</a>}
-        {TRANSFER_LAUNCHED && <a href="/transfer">Transfer</a>}
-        {GAP_LAUNCHED && <a href="/gap-years">Gap years</a>}
-        {MILITARY_LAUNCHED && <a href="/military">Military</a>}
-        {SELF_LAUNCHED && <a href="/teach-yourself">Teach yourself</a>}
+        <details class="nav-paths">
+          <summary>Other paths</summary>
+          <div class="nav-menu">
+            {TRADES_LAUNCHED && <a href="/trades">Trade schools</a>}
+            {APPRENTICESHIPS_LAUNCHED && <a href="/apprenticeships">Apprenticeships</a>}
+            {TRANSFER_LAUNCHED && <a href="/transfer">Community college and transfer</a>}
+            {GAP_LAUNCHED && <a href="/gap-years">Gap years</a>}
+            {MILITARY_LAUNCHED && <a href="/military">Military</a>}
+            {SELF_LAUNCHED && <a href="/teach-yourself">Teach yourself</a>}
+            {SELF_LAUNCHED && <a href="/fellowships">Fellowships</a>}
+            <a class="nav-all" href="/paths">Every path, side by side</a>
+          </div>
+        </details>
         <a href="/compare">Compare</a>
         <a href="/my-list">My list<span data-list-count></span></a>
       </nav>
@@ -57,7 +64,12 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
   <main>
     <slot />
   </main>
-  {nav === 'colleges' && <script>import { wireSaveButtons } from '../lib/mylist.js'; wireSaveButtons();</script>}
+  {nav === 'colleges' && <script>import { wireSaveButtons } from '../lib/mylist.js'; wireSaveButtons();
+    // Close the paths menu when you click elsewhere or press Escape.
+    const menu = document.querySelector('.nav-paths');
+    document.addEventListener('click', (e) => { if (menu && !menu.contains(e.target)) menu.open = false; });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu?.open) { menu.open = false; menu.querySelector('summary').focus(); } });
+  </script>}
 
   <footer class="site-footer">
     <slot name="footer">

@@ -36,6 +36,7 @@ export function GET() {
   }
   if (GAP_LAUNCHED) urls.push({ loc: '/gap-years', lastmod: day });
   if (MILITARY_LAUNCHED) urls.push({ loc: '/military', lastmod: day });
+  urls.push({ loc: '/paths', lastmod: day });
   if (SELF_LAUNCHED) urls.push({ loc: '/teach-yourself', lastmod: day }, { loc: '/fellowships', lastmod: day });
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
     .map((u) => `  <url><loc>${SITE}${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`)
