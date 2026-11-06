@@ -1,0 +1,174 @@
+---
+// "Where you'd stand": a student enters their GPA and test scores and sees where they'd fall among
+// last year's first-year students, using the school's own Common Data Set when we have it and
+// federal College Scorecard figures otherwise. It never shows a percent chance: no source backs one.
+// The scores a student enters stay in their browser (localStorage) so they carry across school pages.
+const { s, c, scorecardHref } = Astro.props;
+const v = c?.values || {};
+const year = c?.cdsYear ? c.cdsYear.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2') : null;
+
+const fromCds = (k) => (v[k] != null ? v[k] : null);
+const satCds = v.sat_p25 && v.sat_p75 ? [v.sat_p25, v.sat_p50 ?? null, v.sat_p75] : null;
+const actCds = v.act_p25 && v.act_p75 ? [v.act_p25, v.act_p50 ?? null, v.act_p75] : null;
+const satFed = s.satLow && s.satHigh ? [s.satLow, null, s.satHigh] : null;
+const actFed = s.act.p25 && s.act.p75 ? [s.act.p25, s.act.midpoint ?? null, s.act.p75] : null;
+
+const GPA_KEYS = ['gpa_400_pct', 'gpa_375_pct', 'gpa_350_pct', 'gpa_325_pct', 'gpa_300_pct', 'gpa_250_pct', 'gpa_200_pct', 'gpa_100_pct', 'gpa_below1_pct'];
+const gpa = GPA_KEYS.filter((k) => v[k] != null).length >= 5 ? GPA_KEYS.map((k) => v[k] ?? 0) : null;
+
+const admitCds = v.admitted_total && v.applied_total ? v.admitted_total / v.applied_total : null;
+// Factors beyond grades and scores that the school rates "very important".
+const VERY = {
+  factor_essay: 'essays', factor_recommendations: 'recommendations', factor_interview: 'the interview', factor_extracurriculars: 'activities',
+  factor_talent: 'a talent or ability', factor_character: 'character and personal qualities'
+};
+const veryImportant = Object.keys(VERY).filter((k) => v[k] === 'Very Important').map((k) => VERY[k]);
+
+const data = {
+  name: s.name,
+  sat: satCds || satFed, satFrom: satCds ? 'cds' : satFed ? 'fed' : null,
+  act: actCds || actFed, actFrom: actCds ? 'cds' : actFed ? 'fed' : null,
+  satSubmit: fromCds('sat_submit_pct'), actSubmit: fromCds('act_submit_pct'),
+  gpa, gpaSubmit: fromCds('gpa_submit_pct'), gpaAvg: fromCds('gpa_average'),
+  admit: admitCds ?? s.admitRate, admitFrom: admitCds != null ? 'cds' : s.admitRate != null ? 'fed' : null,
+  ed: v.ed_applied > 0 && v.ed_admitted != null ? [v.ed_admitted, v.ed_applied] : null,
+  ea: v.ea_applied > 0 && v.ea_admitted != null ? [v.ea_admitted, v.ea_applied] : null,
+  veryImportant,
+  gpaImportance: v.factor_gpa || null, testImportance: v.factor_test_scores || null,
+  openAdmission: !!s.openAdmission
+};
+const usable = !!(data.sat || data.act || data.gpa);
+const cdsHref = c?.source?.url;
+---
+{usable ? (
+  <div class="wys" data-wys={JSON.stringify(data)}>
+    <h3 class="wys-title">Where you'd stand</h3>
+    <p class="wys-intro">Enter your numbers to see where they'd fall among {s.name}'s first-year students. This isn't a prediction: it shows how you compare with students who enrolled, using the sources linked below.</p>
+    <form class="wys-form" novalidate>
+      <label>Your high school GPA<input name="gpa" inputmode="decimal" placeholder="e.g. 3.7" autocomplete="off" /></label>
+      <label>SAT total<input name="sat" inputmode="numeric" placeholder="400–1600" autocomplete="off" /></label>
+      <label>ACT composite<input name="act" inputmode="numeric" placeholder="1–36" autocomplete="off" /></label>
+    </form>
+    <p class="wys-hint">Leave out anything you don't have. Your numbers stay in this browser and fill in on other school pages.</p>
+    <div class="wys-out" aria-live="polite"></div>
+    <p class="wys-src">
+      Sources:{' '}
+      {cdsHref && <><a href={cdsHref} rel="noopener" target="_blank">{s.name} Common Data Set{year && ` ${year}`}</a>{data.satFrom === 'fed' || data.actFrom === 'fed' || data.admitFrom === 'fed' ? '; ' : ''}</>}
+      {(!cdsHref || data.satFrom === 'fed' || data.actFrom === 'fed' || data.admitFrom === 'fed') && <a href={scorecardHref} rel="noopener" target="_blank">College Scorecard</a>}
+      . Test ranges describe enrolled students who sent scores.
+    </p>
+  </div>
+) : (
+  <div class="wys wys-empty">
+    <h3 class="wys-title">Where you'd stand</h3>
+    <p>We don't have test score or GPA figures for {s.name}'s first-year students yet, so there's nothing to compare your numbers with.{s.admitRate != null && ' The admit rate above is the best guide we have.'}</p>
+  </div>
+)}
+
+<script>
+  const KEY = 'ahs-profile';
+  const load = () => { try { return JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch { return {}; } };
+  const save = (p) => { try { localStorage.setItem(KEY, JSON.stringify(p)); } catch { /* private mode: fine */ } };
+  const pct = (x) => (x > 0 && x < 1 ? '<1%' : `${Math.round(x)}%`);
+  const esc = (t) => String(t).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]);
+  const num = (t, lo, hi) => { const x = Number(String(t).trim()); return t !== '' && Number.isFinite(x) && x >= lo && x <= hi ? x : null; };
+
+  const GPA_LABELS = ['4.0', '3.75–3.99', '3.50–3.74', '3.25–3.49', '3.00–3.24', '2.50–2.99', '2.00–2.49', '1.00–1.99', 'below 1.0'];
+  const gpaBucket = (g) => (g >= 4 ? 0 : g >= 3.75 ? 1 : g >= 3.5 ? 2 : g >= 3.25 ? 3 : g >= 3 ? 4 : g >= 2.5 ? 5 : g >= 2 ? 6 : g >= 1 ? 7 : 8);
+
+  function place(score, [p25, p50, p75]) {
+    if (score < p25) return { tone: 'below', text: 'below the middle half: fewer than 1 in 4 students who sent scores had a score this low' };
+    if (score >= p75) return { tone: 'above', text: 'in the top quarter of students who sent scores' };
+    if (p50 != null) return score < p50
+      ? { tone: 'mid', text: 'in the middle half, below the median' }
+      : { tone: 'mid', text: 'in the middle half, at or above the median' };
+    return { tone: 'mid', text: 'in the middle half of students who sent scores' };
+  }
+
+  function strip(score, range, lo, hi, label) {
+    const [p25, p50, p75] = range;
+    const min = Math.max(lo, Math.min(score, p25) - (p75 - p25) * 0.8);
+    const max = Math.min(hi, Math.max(score, p75) + (p75 - p25) * 0.8);
+    const at = (x) => `${((x - min) / (max - min || 1)) * 100}%`;
+    return `<div class="wys-strip" role="img" aria-label="${esc(label)}">
+      <span class="wys-band" style="left:${at(p25)};width:calc(${at(p75)} - ${at(p25)})"></span>
+      ${p50 != null ? `<span class="wys-median" style="left:${at(p50)}"></span>` : ''}
+      <span class="wys-you" style="left:${at(score)}"><span>You</span></span>
+      <span class="wys-tick" style="left:${at(p25)}">${p25}</span>
+      <span class="wys-tick" style="left:${at(p75)}">${p75}</span>
+    </div>`;
+  }
+
+  function render(el, d, p) {
+    const out = el.querySelector('.wys-out');
+    const parts = [];
+    const g = num(p.gpa, 0, 5), sat = num(p.sat, 400, 1600), act = num(p.act, 1, 36);
+
+    if (g != null && d.gpa) {
+      const b = gpaBucket(g);
+      const higher = d.gpa.slice(0, b).reduce((a, x) => a + x, 0);
+      const same = d.gpa[b];
+      const lower = Math.max(0, 100 - higher - same);
+      const tone = b === 0 || higher < 25 ? 'above' : higher >= 75 ? 'below' : 'mid';
+      const rows = d.gpa.slice(0, 6).map((x, i) => `<li class="${i === b ? 'is-you' : ''}"><span class="hbar-label">${GPA_LABELS[i]}</span><span class="hbar-track"><span class="hbar-fill" style="width:${x > 0 ? Math.max(1.5, x) : 0}%"></span></span><span class="hbar-value">${pct(x)}</span></li>`).join('');
+      parts.push(`<div class="wys-item tone-${tone}">
+        <h4>GPA ${esc(g.toFixed(2))}</h4>
+        <p>${b === 0 ? `${pct(same)} of first-years${d.gpaSubmit != null && d.gpaSubmit < 100 ? ' who reported a GPA' : ''} had a 4.0 or higher, the top range in the report.` : `${pct(same)} of first-years had a GPA in your range (${GPA_LABELS[b]}). ${pct(higher)} had a higher one${lower >= 0.5 ? ` and ${pct(lower)} a lower one` : ''}.`}</p>
+        <ul class="hbars wys-gpa">${rows}</ul>
+        ${g > 4 ? '<p class="wys-note">Your GPA is above 4.0, so it is probably weighted. Schools report weighted or unweighted GPAs differently, so read this loosely.</p>' : '<p class="wys-note">Schools count GPA differently (weighted or not), so read this loosely.</p>'}
+        ${d.gpaImportance ? `<p class="wys-note">${esc(d.name)} rates GPA as <strong>${esc(d.gpaImportance.toLowerCase())}</strong> in admission.</p>` : ''}
+      </div>`);
+    } else if (g != null && d.gpaAvg != null) {
+      const tone = g >= d.gpaAvg + 0.1 ? 'above' : g <= d.gpaAvg - 0.25 ? 'below' : 'mid';
+      parts.push(`<div class="wys-item tone-${tone}"><h4>GPA ${esc(g.toFixed(2))}</h4><p>The average high school GPA of first-years was ${d.gpaAvg.toFixed(2)}. We don't have how GPAs were spread out.</p></div>`);
+    } else if (g != null) {
+      parts.push(`<div class="wys-item"><h4>GPA ${esc(g.toFixed(2))}</h4><p>We don't have GPA figures for ${esc(d.name)}'s first-year students, so we can't compare.</p></div>`);
+    }
+
+    for (const [kind, score, range, from, submit, lo, hi] of [['SAT', sat, d.sat, d.satFrom, d.satSubmit, 400, 1600], ['ACT', act, d.act, d.actFrom, d.actSubmit, 1, 36]]) {
+      if (score == null) continue;
+      if (!range) { parts.push(`<div class="wys-item"><h4>${kind} ${score}</h4><p>We don't have ${kind} figures for ${esc(d.name)}'s first-year students.</p></div>`); continue; }
+      const pl = place(score, range);
+      parts.push(`<div class="wys-item tone-${pl.tone}">
+        <h4>${kind} ${score}</h4>
+        <p>Your score would be ${pl.text}. The middle half scored ${range[0]}–${range[2]}${range[1] != null ? `, with a median of ${range[1]}` : ''}.</p>
+        ${strip(score, range, lo, hi, `${kind} ${score} compared with the middle half, ${range[0]} to ${range[2]}`)}
+        ${submit != null && submit < 60 ? `<p class="wys-note">Only ${pct(submit)} of first-years sent ${kind} scores, so this range describes that group, not the whole class.</p>` : ''}
+        ${from === 'fed' ? '<p class="wys-note">From federal data, which can lag the school\'s own report by a year or two.</p>' : ''}
+      </div>`);
+    }
+
+    if (!parts.length) { out.innerHTML = ''; return; }
+
+    // Context that applies to everyone, whatever their numbers.
+    const ctx = [];
+    if (d.admit != null) {
+      const r = d.admit;
+      ctx.push(r < 0.1
+        ? `About 1 in ${Math.round(1 / Math.max(r, 0.01))} applicants were admitted.`
+        : `About ${Math.round(r * 100)} in 100 applicants were admitted.`);
+    }
+    if (d.admit != null && d.admit < 0.25 && d.veryImportant.length) {
+      const list = d.veryImportant.slice(0, 5);
+      const said = list.length > 2 ? `${list.slice(0, -1).join(', ')}, and ${list[list.length - 1]}` : list.join(' and ');
+      ctx.push(`At a school this selective, grades and scores are only part of the decision: ${esc(d.name)} rates ${esc(said)} as very important.`);
+    }
+    if (d.ed) ctx.push(`Early decision applicants were admitted at ${pct((d.ed[0] / d.ed[1]) * 100)} (${d.ed[0].toLocaleString('en-US')} of ${d.ed[1].toLocaleString('en-US')}). That's a different group of applicants, so it doesn't mean applying early would raise your own odds by that much.`);
+
+    out.innerHTML = `<div class="wys-grid">${parts.join('')}</div>${ctx.length ? `<p class="wys-ctx">${ctx.join(' ')}</p>` : ''}`;
+  }
+
+  for (const el of document.querySelectorAll('.wys[data-wys]')) {
+    const d = JSON.parse(el.dataset.wys);
+    const form = el.querySelector('form');
+    const p = load();
+    for (const k of ['gpa', 'sat', 'act']) if (p[k] != null) form.elements[k].value = p[k];
+    const update = () => {
+      const next = { gpa: form.elements.gpa.value.trim(), sat: form.elements.sat.value.trim(), act: form.elements.act.value.trim() };
+      save(next); render(el, d, next);
+    };
+    form.addEventListener('input', update);
+    form.addEventListener('submit', (e) => e.preventDefault());
+    render(el, d, p);
+  }
+</script>

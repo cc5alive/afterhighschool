@@ -221,3 +221,35 @@
 .hbar-track { height: 18px; background: color-mix(in srgb, var(--rule) 50%, transparent); border-radius: 4px; overflow: hidden; }
 .hbar-fill { display: block; height: 100%; background: var(--college); border-radius: 4px; }
 .hbar-value { font-weight: 800; font-size: 0.9rem; text-align: right; }
+
+/* Where you'd stand */
+.wys { border-top: 1px solid var(--rule); margin-top: 8px; padding-top: 20px; max-width: 46em; }
+.wys-title { font-size: 1.15rem; margin: 0 0 6px; }
+.wys-intro { color: var(--muted); margin: 0 0 14px; }
+.wys-form { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 6px; }
+.wys-form label { display: grid; gap: 4px; font-weight: 700; font-size: 0.9rem; flex: 1 1 9em; }
+.wys-form input { font: inherit; font-size: 1.05rem; border: 2px solid var(--rule); border-radius: 10px; padding: 10px 12px; min-height: 46px; width: 100%; background: var(--card); color: var(--ink); }
+.wys-form input:focus-visible { outline: 3px solid var(--college); outline-offset: 1px; border-color: var(--college); }
+.wys-hint { font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+.wys-grid { display: grid; gap: 14px; }
+.wys-item { background: var(--card); border-radius: 12px; padding: 14px 16px; border-left: 6px solid var(--rule); }
+.wys-item.tone-above { border-left-color: var(--apprentice); }
+.wys-item.tone-mid { border-left-color: var(--college); }
+.wys-item.tone-below { border-left-color: var(--trade); }
+.wys-item h4 { margin: 0 0 4px; font-size: 1.05rem; font-weight: 800; }
+.wys-item p { margin: 0 0 8px; }
+.wys-note { font-size: 0.85rem; color: var(--muted); }
+.wys-gpa { margin: 8px 0; }
+.wys-gpa li.is-you .hbar-label { color: var(--college); }
+.wys-gpa li.is-you .hbar-fill { background: var(--college); }
+.wys-gpa li:not(.is-you) .hbar-fill { background: var(--rule); }
+.wys-strip { position: relative; height: 54px; margin: 6px 4px 4px; }
+.wys-strip::before { content: ""; position: absolute; left: 0; right: 0; top: 22px; height: 8px; border-radius: 4px; background: var(--rule); opacity: 0.6; }
+.wys-band { position: absolute; top: 22px; height: 8px; border-radius: 4px; background: var(--college); opacity: 0.35; }
+.wys-median { position: absolute; top: 18px; width: 2px; height: 16px; background: var(--college); }
+.wys-you { position: absolute; top: 16px; width: 20px; height: 20px; margin-left: -10px; border-radius: 50%; background: var(--ink); border: 3px solid var(--card); box-shadow: 0 0 0 2px var(--ink); }
+.wys-you span { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); font-size: 0.75rem; font-weight: 800; }
+.wys-tick { position: absolute; top: 36px; transform: translateX(-50%); font-size: 0.75rem; color: var(--muted); }
+.wys-ctx { margin: 16px 0 0; }
+.wys-src { font-size: 0.8rem; color: var(--muted); margin: 14px 0 20px; }
+.wys-empty p { color: var(--muted); margin: 0 0 20px; }

@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Stat from '../../components/Stat.astro';
 import CdsPanel from '../../components/CdsPanel.astro';
+import WhereYouStand from '../../components/WhereYouStand.astro';
 import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug, gradOnly, cds } from '../../lib/data.js';
 import {
   pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
@@ -141,9 +142,7 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
         <Stat label="ACT (middle 50%)" value={actRange} note={actRange && 'Composite, enrolled first-years who sent scores'} missing="Not reported" href={src} />
       </dl>
       {cd && <CdsPanel c={cd} name={s.name} />}
-      <div class="chances-slot">
-        <p><strong>Your chances here</strong> — a calculator that shows your odds as an honest range is coming. <a href="/#join">Join the waitlist</a> to hear when it opens.</p>
-      </div>
+      {!s.openAdmission && <WhereYouStand s={s} c={cd} scorecardHref={src} />}
     </section>
 
     <section class="block" aria-labelledby="cost">
