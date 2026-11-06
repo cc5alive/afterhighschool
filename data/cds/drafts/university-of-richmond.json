@@ -1,0 +1,220 @@
+{
+  "slug": "university-of-richmond",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://ifx.richmond.edu/pdfs/CDS2024-25.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 16152,
+      "quote": "Total first-time, first-year who applied 16152"
+    },
+    "admitted_total": {
+      "value": 3585,
+      "quote": "Total first-time, first-year who were admitted 3585"
+    },
+    "enrolled_total": {
+      "value": 841,
+      "quote": "Total first-time, first-year who enrolled 841"
+    },
+    "waitlist_offered": {
+      "value": 3866,
+      "quote": "Number of qualified applicants offered a place on waiting list: 3866"
+    },
+    "waitlist_accepted": {
+      "value": 2117,
+      "quote": "Number accepting a place on the waiting list: 2117"
+    },
+    "waitlist_admitted": {
+      "value": 71,
+      "quote": "Number of wait-listed students admitted: 71"
+    },
+    "sat_submit_pct": {
+      "value": 19,
+      "quote": "Submitting SAT Scores 19%"
+    },
+    "act_submit_pct": {
+      "value": 14,
+      "quote": "Submitting ACT Scores 14%"
+    },
+    "sat_p25": {
+      "value": 1430,
+      "quote": "SAT Composite 1430"
+    },
+    "sat_p50": {
+      "value": 1470,
+      "quote": "SAT Composite 1470"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "SAT Composite 1510"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT Composite 35"
+    },
+    "rank_top10_pct": {
+      "value": 70,
+      "quote": "Percent in top tenth of high school graduating class 70%"
+    },
+    "rank_top25_pct": {
+      "value": 89,
+      "quote": "Percent in top quarter of high school graduating class 89%"
+    },
+    "rank_submit_pct": {
+      "value": 17,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 17%"
+    },
+    "gpa_400_pct": {
+      "value": 22,
+      "quote": "Percent who had GPA of 4.0 22%"
+    },
+    "gpa_375_pct": {
+      "value": 48,
+      "quote": "Percent who had GPA between 3.75 and 3.99 48%"
+    },
+    "gpa_350_pct": {
+      "value": 4,
+      "quote": "Percent who had GPA between 3.50 and 3.74 4%"
+    },
+    "gpa_325_pct": {
+      "value": 23,
+      "quote": "Percent who had GPA between 3.25 and 3.49 23%"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 3.00 and 3.24 1%"
+    },
+    "gpa_250_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 2.50 and 2.99 1%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0%"
+    },
+    "gpa_average": {
+      "value": 3.81,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.81"
+    },
+    "gpa_submit_pct": {
+      "value": 99,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99%"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan... Yes"
+    },
+    "ed_applied": {
+      "value": 1175,
+      "quote": "Number of early decision applications received by your institution 1175"
+    },
+    "ed_admitted": {
+      "value": 397,
+      "quote": "Number of applicants admitted under early decision plan 397"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Do you have a nonbinding early action plan... Yes"
+    },
+    "ea_applied": {
+      "value": 10124,
+      "quote": "Number of early action applications received by your institution 10124"
+    },
+    "ea_admitted": {
+      "value": 2329,
+      "quote": "Number of applicants admitted under early action plan 2329"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

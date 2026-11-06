@@ -1,0 +1,148 @@
+{
+  "slug": "texas-state-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://docs.gato.txst.edu/743980/CDS-2024-2025%20from%20richard.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 33907,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 33,907"
+    },
+    "admitted_total": {
+      "value": 30498,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 30,498"
+    },
+    "enrolled_total": {
+      "value": 8195,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 8,195"
+    },
+    "sat_submit_pct": {
+      "value": 41,
+      "quote": "Submitting SAT Scores 41.00"
+    },
+    "act_submit_pct": {
+      "value": 6,
+      "quote": "Submitting ACT Scores 6.00"
+    },
+    "sat_p25": {
+      "value": 990,
+      "quote": "SAT Composite 990"
+    },
+    "sat_p50": {
+      "value": 1100,
+      "quote": "SAT Composite 1100"
+    },
+    "sat_p75": {
+      "value": 1200,
+      "quote": "SAT Composite 1200"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "ACT Composite 19"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "ACT Composite 22"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "ACT Composite 25"
+    },
+    "rank_top10_pct": {
+      "value": 11.36,
+      "quote": "Percent in top tenth of high school graduating class 11.36"
+    },
+    "rank_top25_pct": {
+      "value": 42.64,
+      "quote": "Percent in top quarter of high school graduating class 42.64"
+    },
+    "rank_submit_pct": {
+      "value": 99.96,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 99.96"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan... No"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
