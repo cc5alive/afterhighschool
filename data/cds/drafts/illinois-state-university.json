@@ -1,0 +1,180 @@
+{
+  "slug": "illinois-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://prpa.illinoisstate.edu/downloads/CDS_2025-2026_ILSTU_FINAL2.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 23826,
+      "quote": "Total first-time, first-year students who applied: 23,826"
+    },
+    "admitted_total": {
+      "value": 20382,
+      "quote": "Total first-time, first-year students who were admitted: 20,382"
+    },
+    "enrolled_total": {
+      "value": 4253,
+      "quote": "Total first-time, first-year students who enrolled: 4,253"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_rigor": {
+      "value": "Not Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 45.12,
+      "quote": "Percent submitting SAT scores: 45.12%"
+    },
+    "act_submit_pct": {
+      "value": 6.98,
+      "quote": "Percent submitting ACT scores: 6.98%"
+    },
+    "sat_p25": {
+      "value": 1000,
+      "quote": "SAT Composite 1000"
+    },
+    "sat_p50": {
+      "value": 1110,
+      "quote": "SAT Composite 1110"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "SAT Composite 1210"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "ACT Composite 21"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "ACT Composite 24"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "ACT Composite 27"
+    },
+    "gpa_400_pct": {
+      "value": 24.78,
+      "quote": "Percent who had GPA of 4.0: 24.78%"
+    },
+    "gpa_375_pct": {
+      "value": 17.06,
+      "quote": "Percent who had GPA between 3.75 and 3.99: 17.06%"
+    },
+    "gpa_350_pct": {
+      "value": 16.61,
+      "quote": "Percent who had GPA between 3.50 and 3.74: 16.61%"
+    },
+    "gpa_325_pct": {
+      "value": 15.91,
+      "quote": "Percent who had GPA between 3.25 and 3.49: 15.91%"
+    },
+    "gpa_300_pct": {
+      "value": 15.76,
+      "quote": "Percent who had GPA between 3.00 and 3.24: 15.76%"
+    },
+    "gpa_250_pct": {
+      "value": 9.74,
+      "quote": "Percent who had GPA between 2.50 and 2.99: 9.74%"
+    },
+    "gpa_200_pct": {
+      "value": 0.14,
+      "quote": "Percent who had GPA between 2.0 and 2.49: 0.14%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99: 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0: 0%"
+    },
+    "gpa_average": {
+      "value": 3.63,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.63"
+    },
+    "gpa_submit_pct": {
+      "value": 99.93,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.93%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan... No"
+    }
+  },
+  "concerns": null
+}

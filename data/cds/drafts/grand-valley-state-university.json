@@ -1,0 +1,48 @@
+{
+  "slug": "grand-valley-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.gvsu.edu/cms4/asset/EFAB4AD2-A926-8D16-A5685AB71E0C7DC3/cds_2025-2026.xlsx"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 27261,
+      "quote": "Total first-time, first-year (degree-seeking) who applied: 27,261"
+    },
+    "admitted_total": {
+      "value": 25274,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted: 25,274"
+    },
+    "enrolled_total": {
+      "value": 4335,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled: 4,335"
+    },
+    "sat_p25": {
+      "value": 920,
+      "quote": "SAT Composite 25th percentile: 920"
+    },
+    "sat_p75": {
+      "value": 1170,
+      "quote": "SAT Composite 75th percentile: 1170"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "ACT Composite 25th percentile: 21"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "ACT Composite 75th percentile: 30"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision: Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action: Do you have a nonbinding early action plan... No"
+    }
+  },
+  "concerns": null
+}

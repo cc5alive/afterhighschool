@@ -1,0 +1,44 @@
+{
+  "slug": "mississippi-state-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.ir.msstate.edu/cdsets.php"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "sat_submit_pct": {
+      "value": 6,
+      "quote": "6% SUB"
+    },
+    "act_submit_pct": {
+      "value": 85,
+      "quote": "85% SUB"
+    },
+    "sat_p25": {
+      "value": 1100,
+      "quote": "SAT composite 25th percentile 1100"
+    },
+    "sat_p50": {
+      "value": 1200,
+      "quote": "SAT composite 50th percentile 1200"
+    },
+    "sat_p75": {
+      "value": 1340,
+      "quote": "SAT composite 75th percentile 1340"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "ACT composite 25th percentile 21"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "ACT composite 50th percentile 25"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT composite 75th percentile 29"
+    }
+  },
+  "concerns": null
+}
