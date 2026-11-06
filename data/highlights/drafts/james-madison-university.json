@@ -10,9 +10,13 @@
         {
           "title": "Unleashed: Valley Scholars - JMU",
           "url": "https://www.jmu.edu/unleashed/opening-our-doors/valley-scholars.shtml",
-          "quote": "Students who fulfill all the requirements receive four-year scholarships to JMU, covering tuition and fees — opening doors so they can pursue majors anywhere on campus."
+          "quote": "Students who fulfill all the requirements receive four-year scholarships to JMU, covering tuition and fees — opening doors so they can pursue majors anywhere on campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.jmu.edu/unleashed/opening-our-doors/valley-scholars.shtml",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

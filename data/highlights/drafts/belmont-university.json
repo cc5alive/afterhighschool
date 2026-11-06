@@ -10,9 +10,13 @@
         {
           "title": "WELL Core | Belmont University",
           "url": "https://www.belmont.edu/bell-core/well-core/",
-          "quote": "In order to graduate, students are required to earn a total of 50 Well Core credits (adjusted for transfer students), with 5 in each of the following categories:"
+          "quote": "In order to graduate, students are required to earn a total of 50 Well Core credits (adjusted for transfer students), with 5 in each of the following categories:",
+          "httpStatus": 200,
+          "finalUrl": "https://www.belmont.edu/bell-core/well-core/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

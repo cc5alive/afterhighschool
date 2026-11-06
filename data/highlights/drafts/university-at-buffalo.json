@@ -10,9 +10,13 @@
         {
           "title": "Finish in 4 - Student Success and Academic Support Gateway",
           "url": "https://www.buffalo.edu/studentsuccess/succeed/fif.html",
-          "quote": "If you take the pledge and fulfill all of the requirements but still can't graduate in four years, UB will provide the opportunity to complete the needed courses free of tuition and comprehensive fee charges."
+          "quote": "If you take the pledge and fulfill all of the requirements but still can't graduate in four years, UB will provide the opportunity to complete the needed courses free of tuition and comprehensive fee charges.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.buffalo.edu/studentsuccess/succeed/fif.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Affordability | Washington State University | Washington State ...",
           "url": "https://wsu.edu/admissions/affordability/",
-          "quote": "This special program covers tuition and mandatory fees for Washington residents from a low- or middle-income family in Washington that receive the Washington College Grant or a Pell Grant."
+          "quote": "This special program covers tuition and mandatory fees for Washington residents from a low- or middle-income family in Washington that receive the Washington College Grant or a Pell Grant.",
+          "httpStatus": 200,
+          "finalUrl": "https://wsu.edu/admissions/affordability/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

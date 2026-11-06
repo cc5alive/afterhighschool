@@ -10,9 +10,13 @@
         {
           "title": "Employer Reimbursement and Tuition Deferment Program",
           "url": "https://student.worldcampus.psu.edu/finances/paying-your-bill/employer-reimbursement-and-tuition-deferment-program",
-          "quote": "This program is designed for students whose employers offer reimbursements for tuition charges, upon completion of the semester. Enrolled participants have their tuition payments deferred until the semester is completed, with no finance or interest charges."
+          "quote": "This program is designed for students whose employers offer reimbursements for tuition charges, upon completion of the semester. Enrolled participants have their tuition payments deferred until the semester is completed, with no finance or interest charges.",
+          "httpStatus": 200,
+          "finalUrl": "https://student.worldcampus.psu.edu/finances/paying-your-bill/employer-reimbursement-and-tuition-deferment-program",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

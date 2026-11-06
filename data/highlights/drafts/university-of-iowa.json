@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Graduation Plan",
           "url": "https://provost.uiowa.edu/four-year-graduation-plan",
-          "quote": "The university assures Four-Year Graduation Plan participants who fulfill the student responsibilities that they will be able to enroll in required courses that permit graduation in a single major in four years."
+          "quote": "The university assures Four-Year Graduation Plan participants who fulfill the student responsibilities that they will be able to enroll in required courses that permit graduation in a single major in four years.",
+          "httpStatus": 200,
+          "finalUrl": "https://provost.uiowa.edu/four-year-graduation-plan",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

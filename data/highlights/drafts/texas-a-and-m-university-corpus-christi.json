@@ -10,9 +10,13 @@
         {
           "title": "Islander Guarantee | Funding Resources | Financial Aid | Cost & Aid ...",
           "url": "https://www.tamucc.edu/cost-and-aid/financial-aid/funding-resources/guarantee.php",
-          "quote": "This program is available for newly enrolled freshman students with an adjusted gross income of $125,000 or less and who meet eligibility requirements."
+          "quote": "This program is available for newly enrolled freshman students with an adjusted gross income of $125,000 or less and who meet eligibility requirements.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.tamucc.edu/cost-and-aid/financial-aid/funding-resources/guarantee.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

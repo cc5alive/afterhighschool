@@ -27,9 +27,16 @@
         {
           "title": "The First-Year Community Engaged Learning (FYCEL) Experience",
           "url": "https://cce.tcnj.edu/first-year-cel/",
-          "quote": "FYC 100 is the only course that fulfills the first-year CEL graduation requirement and all first-year students will be enrolled in FYC 100 in either the fall or spring semester of their first year at TCNJ."
+          "quote": "FYC 100 is the only course that fulfills the first-year CEL graduation requirement and all first-year students will be enrolled in FYC 100 in either the fall or spring semester of their first year at TCNJ.",
+          "httpStatus": 403,
+          "finalUrl": "https://cce.tcnj.edu/first-year-cel/",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "403 forbidden",
+          "closestScore": 0
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

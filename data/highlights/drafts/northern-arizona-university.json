@@ -10,9 +10,13 @@
         {
           "title": "Access2Excellence | Making higher education affordable at NAU",
           "url": "https://nau.edu/financial-aid/aid-programs/access-2-excellence/",
-          "quote": "Access2Excellence (A2E) helps qualifying Arizona students and tribal members attend NAU tuition-free."
+          "quote": "Access2Excellence (A2E) helps qualifying Arizona students and tribal members attend NAU tuition-free.",
+          "httpStatus": 200,
+          "finalUrl": "https://nau.edu/financial-aid/aid-programs/access-2-excellence/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

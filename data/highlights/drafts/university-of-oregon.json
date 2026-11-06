@@ -10,9 +10,13 @@
         {
           "title": "PathwayOregon | Financial Aid & Scholarships - University of Oregon",
           "url": "https://financialaid.uoregon.edu/pathwayoregon",
-          "quote": "PathwayOregon is the University of Oregon's promise of full tuition and fees, and comprehensive academic and personal support for qualifying Oregonians."
+          "quote": "PathwayOregon is the University of Oregon's promise of full tuition and fees, and comprehensive academic and personal support for qualifying Oregonians.",
+          "httpStatus": 200,
+          "finalUrl": "https://financialaid.uoregon.edu/pathwayoregon",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

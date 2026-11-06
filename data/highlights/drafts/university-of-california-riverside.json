@@ -10,9 +10,13 @@
         {
           "title": "Opportunity Plans | The Office of Financial Aid - UC Riverside",
           "url": "https://financialaid.ucr.edu/opportunity-plans",
-          "quote": "The University of California's Native American Opportunity Plan (NAOP) ensures that in-state systemwide Tuition and Student Services Fees are fully covered for California students who are also enrolled in federally recognized Native America, American Indian, and Alaska Native tribes."
+          "quote": "The University of California's Native American Opportunity Plan (NAOP) ensures that in-state systemwide Tuition and Student Services Fees are fully covered for California students who are also enrolled in federally recognized Native America, American Indian, and Alaska Native tribes.",
+          "httpStatus": 200,
+          "finalUrl": "https://financialaid.ucr.edu/opportunity-plans",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Urban Scholars Program - Marquette University",
           "url": "https://www.marquette.edu/tuition-financial-aid/scholarship-urban-scholars-program.php",
-          "quote": "Inspired by this commitment, the university proudly sponsors the Urban Scholars Program, which offers full-tuition scholarships to high school seniors from the Milwaukee area."
+          "quote": "Inspired by this commitment, the university proudly sponsors the Urban Scholars Program, which offers full-tuition scholarships to high school seniors from the Milwaukee area.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.marquette.edu/tuition-financial-aid/scholarship-urban-scholars-program.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

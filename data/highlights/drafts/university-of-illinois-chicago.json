@@ -10,9 +10,16 @@
         {
           "title": "UIC Aspire - University of Illinois Chicago",
           "url": "https://free.uic.edu/",
-          "quote": "Introducing UIC Aspire, UIC's $0 tuition program for Illinois families who earn $75K or less."
+          "quote": "Introducing UIC Aspire, UIC's $0 tuition program for Illinois families who earn $75K or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://free.uic.edu/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "this exceptional education will take you. earn a life-changing 4-year degree - 100% tuition-free - with the uic aspire program. do you qualify for free",
+          "closestScore": 0.5
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

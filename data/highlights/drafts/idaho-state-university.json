@@ -10,9 +10,13 @@
         {
           "title": "Bengal Bound Transfer Partnership | Idaho State University",
           "url": "https://www.isu.edu/bengalbound/",
-          "quote": "Guaranteed admission to ISU with successful completion of an Associate of Science (AS) or Associate of Arts (AA) degree with a 2.0 or higher cumulative G.P.A."
+          "quote": "Guaranteed admission to ISU with successful completion of an Associate of Science (AS) or Associate of Arts (AA) degree with a 2.0 or higher cumulative G.P.A.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.isu.edu/bengalbound/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -44,9 +44,16 @@
         {
           "title": "Consortium Registration | American University, Washington, DC",
           "url": "https://www.american.edu/provost/registrar/studentservices/consortiumregistration.cfm",
-          "quote": "The Consortium of Universities of the Washington Metropolitan Area combines the resources of area universities and colleges. American University offers qualified degree students the opportunity to enroll for courses at any of these institutions."
+          "quote": "The Consortium of Universities of the Washington Metropolitan Area combines the resources of area universities and colleges. American University offers qualified degree students the opportunity to enroll for courses at any of these institutions.",
+          "httpStatus": 403,
+          "finalUrl": "https://www.american.edu/provost/registrar/studentservices/consortiumregistration.cfm",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "www.american.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55ff1de89dcb07e performance and security by cloudflare privacy",
+          "closestScore": 0.13
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

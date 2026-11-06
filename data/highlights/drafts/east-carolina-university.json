@@ -10,9 +10,16 @@
         {
           "title": "Pirate Promise Transfer Program - Undergraduate Admissions",
           "url": "https://admissions.ecu.edu/transfers/pirate-promise/",
-          "quote": "The Pirate Promise transfer program provides students at participating community colleges with guaranteed ECU admission and waived application fee."
+          "quote": "The Pirate Promise transfer program provides students at participating community colleges with guaranteed ECU admission and waived application fee.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.ecu.edu/transfers/pirate-promise/",
+          "quoteFound": false,
+          "browserChecked": true,
+          "closest": "piratepromise.ecu.edu. transfers transfer requirements applying to ecu as a transfer student transfer hub major exploration transfer faqs admitted transfer students pirate promise transfer tours & events connect with us",
+          "closestScore": 0.33
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Enrollment Appointment Times - Office of the Registrar",
           "url": "https://www.uwsp.edu/office-of-the-registrar/enrollment-appointment-times/",
-          "quote": "Text Rental is a unique service available to undergraduate students at UWSP. It is a rental library system where students check out most of their course books and return them at the end of the term."
+          "quote": "Text Rental is a unique service available to undergraduate students at UWSP. It is a rental library system where students check out most of their course books and return them at the end of the term.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwsp.edu/office-of-the-registrar/enrollment-appointment-times/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

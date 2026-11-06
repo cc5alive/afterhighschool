@@ -10,9 +10,13 @@
         {
           "title": "The OHIO Guarantee Tuition and Fees | Ohio University",
           "url": "https://www.ohio.edu/bursar/ohio-guarantee",
-          "quote": "The OHIO Guarantee is a cohort based, level-rate tuition, housing, and dining model that assures students and their families a set of comprehensive rates for the pursuit of an undergraduate degree at Ohio University."
+          "quote": "The OHIO Guarantee is a cohort based, level-rate tuition, housing, and dining model that assures students and their families a set of comprehensive rates for the pursuit of an undergraduate degree at Ohio University.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ohio.edu/bursar/ohio-guarantee",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

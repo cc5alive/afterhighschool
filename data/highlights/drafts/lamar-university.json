@@ -10,9 +10,13 @@
         {
           "title": "Lamar Promise Program - Lamar University",
           "url": "https://www.lamar.edu/financial-aid/types-of-aid/grants/lamar-promise.html",
-          "quote": "The Lamar Promise Program ensures that sufficient grant and/or scholarship assistance will be provided to cover the full amount of fall and spring in-state tuition and fees for undergraduate Texas residents meeting certain eligibility criteria."
+          "quote": "The Lamar Promise Program ensures that sufficient grant and/or scholarship assistance will be provided to cover the full amount of fall and spring in-state tuition and fees for undergraduate Texas residents meeting certain eligibility criteria.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.lamar.edu/financial-aid/types-of-aid/grants/lamar-promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

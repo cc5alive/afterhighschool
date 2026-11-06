@@ -10,9 +10,16 @@
         {
           "title": "Fiat Lux Scholars | Financial Aid - UC Merced",
           "url": "https://financialaid.ucmerced.edu/fiatlux",
-          "quote": "This special honor guarantees a minimum of $100,000 in grants and scholarships over four continuous years at UC Merced. That is a guaranteed minimum of $25,000* in free money per academic year."
+          "quote": "This special honor guarantees a minimum of $100,000 in grants and scholarships over four continuous years at UC Merced. That is a guaranteed minimum of $25,000* in free money per academic year.",
+          "httpStatus": 403,
+          "finalUrl": "https://financialaid.ucmerced.edu/fiatlux",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "access denied you don't have permission to access http://financialaid.ucmerced.edu/fiatlux on this server. reference #18.972b3417.1793924595.1e94452 https://errors.edgesuite.net/18.972b3417.1793924595.1e94452",
+          "closestScore": 0.04
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

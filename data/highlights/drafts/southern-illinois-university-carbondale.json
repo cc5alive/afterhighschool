@@ -10,9 +10,14 @@
         {
           "title": "Types of Aid - SIU Financial Aid - Southern Illinois University",
           "url": "https://fao.siu.edu/types/",
-          "quote": "The AIM HIGH/Saluki Commitment is our pledge that all NEW and TRANSFER students who meet certain criteria are guaranteed that tuition and mandatory fees will be fully covered for four (transfer students) or eight (freshman students) consecutive semesters"
+          "quote": "The AIM HIGH/Saluki Commitment is our pledge that all NEW and TRANSFER students who meet certain criteria are guaranteed that tuition and mandatory fees will be fully covered for four (transfer students) or eight (freshman students) consecutive semesters",
+          "httpStatus": 200,
+          "finalUrl": "https://fao.siu.edu/types/",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "YSU's Penguin Tuition Promise | YSU",
           "url": "https://ysu.edu/ysu-penguin-tuition-promise",
-          "quote": "A student's tuition rate is established based on first enrollment and remains unchanged for four consecutive academic years."
+          "quote": "A student's tuition rate is established based on first enrollment and remains unchanged for four consecutive academic years.",
+          "httpStatus": 200,
+          "finalUrl": "https://ysu.edu/ysu-penguin-tuition-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

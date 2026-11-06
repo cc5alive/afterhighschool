@@ -10,9 +10,13 @@
         {
           "title": "Patriot Promise Program - UT Tyler",
           "url": "https://www.uttyler.edu/admissions-aid/tuition-financial-aid-fees/patriot-promise/",
-          "quote": "The Patriot Promise program covers tuition and mandatory fees for eligible students with a FAFSA-reported household income of $100,000 or less."
+          "quote": "The Patriot Promise program covers tuition and mandatory fees for eligible students with a FAFSA-reported household income of $100,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uttyler.edu/admissions-aid/tuition-financial-aid-fees/patriot-promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

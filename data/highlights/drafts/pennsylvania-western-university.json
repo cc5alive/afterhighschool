@@ -10,9 +10,13 @@
         {
           "title": "Residence Life and Housing - PennWest University",
           "url": "https://www.pennwest.edu/about/offices-services/rlh/index.php",
-          "quote": "At PennWest University, we create safe, inclusive, and vibrant residential communities across our California, Clarion, and Edinboro campuses."
+          "quote": "At PennWest University, we create safe, inclusive, and vibrant residential communities across our California, Clarion, and Edinboro campuses.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.pennwest.edu/about/offices-services/rlh/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Ferris Pledge | Zero Out-of-Pocket Expenses",
           "url": "https://www.ferris.edu/admissions/financialaid/scholarship/Incoming/ferris-pledge.htm",
-          "quote": "The Ferris Pledge covers the full cost of tuition and required fees by combining federal and state scholarships and grants with other Ferris financial aid options."
+          "quote": "The Ferris Pledge covers the full cost of tuition and required fees by combining federal and state scholarships and grants with other Ferris financial aid options.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.ferris.edu/admissions/financialaid/scholarship/Incoming/ferris-pledge.htm",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

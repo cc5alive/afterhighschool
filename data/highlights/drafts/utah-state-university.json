@@ -10,9 +10,13 @@
         {
           "title": "Utah State Promise | USU",
           "url": "https://www.usu.edu/financial-support/scholarships/promise",
-          "quote": "The Utah State Promise is a “last dollar” scholarship, meaning that it is applied to your remaining tuition and student body fees after all other aid is applied to a recipient's account."
+          "quote": "The Utah State Promise is a “last dollar” scholarship, meaning that it is applied to your remaining tuition and student body fees after all other aid is applied to a recipient's account.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.usu.edu/financial-support/scholarships/promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

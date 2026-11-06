@@ -10,9 +10,13 @@
         {
           "title": "Global Service - California Baptist University",
           "url": "https://calbaptist.edu/life-at-cbu/spiritual-life/serve-global/",
-          "quote": "ISP is a program that brings together teams of CBU students to do life, learn, and serve globally. These teams, mentored and trained throughout the spring semester, join with field partners worldwide for two to eight-week cross-cultural service opportunities"
+          "quote": "ISP is a program that brings together teams of CBU students to do life, learn, and serve globally. These teams, mentored and trained throughout the spring semester, join with field partners worldwide for two to eight-week cross-cultural service opportunities",
+          "httpStatus": 200,
+          "finalUrl": "https://calbaptist.edu/life-at-cbu/spiritual-life/serve-global/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

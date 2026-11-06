@@ -10,9 +10,14 @@
         {
           "title": "UM Celebrates National First-Generation College Student Day",
           "url": "https://www.umt.edu/news/2023/11/110823fgen.php",
-          "quote": "The Grizzly Promise, launched in 2022, provides in-state students a tuition-free education if they come from a family earning less than $50,000 annually."
+          "quote": "The Grizzly Promise, launched in 2022, provides in-state students a tuition-free education if they come from a family earning less than $50,000 annually.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.umt.edu/news/2023/11/110823fgen.php",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

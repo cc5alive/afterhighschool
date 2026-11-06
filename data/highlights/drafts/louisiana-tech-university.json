@@ -10,9 +10,13 @@
         {
           "title": "About Louisiana Tech",
           "url": "https://www.latech.edu/about/index.php",
-          "quote": "Academic Calendar: Quarter system awarding semester hours. Three quarters (Fall, Winter, Spring) equals two semesters at other universities."
+          "quote": "Academic Calendar: Quarter system awarding semester hours. Three quarters (Fall, Winter, Spring) equals two semesters at other universities.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.latech.edu/about/index.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

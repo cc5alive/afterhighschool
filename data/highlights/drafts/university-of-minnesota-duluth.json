@@ -10,9 +10,13 @@
         {
           "title": "Costs & Aid | Admissions | University of Minnesota Duluth",
           "url": "https://admissions.d.umn.edu/costs-and-aid",
-          "quote": "The North Star Promise (NSP) program will cover the balance of tuition and fees remaining after other scholarships, grants, stipends, and tuition waivers have been applied for eligible Minnesota residents."
+          "quote": "The North Star Promise (NSP) program will cover the balance of tuition and fees remaining after other scholarships, grants, stipends, and tuition waivers have been applied for eligible Minnesota residents.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.d.umn.edu/costs-and-aid",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

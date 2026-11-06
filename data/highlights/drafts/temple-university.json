@@ -10,9 +10,13 @@
         {
           "title": "Temple Promise | Undergraduate Admissions",
           "url": "https://admissions.temple.edu/costs-aid-scholarships/temple-promise",
-          "quote": "As a last-dollar award, the program covers the remaining tuition and eligible fees after all other aid is applied to a student's tuition account."
+          "quote": "As a last-dollar award, the program covers the remaining tuition and eligible fees after all other aid is applied to a student's tuition account.",
+          "httpStatus": 200,
+          "finalUrl": "https://admissions.temple.edu/costs-aid-scholarships/temple-promise",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "UCA Commitment – UCA - University of Central Arkansas",
           "url": "https://uca.edu/commitment/",
-          "quote": "The UCA Commitment provides a debt-free degree pathway by covering tuition & academic fees for incoming Arkansas first-time undergraduate students who are Pell eligible OR have an annual household income of $100,000 or less."
+          "quote": "The UCA Commitment provides a debt-free degree pathway by covering tuition & academic fees for incoming Arkansas first-time undergraduate students who are Pell eligible OR have an annual household income of $100,000 or less.",
+          "httpStatus": 200,
+          "finalUrl": "https://uca.edu/commitment/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

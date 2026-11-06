@@ -26,9 +26,13 @@
         {
           "title": "UCSB Scholarship | Office of Financial Aid and Scholarships",
           "url": "https://www.finaid.ucsb.edu/types-aid/gift-aid/ucsb-scholarship",
-          "quote": "Most California families that earn up to $100,000 receive enough grant and scholarship funds to cover their UC tuition."
+          "quote": "Most California families that earn up to $100,000 receive enough grant and scholarship funds to cover their UC tuition.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.finaid.ucsb.edu/types-aid/gift-aid/ucsb-scholarship",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

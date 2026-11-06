@@ -10,9 +10,13 @@
         {
           "title": "Military Affiliated Students - Austin Peay State University",
           "url": "https://www.apsu.edu/admissions/apply/military.php",
-          "quote": "APSU offers in-state tuition and waived application fees to all of the nation's military-affiliated students, which includes active-duty military personnel,"
+          "quote": "APSU offers in-state tuition and waived application fees to all of the nation's military-affiliated students, which includes active-duty military personnel,",
+          "httpStatus": 200,
+          "finalUrl": "https://www.apsu.edu/admissions/apply/military.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

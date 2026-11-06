@@ -10,9 +10,13 @@
         {
           "title": "Four-Year Approach to Tuition : University of Dayton, Ohio",
           "url": "https://udayton.edu/tuition-aid/undergraduate/tuition-approach.php",
-          "quote": "The net tuition for each year in your financial aid offer is guaranteed, so you'll never have to worry about unexpected tuition increases because you have the information upfront."
+          "quote": "The net tuition for each year in your financial aid offer is guaranteed, so you'll never have to worry about unexpected tuition increases because you have the information upfront.",
+          "httpStatus": 200,
+          "finalUrl": "https://udayton.edu/tuition-aid/undergraduate/tuition-approach.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

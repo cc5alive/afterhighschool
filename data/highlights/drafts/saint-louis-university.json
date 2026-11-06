@@ -10,9 +10,13 @@
         {
           "title": "The Billiken Promise : SLU - Saint Louis University",
           "url": "https://www.slu.edu/admission/freshman/billiken-promise.php",
-          "quote": "All SLU undergrads have the opportunity to spend at least one term (fall, spring or summer) at our campus in Madrid, Spain. Your SLU undergraduate scholarships and grants will travel with you."
+          "quote": "All SLU undergrads have the opportunity to spend at least one term (fall, spring or summer) at our campus in Madrid, Spain. Your SLU undergraduate scholarships and grants will travel with you.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.slu.edu/admission/freshman/billiken-promise.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

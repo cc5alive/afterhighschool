@@ -10,9 +10,14 @@
         {
           "title": "Academic and General Regulations - Central Washington University",
           "url": "https://catalog.acalog.cwu.edu/content.php?catoid=95&navoid=9101",
-          "quote": "CWU operates on a quarter system and grants quarter credit. Some colleges operate on a semester basis (i.e., divide the academic year into two parts, exclusive of summer) and give semester credits."
+          "quote": "CWU operates on a quarter system and grants quarter credit. Some colleges operate on a semester basis (i.e., divide the academic year into two parts, exclusive of summer) and give semester credits.",
+          "httpStatus": 202,
+          "finalUrl": "https://catalog.acalog.cwu.edu/content.php?catoid=95&navoid=9101",
+          "quoteFound": true,
+          "browserChecked": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

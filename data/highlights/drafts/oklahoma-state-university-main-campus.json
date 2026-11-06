@@ -27,9 +27,16 @@
         {
           "title": "In-state Scholarships | Oklahoma State University",
           "url": "https://go.okstate.edu/scholarships-financial-aid/types-of-aid/scholarships-and-grants/freshman-scholarships/in-state-scholarships",
-          "quote": "Oklahoma's Promise is a state scholarship program for registered participants that covers tuition at OSU. Cowboy Covenant is a four-year cash award funded by OSU."
+          "quote": "Oklahoma's Promise is a state scholarship program for registered participants that covers tuition at OSU. Cowboy Covenant is a four-year cash award funded by OSU.",
+          "httpStatus": 403,
+          "finalUrl": "https://go.okstate.edu/scholarships-financial-aid/types-of-aid/scholarships-and-grants/freshman-scholarships/in-state-scholarships",
+          "quoteFound": null,
+          "browserChecked": true,
+          "closest": "go.okstate.edu performing security verification this website uses a security service to protect against malicious bots. this page is displayed while the website verifies you are not a bot. ray id: a55ff25ffec4ad1a performance and security by",
+          "closestScore": 0
         }
-      ]
+      ],
+      "quoteVerified": false
     }
   ],
   "concerns": null

@@ -10,9 +10,13 @@
         {
           "title": "Alumnus Montgomery returns as new Fresno State winemaker",
           "url": "https://jcast.fresnostate.edu/news/news-2017-18/2017-08-10-montgomery-new-winemaker.html",
-          "quote": "Fresno State houses the nation's first commercial winery on a university campus."
+          "quote": "Fresno State houses the nation's first commercial winery on a university campus.",
+          "httpStatus": 200,
+          "finalUrl": "https://jcast.fresnostate.edu/news/news-2017-18/2017-08-10-montgomery-new-winemaker.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

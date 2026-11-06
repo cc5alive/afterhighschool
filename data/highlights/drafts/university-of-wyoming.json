@@ -10,9 +10,13 @@
         {
           "title": "University of Wyoming Newe & Hinono'ei Scholarship",
           "url": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
-          "quote": "This fund, formerly called Wind River Promise, was created to provide scholarships to help support undergraduate students at the University of Wyoming who are enrolled members of the Eastern Shoshone Tribe or the Northern Arapaho Tribe."
+          "quote": "This fund, formerly called Wind River Promise, was created to provide scholarships to help support undergraduate students at the University of Wyoming who are enrolled members of the Eastern Shoshone Tribe or the Northern Arapaho Tribe.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.uwyo.edu/sfa/scholarships/residents/wind-river-promise.html",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

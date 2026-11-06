@@ -10,9 +10,13 @@
         {
           "title": "Do I Qualify for In-State Tuition? - Georgia Southern University",
           "url": "https://www.georgiasouthern.edu/admissions-aid/tuition-and-scholarships/do-i-qualify-for-in-state-tuition",
-          "quote": "Georgia Southern's Border State Waiver offers eligible students from neighboring states the opportunity to pursue their undergraduate education at in-state tuition rates."
+          "quote": "Georgia Southern's Border State Waiver offers eligible students from neighboring states the opportunity to pursue their undergraduate education at in-state tuition rates.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.georgiasouthern.edu/admissions-aid/tuition-and-scholarships/do-i-qualify-for-in-state-tuition",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

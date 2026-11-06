@@ -10,9 +10,13 @@
         {
           "title": "Comet Promise | University of Texas at Dallas",
           "url": "https://utdallas.edu/costs-scholarships-aid/costs/tuition/promise/",
-          "quote": "For eligible students, UTD will use sources such as scholarships, grants and/or tuition exemptions that come from federal, state and institutional levels to cover tuition and mandatory fees."
+          "quote": "For eligible students, UTD will use sources such as scholarships, grants and/or tuition exemptions that come from federal, state and institutional levels to cover tuition and mandatory fees.",
+          "httpStatus": 200,
+          "finalUrl": "https://utdallas.edu/costs-scholarships-aid/costs/tuition/promise/",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

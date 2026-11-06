@@ -10,9 +10,13 @@
         {
           "title": "SOCHE Consortium Request: NKU Student - IT Service Desk",
           "url": "https://servicedesk.nku.edu/TDClient/2436/Portal/Requests/ServiceDet?ID=50759",
-          "quote": "Cross‑registration is not complete until you are officially registered in the course at the host institution. You must follow the host institution's policies for registration, add/drop, withdrawal, and attendance."
+          "quote": "Cross‑registration is not complete until you are officially registered in the course at the host institution. You must follow the host institution's policies for registration, add/drop, withdrawal, and attendance.",
+          "httpStatus": 200,
+          "finalUrl": "https://servicedesk.nku.edu/TDClient/2436/Portal/Requests/Service/50759/SOCHE-Consortium-Request-NKU-Student",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null

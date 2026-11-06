@@ -10,9 +10,13 @@
         {
           "title": "ARCHE Cross Registration | UWG",
           "url": "https://www.westga.edu/student-services/registrar/arche-cross-registration.php",
-          "quote": "The Atlanta Regional Council for Higher Education's Cross Registration Program allows students at ARCHE member institutions to broaden their academic experience by registering for courses at other member colleges and universities."
+          "quote": "The Atlanta Regional Council for Higher Education's Cross Registration Program allows students at ARCHE member institutions to broaden their academic experience by registering for courses at other member colleges and universities.",
+          "httpStatus": 200,
+          "finalUrl": "https://www.westga.edu/student-services/registrar/arche-cross-registration.php",
+          "quoteFound": true
         }
-      ]
+      ],
+      "quoteVerified": true
     }
   ],
   "concerns": null
