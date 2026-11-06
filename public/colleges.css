@@ -314,3 +314,15 @@ button.button { cursor: pointer; font-family: inherit; }
 @media (max-width: 640px) { .tr-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tp-nat { display: block; margin: 0; } }
 .card-main { display: grid; gap: 4px; justify-items: start; }
 .card-save { font-size: 0.85rem; color: var(--muted); min-height: 28px; }
+
+/* Apprenticeships */
+.ap-grid a { border-top-color: var(--apprentice); }
+.ap-def { max-width: 46em; color: var(--muted); margin: 6px 0 14px; }
+.ap-callout { background: var(--card); border-left: 6px solid var(--apprentice); border-radius: 10px; padding: 12px 16px; max-width: 46em; }
+.ap-quote { margin: 0 0 20px; max-width: 46em; }
+.ap-quote blockquote { margin: 0; padding: 4px 0 4px 16px; border-left: 4px solid var(--rule); }
+.ap-quote blockquote p { margin: 0 0 8px; }
+.ap-quote figcaption { font-size: 0.85rem; color: var(--muted); }
+.ap-text { font-size: 1.1rem; }
+.ap-pay li { grid-template-columns: 11em 1fr 5em; }
+.ap-pay .hbar-fill { background: var(--apprentice); }

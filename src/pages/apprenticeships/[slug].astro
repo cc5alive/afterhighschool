@@ -1,0 +1,87 @@
+---
+// One occupation: what it is, what BLS says about apprenticeships, pay nationally and by state, outlook,
+// and where to find a program or a school-based alternative.
+import Layout from '../../layouts/Layout.astro';
+import { occupations, wageYear, projectionYears, apprenticeSources, apprenticePulledDate } from '../../lib/apprentice-data.js';
+import { tradeBySlug } from '../../lib/trade-data.js';
+import { money, int } from '../../lib/format.js';
+import { APPRENTICESHIPS_LAUNCHED } from '../../lib/site.js';
+export function getStaticPaths() {
+  return occupations.map((o) => ({ params: { slug: o.slug }, props: { o } }));
+}
+const { o } = Astro.props;
+const p = o.projections, w = o.wages;
+const trade = o.trade ? tradeBySlug.get(o.trade) : null;
+const growth = p.changePct == null ? null : p.changePct > 0 ? `grow ${p.changePct}%` : p.changePct < 0 ? `shrink ${Math.abs(p.changePct)}%` : 'stay about the same';
+const pctBar = (v) => (w.p90 ? Math.max(2, Math.min(100, (v / w.p90) * 100)) : 0);
+---
+<Layout title={`${o.name} apprenticeship: pay, outlook and how to start | After High School`}
+  description={`How to become a ${o.name.toLowerCase()} through an apprenticeship. National median pay ${money(w.median)}, pay by state and job outlook, from federal data.`}
+  path={`/apprenticeships/${o.slug}`} nav="colleges" noindex={!APPRENTICESHIPS_LAUNCHED}>
+  <article class="school">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="/apprenticeships">Apprenticeships</a></nav>
+    <header class="school-head">
+      <h1>{o.name}</h1>
+      {o.definition && <p class="ap-def">{o.definition} <a class="src" href={apprenticeSources.soc} rel="noopener" target="_blank">Federal job definition</a></p>}
+      <p class="school-links">
+        <a class="button" href={apprenticeSources.finder} rel="noopener" target="_blank">Find an apprenticeship</a>
+        {trade && <a class="button secondary" href={`/trades/${trade.slug}`}>Or train at a school</a>}
+      </p>
+    </header>
+
+    <section class="block" aria-labelledby="how">
+      <h2 id="how">How people get into it</h2>
+      {o.blsApprenticeship && <p class="ap-callout">The Bureau of Labor Statistics lists <strong>apprenticeship</strong> as the typical training for this job.</p>}
+      {o.oohQuotes.length > 0 && (
+        <figure class="ap-quote">
+          <blockquote>{o.oohQuotes.map((q) => <p>{q}</p>)}</blockquote>
+          <figcaption>From the <a href={p.ooh} rel="noopener" target="_blank">Occupational Outlook Handbook</a>, U.S. Bureau of Labor Statistics</figcaption>
+        </figure>
+      )}
+      <dl class="stat-grid">
+        <div class="stat"><dt>Typical education to start</dt><dd><span class="stat-value ap-text">{p.education}</span></dd></div>
+        <div class="stat"><dt>Typical training on the job</dt><dd><span class="stat-value ap-text">{p.training}</span></dd></div>
+      </dl>
+      <p class="block-lede">Registered apprenticeships are run by employers, unions and industry groups. To find openings near you, search the U.S. Department of Labor's <a href={apprenticeSources.finder} rel="noopener" target="_blank">apprenticeship finder</a>, or contact your state's apprenticeship office.</p>
+    </section>
+
+    <section class="block" aria-labelledby="pay">
+      <h2 id="pay">What it pays</h2>
+      <p class="block-lede">Yearly pay for all workers in this job nationally, including experienced ones. Apprentices usually start lower and get raises as they advance.</p>
+      {w.p10 && w.p90 && (
+        <ul class="hbars ap-pay" aria-label={`Pay range for ${o.name}`}>
+          {[['Bottom 10% earn under', w.p10], ['Middle (median)', w.median], ['Top 10% earn over', w.p90]].map(([l, v]) => (
+            <li><span class="hbar-label">{l}</span><span class="hbar-track"><span class="hbar-fill" style={`width:${pctBar(v)}%`}></span></span><span class="hbar-value">{money(v)}</span></li>
+          ))}
+        </ul>
+      )}
+      <a class="src" href={apprenticeSources.wages} rel="noopener" target="_blank">Source: BLS Occupational Employment and Wage Statistics, {wageYear}</a>
+      {o.stateRows.length > 0 && (
+        <details class="tp-other">
+          <summary>Median pay by state ({o.stateRows.length} states)</summary>
+          <div class="table-scroll">
+            <table class="nat-table">
+              <thead><tr><th scope="col">State</th><th scope="col">Median pay</th><th scope="col">Workers</th></tr></thead>
+              <tbody>{o.stateRows.map((s) => <tr><th scope="row">{s.name}</th><td>{money(s.median)}</td><td>{int(s.employment) ?? '—'}</td></tr>)}</tbody>
+            </table>
+          </div>
+        </details>
+      )}
+    </section>
+
+    <section class="block" aria-labelledby="outlook">
+      <h2 id="outlook">Job outlook</h2>
+      <dl class="stat-grid">
+        <div class="stat"><dt>People in this job</dt><dd><span class="stat-value">{int(p.employment)}</span></dd></div>
+        <div class="stat"><dt>Openings each year</dt><dd><span class="stat-value">{int(p.openings)}</span><span class="stat-note">projected average, {projectionYears}, including people retiring or changing jobs</span></dd></div>
+        <div class="stat"><dt>Change in jobs</dt><dd><span class="stat-value">{p.changePct != null ? `${p.changePct > 0 ? '+' : ''}${p.changePct}%` : '—'}</span><span class="stat-note">{growth && `expected to ${growth}, ${projectionYears}`}</span></dd></div>
+      </dl>
+      <a class="src" href={apprenticeSources.projections} rel="noopener" target="_blank">Source: BLS Employment Projections</a>
+    </section>
+
+    <section class="block sources" aria-labelledby="sources">
+      <h2 id="sources">Where these numbers come from</h2>
+      <p>Pay comes from the Bureau of Labor Statistics' wage survey ({wageYear}). Jobs, openings, growth, education and training come from BLS Employment Projections ({projectionYears}). The description of the job is the federal Standard Occupational Classification definition, and the quote is from the BLS Occupational Outlook Handbook. For how many apprentices there are in each state, see the Department of Labor's <a href={apprenticeSources.states} rel="noopener" target="_blank">apprentices by state dashboard</a>. Updated {apprenticePulledDate}.</p>
+    </section>
+  </article>
+</Layout>

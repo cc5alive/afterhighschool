@@ -1,0 +1,27 @@
+---
+// Apprenticeship guide hub: occupations you can learn on the job, with what they pay.
+import Layout from '../../layouts/Layout.astro';
+import { occupations, wageYear, apprenticeSources, apprenticePulledDate } from '../../lib/apprentice-data.js';
+import { money } from '../../lib/format.js';
+import { APPRENTICESHIPS_LAUNCHED } from '../../lib/site.js';
+---
+<Layout title="Apprenticeships: earn while you learn a trade | After High School"
+  description="Jobs you can learn through a paid apprenticeship, with what they pay, how many openings there are and where to find a program. From federal data."
+  path="/apprenticeships" nav="colleges" noindex={!APPRENTICESHIPS_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Apprenticeships</h1>
+    <p>In an apprenticeship you get hired, earn a paycheck and learn the job from experienced workers, usually with some classroom training on the side. Here are {occupations.length} jobs people commonly learn this way, with what they pay nationally and how many openings are expected each year.</p>
+  </section>
+  <ul class="trade-grid ap-grid">
+    {occupations.map((o) => (
+      <li>
+        <a href={`/apprenticeships/${o.slug}`}>
+          <span class="trade-name">{o.name}</span>
+          <span class="trade-earn">Median pay: <strong>{money(o.wages.median)}</strong> a year</span>
+          {o.projections.openings != null && <span class="trade-meta">About {o.projections.openings.toLocaleString('en-US')} openings a year</span>}
+        </a>
+      </li>
+    ))}
+  </ul>
+  <p class="wys-src">Pay is the national median for all workers in the job (<a href={apprenticeSources.wages} rel="noopener" target="_blank">BLS wage data, {wageYear}</a>); openings are the projected yearly average (<a href={apprenticeSources.projections} rel="noopener" target="_blank">BLS employment projections</a>). Updated {apprenticePulledDate}.</p>
+</Layout>
