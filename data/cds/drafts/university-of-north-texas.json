@@ -1,0 +1,148 @@
+{
+  "slug": "university-of-north-texas",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://institutionalresearch.unt.edu/cds_univnorthtx_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "applied_total": {
+      "value": 41247,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 41247"
+    },
+    "admitted_total": {
+      "value": 29242,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 29242"
+    },
+    "enrolled_total": {
+      "value": 6388,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 6388"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 40,
+      "quote": "Submitting SAT Scores 40.00"
+    },
+    "act_submit_pct": {
+      "value": 8,
+      "quote": "Submitting ACT Scores 8.00"
+    },
+    "sat_p25": {
+      "value": 960,
+      "quote": "SAT Composite 960"
+    },
+    "sat_p50": {
+      "value": 1080,
+      "quote": "SAT Composite 1080"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "SAT Composite 1210"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "ACT Composite 19"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "ACT Composite 22"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "ACT Composite 26"
+    },
+    "rank_top10_pct": {
+      "value": 13,
+      "quote": "Percent in top tenth of high school graduating class 13.00"
+    },
+    "rank_top25_pct": {
+      "value": 39,
+      "quote": "Percent in top quarter of high school graduating class 39.00"
+    },
+    "rank_submit_pct": {
+      "value": 93,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 93.00"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision: Does your institution offer an early decision plan ... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action: Do you have a nonbinding early action plan ... No"
+    }
+  },
+  "concerns": null
+}
