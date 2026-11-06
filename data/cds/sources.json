@@ -493,9 +493,10 @@
   "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf"
  },
  "the-university-of-texas-at-austin": {
-  "url": "https://reports.utexas.edu/common-data-set/pdf",
-  "year": "2024-2025",
-  "title": "Common Data Set 2024-2025"
+  "url": "https://reports.utexas.edu/common-data-set",
+  "year": "2025-2026",
+  "title": "Common Data Set 2025-2026",
+  "mirror": "data/cds/mirror/the-university-of-texas-at-austin.rows.json"
  },
  "johns-hopkins-university": {
   "url": "https://oira.jhu.edu/wp-content/uploads/2025-2026-CDS-Johns-Hopkins-University-v2.pdf",

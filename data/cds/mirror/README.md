@@ -12,3 +12,6 @@ Florida State publishes its CDS as web pages behind a section picker. CC saved s
 (kept in `florida-state-university/`); they were run through OCR into `florida-state-university.rows.json`.
 The D2 transfer table couldn't be OCR'd through its borders, so its rows were typed from the screenshot
 and checked (the gender rows add up to the totals).
+
+UT Austin's 2025-26 PDF uses a font that drops some letters ("otal" for "Total"), so its rows combine the
+PDF's text with an OCR'd copy of the D2 transfer table. UT left its SAT/ACT and GPA tables blank.
