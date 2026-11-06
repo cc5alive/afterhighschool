@@ -1,0 +1,70 @@
+{
+  "slug": "creighton-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.creighton.edu/sites/default/files/CDS_2025-2026_C.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 6389,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1005 5237 145 2 6389"
+    },
+    "admitted_total": {
+      "value": 5888,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 915 4845 126 2 5888"
+    },
+    "enrolled_total": {
+      "value": 1248,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 295 937 16 0 1248"
+    },
+    "waitlist_admitted": {
+      "value": 9,
+      "quote": "number of wait-listed students admitted: 9"
+    },
+    "rank_top10_pct": {
+      "value": 37.3,
+      "quote": "percent in top tenth of high school graduating class 37.30"
+    },
+    "rank_top25_pct": {
+      "value": 69.58,
+      "quote": "percent in top quarter of high school graduating class 69.58"
+    },
+    "gpa_average": {
+      "value": 3.92,
+      "quote": "average high school gpa 3.92"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.00"
+    },
+    "sat_p25": {
+      "value": 1280,
+      "quote": "sat composite 1280 1340 1410"
+    },
+    "sat_p50": {
+      "value": 1340,
+      "quote": "sat composite 1280 1340 1410"
+    },
+    "sat_p75": {
+      "value": 1410,
+      "quote": "sat composite 1280 1340 1410"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 26 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 26 28 31"
+    }
+  },
+  "concerns": null
+}

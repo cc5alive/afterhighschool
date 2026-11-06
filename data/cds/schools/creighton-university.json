@@ -1,0 +1,35 @@
+{
+  "slug": "creighton-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set",
+    "url": "https://www.creighton.edu/sites/default/files/CDS_2025-2026_C.pdf"
+  },
+  "builtAt": "2026-11-06",
+  "values": {
+    "waitlist_admitted": 9,
+    "sat_p25": 1280,
+    "sat_p50": 1340,
+    "sat_p75": 1410,
+    "act_p25": 26,
+    "act_p50": 28,
+    "act_p75": 31,
+    "rank_top10_pct": 37.3,
+    "rank_top25_pct": 69.58,
+    "gpa_average": 3.92,
+    "gpa_submit_pct": 100
+  },
+  "basis": {
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "reader"
+  }
+}

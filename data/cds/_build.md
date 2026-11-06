@@ -14,6 +14,7 @@ Built 2026-11-06.
 | claremont-mckenna-college | 2025-2026 | 36 | C11 buckets sum to 0.0 |
 | college-of-the-holy-cross | 2023-2024 | 19 | C11 buckets sum to 24.0 |
 | commonwealth-university-of-pennsylvania | 2025-2026 | 18 |  |
+| creighton-university | 2025-2026 | 11 | C1 failed consistency (applied 6389, admitted 5888, enrolled 1248, federal admit rate 0.7975) |
 | davidson-college | 2025-2026 | 14 | gpa_below1_pct read as the "totals = 100%" note; class rank inconsistent |
 | denison-university | 2025-2026 | 12 | sat_p50: reader 1360, Gemini 1400 (quote matched); act_p25: reads disagree (28 vs 30), left out; C11 buckets sum to 0.0; gpa_submit_pct implausibly low; act scores inconsistent (undefined, 31, 33) |
 | duke-university | 2025-2026 | 6 |  |
@@ -69,6 +70,7 @@ Built 2026-11-06.
 | university-of-miami | 2024-2025 | 0 |  |
 | university-of-minnesota-twin-cities | 2025-2026 | 5 | C11 buckets sum to 0.0; gpa_submit_pct implausibly low |
 | university-of-mississippi | - | 0 |  |
+| university-of-missouri-columbia | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.7847) |
 | university-of-nebraska-lincoln | 2025-2026 | 3 |  |
 | university-of-new-hampshire-main-campus | - | 11 | gpa_below1_pct read as the "totals = 100%" note |
 | university-of-new-mexico-main-campus | 2025-2026 | 11 | C1 failed consistency (applied 13589, admitted 10866, enrolled 3775, federal admit rate 0.9518) |
