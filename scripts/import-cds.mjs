@@ -23,6 +23,7 @@ const sourcesChanged = [];
 for (const e of out) {
   const notes = [];
   if (!slugs.has(e.slug)) { console.log(`SKIP ${e.slug}: unknown slug`); continue; }
+  if (e.source?.url) e.source.url = e.source.url.replace(/^http:\/\//, 'https://');
   // No document link from Gemini: fall back to the CDS page we already list for the school.
   if ((!e.source?.url || !/^https:\/\//.test(e.source.url)) && sources[e.slug]?.url) {
     e.source = { title: e.source?.title || 'Common Data Set', url: sources[e.slug].url };

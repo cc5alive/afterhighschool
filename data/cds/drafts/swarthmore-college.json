@@ -1,0 +1,144 @@
+{
+  "slug": "swarthmore-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-CDS-2025-26.pdf"
+  },
+  "researchedAt": "2026-11-05",
+  "values": {
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 40.14,
+      "quote": "Submitting SAT Scores 40.14"
+    },
+    "act_submit_pct": {
+      "value": 14.79,
+      "quote": "Submitting ACT Scores 14.79"
+    },
+    "sat_p25": {
+      "value": 1480,
+      "quote": "SAT Composite 1480"
+    },
+    "sat_p50": {
+      "value": 1520,
+      "quote": "SAT Composite 1520"
+    },
+    "sat_p75": {
+      "value": 1550,
+      "quote": "SAT Composite 1550"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "ACT Composite 34"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "ACT Composite 35"
+    },
+    "rank_top10_pct": {
+      "value": 86.72,
+      "quote": "Percent in top tenth of high school graduating class 86.72"
+    },
+    "rank_top25_pct": {
+      "value": 97.66,
+      "quote": "Percent in top quarter of high school graduating class 97.66"
+    },
+    "rank_submit_pct": {
+      "value": 30.05,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 30.05"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan Yes"
+    },
+    "ed_applied": {
+      "value": 1281,
+      "quote": "Number of early decision applications received by your institution: 1281"
+    },
+    "ed_admitted": {
+      "value": 228,
+      "quote": "Number of applicants admitted under early decision plan: 228"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan No"
+    }
+  },
+  "concerns": null
+}
