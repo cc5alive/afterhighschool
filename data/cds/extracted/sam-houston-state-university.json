@@ -1,0 +1,134 @@
+{
+  "slug": "sam-houston-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.shsu.edu/offices-departments/data-analytics-decision-support/documents/fall-2025-cds-final_v2.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "extractedBy": "extract-cds",
+  "readerVersion": 5,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 11,
+      "quote": "percent in top tenth of high school graduating class 11%"
+    },
+    "rank_top25_pct": {
+      "value": 34,
+      "quote": "percent in top quarter of high school graduating class 34%"
+    },
+    "applied_total": {
+      "value": 18093,
+      "quote": "total first-time, first-year males who applied 6139 / total first-time, first-year females who applied 11954 / total first-time, first-year students of unknown sex who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 16956,
+      "quote": "total first-time, first-year males who were admitted 5712 / total first-time, first-year females who were admitted 11244 / total first-time, first-year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 3376,
+      "quote": "total first-time, first-year males who enrolled 1126 / total first-time, first-year females who enrolled 2250 / total first-time, first-year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 930,
+      "quote": "sat composite 930 1020 1120"
+    },
+    "sat_p50": {
+      "value": 1020,
+      "quote": "sat composite 930 1020 1120"
+    },
+    "sat_p75": {
+      "value": 1120,
+      "quote": "sat composite 930 1020 1120"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 21 25"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "act composite 18 21 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 18 21 25"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
