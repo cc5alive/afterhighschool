@@ -2,10 +2,13 @@
   "slug": "william-and-mary",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://www.wm.edu/offices/ir/university_data/cds/cds_2025-26_c1.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.wm.edu/offices/ir/university_data/cds/"
   },
-  "sourceUrl": "https://www.wm.edu/offices/it/services/ir/university_data/cds/",
+  "sourceUrl": "https://www.wm.edu/offices/ir/university_data/cds/cds_2025-26_c1.pdf",
+  "extra": [
+    "https://www.wm.edu/offices/ir/university_data/cds/cds_2025-26_d.pdf"
+  ],
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 9,
@@ -169,6 +172,18 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 963,
+      "quote": "D2 total 963 440 206"
+    },
+    "transfer_admitted": {
+      "value": 440,
+      "quote": "D2 total 963 440 206"
+    },
+    "transfer_enrolled": {
+      "value": 206,
+      "quote": "D2 total 963 440 206"
     },
     "deferral_allowed": {
       "value": "yes",

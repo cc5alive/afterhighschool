@@ -2,8 +2,8 @@
   "slug": "william-and-mary",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://www.wm.edu/offices/ir/university_data/cds/cds_2025-26_c1.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.wm.edu/offices/ir/university_data/cds/"
   },
   "builtAt": "2026-11-06",
   "values": {
@@ -30,6 +30,9 @@
     "ed_admitted": 735,
     "deferral_allowed": "yes",
     "deferral_max": "2 Year",
+    "transfer_applied": 963,
+    "transfer_admitted": 440,
+    "transfer_enrolled": 206,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Very Important",
     "factor_gpa": "Very Important",
@@ -74,6 +77,9 @@
     "ed_admitted": "reader",
     "deferral_allowed": "reader",
     "deferral_max": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_rigor": "reader",
     "factor_class_rank": "reader",
     "factor_gpa": "reader",

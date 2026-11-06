@@ -213,7 +213,7 @@ Built 2026-11-06.
 | wentworth-institute-of-technology | 2025-2026 | 43 |  |
 | west-virginia-university | 2024-2025 | 27 |  |
 | western-kentucky-university | 2025-2026 | 20 | ACT 18-25 far from federal 16-21 |
-| william-and-mary | 2025-2026 | 42 |  |
+| william-and-mary | 2025-2026 | 45 |  |
 | williams-college | 2025-2026 | 0 |  |
 | worcester-polytechnic-institute | 2025-2026 | 41 | C1 failed consistency (applied 12355, admitted undefined, enrolled 1300, federal admit rate 0.6016) |
 | yale-university | 2025-2026 | 36 |  |
