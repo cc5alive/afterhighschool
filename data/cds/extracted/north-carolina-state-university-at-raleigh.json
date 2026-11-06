@@ -8,7 +8,7 @@
   "sourceUrl": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2025-26.v1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -58,6 +58,30 @@
     "gpa_submit_pct": {
       "value": 98.11,
       "quote": "percent submitting gpa 98.11"
+    },
+    "sat_p25": {
+      "value": 1310,
+      "quote": "sat composite 1310 1390 1440"
+    },
+    "sat_p50": {
+      "value": 1390,
+      "quote": "sat composite 1310 1390 1440"
+    },
+    "sat_p75": {
+      "value": 1440,
+      "quote": "sat composite 1310 1390 1440"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 29 32"
+    },
+    "act_p50": {
+      "value": 29,
+      "quote": "act composite 25 29 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 25 29 32"
     },
     "factor_rigor": {
       "value": "Very Important",

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.colgate.edu/sites/default/files/2026-07/CDS-PDF-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -70,6 +70,30 @@
     "ed_admitted": {
       "value": 477,
       "quote": "number of applicants admitted under early decision plan: 477"
+    },
+    "sat_p25": {
+      "value": 1450,
+      "quote": "sat composite 1450 1480 1510"
+    },
+    "sat_p50": {
+      "value": 1480,
+      "quote": "sat composite 1450 1480 1510"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "sat composite 1450 1480 1510"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 33 34 35"
     },
     "factor_rigor": {
       "value": "Very Important",

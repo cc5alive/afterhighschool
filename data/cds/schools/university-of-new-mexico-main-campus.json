@@ -7,6 +7,12 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "sat_p25": 920,
+    "sat_p50": 1030,
+    "sat_p75": 1170,
+    "act_p25": 20,
+    "act_p50": 23,
+    "act_p75": 26,
     "gpa_400_pct": 12.9,
     "gpa_375_pct": 18,
     "gpa_350_pct": 20.8,
@@ -25,6 +31,12 @@
     "transfer_enrolled": 1185
   },
   "basis": {
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
     "gpa_400_pct": "reader",
     "gpa_375_pct": "reader",
     "gpa_350_pct": "reader",

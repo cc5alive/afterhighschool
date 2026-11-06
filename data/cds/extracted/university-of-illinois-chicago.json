@@ -8,7 +8,7 @@
   "sourceUrl": "https://oir.uic.edu/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -77,6 +77,30 @@
       "value": 5405,
       "quote": "total first-time, first-year men who enrolled 2524 / total first-time, first-year women who enrolled 2881 / total first-time, first-year unknown sex who enrolled",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1030,
+      "quote": "sat composite 1030 1170 1300"
+    },
+    "sat_p50": {
+      "value": 1170,
+      "quote": "sat composite 1030 1170 1300"
+    },
+    "sat_p75": {
+      "value": 1300,
+      "quote": "sat composite 1030 1170 1300"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "act composite 24 27 31"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "act composite 24 27 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 24 27 31"
     },
     "factor_rigor": {
       "value": "Very Important",

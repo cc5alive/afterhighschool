@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.davidson.edu/media/9718/download?attachment",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -70,6 +70,30 @@
     "ed_admitted": {
       "value": 358,
       "quote": "number of applicants admitted under early decision plan: 358"
+    },
+    "sat_p25": {
+      "value": 1410,
+      "quote": "sat composite 1410 1460 1500"
+    },
+    "sat_p50": {
+      "value": 1460,
+      "quote": "sat composite 1410 1460 1500"
+    },
+    "sat_p75": {
+      "value": 1500,
+      "quote": "sat composite 1410 1460 1500"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 32 33 34"
     },
     "factor_rigor": {
       "value": "Very Important",

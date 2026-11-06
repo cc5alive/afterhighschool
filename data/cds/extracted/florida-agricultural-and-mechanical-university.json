@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.famu.edu/administration/strategic-planning-analysis-and-institutional-effectiveness/institutional-research/surveys/pdf/cds/CDS_2023-2024.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -38,6 +38,18 @@
     "sat_p75": {
       "value": 1150,
       "quote": "sat composite 1040 1090 1150"
+    },
+    "act_p25": {
+      "value": 19.5,
+      "quote": "act composite 19.5 21.75 23.75"
+    },
+    "act_p50": {
+      "value": 21.75,
+      "quote": "act composite 19.5 21.75 23.75"
+    },
+    "act_p75": {
+      "value": 23.75,
+      "quote": "act composite 19.5 21.75 23.75"
     },
     "deferral_allowed": {
       "value": "no",

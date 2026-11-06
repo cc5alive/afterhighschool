@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.bates.edu/research/files/2026/06/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -34,6 +34,30 @@
     "ed_admitted": {
       "value": 318,
       "quote": "number of applicants admitted under early decision plan: 318"
+    },
+    "sat_p25": {
+      "value": 1325,
+      "quote": "sat composite 1325 1440 1510"
+    },
+    "sat_p50": {
+      "value": 1440,
+      "quote": "sat composite 1325 1440 1510"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "sat composite 1325 1440 1510"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "act composite 31 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 31 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 31 32 34"
     },
     "factor_rigor": {
       "value": "Very Important",

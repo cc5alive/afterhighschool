@@ -8,7 +8,7 @@
   "sourceUrl": "https://ira.howard.edu/sites/ira.howard.edu/files/2026-06/CDS%20PDF%202526_06.25.26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -74,6 +74,30 @@
     "ed_admitted": {
       "value": 363,
       "quote": "number of applicants admitted under early decision plan: 363"
+    },
+    "sat_p25": {
+      "value": 1050,
+      "quote": "sat composite 1050 1150 1270"
+    },
+    "sat_p50": {
+      "value": 1150,
+      "quote": "sat composite 1050 1150 1270"
+    },
+    "sat_p75": {
+      "value": 1270,
+      "quote": "sat composite 1050 1150 1270"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite 20 23 26"
+    },
+    "act_p50": {
+      "value": 23,
+      "quote": "act composite 20 23 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 20 23 26"
     },
     "factor_rigor": {
       "value": "Very Important",

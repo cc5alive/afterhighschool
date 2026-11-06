@@ -8,7 +8,7 @@
   "sourceUrl": "https://web.uri.edu/ir/wp-content/uploads/sites/276/CDS-PDF-2025-2026_fillablePDF.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -86,6 +86,30 @@
     "ed_admitted": {
       "value": 150,
       "quote": "number of applicants admitted under early decision plan: 150"
+    },
+    "sat_p25": {
+      "value": 1090,
+      "quote": "sat composite 1090 1210 1310"
+    },
+    "sat_p50": {
+      "value": 1210,
+      "quote": "sat composite 1090 1210 1310"
+    },
+    "sat_p75": {
+      "value": 1310,
+      "quote": "sat composite 1090 1210 1310"
+    },
+    "act_p25": {
+      "value": 24.5,
+      "quote": "act composite 24.5 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 24.5 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 24.5 28 31"
     },
     "factor_rigor": {
       "value": "Very Important",

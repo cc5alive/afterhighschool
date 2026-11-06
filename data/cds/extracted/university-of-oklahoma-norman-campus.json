@@ -8,7 +8,7 @@
   "sourceUrl": "https://ou.edu/content/dam/irr/docs/common-data-sets/norman-campus-only/2025-26-nc/University%20of%20Oklahoma,%202025-26%20CDS.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -67,6 +67,30 @@
       "value": 22660,
       "quote": "total first-time, first-year men who were admitted 9554 / total first-time, first-year women who were admitted 13106 / total first-time, first-year unknown gender who were admitted",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "sat composite 1160 1232.43 1310"
+    },
+    "sat_p50": {
+      "value": 1232.43,
+      "quote": "sat composite 1160 1232.43 1310"
+    },
+    "sat_p75": {
+      "value": 1310,
+      "quote": "sat composite 1160 1232.43 1310"
+    },
+    "act_p25": {
+      "value": 23,
+      "quote": "act composite 23 25.76 28"
+    },
+    "act_p50": {
+      "value": 25.76,
+      "quote": "act composite 23 25.76 28"
+    },
+    "act_p75": {
+      "value": 28,
+      "quote": "act composite 23 25.76 28"
     },
     "factor_rigor": {
       "value": "Very Important",

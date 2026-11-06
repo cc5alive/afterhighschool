@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.washington.edu/opb/data-reports/common-data-set/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -70,6 +70,30 @@
     "gpa_submit_pct": {
       "value": 99.87,
       "quote": "percent submitting gpa 99.87"
+    },
+    "sat_p25": {
+      "value": 1320,
+      "quote": "sat composite 1320 1440 1502"
+    },
+    "sat_p50": {
+      "value": 1440,
+      "quote": "sat composite 1320 1440 1502"
+    },
+    "sat_p75": {
+      "value": 1502,
+      "quote": "sat composite 1320 1440 1502"
+    },
+    "act_p25": {
+      "value": 30,
+      "quote": "act composite 30 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 30 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 30 32 34"
     },
     "factor_rigor": {
       "value": "Very Important",

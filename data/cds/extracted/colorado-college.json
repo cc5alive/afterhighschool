@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -86,6 +86,30 @@
     "ed_admitted": {
       "value": 272,
       "quote": "number of applicants admitted under early decision plan: 272"
+    },
+    "sat_p25": {
+      "value": 1240,
+      "quote": "sat composite 1240 1340 1430"
+    },
+    "sat_p50": {
+      "value": 1340,
+      "quote": "sat composite 1240 1340 1430"
+    },
+    "sat_p75": {
+      "value": 1430,
+      "quote": "sat composite 1240 1340 1430"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 28 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 28 32 34"
     },
     "factor_rigor": {
       "value": "Important",

@@ -8,7 +8,7 @@
   "sourceUrl": "https://prod.wp.cdn.aws.wfu.edu/sites/202/2026/06/CDS_2025-2026-PDF_Template_WFU.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -33,6 +33,30 @@
       "value": 1544,
       "quote": "total first-time, first-year men who enrolled 676 / total first-time, first-year women who enrolled 868 / total first-time, first-year unknown sex who enrolled 0",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1420,
+      "quote": "sat composite 1420 1450 1490"
+    },
+    "sat_p50": {
+      "value": 1450,
+      "quote": "sat composite 1420 1450 1490"
+    },
+    "sat_p75": {
+      "value": 1490,
+      "quote": "sat composite 1420 1450 1490"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 32 33 34"
     },
     "factor_rigor": {
       "value": "Very Important",

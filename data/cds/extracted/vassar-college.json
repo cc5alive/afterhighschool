@@ -8,7 +8,7 @@
   "sourceUrl": "https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -42,6 +42,30 @@
     "ed_admitted": {
       "value": 402,
       "quote": "number of applicants admitted under early decision plan: 402"
+    },
+    "sat_p25": {
+      "value": 1460,
+      "quote": "sat composite 1460 1490 1520"
+    },
+    "sat_p50": {
+      "value": 1490,
+      "quote": "sat composite 1460 1490 1520"
+    },
+    "sat_p75": {
+      "value": 1520,
+      "quote": "sat composite 1460 1490 1520"
+    },
+    "act_p25": {
+      "value": 33,
+      "quote": "act composite 33 34 34"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 33 34 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 33 34 34"
     },
     "factor_rigor": {
       "value": "Very Important",

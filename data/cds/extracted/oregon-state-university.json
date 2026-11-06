@@ -8,7 +8,7 @@
   "sourceUrl": "https://institutionalresearch.oregonstate.edu/common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -74,6 +74,18 @@
     "gpa_average": {
       "value": 3.7,
       "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.70"
+    },
+    "sat_p25": {
+      "value": 1127.5,
+      "quote": "sat composite 1127.5 1270 1360"
+    },
+    "sat_p50": {
+      "value": 1270,
+      "quote": "sat composite 1127.5 1270 1360"
+    },
+    "sat_p75": {
+      "value": 1360,
+      "quote": "sat composite 1127.5 1270 1360"
     },
     "act_p25": {
       "value": 24,

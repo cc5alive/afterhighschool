@@ -8,7 +8,7 @@
   "sourceUrl": "https://jsu.edu/ire/common-data-set/index.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -77,6 +77,30 @@
       "value": 1641,
       "quote": "total first-time, first-year men who enrolled 644 / total first-time, first-year women who enrolled 997 / total first-time, first-year unknown sex who enrolled 0",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "sat composite 950 1070 1210"
+    },
+    "sat_p50": {
+      "value": 1070,
+      "quote": "sat composite 950 1070 1210"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "sat composite 950 1070 1210"
+    },
+    "act_p25": {
+      "value": 17,
+      "quote": "act composite 17 20 24"
+    },
+    "act_p50": {
+      "value": 20,
+      "quote": "act composite 17 20 24"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "act composite 17 20 24"
     },
     "factor_rigor": {
       "value": "Not Considered",

@@ -8,7 +8,7 @@
   "sourceUrl": "https://effectiveness.syr.edu/wp-content/uploads/2026/09/CDS_2025-26_Complete.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -86,6 +86,30 @@
     "ed_admitted": {
       "value": 1478,
       "quote": "number of applicants admitted under early decision plan: 1478"
+    },
+    "sat_p25": {
+      "value": 1300,
+      "quote": "sat composite 1300 1350 1410"
+    },
+    "sat_p50": {
+      "value": 1350,
+      "quote": "sat composite 1300 1350 1410"
+    },
+    "sat_p75": {
+      "value": 1410,
+      "quote": "sat composite 1300 1350 1410"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 29 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 29 31 33"
     },
     "factor_rigor": {
       "value": "Very Important",

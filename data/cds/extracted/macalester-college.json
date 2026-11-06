@@ -8,7 +8,7 @@
   "sourceUrl": "https://macalester.edu/ir/institutionaldata",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -45,6 +45,30 @@
       "value": 534,
       "quote": "total first-time, first-year men who enrolled 232 / total first-time, first-year women who enrolled 300 / total first-time, first-year unknown sex who enrolled 2",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1350,
+      "quote": "sat composite 1350 1420 1480"
+    },
+    "sat_p50": {
+      "value": 1420,
+      "quote": "sat composite 1350 1420 1480"
+    },
+    "sat_p75": {
+      "value": 1480,
+      "quote": "sat composite 1350 1420 1480"
+    },
+    "act_p25": {
+      "value": 29.75,
+      "quote": "act composite 29.75 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 29.75 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 29.75 31 33"
     },
     "factor_rigor": {
       "value": "Very Important",

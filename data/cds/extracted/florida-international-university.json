@@ -8,7 +8,7 @@
   "sourceUrl": "https://aim.fiu.edu/cds/CDS2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -73,6 +73,30 @@
       "value": 5854,
       "quote": "total first-time, first-year men who enrolled 2701 / total first-time, first-year women who enrolled 3153 / total first-time, first-year unknown sex who enrolled 0",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1070,
+      "quote": "sat composite 1070 1170 1260"
+    },
+    "sat_p50": {
+      "value": 1170,
+      "quote": "sat composite 1070 1170 1260"
+    },
+    "sat_p75": {
+      "value": 1260,
+      "quote": "sat composite 1070 1170 1260"
+    },
+    "act_p25": {
+      "value": 22,
+      "quote": "act composite 22 25 27"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "act composite 22 25 27"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "act composite 22 25 27"
     },
     "factor_rigor": {
       "value": "Very Important",

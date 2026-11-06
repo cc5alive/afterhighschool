@@ -8,7 +8,7 @@
   "sourceUrl": "https://oiep.gmu.edu/wp-content/uploads/2026/02/CDS-PDF-2025-2026_PDF_Template_Final_02_19.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -78,6 +78,30 @@
     "gpa_submit_pct": {
       "value": 99.7,
       "quote": "percent submitting gpa 99.70"
+    },
+    "sat_p25": {
+      "value": 1180,
+      "quote": "sat composite 1180 1260 1360"
+    },
+    "sat_p50": {
+      "value": 1260,
+      "quote": "sat composite 1180 1260 1360"
+    },
+    "sat_p75": {
+      "value": 1360,
+      "quote": "sat composite 1180 1260 1360"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 25 28 31"
     },
     "factor_rigor": {
       "value": "Very Important",

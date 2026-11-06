@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.usf.edu/ods/documents/cds/usf-cds-2025-2026-final-v2.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -58,6 +58,30 @@
     "gpa_submit_pct": {
       "value": 99.9,
       "quote": "percent submitting gpa 99.9"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "sat composite 1160 1250 1340"
+    },
+    "sat_p50": {
+      "value": 1250,
+      "quote": "sat composite 1160 1250 1340"
+    },
+    "sat_p75": {
+      "value": 1340,
+      "quote": "sat composite 1160 1250 1340"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 27 29"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "act composite 25 27 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "act composite 25 27 29"
     },
     "factor_rigor": {
       "value": "Very Important",

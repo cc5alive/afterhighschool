@@ -8,7 +8,7 @@
   "sourceUrl": "https://uakron.edu/ir/common-data-set.dot",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
@@ -76,6 +76,30 @@
       "value": 10427,
       "quote": "total first-time, first-year men who were admitted 4811 / total first-time, first-year women who were admitted 5560 / total first-time, first-year unknown sex who were admitted 56",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 960,
+      "quote": "sat composite 960 1080 1200"
+    },
+    "sat_p50": {
+      "value": 1080,
+      "quote": "sat composite 960 1080 1200"
+    },
+    "sat_p75": {
+      "value": 1200,
+      "quote": "sat composite 960 1080 1200"
+    },
+    "act_p25": {
+      "value": 17,
+      "quote": "act composite 17 21 25"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "act composite 17 21 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 17 21 25"
     },
     "factor_rigor": {
       "value": "Very Important",

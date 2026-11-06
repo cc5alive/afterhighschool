@@ -9,6 +9,9 @@
   "values": {
     "applied_total": 9080,
     "admitted_total": 8643,
+    "sat_p25": 1110,
+    "sat_p50": 1190,
+    "sat_p75": 1280,
     "rank_top10_pct": 22,
     "rank_top25_pct": 44,
     "gpa_400_pct": 13,
@@ -49,6 +52,9 @@
   "basis": {
     "applied_total": "reader",
     "admitted_total": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
     "rank_top10_pct": "reader",
     "rank_top25_pct": "reader",
     "gpa_400_pct": "reader",

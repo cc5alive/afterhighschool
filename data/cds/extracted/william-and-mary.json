@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.wm.edu/offices/it/services/ir/university_data/cds/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -73,6 +73,30 @@
       "value": 1639,
       "quote": "total first-time, first-year men who enrolled 647 / total first-time, first-year women who enrolled 991 / total first-time, first-year unknown sex who enrolled 1",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1390,
+      "quote": "sat composite 1390 1450 1520"
+    },
+    "sat_p50": {
+      "value": 1450,
+      "quote": "sat composite 1390 1450 1520"
+    },
+    "sat_p75": {
+      "value": 1520,
+      "quote": "sat composite 1390 1450 1520"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 32 33 34"
     },
     "factor_rigor": {
       "value": "Very Important",

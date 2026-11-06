@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.unh.edu/institutional-research/sites/default/files/media/2026-09/CDS%202025-2026%20UNH%20Published%209.2.26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -54,6 +54,30 @@
     "gpa_submit_pct": {
       "value": 100,
       "quote": "percent submitting gpa 100"
+    },
+    "sat_p25": {
+      "value": 1120,
+      "quote": "sat composite 1120 1230 1310"
+    },
+    "sat_p50": {
+      "value": 1230,
+      "quote": "sat composite 1120 1230 1310"
+    },
+    "sat_p75": {
+      "value": 1310,
+      "quote": "sat composite 1120 1230 1310"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 28 30"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 26 28 30"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "act composite 26 28 30"
     },
     "factor_rigor": {
       "value": "Very Important",

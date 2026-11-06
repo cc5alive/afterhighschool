@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.umt.edu/institutional-research/documents/cds-pdf-2025-2026_pdf_template1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -72,6 +72,30 @@
       "value": 8643,
       "quote": "total first-time, first-year men who were admitted 3643 / total first-time, first-year women who were admitted 5000 / total first-time, first-year unknown sex who were admitted 0",
       "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1110,
+      "quote": "sat composite 1110 1190 1280"
+    },
+    "sat_p50": {
+      "value": 1190,
+      "quote": "sat composite 1110 1190 1280"
+    },
+    "sat_p75": {
+      "value": 1280,
+      "quote": "sat composite 1110 1190 1280"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 26"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 19 22 26"
     },
     "factor_rigor": {
       "value": "Very Important",

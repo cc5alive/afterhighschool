@@ -8,7 +8,7 @@
   "sourceUrl": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -78,6 +78,30 @@
     "gpa_submit_pct": {
       "value": 92,
       "quote": "percent submitting gpa 92.00"
+    },
+    "sat_p25": {
+      "value": 1100,
+      "quote": "sat composite 1100 1210 1310"
+    },
+    "sat_p50": {
+      "value": 1210,
+      "quote": "sat composite 1100 1210 1310"
+    },
+    "sat_p75": {
+      "value": 1310,
+      "quote": "sat composite 1100 1210 1310"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 25 28 31"
     },
     "factor_rigor": {
       "value": "Important",

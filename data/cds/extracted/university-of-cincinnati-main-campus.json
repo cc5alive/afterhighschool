@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -74,6 +74,30 @@
     "gpa_submit_pct": {
       "value": 99.72,
       "quote": "percent submitting gpa 99.72"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "sat composite 1160 1250 1340"
+    },
+    "sat_p50": {
+      "value": 1250,
+      "quote": "sat composite 1160 1250 1340"
+    },
+    "sat_p75": {
+      "value": 1340,
+      "quote": "sat composite 1160 1250 1340"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "act composite 24 27 30"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "act composite 24 27 30"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "act composite 24 27 30"
     },
     "factor_rigor": {
       "value": "Important",

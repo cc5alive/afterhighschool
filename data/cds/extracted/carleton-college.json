@@ -8,7 +8,7 @@
   "sourceUrl": "https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -42,6 +42,30 @@
     "ed_admitted": {
       "value": 263,
       "quote": "number of applicants admitted under early decision plan: 263"
+    },
+    "sat_p25": {
+      "value": 1460,
+      "quote": "sat composite 1460 1500 1530"
+    },
+    "sat_p50": {
+      "value": 1500,
+      "quote": "sat composite 1460 1500 1530"
+    },
+    "sat_p75": {
+      "value": 1530,
+      "quote": "sat composite 1460 1500 1530"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p50": {
+      "value": 34,
+      "quote": "act composite 32 34 35"
+    },
+    "act_p75": {
+      "value": 35,
+      "quote": "act composite 32 34 35"
     },
     "factor_rigor": {
       "value": "Very Important",

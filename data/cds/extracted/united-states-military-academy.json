@@ -8,7 +8,7 @@
   "sourceUrl": "https://s3.amazonaws.com/usma-media/inline-images/about/g5/G5OIR_CDS_2024-2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -66,6 +66,30 @@
     "gpa_submit_pct": {
       "value": 100,
       "quote": "percent submitting gpa 100"
+    },
+    "sat_p25": {
+      "value": 1210,
+      "quote": "sat composite 1210 1330 1420"
+    },
+    "sat_p50": {
+      "value": 1330,
+      "quote": "sat composite 1210 1330 1420"
+    },
+    "sat_p75": {
+      "value": 1420,
+      "quote": "sat composite 1210 1330 1420"
+    },
+    "act_p25": {
+      "value": 27,
+      "quote": "act composite 27 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 27 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 27 31 33"
     },
     "factor_rigor": {
       "value": "Very Important",

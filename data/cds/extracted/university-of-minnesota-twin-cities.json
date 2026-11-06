@@ -8,7 +8,7 @@
   "sourceUrl": "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2025_2026_tc_0.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -30,6 +30,30 @@
     "rank_top25_pct": {
       "value": 71.22,
       "quote": "percent in top quarter of high school graduating class 71.22"
+    },
+    "sat_p25": {
+      "value": 1310,
+      "quote": "sat composite 1310 1390 1460"
+    },
+    "sat_p50": {
+      "value": 1390,
+      "quote": "sat composite 1310 1390 1460"
+    },
+    "sat_p75": {
+      "value": 1460,
+      "quote": "sat composite 1310 1390 1460"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 29 32"
+    },
+    "act_p50": {
+      "value": 29,
+      "quote": "act composite 26 29 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 26 29 32"
     },
     "factor_rigor": {
       "value": "Very Important",

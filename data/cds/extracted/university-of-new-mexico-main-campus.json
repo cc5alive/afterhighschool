@@ -8,7 +8,7 @@
   "sourceUrl": "https://oia.unm.edu/resources/cds_25_26_updated.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -66,6 +66,30 @@
     "gpa_submit_pct": {
       "value": 75.5,
       "quote": "percent submitting gpa 75.5"
+    },
+    "sat_p25": {
+      "value": 920,
+      "quote": "sat composite 920 1030 1170"
+    },
+    "sat_p50": {
+      "value": 1030,
+      "quote": "sat composite 920 1030 1170"
+    },
+    "sat_p75": {
+      "value": 1170,
+      "quote": "sat composite 920 1030 1170"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite 20 23 26"
+    },
+    "act_p50": {
+      "value": 23,
+      "quote": "act composite 20 23 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 20 23 26"
     },
     "transfer_applied": {
       "value": 2619,

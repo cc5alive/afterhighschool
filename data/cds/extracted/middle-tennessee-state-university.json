@@ -8,7 +8,7 @@
   "sourceUrl": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2026/07/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -66,6 +66,30 @@
     "gpa_submit_pct": {
       "value": 100,
       "quote": "percent submitting gpa 100"
+    },
+    "sat_p25": {
+      "value": 1020,
+      "quote": "sat composite 1020 1120 1220"
+    },
+    "sat_p50": {
+      "value": 1120,
+      "quote": "sat composite 1020 1120 1220"
+    },
+    "sat_p75": {
+      "value": 1220,
+      "quote": "sat composite 1020 1120 1220"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 19 22 25"
     },
     "factor_rigor": {
       "value": "Considered",

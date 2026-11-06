@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.utc.edu/sites/default/files/2026-09/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 7,
+  "readerVersion": 8,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -66,6 +66,30 @@
     "gpa_submit_pct": {
       "value": 99.7,
       "quote": "percent submitting gpa 99.7"
+    },
+    "sat_p25": {
+      "value": 983,
+      "quote": "sat composite 983 1080 1150"
+    },
+    "sat_p50": {
+      "value": 1080,
+      "quote": "sat composite 983 1080 1150"
+    },
+    "sat_p75": {
+      "value": 1150,
+      "quote": "sat composite 983 1080 1150"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite 20 22 25"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 20 22 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 20 22 25"
     },
     "factor_rigor": {
       "value": "Very Important",
