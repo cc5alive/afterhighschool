@@ -1,0 +1,75 @@
+{
+ "checkedAt": "2026-11-06T08:04:43.038Z",
+ "states": {
+  "CA": {
+   "name": "ASSIST",
+   "url": "https://assist.org/",
+   "finalUrl": "https://assist.org/",
+   "status": 200,
+   "title": "Welcome to ASSIST"
+  },
+  "NY": {
+   "name": "SUNY Transfer",
+   "url": "https://transfer.suny.edu/",
+   "finalUrl": "https://transfer.suny.edu/",
+   "status": 200,
+   "title": "SUNY Transfer Support - SUNY"
+  },
+  "IL": {
+   "name": "Illinois Articulation Initiative (iTransfer)",
+   "url": "https://itransfer.org/",
+   "finalUrl": "https://itransfer.org/",
+   "status": 200,
+   "title": "iTransfer | Illinois State"
+  },
+  "PA": {
+   "name": "PA College Transfer",
+   "url": "https://collegetransfer.pa.gov/Student",
+   "finalUrl": "https://collegetransfer.pa.gov/Student",
+   "status": 200,
+   "title": "Keeping PA transfer students on track to a college degree"
+  },
+  "VA": {
+   "name": "Transfer Virginia",
+   "url": "https://www.transfervirginia.org/",
+   "finalUrl": "https://www.transfervirginia.org/",
+   "status": 200,
+   "title": "Home | Transfer Virginia"
+  },
+  "NC": {
+   "name": "NC Community Colleges: Comprehensive Articulation Agreement",
+   "url": "https://nccommunitycolleges.edu/comprehensive-articulation-agreement-caa",
+   "finalUrl": "https://www.nccommunitycolleges.edu/students/enrollment-and-registration/university-transfer/articulation-agreements/comprehensive-articulation-agreement/",
+   "status": 200,
+   "title": "Comprehensive Articulation Agreement - NCCCS"
+  },
+  "TN": {
+   "name": "Tennessee Transfer Pathway",
+   "url": "https://www.tbr.edu/initiatives/tennessee-transfer-pathway",
+   "finalUrl": "https://www.tbr.edu/initiatives/tennessee-transfer-pathway",
+   "status": 200,
+   "title": "Tennessee Transfer Pathway | Tennessee Board of Regents"
+  },
+  "CO": {
+   "name": "Colorado Department of Higher Education: Transfer",
+   "url": "https://transfer.highered.colorado.gov/",
+   "finalUrl": "https://transfer.highered.colorado.gov/",
+   "status": 200,
+   "title": "Home | Colorado Department of Higher Education Home"
+  },
+  "MA": {
+   "name": "MassTransfer",
+   "url": "https://www.mass.edu/masstransfer/",
+   "finalUrl": "https://www.mass.edu/masstransfer/",
+   "status": 200,
+   "title": "MassTransfer / Massachusetts Department of Higher Education"
+  },
+  "AZ": {
+   "name": "AZTransfer",
+   "url": "https://aztransfer.com/",
+   "finalUrl": "https://aztransfer.com/",
+   "status": 200,
+   "title": "AZTransfer"
+  }
+ }
+}
