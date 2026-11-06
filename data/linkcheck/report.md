@@ -1,6 +1,6 @@
 # Link check
 
-Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (timeouts, server errors), 831 blocked automated checks.
+Checked 2026-11-06: 11095 outside links. 9000 work, 531 broken, 729 errors (timeouts, server errors), 835 blocked automated checks.
 
 ## Broken (404, 410 or the site no longer exists)
 
@@ -500,7 +500,9 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.tompkinscortland.edu/admissions/net-price-calculator | 404 | /trades/school/tompkins-cortland-community-college |
 | https://www.tonsorialartsbarbercollege.com/wp-content/uploads/2020/01/Net-Price-Calculator-2.html | 404 | /trades/school/tonsorial-arts-barber-college |
 | https://www.tooeletech.edu/NetPriceCalculator/npcalc.htm | 404 | /trades/school/tooele-technical-college |
+| https://trendsettersjax.com/wp-content/uploads/2015/01/npcalc.htm | 404 | /trades/school/trendsetters-school-of-beauty-and-barbering |
 | https://www.c-vusd.org/domain/464 | 404 | /trades/school/tri-community-adult-education |
+| https://adult.tricounty.cc/student-services/financial-aid | 404 | /trades/school/tri-county-adult-career-center |
 | https://tririvers.com/wp-content/uploads/2024/08/np_cal20240827.html | 404 | /trades/school/tri-rivers-career-center |
 | https://turningpointbeauty.com/net-price | 404 | /trades/school/turning-point-beauty-college |
 | https://www.tm.edu/netprice/ | 404 | /trades/school/turtle-mountain-college |
@@ -574,6 +576,8 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.baismedrashzichronmeir.com/links/ | 520 | /college/beth-medrash-of-asbury-park |
 | https://www.bethanywv.edu/ | UND_ERR_SOCKET | /college/bethany-college-wv |
 | https://www.bethanywv.edu/admissions-aid/cost-of-attendance/net-price-calculator/ | UND_ERR_SOCKET | /college/bethany-college-wv |
+| https://www.beulah.edu/ | TimeoutError | /college/beulah-heights-university |
+| https://www.beulah.edu/admissions/financial-aid-scholarships/ | TimeoutError | /college/beulah-heights-university |
 | https://admissions.bradley.edu/ssl/estimator | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /college/bradley-university |
 | https://cloud.calaero.com/npc/npc_cau.htm | CERT_HAS_EXPIRED | /college/california-aeronautical-university |
 | https://my.ciis.edu/ICS/Financial_Aid/Forms_and_Resources.jnz?portlet=Budget_Calculator&_ga=2.122314440.273392424.1504792767-1278539770.1487619126 | UND_ERR_CONNECT_TIMEOUT | /college/california-institute-of-integral-studies |
@@ -587,6 +591,8 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://cyttl.edu/links/ | UND_ERR_SOCKET | /college/central-yeshiva-tomchei-tmimim-lubavitz |
 | https://www.cleveland.edu/ | UND_ERR_SOCKET | /college/cleveland-university-kansas-city |
 | https://www.cleveland.edu/admissions/financial-aid-scholarships/net-price-calculator | UND_ERR_SOCKET | /college/cleveland-university-kansas-city |
+| https://www.charleston.edu/ | UND_ERR_CONNECT_TIMEOUT | /college/college-of-charleston |
+| https://charleston.edu/cost-aid/tuition-fees/net-price-calculator.php | UND_ERR_CONNECT_TIMEOUT | /college/college-of-charleston |
 | https://colostate.edu/ | ECONNRESET | /college/colorado-state-university-fort-collins |
 | https://yeshivaaleksander.org/ | CERT_HAS_EXPIRED | /college/congregation-talmidei-mesivta-tiferes-shmiel-aleksander |
 | https://yeshivaaleksander.org/npc.html | CERT_HAS_EXPIRED | /college/congregation-talmidei-mesivta-tiferes-shmiel-aleksander |
@@ -600,6 +606,8 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.eden.edu | 520 | /college/eden-theological-seminary |
 | https://www.ew.edu/ | 520 | /college/edward-waters-university |
 | https://www.ew.edu/financial-aid/ | 520 | /college/edward-waters-university |
+| https://www.etown.edu/ | UND_ERR_CONNECT_TIMEOUT | /college/elizabethtown-college |
+| https://www.etown.edu/programs/momentum/ | UND_ERR_CONNECT_TIMEOUT | /college/elizabethtown-college |
 | https://www.emerson.edu/ | UND_ERR_HEADERS_OVERFLOW | /college/emerson-college |
 | https://www.evergladesuniversity.edu/ | 520 | /college/everglades-university |
 | https://enroll.evergladesuniversity.edu/npc | CERT_HAS_EXPIRED | /college/everglades-university |
@@ -621,6 +629,8 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.passhe.edu/answers/calculator/in/npcalc-213020.htm | UNABLE_TO_GET_ISSUER_CERT_LOCALLY | /college/indiana-university-of-pennsylvania |
 | https://www.iwp.edu/ | UND_ERR_SOCKET | /college/institute-of-world-politics |
 | https://www.iwp.edu/wp-content/uploads/2022/11/index.html | UND_ERR_SOCKET | /college/institute-of-world-politics |
+| https://www.ibcs.edu/ | UND_ERR_CONNECT_TIMEOUT | /college/international-baptist-college-and-seminary |
+| https://www.ibcs.edu/cost/ | UND_ERR_CONNECT_TIMEOUT | /college/international-baptist-college-and-seminary |
 | https://www.mykmbc.org/files/npc/npcalc.htm | ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR | /college/kentucky-mountain-bible-college |
 | https://www.lextheo.edu/ | UND_ERR_SOCKET | /college/lexington-theological-seminary |
 | https://lextheo.edu/prospective-students/financial-information/ | UND_ERR_SOCKET | /college/lexington-theological-seminary |
@@ -663,18 +673,20 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://catalog.roanoke.edu/programs/I3fvxoNhsHh14H97BljM/program-requirements-TCjHU | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /college/roanoke-college |
 | https://www.rustcollege.edu/ | UND_ERR_SOCKET | /college/rust-college |
 | https://www.rustcollege.edu/wp-content/uploads/2024/09/Net-Price-Calculator.html | UND_ERR_SOCKET | /college/rust-college |
-| https://sothebysinstitute.vfao.com/aidestimator/default.aspx | UND_ERR_CONNECT_TIMEOUT | /college/sotheby-s-institute-of-art-ny |
+| https://sothebysinstitute.vfao.com/aidestimator/default.aspx | ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR | /college/sotheby-s-institute-of-art-ny |
 | https://www.socalsem.edu/ | UND_ERR_SOCKET | /college/southern-california-seminary |
 | https://www.socalsem.edu/admissions/financial-aid/ | UND_ERR_SOCKET | /college/southern-california-seminary |
 | https://sunm.edu/ | 502 | /college/southwest-university-of-naprapathic-medicine |
 | https://sunm.edu/net-price-calculator/ | 502 | /college/southwest-university-of-naprapathic-medicine |
 | https://aucenter.edu/?p=1319 | UND_ERR_CONNECT_TIMEOUT | /college/spelman-college |
+| https://financialaid.stanford.edu/undergrad/how/calculator/index.html?tab=net-price-calculator | UND_ERR_CONNECT_TIMEOUT | /college/stanford-university |
 | https://telsheyeshivachicago.com/ | 520 | /college/telshe-yeshiva-chicago |
 | https://telsheyeshivachicago.com/links/ | 520 | /college/telshe-yeshiva-chicago |
 | https://www.thechristcollege.edu/ | UND_ERR_SOCKET | /college/the-christ-college-of-nursing-and-health-sciences |
 | https://www.uolivet.edu/ | UND_ERR_SOCKET | /college/the-university-of-olivet |
 | https://www.tcj.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /college/trinity-college-of-jacksonville |
 | https://new.trinity.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /college/trinity-university |
+| https://www.uams.edu/ | UND_ERR_CONNECT_TIMEOUT | /college/university-of-arkansas-for-medical-sciences |
 | https://studentfinancialservices.uams.edu/tuition-and-fees/ | CERT_HAS_EXPIRED | /college/university-of-arkansas-for-medical-sciences |
 | https://ucmerced.edu/ | UND_ERR_CONNECT_TIMEOUT | /college/university-of-california-merced |
 | https://finaidcalc.ucmerced.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /college/university-of-california-merced |
@@ -684,7 +696,6 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://umtweb.edu/npc/npcalc.htm | ERR_TLS_CERT_ALTNAME_INVALID | /college/university-of-management-and-technology |
 | https://umo.edu/ | UND_ERR_SOCKET | /college/university-of-mount-olive |
 | https://umo.edu/cost-calculator/ | UND_ERR_SOCKET | /college/university-of-mount-olive |
-| https://oia.unm.edu/resources/cds_25_26_updated.pdf | UND_ERR_CONNECT_TIMEOUT | /college/university-of-new-mexico-main-campus, /transfer/new-mexico |
 | https://new.uno.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /college/university-of-new-orleans |
 | https://www.unwsp.edu/ | UND_ERR_SOCKET | /college/university-of-northwestern-st-paul |
 | https://unwsp.edu/admissions/financial-aid/unw-net-price-calculator/ | UND_ERR_SOCKET | /college/university-of-northwestern-st-paul |
@@ -692,7 +703,7 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.usj.edu/admissions/tuition-financial-aid/net-price-calculator/ | 520 | /college/university-of-saint-joseph |
 | https://www2.uwstout.edu/stoutforms/financialaid/netpricecalc.aspx | UND_ERR_CONNECT_TIMEOUT | /college/university-of-wisconsin-stout |
 | https://www.uvei.edu/ | UND_ERR_SOCKET | /college/upper-valley-educators-institute |
-| https://www.uthflorida.us/ | TimeoutError | /college/uth-florida-university |
+| https://offices.vassar.edu/institutional-research/wp-content/uploads/sites/23/2026/03/Vassar_College_CDS_2025-2026.pdf | UND_ERR_CONNECT_TIMEOUT | /college/vassar-college, /transfer/new-york |
 | https://www.washburn.edu/ | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /college/washburn-university |
 | https://www.washburn.edu/netpricecalculator | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /college/washburn-university |
 | https://www.washburn.edu/admissions/paying-for-college/scholarships/shawnee-county-promise.html | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /college/washburn-university |
@@ -820,10 +831,14 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.blueridge.edu/paying-for-college/financial-aid/net-price-calculator/ | UND_ERR_SOCKET | /trades/school/blue-ridge-community-college-nc |
 | https://www.bnoszionbobov.com/ | 520 | /trades/school/bnos-zion-of-bobov-seminary |
 | https://bnoszionbobov.com/links/ | 520 | /trades/school/bnos-zion-of-bobov-seminary |
+| https://www.bosmansbarbercollege.com/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/bos-man-s-barber-college |
+| https://bosmansbarbercollege.com/index.php?pr=Calculator | UND_ERR_CONNECT_TIMEOUT | /trades/school/bos-man-s-barber-college |
 | https://www.bpcc.edu/ | UNABLE_TO_GET_ISSUER_CERT_LOCALLY | /trades/school/bossier-parish-community-college |
 | https://www.bpcc.edu/admissions/financial-aid/net-price-calculator | UNABLE_TO_GET_ISSUER_CERT_LOCALLY | /trades/school/bossier-parish-community-college |
 | https://www.firelands.bgsu.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /trades/school/bowling-green-state-university-firelands |
 | https://brandcollege.edu/ | 520 | /trades/school/brand-college |
+| https://www.bridgesbeautycollege.com/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/bridges-beauty-college |
+| https://www.bridgesbeautycollege.com/np | UND_ERR_CONNECT_TIMEOUT | /trades/school/bridges-beauty-college |
 | https://www.babeautycollege.com/ | UND_ERR_SOCKET | /trades/school/broken-arrow-beauty-college |
 | https://www.babeautycollege.com/net-price-calculator/ | UND_ERR_SOCKET | /trades/school/broken-arrow-beauty-college |
 | https://www.bhcc.edu/ | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/bunker-hill-community-college |
@@ -842,11 +857,11 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://misweb.cccco.edu/npc/371/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/canada-college |
 | https://www.carlsoncollege.com/ | UND_ERR_SOCKET | /trades/school/carlson-college-of-massage-therapy |
 | https://www.carlsoncollege.com/cost-and-financial-aid.html | UND_ERR_SOCKET | /trades/school/carlson-college-of-massage-therapy |
-| https://www.carolinascollege.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /trades/school/carolinas-college-of-health-sciences |
+| https://www.carolinascollege.edu/ | ECONNRESET | /trades/school/carolinas-college-of-health-sciences |
 | https://www.carvercareercenter.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /trades/school/carver-career-center |
 | https://www.casalomacollege.edu/ | UND_ERR_SOCKET | /trades/school/casa-loma-college-los-angeles |
 | https://casalomacollege.edu/net-price-calculator/ | UND_ERR_SOCKET | /trades/school/casa-loma-college-los-angeles |
-| https://harrisonvilleschools.schoolwires.net/Page/207 | UND_ERR_CONNECT_TIMEOUT | /trades/school/cass-career-center |
+| https://harrisonvilleschools.schoolwires.net/Page/207 | EAI_AGAIN | /trades/school/cass-career-center |
 | https://www.celebritystylistbeautyschool.com/ | CERT_HAS_EXPIRED | /trades/school/celebrity-barber-school |
 | https://www.centerformassage.com/wp-content/uploads/2019/07/Massage-Therapy_Therapeutic-Massage-Gainful-Employment-Disclosure.htm | 415 | /trades/school/center-for-massage |
 | https://cns.edu/ | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/center-for-neurosomatic-studies |
@@ -902,6 +917,8 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.donnelly.edu/admissions/aid/files/netprice/index.htm | UNABLE_TO_GET_ISSUER_CERT_LOCALLY | /trades/school/donnelly-college |
 | https://douglasj.edu/ | UND_ERR_SOCKET | /trades/school/douglas-j-aveda-institute |
 | https://douglasj.edu/calculators/ | UND_ERR_SOCKET | /trades/school/douglas-j-aveda-institute |
+| https://www.sunydutchess.edu/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/dutchess-community-college |
+| https://www.sunydutchess.edu/about/facts/consumer-information | UND_ERR_CONNECT_TIMEOUT | /trades/school/dutchess-community-college |
 | https://www.edmonds.edu/ | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/edmonds-college |
 | https://www.edmonds.edu/admission-and-tuition/financial-aid-and-scholarships/financial-aid/netprice.html | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/edmonds-college |
 | https://www.educatorsofbeauty.com/ | UND_ERR_SOCKET | /trades/school/educators-of-beauty-college-of-cosmetology-peru, /trades/school/educators-of-beauty-college-of-cosmetology-rockford, /trades/school/educators-of-beauty-college-of-cosmetology-sterling |
@@ -911,7 +928,7 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.eliteacademyofhairdesign.com/net-price-calculator | UND_ERR_SOCKET | /trades/school/elite-academy-of-hair-design |
 | https://ebcollege.net/student-handbook/student-handbook/ | UND_ERR_SOCKET | /trades/school/elite-beauty-college |
 | https://ebcollege.net/netpricecalculator.html | UND_ERR_SOCKET | /trades/school/elite-beauty-college |
-| https://realpages.com/sites/elitecollegeofcosmetology/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/elite-college-of-cosmetology |
+| https://realpages.com/sites/elitecollegeofcosmetology/npcalc.htm | EAI_AGAIN | /trades/school/elite-college-of-cosmetology |
 | https://es.edu/ | UND_ERR_SOCKET | /trades/school/elite-school-of-cosmetology |
 | https://es.edu/NetPriceCalculator/npcalc.htm | UND_ERR_SOCKET | /trades/school/elite-school-of-cosmetology |
 | https://www.eliteweldingacademy.com/ | UND_ERR_SOCKET | /trades/school/elite-welding-academy-llc, /trades/school/elite-welding-academy-south-point |
@@ -934,8 +951,6 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://misweb.cccco.edu/npc/121/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/feather-river-community-college-district |
 | https://www.flhcon.edu/ | UND_ERR_SOCKET | /trades/school/finger-lakes-health-college-of-nursing-and-health-sciences |
 | https://flhcon.edu/wp-content/uploads/2022/11/index.html | UND_ERR_SOCKET | /trades/school/finger-lakes-health-college-of-nursing-and-health-sciences |
-| https://www.fdltcc.edu/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/fond-du-lac-tribal-and-community-college |
-| https://fdltcc.edu/faculty-staff/business-services/tuition-and-fee-payments/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/fond-du-lac-tribal-and-community-college |
 | https://www.fortiscollege.edu/ | ERR_TLS_CERT_ALTNAME_INVALID | /trades/school/fortis-college-centerville, /trades/school/fortis-college-dothan |
 | https://misweb.cccco.edu/npc/862/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/fullerton-college |
 | https://www.futuracareerinstitute.net/ | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/futura-career-institute |
@@ -968,8 +983,12 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.hennepintech.edu/ | UND_ERR_SOCKET | /trades/school/hennepin-technical-college |
 | https://www.highline.edu/ | UNABLE_TO_GET_ISSUER_CERT_LOCALLY | /trades/school/highline-college |
 | https://www.hohokus.edu/ | CERT_HAS_EXPIRED | /trades/school/hohokus-school-of-trade-and-technical-sciences |
+| https://homesteadschools.net/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/homestead-schools-costa-mesa |
+| https://homesteadschools.net/wp-content/uploads/2022/10/hsi.html | UND_ERR_CONNECT_TIMEOUT | /trades/school/homestead-schools-costa-mesa, /trades/school/homestead-schools |
+| https://www.homesteadschools.net/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/homestead-schools |
 | https://www.honolulu.hawaii.edu/ | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/honolulu-community-college |
 | https://www.honolulu.hawaii.edu/downloads/web/paying-for-college/npcalc.htm | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/honolulu-community-college |
+| https://www.horizonuniversity.edu/ | 502 | /trades/school/horizon-university |
 | https://www.horizonuniversity.edu/netprice_calculator/npcalc.html | 502 | /trades/school/horizon-university |
 | https://houstontrainingschools.net/ | UND_ERR_SOCKET | /trades/school/houston-training-school-main-campus, /trades/school/houston-training-schools-gessner |
 | https://houstontrainingschools.net/net-investment-calculator | UND_ERR_SOCKET | /trades/school/houston-training-school-main-campus |
@@ -1094,7 +1113,6 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://ptt.edu/costs-net-price/ | TimeoutError | /trades/school/philadelphia-technician-training |
 | https://www.pvcc.edu/ | UNABLE_TO_VERIFY_LEAF_SIGNATURE | /trades/school/piedmont-virginia-community-college |
 | https://ww2.pikectc.org/netpricecalc/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/pike-county-joint-vocational-school-district |
-| https://www.pine.edu/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/pine-technical-and-community-college |
 | https://pittcc.edu/ | UND_ERR_SOCKET | /trades/school/pitt-community-college |
 | https://pittcc.edu/net-price-calculator.html | UND_ERR_SOCKET | /trades/school/pitt-community-college |
 | https://pia.edu/ | UND_ERR_SOCKET | /trades/school/pittsburgh-institute-of-aeronautics |
@@ -1112,6 +1130,8 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://rabbinicalcollegebethshraga.com/links/ | 520 | /trades/school/rabbinical-college-beth-shraga |
 | https://rabbinicalcollegelongisland.com/ | 520 | /trades/school/rabbinical-college-of-long-island |
 | https://rabbinicalcollegelongisland.com/?page_id=9 | 520 | /trades/school/rabbinical-college-of-long-island |
+| https://rbbeautycollege.com/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/redondo-beach-beauty-college |
+| https://login.homesteadschools.com/rbbcalc/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/redondo-beach-beauty-college |
 | https://www.ridge.edu/ | ECONNRESET | /trades/school/ridge-technical-college |
 | https://www.rgvcollege.edu/net-price-calculator.asp | 400 | /trades/school/rio-grande-valley-college |
 | https://misweb.cccco.edu/npc/961/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/riverside-city-college |
@@ -1134,7 +1154,7 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://misweb.cccco.edu/npc/472/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/san-jose-city-college |
 | https://www.savcusa.com/ | ERR_SSL_TLSV1_ALERT_INTERNAL_ERROR | /trades/school/santa-ana-beauty-college |
 | https://schillingdouglas.com/calculator/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/schilling-douglas-school-of-hair-design |
-| https://stc.schoolwires.net/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/schuylkill-technology-center |
+| https://stc.schoolwires.net/ | EAI_AGAIN | /trades/school/schuylkill-technology-center |
 | https://www.sciototech.org/ | 520 | /trades/school/scioto-county-career-technical-center |
 | https://sciototech.org/home/NetPrice/npcalc.htm | UND_ERR_SOCKET | /trades/school/scioto-county-career-technical-center |
 | https://seminarlmorosbaisyaakov.com/ | 520 | /trades/school/seminar-l-moros-bais-yaakov |
@@ -1164,6 +1184,7 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://www.southwesterncc.edu/NetPriceCalculator/index.html | UND_ERR_SOCKET | /trades/school/southwestern-community-college-nc |
 | https://www.sowela.edu/ | UND_ERR_SOCKET | /trades/school/sowela-technical-community-college |
 | https://www.sowela.edu/admissions/financial-aid/price-calculator/ | UND_ERR_SOCKET | /trades/school/sowela-technical-community-college |
+| https://www.sskinstitute.org/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/sri-sai-krish-institute |
 | https://www.stchas.edu/ | UNABLE_TO_GET_ISSUER_CERT_LOCALLY | /trades/school/st-charles-community-college |
 | https://www.stchas.edu/admissions/financial-aid/net-price-calculator | UNABLE_TO_GET_ISSUER_CERT_LOCALLY | /trades/school/st-charles-community-college |
 | https://apps.sphp.com/SON/Net_Price_Calculator/ | ERR_TLS_CERT_ALTNAME_INVALID | /trades/school/st-peter-s-hospital-college-of-nursing |
@@ -1190,13 +1211,11 @@ Checked 2026-11-06: 11095 outside links. 9023 work, 529 broken, 712 errors (time
 | https://salonproacademy.com/ | UND_ERR_SOCKET | /trades/school/the-salon-professional-academy-onalaska |
 | https://salonproacademy.com/wp-content/uploads/2025/10/index.html | UND_ERR_SOCKET | /trades/school/the-salon-professional-academy-onalaska |
 | https://www.topbeautyschoolutah.com/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/top-nails-and-hair-beauty-school |
-| https://torahtemimahtalmudicalseminary.com/ | 520 | /trades/school/torah-temimah-talmudical-seminary |
-| https://torahtemimahtalmudicalseminary.com/links/ | 520 | /trades/school/torah-temimah-talmudical-seminary |
+| https://torahtemimahtalmudicalseminary.com/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/torah-temimah-talmudical-seminary |
+| https://torahtemimahtalmudicalseminary.com/links/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/torah-temimah-talmudical-seminary |
 | https://www.townsendbarberinstitute.com/blank-2 | UND_ERR_CONNECT_TIMEOUT | /trades/school/townsend-barber-institute |
-| https://traxlerschoolofhair.com/ | UND_ERR_CONNECT_TIMEOUT | /trades/school/traxlers-school-of-hair |
-| https://traxlerschoolofhair.com/financial-aid | UND_ERR_CONNECT_TIMEOUT | /trades/school/traxlers-school-of-hair |
-| https://tctc.indianriverschools.org/cms/One.aspx?portalId=2198208&pageId=4215592 | UND_ERR_CONNECT_TIMEOUT | /trades/school/treasure-coast-technical-college |
-| https://trendsettersjax.com/wp-content/uploads/2015/01/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/trendsetters-school-of-beauty-and-barbering |
+| https://traxlerschoolofhair.com/ | EAI_AGAIN | /trades/school/traxlers-school-of-hair |
+| https://traxlerschoolofhair.com/financial-aid | EAI_AGAIN | /trades/school/traxlers-school-of-hair |
 | https://www.tricountycc.edu/ | UND_ERR_SOCKET | /trades/school/tri-county-community-college |
 | https://www.tricountycc.edu/wp-content/themes/tricountycc/npcalc.htm | UND_ERR_SOCKET | /trades/school/tri-county-community-college |
 | https://etcdata.tctc.edu/vpba/financial_aid/netprice/npcalc.htm | UND_ERR_CONNECT_TIMEOUT | /trades/school/tri-county-technical-college |
