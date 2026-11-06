@@ -18,7 +18,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 7; // 6: D2 transfer admissions; 7: C18 deferred admission
+const READER_VERSION = 8; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -168,10 +168,15 @@ function c1FromGender(rows, out) {
 function readScores(rows) {
   const out = {};
   for (const [name, lo, hi] of [['sat', 400, 1600], ['act', 1, 36]]) {
-    for (const r of rows || []) {
+    for (let i = 0; i < (rows || []).length; i++) {
+      let r = rows[i];
       if (!new RegExp(`^${name} composite\\b`).test(labelText(r))) continue;
-      // Percentiles can fall between whole scores when a school interpolates (UVA reports an ACT 75th percentile of 34.25).
-      const v = r.slice(1).map((c) => (name === 'act' && /^\d{1,2}\.\d{1,2}$/.test(c.s.trim()) ? Number(c.s.trim()) : parse(c.s, 'count'))).filter((x) => x != null && x >= lo && x <= hi);
+      // Percentiles can fall between whole scores when a school interpolates (UVA reports an ACT 75th
+      // percentile of 34.25, Oregon State an SAT 25th percentile of 1127.5).
+      const read = (cells) => cells.map((c) => (/^\d{1,4}\.\d{1,2}$/.test(c.s.trim()) ? Number(c.s.trim()) : parse(c.s, 'count'))).filter((x) => x != null && x >= lo && x <= hi);
+      let v = read(r.slice(1));
+      // Some PDFs put the label on one line and its three scores on the next (William & Mary).
+      if (!v.length && rows[i + 1] && isNumbersOnly(rows[i + 1])) { r = r.concat(rows[i + 1]); v = read(rows[i + 1]); }
       if (v.length < 3 || !(v[0] <= v[1] && v[1] <= v[2])) continue;
       const q = rowText(r);
       out[`${name}_p25`] = { value: v[0], quote: q }; out[`${name}_p50`] = { value: v[1], quote: q }; out[`${name}_p75`] = { value: v[2], quote: q };
@@ -218,6 +223,81 @@ function readDeferral(rows) {
     if (!period && next && !/^c19\b|early admission|^c\d/.test(rowText(next)) && rowText(next).length <= 200) period = next.map((c) => c.s).join(' ').trim();
     period = period.replace(/\s+/g, ' ').replace(/\.$/, '');
     if (period && period.length <= 200 && /[a-z]/i.test(period) && !/common data set|\bcds\b|page \d/i.test(period)) out.deferral_max = { value: period[0].toUpperCase() + period.slice(1), quote: `C18 maximum period of postponement: ${period}` };
+  }
+  return out;
+}
+
+// The official CDS Excel template (2025-26 on) repeats every answer next to a fixed question number
+// ("C.116", "D.204") under a header row with "Question Number" and "Answer" columns, both in each
+// section sheet and in an all-answers sheet. When a file has them, these are the most reliable reads.
+// The template's variable names for C11 are shifted, so GPA rows go by question number, which matches
+// the printed labels: C.1101-1109 students who sent scores, C.1111-1119 those who didn't, C.1121-1129 all.
+const FACTOR_KEYS = ['rigor', 'class_rank', 'gpa', 'test_scores', 'essay', 'recommendations', 'interview', 'extracurriculars', 'talent', 'character', 'first_generation', 'alumni', 'geography', 'state_residency', 'religion', 'volunteer', 'work', 'interest'];
+const GPA_KEYS = ['gpa_400_pct', 'gpa_375_pct', 'gpa_350_pct', 'gpa_325_pct', 'gpa_300_pct', 'gpa_250_pct', 'gpa_200_pct', 'gpa_100_pct', 'gpa_below1_pct'];
+const CODE_FIELDS = {
+  'C.116': ['applied_total', 'int'], 'C.117': ['admitted_total', 'int'], 'C.118': ['enrolled_total', 'int'],
+  'C.202': ['waitlist_offered', 'int'], 'C.203': ['waitlist_accepted', 'int'], 'C.204': ['waitlist_admitted', 'int'],
+  'C.901': ['sat_submit_pct', 'pct'], 'C.902': ['act_submit_pct', 'pct'],
+  'C.905': ['sat_p25', 'int'], 'C.906': ['sat_p50', 'int'], 'C.907': ['sat_p75', 'int'],
+  'C.914': ['act_p25', 'num'], 'C.915': ['act_p50', 'num'], 'C.916': ['act_p75', 'num'],
+  'C.1001': ['rank_top10_pct', 'pct'], 'C.1002': ['rank_top25_pct', 'pct'], 'C.1006': ['rank_submit_pct', 'pct'],
+  'C.1201': ['gpa_average', 'num'], 'C.1202': ['gpa_submit_pct', 'pct'],
+  'C.1801': ['deferral_allowed', 'yesno'], 'C.1802': ['deferral_max', 'text'],
+  'C.2101': ['ed_offered', 'yesno'], 'C.2110': ['ed_applied', 'int'], 'C.2111': ['ed_admitted', 'int'],
+  'D.204': ['transfer_applied', 'int'], 'D.208': ['transfer_admitted', 'int'], 'D.212': ['transfer_enrolled', 'int']
+};
+FACTOR_KEYS.forEach((k, i) => { CODE_FIELDS[`C.${701 + i}`] = [`factor_${k}`, 'factor']; });
+
+function codeAnswers(rows) {
+  const ans = {};
+  if (!rows) return ans;
+  let codeX = null, qX = null, aX = null;
+  for (const r of rows) {
+    const h = r.findIndex((c) => /^question num/i.test(c.s.trim()));
+    const a = r.findIndex((c) => /^answer$/i.test(c.s.trim()));
+    if (h >= 0 && a >= 0) { codeX = r[h].x; aX = r[a].x; const q = r.find((c) => /^question$/i.test(c.s.trim())); qX = q ? q.x : null; continue; }
+    if (codeX == null) continue;
+    const c = r.find((x) => x.x === codeX);
+    if (!c || !/^[A-J]\.\d{3,4}$/.test(c.s.trim())) continue;
+    const code = c.s.trim();
+    if (ans[code]) continue;
+    const v = r.find((x) => x.x === aX);
+    const q = qX != null ? r.find((x) => x.x === qX) : null;
+    ans[code] = { answer: v ? String(v.s).trim() : '', question: q ? norm(q.s) : '' };
+  }
+  return ans;
+}
+
+function readCodes(rows) {
+  const ans = codeAnswers(rows);
+  if (Object.keys(ans).length < 50) return {};
+  const out = {};
+  const num = (s) => { const n = Number(String(s).replace(/[,%$\s]/g, '')); return s !== '' && Number.isFinite(n) ? n : null; };
+  const pct = (s) => { const n = num(s); if (n == null) return null; const v = n <= 1 ? n * 100 : n; return Math.round(v * 100) / 100; };
+  const quote = (code, a) => `${code} ${a.question}: ${a.answer}`.slice(0, 240);
+  for (const [code, [key, type]] of Object.entries(CODE_FIELDS)) {
+    const a = ans[code];
+    if (!a || a.answer === '') continue;
+    let value = null;
+    if (type === 'int') { const n = num(a.answer); value = n != null && Number.isInteger(n) ? n : null; }
+    else if (type === 'num') value = num(a.answer);
+    else if (type === 'pct') value = pct(a.answer);
+    else if (type === 'yesno') { const s = norm(a.answer); value = /^y(es)?$/.test(s) ? 'yes' : /^no?$/.test(s) ? 'no' : null; }
+    else if (type === 'factor') {
+      const s = norm(a.answer);
+      value = { 'very important': 'Very Important', important: 'Important', considered: 'Considered', 'not considered': 'Not Considered' }[s] || null;
+    } else if (type === 'text') { const s = a.answer.replace(/\s+/g, ' ').replace(/\.$/, ''); value = s && /[a-z]/i.test(s) && s.length <= 200 ? s[0].toUpperCase() + s.slice(1) : null; }
+    if (value != null) out[key] = { value, quote: quote(code, a) };
+  }
+  if (out.deferral_allowed?.value !== 'yes') delete out.deferral_max;
+  // C11: the "all students" block if it adds to 100%, else students who sent scores, else those who didn't.
+  for (const start of [1121, 1101, 1111]) {
+    const vals = GPA_KEYS.map((_, i) => { const a = ans[`C.${start + i}`]; return a && a.answer !== '' ? pct(a.answer) : null; });
+    const sum = vals.reduce((s, v) => s + (v ?? 0), 0);
+    if (vals.some((v) => v != null) && sum >= 95 && sum <= 105) {
+      GPA_KEYS.forEach((k, i) => { if (vals[i] != null) out[k] = { value: vals[i], quote: quote(`C.${start + i}`, ans[`C.${start + i}`]) }; });
+      break;
+    }
   }
   return out;
 }
@@ -279,7 +359,7 @@ function factors(rows) {
 }
 
 const log = [];
-export { readRows, readScores, factors, c1FromGender, readTransfer, readDeferral };
+export { readRows, readScores, factors, c1FromGender, readTransfer, readDeferral, readCodes };
 // Run only when called directly (tests import the readers above).
 if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) {
   let made = 0;
@@ -305,7 +385,7 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
     if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
     delete failed[slug];
-    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows) };
+    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows), ...readCodes(doc.rows) };
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     // Temporary download hosts (Box, Google) expire: cite the listed link instead.
