@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.gvsu.edu/ia/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -98,6 +98,10 @@
     "transfer_enrolled": {
       "value": 1121,
       "quote": "D2 total 2973 2449 1121"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

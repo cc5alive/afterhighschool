@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.radford.edu/institutional-research/_documents/cds-2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -153,6 +153,10 @@
     "transfer_enrolled": {
       "value": 608,
       "quote": "D2 total 1,515 1,346 608"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
     }
   },
   "concerns": null

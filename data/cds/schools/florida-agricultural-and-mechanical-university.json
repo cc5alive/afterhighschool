@@ -18,7 +18,8 @@
     "rank_top10_pct": 23.29,
     "rank_top25_pct": 27.4,
     "gpa_average": 3.75,
-    "gpa_submit_pct": 99.85
+    "gpa_submit_pct": 99.85,
+    "deferral_allowed": "no"
   },
   "basis": {
     "sat_submit_pct": "gemini",
@@ -32,6 +33,7 @@
     "rank_top10_pct": "both",
     "rank_top25_pct": "both",
     "gpa_average": "gemini",
-    "gpa_submit_pct": "gemini"
+    "gpa_submit_pct": "gemini",
+    "deferral_allowed": "reader"
   }
 }

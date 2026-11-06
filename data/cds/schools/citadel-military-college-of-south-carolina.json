@@ -21,6 +21,8 @@
     "rank_submit_pct": 74,
     "gpa_average": 3.75,
     "gpa_submit_pct": 95.5,
+    "deferral_allowed": "yes",
+    "deferral_max": "1 Year",
     "transfer_applied": 93,
     "transfer_admitted": 93,
     "transfer_enrolled": 56
@@ -40,6 +42,8 @@
     "rank_submit_pct": "reader",
     "gpa_average": "reader",
     "gpa_submit_pct": "reader",
+    "deferral_allowed": "reader",
+    "deferral_max": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

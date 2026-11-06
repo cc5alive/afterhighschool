@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.fullerton.edu/data/institutional-research/facts-and-figures.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -102,6 +102,10 @@
     "transfer_enrolled": {
       "value": 5061,
       "quote": "D2 total 22217 17127 5061"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

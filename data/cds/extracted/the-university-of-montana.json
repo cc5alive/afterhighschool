@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.umt.edu/institutional-research/documents/cds-pdf-2025-2026_pdf_template1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -156,6 +156,14 @@
     "transfer_enrolled": {
       "value": 639,
       "quote": "D2 total 1578 1278 639"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "One year and then the student must reapply including application fee and documentation",
+      "quote": "C18 maximum period of postponement: One year and then the student must reapply including application fee and documentation"
     }
   },
   "concerns": null

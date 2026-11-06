@@ -8,7 +8,7 @@
   "sourceUrl": "https://enrollment.northwestern.edu/data/2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -129,6 +129,14 @@
     "transfer_enrolled": {
       "value": 249,
       "quote": "D2 total 4,562 498 249"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "Military service",
+      "quote": "C18 maximum period of postponement: military service"
     }
   },
   "concerns": null

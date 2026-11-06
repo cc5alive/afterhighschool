@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.bowdoin.edu/ir/pdf/bowdoin-cds_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -126,6 +126,14 @@
     "transfer_enrolled": {
       "value": 12,
       "quote": "D2 total 362 29 12"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "12 months (one year)",
+      "quote": "C18 maximum period of postponement: 12 months (one year)"
     },
     "ed_offered": {
       "value": "yes",

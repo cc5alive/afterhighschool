@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.shsu.edu/offices-departments/data-analytics-decision-support/documents/fall-2025-cds-final_v2.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -141,6 +141,14 @@
     "transfer_enrolled": {
       "value": 1886,
       "quote": "D2 total 3,393 3,090 1,886"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "2 long terms",
+      "quote": "C18 maximum period of postponement: 2 long terms"
     }
   },
   "concerns": null

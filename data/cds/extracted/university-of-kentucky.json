@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.uky.edu/irads/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -134,6 +134,14 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ no 1\u0012$"
+    },
+    "deferral_max": {
+      "value": "12 months",
+      "quote": "C18 maximum period of postponement: 12 months"
     }
   },
   "concerns": null

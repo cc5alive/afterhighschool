@@ -8,7 +8,7 @@
   "sourceUrl": "https://obp.umich.edu/wp-content/uploads/pubdata/cds/cds_2025-26_umaa.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -146,6 +146,14 @@
     "transfer_enrolled": {
       "value": 1533,
       "quote": "D2 total 6,845 2,394 1,533"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "Usually 1 year",
+      "quote": "C18 maximum period of postponement: Usually 1 year"
     }
   },
   "concerns": null

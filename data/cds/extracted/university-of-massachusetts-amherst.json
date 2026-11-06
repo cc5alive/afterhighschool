@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.umass.edu/uair/data/admissions-and-enrollment-reports",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -182,6 +182,14 @@
     "transfer_enrolled": {
       "value": 1190,
       "quote": "D2 total 3,622 2,371 1,190"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after yes admission?"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
     }
   },
   "concerns": null

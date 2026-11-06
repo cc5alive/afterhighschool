@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.bates.edu/research/files/2026/06/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -118,6 +118,10 @@
     "transfer_enrolled": {
       "value": 10,
       "quote": "D2 total 165 34 10"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
     },
     "ed_offered": {
       "value": "yes",

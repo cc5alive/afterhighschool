@@ -8,7 +8,7 @@
   "sourceUrl": "https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2024-25_Columbia_College_and_Columbia_Engineering_CDS.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -150,6 +150,14 @@
     "transfer_enrolled": {
       "value": 298,
       "quote": "D2 total 4,180 375 298"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☑ yes ☐ no"
+    },
+    "deferral_max": {
+      "value": "2 years",
+      "quote": "C18 maximum period of postponement: 2 years"
     },
     "ed_offered": {
       "value": "yes",

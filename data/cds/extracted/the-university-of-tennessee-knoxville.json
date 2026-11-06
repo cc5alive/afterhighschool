@@ -8,7 +8,7 @@
   "sourceUrl": "https://irsa.utk.edu/wp-content/uploads/sites/5/2026/07/CDS_2025-26_All__-1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -178,6 +178,14 @@
     "transfer_enrolled": {
       "value": 1778,
       "quote": "D2 total 3,597 3,168 1,778"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after yes admission?"
+    },
+    "deferral_max": {
+      "value": "One term",
+      "quote": "C18 maximum period of postponement: One term"
     }
   },
   "concerns": null

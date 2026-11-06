@@ -8,7 +8,7 @@
   "sourceUrl": "https://institutionalresearch.oregonstate.edu/common-data-set",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -170,6 +170,10 @@
     "transfer_enrolled": {
       "value": 2805,
       "quote": "D2 total 5,596 4,595 2,805"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after yes admission?"
     }
   },
   "concerns": null

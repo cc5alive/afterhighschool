@@ -25,6 +25,7 @@
     "gpa_below1_pct": 0,
     "gpa_average": 3.452,
     "gpa_submit_pct": 93.52,
+    "deferral_allowed": "no",
     "transfer_applied": 22217,
     "transfer_admitted": 17127,
     "transfer_enrolled": 5061
@@ -48,6 +49,7 @@
     "gpa_below1_pct": "reader",
     "gpa_average": "reader",
     "gpa_submit_pct": "reader",
+    "deferral_allowed": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

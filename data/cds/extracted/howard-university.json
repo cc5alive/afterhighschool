@@ -8,7 +8,7 @@
   "sourceUrl": "https://ira.howard.edu/sites/ira.howard.edu/files/2026-06/CDS%20PDF%202526_06.25.26.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -158,6 +158,14 @@
     "transfer_enrolled": {
       "value": 194,
       "quote": "D2 total 902 622 194"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "One Year",
+      "quote": "C18 maximum period of postponement: One Year"
     },
     "ed_offered": {
       "value": "yes",

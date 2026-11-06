@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.govst.edu/sites/default/files/2026-08/Common%20Data%20Set.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -166,6 +166,14 @@
     "transfer_enrolled": {
       "value": 521,
       "quote": "D2 total 1,514 943 521"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after yes admission?"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
     }
   },
   "concerns": null

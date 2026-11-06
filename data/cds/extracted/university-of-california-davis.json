@@ -8,7 +8,7 @@
   "sourceUrl": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -142,6 +142,14 @@
     "transfer_enrolled": {
       "value": 2614,
       "quote": "D2 total 17,211 9,684 2,614"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "Up to 1 year/3 quarters",
+      "quote": "C18 maximum period of postponement: up to 1 year/3 quarters"
     }
   },
   "concerns": null

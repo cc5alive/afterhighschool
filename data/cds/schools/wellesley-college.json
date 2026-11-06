@@ -26,6 +26,8 @@
     "rank_submit_pct": 25,
     "ed_applied": 1023,
     "ed_admitted": 301,
+    "deferral_allowed": "yes",
+    "deferral_max": "1 year",
     "transfer_applied": 340,
     "transfer_admitted": 44,
     "transfer_enrolled": 18,
@@ -51,6 +53,8 @@
     "rank_submit_pct": "gemini",
     "ed_applied": "both",
     "ed_admitted": "both",
+    "deferral_allowed": "reader",
+    "deferral_max": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

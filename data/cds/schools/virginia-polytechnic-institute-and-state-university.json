@@ -24,6 +24,7 @@
     "gpa_250_pct": 1,
     "gpa_average": 4.06,
     "gpa_submit_pct": 97,
+    "deferral_allowed": "yes",
     "transfer_applied": 3824,
     "transfer_admitted": 1921,
     "transfer_enrolled": 1176
@@ -46,6 +47,7 @@
     "gpa_250_pct": "reader",
     "gpa_average": "reader",
     "gpa_submit_pct": "reader",
+    "deferral_allowed": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

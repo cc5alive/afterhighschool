@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.odu.edu/sites/default/files/2026/documents/cds-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -170,6 +170,14 @@
     "transfer_enrolled": {
       "value": 1696,
       "quote": "D2 total 3,264 2,868 1,696"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "12 months",
+      "quote": "C18 maximum period of postponement: 12 months"
     }
   },
   "concerns": null

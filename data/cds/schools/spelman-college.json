@@ -34,6 +34,8 @@
     "ed_admitted": 70,
     "ea_applied": 5282,
     "ea_admitted": 1599,
+    "deferral_allowed": "yes",
+    "deferral_max": "1 Year",
     "transfer_applied": 254,
     "transfer_admitted": 16,
     "transfer_enrolled": 7,
@@ -68,6 +70,8 @@
     "ed_admitted": "both",
     "ea_applied": "both",
     "ea_admitted": "both",
+    "deferral_allowed": "reader",
+    "deferral_max": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

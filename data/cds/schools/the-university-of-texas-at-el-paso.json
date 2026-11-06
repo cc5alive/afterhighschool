@@ -13,6 +13,7 @@
     "act_p25": 15,
     "act_p50": 19,
     "act_p75": 22,
+    "deferral_allowed": "yes",
     "transfer_applied": 2350,
     "transfer_admitted": 2219,
     "transfer_enrolled": 1593
@@ -24,6 +25,7 @@
     "act_p25": "reader",
     "act_p50": "reader",
     "act_p75": "reader",
+    "deferral_allowed": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

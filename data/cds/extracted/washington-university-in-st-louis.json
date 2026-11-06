@@ -8,7 +8,7 @@
   "sourceUrl": "https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -138,6 +138,10 @@
     "transfer_enrolled": {
       "value": 84,
       "quote": "D2 total 1,603 244 84"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
     }
   },
   "concerns": null

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.jmu.edu/pair/ir/common-data-set/cds-2025.docx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "docx",
   "values": {
     "applied_total": {
@@ -146,6 +146,14 @@
     "transfer_enrolled": {
       "value": 808,
       "quote": "D2 total 1769 1346 808"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 c18. deferred admission: does your institution allow students to postpone enrollment after admission? x yes ☐ no n/a one academic year one academic year"
+    },
+    "deferral_max": {
+      "value": "One academic year",
+      "quote": "C18 One academic year"
     }
   },
   "concerns": null

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -174,6 +174,10 @@
     "transfer_enrolled": {
       "value": 3738,
       "quote": "D2 total 9,242 7,662 3,738"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.svsu.edu/oir/commondataset/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -94,6 +94,14 @@
     "transfer_enrolled": {
       "value": 376,
       "quote": "D2 total 1017 718 376"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "5yrs (7 semesters)",
+      "quote": "C18 maximum period of postponement: 5yrs (7 semesters)"
     }
   },
   "concerns": null

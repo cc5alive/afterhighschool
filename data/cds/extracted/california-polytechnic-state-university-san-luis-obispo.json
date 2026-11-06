@@ -8,7 +8,7 @@
   "sourceUrl": "https://content-calpoly-edu.s3.amazonaws.com/ir/1/images/CDS-PDF-2025-2026_final_web_0.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -138,6 +138,10 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ yes տ ✔ no 1\u0012$"
     }
   },
   "concerns": null

@@ -23,7 +23,9 @@
     "gpa_100_pct": 7.6,
     "gpa_below1_pct": 0,
     "gpa_average": 2.9,
-    "gpa_submit_pct": 96
+    "gpa_submit_pct": 96,
+    "deferral_allowed": "yes",
+    "deferral_max": "1 Semester"
   },
   "basis": {
     "sat_p25": "reader",
@@ -42,6 +44,8 @@
     "gpa_100_pct": "reader",
     "gpa_below1_pct": "reader",
     "gpa_average": "reader",
-    "gpa_submit_pct": "reader"
+    "gpa_submit_pct": "reader",
+    "deferral_allowed": "reader",
+    "deferral_max": "reader"
   }
 }

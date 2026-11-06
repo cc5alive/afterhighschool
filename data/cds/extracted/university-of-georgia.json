@@ -8,7 +8,7 @@
   "sourceUrl": "https://oir.uga.edu/wp-content/uploads/UGA_CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -146,6 +146,14 @@
     "transfer_enrolled": {
       "value": 1893,
       "quote": "D2 total 3780 2452 1893"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
     }
   },
   "concerns": null

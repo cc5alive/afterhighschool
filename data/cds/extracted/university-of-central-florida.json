@@ -8,7 +8,7 @@
   "sourceUrl": "https://analytics.ucf.edu/wp-content/uploads/2026/07/Common-Data-Set-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -182,6 +182,10 @@
     "transfer_enrolled": {
       "value": 5870,
       "quote": "D2 total 12,709 8,826 5,870"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

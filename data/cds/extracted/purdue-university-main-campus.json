@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.purdue.edu/idata/wp-content/uploads/2026/04/CDS-2025-2026.xlsx",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -114,6 +114,10 @@
     "transfer_enrolled": {
       "value": 1058,
       "quote": "D2 total 4422 1882 1058"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

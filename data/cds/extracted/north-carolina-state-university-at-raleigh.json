@@ -8,7 +8,7 @@
   "sourceUrl": "https://report.isa.ncsu.edu/ir/cds/pdfs/CDS_2025-26.v1.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -142,6 +142,14 @@
     "transfer_enrolled": {
       "value": 1663,
       "quote": "D2 total 5383 2405 1663"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "2 semesters",
+      "quote": "C18 maximum period of postponement: 2 semesters"
     }
   },
   "concerns": null

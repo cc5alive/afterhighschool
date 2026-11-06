@@ -8,7 +8,7 @@
   "sourceUrl": "https://iepr.mtsu.edu/wp-content/uploads/sites/23/2026/07/CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -102,6 +102,14 @@
     "transfer_enrolled": {
       "value": 1493,
       "quote": "D2 total 4205 2503 1493"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "One Semester",
+      "quote": "C18 maximum period of postponement: One Semester"
     }
   },
   "concerns": null

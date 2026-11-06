@@ -8,7 +8,7 @@
   "sourceUrl": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -162,6 +162,10 @@
     "transfer_enrolled": {
       "value": 3591,
       "quote": "D2 total 23,577 12,440 3,591"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

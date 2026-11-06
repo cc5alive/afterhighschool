@@ -8,7 +8,7 @@
   "sourceUrl": "https://in.nau.edu/wp-content/uploads/sites/129/2026/04/CDS-2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -186,6 +186,14 @@
     "transfer_enrolled": {
       "value": 1498,
       "quote": "D2 total 3,092 3,033 1,498"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "2 terms",
+      "quote": "C18 maximum period of postponement: 2 terms"
     }
   },
   "concerns": null

@@ -24,6 +24,7 @@
     "gpa_200_pct": 2.92,
     "gpa_100_pct": 0,
     "gpa_below1_pct": 0,
+    "deferral_allowed": "yes",
     "factor_gpa": "Very Important",
     "factor_test_scores": "Considered"
   },
@@ -45,6 +46,7 @@
     "gpa_200_pct": "reader",
     "gpa_100_pct": "reader",
     "gpa_below1_pct": "reader",
+    "deferral_allowed": "reader",
     "factor_gpa": "reader",
     "factor_test_scores": "reader"
   }

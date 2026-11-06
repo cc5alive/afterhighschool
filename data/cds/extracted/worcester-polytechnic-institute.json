@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.wpi.edu/sites/default/files/2026-05/WPI_CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -170,6 +170,10 @@
     "transfer_enrolled": {
       "value": 63,
       "quote": "D2 total 248 198 63"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes ☒ no ☐"
     },
     "ed_offered": {
       "value": "yes",

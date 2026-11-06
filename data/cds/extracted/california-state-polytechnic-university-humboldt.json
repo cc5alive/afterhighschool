@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.humboldt.edu/irar/common-data-sets",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -169,6 +169,10 @@
     "transfer_enrolled": {
       "value": 887,
       "quote": "D2 total 4,576 3,877 887"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after no admission?"
     }
   },
   "concerns": null

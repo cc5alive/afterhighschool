@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.csusm.edu/ipa/campus-data/common-data-set.html",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -106,6 +106,10 @@
     "transfer_enrolled": {
       "value": 2154,
       "quote": "D2 total 6519 5410 2154"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

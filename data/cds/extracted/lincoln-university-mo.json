@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.lincolnu.edu/web/oira/common-data-sets",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -78,6 +78,14 @@
     "act_p75": {
       "value": 20,
       "quote": "act composite (0 - 36) 14 16 20"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 Semester",
+      "quote": "C18 maximum period of postponement: 1 Semester"
     }
   },
   "concerns": null

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.buffalo.edu/content/dam/www/oia/Common-Data-Sets/CDS_2025-26_v2.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
@@ -153,6 +153,10 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 deferred admission: does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

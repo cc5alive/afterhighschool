@@ -35,6 +35,8 @@
     "gpa_below1_pct": 0,
     "gpa_average": 3.67,
     "gpa_submit_pct": 96,
+    "deferral_allowed": "yes",
+    "deferral_max": "One year",
     "transfer_applied": 1508,
     "transfer_admitted": 925,
     "transfer_enrolled": 379
@@ -68,6 +70,8 @@
     "gpa_below1_pct": "gemini",
     "gpa_average": "both",
     "gpa_submit_pct": "gemini",
+    "deferral_allowed": "reader",
+    "deferral_max": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

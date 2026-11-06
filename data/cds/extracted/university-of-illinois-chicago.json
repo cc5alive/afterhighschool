@@ -8,7 +8,7 @@
   "sourceUrl": "https://oir.uic.edu/",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -161,6 +161,10 @@
     "transfer_enrolled": {
       "value": 2450,
       "quote": "D2 total 7109 3923 2450"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ yes ☐ x no n/a"
     }
   },
   "concerns": null

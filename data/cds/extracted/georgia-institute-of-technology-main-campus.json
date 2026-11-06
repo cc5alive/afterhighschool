@@ -8,7 +8,7 @@
   "sourceUrl": "https://irp.gatech.edu/sites/default/files/CDS/CDS_2025-2026_FINAL_R4_03JUN2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -182,6 +182,14 @@
     "transfer_enrolled": {
       "value": 663,
       "quote": "D2 total 3,939 789 663"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 or 2 years",
+      "quote": "C18 maximum period of postponement: 1 or 2 years"
     }
   },
   "concerns": null

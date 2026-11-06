@@ -22,6 +22,8 @@
     "rank_submit_pct": 12.17,
     "ed_applied": 10057,
     "ed_admitted": 1889,
+    "deferral_allowed": "yes",
+    "deferral_max": "Cornell University supports requests to defer enrollment for one or two years on a case-by-case basis",
     "transfer_applied": 7381,
     "transfer_admitted": 864,
     "transfer_enrolled": 625,
@@ -43,6 +45,8 @@
     "rank_submit_pct": "reader",
     "ed_applied": "reader",
     "ed_admitted": "reader",
+    "deferral_allowed": "reader",
+    "deferral_max": "reader",
     "transfer_applied": "reader",
     "transfer_admitted": "reader",
     "transfer_enrolled": "reader"

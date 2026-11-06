@@ -8,7 +8,7 @@
   "sourceUrl": "https://aim.fiu.edu/cds/CDS2025.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
-  "readerVersion": 6,
+  "readerVersion": 7,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -145,6 +145,10 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
     }
   },
   "concerns": null
