@@ -14,11 +14,6 @@
   "at": "2026-11-06",
   "reason": "no CDS document found from https://www.kent.edu/ir/common-dataset-cds"
  },
- "university-of-utah": {
-  "url": "https://data.utah.edu/wp-content/uploads/2026/06/CDS_2025-2026.pdf",
-  "at": "2026-11-06",
-  "reason": "document failed to load (HTTP 404)"
- },
  "marshall-university": {
   "url": "https://www.marshall.edu/irp/files/CDS-PDF-2025-2026-Excel_final.pdf",
   "at": "2026-11-06",
@@ -278,11 +273,6 @@
   "url": "https://ir.library.illinoisstate.edu/cds/",
   "at": "2026-11-06",
   "reason": "no CDS document found from https://ir.library.illinoisstate.edu/cds/"
- },
- "colorado-state-university-fort-collins": {
-  "url": "https://www.ir.colostate.edu/",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://www.ir.colostate.edu/"
  },
  "university-of-oregon": {
   "url": "https://ir.uoregon.edu/overview",

@@ -9,96 +9,171 @@
   "values": {
     "applied_total": {
       "value": 30036,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 30036"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 30036",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 27076,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 27076"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 27076",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 6513,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 6513"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 6513",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 14,
-      "quote": "Submitting SAT Scores 14.00"
+      "quote": "Submitting SAT Scores 14.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_submit_pct": {
       "value": 36,
-      "quote": "Submitting ACT Scores 36.00"
+      "quote": "Submitting ACT Scores 36.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p25": {
       "value": 1120,
-      "quote": "SAT Composite 1120 1230 1320"
+      "quote": "SAT Composite 1120 1230 1320",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1230,
-      "quote": "SAT Composite 1120 1230 1320"
+      "quote": "SAT Composite 1120 1230 1320",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1320,
-      "quote": "SAT Composite 1120 1230 1320"
+      "quote": "SAT Composite 1120 1230 1320",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 22,
-      "quote": "ACT Composite 22 25 29"
+      "quote": "ACT Composite 22 25 29",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 25,
-      "quote": "ACT Composite 22 25 29"
+      "quote": "ACT Composite 22 25 29",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 29,
-      "quote": "ACT Composite 22 25 29"
+      "quote": "ACT Composite 22 25 29",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 10,
-      "quote": "Percent who had GPA of 4.0 10.00"
+      "quote": "Percent who had GPA of 4.0 10.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 36,
-      "quote": "Percent who had GPA between 3.75 and 3.99 36.00"
+      "quote": "Percent who had GPA between 3.75 and 3.99 36.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 24,
-      "quote": "Percent who had GPA between 3.50 and 3.74 24.00"
+      "quote": "Percent who had GPA between 3.50 and 3.74 24.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 18,
-      "quote": "Percent who had GPA between 3.25 and 3.49 18.00"
+      "quote": "Percent who had GPA between 3.25 and 3.49 18.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 9,
-      "quote": "Percent who had GPA between 3.00 and 3.24 9.00"
+      "quote": "Percent who had GPA between 3.00 and 3.24 9.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 3,
-      "quote": "Percent who had GPA between 2.50 and 2.99 3.00"
+      "quote": "Percent who had GPA between 2.50 and 2.99 3.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0,
-      "quote": "Percent who had GPA between 2.0 and 2.49 0"
+      "quote": "Percent who had GPA between 2.0 and 2.49 0",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0"
+      "quote": "Percent who had GPA below 1.0 0",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.64,
-      "quote": "Average High School GPA 3.64"
+      "quote": "Average High School GPA 3.64",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 98,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.00"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Early action closing date: 12 1"
+      "quote": "Early action closing date: 12 1",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://data.utah.edu/wp-content/uploads/2026/08/CDS_2025-2026.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-06",
+  "verified": 22,
+  "total": 23
 }

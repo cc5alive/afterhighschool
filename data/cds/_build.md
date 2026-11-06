@@ -18,11 +18,11 @@ Built 2026-11-06.
 | bowdoin-college | 2025-2026 | 36 |  |
 | brigham-young-university | 2024-2025 | 0 |  |
 | brown-university | 2025-2026 | 0 |  |
-| bucknell-university | 2025-2026 | 37 | SAT 1170-1360 far from federal 1310-1470; ACT 25-32 far from federal 30-33 |
+| bucknell-university | 2025-2026 | 42 | SAT 1170-1360 far from federal 1310-1470; ACT 25-32 far from federal 30-33 |
 | california-institute-of-technology | - | 6 |  |
 | california-polytechnic-state-university-san-luis-obispo | 2025-2026 | 40 |  |
 | california-state-polytechnic-university-humboldt | 2025-2026 | 36 |  |
-| california-state-polytechnic-university-pomona | 2025-2026 | 31 |  |
+| california-state-polytechnic-university-pomona | 2025-2026 | 35 |  |
 | california-state-university-fullerton | 2025-2026 | 18 | class rank inconsistent |
 | california-state-university-long-beach | 2025-2026 | 32 |  |
 | california-state-university-los-angeles | 2025-2026 | 31 |  |
@@ -38,6 +38,7 @@ Built 2026-11-06.
 | colgate-university | 2025-2026 | 45 |  |
 | college-of-the-holy-cross | 2023-2024 | 19 |  |
 | colorado-college | 2025-2026 | 49 |  |
+| colorado-state-university-fort-collins | 2025-2026 | 32 | C1 failed consistency (applied undefined, admitted undefined, enrolled 5376, federal admit rate 0.8854) |
 | columbia-university-in-the-city-of-new-york | 2024-2025 | 34 | C11 buckets sum to 100.0 |
 | commonwealth-university-of-pennsylvania | 2025-2026 | 23 |  |
 | cornell-university | 2025-2026 | 16 | C11 buckets sum to 3.0 |
@@ -51,7 +52,7 @@ Built 2026-11-06.
 | fairfield-university | 2025-2026 | 44 |  |
 | florida-agricultural-and-mechanical-university | 2023-2024 | 12 | C11 buckets sum to 132.5 |
 | florida-international-university | 2025-2026 | 43 |  |
-| george-mason-university | 2025-2026 | 35 |  |
+| george-mason-university | 2025-2026 | 46 |  |
 | georgetown-university | 2025-2026 | 34 |  |
 | georgia-institute-of-technology-main-campus | 2025-2026 | 44 | gpa_below1_pct: reader 95.31, Gemini 0 (quote matched) |
 | governors-state-university | - | 33 | sat scores inconsistent (870, 870, 870) |
@@ -62,7 +63,7 @@ Built 2026-11-06.
 | haverford-college | 2024-2025 | 33 |  |
 | illinois-institute-of-technology | 2024-2025 | 31 |  |
 | indiana-university-bloomington | 2024-2025 | 45 |  |
-| iowa-state-university | 2025-2026 | 37 |  |
+| iowa-state-university | 2025-2026 | 39 |  |
 | jacksonville-state-university | 2025-2026 | 34 |  |
 | kennesaw-state-university | 2025-2026 | 25 |  |
 | lehigh-university | 2025-2026 | 37 |  |
@@ -96,7 +97,7 @@ Built 2026-11-06.
 | rutgers-university-new-brunswick | 2025-2026 | 23 | applied_total: reader 78122, Gemini 43347 (quote matched); admitted_total: reader 45800, Gemini 28326 (quote matched); act_p25: reader 29, Gemini 28 (quote matched); act_p50: reads disagree (32 vs 31), left out; act_p75: reads disagree (34 vs 33), left out; rank_top10_pct: reader 35, Gemini 30 (quote matched); rank_top25_pct: reader 75, Gemini 66 (quote matched); act scores inconsistent (28, undefined, undefined) |
 | saginaw-valley-state-university | 2025-2026 | 18 |  |
 | san-diego-state-university | 2025-2026 | 34 |  |
-| san-jose-state-university | 2025-2026 | 38 |  |
+| san-jose-state-university | 2025-2026 | 40 |  |
 | santa-clara-university | 2025-2026 | 26 |  |
 | skidmore-college | 2024-2025 | 42 |  |
 | smith-college | 2023-2024 | 30 | waitlist_admitted: reader 54, Gemini 43 (quote matched); sat_p25: reader 1430, Gemini 1450 (quote matched); sat_p50: reader 1470, Gemini 1480 (quote matched); act_p50: reader 33, Gemini 34 (quote matched); act_p75: reader 34, Gemini 35 (quote matched); rank_top10_pct: reader 77, Gemini 79 (quote matched); rank_top25_pct: reader 96, Gemini 97 (quote matched); gpa_400_pct: reader 83, Gemini 82 (quote matched); gpa_375_pct: reader 13, Gemini 15 (quote matched); gpa_350_pct: reader 4, Gemini 3 (quote matched); gpa_325_pct: reader 0, Gemini 1 (quote matched); ed_applied: reader 930, Gemini 924 (quote matched); ed_admitted: reader 303, Gemini 353 (quote matched) |
@@ -172,6 +173,7 @@ Built 2026-11-06.
 | university-of-south-carolina-columbia | 2025-2026 | 1 |  |
 | university-of-south-florida | 2025-2026 | 32 | sat scores inconsistent (1160, undefined, undefined); act scores inconsistent (25, undefined, undefined) |
 | university-of-southern-california | 2024-2025 | 36 |  |
+| university-of-utah | 2025-2026 | 40 |  |
 | university-of-vermont | 2025-2026 | 33 |  |
 | university-of-washington-seattle-campus | 2025-2026 | 33 | gpa_400_pct: reads disagree (18.12 vs 18.1), left out; gpa_325_pct: reads disagree (4.42 vs 4.4), left out; gpa_250_pct: reads disagree (0.24 vs 0.2), left out; C11 buckets sum to 77.2 |
 | university-of-wisconsin-eau-claire | 2025-2026 | 36 | C1 failed consistency (applied 6785, admitted 2612, enrolled 1742, federal admit rate 0.8234) |
