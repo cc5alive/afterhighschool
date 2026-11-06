@@ -43,10 +43,10 @@ export function downloadUrl(u) {
   if ((m = u.match(/^https:\/\/([\w-]+\.)?box\.com\/s\/(\w+)/))) return `https://${m[1] || 'app.'}box.com/shared/static/${m[2]}`;
   return null;
 }
-async function getDoc(url) {
-  const dl = downloadUrl(url);
+async function getDoc(url, mapped = false) {
+  const dl = mapped ? null : downloadUrl(url);
   if (dl) {
-    const d = await getDoc(dl);
+    const d = await getDoc(dl, true);
     return { doc: { ...d.doc, finalUrl: url }, html: d.html };
   }
   const doc = await fetchDocText(url, { timeout: 60000 });

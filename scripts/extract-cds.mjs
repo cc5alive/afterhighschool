@@ -14,6 +14,9 @@ const DIR = 'data/cds/extracted';
 fs.mkdirSync(DIR, { recursive: true });
 const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
+// Bump when the reading rules change: schools read by an older version are read again.
+const READER_VERSION = 2;
+const current = (slug) => { try { return JSON.parse(fs.readFileSync(`${DIR}/${slug}.json`, 'utf8')).readerVersion === READER_VERSION; } catch { return false; } };
 // Sources that failed are remembered so each run doesn't spend minutes re-trying them.
 // A failed school is tried again when its URL in sources.json changes, after 14 days, or with --retry.
 const FAILED = 'data/cds/_failed.json';
@@ -85,8 +88,16 @@ function readRows(rows) {
       const firstX = rows[i][0].x;
       const nums = cells.filter((c) => c.x > firstX + 1 && parse(c.s, type) != null).sort((a, b) => a.x - b.x);
       if (!nums.length) continue;
-      const cell = pick === 'last' ? nums[nums.length - 1] : nums[0];
-      out[key] = { value: parse(cell.s, type), quote: quoteRows.map(rowText).join(' ') };
+      let value = parse(nums[0].s, type);
+      if (pick === 'last') {
+        // C1 rows list men, women, another gender and a total, but schools order the columns differently
+        // (total first in the 2025-26 template, last in older ones). The total is the number that equals
+        // the sum of the others; failing that, the largest.
+        const vals = nums.map((c) => parse(c.s, type));
+        const sum = vals.reduce((a, b) => a + b, 0);
+        value = vals.find((x) => vals.length > 2 && Math.abs(x * 2 - sum) <= 2) ?? Math.max(...vals);
+      }
+      out[key] = { value, quote: quoteRows.map(rowText).join(' ') };
     }
   }
   return out;
@@ -134,7 +145,7 @@ function factors(rows) {
 let made = 0;
 const log = [];
 for (const [slug, src] of Object.entries(sources)) {
-  if (!force && fs.existsSync(`${DIR}/${slug}.json`)) continue;
+  if (!force && current(slug)) continue;
   if (!retry && fresh(failed[slug], src.url)) continue;
   let resolved;
   try { resolved = await resolveCds(src.url); } catch (err) { fail(slug, src.url, `error ${err.message}`); continue; }
@@ -147,7 +158,7 @@ for (const [slug, src] of Object.entries(sources)) {
   if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
   const docUrl = resolved.url || src.url;
   const d = { slug, cdsYear: src.year || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null), source: { title: src.title || 'Common Data Set', url: docUrl },
-    researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', docKind: doc.kind, values, concerns: null };
+    researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
   if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
   fs.writeFileSync(`${DIR}/${slug}.json`, JSON.stringify(d, null, 2) + '\n');
   made++;

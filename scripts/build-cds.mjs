@@ -32,6 +32,14 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
     } else if (e) { v[k] = e.value; basis[k] = 'reader'; }
     else if (g) { v[k] = g.value; basis[k] = 'gemini'; }
   }
+  // Spreadsheets often store percents as fractions (0.955 for 95.5%).
+  const pct100 = (k) => { if (typeof v[k] === 'number' && v[k] > 0 && v[k] < 1) v[k] = Math.round(v[k] * 10000) / 100; };
+  if (v.gpa_submit_pct === 1) v.gpa_submit_pct = 100;
+  for (const k of ['gpa_submit_pct', 'sat_submit_pct', 'act_submit_pct', 'rank_submit_pct']) pct100(k);
+  if ((v.rank_top10_pct ?? 0) <= 1 && (v.rank_top25_pct ?? 0) <= 1 && (v.rank_top25_pct ?? v.rank_top10_pct) > 0) {
+    pct100('rank_top10_pct'); pct100('rank_top25_pct');
+    if (v.rank_top25_pct === 1) v.rank_top25_pct = 100;
+  }
   const drop = (keys, why) => { for (const k of keys) if (k in v) { delete v[k]; delete basis[k]; } notes.push(why); };
 
   // C1: positive, nested, and consistent with the federal admit rate.
