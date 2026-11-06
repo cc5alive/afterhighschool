@@ -7,55 +7,33 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "sat_p25": {
       "value": 1510,
-      "quote": "sat composite 1510 1550 1570",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 1510 1550 1570"
     },
     "sat_p50": {
       "value": 1550,
-      "quote": "sat composite 1510 1550 1570",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 1510 1550 1570"
     },
     "sat_p75": {
       "value": 1570,
-      "quote": "sat composite 1510 1550 1570",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 1510 1550 1570"
     },
     "act_p25": {
       "value": 34,
-      "quote": "act composite 34 35 35",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 34 35 35"
     },
     "act_p50": {
       "value": 35,
-      "quote": "act composite 34 35 35",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 34 35 35"
     },
     "act_p75": {
       "value": 35,
-      "quote": "act composite 34 35 35",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 34 35 35"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 6,
-  "total": 6
+  "concerns": null
 }

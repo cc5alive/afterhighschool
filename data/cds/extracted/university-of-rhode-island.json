@@ -7,153 +7,89 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 28021,
-      "quote": "total first-time, first-year (degree-seeking) who applied 0 4368 23100 553 28021",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 4368 23100 553 28021"
     },
     "admitted_total": {
       "value": 20892,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 411 3179 17302 0 20892",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 411 3179 17302 0 20892"
     },
     "enrolled_total": {
       "value": 3431,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 1284 2113 34 0 3431",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1284 2113 34 0 3431"
     },
     "waitlist_admitted": {
       "value": 9,
-      "quote": "number of wait-listed students admitted: 9",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "number of wait-listed students admitted: 9"
     },
     "rank_top10_pct": {
       "value": 19,
-      "quote": "percent in top tenth of high school graduating class 19",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 19"
     },
     "rank_top25_pct": {
       "value": 48,
-      "quote": "percent in top quarter of high school graduating class 48",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 48"
     },
     "gpa_400_pct": {
       "value": 38,
-      "quote": "percent who had gpa of 4.0 38 25 28",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa of 4.0 38 25 28"
     },
     "gpa_375_pct": {
       "value": 13,
-      "quote": "percent who had gpa between 3.75 and 3.99 13 16 15",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.75 and 3.99 13 16 15"
     },
     "gpa_350_pct": {
       "value": 17,
-      "quote": "percent who had gpa between 3.50 and 3.74 17 22 21",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.50 and 3.74 17 22 21"
     },
     "gpa_325_pct": {
       "value": 11,
-      "quote": "percent who had gpa between 3.25 and 3.49 11 14 13",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.25 and 3.49 11 14 13"
     },
     "gpa_300_pct": {
       "value": 13,
-      "quote": "percent who had gpa between 3.00 and 3.24 13 16 15",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.00 and 3.24 13 16 15"
     },
     "gpa_250_pct": {
       "value": 7,
-      "quote": "percent who had gpa between 2.50 and 2.99 7 7 7",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.50 and 2.99 7 7 7"
     },
     "gpa_200_pct": {
       "value": 1,
-      "quote": "percent who had gpa between 2.0 and 2.49 1 1 1",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.0 and 2.49 1 1 1"
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 0 0 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 0 0 0"
     },
     "gpa_average": {
       "value": 3.65,
-      "quote": "average high school gpa 3.65",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "average high school gpa 3.65"
     },
     "gpa_submit_pct": {
       "value": 99.18,
-      "quote": "percent submitting gpa 99.18",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent submitting gpa 99.18"
     },
     "ed_applied": {
       "value": 202,
-      "quote": "number of early decision applications received by your institution: 202",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "number of early decision applications received by your institution: 202"
     },
     "ed_admitted": {
       "value": 150,
-      "quote": "number of applicants admitted under early decision plan: 150",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "number of applicants admitted under early decision plan: 150"
     },
     "ed_offered": {
       "value": "yes",
-      "quote": null,
-      "found": null,
-      "how": null,
-      "note": "derived from counts, not checked directly"
+      "quote": null
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://web.uri.edu/ir/wp-content/uploads/sites/276/CDS-PDF-2025-2026_fillablePDF.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 19,
-  "total": 20
+  "concerns": null
 }

@@ -7,132 +7,77 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 62965,
-      "quote": "total first-time, first-year (degree-seeking) who applied 0 25102 30768 7095 62965",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 25102 30768 7095 62965"
     },
     "admitted_total": {
       "value": 52411,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 6257 21067 25087 52411",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6257 21067 25087 52411"
     },
     "enrolled_total": {
       "value": 9355,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 7194 1760 401 9355",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) enrolled 7194 1760 401 9355"
     },
     "waitlist_admitted": {
       "value": 2254,
-      "quote": "number of wait-listed students admitted: 2254",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "number of wait-listed students admitted: 2254"
     },
     "rank_top10_pct": {
       "value": 20.18,
-      "quote": "percent in top tenth of high school graduating class 20.18",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 20.18"
     },
     "rank_top25_pct": {
       "value": 52.75,
-      "quote": "percent in top quarter of high school graduating class 52.75",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 52.75"
     },
     "gpa_400_pct": {
       "value": 33.72,
-      "quote": "percent who had gpa of 4.0 33.72 17.68 24.41",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa of 4.0 33.72 17.68 24.41"
     },
     "gpa_375_pct": {
       "value": 30.17,
-      "quote": "percent who had gpa between 3.75 and 3.99 30.17 26.60 28.10",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.75 and 3.99 30.17 26.60 28.10"
     },
     "gpa_350_pct": {
       "value": 20.01,
-      "quote": "percent who had gpa between 3.50 and 3.74 20.01 26.54 23.80",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.50 and 3.74 20.01 26.54 23.80"
     },
     "gpa_325_pct": {
       "value": 10.37,
-      "quote": "percent who had gpa between 3.25 and 3.49 10.37 18.59 15.14",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.25 and 3.49 10.37 18.59 15.14"
     },
     "gpa_300_pct": {
       "value": 4.51,
-      "quote": "percent who had gpa between 3.00 and 3.24 4.51 8.86 7.04",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.00 and 3.24 4.51 8.86 7.04"
     },
     "gpa_250_pct": {
       "value": 1.22,
-      "quote": "percent who had gpa between 2.50 and 2.99 1.22 1.69 1.50",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.50 and 2.99 1.22 1.69 1.50"
     },
     "gpa_200_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.00 0.02 0.01",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00 0.02 0.01"
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.02 0.01",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.02 0.01"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00"
     },
     "gpa_average": {
       "value": 3.74,
-      "quote": "average high school gpa 3.74",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "average high school gpa 3.74"
     },
     "gpa_submit_pct": {
       "value": 92,
-      "quote": "percent submitting gpa 92.00",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent submitting gpa 92.00"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://edge.sitecorecloud.io/michiganstab57e-msustrategi129d-prod9868-7e5e/media/project/msu/ir/docs/cds/cds-2025-2026.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 17,
-  "total": 17
+  "concerns": null
 }

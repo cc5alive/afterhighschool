@@ -7,139 +7,81 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
       "value": 5,
-      "quote": "percent in top tenth of high school graduating class 5",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 5"
     },
     "rank_top25_pct": {
       "value": 29,
-      "quote": "percent in top quarter of high school graduating class 29",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 29"
     },
     "gpa_400_pct": {
       "value": 3,
-      "quote": "percent who had gpa of 4.0 c or t c or t 3",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa of 4.0 c or t c or t 3"
     },
     "gpa_375_pct": {
       "value": 25,
-      "quote": "percent who had gpa between 3.75 and 3.99 c or t c or t 25",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.75 and 3.99 c or t c or t 25"
     },
     "gpa_350_pct": {
       "value": 23,
-      "quote": "percent who had gpa between 3.50 and 3.74 c or t c or t 23",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.50 and 3.74 c or t c or t 23"
     },
     "gpa_325_pct": {
       "value": 19,
-      "quote": "percent who had gpa between 3.25 and 3.49 c or t c or t 19",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.25 and 3.49 c or t c or t 19"
     },
     "gpa_300_pct": {
       "value": 14,
-      "quote": "percent who had gpa between 3.00 and 3.24 c or t c or t 14",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.00 and 3.24 c or t c or t 14"
     },
     "gpa_250_pct": {
       "value": 13,
-      "quote": "percent who had gpa between 2.50 and 2.99 c or t c or t 13",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.50 and 2.99 c or t c or t 13"
     },
     "gpa_200_pct": {
       "value": 3,
-      "quote": "percent who had gpa between 2.0 and 2.49 c or t c or t 3",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.0 and 2.49 c or t c or t 3"
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 c or t c or t 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 1.0 and 1.99 c or t c or t 0"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 c or t c or t 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 c or t c or t 0"
     },
     "gpa_average": {
       "value": 3.42,
-      "quote": "average high school gpa: 3.42",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "average high school gpa: 3.42"
     },
     "sat_p25": {
       "value": 980,
-      "quote": "sat composite 980 1090 1190",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 980 1090 1190"
     },
     "sat_p50": {
       "value": 1090,
-      "quote": "sat composite 980 1090 1190",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 980 1090 1190"
     },
     "sat_p75": {
       "value": 1190,
-      "quote": "sat composite 980 1090 1190",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 980 1090 1190"
     },
     "act_p25": {
       "value": 18,
-      "quote": "act composite 18 22 25",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 18 22 25"
     },
     "act_p50": {
       "value": 22,
-      "quote": "act composite 18 22 25",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 18 22 25"
     },
     "act_p75": {
       "value": 25,
-      "quote": "act composite 18 22 25",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 18 22 25"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://www.tamucc.edu/president/pir/cds_2025-2026-word_web.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 18,
-  "total": 18
+  "concerns": null
 }

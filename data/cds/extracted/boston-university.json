@@ -1,85 +1,34 @@
 {
   "slug": "boston-university",
-  "cdsYear": "2025-2026",
+  "cdsYear": null,
   "source": {
     "title": "Common Data Set",
-    "url": "https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-updated.pdf"
+    "url": "https://www.bu.edu/asir/files/2025/03/cds-2025-c.pdf"
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
-    "rank_top10_pct": {
-      "value": 86,
-      "quote": "percent in top tenth of high school graduating class 86%"
-    },
-    "rank_top25_pct": {
-      "value": 98,
-      "quote": "percent in top quarter of high school graduating class 98%"
-    },
-    "gpa_400_pct": {
-      "value": 36,
-      "quote": "percent who had gpa of 4.0 36%"
-    },
-    "gpa_350_pct": {
-      "value": 27,
-      "quote": "percent who had gpa between 3.50 and 3.74 27%"
-    },
-    "gpa_325_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 3.25 and 3.49 1%"
-    },
-    "gpa_300_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 3.00 and 3.24 0%"
-    },
-    "gpa_250_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 2.50 and 2.99 0%"
-    },
-    "gpa_200_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 2.0 and 2.49 0%"
-    },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0%"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 0%"
-    },
-    "gpa_average": {
-      "value": 3.86,
-      "quote": "average high school gpa of all degree-seeking, first-time, 3.86"
+    "ed_applied": {
+      "value": 6854,
+      "quote": "number of early decision applications received by your institution 6854"
     },
     "ed_admitted": {
-      "value": 2165,
-      "quote": "number of applicants admitted under early decision plan 2,165"
-    },
-    "sat_p25": {
-      "value": 1420,
-      "quote": "sat composite 1420 1470 1510"
-    },
-    "sat_p50": {
-      "value": 1470,
-      "quote": "sat composite 1420 1470 1510"
-    },
-    "sat_p75": {
-      "value": 1510,
-      "quote": "sat composite 1420 1470 1510"
+      "value": 1936,
+      "quote": "number of applicants admitted under early decision plan 1936"
     },
     "act_p25": {
-      "value": 33,
-      "quote": "act composite 33 34 34"
+      "value": 32,
+      "quote": "act composite 32 33 34"
     },
     "act_p50": {
-      "value": 34,
-      "quote": "act composite 33 34 34"
+      "value": 33,
+      "quote": "act composite 32 33 34"
     },
     "act_p75": {
       "value": 34,
-      "quote": "act composite 33 34 34"
+      "quote": "act composite 32 33 34"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -152,6 +101,10 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
     }
   },
   "concerns": null

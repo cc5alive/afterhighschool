@@ -7,167 +7,97 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 20150,
-      "quote": "total first-time, first-year (degree-seeking) who applied 3485 15652 1013 0 20150",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who applied 3485 15652 1013 0 20150"
     },
     "admitted_total": {
       "value": 15570,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 2572 12629 369 0 15570",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2572 12629 369 0 15570"
     },
     "enrolled_total": {
       "value": 4126,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 1696 2400 30 0 4126",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1696 2400 30 0 4126"
     },
     "rank_top10_pct": {
       "value": 12.48,
-      "quote": "percent in top tenth of high school graduating class 12.48",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 12.48"
     },
     "rank_top25_pct": {
       "value": 12.87,
-      "quote": "percent in top quarter of high school graduating class 12.87",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 12.87"
     },
     "gpa_400_pct": {
       "value": 31.54,
-      "quote": "percent who had gpa of 4.0 31.54 38.57 34.51",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa of 4.0 31.54 38.57 34.51"
     },
     "gpa_375_pct": {
       "value": 15.6,
-      "quote": "percent who had gpa between 3.75 and 3.99 15.60 17.31 16.32",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.75 and 3.99 15.60 17.31 16.32"
     },
     "gpa_350_pct": {
       "value": 17.49,
-      "quote": "percent who had gpa between 3.50 and 3.74 17.49 16.39 17.03",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.50 and 3.74 17.49 16.39 17.03"
     },
     "gpa_325_pct": {
       "value": 9.94,
-      "quote": "percent who had gpa between 3.25 and 3.49 9.94 7.39 8.86",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.25 and 3.49 9.94 7.39 8.86"
     },
     "gpa_300_pct": {
       "value": 12.33,
-      "quote": "percent who had gpa between 3.00 and 3.24 12.33 11.63 12.04",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.00 and 3.24 12.33 11.63 12.04"
     },
     "gpa_250_pct": {
       "value": 10.32,
-      "quote": "percent who had gpa between 2.50 and 2.99 10.32 7.28 9.03",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.50 and 2.99 10.32 7.28 9.03"
     },
     "gpa_200_pct": {
       "value": 2.47,
-      "quote": "percent who had gpa between 2.0 and 2.49 2.47 1.38 2.01",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.0 and 2.49 2.47 1.38 2.01"
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0"
     },
     "gpa_below1_pct": {
       "value": 2.47,
-      "quote": "percent who had gpa below 1.0 2.47 0.06 .19",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 2.47 0.06 .19"
     },
     "gpa_average": {
       "value": 3.7,
-      "quote": "average high school gpa 3.70",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "average high school gpa 3.70"
     },
     "gpa_submit_pct": {
       "value": 99.9,
-      "quote": "percent submitting gpa 99.90",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent submitting gpa 99.90"
     },
     "sat_p25": {
       "value": 1010,
-      "quote": "sat composite 1010 1110 1210",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 1010 1110 1210"
     },
     "sat_p50": {
       "value": 1110,
-      "quote": "sat composite 1010 1110 1210",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 1010 1110 1210"
     },
     "sat_p75": {
       "value": 1210,
-      "quote": "sat composite 1010 1110 1210",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 1010 1110 1210"
     },
     "act_p25": {
       "value": 20,
-      "quote": "act composite 20 23 26",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 20 23 26"
     },
     "act_p50": {
       "value": 23,
-      "quote": "act composite 20 23 26",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 20 23 26"
     },
     "act_p75": {
       "value": 26,
-      "quote": "act composite 20 23 26",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 20 23 26"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://dataoffice.wvu.edu/files/d/d0809710-b583-4b08-8214-e297d97326d5/cds-2024-2025-wvu-final.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 22,
-  "total": 22
+  "concerns": null
 }

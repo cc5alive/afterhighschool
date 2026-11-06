@@ -7,34 +7,21 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "html",
   "values": {
     "applied_total": {
       "value": 18648,
-      "quote": "total first-time, first-year (degree-seeking) who applied 9229 8413 1006 0 18648",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who applied 9229 8413 1006 0 18648"
     },
     "admitted_total": {
       "value": 16372,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 8169 7673 530 0 16372",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 8169 7673 530 0 16372"
     },
     "enrolled_total": {
       "value": 4734,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 3541 1129 64 0 4734",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) enrolled 3541 1129 64 0 4734"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://iea.unl.edu/common-data-set-2025-2026/c-first-time-first-year-admission/applications/",
-  "checkedAt": "2026-11-06",
-  "verified": 3,
-  "total": 3
+  "concerns": null
 }

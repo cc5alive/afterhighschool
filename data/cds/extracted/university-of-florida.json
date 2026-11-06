@@ -1,93 +1,146 @@
 {
   "slug": "university-of-florida",
-  "cdsYear": "2025-2026",
+  "cdsYear": "2024-2025",
   "source": {
     "title": "Common Data Set",
-    "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS%202025-26_v8_08.14.2026.pdf"
+    "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf"
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 90523,
-      "quote": "total first-time, first-year (degree-seeking) who applied 42,172 39,420 90,523"
+      "value": 73557,
+      "quote": "total first-time, first-year who applied 73,557 39,022 29,376"
     },
     "admitted_total": {
-      "value": 18403,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 9,387 8,086 18,403"
+      "value": 17804,
+      "quote": "total first-time, first-year who were admitted 17,804 9,294 6,834"
     },
     "enrolled_total": {
-      "value": 7619,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 5,856 1,608 7,619"
-    },
-    "waitlist_admitted": {
-      "value": 1,
-      "quote": "number of wait-listed students admitted: 1"
+      "value": 7513,
+      "quote": "total first-time, first-year who enrolled 7,513 5,719 1,491"
     },
     "rank_top10_pct": {
-      "value": 85,
-      "quote": "percent in top tenth of high school graduating class 85%"
+      "value": 84,
+      "quote": "percent in top tenth of high school graduating class 84%"
     },
     "rank_top25_pct": {
       "value": 98,
       "quote": "percent in top quarter of high school graduating class 98%"
     },
     "gpa_400_pct": {
-      "value": 58,
-      "quote": "percent who had gpa of 4.0 58%"
+      "value": 53,
+      "quote": "percent who had gpa of 4.0 53 0 53.00%"
     },
     "gpa_375_pct": {
-      "value": 38,
-      "quote": "percent who had gpa between 3.75 and 3.99 38%"
+      "value": 41,
+      "quote": "percent who had gpa between 3.75 and 3.99 41 0 41.00%"
     },
     "gpa_350_pct": {
-      "value": 4,
-      "quote": "percent who had gpa between 3.50 and 3.74 4%"
-    },
-    "gpa_250_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 2.50 and 2.99 <1% percent who had gpa between 2.0 and 2.49 0%"
-    },
-    "gpa_200_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 2.0 and 2.49 0%"
-    },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0%"
+      "value": 6,
+      "quote": "percent who had gpa between 3.50 and 3.74 6 0 6.00%"
     },
     "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 0%"
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 totals should = 100% 100.00% 0.00% 100.00%"
     },
     "gpa_submit_pct": {
-      "value": 95,
-      "quote": "percent of total first-time, first-year students who submitted high school gpa: 95%"
+      "value": 94,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94.00%"
     },
     "sat_p25": {
       "value": 1330,
-      "quote": "sat composite 1330 1410 1490"
+      "quote": "sat composite 1330 1400 1470"
     },
     "sat_p50": {
-      "value": 1410,
-      "quote": "sat composite 1330 1410 1490"
+      "value": 1400,
+      "quote": "sat composite 1330 1400 1470"
     },
     "sat_p75": {
-      "value": 1490,
-      "quote": "sat composite 1330 1410 1490"
+      "value": 1470,
+      "quote": "sat composite 1330 1400 1470"
     },
     "act_p25": {
       "value": 29,
-      "quote": "act composite 29 32 33"
+      "quote": "act composite 29 31 33"
     },
     "act_p50": {
-      "value": 32,
-      "quote": "act composite 29 32 33"
+      "value": 31,
+      "quote": "act composite 29 31 33"
     },
     "act_p75": {
       "value": 33,
-      "quote": "act composite 29 32 33"
+      "quote": "act composite 29 31 33"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
     }
   },
   "concerns": null

@@ -7,18 +7,19 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
-      "value": 0,
+      "value": 25422,
       "quote": "total first-time, first-year who applied 25422 23871 1093 458 0"
     },
     "admitted_total": {
-      "value": 0,
+      "value": 22063,
       "quote": "total first-time, first-year who were admitted 22063 20828 793 442 0"
     },
     "enrolled_total": {
-      "value": 0,
+      "value": 5980,
       "quote": "total first-time, first-year who enrolled 5980 5771 105 104 0"
     },
     "rank_top10_pct": {

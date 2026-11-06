@@ -7,18 +7,19 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 21,
+      "value": 34779,
       "quote": "total first-time, first-year who applied 34779 5401 25661 3696 21"
     },
     "admitted_total": {
-      "value": 2,
+      "value": 5632,
       "quote": "total first-time, first-year who were admitted 5632 896 4116 618 2"
     },
     "enrolled_total": {
-      "value": 1,
+      "value": 2394,
       "quote": "total first-time, first-year who enrolled 2394 471 1708 214 1"
     },
     "waitlist_admitted": {

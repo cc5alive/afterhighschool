@@ -7,132 +7,77 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
       "value": 19.18,
-      "quote": "percent in top tenth of high school graduating class 19.18",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 19.18"
     },
     "rank_top25_pct": {
       "value": 41.65,
-      "quote": "percent in top quarter of high school graduating class 41.65",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 41.65"
     },
     "gpa_400_pct": {
       "value": 12.04,
-      "quote": "percent who had gpa of 4.0 12.04 2.74 9.97",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa of 4.0 12.04 2.74 9.97"
     },
     "gpa_375_pct": {
       "value": 28.85,
-      "quote": "percent who had gpa between 3.75 and 3.99 28.85 21.03 27.11",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.75 and 3.99 28.85 21.03 27.11"
     },
     "gpa_350_pct": {
       "value": 19.88,
-      "quote": "percent who had gpa between 3.50 and 3.74 19.88 17.95 19.45",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.50 and 3.74 19.88 17.95 19.45"
     },
     "gpa_325_pct": {
       "value": 13.06,
-      "quote": "percent who had gpa between 3.25 and 3.49 13.06 18.12 14.18",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.25 and 3.49 13.06 18.12 14.18"
     },
     "gpa_300_pct": {
       "value": 9.75,
-      "quote": "percent who had gpa between 3.00 and 3.24 9.75 17.78 11.53",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.00 and 3.24 9.75 17.78 11.53"
     },
     "gpa_250_pct": {
       "value": 13.01,
-      "quote": "percent who had gpa between 2.50 and 2.99 13.01 21.20 14.83",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.50 and 2.99 13.01 21.20 14.83"
     },
     "gpa_200_pct": {
       "value": 3.41,
-      "quote": "percent who had gpa between 2.0 and 2.49 3.41 1.20 2.92",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.0 and 2.49 3.41 1.20 2.92"
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.00 0.00",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.00 0.00"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00"
     },
     "sat_p25": {
       "value": 930,
-      "quote": "sat composite 930 1040 1130",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 930 1040 1130"
     },
     "sat_p50": {
       "value": 1040,
-      "quote": "sat composite 930 1040 1130",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 930 1040 1130"
     },
     "sat_p75": {
       "value": 1130,
-      "quote": "sat composite 930 1040 1130",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "sat composite 930 1040 1130"
     },
     "act_p25": {
       "value": 18,
-      "quote": "act composite 18 21 25",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 18 21 25"
     },
     "act_p50": {
       "value": 21,
-      "quote": "act composite 18 21 25",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 18 21 25"
     },
     "act_p75": {
       "value": 25,
-      "quote": "act composite 18 21 25",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "act composite 18 21 25"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://www.wku.edu/instres/documents/cds_2025_2026.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 17,
-  "total": 17
+  "concerns": null
 }

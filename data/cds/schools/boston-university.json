@@ -1,21 +1,17 @@
 {
   "slug": "boston-university",
-  "cdsYear": "2025-2026",
+  "cdsYear": "2024-2025",
   "source": {
     "title": "Common Data Set",
-    "url": "https://www.bu.edu/asir/files/2026/07/CDS-2025-2026-updated.pdf"
+    "url": "https://www.bu.edu/asir/files/2025/03/cds-2025-c.pdf"
   },
   "builtAt": "2026-11-06",
   "values": {
-    "sat_p25": 1420,
-    "sat_p50": 1470,
-    "sat_p75": 1510,
-    "act_p25": 33,
-    "act_p50": 34,
+    "act_p25": 32,
+    "act_p50": 33,
     "act_p75": 34,
-    "rank_top10_pct": 86,
-    "rank_top25_pct": 98,
-    "gpa_average": 3.86,
+    "ed_applied": 6854,
+    "ed_admitted": 1936,
     "factor_rigor": "Very Important",
     "factor_class_rank": "Important",
     "factor_gpa": "Very Important",
@@ -33,18 +29,15 @@
     "factor_religion": "Not Considered",
     "factor_volunteer": "Considered",
     "factor_work": "Considered",
-    "factor_interest": "Considered"
+    "factor_interest": "Considered",
+    "ed_offered": "yes"
   },
   "basis": {
-    "sat_p25": "reader",
-    "sat_p50": "reader",
-    "sat_p75": "reader",
     "act_p25": "reader",
     "act_p50": "reader",
     "act_p75": "reader",
-    "rank_top10_pct": "reader",
-    "rank_top25_pct": "reader",
-    "gpa_average": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader",
     "factor_rigor": "both",
     "factor_class_rank": "reader",
     "factor_gpa": "both",

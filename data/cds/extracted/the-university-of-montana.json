@@ -7,125 +7,73 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) who applied 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who applied 0"
     },
     "admitted_total": {
       "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 0"
     },
     "enrolled_total": {
       "value": 0,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) enrolled 0"
     },
     "rank_top10_pct": {
       "value": 22,
-      "quote": "percent in top tenth of high school graduating class 22",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 22"
     },
     "rank_top25_pct": {
       "value": 44,
-      "quote": "percent in top quarter of high school graduating class 44",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 44"
     },
     "gpa_400_pct": {
       "value": 13,
-      "quote": "percent who had gpa of 4.0 13",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa of 4.0 13"
     },
     "gpa_375_pct": {
       "value": 22,
-      "quote": "percent who had gpa between 3.75 and 3.99 22",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.75 and 3.99 22"
     },
     "gpa_350_pct": {
       "value": 19,
-      "quote": "percent who had gpa between 3.50 and 3.74 19",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.50 and 3.74 19"
     },
     "gpa_325_pct": {
       "value": 13,
-      "quote": "percent who had gpa between 3.25 and 3.49 13",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.25 and 3.49 13"
     },
     "gpa_300_pct": {
       "value": 12,
-      "quote": "percent who had gpa between 3.00 and 3.24 12",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.00 and 3.24 12"
     },
     "gpa_250_pct": {
       "value": 13,
-      "quote": "percent who had gpa between 2.50 and 2.99 13",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.50 and 2.99 13"
     },
     "gpa_200_pct": {
       "value": 7,
-      "quote": "percent who had gpa between 2.0 and 2.49 7",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.0 and 2.49 7"
     },
     "gpa_100_pct": {
       "value": 1,
-      "quote": "percent who had gpa between 1.0 and 1.99 1",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 1.0 and 1.99 1"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 0"
     },
     "gpa_average": {
       "value": 3.41,
-      "quote": "average high school gpa 3.41",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "average high school gpa 3.41"
     },
     "gpa_submit_pct": {
       "value": 95,
-      "quote": "percent submitting gpa 95",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent submitting gpa 95"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://www.umt.edu/institutional-research/documents/cds-pdf-2025-2026_pdf_template1.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 16,
-  "total": 16
+  "concerns": null
 }

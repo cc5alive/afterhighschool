@@ -7,18 +7,19 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
-      "value": 8447,
+      "value": 42719,
       "quote": "total first-time, first-year (degree-seeking) who applied 42719 13031 8447"
     },
     "admitted_total": {
-      "value": 5667,
+      "value": 17065,
       "quote": "total first-time, first-year (degree-seeking) who were admitted 17065 8198 5667"
     },
     "enrolled_total": {
-      "value": 439,
+      "value": 3195,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 3195 330 439"
     },
     "waitlist_admitted": {

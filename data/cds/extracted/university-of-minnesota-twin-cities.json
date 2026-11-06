@@ -7,62 +7,37 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 43929,
-      "quote": "total first-time, first-year (degree-seeking) who applied 0 9780 26246 7903 43929",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 9780 26246 7903 43929"
     },
     "admitted_total": {
       "value": 34648,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 6040 6222 22386 0 34648",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6040 6222 22386 0 34648"
     },
     "enrolled_total": {
       "value": 7180,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 4752 1937 491 0 7180",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4752 1937 491 0 7180"
     },
     "rank_top10_pct": {
       "value": 37.69,
-      "quote": "percent in top tenth of high school graduating class 37.69",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 37.69"
     },
     "rank_top25_pct": {
       "value": 71.22,
-      "quote": "percent in top quarter of high school graduating class 71.22",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 71.22"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 totals should = 100% 0 0 0"
     },
     "gpa_submit_pct": {
       "value": 5,
-      "quote": "percent submitting gpa common data set 202 5 -202 6",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent submitting gpa common data set 202 5 -202 6"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2025_2026_tc_0.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 7,
-  "total": 7
+  "concerns": null
 }

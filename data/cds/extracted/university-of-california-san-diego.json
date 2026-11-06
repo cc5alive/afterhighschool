@@ -7,125 +7,73 @@
   },
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
+  "readerVersion": 2,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 136750,
-      "quote": "total first-time, first-year (degree-seeking) who applied 87584 24912 24254 136750",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who applied 87584 24912 24254 136750"
     },
     "admitted_total": {
       "value": 39054,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 21677 9881 7496 39054",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 21677 9881 7496 39054"
     },
     "enrolled_total": {
       "value": 7801,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 5431 961 1409 7801",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 5431 961 1409 7801"
     },
     "waitlist_admitted": {
       "value": 5284,
-      "quote": "number of wait-listed students admitted: 5,284",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "number of wait-listed students admitted: 5,284"
     },
     "rank_top10_pct": {
       "value": 100,
-      "quote": "percent in top tenth of high school graduating class 100%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top tenth of high school graduating class 100%"
     },
     "rank_top25_pct": {
       "value": 100,
-      "quote": "percent in top quarter of high school graduating class 100%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent in top quarter of high school graduating class 100%"
     },
     "gpa_400_pct": {
       "value": 31,
-      "quote": "percent who had gpa of 4.0 31%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa of 4.0 31%"
     },
     "gpa_375_pct": {
       "value": 54,
-      "quote": "percent who had gpa between 3.75 and 3.99 54%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.75 and 3.99 54%"
     },
     "gpa_350_pct": {
       "value": 13,
-      "quote": "percent who had gpa between 3.50 and 3.74 13%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.50 and 3.74 13%"
     },
     "gpa_325_pct": {
       "value": 2,
-      "quote": "percent who had gpa between 3.25 and 3.49 2%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.25 and 3.49 2%"
     },
     "gpa_300_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 3.00 and 3.24 0%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 3.00 and 3.24 0%"
     },
     "gpa_250_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 2.50 and 2.99 0%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.50 and 2.99 0%"
     },
     "gpa_200_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 2.0 and 2.49 0%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 2.0 and 2.49 0%"
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa between 1.0 and 1.99 0%"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 0%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent who had gpa below 1.0 0%"
     },
     "gpa_submit_pct": {
       "value": 94,
-      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94%",
-      "found": true,
-      "how": "quote",
-      "note": null
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94%"
     }
   },
-  "concerns": null,
-  "httpStatus": 200,
-  "finalUrl": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf",
-  "checkedAt": "2026-11-06",
-  "verified": 16,
-  "total": 16
+  "concerns": null
 }

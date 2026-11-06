@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "applied_total": 4472,
+    "admitted_total": 925,
+    "enrolled_total": 359,
     "waitlist_offered": 1274,
     "waitlist_accepted": 604,
     "waitlist_admitted": 2,
@@ -43,6 +46,9 @@
     "ed_offered": "yes"
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "waitlist_offered": "gemini",
     "waitlist_accepted": "gemini",
     "waitlist_admitted": "both",

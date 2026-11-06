@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-06",
   "values": {
+    "applied_total": 76247,
+    "admitted_total": 12751,
+    "enrolled_total": 4063,
     "sat_p25": 1400,
     "sat_p50": 1470,
     "sat_p75": 1530,
@@ -46,6 +49,9 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",
     "sat_p75": "reader",

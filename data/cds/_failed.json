@@ -348,5 +348,20 @@
   "url": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL.xlsx",
   "at": "2026-11-06",
   "reason": "document failed to load (HTTP 200)"
+ },
+ "university-of-missouri-columbia": {
+  "url": "https://udair.missouri.edu/mu-data/common-data-set",
+  "at": "2026-11-06",
+  "reason": "no CDS document found from https://udair.missouri.edu/mu-data/common-data-set"
+ },
+ "university-of-north-dakota": {
+  "url": "https://und.edu/analytics-and-planning/data-and-reports/common-data-set.html",
+  "at": "2026-11-06",
+  "reason": "no CDS document found from https://und.edu/analytics-and-planning/data-and-reports/common-data-set.html"
+ },
+ "the-university-of-texas-at-dallas": {
+  "url": "https://oisds.utdallas.edu/common-data-set",
+  "at": "2026-11-06",
+  "reason": "no CDS document found from https://oisds.utdallas.edu/common-data-set"
  }
 }
