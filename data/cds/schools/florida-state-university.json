@@ -28,6 +28,9 @@
     "gpa_average": 3.72,
     "gpa_submit_pct": 99.4,
     "deferral_allowed": "no",
+    "transfer_applied": 8486,
+    "transfer_admitted": 5877,
+    "transfer_enrolled": 2106,
     "factor_work": "Important",
     "factor_interest": "Not Considered"
   },
@@ -53,6 +56,9 @@
     "gpa_average": "reader",
     "gpa_submit_pct": "reader",
     "deferral_allowed": "reader",
+    "transfer_applied": "reader",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader",
     "factor_work": "reader",
     "factor_interest": "reader"
   }
