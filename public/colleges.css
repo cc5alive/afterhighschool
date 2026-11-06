@@ -391,3 +391,10 @@ button.button { cursor: pointer; font-family: inherit; }
 .self-list h3 { margin: 0 0 6px; font-size: 1.2rem; }
 .fel-list .sy-card { border-left-color: var(--fellow); }
 @media (max-width: 640px) { .self-facts { grid-template-columns: 1fr; } }
+.res-list { list-style: none; margin: 0 0 18px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.res-list li { background: var(--card); border-radius: 10px; padding: 12px 14px; border-top: 4px solid var(--self); }
+.res-name { font-weight: 800; font-size: 1.05rem; }
+.res-cost { display: inline-block; margin-left: 8px; font-size: 0.78rem; font-weight: 700; color: var(--muted); }
+.res-cost.free { color: var(--apprentice); }
+.res-list p { margin: 6px 0 0; font-size: 0.95rem; }
+.res-src { font-size: 0.8rem; color: var(--muted); }

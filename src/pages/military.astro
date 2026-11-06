@@ -6,7 +6,8 @@ import { MILITARY_LAUNCHED } from '../lib/site.js';
 const CHECKED = 'November 6, 2026';
 const SRC = {
   join: { label: "Today's Military (U.S. Department of Defense): eligibility requirements", url: 'https://www.todaysmilitary.com/how-to-join/eligibility-requirements' },
-  rotc: { label: 'James Madison University Army ROTC: scholarships', url: 'https://www.jmu.edu/rotc/prospective-cadets/scholarships.shtml' },
+  army: { label: 'U.S. Army: ROTC scholarships', url: 'https://www.goarmy.com/careers-and-jobs/find-your-path/army-officers/rotc/scholarships' },
+  rotc: { label: 'James Madison University Army ROTC: scholarships (eligibility details)', url: 'https://www.jmu.edu/rotc/prospective-cadets/scholarships.shtml' },
   nrotc: { label: 'Naval Service Training Command: NROTC', url: 'https://www.netc.navy.mil/Commands/Naval-Service-Training-Command/NROTC/Prospective-Midshipmen/Scholarship-and-Non-Scholarship-Options/Marine-Corps-Scholarships/' },
   crs: { label: 'Congressional Research Service, IF13219, May 8, 2026', url: 'https://www.everycrsreport.com/files/2026-05-08_IF13219_e274a5f7c6a2ee923703f72590ac1a6b0953e2a3.pdf' },
   ta: { label: 'Department of the Air Force: Military Tuition Assistance', url: 'https://myairforcebenefits.us.af.mil/Benefit-Library/Federal-Benefits/Military-Tuition-Assistance-%28MilTA%29?serv=26' },
@@ -38,19 +39,20 @@ const TIERS = [['36 months or more', '100%'], ['30 to 35 months', '90%'], ['24 t
 
     <li class="sy-card" id="rotc">
       <h2>ROTC: college on a military scholarship</h2>
-      <p class="sy-what">You go to a regular college, take military science classes and train alongside your degree, and become an officer when you graduate. The Army, Navy and Air Force each run ROTC programs Here is what one Army ROTC program lists:</p>
+      <p class="sy-what">You go to a regular college, take military science classes and train alongside your degree, and become an officer when you graduate. The Army, Navy and Air Force each run ROTC programs. Here is what an Army ROTC scholarship includes, at any of more than 1,000 participating schools:</p>
       <dl class="sy-facts">
         <div class="sy-get"><dt>What the scholarship pays</dt><dd><ul>
           <li>Full tuition and fees (or room and board instead, if you qualify)</li>
           <li>$1,200 a year for books</li>
-          <li>$420 a month, up to 10 months a year, for every contracted cadet</li>
+          <li>$420 a month through the school year for living costs</li>
         </ul></dd></div>
         <div><dt>Length</dt><dd>Two, three or four years, depending on how much of your degree is left.</dd></div>
-        <div><dt>Who can apply</dt><dd>U.S. citizens ages 17 to 31 with at least a 2.50 high school GPA who have taken the SAT or ACT (no minimum score) and meet Army physical standards.</dd></div>
-        <div class="sy-get"><dt>What you owe</dt><dd>Eight years total: four years of active duty and four in the Army Reserve or National Guard, or all eight in the Reserve or Guard while working a civilian job.</dd></div>
+        <div><dt>When to apply</dt><dd>After your junior year of high school, or once you're in college.</dd></div>
+        <div><dt>Who can apply</dt><dd>At one school's program (JMU): U.S. citizens ages 17 to 31 with at least a 2.50 high school GPA who have taken the SAT or ACT (no minimum score) and meet Army physical standards.</dd></div>
+        <div class="sy-get"><dt>What you owe</dt><dd>Eight years in the Army, with active duty and/or the Army Reserve or National Guard depending on the scholarship. Some scholarship holders can serve part time in the Reserve or Guard while working a civilian job.</dd></div>
       </dl>
       <p class="sy-note">Navy and Air Force ROTC scholarships have their own amounts and service terms. Ask each program directly.</p>
-      <p class="wys-src">Sources: <a href={SRC.rotc.url} rel="noopener" target="_blank">{SRC.rotc.label}</a>; <a href={SRC.nrotc.url} rel="noopener" target="_blank">{SRC.nrotc.label}</a>. Checked {CHECKED}.</p>
+      <p class="wys-src">Sources: <a href={SRC.army.url} rel="noopener" target="_blank">{SRC.army.label}</a>; <a href={SRC.rotc.url} rel="noopener" target="_blank">{SRC.rotc.label}</a>; <a href={SRC.nrotc.url} rel="noopener" target="_blank">{SRC.nrotc.label}</a>. Checked {CHECKED}.</p>
     </li>
 
     <li class="sy-card" id="academies">
