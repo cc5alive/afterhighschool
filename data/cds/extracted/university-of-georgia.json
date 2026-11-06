@@ -1,62 +1,63 @@
 {
   "slug": "university-of-georgia",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://oir.uga.edu/wp-content/uploads/UGA_CDS_2024-2025.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://oir.uga.edu/wp-content/uploads/UGA_CDS_2025-2026.pdf"
   },
+  "sourceUrl": "https://oir.uga.edu/wp-content/uploads/UGA_CDS_2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 42436,
-      "quote": "total first-time, first-year (degree-seeking) who applied 19041 22113 1282 42436"
+      "value": 47464,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1 21110 25261 1092 47464"
     },
     "admitted_total": {
-      "value": 16092,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 8946 6878 268 16092"
+      "value": 16257,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 319 8893 7044 1 16257"
     },
     "enrolled_total": {
-      "value": 6169,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 4917 1235 17 6169"
-    },
-    "waitlist_admitted": {
-      "value": 157,
-      "quote": "number of wait-listed students admitted: 157"
+      "value": 6195,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 4859 1291 45 6195"
     },
     "gpa_400_pct": {
-      "value": 85.48,
-      "quote": "percent who had gpa of 4.0 85.48 85.48"
+      "value": 87.06,
+      "quote": "percent who had gpa of 4.0 87.06"
     },
     "gpa_375_pct": {
-      "value": 12.5,
-      "quote": "percent who had gpa between 3.75 and 3.99 12.5 12.5"
+      "value": 11.32,
+      "quote": "percent who had gpa between 3.75 and 3.99 11.32"
     },
     "gpa_350_pct": {
-      "value": 1.25,
-      "quote": "percent who had gpa between 3.50 and 3.74 1.25 1.25"
+      "value": 0.82,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.82"
     },
     "gpa_325_pct": {
-      "value": 0.31,
-      "quote": "percent who had gpa between 3.25 and 3.49 0.31 0.31"
+      "value": 0.29,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.29"
     },
     "gpa_300_pct": {
       "value": 0.16,
-      "quote": "percent who had gpa between 3.00 and 3.24 0.16 0.16"
+      "quote": "percent who had gpa between 3.00 and 3.24 0.16"
     },
     "gpa_250_pct": {
-      "value": 0.211,
-      "quote": "percent who had gpa between 2.50 and 2.99 0.211 0.211"
+      "value": 0.23,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.23"
     },
     "gpa_200_pct": {
-      "value": 0.084,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.084 0.084"
+      "value": 0.1,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.1"
+    },
+    "gpa_100_pct": {
+      "value": 0.02,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.02"
     },
     "gpa_average": {
-      "value": 4.15,
-      "quote": "average high school gpa 4.15"
+      "value": 4.17,
+      "quote": "average high school gpa 4.17"
     },
     "gpa_submit_pct": {
       "value": 100,

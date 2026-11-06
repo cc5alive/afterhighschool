@@ -91,7 +91,7 @@ Built 2026-11-06.
 | northeastern-illinois-university | 2024-2025 | 1 |  |
 | northeastern-university | - | 39 | gpa_below1_pct read as the "totals = 100%" note |
 | northern-arizona-university | 2025-2026 | 43 |  |
-| northwestern-university | 2024-2025 | 30 | C11 buckets sum to 100.0 |
+| northwestern-university | 2025-2026 | 25 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C11 buckets sum to 100.0 |
 | ohio-state-university-main-campus | 2025-2026 | 0 |  |
 | ohio-wesleyan-university | 2025-2026 | 30 |  |
 | oklahoma-state-university-main-campus | 2025-2026 | 0 |  |
@@ -121,7 +121,7 @@ Built 2026-11-06.
 | texas-a-and-m-university-college-station | - | 14 |  |
 | texas-a-and-m-university-corpus-christi | 2025-2026 | 36 |  |
 | texas-christian-university | 2025-2026 | 38 |  |
-| texas-state-university | 2024-2025 | 14 |  |
+| texas-state-university | 2025-2026 | 5 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | texas-tech-university | 2025-2026 | 41 |  |
 | the-university-of-alabama | 2025-2026 | 24 |  |
 | the-university-of-montana | 2025-2026 | 33 |  |
@@ -137,7 +137,7 @@ Built 2026-11-06.
 | university-at-buffalo | 2025-2026 | 42 | gpa_average out of range |
 | university-of-akron-main-campus | 2025-2026 | 31 | C1 failed consistency (applied 13503, admitted 10427, enrolled 2169, federal admit rate 0.5967) |
 | university-of-alabama-in-huntsville | 2025-2026 | 39 |  |
-| university-of-arizona | 2099-2100 | 14 | C11 left blank by the school |
+| university-of-arizona | 2025-2026 | 0 |  |
 | university-of-arkansas | 2025-2026 | 46 |  |
 | university-of-california-berkeley | 2025-2026 | 15 |  |
 | university-of-california-davis | 2025-2026 | 35 |  |
@@ -152,14 +152,14 @@ Built 2026-11-06.
 | university-of-connecticut | 2024-2025 | 34 |  |
 | university-of-delaware | 2024-2025 | 34 |  |
 | university-of-florida | 2024-2025 | 35 | applied_total: reader 5159, Gemini 73557 (quote matched); admitted_total: reader 1676, Gemini 17804 (quote matched); enrolled_total: reader 303, Gemini 7513 (quote matched) |
-| university-of-georgia | 2024-2025 | 41 |  |
+| university-of-georgia | 2025-2026 | 31 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-houston | 2025-2026 | 43 |  |
 | university-of-houston-downtown | 2025-2026 | 41 |  |
 | university-of-idaho | - | 18 | gpa_below1_pct read as the "totals = 100%" note |
 | university-of-illinois-chicago | 2025-2026 | 39 | SAT 1030-1300 far from federal 1130-1350 |
 | university-of-illinois-urbana-champaign | 2025-2026 | 32 | C11 buckets sum to 18.0 |
 | university-of-iowa | 2025-2026 | 34 |  |
-| university-of-kansas | 2024-2025 | 19 | sat_submit_pct: reader 8, Gemini 8.6 (quote matched); act_submit_pct: reader 55, Gemini 55.2 (quote matched); act_p25: reader 2, Gemini 20 (quote matched); act_p50: reads disagree (2 vs 24), left out; act_p75: reads disagree (4 vs 28), left out; rank_top25_pct: reader 5, Gemini 54 (quote matched); gpa_400_pct: reader 3, Gemini 36 (quote matched); gpa_375_pct: reader 2, Gemini 23 (quote matched); gpa_325_pct: reader 1, Gemini 11 (quote matched); C1 failed consistency (applied 22363, admitted undefined, enrolled undefined, federal admit rate 0.9348); act scores inconsistent (20, undefined, undefined); ed counts inconsistent (undefined, 24) |
+| university-of-kansas | 2024-2025 | 22 | reader and Gemini read different documents (2025 vs 2024); used the reader one; newer document gave too few values; used the other; C1 failed consistency (applied 22363, admitted undefined, enrolled undefined, federal admit rate 0.9348) |
 | university-of-kentucky | 2025-2026 | 31 |  |
 | university-of-louisville | 2024-2025 | 33 |  |
 | university-of-maryland-college-park | 2025-2026 | 0 |  |
@@ -209,7 +209,7 @@ Built 2026-11-06.
 | wentworth-institute-of-technology | 2025-2026 | 40 |  |
 | west-virginia-university | 2024-2025 | 24 |  |
 | western-kentucky-university | 2025-2026 | 19 | ACT 18-25 far from federal 16-21 |
-| william-and-mary | 2099-2100 | 4 | C11 left blank by the school; ed counts inconsistent (undefined, 381) |
+| william-and-mary | 2025-2026 | 34 |  |
 | williams-college | 2025-2026 | 0 |  |
 | worcester-polytechnic-institute | 2025-2026 | 37 | C1 failed consistency (applied 12355, admitted undefined, enrolled 1300, federal admit rate 0.6016) |
 | yale-university | 2025-2026 | 31 |  |

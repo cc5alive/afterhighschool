@@ -1,56 +1,62 @@
 {
   "slug": "northwestern-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://enrollment.northwestern.edu/data/2024-2025.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://enrollment.northwestern.edu/data/2025-2026.pdf"
   },
+  "sourceUrl": "https://enrollment.northwestern.edu/data/2025-2026.pdf",
   "researchedAt": "2026-11-06",
   "extractedBy": "extract-cds",
   "readerVersion": 5,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
-      "value": 59,
-      "quote": "number of wait-listed students admitted: 59"
+      "value": 167,
+      "quote": "number of wait-listed students admitted: 167"
     },
     "gpa_below1_pct": {
       "value": 100,
       "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
     },
     "applied_total": {
-      "value": 49474,
-      "quote": "total first-time, first-year men who applied 23,774 / total first-time, first-year women who applied 25,686 / total first-time, first-year of another gender who applied 14 / total first-time, first-year unknown gender who applied 0",
+      "value": 52676,
+      "quote": "total first-time, first-year males who applied 25,258 / total first-time, first-year females who applied 27,390 / total first-time, first-year students of unknowns gender who applied 28",
       "how": "sum of gender rows"
     },
     "admitted_total": {
-      "value": 3806,
-      "quote": "total first-time, first-year men who were admitted 1,735 / total first-time, first-year women who were admitted 2,070 / total first-time, first-year of another gender who were admitted 1 / total first-time, first-year unknown gender who were admitted 0",
+      "value": 3933,
+      "quote": "total first-time, first-year males who were admitted 1,828 / total first-time, first-year females who were admitted 2,105 / total first-time, first-year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2139,
+      "quote": "total first-time, first-year males who enrolled 1,000 / total first-time, first-year females who enrolled 1,139 / total first-time, first-year students of unknown sex who enrolled 0",
       "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 1510,
-      "quote": "sat composite 1510 1540 1560"
+      "value": 1520,
+      "quote": "sat composite 1520 1540 1560"
     },
     "sat_p50": {
       "value": 1540,
-      "quote": "sat composite 1510 1540 1560"
+      "quote": "sat composite 1520 1540 1560"
     },
     "sat_p75": {
       "value": 1560,
-      "quote": "sat composite 1510 1540 1560"
+      "quote": "sat composite 1520 1540 1560"
     },
     "act_p25": {
       "value": 34,
-      "quote": "act composite 34 34 35"
+      "quote": "act composite 34 35 35"
     },
     "act_p50": {
-      "value": 34,
-      "quote": "act composite 34 34 35"
+      "value": 35,
+      "quote": "act composite 34 35 35"
     },
     "act_p75": {
       "value": 35,
-      "quote": "act composite 34 34 35"
+      "quote": "act composite 34 35 35"
     },
     "factor_class_rank": {
       "value": "Very Important",
@@ -73,7 +79,7 @@
       "quote": "Recommendation(s)"
     },
     "factor_interview": {
-      "value": "Considered",
+      "value": "Not Considered",
       "quote": "Interview"
     },
     "factor_extracurriculars": {
@@ -83,10 +89,6 @@
     "factor_talent": {
       "value": "Very Important",
       "quote": "Talent/ability"
-    },
-    "factor_character": {
-      "value": "Very Important",
-      "quote": "Character/personal qualities"
     },
     "factor_first_generation": {
       "value": "Considered",
