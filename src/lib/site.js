@@ -13,4 +13,7 @@ export const APPRENTICESHIPS_LAUNCHED = true;
 // Community college and transfer guide (launched Nov 6, 2026).
 export const TRANSFER_LAUNCHED = true;
 
+// Gap years and service years: reachable by URL but noindex and out of the sitemap until reviewed.
+export const GAP_LAUNCHED = false;
+
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';

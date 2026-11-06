@@ -270,4 +270,5 @@ select:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 .explore-link:hover { filter: brightness(1.08); text-decoration: underline; }
 .map a text { text-decoration: underline; }
 .explore-link.path-apprentice { background: var(--apprentice); }
+.explore-link.path-gap { background: var(--gap); }
 .explore-link.path-transfer { background: var(--card); color: var(--ink); box-shadow: inset 0 0 0 3px var(--college); }

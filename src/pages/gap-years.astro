@@ -1,0 +1,50 @@
+---
+// Gap years and service years: programs that pay you or cost nothing, from each program's own pages.
+import Layout from '../layouts/Layout.astro';
+import { PROGRAMS, SEGAL, SERVICE_CHECKED } from '../lib/service-years.js';
+import { GAP_LAUNCHED } from '../lib/site.js';
+---
+<Layout title="Gap years and service years that pay | After High School"
+  description="Gap-year programs that pay you or cost nothing: AmeriCorps NCCC, City Year, conservation corps, Job Corps and YouthBuild. Who can join, how long, what you get, from each program's own pages."
+  path="/gap-years" nav="colleges" noindex={!GAP_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Gap years and service years</h1>
+    <p>A gap year doesn't have to cost money. These programs pay a living allowance or are free, last from a few months to a few years, and several give you money for college afterward. Every fact below comes from the program's own pages, linked under each one.</p>
+  </section>
+
+  <ul class="sy-list">
+    {PROGRAMS.map((p) => (
+      <li class="sy-card" id={p.slug}>
+        <h2>{p.name}</h2>
+        <p class="sy-run">{p.runBy}</p>
+        <p class="sy-what">{p.what}</p>
+        <dl class="sy-facts">
+          {p.who && <div><dt>Who can join</dt><dd>{p.who}</dd></div>}
+          <div><dt>How long</dt><dd>{p.length}</dd></div>
+          <div class="sy-get"><dt>What you get</dt><dd><ul>{p.get.map((g) => <li>{g}</li>)}</ul></dd></div>
+        </dl>
+        {p.example && <p class="sy-note">{p.example}</p>}
+        {p.note && <p class="sy-note">{p.note}</p>}
+        {p.status && <p class="sy-status"><strong>Status:</strong> {p.status} <a href={p.statusSource.url} rel="noopener" target="_blank">Source: {p.statusSource.label}</a></p>}
+        <p class="sy-actions"><a class="button" href={p.apply} rel="noopener" target="_blank">{p.applyLabel || `Go to ${p.name}`}</a></p>
+        <p class="wys-src">Source{p.sources.length > 1 ? 's' : ''}: {p.sources.map((s, i) => <>{i > 0 && '; '}<a href={s.url} rel="noopener" target="_blank">{s.label}</a></>)}. Checked {SERVICE_CHECKED}.</p>
+      </li>
+    ))}
+  </ul>
+
+  <section class="block" aria-labelledby="segal">
+    <h2 id="segal">The Segal AmeriCorps Education Award</h2>
+    <p class="block-lede">Finish a full-time AmeriCorps term (NCCC, City Year and many corps are AmeriCorps programs) and you earn an education award equal to the maximum Pell Grant: ${SEGAL.amount.toLocaleString('en-US')} for {SEGAL.fy}. You have seven years to use it, for tuition at colleges and trade schools that take federal aid, some GI Bill-approved programs, or to pay down qualifying student loans.</p>
+    <p class="wys-src">Sources: <a href={SEGAL.source} rel="noopener" target="_blank">AmeriCorps, Segal AmeriCorps Education Award</a>; <a href={SEGAL.source2} rel="noopener" target="_blank">New York State Commission on National and Community Service, FY 2026 award amounts</a>. Checked {SERVICE_CHECKED}.</p>
+  </section>
+
+  <section class="block" aria-labelledby="before">
+    <h2 id="before">Before you sign up</h2>
+    <ul class="xfer-srcs">
+      <li><strong>Already admitted to college?</strong> Ask the college whether you can defer your spot for a year, and get the answer in writing before you commit to a program.</li>
+      <li><strong>Do the math.</strong> A living allowance is meant to cover basics. Ask what housing, food and health coverage are included where you'd serve.</li>
+      <li><strong>Check that it's running.</strong> Federal funding for national service and Job Corps has changed a lot since 2025. Confirm dates and openings with the program before you plan around them.</li>
+      <li><strong>Programs that charge tuition aren't listed here.</strong> We may add them later, with their prices.</li>
+    </ul>
+  </section>
+</Layout>

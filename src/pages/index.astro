@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED } from '../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED } from '../lib/site.js';
 ---
 <Layout
   title="After High School — every path, with the real numbers"
@@ -18,6 +18,7 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED } from '..
           {TRADES_LAUNCHED && <a class="explore-link path-trade" href="/trades">Explore trade schools</a>}
           {APPRENTICESHIPS_LAUNCHED && <a class="explore-link path-apprentice" href="/apprenticeships">Explore apprenticeships</a>}
           {TRANSFER_LAUNCHED && <a class="explore-link path-transfer" href="/transfer">Start at community college</a>}
+          {GAP_LAUNCHED && <a class="explore-link path-gap" href="/gap-years">Explore gap years</a>}
         </p>
 
         <form id="join" class="join" action="/api/waitlist" method="post" novalidate>
@@ -77,7 +78,7 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED } from '..
             <text x="462" y="134" class="st-sub">electrician, HVAC, nursing</text>
             {APPRENTICESHIPS_LAUNCHED ? <a href="/apprenticeships"><text x="462" y="184" class="st-name">Apprenticeship</text></a> : <text x="462" y="184" class="st-name">Apprenticeship</text>}
             <text x="462" y="202" class="st-sub">earn while you learn</text>
-            <text x="462" y="252" class="st-name">Gap year</text>
+            {GAP_LAUNCHED ? <a href="/gap-years"><text x="462" y="252" class="st-name">Gap year</text></a> : <text x="462" y="252" class="st-name">Gap year</text>}
             <text x="462" y="270" class="st-sub">travel, service, work</text>
             <text x="462" y="320" class="st-name">Fellowship</text>
             <text x="462" y="338" class="st-sub">Thiel, Palantir and more</text>
