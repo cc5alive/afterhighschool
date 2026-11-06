@@ -1,0 +1,35 @@
+name: Probe apprenticeship data sources (debug)
+on: { workflow_dispatch: {} }
+permissions: { contents: write }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch candidate files
+        run: |
+          mkdir -p probe && cd probe
+          UA="afterhighschool.me data pull (hello@afterhighschool.me)"
+          for u in \
+            https://www.bls.gov/emp/ind-occ-matrix/occupation.xlsx \
+            https://www.bls.gov/emp/ind-occ-matrix/education.xlsx \
+            https://www.bls.gov/oes/special-requests/oesm25nat.zip \
+            https://www.bls.gov/oes/special-requests/oesm24nat.zip \
+            https://www.bls.gov/oes/special-requests/oesm25st.zip \
+            "https://apprenticeship.gov/sites/default/files/bulletins/Bulletin%202020-64%20List%20of%20Apprenticeable%20Occupations.doc" \
+            https://www.bls.gov/soc/2018/soc_2018_definitions.xlsx ; do
+            f=$(basename "${u%%\?*}" | sed 's/%20/_/g')
+            code=$(curl -sSL -A "$UA" -o "$f" -w "%{http_code}" "$u" || echo ERR)
+            echo "$code $(stat -c %s "$f" 2>/dev/null) $u" | tee -a status.txt
+            head -c 200 "$f" | tr -dc '[:print:]' | head -c 120; echo
+          done
+          sudo apt-get install -y -qq antiword >/dev/null 2>&1 || true
+          for d in *.doc; do antiword "$d" > "${d%.doc}.txt" 2>/dev/null || true; done
+          ls -la
+      - name: Push to apprentice-debug branch
+        run: |
+          cd probe
+          git init -q && git checkout -q -b apprentice-debug
+          git config user.name "afterhighschool-bot" && git config user.email "hello@afterhighschool.me"
+          find . -size +40M -delete
+          git add -A && git commit -qm "Apprenticeship data probe"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" apprentice-debug
