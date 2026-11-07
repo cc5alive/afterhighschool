@@ -1,0 +1,204 @@
+{
+  "slug": "georgia-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://oie.gsu.edu/data-reporting-systems/common-data-set/"
+  },
+  "sourceUrl": "https://oie.gsu.edu/data-reporting-systems/common-data-set/",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 42323,
+      "quote": "C.116 total first-time, first-year students who applied: 42323"
+    },
+    "admitted_total": {
+      "value": 24217,
+      "quote": "C.117 total first-time, first-year students who were admitted: 24217"
+    },
+    "enrolled_total": {
+      "value": 4470,
+      "quote": "C.118 total first-time, first-year students who enrolled: 4470"
+    },
+    "rank_submit_pct": {
+      "value": 0,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: c.1130 total 0 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
+    },
+    "gpa_average": {
+      "value": 3.6,
+      "quote": "C.1201 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa:: 3.6"
+    },
+    "gpa_submit_pct": {
+      "value": 99.91,
+      "quote": "C.1202 percent of total first-time, first-year students who submitted high school gpa:: 0.9991"
+    },
+    "sat_p25": {
+      "value": 1030,
+      "quote": "C.905 sat composite: 25th percentile: 1030"
+    },
+    "sat_p50": {
+      "value": 1140,
+      "quote": "C.906 sat composite: 50th percentile: 1140"
+    },
+    "sat_p75": {
+      "value": 1240,
+      "quote": "C.907 sat composite: 75th percentile: 1240"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "C.914 act composite: 25th percentile: 18"
+    },
+    "act_p50": {
+      "value": 23,
+      "quote": "C.915 act composite: 50th percentile: 23"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "C.916 act composite: 75th percentile: 27"
+    },
+    "transfer_applied": {
+      "value": 3980,
+      "quote": "D.204 total: 3980"
+    },
+    "transfer_admitted": {
+      "value": 1866,
+      "quote": "D.208 total: 1866"
+    },
+    "transfer_enrolled": {
+      "value": 961,
+      "quote": "D.212 total: 961"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C.1801 does your institution allow students to postpone enrollment after admission?: Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C.1802 if yes, maximum period of postponement:: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 40,
+      "quote": "C.901 percent submitting sat scores: 0.4"
+    },
+    "act_submit_pct": {
+      "value": 10,
+      "quote": "C.902 percent submitting act scores: 0.1"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C.2101 does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attend"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "C.701 rigor of secondary school record: Very Important"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "C.702 class rank: Not Considered"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "C.703 academic gpa: Very Important"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "C.704 standardized test scores: Very Important"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "C.705 application essay: Considered"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "C.706 recommendation(s): Considered"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "C.707 interview: Not Considered"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "C.708 extracurricular activities: Not Considered"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "C.709 talent/ability: Considered"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "C.710 character/personal qualities: Not Considered"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "C.711 first generation: Not Considered"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "C.712 alumni/ae relation: Not Considered"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "C.713 geographical residence: Not Considered"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "C.714 state residency: Not Considered"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "C.715 religious affiliation/commitment: Not Considered"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "C.716 volunteer work: Not Considered"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "C.717 work experience: Not Considered"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "C.718 level of applicant's interest: Not Considered"
+    },
+    "gpa_400_pct": {
+      "value": 18.04,
+      "quote": "C.1101 percent who had gpa of 4.0: 0.1804"
+    },
+    "gpa_375_pct": {
+      "value": 22.13,
+      "quote": "C.1102 percent who had gpa between 3.75 and 3.99: 0.2213"
+    },
+    "gpa_350_pct": {
+      "value": 25.29,
+      "quote": "C.1103 percent who had gpa between 3.50 and 3.74: 0.2529"
+    },
+    "gpa_325_pct": {
+      "value": 17.04,
+      "quote": "C.1104 percent who had gpa between 3.25 and 3.49: 0.1704"
+    },
+    "gpa_300_pct": {
+      "value": 14.93,
+      "quote": "C.1105 percent who had gpa between 3.00 and 3.24: 0.1493"
+    },
+    "gpa_250_pct": {
+      "value": 2.07,
+      "quote": "C.1106 percent who had gpa between 2.50 and 2.99: 0.0207"
+    },
+    "gpa_200_pct": {
+      "value": 0.5,
+      "quote": "C.1107 percent who had gpa between 2.0 and 2.49: 0.005"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "C.1108 percent who had gpa between 1.0 and 1.99: 0.00002"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "C.1109 percent who had gpa below 1.0: 0"
+    }
+  },
+  "concerns": null
+}
