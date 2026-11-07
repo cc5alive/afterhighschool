@@ -45,7 +45,7 @@ export function downloadUrl(u) {
   if (/^https:\/\/(www\.)?dropbox\.com\/(scl\/fi|s)\//.test(u)) { const x = new URL(u); x.searchParams.set('dl', '1'); return x.toString(); }
   return null;
 }
-async function getDoc(url, mapped = false) {
+export async function getDoc(url, mapped = false) {
   const dl = mapped ? null : downloadUrl(url);
   if (dl) {
     const d = await getDoc(dl, true);
@@ -72,7 +72,7 @@ export const yearOf = (s) => {
   }
   return best;
 };
-async function rawHtml(url) {
+export async function rawHtml(url) {
   try {
     const r = await fetch(url, { redirect: 'follow', headers: { 'user-agent': 'Mozilla/5.0 (compatible; afterhighschool-factcheck/1.0)' }, signal: AbortSignal.timeout(30000) });
     if (!r.ok || !/html/i.test(r.headers.get('content-type') || '')) return null;
@@ -80,7 +80,7 @@ async function rawHtml(url) {
   } catch { return null; }
 }
 export const looksLikeCds = (text) => /percent who had gpa|who applied|early decision applications|relative importance/.test(text || '');
-function cdsLinks(html, base) {
+export function cdsLinks(html, base) {
   const links = [];
   for (const m of html.matchAll(/<a\b[^>]*href\s*=\s*["']([^"'#]+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
     let href; try { href = new URL(m[1].replace(/&amp;/g, '&'), base).toString(); } catch { continue; }
