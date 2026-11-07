@@ -1,0 +1,180 @@
+{
+  "slug": "george-washington-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://irp.gwu.edu/sites/g/files/zaxdzs6056/files/2026-04/CDS-PDF-2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 27034,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 27034"
+    },
+    "admitted_total": {
+      "value": 12741,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 12741"
+    },
+    "enrolled_total": {
+      "value": 2405,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 2405"
+    },
+    "waitlist_offered": {
+      "value": 6084,
+      "quote": "Number of qualified applicants offered a place on waiting list: 6084"
+    },
+    "waitlist_accepted": {
+      "value": 2858,
+      "quote": "Number accepting a place on the waiting list: 2858"
+    },
+    "waitlist_admitted": {
+      "value": 616,
+      "quote": "Number of wait-listed students admitted: 616"
+    },
+    "sat_submit_pct": {
+      "value": 36.51,
+      "quote": "Submitting SAT Scores 36.51"
+    },
+    "act_submit_pct": {
+      "value": 13.89,
+      "quote": "Submitting ACT Scores 13.89"
+    },
+    "sat_p25": {
+      "value": 1310,
+      "quote": "SAT Composite 1310"
+    },
+    "sat_p50": {
+      "value": 1390,
+      "quote": "SAT Composite 50th Percentile Score 1390"
+    },
+    "sat_p75": {
+      "value": 1450,
+      "quote": "SAT Composite 75th Percentile Score 1450"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "ACT Composite 31"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "ACT Composite 50th Percentile Score 32"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "ACT Composite 75th Percentile Score 34"
+    },
+    "rank_top10_pct": {
+      "value": 44.11,
+      "quote": "Percent in top tenth of high school graduating class 44.11"
+    },
+    "rank_top25_pct": {
+      "value": 77.45,
+      "quote": "Percent in top quarter of high school graduating class 77.45"
+    },
+    "rank_submit_pct": {
+      "value": 20.83,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 20.83"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? ✔ Yes"
+    },
+    "deferral_max": {
+      "value": "2",
+      "quote": "If yes, maximum period of postponement: 2"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "C21. Early decision: Does your institution offer an early decision plan... ✔ Yes"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "C22. Early action: Do you have a nonbinding early action plan... ✔ No"
+    },
+    "transfer_applied": {
+      "value": 2229,
+      "quote": "Total 2229"
+    },
+    "transfer_admitted": {
+      "value": 1339,
+      "quote": "Total 1339"
+    },
+    "transfer_enrolled": {
+      "value": 582,
+      "quote": "Total 582"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

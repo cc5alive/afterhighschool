@@ -1,0 +1,204 @@
+{
+  "slug": "university-of-north-carolina-wilmington",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://uncw.edu/media/pdf/irp/cds-2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 22359,
+      "quote": "Total first-time, first-years who applied 22,359"
+    },
+    "admitted_total": {
+      "value": 14472,
+      "quote": "Total first-time, first-years who were admitted 14,472"
+    },
+    "enrolled_total": {
+      "value": 3109,
+      "quote": "Total first-time, first-years who enrolled 3,109"
+    },
+    "waitlist_offered": {
+      "value": 1897,
+      "quote": "Number of qualified applicants offered a place on waiting list: 1,897"
+    },
+    "waitlist_admitted": {
+      "value": 4,
+      "quote": "Number of wait-listed students admitted: 4"
+    },
+    "sat_submit_pct": {
+      "value": 6.9,
+      "quote": "Submitting SAT Scores 6.9%"
+    },
+    "act_submit_pct": {
+      "value": 12.6,
+      "quote": "Submitting ACT Scores 12.6%"
+    },
+    "sat_p25": {
+      "value": 1240,
+      "quote": "SAT Composite 1240"
+    },
+    "sat_p50": {
+      "value": 1301,
+      "quote": "SAT Composite 50th Percentile Score 1301"
+    },
+    "sat_p75": {
+      "value": 1350,
+      "quote": "SAT Composite 75th Percentile Score 1350"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "ACT Composite 24"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "ACT Composite 50th Percentile Score 26"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT Composite 75th Percentile Score 29"
+    },
+    "rank_top10_pct": {
+      "value": 18.6,
+      "quote": "Percent in top tenth of high school graduating class 18.6%"
+    },
+    "rank_top25_pct": {
+      "value": 51.2,
+      "quote": "Percent in top quarter of high school graduating class 51.2%"
+    },
+    "rank_submit_pct": {
+      "value": 79.1,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 79.1%"
+    },
+    "gpa_400_pct": {
+      "value": 61.9,
+      "quote": "Percent who had GPA of 4.0 61.9%"
+    },
+    "gpa_375_pct": {
+      "value": 25.5,
+      "quote": "Percent who had GPA between 3.75 and 3.99 25.5%"
+    },
+    "gpa_350_pct": {
+      "value": 11.1,
+      "quote": "Percent who had GPA between 3.50 and 3.74 11.1%"
+    },
+    "gpa_325_pct": {
+      "value": 1.3,
+      "quote": "Percent who had GPA between 3.25 and 3.49 1.3%"
+    },
+    "gpa_300_pct": {
+      "value": 0.2,
+      "quote": "Percent who had GPA between 3.00 and 3.24 0.2%"
+    },
+    "gpa_average": {
+      "value": 4.09,
+      "quote": "Average high school GPA: 4.09"
+    },
+    "gpa_submit_pct": {
+      "value": 99.5,
+      "quote": "Percent submitting high school GPA: 99.5%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "If yes, maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C21. Early decision: Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "C22. Early action: Do you have a nonbinding early action plan... Yes"
+    },
+    "transfer_applied": {
+      "value": 3755,
+      "quote": "Total 3,755"
+    },
+    "transfer_admitted": {
+      "value": 3415,
+      "quote": "Total 3,415"
+    },
+    "transfer_enrolled": {
+      "value": 2034,
+      "quote": "Total 2,034"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
