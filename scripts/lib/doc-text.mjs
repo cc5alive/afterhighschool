@@ -17,6 +17,9 @@ export function kindOf(buf, contentType = '', url = '') {
   if (head.startsWith('%PDF') || /pdf/i.test(contentType)) return 'pdf';
   if ((head.startsWith('PK') && /wordprocessingml/i.test(contentType)) || /\.docx($|\?)/i.test(url)) return 'docx';
   if ((head.startsWith('PK') && /sheet|excel|officedocument|octet/i.test(contentType)) || /\.xlsx?($|\?)/i.test(url)) return 'xlsx';
+  // A zip with a vague content type (Dropbox sends files as application/binary): the file names
+  // stored in the zip say whether it is a spreadsheet or a Word document.
+  if (head.startsWith('PK')) { const s = buf.toString('latin1'); if (s.includes('xl/workbook')) return 'xlsx'; if (s.includes('word/document')) return 'docx'; }
   return 'html';
 }
 
