@@ -12,7 +12,8 @@ const { schools } = JSON.parse(fs.readFileSync('data/scorecard/latest.json', 'ut
 const status = JSON.parse(fs.readFileSync('data/school-status.json', 'utf8')).schools;
 const listed = JSON.parse(fs.readFileSync('data/cds/sources.json', 'utf8'));
 // Skip schools already researched: published, read, drafted, or listed in sources.json (even if their source fails).
-const noCds = new Set(JSON.parse(fs.readFileSync('data/cds/no-public-cds.json', 'utf8')).slugs);
+const noCdsFile = JSON.parse(fs.readFileSync('data/cds/no-public-cds.json', 'utf8'));
+const noCds = new Set([...noCdsFile.slugs, ...(noCdsFile.reportedNone?.slugs || [])]);
 const have = (slug) => !!listed[slug] || noCds.has(slug) || fs.existsSync(`data/cds/schools/${slug}.json`) || fs.existsSync(`data/cds/extracted/${slug}.json`) || fs.existsSync(`data/cds/drafts/${slug}.json`);
 
 const score = (s) => Math.log10(s.undergrads) + (s.admitRate != null && s.admitRate < 0.5 ? (0.5 - s.admitRate) * 4 : 0);

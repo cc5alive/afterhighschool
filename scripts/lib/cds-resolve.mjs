@@ -34,13 +34,15 @@ async function browserDoc(url) {
   } catch { return null; } finally { await page.close(); }
 }
 const blocked = (doc) => doc.text == null && [0, 401, 403, 405, 406, 429, 503].includes(doc.status);
-// Some schools post their CDS on Google Drive, Google Sheets or Box. Their share links open a viewer,
+// Some schools post their CDS on Google Drive, Google Sheets, Box or Dropbox. Their share links open a viewer,
 // so read the file through the host's download link instead (the share link stays the cited source).
 export function downloadUrl(u) {
   let m;
   if ((m = u.match(/^https:\/\/drive\.google\.com\/file\/d\/([\w-]+)/))) return `https://drive.google.com/uc?export=download&id=${m[1]}`;
   if ((m = u.match(/^https:\/\/docs\.google\.com\/spreadsheets\/d\/([\w-]+)/))) return `https://docs.google.com/spreadsheets/d/${m[1]}/export?format=xlsx`;
   if ((m = u.match(/^https:\/\/([\w-]+\.)?box\.com\/s\/(\w+)/))) return `https://${m[1] || 'app.'}box.com/shared/static/${m[2]}`;
+  // Dropbox share links (Georgia State): the same link with dl=1 returns the file itself.
+  if (/^https:\/\/(www\.)?dropbox\.com\/(scl\/fi|s)\//.test(u)) { const x = new URL(u); x.searchParams.set('dl', '1'); return x.toString(); }
   return null;
 }
 async function getDoc(url, mapped = false) {

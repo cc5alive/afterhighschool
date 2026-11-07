@@ -1,5 +1,5 @@
 {
-  "_note": "Colleges earlier research rounds found don't post a public Common Data Set. Gemini rounds skip them. Remove a slug if the college starts publishing one.",
+  "_note": "Colleges that don't post a public Common Data Set, so Gemini rounds skip them. 'slugs' were confirmed by earlier research; 'reportedNone' are Gemini's 'none found' answers, not checked one by one (Gemini missed Georgia State's, so treat these as likely, not certain). Remove a slug if the college starts publishing one.",
   "checked": "2026-11-06",
   "slugs": [
     "united-states-naval-academy",
@@ -11,5 +11,19 @@
     "liberty-university",
     "hillsdale-college",
     "rhode-island-school-of-design"
-  ]
+  ],
+  "reportedNone": {
+    "source": "Gemini CDS round 2, file 01 (Nov 6, 2026)",
+    "slugs": [
+      "college-of-the-ozarks",
+      "the-university-of-texas-at-arlington",
+      "the-university-of-texas-rio-grande-valley",
+      "the-university-of-tampa",
+      "berea-college",
+      "trinity-university",
+      "southern-university-and-a-and-m-college",
+      "mississippi-christian-university",
+      "cuny-hunter-college"
+    ]
+  }
 }

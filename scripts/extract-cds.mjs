@@ -415,7 +415,7 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
     // Temporary download hosts (Box, Google) expire: cite the listed link instead.
-    const docUrl = src.cite || (resolved.url && !/boxcloud\.com|googleusercontent\.com/.test(resolved.url) ? resolved.url : src.url);
+    const docUrl = src.cite || (resolved.url && !/boxcloud\.com|googleusercontent\.com|dropboxusercontent\.com/.test(resolved.url) ? resolved.url : src.url);
     const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, extra: src.extra || undefined, mirror: src.mirror || undefined, mirrorHash: src.mirror ? hashOf(src.mirror) : undefined,
       researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
     if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
