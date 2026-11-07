@@ -9,84 +9,150 @@
   "values": {
     "ed_offered": {
       "value": "yes",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": false,
+      "how": null,
+      "note": "document shows Very Important"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_essay": {
       "value": "Very Important",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_recommendations": {
       "value": "Very Important",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_interview": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": null,
+      "how": null,
+      "note": "no checkmark found"
     },
     "factor_character": {
       "value": "Very Important",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_alumni": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.fandm.edu/_resources/pdfs/IR_CDS%202024-25.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-07",
+  "verified": 9,
+  "total": 20
 }

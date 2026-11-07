@@ -9,48 +9,87 @@
   "values": {
     "factor_class_rank": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": null
+      "quote": null,
+      "found": true,
+      "how": "layout",
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://iuapps.iu.edu/cds/?p=index&i=home&campus=IU-Indianapolis&section=C.+First-Time%2C+%28Freshman%29+Admission&year=2025",
+  "docKind": "html",
+  "checkedAt": "2026-11-07",
+  "verified": 11,
+  "total": 11
 }

@@ -1,0 +1,92 @@
+{
+  "slug": "university-of-north-florida",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.unf.edu/ir/common-data-set/2025.html"
+  },
+  "sourceUrl": "https://www.unf.edu/ir/common-data-set/2025.html",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "html",
+  "values": {
+    "sat_submit_pct": {
+      "value": 69,
+      "quote": "percent submitting sat scores 69%"
+    },
+    "act_submit_pct": {
+      "value": 31,
+      "quote": "percent submitting act scores 31%"
+    },
+    "rank_top10_pct": {
+      "value": 14,
+      "quote": "percent in top tenth of high school graduating class 14% top half + bottom half = 100%"
+    },
+    "rank_top25_pct": {
+      "value": 39,
+      "quote": "percent in top quarter of high school graduating class 39%"
+    },
+    "gpa_400_pct": {
+      "value": 48,
+      "quote": "percent who had gpa of 4.0 48%"
+    },
+    "gpa_375_pct": {
+      "value": 14,
+      "quote": "percent who had gpa between 3.75 and 3.99 14%"
+    },
+    "gpa_350_pct": {
+      "value": 16,
+      "quote": "percent who had gpa between 3.50 and 3.74 16%"
+    },
+    "gpa_325_pct": {
+      "value": 12,
+      "quote": "percent who had gpa between 3.25 and 3.49 12%"
+    },
+    "gpa_300_pct": {
+      "value": 8,
+      "quote": "percent who had gpa between 3.00 and 3.24 8%"
+    },
+    "gpa_250_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 2.50 and 2.99 2%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0%"
+    },
+    "sat_p25": {
+      "value": 1010,
+      "quote": "sat composite 1010 1110 1230"
+    },
+    "sat_p50": {
+      "value": 1110,
+      "quote": "sat composite 1010 1110 1230"
+    },
+    "sat_p75": {
+      "value": 1230,
+      "quote": "sat composite 1010 1110 1230"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 19 22 25"
+    }
+  },
+  "concerns": null
+}

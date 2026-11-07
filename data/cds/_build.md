@@ -25,6 +25,7 @@ Built 2026-11-07.
 | california-polytechnic-state-university-san-luis-obispo | 2025-2026 | 41 |  |
 | california-state-polytechnic-university-humboldt | 2025-2026 | 40 |  |
 | california-state-polytechnic-university-pomona | 2025-2026 | 39 |  |
+| california-state-university-chico | 2023-2024 | 36 |  |
 | california-state-university-fullerton | 2025-2026 | 45 | class rank inconsistent |
 | california-state-university-long-beach | - | 36 |  |
 | california-state-university-los-angeles | 2025-2026 | 34 |  |
@@ -51,6 +52,7 @@ Built 2026-11-07.
 | davidson-college | - | 42 | class rank inconsistent |
 | denison-university | 2025-2026 | 15 | sat_p50: reader 1360, Gemini 1400 (quote matched); act_p25: reads disagree (28 vs 30), left out; act scores inconsistent (undefined, 31, 33) |
 | depaul-university | 2024-2025 | 44 | waitlist_admitted: reads disagree (228 vs 0), left out |
+| drexel-university | 2025-2026 | 19 |  |
 | duke-university | 2025-2026 | 34 |  |
 | east-carolina-university | 2024-2025 | 40 |  |
 | emory-university | 2025-2026 | 33 | reader and Gemini read different documents (2024 vs 2025); used the Gemini one; C1 failed consistency (applied undefined, admitted undefined, enrolled 1443, federal admit rate 0.1065) |
@@ -59,6 +61,7 @@ Built 2026-11-07.
 | florida-atlantic-university | 2024-2025 | 0 |  |
 | florida-international-university | 2025-2026 | 44 |  |
 | florida-state-university | 2025-2026 | 26 |  |
+| franklin-and-marshall-college | 2024-2025 | 28 |  |
 | george-mason-university | 2025-2026 | 51 |  |
 | george-washington-university | 2025-2026 | 37 |  |
 | georgetown-university | 2025-2026 | 38 |  |
@@ -75,6 +78,7 @@ Built 2026-11-07.
 | illinois-institute-of-technology | 2024-2025 | 34 |  |
 | illinois-state-university | 2025-2026 | 0 |  |
 | indiana-university-bloomington | 2024-2025 | 45 |  |
+| indiana-university-indianapolis | 2025-2026 | 36 |  |
 | iowa-state-university | 2025-2026 | 44 |  |
 | jacksonville-state-university | 2025-2026 | 43 |  |
 | james-madison-university | 2025-2026 | 36 |  |
@@ -112,6 +116,7 @@ Built 2026-11-07.
 | princeton-university | 2025-2026 | 38 |  |
 | purdue-university-main-campus | 2025-2026 | 37 | rank_top10_pct: reads disagree (0.52035749751738 vs 52), left out; gpa_400_pct: reads disagree (0.4266 vs 43), left out; gpa_375_pct: reads disagree (0.2797 vs 28), left out; gpa_350_pct: reads disagree (0.1591 vs 16), left out; gpa_325_pct: reads disagree (0.0822 vs 8), left out; gpa_300_pct: reads disagree (0.0332 vs 3), left out; gpa_250_pct: reads disagree (0.0171 vs 2), left out; C11 buckets sum to 0.0 |
 | radford-university | - | 36 |  |
+| reed-college | 2025-2026 | 43 |  |
 | rice-university | 2025-2026 | 40 |  |
 | rochester-institute-of-technology | 2025-2026 | 36 |  |
 | rowan-university | 2025-2026 | 47 |  |
@@ -193,6 +198,7 @@ Built 2026-11-07.
 | university-of-north-carolina-at-charlotte | 2025-2026 | 48 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-north-carolina-wilmington | 2025-2026 | 39 | applied_total: reads disagree (22358 vs 22359), left out; C1 failed consistency (applied undefined, admitted 14472, enrolled 3109, federal admit rate 0.6424); gpa_below1_pct read as the "totals = 100%" note |
 | university-of-north-dakota | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.769) |
+| university-of-north-florida | 2025-2026 | 37 |  |
 | university-of-north-georgia | 2025-2026 | 44 |  |
 | university-of-north-texas | 2025-2026 | 29 |  |
 | university-of-northern-colorado | 2023-2024 | 26 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |

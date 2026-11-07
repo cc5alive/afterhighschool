@@ -1,0 +1,92 @@
+{
+  "slug": "drexel-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Drexel University Common Data Set 2025-2026",
+    "url": "https://drexel.edu/institutionalresearch/~/media/Drexel/Provost-Group/InstitutionalResearch/Documents/Factbook/CDS_2025-2026.pdf"
+  },
+  "sourceUrl": "https://drexel.edu/institutionalresearch/~/media/Drexel/Provost-Group/InstitutionalResearch/Documents/Factbook/CDS_2025-2026.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 38030,
+      "quote": "total first-time, first-year students who applied 38030"
+    },
+    "admitted_total": {
+      "value": 26583,
+      "quote": "total first-time, first-year students who were admitted 26583"
+    },
+    "enrolled_total": {
+      "value": 1948,
+      "quote": "total first-time, first-year students who enrolled 1948"
+    },
+    "rank_top10_pct": {
+      "value": 31.78,
+      "quote": "percent in top tenth of high school graduating class 31.78%"
+    },
+    "rank_top25_pct": {
+      "value": 63.18,
+      "quote": "percent in top quarter of high school graduating class 63.18%"
+    },
+    "rank_submit_pct": {
+      "value": 26.5,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 26.50%"
+    },
+    "gpa_400_pct": {
+      "value": 45,
+      "quote": "percent who had gpa of 4.0 45%"
+    },
+    "gpa_375_pct": {
+      "value": 19,
+      "quote": "percent who had gpa between 3.75 and 3.99 19%"
+    },
+    "gpa_350_pct": {
+      "value": 17,
+      "quote": "percent who had gpa between 3.50 and 3.74 17%"
+    },
+    "gpa_325_pct": {
+      "value": 10,
+      "quote": "percent who had gpa between 3.25 and 3.49 10%"
+    },
+    "gpa_300_pct": {
+      "value": 6,
+      "quote": "percent who had gpa between 3.00 and 3.24 6%"
+    },
+    "gpa_250_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 2.50 and 2.99 3%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0%"
+    },
+    "gpa_submit_pct": {
+      "value": 94.4,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94.40%"
+    },
+    "ed_applied": {
+      "value": 299,
+      "quote": "number of early decision applications received by your institution 299"
+    },
+    "ed_admitted": {
+      "value": 234,
+      "quote": "number of applicants admitted under early decision plan 234"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

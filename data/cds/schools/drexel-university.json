@@ -1,0 +1,50 @@
+{
+  "slug": "drexel-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Drexel University Common Data Set 2025-2026",
+    "url": "https://drexel.edu/institutionalresearch/~/media/Drexel/Provost-Group/InstitutionalResearch/Documents/Factbook/CDS_2025-2026.pdf"
+  },
+  "builtAt": "2026-11-07",
+  "values": {
+    "applied_total": 38030,
+    "admitted_total": 26583,
+    "enrolled_total": 1948,
+    "rank_top10_pct": 31.78,
+    "rank_top25_pct": 63.18,
+    "rank_submit_pct": 26.5,
+    "gpa_400_pct": 45,
+    "gpa_375_pct": 19,
+    "gpa_350_pct": 17,
+    "gpa_325_pct": 10,
+    "gpa_300_pct": 6,
+    "gpa_250_pct": 3,
+    "gpa_200_pct": 0,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 0,
+    "gpa_submit_pct": 94.4,
+    "ed_applied": 299,
+    "ed_admitted": 234,
+    "ed_offered": "yes"
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "rank_submit_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "gpa_200_pct": "reader",
+    "gpa_100_pct": "reader",
+    "gpa_below1_pct": "reader",
+    "gpa_submit_pct": "reader",
+    "ed_applied": "reader",
+    "ed_admitted": "reader"
+  }
+}
