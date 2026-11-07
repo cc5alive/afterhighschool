@@ -1,0 +1,140 @@
+{
+  "slug": "portland-state-university",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024",
+    "url": "https://www.pdx.edu/research-planning/sites/researchplanning.web.wdt.pdx.edu/files/2024-05/CDS_2023-2024%20%28Updated%205-8-24%20AM%29.pdf"
+  },
+  "sourceUrl": "https://www.pdx.edu/research-planning/sites/researchplanning.web.wdt.pdx.edu/files/2024-05/CDS_2023-2024%20%28Updated%205-8-24%20AM%29.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 11.7,
+      "quote": "percent in top tenth of high school graduating class 11.7%"
+    },
+    "rank_top25_pct": {
+      "value": 22.1,
+      "quote": "percent in top quarter of high school graduating class 22.1%"
+    },
+    "gpa_400_pct": {
+      "value": 9.1,
+      "quote": "percent who had gpa of 4.0 9.1 % 3.4 % 3.7 %"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% 0.0% 0.0%"
+    },
+    "sat_p25": {
+      "value": 1100,
+      "quote": "sat composite 1100 1220 1290"
+    },
+    "sat_p50": {
+      "value": 1220,
+      "quote": "sat composite 1100 1220 1290"
+    },
+    "sat_p75": {
+      "value": 1290,
+      "quote": "sat composite 1100 1220 1290"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 27.5"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 27.5"
+    },
+    "act_p75": {
+      "value": 27.5,
+      "quote": "act composite 19 22 27.5"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3348,
+      "quote": "D2 total 3348 3168 1806"
+    },
+    "transfer_admitted": {
+      "value": 3168,
+      "quote": "D2 total 3348 3168 1806"
+    },
+    "transfer_enrolled": {
+      "value": 1806,
+      "quote": "D2 total 3348 3168 1806"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 institution allow students to postpone enrollment after admission? ☒ yes ☐ no"
+    },
+    "deferral_max": {
+      "value": "One Year",
+      "quote": "C18 maximum period of postponement: One Year"
+    }
+  },
+  "concerns": null
+}

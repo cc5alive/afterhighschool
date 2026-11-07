@@ -9,88 +9,157 @@
   "values": {
     "applied_total": {
       "value": 34284,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 34284"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 34284",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 19880,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 19880"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 19880",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "enrolled_total": {
       "value": 2700,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 2700"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 2700",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 0.34,
-      "quote": "Percent who had GPA of 4.0 0.34"
+      "quote": "Percent who had GPA of 4.0 0.34",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_375_pct": {
       "value": 17.29,
-      "quote": "Percent who had GPA between 3.75 and 3.99 17.29"
+      "quote": "Percent who had GPA between 3.75 and 3.99 17.29",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_350_pct": {
       "value": 29.6,
-      "quote": "Percent who had GPA between 3.50 and 3.74 29.60"
+      "quote": "Percent who had GPA between 3.50 and 3.74 29.60",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_325_pct": {
       "value": 23.94,
-      "quote": "Percent who had GPA between 3.25 and 3.49 23.94"
+      "quote": "Percent who had GPA between 3.25 and 3.49 23.94",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_300_pct": {
       "value": 16.53,
-      "quote": "Percent who had GPA between 3.00 and 3.24 16.53"
+      "quote": "Percent who had GPA between 3.00 and 3.24 16.53",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_250_pct": {
       "value": 11.64,
-      "quote": "Percent who had GPA between 2.50 and 2.99 11.64"
+      "quote": "Percent who had GPA between 2.50 and 2.99 11.64",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0.64,
-      "quote": "Percent who had GPA between 2.0 and 2.49 0.64"
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.64",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0.02,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.02"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.02",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0.00"
+      "quote": "Percent who had GPA below 1.0 0.00",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_average": {
       "value": 3.14,
-      "quote": "Average High School GPA 3.14"
+      "quote": "Average High School GPA 3.14",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 92,
-      "quote": "Percent Submitting GPA 92.00"
+      "quote": "Percent Submitting GPA 92.00",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "deferral_max": {
       "value": "1 year",
-      "quote": "If yes, maximum period of postponement: 1 year"
+      "quote": "If yes, maximum period of postponement: 1 year",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "C21. Early decision... No"
+      "quote": "C21. Early decision... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "C22. Early action... No"
+      "quote": "C22. Early action... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "transfer_applied": {
       "value": 8240,
-      "quote": "Total 8240"
+      "quote": "Total 8240",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_admitted": {
       "value": 3689,
-      "quote": "Total 3689"
+      "quote": "Total 3689",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 949,
-      "quote": "Total 949"
+      "quote": "Total 949",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.ccny.cuny.edu/sites/default/files/2026-03/CDS-PDF-2025-2026_PDF_FINAL.pdf",
+  "docKind": "html",
+  "checkedAt": "2026-11-07",
+  "verified": 0,
+  "total": 21
 }
