@@ -1,0 +1,199 @@
+{
+  "slug": "rowan-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://sites.rowan.edu/academic-affairs/ida/_docs/rowan_university_cds.pdf"
+  },
+  "sourceUrl": "https://sites.rowan.edu/academic-affairs/ida/_docs/rowan_university_cds.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 16,
+      "quote": "percent in top tenth of high school graduating class 16%"
+    },
+    "rank_top25_pct": {
+      "value": 40,
+      "quote": "percent in top quarter of high school graduating class 40%"
+    },
+    "gpa_400_pct": {
+      "value": 16.98,
+      "quote": "percent who had gpa of 4.0 28.99% 12.60% 16.98%"
+    },
+    "gpa_375_pct": {
+      "value": 12.54,
+      "quote": "percent who had gpa between 3.75 and 3.99 16.19% 11.21% 12.54%"
+    },
+    "gpa_350_pct": {
+      "value": 20.96,
+      "quote": "percent who had gpa between 3.50 and 3.74 20.57% 21.10% 20.96%"
+    },
+    "gpa_325_pct": {
+      "value": 12.22,
+      "quote": "percent who had gpa between 3.25 and 3.49 12.14% 12.25% 12.22%"
+    },
+    "gpa_300_pct": {
+      "value": 17.39,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.50% 19.90% 17.39%"
+    },
+    "gpa_250_pct": {
+      "value": 18.82,
+      "quote": "percent who had gpa between 2.50 and 2.99 10.39% 21.90% 18.82%"
+    },
+    "gpa_200_pct": {
+      "value": 1.08,
+      "quote": "percent who had gpa between 2.0 and 2.49 1.20% 1.04% 1.08%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00% 0.00% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00% 0.00% 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.4,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students 3.4"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 100%"
+    },
+    "applied_total": {
+      "value": 22410,
+      "quote": "total first-time, first-year males who applied 10,625 / total first-time, first-year females who applied 11,785 / total first-time, first-year students of unknown sex who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 17152,
+      "quote": "total first-time, first-year males who were admitted 8,029 / total first-time, first-year females who were admitted 9,123 / total first-time, first-year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 3455,
+      "quote": "total first-time, first-year males who enrolled 1,794 / total first-time, first-year females who enrolled 1,661 / total first-time, first-year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1100,
+      "quote": "sat composite (400-1600) 1,100 1,200 1,300"
+    },
+    "sat_p50": {
+      "value": 1200,
+      "quote": "sat composite (400-1600) 1,100 1,200 1,300"
+    },
+    "sat_p75": {
+      "value": 1300,
+      "quote": "sat composite (400-1600) 1,100 1,200 1,300"
+    },
+    "act_p25": {
+      "value": 23,
+      "quote": "act composite (0-36) 23 25 30"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "act composite (0-36) 23 25 30"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "act composite (0-36) 23 25 30"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 4380,
+      "quote": "D2 total 4,380 3,506 1,887"
+    },
+    "transfer_admitted": {
+      "value": 3506,
+      "quote": "D2 total 4,380 3,506 1,887"
+    },
+    "transfer_enrolled": {
+      "value": 1887,
+      "quote": "D2 total 4,380 3,506 1,887"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes 1 year"
+    },
+    "deferral_max": {
+      "value": "(2 semesters)",
+      "quote": "C18 maximum period of postponement: (2 semesters)"
+    }
+  },
+  "concerns": null
+}

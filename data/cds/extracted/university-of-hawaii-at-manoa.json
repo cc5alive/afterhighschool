@@ -1,0 +1,124 @@
+{
+  "slug": "university-of-hawaii-at-manoa",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://manoa.hawaii.edu/miro/wp-content/uploads/2026/09/Common_Data_Set_2025-2026_v2.pdf"
+  },
+  "sourceUrl": "https://manoa.hawaii.edu/miro/wp-content/uploads/2026/09/Common_Data_Set_2025-2026_v2.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 27.8,
+      "quote": "percent in top tenth of high school graduating class 27.8"
+    },
+    "rank_top25_pct": {
+      "value": 48.6,
+      "quote": "percent in top quarter of high school graduating class 48.6"
+    },
+    "gpa_400_pct": {
+      "value": 25.9,
+      "quote": "percent who had gpa of 4.0 25.9"
+    },
+    "gpa_350_pct": {
+      "value": 19,
+      "quote": "percent who had gpa between 3.50 and 3.74 19.0"
+    },
+    "gpa_325_pct": {
+      "value": 16.2,
+      "quote": "percent who had gpa between 3.25 and 3.49 16.2"
+    },
+    "gpa_300_pct": {
+      "value": 11.2,
+      "quote": "percent who had gpa between 3.00 and 3.24 11.2"
+    },
+    "gpa_250_pct": {
+      "value": 5,
+      "quote": "percent who had gpa between 2.50 and 2.99 5.0"
+    },
+    "gpa_average": {
+      "value": 3.67,
+      "quote": "average high school gpa 3.67"
+    },
+    "gpa_submit_pct": {
+      "value": 83.6,
+      "quote": "percent submitting gpa 83.6"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

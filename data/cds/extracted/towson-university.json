@@ -1,0 +1,183 @@
+{
+  "slug": "towson-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.towson.edu/ir/documents/cds_c_2526.pdf"
+  },
+  "sourceUrl": "https://www.towson.edu/ir/documents/cds_c_2526.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 17,
+      "quote": "percent in top tenth of high school graduating class 17%"
+    },
+    "rank_top25_pct": {
+      "value": 46,
+      "quote": "percent in top quarter of high school graduating class 46%"
+    },
+    "gpa_400_pct": {
+      "value": 34.56,
+      "quote": "percent who had gpa of 4.0 42% 33% 34.56%"
+    },
+    "gpa_375_pct": {
+      "value": 17.92,
+      "quote": "percent who had gpa between 3.75 and 3.99 17% 18% 17.92%"
+    },
+    "gpa_350_pct": {
+      "value": 19.36,
+      "quote": "percent who had gpa between 3.50 and 3.74 19% 19% 19.36%"
+    },
+    "gpa_325_pct": {
+      "value": 16.88,
+      "quote": "percent who had gpa between 3.25 and 3.49 14% 18% 16.88%"
+    },
+    "gpa_300_pct": {
+      "value": 9.49,
+      "quote": "percent who had gpa between 3.00 and 3.24 6% 10% 9.49%"
+    },
+    "gpa_250_pct": {
+      "value": 1.69,
+      "quote": "percent who had gpa between 2.50 and 2.99 1% 2% 1.69%"
+    },
+    "gpa_200_pct": {
+      "value": 0.13,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.13% 0.10%"
+    },
+    "gpa_average": {
+      "value": 3.81,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students 3.81"
+    },
+    "ea_applied": {
+      "value": 15387,
+      "quote": "number of early action applications received by your institution 15,387"
+    },
+    "ea_admitted": {
+      "value": 12668,
+      "quote": "number of applicants admitted under early action plan 12,668"
+    },
+    "applied_total": {
+      "value": 20772,
+      "quote": "total first-time, first-year males who applied 7746 / total first-time, first-year females who applied 13016 / total first-time, first-year students of unknown sex who applied 10",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 16735,
+      "quote": "total first-time, first-year males who were admitted 6045 / total first-time, first-year females who were admitted 10681 / total first-time, first-year students of unknown sex who were admitted 9",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2908,
+      "quote": "total first-time, first-year males who enrolled 1086 / total first-time, first-year females who enrolled 1821 / total first-time, first-year students of unknown sex who enrolled 1",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 920,
+      "quote": "sat composite 920 1070 1230"
+    },
+    "sat_p50": {
+      "value": 1070,
+      "quote": "sat composite 920 1070 1230"
+    },
+    "sat_p75": {
+      "value": 1230,
+      "quote": "sat composite 920 1070 1230"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite 20 26 27"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "act composite 20 26 27"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "act composite 20 26 27"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

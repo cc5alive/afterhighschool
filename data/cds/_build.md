@@ -75,14 +75,17 @@ Built 2026-11-07.
 | jacksonville-state-university | 2025-2026 | 43 |  |
 | james-madison-university | 2025-2026 | 36 |  |
 | johns-hopkins-university | 2025-2026 | 45 |  |
+| kansas-state-university | 2025-2026 | 45 |  |
 | kennesaw-state-university | 2025-2026 | 25 |  |
 | kent-state-university-at-kent | 2025-2026 | 0 |  |
+| lafayette-college | 2025-2026 | 52 |  |
 | lehigh-university | 2025-2026 | 42 |  |
 | lincoln-university-mo | 2023-2024 | 19 |  |
 | louisiana-state-university-and-agricultural-and-mechanical-college | 2024-2025 | 43 |  |
 | loyola-university-chicago | 2025-2026 | 19 |  |
 | macalester-college | 2025-2026 | 34 |  |
 | massachusetts-institute-of-technology | 2025-2026 | 35 |  |
+| metropolitan-state-university-of-denver | 2024-2025 | 24 |  |
 | miami-university-oxford | 2024-2025 | 27 |  |
 | michigan-state-university | 2025-2026 | 44 |  |
 | middle-tennessee-state-university | 2025-2026 | 22 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C11 buckets sum to 105.9 |
@@ -107,6 +110,7 @@ Built 2026-11-07.
 | radford-university | - | 36 |  |
 | rice-university | 2025-2026 | 40 |  |
 | rochester-institute-of-technology | 2025-2026 | 36 |  |
+| rowan-university | 2025-2026 | 47 |  |
 | rutgers-university-new-brunswick | 2025-2026 | 28 | reader and Gemini read different documents (2025 vs 2023); used the reader one |
 | saginaw-valley-state-university | 2025-2026 | 30 |  |
 | sam-houston-state-university | 2025-2026 | 36 |  |
@@ -135,6 +139,7 @@ Built 2026-11-07.
 | the-university-of-texas-at-dallas | 2024-2025 | 22 | reader and Gemini read different documents (2025 vs 2024); used the reader one; newer document gave too few values; used the other |
 | the-university-of-texas-at-el-paso | 2025-2026 | 10 | C11 buckets sum to 0.1 |
 | the-university-of-texas-at-san-antonio | 2024-2025 | 15 | reader and Gemini read different documents (2024 vs 2023); used the reader one; gpa_submit_pct implausibly low |
+| towson-university | 2025-2026 | 42 | gpa_200_pct: reads disagree (0.13 vs 0.1), left out |
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 51 |  |
 | united-states-military-academy | 2024-2025 | 38 |  |
@@ -157,6 +162,7 @@ Built 2026-11-07.
 | university-of-delaware | 2024-2025 | 39 |  |
 | university-of-florida | 2024-2025 | 38 | applied_total: reader 5159, Gemini 73557 (quote matched); admitted_total: reader 1676, Gemini 17804 (quote matched); enrolled_total: reader 303, Gemini 7513 (quote matched) |
 | university-of-georgia | 2025-2026 | 42 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
+| university-of-hawaii-at-manoa | 2025-2026 | 36 |  |
 | university-of-houston | 2025-2026 | 47 |  |
 | university-of-houston-downtown | 2025-2026 | 46 |  |
 | university-of-idaho | - | 23 | gpa_below1_pct read as the "totals = 100%" note |
@@ -175,6 +181,7 @@ Built 2026-11-07.
 | university-of-missouri-columbia | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.7847) |
 | university-of-nebraska-lincoln | 2025-2026 | 3 |  |
 | university-of-nevada-las-vegas | 2023-2024 | 21 | reader and Gemini read different documents (2025 vs 2023); used the reader one; newer document gave too few values; used the other; SAT 870-1180 far from federal 1010-1240 |
+| university-of-nevada-reno | 2025-2026 | 41 |  |
 | university-of-new-hampshire-main-campus | - | 40 |  |
 | university-of-new-mexico-main-campus | 2025-2026 | 22 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C1 failed consistency (applied 13589, admitted 10866, enrolled 3775, federal admit rate 0.9518) |
 | university-of-north-carolina-at-chapel-hill | 2025-2026 | 43 |  |
@@ -189,6 +196,7 @@ Built 2026-11-07.
 | university-of-pittsburgh-pittsburgh-campus | 2025-2026 | 42 |  |
 | university-of-rhode-island | 2025-2026 | 49 |  |
 | university-of-richmond | 2024-2025 | 36 |  |
+| university-of-rochester | 2025-2026 | 51 |  |
 | university-of-south-carolina-columbia | 2025-2026 | 1 |  |
 | university-of-south-florida | 2025-2026 | 43 |  |
 | university-of-southern-california | 2024-2025 | 39 |  |
@@ -210,6 +218,7 @@ Built 2026-11-07.
 | washington-and-lee-university | - | 42 | C11 left blank by the school |
 | washington-state-university | 2025-2026 | 34 |  |
 | washington-university-in-st-louis | 2025-2026 | 38 |  |
+| wayne-state-university | 2025-2026 | 41 |  |
 | wellesley-college | 2025-2026 | 25 |  |
 | wentworth-institute-of-technology | 2025-2026 | 43 |  |
 | west-virginia-university | 2024-2025 | 27 |  |
