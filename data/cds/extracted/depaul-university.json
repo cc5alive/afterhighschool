@@ -1,0 +1,183 @@
+{
+  "slug": "depaul-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://irma.depaul.edu/cds/2024/2024CDS_C.pdf"
+  },
+  "sourceUrl": "https://irma.depaul.edu/cds/2024/2024CDS_C.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 228,
+      "quote": "number of wait-listed students admitted: 228"
+    },
+    "rank_top10_pct": {
+      "value": 23.17,
+      "quote": "percent in top tenth of high school graduating class 23.17"
+    },
+    "rank_top25_pct": {
+      "value": 55.31,
+      "quote": "percent in top quarter of high school graduating class 55.31"
+    },
+    "gpa_400_pct": {
+      "value": 36.2,
+      "quote": "percent who had gpa of 4.0 42.86 28.55 36.2"
+    },
+    "gpa_375_pct": {
+      "value": 20.39,
+      "quote": "percent who had gpa between 3.75 and 3.99 20.39 20.39 20.39"
+    },
+    "gpa_350_pct": {
+      "value": 15.06,
+      "quote": "percent who had gpa between 3.50 and 3.74 12.65 17.82 15.06"
+    },
+    "gpa_325_pct": {
+      "value": 11.02,
+      "quote": "percent who had gpa between 3.25 and 3.49 8.73 13.65 11.02"
+    },
+    "gpa_300_pct": {
+      "value": 8.21,
+      "quote": "percent who had gpa between 3.00 and 3.24 7.49 9.04 8.21"
+    },
+    "gpa_250_pct": {
+      "value": 8.13,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.26 9.13 8.13"
+    },
+    "gpa_200_pct": {
+      "value": 0.95,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.54 1.42 0.95"
+    },
+    "gpa_100_pct": {
+      "value": 0.04,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.08 0 0.04"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0 0"
+    },
+    "gpa_average": {
+      "value": 3.78,
+      "quote": "average high school gpa 3.78"
+    },
+    "gpa_submit_pct": {
+      "value": 94,
+      "quote": "percent submitting gpa 94"
+    },
+    "applied_total": {
+      "value": 31266,
+      "quote": "total first-time, first-year men who applied 12658 / total first-time, first-year women who applied 18608 / total first-time, first-year of another gender who applied / total first-time, first-year of unknown gender who applied",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 23729,
+      "quote": "total first-time, first-year men who were admitted 9290 / total first-time, first-year women who were admitted 14439 / total first-time, first-year of another gender who were admitted / total first-time, first-year of unknown gender who were admitted",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2566,
+      "quote": "total first-time, first-year men who enrolled 1123 / total first-time, first-year women who enrolled 1443 / total first-time, first-year of another gender who enrolled / total first-time, first-year of unknown gender who enrolled",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1090,
+      "quote": "sat composite 1090 1200 1300"
+    },
+    "sat_p50": {
+      "value": 1200,
+      "quote": "sat composite 1090 1200 1300"
+    },
+    "sat_p75": {
+      "value": 1300,
+      "quote": "sat composite 1090 1200 1300"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "act composite 24 27 30"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "act composite 24 27 30"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "act composite 24 27 30"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

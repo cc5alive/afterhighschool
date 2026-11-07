@@ -1,0 +1,152 @@
+{
+  "slug": "george-washington-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://irp.gwu.edu/sites/g/files/zaxdzs6056/files/2026-04/CDS-PDF-2025-2026.pdf"
+  },
+  "sourceUrl": "https://irp.gwu.edu/sites/g/files/zaxdzs6056/files/2026-04/CDS-PDF-2025-2026.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 27034,
+      "quote": "total first-time, first-year (degree-seeking) who applied 814 482 21934 3804 27034"
+    },
+    "admitted_total": {
+      "value": 12741,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1380 154 10785 422 12741"
+    },
+    "enrolled_total": {
+      "value": 2405,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 58 2073 173 101 2405"
+    },
+    "waitlist_admitted": {
+      "value": 616,
+      "quote": "number of wait-listed students admitted: 616"
+    },
+    "rank_top10_pct": {
+      "value": 44.11177,
+      "quote": "percent in top tenth of high school graduating class 44.11177"
+    },
+    "rank_top25_pct": {
+      "value": 77.4451,
+      "quote": "percent in top quarter of high school graduating class 77.4451"
+    },
+    "sat_p25": {
+      "value": 1310,
+      "quote": "sat composite 1310 1390 1450"
+    },
+    "sat_p50": {
+      "value": 1390,
+      "quote": "sat composite 1310 1390 1450"
+    },
+    "sat_p75": {
+      "value": 1450,
+      "quote": "sat composite 1310 1390 1450"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "act composite 31 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 31 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 31 32 34"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2229,
+      "quote": "D2 total 2229 1339 582"
+    },
+    "transfer_admitted": {
+      "value": 1339,
+      "quote": "D2 total 2229 1339 582"
+    },
+    "transfer_enrolled": {
+      "value": 582,
+      "quote": "D2 total 2229 1339 582"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    }
+  },
+  "concerns": null
+}

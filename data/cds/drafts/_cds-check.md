@@ -1,14 +1,13 @@
 # CDS check
 
-Checked 8 schools on 2026-11-07.
+Checked 7 schools on 2026-11-07.
 
 | School | Document | Status | Values confirmed |
 | --- | --- | --- | --- |
-| kansas-state-university | pdf | 200 | 40 of 49 |
-| lafayette-college | pdf | 200 | 46 of 55 |
-| metropolitan-state-university-of-denver | pdf | 200 | 25 of 28 |
-| rowan-university | pdf | 200 | 24 of 50 |
-| towson-university | pdf | 200 | 38 of 46 |
-| university-of-hawaii-at-manoa | pdf | 200 | 18 of 39 |
-| university-of-nevada-reno | pdf | 200 | 31 of 34 |
-| university-of-rochester | pdf | 200 | 50 of 52 |
+| ball-state-university | pdf | 200 | 33 of 46 |
+| baylor-university | pdf | 200 | 31 of 44 |
+| depaul-university | pdf | 200 | 20 of 47 |
+| george-washington-university | pdf | 200 | 12 of 42 |
+| trinity-college | pdf | 200 | 28 of 44 |
+| university-of-north-carolina-wilmington | pdf | 200 | 21 of 48 |
+| west-chester-university-of-pennsylvania | pdf | 200 | 22 of 52 |

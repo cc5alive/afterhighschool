@@ -8,8 +8,10 @@ Built 2026-11-07.
 | arizona-state-university-campus-immersion | 2025-2026 | 37 |  |
 | auburn-university | - | 41 |  |
 | babson-college | - | 38 |  |
+| ball-state-university | 2025-2026 | 44 |  |
 | barnard-college | 2025-2026 | 19 | rank_top10_pct: reader 0.96, Gemini 96 (quote matched); rank_top25_pct: reader 0.98, Gemini 98 (quote matched); C11 buckets sum to 3.0; ed counts inconsistent (undefined, 476) |
 | bates-college | 2025-2026 | 35 | SAT 1325-1510 far from federal 1420-1530 |
+| baylor-university | 2025-2026 | 42 |  |
 | bennington-college | 2025-2026 | 29 |  |
 | binghamton-university | - | 50 |  |
 | boise-state-university | 2025-2026 | 6 |  |
@@ -48,6 +50,7 @@ Built 2026-11-07.
 | dartmouth-college | 2025-2026 | 40 |  |
 | davidson-college | - | 42 | class rank inconsistent |
 | denison-university | 2025-2026 | 15 | sat_p50: reader 1360, Gemini 1400 (quote matched); act_p25: reads disagree (28 vs 30), left out; act scores inconsistent (undefined, 31, 33) |
+| depaul-university | 2024-2025 | 44 | waitlist_admitted: reads disagree (228 vs 0), left out |
 | duke-university | 2025-2026 | 34 |  |
 | east-carolina-university | 2024-2025 | 40 |  |
 | emory-university | 2025-2026 | 33 | reader and Gemini read different documents (2024 vs 2025); used the Gemini one; C1 failed consistency (applied undefined, admitted undefined, enrolled 1443, federal admit rate 0.1065) |
@@ -57,6 +60,7 @@ Built 2026-11-07.
 | florida-international-university | 2025-2026 | 44 |  |
 | florida-state-university | 2025-2026 | 26 |  |
 | george-mason-university | 2025-2026 | 51 |  |
+| george-washington-university | 2025-2026 | 37 |  |
 | georgetown-university | 2025-2026 | 38 |  |
 | georgia-institute-of-technology-main-campus | 2025-2026 | 49 | gpa_below1_pct: reader 95.31, Gemini 0 (quote matched) |
 | georgia-southern-university | 2025-2026 | 0 |  |
@@ -140,6 +144,7 @@ Built 2026-11-07.
 | the-university-of-texas-at-el-paso | 2025-2026 | 10 | C11 buckets sum to 0.1 |
 | the-university-of-texas-at-san-antonio | 2024-2025 | 15 | reader and Gemini read different documents (2024 vs 2023); used the reader one; gpa_submit_pct implausibly low |
 | towson-university | 2025-2026 | 42 | gpa_200_pct: reads disagree (0.13 vs 0.1), left out |
+| trinity-college | 2025-2026 | 42 |  |
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 51 |  |
 | united-states-military-academy | 2024-2025 | 38 |  |
@@ -186,6 +191,7 @@ Built 2026-11-07.
 | university-of-new-mexico-main-campus | 2025-2026 | 22 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C1 failed consistency (applied 13589, admitted 10866, enrolled 3775, federal admit rate 0.9518) |
 | university-of-north-carolina-at-chapel-hill | 2025-2026 | 43 |  |
 | university-of-north-carolina-at-charlotte | 2025-2026 | 48 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
+| university-of-north-carolina-wilmington | 2025-2026 | 39 | applied_total: reads disagree (22358 vs 22359), left out; C1 failed consistency (applied undefined, admitted 14472, enrolled 3109, federal admit rate 0.6424); gpa_below1_pct read as the "totals = 100%" note |
 | university-of-north-dakota | 2025-2026 | 2 | C1 failed consistency (applied 0, admitted 0, enrolled 0, federal admit rate 0.769) |
 | university-of-north-georgia | 2025-2026 | 44 |  |
 | university-of-north-texas | 2025-2026 | 29 |  |
@@ -221,6 +227,7 @@ Built 2026-11-07.
 | wayne-state-university | 2025-2026 | 41 |  |
 | wellesley-college | 2025-2026 | 25 |  |
 | wentworth-institute-of-technology | 2025-2026 | 43 |  |
+| west-chester-university-of-pennsylvania | 2025-2026 | 40 | ACT 20-28 far from federal 24-28; transfer counts inconsistent (1939, undefined, undefined) |
 | west-virginia-university | 2024-2025 | 27 |  |
 | western-kentucky-university | 2025-2026 | 20 | ACT 18-25 far from federal 16-21 |
 | william-and-mary | 2025-2026 | 45 |  |

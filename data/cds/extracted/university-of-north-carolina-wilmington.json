@@ -1,0 +1,179 @@
+{
+  "slug": "university-of-north-carolina-wilmington",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.uncw.edu/media/pdf/irp/cds-2025-2026.pdf"
+  },
+  "sourceUrl": "https://uncw.edu/media/pdf/irp/cds-2025-2026.pdf",
+  "researchedAt": "2026-11-07",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 4,
+      "quote": "number of wait-listed students admitted: 4"
+    },
+    "rank_top10_pct": {
+      "value": 18.6,
+      "quote": "percent in top tenth of high school graduating class 18.6%"
+    },
+    "rank_top25_pct": {
+      "value": 51.2,
+      "quote": "percent in top quarter of high school graduating class 51.2%"
+    },
+    "gpa_400_pct": {
+      "value": 61.9,
+      "quote": "percent who had gpa of 4.0 61.9% c or t c or t"
+    },
+    "gpa_375_pct": {
+      "value": 25.5,
+      "quote": "percent who had gpa between 3.75 and 3.99 25.5% c or t c or t"
+    },
+    "gpa_350_pct": {
+      "value": 11.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 11.1% c or t c or t"
+    },
+    "gpa_325_pct": {
+      "value": 1.3,
+      "quote": "percent who had gpa between 3.25 and 3.49 1.3% c or t c or t"
+    },
+    "gpa_300_pct": {
+      "value": 0.2,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.2% c or t c or t"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
+    },
+    "gpa_average": {
+      "value": 4.09,
+      "quote": "average high school gpa: 4.09"
+    },
+    "gpa_submit_pct": {
+      "value": 99.5,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: percent submitting high school gpa: 99.5%"
+    },
+    "applied_total": {
+      "value": 22358,
+      "quote": "total first-time, first-year males who applied 7,150 / total first-time, first-year females who applied 15,208",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 14472,
+      "quote": "total first-time, first-year males who were admitted 4,335 / total first-time, first-year females who were admitted 10,137",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 3109,
+      "quote": "total first-time, first-year males who enrolled 981 / total first-time, first-year females who enrolled 2,128",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1240,
+      "quote": "sat composite 1240 1301 1350"
+    },
+    "sat_p50": {
+      "value": 1301,
+      "quote": "sat composite 1240 1301 1350"
+    },
+    "sat_p75": {
+      "value": 1350,
+      "quote": "sat composite 1240 1301 1350"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "act composite 24 26 29"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "act composite 24 26 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "act composite 24 26 29"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Important",
+      "quote": "State residency"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3755,
+      "quote": "D2 total 3,755 3,415 2,034"
+    },
+    "transfer_admitted": {
+      "value": 3415,
+      "quote": "D2 total 3,755 3,415 2,034"
+    },
+    "transfer_enrolled": {
+      "value": 2034,
+      "quote": "D2 total 3,755 3,415 2,034"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    }
+  },
+  "concerns": null
+}
