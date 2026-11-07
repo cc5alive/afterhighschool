@@ -1,0 +1,124 @@
+{
+  "slug": "university-of-memphis",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.memphis.edu/oir/oirweb/WebReports/ProfilesAndFactbooks/cds2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "sat_submit_pct": {
+      "value": 5,
+      "quote": "Submitting SAT Scores 5.00"
+    },
+    "act_submit_pct": {
+      "value": 90,
+      "quote": "Submitting ACT Scores 90.00"
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "SAT Composite 950"
+    },
+    "sat_p50": {
+      "value": 1040,
+      "quote": "SAT Composite 1040"
+    },
+    "sat_p75": {
+      "value": 1220,
+      "quote": "SAT Composite 1220"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "ACT Composite 18"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "ACT Composite 21"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "ACT Composite 24"
+    },
+    "rank_top10_pct": {
+      "value": 17,
+      "quote": "Percent in top tenth of high school graduating class 17.00"
+    },
+    "rank_top25_pct": {
+      "value": 41,
+      "quote": "Percent in top quarter of high school graduating class 41.00"
+    },
+    "rank_submit_pct": {
+      "value": 70,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 70.00"
+    },
+    "gpa_400_pct": {
+      "value": 29,
+      "quote": "Percent who had GPA of 4.0 29.00"
+    },
+    "gpa_375_pct": {
+      "value": 18,
+      "quote": "Percent who had GPA between 3.75 and 3.99 18.00"
+    },
+    "gpa_350_pct": {
+      "value": 17,
+      "quote": "Percent who had GPA between 3.50 and 3.74 17.00"
+    },
+    "gpa_325_pct": {
+      "value": 14,
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.00"
+    },
+    "gpa_300_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 3.00 and 3.24 10.00"
+    },
+    "gpa_250_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 2.50 and 2.99 10.00"
+    },
+    "gpa_200_pct": {
+      "value": 2,
+      "quote": "Percent who had GPA between 2.0 and 2.49 2.00"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.63,
+      "quote": "Average High School GPA 3.63"
+    },
+    "gpa_submit_pct": {
+      "value": 99.4,
+      "quote": "Percent Submitting GPA 99.40"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? No"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C21. Early decision... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "C22. Early action... No"
+    },
+    "transfer_applied": {
+      "value": 1791,
+      "quote": "Total 1791"
+    },
+    "transfer_admitted": {
+      "value": 1615,
+      "quote": "Total 1615"
+    },
+    "transfer_enrolled": {
+      "value": 920,
+      "quote": "Total 920"
+    }
+  },
+  "concerns": null
+}

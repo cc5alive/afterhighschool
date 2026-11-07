@@ -1,0 +1,232 @@
+{
+  "slug": "oberlin-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.oberlin.edu/media/37695/download"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 11732,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 11732"
+    },
+    "admitted_total": {
+      "value": 3873,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 3873"
+    },
+    "enrolled_total": {
+      "value": 768,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 768"
+    },
+    "waitlist_offered": {
+      "value": 968,
+      "quote": "Number of qualified applicants offered a place on waiting list: 968"
+    },
+    "waitlist_accepted": {
+      "value": 460,
+      "quote": "Number accepting a place on the waiting list: 460"
+    },
+    "waitlist_admitted": {
+      "value": 33,
+      "quote": "Number of wait-listed students admitted: 33"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Important",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Important",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 34,
+      "quote": "Submitting SAT Scores 34.00"
+    },
+    "act_submit_pct": {
+      "value": 14,
+      "quote": "Submitting ACT Scores 14.00"
+    },
+    "sat_p25": {
+      "value": 1370,
+      "quote": "SAT Composite 1370"
+    },
+    "sat_p50": {
+      "value": 1420,
+      "quote": "SAT Composite 1420"
+    },
+    "sat_p75": {
+      "value": 1480,
+      "quote": "SAT Composite 1480"
+    },
+    "act_p25": {
+      "value": 30,
+      "quote": "ACT Composite 30"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "ACT Composite 32"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "ACT Composite 33"
+    },
+    "rank_top10_pct": {
+      "value": 43,
+      "quote": "Percent in top tenth of high school graduating class 43.00"
+    },
+    "rank_top25_pct": {
+      "value": 69,
+      "quote": "Percent in top quarter of high school graduating class 69.00"
+    },
+    "rank_submit_pct": {
+      "value": 27,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 27.00"
+    },
+    "gpa_400_pct": {
+      "value": 9.7,
+      "quote": "Percent who had GPA of 4.0 9.70"
+    },
+    "gpa_375_pct": {
+      "value": 34.7,
+      "quote": "Percent who had GPA between 3.75 and 3.99 34.70"
+    },
+    "gpa_350_pct": {
+      "value": 26.7,
+      "quote": "Percent who had GPA between 3.50 and 3.74 26.70"
+    },
+    "gpa_325_pct": {
+      "value": 17,
+      "quote": "Percent who had GPA between 3.25 and 3.49 17.00"
+    },
+    "gpa_300_pct": {
+      "value": 7.3,
+      "quote": "Percent who had GPA between 3.00 and 3.24 7.30"
+    },
+    "gpa_250_pct": {
+      "value": 4.4,
+      "quote": "Percent who had GPA between 2.50 and 2.99 4.40"
+    },
+    "gpa_200_pct": {
+      "value": 0.2,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.20"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.6,
+      "quote": "Average High School GPA 3.60"
+    },
+    "gpa_submit_pct": {
+      "value": 86,
+      "quote": "Percent Submitting GPA 86.00"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "If yes, maximum period of postponement: 1 Year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "C21. Early decision: Does your institution offer an early decision plan... Yes"
+    },
+    "ed_applied": {
+      "value": 668,
+      "quote": "Number of early decision applications received by your institution: 668"
+    },
+    "ed_admitted": {
+      "value": 263,
+      "quote": "Number of applicants admitted under early decision plan: 263"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "C22. Early action: Do you have a nonbinding early action plan... Yes"
+    },
+    "transfer_applied": {
+      "value": 322,
+      "quote": "Total 322"
+    },
+    "transfer_admitted": {
+      "value": 125,
+      "quote": "Total 125"
+    },
+    "transfer_enrolled": {
+      "value": 80,
+      "quote": "Total 80"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "cuny-city-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.ccny.cuny.edu/sites/default/files/2026-03/CDS-PDF-2025-2026_PDF_FINAL.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 34284,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 34284"
+    },
+    "admitted_total": {
+      "value": 19880,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 19880"
+    },
+    "enrolled_total": {
+      "value": 2700,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 2700"
+    },
+    "gpa_400_pct": {
+      "value": 0.34,
+      "quote": "Percent who had GPA of 4.0 0.34"
+    },
+    "gpa_375_pct": {
+      "value": 17.29,
+      "quote": "Percent who had GPA between 3.75 and 3.99 17.29"
+    },
+    "gpa_350_pct": {
+      "value": 29.6,
+      "quote": "Percent who had GPA between 3.50 and 3.74 29.60"
+    },
+    "gpa_325_pct": {
+      "value": 23.94,
+      "quote": "Percent who had GPA between 3.25 and 3.49 23.94"
+    },
+    "gpa_300_pct": {
+      "value": 16.53,
+      "quote": "Percent who had GPA between 3.00 and 3.24 16.53"
+    },
+    "gpa_250_pct": {
+      "value": 11.64,
+      "quote": "Percent who had GPA between 2.50 and 2.99 11.64"
+    },
+    "gpa_200_pct": {
+      "value": 0.64,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.64"
+    },
+    "gpa_100_pct": {
+      "value": 0.02,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.02"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.14,
+      "quote": "Average High School GPA 3.14"
+    },
+    "gpa_submit_pct": {
+      "value": 92,
+      "quote": "Percent Submitting GPA 92.00"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "If yes, maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C21. Early decision... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "C22. Early action... No"
+    },
+    "transfer_applied": {
+      "value": 8240,
+      "quote": "Total 8240"
+    },
+    "transfer_admitted": {
+      "value": 3689,
+      "quote": "Total 3689"
+    },
+    "transfer_enrolled": {
+      "value": 949,
+      "quote": "Total 949"
+    }
+  },
+  "concerns": null
+}
