@@ -1,0 +1,212 @@
+{
+  "slug": "pratt-institute-main",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Pratt Institute Common Data Set 2023-2024",
+    "url": "https://www.pratt.edu/wp-content/uploads/2024/04/Pratt-Institute-Commom-Data-Set-2023-2024.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 8281,
+      "quote": "Total first-time, first-year (degree seeking) who applied 8,281.0"
+    },
+    "admitted_total": {
+      "value": 4403,
+      "quote": "Total first-time, first-year (degree seeking) who were admitted 4,403.0"
+    },
+    "enrolled_total": {
+      "value": 781,
+      "quote": "Total first-time, first-year (degree seeking) enrolled 781.0"
+    },
+    "waitlist_offered": {
+      "value": 422,
+      "quote": "Number of qualified applicants offered a place on waiting list: 422"
+    },
+    "waitlist_accepted": {
+      "value": 397,
+      "quote": "Number accepting a place on the waiting list: 397"
+    },
+    "waitlist_admitted": {
+      "value": 90,
+      "quote": "Number of wait-listed students admitted: 90"
+    },
+    "sat_submit_pct": {
+      "value": 16,
+      "quote": "Submitting SAT Scores 16%"
+    },
+    "act_submit_pct": {
+      "value": 4,
+      "quote": "Submitting ACT Scores 4%"
+    },
+    "sat_p25": {
+      "value": 1243,
+      "quote": "SAT Composite (400 - 1600) 1243"
+    },
+    "sat_p50": {
+      "value": 1330,
+      "quote": "SAT Composite (400 - 1600) 1330"
+    },
+    "sat_p75": {
+      "value": 1410,
+      "quote": "SAT Composite (400 - 1600) 1410"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "ACT Composite (0 - 36) 26"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "ACT Composite (0 - 36) 30"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "ACT Composite (0 - 36) 32"
+    },
+    "gpa_400_pct": {
+      "value": 27.3,
+      "quote": "Percent who had GPA of 4.0 27.3%"
+    },
+    "gpa_375_pct": {
+      "value": 24.8,
+      "quote": "Percent who had GPA between 3.75 and 3.99 24.8%"
+    },
+    "gpa_350_pct": {
+      "value": 23.7,
+      "quote": "Percent who had GPA between 3.50 and 3.74 23.7%"
+    },
+    "gpa_325_pct": {
+      "value": 11.9,
+      "quote": "Percent who had GPA between 3.25 and 3.49 11.9%"
+    },
+    "gpa_300_pct": {
+      "value": 6.3,
+      "quote": "Percent who had GPA between 3.00 and 3.24 6.3%"
+    },
+    "gpa_250_pct": {
+      "value": 4.6,
+      "quote": "Percent who had GPA between 2.50 and 2.99 4.6%"
+    },
+    "gpa_200_pct": {
+      "value": 1.4,
+      "quote": "Percent who had GPA between 2.0 and 2.49 1.4%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.7,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.7"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100.0%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C21. Early Decision No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "C22. Early Action Yes"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "One year for first-time, first-year undergraduates only",
+      "quote": "If yes, what is the maximum period of postponement? One year for first-time, first-year undergraduates only"
+    },
+    "transfer_applied": {
+      "value": 589,
+      "quote": "Total 589"
+    },
+    "transfer_admitted": {
+      "value": 202,
+      "quote": "Total 202"
+    },
+    "transfer_enrolled": {
+      "value": 55,
+      "quote": "Total 55"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic Grade Point Average (GPA)"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendations"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurriculuar activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affilitation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Very Important",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
