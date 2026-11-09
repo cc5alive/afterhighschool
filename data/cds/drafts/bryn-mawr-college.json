@@ -1,0 +1,184 @@
+{
+  "slug": "bryn-mawr-college",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.brynmawr.edu/sites/default/files/media/documents/2025-01/CDS-2024-2025-Bryn%20Mawr%20Read%20Only%20Update.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 4094,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 4094"
+    },
+    "admitted_total": {
+      "value": 1205,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 1205"
+    },
+    "enrolled_total": {
+      "value": 380,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 380"
+    },
+    "waitlist_offered": {
+      "value": 494,
+      "quote": "Number of qualified applicants offered a place on waiting list: 494"
+    },
+    "waitlist_accepted": {
+      "value": 285,
+      "quote": "Number accepting a place on the waiting list: 285"
+    },
+    "waitlist_admitted": {
+      "value": 23,
+      "quote": "Number of wait-listed students admitted: 23"
+    },
+    "sat_submit_pct": {
+      "value": 63.68,
+      "quote": "Submitting SAT Scores 63.68"
+    },
+    "act_submit_pct": {
+      "value": 20.79,
+      "quote": "Submitting ACT Scores 20.79"
+    },
+    "sat_p25": {
+      "value": 1290,
+      "quote": "SAT Composite 1290"
+    },
+    "sat_p50": {
+      "value": 1400,
+      "quote": "SAT Composite 1290 1400"
+    },
+    "sat_p75": {
+      "value": 1490,
+      "quote": "SAT Composite 1290 1400 1490"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "ACT Composite 29"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "ACT Composite 29 31"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "ACT Composite 29 31 33"
+    },
+    "rank_top10_pct": {
+      "value": 65.79,
+      "quote": "Percent in top tenth of high school graduating class 65.79"
+    },
+    "rank_top25_pct": {
+      "value": 93.42,
+      "quote": "Percent in top quarter of high school graduating class 93.42"
+    },
+    "rank_submit_pct": {
+      "value": 20,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 20.00"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes"
+    },
+    "ed_applied": {
+      "value": 456,
+      "quote": "Number of early decision applications received by your institution: 456"
+    },
+    "ed_admitted": {
+      "value": 167,
+      "quote": "Number of applicants admitted under early decision plan: 167"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "One Year",
+      "quote": "If yes, maximum period of postponement: One Year"
+    },
+    "transfer_applied": {
+      "value": 144,
+      "quote": "Total 144"
+    },
+    "transfer_admitted": {
+      "value": 20,
+      "quote": "Total 144 20"
+    },
+    "transfer_enrolled": {
+      "value": 6,
+      "quote": "Total 144 20 6"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Important",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant’s interest"
+    }
+  },
+  "concerns": null
+}

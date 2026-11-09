@@ -1,0 +1,200 @@
+{
+  "slug": "pitzer-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026 6/8/2026 - Pitzer College",
+    "url": "https://www.pitzer.edu/documents/common-data-set-2025-2026"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 3683,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 3683"
+    },
+    "admitted_total": {
+      "value": 989,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 989"
+    },
+    "enrolled_total": {
+      "value": 273,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 273"
+    },
+    "waitlist_offered": {
+      "value": 578,
+      "quote": "Number of qualified applicants offered a place on waiting list: 578"
+    },
+    "waitlist_accepted": {
+      "value": 287,
+      "quote": "Number accepting a place on the waiting list: 287"
+    },
+    "waitlist_admitted": {
+      "value": 57,
+      "quote": "Number of wait-listed students admitted: 57"
+    },
+    "rank_top10_pct": {
+      "value": 33,
+      "quote": "Percent in top tenth of high school graduating class 33%"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "Percent in top quarter of high school graduating class 100%"
+    },
+    "rank_submit_pct": {
+      "value": 14,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 14%"
+    },
+    "gpa_400_pct": {
+      "value": 51.7,
+      "quote": "Percent who had GPA of 4.0 51.7%"
+    },
+    "gpa_375_pct": {
+      "value": 21.9,
+      "quote": "Percent who had GPA between 3.75 and 3.99 21.9%"
+    },
+    "gpa_350_pct": {
+      "value": 20.1,
+      "quote": "Percent who had GPA between 3.50 and 3.74 20.1%"
+    },
+    "gpa_325_pct": {
+      "value": 3.4,
+      "quote": "Percent who had GPA between 3.25 and 3.49 3.4%"
+    },
+    "gpa_300_pct": {
+      "value": 2.2,
+      "quote": "Percent who had GPA between 3.00 and 3.24 2.2%"
+    },
+    "gpa_250_pct": {
+      "value": 0.4,
+      "quote": "Percent who had GPA between 2.50 and 2.99 0.4%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.95,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.95"
+    },
+    "gpa_submit_pct": {
+      "value": 97.45,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 97.45%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "If yes, maximum period of postponement: 1 Year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes"
+    },
+    "ed_applied": {
+      "value": 385,
+      "quote": "Number of early decision applications received by your institution 385"
+    },
+    "ed_admitted": {
+      "value": 167,
+      "quote": "Number of applicants admitted under early decision plan 167"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    },
+    "transfer_applied": {
+      "value": 224,
+      "quote": "Total 224"
+    },
+    "transfer_admitted": {
+      "value": 99,
+      "quote": "Total 99"
+    },
+    "transfer_enrolled": {
+      "value": 27,
+      "quote": "Total 27"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Very Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "southern-illinois-university-carbondale",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024",
+    "url": "https://irs.siu.edu/_common/documents/cds_2023-2024.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 10401,
+      "quote": "Total first-time, first-year student applications 10401"
+    },
+    "admitted_total": {
+      "value": 9407,
+      "quote": "Total first-time, first-year student admits 9407"
+    },
+    "enrolled_total": {
+      "value": 1621,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1621"
+    },
+    "sat_submit_pct": {
+      "value": 38.49,
+      "quote": "Submitting SAT Scores 38.49"
+    },
+    "act_submit_pct": {
+      "value": 12.1,
+      "quote": "Submitting ACT Scores 12.1"
+    },
+    "sat_p25": {
+      "value": 920,
+      "quote": "SAT Composite 920"
+    },
+    "sat_p50": {
+      "value": 1040,
+      "quote": "50th Percentile Score 1040"
+    },
+    "sat_p75": {
+      "value": 1170,
+      "quote": "75th Percentile Score 1170"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "ACT Composite 19"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "50th Percentile Score 24"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "75th Percentile Score 27"
+    },
+    "rank_top10_pct": {
+      "value": 14.75,
+      "quote": "Percent in top tenth of high school graduating class 14.75"
+    },
+    "rank_top25_pct": {
+      "value": 35.66,
+      "quote": "Percent in top quarter of high school graduating class 35.66"
+    },
+    "rank_submit_pct": {
+      "value": 61.07,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 61.07"
+    },
+    "gpa_average": {
+      "value": 3.23,
+      "quote": "Average high school GPA: 3.23"
+    },
+    "gpa_submit_pct": {
+      "value": 99.32,
+      "quote": "Percent submitting high school GPA: 99.32"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan ... No"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "The application term may be changed one time per application, provided the request is made prior to the start of the original application term.",
+      "quote": "If yes, maximum period of postponement: The application term may be changed one time per application, provided the request is made prior to the start of the original application term."
+    },
+    "transfer_applied": {
+      "value": 1995,
+      "quote": "Total 1995"
+    },
+    "transfer_admitted": {
+      "value": 1914,
+      "quote": "Total 1995 1914"
+    },
+    "transfer_enrolled": {
+      "value": 1188,
+      "quote": "Total 1995 1914 1188"
+    },
+    "factor_rigor": {
+      "value": "not considered",
+      "quote": "Rigor of secondary school record Not Considered"
+    },
+    "factor_gpa": {
+      "value": "very important",
+      "quote": "Academic GPA Very Important"
+    },
+    "factor_essay": {
+      "value": "considered",
+      "quote": "Application essay Considered"
+    },
+    "factor_recommendations": {
+      "value": "considered",
+      "quote": "Recommendation(s) Considered"
+    },
+    "factor_interview": {
+      "value": "not considered",
+      "quote": "Interview Not Considered"
+    },
+    "factor_talent": {
+      "value": "not considered",
+      "quote": "Talent/ability Not Considered"
+    },
+    "factor_character": {
+      "value": "not considered",
+      "quote": "Character/personal qualities Not Considered"
+    },
+    "factor_alumni": {
+      "value": "not considered",
+      "quote": "Alumni/ae relation Not Considered"
+    },
+    "factor_geography": {
+      "value": "not considered",
+      "quote": "Geographical residence Not Considered"
+    },
+    "factor_state_residency": {
+      "value": "not considered",
+      "quote": "State residency Not Considered"
+    },
+    "factor_religion": {
+      "value": "not considered",
+      "quote": "Religious affiliation/commitment Not Considered"
+    },
+    "factor_volunteer": {
+      "value": "not considered",
+      "quote": "Volunteer work Not Considered"
+    },
+    "factor_work": {
+      "value": "not considered",
+      "quote": "Work experience Not Considered"
+    },
+    "factor_interest": {
+      "value": "not considered",
+      "quote": "Level of applicant’s interest Not Considered"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,192 @@
+{
+  "slug": "university-of-nebraska-at-omaha",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "2023-2024 Common Data Set - DigitalCommons@UNO",
+    "url": "https://digitalcommons.unomaha.edu/cgi/viewcontent.cgi?article=1023&context=oiecds"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 9197,
+      "quote": "Total 9,197"
+    },
+    "admitted_total": {
+      "value": 8000,
+      "quote": "Total 8,000"
+    },
+    "enrolled_total": {
+      "value": 2156,
+      "quote": "Total 2,156"
+    },
+    "act_submit_pct": {
+      "value": 74,
+      "quote": "Submitting ACT Scores 74%"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "ACT Composite (0 - 36) 18"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "ACT Composite (0 - 36) 22"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "ACT Composite (0 - 36) 26"
+    },
+    "rank_top10_pct": {
+      "value": 20.3,
+      "quote": "Percent in top tenth of high school graduating class 20.3%"
+    },
+    "rank_top25_pct": {
+      "value": 45.6,
+      "quote": "Percent in top quarter of high school graduating class 45.6%"
+    },
+    "rank_submit_pct": {
+      "value": 52,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank 52.0%"
+    },
+    "gpa_400_pct": {
+      "value": 20.8,
+      "quote": "Percent who had GPA of 4.0 20.8%"
+    },
+    "gpa_375_pct": {
+      "value": 18.6,
+      "quote": "Percent who had GPA between 3.75 and 3.99 18.6%"
+    },
+    "gpa_350_pct": {
+      "value": 14.6,
+      "quote": "Percent who had GPA between 3.50 and 3.74 14.6%"
+    },
+    "gpa_325_pct": {
+      "value": 11.7,
+      "quote": "Percent who had GPA between 3.25 and 3.49 11.7%"
+    },
+    "gpa_300_pct": {
+      "value": 11.6,
+      "quote": "Percent who had GPA between 3.00 and 3.24 11.6%"
+    },
+    "gpa_250_pct": {
+      "value": 15.4,
+      "quote": "Percent who had GPA between 2.50 and 2.99 15.4%"
+    },
+    "gpa_200_pct": {
+      "value": 6.6,
+      "quote": "Percent who had GPA between 2.0 and 2.49 6.6%"
+    },
+    "gpa_100_pct": {
+      "value": 0.7,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.7%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.5,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.5"
+    },
+    "gpa_submit_pct": {
+      "value": 92.3,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 92.3%"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "Does your institution allow students to postpone enrollment after admission? No"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    },
+    "transfer_applied": {
+      "value": 2491,
+      "quote": "Total 2491"
+    },
+    "transfer_admitted": {
+      "value": 1527,
+      "quote": "Total 1527"
+    },
+    "transfer_enrolled": {
+      "value": 939,
+      "quote": "Total 939"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic Grade Point Average (GPA)"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendations"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurriculuar activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affilitation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,208 @@
+{
+  "slug": "oakland-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025 - Oakland University",
+    "url": "https://www.oakland.edu/media/Oakland/Assets/OIRA/files/Publications/CDS_2024-2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 17593,
+      "quote": "Total first-time, first-year who applied 17593"
+    },
+    "admitted_total": {
+      "value": 15454,
+      "quote": "Total first-time, first-year who were admitted 15454"
+    },
+    "enrolled_total": {
+      "value": 2268,
+      "quote": "Total first-time, first-year who enrolled 2268"
+    },
+    "sat_submit_pct": {
+      "value": 79,
+      "quote": "Submitting SAT Scores 79%"
+    },
+    "act_submit_pct": {
+      "value": 5,
+      "quote": "Submitting ACT Scores 5%"
+    },
+    "sat_p25": {
+      "value": 920,
+      "quote": "SAT Composite 920"
+    },
+    "sat_p50": {
+      "value": 1040,
+      "quote": "SAT Composite 1040"
+    },
+    "sat_p75": {
+      "value": 1160,
+      "quote": "SAT Composite 1160"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "ACT Composite 21"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "ACT Composite 25"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT Composite 29"
+    },
+    "rank_top10_pct": {
+      "value": 15,
+      "quote": "Percent in top tenth of high school graduating class 15%"
+    },
+    "rank_top25_pct": {
+      "value": 42,
+      "quote": "Percent in top quarter of high school graduating class 42%"
+    },
+    "rank_submit_pct": {
+      "value": 44.9,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 44.9"
+    },
+    "gpa_400_pct": {
+      "value": 16.4,
+      "quote": "Percent who had GPA of 4.0 16.40%"
+    },
+    "gpa_375_pct": {
+      "value": 20.8,
+      "quote": "Percent who had GPA between 3.75 and 3.99 20.80%"
+    },
+    "gpa_350_pct": {
+      "value": 16.6,
+      "quote": "Percent who had GPA between 3.50 and 3.74 16.60%"
+    },
+    "gpa_325_pct": {
+      "value": 13.4,
+      "quote": "Percent who had GPA between 3.25 and 3.49 13.40%"
+    },
+    "gpa_300_pct": {
+      "value": 12.5,
+      "quote": "Percent who had GPA between 3.00 and 3.24 12.50%"
+    },
+    "gpa_250_pct": {
+      "value": 19.8,
+      "quote": "Percent who had GPA between 2.50 and 2.99 19.80%"
+    },
+    "gpa_200_pct": {
+      "value": 0.5,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.50%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.48,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.48"
+    },
+    "gpa_submit_pct": {
+      "value": 99.8,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.80%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? X"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? X"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? X"
+    },
+    "transfer_applied": {
+      "value": 2979,
+      "quote": "Total 2,979"
+    },
+    "transfer_admitted": {
+      "value": 2612,
+      "quote": "Total 2,612"
+    },
+    "transfer_enrolled": {
+      "value": 1228,
+      "quote": "Total 1,228"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

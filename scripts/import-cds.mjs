@@ -25,7 +25,8 @@ for (const e of out) {
   // Some replies say "college" instead of "slug" and give bare values with no quote. Bare numbers can't
   // be checked against the document, so they're dropped below; factors and yes/no answers still count,
   // and the document link lets our own reader take the numbers from the file.
-  if (!e.slug && e.college) e.slug = e.college;
+  e.slug = e.slug || e.college || e.college_slug;
+  e.cdsYear = e.cdsYear || e.source?.cdsYear; e.researchedAt = e.researchedAt || e.source?.researchedAt; e.concerns = e.concerns || e.source?.concerns;
   for (const [k, v] of Object.entries(e.values || {})) if (v != null && typeof v !== 'object') e.values[k] = { value: v, quote: null };
   if (!slugs.has(e.slug)) { console.log(`SKIP ${e.slug}: unknown slug`); continue; }
   if (e.source?.url) e.source.url = e.source.url.replace(/^http:\/\//, 'https://');

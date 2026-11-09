@@ -1,0 +1,148 @@
+{
+  "slug": "stephen-f-austin-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.sfasu.edu/docs/institutional-research/common-data-set-complete-25-26.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 21123,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 21123"
+    },
+    "admitted_total": {
+      "value": 17614,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 17614"
+    },
+    "enrolled_total": {
+      "value": 2372,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 2372"
+    },
+    "sat_submit_pct": {
+      "value": 48,
+      "quote": "Submitting SAT Scores 48%"
+    },
+    "act_submit_pct": {
+      "value": 11,
+      "quote": "Submitting ACT Scores 11%"
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "SAT Composite 950"
+    },
+    "sat_p50": {
+      "value": 1040,
+      "quote": "SAT Composite 950 1040"
+    },
+    "sat_p75": {
+      "value": 1130,
+      "quote": "SAT Composite 950 1040 1130"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "ACT Composite 18"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "ACT Composite 18 21"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "ACT Composite 18 21 24"
+    },
+    "rank_top10_pct": {
+      "value": 9,
+      "quote": "Percent in top tenth of high school graduating class 9%"
+    },
+    "rank_top25_pct": {
+      "value": 32,
+      "quote": "Percent in top quarter of high school graduating class 32%"
+    },
+    "rank_submit_pct": {
+      "value": 83,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 83%"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan ... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan ... No"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "Does your institution allow students to postpone enrollment after admission? No"
+    },
+    "transfer_applied": {
+      "value": 1843,
+      "quote": "Total 1,843"
+    },
+    "transfer_admitted": {
+      "value": 1228,
+      "quote": "Total 1,843 1,228"
+    },
+    "transfer_enrolled": {
+      "value": 749,
+      "quote": "Total 1,843 1,228 749"
+    },
+    "factor_rigor": {
+      "value": "considered",
+      "quote": "Rigor of secondary school record Considered"
+    },
+    "factor_gpa": {
+      "value": "very important",
+      "quote": "Academic GPA Very Important"
+    },
+    "factor_essay": {
+      "value": "considered",
+      "quote": "Application essay Considered"
+    },
+    "factor_recommendations": {
+      "value": "considered",
+      "quote": "Recommendation(s) Considered"
+    },
+    "factor_interview": {
+      "value": "not considered",
+      "quote": "Interview Not Considered"
+    },
+    "factor_talent": {
+      "value": "considered",
+      "quote": "Talent/ability Considered"
+    },
+    "factor_character": {
+      "value": "considered",
+      "quote": "Character/personal qualities Considered"
+    },
+    "factor_alumni": {
+      "value": "considered",
+      "quote": "Alumni/ae relation Considered"
+    },
+    "factor_geography": {
+      "value": "considered",
+      "quote": "Geographical residence Considered"
+    },
+    "factor_state_residency": {
+      "value": "considered",
+      "quote": "State residency Considered"
+    },
+    "factor_religion": {
+      "value": "considered",
+      "quote": "Religious affiliation/commitment Considered"
+    },
+    "factor_volunteer": {
+      "value": "considered",
+      "quote": "Volunteer work Considered"
+    },
+    "factor_work": {
+      "value": "considered",
+      "quote": "Work experience Considered"
+    },
+    "factor_interest": {
+      "value": "not considered",
+      "quote": "Level of applicant’s interest Not Considered"
+    }
+  },
+  "concerns": null
+}

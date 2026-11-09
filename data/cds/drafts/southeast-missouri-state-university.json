@@ -1,0 +1,124 @@
+{
+  "slug": "southeast-missouri-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026 - Southeast Missouri State University",
+    "url": "https://semo.edu/institutional-research/_pdfs/accessible_version_cds-pdf-2025-2026-southeastmissouristateuniversity.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 10541,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 10541"
+    },
+    "admitted_total": {
+      "value": 8063,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 8063"
+    },
+    "enrolled_total": {
+      "value": 1307,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1307"
+    },
+    "sat_submit_pct": {
+      "value": 8,
+      "quote": "Submitting SAT Scores 8.00"
+    },
+    "act_submit_pct": {
+      "value": 56,
+      "quote": "Submitting ACT Scores 56.00"
+    },
+    "sat_p25": {
+      "value": 990,
+      "quote": "SAT Composite 990"
+    },
+    "sat_p50": {
+      "value": 1120,
+      "quote": "SAT Composite 1120"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "SAT Composite 1210"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "ACT Composite 18"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "ACT Composite 21"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "ACT Composite 24"
+    },
+    "rank_top10_pct": {
+      "value": 17,
+      "quote": "Percent in top tenth of high school graduating class 17.00"
+    },
+    "rank_top25_pct": {
+      "value": 42,
+      "quote": "Percent in top quarter of high school graduating class 42.00"
+    },
+    "rank_submit_pct": {
+      "value": 48,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 48.00"
+    },
+    "gpa_400_pct": {
+      "value": 21.05,
+      "quote": "Percent who had GPA of 4.0 21.05"
+    },
+    "gpa_375_pct": {
+      "value": 18.19,
+      "quote": "Percent who had GPA between 3.75 and 3.99 18.19"
+    },
+    "gpa_350_pct": {
+      "value": 17.5,
+      "quote": "Percent who had GPA between 3.50 and 3.74 17.50"
+    },
+    "gpa_325_pct": {
+      "value": 16.58,
+      "quote": "Percent who had GPA between 3.25 and 3.49 16.58"
+    },
+    "gpa_300_pct": {
+      "value": 10.1,
+      "quote": "Percent who had GPA between 3.00 and 3.24 10.10"
+    },
+    "gpa_250_pct": {
+      "value": 12.03,
+      "quote": "Percent who had GPA between 2.50 and 2.99 12.03"
+    },
+    "gpa_200_pct": {
+      "value": 3.24,
+      "quote": "Percent who had GPA between 2.0 and 2.49 3.24"
+    },
+    "gpa_100_pct": {
+      "value": 1.16,
+      "quote": "Percent who had GPA between 1.0 and 1.99 1.16"
+    },
+    "gpa_below1_pct": {
+      "value": 0.15,
+      "quote": "Percent who had GPA below 1.0 0.15"
+    },
+    "gpa_average": {
+      "value": 3.53,
+      "quote": "Average High School GPA 3.53"
+    },
+    "gpa_submit_pct": {
+      "value": 99.08,
+      "quote": "Percent Submitting GPA 99.08"
+    },
+    "transfer_applied": {
+      "value": 1432,
+      "quote": "Total 1432"
+    },
+    "transfer_admitted": {
+      "value": 960,
+      "quote": "960"
+    },
+    "transfer_enrolled": {
+      "value": 490,
+      "quote": "490"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "university-of-southern-mississippi",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025 - The University of Southern Mississippi",
+    "url": "https://www.usm.edu/institutional-research/cds_2024_2025_final.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "enrolled_total": {
+      "value": 1731,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1731"
+    },
+    "act_submit_pct": {
+      "value": 98.62,
+      "quote": "Submitting ACT Scores 98.62"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "ACT Composite 20"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "ACT Composite 24"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT Composite 29"
+    },
+    "gpa_400_pct": {
+      "value": 16.24,
+      "quote": "Percent who had GPA of 4.0 16.24"
+    },
+    "gpa_375_pct": {
+      "value": 22.48,
+      "quote": "Percent who had GPA between 3.75 and 3.99 22.48"
+    },
+    "gpa_350_pct": {
+      "value": 18.42,
+      "quote": "Percent who had GPA between 3.50 and 3.74 18.42"
+    },
+    "gpa_325_pct": {
+      "value": 13.31,
+      "quote": "Percent who had GPA between 3.25 and 3.49 13.31"
+    },
+    "gpa_300_pct": {
+      "value": 12.79,
+      "quote": "Percent who had GPA between 3.00 and 3.24 12.79"
+    },
+    "gpa_250_pct": {
+      "value": 10.33,
+      "quote": "Percent who had GPA between 2.50 and 2.99 10.33"
+    },
+    "gpa_200_pct": {
+      "value": 6.43,
+      "quote": "Percent who had GPA between 2.0 and 2.49 6.43"
+    },
+    "gpa_100_pct": {
+      "value": 3.46,
+      "quote": "Percent who had GPA between 1.0 and 1.99 3.46"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision: Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action: Do you have a nonbinding early action plan... No"
+    },
+    "transfer_applied": {
+      "value": 2240,
+      "quote": "Total 2240"
+    },
+    "transfer_admitted": {
+      "value": 2136,
+      "quote": "Total 2136"
+    },
+    "transfer_enrolled": {
+      "value": 1473,
+      "quote": "Total 1473"
+    }
+  },
+  "concerns": null
+}

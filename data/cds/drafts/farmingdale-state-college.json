@@ -1,0 +1,196 @@
+{
+  "slug": "farmingdale-state-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.farmingdale.edu/institutional-research/pdf/cds_2025-2026_fsc.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 11473,
+      "quote": "Total 11473"
+    },
+    "admitted_total": {
+      "value": 7074,
+      "quote": "Total 7074"
+    },
+    "enrolled_total": {
+      "value": 1704,
+      "quote": "Total 1704"
+    },
+    "sat_submit_pct": {
+      "value": 19,
+      "quote": "Submitting SAT Scores 19%"
+    },
+    "act_submit_pct": {
+      "value": 1,
+      "quote": "Submitting ACT Scores 1%"
+    },
+    "sat_p25": {
+      "value": 1020,
+      "quote": "SAT Composite 1020"
+    },
+    "sat_p50": {
+      "value": 1120,
+      "quote": "SAT Composite 1120"
+    },
+    "sat_p75": {
+      "value": 1220,
+      "quote": "SAT Composite 1220"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "ACT Composite 19 24 26"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "ACT Composite 19 24 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "ACT Composite 19 24 26"
+    },
+    "gpa_400_pct": {
+      "value": 12.66,
+      "quote": "Percent who had GPA of 4.0 12.66%"
+    },
+    "gpa_375_pct": {
+      "value": 8.76,
+      "quote": "Percent who had GPA between 3.75 and 3.99 8.76%"
+    },
+    "gpa_350_pct": {
+      "value": 16.69,
+      "quote": "Percent who had GPA between 3.50 and 3.74 16.69%"
+    },
+    "gpa_325_pct": {
+      "value": 14.62,
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.62%"
+    },
+    "gpa_300_pct": {
+      "value": 19.82,
+      "quote": "Percent who had GPA between 3.00 and 3.24 19.82%"
+    },
+    "gpa_250_pct": {
+      "value": 23.79,
+      "quote": "Percent who had GPA between 2.50 and 2.99 23.79%"
+    },
+    "gpa_200_pct": {
+      "value": 3.55,
+      "quote": "Percent who had GPA between 2.0 and 2.49 3.55%"
+    },
+    "gpa_100_pct": {
+      "value": 0.06,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.06%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.28,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.28"
+    },
+    "gpa_submit_pct": {
+      "value": 99,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "If yes, maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan... No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan... No"
+    },
+    "transfer_applied": {
+      "value": 2243,
+      "quote": "Total 2,243"
+    },
+    "transfer_admitted": {
+      "value": 1618,
+      "quote": "Total 1,618"
+    },
+    "transfer_enrolled": {
+      "value": 931,
+      "quote": "Total 931"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record Important"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA Very Important"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores Considered"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay Important"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s) Important"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview Considered"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities Considered"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability Considered"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities Considered"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation Considered"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation Considered"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence Not Considered"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency Not Considered"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment Not Considered"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work Considered"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience Considered"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest Important"
+    }
+  },
+  "concerns": null
+}

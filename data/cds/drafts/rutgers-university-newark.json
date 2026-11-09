@@ -1,0 +1,136 @@
+{
+  "slug": "rutgers-university-newark",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024 RUTGERS UNIVERSITY – NEWARK",
+    "url": "https://oirap.rutgers.edu/CDS/2023/Newark%20CDS_2023-2024_final_V1.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 17779,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 17,779"
+    },
+    "admitted_total": {
+      "value": 13997,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 13,997"
+    },
+    "enrolled_total": {
+      "value": 1408,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1,408"
+    },
+    "rank_top10_pct": {
+      "value": 16,
+      "quote": "Percent in top tenth of high school graduating class 16%"
+    },
+    "rank_top25_pct": {
+      "value": 36,
+      "quote": "Percent in top quarter of high school graduating class 36%"
+    },
+    "rank_submit_pct": {
+      "value": 18,
+      "quote": "Percent of total first-time, first-year (freshmen) students who submitted high school class rank: 18%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "Deferral is granted only for a full academic year, from one fall semester to the very next fall semester. A deferral is official only when you are notified that the Office of University Undergraduate Admissions has granted your request.",
+      "quote": "If yes, maximum period of postponement: Deferral is granted only for a full academic year, from one fall semester to the very next fall semester. A deferral is official only when you are notified that the Office of University Undergraduate Admissions has granted your request."
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+    },
+    "transfer_applied": {
+      "value": 3758,
+      "quote": "D2 Total 3,758"
+    },
+    "transfer_admitted": {
+      "value": 2535,
+      "quote": "D2 Total 2,535"
+    },
+    "transfer_enrolled": {
+      "value": 770,
+      "quote": "D2 Total 770"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

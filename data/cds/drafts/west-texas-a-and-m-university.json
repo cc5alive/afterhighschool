@@ -1,0 +1,212 @@
+{
+  "slug": "west-texas-a-and-m-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025 - West Texas A&M University",
+    "url": "https://www.wtamu.edu/_files/docs/academics/Institutional%20Research/CDS.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 7270,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 7270"
+    },
+    "admitted_total": {
+      "value": 4857,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 4857"
+    },
+    "enrolled_total": {
+      "value": 1197,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 1197"
+    },
+    "sat_submit_pct": {
+      "value": 46,
+      "quote": "Submitting SAT Scores 46%"
+    },
+    "act_submit_pct": {
+      "value": 31,
+      "quote": "Submitting ACT Scores 31%"
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "SAT Composite 950"
+    },
+    "sat_p50": {
+      "value": 1050,
+      "quote": "SAT Composite 1050"
+    },
+    "sat_p75": {
+      "value": 1150,
+      "quote": "SAT Composite 1150"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "ACT Composite 18"
+    },
+    "act_p50": {
+      "value": 20,
+      "quote": "ACT Composite 20"
+    },
+    "act_p75": {
+      "value": 23,
+      "quote": "ACT Composite 23"
+    },
+    "rank_top10_pct": {
+      "value": 16,
+      "quote": "Percent in top tenth of high school graduating class 16%"
+    },
+    "rank_top25_pct": {
+      "value": 42,
+      "quote": "Percent in top quarter of high school graduating class 42%"
+    },
+    "rank_submit_pct": {
+      "value": 88,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 88%"
+    },
+    "gpa_400_pct": {
+      "value": 15,
+      "quote": "Percent who had GPA of 4.0 15%"
+    },
+    "gpa_375_pct": {
+      "value": 25,
+      "quote": "Percent who had GPA between 3.75 and 3.99 25%"
+    },
+    "gpa_350_pct": {
+      "value": 22,
+      "quote": "Percent who had GPA between 3.50 and 3.74 22%"
+    },
+    "gpa_325_pct": {
+      "value": 17,
+      "quote": "Percent who had GPA between 3.25 and 3.49 17%"
+    },
+    "gpa_300_pct": {
+      "value": 12,
+      "quote": "Percent who had GPA between 3.00 and 3.24 12%"
+    },
+    "gpa_250_pct": {
+      "value": 7,
+      "quote": "Percent who had GPA between 2.50 and 2.99 7%"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 2.0 and 2.49 1%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0%"
+    },
+    "gpa_average": {
+      "value": 3.61,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who 3.61"
+    },
+    "gpa_submit_pct": {
+      "value": 98.29,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.29%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1-Sep",
+      "quote": "If yes, maximum period of postponement: 1-Sep"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    },
+    "transfer_applied": {
+      "value": 1770,
+      "quote": "Total 1,770"
+    },
+    "transfer_admitted": {
+      "value": 1273,
+      "quote": "Total 1,273"
+    },
+    "transfer_enrolled": {
+      "value": 748,
+      "quote": "Total 748"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

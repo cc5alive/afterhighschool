@@ -1,0 +1,132 @@
+{
+  "slug": "california-baptist-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS-PDF-2025-2026%20-%20All.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 8438,
+      "quote": "Total first-time, first-year (degree-seeking) who applied: 8438"
+    },
+    "admitted_total": {
+      "value": 6868,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted: 6868"
+    },
+    "enrolled_total": {
+      "value": 1591,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled: 1591"
+    },
+    "sat_submit_pct": {
+      "value": 9,
+      "quote": "Submitting SAT Scores: 9%"
+    },
+    "act_submit_pct": {
+      "value": 1,
+      "quote": "Submitting ACT Scores: 1%"
+    },
+    "sat_p25": {
+      "value": 860,
+      "quote": "SAT Composite 25th Percentile Score: 860"
+    },
+    "sat_p50": {
+      "value": 980,
+      "quote": "SAT Composite 50th Percentile Score: 980"
+    },
+    "sat_p75": {
+      "value": 1150,
+      "quote": "SAT Composite 75th Percentile Score: 1150"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "ACT Composite 25th Percentile Score: 19"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "ACT Composite 50th Percentile Score: 24"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT Composite 75th Percentile Score: 29"
+    },
+    "rank_top10_pct": {
+      "value": 17,
+      "quote": "Percent in top tenth of high school graduating class: 17%"
+    },
+    "rank_top25_pct": {
+      "value": 44,
+      "quote": "Percent in top quarter of high school graduating class: 44%"
+    },
+    "rank_submit_pct": {
+      "value": 60,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 60%"
+    },
+    "gpa_400_pct": {
+      "value": 33.16,
+      "quote": "Percent who had GPA of 4.0: 33.16%"
+    },
+    "gpa_375_pct": {
+      "value": 8.08,
+      "quote": "Percent who had GPA between 3.75 and 3.99: 8.08%"
+    },
+    "gpa_350_pct": {
+      "value": 14.43,
+      "quote": "Percent who had GPA between 3.50 and 3.74: 14.43%"
+    },
+    "gpa_325_pct": {
+      "value": 11.17,
+      "quote": "Percent who had GPA between 3.25 and 3.49: 11.17%"
+    },
+    "gpa_300_pct": {
+      "value": 13.06,
+      "quote": "Percent who had GPA between 3.00 and 3.24: 13.06%"
+    },
+    "gpa_250_pct": {
+      "value": 7.04,
+      "quote": "Percent who had GPA between 2.50 and 2.99: 7.04%"
+    },
+    "gpa_200_pct": {
+      "value": 7.56,
+      "quote": "Percent who had GPA between 2.0 and 2.49: 7.56%"
+    },
+    "gpa_100_pct": {
+      "value": 4.3,
+      "quote": "Percent who had GPA between 1.0 and 1.99: 4.30%"
+    },
+    "gpa_below1_pct": {
+      "value": 1.2,
+      "quote": "Percent who had GPA below 1.0: 1.20%"
+    },
+    "gpa_average": {
+      "value": 3.36,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year: 3.36"
+    },
+    "gpa_submit_pct": {
+      "value": 35.68,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 35.68%"
+    },
+    "deferral_allowed": {
+      "value": "Yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "maximum period of postponement: 1 year"
+    },
+    "transfer_applied": {
+      "value": 2292,
+      "quote": "Transfer Admission Applicants Total: 2,292"
+    },
+    "transfer_admitted": {
+      "value": 1841,
+      "quote": "Transfer Admission Admitted Total: 1,841"
+    },
+    "transfer_enrolled": {
+      "value": 1105,
+      "quote": "Transfer Admission Enrolled Total: 1,105"
+    }
+  },
+  "concerns": null
+}

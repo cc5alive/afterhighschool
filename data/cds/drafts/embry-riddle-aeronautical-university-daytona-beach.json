@@ -1,0 +1,160 @@
+{
+  "slug": "embry-riddle-aeronautical-university-daytona-beach",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Daytona Beach Campus 2023-2024 Common Data Set",
+    "url": "https://erau.edu/institutional-research/common-data-set/2023-2024-daytona-beach"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "sat_submit_pct": {
+      "value": 56,
+      "quote": "Submitting SAT Scores 56.0%"
+    },
+    "act_submit_pct": {
+      "value": 26.6,
+      "quote": "Submitting ACT Scores 26.6%"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "SAT Composite 25th Percentile 1160"
+    },
+    "sat_p50": {
+      "value": 1250,
+      "quote": "SAT Composite 50th Percentile 1250"
+    },
+    "sat_p75": {
+      "value": 1330,
+      "quote": "SAT Composite 75th Percentile 1330"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "ACT Composite 25th Percentile 24"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "ACT Composite 50th Percentile 27"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "ACT Composite 75th Percentile 30"
+    },
+    "rank_top10_pct": {
+      "value": 26.5,
+      "quote": "Percent in top tenth of high school graduating class 26.5%"
+    },
+    "rank_top25_pct": {
+      "value": 55.5,
+      "quote": "Percent in top quarter of high school graduating class 55.50%"
+    },
+    "rank_submit_pct": {
+      "value": 47.5,
+      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school class rank 47.50%"
+    },
+    "gpa_submit_pct": {
+      "value": 98.5,
+      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school GPA: 98.50%"
+    },
+    "deferral_allowed": {
+      "value": "Yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes."
+    },
+    "deferral_max": {
+      "value": "One year",
+      "quote": "Maximum period of postponement: One year."
+    },
+    "ed_offered": {
+      "value": "No",
+      "quote": "Does your institution offer an early decision plan... No."
+    },
+    "ea_offered": {
+      "value": "No",
+      "quote": "Do you have a nonbinding early action plan... No."
+    },
+    "transfer_applied": {
+      "value": 1239,
+      "quote": "Total Applicants 1,239"
+    },
+    "transfer_admitted": {
+      "value": 598,
+      "quote": "Total Admitted Applicants 598"
+    },
+    "transfer_enrolled": {
+      "value": 235,
+      "quote": "Total Enrolled Applicants 235"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record: Important"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank: Important"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA: Very Important"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores: Considered"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application essay: Considered"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s): Considered"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview: Not Considered"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities: Important"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability: Important"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities: Important"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation: Not Considered"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation: Considered"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence: Not Considered"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency: Not Considered"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment: Not Considered"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work: Not Considered"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience: Considered"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest: Considered"
+    }
+  },
+  "concerns": null
+}

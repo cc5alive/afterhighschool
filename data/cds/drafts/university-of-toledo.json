@@ -1,0 +1,100 @@
+{
+  "slug": "university-of-toledo",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.utoledo.edu/offices/institutional-research/report-library/common-data-set/docs/cds-2024-2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 11067,
+      "quote": "Total 11067"
+    },
+    "admitted_total": {
+      "value": 10184,
+      "quote": "Total 10184"
+    },
+    "enrolled_total": {
+      "value": 1917,
+      "quote": "Total 1917"
+    },
+    "sat_submit_pct": {
+      "value": 19,
+      "quote": "Submitting SAT Scores 19%"
+    },
+    "act_submit_pct": {
+      "value": 38,
+      "quote": "Submitting ACT Scores 38%"
+    },
+    "sat_p25": {
+      "value": 1040,
+      "quote": "SAT Composite 1040 1150 1260"
+    },
+    "sat_p50": {
+      "value": 1150,
+      "quote": "SAT Composite 1040 1150 1260"
+    },
+    "sat_p75": {
+      "value": 1260,
+      "quote": "SAT Composite 1040 1150 1260"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "ACT Composite 20 24 27"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "ACT Composite 20 24 27"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "ACT Composite 20 24 27"
+    },
+    "rank_top10_pct": {
+      "value": 22.29,
+      "quote": "Percent in top tenth of high school graduating class 22.29%"
+    },
+    "rank_top25_pct": {
+      "value": 46.77,
+      "quote": "Percent in top quarter of high school graduating class 46.77%"
+    },
+    "rank_submit_pct": {
+      "value": 52.43,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 52.43%"
+    },
+    "gpa_submit_pct": {
+      "value": 99.48,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.48%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? X"
+    },
+    "deferral_max": {
+      "value": "12 months",
+      "quote": "If yes, maximum period of postponement: 12 months"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan... X"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan... X"
+    },
+    "transfer_applied": {
+      "value": 1245,
+      "quote": "Total 1,245"
+    },
+    "transfer_admitted": {
+      "value": 1135,
+      "quote": "Total 1,135"
+    },
+    "transfer_enrolled": {
+      "value": 601,
+      "quote": "Total 601"
+    }
+  },
+  "concerns": null
+}

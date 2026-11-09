@@ -1,0 +1,168 @@
+{
+  "slug": "cuny-john-jay-college-of-criminal-justice",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024 - John Jay College of Criminal Justice",
+    "url": "https://www.jjay.cuny.edu/sites/default/files/2024-02/CDS2023_2024.WORK-FILE.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 18475,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 18475"
+    },
+    "admitted_total": {
+      "value": 10214,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 10214"
+    },
+    "enrolled_total": {
+      "value": 2033,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 2033"
+    },
+    "gpa_400_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA of 4.0 0.00"
+    },
+    "gpa_375_pct": {
+      "value": 14,
+      "quote": "Percent who had GPA between 3.75 and 3.99 14.00"
+    },
+    "gpa_350_pct": {
+      "value": 13,
+      "quote": "Percent who had GPA between 3.50 and 3.74 13.00"
+    },
+    "gpa_325_pct": {
+      "value": 16,
+      "quote": "Percent who had GPA between 3.25 and 3.49 16.00"
+    },
+    "gpa_300_pct": {
+      "value": 20,
+      "quote": "Percent who had GPA between 3.00 and 3.24 20.00"
+    },
+    "gpa_250_pct": {
+      "value": 32,
+      "quote": "Percent who had GPA between 2.50 and 2.99 32.00"
+    },
+    "gpa_200_pct": {
+      "value": 6,
+      "quote": "Percent who had GPA between 2.0 and 2.49 6.00"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.17,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.17"
+    },
+    "gpa_submit_pct": {
+      "value": 99,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.00"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? ✔"
+    },
+    "deferral_max": {
+      "value": "One Semester",
+      "quote": "If yes, maximum period of postponement: One Semester"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? ✔"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? ✔"
+    },
+    "transfer_applied": {
+      "value": 4521,
+      "quote": "Total 4521"
+    },
+    "transfer_admitted": {
+      "value": 2712,
+      "quote": "Total 2712"
+    },
+    "transfer_enrolled": {
+      "value": 1239,
+      "quote": "Total 1239"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
