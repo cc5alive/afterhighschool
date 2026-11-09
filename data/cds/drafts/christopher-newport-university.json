@@ -1,0 +1,120 @@
+{
+  "slug": "christopher-newport-university",
+  "cdsYear": null,
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://cnu.edu/institutional-research/_documents/commondataset/cds_2024-2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 7341,
+      "quote": "Total first-time, first-year who applied 7341"
+    },
+    "admitted_total": {
+      "value": 6316,
+      "quote": "Total first-time, first-year who were admitted 6316"
+    },
+    "enrolled_total": {
+      "value": 1140,
+      "quote": "Total first-time, first-year who enrolled 1140"
+    },
+    "waitlist_offered": {
+      "value": 378,
+      "quote": "Number of qualified applicants offered a place on waiting list: 378"
+    },
+    "waitlist_accepted": {
+      "value": 86,
+      "quote": "Number accepting a place on the waiting list: 86"
+    },
+    "waitlist_admitted": {
+      "value": 36,
+      "quote": "Number of wait-listed students admitted: 36"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 467,
+      "quote": "Total 467"
+    },
+    "transfer_admitted": {
+      "value": 329,
+      "quote": "Total 329"
+    },
+    "transfer_enrolled": {
+      "value": 187,
+      "quote": "Total 187"
+    }
+  },
+  "concerns": "CNU omitted sections C9, C10, C11, C12, and C13-C22 in their published 2024-2025 Common Data Set document."
+}

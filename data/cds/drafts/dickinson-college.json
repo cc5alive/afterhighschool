@@ -1,0 +1,188 @@
+{
+  "slug": "dickinson-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.dickinson.edu/download/downloads/id/17199/cds_2025-2026.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 5719,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 5719"
+    },
+    "admitted_total": {
+      "value": 2373,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 2373"
+    },
+    "enrolled_total": {
+      "value": 485,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 485"
+    },
+    "waitlist_offered": {
+      "value": 335,
+      "quote": "Number of qualified applicants offered a place on waiting list: 335"
+    },
+    "waitlist_accepted": {
+      "value": 63,
+      "quote": "Number accepting a place on the waiting list: 63"
+    },
+    "waitlist_admitted": {
+      "value": 8,
+      "quote": "Number of wait-listed students admitted: 8"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Important",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Very Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Very Important",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 13,
+      "quote": "Submitting SAT Scores 13.00"
+    },
+    "act_submit_pct": {
+      "value": 4,
+      "quote": "Submitting ACT Scores 4.00"
+    },
+    "sat_p25": {
+      "value": 1340,
+      "quote": "SAT Composite 1340"
+    },
+    "sat_p50": {
+      "value": 1380,
+      "quote": "SAT Composite 1380"
+    },
+    "sat_p75": {
+      "value": 1440,
+      "quote": "SAT Composite 1440"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "ACT Composite 29"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "ACT Composite 31"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "ACT Composite 32"
+    },
+    "rank_top10_pct": {
+      "value": 49,
+      "quote": "Percent in top tenth of high school graduating class 49.00"
+    },
+    "rank_top25_pct": {
+      "value": 81,
+      "quote": "Percent in top quarter of high school graduating class 81.00"
+    },
+    "rank_submit_pct": {
+      "value": 28,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 28.00"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "2 years",
+      "quote": "If yes, maximum period of postponement: 2 years"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Early decision: Does your institution offer an early decision plan ... Yes"
+    },
+    "ed_applied": {
+      "value": 454,
+      "quote": "Number of early decision applications received by your institution: 454"
+    },
+    "ed_admitted": {
+      "value": 258,
+      "quote": "Number of applicants admitted under early decision plan: 258"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Early action: Do you have a nonbinding early action plan ... Yes"
+    },
+    "transfer_applied": {
+      "value": 148,
+      "quote": "Total 148"
+    },
+    "transfer_admitted": {
+      "value": 37,
+      "quote": "Total 37"
+    },
+    "transfer_enrolled": {
+      "value": 13,
+      "quote": "Total 13"
+    }
+  },
+  "concerns": null
+}
