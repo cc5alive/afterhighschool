@@ -9,96 +9,171 @@
   "values": {
     "applied_total": {
       "value": 21428,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 21428"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 21428",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 14119,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 14119"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 14119",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 2936,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 2936"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 2936",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 7.23,
-      "quote": "Submitting SAT Scores 7.23"
+      "quote": "Submitting SAT Scores 7.23",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_submit_pct": {
       "value": 23.07,
-      "quote": "Submitting ACT Scores 23.07"
+      "quote": "Submitting ACT Scores 23.07",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1090,
-      "quote": "SAT Composite 1090"
+      "quote": "SAT Composite 1090",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1180,
-      "quote": "SAT Composite 1180"
+      "quote": "SAT Composite 1180",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1250,
-      "quote": "SAT Composite 1250"
+      "quote": "SAT Composite 1250",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 19,
-      "quote": "ACT Composite 19"
+      "quote": "ACT Composite 19",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 23,
-      "quote": "ACT Composite 23"
+      "quote": "ACT Composite 23",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 26,
-      "quote": "ACT Composite 26"
+      "quote": "ACT Composite 26",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 15.59,
-      "quote": "Percent in top tenth of high school graduating class 15.59"
+      "quote": "Percent in top tenth of high school graduating class 15.59",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 41.17,
-      "quote": "Percent in top quarter of high school graduating class 41.17"
+      "quote": "Percent in top quarter of high school graduating class 41.17",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 82.51,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 82.51"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 82.51",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.45,
-      "quote": "Average High School GPA 3.45"
+      "quote": "Average High School GPA 3.45",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent Submitting GPA 100.00"
+      "quote": "Percent Submitting GPA 100.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+      "quote": "Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "deferral_max": {
       "value": "1 semester",
-      "quote": "maximum period of postponement: 1 semester"
+      "quote": "maximum period of postponement: 1 semester",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early decision: Does your institution offer an early decision plan... No"
+      "quote": "Early decision: Does your institution offer an early decision plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Early action: Do you have a nonbinding early action plan... No"
+      "quote": "Early action: Do you have a nonbinding early action plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "transfer_applied": {
       "value": 2509,
-      "quote": "Total 2509"
+      "quote": "Total 2509",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_admitted": {
       "value": 1793,
-      "quote": "Total 1793"
+      "quote": "Total 1793",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 989,
-      "quote": "Total 989"
+      "quote": "Total 989",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.wcu.edu/_files/CDS-2025-2026-WCU.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 19,
+  "total": 23
 }

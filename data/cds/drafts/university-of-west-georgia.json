@@ -9,108 +9,192 @@
   "values": {
     "applied_total": {
       "value": 5067,
-      "quote": "Total first-time, first-year (freshman) who applied 5,067"
+      "quote": "Total first-time, first-year (freshman) who applied 5,067",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 4051,
-      "quote": "Total first-time, first-year (freshman) who were admitted 4,051"
+      "quote": "Total first-time, first-year (freshman) who were admitted 4,051",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 1612,
-      "quote": "Total first-time, first-year (freshman) who were enrolled 1,612"
+      "quote": "Total first-time, first-year (freshman) who were enrolled 1,612",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 39.95,
-      "quote": "Percent submitting SAT scores 39.95 %"
+      "quote": "Percent submitting SAT scores 39.95 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 17.06,
-      "quote": "Percent submitting ACT scores 17.06 %"
+      "quote": "Percent submitting ACT scores 17.06 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 940,
-      "quote": "SAT Composite 940"
+      "quote": "SAT Composite 940",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1010,
-      "quote": "SAT Composite 1010"
+      "quote": "SAT Composite 1010",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1130,
-      "quote": "SAT Composite 1130"
+      "quote": "SAT Composite 1130",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 17,
-      "quote": "ACT Composite 17"
+      "quote": "ACT Composite 17",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 19,
-      "quote": "ACT Composite 19"
+      "quote": "ACT Composite 19",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 22,
-      "quote": "ACT Composite 22"
+      "quote": "ACT Composite 22",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 8.69,
-      "quote": "4.0 134 8.69 %"
+      "quote": "4.0 134 8.69 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 21.08,
-      "quote": "3.75 – 3.99 325 21.08 %"
+      "quote": "3.75 – 3.99 325 21.08 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 20.43,
-      "quote": "3.50 – 3.74 315 20.43 %"
+      "quote": "3.50 – 3.74 315 20.43 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 20.62,
-      "quote": "3.25 – 3.49 318 20.62 %"
+      "quote": "3.25 – 3.49 318 20.62 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 14.4,
-      "quote": "3.00 – 3.24 222 14.40 %"
+      "quote": "3.00 – 3.24 222 14.40 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 11.74,
-      "quote": "2.50 – 2.99 181 11.74 %"
+      "quote": "2.50 – 2.99 181 11.74 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 2.92,
-      "quote": "2.00 – 2.49 45 2.92 %"
+      "quote": "2.00 – 2.49 45 2.92 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0.13,
-      "quote": "1.00 – 1.99 2 0.13 %"
+      "quote": "1.00 – 1.99 2 0.13 %",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.44,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year (freshman) students who submitted GPA: 3.44_"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year (freshman) students who submitted GPA: 3.44_",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 95.7,
-      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school GPA: _95.7 % (1,542/1,612)"
+      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school GPA: _95.7 % (1,542/1,612)",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Early decision: Does your institution offer an early decision plan... No"
+      "quote": "Early decision: Does your institution offer an early decision plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Early action: Do you have a nonbinding early action plan... No"
+      "quote": "Early action: Do you have a nonbinding early action plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "transfer_applied": {
       "value": 1177,
-      "quote": "Total 1,177"
+      "quote": "Total 1,177",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_admitted": {
       "value": 1081,
-      "quote": "Total 1,081"
+      "quote": "Total 1,081",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 609,
-      "quote": "Total 609"
+      "quote": "Total 609",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.westga.edu/assets/iea/docs/cds-reports/cds-f2025.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 22,
+  "total": 26
 }

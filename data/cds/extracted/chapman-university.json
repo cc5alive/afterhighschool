@@ -1,0 +1,154 @@
+{
+  "slug": "chapman-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.chapman.edu/campus-services/institutional-research/_files/cds/cds_2025-2026.pdf"
+  },
+  "sourceUrl": "https://www.chapman.edu/campus-services/institutional-research/_files/cds/cds_2025-2026.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 246,
+      "quote": "number of wait-listed students admitted: 246"
+    },
+    "rank_top10_pct": {
+      "value": 30.2,
+      "quote": "percent in top tenth of high school graduating class 30.20"
+    },
+    "rank_top25_pct": {
+      "value": 64.4,
+      "quote": "percent in top quarter of high school graduating class 64.40"
+    },
+    "ed_applied": {
+      "value": 282,
+      "quote": "number of early decision applications received by your institution: 282"
+    },
+    "ed_admitted": {
+      "value": 145,
+      "quote": "number of applicants admitted under early decision plan: 145"
+    },
+    "applied_total": {
+      "value": 14760,
+      "quote": "total first-time, first-year men who applied 5212 / total first-time, first-year women who applied 9548",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 10637,
+      "quote": "total first-time, first-year men who were admitted 3649 / total first-time, first-year women who were admitted 6988",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1255,
+      "quote": "sat composite 1255 1350 1420"
+    },
+    "sat_p50": {
+      "value": 1350,
+      "quote": "sat composite 1255 1350 1420"
+    },
+    "sat_p75": {
+      "value": 1420,
+      "quote": "sat composite 1255 1350 1420"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 30 32"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 28 30 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 28 30 32"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ no 1\u0012$"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

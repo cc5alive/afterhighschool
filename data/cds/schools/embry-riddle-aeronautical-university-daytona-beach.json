@@ -1,0 +1,40 @@
+{
+  "slug": "embry-riddle-aeronautical-university-daytona-beach",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Daytona Beach Campus 2023-2024 Common Data Set",
+    "url": "https://erau.edu/institutional-research/common-data-set/2023-2024-daytona-beach"
+  },
+  "builtAt": "2026-11-09",
+  "values": {
+    "sat_submit_pct": 56,
+    "act_submit_pct": 26.6,
+    "sat_p25": 1160,
+    "sat_p50": 1250,
+    "sat_p75": 1330,
+    "act_p25": 24,
+    "act_p50": 27,
+    "act_p75": 30,
+    "rank_top10_pct": 26.5,
+    "rank_top25_pct": 55.5,
+    "rank_submit_pct": 47.5,
+    "gpa_submit_pct": 98.5,
+    "deferral_allowed": "Yes"
+  },
+  "basis": {
+    "sat_submit_pct": "gemini",
+    "act_submit_pct": "gemini",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "both",
+    "rank_top25_pct": "both",
+    "rank_submit_pct": "gemini",
+    "gpa_submit_pct": "gemini",
+    "deferral_allowed": "gemini",
+    "deferral_max": "gemini"
+  }
+}

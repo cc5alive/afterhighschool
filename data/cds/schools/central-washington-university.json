@@ -1,0 +1,45 @@
+{
+  "slug": "central-washington-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "CWU 2024-25 Common Data Set (CDS)",
+    "url": "https://www.cwu.edu/about/offices/institutional-effectiveness/_documents/cwu_cds_2024-25.pdf"
+  },
+  "builtAt": "2026-11-09",
+  "values": {
+    "gpa_400_pct": 3,
+    "gpa_375_pct": 17,
+    "gpa_350_pct": 15,
+    "gpa_325_pct": 14,
+    "gpa_300_pct": 14,
+    "gpa_250_pct": 27,
+    "gpa_200_pct": 9,
+    "gpa_100_pct": 0,
+    "gpa_below1_pct": 1,
+    "gpa_average": 3.2,
+    "gpa_submit_pct": 98.83,
+    "deferral_allowed": "yes",
+    "deferral_max": "One year",
+    "transfer_applied": 1666,
+    "transfer_admitted": 1407,
+    "transfer_enrolled": 782
+  },
+  "basis": {
+    "gpa_400_pct": "both",
+    "gpa_375_pct": "both",
+    "gpa_350_pct": "both",
+    "gpa_325_pct": "both",
+    "gpa_300_pct": "both",
+    "gpa_250_pct": "both",
+    "gpa_200_pct": "both",
+    "gpa_100_pct": "both",
+    "gpa_below1_pct": "both",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "both",
+    "deferral_allowed": "both",
+    "deferral_max": "both",
+    "transfer_applied": "both",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
+  }
+}

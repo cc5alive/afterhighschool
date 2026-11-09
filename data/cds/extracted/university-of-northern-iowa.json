@@ -1,0 +1,112 @@
+{
+  "slug": "university-of-northern-iowa",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "2023-2024 Common Data Set Template The Common Data Set",
+    "url": "https://ie.uni.edu/sites/default/files/inline-uploads/cds-2023-24-final_updated2.pdf"
+  },
+  "sourceUrl": "https://ie.uni.edu/sites/default/files/inline-uploads/cds-2023-24-final_updated2.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 24,
+      "quote": "percent in top tenth of high school graduating class 24%"
+    },
+    "rank_top25_pct": {
+      "value": 52,
+      "quote": "percent in top quarter of high school graduating class 52 %"
+    },
+    "gpa_400_pct": {
+      "value": 15.9,
+      "quote": "percent who had gpa of 4.0 21.1% 11.5% 15.9%"
+    },
+    "gpa_375_pct": {
+      "value": 31.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 37.5% 25.6% 31.1%"
+    },
+    "gpa_350_pct": {
+      "value": 19.3,
+      "quote": "percent who had gpa between 3.50 and 3.74 19.8% 18.8% 19.3%"
+    },
+    "gpa_325_pct": {
+      "value": 12.5,
+      "quote": "percent who had gpa between 3.25 and 3.49 9.5% 15.1% 12.5%"
+    },
+    "gpa_300_pct": {
+      "value": 11,
+      "quote": "percent who had gpa between 3.00 and 3.24 6.6% 14.8% 11.0%"
+    },
+    "gpa_250_pct": {
+      "value": 8.4,
+      "quote": "percent who had gpa between 2.50 and 2.99 4.7% 11.5% 8.4%"
+    },
+    "gpa_200_pct": {
+      "value": 0.3,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0% 0.6% 0.3%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.0% 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 1.5,
+      "quote": "percent who had gpa below 1.0 0.7% 2.1% 1.5%"
+    },
+    "gpa_average": {
+      "value": 3.6,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.6"
+    },
+    "gpa_submit_pct": {
+      "value": 97.6,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 97.6%"
+    },
+    "sat_p25": {
+      "value": 880,
+      "quote": "sat composite (400 - 1600) 880 1130 1200"
+    },
+    "sat_p50": {
+      "value": 1130,
+      "quote": "sat composite (400 - 1600) 880 1130 1200"
+    },
+    "sat_p75": {
+      "value": 1200,
+      "quote": "sat composite (400 - 1600) 880 1130 1200"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite (0 - 36) 20 22 26"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite (0 - 36) 20 22 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite (0 - 36) 20 22 26"
+    },
+    "transfer_applied": {
+      "value": 1127,
+      "quote": "D2 total 1127 1101 739"
+    },
+    "transfer_admitted": {
+      "value": 1101,
+      "quote": "D2 total 1127 1101 739"
+    },
+    "transfer_enrolled": {
+      "value": 739,
+      "quote": "D2 total 1127 1101 739"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "C18 maximum period of postponement: 1 Year"
+    }
+  },
+  "concerns": null
+}

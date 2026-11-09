@@ -1,0 +1,179 @@
+{
+  "slug": "pitzer-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026 6/8/2026 - Pitzer College",
+    "url": "https://www.pitzer.edu/documents/common-data-set-2025-2026"
+  },
+  "sourceUrl": "https://www.pitzer.edu/documents/common-data-set-2025-2026",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 57,
+      "quote": "number of wait-listed students admitted: 57"
+    },
+    "rank_top10_pct": {
+      "value": 33,
+      "quote": "percent in top tenth of high school graduating class 33%"
+    },
+    "rank_top25_pct": {
+      "value": 100,
+      "quote": "percent in top quarter of high school graduating class 100%"
+    },
+    "gpa_400_pct": {
+      "value": 51.7,
+      "quote": "percent who had gpa of 4.0 51.7% 51.7%"
+    },
+    "gpa_375_pct": {
+      "value": 21.9,
+      "quote": "percent who had gpa between 3.75 and 3.99 21.9% 21.9%"
+    },
+    "gpa_350_pct": {
+      "value": 20.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 20.1% 20.1%"
+    },
+    "gpa_325_pct": {
+      "value": 3.4,
+      "quote": "percent who had gpa between 3.25 and 3.49 3.4% 3.4%"
+    },
+    "gpa_300_pct": {
+      "value": 2.2,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.2% 2.2%"
+    },
+    "gpa_250_pct": {
+      "value": 0.4,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.4% 0.4%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0% 0.0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.95,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.95"
+    },
+    "gpa_submit_pct": {
+      "value": 97.45,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 97.45%"
+    },
+    "ed_applied": {
+      "value": 385,
+      "quote": "number of early decision applications received by your institution 385"
+    },
+    "ed_admitted": {
+      "value": 167,
+      "quote": "number of applicants admitted under early decision plan 167"
+    },
+    "applied_total": {
+      "value": 3683,
+      "quote": "total first-time, first-year males who applied 1594 / total first-time, first-year females who applied 2089 / total first-time, first-year students of unknown sex who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 989,
+      "quote": "total first-time, first-year males who were admitted 370 / total first-time, first-year females who were admitted 619 / total first-time, first-year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 273,
+      "quote": "total first-time, first-year males who enrolled 118 / total first-time, first-year females who enrolled 155 / total first-time, first-year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Very Important",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "C18 maximum period of postponement: 1 Year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

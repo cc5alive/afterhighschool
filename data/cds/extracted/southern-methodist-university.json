@@ -1,0 +1,112 @@
+{
+  "slug": "southern-methodist-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.smu.edu/-/media/site/ir/commondatasets/2025/cds-2025-26-part-c-first-time-freshman-final.pdf"
+  },
+  "sourceUrl": "https://www.smu.edu/-/media/site/ir/commondatasets/2025/cds-2025-26-part-c-first-time-freshman-final.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 24053,
+      "quote": "total first-time, first-year (degree-seeking) who applied 12254 9805 1767 227 24053"
+    },
+    "admitted_total": {
+      "value": 11459,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 5071 5859 437 92 11459"
+    },
+    "enrolled_total": {
+      "value": 1715,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 704 951 44 16 1715"
+    },
+    "waitlist_admitted": {
+      "value": 243,
+      "quote": "number of wait-listed students admitted: 243"
+    },
+    "rank_top10_pct": {
+      "value": 48.7,
+      "quote": "percent in top tenth of high school graduating class 48.70"
+    },
+    "rank_top25_pct": {
+      "value": 78.8,
+      "quote": "percent in top quarter of high school graduating class 78.80"
+    },
+    "gpa_400_pct": {
+      "value": 24.3,
+      "quote": "percent who had gpa of 4.0 39.50 20.90 24.30"
+    },
+    "gpa_375_pct": {
+      "value": 30.2,
+      "quote": "percent who had gpa between 3.75 and 3.99 30.10 30.20 30.20"
+    },
+    "gpa_350_pct": {
+      "value": 22.2,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.90 23.60 22.20"
+    },
+    "gpa_325_pct": {
+      "value": 12,
+      "quote": "percent who had gpa between 3.25 and 3.49 6.80 13.20 12.00"
+    },
+    "gpa_300_pct": {
+      "value": 7.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 6.10 7.30 7.10"
+    },
+    "gpa_250_pct": {
+      "value": 4,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.60 4.60 4.00"
+    },
+    "gpa_200_pct": {
+      "value": 0.2,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.20 0.20"
+    },
+    "gpa_average": {
+      "value": 3.69,
+      "quote": "average high school gpa 3.69"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.00"
+    },
+    "ed_applied": {
+      "value": 528,
+      "quote": "number of early decision applications received by your institution: 528"
+    },
+    "ed_admitted": {
+      "value": 424,
+      "quote": "number of applicants admitted under early decision plan: 424"
+    },
+    "sat_p25": {
+      "value": 1360,
+      "quote": "sat composite 1360 1410 1470"
+    },
+    "sat_p50": {
+      "value": 1410,
+      "quote": "sat composite 1360 1410 1470"
+    },
+    "sat_p75": {
+      "value": 1470,
+      "quote": "sat composite 1360 1410 1470"
+    },
+    "act_p25": {
+      "value": 31,
+      "quote": "act composite 31 32 34"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 31 32 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 31 32 34"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

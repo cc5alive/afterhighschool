@@ -1,0 +1,108 @@
+{
+  "slug": "tennessee-technological-university",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024",
+    "url": "https://www.tntech.edu/iare/pdf/institutional_research/CDS_2023_2024.pdf"
+  },
+  "sourceUrl": "https://www.tntech.edu/iare/pdf/institutional_research/CDS_2023_2024.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 30.4,
+      "quote": "percent in top tenth of high school graduating class 30.4%"
+    },
+    "rank_top25_pct": {
+      "value": 60.2,
+      "quote": "percent in top quarter of high school graduating class 60.2%"
+    },
+    "gpa_400_pct": {
+      "value": 35.8,
+      "quote": "percent who had gpa of 4.0 35.8% 35.8%"
+    },
+    "gpa_375_pct": {
+      "value": 22.9,
+      "quote": "percent who had gpa between 3.75 and 3.99 22.9% 22.9%"
+    },
+    "gpa_350_pct": {
+      "value": 15.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.1% 15.1%"
+    },
+    "gpa_325_pct": {
+      "value": 10.5,
+      "quote": "percent who had gpa between 3.25 and 3.49 10.5% 10.5%"
+    },
+    "gpa_300_pct": {
+      "value": 7.4,
+      "quote": "percent who had gpa between 3.00 and 3.24 7.4% 7.4%"
+    },
+    "gpa_250_pct": {
+      "value": 5.8,
+      "quote": "percent who had gpa between 2.50 and 2.99 5.8% 5.8%"
+    },
+    "gpa_200_pct": {
+      "value": 1.4,
+      "quote": "percent who had gpa between 2.0 and 2.49 1.4% 1.4%"
+    },
+    "gpa_100_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.1% 0.1%"
+    },
+    "gpa_below1_pct": {
+      "value": 1,
+      "quote": "percent who had gpa below 1.0 0.0% 1.0% 1.0%"
+    },
+    "gpa_average": {
+      "value": 3.7,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.7"
+    },
+    "gpa_submit_pct": {
+      "value": 99,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.0%"
+    },
+    "sat_p25": {
+      "value": 1000,
+      "quote": "sat composite (400 - 1600) 1000 1130 1240"
+    },
+    "sat_p50": {
+      "value": 1130,
+      "quote": "sat composite (400 - 1600) 1000 1130 1240"
+    },
+    "sat_p75": {
+      "value": 1240,
+      "quote": "sat composite (400 - 1600) 1000 1130 1240"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite (0 - 36) 20 23 27"
+    },
+    "act_p50": {
+      "value": 23,
+      "quote": "act composite (0 - 36) 20 23 27"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "act composite (0 - 36) 20 23 27"
+    },
+    "transfer_applied": {
+      "value": 1456,
+      "quote": "D2 total 1456 1062 570"
+    },
+    "transfer_admitted": {
+      "value": 1062,
+      "quote": "D2 total 1456 1062 570"
+    },
+    "transfer_enrolled": {
+      "value": 570,
+      "quote": "D2 total 1456 1062 570"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    }
+  },
+  "concerns": null
+}

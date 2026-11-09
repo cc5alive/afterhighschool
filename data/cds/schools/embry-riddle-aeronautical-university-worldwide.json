@@ -1,0 +1,19 @@
+{
+  "slug": "embry-riddle-aeronautical-university-worldwide",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://erau.edu/-/media/files/university/institutional-research/common-data-set/cds-2025-26-ww.pdf"
+  },
+  "builtAt": "2026-11-09",
+  "values": {
+    "waitlist_admitted": 4,
+    "deferral_allowed": "yes",
+    "deferral_max": "one year"
+  },
+  "basis": {
+    "waitlist_admitted": "reader",
+    "deferral_allowed": "gemini",
+    "deferral_max": "gemini"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "university-of-wisconsin-oshkosh",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024 - Section C",
+    "url": "https://www.uwosh.edu/institutional-effectiveness/wp-content/uploads/sites/224/2024/11/CDS-C.pdf"
+  },
+  "builtAt": "2026-11-09",
+  "values": {
+    "act_submit_pct": 35,
+    "act_p25": 17,
+    "act_p50": 20,
+    "act_p75": 26,
+    "rank_top10_pct": 7.7,
+    "rank_top25_pct": 28.1,
+    "gpa_400_pct": 1.7,
+    "gpa_375_pct": 15.6,
+    "gpa_350_pct": 18,
+    "gpa_325_pct": 18.2,
+    "gpa_300_pct": 15.4,
+    "gpa_250_pct": 19.7,
+    "gpa_200_pct": 10.2,
+    "gpa_100_pct": 1,
+    "gpa_below1_pct": 0.1,
+    "gpa_average": 3.2,
+    "gpa_submit_pct": 94.1
+  },
+  "basis": {
+    "act_submit_pct": "gemini",
+    "act_p25": "both",
+    "act_p50": "both",
+    "act_p75": "both",
+    "rank_top10_pct": "both",
+    "rank_top25_pct": "both",
+    "gpa_400_pct": "both",
+    "gpa_375_pct": "both",
+    "gpa_350_pct": "both",
+    "gpa_325_pct": "both",
+    "gpa_300_pct": "both",
+    "gpa_250_pct": "both",
+    "gpa_200_pct": "both",
+    "gpa_100_pct": "both",
+    "gpa_below1_pct": "both",
+    "gpa_average": "both",
+    "gpa_submit_pct": "both"
+  }
+}

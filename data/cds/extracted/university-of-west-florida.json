@@ -1,0 +1,184 @@
+{
+  "slug": "university-of-west-florida",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://uwf.edu/media/university-of-west-florida/academic-affairs/departments/institutional-research/docs/cds/CDS_2025_2026.pdf"
+  },
+  "sourceUrl": "https://uwf.edu/media/university-of-west-florida/academic-affairs/departments/institutional-research/docs/cds/CDS_2025_2026.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11145,
+      "quote": "total first-time, first-year (degree-seeking) who applied 7458 2855 832 0 11145"
+    },
+    "admitted_total": {
+      "value": 6090,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 4930 961 199 0 6090"
+    },
+    "enrolled_total": {
+      "value": 1544,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1383 132 29 0 1544"
+    },
+    "rank_top10_pct": {
+      "value": 14.5,
+      "quote": "percent in top tenth of high school graduating class 14.50%"
+    },
+    "rank_top25_pct": {
+      "value": 41,
+      "quote": "percent in top quarter of high school graduating class 41%"
+    },
+    "rank_submit_pct": {
+      "value": 85,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 85%"
+    },
+    "gpa_400_pct": {
+      "value": 22.88,
+      "quote": "percent who had gpa of 4.0 23.60% 8% 22.88%"
+    },
+    "gpa_375_pct": {
+      "value": 19.94,
+      "quote": "percent who had gpa between 3.75 and 3.99 20% 28% 19.94%"
+    },
+    "gpa_350_pct": {
+      "value": 19.7,
+      "quote": "percent who had gpa between 3.50 and 3.74 20% 17% 19.70%"
+    },
+    "gpa_325_pct": {
+      "value": 19.62,
+      "quote": "percent who had gpa between 3.25 and 3.49 20% 17% 19.62%"
+    },
+    "gpa_300_pct": {
+      "value": 13.34,
+      "quote": "percent who had gpa between 3.00 and 3.24 13% 27% 13.34%"
+    },
+    "gpa_250_pct": {
+      "value": 4.29,
+      "quote": "percent who had gpa between 2.50 and 2.99 4% 3% 4.29%"
+    },
+    "gpa_200_pct": {
+      "value": 0.16,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.16% 0% 0.16%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0.07,
+      "quote": "percent who had gpa below 1.0 0% 0% 0.07%"
+    },
+    "gpa_average": {
+      "value": 3.65,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who c12 submitted gpa: 3.65"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 100.00%"
+    },
+    "sat_p25": {
+      "value": 970,
+      "quote": "sat composite 970 1060 1160"
+    },
+    "sat_p50": {
+      "value": 1060,
+      "quote": "sat composite 970 1060 1160"
+    },
+    "sat_p75": {
+      "value": 1160,
+      "quote": "sat composite 970 1060 1160"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 19 22 25"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Very Important",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    }
+  },
+  "concerns": null
+}

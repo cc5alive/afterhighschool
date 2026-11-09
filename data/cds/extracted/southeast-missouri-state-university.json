@@ -1,0 +1,192 @@
+{
+  "slug": "southeast-missouri-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026 - Southeast Missouri State University",
+    "url": "https://semo.edu/institutional-research/_pdfs/accessible_version_cds-pdf-2025-2026-southeastmissouristateuniversity.pdf"
+  },
+  "sourceUrl": "https://semo.edu/institutional-research/_pdfs/accessible_version_cds-pdf-2025-2026-southeastmissouristateuniversity.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 10541,
+      "quote": "total first-time, first-year (degree-seeking) who applied 21 4752 2554 3214 10541"
+    },
+    "admitted_total": {
+      "value": 8063,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1637 4088 2324 14 8063"
+    },
+    "enrolled_total": {
+      "value": 1307,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 946 252 107 2 1307"
+    },
+    "rank_top10_pct": {
+      "value": 17,
+      "quote": "percent in top tenth of high school graduating class 17"
+    },
+    "rank_top25_pct": {
+      "value": 42,
+      "quote": "percent in top quarter of high school graduating class 42"
+    },
+    "gpa_400_pct": {
+      "value": 21.05,
+      "quote": "percent who had gpa of 4.0 26.63 11.13 21.05"
+    },
+    "gpa_375_pct": {
+      "value": 18.19,
+      "quote": "percent who had gpa between 3.75 and 3.99 20 14.99 18.19"
+    },
+    "gpa_350_pct": {
+      "value": 17.5,
+      "quote": "percent who had gpa between 3.50 and 3.74 16.51 19.27 17.5"
+    },
+    "gpa_325_pct": {
+      "value": 16.58,
+      "quote": "percent who had gpa between 3.25 and 3.49 13.01 22.91 16.58"
+    },
+    "gpa_300_pct": {
+      "value": 10.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 8.92 12.21 10.10"
+    },
+    "gpa_250_pct": {
+      "value": 12.03,
+      "quote": "percent who had gpa between 2.50 and 2.99 10.72 14.35 12.03"
+    },
+    "gpa_200_pct": {
+      "value": 3.24,
+      "quote": "percent who had gpa between 2.0 and 2.49 3.25 3.21 3.24"
+    },
+    "gpa_100_pct": {
+      "value": 1.16,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.72 1.93 1.16"
+    },
+    "gpa_below1_pct": {
+      "value": 0.24,
+      "quote": "percent who had gpa below 1.0 0.24 0.15"
+    },
+    "gpa_average": {
+      "value": 3.53,
+      "quote": "average high school gpa 3.53"
+    },
+    "gpa_submit_pct": {
+      "value": 99.08,
+      "quote": "percent submitting gpa 99.08"
+    },
+    "sat_p25": {
+      "value": 990,
+      "quote": "sat composite 990 1120 1210"
+    },
+    "sat_p50": {
+      "value": 1120,
+      "quote": "sat composite 990 1120 1210"
+    },
+    "sat_p75": {
+      "value": 1210,
+      "quote": "sat composite 990 1120 1210"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 21 24"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "act composite 18 21 24"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "act composite 18 21 24"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1432,
+      "quote": "D2 total 1432 960 490"
+    },
+    "transfer_admitted": {
+      "value": 960,
+      "quote": "D2 total 1432 960 490"
+    },
+    "transfer_enrolled": {
+      "value": 490,
+      "quote": "D2 total 1432 960 490"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ yes ☐ x no n/a"
+    }
+  },
+  "concerns": null
+}

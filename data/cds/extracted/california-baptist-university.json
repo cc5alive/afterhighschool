@@ -1,0 +1,192 @@
+{
+  "slug": "california-baptist-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS-PDF-2025-2026%20-%20All.pdf"
+  },
+  "sourceUrl": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS-PDF-2025-2026%20-%20All.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 8438,
+      "quote": "total first-time, first-year (degree-seeking) who applied 8438"
+    },
+    "admitted_total": {
+      "value": 6868,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6868"
+    },
+    "enrolled_total": {
+      "value": 1591,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1591"
+    },
+    "rank_top10_pct": {
+      "value": 17,
+      "quote": "percent in top tenth of high school graduating class 17%"
+    },
+    "rank_top25_pct": {
+      "value": 44,
+      "quote": "percent in top quarter of high school graduating class 44%"
+    },
+    "gpa_400_pct": {
+      "value": 33.16,
+      "quote": "percent who had gpa of 4.0 33.16%"
+    },
+    "gpa_375_pct": {
+      "value": 8.08,
+      "quote": "percent who had gpa between 3.75 and 3.99 8.08%"
+    },
+    "gpa_350_pct": {
+      "value": 14.43,
+      "quote": "percent who had gpa between 3.50 and 3.74 14.43%"
+    },
+    "gpa_325_pct": {
+      "value": 11.17,
+      "quote": "percent who had gpa between 3.25 and 3.49 11.17%"
+    },
+    "gpa_300_pct": {
+      "value": 13.06,
+      "quote": "percent who had gpa between 3.00 and 3.24 13.06%"
+    },
+    "gpa_250_pct": {
+      "value": 7.04,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.04%"
+    },
+    "gpa_200_pct": {
+      "value": 7.56,
+      "quote": "percent who had gpa between 2.0 and 2.49 7.56%"
+    },
+    "gpa_100_pct": {
+      "value": 4.3,
+      "quote": "percent who had gpa between 1.0 and 1.99 4.30%"
+    },
+    "gpa_below1_pct": {
+      "value": 1.2,
+      "quote": "percent who had gpa below 1.0 1.20%"
+    },
+    "gpa_average": {
+      "value": 3.36,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.36"
+    },
+    "sat_p25": {
+      "value": 860,
+      "quote": "sat composite 860 980 1150"
+    },
+    "sat_p50": {
+      "value": 980,
+      "quote": "sat composite 860 980 1150"
+    },
+    "sat_p75": {
+      "value": 1150,
+      "quote": "sat composite 860 980 1150"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 24 29"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "act composite 19 24 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "act composite 19 24 29"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2292,
+      "quote": "D2 total 2,292 1,841 1,105"
+    },
+    "transfer_admitted": {
+      "value": 1841,
+      "quote": "D2 total 2,292 1,841 1,105"
+    },
+    "transfer_enrolled": {
+      "value": 1105,
+      "quote": "D2 total 2,292 1,841 1,105"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after yes admission?"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    }
+  },
+  "concerns": null
+}

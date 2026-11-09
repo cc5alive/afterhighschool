@@ -1,0 +1,195 @@
+{
+  "slug": "university-of-wisconsin-la-crosse",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "2025-2026 Common Data Set",
+    "url": "https://www.uwlax.edu/globalassets/offices-services/institutional-research/ir-resources/cds_2025-2026.docx"
+  },
+  "sourceUrl": "https://www.uwlax.edu/globalassets/offices-services/institutional-research/ir-resources/cds_2025-2026.docx",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "docx",
+  "values": {
+    "waitlist_admitted": {
+      "value": 0,
+      "quote": "number of wait-listed students admitted: 0"
+    },
+    "rank_top10_pct": {
+      "value": 18,
+      "quote": "percent in top tenth of high school graduating class 18%"
+    },
+    "rank_top25_pct": {
+      "value": 49,
+      "quote": "percent in top quarter of high school graduating class 49%"
+    },
+    "rank_submit_pct": {
+      "value": 62,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 62%"
+    },
+    "gpa_400_pct": {
+      "value": 4.3,
+      "quote": "percent who had gpa of 4.0 7% 3% 4.3%"
+    },
+    "gpa_375_pct": {
+      "value": 35.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 40% 33% 35.1%"
+    },
+    "gpa_350_pct": {
+      "value": 32.9,
+      "quote": "percent who had gpa between 3.50 and 3.74 30% 35% 32.9%"
+    },
+    "gpa_325_pct": {
+      "value": 21.6,
+      "quote": "percent who had gpa between 3.25 and 3.49 18% 23% 21.6%"
+    },
+    "gpa_300_pct": {
+      "value": 5.8,
+      "quote": "percent who had gpa between 3.00 and 3.24 5% 6% 5.8%"
+    },
+    "gpa_250_pct": {
+      "value": 0.3,
+      "quote": "percent who had gpa between 2.50 and 2.99 0% 0% 0.3%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0% 0% 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0%"
+    },
+    "applied_total": {
+      "value": 6495,
+      "quote": "total first-time, first-year males who applied 2,754 / total first-time, first-year females who applied 3,740 / total first-time, first-year students of unknowns sex who applied 1",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 5194,
+      "quote": "total first-time, first-year males who were admitted 2,068 / total first-time, first-year females who were admitted 3,125 / total first-time, first-year students of unknown sex who were admitted 1",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2366,
+      "quote": "total first-time, first-year males who enrolled 998 / total first-time, first-year females who enrolled 1368 / total first-time, first-year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1230,
+      "quote": "sat composite 1,230 1,270 1,318"
+    },
+    "sat_p50": {
+      "value": 1270,
+      "quote": "sat composite 1,230 1,270 1,318"
+    },
+    "sat_p75": {
+      "value": 1318,
+      "quote": "sat composite 1,230 1,270 1,318"
+    },
+    "act_p25": {
+      "value": 22,
+      "quote": "act composite 22 24 27"
+    },
+    "act_p50": {
+      "value": 24,
+      "quote": "act composite 22 24 27"
+    },
+    "act_p75": {
+      "value": 27,
+      "quote": "act composite 22 24 27"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 578,
+      "quote": "D2 total 578 518 272"
+    },
+    "transfer_admitted": {
+      "value": 518,
+      "quote": "D2 total 578 518 272"
+    },
+    "transfer_enrolled": {
+      "value": 272,
+      "quote": "D2 total 578 518 272"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 18. deferred admission: does your institution allow students to postpone enrollment after admission? no"
+    }
+  },
+  "concerns": null
+}

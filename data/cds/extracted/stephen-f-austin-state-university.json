@@ -1,0 +1,140 @@
+{
+  "slug": "stephen-f-austin-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.sfasu.edu/docs/institutional-research/common-data-set-complete-25-26.pdf"
+  },
+  "sourceUrl": "https://www.sfasu.edu/docs/institutional-research/common-data-set-complete-25-26.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 21123,
+      "quote": "total first-time, first-year (degree-seeking) who applied 16847 705 182 3389 21123"
+    },
+    "admitted_total": {
+      "value": 17614,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 16820 705 83 6 17614"
+    },
+    "enrolled_total": {
+      "value": 2372,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 2340 23 8 1 2372"
+    },
+    "rank_top10_pct": {
+      "value": 9,
+      "quote": "percent in top tenth of high school graduating class 9%"
+    },
+    "rank_top25_pct": {
+      "value": 32,
+      "quote": "percent in top quarter of high school graduating class 32%"
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "sat composite 950 1040 1130"
+    },
+    "sat_p50": {
+      "value": 1040,
+      "quote": "sat composite 950 1040 1130"
+    },
+    "sat_p75": {
+      "value": 1130,
+      "quote": "sat composite 950 1040 1130"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 21 24"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "act composite 18 21 24"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "act composite 18 21 24"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "transfer_applied": {
+      "value": 1843,
+      "quote": "D2 total 1,843 1,228 749"
+    },
+    "transfer_admitted": {
+      "value": 1228,
+      "quote": "D2 total 1,843 1,228 749"
+    },
+    "transfer_enrolled": {
+      "value": 749,
+      "quote": "D2 total 1,843 1,228 749"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after no admission?"
+    }
+  },
+  "concerns": null
+}

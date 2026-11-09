@@ -9,116 +9,206 @@
   "values": {
     "applied_total": {
       "value": 10541,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 10541"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 10541",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 8063,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 8063"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 8063",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 1307,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 1307"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1307",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 8,
-      "quote": "Submitting SAT Scores 8.00"
+      "quote": "Submitting SAT Scores 8.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_submit_pct": {
       "value": 56,
-      "quote": "Submitting ACT Scores 56.00"
+      "quote": "Submitting ACT Scores 56.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p25": {
       "value": 990,
-      "quote": "SAT Composite 990"
+      "quote": "SAT Composite 990",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1120,
-      "quote": "SAT Composite 1120"
+      "quote": "SAT Composite 1120",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1210,
-      "quote": "SAT Composite 1210"
+      "quote": "SAT Composite 1210",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 18,
-      "quote": "ACT Composite 18"
+      "quote": "ACT Composite 18",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 21,
-      "quote": "ACT Composite 21"
+      "quote": "ACT Composite 21",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 24,
-      "quote": "ACT Composite 24"
+      "quote": "ACT Composite 24",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 17,
-      "quote": "Percent in top tenth of high school graduating class 17.00"
+      "quote": "Percent in top tenth of high school graduating class 17.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 42,
-      "quote": "Percent in top quarter of high school graduating class 42.00"
+      "quote": "Percent in top quarter of high school graduating class 42.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 48,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 48.00"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 48.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 21.05,
-      "quote": "Percent who had GPA of 4.0 21.05"
+      "quote": "Percent who had GPA of 4.0 21.05",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 18.19,
-      "quote": "Percent who had GPA between 3.75 and 3.99 18.19"
+      "quote": "Percent who had GPA between 3.75 and 3.99 18.19",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 17.5,
-      "quote": "Percent who had GPA between 3.50 and 3.74 17.50"
+      "quote": "Percent who had GPA between 3.50 and 3.74 17.50",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 16.58,
-      "quote": "Percent who had GPA between 3.25 and 3.49 16.58"
+      "quote": "Percent who had GPA between 3.25 and 3.49 16.58",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 10.1,
-      "quote": "Percent who had GPA between 3.00 and 3.24 10.10"
+      "quote": "Percent who had GPA between 3.00 and 3.24 10.10",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 12.03,
-      "quote": "Percent who had GPA between 2.50 and 2.99 12.03"
+      "quote": "Percent who had GPA between 2.50 and 2.99 12.03",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 3.24,
-      "quote": "Percent who had GPA between 2.0 and 2.49 3.24"
+      "quote": "Percent who had GPA between 2.0 and 2.49 3.24",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 1.16,
-      "quote": "Percent who had GPA between 1.0 and 1.99 1.16"
+      "quote": "Percent who had GPA between 1.0 and 1.99 1.16",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0.15,
-      "quote": "Percent who had GPA below 1.0 0.15"
+      "quote": "Percent who had GPA below 1.0 0.15",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_average": {
       "value": 3.53,
-      "quote": "Average High School GPA 3.53"
+      "quote": "Average High School GPA 3.53",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 99.08,
-      "quote": "Percent Submitting GPA 99.08"
+      "quote": "Percent Submitting GPA 99.08",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_applied": {
       "value": 1432,
-      "quote": "Total 1432"
+      "quote": "Total 1432",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_admitted": {
       "value": 960,
-      "quote": "960"
+      "quote": "960",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_enrolled": {
       "value": 490,
-      "quote": "490"
+      "quote": "490",
+      "found": true,
+      "how": "quote",
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://semo.edu/institutional-research/_pdfs/accessible_version_cds-pdf-2025-2026-southeastmissouristateuniversity.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 28,
+  "total": 28
 }

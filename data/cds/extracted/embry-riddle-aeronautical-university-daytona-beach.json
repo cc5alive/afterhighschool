@@ -1,0 +1,48 @@
+{
+  "slug": "embry-riddle-aeronautical-university-daytona-beach",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Daytona Beach Campus 2023-2024 Common Data Set",
+    "url": "https://erau.edu/institutional-research/common-data-set/2023-2024-daytona-beach"
+  },
+  "sourceUrl": "https://erau.edu/institutional-research/common-data-set/2023-2024-daytona-beach",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "html",
+  "values": {
+    "rank_top10_pct": {
+      "value": 26.5,
+      "quote": "percent in top tenth of high school graduating class 26.5%"
+    },
+    "rank_top25_pct": {
+      "value": 55.5,
+      "quote": "percent in top quarter of high school graduating class 55.50%"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "sat composite 1160 1250 1330"
+    },
+    "sat_p50": {
+      "value": 1250,
+      "quote": "sat composite 1160 1250 1330"
+    },
+    "sat_p75": {
+      "value": 1330,
+      "quote": "sat composite 1160 1250 1330"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "act composite 24 27 30"
+    },
+    "act_p50": {
+      "value": 27,
+      "quote": "act composite 24 27 30"
+    },
+    "act_p75": {
+      "value": 30,
+      "quote": "act composite 24 27 30"
+    }
+  },
+  "concerns": null
+}

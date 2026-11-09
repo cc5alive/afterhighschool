@@ -9,76 +9,136 @@
   "values": {
     "act_submit_pct": {
       "value": 35,
-      "quote": "Submitting ACT Scores 35%"
+      "quote": "Submitting ACT Scores 35%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 17,
-      "quote": "ACT Composite (0 - 36) 17"
+      "quote": "ACT Composite (0 - 36) 17",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 20,
-      "quote": "ACT Composite (0 - 36) 20"
+      "quote": "ACT Composite (0 - 36) 20",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 26,
-      "quote": "ACT Composite (0 - 36) 26"
+      "quote": "ACT Composite (0 - 36) 26",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 7.7,
-      "quote": "Percent in top tenth of high school graduating class 7.7%"
+      "quote": "Percent in top tenth of high school graduating class 7.7%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 28.1,
-      "quote": "Percent in top quarter of high school graduating class 28.1%"
+      "quote": "Percent in top quarter of high school graduating class 28.1%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 62,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank 62.0%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank 62.0%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 1.7,
-      "quote": "Percent who had GPA of 4.0 1.7%"
+      "quote": "Percent who had GPA of 4.0 1.7%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 15.6,
-      "quote": "Percent who had GPA between 3.75 and 3.99 15.6%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 15.6%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 18,
-      "quote": "Percent who had GPA between 3.50 and 3.74 18.0%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 18.0%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 18.2,
-      "quote": "Percent who had GPA between 3.25 and 3.49 18.2%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 18.2%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 15.4,
-      "quote": "Percent who had GPA between 3.00 and 3.24 15.4%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 15.4%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 19.7,
-      "quote": "Percent who had GPA between 2.50 and 2.99 19.7%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 19.7%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 10.2,
-      "quote": "Percent who had GPA between 2.0 and 2.49 10.2%"
+      "quote": "Percent who had GPA between 2.0 and 2.49 10.2%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 1,
-      "quote": "Percent who had GPA between 1.0 and 1.99 1.0%"
+      "quote": "Percent who had GPA between 1.0 and 1.99 1.0%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0.1,
-      "quote": "Percent who had GPA below 1.0 0.1%"
+      "quote": "Percent who had GPA below 1.0 0.1%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_average": {
       "value": 3.2,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.2"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.2",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 94.1,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 94.1%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 94.1%",
+      "found": true,
+      "how": "quote",
+      "note": null
     }
   },
-  "concerns": "University of Wisconsin-Oshkosh publishes CDS sections as separate PDFs. Section C leaves C1, C2, and C7 unpopulated."
+  "concerns": "University of Wisconsin-Oshkosh publishes CDS sections as separate PDFs. Section C leaves C1, C2, and C7 unpopulated.",
+  "httpStatus": 200,
+  "finalUrl": "https://www.uwosh.edu/institutional-effectiveness/wp-content/uploads/sites/224/2024/11/CDS-C.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 17,
+  "total": 18
 }

@@ -9,124 +9,220 @@
   "values": {
     "applied_total": {
       "value": 8438,
-      "quote": "Total first-time, first-year (degree-seeking) who applied: 8438"
+      "quote": "Total first-time, first-year (degree-seeking) who applied: 8438",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 6868,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted: 6868"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted: 6868",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 1591,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled: 1591"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled: 1591",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 9,
-      "quote": "Submitting SAT Scores: 9%"
+      "quote": "Submitting SAT Scores: 9%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 1,
-      "quote": "Submitting ACT Scores: 1%"
+      "quote": "Submitting ACT Scores: 1%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 860,
-      "quote": "SAT Composite 25th Percentile Score: 860"
+      "quote": "SAT Composite 25th Percentile Score: 860",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 980,
-      "quote": "SAT Composite 50th Percentile Score: 980"
+      "quote": "SAT Composite 50th Percentile Score: 980",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1150,
-      "quote": "SAT Composite 75th Percentile Score: 1150"
+      "quote": "SAT Composite 75th Percentile Score: 1150",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 19,
-      "quote": "ACT Composite 25th Percentile Score: 19"
+      "quote": "ACT Composite 25th Percentile Score: 19",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 24,
-      "quote": "ACT Composite 50th Percentile Score: 24"
+      "quote": "ACT Composite 50th Percentile Score: 24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 29,
-      "quote": "ACT Composite 75th Percentile Score: 29"
+      "quote": "ACT Composite 75th Percentile Score: 29",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_top10_pct": {
       "value": 17,
-      "quote": "Percent in top tenth of high school graduating class: 17%"
+      "quote": "Percent in top tenth of high school graduating class: 17%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 44,
-      "quote": "Percent in top quarter of high school graduating class: 44%"
+      "quote": "Percent in top quarter of high school graduating class: 44%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 60,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 60%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 60%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 33.16,
-      "quote": "Percent who had GPA of 4.0: 33.16%"
+      "quote": "Percent who had GPA of 4.0: 33.16%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 8.08,
-      "quote": "Percent who had GPA between 3.75 and 3.99: 8.08%"
+      "quote": "Percent who had GPA between 3.75 and 3.99: 8.08%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 14.43,
-      "quote": "Percent who had GPA between 3.50 and 3.74: 14.43%"
+      "quote": "Percent who had GPA between 3.50 and 3.74: 14.43%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 11.17,
-      "quote": "Percent who had GPA between 3.25 and 3.49: 11.17%"
+      "quote": "Percent who had GPA between 3.25 and 3.49: 11.17%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 13.06,
-      "quote": "Percent who had GPA between 3.00 and 3.24: 13.06%"
+      "quote": "Percent who had GPA between 3.00 and 3.24: 13.06%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 7.04,
-      "quote": "Percent who had GPA between 2.50 and 2.99: 7.04%"
+      "quote": "Percent who had GPA between 2.50 and 2.99: 7.04%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 7.56,
-      "quote": "Percent who had GPA between 2.0 and 2.49: 7.56%"
+      "quote": "Percent who had GPA between 2.0 and 2.49: 7.56%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 4.3,
-      "quote": "Percent who had GPA between 1.0 and 1.99: 4.30%"
+      "quote": "Percent who had GPA between 1.0 and 1.99: 4.30%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 1.2,
-      "quote": "Percent who had GPA below 1.0: 1.20%"
+      "quote": "Percent who had GPA below 1.0: 1.20%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.36,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year: 3.36"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year: 3.36",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 35.68,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 35.68%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 35.68%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "deferral_allowed": {
       "value": "Yes",
-      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "deferral_max": {
       "value": "1 year",
-      "quote": "maximum period of postponement: 1 year"
+      "quote": "maximum period of postponement: 1 year",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_applied": {
       "value": 2292,
-      "quote": "Transfer Admission Applicants Total: 2,292"
+      "quote": "Transfer Admission Applicants Total: 2,292",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_admitted": {
       "value": 1841,
-      "quote": "Transfer Admission Admitted Total: 1,841"
+      "quote": "Transfer Admission Admitted Total: 1,841",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 1105,
-      "quote": "Transfer Admission Enrolled Total: 1,105"
+      "quote": "Transfer Admission Enrolled Total: 1,105",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://calbaptist.edu/about/leadership/provost/educational-effectiveness/institutional-research/pdfs/CDS-PDF-2025-2026%20-%20All.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 18,
+  "total": 30
 }

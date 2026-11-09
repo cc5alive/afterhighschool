@@ -9,152 +9,269 @@
   "values": {
     "sat_submit_pct": {
       "value": 56,
-      "quote": "Submitting SAT Scores 56.0%"
+      "quote": "Submitting SAT Scores 56.0%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 26.6,
-      "quote": "Submitting ACT Scores 26.6%"
+      "quote": "Submitting ACT Scores 26.6%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1160,
-      "quote": "SAT Composite 25th Percentile 1160"
+      "quote": "SAT Composite 25th Percentile 1160",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p50": {
       "value": 1250,
-      "quote": "SAT Composite 50th Percentile 1250"
+      "quote": "SAT Composite 50th Percentile 1250",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_p75": {
       "value": 1330,
-      "quote": "SAT Composite 75th Percentile 1330"
+      "quote": "SAT Composite 75th Percentile 1330",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 24,
-      "quote": "ACT Composite 25th Percentile 24"
+      "quote": "ACT Composite 25th Percentile 24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 27,
-      "quote": "ACT Composite 50th Percentile 27"
+      "quote": "ACT Composite 50th Percentile 27",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 30,
-      "quote": "ACT Composite 75th Percentile 30"
+      "quote": "ACT Composite 75th Percentile 30",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "rank_top10_pct": {
       "value": 26.5,
-      "quote": "Percent in top tenth of high school graduating class 26.5%"
+      "quote": "Percent in top tenth of high school graduating class 26.5%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 55.5,
-      "quote": "Percent in top quarter of high school graduating class 55.50%"
+      "quote": "Percent in top quarter of high school graduating class 55.50%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 47.5,
-      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school class rank 47.50%"
+      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school class rank 47.50%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 98.5,
-      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school GPA: 98.50%"
+      "quote": "Percent of total first-time, first-year (freshman) students who submitted high school GPA: 98.50%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "deferral_allowed": {
       "value": "Yes",
-      "quote": "Does your institution allow students to postpone enrollment after admission? Yes."
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes.",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "deferral_max": {
       "value": "One year",
-      "quote": "Maximum period of postponement: One year."
+      "quote": "Maximum period of postponement: One year.",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "No",
-      "quote": "Does your institution offer an early decision plan... No."
+      "quote": "Does your institution offer an early decision plan... No.",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "No",
-      "quote": "Do you have a nonbinding early action plan... No."
+      "quote": "Do you have a nonbinding early action plan... No.",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "transfer_applied": {
       "value": 1239,
-      "quote": "Total Applicants 1,239"
+      "quote": "Total Applicants 1,239",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_admitted": {
       "value": 598,
-      "quote": "Total Admitted Applicants 598"
+      "quote": "Total Admitted Applicants 598",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 235,
-      "quote": "Total Enrolled Applicants 235"
+      "quote": "Total Enrolled Applicants 235",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Important",
-      "quote": "Rigor of secondary school record: Important"
+      "quote": "Rigor of secondary school record: Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Important",
-      "quote": "Class rank: Important"
+      "quote": "Class rank: Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA: Very Important"
+      "quote": "Academic GPA: Very Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores: Considered"
+      "quote": "Standardized test scores: Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Considered",
-      "quote": "Application essay: Considered"
+      "quote": "Application essay: Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Considered",
-      "quote": "Recommendation(s): Considered"
+      "quote": "Recommendation(s): Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview: Not Considered"
+      "quote": "Interview: Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Important",
-      "quote": "Extracurricular activities: Important"
+      "quote": "Extracurricular activities: Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Important",
-      "quote": "Talent/ability: Important"
+      "quote": "Talent/ability: Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Important",
-      "quote": "Character/personal qualities: Important"
+      "quote": "Character/personal qualities: Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Not Considered",
-      "quote": "First generation: Not Considered"
+      "quote": "First generation: Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Considered",
-      "quote": "Alumni/ae relation: Considered"
+      "quote": "Alumni/ae relation: Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence: Not Considered"
+      "quote": "Geographical residence: Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency: Not Considered"
+      "quote": "State residency: Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment: Not Considered"
+      "quote": "Religious affiliation/commitment: Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Not Considered",
-      "quote": "Volunteer work: Not Considered"
+      "quote": "Volunteer work: Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience: Considered"
+      "quote": "Work experience: Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant's interest: Considered"
+      "quote": "Level of applicant's interest: Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://erau.edu/institutional-research/common-data-set/2023-2024-daytona-beach",
+  "docKind": "html",
+  "checkedAt": "2026-11-09",
+  "verified": 8,
+  "total": 37
 }

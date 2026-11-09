@@ -1,0 +1,136 @@
+{
+  "slug": "ferris-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.ferris.edu/admissions/testing/resources/common/CDS2025-2026.pdf"
+  },
+  "sourceUrl": "https://www.ferris.edu/admissions/testing/resources/common/CDS2025-2026.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11885,
+      "quote": "total first-time, first-year (degree-seeking) who applied 10179 1019 687 0 11885"
+    },
+    "admitted_total": {
+      "value": 9790,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 8436 822 532 0 9790"
+    },
+    "enrolled_total": {
+      "value": 1485,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1378 95 12 0 1485"
+    },
+    "gpa_average": {
+      "value": 3.35,
+      "quote": "average high school gpa 3.35"
+    },
+    "gpa_submit_pct": {
+      "value": 99.73,
+      "quote": "percent submitting gpa 99.73"
+    },
+    "sat_p25": {
+      "value": 900,
+      "quote": "sat composite 900 1000 1120"
+    },
+    "sat_p50": {
+      "value": 1000,
+      "quote": "sat composite 900 1000 1120"
+    },
+    "sat_p75": {
+      "value": 1120,
+      "quote": "sat composite 900 1000 1120"
+    },
+    "act_p25": {
+      "value": 20,
+      "quote": "act composite 20 22 24"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 20 22 24"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "act composite 20 22 24"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ no 1\u0012$"
+    }
+  },
+  "concerns": null
+}

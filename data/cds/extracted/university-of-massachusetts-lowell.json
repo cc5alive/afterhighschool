@@ -1,0 +1,101 @@
+{
+  "slug": "university-of-massachusetts-lowell",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "UMass Lowell Common Data Set 2023-2024 4/12/2024 1",
+    "url": "https://www.uml.edu/docs/CDS_2023-2024_UMass_Lowell_%284-12-24%29_tcm18-383430.pdf"
+  },
+  "sourceUrl": "https://www.uml.edu/docs/CDS_2023-2024_UMass_Lowell_%284-12-24%29_tcm18-383430.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "admitted_total": {
+      "value": 10644,
+      "quote": "total first-time, first-year who were admitted 8048 1991 605 0 10644"
+    },
+    "waitlist_admitted": {
+      "value": 121,
+      "quote": "number of wait-listed students admitted: 121"
+    },
+    "rank_top10_pct": {
+      "value": 18,
+      "quote": "percent in top tenth of high school graduating class 18%"
+    },
+    "rank_top25_pct": {
+      "value": 48,
+      "quote": "percent in top quarter of high school graduating class 48%"
+    },
+    "gpa_400_pct": {
+      "value": 29.36,
+      "quote": "percent who had gpa of 4.0 35.28% 26.54% 29.36%"
+    },
+    "gpa_375_pct": {
+      "value": 17.67,
+      "quote": "percent who had gpa between 3.75 and 3.99 16.10% 18.42% 17.67%"
+    },
+    "gpa_350_pct": {
+      "value": 18.76,
+      "quote": "percent who had gpa between 3.50 and 3.74 17.18% 19.52% 18.76%"
+    },
+    "gpa_325_pct": {
+      "value": 16.14,
+      "quote": "percent who had gpa between 3.25 and 3.49 15.03% 16.67% 16.14%"
+    },
+    "gpa_300_pct": {
+      "value": 12.92,
+      "quote": "percent who had gpa between 3.00 and 3.24 9.36% 14.62% 12.92%"
+    },
+    "gpa_250_pct": {
+      "value": 5.05,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.06% 4.09% 5.05%"
+    },
+    "gpa_200_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00% 0.15% 0.10%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00% 0.00% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00% 0.00% 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.72,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.72"
+    },
+    "applied_total": {
+      "value": 12497,
+      "quote": "total first-time, first-year men who applied 6623 / total first-time, first-year women who applied 5873 / total first-time, first-year another gender who applied 1",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1190,
+      "quote": "sat composite 1190 1260 1320"
+    },
+    "sat_p50": {
+      "value": 1260,
+      "quote": "sat composite 1190 1260 1320"
+    },
+    "sat_p75": {
+      "value": 1320,
+      "quote": "sat composite 1190 1260 1320"
+    },
+    "transfer_applied": {
+      "value": 1500,
+      "quote": "D2 total 1500 1267 677"
+    },
+    "transfer_admitted": {
+      "value": 1267,
+      "quote": "D2 total 1500 1267 677"
+    },
+    "transfer_enrolled": {
+      "value": 677,
+      "quote": "D2 total 1500 1267 677"
+    }
+  },
+  "concerns": null
+}

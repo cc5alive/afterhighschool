@@ -1,0 +1,164 @@
+{
+  "slug": "marquette-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.marquette.edu/academic-effectiveness/institutional-research-analysis/documents/cds-2024-2025_final.pdf"
+  },
+  "sourceUrl": "https://www.marquette.edu/academic-effectiveness/institutional-research-analysis/documents/cds-2024-2025_final.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 18701,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4432 13163 1106 18701"
+    },
+    "admitted_total": {
+      "value": 15212,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 3476 10947 789 15212"
+    },
+    "enrolled_total": {
+      "value": 2149,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 753 1371 25 2149"
+    },
+    "waitlist_admitted": {
+      "value": 113,
+      "quote": "number of wait-listed students admitted: 113"
+    },
+    "rank_top10_pct": {
+      "value": 32.4,
+      "quote": "percent in top tenth of high school graduating class 32.40"
+    },
+    "rank_top25_pct": {
+      "value": 68.37,
+      "quote": "percent in top quarter of high school graduating class 68.37"
+    },
+    "gpa_average": {
+      "value": 3.61,
+      "quote": "average high school gpa 3.61"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.00"
+    },
+    "sat_p25": {
+      "value": 1220,
+      "quote": "sat composite 1220 1280 1350"
+    },
+    "sat_p50": {
+      "value": 1280,
+      "quote": "sat composite 1220 1280 1350"
+    },
+    "sat_p75": {
+      "value": 1350,
+      "quote": "sat composite 1220 1280 1350"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 26 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 26 28 31"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 492,
+      "quote": "D2 total 492 340 106"
+    },
+    "transfer_admitted": {
+      "value": 340,
+      "quote": "D2 total 492 340 106"
+    },
+    "transfer_enrolled": {
+      "value": 106,
+      "quote": "D2 total 492 340 106"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ տ no"
+    },
+    "deferral_max": {
+      "value": "1 semester",
+      "quote": "C18 maximum period of postponement: 1 semester"
+    }
+  },
+  "concerns": null
+}

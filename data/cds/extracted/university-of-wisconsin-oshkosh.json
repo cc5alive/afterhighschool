@@ -1,0 +1,80 @@
+{
+  "slug": "university-of-wisconsin-oshkosh",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024 - Section C",
+    "url": "https://www.uwosh.edu/institutional-effectiveness/wp-content/uploads/sites/224/2024/11/CDS-C.pdf"
+  },
+  "sourceUrl": "https://www.uwosh.edu/institutional-effectiveness/wp-content/uploads/sites/224/2024/11/CDS-C.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 7.7,
+      "quote": "percent in top tenth of high school graduating class 7.7%"
+    },
+    "rank_top25_pct": {
+      "value": 28.1,
+      "quote": "percent in top quarter of high school graduating class 28.1%"
+    },
+    "gpa_400_pct": {
+      "value": 1.7,
+      "quote": "percent who had gpa of 4.0 2.6% 1.1% 1.7%"
+    },
+    "gpa_375_pct": {
+      "value": 15.6,
+      "quote": "percent who had gpa between 3.75 and 3.99 19.8% 13.3% 15.6%"
+    },
+    "gpa_350_pct": {
+      "value": 18,
+      "quote": "percent who had gpa between 3.50 and 3.74 19.6% 17.1% 18.0%"
+    },
+    "gpa_325_pct": {
+      "value": 18.2,
+      "quote": "percent who had gpa between 3.25 and 3.49 16.2% 19.4% 18.2%"
+    },
+    "gpa_300_pct": {
+      "value": 15.4,
+      "quote": "percent who had gpa between 3.00 and 3.24 14.4% 16.0% 15.4%"
+    },
+    "gpa_250_pct": {
+      "value": 19.7,
+      "quote": "percent who had gpa between 2.50 and 2.99 16.4% 21.5% 19.7%"
+    },
+    "gpa_200_pct": {
+      "value": 10.2,
+      "quote": "percent who had gpa between 2.0 and 2.49 9.8% 10.5% 10.2%"
+    },
+    "gpa_100_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 1.0 and 1.99 1.2% 0.9% 1.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa below 1.0 0.0% 0.1% 0.1%"
+    },
+    "gpa_average": {
+      "value": 3.2,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.2"
+    },
+    "gpa_submit_pct": {
+      "value": 94.1,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94.1%"
+    },
+    "act_p25": {
+      "value": 17,
+      "quote": "act composite (0 - 36) 17 20 26"
+    },
+    "act_p50": {
+      "value": 20,
+      "quote": "act composite (0 - 36) 17 20 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite (0 - 36) 17 20 26"
+    }
+  },
+  "concerns": null
+}

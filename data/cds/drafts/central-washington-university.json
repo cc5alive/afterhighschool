@@ -9,160 +9,283 @@
   "values": {
     "applied_total": {
       "value": 8442,
-      "quote": "who applied 8,442"
+      "quote": "who applied 8,442",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 7894,
-      "quote": "who were admitted 7,894"
+      "quote": "who were admitted 7,894",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 1612,
-      "quote": "who registered/enrolled 1,612"
+      "quote": "who registered/enrolled 1,612",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 3,
-      "quote": "Percent who had GPA of 4.0 3%"
+      "quote": "Percent who had GPA of 4.0 3%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 17,
-      "quote": "Percent who had GPA between 3.75 and 3.99 17%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 17%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 15,
-      "quote": "Percent who had GPA between 3.50 and 3.74 15%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 15%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 14,
-      "quote": "Percent who had GPA between 3.25 and 3.49 14%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 14%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 14,
-      "quote": "Percent who had GPA between 3.00 and 3.24 14%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 14%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 27,
-      "quote": "Percent who had GPA between 2.50 and 2.99 27%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 27%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 9,
-      "quote": "Percent who had GPA between 2.0 and 2.49 9%"
+      "quote": "Percent who had GPA between 2.0 and 2.49 9%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0%"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 1,
-      "quote": "Percent who had GPA below 1.0 1%"
+      "quote": "Percent who had GPA below 1.0 1%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.2,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.20"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.20",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 98.83,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.83%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.83%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "deferral_allowed": {
       "value": "Yes",
-      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "deferral_max": {
       "value": "one year",
-      "quote": "If yes, what is the maximum period of postponement? one year"
+      "quote": "If yes, what is the maximum period of postponement? one year",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "No",
-      "quote": "Does your institution offer an early decision plan... No"
+      "quote": "Does your institution offer an early decision plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "No",
-      "quote": "Do you have a nonbinding early action plan... No"
+      "quote": "Do you have a nonbinding early action plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "transfer_applied": {
       "value": 1666,
-      "quote": "Total 1,666"
+      "quote": "Total 1,666",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_admitted": {
       "value": 1407,
-      "quote": "Total 1,407"
+      "quote": "Total 1,407",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 782,
-      "quote": "Total 782"
+      "quote": "Total 782",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "factor_rigor": {
       "value": "Not Considered",
-      "quote": "Rigor of secondary school record Not Considered"
+      "quote": "Rigor of secondary school record Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank Considered"
+      "quote": "Class rank Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_gpa": {
       "value": "Considered",
-      "quote": "Academic Grade Point Average (GPA) Considered"
+      "quote": "Academic Grade Point Average (GPA) Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendations Not Considered"
+      "quote": "Recommendations Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_test_scores": {
       "value": "Not Considered",
-      "quote": "Standardized test scores Not Considered"
+      "quote": "Standardized test scores Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_essay": {
       "value": "Considered",
-      "quote": "Application essay Considered"
+      "quote": "Application essay Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview Not Considered"
+      "quote": "Interview Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_extracurriculars": {
       "value": "Not Considered",
-      "quote": "Extracurriculuar activities Not Considered"
+      "quote": "Extracurriculuar activities Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_talent": {
       "value": "Not Considered",
-      "quote": "Talent/ability Not Considered"
+      "quote": "Talent/ability Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_character": {
       "value": "Not Considered",
-      "quote": "Character/personal qualities Not Considered"
+      "quote": "Character/personal qualities Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_first_generation": {
       "value": "Not Considered",
-      "quote": "First generation Not Considered"
+      "quote": "First generation Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation Not Considered"
+      "quote": "Alumni/ae relation Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence Not Considered"
+      "quote": "Geographical residence Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency Not Considered"
+      "quote": "State residency Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affilitation/commitment Not Considered"
+      "quote": "Religious affilitation/commitment Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_volunteer": {
       "value": "Not Considered",
-      "quote": "Volunteer work Not Considered"
+      "quote": "Volunteer work Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_work": {
       "value": "Not Considered",
-      "quote": "Work experience Not Considered"
+      "quote": "Work experience Not Considered",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     },
     "factor_interest": {
       "value": "Very Important",
-      "quote": "Level of applicant's interest Very Important"
+      "quote": "Level of applicant's interest Very Important",
+      "found": null,
+      "how": null,
+      "note": "factor table not readable"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.cwu.edu/about/offices/institutional-effectiveness/_documents/cwu_cds_2024-25.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 15,
+  "total": 39
 }

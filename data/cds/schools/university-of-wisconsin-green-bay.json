@@ -1,0 +1,49 @@
+{
+  "slug": "university-of-wisconsin-green-bay",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "2023-2024 Common Data Set Template - UW-Green Bay",
+    "url": "https://www.uwgb.edu/getmedia/9d42cfa3-87d3-4494-90de-19d822c854a9/CDS_2023_2024.pdf"
+  },
+  "builtAt": "2026-11-09",
+  "values": {
+    "sat_submit_pct": 3,
+    "act_submit_pct": 41,
+    "act_p25": 17,
+    "act_p50": 21,
+    "act_p75": 24,
+    "gpa_400_pct": 1.3,
+    "gpa_375_pct": 17.4,
+    "gpa_350_pct": 15,
+    "gpa_325_pct": 12.9,
+    "gpa_300_pct": 13.7,
+    "gpa_250_pct": 18.5,
+    "gpa_200_pct": 12.1,
+    "gpa_100_pct": 7.1,
+    "gpa_below1_pct": 2,
+    "gpa_average": 3.1,
+    "gpa_submit_pct": 97.1,
+    "deferral_allowed": "yes",
+    "deferral_max": "1yr"
+  },
+  "basis": {
+    "sat_submit_pct": "gemini",
+    "act_submit_pct": "gemini",
+    "act_p25": "both",
+    "act_p50": "both",
+    "act_p75": "both",
+    "gpa_400_pct": "both",
+    "gpa_375_pct": "both",
+    "gpa_350_pct": "both",
+    "gpa_325_pct": "both",
+    "gpa_300_pct": "both",
+    "gpa_250_pct": "both",
+    "gpa_200_pct": "both",
+    "gpa_100_pct": "both",
+    "gpa_below1_pct": "both",
+    "gpa_average": "reader",
+    "gpa_submit_pct": "both",
+    "deferral_allowed": "reader",
+    "deferral_max": "both"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "rutgers-university-newark",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024 RUTGERS UNIVERSITY – NEWARK",
+    "url": "https://oirap.rutgers.edu/CDS/2023/Newark%20CDS_2023-2024_final_V1.pdf"
+  },
+  "sourceUrl": "https://oirap.rutgers.edu/CDS/2023/Newark%20CDS_2023-2024_final_V1.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 17779,
+      "quote": "c1 total first-time, first-year (degree-seeking) who applied 17,779"
+    },
+    "admitted_total": {
+      "value": 13997,
+      "quote": "c1 total first-time, first-year (degree-seeking) who were admitted 13,997"
+    },
+    "enrolled_total": {
+      "value": 1408,
+      "quote": "c1 total first-time, first-year (degree-seeking) enrolled 1,408"
+    },
+    "rank_top10_pct": {
+      "value": 16,
+      "quote": "c10 percent in top tenth of high school graduating class 16%"
+    },
+    "rank_top25_pct": {
+      "value": 36,
+      "quote": "c10 percent in top quarter of high school graduating class 36%"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 3758,
+      "quote": "D2 total 3,758 2,535 770"
+    },
+    "transfer_admitted": {
+      "value": 2535,
+      "quote": "D2 total 3,758 2,535 770"
+    },
+    "transfer_enrolled": {
+      "value": 770,
+      "quote": "D2 total 3,758 2,535 770"
+    }
+  },
+  "concerns": null
+}

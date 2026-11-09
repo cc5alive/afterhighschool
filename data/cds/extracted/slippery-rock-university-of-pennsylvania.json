@@ -1,0 +1,176 @@
+{
+  "slug": "slippery-rock-university-of-pennsylvania",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.sru.edu/documents/offices/analytics-decision-support/whitepapers/CDS_2024-2025_SRU.pdf"
+  },
+  "sourceUrl": "https://www.sru.edu/documents/offices/analytics-decision-support/whitepapers/CDS_2024-2025_SRU.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 6464,
+      "quote": "total first-time, first-year who applied 6464 5244 1006 214 0"
+    },
+    "admitted_total": {
+      "value": 4620,
+      "quote": "total first-time, first-year who were admitted 4620 3803 754 63 0"
+    },
+    "enrolled_total": {
+      "value": 1548,
+      "quote": "total first-time, first-year who enrolled 1548 1392 145 11 0"
+    },
+    "rank_top10_pct": {
+      "value": 15,
+      "quote": "percent in top tenth of high school graduating class 15%"
+    },
+    "rank_top25_pct": {
+      "value": 42,
+      "quote": "percent in top quarter of high school graduating class 42%"
+    },
+    "gpa_400_pct": {
+      "value": 23.8,
+      "quote": "percent who had gpa of 4.0 8.0% 15.8% 23.8%"
+    },
+    "gpa_375_pct": {
+      "value": 21.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 4.9% 16.3% 21.1%"
+    },
+    "gpa_350_pct": {
+      "value": 18.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 3.7% 14.4% 18.1%"
+    },
+    "gpa_325_pct": {
+      "value": 13.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 2.4% 11.3% 13.7%"
+    },
+    "gpa_300_pct": {
+      "value": 11.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.1% 9.1% 11.1%"
+    },
+    "gpa_250_pct": {
+      "value": 11.6,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.4% 10.2% 11.6%"
+    },
+    "gpa_200_pct": {
+      "value": 0.4,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.4% 0.4%"
+    },
+    "gpa_average": {
+      "value": 3.58,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.58"
+    },
+    "sat_p25": {
+      "value": 1000,
+      "quote": "sat composite 1000 1090 1190"
+    },
+    "sat_p50": {
+      "value": 1090,
+      "quote": "sat composite 1000 1090 1190"
+    },
+    "sat_p75": {
+      "value": 1190,
+      "quote": "sat composite 1000 1090 1190"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 22 26"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 18 22 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 18 22 26"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1080,
+      "quote": "D2 total 1,080 714 471"
+    },
+    "transfer_admitted": {
+      "value": 714,
+      "quote": "D2 total 1,080 714 471"
+    },
+    "transfer_enrolled": {
+      "value": 471,
+      "quote": "D2 total 1,080 714 471"
+    }
+  },
+  "concerns": null
+}

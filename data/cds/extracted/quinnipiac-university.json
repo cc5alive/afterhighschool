@@ -1,0 +1,116 @@
+{
+  "slug": "quinnipiac-university",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Quinnipiac University Common Data Set 2023-2024",
+    "url": "https://www.qu.edu/499cca/globalassets/global/media/qu/documents/about/institutional-research/cds_2023-2024_quinnipiac.pdf"
+  },
+  "sourceUrl": "https://www.qu.edu/499cca/globalassets/global/media/qu/documents/about/institutional-research/cds_2023-2024_quinnipiac.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 516,
+      "quote": "number of wait-listed students admitted: 516"
+    },
+    "rank_top10_pct": {
+      "value": 20,
+      "quote": "percent in top tenth of high school graduating class 20.0%"
+    },
+    "rank_top25_pct": {
+      "value": 48.4,
+      "quote": "percent in top quarter of high school graduating class 48.4%"
+    },
+    "gpa_400_pct": {
+      "value": 16.9,
+      "quote": "percent who had gpa of 4.0 16.9%"
+    },
+    "gpa_375_pct": {
+      "value": 24.4,
+      "quote": "percent who had gpa between 3.75 and 3.99 24.4%"
+    },
+    "gpa_350_pct": {
+      "value": 25.3,
+      "quote": "percent who had gpa between 3.50 and 3.74 25.3%"
+    },
+    "gpa_325_pct": {
+      "value": 14.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 14.7%"
+    },
+    "gpa_300_pct": {
+      "value": 10.6,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.6%"
+    },
+    "gpa_250_pct": {
+      "value": 7.9,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.9%"
+    },
+    "gpa_200_pct": {
+      "value": 0.2,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.2%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.6,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.6"
+    },
+    "gpa_submit_pct": {
+      "value": 99.9,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.9%"
+    },
+    "ed_applied": {
+      "value": 91,
+      "quote": "number of early decision applications received by your institution: 91"
+    },
+    "ed_admitted": {
+      "value": 81,
+      "quote": "number of applicants admitted under early decision plan: 81"
+    },
+    "ea_applied": {
+      "value": 8861,
+      "quote": "number of early action applications received by your institution: 8,861"
+    },
+    "ea_admitted": {
+      "value": 8209,
+      "quote": "number of applicants admitted under early action plan: 8,209"
+    },
+    "transfer_applied": {
+      "value": 770,
+      "quote": "D2 total 770 516 212"
+    },
+    "transfer_admitted": {
+      "value": 516,
+      "quote": "D2 total 770 516 212"
+    },
+    "transfer_enrolled": {
+      "value": 212,
+      "quote": "D2 total 770 516 212"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "One Year",
+      "quote": "C18 maximum period of postponement: One Year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}
