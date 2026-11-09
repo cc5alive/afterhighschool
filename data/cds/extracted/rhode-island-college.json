@@ -1,0 +1,116 @@
+{
+  "slug": "rhode-island-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.ric.edu/documents/common-data-set-2025-2026"
+  },
+  "sourceUrl": "https://www.ric.edu/documents/common-data-set-2025-2026",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 5682,
+      "quote": "total first-time, first-year (degree-seeking) who applied 3516 2074 11 81 5682"
+    },
+    "admitted_total": {
+      "value": 4862,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 3049 1772 4 37 4862"
+    },
+    "enrolled_total": {
+      "value": 1179,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1050 128 1 0 1179"
+    },
+    "gpa_average": {
+      "value": 3.19,
+      "quote": "average high school gpa 3.19"
+    },
+    "gpa_submit_pct": {
+      "value": 95.08,
+      "quote": "percent submitting gpa 95.08"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ no 1\u0012$"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "C18 maximum period of postponement: 1 Year"
+    }
+  },
+  "concerns": null
+}

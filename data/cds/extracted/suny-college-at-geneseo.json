@@ -1,0 +1,172 @@
+{
+  "slug": "suny-college-at-geneseo",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "SUNY Geneseo Common Data Set 2023-2024 - C. FIRST-TIME, FIRST-YEAR ADMISSION",
+    "url": "https://www.geneseo.edu/wp-content/uploads/2024/03/CDS_2023-2024-C_0.pdf"
+  },
+  "sourceUrl": "https://www.geneseo.edu/wp-content/uploads/2024/03/CDS_2023-2024-C_0.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 13479,
+      "quote": "total first-time, first-year who applied 12857 426 196 0 13479"
+    },
+    "admitted_total": {
+      "value": 8563,
+      "quote": "total first-time, first-year who were admitted 8266 267 30 0 8563"
+    },
+    "enrolled_total": {
+      "value": 982,
+      "quote": "total first-time, first-year who enrolled 962 9 11 0 982"
+    },
+    "waitlist_admitted": {
+      "value": 202,
+      "quote": "number of wait-listed students admitted: 202"
+    },
+    "rank_top10_pct": {
+      "value": 27,
+      "quote": "percent in top tenth of high school graduating class 27%"
+    },
+    "rank_top25_pct": {
+      "value": 67,
+      "quote": "percent in top quarter of high school graduating class 67%"
+    },
+    "gpa_400_pct": {
+      "value": 22,
+      "quote": "percent who had gpa of 4.0 43% 18% 22.00%"
+    },
+    "gpa_375_pct": {
+      "value": 38,
+      "quote": "percent who had gpa between 3.75 and 3.99 38% 38% 38.00%"
+    },
+    "gpa_350_pct": {
+      "value": 24,
+      "quote": "percent who had gpa between 3.50 and 3.74 11% 26% 24.00%"
+    },
+    "gpa_325_pct": {
+      "value": 11,
+      "quote": "percent who had gpa between 3.25 and 3.49 4% 11% 11.00%"
+    },
+    "gpa_300_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 3.00 and 3.24 3% 4% 3.00%"
+    },
+    "gpa_250_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.50 and 2.99 0% 2% 1.00%"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.0 and 2.49 1% 1% 1.00%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0.00%"
+    },
+    "sat_p25": {
+      "value": 1205,
+      "quote": "sat composite 1205 1260 1330"
+    },
+    "sat_p50": {
+      "value": 1260,
+      "quote": "sat composite 1205 1260 1330"
+    },
+    "sat_p75": {
+      "value": 1330,
+      "quote": "sat composite 1205 1260 1330"
+    },
+    "act_p25": {
+      "value": 25.25,
+      "quote": "act composite 25.25 26 26.75"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "act composite 25.25 26 26.75"
+    },
+    "act_p75": {
+      "value": 26.75,
+      "quote": "act composite 25.25 26 26.75"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

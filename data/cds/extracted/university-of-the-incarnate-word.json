@@ -1,0 +1,168 @@
+{
+  "slug": "university-of-the-incarnate-word",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set Academic Year 2024 - 2025",
+    "url": "https://my.uiw.edu/ir/_docs/cds-24-25.pdf"
+  },
+  "sourceUrl": "https://my.uiw.edu/ir/_docs/cds-24-25.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11305,
+      "quote": "total first-time, first-year who applied 11305 10498 338 462 7"
+    },
+    "admitted_total": {
+      "value": 11096,
+      "quote": "total first-time, first-year who were admitted 11096 10353 330 413 0"
+    },
+    "enrolled_total": {
+      "value": 1016,
+      "quote": "total first-time, first-year who enrolled 1016 960 35 21 0"
+    },
+    "rank_top10_pct": {
+      "value": 18,
+      "quote": "percent in top tenth of high school graduating class 18%"
+    },
+    "rank_top25_pct": {
+      "value": 46,
+      "quote": "percent in top quarter of high school graduating class 46%"
+    },
+    "gpa_400_pct": {
+      "value": 17,
+      "quote": "percent who had gpa of 4.0 50 12 17%"
+    },
+    "gpa_375_pct": {
+      "value": 25,
+      "quote": "percent who had gpa between 3.75 and 3.99 25 21 25%"
+    },
+    "gpa_350_pct": {
+      "value": 23,
+      "quote": "percent who had gpa between 3.50 and 3.74 25 24 23%"
+    },
+    "gpa_325_pct": {
+      "value": 16,
+      "quote": "percent who had gpa between 3.25 and 3.49 0 18 16%"
+    },
+    "gpa_300_pct": {
+      "value": 11,
+      "quote": "percent who had gpa between 3.00 and 3.24 0 14 11%"
+    },
+    "gpa_250_pct": {
+      "value": 5,
+      "quote": "percent who had gpa between 2.50 and 2.99 0 6 5%"
+    },
+    "gpa_200_pct": {
+      "value": 2,
+      "quote": "percent who had gpa between 2.0 and 2.49 0 3 2%"
+    },
+    "gpa_100_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 2 1%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0 0%"
+    },
+    "gpa_average": {
+      "value": 3.54,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first- year students who submitted gpa: 3.54"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 20 24"
+    },
+    "act_p50": {
+      "value": 20,
+      "quote": "act composite 18 20 24"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "act composite 18 20 24"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 821,
+      "quote": "D2 total 821 771 386"
+    },
+    "transfer_admitted": {
+      "value": 771,
+      "quote": "D2 total 821 771 386"
+    },
+    "transfer_enrolled": {
+      "value": 386,
+      "quote": "D2 total 821 771 386"
+    }
+  },
+  "concerns": null
+}

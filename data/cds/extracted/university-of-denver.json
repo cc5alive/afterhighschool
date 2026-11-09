@@ -1,0 +1,212 @@
+{
+  "slug": "university-of-denver",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.du.edu/sites/default/files/2026-05/DU_Common_Data_Set_2025_2026_v2.pdf"
+  },
+  "sourceUrl": "https://www.du.edu/sites/default/files/2026-05/DU_Common_Data_Set_2025_2026_v2.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 16637,
+      "quote": "total first-time, first-year (degree-seeking) who applied 5623 10033 981 0 16637"
+    },
+    "admitted_total": {
+      "value": 14205,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 4765 8824 616 0 14205"
+    },
+    "enrolled_total": {
+      "value": 1174,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 405 727 42 0 1174"
+    },
+    "waitlist_admitted": {
+      "value": 0,
+      "quote": "number of wait-listed students admitted: 0"
+    },
+    "rank_top10_pct": {
+      "value": 34,
+      "quote": "percent in top tenth of high school graduating class 34%"
+    },
+    "rank_top25_pct": {
+      "value": 65,
+      "quote": "percent in top quarter of high school graduating class 65%"
+    },
+    "gpa_400_pct": {
+      "value": 35.5,
+      "quote": "percent who had gpa of 4.0 51.3% 26.9% 35.5%"
+    },
+    "gpa_375_pct": {
+      "value": 20.7,
+      "quote": "percent who had gpa between 3.75 and 3.99 18.7% 21.8% 20.7%"
+    },
+    "gpa_350_pct": {
+      "value": 18.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 13.9% 20.4% 18.1%"
+    },
+    "gpa_325_pct": {
+      "value": 11.1,
+      "quote": "percent who had gpa between 3.25 and 3.49 9.2% 12.0% 11.1%"
+    },
+    "gpa_300_pct": {
+      "value": 7.7,
+      "quote": "percent who had gpa between 3.00 and 3.24 3.4% 10.1% 7.7%"
+    },
+    "gpa_250_pct": {
+      "value": 6.7,
+      "quote": "percent who had gpa between 2.50 and 2.99 3.4% 8.5% 6.7%"
+    },
+    "gpa_200_pct": {
+      "value": 0.3,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.0% 0.4% 0.3%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.0% 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0% 0.0% 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.68,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students c12 3.68"
+    },
+    "gpa_submit_pct": {
+      "value": 99.4,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.4%"
+    },
+    "ed_applied": {
+      "value": 273,
+      "quote": "number of early decision applications received by your institution 273"
+    },
+    "ed_admitted": {
+      "value": 231,
+      "quote": "number of applicants admitted under early decision plan 231"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "sat composite 1160 1280 1360"
+    },
+    "sat_p50": {
+      "value": 1280,
+      "quote": "sat composite 1160 1280 1360"
+    },
+    "sat_p75": {
+      "value": 1360,
+      "quote": "sat composite 1160 1280 1360"
+    },
+    "act_p25": {
+      "value": 27,
+      "quote": "act composite 27 30 32"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "act composite 27 30 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 27 30 32"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 460,
+      "quote": "D2 total 460 373 160"
+    },
+    "transfer_admitted": {
+      "value": 373,
+      "quote": "D2 total 460 373 160"
+    },
+    "transfer_enrolled": {
+      "value": 160,
+      "quote": "D2 total 460 373 160"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

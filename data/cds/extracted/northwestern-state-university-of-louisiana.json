@@ -1,0 +1,108 @@
+{
+  "slug": "northwestern-state-university-of-louisiana",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024",
+    "url": "https://dps.apps.nsula.edu/view/13318/CDS_UNL2_2023_2024.pdf"
+  },
+  "sourceUrl": "https://dps.apps.nsula.edu/view/13318",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "rank_top10_pct": {
+      "value": 16.4,
+      "quote": "percent in top tenth of high school graduating class 16.4%"
+    },
+    "rank_top25_pct": {
+      "value": 42.2,
+      "quote": "percent in top quarter of high school graduating class 42.2%"
+    },
+    "gpa_400_pct": {
+      "value": 5.7,
+      "quote": "percent who had gpa of 4.0 5.7% 1.6% 5.5%"
+    },
+    "gpa_375_pct": {
+      "value": 21.3,
+      "quote": "percent who had gpa between 3.75 and 3.99 21.3% 3.2% 20.2%"
+    },
+    "gpa_350_pct": {
+      "value": 22.4,
+      "quote": "percent who had gpa between 3.50 and 3.74 22.4% 12.7% 21.8%"
+    },
+    "gpa_325_pct": {
+      "value": 21.6,
+      "quote": "percent who had gpa between 3.25 and 3.49 21.6% 15.9% 21.3%"
+    },
+    "gpa_300_pct": {
+      "value": 10.7,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.7% 22.2% 11.3%"
+    },
+    "gpa_250_pct": {
+      "value": 14.3,
+      "quote": "percent who had gpa between 2.50 and 2.99 14.3% 30.2% 15.2%"
+    },
+    "gpa_200_pct": {
+      "value": 3.8,
+      "quote": "percent who had gpa between 2.0 and 2.49 3.8% 11.1% 4.3%"
+    },
+    "gpa_100_pct": {
+      "value": 0.2,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.2% 3.2% 0.4%"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 total 100.0% 100.0% 100.0%"
+    },
+    "gpa_average": {
+      "value": 3.4,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.4"
+    },
+    "gpa_submit_pct": {
+      "value": 99.3,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.3%"
+    },
+    "sat_p25": {
+      "value": 950,
+      "quote": "sat composite (400 - 1600) 950 1090 1180"
+    },
+    "sat_p50": {
+      "value": 1090,
+      "quote": "sat composite (400 - 1600) 950 1090 1180"
+    },
+    "sat_p75": {
+      "value": 1180,
+      "quote": "sat composite (400 - 1600) 950 1090 1180"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite (0 - 36) 18 21 24"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "act composite (0 - 36) 18 21 24"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "act composite (0 - 36) 18 21 24"
+    },
+    "transfer_applied": {
+      "value": 762,
+      "quote": "D2 total 762 679 412"
+    },
+    "transfer_admitted": {
+      "value": 679,
+      "quote": "D2 total 762 679 412"
+    },
+    "transfer_enrolled": {
+      "value": 412,
+      "quote": "D2 total 762 679 412"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    }
+  },
+  "concerns": null
+}

@@ -9,16 +9,31 @@
   "values": {
     "applied_total": {
       "value": 10359,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 10,359"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 10,359",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 8853,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 8,853"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 8,853",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 1448,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 1,448"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1,448",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.mtu.edu/institutional-research/cds/files/cds-2025-2026.xlsx",
+  "docKind": "xlsx",
+  "checkedAt": "2026-11-09",
+  "verified": 2,
+  "total": 3
 }

@@ -1,0 +1,188 @@
+{
+  "slug": "university-of-washington-bothell-campus",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_bothell.pdf"
+  },
+  "sourceUrl": "https://finance.uw.edu/iads/files/docs/ipeds/common_data_set/cds_2025-2026_bothell.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 5616,
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 4585 982 49 5616"
+    },
+    "admitted_total": {
+      "value": 4852,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 45 4067 740 0 4852"
+    },
+    "enrolled_total": {
+      "value": 1157,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1126 16 15 0 1157"
+    },
+    "waitlist_admitted": {
+      "value": 334,
+      "quote": "number of wait-listed students admitted: 334"
+    },
+    "gpa_400_pct": {
+      "value": 3.35,
+      "quote": "percent who had gpa of 4.0 3.35"
+    },
+    "gpa_375_pct": {
+      "value": 28.18,
+      "quote": "percent who had gpa between 3.75 and 3.99 28.18"
+    },
+    "gpa_350_pct": {
+      "value": 26.89,
+      "quote": "percent who had gpa between 3.50 and 3.74 26.89"
+    },
+    "gpa_325_pct": {
+      "value": 21.05,
+      "quote": "percent who had gpa between 3.25 and 3.49 21.05"
+    },
+    "gpa_300_pct": {
+      "value": 14,
+      "quote": "percent who had gpa between 3.00 and 3.24 14"
+    },
+    "gpa_250_pct": {
+      "value": 6.53,
+      "quote": "percent who had gpa between 2.50 and 2.99 6.53"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    },
+    "gpa_average": {
+      "value": 3.53,
+      "quote": "average high school gpa 3.53"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100"
+    },
+    "sat_p25": {
+      "value": 1030,
+      "quote": "sat composite 1030 1215 1360"
+    },
+    "sat_p50": {
+      "value": 1215,
+      "quote": "sat composite 1030 1215 1360"
+    },
+    "sat_p75": {
+      "value": 1360,
+      "quote": "sat composite 1030 1215 1360"
+    },
+    "act_p25": {
+      "value": 23.5,
+      "quote": "act composite 23.5 26 30.5"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "act composite 23.5 26 30.5"
+    },
+    "act_p75": {
+      "value": 30.5,
+      "quote": "act composite 23.5 26 30.5"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Important",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1419,
+      "quote": "D2 total 1419 987 649"
+    },
+    "transfer_admitted": {
+      "value": 987,
+      "quote": "D2 total 1419 987 649"
+    },
+    "transfer_enrolled": {
+      "value": 649,
+      "quote": "D2 total 1419 987 649"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    }
+  },
+  "concerns": null
+}

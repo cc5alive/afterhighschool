@@ -1,0 +1,96 @@
+{
+  "slug": "morehouse-college",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024: C. First-Time, First-Year Admission",
+    "url": "https://morehouse.edu/hubfs/DIRE/First-Time%2C%20First-Year%20(Freshman)%20Admission.pdf"
+  },
+  "sourceUrl": "https://morehouse.edu/hubfs/DIRE/First-Time%2C%20First-Year%20(Freshman)%20Admission.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 27,
+      "quote": "number of wait-listed students admitted: 27"
+    },
+    "gpa_400_pct": {
+      "value": 18.9,
+      "quote": "percent who had gpa of 4.0 18.9%"
+    },
+    "gpa_375_pct": {
+      "value": 17.4,
+      "quote": "percent who had gpa between 3.75 and 3.99 17.4%"
+    },
+    "gpa_350_pct": {
+      "value": 24.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 24.1%"
+    },
+    "gpa_325_pct": {
+      "value": 17.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 17.7%"
+    },
+    "gpa_300_pct": {
+      "value": 15.6,
+      "quote": "percent who had gpa between 3.00 and 3.24 15.6%"
+    },
+    "gpa_250_pct": {
+      "value": 4.8,
+      "quote": "percent who had gpa between 2.50 and 2.99 4.8%"
+    },
+    "gpa_200_pct": {
+      "value": 1.5,
+      "quote": "percent who had gpa between 2.0 and 2.49 1.5%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.55,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.55"
+    },
+    "gpa_submit_pct": {
+      "value": 98,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 98.0%"
+    },
+    "ed_applied": {
+      "value": 1864,
+      "quote": "number of early decision applications received by your institution: 1,864"
+    },
+    "ed_admitted": {
+      "value": 1322,
+      "quote": "number of applicants admitted under early decision plan: 1,322"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite (0 - 36) 19 20 23"
+    },
+    "act_p50": {
+      "value": 20,
+      "quote": "act composite (0 - 36) 19 20 23"
+    },
+    "act_p75": {
+      "value": 23,
+      "quote": "act composite (0 - 36) 19 20 23"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

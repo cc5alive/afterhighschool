@@ -1,0 +1,20 @@
+{
+  "slug": "butler-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025 Section C: First-Time, First-Year Admission",
+    "url": "https://cdn.butler.edu/www/sites/3/2025/02/08093226/CDS_2024_2025-C.pdf"
+  },
+  "sourceUrl": "https://cdn.butler.edu/www/sites/3/2025/02/08093226/CDS_2024_2025-C.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "gpa_average": {
+      "value": 3.86,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year 3.86"
+    }
+  },
+  "concerns": null
+}

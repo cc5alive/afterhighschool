@@ -1,0 +1,204 @@
+{
+  "slug": "loyola-university-maryland",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Loyola University Maryland Common Data Set 2025-2026",
+    "url": "https://www.loyola.edu/_media/department/institutional-research/documents/cds/CDS_2025-2026-PDF_FINAL_20260408.pdf"
+  },
+  "sourceUrl": "https://www.loyola.edu/_media/department/institutional-research/documents/cds/CDS_2025-2026-PDF_FINAL_20260408.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11850,
+      "quote": "total first-time, first-year (degree-seeking) who applied 24 4019 6664 1143 11850"
+    },
+    "admitted_total": {
+      "value": 8278,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 308 2605 5349 16 8278"
+    },
+    "enrolled_total": {
+      "value": 1079,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 400 638 35 6 1079"
+    },
+    "waitlist_admitted": {
+      "value": 45,
+      "quote": "number of wait-listed students admitted: 45"
+    },
+    "rank_top10_pct": {
+      "value": 22.3,
+      "quote": "percent in top tenth of high school graduating class 22.3"
+    },
+    "rank_top25_pct": {
+      "value": 56.79,
+      "quote": "percent in top quarter of high school graduating class 56.79"
+    },
+    "gpa_400_pct": {
+      "value": 34.013,
+      "quote": "percent who had gpa of 4.0 44.67 32.293 34.013"
+    },
+    "gpa_375_pct": {
+      "value": 20.945,
+      "quote": "percent who had gpa between 3.75 and 3.99 28 19.806 20.945"
+    },
+    "gpa_350_pct": {
+      "value": 19.555,
+      "quote": "percent who had gpa between 3.50 and 3.74 12 20.775 19.555"
+    },
+    "gpa_325_pct": {
+      "value": 13.068,
+      "quote": "percent who had gpa between 3.25 and 3.49 8 13.886 13.068"
+    },
+    "gpa_300_pct": {
+      "value": 7.414,
+      "quote": "percent who had gpa between 3.00 and 3.24 4 7.966 7.414"
+    },
+    "gpa_250_pct": {
+      "value": 4.078,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.33 4.521 4.078"
+    },
+    "gpa_200_pct": {
+      "value": 0.927,
+      "quote": "percent who had gpa between 2.0 and 2.49 2 0.753 0.927"
+    },
+    "gpa_average": {
+      "value": 3.69,
+      "quote": "average high school gpa 3.69"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100"
+    },
+    "ed_applied": {
+      "value": 157,
+      "quote": "number of early decision applications received by your institution: 157"
+    },
+    "ed_admitted": {
+      "value": 62,
+      "quote": "number of applicants admitted under early decision plan: 62"
+    },
+    "sat_p25": {
+      "value": 1250,
+      "quote": "sat composite 1250 1310 1370"
+    },
+    "sat_p50": {
+      "value": 1310,
+      "quote": "sat composite 1250 1310 1370"
+    },
+    "sat_p75": {
+      "value": 1370,
+      "quote": "sat composite 1250 1310 1370"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 29 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 29 31 33"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 436,
+      "quote": "D2 total 436 161 69"
+    },
+    "transfer_admitted": {
+      "value": 161,
+      "quote": "D2 total 436 161 69"
+    },
+    "transfer_enrolled": {
+      "value": 69,
+      "quote": "D2 total 436 161 69"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

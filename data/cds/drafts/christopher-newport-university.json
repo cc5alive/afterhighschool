@@ -9,112 +9,199 @@
   "values": {
     "applied_total": {
       "value": 7341,
-      "quote": "Total first-time, first-year who applied 7341"
+      "quote": "Total first-time, first-year who applied 7341",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 6316,
-      "quote": "Total first-time, first-year who were admitted 6316"
+      "quote": "Total first-time, first-year who were admitted 6316",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 1140,
-      "quote": "Total first-time, first-year who enrolled 1140"
+      "quote": "Total first-time, first-year who enrolled 1140",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_offered": {
       "value": 378,
-      "quote": "Number of qualified applicants offered a place on waiting list: 378"
+      "quote": "Number of qualified applicants offered a place on waiting list: 378",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 86,
-      "quote": "Number accepting a place on the waiting list: 86"
+      "quote": "Number accepting a place on the waiting list: 86",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 36,
-      "quote": "Number of wait-listed students admitted: 36"
+      "quote": "Number of wait-listed students admitted: 36",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_essay": {
       "value": "Important",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Important",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_extracurriculars": {
       "value": "Considered",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": false,
+      "how": null,
+      "note": "document shows Considered"
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "transfer_applied": {
       "value": 467,
-      "quote": "Total 467"
+      "quote": "Total 467",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_admitted": {
       "value": 329,
-      "quote": "Total 329"
+      "quote": "Total 329",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 187,
-      "quote": "Total 187"
+      "quote": "Total 187",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": "CNU omitted sections C9, C10, C11, C12, and C13-C22 in their published 2024-2025 Common Data Set document."
+  "concerns": "CNU omitted sections C9, C10, C11, C12, and C13-C22 in their published 2024-2025 Common Data Set document.",
+  "httpStatus": 200,
+  "finalUrl": "https://cnu.edu/institutional-research/_documents/commondataset/cds_2024-2025.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 14,
+  "total": 27
 }

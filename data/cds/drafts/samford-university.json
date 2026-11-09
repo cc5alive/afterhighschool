@@ -9,208 +9,367 @@
   "values": {
     "applied_total": {
       "value": 5114,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 1353 3563 198 5114"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 1353 3563 198 5114",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 4055,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 596 3405 54 4055"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 596 3405 54 4055",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 1157,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 283 868 6 1157"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 283 868 6 1157",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "waitlist_offered": {
       "value": 217,
-      "quote": "Number of qualified applicants offered a place on waiting list: 217"
+      "quote": "Number of qualified applicants offered a place on waiting list: 217",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 84,
-      "quote": "Number accepting a place on the waiting list: 84"
+      "quote": "Number accepting a place on the waiting list: 84",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 22,
-      "quote": "Number of wait-listed students admitted: 22"
+      "quote": "Number of wait-listed students admitted: 22",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 26,
-      "quote": "Submitting SAT Scores 26%"
+      "quote": "Submitting SAT Scores 26%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 65,
-      "quote": "Submitting ACT Scores 65%"
+      "quote": "Submitting ACT Scores 65%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1090,
-      "quote": "SAT Composite 1090 1160 1230"
+      "quote": "SAT Composite 1090 1160 1230",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1160,
-      "quote": "SAT Composite 1090 1160 1230"
+      "quote": "SAT Composite 1090 1160 1230",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1230,
-      "quote": "SAT Composite 1090 1160 1230"
+      "quote": "SAT Composite 1090 1160 1230",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 22,
-      "quote": "ACT Composite 22 25 29"
+      "quote": "ACT Composite 22 25 29",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 25,
-      "quote": "ACT Composite 22 25 29"
+      "quote": "ACT Composite 22 25 29",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 29,
-      "quote": "ACT Composite 22 25 29"
+      "quote": "ACT Composite 22 25 29",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 29,
-      "quote": "Percent in top tenth of high school graduating class 29%"
+      "quote": "Percent in top tenth of high school graduating class 29%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 58,
-      "quote": "Percent in top quarter of high school graduating class 58%"
+      "quote": "Percent in top quarter of high school graduating class 58%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 27,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 27%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 27%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 45.07,
-      "quote": "Percent who had GPA of 4.0 45.07%"
+      "quote": "Percent who had GPA of 4.0 45.07%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 21.89,
-      "quote": "Percent who had GPA between 3.75 and 3.99 21.89%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 21.89%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 15.4,
-      "quote": "Percent who had GPA between 3.50 and 3.74 15.40%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 15.40%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 8.74,
-      "quote": "Percent who had GPA between 3.25 and 3.49 8.74%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 8.74%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 5.8,
-      "quote": "Percent who had GPA between 3.00 and 3.24 5.80%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 5.80%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 2.94,
-      "quote": "Percent who had GPA between 2.50 and 2.99 2.94%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 2.94%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 0.09,
-      "quote": "Percent who had GPA between 2.0 and 2.49 0.09%"
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.09%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0.09,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.09%"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.09%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0%"
+      "quote": "Percent who had GPA below 1.0 0%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.87,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.87"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.87",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100.00%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100.00%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "Does your institution allow students to postpone enrollment after admission? Y"
+      "quote": "Does your institution allow students to postpone enrollment after admission? Y",
+      "found": false,
+      "how": null,
+      "note": "value not in quote"
     },
     "deferral_max": {
       "value": "1 YEAR",
-      "quote": "If yes, maximum period of postponement: 1 YEAR"
+      "quote": "If yes, maximum period of postponement: 1 YEAR",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_class_rank": {
       "value": "Considered",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Very Important",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_essay": {
       "value": "Considered",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": false,
+      "how": null,
+      "note": "document shows Very Important"
     },
     "factor_recommendations": {
       "value": "Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": false,
+      "how": null,
+      "note": "document shows Very Important"
     },
     "factor_interview": {
       "value": "Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Considered",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Considered",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_character": {
       "value": "Considered",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": false,
+      "how": null,
+      "note": "document shows Important"
     },
     "factor_first_generation": {
       "value": "Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_alumni": {
       "value": "Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_geography": {
       "value": "Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_state_residency": {
       "value": "Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_religion": {
       "value": "Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": false,
+      "how": null,
+      "note": "document shows Not Considered"
     },
     "factor_volunteer": {
       "value": "Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Considered",
-      "quote": "Level of applicant's interest"
+      "quote": "Level of applicant's interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "transfer_applied": {
       "value": 251,
-      "quote": "Total 251"
+      "quote": "Total 251",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_admitted": {
       "value": 192,
-      "quote": "Total 192"
+      "quote": "Total 192",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 132,
-      "quote": "Total 132"
+      "quote": "Total 132",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.samford.edu/departments/files/Institutional_Effectiveness/2025-2026/Section-C-First-Time-First-Year-Freshman-Admission.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 32,
+  "total": 51
 }

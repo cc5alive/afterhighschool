@@ -1,0 +1,146 @@
+{
+  "slug": "suny-brockport",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024",
+    "url": "https://www.brockport.edu/live/files/7692-common-data-set-2023-2024"
+  },
+  "sourceUrl": "https://www.brockport.edu/live/files/7692-common-data-set-2023-2024",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "gpa_400_pct": {
+      "value": 0,
+      "quote": "percent who had gpa of 4.0 0% 0% 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0%"
+    },
+    "applied_total": {
+      "value": 10845,
+      "quote": "total first-time, first-year men who applied 4,750 / total first-time, first-year women who applied 6,095 / total first-time, first-year of another gender who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 7738,
+      "quote": "total first-time, first-year men who were admitted 3,253 / total first-time, first-year women who were admitted 4,485 / total first-time, first-year of another gender who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1070,
+      "quote": "sat composite 1070 1150 1230"
+    },
+    "sat_p50": {
+      "value": 1150,
+      "quote": "sat composite 1070 1150 1230"
+    },
+    "sat_p75": {
+      "value": 1230,
+      "quote": "sat composite 1070 1150 1230"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 22 26"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 18 22 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 18 22 26"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 2177,
+      "quote": "D2 total 2,177 1,318 726"
+    },
+    "transfer_admitted": {
+      "value": 1318,
+      "quote": "D2 total 2,177 1,318 726"
+    },
+    "transfer_enrolled": {
+      "value": 726,
+      "quote": "D2 total 2,177 1,318 726"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☒ yes ☐ no"
+    }
+  },
+  "concerns": null
+}

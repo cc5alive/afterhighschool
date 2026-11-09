@@ -1,0 +1,176 @@
+{
+  "slug": "whitman-college",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "CDS 2025-26 Whitman College Final.xlsx",
+    "url": "https://www.whitman.edu/documents/offices/institutional-research/2026/2025%20Whitman%20CDS.pdf"
+  },
+  "sourceUrl": "https://www.whitman.edu/documents/offices/institutional-research/2026/2025%20Whitman%20CDS.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 6950,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1178 2507 3265 0 6950"
+    },
+    "admitted_total": {
+      "value": 2791,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 818 1720 253 0 2791"
+    },
+    "enrolled_total": {
+      "value": 373,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 110 223 40 0 373"
+    },
+    "waitlist_admitted": {
+      "value": 33,
+      "quote": "number of wait-listed students admitted: 33"
+    },
+    "rank_top10_pct": {
+      "value": 52,
+      "quote": "percent in top tenth of high school graduating class 52%"
+    },
+    "rank_top25_pct": {
+      "value": 83,
+      "quote": "percent in top quarter of high school graduating class 83%"
+    },
+    "gpa_400_pct": {
+      "value": 10.44,
+      "quote": "percent who had gpa of 4.0 22% 5% 10.44%"
+    },
+    "gpa_375_pct": {
+      "value": 46.84,
+      "quote": "percent who had gpa between 3.75 and 3.99 52% 44% 46.84%"
+    },
+    "gpa_350_pct": {
+      "value": 21.84,
+      "quote": "percent who had gpa between 3.50 and 3.74 17% 24% 21.84%"
+    },
+    "gpa_325_pct": {
+      "value": 14.56,
+      "quote": "percent who had gpa between 3.25 and 3.49 8% 18% 14.56%"
+    },
+    "gpa_300_pct": {
+      "value": 3.8,
+      "quote": "percent who had gpa between 3.00 and 3.24 1% 5% 3.80%"
+    },
+    "gpa_250_pct": {
+      "value": 4,
+      "quote": "percent who had gpa between 2.50 and 2.99 4% 2.53%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.91,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.91"
+    },
+    "ed_applied": {
+      "value": 542,
+      "quote": "number of early decision applications received by your institution 542"
+    },
+    "ed_admitted": {
+      "value": 114,
+      "quote": "number of applicants admitted under early decision plan 114"
+    },
+    "act_p25": {
+      "value": 29,
+      "quote": "act composite 29 32 33"
+    },
+    "act_p50": {
+      "value": 32,
+      "quote": "act composite 29 32 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 29 32 33"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 152,
+      "quote": "D2 total 152 81 40"
+    },
+    "transfer_admitted": {
+      "value": 81,
+      "quote": "D2 total 152 81 40"
+    },
+    "transfer_enrolled": {
+      "value": 40,
+      "quote": "D2 total 152 81 40"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

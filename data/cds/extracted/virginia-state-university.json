@@ -1,0 +1,148 @@
+{
+  "slug": "virginia-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.vsu.edu/files/docs/instit-planning-effectiveness/2025-2026-vsu-common-data-set.pdf"
+  },
+  "sourceUrl": "https://www.vsu.edu/files/docs/instit-planning-effectiveness/2025-2026-vsu-common-data-set.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 11775,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4100 7675 11775"
+    },
+    "admitted_total": {
+      "value": 10436,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 3793 6643 10436"
+    },
+    "enrolled_total": {
+      "value": 1196,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 881 315 1196"
+    },
+    "rank_top10_pct": {
+      "value": 10,
+      "quote": "percent in top tenth of high school graduating class 10.00"
+    },
+    "rank_top25_pct": {
+      "value": 23,
+      "quote": "percent in top quarter of high school graduating class 23.00"
+    },
+    "gpa_average": {
+      "value": 2.97,
+      "quote": "average high school gpa 2.97"
+    },
+    "gpa_submit_pct": {
+      "value": 83,
+      "quote": "percent submitting gpa 83.00"
+    },
+    "sat_p25": {
+      "value": 838,
+      "quote": "sat composite 838 920 1010"
+    },
+    "sat_p50": {
+      "value": 920,
+      "quote": "sat composite 838 920 1010"
+    },
+    "sat_p75": {
+      "value": 1010,
+      "quote": "sat composite 838 920 1010"
+    },
+    "act_p25": {
+      "value": 14,
+      "quote": "act composite 14 18 19"
+    },
+    "act_p50": {
+      "value": 18,
+      "quote": "act composite 14 18 19"
+    },
+    "act_p75": {
+      "value": 19,
+      "quote": "act composite 14 18 19"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ no 1\u0012$"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "C18 maximum period of postponement: 1 Year"
+    }
+  },
+  "concerns": null
+}

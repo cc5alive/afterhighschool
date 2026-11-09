@@ -1,0 +1,176 @@
+{
+  "slug": "samford-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.samford.edu/departments/files/Institutional_Effectiveness/2025-2026/Section-C-First-Time-First-Year-Freshman-Admission.pdf"
+  },
+  "sourceUrl": "https://www.samford.edu/departments/files/Institutional_Effectiveness/2025-2026/Section-C-First-Time-First-Year-Freshman-Admission.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 5114,
+      "quote": "total first-time, first-year (degree-seeking) who applied 1353 3563 198 5114"
+    },
+    "admitted_total": {
+      "value": 4055,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 596 3405 54 4055"
+    },
+    "enrolled_total": {
+      "value": 1157,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 283 868 6 1157"
+    },
+    "waitlist_admitted": {
+      "value": 22,
+      "quote": "number of wait-listed students admitted: 22"
+    },
+    "rank_top10_pct": {
+      "value": 29,
+      "quote": "percent in top tenth of high school graduating class 29%"
+    },
+    "rank_top25_pct": {
+      "value": 58,
+      "quote": "percent in top quarter of high school graduating class 58%"
+    },
+    "gpa_400_pct": {
+      "value": 45.07,
+      "quote": "percent who had gpa of 4.0 49.49% 21.11% 45.07%"
+    },
+    "gpa_375_pct": {
+      "value": 21.89,
+      "quote": "percent who had gpa between 3.75 and 3.99 21.72% 22.78% 21.89%"
+    },
+    "gpa_350_pct": {
+      "value": 15.4,
+      "quote": "percent who had gpa between 3.50 and 3.74 13.93% 23.33% 15.40%"
+    },
+    "gpa_325_pct": {
+      "value": 8.74,
+      "quote": "percent who had gpa between 3.25 and 3.49 7.48% 15.56% 8.74%"
+    },
+    "gpa_300_pct": {
+      "value": 5.8,
+      "quote": "percent who had gpa between 3.00 and 3.24 4.41% 13.33% 5.80%"
+    },
+    "gpa_250_pct": {
+      "value": 2.94,
+      "quote": "percent who had gpa between 2.50 and 2.99 2.77% 3.89% 2.94%"
+    },
+    "gpa_200_pct": {
+      "value": 0.09,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.10% 0.00% 0.09%"
+    },
+    "gpa_100_pct": {
+      "value": 0.09,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.10% 0.00% 0.09%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.87,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year c12 3.87"
+    },
+    "sat_p25": {
+      "value": 1090,
+      "quote": "sat composite 1090 1160 1230"
+    },
+    "sat_p50": {
+      "value": 1160,
+      "quote": "sat composite 1090 1160 1230"
+    },
+    "sat_p75": {
+      "value": 1230,
+      "quote": "sat composite 1090 1160 1230"
+    },
+    "act_p25": {
+      "value": 22,
+      "quote": "act composite 22 25 29"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "act composite 22 25 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "act composite 22 25 29"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}

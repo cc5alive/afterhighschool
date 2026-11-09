@@ -1,0 +1,188 @@
+{
+  "slug": "university-of-nebraska-at-kearney",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.unk.edu/factbook/_files/cds-2025-26-pdf_final.pdf"
+  },
+  "sourceUrl": "https://www.unk.edu/factbook/_files/cds-2025-26-pdf_final.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 5226,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4653 320 253 5226"
+    },
+    "admitted_total": {
+      "value": 4479,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 4075 254 150 4479"
+    },
+    "enrolled_total": {
+      "value": 803,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 699 76 28 803"
+    },
+    "rank_top10_pct": {
+      "value": 20,
+      "quote": "percent in top tenth of high school graduating class 20%"
+    },
+    "rank_top25_pct": {
+      "value": 46,
+      "quote": "percent in top quarter of high school graduating class 46%"
+    },
+    "gpa_400_pct": {
+      "value": 17.03,
+      "quote": "percent who had gpa of 4.0 17.91% 5.66% 17.03%"
+    },
+    "gpa_375_pct": {
+      "value": 30.11,
+      "quote": "percent who had gpa between 3.75 and 3.99 31.57% 11.32% 30.11%"
+    },
+    "gpa_350_pct": {
+      "value": 15.53,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.86% 11.32% 15.53%"
+    },
+    "gpa_325_pct": {
+      "value": 10.63,
+      "quote": "percent who had gpa between 3.25 and 3.49 10.43% 13.21% 10.63%"
+    },
+    "gpa_300_pct": {
+      "value": 11.04,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.43% 18.87% 11.04%"
+    },
+    "gpa_250_pct": {
+      "value": 10.63,
+      "quote": "percent who had gpa between 2.50 and 2.99 9.99% 18.87% 10.63%"
+    },
+    "gpa_200_pct": {
+      "value": 4.22,
+      "quote": "percent who had gpa between 2.0 and 2.49 3.38% 15.09% 4.22%"
+    },
+    "gpa_100_pct": {
+      "value": 0.68,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.29% 5.66% 0.68%"
+    },
+    "gpa_below1_pct": {
+      "value": 0.13,
+      "quote": "percent who had gpa below 1.0 0.14% 0.00% 0.13%"
+    },
+    "gpa_average": {
+      "value": 3.52,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.52"
+    },
+    "sat_p25": {
+      "value": 903,
+      "quote": "sat composite 903 1010 1158"
+    },
+    "sat_p50": {
+      "value": 1010,
+      "quote": "sat composite 903 1010 1158"
+    },
+    "sat_p75": {
+      "value": 1158,
+      "quote": "sat composite 903 1010 1158"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 22 25"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 18 22 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 18 22 25"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 665,
+      "quote": "D2 total 665 479 302"
+    },
+    "transfer_admitted": {
+      "value": 479,
+      "quote": "D2 total 665 479 302"
+    },
+    "transfer_enrolled": {
+      "value": 302,
+      "quote": "D2 total 665 479 302"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    }
+  },
+  "concerns": null
+}

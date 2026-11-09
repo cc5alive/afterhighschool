@@ -9,152 +9,269 @@
   "values": {
     "applied_total": {
       "value": 9784,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 9784"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 9784",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "admitted_total": {
       "value": 6874,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 6874"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 6874",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "enrolled_total": {
       "value": 1042,
-      "quote": "Total first-time, first-year (degree-seeking) enrolled 1042"
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1042",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "waitlist_offered": {
       "value": 1355,
-      "quote": "Number of qualified applicants offered a place on waiting list: 1355"
+      "quote": "Number of qualified applicants offered a place on waiting list: 1355",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_accepted": {
       "value": 238,
-      "quote": "Number accepting a place on the waiting list: 238"
+      "quote": "Number accepting a place on the waiting list: 238",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "waitlist_admitted": {
       "value": 68,
-      "quote": "Number of wait-listed students admitted: 68"
+      "quote": "Number of wait-listed students admitted: 68",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 21.2,
-      "quote": "Submitting SAT Scores 21.20"
+      "quote": "Submitting SAT Scores 21.20",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 1.5,
-      "quote": "Submitting ACT Scores 1.50"
+      "quote": "Submitting ACT Scores 1.50",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 1145,
-      "quote": "SAT Composite 1145"
+      "quote": "SAT Composite 1145",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1210,
-      "quote": "SAT Composite 1210"
+      "quote": "SAT Composite 1210",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "sat_p75": {
       "value": 1280,
-      "quote": "SAT Composite 1280"
+      "quote": "SAT Composite 1280",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p25": {
       "value": 21,
-      "quote": "ACT Composite 21"
+      "quote": "ACT Composite 21",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 26,
-      "quote": "ACT Composite 26"
+      "quote": "ACT Composite 26",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "act_p75": {
       "value": 28,
-      "quote": "ACT Composite 28"
+      "quote": "ACT Composite 28",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 15.7,
-      "quote": "Percent in top tenth of high school graduating class 15.70"
+      "quote": "Percent in top tenth of high school graduating class 15.70",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 42.9,
-      "quote": "Percent in top quarter of high school graduating class 42.90"
+      "quote": "Percent in top quarter of high school graduating class 42.90",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 32.9,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 32.90"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 32.90",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 8.8,
-      "quote": "Percent who had GPA of 4.0 8.80"
+      "quote": "Percent who had GPA of 4.0 8.80",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 21.1,
-      "quote": "Percent who had GPA between 3.75 and 3.99 21.10"
+      "quote": "Percent who had GPA between 3.75 and 3.99 21.10",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 28.2,
-      "quote": "Percent who had GPA between 3.50 and 3.74 28.20"
+      "quote": "Percent who had GPA between 3.50 and 3.74 28.20",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 14.3,
-      "quote": "Percent who had GPA between 3.25 and 3.49 14.30"
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.30",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 17.4,
-      "quote": "Percent who had GPA between 3.00 and 3.24 17.40"
+      "quote": "Percent who had GPA between 3.00 and 3.24 17.40",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 9.1,
-      "quote": "Percent who had GPA between 2.50 and 2.99 9.10"
+      "quote": "Percent who had GPA between 2.50 and 2.99 9.10",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 1,
-      "quote": "Percent who had GPA between 2.0 and 2.49 1.00"
+      "quote": "Percent who had GPA between 2.0 and 2.49 1.00",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0.1,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.10"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.10",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0.00"
+      "quote": "Percent who had GPA below 1.0 0.00",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_average": {
       "value": 3.48,
-      "quote": "Average High School GPA 3.48"
+      "quote": "Average High School GPA 3.48",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 100,
-      "quote": "Percent Submitting GPA 100.00"
+      "quote": "Percent Submitting GPA 100.00",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "deferral_max": {
       "value": "12 Months",
-      "quote": "If yes, maximum period of postponement: 12 Months"
+      "quote": "If yes, maximum period of postponement: 12 Months",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "yes",
-      "quote": "C21. Early decision: Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes"
+      "quote": "C21. Early decision: Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ed_applied": {
       "value": 103,
-      "quote": "Number of early decision applications received by your institution: 103"
+      "quote": "Number of early decision applications received by your institution: 103",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_admitted": {
       "value": 86,
-      "quote": "Number of applicants admitted under early decision plan: 86"
+      "quote": "Number of applicants admitted under early decision plan: 86",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "C22. Early action: Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+      "quote": "C22. Early action: Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "transfer_applied": {
       "value": 1218,
-      "quote": "Total 1218 759 405"
+      "quote": "Total 1218 759 405",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_admitted": {
       "value": 759,
-      "quote": "Total 1218 759 405"
+      "quote": "Total 1218 759 405",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_enrolled": {
       "value": 405,
-      "quote": "Total 1218 759 405"
+      "quote": "Total 1218 759 405",
+      "found": true,
+      "how": "quote",
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.ramapo.edu/ir/wp-content/uploads/sites/52/2026/02/CDS-2025-2026-Final-Report-3.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 34,
+  "total": 37
 }

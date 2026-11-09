@@ -1,0 +1,184 @@
+{
+  "slug": "mercer-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://oie.mercer.edu/www/mu-oie/research/upload/CDS-2024-2025_complete-2.pdf"
+  },
+  "sourceUrl": "https://oie.mercer.edu/www/mu-oie/research/upload/CDS-2024-2025_complete-2.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 9813,
+      "quote": "total first-time, first-year (degree-seeking) who applied 7325 1705 759 24 9813"
+    },
+    "admitted_total": {
+      "value": 6760,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 5229 1170 349 12 6760"
+    },
+    "enrolled_total": {
+      "value": 859,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 714 115 30 0 859"
+    },
+    "waitlist_admitted": {
+      "value": 116,
+      "quote": "number of wait-listed students admitted: 116"
+    },
+    "rank_top10_pct": {
+      "value": 34.5,
+      "quote": "percent in top tenth of high school graduating class 34.5"
+    },
+    "rank_top25_pct": {
+      "value": 68.39,
+      "quote": "percent in top quarter of high school graduating class 68.39"
+    },
+    "gpa_400_pct": {
+      "value": 30.4,
+      "quote": "percent who had gpa of 4.0 36.1 16.3 30.4"
+    },
+    "gpa_375_pct": {
+      "value": 35.7,
+      "quote": "percent who had gpa between 3.75 and 3.99 32.2 36.9 35.7"
+    },
+    "gpa_350_pct": {
+      "value": 21.1,
+      "quote": "percent who had gpa between 3.50 and 3.74 20.7 19.4 21.1"
+    },
+    "gpa_325_pct": {
+      "value": 7,
+      "quote": "percent who had gpa between 3.25 and 3.49 8.2 6.3 7"
+    },
+    "gpa_300_pct": {
+      "value": 2.3,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.3 4.4 2.3"
+    },
+    "gpa_250_pct": {
+      "value": 6.3,
+      "quote": "percent who had gpa between 2.50 and 2.99 .4 6.3 1.4"
+    },
+    "gpa_200_pct": {
+      "value": 10.6,
+      "quote": "percent who had gpa between 2.0 and 2.49 10.6 2"
+    },
+    "gpa_average": {
+      "value": 3.8,
+      "quote": "average high school gpa 3.8"
+    },
+    "gpa_submit_pct": {
+      "value": 99.3,
+      "quote": "percent submitting gpa 99.3"
+    },
+    "sat_p25": {
+      "value": 1170,
+      "quote": "sat composite 1170 1240 1330"
+    },
+    "sat_p50": {
+      "value": 1240,
+      "quote": "sat composite 1170 1240 1330"
+    },
+    "sat_p75": {
+      "value": 1330,
+      "quote": "sat composite 1170 1240 1330"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 25 28 31"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Very Important",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 865,
+      "quote": "D2 total 865 697 459"
+    },
+    "transfer_admitted": {
+      "value": 697,
+      "quote": "D2 total 865 697 459"
+    },
+    "transfer_enrolled": {
+      "value": 459,
+      "quote": "D2 total 865 697 459"
+    }
+  },
+  "concerns": null
+}

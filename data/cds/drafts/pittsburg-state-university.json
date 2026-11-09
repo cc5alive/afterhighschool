@@ -9,72 +9,129 @@
   "values": {
     "applied_total": {
       "value": 3325,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 1754 1470 101 3325"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 1754 1470 101 3325",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "admitted_total": {
       "value": 3083,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 1596 1396 91 3083"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 1596 1396 91 3083",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_submit_pct": {
       "value": 73,
-      "quote": "Submitting ACT Scores 73.00"
+      "quote": "Submitting ACT Scores 73.00",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p25": {
       "value": 18,
-      "quote": "ACT Composite 18 21 24"
+      "quote": "ACT Composite 18 21 24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p50": {
       "value": 21,
-      "quote": "ACT Composite 18 21 24"
+      "quote": "ACT Composite 18 21 24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "act_p75": {
       "value": 24,
-      "quote": "ACT Composite 18 21 24"
+      "quote": "ACT Composite 18 21 24",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_400_pct": {
       "value": 11.08,
-      "quote": "Percent who had GPA of 4.0 11.08"
+      "quote": "Percent who had GPA of 4.0 11.08",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_375_pct": {
       "value": 27.08,
-      "quote": "Percent who had GPA between 3.75 and 3.99 27.08"
+      "quote": "Percent who had GPA between 3.75 and 3.99 27.08",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_350_pct": {
       "value": 16.25,
-      "quote": "Percent who had GPA between 3.50 and 3.74 16.25"
+      "quote": "Percent who had GPA between 3.50 and 3.74 16.25",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_325_pct": {
       "value": 14.86,
-      "quote": "Percent who had GPA between 3.25 and 3.49 14.86"
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.86",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_300_pct": {
       "value": 12.22,
-      "quote": "Percent who had GPA between 3.00 and 3.24 12.22"
+      "quote": "Percent who had GPA between 3.00 and 3.24 12.22",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_250_pct": {
       "value": 13.73,
-      "quote": "Percent who had GPA between 2.50 and 2.99 13.73"
+      "quote": "Percent who had GPA between 2.50 and 2.99 13.73",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_200_pct": {
       "value": 4.53,
-      "quote": "Percent who had GPA between 2.0 and 2.49 4.53"
+      "quote": "Percent who had GPA between 2.0 and 2.49 4.53",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_100_pct": {
       "value": 0.25,
-      "quote": "Percent who had GPA between 1.0 and 1.99 0.25"
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.25",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "Percent who had GPA below 1.0 0.00"
+      "quote": "Percent who had GPA below 1.0 0.00",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_average": {
       "value": 3.46,
-      "quote": "Average High School GPA 3.46"
+      "quote": "Average High School GPA 3.46",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 89.6,
-      "quote": "Percent Submitting GPA % 89.60"
+      "quote": "Percent Submitting GPA % 89.60",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.pittstate.edu/oie/_files/documents/mergedpdf.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 0,
+  "total": 17
 }

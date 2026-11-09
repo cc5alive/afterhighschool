@@ -9,124 +9,220 @@
   "values": {
     "applied_total": {
       "value": 4410,
-      "quote": "Total first-time, first-year who applied 4410"
+      "quote": "Total first-time, first-year who applied 4410",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "sat_submit_pct": {
       "value": 9,
-      "quote": "Submitting SAT Scores 9%"
+      "quote": "Submitting SAT Scores 9%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 34,
-      "quote": "Submitting ACT Scores 34%"
+      "quote": "Submitting ACT Scores 34%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 963,
-      "quote": "SAT Composite 963 1060 1158"
+      "quote": "SAT Composite 963 1060 1158",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1060,
-      "quote": "SAT Composite 963 1060 1158"
+      "quote": "SAT Composite 963 1060 1158",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1158,
-      "quote": "SAT Composite 963 1060 1158"
+      "quote": "SAT Composite 963 1060 1158",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 18,
-      "quote": "ACT Composite 18 21 25"
+      "quote": "ACT Composite 18 21 25",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 21,
-      "quote": "ACT Composite 18 21 25"
+      "quote": "ACT Composite 18 21 25",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 25,
-      "quote": "ACT Composite 18 21 25"
+      "quote": "ACT Composite 18 21 25",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 27,
-      "quote": "Percent in top tenth of high school graduating class 27%"
+      "quote": "Percent in top tenth of high school graduating class 27%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 56,
-      "quote": "Percent in top quarter of high school graduating class 56%"
+      "quote": "Percent in top quarter of high school graduating class 56%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 7,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 7%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 7%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_400_pct": {
       "value": 20.73,
-      "quote": "Percent who had GPA of 4.0 20.73%"
+      "quote": "Percent who had GPA of 4.0 20.73%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_375_pct": {
       "value": 22.39,
-      "quote": "Percent who had GPA between 3.75 and 3.99 22.39%"
+      "quote": "Percent who had GPA between 3.75 and 3.99 22.39%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_350_pct": {
       "value": 16.19,
-      "quote": "Percent who had GPA between 3.50 and 3.74 16.19%"
+      "quote": "Percent who had GPA between 3.50 and 3.74 16.19%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_325_pct": {
       "value": 9.65,
-      "quote": "Percent who had GPA between 3.25 and 3.49 9.65%"
+      "quote": "Percent who had GPA between 3.25 and 3.49 9.65%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_300_pct": {
       "value": 10.42,
-      "quote": "Percent who had GPA between 3.00 and 3.24 10.42%"
+      "quote": "Percent who had GPA between 3.00 and 3.24 10.42%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_250_pct": {
       "value": 12.97,
-      "quote": "Percent who had GPA between 2.50 and 2.99 12.97%"
+      "quote": "Percent who had GPA between 2.50 and 2.99 12.97%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_200_pct": {
       "value": 5.43,
-      "quote": "Percent who had GPA between 2.0 and 2.49 5.43%"
+      "quote": "Percent who had GPA between 2.0 and 2.49 5.43%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_100_pct": {
       "value": 2.11,
-      "quote": "Percent who had GPA between 1.0 and 1.99 2.11%"
+      "quote": "Percent who had GPA between 1.0 and 1.99 2.11%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_below1_pct": {
       "value": 0.11,
-      "quote": "Percent who had GPA below 1.0 0.11%"
+      "quote": "Percent who had GPA below 1.0 0.11%",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "gpa_average": {
       "value": 3.49,
-      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.49"
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.49",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "gpa_submit_pct": {
       "value": 94.4,
-      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 94.4%"
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 94.4%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes",
+      "found": true,
+      "how": "near",
+      "note": null
     },
     "deferral_max": {
       "value": "1 Year",
-      "quote": "If yes, maximum period of postponement: 1 Year"
+      "quote": "If yes, maximum period of postponement: 1 Year",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan... No"
+      "quote": "Does your institution offer an early decision plan... No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "yes",
-      "quote": "Do you have a nonbinding early action plan... Yes"
+      "quote": "Do you have a nonbinding early action plan... Yes",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "transfer_applied": {
       "value": 2033,
-      "quote": "Total 2,033"
+      "quote": "Total 2,033",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "transfer_admitted": {
       "value": 1884,
-      "quote": "Total 1,884"
+      "quote": "Total 1,884",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "transfer_enrolled": {
       "value": 820,
-      "quote": "Total 820"
+      "quote": "Total 820",
+      "found": false,
+      "how": null,
+      "note": null
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.maryville.edu/administrative-offices/wp-content/uploads/sites/28/2025/07/CDS_2024-2025_Final.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 24,
+  "total": 30
 }

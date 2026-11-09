@@ -1,0 +1,128 @@
+{
+  "slug": "missouri-university-of-science-and-technology",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://data.mst.edu/media/administrative/data/documents/cds/CDS%202025-26%20Gold%20for%20Posting.xlsx"
+  },
+  "sourceUrl": "https://data.mst.edu/media/administrative/data/documents/cds/CDS%202025-26%20Gold%20for%20Posting.xlsx",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 8330,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2966 3373 1986 5 8330"
+    },
+    "admitted_total": {
+      "value": 6550,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2585 2845 1119 1 6550"
+    },
+    "enrolled_total": {
+      "value": 1251,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 957 267 27 0 1251"
+    },
+    "rank_top10_pct": {
+      "value": 0.441,
+      "quote": "percent in top tenth of high school graduating class 0.441"
+    },
+    "rank_top25_pct": {
+      "value": 0.705,
+      "quote": "percent in top quarter of high school graduating class 0.705"
+    },
+    "rank_submit_pct": {
+      "value": 0.5147,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.5147"
+    },
+    "gpa_400_pct": {
+      "value": 0.50940311,
+      "quote": "percent who had gpa of 4.0 0.50940311"
+    },
+    "gpa_375_pct": {
+      "value": 0.2159,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.2159"
+    },
+    "gpa_350_pct": {
+      "value": 0.14554374,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.14554374"
+    },
+    "gpa_325_pct": {
+      "value": 0.06704824,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.06704824"
+    },
+    "gpa_300_pct": {
+      "value": 0.03843009,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.03843009"
+    },
+    "gpa_250_pct": {
+      "value": 0.01798855,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.01798855"
+    },
+    "gpa_200_pct": {
+      "value": 0.00408831,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00408831"
+    },
+    "gpa_100_pct": {
+      "value": 0.00163532,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00163532"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    },
+    "gpa_average": {
+      "value": 3.82,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.82"
+    },
+    "gpa_submit_pct": {
+      "value": 0.9776,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 0.9776"
+    },
+    "sat_p25": {
+      "value": 1220,
+      "quote": "sat composite 1220 1300 1380"
+    },
+    "sat_p50": {
+      "value": 1300,
+      "quote": "sat composite 1220 1300 1380"
+    },
+    "sat_p75": {
+      "value": 1380,
+      "quote": "sat composite 1220 1300 1380"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 25 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 25 28 31"
+    },
+    "transfer_applied": {
+      "value": 1116,
+      "quote": "D2 total 1116 859 278"
+    },
+    "transfer_admitted": {
+      "value": 859,
+      "quote": "D2 total 1116 859 278"
+    },
+    "transfer_enrolled": {
+      "value": 278,
+      "quote": "D2 total 1116 859 278"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    }
+  },
+  "concerns": null
+}

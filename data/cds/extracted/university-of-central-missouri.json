@@ -1,0 +1,178 @@
+{
+  "slug": "university-of-central-missouri",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.ucmo.edu/offices/university-analytics-and-institutional-research/common-data-set/common-data-set-2024-2025.pdf"
+  },
+  "sourceUrl": "https://www.ucmo.edu/offices/university-analytics-and-institutional-research/common-data-set/common-data-set-2024-2025.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "enrolled_total": {
+      "value": 1031,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 848 152 31 1031"
+    },
+    "rank_top10_pct": {
+      "value": 14.17,
+      "quote": "percent in top tenth of high school graduating class 14.17"
+    },
+    "rank_top25_pct": {
+      "value": 37.48,
+      "quote": "percent in top quarter of high school graduating class 37.48"
+    },
+    "gpa_400_pct": {
+      "value": 21.34,
+      "quote": "percent who had gpa of 4.0 25.15 12.66 21.34"
+    },
+    "gpa_375_pct": {
+      "value": 18.03,
+      "quote": "percent who had gpa between 3.75 and 3.99 18.25 17.53 18.03"
+    },
+    "gpa_350_pct": {
+      "value": 16.83,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.52 19.81 16.83"
+    },
+    "gpa_325_pct": {
+      "value": 14.72,
+      "quote": "percent who had gpa between 3.25 and 3.49 14.94 14.29 14.72"
+    },
+    "gpa_300_pct": {
+      "value": 11.45,
+      "quote": "percent who had gpa between 3.00 and 3.24 8.33 18.51 11.45"
+    },
+    "gpa_250_pct": {
+      "value": 14.14,
+      "quote": "percent who had gpa between 2.50 and 2.99 13.36 15.91 14.14"
+    },
+    "gpa_200_pct": {
+      "value": 3.29,
+      "quote": "percent who had gpa between 2.0 and 2.49 4.31 0.97 3.29"
+    },
+    "gpa_100_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.14 0 0.1"
+    },
+    "gpa_below1_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa below 1.0 0 0.32 0.1"
+    },
+    "gpa_average": {
+      "value": 3.52,
+      "quote": "average high school gpa 3.52"
+    },
+    "gpa_submit_pct": {
+      "value": 97.38,
+      "quote": "percent submitting gpa 97.38"
+    },
+    "applied_total": {
+      "value": 5647,
+      "quote": "total first-time, first-year men who applied 2372 / total first-time, first-year women who applied 3265 / total first-time, first-year of another gender who applied / total first-time, first-year of unknown gender who applied 10",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 3603,
+      "quote": "total first-time, first-year men who were admitted 1470 / total first-time, first-year women who were admitted 2130 / total first-time, first-year of another gender who were admitted / total first-time, first-year of unknown gender who were admitted 3",
+      "how": "sum of gender rows"
+    },
+    "act_p25": {
+      "value": 17,
+      "quote": "act composite 17 21 24"
+    },
+    "act_p50": {
+      "value": 21,
+      "quote": "act composite 17 21 24"
+    },
+    "act_p75": {
+      "value": 24,
+      "quote": "act composite 17 21 24"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 1585,
+      "quote": "D2 total 1585 989 718"
+    },
+    "transfer_admitted": {
+      "value": 989,
+      "quote": "D2 total 1585 989 718"
+    },
+    "transfer_enrolled": {
+      "value": 718,
+      "quote": "D2 total 1585 989 718"
+    }
+  },
+  "concerns": null
+}

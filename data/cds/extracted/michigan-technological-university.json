@@ -1,0 +1,112 @@
+{
+  "slug": "michigan-technological-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.mtu.edu/institutional-research/cds/files/cds-2025-2026.xlsx"
+  },
+  "sourceUrl": "https://www.mtu.edu/institutional-research/cds/files/cds-2025-2026.xlsx",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 10359,
+      "quote": "total first-time, first-year (degree-seeking) who applied 6047 3428 884 10359"
+    },
+    "admitted_total": {
+      "value": 8853,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 5210 2798 845 8853"
+    },
+    "enrolled_total": {
+      "value": 1448,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1095 344 9 1448"
+    },
+    "rank_top10_pct": {
+      "value": 0.3429,
+      "quote": "percent in top tenth of high school graduating class 0.3429"
+    },
+    "rank_top25_pct": {
+      "value": 0.6428,
+      "quote": "percent in top quarter of high school graduating class 0.6428"
+    },
+    "rank_submit_pct": {
+      "value": 0.5297,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.5297"
+    },
+    "gpa_400_pct": {
+      "value": 0.404,
+      "quote": "percent who had gpa of 4.0 + 0.406 0.3952 0.404"
+    },
+    "gpa_375_pct": {
+      "value": 0.2644,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.2685 0.246 0.2644"
+    },
+    "gpa_350_pct": {
+      "value": 0.1573,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.1528 0.1774 0.1573"
+    },
+    "gpa_325_pct": {
+      "value": 0.099,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.0949 0.1169 0.099"
+    },
+    "gpa_300_pct": {
+      "value": 0.0576,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.0588 0.0524 0.0576"
+    },
+    "gpa_250_pct": {
+      "value": 0.0177,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.019 0.0121 0.0177"
+    },
+    "gpa_average": {
+      "value": 3.86,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.86"
+    },
+    "gpa_submit_pct": {
+      "value": 0.9351,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 0.9351"
+    },
+    "sat_p25": {
+      "value": 1120,
+      "quote": "sat composite 1120 1230 1330"
+    },
+    "sat_p50": {
+      "value": 1230,
+      "quote": "sat composite 1120 1230 1330"
+    },
+    "sat_p75": {
+      "value": 1330,
+      "quote": "sat composite 1120 1230 1330"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "act composite 25 29 32"
+    },
+    "act_p50": {
+      "value": 29,
+      "quote": "act composite 25 29 32"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "act composite 25 29 32"
+    },
+    "transfer_applied": {
+      "value": 599,
+      "quote": "D2 total 599 348 153"
+    },
+    "transfer_admitted": {
+      "value": 348,
+      "quote": "D2 total 599 348 153"
+    },
+    "transfer_enrolled": {
+      "value": 153,
+      "quote": "D2 total 599 348 153"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "ramapo-college-of-new-jersey",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.ramapo.edu/ir/wp-content/uploads/sites/52/2026/02/CDS-2025-2026-Final-Report-3.pdf"
+  },
+  "sourceUrl": "https://www.ramapo.edu/ir/wp-content/uploads/sites/52/2026/02/CDS-2025-2026-Final-Report-3.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 9784,
+      "quote": "total first-time, first-year (degree-seeking) who applied 8959 684 141 9784"
+    },
+    "admitted_total": {
+      "value": 6874,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6309 442 123 6874"
+    },
+    "enrolled_total": {
+      "value": 1042,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 967 70 5 1042"
+    },
+    "waitlist_admitted": {
+      "value": 68,
+      "quote": "number of wait-listed students admitted: 68"
+    },
+    "rank_top10_pct": {
+      "value": 15.7,
+      "quote": "percent in top tenth of high school graduating class 15.70"
+    },
+    "rank_top25_pct": {
+      "value": 42.9,
+      "quote": "percent in top quarter of high school graduating class 42.90"
+    },
+    "gpa_400_pct": {
+      "value": 8.8,
+      "quote": "percent who had gpa of 4.0 19.10 5.80 8.80"
+    },
+    "gpa_375_pct": {
+      "value": 21.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 28.90 18.80 21.10"
+    },
+    "gpa_350_pct": {
+      "value": 28.2,
+      "quote": "percent who had gpa between 3.50 and 3.74 28.10 28.30 28.20"
+    },
+    "gpa_325_pct": {
+      "value": 14.3,
+      "quote": "percent who had gpa between 3.25 and 3.49 9.40 15.70 14.30"
+    },
+    "gpa_300_pct": {
+      "value": 17.4,
+      "quote": "percent who had gpa between 3.00 and 3.24 9.40 19.70 17.40"
+    },
+    "gpa_250_pct": {
+      "value": 9.1,
+      "quote": "percent who had gpa between 2.50 and 2.99 3.80 10.70 9.10"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.0 and 2.49 1.30 0.90 1.00"
+    },
+    "gpa_100_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00 0.10 0.10"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00 0.00 0.00"
+    },
+    "gpa_average": {
+      "value": 3.48,
+      "quote": "average high school gpa 3.48"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent submitting gpa 100.00"
+    },
+    "ed_applied": {
+      "value": 103,
+      "quote": "number of early decision applications received by your institution: 103"
+    },
+    "ed_admitted": {
+      "value": 86,
+      "quote": "number of applicants admitted under early decision plan: 86"
+    },
+    "sat_p25": {
+      "value": 1145,
+      "quote": "sat composite 1145 1210 1280"
+    },
+    "sat_p50": {
+      "value": 1210,
+      "quote": "sat composite 1145 1210 1280"
+    },
+    "sat_p75": {
+      "value": 1280,
+      "quote": "sat composite 1145 1210 1280"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "act composite 21 26 28"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "act composite 21 26 28"
+    },
+    "act_p75": {
+      "value": 28,
+      "quote": "act composite 21 26 28"
+    },
+    "transfer_applied": {
+      "value": 1218,
+      "quote": "D2 total 1218 759 405"
+    },
+    "transfer_admitted": {
+      "value": 759,
+      "quote": "D2 total 1218 759 405"
+    },
+    "transfer_enrolled": {
+      "value": 405,
+      "quote": "D2 total 1218 759 405"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

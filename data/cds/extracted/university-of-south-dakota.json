@@ -1,0 +1,112 @@
+{
+  "slug": "university-of-south-dakota",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.usd.edu/-/media/Project/USD/DotEdu/About/Departments-Offices-and-Resources/Institutional-Research-Planning-and-Assessment/d-CDS_2025_2026---Final_Accessible_ADA.pdf?rev=32f7c66fa05341458e2c96cf06c74242&hash=6DF23E83D927F03C37E0EF3D5437795B"
+  },
+  "sourceUrl": "https://www.usd.edu/-/media/Project/USD/DotEdu/About/Departments-Offices-and-Resources/Institutional-Research-Planning-and-Assessment/d-CDS_2025_2026---Final_Accessible_ADA.pdf?rev=32f7c66fa05341458e2c96cf06c74242&hash=6DF23E83D927F03C37E0EF3D5437795B",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 6380,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2241 2115 2024 0 6380"
+    },
+    "admitted_total": {
+      "value": 6306,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2231 2098 1977 0 6306"
+    },
+    "enrolled_total": {
+      "value": 1221,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 716 419 86 0 1221"
+    },
+    "rank_top10_pct": {
+      "value": 17.98,
+      "quote": "percent in top tenth of high school graduating class 17.98"
+    },
+    "rank_top25_pct": {
+      "value": 39.11,
+      "quote": "percent in top quarter of high school graduating class 39.11"
+    },
+    "gpa_400_pct": {
+      "value": 10.77,
+      "quote": "percent who had gpa of 4.0 14.34 5.03 10.77"
+    },
+    "gpa_375_pct": {
+      "value": 27.33,
+      "quote": "percent who had gpa between 3.75 and 3.99 33.74 17.07 27.33"
+    },
+    "gpa_350_pct": {
+      "value": 18.33,
+      "quote": "percent who had gpa between 3.50 and 3.74 19.40 16.63 18.33"
+    },
+    "gpa_325_pct": {
+      "value": 15.05,
+      "quote": "percent who had gpa between 3.25 and 3.49 13.52 17.51 15.05"
+    },
+    "gpa_300_pct": {
+      "value": 11.52,
+      "quote": "percent who had gpa between 3.00 and 3.24 8.61 16.19 11.52"
+    },
+    "gpa_250_pct": {
+      "value": 12.28,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.51 19.91 12.28"
+    },
+    "gpa_200_pct": {
+      "value": 3.7,
+      "quote": "percent who had gpa between 2.0 and 2.49 2.46 5.69 3.70"
+    },
+    "gpa_100_pct": {
+      "value": 1.01,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.41 1.97 1.01"
+    },
+    "gpa_average": {
+      "value": 3.47,
+      "quote": "average high school gpa 3.47"
+    },
+    "gpa_submit_pct": {
+      "value": 97.3,
+      "quote": "percent submitting gpa 97.30"
+    },
+    "sat_p25": {
+      "value": 1120,
+      "quote": "sat composite 1120 1205 1290"
+    },
+    "sat_p50": {
+      "value": 1205,
+      "quote": "sat composite 1120 1205 1290"
+    },
+    "sat_p75": {
+      "value": 1290,
+      "quote": "sat composite 1120 1205 1290"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 19 22 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 19 22 25"
+    },
+    "transfer_applied": {
+      "value": 691,
+      "quote": "D2 total 691 671 312"
+    },
+    "transfer_admitted": {
+      "value": 671,
+      "quote": "D2 total 691 671 312"
+    },
+    "transfer_enrolled": {
+      "value": 312,
+      "quote": "D2 total 691 671 312"
+    }
+  },
+  "concerns": null
+}

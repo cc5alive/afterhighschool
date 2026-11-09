@@ -1,0 +1,164 @@
+{
+  "slug": "stevens-institute-of-technology",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://assets.stevens.edu/mviowpldu823/3UEOxHKHu8NfqyLxwqBmZP/86f651ed176aae469c805a50cee0d4ee/CDS-2025-2026-PDF_3.12_updated.pdf"
+  },
+  "sourceUrl": "https://assets.stevens.edu/mviowpldu823/3UEOxHKHu8NfqyLxwqBmZP/86f651ed176aae469c805a50cee0d4ee/CDS-2025-2026-PDF_3.12_updated.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "applied_total": {
+      "value": 10499,
+      "quote": "total first-time, first-year (degree-seeking) who applied 5234 3881 1371 13 10499"
+    },
+    "admitted_total": {
+      "value": 5321,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2775 2031 515 0 5321"
+    },
+    "enrolled_total": {
+      "value": 1104,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 687 366 51 0 1104"
+    },
+    "waitlist_admitted": {
+      "value": 517,
+      "quote": "number of wait-listed students admitted: 517"
+    },
+    "rank_top10_pct": {
+      "value": 47.54,
+      "quote": "percent in top tenth of high school graduating class 47.54"
+    },
+    "rank_top25_pct": {
+      "value": 78.7,
+      "quote": "percent in top quarter of high school graduating class 78.70"
+    },
+    "gpa_average": {
+      "value": 3.83,
+      "quote": "average high school gpa 3.83"
+    },
+    "gpa_submit_pct": {
+      "value": 98.46,
+      "quote": "percent submitting gpa 98.46"
+    },
+    "ed_applied": {
+      "value": 407,
+      "quote": "number of early decision applications received by your institution: 407"
+    },
+    "ed_admitted": {
+      "value": 284,
+      "quote": "number of applicants admitted under early decision plan: 284"
+    },
+    "sat_p25": {
+      "value": 1370,
+      "quote": "sat composite 1370 1420 1470"
+    },
+    "sat_p50": {
+      "value": 1420,
+      "quote": "sat composite 1370 1420 1470"
+    },
+    "sat_p75": {
+      "value": 1470,
+      "quote": "sat composite 1370 1420 1470"
+    },
+    "act_p25": {
+      "value": 32,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p50": {
+      "value": 33,
+      "quote": "act composite 32 33 34"
+    },
+    "act_p75": {
+      "value": 34,
+      "quote": "act composite 32 33 34"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ no 1\u0012$"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    }
+  },
+  "concerns": null
+}

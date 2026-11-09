@@ -1,0 +1,134 @@
+{
+  "slug": "salem-state-university",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.salemstate.edu/sites/default/files/pdfs/CDS-2024-2025.pdf"
+  },
+  "sourceUrl": "https://www.salemstate.edu/sites/default/files/pdfs/CDS-2024-2025.pdf",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "gpa_average": {
+      "value": 3.15,
+      "quote": "average high school gpa 3.15"
+    },
+    "gpa_submit_pct": {
+      "value": 99.42,
+      "quote": "percent submitting gpa 99.42"
+    },
+    "applied_total": {
+      "value": 7950,
+      "quote": "total first-time, first-year men who applied 2477 / total first-time, first-year women who applied 5473 / total first-time, first-year of another gender who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 7622,
+      "quote": "total first-time, first-year men who were admitted 2342 / total first-time, first-year women who were admitted 5280 / total first-time, first-year of another gender who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1000,
+      "quote": "sat composite 1000 1130 1170"
+    },
+    "sat_p50": {
+      "value": 1130,
+      "quote": "sat composite 1000 1130 1170"
+    },
+    "sat_p75": {
+      "value": 1170,
+      "quote": "sat composite 1000 1130 1170"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 715,
+      "quote": "D2 total 715 655 395"
+    },
+    "transfer_admitted": {
+      "value": 655,
+      "quote": "D2 total 715 655 395"
+    },
+    "transfer_enrolled": {
+      "value": 395,
+      "quote": "D2 total 715 655 395"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ տ no"
+    }
+  },
+  "concerns": null
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "northwestern-state-university-of-louisiana",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024",
+    "url": "https://dps.apps.nsula.edu/view/13318/CDS_UNL2_2023_2024.pdf"
+  },
+  "builtAt": "2026-11-09",
+  "values": {
+    "applied_total": 3189,
+    "admitted_total": 2985,
+    "enrolled_total": 1031,
+    "sat_submit_pct": 3,
+    "act_submit_pct": 92,
+    "sat_p25": 950,
+    "sat_p50": 1090,
+    "sat_p75": 1180,
+    "act_p25": 18,
+    "act_p50": 21,
+    "act_p75": 24,
+    "rank_top10_pct": 16.4,
+    "rank_top25_pct": 42.2,
+    "gpa_average": 3.4,
+    "gpa_submit_pct": 99.3,
+    "deferral_allowed": "yes",
+    "transfer_applied": 762,
+    "transfer_admitted": 679,
+    "transfer_enrolled": 412
+  },
+  "basis": {
+    "applied_total": "gemini",
+    "admitted_total": "gemini",
+    "enrolled_total": "gemini",
+    "sat_submit_pct": "gemini",
+    "act_submit_pct": "gemini",
+    "sat_p25": "both",
+    "sat_p50": "both",
+    "sat_p75": "both",
+    "act_p25": "both",
+    "act_p50": "both",
+    "act_p75": "both",
+    "rank_top10_pct": "both",
+    "rank_top25_pct": "both",
+    "gpa_average": "both",
+    "gpa_submit_pct": "both",
+    "deferral_allowed": "both",
+    "transfer_applied": "both",
+    "transfer_admitted": "reader",
+    "transfer_enrolled": "reader"
+  }
+}
