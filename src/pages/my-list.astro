@@ -74,6 +74,7 @@ import Layout from '../layouts/Layout.astro';
     }
     for (const [label, score, range, from] of [['Your SAT', sat, d.sat, d.satFrom], ['Your ACT', act, d.act, d.actFrom]]) {
       if (score == null) continue;
+      if (!range && label === 'Your SAT' && d.satSec) { cells.push(standCell(label, { text: `Only section ranges: reading ${d.satSec[0]}–${d.satSec[1]}, math ${d.satSec[2]}–${d.satSec[3]}`, src: 'federal' })); continue; }
       if (!range) { cells.push(standCell(label, { text: 'No figures from this school' })); continue; }
       const r = placeScore(score, range);
       cells.push(standCell(label, { tone: r.tone, text: `${r.short} (${range[0]}–${range[2]})`, src: from === 'cds' ? 'school report' : 'federal' }));

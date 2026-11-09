@@ -22,7 +22,8 @@
     ['Undergraduates', (r) => int(r.ug)],
     ['Admit rate', (r) => (r.ar != null ? pct(r.ar) : r.oa ? 'Open admission' : null)],
     ['Test policy', (r) => TP[r.tp]],
-    ['SAT (middle 50%)', (r) => range(r.satL, r.satH)],
+    // Total range only from a school's own report; otherwise Scorecard's section ranges, never added together.
+    ['SAT (middle 50%)', (r) => range(r.satL, r.satH) || (r.satSec ? `Reading ${r.satSec[0]}–${r.satSec[1]}, math ${r.satSec[2]}–${r.satSec[3]}` : null)],
     ['ACT (middle 50%)', (r) => range(r.actL, r.actH)],
     ['Average net price', (r) => money(r.np)],
     ['Tuition, in-state', (r) => money(r.tin)],

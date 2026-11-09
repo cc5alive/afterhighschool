@@ -20,12 +20,35 @@ export const pulledDate = new Date(snapshot.pulledAt).toLocaleDateString('en-US'
   month: 'long', day: 'numeric', year: 'numeric', timeZone: 'America/Los_Angeles'
 });
 
+// Common Data Set values read from each school's own CDS document: data/cds/schools/<slug>.json
+const cdsFiles = import.meta.glob('../../data/cds/schools/*.json', { eager: true, import: 'default' });
+export const cds = new Map(Object.values(cdsFiles).map((c) => [c.slug, c]));
+
+// Test score ranges. One figure per test, and it's the one every page, the compare view and the
+// "Where you'd stand" tool use:
+// - SAT total: only from the school's Common Data Set. College Scorecard reports reading and math
+//   separately, and adding two section 25th percentiles doesn't give the total's 25th percentile,
+//   so without a CDS we show the two section ranges side by side and never a summed total.
+// - ACT composite: the school's CDS when we have it, else Scorecard's composite 25th/75th.
+//   Scorecard's "midpoint" is halfway between those two, not a median, so it isn't used as one.
+function testScores(s, c) {
+  const v = c?.values || {};
+  const satCds = v.sat_p25 && v.sat_p75 ? [v.sat_p25, v.sat_p50 ?? null, v.sat_p75] : null;
+  const actCds = v.act_p25 && v.act_p75 ? [v.act_p25, v.act_p50 ?? null, v.act_p75] : null;
+  const actFed = s.act.p25 && s.act.p75 ? [s.act.p25, null, s.act.p75] : null;
+  const satSections = s.sat.readingP25 && s.sat.readingP75 && s.sat.mathP25 && s.sat.mathP75
+    ? { reading: [s.sat.readingP25, s.sat.readingP75], math: [s.sat.mathP25, s.sat.mathP75] } : null;
+  return {
+    satRange: satCds, satFrom: satCds ? 'cds' : null, satSubmit: satCds ? v.sat_submit_pct ?? null : null,
+    satSections: satCds ? null : satSections,
+    actRange: actCds || actFed, actFrom: actCds ? 'cds' : actFed ? 'fed' : null, actSubmit: actCds ? v.act_submit_pct ?? null : null
+  };
+}
+
 // Derived fields used across pages.
 function enrich(s) {
-  const satLow = s.sat.readingP25 && s.sat.mathP25 ? s.sat.readingP25 + s.sat.mathP25 : null;
-  const satHigh = s.sat.readingP75 && s.sat.mathP75 ? s.sat.readingP75 + s.sat.mathP75 : null;
   const sizeBand = s.undergrads == null ? null : s.undergrads < 2000 ? 'small' : s.undergrads <= 15000 ? 'medium' : 'large';
-  return { ...s, satLow, satHigh, sizeBand, stateName: STATE_NAMES[s.state] };
+  return { ...s, ...testScores(s, cds.get(s.slug)), sizeBand, stateName: STATE_NAMES[s.state] };
 }
 
 import statusFile from '../../data/school-status.json';
@@ -45,9 +68,6 @@ export const schools = allSchools.filter(isListed);
 const highlightFiles = import.meta.glob('../../data/highlights/*.json', { eager: true, import: 'default' });
 export const highlights = new Map(Object.values(highlightFiles).map((h) => [h.slug, h]));
 
-// Common Data Set values read from each school's own CDS document: data/cds/schools/<slug>.json
-const cdsFiles = import.meta.glob('../../data/cds/schools/*.json', { eager: true, import: 'default' });
-export const cds = new Map(Object.values(cdsFiles).map((c) => [c.slug, c]));
 export const bySlug = new Map(allSchools.map((s) => [s.slug, s]));
 export const states = Object.keys(STATE_NAMES)
   .map((code) => ({ code, name: STATE_NAMES[code], slug: stateSlug(code), count: schools.filter((s) => s.state === code).length }))
@@ -92,7 +112,8 @@ export function easierSchools(s, n = 4) {
 export const indexRows = schools.map((s) => ({
   slug: s.slug, name: s.name, city: s.city, state: s.state, own: s.ownership, set: s.setting,
   ug: s.undergrads, ar: s.admitRate, oa: s.openAdmission ? 1 : 0, tp: s.testPolicy,
-  satL: s.satLow, satH: s.satHigh, actL: s.act.p25, actH: s.act.p75,
+  satL: s.satRange?.[0], satH: s.satRange?.[2], satSec: s.satSections ? [...s.satSections.reading, ...s.satSections.math] : undefined,
+  actL: s.actRange?.[0], actH: s.actRange?.[2],
   np: s.avgNetPrice, tin: s.tuitionInState, tout: s.tuitionOutOfState,
   gr: s.gradRate, rr: s.retentionRate, earn: s.medianEarnings10yr, debt: s.medianDebt,
   pell: s.pellRate, online: s.onlineOnly ? 1 : 0, id: s.id

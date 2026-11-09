@@ -26,7 +26,7 @@ import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js'
       <dt>Test policy</dt>
       <dd>What the school told the federal government about SAT and ACT scores: required, recommended, considered if sent (test-optional), or not considered (test-blind). Policies change, so confirm on the school's website.</dd>
       <dt>SAT and ACT ranges</dt>
-      <dd>The middle 50% of scores among enrolled first-year students who sent scores. A quarter scored below the low number and a quarter above the high one. At test-optional schools these students may score higher than applicants overall.</dd>
+      <dd>The middle 50% of scores among enrolled first-year students who sent scores. A quarter scored below the low number and a quarter above the high one. At test-optional schools these students may score higher than applicants overall. For the SAT total we use the school's own Common Data Set. College Scorecard only reports reading and math separately, and adding two section ranges doesn't give the range for total scores, so where we don't have the school's report we show the two section ranges instead. ACT ranges come from the school's report when we have it and from Scorecard otherwise.</dd>
       <dt>Average net price</dt>
       <dd>What full-time first-year students who received grant aid paid on average, after grants and scholarships. It includes tuition, fees, books, and living costs. By income band, it shows the same thing for families in each income range.</dd>
       <dt>Total cost of attendance</dt>

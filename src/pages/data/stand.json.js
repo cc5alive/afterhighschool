@@ -10,7 +10,7 @@ export function GET() {
     const x = standData(s, cds.get(s.slug));
     // Only what the list shows, to keep the file small.
     const d = { admit: x.admit };
-    if (x.sat) { d.sat = x.sat; d.satFrom = x.satFrom; }
+    if (x.sat) { d.sat = x.sat; d.satFrom = x.satFrom; } else if (x.satSections) d.satSec = [...x.satSections.reading, ...x.satSections.math];
     if (x.act) { d.act = x.act; d.actFrom = x.actFrom; }
     if (x.gpa) d.gpa = x.gpa;
     if (x.gpaAvg != null) d.gpaAvg = x.gpaAvg;

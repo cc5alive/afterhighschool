@@ -26,8 +26,6 @@ const ea = rate(v.ea_admitted, v.ea_applied);
 const xfer = rate(v.transfer_admitted, v.transfer_applied);
 const fall = c.cdsYear ? c.cdsYear.slice(0, 4) : null;
 const wl = v.waitlist_admitted != null && v.waitlist_accepted > 0 ? rate(v.waitlist_admitted, v.waitlist_accepted) : null;
-const sat = v.sat_p25 && v.sat_p75 ? `${v.sat_p25}–${v.sat_p75}` : null;
-const act = v.act_p25 && v.act_p75 ? `${v.act_p25}–${v.act_p75}` : null;
 
 const FACTOR = {
   factor_rigor: 'How challenging your classes were', factor_gpa: 'GPA', factor_class_rank: 'Class rank',
@@ -102,18 +100,7 @@ const src = c.source.url;
         <span class="stat-note">{int(v.transfer_admitted)} admitted of {int(v.transfer_applied)} transfer applicants{fall && ` for fall ${fall}`}{v.transfer_enrolled != null && `; ${int(v.transfer_enrolled)} enrolled`}. {TRANSFER_LAUNCHED && <a href="/transfer">How transferring works</a>}</span>
       </dd></div>
     )}
-    {sat && (
-      <div class="stat"><dt>SAT, middle 50%</dt><dd>
-        <span class="stat-value">{sat}</span>
-        <span class="stat-note">{v.sat_submit_pct != null ? `${pctTxt(v.sat_submit_pct)} of first-years sent SAT scores` : 'First-years who sent scores'}</span>
-      </dd></div>
-    )}
-    {act && (
-      <div class="stat"><dt>ACT, middle 50%</dt><dd>
-        <span class="stat-value">{act}</span>
-        <span class="stat-note">{v.act_submit_pct != null ? `${pctTxt(v.act_submit_pct)} of first-years sent ACT scores` : 'First-years who sent scores'}</span>
-      </dd></div>
-    )}
+    {/* SAT and ACT ranges from this report show in the "Getting in" stats above, so they aren't repeated here. */}
     {v.rank_top10_pct != null && (
       <div class="stat"><dt>Top 10% of their class</dt><dd>
         <span class="stat-value">{pctTxt(v.rank_top10_pct)}</span>

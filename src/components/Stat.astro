@@ -1,12 +1,12 @@
 ---
 // One fact: a label, its value (or why it's missing), an optional note, and its source.
-const { label, value, note, missing = 'Not reported', href, big = false } = Astro.props;
+const { label, value, note, missing = 'Not reported', href, srcLabel = 'College Scorecard', big = false } = Astro.props;
 ---
 <div class:list={['stat', { big, empty: value == null }]}>
   <dt>{label}</dt>
   <dd>
     <span class="stat-value">{value ?? missing}</span>
     {note && <span class="stat-note">{note}</span>}
-    {href && <a class="src" href={href} rel="noopener" target="_blank">Source: College Scorecard</a>}
+    {href && <a class="src" href={href} rel="noopener" target="_blank">Source: {srcLabel}</a>}
   </dd>
 </div>

@@ -9,21 +9,19 @@ const VERY = {
   factor_talent: 'a talent or ability', factor_character: 'character and personal qualities'
 };
 
-// Build-time: the figures the tool needs for one school. s = Scorecard school, c = published CDS (or undefined).
+// Build-time: the figures the tool needs for one school. s = enriched school (data.js), c = published CDS (or undefined).
 export function standData(s, c) {
   const v = c?.values || {};
   const val = (k) => (v[k] != null ? v[k] : null);
-  const satCds = v.sat_p25 && v.sat_p75 ? [v.sat_p25, v.sat_p50 ?? null, v.sat_p75] : null;
-  const actCds = v.act_p25 && v.act_p75 ? [v.act_p25, v.act_p50 ?? null, v.act_p75] : null;
-  const satFed = s.satLow && s.satHigh ? [s.satLow, null, s.satHigh] : null;
-  const actFed = s.act.p25 && s.act.p75 ? [s.act.p25, s.act.midpoint ?? null, s.act.p75] : null;
   const gpa = GPA_KEYS.filter((k) => v[k] != null).length >= 2 ? GPA_KEYS.map((k) => v[k] ?? 0) : null;
   const admitCds = v.admitted_total && v.applied_total ? v.admitted_total / v.applied_total : null;
   return {
     name: s.name,
-    sat: satCds || satFed, satFrom: satCds ? 'cds' : satFed ? 'fed' : null,
-    act: actCds || actFed, actFrom: actCds ? 'cds' : actFed ? 'fed' : null,
-    satSubmit: val('sat_submit_pct'), actSubmit: val('act_submit_pct'),
+    // Test ranges come from the school record (see testScores in data.js), so the tool uses exactly
+    // the figures the page shows. No SAT total range without a CDS: only Scorecard's section ranges.
+    sat: s.satRange, satFrom: s.satFrom, satSections: s.satSections,
+    act: s.actRange, actFrom: s.actFrom,
+    satSubmit: s.satSubmit, actSubmit: s.actSubmit,
     gpa, gpaSubmit: val('gpa_submit_pct'), gpaAvg: val('gpa_average'),
     admit: admitCds ?? s.admitRate ?? null, admitFrom: admitCds != null ? 'cds' : s.admitRate != null ? 'fed' : null,
     ed: v.ed_applied > 0 && v.ed_admitted != null ? [v.ed_admitted, v.ed_applied] : null,

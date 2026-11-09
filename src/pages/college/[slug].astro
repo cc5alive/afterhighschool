@@ -43,8 +43,22 @@ const chips = [
   s.onlineOnly && 'Online only'
 ].filter(Boolean);
 
-const satRange = s.satLow && s.satHigh ? `${s.satLow}–${s.satHigh}` : null;
-const actRange = s.act.p25 && s.act.p75 ? `${s.act.p25}–${s.act.p75}` : null;
+// One SAT and one ACT figure per school (see testScores in lib/data.js): the school's own Common Data Set
+// when we have it, never a total built by adding Scorecard's section ranges.
+const cdsYear = cd?.cdsYear ? cd.cdsYear.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2') : null;
+const cdsLabel = `${s.name} Common Data Set${cdsYear ? ` ${cdsYear}` : ''}`;
+const sentNote = (submit, test) => submit != null ? `the ${Math.round(submit)}% of enrolled first-years who sent ${test} scores` : `enrolled first-years who sent ${test} scores`;
+const satRange = s.satRange ? `${s.satRange[0]}–${s.satRange[2]}` : null;
+const satSec = !satRange && s.satSections ? s.satSections : null;
+const sat = satRange
+  ? { label: 'SAT (middle 50%)', value: satRange, note: `Total score, ${sentNote(s.satSubmit, 'SAT')}`, href: cd.source.url, srcLabel: cdsLabel }
+  : satSec
+    ? { label: 'SAT section scores (middle 50%)', value: `Reading ${satSec.reading[0]}–${satSec.reading[1]} · Math ${satSec.math[0]}–${satSec.math[1]}`, note: 'Each section separately, enrolled first-years who sent scores. We don\'t have the school\'s own total range yet, and adding the two ranges wouldn\'t give one.', href: src }
+    : { label: 'SAT (middle 50%)', value: null, href: src };
+const actRange = s.actRange ? `${s.actRange[0]}–${s.actRange[2]}` : null;
+const act = s.actFrom === 'cds'
+  ? { value: actRange, note: `Composite, ${sentNote(s.actSubmit, 'ACT')}`, href: cd.source.url, srcLabel: cdsLabel }
+  : { value: actRange, note: actRange && 'Composite, enrolled first-years who sent scores', href: src };
 const admit = admitRateText(s);
 const admitNote = s.admitRate != null
   ? (s.admitRate < 0.1
@@ -140,8 +154,8 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
       <dl class="stat-grid">
         <Stat label="Admit rate" value={admit} note={admitNote} href={src} />
         <Stat label="Test policy" value={s.testPolicy && TEST_POLICY_LABEL[s.testPolicy]} note={s.testPolicy && TEST_POLICY_DETAIL[s.testPolicy]} href={src} />
-        <Stat label="SAT (middle 50%)" value={satRange} note={satRange && 'Reading + math, enrolled first-years who sent scores'} missing="Not reported" href={src} />
-        <Stat label="ACT (middle 50%)" value={actRange} note={actRange && 'Composite, enrolled first-years who sent scores'} missing="Not reported" href={src} />
+        <Stat label={sat.label} value={sat.value} note={sat.note} missing="Not reported" href={sat.href} srcLabel={sat.srcLabel} />
+        <Stat label="ACT (middle 50%)" value={act.value} note={act.note} missing="Not reported" href={act.href} srcLabel={act.srcLabel} />
       </dl>
       {cd && <CdsPanel c={cd} name={s.name} />}
       {!s.openAdmission && <WhereYouStand s={s} c={cd} scorecardHref={src} />}
@@ -213,7 +227,7 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
 
     <section class="block sources" aria-labelledby="sources">
       <h2 id="sources">Where these numbers come from</h2>
-      <p>Every number on this page comes from the U.S. Department of Education's <a href={src} rel="noopener" target="_blank">College Scorecard page for {s.name}</a>, which draws on what the school reports to the federal government and on federal student aid and tax records. We last pulled the data on {pulledDate}. Different measures cover different years; <a href="/methodology">here's how each one works</a>.</p>
+      <p>{cd ? <>Numbers marked with the school's Common Data Set come from that report. The rest come from</> : <>Every number on this page comes from</>} the U.S. Department of Education's <a href={src} rel="noopener" target="_blank">College Scorecard page for {s.name}</a>, which draws on what the school reports to the federal government and on federal student aid and tax records. We last pulled the data on {pulledDate}. Different measures cover different years; <a href="/methodology">here's how each one works</a>.</p>
       <p>Spot something wrong? <a href={errorMail}>Report a data error</a>.</p>
     </section>
   </article>

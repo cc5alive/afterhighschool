@@ -7,7 +7,8 @@ import { standData } from '../lib/stand.js';
 const { s, c, scorecardHref } = Astro.props;
 const year = c?.cdsYear ? c.cdsYear.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2') : null;
 const data = standData(s, c);
-const usable = !!(data.sat || data.act || data.gpa);
+const usable = !!(data.sat || data.satSections || data.act || data.gpa);
+const usesFed = !!(data.satSections || data.actFrom === 'fed' || data.admitFrom === 'fed');
 const cdsHref = c?.source?.url;
 ---
 {usable ? (
@@ -23,8 +24,8 @@ const cdsHref = c?.source?.url;
     <div class="wys-out" aria-live="polite"></div>
     <p class="wys-src">
       Sources:{' '}
-      {cdsHref && <><a href={cdsHref} rel="noopener" target="_blank">{s.name} Common Data Set{year && ` ${year}`}</a>{data.satFrom === 'fed' || data.actFrom === 'fed' || data.admitFrom === 'fed' ? '; ' : ''}</>}
-      {(!cdsHref || data.satFrom === 'fed' || data.actFrom === 'fed' || data.admitFrom === 'fed') && <a href={scorecardHref} rel="noopener" target="_blank">College Scorecard</a>}
+      {cdsHref && <><a href={cdsHref} rel="noopener" target="_blank">{s.name} Common Data Set{year && ` ${year}`}</a>{usesFed ? '; ' : ''}</>}
+      {(!cdsHref || usesFed) && <a href={scorecardHref} rel="noopener" target="_blank">College Scorecard</a>}
       . Test ranges describe enrolled students who sent scores.
     </p>
   </div>
@@ -77,6 +78,12 @@ const cdsHref = c?.source?.url;
 
     for (const [kind, score, range, from, submit, lo, hi] of [['SAT', sat, d.sat, d.satFrom, d.satSubmit, 400, 1600], ['ACT', act, d.act, d.actFrom, d.actSubmit, 1, 36]]) {
       if (score == null) continue;
+      if (!range && kind === 'SAT' && d.satSections) {
+        // Scorecard only has section ranges; a total can't be placed against them without guessing.
+        const { reading: r, math: m } = d.satSections;
+        parts.push(`<div class="wys-item"><h4>SAT ${score}</h4><p>We only have section scores for ${esc(d.name)}: the middle half scored ${r[0]}–${r[1]} in reading and writing and ${m[0]}–${m[1]} in math. Adding the two ranges doesn't give the range for total scores, so we can't place your total. Compare your section scores with these instead.</p><p class="wys-note">From federal data, which can lag the school's own report by a year or two.</p></div>`);
+        continue;
+      }
       if (!range) { parts.push(`<div class="wys-item"><h4>${kind} ${score}</h4><p>We don't have ${kind} figures for ${esc(d.name)}'s first-year students.</p></div>`); continue; }
       const pl = place(score, range);
       parts.push(`<div class="wys-item tone-${pl.tone}">
