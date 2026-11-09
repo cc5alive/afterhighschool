@@ -1,0 +1,99 @@
+{
+  "slug": "university-of-maryland-baltimore-county",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "UMBC Common Data Set 2025-2026",
+    "url": "https://umbc.box.com/s/zh0iavb1yvvxd9na0oh8ly2u1ygljgrk"
+  },
+  "sourceUrl": "https://umbc.box.com/s/zh0iavb1yvvxd9na0oh8ly2u1ygljgrk",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "pdf",
+  "values": {
+    "waitlist_admitted": {
+      "value": 758,
+      "quote": "number of wait-listed students admitted: 758"
+    },
+    "rank_top10_pct": {
+      "value": 21,
+      "quote": "percent in top tenth of high school graduating class 21"
+    },
+    "rank_top25_pct": {
+      "value": 53,
+      "quote": "percent in top quarter of high school graduating class 53"
+    },
+    "gpa_400_pct": {
+      "value": 66,
+      "quote": "percent who had gpa of 4.0 66 54 58"
+    },
+    "gpa_375_pct": {
+      "value": 12,
+      "quote": "percent who had gpa between 3.75 and 3.99 12 22 19"
+    },
+    "gpa_350_pct": {
+      "value": 11,
+      "quote": "percent who had gpa between 3.50 and 3.74 11 17 15"
+    },
+    "gpa_325_pct": {
+      "value": 7,
+      "quote": "percent who had gpa between 3.25 and 3.49 7 4 5"
+    },
+    "gpa_300_pct": {
+      "value": 3,
+      "quote": "percent who had gpa between 3.00 and 3.24 3 2 2"
+    },
+    "gpa_250_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.50 and 2.99 1 1 1"
+    },
+    "gpa_below1_pct": {
+      "value": 100,
+      "quote": "percent who had gpa below 1.0 100% 100% 100%"
+    },
+    "applied_total": {
+      "value": 14802,
+      "quote": "total first-time, first-year males who applied 7,139 / total first-time, first-year females who applied 7,663",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 10949,
+      "quote": "total first-time, first-year males who were admitted 5,180 / total first-time, first-year females who were admitted 5,769",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2271,
+      "quote": "total first-time, first-year males who enrolled 1,221 / total first-time, first-year females who enrolled 1,050",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1250,
+      "quote": "sat composite 1250 1320 1400"
+    },
+    "sat_p50": {
+      "value": 1320,
+      "quote": "sat composite 1250 1320 1400"
+    },
+    "sat_p75": {
+      "value": 1400,
+      "quote": "sat composite 1250 1320 1400"
+    },
+    "act_p25": {
+      "value": 26,
+      "quote": "act composite 26 28 31"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "act composite 26 28 31"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "act composite 26 28 31"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    }
+  },
+  "concerns": null
+}

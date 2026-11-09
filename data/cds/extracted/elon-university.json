@@ -1,0 +1,220 @@
+{
+  "slug": "elon-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025 – 2026",
+    "url": "https://eloncdn.blob.core.windows.net/eu3/sites/1807/2026/04/ElonCDS2025-2026Final.xlsx"
+  },
+  "sourceUrl": "https://eloncdn.blob.core.windows.net/eu3/sites/1807/2026/04/ElonCDS2025-2026Final.xlsx",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 18557,
+      "quote": "C.116 total first-time, first-year students who applied: 18557"
+    },
+    "admitted_total": {
+      "value": 11740,
+      "quote": "C.117 total first-time, first-year students who were admitted: 11740"
+    },
+    "enrolled_total": {
+      "value": 1333,
+      "quote": "C.118 total first-time, first-year students who enrolled: 1333"
+    },
+    "waitlist_admitted": {
+      "value": 98,
+      "quote": "C.204 number of wait-listed students admitted:: 98"
+    },
+    "rank_top10_pct": {
+      "value": 20,
+      "quote": "C.1001 percent in top tenth of high school graduating class: 0.2"
+    },
+    "rank_top25_pct": {
+      "value": 48,
+      "quote": "C.1002 percent in top quarter of high school graduating class: 0.48"
+    },
+    "rank_submit_pct": {
+      "value": 35,
+      "quote": "C.1006 percent of total first-time, first-year students who submitted high school class rank:: 0.35"
+    },
+    "gpa_average": {
+      "value": 3.88,
+      "quote": "C.1201 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa:: 3.88"
+    },
+    "gpa_submit_pct": {
+      "value": 86.42,
+      "quote": "C.1202 percent of total first-time, first-year students who submitted high school gpa:: 0.8642"
+    },
+    "ed_applied": {
+      "value": 353,
+      "quote": "C.2110 number of early decision applications received by your institution: 353"
+    },
+    "ed_admitted": {
+      "value": 304,
+      "quote": "C.2111 number of applicants admitted under early decision plan: 304"
+    },
+    "sat_p25": {
+      "value": 1190,
+      "quote": "C.905 sat composite: 25th percentile: 1190"
+    },
+    "sat_p50": {
+      "value": 1270,
+      "quote": "C.906 sat composite: 50th percentile: 1270"
+    },
+    "sat_p75": {
+      "value": 1340,
+      "quote": "C.907 sat composite: 75th percentile: 1340"
+    },
+    "act_p25": {
+      "value": 25,
+      "quote": "C.914 act composite: 25th percentile: 25"
+    },
+    "act_p50": {
+      "value": 28,
+      "quote": "C.915 act composite: 50th percentile: 28"
+    },
+    "act_p75": {
+      "value": 31,
+      "quote": "C.916 act composite: 75th percentile: 31"
+    },
+    "transfer_applied": {
+      "value": 475,
+      "quote": "D.204 total: 475"
+    },
+    "transfer_admitted": {
+      "value": 275,
+      "quote": "D.208 total: 275"
+    },
+    "transfer_enrolled": {
+      "value": 77,
+      "quote": "D.212 total: 77"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C.1801 does your institution allow students to postpone enrollment after admission?: Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C.1802 if yes, maximum period of postponement:: 1 year"
+    },
+    "waitlist_offered": {
+      "value": 4214,
+      "quote": "C.202 number of qualified applicants offered a place on waiting list:: 4214"
+    },
+    "waitlist_accepted": {
+      "value": 835,
+      "quote": "C.203 number accepting a place on the waiting list:: 835"
+    },
+    "sat_submit_pct": {
+      "value": 23,
+      "quote": "C.901 percent submitting sat scores: 0.23"
+    },
+    "act_submit_pct": {
+      "value": 17,
+      "quote": "C.902 percent submitting act scores: 0.17"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "C.701 rigor of secondary school record: Very Important"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "C.702 class rank: Considered"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "C.703 academic gpa: Very Important"
+    },
+    "factor_test_scores": {
+      "value": "Not Considered",
+      "quote": "C.704 standardized test scores: Not Considered"
+    },
+    "factor_essay": {
+      "value": "Very Important",
+      "quote": "C.705 application essay: Very Important"
+    },
+    "factor_recommendations": {
+      "value": "Very Important",
+      "quote": "C.706 recommendation(s): Very Important"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "C.708 extracurricular activities: Important"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "C.709 talent/ability: Important"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "C.710 character/personal qualities: Considered"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "C.711 first generation: Considered"
+    },
+    "factor_alumni": {
+      "value": "Important",
+      "quote": "C.712 alumni/ae relation: Important"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "C.713 geographical residence: Considered"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "C.714 state residency: Considered"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "C.715 religious affiliation/commitment: Not Considered"
+    },
+    "factor_volunteer": {
+      "value": "Very Important",
+      "quote": "C.716 volunteer work: Very Important"
+    },
+    "factor_work": {
+      "value": "Very Important",
+      "quote": "C.717 work experience: Very Important"
+    },
+    "factor_interest": {
+      "value": "Very Important",
+      "quote": "C.718 level of applicant's interest: Very Important"
+    },
+    "gpa_400_pct": {
+      "value": 58.83,
+      "quote": "C.1121 percent who had gpa of 4.0: 0.5883"
+    },
+    "gpa_375_pct": {
+      "value": 10.67,
+      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.1067"
+    },
+    "gpa_350_pct": {
+      "value": 10.44,
+      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.1044"
+    },
+    "gpa_325_pct": {
+      "value": 8.56,
+      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.0856"
+    },
+    "gpa_300_pct": {
+      "value": 6.54,
+      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.0654"
+    },
+    "gpa_250_pct": {
+      "value": 4.73,
+      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.0473"
+    },
+    "gpa_200_pct": {
+      "value": 0.23,
+      "quote": "C.1127 percent who had gpa between 2.0 and 2.49: 0.0023"
+    }
+  },
+  "concerns": null
+}

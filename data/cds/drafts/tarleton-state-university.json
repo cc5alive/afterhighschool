@@ -9,144 +9,255 @@
   "values": {
     "applied_total": {
       "value": 21840,
-      "quote": "Total first-time, first-year (degree-seeking) who applied 21840"
+      "quote": "Total first-time, first-year (degree-seeking) who applied 21840",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "admitted_total": {
       "value": 11763,
-      "quote": "Total first-time, first-year (degree-seeking) who were admitted 11763"
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 11763",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "enrolled_total": {
       "value": 3035,
-      "quote": "Total first-time, first-year (degree-seeking) who enrolled 3035"
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 3035",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "factor_rigor": {
       "value": "Very Important",
-      "quote": "Rigor of secondary school record"
+      "quote": "Rigor of secondary school record",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_class_rank": {
       "value": "Very Important",
-      "quote": "Class rank"
+      "quote": "Class rank",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_gpa": {
       "value": "Considered",
-      "quote": "Academic GPA"
+      "quote": "Academic GPA",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_test_scores": {
       "value": "Considered",
-      "quote": "Standardized test scores"
+      "quote": "Standardized test scores",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_essay": {
       "value": "Not Considered",
-      "quote": "Application Essay"
+      "quote": "Application Essay",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_recommendations": {
       "value": "Not Considered",
-      "quote": "Recommendation(s)"
+      "quote": "Recommendation(s)",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interview": {
       "value": "Not Considered",
-      "quote": "Interview"
+      "quote": "Interview",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_extracurriculars": {
       "value": "Not Considered",
-      "quote": "Extracurricular activities"
+      "quote": "Extracurricular activities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_talent": {
       "value": "Not Considered",
-      "quote": "Talent/ability"
+      "quote": "Talent/ability",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_character": {
       "value": "Not Considered",
-      "quote": "Character/personal qualities"
+      "quote": "Character/personal qualities",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_first_generation": {
       "value": "Not Considered",
-      "quote": "First generation"
+      "quote": "First generation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_alumni": {
       "value": "Not Considered",
-      "quote": "Alumni/ae relation"
+      "quote": "Alumni/ae relation",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_geography": {
       "value": "Not Considered",
-      "quote": "Geographical residence"
+      "quote": "Geographical residence",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_state_residency": {
       "value": "Not Considered",
-      "quote": "State residency"
+      "quote": "State residency",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_religion": {
       "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
+      "quote": "Religious affiliation/commitment",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_volunteer": {
       "value": "Not Considered",
-      "quote": "Volunteer work"
+      "quote": "Volunteer work",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_work": {
       "value": "Not Considered",
-      "quote": "Work experience"
+      "quote": "Work experience",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "factor_interest": {
       "value": "Not Considered",
-      "quote": "Level of applicant’s interest"
+      "quote": "Level of applicant’s interest",
+      "found": true,
+      "how": "layout",
+      "note": null
     },
     "sat_submit_pct": {
       "value": 15,
-      "quote": "Submitting SAT Scores 15% 439"
+      "quote": "Submitting SAT Scores 15% 439",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_submit_pct": {
       "value": 49,
-      "quote": "Submitting ACT Scores 49% 1478"
+      "quote": "Submitting ACT Scores 49% 1478",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p25": {
       "value": 960,
-      "quote": "SAT Composite 960 1050 1150"
+      "quote": "SAT Composite 960 1050 1150",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p50": {
       "value": 1050,
-      "quote": "SAT Composite 960 1050 1150"
+      "quote": "SAT Composite 960 1050 1150",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "sat_p75": {
       "value": 1150,
-      "quote": "SAT Composite 960 1050 1150"
+      "quote": "SAT Composite 960 1050 1150",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p25": {
       "value": 19,
-      "quote": "ACT Composite 19 21 24"
+      "quote": "ACT Composite 19 21 24",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p50": {
       "value": 21,
-      "quote": "ACT Composite 19 21 24"
+      "quote": "ACT Composite 19 21 24",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "act_p75": {
       "value": 24,
-      "quote": "ACT Composite 19 21 24"
+      "quote": "ACT Composite 19 21 24",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top10_pct": {
       "value": 12,
-      "quote": "Percent in top tenth of high school graduating class 12%"
+      "quote": "Percent in top tenth of high school graduating class 12%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_top25_pct": {
       "value": 26,
-      "quote": "Percent in top quarter of high school graduating class 26%"
+      "quote": "Percent in top quarter of high school graduating class 26%",
+      "found": true,
+      "how": "quote",
+      "note": null
     },
     "rank_submit_pct": {
       "value": 83,
-      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 83%"
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 83%",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "deferral_allowed": {
       "value": "no",
-      "quote": "Does your institution allow students to postpone enrollment after admission? No"
+      "quote": "Does your institution allow students to postpone enrollment after admission? No",
+      "found": false,
+      "how": null,
+      "note": null
     },
     "ed_offered": {
       "value": "no",
-      "quote": "Does your institution offer an early decision plan (an admission plan that No"
+      "quote": "Does your institution offer an early decision plan (an admission plan that No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     },
     "ea_offered": {
       "value": "no",
-      "quote": "Do you have a nonbinding early action plan whereby students are notified No"
+      "quote": "Do you have a nonbinding early action plan whereby students are notified No",
+      "found": null,
+      "how": null,
+      "note": "derived from counts, not checked directly"
     }
   },
-  "concerns": null
+  "concerns": null,
+  "httpStatus": 200,
+  "finalUrl": "https://www.tarleton.edu/institutional-data-analytics/wp-content/uploads/sites/397/2025/05/C.-First-Time-First-Year-Admission.pdf",
+  "docKind": "pdf",
+  "checkedAt": "2026-11-09",
+  "verified": 31,
+  "total": 35
 }

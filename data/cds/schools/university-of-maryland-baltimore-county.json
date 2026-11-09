@@ -1,0 +1,51 @@
+{
+  "slug": "university-of-maryland-baltimore-county",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "UMBC Common Data Set 2025-2026",
+    "url": "https://umbc.box.com/s/zh0iavb1yvvxd9na0oh8ly2u1ygljgrk"
+  },
+  "builtAt": "2026-11-09",
+  "values": {
+    "applied_total": 14802,
+    "admitted_total": 10949,
+    "enrolled_total": 2271,
+    "waitlist_admitted": 758,
+    "sat_p25": 1250,
+    "sat_p50": 1320,
+    "sat_p75": 1400,
+    "act_p25": 26,
+    "act_p50": 28,
+    "act_p75": 31,
+    "rank_top10_pct": 21,
+    "rank_top25_pct": 53,
+    "gpa_400_pct": 66,
+    "gpa_375_pct": 12,
+    "gpa_350_pct": 11,
+    "gpa_325_pct": 7,
+    "gpa_300_pct": 3,
+    "gpa_250_pct": 1,
+    "deferral_allowed": "yes"
+  },
+  "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_admitted": "reader",
+    "sat_p25": "reader",
+    "sat_p50": "reader",
+    "sat_p75": "reader",
+    "act_p25": "reader",
+    "act_p50": "reader",
+    "act_p75": "reader",
+    "rank_top10_pct": "reader",
+    "rank_top25_pct": "reader",
+    "gpa_400_pct": "reader",
+    "gpa_375_pct": "reader",
+    "gpa_350_pct": "reader",
+    "gpa_325_pct": "reader",
+    "gpa_300_pct": "reader",
+    "gpa_250_pct": "reader",
+    "deferral_allowed": "reader"
+  }
+}

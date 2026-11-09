@@ -1,0 +1,120 @@
+{
+  "slug": "university-of-minnesota-duluth",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set - 2025-2026",
+    "url": "https://docs.google.com/spreadsheets/d/1adnqZlCAKzddCsxc-jqGm5svbrjHG2sS/edit?usp=sharing&ouid=104827702294515625692&rtpof=true&sd=true"
+  },
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1adnqZlCAKzddCsxc-jqGm5svbrjHG2sS/edit?usp=sharing&ouid=104827702294515625692&rtpof=true&sd=true",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 8536,
+      "quote": "total first-time, first-year (degree-seeking) who applied 6407 1708 421 0 8536"
+    },
+    "admitted_total": {
+      "value": 7602,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 5708 1535 359 0 7602"
+    },
+    "enrolled_total": {
+      "value": 1938,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1627 293 18 0 1938"
+    },
+    "rank_top10_pct": {
+      "value": 0.2,
+      "quote": "percent in top tenth of high school graduating class 0.2"
+    },
+    "rank_top25_pct": {
+      "value": 0.46,
+      "quote": "percent in top quarter of high school graduating class 0.46"
+    },
+    "rank_submit_pct": {
+      "value": 0.56,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 0.56"
+    },
+    "gpa_400_pct": {
+      "value": 0.127,
+      "quote": "percent who had gpa of 4.0 0.193 0.078 0.127"
+    },
+    "gpa_375_pct": {
+      "value": 0.259,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.295 0.234 0.259"
+    },
+    "gpa_350_pct": {
+      "value": 0.191,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.188 0.194 0.191"
+    },
+    "gpa_325_pct": {
+      "value": 0.168,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.124 0.201 0.168"
+    },
+    "gpa_300_pct": {
+      "value": 0.14,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.116 0.158 0.14"
+    },
+    "gpa_250_pct": {
+      "value": 0.11,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.08 0.132 0.11"
+    },
+    "gpa_200_pct": {
+      "value": 0.004,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.004 0.004 0.004"
+    },
+    "gpa_100_pct": {
+      "value": 0.001,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.001 0.001"
+    },
+    "gpa_average": {
+      "value": 3.55,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.55"
+    },
+    "gpa_submit_pct": {
+      "value": 0.98,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 0.98"
+    },
+    "sat_p25": {
+      "value": 1180,
+      "quote": "sat composite 1180 1240 1340"
+    },
+    "sat_p50": {
+      "value": 1240,
+      "quote": "sat composite 1180 1240 1340"
+    },
+    "sat_p75": {
+      "value": 1340,
+      "quote": "sat composite 1180 1240 1340"
+    },
+    "act_p25": {
+      "value": 23,
+      "quote": "act composite 23 25 28"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "act composite 23 25 28"
+    },
+    "act_p75": {
+      "value": 28,
+      "quote": "act composite 23 25 28"
+    },
+    "transfer_applied": {
+      "value": 690,
+      "quote": "D2 total 690 591 339"
+    },
+    "transfer_admitted": {
+      "value": 591,
+      "quote": "D2 total 690 591 339"
+    },
+    "transfer_enrolled": {
+      "value": 339,
+      "quote": "D2 total 690 591 339"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    }
+  },
+  "concerns": null
+}
