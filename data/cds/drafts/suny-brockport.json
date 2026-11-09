@@ -1,0 +1,200 @@
+{
+  "slug": "suny-brockport",
+  "cdsYear": "2023-2024",
+  "source": {
+    "title": "Common Data Set 2023-2024",
+    "url": "https://www.brockport.edu/live/files/7692-common-data-set-2023-2024"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 10855,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 10,855"
+    },
+    "admitted_total": {
+      "value": 7738,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 7,738"
+    },
+    "enrolled_total": {
+      "value": 1270,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1,270"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Important",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 21,
+      "quote": "Submitting SAT Scores 21%"
+    },
+    "act_submit_pct": {
+      "value": 2,
+      "quote": "Submitting ACT Scores 2%"
+    },
+    "sat_p25": {
+      "value": 1070,
+      "quote": "SAT Composite 1070 1150 1230"
+    },
+    "sat_p50": {
+      "value": 1150,
+      "quote": "SAT Composite 1070 1150 1230"
+    },
+    "sat_p75": {
+      "value": 1230,
+      "quote": "SAT Composite 1070 1150 1230"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "ACT Composite 18 22 26"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "ACT Composite 18 22 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "ACT Composite 18 22 26"
+    },
+    "gpa_400_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA of 4.0 0%"
+    },
+    "gpa_375_pct": {
+      "value": 20,
+      "quote": "Percent who had GPA between 3.75 and 3.99 20%"
+    },
+    "gpa_350_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 3.50 and 3.74 10%"
+    },
+    "gpa_325_pct": {
+      "value": 11,
+      "quote": "Percent who had GPA between 3.25 and 3.49 11%"
+    },
+    "gpa_300_pct": {
+      "value": 12,
+      "quote": "Percent who had GPA between 3.00 and 3.24 12%"
+    },
+    "gpa_250_pct": {
+      "value": 23,
+      "quote": "Percent who had GPA between 2.50 and 2.99 23%"
+    },
+    "gpa_200_pct": {
+      "value": 20,
+      "quote": "Percent who had GPA between 2.0 and 2.49 20%"
+    },
+    "gpa_100_pct": {
+      "value": 4,
+      "quote": "Percent who had GPA between 1.0 and 1.99 4%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0%"
+    },
+    "gpa_average": {
+      "value": 3.3,
+      "quote": "Average high school GPA: 3.3"
+    },
+    "gpa_submit_pct": {
+      "value": 95,
+      "quote": "Percent submitting high school GPA: 95%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "If yes, maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision: Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action: Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    },
+    "transfer_applied": {
+      "value": 2177,
+      "quote": "Total 2,177"
+    },
+    "transfer_admitted": {
+      "value": 1318,
+      "quote": "Total 2,177 1,318 726"
+    },
+    "transfer_enrolled": {
+      "value": 726,
+      "quote": "Total 2,177 1,318 726"
+    }
+  },
+  "concerns": null
+}

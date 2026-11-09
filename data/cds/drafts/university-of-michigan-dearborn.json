@@ -1,0 +1,120 @@
+{
+  "slug": "university-of-michigan-dearborn",
+  "cdsYear": "2024-2025",
+  "source": {
+    "title": "Common Data Set 2024-2025",
+    "url": "https://umdearborn.edu/sites/default/files/unmanaged/pdf/ire/cds-2024-2025.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 14105,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 14105"
+    },
+    "admitted_total": {
+      "value": 7844,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 7844"
+    },
+    "enrolled_total": {
+      "value": 1114,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1114"
+    },
+    "sat_p25": {
+      "value": 990,
+      "quote": "SAT Composite 990 1120 1250"
+    },
+    "sat_p50": {
+      "value": 1120,
+      "quote": "SAT Composite 990 1120 1250"
+    },
+    "sat_p75": {
+      "value": 1250,
+      "quote": "SAT Composite 990 1120 1250"
+    },
+    "act_p25": {
+      "value": 24,
+      "quote": "ACT Composite 24 26 29"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "ACT Composite 24 26 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT Composite 24 26 29"
+    },
+    "gpa_400_pct": {
+      "value": 18.76,
+      "quote": "Percent who had GPA of 4.0 18.76"
+    },
+    "gpa_375_pct": {
+      "value": 26.48,
+      "quote": "Percent who had GPA between 3.75 and 3.99 26.48"
+    },
+    "gpa_350_pct": {
+      "value": 20.56,
+      "quote": "Percent who had GPA between 3.50 and 3.74 20.56"
+    },
+    "gpa_325_pct": {
+      "value": 15.17,
+      "quote": "Percent who had GPA between 3.25 and 3.49 15.17"
+    },
+    "gpa_300_pct": {
+      "value": 14.9,
+      "quote": "Percent who had GPA between 3.00 and 3.24 14.90"
+    },
+    "gpa_250_pct": {
+      "value": 4.13,
+      "quote": "Percent who had GPA between 2.50 and 2.99 4.13"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.00"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.00"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.64,
+      "quote": "Average High School GPA 3.64"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent Submitting GPA 100.00"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "If yes, maximum period of postponement: 1 Year"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Early decision: Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Early action: Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? No"
+    },
+    "transfer_applied": {
+      "value": 1950,
+      "quote": "Total 1950 950 531"
+    },
+    "transfer_admitted": {
+      "value": 950,
+      "quote": "Total 1950 950 531"
+    },
+    "transfer_enrolled": {
+      "value": 531,
+      "quote": "Total 1950 950 531"
+    }
+  },
+  "concerns": null
+}

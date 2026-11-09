@@ -1,0 +1,232 @@
+{
+  "slug": "university-of-denver",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.du.edu/sites/default/files/2026-05/DU_Common_Data_Set_2025_2026_v2.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 16637,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 16637"
+    },
+    "admitted_total": {
+      "value": 14205,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 14205"
+    },
+    "enrolled_total": {
+      "value": 1174,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 1174"
+    },
+    "waitlist_offered": {
+      "value": 22,
+      "quote": "Number of qualified applicants offered a place on waiting list: 22"
+    },
+    "waitlist_accepted": {
+      "value": 4,
+      "quote": "Number accepting a place on the waiting list: 4"
+    },
+    "waitlist_admitted": {
+      "value": 0,
+      "quote": "Number of wait-listed students admitted: 0"
+    },
+    "sat_submit_pct": {
+      "value": 25,
+      "quote": "Submitting SAT Scores 25%"
+    },
+    "act_submit_pct": {
+      "value": 11,
+      "quote": "Submitting ACT Scores 11%"
+    },
+    "sat_p25": {
+      "value": 1160,
+      "quote": "SAT Composite 1160"
+    },
+    "sat_p50": {
+      "value": 1280,
+      "quote": "SAT Composite 1280"
+    },
+    "sat_p75": {
+      "value": 1360,
+      "quote": "SAT Composite 1360"
+    },
+    "act_p25": {
+      "value": 27,
+      "quote": "ACT Composite 27"
+    },
+    "act_p50": {
+      "value": 30,
+      "quote": "ACT Composite 30"
+    },
+    "act_p75": {
+      "value": 32,
+      "quote": "ACT Composite 32"
+    },
+    "rank_top10_pct": {
+      "value": 34,
+      "quote": "Percent in top tenth of high school graduating class 34%"
+    },
+    "rank_top25_pct": {
+      "value": 65,
+      "quote": "Percent in top quarter of high school graduating class 65%"
+    },
+    "rank_submit_pct": {
+      "value": 22,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 22%"
+    },
+    "gpa_400_pct": {
+      "value": 35.5,
+      "quote": "Percent who had GPA of 4.0 35.5%"
+    },
+    "gpa_375_pct": {
+      "value": 20.7,
+      "quote": "Percent who had GPA between 3.75 and 3.99 20.7%"
+    },
+    "gpa_350_pct": {
+      "value": 18.1,
+      "quote": "Percent who had GPA between 3.50 and 3.74 18.1%"
+    },
+    "gpa_325_pct": {
+      "value": 11.1,
+      "quote": "Percent who had GPA between 3.25 and 3.49 11.1%"
+    },
+    "gpa_300_pct": {
+      "value": 7.7,
+      "quote": "Percent who had GPA between 3.00 and 3.24 7.7%"
+    },
+    "gpa_250_pct": {
+      "value": 6.7,
+      "quote": "Percent who had GPA between 2.50 and 2.99 6.7%"
+    },
+    "gpa_200_pct": {
+      "value": 0.3,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.3%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.0%"
+    },
+    "gpa_average": {
+      "value": 3.68,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.68"
+    },
+    "gpa_submit_pct": {
+      "value": 99.4,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.4%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "If yes, maximum period of postponement: 1 year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "Does your institution offer an early decision plan Yes"
+    },
+    "ed_applied": {
+      "value": 273,
+      "quote": "Number of early decision applications received by your institution 273"
+    },
+    "ed_admitted": {
+      "value": 231,
+      "quote": "Number of applicants admitted under early decision plan 231"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+    },
+    "transfer_applied": {
+      "value": 460,
+      "quote": "Total 460"
+    },
+    "transfer_admitted": {
+      "value": 373,
+      "quote": "Total 373"
+    },
+    "transfer_enrolled": {
+      "value": 160,
+      "quote": "Total 160"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    }
+  },
+  "concerns": null
+}
