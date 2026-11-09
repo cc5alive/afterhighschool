@@ -1,0 +1,216 @@
+{
+  "slug": "samford-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.samford.edu/departments/files/Institutional_Effectiveness/2025-2026/Section-C-First-Time-First-Year-Freshman-Admission.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 5114,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 1353 3563 198 5114"
+    },
+    "admitted_total": {
+      "value": 4055,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 596 3405 54 4055"
+    },
+    "enrolled_total": {
+      "value": 1157,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 283 868 6 1157"
+    },
+    "waitlist_offered": {
+      "value": 217,
+      "quote": "Number of qualified applicants offered a place on waiting list: 217"
+    },
+    "waitlist_accepted": {
+      "value": 84,
+      "quote": "Number accepting a place on the waiting list: 84"
+    },
+    "waitlist_admitted": {
+      "value": 22,
+      "quote": "Number of wait-listed students admitted: 22"
+    },
+    "sat_submit_pct": {
+      "value": 26,
+      "quote": "Submitting SAT Scores 26%"
+    },
+    "act_submit_pct": {
+      "value": 65,
+      "quote": "Submitting ACT Scores 65%"
+    },
+    "sat_p25": {
+      "value": 1090,
+      "quote": "SAT Composite 1090 1160 1230"
+    },
+    "sat_p50": {
+      "value": 1160,
+      "quote": "SAT Composite 1090 1160 1230"
+    },
+    "sat_p75": {
+      "value": 1230,
+      "quote": "SAT Composite 1090 1160 1230"
+    },
+    "act_p25": {
+      "value": 22,
+      "quote": "ACT Composite 22 25 29"
+    },
+    "act_p50": {
+      "value": 25,
+      "quote": "ACT Composite 22 25 29"
+    },
+    "act_p75": {
+      "value": 29,
+      "quote": "ACT Composite 22 25 29"
+    },
+    "rank_top10_pct": {
+      "value": 29,
+      "quote": "Percent in top tenth of high school graduating class 29%"
+    },
+    "rank_top25_pct": {
+      "value": 58,
+      "quote": "Percent in top quarter of high school graduating class 58%"
+    },
+    "rank_submit_pct": {
+      "value": 27,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 27%"
+    },
+    "gpa_400_pct": {
+      "value": 45.07,
+      "quote": "Percent who had GPA of 4.0 45.07%"
+    },
+    "gpa_375_pct": {
+      "value": 21.89,
+      "quote": "Percent who had GPA between 3.75 and 3.99 21.89%"
+    },
+    "gpa_350_pct": {
+      "value": 15.4,
+      "quote": "Percent who had GPA between 3.50 and 3.74 15.40%"
+    },
+    "gpa_325_pct": {
+      "value": 8.74,
+      "quote": "Percent who had GPA between 3.25 and 3.49 8.74%"
+    },
+    "gpa_300_pct": {
+      "value": 5.8,
+      "quote": "Percent who had GPA between 3.00 and 3.24 5.80%"
+    },
+    "gpa_250_pct": {
+      "value": 2.94,
+      "quote": "Percent who had GPA between 2.50 and 2.99 2.94%"
+    },
+    "gpa_200_pct": {
+      "value": 0.09,
+      "quote": "Percent who had GPA between 2.0 and 2.49 0.09%"
+    },
+    "gpa_100_pct": {
+      "value": 0.09,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.09%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0%"
+    },
+    "gpa_average": {
+      "value": 3.87,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.87"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 100.00%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Y"
+    },
+    "deferral_max": {
+      "value": "1 YEAR",
+      "quote": "If yes, maximum period of postponement: 1 YEAR"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "transfer_applied": {
+      "value": 251,
+      "quote": "Total 251"
+    },
+    "transfer_admitted": {
+      "value": 192,
+      "quote": "Total 192"
+    },
+    "transfer_enrolled": {
+      "value": 132,
+      "quote": "Total 132"
+    }
+  },
+  "concerns": null
+}
