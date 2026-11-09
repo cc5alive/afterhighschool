@@ -1,0 +1,160 @@
+{
+  "slug": "ramapo-college-of-new-jersey",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.ramapo.edu/ir/wp-content/uploads/sites/52/2026/02/CDS-2025-2026-Final-Report-3.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 9784,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 9784"
+    },
+    "admitted_total": {
+      "value": 6874,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 6874"
+    },
+    "enrolled_total": {
+      "value": 1042,
+      "quote": "Total first-time, first-year (degree-seeking) enrolled 1042"
+    },
+    "waitlist_offered": {
+      "value": 1355,
+      "quote": "Number of qualified applicants offered a place on waiting list: 1355"
+    },
+    "waitlist_accepted": {
+      "value": 238,
+      "quote": "Number accepting a place on the waiting list: 238"
+    },
+    "waitlist_admitted": {
+      "value": 68,
+      "quote": "Number of wait-listed students admitted: 68"
+    },
+    "sat_submit_pct": {
+      "value": 21.2,
+      "quote": "Submitting SAT Scores 21.20"
+    },
+    "act_submit_pct": {
+      "value": 1.5,
+      "quote": "Submitting ACT Scores 1.50"
+    },
+    "sat_p25": {
+      "value": 1145,
+      "quote": "SAT Composite 1145"
+    },
+    "sat_p50": {
+      "value": 1210,
+      "quote": "SAT Composite 1210"
+    },
+    "sat_p75": {
+      "value": 1280,
+      "quote": "SAT Composite 1280"
+    },
+    "act_p25": {
+      "value": 21,
+      "quote": "ACT Composite 21"
+    },
+    "act_p50": {
+      "value": 26,
+      "quote": "ACT Composite 26"
+    },
+    "act_p75": {
+      "value": 28,
+      "quote": "ACT Composite 28"
+    },
+    "rank_top10_pct": {
+      "value": 15.7,
+      "quote": "Percent in top tenth of high school graduating class 15.70"
+    },
+    "rank_top25_pct": {
+      "value": 42.9,
+      "quote": "Percent in top quarter of high school graduating class 42.90"
+    },
+    "rank_submit_pct": {
+      "value": 32.9,
+      "quote": "Percent of total first-time, first-year students who submitted high school class rank: 32.90"
+    },
+    "gpa_400_pct": {
+      "value": 8.8,
+      "quote": "Percent who had GPA of 4.0 8.80"
+    },
+    "gpa_375_pct": {
+      "value": 21.1,
+      "quote": "Percent who had GPA between 3.75 and 3.99 21.10"
+    },
+    "gpa_350_pct": {
+      "value": 28.2,
+      "quote": "Percent who had GPA between 3.50 and 3.74 28.20"
+    },
+    "gpa_325_pct": {
+      "value": 14.3,
+      "quote": "Percent who had GPA between 3.25 and 3.49 14.30"
+    },
+    "gpa_300_pct": {
+      "value": 17.4,
+      "quote": "Percent who had GPA between 3.00 and 3.24 17.40"
+    },
+    "gpa_250_pct": {
+      "value": 9.1,
+      "quote": "Percent who had GPA between 2.50 and 2.99 9.10"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "Percent who had GPA between 2.0 and 2.49 1.00"
+    },
+    "gpa_100_pct": {
+      "value": 0.1,
+      "quote": "Percent who had GPA between 1.0 and 1.99 0.10"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "Percent who had GPA below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.48,
+      "quote": "Average High School GPA 3.48"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "Percent Submitting GPA 100.00"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18. Deferred admission: Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "12 Months",
+      "quote": "If yes, maximum period of postponement: 12 Months"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": "C21. Early decision: Does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attending if accepted) for first-time, first-year applicants for fall enrollment? Yes"
+    },
+    "ed_applied": {
+      "value": 103,
+      "quote": "Number of early decision applications received by your institution: 103"
+    },
+    "ed_admitted": {
+      "value": 86,
+      "quote": "Number of applicants admitted under early decision plan: 86"
+    },
+    "ea_offered": {
+      "value": "yes",
+      "quote": "C22. Early action: Do you have a nonbinding early action plan whereby students are notified of an admission decision well in advance of the regular notification date but do not have to commit to attending your college? Yes"
+    },
+    "transfer_applied": {
+      "value": 1218,
+      "quote": "Total 1218 759 405"
+    },
+    "transfer_admitted": {
+      "value": 759,
+      "quote": "Total 1218 759 405"
+    },
+    "transfer_enrolled": {
+      "value": 405,
+      "quote": "Total 1218 759 405"
+    }
+  },
+  "concerns": null
+}

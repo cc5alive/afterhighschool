@@ -1,0 +1,184 @@
+{
+  "slug": "bowie-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.bowiestate.edu/about/administration-and-governance/division-of-academic-affairs/office-of-planning-analysis-analysis-and-accountability/common-data-set.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 5842,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 5842"
+    },
+    "admitted_total": {
+      "value": 4814,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 4814"
+    },
+    "enrolled_total": {
+      "value": 877,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 877"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 4,
+      "quote": "Submitting SAT Scores 4%"
+    },
+    "act_submit_pct": {
+      "value": 0,
+      "quote": "Submitting ACT Scores 0%"
+    },
+    "sat_p25": {
+      "value": 895,
+      "quote": "SAT Composite 895 1025 1208"
+    },
+    "sat_p50": {
+      "value": 1025,
+      "quote": "SAT Composite 895 1025 1208"
+    },
+    "sat_p75": {
+      "value": 1208,
+      "quote": "SAT Composite 895 1025 1208"
+    },
+    "gpa_400_pct": {
+      "value": 8.1,
+      "quote": "Percent who had GPA of 4.0 8.1%"
+    },
+    "gpa_375_pct": {
+      "value": 10.3,
+      "quote": "Percent who had GPA between 3.75 and 3.99 10.3%"
+    },
+    "gpa_350_pct": {
+      "value": 12.2,
+      "quote": "Percent who had GPA between 3.50 and 3.74 12.2%"
+    },
+    "gpa_325_pct": {
+      "value": 13.2,
+      "quote": "Percent who had GPA between 3.25 and 3.49 13.2%"
+    },
+    "gpa_300_pct": {
+      "value": 16.7,
+      "quote": "Percent who had GPA between 3.00 and 3.24 16.7%"
+    },
+    "gpa_250_pct": {
+      "value": 27.5,
+      "quote": "Percent who had GPA between 2.50 and 2.99 27.5%"
+    },
+    "gpa_200_pct": {
+      "value": 10,
+      "quote": "Percent who had GPA between 2.0 and 2.49 10.0%"
+    },
+    "gpa_100_pct": {
+      "value": 1.9,
+      "quote": "Percent who had GPA between 1.0 and 1.99 1.9%"
+    },
+    "gpa_below1_pct": {
+      "value": 0.1,
+      "quote": "Percent who had GPA below 1.0 0.1%"
+    },
+    "gpa_average": {
+      "value": 3.18,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students who submitted GPA: 3.18"
+    },
+    "gpa_submit_pct": {
+      "value": 98.6,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 98.60%"
+    },
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "Does your institution allow students to postpone enrollment after admission? No"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "Does your institution offer an early decision plan No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "Do you have a nonbinding early action plan No"
+    },
+    "transfer_applied": {
+      "value": 1397,
+      "quote": "Total 1,397 1,235 439"
+    },
+    "transfer_admitted": {
+      "value": 1235,
+      "quote": "Total 1,397 1,235 439"
+    },
+    "transfer_enrolled": {
+      "value": 439,
+      "quote": "Total 1,397 1,235 439"
+    }
+  },
+  "concerns": null
+}

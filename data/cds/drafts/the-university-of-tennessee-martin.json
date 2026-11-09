@@ -1,0 +1,32 @@
+{
+  "slug": "the-university-of-tennessee-martin",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026 - C. First-Time, First-Year Admission",
+    "url": "https://www.utm.edu/offices-and-services/office-of-institutional-research/_media/2025-2026/Common%20Data%20Set%202025-2026%20-%20C.%20First-Time,%20First-Year%20Admission.pdf"
+  },
+  "researchedAt": "2026-11-06",
+  "values": {
+    "applied_total": {
+      "value": 6471,
+      "quote": "Total first-time, first-year (degree-seeking) who applied 6471"
+    },
+    "admitted_total": {
+      "value": 5803,
+      "quote": "Total first-time, first-year (degree-seeking) who were admitted 5803"
+    },
+    "enrolled_total": {
+      "value": 1329,
+      "quote": "Total first-time, first-year (degree-seeking) who enrolled 1329"
+    },
+    "gpa_average": {
+      "value": 3.68,
+      "quote": "Average high school GPA of all degree-seeking, first-time, first-year students 3.68"
+    },
+    "gpa_submit_pct": {
+      "value": 99.13,
+      "quote": "Percent of total first-time, first-year students who submitted high school GPA: 99.13%"
+    }
+  },
+  "concerns": null
+}
