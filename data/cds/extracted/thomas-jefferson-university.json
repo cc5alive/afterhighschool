@@ -1,0 +1,156 @@
+{
+  "slug": "thomas-jefferson-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.jefferson.edu/content/dam/academic/east-falls/institutional-research-and-planning/tju-common-data-set-2025-2026.xlsx"
+  },
+  "sourceUrl": "https://www.jefferson.edu/content/dam/academic/east-falls/institutional-research-and-planning/tju-common-data-set-2025-2026.xlsx",
+  "researchedAt": "2026-11-09",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "xlsx",
+  "values": {
+    "applied_total": {
+      "value": 7561,
+      "quote": "C.116 total first-time, first-year students who applied: 7561"
+    },
+    "admitted_total": {
+      "value": 6101,
+      "quote": "C.117 total first-time, first-year students who were admitted: 6101"
+    },
+    "enrolled_total": {
+      "value": 929,
+      "quote": "C.118 total first-time, first-year students who enrolled: 929"
+    },
+    "waitlist_admitted": {
+      "value": 4,
+      "quote": "number of wait-listed students admitted: c.514 english 4 first-time, first-year admission admissions requirements high school units recommended undergraduates first-time, first-year all all all carnegie units"
+    },
+    "rank_top10_pct": {
+      "value": 28.8,
+      "quote": "C.1001 percent in top tenth of high school graduating class: 0.288"
+    },
+    "rank_top25_pct": {
+      "value": 54.1,
+      "quote": "C.1002 percent in top quarter of high school graduating class: 0.541"
+    },
+    "rank_submit_pct": {
+      "value": 34,
+      "quote": "C.1006 percent of total first-time, first-year students who submitted high school class rank:: 0.34"
+    },
+    "gpa_average": {
+      "value": 3.75,
+      "quote": "C.1201 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa:: 3.75"
+    },
+    "gpa_submit_pct": {
+      "value": 99.35,
+      "quote": "C.1202 percent of total first-time, first-year students who submitted high school gpa:: 0.99354"
+    },
+    "transfer_applied": {
+      "value": 2874,
+      "quote": "D.204 total: 2874"
+    },
+    "transfer_admitted": {
+      "value": 1260,
+      "quote": "D.208 total: 1260"
+    },
+    "transfer_enrolled": {
+      "value": 747,
+      "quote": "D.212 total: 747"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C.1801 does your institution allow students to postpone enrollment after admission?: Yes"
+    },
+    "deferral_max": {
+      "value": "1-Year",
+      "quote": "C.1802 if yes, maximum period of postponement:: 1-Year"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C.2101 does your institution offer an early decision plan (an admission plan that permits students to apply and be notified of an admission decision well in advance of the regular notification date and that asks students to commit to attend"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "C.701 rigor of secondary school record: Very Important"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "C.702 class rank: Considered"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "C.703 academic gpa: Very Important"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "C.704 standardized test scores: Considered"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "C.705 application essay: Important"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "C.706 recommendation(s): Important"
+    },
+    "factor_interview": {
+      "value": "Considered",
+      "quote": "C.707 interview: Considered"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "C.708 extracurricular activities: Considered"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "C.709 talent/ability: Considered"
+    },
+    "factor_character": {
+      "value": "Considered",
+      "quote": "C.710 character/personal qualities: Considered"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "C.716 volunteer work: Considered"
+    },
+    "gpa_400_pct": {
+      "value": 26.9,
+      "quote": "C.1121 percent who had gpa of 4.0: 0.269"
+    },
+    "gpa_375_pct": {
+      "value": 25.5,
+      "quote": "C.1122 percent who had gpa between 3.75 and 3.99: 0.255"
+    },
+    "gpa_350_pct": {
+      "value": 24.4,
+      "quote": "C.1123 percent who had gpa between 3.50 and 3.74: 0.244"
+    },
+    "gpa_325_pct": {
+      "value": 12.2,
+      "quote": "C.1124 percent who had gpa between 3.25 and 3.49: 0.122"
+    },
+    "gpa_300_pct": {
+      "value": 6,
+      "quote": "C.1125 percent who had gpa between 3.00 and 3.24: 0.06"
+    },
+    "gpa_250_pct": {
+      "value": 4,
+      "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.04"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "C.1127 percent who had gpa between 2.0 and 2.49: 0.01"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "C.1128 percent who had gpa between 1.0 and 1.99: 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "C.1129 percent who had gpa below 1.0: 0"
+    }
+  },
+  "concerns": null
+}

@@ -236,6 +236,7 @@ Built 2026-11-09.
 | the-university-of-texas-at-el-paso | 2025-2026 | 10 | C11 buckets sum to 0.1 |
 | the-university-of-texas-at-san-antonio | 2024-2025 | 15 | reader and Gemini read different documents (2024 vs 2023); used the reader one; gpa_submit_pct implausibly low |
 | the-university-of-texas-at-tyler | 2024-2025 | 39 |  |
+| thomas-jefferson-university | 2025-2026 | 34 |  |
 | towson-university | 2025-2026 | 42 | gpa_200_pct: reads disagree (0.13 vs 0.1), left out |
 | trinity-college | 2025-2026 | 42 |  |
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
