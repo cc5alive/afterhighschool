@@ -45,7 +45,16 @@ for (const e of out) {
     if (!CDS_FACTORS[k] && CDS_FIELDS[k].type !== 'yesno' && !v.quote) { notes.push(`no quote for ${k}`); continue; }
     values[k] = { value: v.value, quote: v.quote || null };
   }
-  if (!Object.keys(values).length) { console.log(`SKIP ${e.slug}: no usable values`); continue; }
+  if (!Object.keys(values).length) {
+    // No values Gemini could quote (an Excel file it couldn't open, a blocked PDF), but a link to the file
+    // itself is still useful: our reader may be able to read it. Only for schools we don't list yet.
+    if (!sources[e.slug] && /\.(pdf|xlsx?|docx)(\?|$)|drive\.google|docs\.google|box\.com|dropbox\.com/i.test(e.source.url)) {
+      sources[e.slug] = { url: e.source.url, year: e.cdsYear || null, title: e.source.title || 'Common Data Set' };
+      sourcesChanged.push(e.slug);
+      console.log(`LINK ${e.slug}: no usable values; listed its CDS file for our reader`);
+    } else console.log(`SKIP ${e.slug}: no usable values`);
+    continue;
+  }
   const d = { slug: e.slug, cdsYear: e.cdsYear || null, source: { title: e.source.title || 'Common Data Set', url: e.source.url },
     researchedAt: e.researchedAt || null, values, concerns: e.concerns || null };
   fs.writeFileSync(`data/cds/drafts/${e.slug}.json`, JSON.stringify(d, null, 2) + '\n');
@@ -66,6 +75,6 @@ for (const e of out) {
   written++;
   if (notes.length) console.log(`NOTE ${e.slug}: ${notes.join('; ')}`);
 }
-if (sourcesChanged.length) fs.writeFileSync('data/cds/sources.json', JSON.stringify(sources, null, 1));
+if (sourcesChanged.length) fs.writeFileSync('data/cds/sources.json', JSON.stringify(sources, null, 1) + '\n');
 console.log(`Wrote ${written} CDS drafts; unreadable lines: ${bad.length ? bad.join(', ') : 'none'}.`);
 if (sourcesChanged.length) console.log(`Pointed the reader at Gemini's document for: ${sourcesChanged.join(', ')}`);

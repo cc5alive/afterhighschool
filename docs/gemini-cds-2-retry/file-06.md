@@ -1,0 +1,65 @@
+# Task (second look): copy Common Data Set numbers for 10 US colleges (file 6 of 9)
+
+You're helping build afterhighschool.me, a free, high-trust site that helps 16–18-year-olds decide what to do after high school. For each college below, find its most recent **Common Data Set (CDS)** and copy specific numbers out of it. We check every number against the document automatically, and anything that doesn't match is thrown out, so copy exactly and never estimate.
+
+## How to work
+
+1. **Browse live.** Search for "<college name> Common Data Set" and open the school's own copy, usually on its institutional research or "facts" page. If you can't browse, reply only: BROWSING UNAVAILABLE.
+   **Don't give up early.** Many colleges post their CDS on an institutional research, institutional effectiveness or "facts and figures" page, sometimes as an Excel file or a Dropbox, Box or Google Drive link. Before you say a college has none, search `site:<its domain> "common data set"` and open its institutional research page. Only if both turn up nothing, reply with an empty "values" and say in "concerns" which pages you checked.
+   **Found the file but can't open it?** (An Excel file, a Google Drive link, or a PDF that won't load.) Still put its direct link in "source", leave "values" empty, and say so in "concerns". We can read those files ourselves.
+2. **Use the newest year available**, ideally 2025-2026. If that isn't posted, use 2024-2025. Don't use anything older than 2023-2024. Put the year in "cdsYear".
+3. **Link the document itself**, meaning the PDF, Excel file or HTML page that holds the CDS tables, not the landing page that links to it. It must be on the school's own website.
+4. **Copy, never compute.** Every value must be printed in the document. If a cell is blank, says N/A or isn't reported, leave that key out. Don't add numbers together or work out percentages.
+
+## What to copy (use these exact keys)
+
+For each key, give the value and a **quote**: the row's label as printed in the document, followed by the number as printed. For example: "Percent who had GPA of 4.0 24.50%". Keep the quote to that one row.
+
+**C1 (first-year totals; use the "Total" lines, not the men and women lines):** applied_total, admitted_total, enrolled_total
+
+**C2 (wait list):** waitlist_offered (qualified applicants offered a place), waitlist_accepted (accepting a place), waitlist_admitted (wait-listed students admitted)
+
+**C9 (enrolled first-years' test scores):** sat_submit_pct, act_submit_pct, sat_p25, sat_p50, sat_p75 (SAT Composite), act_p25, act_p50, act_p75 (ACT Composite)
+
+**C10 (class rank):** rank_top10_pct (top tenth), rank_top25_pct (top quarter), rank_submit_pct (percent who submitted class rank)
+
+**C11 (GPA of enrolled first-years, percentages):** gpa_400_pct (GPA of 4.0), gpa_375_pct (3.75–3.99), gpa_350_pct (3.50–3.74), gpa_325_pct (3.25–3.49), gpa_300_pct (3.00–3.24), gpa_250_pct (2.50–2.99), gpa_200_pct (2.0–2.49), gpa_100_pct (1.0–1.99), gpa_below1_pct (below 1.0)
+
+**C12:** gpa_average (average high school GPA), gpa_submit_pct (percent who submitted GPA)
+
+**C21 (early decision):** ed_offered ("yes" or "no"), ed_applied (early decision applications received), ed_admitted (applicants admitted under early decision)
+
+**C22 (early action):** ea_offered ("yes" or "no"), ea_applied, ea_admitted (only if the document reports them)
+
+**C18 (deferred admission):** deferral_allowed ("yes" or "no": can admitted students postpone enrolling?), deferral_max (the maximum period of postponement, in the document's words, only if deferral_allowed is "yes")
+
+**D2 (transfer students, use the "Total" row):** transfer_applied, transfer_admitted, transfer_enrolled
+
+**C7 (how much each factor counts in first-year admission):** for each row of the C7 grid, give the column that is checked: "Very Important", "Important", "Considered" or "Not Considered". The quote is just the row label as printed. Keys: factor_rigor (Rigor of secondary school record), factor_class_rank, factor_gpa (Academic GPA), factor_test_scores, factor_essay, factor_recommendations, factor_interview, factor_extracurriculars, factor_talent (Talent/ability), factor_character (Character/personal qualities), factor_first_generation, factor_alumni (Alumni/ae relation), factor_geography (Geographical residence), factor_state_residency, factor_religion (Religious affiliation/commitment), factor_volunteer, factor_work (Work experience), factor_interest (Level of applicant's interest)
+
+Values: write numbers without commas or % signs (4213, not "4,213"; 24.5, not "24.50%"). Keep the commas and % signs as printed inside the quote.
+
+## Output format
+
+Reply with **JSON Lines only**: one JSON object per line, one line per college, in the order listed. No intro, no code fences, no notes after.
+
+{"slug":"<slug exactly as listed>","researchedAt":"<today, YYYY-MM-DD>","cdsYear":"2025-2026","source":{"title":"<document title>","url":"<direct https link to the CDS document>"},"values":{"applied_total":{"value":61220,"quote":"Total first-time, first-year (degree-seeking) who applied 61,220"},"factor_essay":{"value":"Important","quote":"Application Essay"}},"concerns":null}
+
+JSON rules: every line must parse. Inside strings, write double quotes as \" (or use single quotes ' instead). No line breaks inside a line. If you can't find a CDS from 2023-2024 or later on the school's own site, still output its line with "source":null, "values":{} and say why in "concerns".
+
+Do all 10 colleges. If you get cut off, stop at the end of a complete line; I'll reply "continue" and you pick up with the next college.
+
+## Colleges
+
+An earlier search said these colleges have no Common Data Set. Several of them do. Search each college's own site carefully before you answer "none".
+
+- rensselaer-polytechnic-institute | Rensselaer Polytechnic Institute | Troy, NY | www.rpi.edu
+- columbus-state-university | Columbus State University | Columbus, GA | www.columbusstate.edu
+- metropolitan-state-university | Metropolitan State University | Saint Paul, MN | www.metrostate.edu
+- long-island-university | Long Island University | Brookville, NY | www.liu.edu
+- augusta-university | Augusta University | Augusta, GA | www.augusta.edu
+- university-of-north-carolina-at-pembroke | University of North Carolina at Pembroke | Pembroke, NC | www.uncp.edu
+- high-point-university | High Point University | High Point, NC | www.highpoint.edu
+- university-of-louisiana-at-monroe | University of Louisiana at Monroe | Monroe, LA | www.ulm.edu
+- california-state-university-channel-islands | California State University-Channel Islands | Camarillo, CA | www.csuci.edu
+- mcneese-state-university | McNeese State University | Lake Charles, LA | www.mcneese.edu

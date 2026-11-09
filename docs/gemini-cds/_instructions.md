@@ -6,6 +6,7 @@ You're helping build afterhighschool.me, a free, high-trust site that helps 16â€
 
 1. **Browse live.** Search for "<college name> Common Data Set" and open the school's own copy, usually on its institutional research or "facts" page. If you can't browse, reply only: BROWSING UNAVAILABLE.
    **Don't give up early.** Many colleges post their CDS on an institutional research, institutional effectiveness or "facts and figures" page, sometimes as an Excel file or a Dropbox, Box or Google Drive link. Before you say a college has none, search `site:<its domain> "common data set"` and open its institutional research page. Only if both turn up nothing, reply with an empty "values" and say in "concerns" which pages you checked.
+   **Found the file but can't open it?** (An Excel file, a Google Drive link, or a PDF that won't load.) Still put its direct link in "source", leave "values" empty, and say so in "concerns". We can read those files ourselves.
 2. **Use the newest year available**, ideally 2025-2026. If that isn't posted, use 2024-2025. Don't use anything older than 2023-2024. Put the year in "cdsYear".
 3. **Link the document itself**, meaning the PDF, Excel file or HTML page that holds the CDS tables, not the landing page that links to it. It must be on the school's own website.
 4. **Copy, never compute.** Every value must be printed in the document. If a cell is blank, says N/A or isn't reported, leave that key out. Don't add numbers together or work out percentages.
