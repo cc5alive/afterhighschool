@@ -23,6 +23,10 @@ const SECURITY_HEADERS = {
     "default-src 'self'",
     "script-src 'self' https://static.cloudflareinsights.com",
     "style-src 'self' https://fonts.googleapis.com",
+    // Bar widths and chart marker positions are set with style="" attributes. Without this the
+    // browser drops them: every GPA bar draws full width and the "Where you'd stand" markers stack at the left.
+    // Stylesheets and <style> blocks stay limited to style-src above.
+    "style-src-attr 'unsafe-inline'",
     "font-src https://fonts.gstatic.com",
     "img-src 'self' data:",
     "connect-src 'self' https://cloudflareinsights.com",

@@ -10,5 +10,8 @@ export default defineConfig({
     // The Worker's Content-Security-Policy only allows same-origin stylesheets.
     inlineStylesheets: 'never'
   },
-  devToolbar: { enabled: false }
+  devToolbar: { enabled: false },
+  // Never inline small scripts into the page: the Worker's Content-Security-Policy only allows
+  // same-origin script files, so an inlined script (like the menu's click-away handler) wouldn't run.
+  vite: { build: { assetsInlineLimit: 0 } }
 });
