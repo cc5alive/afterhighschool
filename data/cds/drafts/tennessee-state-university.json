@@ -1,0 +1,196 @@
+{
+  "slug": "tennessee-state-university",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "Common Data Set 2025-2026 - First-Time, First-Year Admission",
+    "url": "https://wst-media.sfo2.digitaloceanspaces.com/TSU/wp-content/uploads/2026/10/19212944/First-Time-First-Year-Admission-1.pdf"
+  },
+  "researchedAt": "2026-11-09",
+  "values": {
+    "applied_total": {
+      "value": 8804,
+      "quote": "1800 6920 84 8804"
+    },
+    "admitted_total": {
+      "value": 7451,
+      "quote": "1465 5905 81 7451"
+    },
+    "enrolled_total": {
+      "value": 457,
+      "quote": "241 212 4 457"
+    },
+    "factor_rigor": {
+      "value": "Considered",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant’s interest"
+    },
+    "sat_submit_pct": {
+      "value": 30,
+      "quote": "Submitting SAT Scores 30% 138"
+    },
+    "act_submit_pct": {
+      "value": 67,
+      "quote": "Submitting ACT Scores 67% 307"
+    },
+    "sat_p25": {
+      "value": 900,
+      "quote": "SAT Composite 900 970 1120"
+    },
+    "sat_p50": {
+      "value": 970,
+      "quote": "SAT Composite 900 970 1120"
+    },
+    "sat_p75": {
+      "value": 1120,
+      "quote": "SAT Composite 900 970 1120"
+    },
+    "act_p25": {
+      "value": 16,
+      "quote": "ACT Composite 16 19 21"
+    },
+    "act_p50": {
+      "value": 19,
+      "quote": "ACT Composite 16 19 21"
+    },
+    "act_p75": {
+      "value": 21,
+      "quote": "ACT Composite 16 19 21"
+    },
+    "gpa_400_pct": {
+      "value": 12.6,
+      "quote": "12.60%"
+    },
+    "gpa_375_pct": {
+      "value": 11.5,
+      "quote": "11.50%"
+    },
+    "gpa_350_pct": {
+      "value": 15.3,
+      "quote": "15.30%"
+    },
+    "gpa_325_pct": {
+      "value": 17.3,
+      "quote": "17.30%"
+    },
+    "gpa_300_pct": {
+      "value": 18.5,
+      "quote": "18.50%"
+    },
+    "gpa_250_pct": {
+      "value": 21.2,
+      "quote": "21.20%"
+    },
+    "gpa_200_pct": {
+      "value": 2.9,
+      "quote": "2.90%"
+    },
+    "gpa_100_pct": {
+      "value": 0.7,
+      "quote": "0.70%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "0.00%"
+    },
+    "gpa_average": {
+      "value": 3.35,
+      "quote": "C12 3.35"
+    },
+    "gpa_submit_pct": {
+      "value": 97.2,
+      "quote": "97.20%"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "Does your institution allow students to postpone enrollment after admission? Yes"
+    },
+    "deferral_max": {
+      "value": "One Semester",
+      "quote": "If yes, maximum period of postponement: One Semester"
+    },
+    "ed_offered": {
+      "value": "no",
+      "quote": "C21 Early Decision No"
+    },
+    "ea_offered": {
+      "value": "no",
+      "quote": "C22 Early action No"
+    },
+    "transfer_applied": {
+      "value": 819,
+      "quote": "Total 819 705 215"
+    },
+    "transfer_admitted": {
+      "value": 705,
+      "quote": "Total 819 705 215"
+    },
+    "transfer_enrolled": {
+      "value": 215,
+      "quote": "Total 819 705 215"
+    }
+  },
+  "concerns": null
+}
