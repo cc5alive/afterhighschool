@@ -4,5 +4,5 @@ Checked 2 schools on 2026-11-09.
 
 | School | Document | Status | Values confirmed |
 | --- | --- | --- | --- |
-| elon-university | xlsx | 200 | 42 of 52 |
-| tarleton-state-university | pdf | 200 | 31 of 35 |
+| saint-joseph-s-university-philadelphia | pdf | 200 | 36 of 57 |
+| tennessee-state-university | pdf | 200 | 40 of 46 |

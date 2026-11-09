@@ -187,6 +187,7 @@ Built 2026-11-09.
 | rutgers-university-newark | 2023-2024 | 24 |  |
 | saginaw-valley-state-university | 2025-2026 | 30 |  |
 | saint-cloud-state-university | 2025-2026 | 44 | SAT 968-1150 far from federal 1025-1260 |
+| saint-joseph-s-university-philadelphia | 2023-2024 | 38 |  |
 | salem-state-university | 2024-2025 | 30 |  |
 | salisbury-university | 2025-2026 | 44 | gpa_100_pct: reads disagree (0 vs 0.1), left out |
 | sam-houston-state-university | 2025-2026 | 36 |  |
@@ -215,6 +216,7 @@ Built 2026-11-09.
 | syracuse-university | 2025-2026 | 54 |  |
 | tarleton-state-university | 2025-2026 | 29 | C1 failed consistency (applied 21840, admitted 11763, enrolled 3035, federal admit rate 0.8955) |
 | temple-university | 2025-2026 | 32 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
+| tennessee-state-university | 2025-2026 | 39 | C1 failed consistency (applied 8804, admitted 7451, enrolled 457, federal admit rate 0.7011) |
 | tennessee-technological-university | 2023-2024 | 28 |  |
 | texas-a-and-m-university-college-station | - | 14 |  |
 | texas-a-and-m-university-corpus-christi | 2025-2026 | 39 |  |
