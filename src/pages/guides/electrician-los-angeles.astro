@@ -1,0 +1,141 @@
+---
+// How to become an electrician in Los Angeles County: the paid apprenticeship routes, the school routes,
+// and the state rules every route has to meet. Every fact links to the provider's or the state's page.
+import Layout from '../../layouts/Layout.astro';
+import { LOCAL_GUIDES_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+import { LA_CHECKED as CHECKED, LA_SRC as SRC, ETI_PAY, ABC_PAY, LATTC, laSchools, lattc, privatePriceRange } from '../../lib/la-electrician.js';
+import { money, OWNERSHIP_LABEL } from '../../lib/format.js';
+
+const hr = (v) => `$${v.toFixed(2)}`;
+const A = (s) => `<a href="${s.url}" rel="noopener" target="_blank">${s.label}</a>`;
+const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Correction: LA electrician guide')}&body=${encodeURIComponent('What looks wrong or out of date:\n\nWhere you saw the right information (a link helps):\n')}`;
+---
+<Layout title="How to become an electrician in Los Angeles County | After High School"
+  description="Every route to becoming an electrician in LA County: paid union and non-union apprenticeships, community college and private career schools. Pay, costs, requirements and how to apply, from official sources."
+  path="/guides/electrician-los-angeles" nav="colleges" noindex={!LOCAL_GUIDES_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/trades/electrician">Electrician</a></nav>
+  <section class="compare-head">
+    <h1>Becoming an electrician in Los Angeles County</h1>
+    <p>To work as a general electrician in California, you need <strong>8,000 hours</strong> of work for a licensed electrical contractor, then a state exam. Every route below gets you those hours. The big difference is whether you're paid from your first day or pay for school first.</p>
+  </section>
+
+  <section class="block la-short" aria-labelledby="short">
+    <h2 id="short">The short answer</h2>
+    <ul class="xfer-srcs">
+      <li><strong>An apprenticeship pays you to learn.</strong> Both big LA programs start apprentices at about <strong>{hr(ETI_PAY.start)} an hour</strong> and raise pay as you log hours. When you finish, the program counts as your proof of experience for the state exam.</li>
+      <li><strong>School comes first, then the hours.</strong> A college certificate teaches you the basics, but it doesn't replace the 8,000 hours. You'd still need to work as a registered trainee under a certified electrician.</li>
+      <li><strong>Getting into an apprenticeship takes preparation.</strong> Both programs require a diploma or GED and algebra, and both give an entrance test. Start with the checklist below.</li>
+    </ul>
+    <p class="wys-src">Sources: <Fragment set:html={A(SRC.hours)} />; <Fragment set:html={A(SRC.trainee)} />; <Fragment set:html={A(SRC.etiNotice)} />; <Fragment set:html={A(SRC.abcWages)} />. Checked {CHECKED}.</p>
+  </section>
+
+  <h2 class="la-routes-h">Four ways in</h2>
+  <ul class="sy-list la-list">
+    <li class="sy-card la-paid" id="union">
+      <h3>Union apprenticeship: Electrical Training Institute</h3>
+      <p class="sy-what">Run by IBEW Local 11 and the Los Angeles chapter of the National Electrical Contractors Association. You're hired by a union contractor and take classes alongside the job.</p>
+      <dl class="sy-facts">
+        <div><dt>Paid while you learn?</dt><dd>Yes. {hr(ETI_PAY.start)} an hour to start, rising in steps to {hr(ETI_PAY.top)} at journey level (rates from {ETI_PAY.effective}). Class weeks are unpaid, though you may qualify for unemployment during them.</dd></div>
+        <div><dt>How long</dt><dd>5 years, with at least 240 hours of class a year, day or night.</dd></div>
+        <div class="sy-get"><dt>You need</dt><dd>To be 18 or older with a government photo ID; a high school diploma, GED or college degree; algebra (two semesters in high school with a C or better, one semester after high school, or the Electrical Training Alliance's online tech math course); and a valid Social Security number by the time you sign on. Veterans may have the algebra requirement waived.</dd></div>
+        <div class="sy-get"><dt>How to apply</dt><dd>Online only, at laett.com. You take an aptitude test (2 hours 20 minutes: math, number reasoning, reading, mechanical reasoning and paper folding) in the City of Commerce, then turn in a Personal Experience Form within 14 days. That form can count for up to 40% of your score.</dd></div>
+      </dl>
+      <p class="wys-src">Sources: <Fragment set:html={A(SRC.eti)} />; <Fragment set:html={A(SRC.etiNotice)} />. Checked {CHECKED}.</p>
+    </li>
+
+    <li class="sy-card la-paid" id="nonunion">
+      <h3>Non-union apprenticeship: ABC Southern California</h3>
+      <p class="sy-what">Run by the Southern California chapter of Associated Builders and Contractors, with a Los Angeles and Ventura training site in San Fernando. Approved by the state and the U.S. Department of Labor.</p>
+      <dl class="sy-facts">
+        <div><dt>Paid while you learn?</dt><dd>Yes. In LA County, {hr(ABC_PAY.start)} an hour plus {hr(ABC_PAY.startFringe)} in benefits at level 1, rising to {hr(ABC_PAY.level9)} plus {hr(ABC_PAY.level9Fringe)} at level 9 (2026 rates for private work).</dd></div>
+        <div><dt>How long</dt><dd>Nine levels, with a raise every 900 hours. Level 9 runs to 8,000 hours.</dd></div>
+        <div class="sy-get"><dt>You need</dt><dd>To be at least 17½ (a parent or guardian signs if you're under 18); a diploma or GED; a copy of your Social Security card and a valid driver's license; a DMV driving record; and algebra (one year in high school or one semester in college).</dd></div>
+        <div class="sy-get"><dt>How to apply</dt><dd>Apply online, then take the free TABE test (you need 70%, with two tries before a one-year wait), an oral interview (you need 80%) and an orientation. Questions: 714-779-3199 or studentintake@abcsocal.net.</dd></div>
+      </dl>
+      <p class="wys-src">Sources: <Fragment set:html={A(SRC.abc)} />; <Fragment set:html={A(SRC.abcWages)} />. Checked {CHECKED}.</p>
+    </li>
+
+    <li class="sy-card la-school" id="college">
+      <h3>Community college: Los Angeles Trade-Technical College</h3>
+      <p class="sy-what">An Electrician associate degree or certificate of achievement, 48 units of classes and labs. It teaches the trade, but it doesn't count toward the 8,000 work hours by itself.</p>
+      <dl class="sy-facts">
+        <div><dt>Cost</dt><dd>${LATTC.perUnit} a unit for California residents, so about {money(LATTC.fees)} in enrollment fees for 48 units (our arithmetic), before books and tools. The California College Promise Grant waives enrollment fees for students who qualify; apply with the FAFSA or the California Dream Act Application.{lattc?.avgNetPrice && <> Average net price for the whole college, including living costs: {money(lattc.avgNetPrice)} a year.</>}</dd></div>
+        <div><dt>How long</dt><dd>The degree is full time, about 24 hours a week of class and lab plus at least 12 hours of homework. An evening-only construction technician program is also offered.</dd></div>
+        <div class="sy-get"><dt>Graduates' pay</dt><dd>{lattc?.earn1 ? <>Students who finished an electrician certificate here earned a median of <strong>{money(lattc.earn1)}</strong> a year after finishing.</> : 'Not reported.'} {lattc && <>Last year the college awarded {lattc.certAwards} electrician certificates and {lattc.assocAwards} associate degrees.</>}</dd></div>
+        <div class="sy-get"><dt>Then</dt><dd>To start logging hours, you'd register with the state as an electrician trainee, which requires being enrolled in a state-approved school. Ask the program whether it qualifies.</dd></div>
+      </dl>
+      <p class="wys-src">Sources: <Fragment set:html={A(SRC.lattc)} />; <Fragment set:html={A(SRC.lattcFees)} />; <Fragment set:html={A(SRC.scorecard)} />; <Fragment set:html={A(SRC.trainee)} />. Checked {CHECKED}.</p>
+    </li>
+
+    <li class="sy-card la-school" id="private">
+      <h3>Private career schools</h3>
+      <p class="sy-what">Several for-profit schools in LA County offer electrician certificates, including UEI College, InterCoast Colleges and Capstone College. They usually cost much more than community college.</p>
+      <dl class="sy-facts">
+        <div><dt>Cost</dt><dd>{privatePriceRange ? <>Average net price {money(privatePriceRange[0])} to {money(privatePriceRange[1])} a year at the ones below, including living costs.</> : 'See the table below.'} Ask for the total price of the whole program in writing.</dd></div>
+        <div><dt>Graduates' pay</dt><dd>See the table below. Some chains report one earnings figure for all their campuses.</dd></div>
+        <div class="sy-get"><dt>Then</dt><dd>Same as community college: you still need 8,000 hours as a registered trainee before the state exam.</dd></div>
+      </dl>
+      <p class="wys-src">Source: <Fragment set:html={A(SRC.scorecard)} />.</p>
+    </li>
+  </ul>
+
+  <section class="block" aria-labelledby="pay">
+    <h2 id="pay">How apprentice pay grows</h2>
+    <p class="block-lede">Union apprentice wages at the Electrical Training Institute, effective {ETI_PAY.effective}. Each step is a percentage of the journey-level wage, and you move up as you complete hours and classes.</p>
+    <table class="nat-table la-pay">
+      <thead><tr><th scope="col">Step</th><th scope="col">Share of journey wage</th><th scope="col">Per hour</th></tr></thead>
+      <tbody>{ETI_PAY.steps.map(([label, pct, rate], i) => <tr><td>{label || `Step ${i + 1}`}</td><td>{pct}</td><td>{hr(rate)}</td></tr>)}</tbody>
+    </table>
+    <p class="wys-src">Source: <Fragment set:html={A(SRC.etiNotice)} />. Checked {CHECKED}.</p>
+  </section>
+
+  <section class="block" aria-labelledby="choose">
+    <h2 id="choose">How to choose</h2>
+    <ul class="xfer-srcs">
+      <li><strong>If you need to earn money now,</strong> an apprenticeship is the only route that pays from the start.</li>
+      <li><strong>If you're missing algebra,</strong> one semester of algebra at a community college counts for both apprenticeships.</li>
+      <li><strong>Union or non-union?</strong> Both lead to the same state certification. They differ in who hires you, the wage and benefit rates, and how you apply. Compare the pay on each program's own wage sheet.</li>
+      <li><strong>Before paying a private school,</strong> compare its total price with community college, and ask how many of its graduates are working as electrician trainees.</li>
+    </ul>
+  </section>
+
+  <section class="block" aria-labelledby="steps">
+    <h2 id="steps">Getting ready, step by step</h2>
+    <ol class="xfer-srcs la-steps">
+      <li><strong>Take algebra and pass it.</strong> Both apprenticeships require it. If you're still in high school, get a C or better.</li>
+      <li><strong>Gather your documents.</strong> Diploma or GED, photo ID, Social Security card, and for ABC a driver's license and DMV record.</li>
+      <li><strong>Practice for the test.</strong> ETI's test covers math, reading, mechanical reasoning and spatial puzzles; ABC uses the TABE. ETI sells a study guide through its testing partner.</li>
+      <li><strong>Apply.</strong> Each program has its own application, test and schedule, so check both.</li>
+      <li><strong>Look for other approved programs.</strong> The state's apprenticeship search lists every program by county and trade.</li>
+    </ol>
+    <p class="wys-src">Sources: <Fragment set:html={A(SRC.eti)} />; <Fragment set:html={A(SRC.abc)} />; <Fragment set:html={A(SRC.das)} />. Checked {CHECKED}.</p>
+  </section>
+
+  <section class="block" aria-labelledby="schools">
+    <h2 id="schools">Schools in LA County with electrician programs</h2>
+    <p class="block-lede">Every school in Los Angeles County that reported electrician certificates or degrees to the U.S. Department of Education last year. Price and pay are federal figures; open a school for its details. Listed public first, then private, A to Z. Not a ranking.</p>
+    <div class="la-table-wrap">
+      <table class="nat-table la-schools">
+        <thead><tr><th scope="col">School</th><th scope="col">Type</th><th scope="col">Average net price a year</th><th scope="col">Electrician awards last year</th><th scope="col">Certificate grads' pay a year after</th></tr></thead>
+        <tbody>
+          {laSchools.map((s) => (
+            <tr>
+              <td><a href={`/trades/school/${s.slug}`}>{s.name}</a><span class="la-city">{s.city}</span></td>
+              <td>{OWNERSHIP_LABEL[s.ownership]}</td>
+              <td>{money(s.avgNetPrice) ?? 'Not reported'}{s.slug === 'antelope-valley-community-college-district' && '*'}</td>
+              <td>{[s.certAwards && `${s.certAwards} certificates`, s.assocAwards && `${s.assocAwards} associate degrees`].filter(Boolean).join(', ')}</td>
+              <td>{money(s.earn1) ?? 'Not reported'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    <p class="wys-src">*This is the figure the college reported, but it's far below every other school here; ask the college for its real cost. "Average net price" is what students who got grant aid paid per year, including living costs, for the whole school, not just the electrician program. The federal program code also includes power line training. Source: <Fragment set:html={A(SRC.scorecard)} />.</p>
+  </section>
+
+  <section class="block sources" aria-labelledby="sources">
+    <h2 id="sources">Sources</h2>
+    <ul class="xfer-srcs">{Object.values(SRC).map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.label}</a></li>)}</ul>
+    <p class="wys-src">Program pages checked {CHECKED}. Programs change their rules and pay every year, so confirm with them before you apply. See something out of date? <a href={flag}>Tell us</a>.</p>
+  </section>
+</Layout>

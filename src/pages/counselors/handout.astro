@@ -1,0 +1,69 @@
+---
+// The counselor handout: page 1 compares every path, page 2 is the worksheet for the 15-minute activity.
+// Built to print on two letter-size pages; the site header and footer are hidden when printed.
+import Layout from '../../layouts/Layout.astro';
+import { COUNSELORS_LAUNCHED } from '../../lib/site.js';
+import { ROWS } from '../../lib/paths-data.js';
+import { tradePulledDate } from '../../lib/trade-data.js';
+
+const QUESTIONS = [
+  'What is the total price, including books, tools and fees?',
+  'How many students finish, and how long does it take most of them?',
+  'What do graduates earn a year after finishing? Where does that number come from?',
+  'Does this count toward a license or certification I\'ll need?',
+  'If I leave early, what do I owe?',
+  'Can I talk to someone who finished recently?'
+];
+---
+<Layout title="Every path after high school: printable handout | After High School"
+  description="A two-page printable handout comparing every path after high school, with a worksheet and questions to ask any program."
+  path="/counselors/handout" nav="colleges" noindex={!COUNSELORS_LAUNCHED}>
+  <div class="no-print ho-bar">
+    <a href="/counselors">Back to the counselor kit</a>
+    <button type="button" class="button" data-print>Print</button>
+  </div>
+
+  <article class="ho-page" aria-labelledby="ho-title">
+    <header class="ho-head">
+      <h1 id="ho-title">Your options after high school, side by side</h1>
+      <p>Costs are averages after grants, so yours could be higher or lower. These aren't rankings; the right path depends on what you want to do.</p>
+    </header>
+    <table class="ho-table">
+      <thead><tr><th scope="col">Path</th><th scope="col">Cost</th><th scope="col">How long</th><th scope="col">Paid along the way?</th><th scope="col">What you owe after</th></tr></thead>
+      <tbody>
+        {ROWS.map((r) => (
+          <tr class={`ho-${r.color}`}>
+            <th scope="row">{r.path}</th>
+            <td set:html={r.cost} />
+            <td set:html={r.time} />
+            <td set:html={r.paid} />
+            <td>{r.owe}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+    <footer class="ho-foot">
+      <p><strong>afterhighschool.me</strong> has the details and sources for each path, plus U.S. colleges and trade schools. College and trade school figures are from the U.S. Department of Education's College Scorecard, pulled {tradePulledDate}; "average net price" is what students who got grants paid per year, including living costs. Other figures are from each program's official pages.</p>
+    </footer>
+  </article>
+
+  <article class="ho-page ho-back" aria-labelledby="ho-ws">
+    <header class="ho-head">
+      <h2 id="ho-ws">Two paths to the same goal</h2>
+      <p class="ho-line">A job or field I'm curious about: <span class="ho-blank"></span></p>
+    </header>
+    <table class="ho-ws">
+      <thead><tr><th scope="col"></th><th scope="col">Path 1: <span class="ho-blank short"></span></th><th scope="col">Path 2: <span class="ho-blank short"></span></th></tr></thead>
+      <tbody>
+        {['Cost', 'How long', 'Paid along the way?', 'What I\'d owe after', 'One number I checked, and its source'].map((row) => (
+          <tr><th scope="row">{row}</th><td></td><td></td></tr>
+        ))}
+      </tbody>
+    </table>
+    <h3>Questions to ask any program</h3>
+    <ol class="ho-q">{QUESTIONS.map((q) => <li>{q}</li>)}</ol>
+    <p class="ho-line">My question: <span class="ho-blank"></span></p>
+    <footer class="ho-foot"><p>Free to copy for students. afterhighschool.me never ranks schools, and no one pays to be listed.</p></footer>
+  </article>
+  <script slot="scripts" src="/print.js" defer is:inline></script>
+</Layout>

@@ -4,7 +4,7 @@ import Layout from '../../layouts/Layout.astro';
 import { tradeIndex, tradePulledDate } from '../../lib/trade-data.js';
 import { CREDENTIAL } from '../../lib/trades.js';
 import { money, int } from '../../lib/format.js';
-import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED } from '../../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, LOCAL_GUIDES_LAUNCHED } from '../../lib/site.js';
 import { occupations } from '../../lib/apprentice-data.js';
 export function getStaticPaths() {
   return tradeIndex.map((t) => ({ params: { trade: t.slug }, props: { t } }));
@@ -19,6 +19,7 @@ const onTheJob = APPRENTICESHIPS_LAUNCHED ? occupations.filter((o) => o.trade ==
   <section class="compare-head">
     <h1>{t.name}</h1>
     <p>{int(t.count)} trade schools, career schools and two-year colleges offer a certificate or associate degree in {t.name.toLowerCase()}.</p>
+    {LOCAL_GUIDES_LAUNCHED && t.slug === 'electrician' && <p>In Los Angeles County? See <a href="/guides/electrician-los-angeles">every route to becoming an electrician in LA</a>, including paid apprenticeships.</p>}
   </section>
 
   {t.nat.length > 0 && (

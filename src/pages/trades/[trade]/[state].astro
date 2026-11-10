@@ -4,7 +4,7 @@ import Layout from '../../../layouts/Layout.astro';
 import { tradeIndex, national, tradePulledDate, KIND_LABEL } from '../../../lib/trade-data.js';
 import { CREDENTIAL } from '../../../lib/trades.js';
 import { money, int, pct, OWNERSHIP_LABEL } from '../../../lib/format.js';
-import { TRADES_LAUNCHED } from '../../../lib/site.js';
+import { TRADES_LAUNCHED, LOCAL_GUIDES_LAUNCHED } from '../../../lib/site.js';
 export function getStaticPaths() {
   return tradeIndex.flatMap((t) => t.states.map((st) => ({ params: { trade: t.slug, state: st.slug }, props: { t, st } })));
 }
@@ -26,6 +26,7 @@ const progEarn = (progs) => {
   <section class="compare-head">
     <h1>{t.name} schools in {st.name}</h1>
     <p>{st.list.length} {st.list.length === 1 ? 'school offers' : 'schools offer'} a certificate or associate degree in {t.name.toLowerCase()}, listed A to Z. Numbers are from federal data; open a school for its programs, costs by family income and sources.</p>
+    {LOCAL_GUIDES_LAUNCHED && t.slug === 'electrician' && st.code === 'CA' && <p>In Los Angeles County? See <a href="/guides/electrician-los-angeles">every route to becoming an electrician in LA</a>, including paid apprenticeships.</p>}
   </section>
   <ul class="results tr-results">
     {st.list.map(({ s, progs }) => (

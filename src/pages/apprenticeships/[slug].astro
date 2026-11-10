@@ -5,7 +5,7 @@ import Layout from '../../layouts/Layout.astro';
 import { occupations, wageYear, projectionYears, apprenticeSources, apprenticePulledDate } from '../../lib/apprentice-data.js';
 import { tradeBySlug } from '../../lib/trade-data.js';
 import { money, int } from '../../lib/format.js';
-import { APPRENTICESHIPS_LAUNCHED } from '../../lib/site.js';
+import { APPRENTICESHIPS_LAUNCHED, LOCAL_GUIDES_LAUNCHED } from '../../lib/site.js';
 export function getStaticPaths() {
   return occupations.map((o) => ({ params: { slug: o.slug }, props: { o } }));
 }
@@ -43,6 +43,7 @@ const pctBar = (v) => (w.p90 ? Math.max(2, Math.min(100, (v / w.p90) * 100)) : 0
         <div class="stat"><dt>Typical training on the job</dt><dd><span class="stat-value ap-text">{p.training}</span></dd></div>
       </dl>
       <p class="block-lede">Registered apprenticeships are run by employers, unions and industry groups. To find openings near you, search the U.S. Department of Labor's <a href={apprenticeSources.finder} rel="noopener" target="_blank">apprenticeship finder</a>, or contact your state's apprenticeship office.</p>
+      {LOCAL_GUIDES_LAUNCHED && o.slug === 'electrician' && <p class="block-lede">In Los Angeles County? See <a href="/guides/electrician-los-angeles">how to become an electrician in LA</a>, with the local apprenticeships, pay and how to apply.</p>}
     </section>
 
     <section class="block" aria-labelledby="pay">

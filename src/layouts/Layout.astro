@@ -1,5 +1,5 @@
 ---
-import { CONTACT_EMAIL, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED } from '../lib/site.js';
+import { CONTACT_EMAIL, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, COUNSELORS_LAUNCHED } from '../lib/site.js';
 
 const {
   title,
@@ -82,6 +82,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
       <p>Made in Los Angeles by CC Pearce and Young Chu. Questions or ideas: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></p>
       <p class="footer-links">
         {nav === 'colleges' && <a href="/methodology">How our data works</a>}
+        {COUNSELORS_LAUNCHED && <a href="/counselors">For counselors and teachers</a>}
         <a href="/privacy">Privacy</a>
       </p>
     </slot>

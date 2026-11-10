@@ -22,4 +22,12 @@ export const MILITARY_LAUNCHED = true;
 // Teach yourself and fellowships (launched Nov 6, 2026).
 export const SELF_LAUNCHED = true;
 
+// Local guides, starting with becoming an electrician in Los Angeles County: reachable by URL but
+// noindex, out of the sitemap and unlinked until reviewed.
+export const LOCAL_GUIDES_LAUNCHED = false;
+
+// Counselor kit (/counselors and its printable handout): reachable by URL but noindex, out of the
+// sitemap and unlinked until reviewed.
+export const COUNSELORS_LAUNCHED = false;
+
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';

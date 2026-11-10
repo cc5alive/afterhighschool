@@ -1,5 +1,5 @@
 import { schools, states, pulledAt } from '../lib/data.js';
-import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED } from '../lib/site.js';
 import { transferStates } from '../lib/transfer-data.js';
 import { occupations } from '../lib/apprentice-data.js';
 import { tradeIndex, tradeSchools } from '../lib/trade-data.js';
@@ -38,6 +38,8 @@ export function GET() {
   if (MILITARY_LAUNCHED) urls.push({ loc: '/military', lastmod: day });
   urls.push({ loc: '/paths', lastmod: day });
   if (SELF_LAUNCHED) urls.push({ loc: '/teach-yourself', lastmod: day }, { loc: '/fellowships', lastmod: day });
+  if (LOCAL_GUIDES_LAUNCHED) urls.push({ loc: '/guides/electrician-los-angeles' });
+  if (COUNSELORS_LAUNCHED) urls.push({ loc: '/counselors' }, { loc: '/counselors/handout' });
   const body = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls
     .map((u) => `  <url><loc>${SITE}${u.loc}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`)
     .join('\n')}\n</urlset>\n`;

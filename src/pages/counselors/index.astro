@@ -1,0 +1,74 @@
+---
+// A free kit for high school counselors and teachers: a printable comparison of every path, a
+// 15-minute classroom activity, a worked Los Angeles example and a way to flag anything out of date.
+// No account or email needed.
+import Layout from '../../layouts/Layout.astro';
+import { COUNSELORS_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+import { LA_CHECKED, LA_SRC, ETI_PAY, LATTC, lattc } from '../../lib/la-electrician.js';
+import { money } from '../../lib/format.js';
+
+const hr = (v) => `$${v.toFixed(2)}`;
+const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent('Correction on afterhighschool.me')}&body=${encodeURIComponent('Page (paste the link):\n\nWhat looks wrong or out of date:\n\nWhere you saw the right information (a link helps):\n')}`;
+---
+<Layout title="Free kit for counselors and teachers | After High School"
+  description="A free, printable comparison of every path after high school, a 15-minute classroom activity and a worked Los Angeles example. Sourced, no rankings, no sign-up."
+  path="/counselors" nav="colleges" noindex={!COUNSELORS_LAUNCHED}>
+  <section class="compare-head">
+    <h1>For counselors and teachers</h1>
+    <p>Free materials for talking with students about every path after high school, not just college. Everything here comes from federal data or the program's own page, with the source and the date we checked it. We don't rank schools, and no one pays to be listed. No account or email needed.</p>
+  </section>
+
+  <section class="block kit-handout" aria-labelledby="handout">
+    <h2 id="handout">The handout</h2>
+    <p class="block-lede">Two printed pages. The front compares eight paths on cost, time, pay along the way and what you owe after. The back is a worksheet for the activity below, with questions to ask any program.</p>
+    <p class="kit-actions"><a class="cta-button" href="/counselors/handout">Open the handout to print</a></p>
+    <p class="wys-src">Copy it for your students as often as you like. The numbers update when our data does, so print a fresh copy each term.</p>
+  </section>
+
+  <section class="block" aria-labelledby="activity">
+    <h2 id="activity">A 15-minute activity: two paths to the same goal</h2>
+    <p class="block-lede">Works for a class, a small group or one student. You need the handout, and a phone or computer for step 3.</p>
+    <ol class="kit-steps">
+      <li><span class="kit-min">2 min</span><div><strong>Pick a goal.</strong> Each student writes down one job or field they're curious about. "Not sure" is fine; they can pick something a family member does.</div></li>
+      <li><span class="kit-min">5 min</span><div><strong>Find two paths.</strong> In pairs, students use the front of the handout to choose two different paths that could lead there, and fill in the cost, time and pay rows on the back.</div></li>
+      <li><span class="kit-min">5 min</span><div><strong>Check one real program.</strong> On afterhighschool.me, students look up one school or program for their goal and find one number, where it comes from and when it was checked.</div></li>
+      <li><span class="kit-min">3 min</span><div><strong>Share.</strong> A few pairs say one thing that surprised them and one question they'd ask the program. The questions on the back of the handout are a good start.</div></li>
+    </ol>
+  </section>
+
+  <section class="block" aria-labelledby="example">
+    <h2 id="example">A worked example: becoming an electrician in Los Angeles</h2>
+    <p class="block-lede">Two LA routes to the same certification. In California, both require 8,000 hours of work for a licensed electrical contractor before the state exam.</p>
+    <div class="la-table-wrap">
+      <table class="nat-table kit-compare">
+        <thead><tr><th scope="col"></th><th scope="col">Paid apprenticeship (Electrical Training Institute, IBEW Local 11)</th><th scope="col">Public training program (Los Angeles Trade-Technical College)</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Cost to start</th><td>You're hired by a contractor and paid; ask the program about costs for books or tools</td><td>{money(LATTC.fees)} in enrollment fees for the 48-unit program (waived for students who qualify for the California College Promise Grant), plus books and tools</td></tr>
+          <tr><th scope="row">Paid while learning?</th><td>Yes: {hr(ETI_PAY.start)} an hour to start, {hr(ETI_PAY.top)} at journey level</td><td>No, though students can work</td></tr>
+          <tr><th scope="row">How long</th><td>5 years</td><td>48 units of classes and labs, then work hours as a registered trainee</td></tr>
+          <tr><th scope="row">Counts toward the 8,000 hours?</th><td>Yes, finishing the apprenticeship counts as proof of experience</td><td>No; the hours come from working afterward</td></tr>
+          <tr><th scope="row">Getting in</th><td>Diploma or GED, algebra, an aptitude test and an experience form</td><td>Apply to the college, then enroll in the program's classes</td></tr>
+          {lattc?.earn1 && <tr><th scope="row">Pay after</th><td>Journey-level wage: {hr(ETI_PAY.top)} an hour</td><td>Certificate graduates earned a median of {money(lattc.earn1)} a year after finishing</td></tr>}
+        </tbody>
+      </table>
+    </div>
+    <p class="wys-src">Sources: <a href={LA_SRC.etiNotice.url} rel="noopener" target="_blank">{LA_SRC.etiNotice.label}</a>; <a href={LA_SRC.lattc.url} rel="noopener" target="_blank">{LA_SRC.lattc.label}</a>; <a href={LA_SRC.lattcFees.url} rel="noopener" target="_blank">{LA_SRC.lattcFees.label}</a>; <a href={LA_SRC.hours.url} rel="noopener" target="_blank">{LA_SRC.hours.label}</a>; <a href={LA_SRC.scorecard.url} rel="noopener" target="_blank">{LA_SRC.scorecard.label}</a>. Checked {LA_CHECKED}.</p>
+    <p><a href="/guides/electrician-los-angeles">The full LA electrician guide</a> adds the non-union apprenticeship, private schools, pay steps and an application checklist.</p>
+  </section>
+
+  <section class="block" aria-labelledby="flag">
+    <h2 id="flag">See something wrong?</h2>
+    <p class="block-lede">Counselors often hear about program changes first. If a number, deadline or rule looks out of date, tell us and we'll check it against the source and fix it.</p>
+    <p class="kit-actions"><a class="button secondary" href={flag}>Email a correction</a></p>
+    <p class="wys-src">Opens your email app with a short form. Or write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+  </section>
+
+  <section class="block" aria-labelledby="how">
+    <h2 id="how">How this site works</h2>
+    <ul class="xfer-srcs">
+      <li>School costs, completion and earnings come from the U.S. Department of Education's College Scorecard. <a href="/methodology">How our data works</a>.</li>
+      <li>Program rules and pay come from each program's own page, linked next to the fact with the date we checked it.</li>
+      <li>We list schools A to Z or let students sort. We never rank them, and no one can pay for placement.</li>
+    </ul>
+  </section>
+</Layout>
