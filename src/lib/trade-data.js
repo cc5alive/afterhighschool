@@ -18,9 +18,18 @@ export const tradeSchools = snap.schools
   }));
 // Names shared by more than one school in a state (chains with several campuses): titles add the city.
 const nameCount = new Map();
-for (const s of tradeSchools) nameCount.set(`${s.name}|${s.state}`, (nameCount.get(`${s.name}|${s.state}`) || 0) + 1);
+const nationCount = new Map(), cityCount = new Map();
+for (const s of tradeSchools) {
+  nameCount.set(`${s.name}|${s.state}`, (nameCount.get(`${s.name}|${s.state}`) || 0) + 1);
+  nationCount.set(s.name, (nationCount.get(s.name) || 0) + 1);
+  cityCount.set(`${s.name}|${s.city}|${s.state}`, (cityCount.get(`${s.name}|${s.city}|${s.state}`) || 0) + 1);
+}
 for (const s of tradeSchools) {
   s.displayName = nameCount.get(`${s.name}|${s.state}`) > 1 ? `${s.name} (${s.city})` : s.name;
+  // Page titles must be unique: chains in several states add the city and state; two campuses in one
+  // city also add the ZIP code.
+  const sameCity = cityCount.get(`${s.name}|${s.city}|${s.state}`) > 1;
+  s.titleName = nationCount.get(s.name) > 1 ? `${s.name} (${s.city}, ${s.state}${sameCity && s.zip ? ` ${String(s.zip).slice(0, 5)}` : ''})` : s.name;
   // Pages with no programs, price or earnings have nothing useful yet: keep them out of search.
   s.thin = !s.programs.length && s.avgNetPrice == null && s.medianEarnings6yr == null;
 }

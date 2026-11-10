@@ -11,6 +11,11 @@ import {
 } from '../../lib/format.js';
 import { COLLEGES_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
 
+// Colleges that share a name with another listed college (Bethel University, Lincoln University ...): titles add the place.
+const nameUses = new Map();
+for (const x of allSchools) nameUses.set(x.name, (nameUses.get(x.name) || 0) + 1);
+const sharedName = new Set([...nameUses].filter(([, n]) => n > 1).map(([n]) => n));
+
 export function getStaticPaths() {
   return allSchools.map((s) => ({ params: { slug: s.slug }, props: { s } }));
 }
@@ -77,7 +82,7 @@ const jsonLd = {
 const submitMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`What's special: ${s.name}`)}`;
 const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
 ---
-<Layout title={`${s.name} — admissions, cost and outcomes | After High School`} description={description}
+<Layout title={`${s.name}${sharedName.has(s.name) ? ` (${s.city}, ${s.state})` : ''} — admissions, cost and outcomes | After High School`} description={description}
   path={`/college/${s.slug}`} nav="colleges" noindex={!COLLEGES_LAUNCHED || status?.listed === false || gradOnly(s)} jsonLd={jsonLd}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb">

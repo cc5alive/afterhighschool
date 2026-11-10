@@ -143,12 +143,16 @@
     if (b) b.click();
   });
 
+  // A shared link names schools before the data arrives: say so instead of "Pick a school".
+  const emptyText = empty.textContent;
+  if (picked.length) empty.textContent = 'Loading your comparison…';
   fetch('/data/colleges.json')
     .then((r) => r.json())
     .then((d) => {
       rows = d.rows; states = d.states;
       bySlug = new Map(rows.map((r) => [r.slug, r]));
       picked = picked.filter((s) => bySlug.has(s));
+      empty.textContent = emptyText;
       render();
     })
     .catch(() => { empty.textContent = 'Compare is unavailable right now. Try again in a minute.'; });

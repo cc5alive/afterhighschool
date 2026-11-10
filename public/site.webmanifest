@@ -1,0 +1,13 @@
+{
+  "name": "After High School",
+  "short_name": "After HS",
+  "description": "Every road out of high school, with the real numbers.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f1f4f7",
+  "theme_color": "#16233b",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

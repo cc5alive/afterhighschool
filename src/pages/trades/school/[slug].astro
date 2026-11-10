@@ -35,9 +35,9 @@ const bands = Object.entries(s.netPriceByIncome).map(([k, v]) => ({ k, label: IN
 const bandMax = Math.max(1, ...bands.map((b) => b.v ?? 0), s.costOfAttendance ?? 0);
 const hasBands = bands.some((b) => b.v != null);
 const isTransferCollege = s.ownership === 'public' && s.programs.some((p) => p.level === 2 && p.awards > 0);
-const description = `${s.name} in ${s.city}, ${s.stateName}: programs, real cost by family income, completion rate, earnings and debt, from federal data.`;
+const description = `${s.titleName === s.name ? s.name : s.titleName} in ${s.city}, ${s.stateName}: programs, real cost by family income, completion rate, earnings and debt, from federal data.`;
 ---
-<Layout title={`${s.displayName}: programs, cost and outcomes | After High School`} description={description}
+<Layout title={`${s.titleName}: programs, cost and outcomes | After High School`} description={description}
   path={`/trades/school/${s.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED || s.thin}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb">
