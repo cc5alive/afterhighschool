@@ -14,11 +14,11 @@ export function GET() {
     if (x.act) { d.act = x.act; d.actFrom = x.actFrom; }
     if (x.gpa) d.gpa = x.gpa;
     if (x.gpaAvg != null) d.gpaAvg = x.gpaAvg;
-    out[s.slug] = { n: s.name, c: s.city, st: s.state, np: s.avgNetPrice ?? null, gr: s.gradRate ?? null, ...(s.openAdmission ? { oa: 1 } : {}), d };
+    out[s.slug] = { n: s.name, ...(s.alias ? { a: s.alias } : {}), c: s.city, st: s.state, np: s.avgNetPrice ?? null, gr: s.gradRate ?? null, ...(s.openAdmission ? { oa: 1 } : {}), d };
   }
   // Trade, career and two-year schools are saved as "t:<slug>".
   for (const s of tradeSchools) {
-    out[`t:${s.slug}`] = { t: 1, n: s.name, c: s.city, st: s.state, k: KIND_LABEL[s.kind], np: s.avgNetPrice ?? null, cr: s.completionRate ?? null, earn: s.medianEarnings6yr ?? null };
+    out[`t:${s.slug}`] = { t: 1, n: s.name, ...(s.alias ? { a: s.alias } : {}), c: s.city, st: s.state, k: KIND_LABEL[s.kind], np: s.avgNetPrice ?? null, cr: s.completionRate ?? null, earn: s.medianEarnings6yr ?? null };
   }
   return new Response(JSON.stringify(out), { headers: { 'content-type': 'application/json; charset=utf-8' } });
 }

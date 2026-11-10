@@ -132,9 +132,10 @@ const description = `${s.name} in ${s.city}, ${s.stateName}: programs, real cost
 
     <section class="block" aria-labelledby="outcomes">
       <h2 id="outcomes">How students do</h2>
+      <p class="block-lede">These figures cover every student at the school, across all its programs. What graduates of a specific program earned is listed with each program above, where reported.</p>
       <dl class="stat-grid">
-        <Stat label="Finish their program" value={pct(s.completionRate)} note="first-time, full-time students finishing within 1.5 times the normal length" href={src} />
-        <Stat label="Median earnings" value={money(s.medianEarnings6yr)} note="6 years after starting, students who got federal aid" href={src} />
+        <Stat label="Finish their program (whole school)" value={pct(s.completionRate)} note="first-time, full-time students finishing within 1.5 times the normal length" href={src} />
+        <Stat label="Median earnings (whole school)" value={money(s.medianEarnings6yr)} note="6 years after starting, students who got federal aid" href={src} />
         <Stat label="Median earnings, later" value={money(s.medianEarnings10yr)} note="10 years after starting" href={src} />
         <Stat label="Median debt at completion" value={money(s.medianDebt)} note="federal loans, students who finished" href={src} />
         {s.outcomes8yr && <Stat label="Earned a degree or certificate here" value={pct(s.outcomes8yr.award)} note="all students who started, 8 years later" href={src} />}

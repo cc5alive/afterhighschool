@@ -13,6 +13,8 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNC
         <h1>Every road out of high school, with the real numbers.</h1>
         <p class="lede">See how your grades and test scores compare at any US college, and line college up next to trade schools, apprenticeships, gap years and fellowships. Free, and every number links to where it came from.</p>
 
+        <p class="primary-cta"><a class="cta-button" href="/paths">Compare your options</a><span class="cta-note">Cost, time, pay along the way and what you'd owe, for every path side by side.</span></p>
+        <p class="explore-label">Or go straight to one:</p>
         <p class="explore">
           <a class="explore-link path-college" href="/colleges">Explore colleges</a>
           {TRADES_LAUNCHED && <a class="explore-link path-trade" href="/trades">Explore trade schools</a>}
@@ -20,8 +22,6 @@ import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNC
           {TRANSFER_LAUNCHED && <a class="explore-link path-transfer" href="/transfer">Start at community college</a>}
           {GAP_LAUNCHED && <a class="explore-link path-gap" href="/gap-years">Explore gap years</a>}
           {MILITARY_LAUNCHED && <a class="explore-link path-military" href="/military">Explore the military</a>}
-        </p>
-        <p class="explore-all"><a href="/paths">Compare every path side by side</a>
         </p>
 
         <form id="join" class="join" action="/api/waitlist" method="post" novalidate>

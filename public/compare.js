@@ -95,11 +95,18 @@
     if (q.length < 2) { suggest.hidden = true; return; }
     const words = q.split(/\s+/);
     const hits = rows
-      .filter((r) => !picked.includes(r.slug) && words.every((w) => `${r.name} ${r.city}`.toLowerCase().includes(w)))
-      .map((r) => ({ r, k: (r.name.toLowerCase().startsWith(q) ? 0 : r.name.toLowerCase().includes(q) ? 1 : 2) }))
+      .filter((r) => !picked.includes(r.slug) && words.every((w) => `${r.name} ${r.al || ''} ${r.city}`.toLowerCase().includes(w)))
+      // Short names like "UCLA" come from the school's alias in federal data: an exact alias match goes first.
+      .map((r) => ({ r, k: ((r.al || '').toLowerCase().split(/\s*,\s*/).includes(q) ? -1 : r.name.toLowerCase().startsWith(q) ? 0 : r.name.toLowerCase().includes(q) ? 1 : 2) }))
       .sort((a, b) => a.k - b.k || (b.r.ug ?? 0) - (a.r.ug ?? 0))
       .slice(0, 8)
       .map((x) => x.r);
+    if (!hits.length) {
+      const li = el('li', 'suggest-empty', `No colleges match "${input.value.trim()}". Try part of the full name, like "California", or the city.`);
+      suggest.replaceChildren(li);
+      suggest.hidden = false;
+      return;
+    }
     suggest.replaceChildren(...hits.map((r) => {
       const li = el('li');
       li.setAttribute('role', 'option');

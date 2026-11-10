@@ -33,7 +33,7 @@ const ROWS = [
     owe: 'Any loans you take out.', src: [{ l: `College Scorecard, our calculation (pulled ${tradePulledDate})`, u: SC }] },
   { path: 'Apprenticeship', href: '/apprenticeships', color: 'apprentice',
     cost: 'You\'re hired and learn on the job.',
-    time: 'Depends on the trade; see each job\'s page.', paid: `Yes, you're hired. Fully trained workers in the ${occupations.length} jobs we cover earn a median of <strong>${money(pay[0])}</strong> to <strong>${money(pay[pay.length - 1])}</strong> a year.`,
+    time: 'Depends on the trade; see each job\'s page.', paid: `Yes, you're hired. Fully trained workers in the ${occupations.length} jobs we cover earn a median of <strong>${money(pay[0])}</strong> to <strong>${money(pay[pay.length - 1])}</strong> a year; apprentices start lower and get raises as they progress.`,
     owe: 'Nothing.', src: [{ l: `BLS wage data, ${wageYear}`, u: apprenticeSources.wages }] },
   { path: 'Service year', href: '/gap-years', color: 'gap',
     cost: 'Free. Programs like AmeriCorps NCCC cover housing and meals.',

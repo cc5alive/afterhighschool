@@ -6,12 +6,14 @@ import { transferStates, ecsSource, ECS_QUESTIONS, portalCheckedDate } from '../
 import { tradePulledDate } from '../../lib/trade-data.js';
 import { money, pct, int } from '../../lib/format.js';
 import { TRANSFER_LAUNCHED } from '../../lib/site.js';
+import { STATE_ROUTES, ROUTES_CHECKED } from '../../lib/state-transfer-routes.js';
 
 export function getStaticPaths() {
   return transferStates.map((st) => ({ params: { state: st.slug }, props: { st } }));
 }
 const { st } = Astro.props;
 const withOutcomes = st.colleges.filter((s) => s.outcomes8yr?.transfer != null);
+const routes = STATE_ROUTES[st.code] || null;
 ---
 <Layout title={`Community college transfer in ${st.name} | After High School`}
   description={`How transferring from a community college works in ${st.name}: statewide transfer rules, the official transfer site, and ${st.colleges.length} public community and technical colleges with federal outcome data.`}
@@ -22,7 +24,24 @@ const withOutcomes = st.colleges.filter((s) => s.outcomes8yr?.transfer != null);
     <p>What {st.name} guarantees when you move from a community college to a public university, where to check how your classes transfer, and how students at each public community and technical college did.</p>
   </section>
 
-  {st.portal && (
+  {routes && (
+    <section class="block" aria-labelledby="routes">
+      <h2 id="routes">Your main routes</h2>
+      <p class="block-lede">{routes.lede}</p>
+      <ul class="xfer-routes">
+        {routes.routes.map((r) => (
+          <li class="xfer-route">
+            <h3>{r.name}</h3>
+            <p>{r.what}</p>
+            {r.details.length > 0 && <ul>{r.details.map((d) => <li>{d}</li>)}</ul>}
+            <p class="wys-src">Source: <a href={r.link.url} rel="noopener" target="_blank">{r.link.label}</a>. Checked {ROUTES_CHECKED}.</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {st.portal && !routes && (
     <section class="block" aria-labelledby="portal">
       <h2 id="portal">Start here</h2>
       <p class="block-lede">{st.name}'s official transfer site shows which classes count where and the state's transfer agreements.</p>
@@ -33,8 +52,8 @@ const withOutcomes = st.colleges.filter((s) => s.outcomes8yr?.transfer != null);
 
   {st.policy && (
     <section class="block" aria-labelledby="rules">
-      <h2 id="rules">Statewide transfer rules</h2>
-      <p class="block-lede">Whether {st.name} has these four statewide rules, as of {ecsSource.date}. Rules change, and many colleges have their own agreements on top of these, so confirm with a transfer adviser.</p>
+      <h2 id="rules">{routes ? `How ${st.name} answered a 2022 national survey` : 'Statewide transfer rules'}</h2>
+      <p class="block-lede">Whether {st.name} reported these four statewide rules in a national survey from {ecsSource.date}. Rules change, and many colleges have their own agreements on top of these, so confirm with a transfer adviser.{routes?.surveyNote && ` ${routes.surveyNote}`}</p>
       <dl class="xfer-rules">
         {ECS_QUESTIONS.map((q) => {
           const a = st.policy[q.key]?.answer;

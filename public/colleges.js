@@ -63,7 +63,7 @@
 
   function matches(r, f) {
     if (f.q) {
-      const hay = `${r.name} ${r.city}`.toLowerCase();
+      const hay = `${r.name} ${r.al || ''} ${r.city}`.toLowerCase();
       if (!f.q.split(/\s+/).every((w) => hay.includes(w))) return false;
     }
     if (f.state && r.state !== f.state) return false;

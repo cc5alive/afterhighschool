@@ -33,6 +33,7 @@ import Layout from '../layouts/Layout.astro';
       </select>
     </label>
     <a class="button secondary" id="compare-link" href="/compare">Compare the first four</a>
+    <p class="ml-note" id="compare-note" hidden>The side-by-side view covers four-year colleges. Trade and career schools on your list aren't included yet.</p>
   </div>
 
   <p class="empty-state" id="empty" hidden>Your list is empty. Add a school above, or use <strong>Save to my list</strong> on any college or trade school page.</p>
@@ -104,8 +105,8 @@ import Layout from '../layouts/Layout.astro';
         </div>
         <dl class="card-facts ml-facts">
           <div><dt>Avg net price</dt><dd>${money(x.np)}</dd></div>
-          <div><dt>Finish program</dt><dd>${pct(x.cr)}</dd></div>
-          <div><dt>Median earnings, 6 yrs</dt><dd>${money(x.earn)}</dd></div>
+          <div><dt>Finish rate (whole school)</dt><dd>${pct(x.cr)}</dd></div>
+          <div><dt>Median earnings, 6 yrs (whole school)</dt><dd>${money(x.earn)}</dd></div>
         </dl>
       </li>`;
       const admit = x.oa ? 'Admits nearly all' : pct(x.d.admit);
@@ -129,6 +130,7 @@ import Layout from '../layouts/Layout.astro';
     const nCol = slugs.filter((s) => !all[s].t).length;
     cl.hidden = nCol === 0;
     cl.textContent = nCol > 4 ? 'Compare the first four colleges' : nCol > 1 ? 'Compare these colleges side by side' : 'Compare';
+    document.getElementById('compare-note').hidden = !(nCol > 0 && slugs.some((s) => all[s].t));
   }
 
   profileForm.addEventListener('input', () => {
@@ -152,9 +154,11 @@ import Layout from '../layouts/Layout.astro';
     const q = norm(pick.value.trim());
     if (!all || q.length < 2) { sug.hidden = true; return; }
     const saved = new Set(loadList());
-    matches = Object.entries(all).filter(([s, x]) => !saved.has(s) && norm(`${x.n} ${x.c}`).includes(q)).slice(0, 8);
-    sug.innerHTML = matches.map(([s, x]) => `<li><button type="button" data-slug="${s}">${esc(x.n)} <small>${esc(x.c)}, ${esc(x.st)}${x.t ? ` · ${esc(x.k)}` : ''}</small></button></li>`).join('');
-    sug.hidden = matches.length === 0;
+    matches = Object.entries(all).filter(([s, x]) => !saved.has(s) && norm(`${x.n} ${x.a || ''} ${x.c}`).includes(q)).slice(0, 8);
+    sug.innerHTML = matches.length
+      ? matches.map(([s, x]) => `<li><button type="button" data-slug="${s}">${esc(x.n)} <small>${esc(x.c)}, ${esc(x.st)}${x.t ? ` · ${esc(x.k)}` : ''}</small></button></li>`).join('')
+      : `<li class="suggest-empty">No schools match "${esc(pick.value.trim())}". Try part of the full name or the city.</li>`;
+    sug.hidden = false;
   });
   const add = (slug) => { saveList([...loadList(), slug]); pick.value = ''; sug.hidden = true; pick.focus(); };
   sug.addEventListener('click', (e) => { const li = e.target.closest('[data-slug]'); if (li) add(li.dataset.slug); });

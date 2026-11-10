@@ -18,11 +18,11 @@ import { APPRENTICESHIPS_LAUNCHED } from '../../lib/site.js';
         <a href={`/apprenticeships/${o.slug}`}>
           <span class="trade-name">{o.name}</span>
           {o.blsApprenticeship && <span class="ap-tag">Apprenticeship is the usual path</span>}
-          <span class="trade-earn">Median pay: <strong>{money(o.wages.median)}</strong> a year</span>
-          {o.projections.openings != null && <span class="trade-meta">About {o.projections.openings.toLocaleString('en-US')} openings a year</span>}
+          <span class="trade-earn">Fully trained workers: <strong>{money(o.wages.median)}</strong> a year (median)</span>
+          {o.projections.openings != null && <span class="trade-meta">About {o.projections.openings.toLocaleString('en-US')} job openings a year nationwide, across the whole occupation</span>}
         </a>
       </li>
     ))}
   </ul>
-  <p class="wys-src">Pay is the national median for all workers in the job (<a href={apprenticeSources.wages} rel="noopener" target="_blank">BLS wage data, {wageYear}</a>); openings are the projected yearly average (<a href={apprenticeSources.projections} rel="noopener" target="_blank">BLS employment projections</a>). Updated {apprenticePulledDate}.</p>
+  <p class="wys-src">Apprentices usually start at a lower wage and get raises as they progress; each job's page explains the difference. Pay is the national median for all workers in the job (<a href={apprenticeSources.wages} rel="noopener" target="_blank">BLS wage data, {wageYear}</a>); job openings are the projected yearly average for the whole occupation, not apprenticeship slots (<a href={apprenticeSources.projections} rel="noopener" target="_blank">BLS employment projections</a>). Updated {apprenticePulledDate}.</p>
 </Layout>

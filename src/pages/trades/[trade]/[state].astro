@@ -11,6 +11,13 @@ export function getStaticPaths() {
 const { t, st } = Astro.props;
 const creds = (progs) => [...new Set(progs.map((p) => CREDENTIAL[p.level]))].join(', ');
 const finished = (progs) => progs.reduce((a, p) => a + (p.awards || 0), 0);
+// This program's own graduates: what they earned a year after finishing, by credential, where reported.
+const progEarn = (progs) => {
+  const withPay = progs.filter((p) => p.earn1);
+  const sameLevel = new Set(progs.map((p) => p.level)).size < progs.length;
+  const tag = (p) => progs.length < 2 ? '' : ` (${sameLevel ? p.title : CREDENTIAL[p.level].toLowerCase()})`;
+  return withPay.map((p) => `${money(p.earn1)}${tag(p)}`).join(' · ') || null;
+};
 ---
 <Layout title={`${t.name} schools in ${st.name} | After High School`}
   description={`${st.list.length} schools in ${st.name} offer ${t.name.toLowerCase()} programs. Compare cost, completion and earnings from federal data.`}
@@ -32,13 +39,14 @@ const finished = (progs) => progs.reduce((a, p) => a + (p.awards || 0), 0);
         </div>
         <dl class="card-facts tr-facts">
           <div><dt>Offers</dt><dd>{creds(progs)}</dd></div>
-          <div><dt>Finished last year</dt><dd>{int(finished(progs)) ?? '—'}</dd></div>
-          <div><dt>Avg net price</dt><dd>{money(s.avgNetPrice) ?? '—'}</dd></div>
-          <div><dt>Finish program</dt><dd>{pct(s.completionRate) ?? '—'}</dd></div>
-          <div><dt>Median earnings</dt><dd>{money(s.medianEarnings6yr) ?? '—'}</dd></div>
+          <div><dt>Finished this program last year</dt><dd>{int(finished(progs)) ?? '—'}</dd></div>
+          <div><dt>This program's graduates, a year after finishing</dt><dd>{progEarn(progs) ?? 'Not reported'}</dd></div>
+          <div><dt>Avg net price (whole school)</dt><dd>{money(s.avgNetPrice) ?? '—'}</dd></div>
+          <div><dt>Finish rate (whole school)</dt><dd>{pct(s.completionRate) ?? '—'}</dd></div>
+          <div><dt>Median earnings (whole school)</dt><dd>{money(s.medianEarnings6yr) ?? '—'}</dd></div>
         </dl>
       </li>
     ))}
   </ul>
-  <p class="wys-src">"Finish program" is the share of first-time, full-time students who finish within 1.5 times the normal length, for the whole school. "Median earnings" is for all students at the school who got federal aid, 6 years after they started; program-level earnings are on each school's page where reported. Data from College Scorecard, pulled {tradePulledDate}.</p>
+  <p class="wys-src">"This program's graduates" is what this school's graduates in {t.name.toLowerCase()} earned a year after finishing, among those who got federal aid, from College Scorecard's program data; many programs are too small to report. The "whole school" figures cover every student at the school, not just this program: the finish rate is the share of first-time, full-time students who finish within 1.5 times the normal length, and median earnings are for students who got federal aid, 6 years after they started. Data from College Scorecard, pulled {tradePulledDate}.</p>
 </Layout>

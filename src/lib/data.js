@@ -110,7 +110,7 @@ export function easierSchools(s, n = 4) {
 
 // Compact rows for the directory filters and compare view.
 export const indexRows = schools.map((s) => ({
-  slug: s.slug, name: s.name, city: s.city, state: s.state, own: s.ownership, set: s.setting,
+  slug: s.slug, name: s.name, al: s.alias || undefined, city: s.city, state: s.state, own: s.ownership, set: s.setting,
   ug: s.undergrads, ar: s.admitRate, oa: s.openAdmission ? 1 : 0, tp: s.testPolicy,
   satL: s.satRange?.[0], satH: s.satRange?.[2], satSec: s.satSections ? [...s.satSections.reading, ...s.satSections.math] : undefined,
   actL: s.actRange?.[0], actH: s.actRange?.[2],

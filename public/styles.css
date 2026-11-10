@@ -283,6 +283,12 @@ select:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 }
 
 /* Homepage: way into each section */
+.primary-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; margin: 0 0 22px; }
+.cta-button { display: inline-flex; align-items: center; min-height: 56px; padding: 12px 28px 10px; border-radius: 999px; background: var(--ink); color: #fff; font-weight: 900; font-size: 1.15rem; text-decoration: none; }
+.cta-button:hover { text-decoration: underline; filter: brightness(1.15); }
+.cta-button:focus-visible { outline: 3px solid var(--college); outline-offset: 3px; }
+.cta-note { color: var(--muted); max-width: 22em; }
+.explore-label { margin: 0 0 10px; font-weight: 700; color: var(--muted); }
 .explore { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 24px; }
 .explore-link { display: inline-flex; align-items: center; min-height: 48px; padding: 10px 20px 8px; border-radius: 999px; font-weight: 800; text-decoration: none; color: #fff; }
 .explore-link.path-college { background: var(--college); }
