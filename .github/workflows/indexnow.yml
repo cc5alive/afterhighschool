@@ -25,7 +25,8 @@ jobs:
           done
           echo "This commit didn't go live within 20 minutes (live: $live); a newer push will catch up." && exit 1
       - name: Load the last state
-        run: git fetch origin indexnow-state && git show origin/indexnow-state:state.json > state.json || echo "No state yet: first run submits every page."
+        run: |
+          git fetch origin indexnow-state && git show origin/indexnow-state:state.json > state.json || echo "No state yet, so the first run submits every page."
       - run: node scripts/indexnow.mjs state.json
       - name: Save the state
         run: |
