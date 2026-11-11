@@ -53,9 +53,9 @@
     const main = el('div', 'card-main');
     const save = el('button', 'linkish card-save', 'Save to my list');
     save.type = 'button';
-    Object.assign(save.dataset, { saveSlug: r.slug, offText: 'Save to my list', onText: 'Saved' });
+    Object.assign(save.dataset, { saveSlug: r.slug, offText: 'Save to my list', onText: 'Saved', name: r.name });
     save.setAttribute('aria-pressed', 'false');
-    save.setAttribute('aria-label', `Save ${r.name} to my list`);
+    save.setAttribute('aria-label', `Save to my list: ${r.name}`);
     main.append(a, save);
     li.append(main, dl);
     return li;

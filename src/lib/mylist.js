@@ -19,6 +19,8 @@ export function wireSaveButtons() {
       const on = list.includes(b.dataset.saveSlug);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
       b.textContent = on ? (b.dataset.onText || 'Saved to my list') : (b.dataset.offText || 'Save to my list');
+      // The accessible name starts with the visible text, then says which school.
+      if (b.dataset.name) b.setAttribute('aria-label', `${b.textContent}: ${b.dataset.name}`);
     }
     for (const c of document.querySelectorAll('[data-list-count]')) c.textContent = list.length ? ` (${list.length})` : '';
   };

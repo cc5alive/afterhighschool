@@ -84,7 +84,7 @@ const routes = STATE_ROUTES[st.code] || null;
                   <span class="card-name">{s.name}</span>
                   <span class="card-where">{s.city}{s.students != null && ` · ${int(s.students)} students`}</span>
                 </a>
-                <button type="button" class="linkish card-save" data-save-slug={`t:${s.slug}`} data-off-text="Save to my list" data-on-text="Saved" aria-pressed="false" aria-label={`Save ${s.name} to my list`}>Save to my list</button>
+                <button type="button" class="linkish card-save" data-save-slug={`t:${s.slug}`} data-off-text="Save to my list" data-on-text="Saved" aria-pressed="false" data-name={s.name} aria-label={`Save to my list: ${s.name}`}>Save to my list</button>
               </div>
               <dl class="card-facts tr-facts">
                 <div><dt>Avg net price</dt><dd>{money(s.avgNetPrice) ?? '—'}</dd></div>

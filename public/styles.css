@@ -1,3 +1,33 @@
+/* Overpass, self-hosted (SIL Open Font License, see /fonts/OFL.txt). */
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/overpass-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/overpass-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/overpass-latin-800-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/fonts/overpass-latin-900-normal.woff2") format("woff2");
+}
+
 :root {
   --ink: #16233b;
   --muted: #56617a;
@@ -291,11 +321,11 @@ select:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 .explore-label { margin: 0 0 10px; font-weight: 700; color: var(--muted); }
 .explore { display: flex; flex-wrap: wrap; gap: 12px; margin: 0 0 24px; }
 .explore-link { display: inline-flex; align-items: center; min-height: 48px; padding: 10px 20px 8px; border-radius: 999px; font-weight: 800; text-decoration: none; color: #fff; }
-.explore-link.path-college { background: var(--college); }
+.explore-link.path-college { background: #2a5fe8; }
 .explore-link.path-trade { background: var(--trade); color: var(--ink); }
 .explore-link:hover { filter: brightness(1.08); text-decoration: underline; }
 .map a text { text-decoration: underline; }
-.explore-link.path-apprentice { background: var(--apprentice); }
+.explore-link.path-apprentice { background: #157a49; }
 .explore-link.path-gap { background: var(--gap); }
 .explore-all { margin: -4px 0 24px; font-weight: 700; }
 .explore-link.path-military { background: var(--ink); }
