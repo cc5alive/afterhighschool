@@ -13,6 +13,7 @@ export function getStaticPaths() {
 const { g } = Astro.props;
 const S = g.src;
 const { list: schools, all } = guideSchools(g);
+const hasEarn = schools.some((s) => s.earn1);
 const cite = (keys) => keys.map((k) => S[k]).filter(Boolean);
 const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Correction: ${g.title}`)}&body=${encodeURIComponent('What looks wrong or out of date:\n\nWhere you saw the right information (a link helps):\n')}`;
 const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
@@ -47,27 +48,28 @@ const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
             <tr>
               <td>{p.area}</td>
               <td><a href={S[p.src].url} rel="noopener" target="_blank">{p.name}</a></td>
-              <td>{p.facts}{p.guide && <> <a href={p.guide}>More in our LA guide</a>.</>}</td>
+              <td>{p.facts}{p.more && <> <a href={S[p.more].url} rel="noopener" target="_blank">More details</a>.</>}{p.guide && <> <a href={p.guide}>More in our LA guide</a>.</>}</td>
             </tr>
           ))}</tbody>
         </table>
-        {r.more && <p class="sy-note">{r.more} <a href={S.das.url} rel="noopener" target="_blank">Search approved programs</a>.</p>}
+        {r.more && <p class="sy-note">{r.more} <a href={(S.das || S.twc).url} rel="noopener" target="_blank">{S.das ? 'Search approved programs' : 'Find apprenticeships'}</a>.</p>}
         <p class="wys-src">Sources: program pages linked above. Checked {g.checked}.</p>
       </li>
     ))}
     <li class="sy-card la-school" id="school">
-      <h3>School first, then trainee hours</h3>
+      <h3>{g.school.heading || 'School first, then trainee hours'}</h3>
       <p class="sy-what">{g.school.what}</p>
       {schools.length > 0 && (
         <div class="la-table-wrap">
           <table class="nat-table la-schools">
             <caption class="sg-cap">Public colleges in {g.stateName} that awarded {g.tradeName} certificates or degrees last year, A to Z</caption>
-            <thead><tr><th scope="col">School</th><th scope="col">Awards last year</th><th scope="col">Average net price a year (whole school)</th></tr></thead>
+            <thead><tr><th scope="col">School</th><th scope="col">Awards last year</th><th scope="col">Average net price a year (whole school)</th>{hasEarn && <th scope="col">Certificate grads' pay a year after</th>}</tr></thead>
             <tbody>{schools.map((s) => (
               <tr>
                 <td><a href={`/trades/school/${s.slug}`}>{s.name}</a><span class="la-city">{s.city}</span></td>
                 <td>{[s.cert && `${s.cert} certificate${s.cert === 1 ? '' : 's'}`, s.assoc && `${s.assoc} associate degree${s.assoc === 1 ? '' : 's'}`].filter(Boolean).join(', ')}</td>
                 <td>{s.avgNetPrice != null && s.avgNetPrice >= 500 ? money(s.avgNetPrice) : 'Not shown'}</td>
+                {hasEarn && <td>{money(s.earn1) ?? 'Not reported'}</td>}
               </tr>
             ))}</tbody>
           </table>

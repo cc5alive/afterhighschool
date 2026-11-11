@@ -38,6 +38,24 @@ const CA_SRC = {
   scorecard: SCORECARD
 };
 
+
+const TX_SRC = {
+  apprentice: { label: 'Texas Department of Licensing and Regulation: apply for an apprentice electrician license', url: 'https://tdlr.texas.gov/electricians/apply/individuals/apprentice-electrician.htm' },
+  journeyman: { label: 'Texas Department of Licensing and Regulation: apply for a journeyman electrician license', url: 'https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm' },
+  exam: { label: 'Texas Department of Licensing and Regulation: electrician examinations', url: 'https://www.tdlr.texas.gov/electricians/elecexam.htm' },
+  twc: { label: 'Texas Workforce Commission: find apprenticeships', url: 'https://www.twc.texas.gov/services/job-training/find-apprenticeships' },
+  houston: { label: 'Houston Electrical JATC: how to apply', url: 'https://www.houstonjatc.com/how-to-apply' },
+  houstonFaq: { label: 'Houston Electrical JATC: frequently asked questions', url: 'https://www.houstonjatc.com/faq-help' },
+  ntx: { label: 'North Texas Electrical Training Center: applicant information', url: 'https://ntejatc.org/index.php/applicant-information' },
+  ntxFaq: { label: 'North Texas Electrical Training Center: frequently asked questions', url: 'https://ntejatc.org/index.php/frequently-asked-questions' },
+  austin: { label: 'Austin Electrical Training Alliance: apprentice program', url: 'https://austineta.org/apprentice-program-2/' },
+  sa: { label: 'South Texas Training Center (San Antonio): electrician apprenticeship qualifications', url: 'https://www.sotxjatc.org/qualifications-electrician.html' },
+  abcSouth: { label: 'ABC South Texas: become an electrician in Texas (April 2026)', url: 'https://www.abcsouthtexas.org/become-an-electrician-in-texas-with-abc-south-texas/' },
+  iec: { label: 'Independent Electrical Contractors: apprenticeship', url: 'https://www.ieci.org/apprenticeship' },
+  iecDallas: { label: 'IEC Dallas: apprenticeship training program', url: 'https://iecdallaseducation.com/files/pdf/apprenticeship.pdf' },
+  scorecard: SCORECARD
+};
+
 export const STATE_GUIDES = [
   {
     slug: 'electrician-california',
@@ -87,6 +105,55 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['eti', 'sd', 'sf', 'abcSocal', 'trainee'],
     src: CA_SRC
+  },
+  {
+    slug: 'electrician-texas',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'TX',
+    stateName: 'Texas',
+    checked: 'November 11, 2026',
+    title: 'How to become an electrician in Texas',
+    description: 'What Texas requires to work as an electrician: an apprentice license, 8,000 hours under a master electrician and the journeyman exam, plus the apprenticeships in Houston, Dallas–Fort Worth, Austin and San Antonio. From official sources.',
+    lede: 'In Texas you need a state license to do any electrical work, even as a beginner. You start with an apprentice license, work 8,000 hours under the supervision of a Texas master electrician, and pass the journeyman exam.',
+    rules: [
+      { dt: 'Apprentice license first', dd: 'Anyone doing electrical work in Texas must be licensed. The apprentice license needs no experience or exam: you apply online, pay $20 and renew it every year. You work under the supervision of a licensed master electrician, journeyman electrician or residential wireman.', src: ['apprentice'] },
+      { dt: 'Hours you need', dd: '8,000 hours of on-the-job training under the supervision of a Texas master electrician for a journeyman license. Each master who supervised you signs a form verifying your hours. You can apply to take the exam once you have 7,000.', src: ['journeyman'] },
+      { dt: 'The exam', dd: 'Given by PSI in two parts, knowledge and calculations. It\'s open book, using a soft-bound copy of the 2026 National Electrical Code, and you need 70% to pass. You can retake it as many times as you need, though each try may cost another fee.', src: ['exam'] },
+      { dt: 'Applying for the journeyman license', dd: '$30 application fee, mailed with the application.', src: ['journeyman'] }
+    ],
+    routesIntro: 'Either way, the hours have to be worked as a licensed apprentice. An apprenticeship places you with a contractor and adds classes; on your own, you find an employer with a master electrician to supervise you. Texas apprenticeships pay you, but many also charge tuition for the classes, so ask what it costs.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and the National Electrical Contractors Association (NECA). The Houston, Dallas–Fort Worth and Austin programs each take four years: 8,000 hours on the job plus classes. In Houston and Dallas–Fort Worth, the training center places you with a contractor when there\'s work.',
+      programs: [
+        { area: 'Houston', name: 'Houston Electrical JATC', facts: 'Starts at $18.34 an hour. You need to be 18, a transcript showing graduation (or a GED) and one full credit of algebra, and a Texas apprentice license. $30 application fee. Most accepted applicants get scholarships covering most training costs.', src: 'houston', more: 'houstonFaq' },
+        { area: 'Dallas–Fort Worth', name: 'North Texas Electrical Training Center', facts: 'Starts at 50% of the $40.65 journeyman wage (as of March 2026), rising to 80%. You need to be 18, a diploma or GED, a year of high school algebra, a Texas apprentice license, a driver\'s license and a qualifying aptitude test score. Tuition and books come to about $7,200 over four years.', src: 'ntx', more: 'ntxFaq' },
+        { area: 'Austin', name: 'Austin Electrical Training Alliance', facts: 'Starts at $21.07 an hour (55% of the journeyman wage). $35 application fee, then an aptitude test in algebra and reading; if you don\'t pass, you wait 90 days to retake it. Tuition is announced before classes start.', src: 'austin' },
+        { area: 'San Antonio', name: 'South Texas Training Center', facts: 'You need to be 17, a high school diploma or GED with an Algebra 1 credit, and a photo ID. No experience needed. Apply, then take the aptitude test.', src: 'sa' }
+      ],
+      more: 'Other parts of Texas have their own union training centers. The Texas Workforce Commission points to the federal apprenticeship finder to search by area.'
+    },
+    nonunion: {
+      what: 'Run by contractor groups for non-union employers. Like union programs, they take about four years and 8,000 hours, with classes alongside paid work.',
+      programs: [
+        { area: 'San Antonio and South Texas', name: 'ABC South Texas', facts: 'Paid work from day one, with apprentices placed across a 22-county region. You need to be 18 and a diploma or GED; no experience needed.', src: 'abcSouth' },
+        { area: 'Statewide', name: 'Independent Electrical Contractors (IEC)', facts: 'Chapters in Texas include IEC Dallas; IEC\'s site finds the chapter nearest you. About four years: 8,000 hours with an IEC contractor and 576 hours of evening classes. It isn\'t free, though your employer may help with tuition. IEC Dallas apprentices can earn up to 37 hours of college credit, and it also runs an 18-week pre-apprenticeship.', src: 'iec', more: 'iecDallas' }
+      ]
+    },
+    school: {
+      heading: 'School first, then apprentice hours',
+      what: 'Texas doesn\'t require school, and school hours don\'t count toward the 8,000. A community college certificate can teach you the basics before you look for an apprentice job.',
+      cip: '4603'
+    },
+    steps: [
+      'Take algebra and pass it. The union programs above ask for at least one year of it.',
+      'Apply online for your Texas apprentice electrician license ($20). Several programs require it before you apply.',
+      'Gather a diploma or GED (or transcripts), a photo ID or driver\'s license and your Social Security card.',
+      'Apply to the union and non-union programs in your area, and practice for the aptitude test.',
+      'Keep a record of every hour you work and who supervised you; you\'ll need each master electrician to verify them.'
+    ],
+    stepsSrc: ['apprentice', 'journeyman', 'houston', 'ntx'],
+    src: TX_SRC
   }
 ];
 
