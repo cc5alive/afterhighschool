@@ -83,6 +83,16 @@ const NY_SRC = {
   scorecard: SCORECARD
 };
 
+const NC_SRC = {
+  exempt: { label: 'North Carolina General Statutes, section 87-43.1 (work that isn\'t electrical contracting)', url: 'https://ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_87/GS_87-43.1.html' },
+  hours: { label: 'North Carolina Administrative Code, 21 NCAC 18B .0201 (experience needed for each license exam), via Cornell Law School', url: 'https://law.cornell.edu/regulations/north-carolina/21-N-C-Admin-Code-18B-0201' },
+  ncfind: { label: 'ApprenticeshipNC (North Carolina Community College System): find a registered apprenticeship', url: 'https://nccommunitycolleges.edu/businesses/apprenticeships/explore-apprenticeship-opportunities/' },
+  rdu: { label: 'ApprenticeshipNC: Raleigh-Durham Electrical JATC', url: 'https://nccommunitycolleges.edu/students/what-we-offer/apprenticeships/apprenticeship-opportunities/raleigh-durham-electrical-jatc' },
+  abc: { label: 'ABC Carolinas: electrical apprenticeship (April 29, 2026)', url: 'https://abccarolinas.org/electrician-apprenticeship-north-carolina-abc-carolinas-electrical-apprenticeship-skills-competition-2026/' },
+  iec: { label: 'Independent Electrical Contractors: apprenticeship', url: 'https://www.ieci.org/apprenticeship' },
+  scorecard: SCORECARD
+};
+
 export const STATE_GUIDES = [
   {
     slug: 'electrician-california',
@@ -279,6 +289,51 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['local3', 'buffalo', 'rochester', 'cny', 'nydol', 'nyc'],
     src: NY_SRC
+  },
+  {
+    slug: 'electrician-north-carolina',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'NC',
+    stateName: 'North Carolina',
+    checked: 'November 11, 2026',
+    title: 'How to become an electrician in North Carolina',
+    description: 'How to become an electrician in North Carolina: start as an employee of a licensed contractor, learn through a paid apprenticeship or community college, and what the state\'s contractor licenses require later. From official sources.',
+    lede: 'In North Carolina, you can start by getting hired: state law says work done by an employee of a licensed electrical contractor isn\'t electrical contracting, so you don\'t need your own license to learn on the job. The state licenses electrical contractors, and those licenses take thousands of hours of experience.',
+    rules: [
+      { dt: 'Working as an employee', dd: 'Under state law, work done by a genuine employee of a licensed electrical contractor isn\'t electrical contracting, which is what needs a license.', src: ['exempt'] },
+      { dt: 'Your own license later', dd: 'Contractor licenses come in three main levels, each with an exam. Limited takes 3,000 hours of experience, intermediate 5,750 and unlimited 9,000, and most of those hours must be what the rules call primary experience.', src: ['hours'] },
+      { dt: 'Finding apprenticeships', dd: 'ApprenticeshipNC, run by the state\'s community college system, keeps a searchable directory of registered apprenticeships by area. It doesn\'t list job openings, so you contact the employer or school partner listed.', src: ['ncfind'] }
+    ],
+    routesIntro: 'Because employees don\'t need their own license, the main choice is how you learn: a registered apprenticeship that pays you and adds classes, or community college classes first.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and electrical contractors.',
+      programs: [
+        { area: 'Raleigh, Durham, Fayetteville and Halifax County', name: 'Raleigh-Durham Electrical JATC', facts: 'Covers Cumberland, Durham, Halifax and Wake counties. Contact the program through ApprenticeshipNC\'s listing to ask about applying.', src: 'rdu' }
+      ],
+      more: 'Other union programs are in the state\'s apprenticeship directory.'
+    },
+    nonunion: {
+      what: 'Run by contractor groups for non-union employers.',
+      programs: [
+        { area: 'Charlotte and statewide', name: 'ABC Carolinas', facts: 'Four years of full-time paid work with evening classes. $185 per level (four levels). You need to be 18, a diploma or GED, a driver\'s license and a Social Security card; you get hired by a participating contractor, then enroll. Phone (704) 367-1331.', src: 'abc' },
+        { area: 'Statewide', name: 'Independent Electrical Contractors (IEC)', facts: 'About four years: 8,000 hours with an IEC contractor and 576 hours of evening classes. It isn\'t free, though your employer may help with tuition. IEC\'s site finds the chapter nearest you.', src: 'iec' }
+      ]
+    },
+    school: {
+      heading: 'Community college programs',
+      what: 'North Carolina\'s community colleges teach electrical systems in certificate, diploma and degree programs. Classes can help you get hired, and the hours you then work count toward a contractor license later.',
+      cip: '4603'
+    },
+    steps: [
+      'Take algebra and pass it. Some programs ask for it, and most give an aptitude test in math and reading.',
+      'Gather a diploma or GED, a driver\'s license and your Social Security card.',
+      'Search ApprenticeshipNC\'s directory for electrical programs near you, and contact them about applying.',
+      'Or look for a job with a licensed electrical contractor, and ask whether they sponsor an apprenticeship.',
+      'Keep a record of your hours and who you worked for. You\'ll need it if you go for a contractor license.'
+    ],
+    stepsSrc: ['abc', 'ncfind', 'exempt', 'hours'],
+    src: NC_SRC
   }
 ];
 
