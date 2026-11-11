@@ -1,0 +1,29 @@
+name: Page speed (Lighthouse, phone)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 15 * * 1' # Mondays
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Run Lighthouse on one page of each kind
+        run: |
+          npm install -g lighthouse@12.6.1 >/dev/null 2>&1
+          echo "| Page | Performance | Accessibility | Best practices | SEO | LCP | CLS | TBT |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| --- | --- | --- | --- | --- | --- | --- | --- |" >> "$GITHUB_STEP_SUMMARY"
+          for p in / /colleges /college/university-of-california-los-angeles /colleges/california /trades/school/los-angeles-trade-technical-college /guides/electrician-los-angeles /compare /paths; do
+            lighthouse "https://afterhighschool.me$p" --quiet --chrome-flags="--headless=new --no-sandbox" --output=json --output-path=lh.json --form-factor=mobile >/dev/null 2>&1 || { echo "| $p | failed |" >> "$GITHUB_STEP_SUMMARY"; continue; }
+            node -e '
+              const r = require("./lh.json"), c = r.categories, a = r.audits, s = (k) => Math.round(c[k].score * 100);
+              console.log(`| ${process.argv[1]} | ${s("performance")} | ${s("accessibility")} | ${s("best-practices")} | ${s("seo")} | ${a["largest-contentful-paint"].displayValue} | ${a["cumulative-layout-shift"].displayValue} | ${a["total-blocking-time"].displayValue} |`);
+              const fails = Object.values(a).filter((x) => x.score !== null && x.score < 0.9 && ["opportunity","diagnostic"].includes(x.details?.type) || (x.score === 0 && x.scoreDisplayMode === "binary")).map((x) => x.title);
+              if (fails.length) console.error(`${process.argv[1]}: ${fails.slice(0, 12).join("; ")}`);
+            ' "$p" >> "$GITHUB_STEP_SUMMARY" 2>> issues.txt
+          done
+          echo "" >> "$GITHUB_STEP_SUMMARY"; echo "### Flagged audits" >> "$GITHUB_STEP_SUMMARY"
+          sed 's/^/- /' issues.txt >> "$GITHUB_STEP_SUMMARY"
+          cat "$GITHUB_STEP_SUMMARY"
