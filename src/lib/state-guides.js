@@ -56,6 +56,21 @@ const TX_SRC = {
   scorecard: SCORECARD
 };
 
+const FL_SRC = {
+  dbpr: { label: 'Florida Department of Business and Professional Regulation: Electrical Contractors\' Licensing Board FAQs', url: 'https://www2.myfloridalicense.com/electrical-contractors/faqs/' },
+  statute: { label: 'Florida Statutes, section 489.5335 (journeyman licenses issued by counties and cities)', url: 'https://flsenate.gov/laws/statutes/2024/489.5335' },
+  miami: { label: 'Miami-Dade County: electrical licensing', url: 'https://www.miamidade.gov/licenses/electrical.asp' },
+  broward: { label: 'Broward County: journeyman certificate application packet', url: 'https://www.broward.org/Building/Forms/Documents/Journeyman.pdf' },
+  fldoe: { label: 'Florida Department of Education: apprenticeship programs', url: 'https://www.fldoe.org/academics/career-adult-edu/apprenticeship-programs/' },
+  sfl: { label: 'IBEW Local 349: apprenticeship (South Florida)', url: 'https://www.ibew349.org/?zone=%2Funionactive%2Fview_page.cfm&page=Apprenticeship' },
+  fec: { label: 'Florida East Coast Electrical JATC: our apprenticeship', url: 'https://www.fecjatc.com/?zone=%2Funionactive%2Fview_page.cfm&page=OUR20APPRENTICESHIP' },
+  cfl: { label: 'Electrical Training Alliance of Central Florida: how to apply', url: 'https://www.etacfl.org/how-to-apply' },
+  jax: { label: 'Electrical Training Alliance of Jacksonville: apply', url: 'https://www.etajax.org/apply' },
+  feat: { label: 'Orange Technical College: electrician apprenticeship (Florida Electrical Apprenticeship and Training)', url: 'https://www.orangetechcollege.net/electrical-apprenticeship' },
+  iec: { label: 'Independent Electrical Contractors: apprenticeship', url: 'https://www.ieci.org/apprenticeship' },
+  scorecard: SCORECARD
+};
+
 export const STATE_GUIDES = [
   {
     slug: 'electrician-california',
@@ -154,6 +169,56 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['apprentice', 'journeyman', 'houston', 'ntx'],
     src: TX_SRC
+  },
+  {
+    slug: 'electrician-florida',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'FL',
+    stateName: 'Florida',
+    checked: 'November 11, 2026',
+    title: 'How to become an electrician in Florida',
+    description: 'How electrician licensing works in Florida, where counties and cities issue journeyman licenses, plus the paid apprenticeships in South Florida, Palm Beach, Central Florida and Jacksonville. From official sources.',
+    lede: 'Florida doesn\'t license journeyman electricians statewide. The state licenses electrical contractors; journeyman licenses come from your county or city, and each sets its own rules. A four-year paid apprenticeship is one common way to get the experience they ask for.',
+    rules: [
+      { dt: 'Who licenses electricians', dd: 'The state\'s licensing department says it doesn\'t license or regulate journeymen, and tells you to contact the licensing office of the county where you\'ll work.', src: ['dbpr'] },
+      { dt: 'Example: Miami-Dade', dd: 'A journeyman needs a county certificate of competency: three years of proven experience in the trade (education can count for up to half) and a passed exam. Each job site needs at least one journeyman for every three trainees.', src: ['miami'] },
+      { dt: 'Example: Broward', dd: 'You apply to the county with a notarized letter from a licensed employer confirming your experience, then take an exam that needs 75% to pass. The electrical fee is $115.', src: ['broward'] },
+      { dt: 'Moving within Florida', dd: 'State law requires counties and cities to recognize an electrical journeyman license issued by another Florida county or city.', src: ['statute'] },
+      { dt: 'Later: your own business', dd: 'To run an electrical contracting business statewide you need a state contractor license, which takes years of experience, including management experience, and a state exam.', src: ['dbpr'] }
+    ],
+    routesIntro: 'An apprenticeship is the most direct route: four years of paid work with a contractor plus classes, which counts toward a journeyman license. Some programs charge no tuition at all.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and the National Electrical Contractors Association (NECA). Most ask for algebra (or an online tech math course), a diploma or GED, an aptitude test in algebra and reading, and an interview.',
+      programs: [
+        { area: 'Miami and Southwest Florida', name: 'IBEW Local 349 apprenticeship school', facts: 'Offices in Miami and Fort Myers. You need to be 18, a diploma, passing algebra and a driver\'s license. Applications are open all year, but must be complete by March 1 for the fall class.', src: 'sfl' },
+        { area: 'Palm Beach, Broward and the Treasure Coast', name: 'Florida East Coast Electrical JATC', facts: 'At least 8,000 hours of paid work and 720 hours of classes, and contractors pay you for class time. No tuition; you buy books, a laptop and hand tools. You can apply at 17 and start at 18.', src: 'fec' },
+        { area: 'Central Florida', name: 'Electrical Training Alliance of Central Florida', facts: 'Based in Winter Park. You can apply at 17 and start at 18. You need a diploma or GED and a year of algebra. Online applications, with interviews every month.', src: 'cfl' },
+        { area: 'Jacksonville', name: 'Electrical Training Alliance of Jacksonville', facts: 'Four years. Tuition is covered; books cost about $780 a year. $5 application fee. You need Algebra 1. The 2026 application deadline was November 5.', src: 'jax' }
+      ],
+      more: 'Other parts of Florida have their own programs. The state\'s apprenticeship office has a map of programs and a contact for each region.'
+    },
+    nonunion: {
+      what: 'Run by contractor groups for non-union employers, with the same four-year, 8,000-hour shape.',
+      programs: [
+        { area: 'Central Florida', name: 'Florida Electrical Apprenticeship and Training (FEAT)', facts: 'Four years and 8,000 hours, with paid work for a participating employer and classes at Orange Technical College. Phone (407) 438-3328.', src: 'feat' },
+        { area: 'Statewide', name: 'Independent Electrical Contractors (IEC)', facts: 'Chapters across Florida. About four years: 8,000 hours with an IEC contractor and 576 hours of evening classes. It isn\'t free, though your employer may help with tuition.', src: 'iec' }
+      ]
+    },
+    school: {
+      heading: 'Technical college programs',
+      what: 'Florida\'s public technical colleges and state colleges teach electrical programs, and several also host apprenticeship classes (Orange Technical College with FEAT, for example). A certificate can help you get hired, but your county decides what experience counts toward a journeyman license.',
+      cip: '4603'
+    },
+    steps: [
+      'Take algebra and pass it. Every union program above asks for it.',
+      'Find out what your county requires for a journeyman license.',
+      'Gather a diploma or GED, transcripts, a photo ID or driver\'s license, your Social Security card and a birth certificate.',
+      'Apply to the programs near you, and note each one\'s deadline (South Florida: March 1 for fall).',
+      'Practice for the aptitude test in algebra and reading.'
+    ],
+    stepsSrc: ['sfl', 'fec', 'cfl', 'jax', 'dbpr'],
+    src: FL_SRC
   }
 ];
 
