@@ -15,8 +15,8 @@ const S = g.src;
 const { list: schools, all } = guideSchools(g);
 const hasEarn = schools.some((s) => s.earn1);
 // Where to search for more programs in this state.
-const finder = S.das || S.twc || S.fldoe;
-const finderLabel = S.das ? 'Search approved programs' : S.twc ? 'Find apprenticeships' : 'Find a program near you';
+const finder = S.das || S.twc || S.fldoe || S.nydol;
+const finderLabel = S.das ? 'Search approved programs' : S.twc ? 'Find apprenticeships' : S.nydol ? 'See current openings' : 'Find a program near you';
 const cite = (keys) => keys.map((k) => S[k]).filter(Boolean);
 const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Correction: ${g.title}`)}&body=${encodeURIComponent('What looks wrong or out of date:\n\nWhere you saw the right information (a link helps):\n')}`;
 const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
@@ -41,7 +41,7 @@ const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
   <h2 class="la-routes-h">Ways in</h2>
   <p class="block-lede">{g.routesIntro}</p>
   <ul class="sy-list la-list">
-    {[['Paid union apprenticeships', g.union, 'la-paid', 'union'], ['Paid non-union apprenticeships', g.nonunion, 'la-paid', 'nonunion']].map(([h, r, cls, id]) => (
+    {[['Paid union apprenticeships', g.union, 'la-paid', 'union'], [g.nonunion?.heading || 'Paid non-union apprenticeships', g.nonunion, 'la-paid', 'nonunion']].filter(([, r]) => r).map(([h, r, cls, id]) => (
       <li class={`sy-card ${cls}`} id={id}>
         <h3>{h}</h3>
         <p class="sy-what">{r.what}</p>

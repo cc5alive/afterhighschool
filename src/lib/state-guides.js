@@ -71,6 +71,18 @@ const FL_SRC = {
   scorecard: SCORECARD
 };
 
+const NY_SRC = {
+  nyc: { label: 'NYC Department of Buildings: master and special electrician licenses', url: 'https://www.nyc.gov/site/buildings/industry/obtain-a-master-and-special-electrician-license.page' },
+  ulster: { label: 'Ulster County Electrical Licensing Board: master electrician license', url: 'https://www.ulstercountyny.gov/Boards/Electrical-Licensing-Board/Master-Electricians-License-Application' },
+  nydol: { label: 'New York State Department of Labor: apprenticeship announcements', url: 'https://dol.ny.gov/apprenticeship/apprenticeship-announcements' },
+  local3: { label: 'NYS Department of Labor: JAC IBEW Electrical Local 3 recruitment (posted September 10, 2026)', url: 'https://dol.ny.gov/ap/jac-ibew-electrical-local-3' },
+  buffalo: { label: 'NYS Department of Labor: Electricians JAC Buffalo Local 41 recruitment (posted July 29, 2026)', url: 'https://dol.ny.gov/ap/electricians-jac-buffalo-lu-41-1' },
+  rochester: { label: 'NYS Department of Labor: Rochester Electrical JATC Local 86 recruitment (January 2026)', url: 'https://dol.ny.gov/news/rochester-electrical-jatc-lu-86-1' },
+  cny: { label: 'NYS Department of Labor: Central New York Electrical Training Alliance recruitment (April 2026)', url: 'https://dol.ny.gov/ap/central-new-york-electrical-training-alliance' },
+  usis: { label: 'NYS Department of Labor: USIS Electric apprenticeship recruitment (March 2026)', url: 'https://dol.ny.gov/ap/usis-electric-inc' },
+  scorecard: SCORECARD
+};
+
 export const STATE_GUIDES = [
   {
     slug: 'electrician-california',
@@ -219,6 +231,54 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['sfl', 'fec', 'cfl', 'jax', 'dbpr'],
     src: FL_SRC
+  },
+  {
+    slug: 'electrician-new-york',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'NY',
+    stateName: 'New York',
+    checked: 'November 11, 2026',
+    title: 'How to become an electrician in New York',
+    description: 'How to become an electrician in New York: local license rules (New York City and Ulster County as examples), and the paid apprenticeships in New York City, Buffalo, Rochester, Central New York and the Hudson Valley, with their application dates. From official sources.',
+    lede: 'In New York, the license rules you\'ll follow depend on where you work: New York City and Ulster County, for example, each license master electricians under their own rules. A common route starts with a paid apprenticeship registered with the state, and some have short application windows.',
+    rules: [
+      { dt: 'Example: New York City', dd: 'A master electrician license takes 7 years of work within the last 10 under a licensed master or special electrician (2 of them in the city), or 5 years after a registered apprenticeship. You must be 18 and pass a written exam ($585, no reference books, 70% to pass) and a practical exam ($530).', src: ['nyc'] },
+      { dt: 'Example: Ulster County', dd: 'A master electrician license takes at least 7 years of full-time electrical construction work, plus training such as a four-year apprenticeship, and a written exam on the electrical code (75% to pass).', src: ['ulster'] },
+      { dt: 'Finding apprenticeships', dd: 'Registered apprenticeships post their openings with the state Department of Labor, including the dates, number of openings, requirements and how to apply.', src: ['nydol'] }
+    ],
+    routesIntro: 'Each program below is registered with the state, pays you while you work and adds classes. Check the dates closely: some take applications for a year, others for two weeks.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and electrical contractors. Every program below asks for a year of high school algebra, and most also give an aptitude test.',
+      programs: [
+        { area: 'New York City area', name: 'Joint Industry Board, IBEW Local 3', facts: '300 openings in 2026. Applications were requested by registered mail only, October 19–30, capped at the first 2,000 letters. You need to be 18, a year of algebra, two years living within 60 miles of Columbus Circle and an aptitude score of 3 or higher. $25 fee, which can be waived.', src: 'local3' },
+        { area: 'Buffalo and Erie County', name: 'Electricians JAC, IBEW Local 41', facts: 'Open October 7, 2026 to September 29, 2027. Pick up an application in person in Orchard Park on Wednesdays, 1 to 5 p.m. You need to be 18, a diploma or GED with a year of algebra, a New York driver\'s license and to live in the local\'s area.', src: 'buffalo' },
+        { area: 'Rochester', name: 'Rochester Electrical JATC, IBEW Local 86', facts: 'Open April 1, 2026 to March 31, 2027, online only. You need to be 18 and a diploma or GED with a year of algebra. $10 testing fee, which can be waived.', src: 'rochester' },
+        { area: 'Central NY, Finger Lakes, Mohawk Valley, Southern Tier', name: 'Central New York Electrical Training Alliance', facts: 'Open July 1, 2026 to June 30, 2027, online any day. You need to be 18, a diploma or GED with a year of algebra, and a passing aptitude test ($20, can be waived).', src: 'cny' }
+      ],
+      more: 'Other areas, including Westchester, Binghamton, Ithaca, Elmira and Watertown, have their own programs and post their openings with the state.'
+    },
+    nonunion: {
+      heading: 'Paid apprenticeships run by employers',
+      what: 'Some electrical contractors register their own apprenticeship programs with the state.',
+      programs: [
+        { area: 'Hudson Valley, Long Island and NYC', name: 'USIS Electric (Pearl River)', facts: '24 openings, May 11, 2026 to May 7, 2027. Apply in person in Pearl River on weekdays. You need to be 18, a diploma or GED with a year of algebra, and to live in Orange, Putnam, Rockland or Westchester County (or Bergen County, NJ).', src: 'usis' }
+      ]
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges, SUNY technical colleges and BOCES centers teach electrical programs. Experience can also open doors: Buffalo\'s program accepts 4,000 hours of documented electrical construction work in place of its education requirement.',
+      cip: '4603'
+    },
+    steps: [
+      'Take a year of algebra and pass it. Every program above asks for it.',
+      'Get a diploma or GED (or TASC), and keep your transcripts.',
+      'Check the state\'s apprenticeship announcements for programs near you, and note each one\'s dates and how it takes applications (online, in person or by mail).',
+      'Practice for the electrical aptitude test.',
+      'If you plan to work in New York City or another place with its own license, read its rules early. In New York City, only experience under a licensed master or special electrician counts.'
+    ],
+    stepsSrc: ['local3', 'buffalo', 'rochester', 'cny', 'nydol', 'nyc'],
+    src: NY_SRC
   }
 ];
 
