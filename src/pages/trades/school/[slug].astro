@@ -38,6 +38,8 @@ const isTransferCollege = s.ownership === 'public' && s.programs.some((p) => p.l
 const description = `${s.titleName === s.name ? s.name : s.titleName} in ${s.city}, ${s.stateName}: programs, real cost by family income, completion rate, earnings and debt, from federal data.`;
 ---
 <Layout title={`${s.titleName}: programs, cost and outcomes | After High School`} description={description}
+  crumbs={[['Trades', '/trades']]} ogTitle={s.titleName}
+  jsonLd={{ '@context': 'https://schema.org', '@type': s.predominantDegree === 2 ? 'CollegeOrUniversity' : 'EducationalOrganization', name: s.name, ...(s.alias ? { alternateName: s.alias } : {}), ...(site ? { url: site } : {}), address: { '@type': 'PostalAddress', addressLocality: s.city, addressRegion: s.state, postalCode: s.zip, addressCountry: 'US' } }}
   path={`/trades/school/${s.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED || s.thin}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb">

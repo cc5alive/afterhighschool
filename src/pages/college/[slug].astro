@@ -72,17 +72,43 @@ const admitNote = s.admitRate != null
   : s.openAdmission ? 'Admits nearly everyone who applies.' : null;
 
 const description = `${s.name} in ${s.city}, ${s.stateName}: admit rate, test scores, real cost by family income, graduation rate and earnings, from federal data.`;
+// Short names students search for (UCLA, MIT, ABAC) go first in the title; former names and long
+// aliases don't.
+const isAbbr = (c) => /^[A-Z][A-Za-z&.\-]{1,9}$/.test(c) && (c.match(/[A-Z]/g) || []).length >= 2;
+// An abbreviation only counts if its capitals follow the initials of the current name (UCLA, MIT),
+// so a former name's abbreviation doesn't end up in the title.
+const initials = s.name.split(/[\s\-&,]+/).filter(Boolean).map((w) => w[0].toUpperCase()).join('');
+const fitsName = (abbr) => {
+  let i = 0;
+  for (const ch of abbr.replace(/[^A-Z]/g, '')) { i = initials.indexOf(ch, i); if (i < 0) return false; i++; }
+  return true;
+};
+const shortAlias = (() => {
+  for (const c of (s.alias || '').split(/\s*[,|;]\s*|\s{2,}/).map((x) => x.trim()).filter(Boolean)) {
+    const words = c.split(' ');
+    const pick = isAbbr(c) ? c
+      : words.length <= 3 && c.length <= 20 && (words.some(isAbbr) || /\bTech$/.test(c)) ? c
+      : isAbbr(words[0]) ? words[0] : null;
+    if (!pick || s.name.includes(pick) || (!pick.includes(' ') && pick.replace(/[^A-Z]/g, '').length < 3)) continue;
+    if (/\bTech$/.test(pick) || pick.split(' ').filter(isAbbr).every(fitsName)) return pick;
+  }
+  return null;
+})();
+const titleName = `${shortAlias ? `${shortAlias} (${s.name})` : s.name}${sharedName.has(s.name) ? ` (${s.city}, ${s.state})` : ''}`;
+const titleTopic = s.admitRate != null ? 'acceptance rate, cost and outcomes' : 'admissions, cost and outcomes';
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollegeOrUniversity',
   name: s.name,
+  ...(s.alias ? { alternateName: s.alias } : {}),
   ...(site ? { url: site } : {}),
   address: { '@type': 'PostalAddress', addressLocality: s.city, addressRegion: s.state, postalCode: s.zip, addressCountry: 'US' }
 };
 const submitMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`What's special: ${s.name}`)}`;
 const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data error: ${s.name}`)}`;
 ---
-<Layout title={`${s.name}${sharedName.has(s.name) ? ` (${s.city}, ${s.state})` : ''} — admissions, cost and outcomes | After High School`} description={description}
+<Layout title={`${titleName}: ${titleTopic} | After High School`} description={description}
+  crumbs={[['Colleges', '/colleges'], [s.stateName, `/colleges/${stateSlug(s.state)}`]]} ogTitle={titleName}
   path={`/college/${s.slug}`} nav="colleges" noindex={!COLLEGES_LAUNCHED || status?.listed === false || gradOnly(s)} jsonLd={jsonLd}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb">

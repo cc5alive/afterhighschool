@@ -1,12 +1,16 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED } from '../lib/site.js';
+import { TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
 ---
 <Layout
   title="After High School — every path, with the real numbers"
   description="A free, honest guide to what comes after high school: how your grades and test scores compare at any US college, plus trade schools, apprenticeships, gap years and fellowships. Every number linked to its source."
   ogTitle="After High School"
   path="/"
+  jsonLd={[
+    { '@context': 'https://schema.org', '@type': 'WebSite', name: 'After High School', alternateName: 'afterhighschool.me', url: 'https://afterhighschool.me/' },
+    { '@context': 'https://schema.org', '@type': 'Organization', name: 'After High School', url: 'https://afterhighschool.me/', logo: 'https://afterhighschool.me/icon-512.png', email: CONTACT_EMAIL, founder: [{ '@type': 'Person', name: 'CC Pearce' }, { '@type': 'Person', name: 'Young Chu' }] }
+  ]}
 >
     <section class="hero">
       <div class="hero-copy">

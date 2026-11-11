@@ -8,8 +8,18 @@ const {
   noindex = false,
   nav = 'home',          // 'colleges' also loads colleges.css and the save buttons; every page shows the main menu
   ogTitle,
-  jsonLd
+  jsonLd,                // one schema.org object or an array of them
+  crumbs                 // [[name, path], ...] above this page, for BreadcrumbList markup
 } = Astro.props;
+const SITE = 'https://afterhighschool.me';
+const ld = [...(Array.isArray(jsonLd) ? jsonLd : jsonLd ? [jsonLd] : [])];
+if (crumbs?.length && !noindex) {
+  ld.push({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [...crumbs, [ogTitle ?? title.replace(/ \| After High School$/, ''), path]].map(([name, p], i) => ({ '@type': 'ListItem', position: i + 1, name, item: new URL(p, SITE).toString() }))
+  });
+}
 const canonical = new URL(path, 'https://afterhighschool.me').toString().replace(/\/$/, path === '/' ? '/' : '');
 ---
 <!doctype html>
@@ -41,7 +51,7 @@ const canonical = new URL(path, 'https://afterhighschool.me').toString().replace
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;800;900&display=swap">
   <link rel="stylesheet" href="/styles.css">
   {nav === 'colleges' && <link rel="stylesheet" href="/colleges.css">}
-  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+  {ld.map((o) => <script type="application/ld+json" set:html={JSON.stringify(o)} />)}
 </head>
 <body>
   <header class="site-header">

@@ -45,7 +45,7 @@ const { title, intro, preset, list, stateName } = Astro.props;
 const az = stateName ? [...list].sort((a, b) => a.name.localeCompare(b.name)) : [];
 const path = `/colleges/${Astro.params.list}`;
 ---
-<Layout title={`${title} | After High School`} description={intro} path={path} nav="colleges" noindex={!COLLEGES_LAUNCHED}>
+<Layout title={`${title} | After High School`} description={intro} crumbs={[['Colleges', '/colleges']]} path={path} nav="colleges" noindex={!COLLEGES_LAUNCHED}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/colleges">Colleges</a></nav>
   <section class="dir-head">
     <h1>{title}</h1>

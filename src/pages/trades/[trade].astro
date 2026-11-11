@@ -14,6 +14,7 @@ const onTheJob = APPRENTICESHIPS_LAUNCHED ? occupations.filter((o) => o.trade ==
 ---
 <Layout title={`${t.name} schools and programs | After High School`}
   description={`${int(t.count)} schools offer ${t.name.toLowerCase()} programs. See what graduates earn nationally and find schools by state, with federal data on cost and completion.`}
+  crumbs={[['Trades', '/trades']]}
   path={`/trades/${t.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/trades">Trades</a></nav>
   <section class="compare-head">

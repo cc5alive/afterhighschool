@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
-    "build": "astro build",
+    "build": "astro build && node scripts/stamp-build.mjs",
     "preview": "npm run build && wrangler dev",
     "pull": "node scripts/pull-scorecard.mjs",
     "deploy": "wrangler deploy"

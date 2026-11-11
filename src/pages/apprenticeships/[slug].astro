@@ -17,6 +17,7 @@ const pctBar = (v) => (w.p90 ? Math.max(2, Math.min(100, (v / w.p90) * 100)) : 0
 ---
 <Layout title={`${o.name} apprenticeship: pay, outlook and how to start | After High School`}
   description={`How to become a ${o.name.toLowerCase()} through an apprenticeship. National median pay ${money(w.median)}, pay by state and job outlook, from federal data.`}
+  crumbs={[['Apprenticeships', '/apprenticeships']]}
   path={`/apprenticeships/${o.slug}`} nav="colleges" noindex={!APPRENTICESHIPS_LAUNCHED}>
   <article class="school">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="/apprenticeships">Apprenticeships</a></nav>

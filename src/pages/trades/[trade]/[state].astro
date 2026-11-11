@@ -21,6 +21,7 @@ const progEarn = (progs) => {
 ---
 <Layout title={`${t.name} schools in ${st.name} | After High School`}
   description={`${st.list.length} schools in ${st.name} offer ${t.name.toLowerCase()} programs. Compare cost, completion and earnings from federal data.`}
+  crumbs={[['Trades', '/trades'], [t.name, `/trades/${t.slug}`]]}
   path={`/trades/${t.slug}/${st.slug}`} nav="colleges" noindex={!TRADES_LAUNCHED}>
   <nav class="crumbs" aria-label="Breadcrumb"><a href="/trades">Trades</a><span aria-hidden="true">/</span><a href={`/trades/${t.slug}`}>{t.name}</a></nav>
   <section class="compare-head">
