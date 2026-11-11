@@ -1,6 +1,7 @@
 // Every indexable URL, grouped into sections. The sitemap index lists one sitemap per section, so
 // Search Console and Bing report indexing section by section. IndexNow reads the same lists.
-import { schools, states, pulledAt } from './data.js';
+import { schools, pulledAt } from './data.js';
+import { collegeLists } from './college-lists.js';
 import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED } from './site.js';
 import { transferStates } from './transfer-data.js';
 import { occupations } from './apprentice-data.js';
@@ -16,8 +17,7 @@ export function sitemapSections() {
   const paths = [];
   if (COLLEGES_LAUNCHED) {
     main.push({ loc: '/colleges', lastmod: day }, { loc: '/compare' }, { loc: '/methodology', lastmod: day });
-    for (const st of states) main.push({ loc: `/colleges/${st.slug}`, lastmod: day });
-    main.push({ loc: '/colleges/test-optional', lastmod: day }, { loc: '/colleges/net-price-under-20000', lastmod: day });
+    for (const l of collegeLists()) main.push({ loc: `/colleges/${l.slug}`, lastmod: day });
     for (const s of schools) colleges.push({ loc: `/college/${s.slug}`, lastmod: day });
   }
   if (TRADES_LAUNCHED) {

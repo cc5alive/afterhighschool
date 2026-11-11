@@ -2,47 +2,17 @@
 // State pages (/colleges/texas) and a few topic pages (/colleges/test-optional).
 import Layout from '../../layouts/Layout.astro';
 import Directory from '../../components/Directory.astro';
-import { schools, states, pulledDate } from '../../lib/data.js';
+import { pulledDate } from '../../lib/data.js';
+import { collegeLists } from '../../lib/college-lists.js';
 import { COLLEGES_LAUNCHED } from '../../lib/site.js';
 
 export function getStaticPaths() {
-  const stateLists = states.map((st) => ({
-    params: { list: st.slug },
-    props: {
-      title: `Colleges in ${st.name}`,
-      intro: `All ${st.count} four-year colleges in ${st.name}, with admit rates, real costs and outcomes from federal data.`,
-      preset: { state: st.code },
-      list: schools.filter((s) => s.state === st.code),
-      stateName: st.name
-    }
-  }));
-  const optional = schools.filter((s) => ['considered_not_required', 'not_considered'].includes(s.testPolicy));
-  const affordable = schools.filter((s) => s.avgNetPrice != null && s.avgNetPrice < 20000);
-  return [
-    ...stateLists,
-    {
-      params: { list: 'test-optional' },
-      props: {
-        title: 'Test-optional colleges',
-        intro: `${optional.length.toLocaleString('en-US')} four-year colleges that don't require SAT or ACT scores, as they report to the federal government. Policies change; confirm on each school's site before you apply.`,
-        preset: { tp: 'optional' },
-        list: optional
-      }
-    },
-    {
-      params: { list: 'net-price-under-20000' },
-      props: {
-        title: 'Colleges with an average net price under $20,000',
-        intro: `${affordable.length.toLocaleString('en-US')} four-year colleges where the average student receiving grants pays under $20,000 a year. Your price depends on your family's income; each school page shows it by income band.`,
-        preset: { np: '20000' },
-        list: affordable
-      }
-    }
-  ];
+  return collegeLists().map(({ slug, ...props }) => ({ params: { list: slug }, props }));
 }
 
-const { title, intro, preset, list, stateName } = Astro.props;
-const az = stateName ? [...list].sort((a, b) => a.name.localeCompare(b.name)) : [];
+const { title, intro, preset, list, stateName, lowCost } = Astro.props;
+// Every list gets a plain A-to-Z list of links, so each college on it can be reached without JavaScript.
+const az = [...list].sort((a, b) => a.name.localeCompare(b.name));
 const path = `/colleges/${Astro.params.list}`;
 ---
 <Layout title={`${title} | After High School`} description={intro} crumbs={[['Colleges', '/colleges']]} path={path} nav="colleges" noindex={!COLLEGES_LAUNCHED}>
@@ -51,11 +21,12 @@ const path = `/colleges/${Astro.params.list}`;
     <h1>{title}</h1>
     <p>{intro}</p>
     <p>Data from College Scorecard, last pulled {pulledDate}.</p>
+    {lowCost && <p><a href={`/colleges/${lowCost}`}>Low-cost colleges in {stateName}</a></p>}
   </section>
   <Directory initial={list.slice(0, 50)} total={list.length} preset={preset} />
-  {stateName && (
+  {az.length > 0 && (
     <section class="block" aria-labelledby="az">
-      <h2 id="az">Every college in {stateName}, A to Z</h2>
+      <h2 id="az">{stateName ? `Every college in ${stateName}, A to Z` : `All ${az.length} colleges on this list, A to Z`}</h2>
       <ul class="az-list">
         {az.map((s) => <li><a href={`/college/${s.slug}`}>{s.name}</a> <span>{s.city}</span></li>)}
       </ul>
