@@ -419,7 +419,7 @@ button.button { cursor: pointer; font-family: inherit; }
 
 /* Local guides: LA electrician */
 .la-routes-h { font-size: 1.5rem; font-weight: 800; margin: 32px 0 14px; }
-.la-list { list-style: none; padding: 0; margin: 0 0 12px; display: grid; gap: 14px; }
+.la-list { list-style: none; padding: 0; margin: 0 0 12px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
 .la-list .sy-card h3 { margin: 0; font-size: 1.3rem; font-weight: 800; }
 .la-list .la-paid { border-left-color: var(--apprentice); }
 .la-list .la-school { border-left-color: var(--trade); }
@@ -496,3 +496,11 @@ button.button { cursor: pointer; font-family: inherit; }
   .ho-table th, .ho-table td, .ho-table tbody th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
 @media (max-width: 520px) { .kit-steps li { grid-template-columns: 3.4em 1fr; gap: 10px; padding: 12px; } }
+
+/* State trade guides */
+.sg-rules { max-width: 60em; }
+.sg-progs td { white-space: normal; font-weight: 400; }
+.sg-progs td:first-child { font-weight: 700; min-width: 8em; }
+.sg-progs { margin-bottom: 8px; }
+.sg-cap { text-align: left; font-weight: 700; padding: 0 0 8px; color: var(--ink); }
+@media (max-width: 640px) { .sg-progs thead { display: none; } .sg-progs tr { display: block; padding: 8px 0; border-bottom: 1px solid var(--rule); } .sg-progs td { display: block; border: 0; padding: 2px 0; } }

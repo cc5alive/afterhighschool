@@ -2,6 +2,7 @@
 // Search Console and Bing report indexing section by section. IndexNow reads the same lists.
 import { schools, pulledAt } from './data.js';
 import { collegeLists } from './college-lists.js';
+import { STATE_GUIDES } from './state-guides.js';
 import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED } from './site.js';
 import { transferStates } from './transfer-data.js';
 import { occupations } from './apprentice-data.js';
@@ -39,7 +40,10 @@ export function sitemapSections() {
   if (GAP_LAUNCHED) paths.push({ loc: '/gap-years', lastmod: day });
   if (MILITARY_LAUNCHED) paths.push({ loc: '/military', lastmod: day });
   if (SELF_LAUNCHED) paths.push({ loc: '/teach-yourself', lastmod: day }, { loc: '/fellowships', lastmod: day });
-  if (LOCAL_GUIDES_LAUNCHED) paths.push({ loc: '/guides/electrician-los-angeles' });
+  if (LOCAL_GUIDES_LAUNCHED) {
+    paths.push({ loc: '/guides/electrician-los-angeles' });
+    for (const g of STATE_GUIDES) paths.push({ loc: `/guides/${g.slug}` });
+  }
   if (COUNSELORS_LAUNCHED) paths.push({ loc: '/counselors' }, { loc: '/counselors/handout' });
   return { main, colleges, trades, paths };
 }

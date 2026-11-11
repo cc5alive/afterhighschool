@@ -5,6 +5,7 @@ import { tradeIndex, national, tradePulledDate, KIND_LABEL } from '../../../lib/
 import { CREDENTIAL } from '../../../lib/trades.js';
 import { money, int, pct, OWNERSHIP_LABEL } from '../../../lib/format.js';
 import { TRADES_LAUNCHED, LOCAL_GUIDES_LAUNCHED } from '../../../lib/site.js';
+import { guideFor } from '../../../lib/state-guides.js';
 export function getStaticPaths() {
   return tradeIndex.flatMap((t) => t.states.map((st) => ({ params: { trade: t.slug, state: st.slug }, props: { t, st } })));
 }
@@ -27,7 +28,7 @@ const progEarn = (progs) => {
   <section class="compare-head">
     <h1>{t.name} schools in {st.name}</h1>
     <p>{st.list.length} {st.list.length === 1 ? 'school offers' : 'schools offer'} a certificate or associate degree in {t.name.toLowerCase()}, listed A to Z. Numbers are from federal data; open a school for its programs, costs by family income and sources.</p>
-    {LOCAL_GUIDES_LAUNCHED && t.slug === 'electrician' && st.code === 'CA' && <p>In Los Angeles County? See <a href="/guides/electrician-los-angeles">every route to becoming an electrician in LA</a>, including paid apprenticeships.</p>}
+    {LOCAL_GUIDES_LAUNCHED && guideFor(t.slug, st.code) && <p>Start with our guide, <a href={`/guides/${guideFor(t.slug, st.code).slug}`}>{guideFor(t.slug, st.code).title}</a>: the state's rules, paid apprenticeships and how to apply.{t.slug === 'electrician' && st.code === 'CA' && <> In Los Angeles County? See <a href="/guides/electrician-los-angeles">the LA guide</a>.</>}</p>}
   </section>
   <ul class="results tr-results">
     {st.list.map(({ s, progs }) => (

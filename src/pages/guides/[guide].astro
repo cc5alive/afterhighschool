@@ -1,0 +1,92 @@
+---
+// A state trade guide: the state's rules, the paid apprenticeships, the schools, and steps to start.
+// Content lives in src/lib/state-guides.js with a source for every fact.
+import Layout from '../../layouts/Layout.astro';
+import { LOCAL_GUIDES_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+import { STATE_GUIDES, guideSchools } from '../../lib/state-guides.js';
+import { stateSlug } from '../../lib/data.js';
+import { money } from '../../lib/format.js';
+
+export function getStaticPaths() {
+  return STATE_GUIDES.map((g) => ({ params: { guide: g.slug }, props: { g } }));
+}
+const { g } = Astro.props;
+const S = g.src;
+const { list: schools, all } = guideSchools(g);
+const cite = (keys) => keys.map((k) => S[k]).filter(Boolean);
+const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Correction: ${g.title}`)}&body=${encodeURIComponent('What looks wrong or out of date:\n\nWhere you saw the right information (a link helps):\n')}`;
+const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
+---
+<Layout title={`${g.title} | After High School`} description={g.description}
+  crumbs={[[tradeTitle, `/trades/${g.trade}`]]}
+  path={`/guides/${g.slug}`} nav="colleges" noindex={!LOCAL_GUIDES_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href={`/trades/${g.trade}`}>{tradeTitle}</a></nav>
+  <section class="compare-head">
+    <h1>{g.title.replace('How to become', 'Becoming')}</h1>
+    <p>{g.lede}</p>
+  </section>
+
+  <section class="block" aria-labelledby="rules">
+    <h2 id="rules">What {g.stateName} requires</h2>
+    <dl class="sy-facts sg-rules">
+      {g.rules.map((r) => <div class="sy-get"><dt>{r.dt}</dt><dd>{r.dd}</dd></div>)}
+    </dl>
+    <p class="wys-src">Sources: {cite([...new Set(g.rules.flatMap((r) => r.src))]).map((s, i) => <>{i > 0 && '; '}<a href={s.url} rel="noopener" target="_blank">{s.label}</a></>)}. Checked {g.checked}.</p>
+  </section>
+
+  <h2 class="la-routes-h">Ways in</h2>
+  <p class="block-lede">{g.routesIntro}</p>
+  <ul class="sy-list la-list">
+    {[['Paid union apprenticeships', g.union, 'la-paid', 'union'], ['Paid non-union apprenticeships', g.nonunion, 'la-paid', 'nonunion']].map(([h, r, cls, id]) => (
+      <li class={`sy-card ${cls}`} id={id}>
+        <h3>{h}</h3>
+        <p class="sy-what">{r.what}</p>
+        <table class="nat-table sg-progs">
+          <thead><tr><th scope="col">Area</th><th scope="col">Program</th><th scope="col">What to know</th></tr></thead>
+          <tbody>{r.programs.map((p) => (
+            <tr>
+              <td>{p.area}</td>
+              <td><a href={S[p.src].url} rel="noopener" target="_blank">{p.name}</a></td>
+              <td>{p.facts}{p.guide && <> <a href={p.guide}>More in our LA guide</a>.</>}</td>
+            </tr>
+          ))}</tbody>
+        </table>
+        {r.more && <p class="sy-note">{r.more} <a href={S.das.url} rel="noopener" target="_blank">Search approved programs</a>.</p>}
+        <p class="wys-src">Sources: program pages linked above. Checked {g.checked}.</p>
+      </li>
+    ))}
+    <li class="sy-card la-school" id="school">
+      <h3>School first, then trainee hours</h3>
+      <p class="sy-what">{g.school.what}</p>
+      {schools.length > 0 && (
+        <div class="la-table-wrap">
+          <table class="nat-table la-schools">
+            <caption class="sg-cap">Public colleges in {g.stateName} that awarded {g.tradeName} certificates or degrees last year, A to Z</caption>
+            <thead><tr><th scope="col">School</th><th scope="col">Awards last year</th><th scope="col">Average net price a year (whole school)</th></tr></thead>
+            <tbody>{schools.map((s) => (
+              <tr>
+                <td><a href={`/trades/school/${s.slug}`}>{s.name}</a><span class="la-city">{s.city}</span></td>
+                <td>{[s.cert && `${s.cert} certificate${s.cert === 1 ? '' : 's'}`, s.assoc && `${s.assoc} associate degree${s.assoc === 1 ? '' : 's'}`].filter(Boolean).join(', ')}</td>
+                <td>{s.avgNetPrice != null && s.avgNetPrice >= 500 ? money(s.avgNetPrice) : 'Not shown'}</td>
+              </tr>
+            ))}</tbody>
+          </table>
+        </div>
+      )}
+      <p class="sy-note">{all} schools in {g.stateName} in all, public and private, reported {g.tradeName} awards. <a href={`/trades/${g.trade}/${stateSlug(g.state)}`}>Compare all of them</a>, including private career schools, which usually cost more.</p>
+      <p class="wys-src">"Average net price" is what students who got grant aid paid per year, including living costs, for the whole school. Prices under $500 are left out because they look like reporting errors. Source: <a href={S.scorecard.url} rel="noopener" target="_blank">{S.scorecard.label}</a>.</p>
+    </li>
+  </ul>
+
+  <section class="block" aria-labelledby="steps">
+    <h2 id="steps">Getting started, step by step</h2>
+    <ol class="xfer-srcs la-steps">{g.steps.map((t) => <li>{t}</li>)}</ol>
+    <p class="wys-src">Sources: {cite(g.stepsSrc).map((s, i) => <>{i > 0 && '; '}<a href={s.url} rel="noopener" target="_blank">{s.label}</a></>)}. Checked {g.checked}.</p>
+  </section>
+
+  <section class="block sources" aria-labelledby="sources">
+    <h2 id="sources">Sources</h2>
+    <ul class="xfer-srcs">{Object.values(S).map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.label}</a></li>)}</ul>
+    <p class="wys-src">Checked {g.checked}. Programs change their rules, pay and application dates, so confirm with them before you apply. See something out of date? <a href={flag}>Tell us</a>.</p>
+  </section>
+</Layout>
