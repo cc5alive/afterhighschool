@@ -28,6 +28,25 @@
   src: url("/fonts/overpass-latin-900-normal.woff2") format("woff2");
 }
 
+/* Fallbacks sized to Overpass's metrics, so text barely moves when the web font arrives.
+   Values from @capsizecss/metrics (Arial, Helvetica, Roboto) and measured for DejaVu Sans. */
+@font-face {
+  font-family: "Overpass Fallback";
+  src: local("Arial"), local("Helvetica Neue"), local("Helvetica"), local("Roboto"), local("Liberation Sans");
+  size-adjust: 100.72%;
+  ascent-override: 87.67%;
+  descent-override: 38.03%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: "Overpass Fallback DV";
+  src: local("DejaVu Sans");
+  size-adjust: 88.66%;
+  ascent-override: 99.59%;
+  descent-override: 43.2%;
+  line-gap-override: 0%;
+}
+
 :root {
   --ink: #16233b;
   --muted: #56617a;
@@ -51,7 +70,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "Overpass", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: "Overpass", "Overpass Fallback", "Overpass Fallback DV", system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.55;
 }
@@ -109,9 +128,11 @@ main,
 .nav-menu a:hover, .nav-menu a:focus-visible { background: var(--paper); text-decoration: none; }
 .nav-menu .nav-all { border-top: 1px solid var(--rule); margin-top: 4px; padding-top: 12px; border-radius: 0 0 8px 8px; }
 @media (max-width: 520px) { .section-nav { gap: 12px; font-size: 0.875rem; } }
+@media (max-width: 340px) { .section-nav { font-size: 0.8rem; gap: 8px; } }
 @media (max-width: 440px) {
   .site-header { flex-wrap: wrap; row-gap: 10px; }
-  .section-nav { width: 100%; gap: 20px; }
+  .section-nav { width: 100%; gap: 12px; justify-content: space-between; flex-wrap: nowrap; }
+  .nav-long { display: none; }
   .nav-menu { position: fixed; left: 16px; right: 16px; top: auto; min-width: 0; }
 }
 
