@@ -44,13 +44,20 @@ console.log(`${Object.keys(now).length} pages; ${changed.length} new or changed,
 
 if (urls.length && !dry) {
   for (let i = 0; i < urls.length; i += 10000) {
-    const res = await fetch('https://api.indexnow.org/indexnow', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json; charset=utf-8' },
-      body: JSON.stringify({ host: HOST, key, keyLocation: `${SITE}/${key}.txt`, urlList: urls.slice(i, i + 10000) })
-    });
-    console.log(`IndexNow: HTTP ${res.status} for ${Math.min(10000, urls.length - i)} URLs`);
-    if (res.status >= 300) { console.log(await res.text()); process.exit(1); }
+    // A new key can take a few minutes to verify (HTTP 403, SiteVerificationNotCompleted): wait and retry.
+    for (let attempt = 1; ; attempt++) {
+      const res = await fetch('https://api.indexnow.org/indexnow', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json; charset=utf-8' },
+        body: JSON.stringify({ host: HOST, key, keyLocation: `${SITE}/${key}.txt`, urlList: urls.slice(i, i + 10000) })
+      });
+      console.log(`IndexNow: HTTP ${res.status} for ${Math.min(10000, urls.length - i)} URLs`);
+      if (res.status < 300) break;
+      const text = await res.text();
+      console.log(text);
+      if (res.status === 403 && /SiteVerificationNotCompleted/.test(text) && attempt < 8) { await new Promise((r) => setTimeout(r, 90000)); continue; }
+      process.exit(1);
+    }
   }
 }
 if (!dry) writeFileSync(statePath, `${JSON.stringify(now)}\n`);
