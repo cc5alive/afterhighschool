@@ -2,6 +2,7 @@
 import { schools, pulledDate } from '../lib/data.js';
 import { tradeSchools, tradePulledDate } from '../lib/trade-data.js';
 import { occupations } from '../lib/apprentice-data.js';
+import { STATE_GUIDES } from '../lib/state-guides.js';
 import { LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
 
 const S = 'https://afterhighschool.me';
@@ -34,7 +35,7 @@ Made in Los Angeles by CC Pearce and Young Chu. Contact: ${CONTACT_EMAIL}
 - [Gap years and service years](${S}/gap-years)
 - [Military](${S}/military): enlisting, ROTC, the service academies, Tuition Assistance and the GI Bill.
 - [Teach yourself](${S}/teach-yourself) and [Fellowships](${S}/fellowships)
-${LOCAL_GUIDES_LAUNCHED ? `- [Becoming an electrician in Los Angeles County](${S}/guides/electrician-los-angeles)\n` : ''}${COUNSELORS_LAUNCHED ? `- [For counselors and teachers](${S}/counselors): a free printable handout and classroom activity.\n` : ''}
+${LOCAL_GUIDES_LAUNCHED ? `- [Becoming an electrician in Los Angeles County](${S}/guides/electrician-los-angeles)\n${STATE_GUIDES.map((g) => `- [${g.title}](${S}/guides/${g.slug})`).join('\n')}\n` : ''}${COUNSELORS_LAUNCHED ? `- [For counselors and teachers](${S}/counselors): a free printable handout and classroom activity.\n` : ''}
 ## How to cite
 
 Please link to the specific page and mention the date the data was pulled or checked, which every page shows.

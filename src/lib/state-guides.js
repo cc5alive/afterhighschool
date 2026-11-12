@@ -84,6 +84,35 @@ const TXH_SRC = {
   scorecard: SCORECARD
 };
 
+const CSLB = {
+  cslbFaq: { label: 'California Contractors State License Board: frequently asked questions about journey-level experience', url: 'https://www.cslb.ca.gov/Contractors/Journeymen/Journeymen_FAQs.aspx' },
+  cslbExp: { label: 'California Contractors State License Board: qualifying experience for the exam', url: 'https://www.cslb.ca.gov/contractors/applicants/contractors_license/exam_application/experience_for_exam.aspx' },
+  cslbSteps: { label: 'California Contractors State License Board: steps to become a licensed contractor (October 2025)', url: 'https://cslb.ca.gov/Resources/Contractors/Journeymen/2_-_LicensedContractorSteps_100725.pdf' }
+};
+const dasProg = (name, id) => ({ label: `California Division of Apprenticeship Standards: ${name}`, url: `https://www.dir.ca.gov/databases/das/results_aigdetail.asp?varOccId=${id}` });
+
+const CAP_SRC = {
+  ...CSLB,
+  das: CA_SRC.das,
+  la78: dasProg('Los Angeles Metropolitan Plumbers JATC', 9117),
+  sd230: dasProg('San Diego & Imperial Counties Pipe Trades JAC (plumber)', 135),
+  ua342: dasProg('United Association Local Union 342 JATC (plumber)', 9339),
+  abcSocal: CA_SRC.abcSocal,
+  abcSdPlumb: dasProg('ABC San Diego plumbing and pipefitting program', 8919),
+  scorecard: SCORECARD
+};
+
+const CAH_SRC = {
+  ...CSLB,
+  cslbC20: { label: 'California Contractors State License Board: C-20 warm-air heating, ventilating and air-conditioning contractor', url: 'https://www.cslb.ca.gov/About_Us/Library/Licensing_Classifications/Licensing_Classifications_Detail.aspx?Class=C-20' },
+  ...EPA,
+  das: CA_SRC.das,
+  sdRefrig: dasProg('San Diego & Imperial Counties Pipe Trades Service Refrigeration & Air Conditioning JAC', 9110),
+  kern105: dasProg('Kern & Northern Los Angeles Counties Air Conditioning & Sheet Metal Workers JATC', 9769),
+  abcSocal: CA_SRC.abcSocal,
+  scorecard: SCORECARD
+};
+
 const FL_SRC = {
   dbpr: { label: 'Florida Department of Business and Professional Regulation: Electrical Contractors\' Licensing Board FAQs', url: 'https://www2.myfloridalicense.com/electrical-contractors/faqs/' },
   statute: { label: 'Florida Statutes, section 489.5335 (journeyman licenses issued by counties and cities)', url: 'https://flsenate.gov/laws/statutes/2024/489.5335' },
@@ -219,6 +248,98 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['apprentice', 'journeyman', 'houston', 'ntx'],
     src: TX_SRC
+  },
+  {
+    slug: 'plumber-california',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'CA',
+    stateName: 'California',
+    checked: 'November 12, 2026',
+    title: 'How to become a plumber in California',
+    description: 'How to become a plumber in California: no state license is needed to work for a contractor, the paid apprenticeships in Los Angeles, San Diego and the Bay Area, and the four years of experience for a C-36 contractor license. From official sources.',
+    lede: 'California doesn\'t license individual plumbers. You learn the trade working for a licensed plumbing contractor, often through a paid apprenticeship, and once you have four years of journey-level experience you can apply for your own contractor license.',
+    rules: [
+      { dt: 'No state license to work for a contractor', dd: 'California\'s Contractors State License Board licenses contractors, not individual plumbers. Until you qualify for a contractor license, you can work for a licensed contractor. Someone who has finished an apprenticeship or has years of experience works at "journey level" without a license, but can\'t sign contracts for jobs that need a building permit.', src: ['cslbFaq', 'cslbSteps'] },
+      { dt: 'Plumbing contractor license (C-36), later', dd: 'To run your own jobs, you need to be 18 and have at least 4 years of experience in plumbing within the last 10 years, at journey level or as a foreman, supervisor or contractor. You pass a law exam and a trade exam. The application fee is $450, and you\'ll need a bond and insurance.', src: ['cslbExp', 'cslbSteps'] },
+      { dt: 'Credit for training', dd: 'Apprenticeship training, technical training or education can count for up to 3 of the 4 years, but at least 1 year must be work experience. An apprenticeship counts with a certificate of completion or a statement from the union. Someone who saw your work, like an employer or supervisor, has to verify your experience.', src: ['cslbExp'] }
+    ],
+    routesIntro: 'There\'s no required path. A state-approved apprenticeship pays you while you train and counts toward a contractor license later. You can also get hired as a helper by a licensed plumbing contractor, or take classes first.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers and pipefitters union, together with contractors. Each one listed with the state takes five years of work and classes.',
+      programs: [
+        { area: 'Los Angeles', name: 'Los Angeles Metropolitan Plumbers JATC (UA Local 78)', facts: '5 years. You need to be 18, a diploma or GED, a California driver\'s license and good physical health. Phone (213) 688-9090.', src: 'la78' },
+        { area: 'San Diego and Imperial counties', name: 'San Diego & Imperial Counties Pipe Trades JAC (UA Local 230)', facts: '5 years. Starts at $23.35 an hour. You need to be 18 and a diploma or GED, and you take a written test. Phone (619) 262-7589.', src: 'sd230' },
+        { area: 'East Bay (Concord)', name: 'UA Local 342 JATC', facts: '5 years. You need to be 18 and a diploma or GED, and you take a written test and an interview. Phone (925) 686-0730.', src: 'ua342' }
+      ],
+      more: 'Other areas have their own union programs. Search the state\'s list of approved programs by county.'
+    },
+    nonunion: {
+      what: 'Run by Associated Builders and Contractors (ABC) chapters for non-union contractors, and approved by the state.',
+      programs: [
+        { area: 'Southern California', name: 'ABC Southern California', facts: 'Plumbing training in Anaheim, LA/Ventura and Riverside. You need to be 17½ (with a parent\'s signature if under 18), a diploma or GED, a driver\'s license and DMV driving record, and a year of high school algebra. You need 70% on an aptitude test and 80% in an interview.', src: 'abcSocal' },
+        { area: 'San Diego', name: 'ABC San Diego plumbing and pipefitting', facts: 'Based in Poway. 5 years. You need to be 18 and a diploma or GED; there\'s a written test, an interview and drug testing. Phone (858) 513-4700.', src: 'abcSdPlumb' }
+      ]
+    },
+    school: {
+      heading: 'School first',
+      what: 'California doesn\'t require school. Community college classes can teach you the basics before you look for work, and education can count for part of the experience a contractor license needs, though at least one year has to be work.',
+      cip: '4605'
+    },
+    steps: [
+      'Gather a diploma or GED, a photo ID, your Social Security card and a California driver\'s license; several programs ask for one.',
+      'Take algebra. ABC Southern California asks for a year of it.',
+      'Find the union and non-union programs for your area, and ask when each one takes applications.',
+      'Apply to more than one, or look for helper jobs with licensed plumbing contractors.',
+      'Keep records of your work, who supervised you, and any apprenticeship certificate. You\'ll need them for a contractor license.'
+    ],
+    stepsSrc: ['la78', 'abcSocal', 'cslbExp'],
+    src: CAP_SRC
+  },
+  {
+    slug: 'hvac-california',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'CA',
+    stateName: 'California',
+    checked: 'November 12, 2026',
+    title: 'How to become an HVAC technician in California',
+    description: 'How to become an HVAC technician in California: no state license is needed to work for a contractor, EPA 608 certification for refrigerants, apprenticeships, and the four years of experience for a C-20 contractor license. From official sources.',
+    lede: 'California doesn\'t license individual HVAC technicians. You work for a licensed heating and air conditioning contractor, get EPA 608 certified to handle refrigerants, and once you have four years of journey-level experience you can apply for your own C-20 contractor license.',
+    rules: [
+      { dt: 'No state license to work for a contractor', dd: 'California\'s Contractors State License Board licenses contractors, not individual HVAC technicians. Until you qualify for a contractor license, you can work for a licensed contractor. Someone who has finished an apprenticeship or has years of experience works at "journey level" without a license, but can\'t sign contracts for jobs that need a building permit.', src: ['cslbFaq', 'cslbSteps'] },
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'HVAC contractor license (C-20), later', dd: 'A C-20 contractor installs, maintains and repairs heating, ventilation and air conditioning systems. To get the license you need to be 18 and have at least 4 years of experience in the trade within the last 10 years, at journey level or as a foreman, supervisor or contractor. You pass a law exam and a trade exam. The application fee is $450, and you\'ll need a bond and insurance.', src: ['cslbC20', 'cslbExp', 'cslbSteps'] },
+      { dt: 'Credit for training', dd: 'Apprenticeship training, technical training or education can count for up to 3 of the 4 years, but at least 1 year must be work experience. An apprenticeship counts with a certificate of completion or a statement from the union. Someone who saw your work, like an employer or supervisor, has to verify your experience.', src: ['cslbExp'] }
+    ],
+    routesIntro: 'There\'s no required path. A state-approved apprenticeship pays you while you train and counts toward a contractor license later. You can also get hired as a helper by a licensed HVAC contractor, or take classes first.',
+    union: {
+      what: 'Run by unions and contractors together. Each one listed with the state takes five years of work and classes.',
+      programs: [
+        { area: 'San Diego and Imperial counties', name: 'Service Refrigeration & Air Conditioning JAC (UA Local 230)', facts: '5 years. You need to be 18 and a diploma or GED, and you take a written test and an interview. Phone (619) 262-7589.', src: 'sdRefrig' },
+        { area: 'Kern County and northern LA County', name: 'Air Conditioning & Sheet Metal Workers JATC (Local 105)', facts: 'Based in Bakersfield. 5 years, training sheet metal workers and air balance technicians. You need to be 18, a diploma or GED and a California driver\'s license. Phone (661) 832-1187.', src: 'kern105' }
+      ],
+      more: 'Other areas have their own union programs, including sheet metal and refrigeration programs. Search the state\'s list of approved programs by county.'
+    },
+    nonunion: {
+      what: 'Run by Associated Builders and Contractors (ABC) chapters for non-union contractors, and approved by the state.',
+      programs: [
+        { area: 'Southern California', name: 'ABC Southern California sheet metal and HVAC', facts: 'Sheet metal training in Anaheim. You need to be 17½ (with a parent\'s signature if under 18), a diploma or GED, a driver\'s license and DMV driving record, and a year of high school algebra. You need 70% on an aptitude test and 80% in an interview.', src: 'abcSocal' }
+      ]
+    },
+    school: {
+      heading: 'School first',
+      what: 'California doesn\'t require school. A certificate program can teach you the basics, and education can count for part of the experience a C-20 license needs, though at least one year has to be work. Few public colleges in California reported HVAC awards last year; most programs are at private career schools, which usually cost more, so compare prices.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Gather a diploma or GED, a photo ID, your Social Security card and a California driver\'s license.',
+      'Apply to HVAC, refrigeration or sheet metal apprenticeships in your area, or for helper jobs with licensed HVAC contractors.',
+      'Keep records of your work and who supervised you. Someone who saw your work will need to verify it for a C-20 license.'
+    ],
+    stepsSrc: ['epa608', 'sdRefrig', 'abcSocal', 'cslbExp'],
+    src: CAH_SRC
   },
   {
     slug: 'plumber-texas',

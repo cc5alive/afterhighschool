@@ -65,7 +65,7 @@ const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
       {schools.length > 0 && (
         <div class="la-table-wrap">
           <table class="nat-table la-schools">
-            <caption class="sg-cap">Public colleges in {g.stateName} that awarded {g.tradeName} certificates or degrees last year, A to Z</caption>
+            <caption class="sg-cap">Public colleges and schools in {g.stateName} that awarded {g.tradeName} certificates or degrees last year, A to Z</caption>
             <thead><tr><th scope="col">School</th><th scope="col">Awards last year</th><th scope="col">Average net price a year (whole school)</th>{hasEarn && <th scope="col">Certificate grads' pay a year after</th>}</tr></thead>
             <tbody>{schools.map((s) => (
               <tr>
