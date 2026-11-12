@@ -504,3 +504,21 @@ button.button { cursor: pointer; font-family: inherit; }
 .sg-progs { margin-bottom: 8px; }
 .sg-cap { text-align: left; font-weight: 700; padding: 0 0 8px; color: var(--ink); }
 @media (max-width: 640px) { .sg-progs thead { display: none; } .sg-progs tr { display: block; padding: 8px 0; border-bottom: 1px solid var(--rule); } .sg-progs td { display: block; border: 0; padding: 2px 0; } }
+
+/* Side-by-side pages (/compare/<a>-vs-<b>) */
+.vs-diffs { margin: 0; padding-left: 1.2em; display: grid; gap: 10px; max-width: 44em; }
+.vs-wrap { overflow-x: auto; }
+.vs-table { border-collapse: collapse; width: 100%; max-width: 52em; table-layout: fixed; }
+.vs-table th, .vs-table td { text-align: left; padding: 10px 12px 8px 0; border-bottom: 1px solid var(--rule); vertical-align: top; overflow-wrap: anywhere; }
+.vs-table thead th { font-size: 1.15rem; font-weight: 800; width: 33%; }
+.vs-table thead th a { text-decoration: none; }
+.vs-table tbody th { font-weight: 600; color: var(--muted); font-size: 0.9rem; width: 34%; }
+.vs-table td { font-weight: 700; }
+.vs-table td.na { font-weight: 400; color: var(--muted); font-size: 0.9rem; }
+.vs-table .vs-group th { color: var(--ink); font-size: 1rem; font-weight: 800; padding-top: 22px; border-bottom: 2px solid var(--ink); }
+.vs-src { display: block; font-size: 0.75rem; font-weight: 400; color: var(--muted); margin-top: 2px; }
+.vs-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.vs-special { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18em), 1fr)); gap: 24px; }
+.vs-special h3 { margin: 0 0 10px; }
+.vs-pairs { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 0; list-style: none; }
+@media (max-width: 440px) { .vs-table th, .vs-table td { padding-right: 8px; font-size: 0.88rem; } .vs-table tbody th { font-size: 0.8rem; } }

@@ -45,8 +45,16 @@ function testScores(s, c) {
   };
 }
 
+// Test policies checked on schools' own admissions pages (data/test-policy.json) replace Scorecard's,
+// which lag behind schools' announcements.
+import testPolicyFile from '../../data/test-policy.json';
+const testPolicyChecked = new Map(Object.entries(testPolicyFile.schools));
+export const testPolicyFor = (slug) => testPolicyChecked.get(slug) || null;
+
 // Derived fields used across pages.
 function enrich(s) {
+  const tpc = testPolicyChecked.get(s.slug);
+  if (tpc) s = { ...s, testPolicy: tpc.policy };
   const sizeBand = s.undergrads == null ? null : s.undergrads < 2000 ? 'small' : s.undergrads <= 15000 ? 'medium' : 'large';
   return { ...s, ...testScores(s, cds.get(s.slug)), sizeBand, stateName: STATE_NAMES[s.state] };
 }

@@ -28,4 +28,8 @@ export const LOCAL_GUIDES_LAUNCHED = true;
 // Counselor kit, /counselors and its printable handout (launched Nov 11, 2026).
 export const COUNSELORS_LAUNCHED = true;
 
+// Side-by-side pages for searched college comparisons (/compare/nyu-vs-usc): reachable by URL but noindex,
+// unlinked and out of the sitemap until CC reviews them.
+export const COMPARE_PAIRS_LAUNCHED = false;
+
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';

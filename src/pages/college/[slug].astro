@@ -4,12 +4,13 @@ import Layout from '../../layouts/Layout.astro';
 import Stat from '../../components/Stat.astro';
 import CdsPanel from '../../components/CdsPanel.astro';
 import WhereYouStand from '../../components/WhereYouStand.astro';
-import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug, gradOnly, cds } from '../../lib/data.js';
+import { allSchools, similarSchools, easierSchools, pulledDate, stateSlug, highlights, schoolStatus, bySlug, gradOnly, cds, testPolicyFor } from '../../lib/data.js';
 import {
   pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
   INCOME_BAND_LABEL, admitRateText, scorecardUrl
 } from '../../lib/format.js';
-import { COLLEGES_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+import { COLLEGES_LAUNCHED, COMPARE_PAIRS_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+import { pairsFor } from '../../lib/college-pairs.js';
 
 // Colleges that share a name with another listed college (Bethel University, Lincoln University ...): titles add the place.
 const nameUses = new Map();
@@ -25,6 +26,9 @@ const src = scorecardUrl(s);
 const site = schoolLink(s.url);
 const calc = schoolLink(s.priceCalculatorUrl);
 const similar = similarSchools(s);
+const tpc = testPolicyFor(s.slug);
+const tpCheckedDate = tpc && new Date(`${tpc.checkedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+const vsPages = COMPARE_PAIRS_LAUNCHED ? pairsFor(s.slug) : [];
 const hl = highlights.get(s.slug);
 const reviewedDate = hl && new Date(`${hl.reviewedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 const easier = easierSchools(s);
@@ -184,7 +188,9 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
       <h2 id="getting-in">Getting in</h2>
       <dl class="stat-grid">
         <Stat label="Admit rate" value={admit} note={admitNote} href={src} />
-        <Stat label="Test policy" value={s.testPolicy && TEST_POLICY_LABEL[s.testPolicy]} note={s.testPolicy && TEST_POLICY_DETAIL[s.testPolicy]} href={src} />
+        {tpc
+          ? <Stat label="Test policy" value={TEST_POLICY_LABEL[s.testPolicy]} note={`${TEST_POLICY_DETAIL[s.testPolicy]}${tpc.note ? ` ${tpc.note}` : ''} Checked on the school's site ${tpCheckedDate}.`} href={tpc.source.url} srcLabel={tpc.source.title} />
+          : <Stat label="Test policy" value={s.testPolicy && TEST_POLICY_LABEL[s.testPolicy]} note={s.testPolicy && `${TEST_POLICY_DETAIL[s.testPolicy]} As reported to the federal government; policies change, so check the school's admissions site.`} href={src} />}
         <Stat label={sat.label} value={sat.value} note={sat.note} missing="Not reported" href={sat.href} srcLabel={sat.srcLabel} />
         <Stat label="ACT (middle 50%)" value={act.value} note={act.note} missing="Not reported" href={act.href} srcLabel={act.srcLabel} />
       </dl>
@@ -253,6 +259,13 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
         <ul class="mini-list">
           {similar.map((o) => <li><a href={`/college/${o.slug}`}>{o.name}</a> <span>{o.city}, {o.state}{o.admitRate != null ? ` — admits ${pct(o.admitRate)}` : ''}</span></li>)}
         </ul>
+      </section>
+    )}
+
+    {vsPages.length > 0 && (
+      <section class="block" aria-labelledby="side-by-side">
+        <h2 id="side-by-side">Side by side</h2>
+        <ul class="vs-pairs">{vsPages.map((x) => <li><a href={`/compare/${x.slug}`}>{x.a.short} vs {x.b.short}</a></li>)}</ul>
       </section>
     )}
 

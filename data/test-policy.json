@@ -1,0 +1,117 @@
+{
+  "about": "Test policies checked on each school's own admissions page. College Scorecard's test policy comes from federal reporting that lags behind schools' announcements, so a school listed here uses this instead. Add a school only with an official source.",
+  "schools": {
+    "yale-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Yale Undergraduate Admissions: standardized testing requirements",
+        "url": "https://admissions.yale.edu/standardized-testing"
+      }
+    },
+    "university-of-pennsylvania": {
+      "policy": "required",
+      "note": "Applicants who haven't taken the SAT or ACT and face hardship can ask for a waiver.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Penn Admissions: testing",
+        "url": "https://admissions.upenn.edu/how-to-apply/preparing-your-application/testing"
+      }
+    },
+    "cornell-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Cornell Admissions: standardized testing policy",
+        "url": "https://admissions.cornell.edu/policies/standardized-testing-policy"
+      }
+    },
+    "the-university-of-texas-at-austin": {
+      "policy": "required",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "UT Austin Admissions: freshman applicants",
+        "url": "https://admissions.utexas.edu/apply/freshman/"
+      }
+    },
+    "stanford-university": {
+      "policy": "required",
+      "note": "Required beginning with students who applied in fall 2025.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Stanford Report: Stanford to resume standardized test requirement (June 2024)",
+        "url": "https://news.stanford.edu/stories/2024/06/stanford-to-resume-standardized-test-requirement"
+      }
+    },
+    "brown-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Brown Undergraduate Admission: standardized tests",
+        "url": "https://admission.brown.edu/first-year/standardized-tests"
+      }
+    },
+    "dartmouth-college": {
+      "policy": "required",
+      "note": "Required of applicants from U.S. high schools; students from high schools abroad have other options.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Dartmouth: FAQ on standardized testing reactivation",
+        "url": "https://home.dartmouth.edu/news/sat-admissions-faqs"
+      }
+    },
+    "johns-hopkins-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Johns Hopkins Undergraduate Admissions: standardized testing",
+        "url": "https://apply.jhu.edu/how-to-apply/application-deadlines-requirements/standardized-testing/"
+      }
+    },
+    "california-institute-of-technology": {
+      "policy": "required",
+      "note": "Required beginning with applicants for fall 2025.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Caltech Undergraduate Admissions: standardized tests",
+        "url": "https://admissions.caltech.edu/apply/first-year-applicants/standardized-tests"
+      }
+    },
+    "carnegie-mellon-university": {
+      "policy": "required",
+      "note": "Required for every college except the College of Fine Arts, which is test-optional.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Carnegie Mellon Admission: standardized testing",
+        "url": "https://www.cmu.edu/admission/admission/standardized-testing"
+      }
+    },
+    "university-of-north-carolina-at-chapel-hill": {
+      "policy": "considered_not_required",
+      "note": "Not required with a weighted GPA of 2.8 or higher. Below that, an ACT of 17 or higher or an SAT of 930 or higher is required.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "UNC-Chapel Hill policy: testing policy",
+        "url": "https://policies.unc.edu/TDClient/2833/Portal/KB/Article/161095/Testing-Policy"
+      }
+    },
+    "duke-university": {
+      "policy": "considered_not_required",
+      "note": "Test-optional for the 2026–27 admissions cycle.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Duke Undergraduate Admissions: resources and FAQs",
+        "url": "https://admissions.duke.edu/resources/"
+      }
+    },
+    "texas-a-and-m-university-college-station": {
+      "policy": "considered_not_required",
+      "note": "Applicants for spring and fall 2027 aren't affected by a proposed change that would require scores starting in 2028.",
+      "checkedAt": "2026-11-12",
+      "source": {
+        "title": "Texas A&M Admissions: freshman applicants",
+        "url": "https://admissions.tamu.edu/apply/freshman"
+      }
+    }
+  }
+}

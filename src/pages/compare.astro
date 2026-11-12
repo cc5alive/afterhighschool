@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { COLLEGES_LAUNCHED } from '../lib/site.js';
+import { COLLEGES_LAUNCHED, COMPARE_PAIRS_LAUNCHED } from '../lib/site.js';
+import { collegePairs } from '../lib/college-pairs.js';
 ---
 <Layout title="Compare colleges side by side | After High School"
   description="Compare up to four US colleges side by side: admit rate, test scores, real cost, graduation rate, earnings and debt."
@@ -20,6 +21,13 @@ import { COLLEGES_LAUNCHED } from '../lib/site.js';
 
   <p class="empty-state" id="compare-empty">Pick a school to start. Tip: every school page has a Compare button.</p>
   <div class="compare-wrap"><table class="compare-table" id="compare" hidden></table></div>
+
+  {COMPARE_PAIRS_LAUNCHED && (
+    <section class="block" aria-labelledby="pairs">
+      <h2 id="pairs">Comparisons students look up</h2>
+      <ul class="vs-pairs">{collegePairs.map((x) => <li><a href={`/compare/${x.slug}`}>{x.a.short} vs {x.b.short}</a></li>)}</ul>
+    </section>
+  )}
 
   <script is:inline slot="scripts" src="/compare.js" defer></script>
 </Layout>

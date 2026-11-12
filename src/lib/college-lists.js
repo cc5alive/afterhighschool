@@ -26,7 +26,7 @@ export function collegeLists() {
     {
       slug: 'test-optional',
       title: 'Test-optional colleges',
-      intro: `${n(optional.length)} four-year colleges that don't require SAT or ACT scores, as they report to the federal government. Policies change; confirm on each school's site before you apply.`,
+      intro: `${n(optional.length)} four-year colleges that don't require SAT or ACT scores, as they report to the federal government. Federal data lags behind schools' announcements, so we check the best-known schools on their own admissions sites, and several that brought back testing are left off. Confirm on each school's site before you apply.`,
       preset: { tp: 'optional' },
       list: optional
     },

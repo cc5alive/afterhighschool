@@ -1,0 +1,143 @@
+---
+// A side-by-side page for a college comparison students search for, like NYU vs USC.
+// Both schools' sourced numbers, plain statements of the differences, and no winner.
+import Layout from '../../layouts/Layout.astro';
+import { collegePairs, differences, cdsGpa } from '../../lib/college-pairs.js';
+import { highlights, pulledDate, cds, testPolicyFor } from '../../lib/data.js';
+import { schoolLink } from '../../lib/links.js';
+import { pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, INCOME_BAND_LABEL, admitRateText, scorecardUrl } from '../../lib/format.js';
+import { COMPARE_PAIRS_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  return collegePairs.map((p) => ({ params: { pair: p.slug }, props: { p } }));
+}
+const { p } = Astro.props;
+const { a, b } = p;
+const both = [a, b];
+const title = `${a.short} vs ${b.short}`;
+const diffs = differences(p);
+const cdsOf = (s) => cds.get(s.slug);
+const cdsYear = (c) => c?.cdsYear?.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2');
+
+// Each row: a label, and for each school a value plus the source it links to.
+const sc = (s) => ({ url: scorecardUrl(s), label: 'College Scorecard' });
+const cdsSrc = (s) => { const c = cdsOf(s); return { url: c.source.url, label: `${s.short} Common Data Set ${cdsYear(c)}` }; };
+const sat = (s) => s.satRange
+  ? { v: `${s.satRange[0]}–${s.satRange[2]}`, src: cdsSrc(s) }
+  : s.satSections ? { v: `Reading ${s.satSections.reading[0]}–${s.satSections.reading[1]}, math ${s.satSections.math[0]}–${s.satSections.math[1]}`, src: sc(s) } : { v: null, src: sc(s) };
+const act = (s) => ({ v: s.actRange ? `${s.actRange[0]}–${s.actRange[2]}` : null, src: s.actFrom === 'cds' ? cdsSrc(s) : sc(s) });
+const gpa = (s) => { const g = cdsGpa(s); return { v: g?.value ?? null, src: g ? cdsSrc(s) : sc(s) }; };
+const plain = (f) => (s) => ({ v: f(s), src: sc(s) });
+
+const groups = [
+  ['The basics', [
+    ['Type', plain((s) => OWNERSHIP_LABEL[s.ownership])],
+    ['Where', plain((s) => `${s.city}, ${s.state}${s.setting ? ` (${SETTING_LABEL[s.setting].toLowerCase()})` : ''}`)],
+    ['Undergraduates', plain((s) => int(s.undergrads))]
+  ]],
+  ['Getting in', [
+    ['Admit rate', plain((s) => admitRateText(s))],
+    ['Test policy', (s) => { const t = testPolicyFor(s.slug); return { v: s.testPolicy && TEST_POLICY_LABEL[s.testPolicy], src: t ? { url: t.source.url, label: 'School admissions site' } : { url: scorecardUrl(s), label: 'College Scorecard (may be out of date)' } }; }],
+    ['SAT, middle 50% of first-years who sent scores', sat],
+    ['ACT, middle 50%', act],
+    ['Average high school GPA of first-years', gpa]
+  ]],
+  ['What it costs per year', [
+    ['Sticker price (tuition, housing, food, books)', plain((s) => money(s.costOfAttendance))],
+    ...(both.some((s) => s.ownership === 'public')
+      ? [['Tuition, in-state', plain((s) => money(s.tuitionInState))], ['Tuition, out-of-state', plain((s) => money(s.tuitionOutOfState))]]
+      : [['Tuition', plain((s) => money(s.tuitionInState))]]),
+    ['Average net price after grants', plain((s) => money(s.avgNetPrice))],
+    ...Object.entries(INCOME_BAND_LABEL).map(([band, label]) => [`Net price, family income ${label}`, plain((s) => money(s.netPriceByIncome?.[band]))])
+  ]],
+  ['Finishing and after', [
+    ['Graduate within 6 years', plain((s) => pct(s.gradRate))],
+    ['Come back for year two', plain((s) => pct(s.retentionRate))],
+    ['Median earnings 10 years after starting', plain((s) => money(s.medianEarnings10yr))],
+    ['Median federal debt at graduation', plain((s) => money(s.medianDebt))],
+    ['Students with Pell grants', plain((s) => pct(s.pellRate))]
+  ]]
+];
+// Leave out a row neither school reports.
+const shown = groups.map(([h, rows]) => [h, rows.map(([label, f]) => [label, both.map(f)]).filter(([, cells]) => cells.some((c) => c.v != null))]);
+
+const facts = both.map((s) => ({ s, hl: highlights.get(s.slug) }));
+const description = `${a.short} vs ${b.short}, side by side: admit rate, test scores, net price by family income, graduation rate, earnings and debt. Federal data and each school's Common Data Set, no rankings.`;
+const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Correction: ${title}`)}`;
+const others = collegePairs.filter((x) => x !== p && (x.a.slug === a.slug || x.b.slug === a.slug || x.a.slug === b.slug || x.b.slug === b.slug));
+---
+<Layout title={`${title}: side by side | After High School`} description={description}
+  crumbs={[['Compare colleges', '/compare']]}
+  path={`/compare/${p.slug}`} nav="colleges" noindex={!COMPARE_PAIRS_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/compare">Compare colleges</a></nav>
+  <section class="compare-head">
+    <h1>{title}, side by side</h1>
+    <p>{a.name} and {b.name}, compared on the numbers that matter when you're deciding. We don't pick a winner: which one fits depends on what you want to study, what you'll pay and where you want to live.</p>
+  </section>
+
+  <section class="block" aria-labelledby="differences">
+    <h2 id="differences">How they differ</h2>
+    <ul class="vs-diffs">{diffs.map((d) => <li>{d}</li>)}</ul>
+    <p class="wys-src">From the table below. College Scorecard figures pulled {pulledDate}.</p>
+  </section>
+
+  <section class="block" aria-labelledby="numbers">
+    <h2 id="numbers">The numbers</h2>
+    <div class="vs-wrap">
+      <table class="vs-table">
+        <thead><tr><td></td>{both.map((s) => <th scope="col"><a href={`/college/${s.slug}`}>{s.short}</a></th>)}</tr></thead>
+        {shown.map(([h, rows]) => (
+          <tbody>
+            <tr class="vs-group"><th scope="rowgroup" colspan="3">{h}</th></tr>
+            {rows.map(([label, cells]) => (
+              <tr>
+                <th scope="row">{label}</th>
+                {cells.map((c) => c.v != null
+                  ? <td>{c.v}<a class="vs-src" href={c.src.url} rel="noopener" target="_blank">{c.src.label}</a></td>
+                  : <td class="na">Not reported</td>)}
+              </tr>
+            ))}
+          </tbody>
+        ))}
+      </table>
+    </div>
+    <p class="wys-src">Net price is what full-time first-years who got grant aid paid on average, including housing and food; at public universities it's for in-state students. Earnings are for students who got federal aid, working and not in school. SAT, ACT and GPA come from each school's Common Data Set when we have it; schools report GPA in their own way, some weighted and some not, so compare it loosely.</p>
+    <p class="vs-actions">
+      {both.map((s) => schoolLink(s.priceCalculatorUrl) && <a class="button secondary" href={schoolLink(s.priceCalculatorUrl)} rel="noopener" target="_blank">{s.short} net price calculator</a>)}
+      <a class="button secondary" href={`/compare?schools=${a.slug},${b.slug}`}>Add more schools to this comparison</a>
+    </p>
+  </section>
+
+  {facts.some((f) => f.hl) && (
+    <section class="block" aria-labelledby="special">
+      <h2 id="special">What's special about each</h2>
+      <div class="vs-special">
+        {facts.filter((f) => f.hl).map(({ s, hl }) => (
+          <div>
+            <h3><a href={`/college/${s.slug}`}>{s.short}</a></h3>
+            <ul class="highlights">{hl.facts.map((f) => (
+              <li><p>{f.text}</p><p class="hl-src">Source: {f.sources.map((x, i) => <>{i > 0 && '; '}<a href={x.url} rel="noopener" target="_blank">{x.title}</a></>)}</p></li>
+            ))}</ul>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="block" aria-labelledby="more">
+    <h2 id="more">Go deeper</h2>
+    <ul class="xfer-srcs">
+      {both.map((s) => <li><a href={`/college/${s.slug}`}>{s.name}</a>: net price chart, test scores against yours, similar schools</li>)}
+      {others.map((x) => <li><a href={`/compare/${x.slug}`}>{x.a.short} vs {x.b.short}</a></li>)}
+    </ul>
+  </section>
+
+  <section class="block sources" aria-labelledby="sources">
+    <h2 id="sources">Sources</h2>
+    <ul class="xfer-srcs">
+      {both.map((s) => <li><a href={scorecardUrl(s)} rel="noopener" target="_blank">U.S. Department of Education, College Scorecard: {s.name}</a> (pulled {pulledDate})</li>)}
+      {both.filter((s) => cdsOf(s)).map((s) => <li><a href={cdsOf(s).source.url} rel="noopener" target="_blank">{s.name} Common Data Set {cdsYear(cdsOf(s))}</a></li>)}
+    </ul>
+    <p class="wys-src">See something wrong? <a href={flag}>Tell us</a>. How we handle the data: <a href="/methodology">our methodology</a>.</p>
+  </section>
+</Layout>

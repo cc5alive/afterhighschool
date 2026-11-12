@@ -3,7 +3,8 @@
 import { schools, pulledAt } from './data.js';
 import { collegeLists } from './college-lists.js';
 import { STATE_GUIDES } from './state-guides.js';
-import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED } from './site.js';
+import { collegePairs } from './college-pairs.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED, COMPARE_PAIRS_LAUNCHED } from './site.js';
 import { transferStates } from './transfer-data.js';
 import { occupations } from './apprentice-data.js';
 import { tradeIndex, tradeSchools } from './trade-data.js';
@@ -19,6 +20,7 @@ export function sitemapSections() {
   if (COLLEGES_LAUNCHED) {
     main.push({ loc: '/colleges', lastmod: day }, { loc: '/compare' }, { loc: '/methodology', lastmod: day });
     for (const l of collegeLists()) main.push({ loc: `/colleges/${l.slug}`, lastmod: day });
+    if (COMPARE_PAIRS_LAUNCHED) for (const p of collegePairs) main.push({ loc: `/compare/${p.slug}`, lastmod: day });
     for (const s of schools) colleges.push({ loc: `/college/${s.slug}`, lastmod: day });
   }
   if (TRADES_LAUNCHED) {
