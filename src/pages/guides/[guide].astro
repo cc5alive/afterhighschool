@@ -41,11 +41,11 @@ const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
   <h2 class="la-routes-h">Ways in</h2>
   <p class="block-lede">{g.routesIntro}</p>
   <ul class="sy-list la-list">
-    {[['Paid union apprenticeships', g.union, 'la-paid', 'union'], [g.nonunion?.heading || 'Paid non-union apprenticeships', g.nonunion, 'la-paid', 'nonunion']].filter(([, r]) => r).map(([h, r, cls, id]) => (
+    {[[g.union?.heading || 'Paid union apprenticeships', g.union, 'la-paid', 'union'], [g.nonunion?.heading || 'Paid non-union apprenticeships', g.nonunion, 'la-paid', 'nonunion']].filter(([, r]) => r).map(([h, r, cls, id]) => (
       <li class={`sy-card ${cls}`} id={id}>
         <h3>{h}</h3>
         <p class="sy-what">{r.what}</p>
-        <table class="nat-table sg-progs">
+        {r.programs.length > 0 && <table class="nat-table sg-progs">
           <thead><tr><th scope="col">Area</th><th scope="col">Program</th><th scope="col">What to know</th></tr></thead>
           <tbody>{r.programs.map((p) => (
             <tr>
@@ -54,9 +54,9 @@ const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
               <td>{p.facts}{p.more && <> <a href={S[p.more].url} rel="noopener" target="_blank">More details</a>.</>}{p.guide && <> <a href={p.guide}>More in our LA guide</a>.</>}</td>
             </tr>
           ))}</tbody>
-        </table>
-        {r.more && finder && <p class="sy-note">{r.more} <a href={finder.url} rel="noopener" target="_blank">{finderLabel}</a>.</p>}
-        <p class="wys-src">Sources: program pages linked above. Checked {g.checked}.</p>
+        </table>}
+        {r.more && (r.find ? S[r.find] : finder) && <p class="sy-note">{r.more} <a href={(r.find ? S[r.find] : finder).url} rel="noopener" target="_blank">{r.findLabel || finderLabel}</a>.</p>}
+        <p class="wys-src">Sources: {r.cite ? cite(r.cite).map((s, i) => <>{i > 0 && '; '}<a href={s.url} rel="noopener" target="_blank">{s.label}</a></>) : r.programs.length > 0 ? 'program pages linked above' : <a href={(r.find ? S[r.find] : finder).url} rel="noopener" target="_blank">{(r.find ? S[r.find] : finder).label}</a>}. Checked {g.checked}.</p>
       </li>
     ))}
     <li class="sy-card la-school" id="school">

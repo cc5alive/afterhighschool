@@ -56,6 +56,34 @@ const TX_SRC = {
   scorecard: SCORECARD
 };
 
+const uaFind = { label: 'United Association (UA, the plumbers and pipefitters union): find your local union', url: 'https://ua.org/find-a-local-union/' };
+const EPA = {
+  epa608: { label: 'U.S. Environmental Protection Agency: Section 608 technician certification', url: 'https://www.epa.gov/section608/section-608-technician-certification-0' },
+  epaSales: { label: 'U.S. Environmental Protection Agency: refrigerant sales restriction', url: 'https://www.epa.gov/section608/refrigerant-sales-restriction' }
+};
+
+const TXP_SRC = {
+  apprentice: { label: 'Texas State Board of Plumbing Examiners: Plumber\'s Apprentice', url: 'https://tsbpe.texas.gov/license-types/apprentice' },
+  journeyman: { label: 'Texas State Board of Plumbing Examiners: Journeyman Plumber', url: 'https://tsbpe.texas.gov/license-types/journeyman' },
+  twc: TX_SRC.twc,
+  uaFind,
+  uaPlumb: { label: 'United Association: plumbers', url: 'https://ua.org/plumbers/' },
+  abcPlumb: { label: 'ABC South Texas: how to become a plumber in Texas (July 6, 2026)', url: 'https://www.abcsouthtexas.org/how-to-become-a-plumber-in-texas-abc-south-texas-apprenticeship-spotlight/' },
+  scorecard: SCORECARD
+};
+
+const TXH_SRC = {
+  tech: { label: 'Texas Department of Licensing and Regulation: register as an air conditioning and refrigeration technician', url: 'https://www.tdlr.texas.gov/acr/technician-apply.htm' },
+  certTech: { label: 'Texas Department of Licensing and Regulation: apply as a certified technician', url: 'https://www.tdlr.texas.gov/acr/certified-tech-apply.htm' },
+  contractor: { label: 'Texas Department of Licensing and Regulation: apply for an air conditioning and refrigeration contractor license', url: 'https://www.tdlr.texas.gov/acr/contractor-apply.htm' },
+  ...EPA,
+  twc: TX_SRC.twc,
+  uaFind,
+  uaHvac: { label: 'United Association: HVACR service technicians', url: 'https://ua.org/hvacr-service-technicians/' },
+  abcCrafts: { label: 'ABC South Texas: workforce development and apprenticeship crafts', url: 'https://www.abcsouthtexas.org/workforce-development/' },
+  scorecard: SCORECARD
+};
+
 const FL_SRC = {
   dbpr: { label: 'Florida Department of Business and Professional Regulation: Electrical Contractors\' Licensing Board FAQs', url: 'https://www2.myfloridalicense.com/electrical-contractors/faqs/' },
   statute: { label: 'Florida Statutes, section 489.5335 (journeyman licenses issued by counties and cities)', url: 'https://flsenate.gov/laws/statutes/2024/489.5335' },
@@ -191,6 +219,100 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['apprentice', 'journeyman', 'houston', 'ntx'],
     src: TX_SRC
+  },
+  {
+    slug: 'plumber-texas',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'TX',
+    stateName: 'Texas',
+    checked: 'November 12, 2026',
+    title: 'How to become a plumber in Texas',
+    description: 'What Texas requires to work as a plumber: register as a Plumber\'s Apprentice, work 8,000 hours, take a 48-hour course and pass the journeyman exam. Plus paid apprenticeships and public college programs. From official sources.',
+    lede: 'In Texas you register with the State Board of Plumbing Examiners before you start. As a registered Plumber\'s Apprentice you work alongside a licensed plumber, and after 8,000 hours and a 48-hour course you can take the journeyman exam.',
+    rules: [
+      { dt: 'Register first', dd: 'You must register as a Plumber\'s Apprentice before your hours start counting; hours worked before you register don\'t count. You need to be at least 16. It costs $15, and $15 a year to renew.', src: ['apprentice'] },
+      { dt: 'Working as an apprentice', dd: 'A licensed plumber has to be on the job site with you the whole time you do plumbing work. Without one there, you can only do manual tasks like digging trenches.', src: ['apprentice'] },
+      { dt: 'Hours and training you need', dd: '8,000 hours in the plumbing trade, plus a 48-hour course approved by the board. If you\'re in or have finished a registered apprenticeship (approved by the U.S. Department of Labor), you don\'t need the 48-hour course.', src: ['journeyman'] },
+      { dt: 'The journeyman exam and license', dd: '$40 to apply for the exam, sent with forms from your employers confirming your hours. Everyone is fingerprinted once. After you pass, the license is $40, and $40 a year to renew. As a journeyman you work under a Responsible Master Plumber and can supervise apprentices.', src: ['journeyman'] }
+    ],
+    routesIntro: 'Every route runs through the same 8,000 hours as a registered apprentice. An apprenticeship places you with a contractor and adds classes; you can also get hired by a plumbing company on your own and take the 48-hour course.',
+    union: {
+      what: 'Plumbing apprenticeships with the United Association (UA), the plumbers and pipefitters union, are run by local unions. The UA says its apprentices "get paid from day one with no student debt." Each local sets its own requirements and application dates.',
+      programs: [],
+      more: 'Find the UA local for your part of Texas, then ask it about its apprenticeship.',
+      find: 'uaFind',
+      findLabel: 'Find a UA local by state',
+      cite: ['uaPlumb', 'uaFind']
+    },
+    nonunion: {
+      what: 'Run by contractor groups for non-union employers, with classes alongside paid work.',
+      programs: [
+        { area: 'San Antonio and South Texas', name: 'ABC South Texas plumbing apprenticeship', facts: '4 years (Plumbing 1 to 4). Paid from day one, starting at about half the journeyman wage. You need to be 18, a diploma or GED, a sponsoring employer and your Plumber\'s Apprentice registration. Tuition is $2,450 if your employer is an ABC member, $2,825 if not. In 2026, enrollment ran March 12 to August 12. Phone (210) 342-1994.', src: 'abcPlumb' }
+      ],
+      more: 'The Texas Workforce Commission points to the federal apprenticeship finder to search for other programs by area.'
+    },
+    school: {
+      heading: 'School first, then apprentice hours',
+      what: 'Texas doesn\'t require school, and you still need the 8,000 hours as a registered apprentice. A community college program can teach you the basics before you look for work.',
+      cip: '4605'
+    },
+    steps: [
+      'Register as a Plumber\'s Apprentice with the State Board of Plumbing Examiners ($15). Do it before you start working, so every hour counts.',
+      'Gather a diploma or GED, a photo ID and your Social Security card.',
+      'Apply to apprenticeships in your area, union and non-union, or apply for helper jobs with plumbing companies.',
+      'Keep a record of every hour you work and who you worked for; each employer signs a form confirming them.',
+      'Take a board-approved 48-hour course (unless you\'re in a registered apprenticeship), then apply for the journeyman exam.'
+    ],
+    stepsSrc: ['apprentice', 'journeyman', 'abcPlumb'],
+    src: TXP_SRC
+  },
+  {
+    slug: 'hvac-texas',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'TX',
+    stateName: 'Texas',
+    checked: 'November 12, 2026',
+    title: 'How to become an HVAC technician in Texas',
+    description: 'What Texas requires to work on heating and air conditioning: register as a technician, get EPA 608 certified, and the routes to certified technician and contractor. Plus public college programs. From official sources.',
+    lede: 'In Texas, anyone who helps a licensed air conditioning and refrigeration contractor has to register with the state. Registering takes no exam or experience, so you can start as a helper and learn on the job, then get certified and, later, licensed as a contractor.',
+    rules: [
+      { dt: 'Register as a technician', dd: 'Anyone who assists a licensed air conditioning and refrigeration contractor must register with the Texas Department of Licensing and Regulation. You need to be at least 16. It costs $20 and lasts one year. You work under a licensed contractor\'s supervision.', src: ['tech'] },
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Certified technician (optional)', dd: 'You need to be 18 and have 24 months of work under a licensed contractor, or finish a 2,000-hour training program approved by the state. Then you pass an exam within a year of applying. It costs $50.', src: ['certTech'] },
+      { dt: 'Contractor license, later', dd: 'To run jobs yourself, you need to be 18 and have 48 months of experience in the past 72 under a licensed contractor (or 12 months as a certified technician plus 36 months of experience in the past 48), pass an exam and carry insurance.', src: ['contractor'] }
+    ],
+    routesIntro: 'Most people start by getting hired as a helper and registering as a technician. An apprenticeship adds classes and a set pay scale; a school program teaches the basics first, and a state-approved one counts toward certified technician.',
+    union: {
+      what: 'The United Association (UA), the plumbers and pipefitters union, trains HVACR (heating, ventilation, air conditioning and refrigeration) service technicians through its local unions. The UA says its apprentices "get paid from day one, with no student debt." Each local sets its own requirements and application dates.',
+      programs: [],
+      more: 'Find the UA local for your part of Texas and ask whether it trains HVACR service technicians.',
+      find: 'uaFind',
+      findLabel: 'Find a UA local by state',
+      cite: ['uaHvac', 'uaFind']
+    },
+    nonunion: {
+      what: 'Run by contractor groups for non-union employers, with classes alongside paid work.',
+      programs: [
+        { area: 'San Antonio and South Texas', name: 'ABC South Texas sheet metal apprenticeship', facts: 'Sheet metal workers make and install ventilation and air ducts, and can specialize in HVAC systems. Includes 8,000 hours of paid on-the-job training with a sponsoring employer. Phone (210) 342-1994.', src: 'abcCrafts' }
+      ],
+      more: 'The Texas Workforce Commission points to the federal apprenticeship finder to search for HVAC programs by area.'
+    },
+    school: {
+      heading: 'School first',
+      what: 'Texas doesn\'t require school to register as a technician. A 2,000-hour program approved by the state can replace the 24 months of work for certified technician, so ask a program whether it\'s approved before you enroll.',
+      cip: '4702'
+    },
+    steps: [
+      'Register as an air conditioning and refrigeration technician with the state ($20) once you\'re 16.',
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Apply for helper jobs with licensed contractors, or apply to an apprenticeship or a state-approved school program.',
+      'Keep a record of your months of work and who supervised you; you\'ll need it for certified technician and the contractor license.',
+      'After 24 months of work (or a 2,000-hour approved program), apply to take the certified technician exam.'
+    ],
+    stepsSrc: ['tech', 'epa608', 'certTech', 'contractor'],
+    src: TXH_SRC
   },
   {
     slug: 'electrician-florida',
