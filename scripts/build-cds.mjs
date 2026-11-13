@@ -121,7 +121,12 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
   report.push(`| ${slug} | ${year || '-'} | ${n} | ${notes.join('; ').replace(/\|/g, '/') || ''} |`);
   fs.mkdirSync('data/cds/schools', { recursive: true });
   const out = `data/cds/schools/${slug}.json`;
-  if (n < 3) { if (fs.existsSync(out)) fs.unlinkSync(out); continue; }
+  // Too little to publish. If the school already has published values, keep them: a new source that
+  // turned out to be one section of a CDS, or an unreadable file, must not wipe out what we had.
+  if (n < 3) {
+    if (fs.existsSync(out)) report[report.length - 1] = report[report.length - 1].replace(/ \|$/, ' kept the values already published |');
+    continue;
+  }
   fs.writeFileSync(out, JSON.stringify({ slug, cdsYear: year, source: { title: src.title || 'Common Data Set', url: src.url }, builtAt: today, values: v, basis }, null, 2) + '\n');
 }
 fs.writeFileSync('data/cds/_build.md', ['# CDS build', '', `Built ${today}.`, '', '| School | Year | Values published | Notes |', '| --- | --- | --- | --- |', ...report.sort()].join('\n') + '\n');
