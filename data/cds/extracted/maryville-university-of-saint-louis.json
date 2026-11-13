@@ -1,97 +1,100 @@
 {
   "slug": "maryville-university-of-saint-louis",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://www.maryville.edu/administrative-offices/wp-content/uploads/sites/28/2025/07/CDS_2024-2025_Final.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.maryville.edu/administrative-offices/wp-content/uploads/sites/28/2026/07/CDS_2025-2026_Final_v3.pdf"
   },
-  "sourceUrl": "https://www.maryville.edu/administrative-offices/wp-content/uploads/sites/28/2025/07/CDS_2024-2025_Final.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.maryville.edu/administrative-offices/institutional-research/",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 6692,
+      "quote": "total first-time, first-year (degree-seeking) who applied 2910 3089 667 26 6692"
+    },
+    "enrolled_total": {
+      "value": 835,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 582 216 37 0 835"
+    },
     "rank_top10_pct": {
-      "value": 27,
-      "quote": "percent in top tenth of high school graduating class 27%"
+      "value": 20,
+      "quote": "percent in top tenth of high school graduating class 20%"
     },
     "rank_top25_pct": {
-      "value": 56,
-      "quote": "percent in top quarter of high school graduating class 56%"
+      "value": 28,
+      "quote": "percent in top quarter of high school graduating class 28%"
     },
     "gpa_400_pct": {
-      "value": 20.73,
-      "quote": "percent who had gpa of 4.0 29% 14.1% 20.73%"
+      "value": 26.1,
+      "quote": "percent who had gpa of 4.0 21.1% 33.7% 26.1%"
     },
     "gpa_375_pct": {
-      "value": 22.39,
-      "quote": "percent who had gpa between 3.75 and 3.99 25% 20.4% 22.39%"
+      "value": 20,
+      "quote": "percent who had gpa between 3.75 and 3.99 21.5% 17.8% 20.0%"
     },
     "gpa_350_pct": {
-      "value": 16.19,
-      "quote": "percent who had gpa between 3.50 and 3.74 19% 14.1% 16.19%"
+      "value": 17.6,
+      "quote": "percent who had gpa between 3.50 and 3.74 17.1% 18.4% 17.6%"
     },
     "gpa_325_pct": {
-      "value": 9.65,
-      "quote": "percent who had gpa between 3.25 and 3.49 9% 10.5% 9.65%"
+      "value": 10.4,
+      "quote": "percent who had gpa between 3.25 and 3.49 10.3% 10.4% 10.4%"
     },
     "gpa_300_pct": {
-      "value": 10.42,
-      "quote": "percent who had gpa between 3.00 and 3.24 8% 12.1% 10.42%"
+      "value": 9.4,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.7% 7.4% 9.4%"
     },
     "gpa_250_pct": {
-      "value": 12.97,
-      "quote": "percent who had gpa between 2.50 and 2.99 9% 15.9% 12.97%"
+      "value": 10.5,
+      "quote": "percent who had gpa between 2.50 and 2.99 10.7% 10.1% 10.5%"
     },
     "gpa_200_pct": {
-      "value": 5.43,
-      "quote": "percent who had gpa between 2.0 and 2.49 1% 8.9% 5.43%"
+      "value": 3.5,
+      "quote": "percent who had gpa between 2.0 and 2.49 4.6% 1.8% 3.5%"
     },
     "gpa_100_pct": {
-      "value": 2.11,
-      "quote": "percent who had gpa between 1.0 and 1.99 0% 3.8% 2.11%"
+      "value": 2.3,
+      "quote": "percent who had gpa between 1.0 and 1.99 3.6% 0.3% 2.3%"
     },
     "gpa_below1_pct": {
-      "value": 0.11,
-      "quote": "percent who had gpa below 1.0 0% 0.2% 0.11%"
+      "value": 0.2,
+      "quote": "percent who had gpa below 1.0 0.4% 0.0% 0.2%"
     },
     "gpa_average": {
-      "value": 3.49,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.49"
-    },
-    "applied_total": {
-      "value": 4410,
-      "quote": "total first-time, first-year men who applied 1591 / total first-time, first-year women who applied 2817 / total first-time, first-year another gender who applied / total first-time, first-year unknown gender who applied 2",
-      "how": "sum of gender rows"
+      "value": 3.56,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year c12 3.56"
     },
     "admitted_total": {
-      "value": 4193,
-      "quote": "total first-time, first-year men who were admitted 1507 / total first-time, first-year women who were admitted 2684 / total first-time, first-year another gender who were admitted / total first-time, first-year unknown gender who were admitted 2",
+      "value": 6366,
+      "quote": "total first-time, first-year males who were admitted 2284 / total first-time, first-year females who were admitted 4082 / total first-time, first-year students of unknown sex who were admitted 0",
       "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 963,
-      "quote": "sat composite 963 1060 1158"
+      "value": 965,
+      "quote": "sat composite 965 1070 1165"
     },
     "sat_p50": {
-      "value": 1060,
-      "quote": "sat composite 963 1060 1158"
+      "value": 1070,
+      "quote": "sat composite 965 1070 1165"
     },
     "sat_p75": {
-      "value": 1158,
-      "quote": "sat composite 963 1060 1158"
+      "value": 1165,
+      "quote": "sat composite 965 1070 1165"
     },
     "act_p25": {
       "value": 18,
-      "quote": "act composite 18 21 25"
+      "quote": "act composite 18 21 26"
     },
     "act_p50": {
       "value": 21,
-      "quote": "act composite 18 21 25"
+      "quote": "act composite 18 21 26"
     },
     "act_p75": {
-      "value": 25,
-      "quote": "act composite 18 21 25"
+      "value": 26,
+      "quote": "act composite 18 21 26"
     },
     "factor_rigor": {
       "value": "Important",
@@ -118,11 +121,11 @@
       "quote": "Recommendation(s)"
     },
     "factor_interview": {
-      "value": "Considered",
+      "value": "Not Considered",
       "quote": "Interview"
     },
     "factor_extracurriculars": {
-      "value": "Important",
+      "value": "Considered",
       "quote": "Extracurricular activities"
     },
     "factor_talent": {
@@ -166,16 +169,24 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 2033,
-      "quote": "D2 total 2,033 1,884 820"
+      "value": 1952,
+      "quote": "D2 total 1,952 1,400 632"
     },
     "transfer_admitted": {
-      "value": 1884,
-      "quote": "D2 total 2,033 1,884 820"
+      "value": 1400,
+      "quote": "D2 total 1,952 1,400 632"
     },
     "transfer_enrolled": {
-      "value": 820,
-      "quote": "D2 total 2,033 1,884 820"
+      "value": 632,
+      "quote": "D2 total 1,952 1,400 632"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after yes"
+    },
+    "deferral_max": {
+      "value": "Up to 2 Semesters (Including Summers)",
+      "quote": "C18 maximum period of postponement: Up to 2 Semesters (Including Summers)"
     }
   },
   "concerns": null

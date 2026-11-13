@@ -1,35 +1,102 @@
 {
   "slug": "boston-university",
-  "cdsYear": null,
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://www.bu.edu/asir/files/2025/03/cds-2025-c.pdf"
+    "title": "Boston University Common Data Set",
+    "url": "https://www.bu.edu/asir/files/2026/05/CDS-2025-2026-2.pdf"
   },
-  "sourceUrl": "https://www.bu.edu/asir/files/2025/03/cds-2025-c.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://www.bu.edu/asir/files/2026/05/CDS-2025-2026-2.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
-    "ed_applied": {
-      "value": 6854,
-      "quote": "number of early decision applications received by your institution 6854"
+    "rank_top10_pct": {
+      "value": 86,
+      "quote": "percent in top tenth of high school graduating class 86%"
+    },
+    "rank_top25_pct": {
+      "value": 98,
+      "quote": "percent in top quarter of high school graduating class 98%"
+    },
+    "gpa_400_pct": {
+      "value": 36,
+      "quote": "percent who had gpa of 4.0 36%"
+    },
+    "gpa_350_pct": {
+      "value": 27,
+      "quote": "percent who had gpa between 3.50 and 3.74 27%"
+    },
+    "gpa_325_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.25 and 3.49 1%"
+    },
+    "gpa_300_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 3.00 and 3.24 0%"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 0%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0%"
+    },
+    "gpa_average": {
+      "value": 3.86,
+      "quote": "average high school gpa of all degree-seeking, first-time, 3.86"
     },
     "ed_admitted": {
-      "value": 1936,
-      "quote": "number of applicants admitted under early decision plan 1936"
+      "value": 2165,
+      "quote": "number of applicants admitted under early decision plan 2,165"
+    },
+    "applied_total": {
+      "value": 76776,
+      "quote": "total first-time, first-year males who applied 30,474 / total first-time, first-year females who applied 46,302 / total first-time, first-year students of unknown sex who applied",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 9853,
+      "quote": "total first-time, first-year males who were admitted 4,070 / total first-time, first-year females who were admitted 5,783 / total first-time, first-year students of unknown sex who were admitted",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 3449,
+      "quote": "total first-time, first-year males who enrolled 1,356 / total first-time, first-year females who enrolled 2,093 / total first-time, first-year students of unknown sex who enrolled",
+      "how": "sum of gender rows"
+    },
+    "sat_p25": {
+      "value": 1420,
+      "quote": "sat composite 1420 1470 1510"
+    },
+    "sat_p50": {
+      "value": 1470,
+      "quote": "sat composite 1420 1470 1510"
+    },
+    "sat_p75": {
+      "value": 1510,
+      "quote": "sat composite 1420 1470 1510"
     },
     "act_p25": {
-      "value": 32,
-      "quote": "act composite 32 33 34"
+      "value": 33,
+      "quote": "act composite 33 34 34"
     },
     "act_p50": {
-      "value": 33,
-      "quote": "act composite 32 33 34"
+      "value": 34,
+      "quote": "act composite 33 34 34"
     },
     "act_p75": {
       "value": 34,
-      "quote": "act composite 32 33 34"
+      "quote": "act composite 33 34 34"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -103,13 +170,21 @@
       "value": "Considered",
       "quote": "Level of applicant's interest"
     },
+    "transfer_applied": {
+      "value": 6761,
+      "quote": "D2 total 6,761 2,416 840"
+    },
+    "transfer_admitted": {
+      "value": 2416,
+      "quote": "D2 total 6,761 2,416 840"
+    },
+    "transfer_enrolled": {
+      "value": 840,
+      "quote": "D2 total 6,761 2,416 840"
+    },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes, deferred admission is allowed with a maximum postponement of one year (freshme"
-    },
-    "ed_offered": {
-      "value": "yes",
-      "quote": null
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
     }
   },
   "concerns": null

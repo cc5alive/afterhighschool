@@ -1,63 +1,63 @@
 {
   "slug": "university-of-southern-california",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set",
-    "url": "https://oir.usc.edu/wp-content/uploads/sites/3/2025/10/CDS_2024-2025_FINAL-3.pdf"
+    "url": "https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf"
   },
-  "sourceUrl": "https://oir.usc.edu/wp-content/uploads/sites/3/2025/10/CDS_2024-2025_FINAL-3.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://oir.usc.edu/statistics-data-visualization/common-data-set/",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 82027,
-      "quote": "total first-time, first-year who applied 82,027"
+      "value": 83488,
+      "quote": "total first-time, first-year (degree-seeking) who applied 32499 34374 16615 0 83488"
     },
     "admitted_total": {
-      "value": 8050,
-      "quote": "total first-time, first-year who were admitted 8,050"
+      "value": 9345,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 3692 3378 2275 0 9345"
     },
     "enrolled_total": {
-      "value": 3489,
-      "quote": "total first-time, first-year who enrolled 3,489"
+      "value": 3759,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1701 1198 860 0 3759"
     },
     "rank_top10_pct": {
-      "value": 73,
-      "quote": "percent in top tenth of high school graduating class 73%"
+      "value": 69,
+      "quote": "percent in top tenth of high school graduating class 69%"
     },
     "rank_top25_pct": {
-      "value": 94,
-      "quote": "percent in top quarter of high school graduating class 94%"
+      "value": 89,
+      "quote": "percent in top quarter of high school graduating class 89%"
     },
     "gpa_400_pct": {
-      "value": 27.1,
-      "quote": "percent who had gpa of 4.0 27.10%"
+      "value": 28.2,
+      "quote": "percent who had gpa of 4.0 35% 23% 28.20%"
     },
     "gpa_375_pct": {
-      "value": 51,
-      "quote": "percent who had gpa between 3.75 and 3.99 51.00%"
+      "value": 52,
+      "quote": "percent who had gpa between 3.75 and 3.99 54% 51% 52.00%"
     },
     "gpa_350_pct": {
-      "value": 15.3,
-      "quote": "percent who had gpa between 3.50 and 3.74 15.30%"
+      "value": 14.3,
+      "quote": "percent who had gpa between 3.50 and 3.74 10% 18% 14.30%"
     },
     "gpa_325_pct": {
-      "value": 4,
-      "quote": "percent who had gpa between 3.25 and 3.49 4.00%"
+      "value": 3.5,
+      "quote": "percent who had gpa between 3.25 and 3.49 1% 5% 3.50%"
     },
     "gpa_300_pct": {
-      "value": 1.6,
-      "quote": "percent who had gpa between 3.00 and 3.24 1.60%"
+      "value": 1.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1% 2% 1.10%"
     },
     "gpa_250_pct": {
-      "value": 0.7,
-      "quote": "percent who had gpa between 2.50 and 2.99 0.70%"
+      "value": 1,
+      "quote": "percent who had gpa between 2.50 and 2.99 1% 0.70%"
     },
     "gpa_200_pct": {
-      "value": 0.3,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.30%"
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0% 0.20%"
     },
     "gpa_100_pct": {
       "value": 0,
@@ -68,8 +68,20 @@
       "quote": "percent who had gpa below 1.0 0.00%"
     },
     "gpa_average": {
-      "value": 3.8,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.80"
+      "value": 3.85,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.85"
+    },
+    "sat_p25": {
+      "value": 1470,
+      "quote": "sat composite 1470 1510 1540"
+    },
+    "sat_p50": {
+      "value": 1510,
+      "quote": "sat composite 1470 1510 1540"
+    },
+    "sat_p75": {
+      "value": 1540,
+      "quote": "sat composite 1470 1510 1540"
     },
     "act_p25": {
       "value": 32,
@@ -96,7 +108,7 @@
       "quote": "Academic GPA"
     },
     "factor_test_scores": {
-      "value": "Very Important",
+      "value": "Considered",
       "quote": "Standardized test scores"
     },
     "factor_essay": {
@@ -120,7 +132,7 @@
       "quote": "Talent/ability"
     },
     "factor_character": {
-      "value": "Important",
+      "value": "Very Important",
       "quote": "Character/personal qualities"
     },
     "factor_first_generation": {
@@ -156,16 +168,24 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 11019,
-      "quote": "D2 total 11,019 2,381 1,339"
+      "value": 10827,
+      "quote": "D2 total 10,827 2,929 1,544"
     },
     "transfer_admitted": {
-      "value": 2381,
-      "quote": "D2 total 11,019 2,381 1,339"
+      "value": 2929,
+      "quote": "D2 total 10,827 2,929 1,544"
     },
     "transfer_enrolled": {
-      "value": 1339,
-      "quote": "D2 total 11,019 2,381 1,339"
+      "value": 1544,
+      "quote": "D2 total 10,827 2,929 1,544"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after yes admission? cds-c page 13 common data set 2024-2025"
+    },
+    "deferral_max": {
+      "value": "One year, in limited circumstances",
+      "quote": "C18 maximum period of postponement: One year, in limited circumstances"
     }
   },
   "concerns": null

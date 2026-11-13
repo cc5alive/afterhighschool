@@ -1,103 +1,111 @@
 {
   "slug": "duquesne-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "2024-2025 Common Data Set",
-    "url": "https://www.duq.edu/documents/institutionalresearch/cds_2024-2025.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.duq.edu/documents/institutionalresearch/cds-2025-2026.pdf"
   },
-  "sourceUrl": "https://www.duq.edu/documents/institutionalresearch/cds_2024-2025.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.duq.edu/about/departments-and-offices/finance-and-business/planning-budgeting-and-institutional-research/common-data-set.php",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 12893,
-      "quote": "total first-time, first-year who applied 12,893 7,248 4,559 1,061 25"
+      "value": 13270,
+      "quote": "total first-time, first-year (degree-seeking) who applied 7,381 4,752 1,117 20 13,270"
     },
     "admitted_total": {
-      "value": 10773,
-      "quote": "total first-time, first-year who were admitted 10,773 6,163 3,924 674 12"
+      "value": 11464,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6,665 4,280 504 15 11,464"
     },
     "enrolled_total": {
-      "value": 1441,
-      "quote": "total first-time, first-year who enrolled 1,441 1,027 364 49 1"
+      "value": 1404,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1,058 316 30 1,404"
     },
     "waitlist_admitted": {
-      "value": 183,
-      "quote": "number of wait-listed students admitted: 183"
+      "value": 77,
+      "quote": "number of wait-listed students admitted: 77"
     },
     "rank_top10_pct": {
-      "value": 25,
-      "quote": "percent in top tenth of high school graduating class 25%"
+      "value": 28,
+      "quote": "percent in top tenth of high school graduating class 28%"
     },
     "rank_top25_pct": {
-      "value": 52,
-      "quote": "percent in top quarter of high school graduating class 52%"
+      "value": 56,
+      "quote": "percent in top quarter of high school graduating class 56%"
+    },
+    "rank_submit_pct": {
+      "value": 39,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 39%"
     },
     "gpa_400_pct": {
-      "value": 34.22,
-      "quote": "percent who had gpa of 4.0 52.50% 28.63% 34.22%"
+      "value": 30.4,
+      "quote": "percent who had gpa of 4.0 55.07% 41.45% 30.40%"
     },
     "gpa_375_pct": {
-      "value": 21.42,
-      "quote": "percent who had gpa between 3.75 and 3.99 19.69% 21.95% 21.42%"
+      "value": 24.04,
+      "quote": "percent who had gpa between 3.75 and 3.99 22.03% 26.97% 24.04%"
     },
     "gpa_350_pct": {
-      "value": 20.54,
-      "quote": "percent who had gpa between 3.50 and 3.74 16.25% 21.85% 20.54%"
+      "value": 20,
+      "quote": "percent who had gpa between 3.50 and 3.74 10.13% 17.76% 20.00%"
     },
     "gpa_325_pct": {
-      "value": 12.06,
-      "quote": "percent who had gpa between 3.25 and 3.49 5.31% 14.12% 12.06%"
+      "value": 12.35,
+      "quote": "percent who had gpa between 3.25 and 3.49 6.17% 7.89% 12.35%"
     },
     "gpa_300_pct": {
-      "value": 7.09,
-      "quote": "percent who had gpa between 3.00 and 3.24 4.69% 7.82% 7.09%"
+      "value": 9.39,
+      "quote": "percent who had gpa between 3.00 and 3.24 3.52% 4.61% 9.39%"
     },
     "gpa_250_pct": {
-      "value": 4.02,
-      "quote": "percent who had gpa between 2.50 and 2.99 1.56% 4.77% 4.02%"
+      "value": 3.54,
+      "quote": "percent who had gpa between 2.50 and 2.99 3.08% 1.32% 3.54%"
     },
     "gpa_200_pct": {
-      "value": 0.58,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.00% 0.76% 0.58%"
+      "value": 0.29,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00% 0.00% 0.29%"
     },
     "gpa_100_pct": {
-      "value": 0.07,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.00% 0.10% 0.07%"
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00% 0.00% 0.00%"
     },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0.00% 0.00% 0.00%"
     },
     "gpa_average": {
-      "value": 3.79,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.79"
+      "value": 3.76,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who 12 submitted gpa: 3.76"
+    },
+    "gpa_submit_pct": {
+      "value": 98.64,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 98.64%"
     },
     "sat_p25": {
-      "value": 1190,
-      "quote": "sat composite 1,190 1,250 1,330"
+      "value": 1130,
+      "quote": "sat composite 1,130 1,250 1,333"
     },
     "sat_p50": {
       "value": 1250,
-      "quote": "sat composite 1,190 1,250 1,330"
+      "quote": "sat composite 1,130 1,250 1,333"
     },
     "sat_p75": {
-      "value": 1330,
-      "quote": "sat composite 1,190 1,250 1,330"
+      "value": 1333,
+      "quote": "sat composite 1,130 1,250 1,333"
     },
     "act_p25": {
-      "value": 26,
-      "quote": "act composite 26 29 32"
+      "value": 25,
+      "quote": "act composite 25 27 30"
     },
     "act_p50": {
-      "value": 29,
-      "quote": "act composite 26 29 32"
+      "value": 27,
+      "quote": "act composite 25 27 30"
     },
     "act_p75": {
-      "value": 32,
-      "quote": "act composite 26 29 32"
+      "value": 30,
+      "quote": "act composite 25 27 30"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -172,16 +180,16 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 1116,
-      "quote": "D2 total 1,116 803 221"
+      "value": 646,
+      "quote": "D2 total 646 570 130"
     },
     "transfer_admitted": {
-      "value": 803,
-      "quote": "D2 total 1,116 803 221"
+      "value": 570,
+      "quote": "D2 total 646 570 130"
     },
     "transfer_enrolled": {
-      "value": 221,
-      "quote": "D2 total 1,116 803 221"
+      "value": 130,
+      "quote": "D2 total 646 570 130"
     }
   },
   "concerns": null

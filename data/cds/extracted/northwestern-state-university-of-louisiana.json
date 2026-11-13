@@ -1,107 +1,194 @@
 {
   "slug": "northwestern-state-university-of-louisiana",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2023-2024",
-    "url": "https://dps.apps.nsula.edu/view/13318/CDS_UNL2_2023_2024.pdf"
+    "title": "Common Data Set",
+    "url": "https://dps.apps.nsula.edu/view/17818/CDS-PDF-2025-2026_PDF_Template.pdf"
   },
-  "sourceUrl": "https://dps.apps.nsula.edu/view/13318",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.nsula.edu/oir/",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
-      "value": 16.4,
-      "quote": "percent in top tenth of high school graduating class 16.4%"
+      "value": 18.9,
+      "quote": "percent in top tenth of high school graduating class 18.9"
     },
     "rank_top25_pct": {
-      "value": 42.2,
-      "quote": "percent in top quarter of high school graduating class 42.2%"
+      "value": 40.6,
+      "quote": "percent in top quarter of high school graduating class 40.6"
     },
     "gpa_400_pct": {
-      "value": 5.7,
-      "quote": "percent who had gpa of 4.0 5.7% 1.6% 5.5%"
+      "value": 7.83,
+      "quote": "percent who had gpa of 4.0 8.01 4.92 7.83"
     },
     "gpa_375_pct": {
-      "value": 21.3,
-      "quote": "percent who had gpa between 3.75 and 3.99 21.3% 3.2% 20.2%"
+      "value": 21.78,
+      "quote": "percent who had gpa between 3.75 and 3.99 22.82 4.92 21.78"
     },
     "gpa_350_pct": {
-      "value": 22.4,
-      "quote": "percent who had gpa between 3.50 and 3.74 22.4% 12.7% 21.8%"
+      "value": 19.96,
+      "quote": "percent who had gpa between 3.50 and 3.74 20.69 8.20 19.96"
     },
     "gpa_325_pct": {
-      "value": 21.6,
-      "quote": "percent who had gpa between 3.25 and 3.49 21.6% 15.9% 21.3%"
+      "value": 19.58,
+      "quote": "percent who had gpa between 3.25 and 3.49 19.27 24.59 19.58"
     },
     "gpa_300_pct": {
-      "value": 10.7,
-      "quote": "percent who had gpa between 3.00 and 3.24 10.7% 22.2% 11.3%"
+      "value": 11.56,
+      "quote": "percent who had gpa between 3.00 and 3.24 11.36 14.75 11.56"
     },
     "gpa_250_pct": {
-      "value": 14.3,
-      "quote": "percent who had gpa between 2.50 and 2.99 14.3% 30.2% 15.2%"
+      "value": 15.76,
+      "quote": "percent who had gpa between 2.50 and 2.99 14.81 31.15 15.76"
     },
     "gpa_200_pct": {
-      "value": 3.8,
-      "quote": "percent who had gpa between 2.0 and 2.49 3.8% 11.1% 4.3%"
+      "value": 3.06,
+      "quote": "percent who had gpa between 2.0 and 2.49 2.84 6.56 3.06"
     },
     "gpa_100_pct": {
-      "value": 0.2,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.2% 3.2% 0.4%"
+      "value": 0.38,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.10 4.92 0.38"
     },
     "gpa_below1_pct": {
-      "value": 100,
-      "quote": "percent who had gpa below 1.0 total 100.0% 100.0% 100.0%"
+      "value": 0.1,
+      "quote": "percent who had gpa below 1.0 0.10 0 0.10"
     },
     "gpa_average": {
       "value": 3.4,
-      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.4"
+      "quote": "average high school gpa 3.40"
     },
     "gpa_submit_pct": {
-      "value": 99.3,
-      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.3%"
+      "value": 97.85,
+      "quote": "percent submitting gpa 97.85"
+    },
+    "applied_total": {
+      "value": 2723,
+      "quote": "total first-time, first-year men who applied 817 / total first-time, first-year women who applied 1906 / total first-time, first-year unknown sex who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 2578,
+      "quote": "total first-time, first-year men who were admitted 773 / total first-time, first-year women who were admitted 1805 / total first-time, first-year unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 1057,
+      "quote": "total first-time, first-year men who enrolled 306 / total first-time, first-year women who enrolled 751 / total first-time, first-year unknown sex who enrolled 0",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 950,
-      "quote": "sat composite (400 - 1600) 950 1090 1180"
+      "value": 910,
+      "quote": "sat composite 910 980 1110"
     },
     "sat_p50": {
-      "value": 1090,
-      "quote": "sat composite (400 - 1600) 950 1090 1180"
+      "value": 980,
+      "quote": "sat composite 910 980 1110"
     },
     "sat_p75": {
-      "value": 1180,
-      "quote": "sat composite (400 - 1600) 950 1090 1180"
+      "value": 1110,
+      "quote": "sat composite 910 980 1110"
     },
     "act_p25": {
       "value": 18,
-      "quote": "act composite (0 - 36) 18 21 24"
+      "quote": "act composite 18 20 23"
     },
     "act_p50": {
-      "value": 21,
-      "quote": "act composite (0 - 36) 18 21 24"
+      "value": 20,
+      "quote": "act composite 18 20 23"
     },
     "act_p75": {
-      "value": 24,
-      "quote": "act composite (0 - 36) 18 21 24"
+      "value": 23,
+      "quote": "act composite 18 20 23"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Very Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 762,
-      "quote": "D2 total 762 679 412"
+      "value": 773,
+      "quote": "D2 total 773 674 425"
     },
     "transfer_admitted": {
-      "value": 679,
-      "quote": "D2 total 762 679 412"
+      "value": 674,
+      "quote": "D2 total 773 674 425"
     },
     "transfer_enrolled": {
-      "value": 412,
-      "quote": "D2 total 762 679 412"
+      "value": 425,
+      "quote": "D2 total 773 674 425"
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
     }
   },
   "concerns": null

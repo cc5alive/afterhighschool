@@ -1,102 +1,110 @@
 {
   "slug": "university-of-missouri-kansas-city",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025 - University of Missouri-Kansas City",
-    "url": "https://www.umkc.edu/data/docs/cds_2024-2025.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.umkc.edu/data/docs/cds_2025_2026.pdf"
   },
-  "sourceUrl": "https://www.umkc.edu/data/docs/cds_2024-2025.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.umkc.edu/data/reports/common-data-set.php",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 6186,
-      "quote": "total first-time, first-year who applied 6186 3310 2546 330 0"
+      "value": 7557,
+      "quote": "total first-time, first-year (degree-seeking) who applied 4121 3078 358 0 7557"
     },
     "admitted_total": {
-      "value": 4465,
-      "quote": "total first-time, first-year who were admitted 4465 2811 1553 101 0"
+      "value": 4907,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 3048 1707 152 0 4907"
     },
     "enrolled_total": {
-      "value": 1343,
-      "quote": "total first-time, first-year who enrolled 1343 912 413 18 0"
+      "value": 1367,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 969 374 24 0 1367"
     },
     "rank_top10_pct": {
       "value": 28,
       "quote": "percent in top tenth of high school graduating class 28%"
     },
     "rank_top25_pct": {
-      "value": 53,
-      "quote": "percent in top quarter of high school graduating class 53%"
+      "value": 54,
+      "quote": "percent in top quarter of high school graduating class 54%"
     },
     "gpa_400_pct": {
-      "value": 12.71,
-      "quote": "percent who had gpa of 4.0 18.27% 5.32% 12.71%"
+      "value": 13.69,
+      "quote": "percent who had gpa of 4.0 21% 6% 13.69%"
     },
     "gpa_375_pct": {
-      "value": 25.8,
-      "quote": "percent who had gpa between 3.75 and 3.99 30.27% 19.86% 25.80%"
+      "value": 23.33,
+      "quote": "percent who had gpa between 3.75 and 3.99 29% 17% 23.33%"
     },
     "gpa_350_pct": {
-      "value": 16.13,
-      "quote": "percent who had gpa between 3.50 and 3.74 16.13% 16.13% 16.13%"
+      "value": 17.68,
+      "quote": "percent who had gpa between 3.50 and 3.74 16% 19% 17.68%"
     },
     "gpa_325_pct": {
-      "value": 12.63,
-      "quote": "percent who had gpa between 3.25 and 3.49 9.60% 16.67% 12.63%"
+      "value": 13.84,
+      "quote": "percent who had gpa between 3.25 and 3.49 9% 19% 13.84%"
     },
     "gpa_300_pct": {
-      "value": 16.13,
-      "quote": "percent who had gpa between 3.00 and 3.24 9.33% 25.18% 16.13%"
+      "value": 14.67,
+      "quote": "percent who had gpa between 3.00 and 3.24 6% 23% 14.67%"
     },
     "gpa_250_pct": {
-      "value": 14.23,
-      "quote": "percent who had gpa between 2.50 and 2.99 13.33% 15.43% 14.23%"
+      "value": 15.35,
+      "quote": "percent who had gpa between 2.50 and 2.99 16% 15% 15.35%"
     },
     "gpa_200_pct": {
-      "value": 2.28,
-      "quote": "percent who had gpa between 2.0 and 2.49 2.93% 1.42% 2.28%"
+      "value": 1.43,
+      "quote": "percent who had gpa between 2.0 and 2.49 2% 0% 1.43%"
     },
     "gpa_100_pct": {
-      "value": 0.13,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.13% 0.08%"
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0.00%"
     },
     "gpa_average": {
-      "value": 3.47,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.47"
+      "value": 3.48,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students 3.48"
+    },
+    "gpa_submit_pct": {
+      "value": 97.22,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 97.22%"
     },
     "sat_p25": {
-      "value": 1290,
-      "quote": "sat composite sat evidence-based reading and 1290 1465 1540"
+      "value": 1115,
+      "quote": "sat composite 1115 1350 1525"
     },
     "sat_p50": {
-      "value": 1465,
-      "quote": "sat composite sat evidence-based reading and 1290 1465 1540"
+      "value": 1350,
+      "quote": "sat composite 1115 1350 1525"
     },
     "sat_p75": {
-      "value": 1540,
-      "quote": "sat composite sat evidence-based reading and 1290 1465 1540"
+      "value": 1525,
+      "quote": "sat composite 1115 1350 1525"
     },
     "act_p25": {
       "value": 20,
-      "quote": "act composite 20 24 28"
+      "quote": "act composite 20 24 29"
     },
     "act_p50": {
       "value": 24,
-      "quote": "act composite 20 24 28"
+      "quote": "act composite 20 24 29"
     },
     "act_p75": {
-      "value": 28,
-      "quote": "act composite 20 24 28"
+      "value": 29,
+      "quote": "act composite 20 24 29"
     },
     "factor_rigor": {
       "value": "Very Important",
       "quote": "Rigor of secondary school record"
     },
     "factor_class_rank": {
-      "value": "Considered",
+      "value": "Not Considered",
       "quote": "Class rank"
     },
     "factor_gpa": {
@@ -164,16 +172,24 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 2209,
-      "quote": "D2 total 2,209 1,767 943"
+      "value": 2696,
+      "quote": "D2 total 2,696 1,815 992"
     },
     "transfer_admitted": {
-      "value": 1767,
-      "quote": "D2 total 2,209 1,767 943"
+      "value": 1815,
+      "quote": "D2 total 2,696 1,815 992"
     },
     "transfer_enrolled": {
-      "value": 943,
-      "quote": "D2 total 2,209 1,767 943"
+      "value": 992,
+      "quote": "D2 total 2,696 1,815 992"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "2 semesters",
+      "quote": "C18 maximum period of postponement: 2 semesters"
     }
   },
   "concerns": null

@@ -1,67 +1,99 @@
 {
   "slug": "the-university-of-texas-at-tyler",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://www.uttyler.edu/offices/information-analysis/files/cds-2024-2025.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.uttyler.edu/offices/information-analysis/files/cds-2025-26-20260418.pdf"
   },
-  "sourceUrl": "https://www.uttyler.edu/offices/information-analysis/files/cds-2024-2025.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.uttyler.edu/offices/information-analysis/common-data-sets/",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 5603,
-      "quote": "total first-time, first-year (degree-seeking) who applied 5479 86 38 0 5603"
+      "value": 5476,
+      "quote": "total first-time, first-year (degree-seeking) who applied 5379 63 34 0 5476"
     },
     "admitted_total": {
-      "value": 5268,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 5151 79 38 0 5268"
+      "value": 5194,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 5108 53 33 0 5194"
     },
     "enrolled_total": {
-      "value": 1423,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 1388 19 16 0 1423"
+      "value": 1541,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1514 15 12 0 1541"
     },
     "rank_top10_pct": {
-      "value": 13,
-      "quote": "percent in top tenth of high school graduating class 13.00"
+      "value": 12,
+      "quote": "percent in top tenth of high school graduating class 12%"
     },
     "rank_top25_pct": {
-      "value": 37,
-      "quote": "percent in top quarter of high school graduating class 37.00"
+      "value": 38,
+      "quote": "percent in top quarter of high school graduating class 38%"
+    },
+    "gpa_400_pct": {
+      "value": 3.41,
+      "quote": "percent who had gpa of 4.0 5% 2% 3.41%"
+    },
+    "gpa_375_pct": {
+      "value": 31.27,
+      "quote": "percent who had gpa between 3.75 and 3.99 36% 27% 31.27%"
+    },
+    "gpa_350_pct": {
+      "value": 25.71,
+      "quote": "percent who had gpa between 3.50 and 3.74 25% 26% 25.71%"
+    },
+    "gpa_325_pct": {
+      "value": 17.22,
+      "quote": "percent who had gpa between 3.25 and 3.49 15% 19% 17.22%"
+    },
+    "gpa_300_pct": {
+      "value": 10.08,
+      "quote": "percent who had gpa between 3.00 and 3.24 8% 12% 10.08%"
+    },
+    "gpa_250_pct": {
+      "value": 5.71,
+      "quote": "percent who had gpa between 2.50 and 2.99 4% 8% 5.71%"
+    },
+    "gpa_200_pct": {
+      "value": 0.16,
+      "quote": "percent who had gpa between 2.0 and 2.49 0% 0% 0.16%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0% 0% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 6.43,
+      "quote": "percent who had gpa below 1.0 7% 6% 6.43%"
     },
     "gpa_average": {
-      "value": 2.82,
-      "quote": "average high school gpa 2.82"
-    },
-    "gpa_submit_pct": {
-      "value": 55.35,
-      "quote": "percent submitting gpa 55.35"
+      "value": 3.24,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.24"
     },
     "sat_p25": {
-      "value": 1010,
-      "quote": "sat composite 1010 1090 1190"
+      "value": 990,
+      "quote": "sat composite 990 1080 1190"
     },
     "sat_p50": {
-      "value": 1090,
-      "quote": "sat composite 1010 1090 1190"
+      "value": 1080,
+      "quote": "sat composite 990 1080 1190"
     },
     "sat_p75": {
       "value": 1190,
-      "quote": "sat composite 1010 1090 1190"
+      "quote": "sat composite 990 1080 1190"
     },
     "act_p25": {
       "value": 20,
-      "quote": "act composite 20 23 26"
+      "quote": "act composite 20 23 25"
     },
     "act_p50": {
       "value": 23,
-      "quote": "act composite 20 23 26"
+      "quote": "act composite 20 23 25"
     },
     "act_p75": {
-      "value": 26,
-      "quote": "act composite 20 23 26"
+      "value": 25,
+      "quote": "act composite 20 23 25"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -136,24 +168,20 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 2034,
-      "quote": "D2 total 2034 1990 1137"
+      "value": 2161,
+      "quote": "D2 total 2,161 2,114 1,261"
     },
     "transfer_admitted": {
-      "value": 1990,
-      "quote": "D2 total 2034 1990 1137"
+      "value": 2114,
+      "quote": "D2 total 2,161 2,114 1,261"
     },
     "transfer_enrolled": {
-      "value": 1137,
-      "quote": "D2 total 2034 1990 1137"
+      "value": 1261,
+      "quote": "D2 total 2,161 2,114 1,261"
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ տ no"
-    },
-    "deferral_max": {
-      "value": "1 year",
-      "quote": "C18 maximum period of postponement: 1 year"
+      "quote": "C18 does your institution allow students to postpone enrollment after yes admission?"
     }
   },
   "concerns": null

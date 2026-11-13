@@ -1,79 +1,103 @@
 {
   "slug": "university-of-florida",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set",
-    "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf"
+    "url": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS%202025-26_v8_08.14.2026.pdf"
   },
-  "sourceUrl": "https://data-apps.ir.aa.ufl.edu/public/cds/CDS_2024-2025_UFMAIN_Post_v3.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://ir.aa.ufl.edu/reports/cds-reports/",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 5159,
-      "quote": "total first-time, first-year who applied 5,159 -"
+      "value": 8931,
+      "quote": "total first-time, first-year (degree-seeking) who applied 8,931 -"
     },
     "admitted_total": {
-      "value": 1676,
-      "quote": "total first-time, first-year who were admitted 1,676 -"
+      "value": 930,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 930 -"
     },
     "enrolled_total": {
-      "value": 303,
-      "quote": "total first-time, first-year who enrolled 303 -"
+      "value": 155,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 155 -"
+    },
+    "waitlist_admitted": {
+      "value": 1,
+      "quote": "number of wait-listed students admitted: 1"
     },
     "rank_top10_pct": {
-      "value": 84,
-      "quote": "percent in top tenth of high school graduating class 84%"
+      "value": 85,
+      "quote": "percent in top tenth of high school graduating class 85%"
     },
     "rank_top25_pct": {
       "value": 98,
       "quote": "percent in top quarter of high school graduating class 98%"
     },
     "gpa_400_pct": {
-      "value": 53,
-      "quote": "percent who had gpa of 4.0 53 0 53.00%"
+      "value": 58,
+      "quote": "percent who had gpa of 4.0 58%"
     },
     "gpa_375_pct": {
-      "value": 41,
-      "quote": "percent who had gpa between 3.75 and 3.99 41 0 41.00%"
+      "value": 38,
+      "quote": "percent who had gpa between 3.75 and 3.99 38%"
     },
     "gpa_350_pct": {
-      "value": 6,
-      "quote": "percent who had gpa between 3.50 and 3.74 6 0 6.00%"
+      "value": 4,
+      "quote": "percent who had gpa between 3.50 and 3.74 4%"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 <1% percent who had gpa between 2.0 and 2.49 0%"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0%"
     },
     "gpa_average": {
-      "value": 3.92,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who 3.92"
+      "value": 3.9,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students 3.9"
     },
     "gpa_submit_pct": {
-      "value": 94,
-      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94.00%"
+      "value": 95,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 95%"
     },
     "sat_p25": {
       "value": 1330,
-      "quote": "sat composite 1330 1400 1470"
+      "quote": "sat composite 1330 1410 1490"
     },
     "sat_p50": {
-      "value": 1400,
-      "quote": "sat composite 1330 1400 1470"
+      "value": 1410,
+      "quote": "sat composite 1330 1410 1490"
     },
     "sat_p75": {
-      "value": 1470,
-      "quote": "sat composite 1330 1400 1470"
+      "value": 1490,
+      "quote": "sat composite 1330 1410 1490"
     },
     "act_p25": {
       "value": 29,
-      "quote": "act composite 29 31 33"
+      "quote": "act composite 29 32 33"
     },
     "act_p50": {
-      "value": 31,
-      "quote": "act composite 29 31 33"
+      "value": 32,
+      "quote": "act composite 29 32 33"
     },
     "act_p75": {
       "value": 33,
-      "quote": "act composite 29 31 33"
+      "quote": "act composite 29 32 33"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
     },
     "factor_class_rank": {
       "value": "Not Considered",
@@ -143,17 +167,9 @@
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
     },
-    "transfer_applied": {
-      "value": 5870,
-      "quote": "D2 total 5,870 2,633 2,124"
-    },
-    "transfer_admitted": {
-      "value": 2633,
-      "quote": "D2 total 5,870 2,633 2,124"
-    },
-    "transfer_enrolled": {
-      "value": 2124,
-      "quote": "D2 total 5,870 2,633 2,124"
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
     }
   },
   "concerns": null

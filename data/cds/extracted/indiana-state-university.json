@@ -1,95 +1,91 @@
 {
   "slug": "indiana-state-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025 - Indiana State University",
-    "url": "https://indianastate.edu/sites/default/files/2025-03/CDS24_1.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://indianastate.edu/sites/default/files/2026-06/CDS%202025.pdf"
   },
-  "sourceUrl": "https://indianastate.edu/sites/default/files/2025-03/CDS24_1.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://indianastate.edu/sites/default/files/2026-06/CDS%202025.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 11793,
-      "quote": "total first-time, first-year who applied 11,793"
+      "value": 13329,
+      "quote": "total first-time, first-year (degree-seeking) who applied 9840 3047 440 2 13329"
     },
     "admitted_total": {
-      "value": 10815,
-      "quote": "total first-time, first-year who were admitted 10,815"
+      "value": 12205,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 9107 2708 390 0 12205"
     },
     "enrolled_total": {
-      "value": 1417,
-      "quote": "total first-time, first-year who enrolled 1,417"
+      "value": 1602,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1371 205 26 0 1602"
     },
     "rank_top10_pct": {
       "value": 12,
       "quote": "percent in top tenth of high school graduating class 12%"
     },
     "rank_top25_pct": {
-      "value": 34,
-      "quote": "percent in top quarter of high school graduating class 34%"
+      "value": 32,
+      "quote": "percent in top quarter of high school graduating class 32%"
     },
     "gpa_400_pct": {
-      "value": 12,
-      "quote": "percent who had gpa of 4.0 12.0%"
+      "value": 12.2,
+      "quote": "percent who had gpa of 4.0 14% 8% 12.20%"
     },
     "gpa_375_pct": {
-      "value": 14.2,
-      "quote": "percent who had gpa between 3.75 and 3.99 14.2%"
+      "value": 15.07,
+      "quote": "percent who had gpa between 3.75 and 3.99 16% 12% 15.07%"
     },
     "gpa_350_pct": {
-      "value": 13.1,
-      "quote": "percent who had gpa between 3.50 and 3.74 13.1%"
+      "value": 14.07,
+      "quote": "percent who had gpa between 3.50 and 3.74 15% 12% 14.07%"
     },
     "gpa_325_pct": {
-      "value": 11.7,
-      "quote": "percent who had gpa between 3.25 and 3.49 11.7%"
+      "value": 14.01,
+      "quote": "percent who had gpa between 3.25 and 3.49 14% 15% 14.01%"
     },
     "gpa_300_pct": {
-      "value": 12.3,
-      "quote": "percent who had gpa between 3.00 and 3.24 12.3%"
+      "value": 12.51,
+      "quote": "percent who had gpa between 3.00 and 3.24 12% 13% 12.51%"
     },
     "gpa_250_pct": {
-      "value": 30.5,
-      "quote": "percent who had gpa between 2.50 and 2.99 30.5%"
+      "value": 27.7,
+      "quote": "percent who had gpa between 2.50 and 2.99 24% 38% 27.70%"
     },
     "gpa_200_pct": {
-      "value": 6.2,
-      "quote": "percent who had gpa between 2.0 and 2.49 6.2%"
-    },
-    "gpa_100_pct": {
-      "value": 0.1,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.1%"
+      "value": 4.44,
+      "quote": "percent who had gpa between 2.0 and 2.49 5% 4% 4.44%"
     },
     "gpa_average": {
-      "value": 3.27,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.27"
+      "value": 3.31,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.31"
     },
     "sat_p25": {
-      "value": 880,
-      "quote": "sat composite 880 980 1100"
+      "value": 890,
+      "quote": "sat composite 890 1000 1110"
     },
     "sat_p50": {
-      "value": 980,
-      "quote": "sat composite 880 980 1100"
+      "value": 1000,
+      "quote": "sat composite 890 1000 1110"
     },
     "sat_p75": {
-      "value": 1100,
-      "quote": "sat composite 880 980 1100"
+      "value": 1110,
+      "quote": "sat composite 890 1000 1110"
     },
     "act_p25": {
-      "value": 20,
-      "quote": "act composite 20 23 26"
+      "value": 19,
+      "quote": "act composite 19 23 26"
     },
     "act_p50": {
       "value": 23,
-      "quote": "act composite 20 23 26"
+      "quote": "act composite 19 23 26"
     },
     "act_p75": {
       "value": 26,
-      "quote": "act composite 20 23 26"
+      "quote": "act composite 19 23 26"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -104,7 +100,7 @@
       "quote": "Academic GPA"
     },
     "factor_test_scores": {
-      "value": "Considered",
+      "value": "Not Considered",
       "quote": "Standardized test scores"
     },
     "factor_essay": {
@@ -164,16 +160,20 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 1491,
-      "quote": "D2 total 1,491 1,170 479"
+      "value": 1457,
+      "quote": "D2 total 1,457 1,132 457"
     },
     "transfer_admitted": {
-      "value": 1170,
-      "quote": "D2 total 1,491 1,170 479"
+      "value": 1132,
+      "quote": "D2 total 1,457 1,132 457"
     },
     "transfer_enrolled": {
-      "value": 479,
-      "quote": "D2 total 1,491 1,170 479"
+      "value": 457,
+      "quote": "D2 total 1,457 1,132 457"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
     }
   },
   "concerns": null

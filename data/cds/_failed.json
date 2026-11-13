@@ -99,11 +99,6 @@
   "at": "2026-11-06",
   "reason": "no CDS document found from https://ira.okstate.edu/site-files/documents/cds/CDS-2025-2026-PDF.pdf"
  },
- "indiana-university-bloomington": {
-  "url": "https://uirr.iu.edu/common-data-set",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://uirr.iu.edu/common-data-set"
- },
  "lawrence-university": {
   "url": "https://blogs.lawrence.edu/ora/common-data-set",
   "at": "2026-11-06",
@@ -214,11 +209,6 @@
   "at": "2026-11-06",
   "reason": "no CDS document found from https://und.edu/analytics-and-planning/data-and-reports/common-data-set.html"
  },
- "the-university-of-texas-at-dallas": {
-  "url": "https://oisds.utdallas.edu/common-data-set",
-  "at": "2026-11-06",
-  "reason": "no CDS document found from https://oisds.utdallas.edu/common-data-set"
- },
  "creighton-university": {
   "url": "https://creighton.edu/analyticsandinstitutionalresearch/commondatasets",
   "at": "2026-11-06",
@@ -303,5 +293,65 @@
   "url": "https://usm.maine.edu/department-of-analysis-applications-institutional-research/common-data-set-2025-2026/",
   "at": "2026-11-09",
   "reason": "no CDS document found from https://usm.maine.edu/department-of-analysis-applications-institutional-research/common-data-set-2025-2026/"
+ },
+ "university-of-kansas": {
+  "url": "https://aire.ku.edu/common-data-set",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://aire.ku.edu/common-data-set"
+ },
+ "university-of-delaware": {
+  "url": "https://ire.udel.edu/common-data-set/",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://ire.udel.edu/common-data-set/"
+ },
+ "columbia-university-in-the-city-of-new-york": {
+  "url": "https://opir.columbia.edu/cds",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://opir.columbia.edu/cds"
+ },
+ "haverford-college": {
+  "url": "https://www.haverford.edu/president/institutional-effectiveness/institutional-research",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://www.haverford.edu/president/institutional-effectiveness/institutional-research"
+ },
+ "depaul-university": {
+  "url": "https://irma.depaul.edu/FFPlus.asp?cont=cds",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://irma.depaul.edu/FFPlus.asp?cont=cds"
+ },
+ "college-of-charleston": {
+  "url": "https://charleston.edu/institutional-research/files/documents/common-data/freshmen-admission.pdf",
+  "at": "2026-11-13",
+  "reason": "document failed to load (HTTP 0)"
+ },
+ "pace-university": {
+  "url": "https://www.pace.edu/opair/university-facts-and-figures",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://www.pace.edu/opair/university-facts-and-figures"
+ },
+ "university-of-northern-iowa": {
+  "url": "https://ie.uni.edu/sites/default/files/inline-uploads/CDS-2025-2026_Final.pdf",
+  "at": "2026-11-13",
+  "reason": "document failed to load (HTTP 200)"
+ },
+ "bentley-university": {
+  "url": "https://www.bentley.edu/academics/offices/provost/ie-data",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://www.bentley.edu/academics/offices/provost/ie-data"
+ },
+ "slippery-rock-university-of-pennsylvania": {
+  "url": "https://www.sru.edu/offices/analytics-and-decision-support/reports",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://www.sru.edu/offices/analytics-and-decision-support/reports"
+ },
+ "butler-university": {
+  "url": "https://www.butler.edu/academics/institutional-research/about-institutional-research/common-data-set/",
+  "at": "2026-11-13",
+  "reason": "document failed to load (HTTP 464)"
+ },
+ "suny-college-at-geneseo": {
+  "url": "https://www.geneseo.edu/ire/common_data_set/",
+  "at": "2026-11-13",
+  "reason": "no CDS document found from https://www.geneseo.edu/ire/common_data_set/"
  }
 }

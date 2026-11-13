@@ -1,107 +1,114 @@
 {
   "slug": "tennessee-technological-university",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2023-2024",
-    "url": "https://www.tntech.edu/iare/pdf/institutional_research/CDS_2023_2024.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.tntech.edu/iare/pdf/institutional_research/CDS-PDF-2025-2026_ADA.pdf"
   },
-  "sourceUrl": "https://www.tntech.edu/iare/pdf/institutional_research/CDS_2023_2024.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.tntech.edu/iare/institutional_research/specialized_reports.php",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
-    "rank_top10_pct": {
-      "value": 30.4,
-      "quote": "percent in top tenth of high school graduating class 30.4%"
-    },
-    "rank_top25_pct": {
-      "value": 60.2,
-      "quote": "percent in top quarter of high school graduating class 60.2%"
-    },
     "gpa_400_pct": {
-      "value": 35.8,
-      "quote": "percent who had gpa of 4.0 35.8% 35.8%"
-    },
-    "gpa_375_pct": {
-      "value": 22.9,
-      "quote": "percent who had gpa between 3.75 and 3.99 22.9% 22.9%"
-    },
-    "gpa_350_pct": {
-      "value": 15.1,
-      "quote": "percent who had gpa between 3.50 and 3.74 15.1% 15.1%"
-    },
-    "gpa_325_pct": {
-      "value": 10.5,
-      "quote": "percent who had gpa between 3.25 and 3.49 10.5% 10.5%"
-    },
-    "gpa_300_pct": {
-      "value": 7.4,
-      "quote": "percent who had gpa between 3.00 and 3.24 7.4% 7.4%"
-    },
-    "gpa_250_pct": {
-      "value": 5.8,
-      "quote": "percent who had gpa between 2.50 and 2.99 5.8% 5.8%"
-    },
-    "gpa_200_pct": {
-      "value": 1.4,
-      "quote": "percent who had gpa between 2.0 and 2.49 1.4% 1.4%"
-    },
-    "gpa_100_pct": {
-      "value": 0.1,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.1% 0.1%"
-    },
-    "gpa_below1_pct": {
-      "value": 1,
-      "quote": "percent who had gpa below 1.0 0.0% 1.0% 1.0%"
+      "value": 38,
+      "quote": "percent who had gpa of 4.0 38% 10% 36.82%"
     },
     "gpa_average": {
-      "value": 3.7,
-      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.7"
+      "value": 3.72,
+      "quote": "average high school gpa of all degree-seeking, c12 3.72"
     },
-    "gpa_submit_pct": {
-      "value": 99,
-      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.0%"
+    "applied_total": {
+      "value": 10892,
+      "quote": "total first-time, first-year males who applied 5102 / total first-time, first-year females who applied 5790 / total first-time, first-year students of unknown sex 0 who applied",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 8568,
+      "quote": "total first-time, first-year males who were admitted 4010 / total first-time, first-year females who were 4558 admitted / total first-time, first-year students of unknown sex 0 who were admitted",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 2028,
+      "quote": "total first-time, first-year males who enrolled 1151 / total first-time, first-year females who enrolled 877 / total first-time, first-year students of unknown sex 0 who enrolled",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 1000,
-      "quote": "sat composite (400 - 1600) 1000 1130 1240"
+      "value": 1040,
+      "quote": "sat composite 1040 1160 1270"
     },
     "sat_p50": {
-      "value": 1130,
-      "quote": "sat composite (400 - 1600) 1000 1130 1240"
+      "value": 1160,
+      "quote": "sat composite 1040 1160 1270"
     },
     "sat_p75": {
-      "value": 1240,
-      "quote": "sat composite (400 - 1600) 1000 1130 1240"
+      "value": 1270,
+      "quote": "sat composite 1040 1160 1270"
     },
     "act_p25": {
-      "value": 20,
-      "quote": "act composite (0 - 36) 20 23 27"
+      "value": 21,
+      "quote": "act composite 21 24 27"
     },
     "act_p50": {
-      "value": 23,
-      "quote": "act composite (0 - 36) 20 23 27"
+      "value": 24,
+      "quote": "act composite 21 24 27"
     },
     "act_p75": {
       "value": 27,
-      "quote": "act composite (0 - 36) 20 23 27"
+      "quote": "act composite 21 24 27"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
     },
     "transfer_applied": {
-      "value": 1456,
-      "quote": "D2 total 1456 1062 570"
+      "value": 1669,
+      "quote": "D2 total 1,669 1,164 561"
     },
     "transfer_admitted": {
-      "value": 1062,
-      "quote": "D2 total 1456 1062 570"
+      "value": 1164,
+      "quote": "D2 total 1,669 1,164 561"
     },
     "transfer_enrolled": {
-      "value": 570,
-      "quote": "D2 total 1456 1062 570"
-    },
-    "deferral_allowed": {
-      "value": "no",
-      "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+      "value": 561,
+      "quote": "D2 total 1,669 1,164 561"
     }
   },
   "concerns": null

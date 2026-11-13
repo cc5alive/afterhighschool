@@ -1,107 +1,143 @@
 {
   "slug": "carnegie-mellon-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2026-2027",
   "source": {
-    "title": "CARNEGIE MELLON UNIVERSITY COMMON DATA SET 2024-2025",
-    "url": "https://www.cmu.edu/ira/CDS/pdf/cds_2024-25/common-data-set-2024-2025-26jun2025.pdf"
+    "title": "CARNEGIE MELLON UNIVERSITY COMMON DATA SET 2026-2027",
+    "url": "https://www.cmu.edu/ira/CDS/pdf/cds_2026-27/cds_2026_c-first-year-first-time-admission.pdf"
   },
-  "sourceUrl": "https://www.cmu.edu/ira/CDS/pdf/cds_2024-25/common-data-set-2024-2025-26jun2025.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://www.cmu.edu/ira/CDS/pdf/cds_2026-27/cds_2026_c-first-year-first-time-admission.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
+    "waitlist_admitted": {
+      "value": 73,
+      "quote": "number of wait-listed students admitted: 73"
+    },
     "rank_top10_pct": {
-      "value": 94.2,
-      "quote": "percent in top tenth of high school graduating class 94.2%"
+      "value": 8,
+      "quote": "percent in top tenth of high school graduating class: 8 1.4 %"
     },
     "rank_top25_pct": {
-      "value": 97.9,
-      "quote": "percent in top quarter of high school graduating class 97.9%"
+      "value": 9,
+      "quote": "percent in top quarter of high school graduating class: 9 6.6 %"
     },
     "gpa_400_pct": {
-      "value": 46.9,
-      "quote": "percent who had gpa of 4.0 46.9%"
-    },
-    "gpa_350_pct": {
-      "value": 11.3,
-      "quote": "percent who had gpa between 3.50 and 3.74 11.3%"
-    },
-    "gpa_325_pct": {
-      "value": 2.6,
-      "quote": "percent who had gpa between 3.25 and 3.49 2.6%"
-    },
-    "gpa_300_pct": {
-      "value": 0.3,
-      "quote": "percent who had gpa between 3.00 and 3.24 0.3%"
-    },
-    "gpa_250_pct": {
-      "value": 0.4,
-      "quote": "percent who had gpa between 2.50 and 2.99 0.4%"
-    },
-    "gpa_200_pct": {
-      "value": 0.06,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.06%"
-    },
-    "gpa_100_pct": {
-      "value": 0.06,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.06%"
+      "value": 4,
+      "quote": "percent who had gpa of 4.0: 4 6.4 %"
     },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0.0%"
     },
     "gpa_average": {
-      "value": 3.89,
-      "quote": "average high school gpa of all degree - seeking, first - time, first - year (freshman) students who submitted gpa 3.89"
+      "value": 3.97,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year, (freshman) students who submitted gpa: 3.97"
     },
     "ed_applied": {
-      "value": 4423,
-      "quote": "number of early decision applications received by your institution: 4,423"
+      "value": 2422,
+      "quote": "number of early decision applications received by your institution: 2,422"
     },
     "ed_admitted": {
-      "value": 612,
-      "quote": "number of applicants admitted under early decision plan : 612"
+      "value": 559,
+      "quote": "number of applicants admitted under early decision plan: 559"
     },
     "sat_p25": {
-      "value": 1510,
-      "quote": "sat composite 1510 1540 1560"
+      "value": 1500,
+      "quote": "sat composite 1500 1540 1560"
     },
     "sat_p50": {
       "value": 1540,
-      "quote": "sat composite 1510 1540 1560"
+      "quote": "sat composite 1500 1540 1560"
     },
     "sat_p75": {
       "value": 1560,
-      "quote": "sat composite 1510 1540 1560"
+      "quote": "sat composite 1500 1540 1560"
     },
     "act_p25": {
       "value": 34,
-      "quote": "act composite 34 35 35"
+      "quote": "act composite 34 35 36"
     },
     "act_p50": {
       "value": 35,
-      "quote": "act composite 34 35 35"
+      "quote": "act composite 34 35 36"
     },
     "act_p75": {
-      "value": 35,
-      "quote": "act composite 34 35 35"
+      "value": 36,
+      "quote": "act composite 34 35 36"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Very Important",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Very Important",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Important",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Very Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Important",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Very Important",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
     },
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
-    },
-    "transfer_applied": {
-      "value": 1688,
-      "quote": "D2 total 1,688 94 37"
-    },
-    "transfer_admitted": {
-      "value": 94,
-      "quote": "D2 total 1,688 94 37"
-    },
-    "transfer_enrolled": {
-      "value": 37,
-      "quote": "D2 total 1,688 94 37"
     },
     "deferral_allowed": {
       "value": "yes",

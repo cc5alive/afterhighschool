@@ -1,152 +1,15 @@
 {
   "slug": "babson-college",
-  "cdsYear": null,
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf"
+    "title": "CDS-2025-2026.pdf",
+    "url": "https://www.babson.edu/media/babson/assets/rankings/CDS-2025-2026.pdf"
   },
-  "sourceUrl": "https://www.babson.edu/media/babson/assets/rankings/babson-college-common-data-set.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://www.babson.edu/media/babson/assets/rankings/CDS-2025-2026.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
-  "values": {
-    "applied_total": {
-      "value": 9381,
-      "quote": "total first-time, first-year (degree-seeking) who applied 1315 4635 3388 43 9381"
-    },
-    "admitted_total": {
-      "value": 1603,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 237 951 408 7 1603"
-    },
-    "enrolled_total": {
-      "value": 625,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 105 347 166 7 625"
-    },
-    "waitlist_admitted": {
-      "value": 105,
-      "quote": "number of wait-listed students admitted: 105"
-    },
-    "ed_applied": {
-      "value": 1109,
-      "quote": "number of early decision applications received by your institution: 1109"
-    },
-    "ed_admitted": {
-      "value": 305,
-      "quote": "number of applicants admitted under early decision plan: 305"
-    },
-    "sat_p25": {
-      "value": 1410,
-      "quote": "sat composite 1410 1460 1500"
-    },
-    "sat_p50": {
-      "value": 1460,
-      "quote": "sat composite 1410 1460 1500"
-    },
-    "sat_p75": {
-      "value": 1500,
-      "quote": "sat composite 1410 1460 1500"
-    },
-    "act_p25": {
-      "value": 31,
-      "quote": "act composite 31 32 34"
-    },
-    "act_p50": {
-      "value": 32,
-      "quote": "act composite 31 32 34"
-    },
-    "act_p75": {
-      "value": 34,
-      "quote": "act composite 31 32 34"
-    },
-    "factor_rigor": {
-      "value": "Very Important",
-      "quote": "Rigor of secondary school record"
-    },
-    "factor_class_rank": {
-      "value": "Very Important",
-      "quote": "Class rank"
-    },
-    "factor_gpa": {
-      "value": "Very Important",
-      "quote": "Academic GPA"
-    },
-    "factor_test_scores": {
-      "value": "Very Important",
-      "quote": "Standardized test scores"
-    },
-    "factor_essay": {
-      "value": "Very Important",
-      "quote": "Application Essay"
-    },
-    "factor_recommendations": {
-      "value": "Very Important",
-      "quote": "Recommendation(s)"
-    },
-    "factor_interview": {
-      "value": "Considered",
-      "quote": "Interview"
-    },
-    "factor_extracurriculars": {
-      "value": "Very Important",
-      "quote": "Extracurricular activities"
-    },
-    "factor_talent": {
-      "value": "Considered",
-      "quote": "Talent/ability"
-    },
-    "factor_character": {
-      "value": "Very Important",
-      "quote": "Character/personal qualities"
-    },
-    "factor_first_generation": {
-      "value": "Considered",
-      "quote": "First generation"
-    },
-    "factor_alumni": {
-      "value": "Considered",
-      "quote": "Alumni/ae relation"
-    },
-    "factor_geography": {
-      "value": "Considered",
-      "quote": "Geographical residence"
-    },
-    "factor_state_residency": {
-      "value": "Considered",
-      "quote": "State residency"
-    },
-    "factor_religion": {
-      "value": "Not Considered",
-      "quote": "Religious affiliation/commitment"
-    },
-    "factor_volunteer": {
-      "value": "Considered",
-      "quote": "Volunteer work"
-    },
-    "factor_work": {
-      "value": "Considered",
-      "quote": "Work experience"
-    },
-    "factor_interest": {
-      "value": "Considered",
-      "quote": "Level of applicant's interest"
-    },
-    "transfer_applied": {
-      "value": 543,
-      "quote": "D2 total 543 126 55"
-    },
-    "transfer_admitted": {
-      "value": 126,
-      "quote": "D2 total 543 126 55"
-    },
-    "transfer_enrolled": {
-      "value": 55,
-      "quote": "D2 total 543 126 55"
-    },
-    "ed_offered": {
-      "value": "yes",
-      "quote": null
-    }
-  },
-  "concerns": null
+  "values": {},
+  "concerns": "no CDS values recognized (document may be scanned or laid out unusually)"
 }

@@ -1,0 +1,120 @@
+{
+  "slug": "indiana-university-bloomington",
+  "cdsYear": "2025-2026",
+  "source": {
+    "title": "C. First-Time, First-Year Admission",
+    "url": "https://iuapps.iu.edu/cds/?i=home&p=index&section=C.+First-Time%2C+First-Year+Admission&year=2025"
+  },
+  "sourceUrl": "https://iuapps.iu.edu/cds/?i=home&p=index&section=C.+First-Time%2C+First-Year+Admission&year=2025",
+  "researchedAt": "2026-11-13",
+  "extractedBy": "extract-cds",
+  "readerVersion": 11,
+  "docKind": "html",
+  "values": {
+    "applied_total": {
+      "value": 74077,
+      "quote": "total first-time, first-year (degree-seeking) who applied 17,458 50,700 5,919 0 74,077"
+    },
+    "admitted_total": {
+      "value": 56218,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 12,612 39,841 3,765 0 56,218"
+    },
+    "enrolled_total": {
+      "value": 10127,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 5,073 4,697 357 0 10,127"
+    },
+    "waitlist_admitted": {
+      "value": 97,
+      "quote": "number of wait-listed students admitted 97"
+    },
+    "sat_submit_pct": {
+      "value": 43.2,
+      "quote": "percent submitting sat scores 43.2%"
+    },
+    "act_submit_pct": {
+      "value": 14.8,
+      "quote": "percent submitting act scores 14.8%"
+    },
+    "rank_top10_pct": {
+      "value": 31.1,
+      "quote": "percent in top tenth of high school graduating class 31.1%"
+    },
+    "rank_top25_pct": {
+      "value": 62.7,
+      "quote": "percent in top quarter of high school graduating class 62.7%"
+    },
+    "rank_submit_pct": {
+      "value": 27,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank: 27.0%"
+    },
+    "gpa_400_pct": {
+      "value": 43.78,
+      "quote": "percent who had gpa of 4.0 55.17% 29.45% 43.78%"
+    },
+    "gpa_375_pct": {
+      "value": 25.04,
+      "quote": "percent who had gpa between 3.75 and 3.99 23.74% 26.68% 25.04%"
+    },
+    "gpa_350_pct": {
+      "value": 16.39,
+      "quote": "percent who had gpa between 3.50 and 3.74 11.88% 22.06% 16.39%"
+    },
+    "gpa_325_pct": {
+      "value": 9.35,
+      "quote": "percent who had gpa between 3.25 and 3.49 6.05% 13.49% 9.35%"
+    },
+    "gpa_300_pct": {
+      "value": 4.69,
+      "quote": "percent who had gpa between 3.00 and 3.24 2.90% 6.95% 4.69%"
+    },
+    "gpa_250_pct": {
+      "value": 0.74,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.26% 1.34% 0.74%"
+    },
+    "gpa_200_pct": {
+      "value": 0.01,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00% 0.02% 0.01%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00% 0.00% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0.00% 0.00% 0.00%"
+    },
+    "gpa_average": {
+      "value": 3.8,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.8"
+    },
+    "gpa_submit_pct": {
+      "value": 94.94,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 94.94%"
+    },
+    "sat_p25": {
+      "value": 1200,
+      "quote": "sat composite 1200 1310 1410"
+    },
+    "sat_p50": {
+      "value": 1310,
+      "quote": "sat composite 1200 1310 1410"
+    },
+    "sat_p75": {
+      "value": 1410,
+      "quote": "sat composite 1200 1310 1410"
+    },
+    "act_p25": {
+      "value": 28,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p50": {
+      "value": 31,
+      "quote": "act composite 28 31 33"
+    },
+    "act_p75": {
+      "value": 33,
+      "quote": "act composite 28 31 33"
+    }
+  },
+  "concerns": null
+}

@@ -1,12 +1,12 @@
 {
   "slug": "california-state-university-chico",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "California State University, Chico Common Data Set 2023-2024",
-    "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2024.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2026.pdf"
   },
-  "sourceUrl": "https://www.csuchico.edu/ir/_assets/documents/cds-2024.pdf",
-  "researchedAt": "2026-11-07",
+  "sourceUrl": "https://www.csuchico.edu/ir/additional-data/common-data-set.shtml",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
@@ -20,48 +20,56 @@
       "quote": "percent in top quarter of high school graduating class 75%"
     },
     "gpa_400_pct": {
-      "value": 12,
-      "quote": "percent who had gpa of 4.0 12.0 0 12.0"
+      "value": 1,
+      "quote": "percent who had gpa of 4.0 1 1 . 0 0 1 1 . 0"
     },
     "gpa_375_pct": {
-      "value": 15.3,
-      "quote": "percent who had gpa between 3.75 and 3.99 15.3 0 15.3"
+      "value": 1,
+      "quote": "percent who had gpa between 3.75 and 3.99 1 5 . 1 0 1 5 . 1"
     },
     "gpa_350_pct": {
-      "value": 17.2,
-      "quote": "percent who had gpa between 3.50 and 3.74 17.2 0 17.2"
+      "value": 17,
+      "quote": "percent who had gpa between 3.50 and 3.74 17.0 0 17.0"
     },
     "gpa_325_pct": {
-      "value": 17,
-      "quote": "percent who had gpa between 3.25 and 3.49 17.0 0 17.0"
+      "value": 1,
+      "quote": "percent who had gpa between 3.25 and 3.49 1 7 . 7 0 1 7 . 7"
     },
     "gpa_300_pct": {
-      "value": 18.8,
-      "quote": "percent who had gpa between 3.00 and 3.24 18.8 0 18.8"
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1 7 . 8 0 1 7 . 8"
     },
     "gpa_250_pct": {
-      "value": 18.4,
-      "quote": "percent who had gpa between 2.50 and 2.99 18.4 0 18.4"
+      "value": 2,
+      "quote": "percent who had gpa between 2.50 and 2.99 2 0 . 2 0 2 0 . 2"
     },
     "gpa_200_pct": {
-      "value": 1.2,
-      "quote": "percent who had gpa between 2.0 and 2.49 1.2 0 1.2"
+      "value": 2,
+      "quote": "percent who had gpa between 2.0 and 2.49 1. 2 0 1. 2"
     },
     "gpa_100_pct": {
-      "value": 0.1,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.1 0 0.1"
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.0 0 0.0"
     },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0 0 0"
     },
-    "gpa_average": {
-      "value": 3.4,
-      "quote": "c12. average high school gpa of all degree - seeking, first - time, first - year students who submitted gpa: average high school gpa 3.4 0"
-    },
     "gpa_submit_pct": {
-      "value": 100,
-      "quote": "percent submitting gpa 100 %"
+      "value": 99.9,
+      "quote": "percent submitting gpa 99.9 %"
+    },
+    "act_p25": {
+      "value": 19,
+      "quote": "act composite 19 20 26"
+    },
+    "act_p50": {
+      "value": 20,
+      "quote": "act composite 19 20 26"
+    },
+    "act_p75": {
+      "value": 26,
+      "quote": "act composite 19 20 26"
     },
     "factor_rigor": {
       "value": "Not Considered",
@@ -134,18 +142,6 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
-    },
-    "transfer_applied": {
-      "value": 8393,
-      "quote": "D2 total 8,393 6,377 1,800"
-    },
-    "transfer_admitted": {
-      "value": 6377,
-      "quote": "D2 total 8,393 6,377 1,800"
-    },
-    "transfer_enrolled": {
-      "value": 1800,
-      "quote": "D2 total 8,393 6,377 1,800"
     },
     "deferral_allowed": {
       "value": "yes",

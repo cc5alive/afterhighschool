@@ -1,87 +1,87 @@
 {
   "slug": "skidmore-college",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://www.skidmore.edu/ir/facts/common/CDS_2024-25.pdf"
+    "title": "Skidmore College Common Data Set 2025-2026",
+    "url": "https://www.skidmore.edu/ir/facts/common/cds-2025-26.pdf"
   },
-  "sourceUrl": "https://www.skidmore.edu/ir/facts/common/CDS_2024-25.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://www.skidmore.edu/ir/facts/common/cds-2025-26.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 11889,
-      "quote": "total first-time, first-year (degree-seeking) who applied 11,889"
+      "value": 12273,
+      "quote": "total first-time, first-year (degree-seeking) who applied 12,273"
     },
     "admitted_total": {
-      "value": 2503,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 2,503"
+      "value": 2917,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2,917"
     },
     "enrolled_total": {
-      "value": 670,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 670"
+      "value": 692,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 692"
     },
     "waitlist_admitted": {
-      "value": 79,
-      "quote": "number of wait-listed students admitted: 79"
+      "value": 35,
+      "quote": "number of wait-listed students admitted: 35"
     },
     "rank_top10_pct": {
-      "value": 37,
-      "quote": "percent in top tenth of high school graduating class 37% 37% 41/110"
+      "value": 45,
+      "quote": "percent in top tenth of high school graduating class 45% 45% 54/119"
     },
     "rank_top25_pct": {
-      "value": 76,
-      "quote": "percent in top quarter of high school graduating class 76% 76% 84/110"
+      "value": 70,
+      "quote": "percent in top quarter of high school graduating class 70% 70% 83/119"
     },
     "gpa_300_pct": {
-      "value": 63.9,
-      "quote": "percent who had gpa between 3.00 and 3.24 n/a public/charter 63.9% 428/670"
+      "value": 63,
+      "quote": "percent who had gpa between 3.00 and 3.24 n/a public/charter 63.0%"
     },
     "gpa_250_pct": {
-      "value": 27.8,
-      "quote": "percent who had gpa between 2.50 and 2.99 n/a private 27.8% 186/670"
+      "value": 29,
+      "quote": "percent who had gpa between 2.50 and 2.99 n/a private 29.0%"
     },
     "gpa_200_pct": {
-      "value": 7.5,
-      "quote": "percent who had gpa between 2.0 and 2.49 n/a parochial 7.5% 50/670"
+      "value": 8,
+      "quote": "percent who had gpa between 2.0 and 2.49 n/a parochial 8.0%"
     },
     "gpa_100_pct": {
-      "value": 0.1,
-      "quote": "percent who had gpa between 1.0 and 1.99 other (e.g., n/a homeschool) 0.1% 1/670"
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 other (e.g., n/a homeschool) 0.0%"
     },
     "ed_applied": {
-      "value": 848,
-      "quote": "number of early decision applications received by your institution 848"
+      "value": 847,
+      "quote": "number of early decision applications received by your institution 847 accepted and possibly enrolled were excluded from"
     },
     "ed_admitted": {
-      "value": 351,
-      "quote": "number of applicants admitted under early decision plan 351"
+      "value": 359,
+      "quote": "number of applicants admitted under early decision plan 359 the above table. stats on these apps:"
     },
     "sat_p25": {
-      "value": 1350,
-      "quote": "sat composite 1350 1400 1450 1398"
+      "value": 1360,
+      "quote": "sat composite 1360 1400 1460 1402"
     },
     "sat_p50": {
       "value": 1400,
-      "quote": "sat composite 1350 1400 1450 1398"
+      "quote": "sat composite 1360 1400 1460 1402"
     },
     "sat_p75": {
-      "value": 1450,
-      "quote": "sat composite 1350 1400 1450 1398"
+      "value": 1460,
+      "quote": "sat composite 1360 1400 1460 1402"
     },
     "act_p25": {
       "value": 31,
-      "quote": "act composite 31 32 34 32"
+      "quote": "act composite 31 33 34 32"
     },
     "act_p50": {
-      "value": 32,
-      "quote": "act composite 31 32 34 32"
+      "value": 33,
+      "quote": "act composite 31 33 34 32"
     },
     "act_p75": {
       "value": 34,
-      "quote": "act composite 31 32 34 32"
+      "quote": "act composite 31 33 34 32"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -156,16 +156,16 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 183,
-      "quote": "D2 total 183 72 29"
+      "value": 160,
+      "quote": "D2 total 160 63 20"
     },
     "transfer_admitted": {
-      "value": 72,
-      "quote": "D2 total 183 72 29"
+      "value": 63,
+      "quote": "D2 total 160 63 20"
     },
     "transfer_enrolled": {
-      "value": 29,
-      "quote": "D2 total 183 72 29"
+      "value": 20,
+      "quote": "D2 total 160 63 20"
     },
     "ed_offered": {
       "value": "yes",

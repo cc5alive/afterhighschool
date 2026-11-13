@@ -1,79 +1,49 @@
 {
   "slug": "university-of-south-alabama",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://www.southalabama.edu/departments/institutionalresearch/resources/usa-cds-2024-2025.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.southalabama.edu/departments/institutionalresearch/resources/usa-cds-2025-2026.pdf"
   },
-  "sourceUrl": "https://www.southalabama.edu/departments/institutionalresearch/resources/usa-cds-2024-2025.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.southalabama.edu/departments/institutionalresearch/commondataset.html",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
-    "applied_total": {
-      "value": 9906,
-      "quote": "total first-time, first-year who applied 9,906"
-    },
-    "admitted_total": {
-      "value": 9222,
-      "quote": "total first-time, first-year who were admitted 9,222"
-    },
     "enrolled_total": {
-      "value": 1939,
-      "quote": "total first-time, first-year who enrolled 1,939"
-    },
-    "gpa_400_pct": {
-      "value": 33,
-      "quote": "percent who had gpa of 4.0 33%"
-    },
-    "gpa_375_pct": {
-      "value": 18,
-      "quote": "percent who had gpa between 3.75 and 3.99 18%"
-    },
-    "gpa_350_pct": {
-      "value": 18,
-      "quote": "percent who had gpa between 3.50 and 3.74 18%"
-    },
-    "gpa_325_pct": {
-      "value": 13,
-      "quote": "percent who had gpa between 3.25 and 3.49 13%"
-    },
-    "gpa_300_pct": {
-      "value": 10,
-      "quote": "percent who had gpa between 3.00 and 3.24 10%"
-    },
-    "gpa_250_pct": {
-      "value": 7,
-      "quote": "percent who had gpa between 2.50 and 2.99 7%"
-    },
-    "gpa_200_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 2.0 and 2.49 1%"
-    },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0%"
-    },
-    "gpa_below1_pct": {
-      "value": 0,
-      "quote": "percent who had gpa below 1.0 0%"
+      "value": 2137,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1524 600 13 0 2137"
     },
     "gpa_average": {
-      "value": 3.73,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.73"
+      "value": 3.75,
+      "quote": "average high school gpa 3.75"
+    },
+    "gpa_submit_pct": {
+      "value": 99.81,
+      "quote": "percent submitting gpa 99.81"
+    },
+    "applied_total": {
+      "value": 10360,
+      "quote": "total first-time, first-year men who applied 3506 / total first-time, first-year women who applied 6854",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 9795,
+      "quote": "total first-time, first-year men who were admitted 3273 / total first-time, first-year women who were admitted 6522",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 990,
-      "quote": "sat composite 990 1090 1180"
+      "value": 1010,
+      "quote": "sat composite 1010 1090 1200"
     },
     "sat_p50": {
       "value": 1090,
-      "quote": "sat composite 990 1090 1180"
+      "quote": "sat composite 1010 1090 1200"
     },
     "sat_p75": {
-      "value": 1180,
-      "quote": "sat composite 990 1090 1180"
+      "value": 1200,
+      "quote": "sat composite 1010 1090 1200"
     },
     "act_p25": {
       "value": 20,
@@ -159,17 +129,9 @@
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
     },
-    "transfer_applied": {
-      "value": 2492,
-      "quote": "D2 total 2,492 1,460 842"
-    },
-    "transfer_admitted": {
-      "value": 1460,
-      "quote": "D2 total 2,492 1,460 842"
-    },
-    "transfer_enrolled": {
-      "value": 842,
-      "quote": "D2 total 2,492 1,460 842"
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ yes տ ✔ no 1\u0012$"
     }
   },
   "concerns": null

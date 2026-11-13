@@ -1,64 +1,36 @@
 {
   "slug": "university-of-southern-mississippi",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025 - The University of Southern Mississippi",
-    "url": "https://www.usm.edu/institutional-research/cds_2024_2025_final.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.usm.edu/institutional-research/commondatasets2025-26final.pdf"
   },
-  "sourceUrl": "https://www.usm.edu/institutional-research/cds_2024_2025_final.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.usm.edu/institutional-research/data-at-a-glance.php",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
-      "value": 1731,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 1147 384 200 1731"
-    },
-    "gpa_400_pct": {
-      "value": 16.24,
-      "quote": "percent who had gpa of 4.0 16.35 8.33 16.24"
-    },
-    "gpa_375_pct": {
-      "value": 22.48,
-      "quote": "percent who had gpa between 3.75 and 3.99 22.75 4.18 22.48"
-    },
-    "gpa_350_pct": {
-      "value": 18.42,
-      "quote": "percent who had gpa between 3.50 and 3.74 18.5 12.5 18.42"
-    },
-    "gpa_325_pct": {
-      "value": 13.31,
-      "quote": "percent who had gpa between 3.25 and 3.49 13.21 20.83 13.31"
-    },
-    "gpa_300_pct": {
-      "value": 12.79,
-      "quote": "percent who had gpa between 3.00 and 3.24 12.68 20.83 12.79"
-    },
-    "gpa_250_pct": {
-      "value": 10.33,
-      "quote": "percent who had gpa between 2.50 and 2.99 10.18 20.83 10.33"
-    },
-    "gpa_200_pct": {
-      "value": 6.43,
-      "quote": "percent who had gpa between 2.0 and 2.49 6.33 12.5 6.43"
+      "value": 1775,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1193 416 166 1775"
     },
     "gpa_average": {
-      "value": 3.46,
-      "quote": "average high school gpa 3.46"
+      "value": 3.63,
+      "quote": "average high school gpa 3.63"
     },
     "gpa_submit_pct": {
-      "value": 99.89,
-      "quote": "percent submitting gpa 99.89"
+      "value": 99.83,
+      "quote": "percent submitting gpa 99.83"
     },
     "applied_total": {
-      "value": 7048,
-      "quote": "total first-time, first-year men who applied 2582 / total first-time, first-year women who applied 4466 / total first-time, first-year of another gender who applied / total first-time, first-year of unknown gender who applied",
+      "value": 7308,
+      "quote": "total first-time, first-year men who applied 2711 / total first-time, first-year women who applied 4597",
       "how": "sum of gender rows"
     },
     "admitted_total": {
-      "value": 6986,
-      "quote": "total first-time, first-year men who were admitted 2551 / total first-time, first-year women who were admitted 4435 / total first-time, first-year of another gender who were admitted / total first-time, first-year of unknown gender who were admitted",
+      "value": 6767,
+      "quote": "total first-time, first-year men who were admitted 2526 / total first-time, first-year women who were admitted 4241",
       "how": "sum of gender rows"
     },
     "act_p25": {
@@ -145,17 +117,9 @@
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
     },
-    "transfer_applied": {
-      "value": 2240,
-      "quote": "D2 total 2240 2136 1473"
-    },
-    "transfer_admitted": {
-      "value": 2136,
-      "quote": "D2 total 2240 2136 1473"
-    },
-    "transfer_enrolled": {
-      "value": 1473,
-      "quote": "D2 total 2240 2136 1473"
+    "deferral_allowed": {
+      "value": "no",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? տ yes տ ✔ no 1\u0012$"
     }
   },
   "concerns": null

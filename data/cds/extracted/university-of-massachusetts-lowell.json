@@ -1,59 +1,67 @@
 {
   "slug": "university-of-massachusetts-lowell",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2024-2025",
   "source": {
-    "title": "UMass Lowell Common Data Set 2023-2024 4/12/2024 1",
-    "url": "https://www.uml.edu/docs/CDS_2023-2024_UMass_Lowell_%284-12-24%29_tcm18-383430.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.uml.edu/docs/CDS_2024-2025%20Final_tcm18-403507.pdf"
   },
-  "sourceUrl": "https://www.uml.edu/docs/CDS_2023-2024_UMass_Lowell_%284-12-24%29_tcm18-383430.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.uml.edu/institutional-research/common-data-set.aspx",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 13676,
+      "quote": "total first-time, first-year who applied 13,676 10,271 2,783 622 0"
+    },
     "admitted_total": {
-      "value": 10644,
-      "quote": "total first-time, first-year who were admitted 8048 1991 605 0 10644"
+      "value": 11345,
+      "quote": "total first-time, first-year who were admitted 11,345 8,503 2,296 546 0"
+    },
+    "enrolled_total": {
+      "value": 2011,
+      "quote": "total first-time, first-year who enrolled 2,011 1,778 193 40 0"
     },
     "waitlist_admitted": {
-      "value": 121,
-      "quote": "number of wait-listed students admitted: 121"
+      "value": 45,
+      "quote": "number of wait-listed students admitted: 45"
     },
     "rank_top10_pct": {
-      "value": 18,
-      "quote": "percent in top tenth of high school graduating class 18%"
+      "value": 22,
+      "quote": "percent in top tenth of high school graduating class 22%"
     },
     "rank_top25_pct": {
-      "value": 48,
-      "quote": "percent in top quarter of high school graduating class 48%"
+      "value": 50,
+      "quote": "percent in top quarter of high school graduating class 50%"
     },
     "gpa_400_pct": {
-      "value": 29.36,
-      "quote": "percent who had gpa of 4.0 35.28% 26.54% 29.36%"
+      "value": 32.62,
+      "quote": "percent who had gpa of 4.0 41.33% 29.17% 32.62%"
     },
     "gpa_375_pct": {
-      "value": 17.67,
-      "quote": "percent who had gpa between 3.75 and 3.99 16.10% 18.42% 17.67%"
+      "value": 15.76,
+      "quote": "percent who had gpa between 3.75 and 3.99 14.89% 16.11% 15.76%"
     },
     "gpa_350_pct": {
-      "value": 18.76,
-      "quote": "percent who had gpa between 3.50 and 3.74 17.18% 19.52% 18.76%"
+      "value": 15.27,
+      "quote": "percent who had gpa between 3.50 and 3.74 13.66% 15.90% 15.27%"
     },
     "gpa_325_pct": {
-      "value": 16.14,
-      "quote": "percent who had gpa between 3.25 and 3.49 15.03% 16.67% 16.14%"
+      "value": 16.46,
+      "quote": "percent who had gpa between 3.25 and 3.49 12.43% 18.06% 16.46%"
     },
     "gpa_300_pct": {
-      "value": 12.92,
-      "quote": "percent who had gpa between 3.00 and 3.24 9.36% 14.62% 12.92%"
+      "value": 14.77,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.16% 16.60% 14.77%"
     },
     "gpa_250_pct": {
-      "value": 5.05,
-      "quote": "percent who had gpa between 2.50 and 2.99 7.06% 4.09% 5.05%"
+      "value": 5.02,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.53% 4.03% 5.02%"
     },
     "gpa_200_pct": {
       "value": 0.1,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.00% 0.15% 0.10%"
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00% 0.13% 0.10%"
     },
     "gpa_100_pct": {
       "value": 0,
@@ -65,36 +73,103 @@
     },
     "gpa_average": {
       "value": 3.72,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.72"
-    },
-    "applied_total": {
-      "value": 12497,
-      "quote": "total first-time, first-year men who applied 6623 / total first-time, first-year women who applied 5873 / total first-time, first-year another gender who applied 1",
-      "how": "sum of gender rows"
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.72"
     },
     "sat_p25": {
-      "value": 1190,
-      "quote": "sat composite 1190 1260 1320"
+      "value": 1200,
+      "quote": "sat composite 1200 1270 1360"
     },
     "sat_p50": {
-      "value": 1260,
-      "quote": "sat composite 1190 1260 1320"
+      "value": 1270,
+      "quote": "sat composite 1200 1270 1360"
     },
     "sat_p75": {
-      "value": 1320,
-      "quote": "sat composite 1190 1260 1320"
+      "value": 1360,
+      "quote": "sat composite 1200 1270 1360"
+    },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Important",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Important",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Important",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Important",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Considered",
+      "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 1500,
-      "quote": "D2 total 1500 1267 677"
+      "value": 1647,
+      "quote": "D2 total 1,647 1,384 673"
     },
     "transfer_admitted": {
-      "value": 1267,
-      "quote": "D2 total 1500 1267 677"
+      "value": 1384,
+      "quote": "D2 total 1,647 1,384 673"
     },
     "transfer_enrolled": {
-      "value": 677,
-      "quote": "D2 total 1500 1267 677"
+      "value": 673,
+      "quote": "D2 total 1,647 1,384 673"
     }
   },
   "concerns": null

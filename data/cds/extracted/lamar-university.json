@@ -1,47 +1,47 @@
 {
   "slug": "lamar-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://www.lamar.edu/data-analytics-reporting-analysis/_files/documents/2024-2025_common_data_set.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://www.lamar.edu/data-analytics-reporting-analysis/_files/documents/common-data-set-2025-2026.pdf"
   },
-  "sourceUrl": "https://www.lamar.edu/data-analytics-reporting-analysis/_files/documents/2024-2025_common_data_set.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.lamar.edu/data-analytics-reporting-analysis/_files/documents/common-data-set-2025-2026.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
-      "value": 15,
-      "quote": "percent in top tenth of high school graduating class 15"
+      "value": 18,
+      "quote": "percent in top tenth of high school graduating class 18"
     },
     "rank_top25_pct": {
-      "value": 40,
-      "quote": "percent in top quarter of high school graduating class 40"
+      "value": 41,
+      "quote": "percent in top quarter of high school graduating class 41"
     },
     "gpa_400_pct": {
-      "value": 7,
-      "quote": "percent who had gpa of 4.0 7 1 4"
+      "value": 40,
+      "quote": "percent who had gpa of 4.0 40 17 14"
     },
     "gpa_350_pct": {
-      "value": 24,
-      "quote": "percent who had gpa between 3.50 and 3.74 24 18 20"
+      "value": 14,
+      "quote": "percent who had gpa between 3.50 and 3.74 14 17 19"
     },
     "gpa_325_pct": {
-      "value": 15,
-      "quote": "percent who had gpa between 3.25 and 3.49 15 20 17"
+      "value": 10,
+      "quote": "percent who had gpa between 3.25 and 3.49 10 14 15"
     },
     "gpa_300_pct": {
-      "value": 11,
-      "quote": "percent who had gpa between 3.00 and 3.24 11 21 16"
+      "value": 7,
+      "quote": "percent who had gpa between 3.00 and 3.24 7 13 11"
     },
     "gpa_250_pct": {
-      "value": 11,
-      "quote": "percent who had gpa between 2.50 and 2.99 11 22 17"
+      "value": 7,
+      "quote": "percent who had gpa between 2.50 and 2.99 7 17 12"
     },
     "gpa_200_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 2.0 and 2.49 1 2 2"
+      "value": 3,
+      "quote": "percent who had gpa between 2.0 and 2.49 3 3 2"
     },
     "gpa_100_pct": {
       "value": 0,
@@ -51,25 +51,33 @@
       "value": 0,
       "quote": "percent who had gpa below 1.0 0 0 0"
     },
-    "gpa_average": {
-      "value": 3.4,
-      "quote": "c12 average high school gpa of all degree - seeking, first - time, first - year students who submitted gpa: average high school gpa 3.4"
-    },
     "gpa_submit_pct": {
       "value": 9,
-      "quote": "percent submitting gpa 9 9"
+      "quote": "percent submitting gpa 9 8"
     },
     "sat_p25": {
-      "value": 930,
-      "quote": "sat composite 930 1040 1140"
+      "value": 1060,
+      "quote": "sat composite 1060 1130 1210"
     },
     "sat_p50": {
-      "value": 1040,
-      "quote": "sat composite 930 1040 1140"
+      "value": 1130,
+      "quote": "sat composite 1060 1130 1210"
     },
     "sat_p75": {
-      "value": 1140,
-      "quote": "sat composite 930 1040 1140"
+      "value": 1210,
+      "quote": "sat composite 1060 1130 1210"
+    },
+    "act_p25": {
+      "value": 18,
+      "quote": "act composite 18 22 25"
+    },
+    "act_p50": {
+      "value": 22,
+      "quote": "act composite 18 22 25"
+    },
+    "act_p75": {
+      "value": 25,
+      "quote": "act composite 18 22 25"
     },
     "factor_rigor": {
       "value": "Very Important",

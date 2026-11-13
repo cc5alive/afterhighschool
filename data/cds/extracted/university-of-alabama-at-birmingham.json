@@ -1,87 +1,91 @@
 {
   "slug": "university-of-alabama-at-birmingham",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025 - The University of Alabama at Birmingham",
-    "url": "https://www.uab.edu/institutionaleffectiveness/images/documents/cds/CDS-2024-25.pdf"
+    "title": "Common Data Set 2025-2026 The University of Alabama at Birmingham",
+    "url": "https://www.uab.edu/institutionaleffectiveness/images/documents/cds/CDS-2025-26.pdf"
   },
-  "sourceUrl": "https://www.uab.edu/institutionaleffectiveness/images/documents/cds/CDS-2024-25.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.uab.edu/institutionaleffectiveness/images/documents/cds/CDS-2025-26.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 11379,
-      "quote": "total first-time, first-year who applied 11,379"
+      "value": 11119,
+      "quote": "total first-time, first-year (degree-seeking) who applied 6974 3129 1016 0 11119"
     },
     "admitted_total": {
-      "value": 10034,
-      "quote": "total first-time, first-year who were admitted 10,034"
+      "value": 10474,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6574 2949 951 0 10474"
     },
     "enrolled_total": {
-      "value": 2014,
-      "quote": "total first-time, first-year who enrolled 2,014"
+      "value": 2519,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 2072 420 27 0 2519"
     },
     "rank_top10_pct": {
-      "value": 24,
-      "quote": "percent in top tenth of high school graduating class 24%"
+      "value": 19,
+      "quote": "percent in top tenth of high school graduating class 19%"
     },
     "rank_top25_pct": {
-      "value": 47,
-      "quote": "percent in top quarter of high school graduating class 47%"
-    },
-    "rank_submit_pct": {
-      "value": 34,
-      "quote": "percent of total first-time, first-year students who submitted high school class rank: 34%"
+      "value": 35,
+      "quote": "percent in top quarter of high school graduating class 35%"
     },
     "gpa_400_pct": {
-      "value": 41.2,
-      "quote": "percent who had gpa of 4.0 50.9% 32.7% 41.2%"
+      "value": 45.18,
+      "quote": "percent who had gpa of 4.0 60.81% 28.67% 45.18%"
     },
     "gpa_375_pct": {
-      "value": 17,
-      "quote": "percent who had gpa between 3.75 and 3.99 17.7% 16.4% 17.0%"
+      "value": 17.83,
+      "quote": "percent who had gpa between 3.75 and 3.99 16.89% 18.84% 17.83%"
     },
     "gpa_350_pct": {
-      "value": 13.5,
-      "quote": "percent who had gpa between 3.50 and 3.74 12.8% 14.2% 13.5%"
+      "value": 13.3,
+      "quote": "percent who had gpa between 3.50 and 3.74 11.15% 15.56% 13.30%"
     },
     "gpa_325_pct": {
-      "value": 10.3,
-      "quote": "percent who had gpa between 3.25 and 3.49 8.4% 12.0% 10.3%"
+      "value": 9.79,
+      "quote": "percent who had gpa between 3.25 and 3.49 5.73% 14.09% 9.79%"
     },
     "gpa_300_pct": {
-      "value": 8.8,
-      "quote": "percent who had gpa between 3.00 and 3.24 6.1% 11.0% 8.8%"
+      "value": 7.01,
+      "quote": "percent who had gpa between 3.00 and 3.24 3.56% 10.65% 7.01%"
     },
     "gpa_250_pct": {
-      "value": 8.7,
-      "quote": "percent who had gpa between 2.50 and 2.99 4.0% 12.9% 8.7%"
+      "value": 6.73,
+      "quote": "percent who had gpa between 2.50 and 2.99 1.86% 11.88% 6.73%"
     },
     "gpa_200_pct": {
-      "value": 0.5,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.2% 0.8% 0.5%"
+      "value": 0.16,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.00% 0.33% 0.16%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0% 0.00%"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0% 0% 0.00%"
     },
     "gpa_average": {
-      "value": 3.77,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.77"
+      "value": 3.82,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students c12 3.82"
     },
     "gpa_submit_pct": {
-      "value": 99.5,
-      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.5%"
+      "value": 99.72,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 99.72%"
     },
     "sat_p25": {
-      "value": 1190,
-      "quote": "sat composite 1190 1340 1430"
+      "value": 1250,
+      "quote": "sat composite 1250 1340 1420"
     },
     "sat_p50": {
       "value": 1340,
-      "quote": "sat composite 1190 1340 1430"
+      "quote": "sat composite 1250 1340 1420"
     },
     "sat_p75": {
-      "value": 1430,
-      "quote": "sat composite 1190 1340 1430"
+      "value": 1420,
+      "quote": "sat composite 1250 1340 1420"
     },
     "act_p25": {
       "value": 23,
@@ -95,17 +99,97 @@
       "value": 30,
       "quote": "act composite 23 26 30"
     },
+    "factor_rigor": {
+      "value": "Very Important",
+      "quote": "Rigor of secondary school record"
+    },
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
     "transfer_applied": {
-      "value": 2226,
-      "quote": "D2 total 2,226 1,860 1,098"
+      "value": 2217,
+      "quote": "D2 total 2,217 1,859 1,138"
     },
     "transfer_admitted": {
-      "value": 1860,
-      "quote": "D2 total 2,226 1,860 1,098"
+      "value": 1859,
+      "quote": "D2 total 2,217 1,859 1,138"
     },
     "transfer_enrolled": {
-      "value": 1098,
-      "quote": "D2 total 2,226 1,860 1,098"
+      "value": 1138,
+      "quote": "D2 total 2,217 1,859 1,138"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1-year",
+      "quote": "C18 maximum period of postponement: 1-year"
     }
   },
   "concerns": null

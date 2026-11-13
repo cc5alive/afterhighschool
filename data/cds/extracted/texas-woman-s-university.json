@@ -1,87 +1,87 @@
 {
   "slug": "texas-woman-s-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://twu.edu/media/documents/irdm/CDS_2024-2025_v2.pdf"
+    "title": "Common Data Set",
+    "url": "https://twu.edu/media/documents/irdm/CDS_2025-2026-(1).pdf"
   },
-  "sourceUrl": "https://twu.edu/media/documents/irdm/CDS_2024-2025_v2.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://twu.edu/institutional-research/facts-and-trends/",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 8355,
-      "quote": "total first-time, first-year who applied 8355"
+      "value": 7804,
+      "quote": "total first-time, first-year who applied 7804"
     },
     "admitted_total": {
-      "value": 8032,
-      "quote": "total first-time, first-year who were admitted 8032"
+      "value": 7536,
+      "quote": "total first-time, first-year who were admitted 7536"
     },
     "enrolled_total": {
-      "value": 1596,
-      "quote": "total first-time, first-year who enrolled 1596"
+      "value": 1502,
+      "quote": "total first-time, first-year who enrolled 1502"
     },
     "rank_top10_pct": {
-      "value": 16,
-      "quote": "percent in top tenth of high school graduating class 16%"
+      "value": 15,
+      "quote": "percent in top tenth of high school graduating class 15%"
     },
     "rank_top25_pct": {
-      "value": 41,
-      "quote": "percent in top quarter of high school graduating class 41%"
+      "value": 30,
+      "quote": "percent in top quarter of high school graduating class 30%"
     },
     "gpa_400_pct": {
-      "value": 4.42,
-      "quote": "percent who had gpa of 4.0 4.42%"
+      "value": 4.81,
+      "quote": "percent who had gpa of 4.0 4.81%"
     },
     "gpa_375_pct": {
       "value": 17.82,
       "quote": "percent who had gpa between 3.75 and 3.99 17.82%"
     },
     "gpa_350_pct": {
-      "value": 16.86,
-      "quote": "percent who had gpa between 3.50 and 3.74 16.86%"
+      "value": 14.7,
+      "quote": "percent who had gpa between 3.50 and 3.74 14.70%"
     },
     "gpa_325_pct": {
-      "value": 13.78,
-      "quote": "percent who had gpa between 3.25 and 3.49 13.78%"
+      "value": 18.16,
+      "quote": "percent who had gpa between 3.25 and 3.49 18.16%"
     },
     "gpa_300_pct": {
-      "value": 13.33,
-      "quote": "percent who had gpa between 3.00 and 3.24 13.33%"
+      "value": 13.28,
+      "quote": "percent who had gpa between 3.00 and 3.24 13.28%"
     },
     "gpa_250_pct": {
-      "value": 21.15,
-      "quote": "percent who had gpa between 2.50 and 2.99 21.15%"
+      "value": 19.85,
+      "quote": "percent who had gpa between 2.50 and 2.99 19.85%"
     },
     "gpa_200_pct": {
-      "value": 12.56,
-      "quote": "percent who had gpa between 2.0 and 2.49 12.56%"
+      "value": 11.38,
+      "quote": "percent who had gpa between 2.0 and 2.49 11.38%"
     },
     "gpa_100_pct": {
-      "value": 0.06,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.06%"
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.00%"
     },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0.00%"
     },
     "gpa_average": {
-      "value": 3.23,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.23"
+      "value": 3.24,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.24"
     },
     "sat_p25": {
-      "value": 970,
-      "quote": "sat composite 970 1060 1150"
+      "value": 910,
+      "quote": "sat composite 910 1010 1110"
     },
     "sat_p50": {
-      "value": 1060,
-      "quote": "sat composite 970 1060 1150"
+      "value": 1010,
+      "quote": "sat composite 910 1010 1110"
     },
     "sat_p75": {
-      "value": 1150,
-      "quote": "sat composite 970 1060 1150"
+      "value": 1110,
+      "quote": "sat composite 910 1010 1110"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -156,16 +156,16 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 2406,
-      "quote": "D2 total 2,406 2,320 1,065"
+      "value": 2066,
+      "quote": "D2 total 2,066 1,977 1,006"
     },
     "transfer_admitted": {
-      "value": 2320,
-      "quote": "D2 total 2,406 2,320 1,065"
+      "value": 1977,
+      "quote": "D2 total 2,066 1,977 1,006"
     },
     "transfer_enrolled": {
-      "value": 1065,
-      "quote": "D2 total 2,406 2,320 1,065"
+      "value": 1006,
+      "quote": "D2 total 2,066 1,977 1,006"
     }
   },
   "concerns": null

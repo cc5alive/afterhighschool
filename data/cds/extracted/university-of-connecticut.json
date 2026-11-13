@@ -1,84 +1,94 @@
 {
   "slug": "university-of-connecticut",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf"
+    "title": "Common Data Set 2025-2026",
+    "url": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2026/08/UConn_CDS_2025_2026_WEB.pdf"
   },
-  "sourceUrl": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2025/07/UConn_CDS_2024_2025.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://bpir.media.uconn.edu/wp-content/uploads/sites/3452/2026/08/UConn_CDS_2025_2026_WEB.pdf",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
-    "waitlist_admitted": {
-      "value": 28,
-      "quote": "number of wait-listed students admitted: 28"
-    },
-    "rank_top10_pct": {
-      "value": 47.15,
-      "quote": "percent in top tenth of high school graduating class 47.15%"
-    },
-    "rank_top25_pct": {
-      "value": 83.1,
-      "quote": "percent in top quarter of high school graduating class 83.10%"
-    },
     "applied_total": {
-      "value": 55479,
-      "quote": "total first-time, first-year men who applied 23,683 / total first-time, first-year women who applied 31,770 / total first-time, first-year another gender who applied 24 / total first-time, first-year unknown gender who applied 2",
-      "how": "sum of gender rows"
+      "value": 59553,
+      "quote": "total first-time, first-year (degree-seeking) who applied 15,633 38,178 5,742 59,553"
     },
     "admitted_total": {
-      "value": 29065,
-      "quote": "total first-time, first-year men who were admitted 11,403 / total first-time, first-year women who were admitted 17,652 / total first-time, first-year another gender who were admitted 10 / total first-time, first-year unknown gender who were admitted",
-      "how": "sum of gender rows"
+      "value": 32369,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 6,337 22,349 3,683 32,369"
+    },
+    "enrolled_total": {
+      "value": 4663,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 2,438 1,962 263 4,663"
+    },
+    "waitlist_admitted": {
+      "value": 85,
+      "quote": "number of wait-listed students admitted: 85"
+    },
+    "rank_top10_pct": {
+      "value": 45,
+      "quote": "percent in top tenth of high school graduating class 45%"
+    },
+    "rank_top25_pct": {
+      "value": 81,
+      "quote": "percent in top quarter of high school graduating class 81%"
+    },
+    "ed_applied": {
+      "value": 1442,
+      "quote": "number of early decision applications received by your institution 1442"
+    },
+    "ed_admitted": {
+      "value": 672,
+      "quote": "number of applicants admitted under early decision plan 672"
     },
     "sat_p25": {
-      "value": 1220,
-      "quote": "sat composite 1220 1340 1420"
+      "value": 1260,
+      "quote": "sat composite 1260 1350 1420"
     },
     "sat_p50": {
-      "value": 1340,
-      "quote": "sat composite 1220 1340 1420"
+      "value": 1350,
+      "quote": "sat composite 1260 1350 1420"
     },
     "sat_p75": {
       "value": 1420,
-      "quote": "sat composite 1220 1340 1420"
+      "quote": "sat composite 1260 1350 1420"
     },
     "act_p25": {
-      "value": 28,
-      "quote": "act composite 28 31 33"
+      "value": 29,
+      "quote": "act composite 29 31 32"
     },
     "act_p50": {
       "value": 31,
-      "quote": "act composite 28 31 33"
+      "quote": "act composite 29 31 32"
     },
     "act_p75": {
-      "value": 33,
-      "quote": "act composite 28 31 33"
+      "value": 32,
+      "quote": "act composite 29 31 32"
     },
     "factor_rigor": {
-      "value": "Very Important",
+      "value": "Considered",
       "quote": "Rigor of secondary school record"
     },
     "factor_class_rank": {
-      "value": "Very Important",
+      "value": "Considered",
       "quote": "Class rank"
     },
     "factor_gpa": {
-      "value": "Very Important",
+      "value": "Considered",
       "quote": "Academic GPA"
     },
     "factor_test_scores": {
-      "value": "Very Important",
+      "value": "Considered",
       "quote": "Standardized test scores"
     },
     "factor_essay": {
-      "value": "Very Important",
+      "value": "Considered",
       "quote": "Application Essay"
     },
     "factor_recommendations": {
-      "value": "Important",
+      "value": "Considered",
       "quote": "Recommendation(s)"
     },
     "factor_interview": {
@@ -86,19 +96,19 @@
       "quote": "Interview"
     },
     "factor_extracurriculars": {
-      "value": "Important",
+      "value": "Considered",
       "quote": "Extracurricular activities"
     },
     "factor_talent": {
-      "value": "Important",
+      "value": "Considered",
       "quote": "Talent/ability"
     },
     "factor_character": {
-      "value": "Important",
+      "value": "Considered",
       "quote": "Character/personal qualities"
     },
     "factor_first_generation": {
-      "value": "Important",
+      "value": "Considered",
       "quote": "First generation"
     },
     "factor_alumni": {
@@ -118,7 +128,7 @@
       "quote": "Religious affiliation/commitment"
     },
     "factor_volunteer": {
-      "value": "Important",
+      "value": "Considered",
       "quote": "Volunteer work"
     },
     "factor_work": {
@@ -126,20 +136,32 @@
       "quote": "Work experience"
     },
     "factor_interest": {
-      "value": "Not Considered",
+      "value": "Considered",
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 2455,
-      "quote": "D2 total 2,455 1,626 754"
+      "value": 2496,
+      "quote": "D2 total 2,496 1,689 770"
     },
     "transfer_admitted": {
-      "value": 1626,
-      "quote": "D2 total 2,455 1,626 754"
+      "value": 1689,
+      "quote": "D2 total 2,496 1,689 770"
     },
     "transfer_enrolled": {
-      "value": 754,
-      "quote": "D2 total 2,455 1,626 754"
+      "value": 770,
+      "quote": "D2 total 2,496 1,689 770"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "1 Year",
+      "quote": "C18 maximum period of postponement: 1 Year"
+    },
+    "ed_offered": {
+      "value": "yes",
+      "quote": null
     }
   },
   "concerns": null

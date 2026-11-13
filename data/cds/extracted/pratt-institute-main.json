@@ -1,79 +1,112 @@
 {
   "slug": "pratt-institute-main",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Pratt Institute Common Data Set 2023-2024",
-    "url": "https://www.pratt.edu/wp-content/uploads/2024/04/Pratt-Institute-Commom-Data-Set-2023-2024.pdf"
+    "title": "Common Data Set",
+    "url": "https://www.pratt.edu/wp-content/uploads/2026/02/2025-2026-CDS.xlsx"
   },
-  "sourceUrl": "https://www.pratt.edu/wp-content/uploads/2024/04/Pratt-Institute-Commom-Data-Set-2023-2024.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://www.pratt.edu/administrative-departments/office-of-the-provost/office-of-institutional-research-and-assessment/institute-and-ipeds-reports/",
+  "researchedAt": "2026-11-13",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
-  "docKind": "pdf",
+  "docKind": "xlsx",
   "values": {
+    "admitted_total": {
+      "value": 6547,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1375 3214 1958 0 6547"
+    },
+    "enrolled_total": {
+      "value": 847,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 183 481 183 0 847"
+    },
+    "waitlist_admitted": {
+      "value": 925,
+      "quote": "number of wait-listed students admitted: 925"
+    },
     "gpa_400_pct": {
-      "value": 27.3,
-      "quote": "percent who had gpa of 4.0 35.3% 25.4% 27.3%"
+      "value": 0.32231405,
+      "quote": "percent who had gpa of 4.0 0.32231405 0 0.32231405"
     },
     "gpa_375_pct": {
-      "value": 24.8,
-      "quote": "percent who had gpa between 3.75 and 3.99 27.3% 24.3% 24.8%"
+      "value": 0.162927981,
+      "quote": "percent who had gpa between 3.75 and 3.99 0.162927981 0 0.162927981"
     },
     "gpa_350_pct": {
-      "value": 23.7,
-      "quote": "percent who had gpa between 3.50 and 3.74 20.0% 24.6% 23.7%"
+      "value": 0.217237308,
+      "quote": "percent who had gpa between 3.50 and 3.74 0.217237308 0 0.217237308"
     },
     "gpa_325_pct": {
-      "value": 11.9,
-      "quote": "percent who had gpa between 3.25 and 3.49 10.0% 12.4% 11.9%"
+      "value": 0.141676505,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.141676505 0 0.141676505"
     },
     "gpa_300_pct": {
-      "value": 6.3,
-      "quote": "percent who had gpa between 3.00 and 3.24 2.7% 7.1% 6.3%"
+      "value": 0.101534829,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.101534829 0 0.101534829"
     },
     "gpa_250_pct": {
-      "value": 4.6,
-      "quote": "percent who had gpa between 2.50 and 2.99 3.3% 4.9% 4.6%"
+      "value": 0.046044864,
+      "quote": "percent who had gpa between 2.50 and 2.99 0.046044864 0 0.046044864"
     },
     "gpa_200_pct": {
-      "value": 1.4,
-      "quote": "percent who had gpa between 2.0 and 2.49 1.3% 1.4% 1.4%"
+      "value": 0.008264463,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.008264463 0 0.008264463"
     },
     "gpa_100_pct": {
       "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.0% 0.0% 0.0%"
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0 0"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 0.0% 0.0% 0.0%"
+      "quote": "percent who had gpa below 1.0 0 0 0"
     },
     "gpa_average": {
-      "value": 3.7,
-      "quote": "average high school gpa of all degree ‐ seeking, first ‐ time, first ‐ year students who submitted gpa: 3.7"
+      "value": 3.6403,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.6403"
+    },
+    "gpa_submit_pct": {
+      "value": 1,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa: 1"
+    },
+    "applied_total": {
+      "value": 7579,
+      "quote": "total first-time, first-year males who applied 1813 / total first-time, first-year females who applied 5293 / total first-time, first-year students of unknown sex who applied 473",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 1243,
-      "quote": "sat composite (400 ‐ 1600) 1243 1330 1410"
+      "value": 1140,
+      "quote": "sat composite 1140 1280 1380"
     },
     "sat_p50": {
-      "value": 1330,
-      "quote": "sat composite (400 ‐ 1600) 1243 1330 1410"
+      "value": 1280,
+      "quote": "sat composite 1140 1280 1380"
     },
     "sat_p75": {
-      "value": 1410,
-      "quote": "sat composite (400 ‐ 1600) 1243 1330 1410"
+      "value": 1380,
+      "quote": "sat composite 1140 1280 1380"
     },
     "act_p25": {
-      "value": 26,
-      "quote": "act composite (0 ‐ 36) 26 30 32"
+      "value": 21.5,
+      "quote": "act composite 21.5 23 24.5"
     },
     "act_p50": {
-      "value": 30,
-      "quote": "act composite (0 ‐ 36) 26 30 32"
+      "value": 23,
+      "quote": "act composite 21.5 23 24.5"
     },
     "act_p75": {
-      "value": 32,
-      "quote": "act composite (0 ‐ 36) 26 30 32"
+      "value": 24.5,
+      "quote": "act composite 21.5 23 24.5"
+    },
+    "transfer_applied": {
+      "value": 300,
+      "quote": "D2 total 300 276 72"
+    },
+    "transfer_admitted": {
+      "value": 276,
+      "quote": "D2 total 300 276 72"
+    },
+    "transfer_enrolled": {
+      "value": 72,
+      "quote": "D2 total 300 276 72"
     }
   },
   "concerns": null
