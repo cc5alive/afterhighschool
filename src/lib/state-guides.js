@@ -150,6 +150,69 @@ const NC_SRC = {
   scorecard: SCORECARD
 };
 
+const NCB = 'NC State Board of Examiners of Plumbing, Heating, and Fire Sprinkler Contractors';
+const NCPH_SRC = {
+  employee: { label: 'North Carolina General Statutes, Chapter 87, Article 2 (plumbing, heating and fire sprinkler contractors)', url: 'https://www.ncleg.net/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_87/Article_2.html' },
+  supervision: { label: `${NCB}: newsletter on job supervision (July 2023)`, url: 'https://nclicensing.org/wp-content/uploads/2023/07/2023-07.pdf' },
+  applicant: { label: `${NCB}: applicant information`, url: 'https://nclicensing.org/applicant-information/' },
+  techDefs: { label: `${NCB}: technician license definitions (2025)`, url: 'https://nclicensing.org/wp-content/uploads/2025/01/License-Definitions-Technician-2025v1.pdf' },
+  rules: { label: `${NCB}: experience rules, 21 NCAC 50 .0306 (March 2024 newsletter)`, url: 'https://nclicensing.org/wp-content/uploads/2024/03/2024-03.pdf' },
+  packet: { label: `${NCB}: 2026 exam application packet`, url: 'https://nclicensing.org/wp-content/uploads/2026/02/PHFP-Exam-App-2026-01.pdf' },
+  ...EPA,
+  uaFind,
+  ncfind: NC_SRC.ncfind,
+  mtc: { label: 'ApprenticeshipNC: Mechanical Trades Carolina', url: 'https://nccommunitycolleges.edu/students/what-we-offer/apprenticeships/apprenticeship-opportunities/mechanical-trades-carolina' },
+  mtcUa: { label: 'SkillUp: UA Local 421 apprenticeship at Mechanical Trades Carolina', url: 'https://explore.skillup.org/all/training/ua-local-421/hvac-r-service-technician-apprenticeship' },
+  cfcc: { label: 'Cape Fear Community College: apprenticeship partners and programs', url: 'https://cfcc.edu/business-and-industry-services/apprenticeship-partners-programs/' },
+  scorecard: SCORECARD
+};
+
+const FLT_SRC = {
+  employee: { label: 'Florida Statutes, section 489.103 (who the contractor licensing law doesn\'t cover, including employees of licensed contractors)', url: 'https://m.flsenate.gov/Statutes/489.103' },
+  journeyStat: { label: 'Florida Statutes, section 489.1455 (plumbing, pipe fitting, mechanical and HVAC journeyman licenses)', url: 'https://www.flsenate.gov/Laws/Statutes/2024/0489.1455' },
+  exam: { label: 'Florida Statutes, section 489.111 (who can take a state contractor exam)', url: 'https://m.flsenate.gov/Statutes/489.111' },
+  classes: { label: 'Florida Statutes, section 489.105 (contractor definitions, including air conditioning Classes A and B)', url: 'https://m.flsenate.gov/Statutes/489.105' },
+  miamiCats: { label: 'Miami-Dade County: personal certificate categories and experience required', url: 'https://www.miamidade.gov/licenses/library/forms/personal-exam-and-non-exam-categories.pdf' },
+  miamiMech: { label: 'Miami-Dade County: mechanical licensing (journeyman rules)', url: 'https://miamidade.gov/licenses/mechanical.asp' },
+  broward: FL_SRC.broward,
+  fldoe: FL_SRC.fldoe,
+  ...EPA,
+  uaFind,
+  local803: { label: 'UA Local 803 (Orlando): apprenticeship FAQ', url: 'https://localunion803.org/apprenticeship-faq/' },
+  local803app: { label: 'UA Local 803: apprenticeship application (2025)', url: 'https://localunion803.org/wp-content/uploads/2025/06/Apprenticeship-Application-Revised-2025.pdf' },
+  local803ap: { label: 'UA Local 803: apprenticeship', url: 'https://localunion803.org/apprenticeship/' },
+  local234: { label: 'UA Local 234 (Jacksonville): apprenticeship', url: 'https://ua234.com/training' },
+  arpec: { label: 'ARPEC (Local 725 training center, Miami): getting started', url: 'https://arpec.org/getting-started.html' },
+  arpecAdm: { label: 'ARPEC: admissions', url: 'https://arpec.org/admissions/' },
+  arpecReq: { label: 'ARPEC: who can apply', url: 'https://arpec.org/ideal-candidates.html' },
+  arpecHvac: { label: 'ARPEC: HVAC/R program', url: 'https://arpec.org/hvacr-program.html' },
+  hccPlumb: { label: 'Hillsborough Community College: plumber apprenticeship (ABC Florida Gulf Coast)', url: 'https://hccfl.edu/es/node/1220983' },
+  hccHvac: { label: 'Hillsborough Community College: HVACR technician apprenticeship (ABC Florida Gulf Coast)', url: 'https://hccfl.edu/es/node/1203331' },
+  nefba: { label: 'National Association of Home Builders: Northeast Florida Builders Association apprenticeship (March 2026)', url: 'https://www.nahb.org/blog/2026/03/new-training-center-strengthens-florida-hbas-50-year-apprenticeship-program' },
+  scorecard: SCORECARD
+};
+
+const NYT_SRC = {
+  nycBiz: { label: 'NYC MyCity Business: master plumber license', url: 'https://nyc-business.nyc.gov/nycbusiness/description/master-plumber-license' },
+  nycJourney: { label: 'NYC Department of Buildings: journeyman plumber registration', url: 'https://www.nyc.gov/assets/buildings/pdf/jouneyman_plumber_fs_gas_work.pdf' },
+  nycMaster: { label: 'NYC Department of Buildings: master plumber license (revised February 2026)', url: 'https://www.nyc.gov/assets/buildings/pdf/master_plumber_lic.pdf' },
+  westTrade: { label: 'Westchester County Department of Consumer Protection: plumbing and electrical licenses', url: 'https://consumer.westchestercountyny.gov/trade-licenses' },
+  westExam: { label: 'Westchester County: master and journey-level plumber exam application (February 2026)', url: 'https://consumer.westchestercountyny.gov/images/stories/pdfs/examapplicationforcountywidemasterplumberslicenseandjourneylevelplumber022026.pdf' },
+  nycOil: { label: 'NYC Department of Buildings: oil burner equipment installer license', url: 'https://www.nyc.gov/site/buildings/industry/obtain-a-nyc-oil-burner-equipment-installer-license.page' },
+  nycOilFees: { label: 'NYC Department of Buildings: oil burner equipment installer fees', url: 'https://www.nyc.gov/site/buildings/industry/oil-burner-equipment-installer.page' },
+  nycBoiler: { label: 'NYC Department of Buildings: boiler work rules for owners', url: 'https://www.nyc.gov/site/buildings/property-or-business-owner/project-requirements-owner-boiler.page' },
+  ...EPA,
+  nydol: NY_SRC.nydol,
+  local1: { label: 'NYS Department of Labor: Plumbers Local 1 JAC recruitment (June 2026)', url: 'https://dol.ny.gov/news/plumbers-local-1-jac' },
+  local200: { label: 'NYS Department of Labor: Plumbers JATC Local 200 recruitment (February 2026)', url: 'https://dol.ny.gov/news/plumbers-jatc-local-union-200-0' },
+  local22: { label: 'NYS Department of Labor: Plumbers & Steamfitters Local 22 recruitment (December 2025 to December 2026)', url: 'https://dol.ny.gov/ap/plumbers-steamfitters-lu-22-jac-western-ny-2' },
+  local13: { label: 'NYS Department of Labor: Plumbing and Heating JATC Rochester Local 13 recruitment (March 2026 to March 2027)', url: 'https://dol.ny.gov/news/plumbing-and-heating-jatc-rochester-lu-13-0' },
+  local81: { label: 'NYS Department of Labor: Plumbers & Steamfitters Local 81 recruitment (May 2026 to March 2027)', url: 'https://dol.ny.gov/news/plumbers-steamfitters-jatc-lu-81-1' },
+  local21: { label: 'NYS Department of Labor: Plumbers & Steamfitters Local 21 recruitment (April 2026)', url: 'https://dol.ny.gov/news/plumbers-steamfitters-lu-21-0' },
+  local773: { label: 'NYS Department of Labor: Plumbers & Steamfitters Local 773 recruitment (January to December 2026)', url: 'https://dol.ny.gov/ap/plumbers-steamfitters-jac-local-773-0' },
+  scorecard: SCORECARD
+};
+
 export const STATE_GUIDES = [
   {
     slug: 'electrician-california',
@@ -577,7 +640,298 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['abc', 'ncfind', 'exempt', 'hours'],
     src: NC_SRC
+  },
+  {
+    slug: 'plumber-florida',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'FL',
+    stateName: 'Florida',
+    checked: 'November 15, 2026',
+    title: 'How to become a plumber in Florida',
+    description: 'How plumber licensing works in Florida, where counties and cities issue journeyman licenses, plus paid apprenticeships in Orlando, Jacksonville and Tampa Bay. From official sources.',
+    lede: 'In Florida, journeyman plumber licenses come from counties and cities, and the state licenses plumbing contractors. You can start as an employee of a licensed contractor and learn on the job, or join a paid apprenticeship, one common way to get the experience counties ask for.',
+    rules: [
+      { dt: 'Working as an employee', dd: 'Florida\'s contractor licensing law doesn\'t cover an employee of a licensed contractor who works within that contractor\'s license, with the contractor\'s knowledge and permission.', src: ['employee'] },
+      { dt: 'Journeyman licenses are local', dd: 'State law lets counties and cities issue journeyman plumber licenses, and requires them to recognize one issued by another Florida county or city.', src: ['journeyStat'] },
+      { dt: 'Example: Miami-Dade', dd: 'A journeyman plumber needs a county certificate of competency, which takes 3 years of experience and a passed exam. Journeymen may only work for a contractor licensed in their trade.', src: ['miamiCats', 'miamiMech'] },
+      { dt: 'Example: Broward', dd: 'A journeyman plumber needs at least 4 years of plumbing experience, confirmed by a notarized letter from a licensed employer and your last four years of W-2s, then an exam that needs 75% to pass. The fee is $115.', src: ['broward'] },
+      { dt: 'Later: your own business', dd: 'A state plumbing contractor license takes 4 years of experience, at least one of them as a foreman, and a state exam. You must be 18, and community college credits can stand in for some of the experience.', src: ['exam'] }
+    ],
+    routesIntro: 'An apprenticeship is the most direct route: four or five years of paid work plus classes, which counts toward a journeyman license. You can also get hired by a licensed plumbing contractor and learn on the job.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers and pipefitters union, with union contractors. Apprentices pay for little beyond books.',
+      programs: [
+        { area: 'Orlando area', name: 'UA Local 803 apprenticeship', facts: 'Plumber, pipefitter and HVACR technician programs, 5 years. You work days and take classes two nights a week, accredited through Orange Technical College. You need to be 18, a diploma or GED and a driver\'s license; no experience needed. Apply by the end of May for fall classes. $40 application fee and an entrance exam; books cost about $100 to $200 a year. Phone (407) 851-7370.', src: 'local803', more: 'local803app' },
+        { area: 'Jacksonville', name: 'UA Local 234 (Jacksonville Plumbers and Pipefitters)', facts: 'For the class starting September 2027, online applications open January 4 and close April 9, 2027 at 4:30 p.m. You need to be 18 by the start, a diploma (high school seniors can send a letter saying they\'re on track to graduate) and a qualifying aptitude test score. $10 fee, which can be waived. Apprentices pay only for books and required shirts.', src: 'local234' }
+      ],
+      more: 'Other parts of Florida have their own UA locals. Find yours and ask about its apprenticeship.',
+      find: 'uaFind',
+      findLabel: 'Find a UA local by state',
+      cite: ['local803', 'local803ap', 'local803app', 'local234', 'uaFind']
+    },
+    nonunion: {
+      what: 'Run by contractor and builder groups for non-union employers, with classes alongside paid work.',
+      programs: [
+        { area: 'Tampa Bay', name: 'ABC Florida Gulf Coast plumber apprenticeship, with Hillsborough Community College', facts: '4 to 5 years: 8,000 hours of paid work and 720 hours of classes at HCC. Your apprentice hours can count toward an HCC associate degree. Phone (813) 879-8064.', src: 'hccPlumb' },
+        { area: 'Jacksonville', name: 'Northeast Florida Builders Association (NEFBA) apprenticeship', facts: 'Four-year, debt-free tracks in plumbing (also HVAC, electrical and carpentry) that mix classes with paid job-site training in home building.', src: 'nefba' }
+      ],
+      more: 'The state\'s apprenticeship office has a map of programs and a contact for each region.'
+    },
+    school: {
+      heading: 'Technical college programs',
+      what: 'Florida\'s public technical colleges and state colleges teach plumbing, and some host apprenticeship classes (Orange Technical College with UA Local 803, Hillsborough Community College with ABC). Your county decides what experience counts toward a journeyman license.',
+      cip: '4605'
+    },
+    steps: [
+      'Find out what your county requires for a journeyman plumber license.',
+      'Gather a diploma or GED, your transcripts and a driver\'s license.',
+      'Apply to the programs near you, and note each one\'s dates (Orlando: end of May; Jacksonville: January 4 to April 9, 2027).',
+      'Or get hired by a licensed plumbing contractor and learn on the job.',
+      'Keep your W-2s and a record of who you worked for. Counties like Broward ask for years of W-2s and a notarized letter from your employer.'
+    ],
+    stepsSrc: ['local803', 'local234', 'broward', 'employee'],
+    src: FLT_SRC
+  },
+  {
+    slug: 'hvac-florida',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'FL',
+    stateName: 'Florida',
+    checked: 'November 15, 2026',
+    title: 'How to become an HVAC technician in Florida',
+    description: 'What Florida requires to work on air conditioning and heating: EPA 608 certification, county journeyman licenses, the state contractor license later, plus paid apprenticeships in Miami, Orlando, Tampa Bay and Jacksonville. From official sources.',
+    lede: 'In Florida you can start as an employee of a licensed air conditioning or mechanical contractor. To handle refrigerants you need a federal EPA certification. Counties and cities can issue journeyman licenses, and the state licenses air conditioning contractors.',
+    rules: [
+      { dt: 'Working as an employee', dd: 'Florida\'s contractor licensing law doesn\'t cover an employee of a licensed contractor who works within that contractor\'s license, with the contractor\'s knowledge and permission.', src: ['employee'] },
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Example: Miami-Dade', dd: 'A journeyman air conditioning certificate takes 3 years of experience and a passed exam. Journeymen may only work for a contractor licensed in their trade.', src: ['miamiCats', 'miamiMech'] },
+      { dt: 'Example: Broward', dd: 'A journeyman mechanical license takes at least 3 years of experience in the mechanical field, confirmed by a notarized letter from a licensed employer and your last three years of W-2s, then an exam that needs 75% to pass. The fee is $120.', src: ['broward'] },
+      { dt: 'Moving within Florida', dd: 'State law requires counties and cities to recognize a mechanical or HVAC journeyman license issued by another Florida county or city.', src: ['journeyStat'] },
+      { dt: 'Later: your own business', dd: 'A state air conditioning contractor license takes 4 years of experience, at least one of them as a foreman, and a state exam. Class A has no size limit; Class B is limited to 25 tons of cooling and 500,000 Btu of heating per system.', src: ['exam', 'classes'] }
+    ],
+    routesIntro: 'Most people start by getting hired as a helper, or through an apprenticeship that pays you and adds classes. A school program teaches the basics first.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers, pipefitters and HVAC technicians union, with union contractors.',
+      programs: [
+        { area: 'Miami-Dade and South Florida', name: 'ARPEC (Local 725 training center)', facts: 'A 5-year HVACR service technician apprenticeship (pipefitting too). ARPEC arranges your job, and a full scholarship covers classes, textbooks and a tablet. You earn your EPA certification in year one. You need to be 18, a Florida driver\'s license and a sealed transcript or GED with scores, then pass the TABE test and an interview. Apply year-round in person in Opa-locka, by appointment; $60 fee. The next class starts January 2027.', src: 'arpec', more: 'arpecReq' },
+        { area: 'Orlando area', name: 'UA Local 803 HVACR technician apprenticeship', facts: '5 years, or 4 years in the Walt Disney World HVAC program, which runs on shifts. You work days and take classes two nights a week. You need to be 18, a diploma or GED and a driver\'s license; no experience needed. Apply by the end of May for fall classes. $40 application fee and an entrance exam. Phone (407) 851-7370.', src: 'local803', more: 'local803app' }
+      ],
+      more: 'Other parts of Florida have their own UA locals. Find yours and ask whether it trains HVACR technicians.',
+      find: 'uaFind',
+      findLabel: 'Find a UA local by state',
+      cite: ['arpec', 'arpecAdm', 'arpecReq', 'arpecHvac', 'local803', 'local803app', 'uaFind']
+    },
+    nonunion: {
+      what: 'Run by contractor and builder groups for non-union employers, with classes alongside paid work.',
+      programs: [
+        { area: 'Tampa Bay', name: 'ABC Florida Gulf Coast HVACR technician apprenticeship, with Hillsborough Community College', facts: '4 to 5 years: 8,000 hours of paid work and 720 hours of classes at HCC. Your apprentice hours can count toward an HCC associate degree. Phone (813) 879-8064.', src: 'hccHvac' },
+        { area: 'Jacksonville', name: 'Northeast Florida Builders Association (NEFBA) apprenticeship', facts: 'Four-year, debt-free tracks in HVAC (also plumbing, electrical and carpentry) that mix classes with paid job-site training in home building.', src: 'nefba' }
+      ],
+      more: 'The state\'s apprenticeship office has a map of programs and a contact for each region.'
+    },
+    school: {
+      heading: 'Technical college programs',
+      what: 'Florida\'s public technical colleges and state colleges teach heating, air conditioning and refrigeration. A certificate can help you get hired, but your county decides what experience counts toward a journeyman license.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Gather a diploma or GED, a sealed transcript and a Florida driver\'s license.',
+      'Apply to the programs near you (Miami\'s ARPEC takes applications all year; Orlando\'s deadline is the end of May).',
+      'Or get hired by a licensed air conditioning or mechanical contractor and learn on the job.',
+      'Keep your W-2s and a record of who you worked for. You\'ll need them for a county journeyman license.'
+    ],
+    stepsSrc: ['epa608', 'arpec', 'local803', 'broward'],
+    src: FLT_SRC
+  },
+  {
+    slug: 'plumber-new-york',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'NY',
+    stateName: 'New York',
+    checked: 'November 15, 2026',
+    title: 'How to become a plumber in New York',
+    description: 'How to become a plumber in New York: local license rules (New York City and Westchester County as examples), and the paid union apprenticeships in New York City, Long Island, Buffalo, Rochester and Syracuse, with their application dates. From official sources.',
+    lede: 'In New York, the plumbing license rules you\'ll follow depend on where you work: New York City and Westchester County, for example, each license plumbers under their own rules. A common route starts with a paid apprenticeship registered with the state, and some have short application windows.',
+    rules: [
+      { dt: 'Example: New York City', dd: 'Plumbers work under a licensed master plumber. To register with the city as a journeyman plumber, you need 5 years of full-time work under a licensed master plumber (1 of them in the city), or a state-registered training program plus 1 year of work in the city.', src: ['nycBiz', 'nycJourney'] },
+      { dt: 'New York City master plumber, later', dd: '7 years of work within the last 10 under a licensed master plumber, at least 2 of them as a registered journeyman. You must be 18 and pass a written exam ($585, no reference books, 70% to pass) and a practical exam ($530).', src: ['nycMaster'] },
+      { dt: 'Example: Westchester County', dd: 'Plumbers need a county license to work there. A journey-level license takes 5 years working as an apprentice for licensed master plumbers, or finishing a five-year plumbing apprenticeship program. A master license takes 10 years.', src: ['westTrade', 'westExam'] },
+      { dt: 'Finding apprenticeships', dd: 'Registered apprenticeships post their openings with the state Department of Labor, including the dates, number of openings, requirements and how to apply.', src: ['nydol'] }
+    ],
+    routesIntro: 'Each program below is registered with the state, pays you while you work and adds classes. Check the dates closely: some take applications for a year, others for two weeks.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers and pipefitters union, with union contractors. Most ask for a diploma or GED, a driver\'s license and an aptitude test, and some require you to live in the local\'s area.',
+      programs: [
+        { area: 'New York City', name: 'Plumbers Local 1 JATC', facts: '50 openings in 2026. Applications were handed out in person in Long Island City, June 8–22, capped at the first 1,000. You need to be 18, a four-year high school diploma (or an equivalency diploma) with a transcript, the TABE test and an interview. $50 in fees, which can be waived.', src: 'local1' },
+        { area: 'Long Island', name: 'Plumbers JATC Local 200', facts: '30 openings in 2026. Applications were picked up in Bohemia, February 9–20, and mailed back by certified mail. You need to be 18, a diploma or GED with a year of algebra, a New York driver\'s license and to live in Nassau or Suffolk County. Books cost about $200 a year.', src: 'local200' },
+        { area: 'Buffalo and Western New York', name: 'Plumbers & Steamfitters Local 22', facts: '15 openings, December 2, 2025 to December 1, 2026. Pick up an application in person in West Seneca on the first Tuesday of each month. You need to be 18, a New York driver\'s license, a doctor\'s statement that you can do the work, and WorkKeys test scores of at least 4.', src: 'local22' },
+        { area: 'Rochester and the Finger Lakes', name: 'Plumbing and Heating JATC, Local 13', facts: '15 plumber openings, March 4, 2026 to March 3, 2027, online any time or in person on the first Tuesday of each month. You need to be 18, a diploma or GED, a driver\'s license, 70% on a math test and a year living in the local\'s area. $100 a year for books.', src: 'local13' },
+        { area: 'Syracuse, Ithaca, Oswego and the North Country', name: 'Plumbers & Steamfitters Local 81', facts: '20 plumber and steamfitter openings, May 11, 2026 to March 31, 2027, online or in person. You can apply at 17. You need a diploma or GED, a driver\'s license, to live in the local\'s area and to pass a mechanical comprehension test.', src: 'local81' }
+      ],
+      more: 'Other areas, including the Hudson Valley, Binghamton and Glens Falls, have their own programs and post their openings with the state.'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Only a few New York colleges report plumbing awards to the federal government, so for most people an apprenticeship is the main route. In New York City, a state-registered training program shortens the time it takes to register as a journeyman.',
+      cip: '4605'
+    },
+    steps: [
+      'Get a diploma or GED (or TASC), and keep your transcripts.',
+      'Take a year of algebra. Some programs ask for it, and most give an aptitude or math test.',
+      'Get a driver\'s license. Most programs above require one.',
+      'Check the state\'s apprenticeship announcements for plumbing programs near you, and note each one\'s dates and how it takes applications (online, in person or by mail).',
+      'If you\'ll work in New York City or Westchester, read the local license rules early, and keep a record of the licensed master plumbers you work under.'
+    ],
+    stepsSrc: ['nydol', 'local200', 'local13', 'nycJourney', 'westExam'],
+    src: NYT_SRC
+  },
+  {
+    slug: 'hvac-new-york',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'NY',
+    stateName: 'New York',
+    checked: 'November 15, 2026',
+    title: 'How to become an HVAC technician in New York',
+    description: 'How to become an HVAC technician in New York: EPA 608 certification, local license rules (New York City as an example), and the paid union apprenticeships in Rochester, Syracuse, the Hudson Valley and the North Country. From official sources.',
+    lede: 'In New York, which licenses apply to heating and air conditioning work depends on where you work, so check with your city or county. Anyone who works with refrigerants needs a federal EPA certification. Several union apprenticeships registered with the state train HVAC mechanics.',
+    rules: [
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Example: New York City', dd: 'Installing oil-burning heating equipment takes a city oil burner equipment installer license. Class B takes 3 years of work within the last 5 under a licensed installer, then a written exam ($585, 70% to pass) and a practical exam ($530). Boiler work has to be done by a licensed oil burner installer or a licensed master plumber.', src: ['nycOil', 'nycOilFees', 'nycBoiler'] },
+      { dt: 'Finding apprenticeships', dd: 'Registered apprenticeships post their openings with the state Department of Labor, including the dates, number of openings, requirements and how to apply.', src: ['nydol'] }
+    ],
+    routesIntro: 'Each program below is registered with the state, pays you while you work and adds classes. In New York, the plumbing and steamfitting unions also train HVAC mechanics, so check their openings.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers, pipefitters and HVAC mechanics union, with union contractors.',
+      programs: [
+        { area: 'Rochester and the Finger Lakes', name: 'Plumbing and Heating JATC, Local 13', facts: '12 HVAC mechanic openings, March 4, 2026 to March 3, 2027, online any time or in person on the first Tuesday of each month. You need to be 18, a diploma or GED, a driver\'s license, 70% on a math test and a year living in the local\'s area. $100 a year for books.', src: 'local13' },
+        { area: 'Syracuse, Ithaca, Oswego and Gouverneur', name: 'Plumbers & Steamfitters Local 81', facts: '4 HVAC mechanic openings (one in each city), May 11, 2026 to March 31, 2027, online or in person. You can apply at 17. You need a diploma or GED, a driver\'s license, to live in the local\'s area and to pass a mechanical comprehension test.', src: 'local81' },
+        { area: 'Westchester, Dutchess, Putnam and Ulster', name: 'Plumbers & Steamfitters Local 21', facts: '5 refrigeration and air conditioning mechanic openings in 2026, taken in person in Peekskill, April 13–24. You need to be 18, a diploma or GED and to have lived in one of those four counties for six months. $10 fee.', src: 'local21' },
+        { area: 'Capital District and North Country', name: 'Plumbers & Steamfitters Local 773', facts: '1 HVAC mechanic opening (and 5 plumber and steamfitter openings), January 12 to December 14, 2026. Pick up an application in Queensbury or Plattsburgh on the second Monday of each month, 8 to 10 a.m. You need to be 18, a diploma or GED, a driver\'s license and a WorkKeys average of at least 4.334. $50 in fees, which can be waived; $100 a year for books.', src: 'local773' }
+      ],
+      more: 'Other locals post HVAC openings with the state when they recruit.'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges, SUNY technical colleges and BOCES centers teach heating, air conditioning and refrigeration. Classes can help you get hired; check what your city or county counts as experience for its licenses.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Get a diploma or GED, a driver\'s license and copies of your transcripts.',
+      'Check the state\'s apprenticeship announcements for HVAC (and plumbing and steamfitting) openings near you, and note each one\'s dates.',
+      'Find out what your city or county requires for heating and air conditioning work.',
+      'Keep a record of your work and who supervised you. Local licenses ask for years of verified experience.'
+    ],
+    stepsSrc: ['epa608', 'nydol', 'local13', 'nycOil'],
+    src: NYT_SRC
+  },
+  {
+    slug: 'plumber-north-carolina',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'NC',
+    stateName: 'North Carolina',
+    checked: 'November 15, 2026',
+    title: 'How to become a plumber in North Carolina',
+    description: 'How to become a plumber in North Carolina: start as an employee of a licensed contractor, learn through a paid apprenticeship or community college, and the technician and contractor licenses you can earn later. From official sources.',
+    lede: 'In North Carolina you can start by getting hired: employees of a licensed plumbing contractor can do the work without their own license, as long as a licensee supervises it. Your hours count toward a state technician license, after about 18 months of full-time work, and later a contractor license.',
+    rules: [
+      { dt: 'Working as an employee', dd: 'State law says a genuine employee of a licensed contractor isn\'t contracting, so you don\'t need your own license to work for one. The contractor, or a licensed technician working for them, has to supervise the work in person, on site.', src: ['employee', 'supervision'] },
+      { dt: 'Every hour counts', dd: 'Your hours count toward a license whether or not a license was required for the work, and up to half can come from school or technical training.', src: ['applicant', 'rules'] },
+      { dt: 'Technician license', dd: 'After 3,000 hours (about 18 months) of full-time plumbing work, you can take the Class I technician exam; Class II, for single-family homes, takes 2,500 hours. A technician isn\'t a contractor: you work full time for a licensed plumbing contractor and can supervise jobs for them.', src: ['applicant', 'techDefs'] },
+      { dt: 'Contractor license, later', dd: '4,000 hours (2 years) of full-time experience, then the board\'s exam, at $100 per exam. A Class I license covers all buildings; Class II covers single-family homes.', src: ['applicant', 'packet', 'employee'] }
+    ],
+    routesIntro: 'Because employees don\'t need their own license, the main choice is how you learn: a registered apprenticeship that pays you and adds classes, or community college classes first.',
+    union: {
+      what: 'Run by the United Association (UA), the plumbers and pipefitters union, and union contractors.',
+      programs: [
+        { area: 'Charlotte, Raleigh and Jacksonville', name: 'Mechanical Trades Carolina (UA Local 421)', facts: 'A five-year apprenticeship registered with the state and the U.S. Department of Labor. First-year apprentices earn $18.21 an hour, with raises each year, plus medical coverage and a pension, and finish with college credits and no student loans. Its 18-week welding pre-apprenticeship can let you start a plumbing apprenticeship as a second-year apprentice. Contact it through its ApprenticeshipNC listing.', src: 'mtc', more: 'mtcUa' }
+      ],
+      more: 'Find the UA local for your part of North Carolina and ask about its apprenticeship.',
+      find: 'uaFind',
+      findLabel: 'Find a UA local by state',
+      cite: ['mtc', 'mtcUa', 'uaFind']
+    },
+    nonunion: {
+      heading: 'Apprenticeships through community colleges',
+      what: 'Community colleges work with local employers, mostly non-union, to run registered apprenticeships: a participating company hires you, and you take classes at the college.',
+      programs: [
+        { area: 'Wilmington area', name: 'Cape Fear Community College: plumbing and pipefitting apprenticeship', facts: 'Run with local plumbing companies, including Christian Plumbing, Bluewater Plumbing and T.A. Woods. The college interviews candidates and refers them to employers. Phone (910) 362-7370 or email apprenticeships@cfcc.edu.', src: 'cfcc' }
+      ],
+      more: 'Other colleges and employers run plumbing apprenticeships. ApprenticeshipNC\'s directory lists them by area.'
+    },
+    school: {
+      heading: 'Community college programs',
+      what: 'North Carolina\'s community colleges teach plumbing in certificate and diploma programs. Up to half of the hours for a technician or contractor license can come from school or technical training.',
+      cip: '4605'
+    },
+    steps: [
+      'Look for a job with a licensed plumbing contractor, and ask whether they sponsor a registered apprenticeship.',
+      'Search ApprenticeshipNC\'s directory for plumbing programs near you, and contact them about applying.',
+      'Keep a record of every hour you work and who you worked for. You\'ll need it for the technician exam.',
+      'After 3,000 hours (or 2,500 for Class II), apply to the state board for the plumbing technician exam.',
+      'With 4,000 hours, you can go for a contractor license and run your own jobs.'
+    ],
+    stepsSrc: ['ncfind', 'applicant', 'employee'],
+    src: NCPH_SRC
+  },
+  {
+    slug: 'hvac-north-carolina',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'NC',
+    stateName: 'North Carolina',
+    checked: 'November 15, 2026',
+    title: 'How to become an HVAC technician in North Carolina',
+    description: 'How to become an HVAC technician in North Carolina: start as an employee of a licensed heating contractor, get EPA 608 certified, and the technician and contractor licenses for each heating group. Plus apprenticeships and community college programs. From official sources.',
+    lede: 'In North Carolina you can start by getting hired: employees of a licensed heating contractor can do the work without their own license, as long as a licensee supervises it. For refrigerants you also need a federal EPA certification. Your hours count toward a state technician license and, later, a contractor license.',
+    rules: [
+      { dt: 'Working as an employee', dd: 'State law says a genuine employee of a licensed contractor isn\'t contracting, so you don\'t need your own license to work for one. The contractor, or a licensed technician working for them, has to supervise the work in person, on site.', src: ['employee', 'supervision'] },
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Three heating groups', dd: 'Group 3 covers heating and cooling systems with air ducts up to 15 tons of cooling, and every single-family home. Group 2 covers larger air systems, and Group 1 covers steam and hot-water heating. Licenses are issued for each group.', src: ['employee', 'techDefs'] },
+      { dt: 'Technician license', dd: 'After 3,000 hours (about 18 months) of full-time work in a group, you can take a Class I technician exam (2,500 hours for Class II, for single-family homes). Hours count whether or not a license was required, and up to half can come from school. A technician works full time for a licensed contractor in the same group.', src: ['applicant', 'rules', 'techDefs'] },
+      { dt: 'Contractor license, later', dd: '4,000 hours (2 years) of full-time experience in the group, up to half of it from school, then the board\'s exam, at $100 per exam.', src: ['applicant', 'packet'] }
+    ],
+    routesIntro: 'Because employees don\'t need their own license, the main choice is how you learn: a registered apprenticeship that pays you and adds classes, or community college classes first.',
+    union: {
+      what: 'Run by the United Association (UA), the plumbers, pipefitters and HVAC technicians union, and union contractors.',
+      programs: [
+        { area: 'Charlotte, Raleigh and Jacksonville', name: 'Mechanical Trades Carolina (UA Local 421)', facts: 'Trains HVAC technicians in a five-year apprenticeship registered with the state and the U.S. Department of Labor. First-year apprentices earn $18.21 an hour, with raises each year, plus medical coverage and a pension, and finish with college credits and no student loans. Its 18-week welding pre-apprenticeship can let you start an HVAC/R apprenticeship as a second-year apprentice. Contact it through its ApprenticeshipNC listing.', src: 'mtc', more: 'mtcUa' }
+      ],
+      more: 'Find the UA local for your part of North Carolina and ask whether it trains HVAC technicians.',
+      find: 'uaFind',
+      findLabel: 'Find a UA local by state',
+      cite: ['mtc', 'mtcUa', 'uaFind']
+    },
+    nonunion: {
+      heading: 'Apprenticeships through community colleges',
+      what: 'Community colleges work with local employers, mostly non-union, to run registered apprenticeships: a participating company hires you, and you take classes at the college.',
+      programs: [
+        { area: 'Wilmington area', name: 'Cape Fear Community College: HVAC apprenticeship', facts: 'Run with 14 local employers, including Johnson Controls, Brady Services, Southeastern Heating and Air and Tim\'s Heating & Air. Phone (910) 362-7370 or email apprenticeships@cfcc.edu.', src: 'cfcc' }
+      ],
+      more: 'Other colleges and employers run HVAC apprenticeships. ApprenticeshipNC\'s directory lists them by area.'
+    },
+    school: {
+      heading: 'Community college programs',
+      what: 'North Carolina\'s community colleges teach heating and air conditioning in certificate, diploma and degree programs. Up to half of the hours for a technician or contractor license can come from school or technical training.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Look for a job with a licensed heating contractor, and ask whether they sponsor a registered apprenticeship.',
+      'Search ApprenticeshipNC\'s directory for HVAC programs near you.',
+      'Keep a record of every hour you work and who you worked for.',
+      'After 3,000 hours (or 2,500 for Class II), apply for a technician exam. Group 3 is the one that covers single-family homes.'
+    ],
+    stepsSrc: ['epa608', 'ncfind', 'applicant'],
+    src: NCPH_SRC
   }
+
 ];
 
 export const stateGuideBySlug = new Map(STATE_GUIDES.map((g) => [g.slug, g]));
