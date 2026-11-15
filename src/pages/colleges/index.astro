@@ -2,7 +2,8 @@
 import Layout from '../../layouts/Layout.astro';
 import Directory from '../../components/Directory.astro';
 import { schools, states, pulledDate } from '../../lib/data.js';
-import { COLLEGES_LAUNCHED } from '../../lib/site.js';
+import { COLLEGES_LAUNCHED, MAJORS_LAUNCHED } from '../../lib/site.js';
+import { MAJORS } from '../../lib/majors.js';
 
 const initial = schools.slice(0, 50);
 ---
@@ -28,5 +29,12 @@ const initial = schools.slice(0, 50);
       <li><a href="/colleges/open-admission">Open admission</a></li>
       <li><a href="/colleges/admit-most-applicants">Admit most applicants</a></li>
     </ul>
+    {MAJORS_LAUNCHED && <>
+      <h2>Compare colleges by major</h2>
+      <p>Pay and debt for graduates of each bachelor's program, state by state. <a href="/majors">All majors</a></p>
+      <ul class="state-list">
+        {MAJORS.map((m) => <li><a href={`/majors/${m.slug}`}>{m.name}</a></li>)}
+      </ul>
+    </>}
   </section>
 </Layout>

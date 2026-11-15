@@ -33,6 +33,6 @@ export const COMPARE_PAIRS_LAUNCHED = true;
 
 // Majors: /majors, /majors/<major>, /majors/<major>/<state> and the bachelor's degrees section on college pages.
 // Reachable by URL but noindex, unlinked and out of the sitemap until CC reviews them.
-export const MAJORS_LAUNCHED = false;
+export const MAJORS_LAUNCHED = true;
 
 export const CONTACT_EMAIL = 'hello@afterhighschool.me';
