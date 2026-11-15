@@ -1,0 +1,42 @@
+name: Pull majors (bachelor's programs) data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 14 * * 1'   # Mondays, after the trade pull
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/pull-majors.mjs'
+      - '.github/workflows/pull-majors.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pull-majors
+  cancel-in-progress: false
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Pull and normalize
+        env:
+          SCORECARD_API_KEY: ${{ secrets.SCORECARD_API_KEY }}
+        run: node scripts/pull-majors.mjs
+      - name: Add report to run summary
+        run: '[ -f data/majors/report.md ] && cat data/trade/report.md >> "$GITHUB_STEP_SUMMARY" || true'
+      - name: Commit data
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git add data/majors
+          git diff --cached --quiet && exit 0
+          git commit -qm "Majors data pull"
+          ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs -q && git push -q && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ]
