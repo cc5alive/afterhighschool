@@ -78,7 +78,7 @@
     if (f.np && (r.np == null || r.np >= Number(f.np))) return false;
     if (f.size && sizeBand(r.ug) !== f.size) return false;
     if (f.set && r.set !== f.set) return false;
-    if (f.tp === 'optional' && !['considered_not_required', 'not_considered'].includes(r.tp)) return false;
+    if (f.tp === 'optional' && !['considered_not_required', 'not_considered', 'recommended'].includes(r.tp)) return false;
     if (f.tp === 'required' && r.tp !== 'required') return false;
     return true;
   }

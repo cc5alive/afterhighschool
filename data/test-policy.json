@@ -112,6 +112,155 @@
         "title": "Texas A&M Admissions: freshman applicants",
         "url": "https://admissions.tamu.edu/apply/freshman"
       }
+    },
+    "auburn-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Auburn University Admissions: prospective freshmen",
+        "url": "https://auburn.edu/admissions/prospective-students/freshmen/index.php"
+      }
+    },
+    "kennesaw-state-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Kennesaw State Admissions: freshman requirements",
+        "url": "https://www.kennesaw.edu/admissions/undergraduate/admission-requirements/freshman.php"
+      },
+      "note": "Applicants also need to meet minimum section scores set by the University System of Georgia."
+    },
+    "united-states-coast-guard-academy": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "U.S. Coast Guard Academy: admission requirements",
+        "url": "https://uscga.edu/admissions/admission-requirements/"
+      }
+    },
+    "university-of-miami": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "University of Miami Admissions: testing policy",
+        "url": "https://admissions.miami.edu/undergraduate/application-process/admission-requirements/testing-policy/index.html"
+      },
+      "note": "Applicants to performance majors in the Frost School of Music, BFA programs and the School of Architecture, and students finishing high school outside the U.S., can apply without scores."
+    },
+    "ohio-state-university-main-campus": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Ohio State Admissions: Columbus campus application steps",
+        "url": "https://undergrad.osu.edu/apply/freshmen-columbus/apply-step-by-step"
+      },
+      "note": "Required for the Columbus campus. Not required if you will have been out of high school two or more years. Ohio State's regional campuses don't consider scores."
+    },
+    "georgia-state-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Georgia State Admissions: what to know about testing",
+        "url": "https://admissions.gsu.edu/bachelors-degree/testing/"
+      },
+      "note": "Required for bachelor's degrees on the Atlanta campus. Perimeter College (associate degrees) admits students with at least a 2.0 GPA without scores."
+    },
+    "georgia-southern-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Georgia Southern Admissions: first-year students",
+        "url": "https://www.georgiasouthern.edu/admissions-aid/first-year-students"
+      },
+      "note": "Required for traditional admission to the Statesboro and Armstrong campuses. University College admits students with at least a 2.0 GPA without scores."
+    },
+    "nova-southeastern-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Nova Southeastern University: freshman applicants",
+        "url": "https://undergrad.nova.edu/admissions/freshman.html"
+      },
+      "note": "The CLT is accepted too."
+    },
+    "mercer-university": {
+      "policy": "required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Mercer University Admissions: college application tips",
+        "url": "https://undergrad.mercer.edu/blog/5-college-application-tips/"
+      }
+    },
+    "rice-university": {
+      "policy": "recommended",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Rice Admission: standardized testing",
+        "url": "https://admission.rice.edu/policies/standardized-testing"
+      }
+    },
+    "louisiana-state-university-and-agricultural-and-mechanical-college": {
+      "policy": "considered_not_required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "LSU Admissions: test optional FAQ",
+        "url": "https://www.lsu.edu/admissions/apply/test-optional-faq.php"
+      },
+      "note": "LSU does require scores if your weighted high school GPA is below 3.5."
+    },
+    "the-university-of-alabama": {
+      "policy": "considered_not_required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "University of Alabama Admissions: testing requirements",
+        "url": "https://admissions.ua.edu/testing-requirements/"
+      },
+      "note": "For fall 2027 entry, scores are required if your high school GPA is below 3.0. Starting with fall 2028 entry, everyone must send scores."
+    },
+    "university-of-alabama-at-birmingham": {
+      "policy": "considered_not_required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "UAB Admissions: test-optional policy",
+        "url": "https://www.uab.edu/admissions/apply/test-optional"
+      },
+      "note": "For fall 2027 entry, scores are required if your weighted GPA is below 3.5. Starting with fall 2028 entry, everyone must send scores."
+    },
+    "columbia-university-in-the-city-of-new-york": {
+      "policy": "considered_not_required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Columbia Undergraduate Admissions: testing policy",
+        "url": "https://undergrad.admissions.columbia.edu/apply/process/testing"
+      },
+      "note": "Optional for fall 2027 entry. Starting with fall 2028 entry (applications from August 2027), scores are required."
+    },
+    "university-of-notre-dame": {
+      "policy": "considered_not_required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Notre Dame Admissions: application considerations",
+        "url": "https://admissions.nd.edu/apply/evaluation-criteria/"
+      },
+      "note": "Optional for fall 2027 entry. Starting with fall 2028 entry, scores are required."
+    },
+    "vanderbilt-university": {
+      "policy": "considered_not_required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Vanderbilt Admissions: testing policies",
+        "url": "https://admissions.vanderbilt.edu/apply/testing-policies/"
+      },
+      "note": "Optional for fall 2027 and fall 2028 entry. Starting with fall 2029 entry, scores are required."
+    },
+    "princeton-university": {
+      "policy": "considered_not_required",
+      "checkedAt": "2026-11-15",
+      "source": {
+        "title": "Princeton Alumni Weekly: Princeton admissions will again require standardized tests (October 2025)",
+        "url": "https://paw.princeton.edu/article/princeton-admissions-will-again-require-standardized-tests-2027"
+      },
+      "note": "Optional for students applying now. Students applying in fall 2027, for fall 2028 entry, will need to send scores."
     }
   }
 }

@@ -18,7 +18,7 @@ export function collegeLists() {
     stateName: st.name
   }));
 
-  const optional = schools.filter((s) => ['considered_not_required', 'not_considered'].includes(s.testPolicy));
+  const optional = schools.filter((s) => ['considered_not_required', 'not_considered', 'recommended'].includes(s.testPolicy));
   const affordable = schools.filter((s) => s.avgNetPrice != null && s.avgNetPrice < 20000);
   const open = schools.filter((s) => s.openAdmission);
   const most = schools.filter((s) => s.admitRate != null && s.admitRate >= 0.75);
@@ -26,7 +26,7 @@ export function collegeLists() {
     {
       slug: 'test-optional',
       title: 'Test-optional colleges',
-      intro: `${n(optional.length)} four-year colleges that don't require SAT or ACT scores, as they report to the federal government. Federal data lags behind schools' announcements, so we check the best-known schools on their own admissions sites, and several that brought back testing are left off. Confirm on each school's site before you apply.`,
+      intro: `${n(optional.length)} four-year colleges that don't require SAT or ACT scores, as they report to the federal government. Federal data lags behind schools' announcements, so we check the best-known schools on their own admissions sites, and leave off those that brought back testing. Some schools here require scores below a certain GPA or will require them in a later year; their pages say so. Confirm on each school's site before you apply.`,
       preset: { tp: 'optional' },
       list: optional
     },
