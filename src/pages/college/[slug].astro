@@ -67,7 +67,10 @@ const chips = [
 // when we have it, never a total built by adding Scorecard's section ranges.
 const cdsYear = cd?.cdsYear ? cd.cdsYear.replace(/^(\d{4})-\d{2}(\d{2})$/, '$1–$2') : null;
 const cdsLabel = `${s.name} Common Data Set${cdsYear ? ` ${cdsYear}` : ''}`;
-const sentNote = (submit, test) => submit != null ? `the ${Math.round(submit)}% of enrolled first-years who sent ${test} scores` : `enrolled first-years who sent ${test} scores`;
+// A share under 1% is shown as "fewer than 1%", never rounded to 0%.
+const sentNote = (submit, test) => submit == null ? `enrolled first-years who sent ${test} scores`
+  : submit > 0 && submit < 1 ? `fewer than 1 in 100 enrolled first-years sent ${test} scores`
+  : `the ${Math.round(submit)}% of enrolled first-years who sent ${test} scores`;
 const satRange = s.satRange ? `${s.satRange[0]}–${s.satRange[2]}` : null;
 const satSec = !satRange && s.satSections ? s.satSections : null;
 const sat = satRange

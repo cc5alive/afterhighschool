@@ -1,6 +1,6 @@
 {
   "slug": "case-western-reserve-university",
-  "cdsYear": null,
+  "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set",
     "url": "https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf"
@@ -11,7 +11,6 @@
     "admitted_total": 13890,
     "enrolled_total": 1663,
     "waitlist_offered": 9168,
-    "waitlist_accepted": 688,
     "waitlist_admitted": 688,
     "sat_submit_pct": 52,
     "act_submit_pct": 15,
@@ -62,7 +61,6 @@
     "admitted_total": "reader",
     "enrolled_total": "reader",
     "waitlist_offered": "gemini",
-    "waitlist_accepted": "gemini",
     "waitlist_admitted": "reader",
     "sat_submit_pct": "gemini",
     "act_submit_pct": "gemini",

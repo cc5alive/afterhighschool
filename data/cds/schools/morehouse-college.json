@@ -28,11 +28,8 @@
     "gpa_below1_pct": 0,
     "gpa_average": 3.55,
     "gpa_submit_pct": 98,
-    "ed_applied": 1864,
-    "ed_admitted": 1322,
     "deferral_allowed": "yes",
-    "deferral_max": "1 year",
-    "ed_offered": "yes"
+    "deferral_max": "1 year"
   },
   "basis": {
     "applied_total": "gemini",
@@ -56,8 +53,6 @@
     "gpa_below1_pct": "both",
     "gpa_average": "both",
     "gpa_submit_pct": "both",
-    "ed_applied": "both",
-    "ed_admitted": "both",
     "deferral_allowed": "both",
     "deferral_max": "both"
   }

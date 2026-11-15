@@ -24,7 +24,11 @@ function checkNumber(text, item) {
   if (label.length >= 12) {
     let i = text.indexOf(label);
     while (i > -1) {
-      if (text.slice(i + label.length, i + label.length + 150).includes(v)) return { found: true, how: 'near' };
+      // The value must follow the label directly, with at most other numbers in between (the other
+      // percentiles on a score row). Letters in the gap mean the next row's label: the school left this
+      // row blank and the number belongs to the row below (Harvard's wait list, 2025-26).
+      const after = text.slice(i + label.length, i + label.length + 150), at = after.indexOf(v);
+      if (at > -1 && !/[a-z]/.test(after.slice(0, at))) return { found: true, how: 'near' };
       i = text.indexOf(label, i + 1);
     }
   }

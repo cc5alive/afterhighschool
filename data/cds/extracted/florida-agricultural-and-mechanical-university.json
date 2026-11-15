@@ -56,14 +56,12 @@
       "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
     },
     "applied_total": {
-      "value": 52988,
-      "quote": "total first-time, first-year males who applied 7688 / total first-time, first-year females who applied 18806 / total first-time, first-year students of unknowns gender who applied 26494",
-      "how": "sum of gender rows"
+      "value": 26494,
+      "quote": "total first-time, first-years who applied 6588 19412 494 26494"
     },
     "admitted_total": {
-      "value": 9884,
-      "quote": "total first-time, first-year males who were admitted 1642 / total first-time, first-year females who were admitted 3300 / total first-time, first-year students of unknown sex who were admitted 4942",
-      "how": "sum of gender rows"
+      "value": 4942,
+      "quote": "total first-time, first-years who were admitted 2089 2810 43 4942"
     },
     "enrolled_total": {
       "value": 1232,

@@ -1,6 +1,6 @@
 {
   "slug": "governors-state-university",
-  "cdsYear": null,
+  "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set",
     "url": "https://www.govst.edu/sites/default/files/2026-08/Common%20Data%20Set.pdf"
@@ -10,9 +10,6 @@
     "applied_total": 2802,
     "admitted_total": 1583,
     "enrolled_total": 318,
-    "sat_p25": 870,
-    "sat_p50": 870,
-    "sat_p75": 870,
     "rank_top10_pct": 0,
     "rank_top25_pct": 3,
     "gpa_400_pct": 11,
@@ -53,9 +50,6 @@
     "applied_total": "reader",
     "admitted_total": "reader",
     "enrolled_total": "reader",
-    "sat_p25": "reader",
-    "sat_p50": "reader",
-    "sat_p75": "reader",
     "rank_top10_pct": "reader",
     "rank_top25_pct": "reader",
     "gpa_400_pct": "reader",

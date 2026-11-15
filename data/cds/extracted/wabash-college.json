@@ -23,10 +23,6 @@
       "value": 264,
       "quote": "C.118 total first-time, first-year students who enrolled: 264"
     },
-    "waitlist_admitted": {
-      "value": 4,
-      "quote": "number of wait-listed students admitted: c.514 english 4 first-time, first-year admission admissions requirements high school units recommended undergraduates first-time, first-year all all all carnegie units"
-    },
     "rank_top10_pct": {
       "value": 15.7,
       "quote": "C.1001 percent in top tenth of high school graduating class: 0.157"
@@ -202,6 +198,10 @@
     "gpa_250_pct": {
       "value": 5,
       "quote": "C.1126 percent who had gpa between 2.50 and 2.99: 0.05"
+    },
+    "waitlist_offered": {
+      "value": 3,
+      "quote": "C.202 number of qualified applicants offered a place on waiting list:: 3"
     }
   },
   "concerns": null

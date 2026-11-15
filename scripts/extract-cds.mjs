@@ -44,9 +44,9 @@ const fail = (slug, url, reason) => { failed[slug] = { url, at: today, reason };
 // row (or a numbers-only row right below, as wrapped PDF tables often have) are the candidates.
 // pick: 'first' = first number after the label; 'last' = rightmost column (the C1 "Total" column).
 const ROWS = {
-  applied_total: [/^total first-time, first-year (?:\(degree-seeking\) )?(?:students )?who applied/, 'count', 'last'],
-  admitted_total: [/^total first-time, first-year (?:\(degree-seeking\) )?(?:students )?(?:who were )?admitted/, 'count', 'last'],
-  enrolled_total: [/^total (?:full-time )?first-time, first-year (?:\(degree-seeking\) )?(?:students )?(?:who )?enrolled/, 'count', 'last'],
+  applied_total: [/^total first-time, first-years? (?:\(degree-seeking\) )?(?:students )?who applied/, 'count', 'last'],
+  admitted_total: [/^total first-time, first-years? (?:\(degree-seeking\) )?(?:students )?(?:who were )?admitted/, 'count', 'last'],
+  enrolled_total: [/^total (?:full-time )?first-time, first-years? (?:\(degree-seeking\) )?(?:students )?(?:who )?enrolled/, 'count', 'last'],
   waitlist_offered: [/^number of qualified applicants offered a place on wait ?list/, 'count', 'first'],
   waitlist_accepted: [/^number accepting a place on the wait ?list/, 'count', 'first'],
   waitlist_admitted: [/^number of wait-?listed students admitted/, 'count', 'first'],
@@ -82,7 +82,10 @@ const parse = (s, type) => {
 };
 const rowText = (r) => norm(r.map((c) => c.s).join(' '));
 // Some PDFs print the item code (C1, C11 …) in front of each row's label, and some say "(freshman)".
-const labelText = (r) => rowText(r).replace(/^c\d{1,2}[a-z]?\.?\s+/, '').replace(/\s*\(freshmen?\)/g, '');
+// Some fillable 2025-26 PDFs embed a font whose letters come out shifted by 29 code points, so
+// "unknown sex" reads "XQNQRZQ VH[" (UCLA, RIT, Chapman). Put those two words back so the row is recognized.
+const unshift = (t) => t.replace(/\u0003/g, ' ').replace(/xqnqrzq/g, 'unknown').replace(/vh\[/g, 'sex').replace(/\s+/g, ' ').trim();
+const labelText = (r) => unshift(rowText(r)).replace(/^c\d{1,2}[a-z]?\.?\s+/, '').replace(/\s*\(freshmen?\)/g, '');
 const isNumbersOnly = (r) => r.length > 0 && r.every((c) => /^[\d,.\s%]+$/.test(c.s));
 const isFooter = (r) => /common data set|page \d|^totals? should/.test(rowText(r));
 
@@ -108,8 +111,20 @@ function readRows(rows) {
       const label = rows[i].map((c) => norm(c.s).replace(/^c\d{1,2}[a-z]?\.?$/, '')).map((t) => t.replace(/\s*\(freshmen?\)/g, ''));
       while (k < rows[i].length && used < matchLen) { used += label[k].replace(/\s/g, '').length; k++; }
       const labelEndX = rows[i][Math.max(0, k - 1)].x;
-      const nums = cells.filter((c, ci) => (ci >= k || cells !== rows[i] && ci >= rows[i].length) && c.x > labelEndX && parse(c.s, type) != null).sort((a, b) => a.x - b.x);
+      // In the Excel template's answer sheet a row can carry a second, unrelated question to the right
+      // ("... class | C.1125 | Percent who had GPA between 3.00 and 3.24 | 0.054"). Nothing from that
+      // other question's code onward belongs to this row.
+      const codeX = Math.min(...rows[i].filter((c, ci) => ci >= k && /^[A-J]\.\d{3,4}$/.test(c.s.trim())).map((c) => c.x), Infinity);
+      const usable = (c, ci) => (ci >= k || cells !== rows[i] && ci >= rows[i].length) && c.x > labelEndX && c.x < codeX && parse(c.s, type) != null;
+      let nums = cells.filter(usable).sort((a, b) => a.x - b.x);
       if (!nums.length) continue;
+      if (pick === 'last' && cells !== rows[i]) {
+        // The row's own numbers come first: if they already hold a total (one number that equals the sum
+        // of the others), the numbers-only row below is something else (UW-Stevens Point 2025-26).
+        const own = rows[i].filter((c, ci) => ci >= k && c.x > labelEndX && c.x < codeX && parse(c.s, type) != null).sort((a, b) => a.x - b.x);
+        const ov = own.map((c) => parse(c.s, type)), os = ov.reduce((a, b) => a + b, 0);
+        if (ov.some((x) => ov.length > 2 && Math.abs(x * 2 - os) <= 2)) { nums = own; quoteRows = [rows[i]]; }
+      }
       let value = parse(nums[0].s, type);
       if (/^gpa_\d|^gpa_below/.test(key)) { gpaCols[key] = nums.map((c) => parse(c.s, type)); }
       if (pick === 'last') {
@@ -144,12 +159,15 @@ const C1_VERB = { applied_total: /who applied$/, admitted_total: /(who were )?ad
 function c1FromGender(rows, out) {
   for (const [key, verb] of Object.entries(C1_VERB)) {
     if (out[key]?.value) continue;
-    let sum = 0, n = 0; const quote = [];
+    let sum = 0, n = 0; const quote = [], parts = [];
     for (let i = 0; i < (rows || []).length; i++) {
       let r = rows[i];
       if (!/^total first-time, first-year (men|women|males|females|students of|of another|of unknown|another|unknown)/.test(labelText(r))) continue;
       // Long labels wrap: the number and the rest of the label can sit on the next one or two rows.
-      for (let j = i + 1; j <= i + 2 && rows[j]; j++) {
+      // A row that already has its number and its verb is complete: a numbers-only row below it belongs
+      // to something else (UW-Stevens Point 2025-26 has a stray "7902 7902" under its enrolled rows).
+      const complete = () => r.slice(1).some((c) => parse(c.s, 'count') != null) && verb.test(labelText(r.filter((c) => parse(c.s, 'count') == null)).trim());
+      for (let j = i + 1; j <= i + 2 && rows[j] && !complete(); j++) {
         const t = rowText(rows[j]);
         if (/^total |first-time, first-year student/.test(t) || isFooter(rows[j])) break;
         if (isNumbersOnly(rows[j]) || t.replace(/[\d,]/g, '').trim().length < 25) r = r.concat(rows[j]); else break;
@@ -157,10 +175,15 @@ function c1FromGender(rows, out) {
       const text = labelText(r.filter((c) => parse(c.s, 'count') == null)).trim();
       if (!verb.test(text)) continue;
       const nums = r.slice(1).map((c) => parse(c.s, 'count')).filter((x) => x != null);
-      if (nums.length) sum += nums[nums.length - 1];
+      parts.push(nums.length ? nums[nums.length - 1] : 0);
       n++; quote.push(rowText(r));
     }
-    if (n >= 2 && sum > 0) out[key] = { value: sum, quote: quote.join(' / '), how: 'sum of gender rows' };
+    // A college can put its total in the last gender row (Florida A&M 2025-26 prints men, women and then
+    // their sum on the "unknown" row). A row that equals the sum of the rows above it is the total, not a group.
+    const last = parts[parts.length - 1], rest = parts.slice(0, -1).reduce((a, b) => a + b, 0);
+    const repeated = parts.length >= 3 && last > 0 && last === rest;
+    sum = repeated ? last : parts.reduce((a, b) => a + b, 0);
+    if (n >= 2 && sum > 0) out[key] = { value: sum, quote: quote.join(' / '), how: repeated ? 'sum of gender rows (last row repeats the total)' : 'sum of gender rows' };
   }
   return out;
 }
@@ -360,6 +383,43 @@ function factors(rows) {
   return out;
 }
 
+// The entering fall a CDS describes, from its own instructions ("... and enrolled (full- or part-time) in
+// Fall 2025", "questions below for Fall 2025 admissions"). Only a fallback for documents whose link and
+// file name carry no year: colleges sometimes leave last year's wording in the template, so the link wins.
+export function fallYearOf(text) {
+  const seen = {};
+  for (const re of [/and enrolled \(full- ?or part- ?time\) in (?:the )?fall (?:of )?(20\d\d)/g, /questions below for fall (20\d\d) admissions/g,
+    /enrolled in fall (20\d\d) who submitted national/g, /still enrolled at your institution as of the official enrollment date in fall (20\d\d)/g])
+    for (const m of String(text || '').matchAll(re)) seen[m[1]] = (seen[m[1]] || 0) + 1;
+  const best = Object.entries(seen).sort((a, b) => b[1] - a[1])[0];
+  return best ? `${best[0]}-${Number(best[0]) + 1}` : null;
+}
+
+// Every value the reader takes from one document's rows: the printed-form readers, then the template's
+// answer codes on top. Pure (no network), so it can be replayed on saved rows in tests.
+export function readValues(rows) {
+    const codes = readCodes(rows);
+    const values = { ...c1FromGender(rows, readRows(rows)), ...readScores(rows), ...factors(rows), ...readTransfer(rows), ...readDeferral(rows) };
+    // Answer codes win. C11 rows are one set: never mix rows from two readers (one may read fractions, one percents).
+    if (codes._c11_split || Object.keys(codes).some((k) => /^gpa_\d|^gpa_below/.test(k))) for (const k of Object.keys(values)) if (/^gpa_\d|^gpa_below/.test(k)) delete values[k];
+    delete codes._c11_split;
+    const before = { ...values };
+    Object.assign(values, codes);
+    // A school's template can link an answer to the wrong row (Cornell's 2025-26 file puts its early
+    // decision applications in the admits cell). A code value that breaks a basic nesting rule goes back
+    // to what the printed form says, or is left out.
+    const v = (k) => values[k]?.value;
+    const LE = [['admitted_total', 'applied_total'], ['enrolled_total', 'admitted_total'], ['ed_admitted', 'ed_applied'], ['ed_admitted', 'admitted_total'],
+      ['waitlist_accepted', 'waitlist_offered'], ['waitlist_admitted', 'waitlist_offered'], ['transfer_admitted', 'transfer_applied'], ['transfer_enrolled', 'transfer_admitted']];
+    for (const [a, b] of LE) {
+      if (typeof v(a) !== 'number' || typeof v(b) !== 'number' || v(a) <= v(b)) continue;
+      for (const k of [a, b]) if (codes[k]) { if (before[k]) values[k] = before[k]; else delete values[k]; }
+    }
+    if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
+    if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
+    return values;
+}
+
 const log = [];
 export { readRows, readScores, factors, c1FromGender, readTransfer, readDeferral, readCodes };
 // Run only when called directly (tests import the readers above).
@@ -395,28 +455,10 @@ if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop()
     if (doc.text == null) { fail(slug, src.url, `document failed to load (HTTP ${doc.status})`); continue; }
     if (!looksLikeCds(doc.text)) { fail(slug, src.url, `no CDS document found from ${src.url}`); continue; }
     delete failed[slug];
-    const codes = readCodes(doc.rows);
-    const values = { ...c1FromGender(doc.rows, readRows(doc.rows)), ...readScores(doc.rows), ...factors(doc.rows), ...readTransfer(doc.rows), ...readDeferral(doc.rows) };
-    // Answer codes win. C11 rows are one set: never mix rows from two readers (one may read fractions, one percents).
-    if (codes._c11_split || Object.keys(codes).some((k) => /^gpa_\d|^gpa_below/.test(k))) for (const k of Object.keys(values)) if (/^gpa_\d|^gpa_below/.test(k)) delete values[k];
-    delete codes._c11_split;
-    const before = { ...values };
-    Object.assign(values, codes);
-    // A school's template can link an answer to the wrong row (Cornell's 2025-26 file puts its early
-    // decision applications in the admits cell). A code value that breaks a basic nesting rule goes back
-    // to what the printed form says, or is left out.
-    const v = (k) => values[k]?.value;
-    const LE = [['admitted_total', 'applied_total'], ['enrolled_total', 'admitted_total'], ['ed_admitted', 'ed_applied'], ['ed_admitted', 'admitted_total'],
-      ['waitlist_accepted', 'waitlist_offered'], ['waitlist_admitted', 'waitlist_offered'], ['transfer_admitted', 'transfer_applied'], ['transfer_enrolled', 'transfer_admitted']];
-    for (const [a, b] of LE) {
-      if (typeof v(a) !== 'number' || typeof v(b) !== 'number' || v(a) <= v(b)) continue;
-      for (const k of [a, b]) if (codes[k]) { if (before[k]) values[k] = before[k]; else delete values[k]; }
-    }
-    if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
-    if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };
+    const values = readValues(doc.rows);
     // Temporary download hosts (Box, Google) expire: cite the listed link instead.
     const docUrl = src.cite || (resolved.url && !/boxcloud\.com|googleusercontent\.com|dropboxusercontent\.com/.test(resolved.url) ? resolved.url : src.url);
-    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, extra: src.extra || undefined, mirror: src.mirror || undefined, mirrorHash: src.mirror ? hashOf(src.mirror) : undefined,
+    const d = { slug, cdsYear: (isFile(src.url) && src.year) || resolved.year || (yearOf(docUrl) ? `${yearOf(docUrl)}-${yearOf(docUrl) + 1}` : null) || src.year || fallYearOf(doc.text) || null, source: { title: src.title || 'Common Data Set', url: docUrl }, sourceUrl: src.url, extra: src.extra || undefined, mirror: src.mirror || undefined, mirrorHash: src.mirror ? hashOf(src.mirror) : undefined,
       researchedAt: new Date().toISOString().slice(0, 10), extractedBy: 'extract-cds', readerVersion: READER_VERSION, docKind: doc.kind, values, concerns: null };
     if (!Object.keys(values).length) d.concerns = 'no CDS values recognized (document may be scanned or laid out unusually)';
     fs.writeFileSync(`${DIR}/${slug}.json`, JSON.stringify(d, null, 2) + '\n');
