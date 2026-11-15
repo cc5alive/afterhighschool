@@ -1,0 +1,2016 @@
+https://www.ucmo.edu/offices/university-analytics-and-institutional-research/common-data-set/common-data-set-2025-2026.pdf
+pdf 200
+
+72:Common Data Set 2025-2026
+75:Welcome to the 2025-2026 Common Data Set collection!
+72:The Common Data Set (CDS) initiative is a collaborative effort among data providers in the higher
+72:education community and publishers as represented by the College Board, Peterson’s, and U.S. News &
+72:World Report. The combined goal of this collaboration is to improve the quality and accuracy of
+72:information provided to all involved in a student’s transition into higher education, as well as to reduce
+72:the reporting burden on data providers.
+74:The CDS is a set of standards and definitions of data items rather than a survey instrument or set of data
+72:represented in a database. Each of the higher education surveys conducted by the participating publishers
+72:incorporates items from the CDS as well as unique items proprietary to each publisher. Consequently, the
+72:publishers’ surveys differ in that they utilize varying numbers of items from the CDS.
+74:Those who report data for their colleges are urged to abide by the definitions and the cohorts specified
+72:when answering CDS items. They are also urged to use the answers to CDS items when responding to the
+72:numerous survey requests they receive, by distributing photocopies of their answers, posting them on
+72:their websites, or by other effective means.
+72:This Excel template is designed for CSV export. On each section tab, responses are stored in columns AA–
+72:AL. Before exporting, verify that your entries appear correctly on the Answer Sheet. The Answer Sheet
+72:includes field mappings to the U.S. News fillable PDF and to the Word version. Please confirm with the
+72:receiving organization that it is able to accept a CSV of your responses. For more information about the
+72:Common Data Set (CDS) initiative, visit https://commondataset.org/
+74:Please contact the College Board College Survey team at collegesurvey@collegeboard.org should you
+72:have any questions about this Excel template.
+72:*Note: At the time of publication, not all questions on the Excel template can be matched to a U.S. News
+72:fillable PDF equivalent. The matching cells for these questions are in light red on the Answer Sheet. Please
+72:confirm all questions, responses, and mapping before submitting a CSV to another organization.
+72:*Note: As of publication, some questions in the Word template do not map directly—or require different
+72:formatting—to an equivalent field in the U.S. News fillable PDF and in the Excel template. An example are
+72:those questions with multiple category options such as "Very Important, Important, Considered, Not
+72:Considered". The matching cells for these questions may appear as duplicates (light red on the Answer
+72:Sheet) or a single category is listed as the code value (c7_state_residency_very_important ). Please review
+72:and verify all questions, responses, and mapping requirements before exporting to CSV or submitting to
+72:another organization.
+227:A. General Information
+77:A0 | 101:Respondent Information (Not for Publication)
+101:First Name: | 424:Mandy
+101:Last Name: | 424:Havnen
+424:Data Services and
+101:Title:
+424:Quality Manager
+424:University Analytics and
+101:Office:
+424:Institutional Research
+101:Address Line 1: | 424:Administration 203
+101:Address Line 2:
+101:Address Line 3:
+101:City: | 424:Warrensburg
+101:State | 424:MO
+101:Zipcode | 424:64093
+101:Country: | 424:Unitied States
+101:Phone: | 424:660-543-8026
+101:Email Address: | 424:uair@ucmo.edu
+101:Are your responses to the CDS posted for reference on your | 396:Yes | 424:Yes or No
+101:institution's Website?
+101:If yes, please provide the URL of the corresponding Web page:
+101:https://www.ucmo.edu/offices/university | 294:- | 297:analytics | 340:- | 344:and | 362:-
+101:institutional | 156:- | 160:research/common | 248:- | 252:data | 273:- | 277:set/index.php
+108:We invite you to indicate if there are items on
+108:the CDS for which you cannot use the
+108:requested analytic convention, cannot provide
+108:data for the cohort requested, whose
+77:A0A
+108:methodology is unclear, or about which you
+108:have questions or comments in general. This
+108:information will not be published but will help
+108:the publishers further refine CDS items.
+108:We offer a cooperative doctoral program, but
+108:do not confer the degree.
+77:A1 | 108:Address Information
+108:Name of College/University: | 345:University of Central Missouri
+108:Street Address Line 1: | 345:PO Box 800
+108:Street Address Line 2:
+108:Street Address Line 3:
+108:City | 345:Warrensburg
+108:State | 345:MO
+108:Zip | 345:64093
+108:Country: | 345:United States
+108:Main Phone Number (Area Code) | 345:660 | 362:- | 365:543 | 382:- | 385:4646
+108:Main Phone Number:
+108:Main Phone Number (Ext):
+108:WWW Home Page Address: | 345:ucmo.edu
+108:Main Institution Email | 345:admit@ucmo.edu
+108:Admissions Office
+108:Admissions Office Street | 220:Address (if different): | 345:120 E. South St.
+108:Street Address (if different) Line 2: | 345:Ward Edwards
+108:Street Address (if different) Line 3:
+108:City | 345:Warrensburg
+108:State | 345:MO
+108:Zip | 345:64093
+108:Country: | 345:United States
+108:Admissions Phone Number (Area Code): | 345:660 | 362:- | 365:543 | 382:- | 385:4290
+108:Admissions Phone Number:
+108:Admissions Phone Number (Ext):
+108:Admissions Toll-Free Phone Number (Out-of-
+345:877-729-8266
+108:State Area Code):
+108:Admissions Toll-Free Phone Number:
+108:Admissions Toll-Free Phone Number (Ext):
+108:Admissions Email Address: | 345:admit@ucmo.edu
+112:If there is a separate URL for your school’s online application, please specify:
+112:ucmo.edu/apply
+112:If you have a mailing address other than the above to which applications should be sent,
+112:please provide:
+77:A2 | 112:Source of institutional control | 257:(Check only one) | 333::
+86:✓ | 112:Public
+112:Private (nonprofit)
+112:Proprietary
+77:A3 | 112:Classify your undergraduate institution:
+86:✓ | 112:Coeducational college
+112:Men's college
+112:Women's college
+77:A4 | 112:Academic year | 186:calendar:
+86:✓ | 112:Semester
+112:Quarter
+112:Trimester
+112:4 | 118:- | 121:1 | 127:- | 130:4
+112:Continuous
+112:Differs by program (describe):
+112:Other (describe):
+77:A5 | 112:Degrees offered by your institution:
+86:✓ | 112:Certificate
+112:Diploma
+112:Associate
+112:Transfer Associate
+112:Terminal Associate
+86:✓ | 112:Bachelor's
+86:✓ | 112:Postbachelor's certificate
+86:✓ | 112:Master's
+86:✓ | 112:Post | 132:- | 135:master's certificate
+112:Doctoral degree research/scholarship
+112:Doctoral degree | 186:– | 194:professional practice
+112:Doctoral degree | 186:-- | 195:other
+72:A6 Campus Belonging Webpage
+72:If your institution has an office or department dedicated to fostering a welcoming and supportive
+72:campus climate for individuals from all backgrounds, please provide the URL of the corresponding Web
+72:page: https://www.ucmo.edu/offices/the-center/index.php
+173:B. | 197:ENROLLMENT AND PERSISTENCE
+72:B1 Institutional Enrollment - Males and Females
+72:Provide numbers of students for each of the following categories as of the institution's official fall
+72:reporting date or as of October 15, 2025.
+72:• | 90:Note: Report students formerly designated as “first professional” in the graduate cells.
+72:• | 90:For information on reporting study abroad students please see:
+72:https://nces.ed.gov/ipeds/pdf/Reporting_Study_Abroad_Students.pdf
+72:• | 90:In cases where non-binary gender information is provided, IPEDS recommends distributing across
+72:the two-binary categories.
+72:• | 90:Dual Enrollment: If your institution enrolls high school students in college courses for credit either
+72:within a dual enrollment program
+72:or outside of a dual enrollment program, you may report the unduplicated count as part of the full- or
+72:part-time “All other undergraduates” section.
+101:Undergraduate Students: Full | 242:- | 245:Time | 378:Mal | 395:es | 421:Females | 478:Unknown
+101:Degree-seeking, first-time first-year students | 391:485 | 447:618 | 520:0
+101:Other first-year, degree-seeking | 391:264 | 447:297 | 520:0
+101:All other degree-seeking | 383:1,552 | 439:1,708 | 520:0
+101:Total degree | 160:- | 164:seeking | 383:2,301 | 439:2,623 | 520:0
+101:All other undergraduates enrolled in credit courses | 402:4 | 453:20 | 520:0
+101:Total Undergraduate Full | 219:- | 223:Time Students | 383:2,305 | 439:2,643 | 520:0
+101:Undergraduate Students: Part | 243:- | 246:Time | 378:Males | 421:Females | 478:Unknown
+101:Degree-seeking, first-time first-year students | 397:11 | 458:8 | 520:0
+101:Other first-year, degree-seeking | 397:47 | 453:75 | 520:0
+101:All other degree-seeking | 391:383 | 447:364 | 520:0
+101:Total degree | 160:- | 164:seeking | 391:441 | 447:447 | 520:0
+101:All other undergraduates enrolled in credit courses | 391:670 | 439:1,116 | 520:0
+101:Total Undergraduate Part | 221:- | 224:Time Students | 383:1,111 | 439:1,563 | 520:0
+101:Undergraduate Students: All | 378:Males | 421:Females | 478:Unknown
+101:Total Undergraduate Students | 383:3,416 | 439:4,206 | 520:0
+101:Graduate Students: Full | 214:- | 218:Time | 378:Males | 421:Females | 478:Unknown
+101:Degree-seeking, first-time | 391:182 | 447:291 | 520:1
+101:All other degree-seeking | 391:354 | 447:724 | 520:2
+101:All other graduates enrolled in credit courses | 402:0 | 458:0 | 520:0
+101:Total Graduate Full | 192:- | 195:Time Students | 391:536 | 441:1015 | 520:3
+101:Graduate Students: Part | 216:- | 219:Time | 378:Males | 421:Females | 478:Unknown
+101:Degree-seeking, first-time | 397:65 | 452:95 | 520:1
+101:All other degree | 171:- | 175:seeking | 391:720 | 447:775 | 520:4
+101:All other graduates enrolled in credit courses | 402:0 | 458:0 | 520:0
+101:Total Graduate Part | 194:- | 197:Time Students | 391:785 | 447:870 | 520:5
+101:Graduate Students: All | 378:Males | 421:Females | 478:Unknown
+101:Total Graduate Students | 386:1321 | 441:1885 | 520:8
+101:All Students: Total | 378:Males | 421:Females | 478:Unknown
+101:Total Full | 145:- | 149:Time Students | 383:2,841 | 439:3,658 | 520:3
+101:Total Part | 147:- | 150:Time Students | 383:1,896 | 439:2,433 | 520:5
+101:Total All students | 383:4,737 | 439:6,091 | 520:8
+101:Total all undergraduates | 383:7,622
+101:Total all graduate | 386:3214
+101:GRAND TOTAL ALL | 199:STUDENTS | 377:10,836
+72:B2 Enrollment by Racial/Ethnic Category.
+72:Provide numbers of undergraduate students for each of the following categories as of the institution’s
+72:official fall reporting date or as of October 15, 2025.
+72:Include international students only in the category "Nonresidents."
+72:Complete the “Total Undergraduates” column only if you cannot provide data for the first two columns.
+72:Report as your institution reports to IPEDS: persons who are Hispanic should be reported only on the
+72:Hispanic line, not under any race, and persons who are non-Hispanic multi-racial should be reported
+72:only under "Two or more races."
+72:New guidance from IPEDS for reporting aggregate data:
+72:Racial/ethnic designations are requested only for United States citizens, residents, and other eligible
+72:non-citizens.
+72:Eligible non-citizens include all students who completed high school or a GED equivalency within the
+72:United States (including DACA and undocumented students) and who were not on an F-1 non-immigrant
+72:student visa at the time of high school graduation.
+72:More information about other eligible (for financial aid purposes) non-citizens is available at:
+72:https://studentaid.gov/understandaid/eligibility/requirements/non-us-citizens.
+72:Nonresident - A person who is not a citizen or national of the United States and who is in this country on
+72:a student visa or temporary basis and does not have the right to remain indefinitely. Do not include
+72:DACA, undocumented, or other eligible noncitizens in this category.
+72:NOTE - Nonresidents are to be reported separately, in the boxes provided, rather than included in any of
+72:the seven racial/ethnic categories or in race/ethnicity unknown.
+72:Dual Enrollment: If your institution enrolls high school students in college courses for credit either within
+72:a dual enrollment program or outside of a dual enrollment program, you may report the unduplicated
+72:count as part of the non-degree-seeking students included in the “Total Undergraduates (both degree &
+72:non-degree-seeking)” section.
+464:Total
+371:Degree-Seeking
+321:Degree-
+320:Seeking | 443:Undergraduates
+371:Undergraduates
+317:First-Time | 446:(both degree &
+376:(include first-
+318:First Year | 451:non-degree-
+374:time first-year)
+458:seeking)
+94:Nonresidents | 349:26 | 416:168
+94:Hispanic/Latino | 349:84 | 416:455
+94:Black or African American, | 215:non | 231:- | 235:Hispanic | 349:83 | 416:462
+94:White, non | 142:- | 145:Hispanic | 344:831 | 407:4,280
+94:American Indian or Alaska Native, non | 264:-
+355:6 | 421:23
+94:Hispanic
+94:Asian, non-Hispanic | 349:13 | 421:69
+94:Native Hawaiian or other Pacific Islander, non-
+355:1 | 427:7
+94:Hispanic
+94:Two or more races, non-Hispanic | 349:66 | 416:303
+94:Race and/or ethnicity unknown | 349:12 | 421:45
+94:TOTAL | 335:1,122 | 407:5,812 | 499:0
+101:Persistence
+101:Number of degrees awarded by your institution from July 1,
+77:B3
+101:2024, to June 30, 2025.
+101:Certificate/diploma | 263:231
+101:Associate | 147:degrees | 268:0
+101:Bachelor's degrees | 260:1413
+101:Postbachelor's certificates | 265:97
+101:Master's degrees | 260:2717
+101:Post | 121:- | 124:Master's certificates | 263:121
+101:Doctoral degrees | 180:–
+268:0
+101:research/scholarship
+101:Doctoral degrees – professional
+268:0
+101:practice
+101:Doctoral degrees – other | 268:0
+101:B4-B21: Graduation Rates
+101:The items in this section correspond to data elements collected by the IPEDS Web | 466:- | 470:based Data
+101:Collection System’s Graduation Rate Survey (GRS).
+101:• | 118:For complete instructions and definitions of data elements, see the IPEDS GRS Forms and
+101:Instructions
+118:for the 2025-2026 Survey. https://nces.ed.gov/ipeds/use-the-data/survey-
+101:components/9/graduation-rates
+101:In the following section for bachelor’s or equivalent programs, please disaggregate the Fall 2018 and
+101:Fall 2019 cohorts (formerly CDS B4-B11) into four groups:
+101:• | 118:Students who received a Federal Pell Grant*
+101:• | 118:Recipients of a subsidized Stafford Loan who did not receive a Pell Grant
+101:• | 118:Students who did not receive either a Pell Grant or a subsidized Stafford Loan
+101:• | 118:Total (all students, regardless of Pell Grant or subsidized loan status)
+101:*Students who received both a Federal Pell Grant and a subsidized Stafford Loan should be reported
+101:in the "Recipients of a Federal Pell Grant" column.
+101:For each graduation rate grid below, the numbers in the first three columns for Questions A-G should
+101:sum to the cohort total in the fourth column (formerly CDS B4-B11).
+225:For Bachelor’s or Equivalent Programs
+96:Please provide data for the Fall 2019 cohort if available. If Fall 2019 cohort data are not available, provide
+96:data for the Fall 2018 cohort.
+279:Fall 2019 Cohort
+338:Recipients of | 408:Students who
+499:Total
+339:a Subsidized | 423:did not
+255:Recipients of a | 349:Stafford | 409:receive either
+134:DESCRIPTION | 491:(sum of 3
+248:Federal Pell Grant | 338:Loan who did | 407:a Pell Grant or
+480:columns to the
+339:not receive a | 411:a subsidized
+502:left)
+345:Pell Grant | 409:Stafford Loan
+96:Initial 2019 cohort of first-time, full-
+96:time, bachelor's (or equivalent)
+77:A | 247:440 | 337:370 | 407:396 | 480:1206
+96:degree-seeking undergraduate
+96:students
+96:Of the initial 2019 cohort, how many
+96:did not persist and did not graduate for
+96:the following reasons:
+96:• Deceased
+96:• Permanently Disabled
+77:B | 247:1 | 337:0 | 407:1 | 480:2
+96:• Armed Forces
+96:• Foreign Aid Service of the Federal
+96:Government
+96:• Official church missions
+96:• Report Total Allowable Exclusions
+96:Final 2019 cohort, after adjusting
+77:C | 247:439 | 337:370 | 407:395 | 480:1204
+96:for allowable exclusions
+96:Of the initial 2019 cohort, how
+96:many completed the program in
+77:D | 247:190 | 337:200 | 407:236 | 480:626
+96:four years or less (by Aug. 31,
+96:2023)
+96:Of the initial 2019 cohort, how
+96:many completed the program in
+77:E | 96:more than four years but in five | 247:34 | 337:14 | 407:76 | 480:124
+96:years or less (after Aug. 31, 2023
+96:and by Aug. 31, 2024)
+96:Of the initial 2019 cohort, how
+96:many completed the program in
+77:F | 96:more than five years but in six | 247:4 | 337:0 | 407:10 | 480:14
+96:years or less (after Aug. 31, 2024
+96:and by Aug. 31, 2025)
+96:Total graduating within six years
+77:G | 247:228 | 337:214 | 407:322 | 480:764
+96:(sum of lines D, E, and F)
+96:Six-year graduation rate for 2019
+77:H | 247:0.519362187 | 337:0.578378378 | 407:0.815189873 | 480:0.634551495
+96:cohort (G divided by C)
+268:Fall 2018 Cohort
+322:Recipients
+336:of a | 384:Students who
+476:Total
+321:Subsidized | 399:did not
+258:Recipients
+327:Stafford | 385:receive either
+255:of a Federal | 468:(sum of 3
+323:Loan who | 383:a Pell Grant or
+259:Pell Grant | 457:columns to the
+329:did not | 387:a subsidized
+479:left)
+325:receive a | 385:Stafford Loan
+323:Pell Grant
+96:Initial 2018 cohort of first-time, full-
+96:time, bachelor's (or equivalent)
+77:A | 484:0
+96:degree-seeking undergraduate
+96:students
+96:Of the initial 2018 cohort, how many did not
+96:persist and did not graduate for the following
+96:reasons:
+96:• Deceased
+96:• Permanently Disabled
+77:B | 484:0
+96:• Armed Forces
+96:• Foreign Aid Service of the Federal
+96:Government
+96:• Official church missions
+96:• Report Total Allowable Exclusions
+96:Final 2018 cohort, after adjusting for
+77:C | 278:0 | 342:0 | 411:0 | 484:0
+96:allowable exclusions
+96:Of the initial 2018 cohort, how many
+77:D | 96:completed the program in four years | 484:0
+96:or less (by Aug. 31, 2022)
+96:Of the initial 2018 cohort, how many
+96:completed the program in more than
+77:E | 96:four years but in five years or less | 484:0
+96:(after Aug. 31, 2022 and by Aug. 31,
+96:2023)
+96:Of the initial 2018 cohort, how many
+96:completed the program in more than
+77:F | 96:five years but in six years or less | 484:0
+96:(after Aug. 31, 2023 and by Aug. 31,
+96:2024)
+96:Total graduating within six years
+77:G | 484:0
+96:(sum of lines D, E, and F)
+96:Six-year graduation rate for 2018
+77:H | 264:#DIV/0! | 328:#DIV/0! | 397:#DIV/0! | 470:#DIV/0!
+96:cohort (G divided by C)
+107:For Two-Year Institutions
+107:Please provide data for the 2022 cohort if available. If 2022 cohort data are not available,
+107:provide data for the 2021 cohort.
+428:2022 | 487:2021
+423:Cohort | 482:Cohort
+107:Initial cohort, total of first | 204:- | 207:time, full | 241:- | 244:time degree/certificate | 332:- | 335:seeking
+77:B12
+107:students:
+107:Of the initial cohort, how many did not persist and did not graduate for the
+107:following reasons:
+107:• Death
+107:• Permanently Disability
+77:B13
+107:• Service in the armed forces,
+107:• Foreign aid service of the federal government
+107:• Official church missions
+107:• Report total allowable exclusions
+77:B14 | 107:Final cohort, after adjusting for allowable exclusions: | 459:0 | 516:0
+77:B15 | 107:Completers of programs of less than two years duration (total):
+107:Completers of programs of less than two years within 150 percent of
+77:B16
+107:normal time:
+77:B17 | 107:Completers of programs of at least two but less than four years (total):
+107:Completers of programs of at least two but less than four-years within 150
+77:B18
+107:percent of normal time:
+77:B19 | 107:Total transfers-out (within three years) to other institutions:
+77:B20 | 107:Total transfers to two-year institutions:
+77:B21 | 107:Total transfers to four-year institutions:
+72:B22. Retention Rates
+72:Report for the cohort of all full-time, first-time bachelor’s (or equivalent) degree-seeking undergraduate
+72:students who entered in Fall 2024 (or the preceding summer term).
+72:The initial cohort may be adjusted for students who departed for the following reasons:
+72:* Death
+72:* Permanent Disability
+72:* Service in the armed forces
+72:* Foreign aid service of the federal government
+72:* Official church missions
+72:* No other adjustments to the initial cohort should be made.
+90:• | 108:Report | 145:the | 167:number | 210:of | 226:all | 243:first-time, | 294:full-time, | 342:bachelor’s | 395:(or | 414:equivalent) | 472:degree-seeking
+108:undergraduate students who entered in Fall 2024 (or the preceding summer term): 1010
+90:• | 108:From this group, identify how many were still enrolled at your institution as of the official
+108:enrollment date in Fall 2025: 721
+90:• | 108:Calculate the percentage of the Fall 2024 entering cohort who remained enrolled on the official
+108:census date: 71.39%
+72:Total students retained = students from the Fall 2024 cohort who are still enrolled as of Fall 2025 +
+72:students from Fall 2024 cohort who completed their bachelor’s program as of Fall 2025
+72:(Students from the Fall 2024 cohort still enrolled as of Fall 2025 + Students from Fall 2024 cohort who
+72:completed their bachelor’s program as of Fall 2025)/(Adjusted Fall 2024 cohort) *100
+72:Note: The number of first-time students seeking a bachelor’s degree (or equivalent) who attain a
+72:bachelor’s degree (or equivalent) by their second fall term is expected to be zero or very small. In
+72:exceptional cases when a first-time student does satisfy all degree requirements including full credit
+72:completion (e.g., typically 120 credit hours) and is awarded a bachelor’s degree (or equivalent) by their
+72:second fall term, they are to be considered “retained” for EF reporting purposes.
+158:C. FIRST-TIME, FIRST-YEAR ADMISSION
+72:C1-C2: Applications
+72:First-time, first-year students: Provide the number of degree-seeking, first-time, first-year students who
+72:applied, were admitted, and enrolled (full- or part-time) in Fall 2025.
+72:• | 90:Include early decision, early action, and students who began studies during summer in this cohort.
+72:• | 90:Applicants should include only those students who fulfilled the requirements for consideration for
+87:admission (i.e., who completed actionable applications) and who have been notified of one of the
+87:following actions: admission, non-admission, placement on waiting list, or application withdrawn (by
+87:applicant or institution).
+72:• | 90:In cases where non-binary gender information is provided, IPEDS recommends distributing across
+72:the two-binary categories.
+72:• | 90:Note that recent high school graduates and other students without prior postsecondary experience
+72:will still be considered "first-time students" for fall enrollment reporting purposes even if they enrolled
+72:in the summer prior to fall enrollment.
+173:First | 195:- | 198:Time, First | 248:- | 252:Year Student Applicants | 474:Total
+102:Total first | 143:- | 146:time, first | 187:- | 190:year males who applied | 474:2389
+102:Total first | 143:- | 146:time, first | 187:- | 190:year females who applied | 474:3666
+102:Total first | 143:- | 146:time, first | 187:- | 190:year students of unknown sex who applied | 480:32
+181:First | 203:- | 206:Time, First | 257:- | 260:Year Student Admits | 474:Total
+102:Total first | 143:- | 146:time, first | 187:- | 190:year males who were admitted | 474:1852
+102:Total first | 143:- | 146:time, first | 187:- | 190:year females who were admitted | 474:2887
+102:Total first | 143:- | 146:time, first | 187:- | 190:year students of unknown sex who were admitted | 480:23
+176:First | 198:- | 201:Time, First | 251:- | 255:Year Student Enrollees | 474:Total
+102:Total first | 143:- | 146:time, first | 187:- | 190:year males who enrolled | 477:499
+102:Total first | 143:- | 146:time, first | 187:- | 190:year females who enrolled | 477:623
+102:Total first | 143:- | 146:time, first | 187:- | 190:year students of unknown sex who enrolled | 483:5
+152:First | 174:- | 177:Time, | 206:First | 228:- | 231:Year Student Enrollees by Status | 474:Total
+102:Total full | 139:- | 143:time, first | 183:- | 187:time, first | 227:- | 231:year males who enrolled | 477:488
+102:Total part | 144:- | 147:time, first | 188:- | 191:time, first | 232:- | 235:year males who enrolled | 480:10
+102:Total full | 139:- | 143:time, first | 183:- | 187:time, first | 227:- | 231:year females who enrolled | 477:611
+102:Total | 127:part | 144:- | 147:time, first | 188:- | 191:time, first | 232:- | 235:year females who enrolled | 483:8
+102:Total full | 139:- | 143:time, first | 183:- | 187:time, first | 227:- | 231:year students of unknown sex who enrolled | 483:4
+102:Total part | 144:- | 147:time, first | 188:- | 191:time, first | 232:- | 235:year students of unknown sex who enrolled | 483:1
+72:If available, please provide residency breakdowns for total applicants, admits, and enrolled students:
+72:Fall 2025
+72:Please report based on known physical address at time of application.
+101:First | 123:- | 126:Time, First | 177:- | 180:Year Student | 327:Out-of-
+277:In-State | 374:International | 445:Unknown | 503:Total
+146:Applicants | 332:State
+78:Total | 103:first | 119:- | 122:time, first | 163:- | 166:year (degree | 223:- | 226:seeking)
+507:6087
+78:who applied
+78:Total first-time, first-year (degree-seeking)
+507:4762
+78:who were admitted
+78:Total first-time, first-year (degree-seeking)
+507:1122
+78:who enrolled
+77:C2 | 103:First | 125:- | 128:time, first | 173:- | 177:year wait | 220:- | 223:listed | 252:students
+103:Students who met admission requirements but whose final admission was contingent on space availability
+395:Yes or No
+103:Do you have a policy of placing students on a waiting list? | 412:No
+103:If yes, please answer the questions below for Fall 2025 admissions:
+247:WAITING LIST | 491:TOTAL
+103:Number of qualified applicants offered a place on waiting list:
+103:Number accepting a place on the waiting list:
+103:Number of wait-listed students admitted:
+369:Yes or No
+77:Is your | 110:waiting list ranked?
+77:If yes, do you release that information to students?
+77:Do you release that information to school counselors?
+101:C3 | 116:- | 120:C5: Admission Requirements
+77:C3 | 101:High school completion requirement
+101:Check the appropriate box to | 232:identify your high school completion requirement for degree | 495:- | 498:seeking
+101:entering students:
+80:✔ | 101:High school diploma is required and GED is accepted
+101:High school diploma is required and GED is not accepted
+101:High school diploma or equivalent is not | 280:required
+101:Does your institution require or recommend a general college-preparatory program for
+77:C4
+101:degree-seeking students?
+101:Require
+80:✔ | 101:Recommend
+101:Neither require nor recommend
+101:Distribution of high school units required and/or recommended. | 408:Specify the distribution of
+101:academic high school course units required and/or recommended of all or most degree-seeking
+77:C5
+101:students using Carnegie units (one unit equals one year of study or its equivalent). If you use a
+101:different system for calculating units, please convert.
+358:Units | 463:Units
+101:Distribution of high school units
+349:Required | 442:Recommended
+101:Total academic units | 363:24 | 469:24
+101:English | 366:4 | 471:4
+101:Mathematics | 366:3 | 471:4
+101:Science | 366:3 | 471:3
+112:Of these, units that must be
+366:1 | 471:0
+112:lab
+101:Foreign language | 366:0 | 471:2
+101:Social studies | 366:3 | 471:3
+101:History | 366:0 | 471:0
+101:Academic electives | 366:7 | 471:4
+101:Computer Science | 366:0 | 471:0
+101:Visual/Performing Arts | 366:1 | 471:1
+101:Other | 129:(specify)
+366:3 | 471:3
+101:Additional Coursework
+101:C6 | 116:- | 120:C7: | 143:Basis for
+101:Selection
+101:Do you have an open admission policy, under which virtually all secondary school graduates or
+77:C6 | 101:students with GED equivalency diplomas are admitted without regard to academic record, test
+101:scores, or other qualifications? If so, check which applies:
+101:Open admission policy as described above for all students
+101:Open admission policy as described above for most students,
+101:but | 115:--
+101:selective admission for out | 219:- | 222:of | 231:- | 234:state students
+101:selective admission to some programs
+101:other (explain):
+101:Relative importance of each of the following academic and nonacademic factors in your
+77:C7 | 101:first-time, first-year, degree-seeking general (not including programs with specific criteria)
+101:admissions decisions.
+272:Very | 491:Not
+101:Academic | 332:Important | 400:Considered
+260:Important | 472:Considered
+101:Rigor of secondary school
+279:✔
+101:record
+101:Class rank | 423:✔
+101:Academic GPA | 279:✔
+101:Standardized test scores | 351:✔
+101:Application Essay | 495:✔
+101:Recommendation(s) | 423:✔
+272:Very | 491:Not
+101:Nonacademic | 332:Important | 400:Considered
+260:Important | 472:Considered
+101:Interview | 495:✔
+101:Extracurricular activities | 495:✔
+101:Talent/ability | 495:✔
+101:Character/personal qualities | 495:✔
+101:First generation | 495:✔
+101:Alumni/ae relation | 495:✔
+101:Geographical residence | 495:✔
+101:State | 127:residency | 495:✔
+101:Religious affiliation/commitment | 495:✔
+101:Volunteer work | 495:✔
+101:Work experience | 495:✔
+101:Level of applicant’s interest | 495:✔
+72:Please provide additional information if the importance of any specific academic or nonacademic factors
+72:differ by academic program.
+109:C8: SAT and
+109:ACT Policies
+109:Entrance exams
+335:Yes or No
+109:Does your institution make use of SAT or ACT
+77:C8A | 109:scores in | 151:admission | 204:decisions for first-time, | 350:Yes
+109:first-year, degree-seeking applicants?
+109:If yes, place check marks in the appropriate boxes below to reflect your institution’s
+109:policies for use in admission for students applying for | 346:Fall 2027 | 388:.
+418:Not
+408:required | 477:Not
+221:Required
+420:for | 461:considered
+229:to be
+276:Required | 402:admission, | 479:for
+134:Admission | 216:considered | 327:Recommended
+276:for some | 419:but | 461:admission,
+234:for
+402:considered | 470:even if
+218:admission
+423:if | 463:submitted
+404:submitted
+109:SAT or ACT | 422:✔
+109:ACT Only
+109:SAT Only
+77:C8B | 108:Has been removed from the CDS.
+77:C8C | 108:Has been removed from the CDS.
+527:Yes
+530:or
+529:No
+108:In addition, does your institution use applicants' test scores for academic
+77:C8D | 527:Yes
+108:advising?
+77:C8E | 108:Latest date by which SAT or ACT scores must be received for fall | 397:- | 400:term admission
+72:C8F | 91:If necessary, use this space to clarify your test policies (e.g., if tests are recommended for some
+72:students, or if tests are not required of some students due to differences by academic program, student
+72:academic background, or if other examinations may be considered in lieu of the SAT and ACT):
+77:C8G | 109:Please indicate which tests your institution uses for | 315:placement (e.g., state tests):
+84:✔ | 109:SAT
+84:✔ | 109:ACT
+84:✔ | 109:AP
+84:✔ | 109:CLEP
+109:Institutional Exam
+109:State Exam (specify):
+101:C9 | 116:- | 120:C12: First | 176:- | 180:time, first | 234:- | 238:year Profile
+101:Provide information for ALL enrolled, degree | 297:- | 300:seeking, full | 353:- | 357:time and part | 415:- | 418:time, first | 459:- | 462:time, first | 503:-
+101:year students enrolled in Fall 2025, including students who began studies during summer,
+101:international students/nonresidents, and students admitted under special arrangements.
+101:Percent and number of first-time, first-year students enrolled in Fall 2025 who submitted
+77:C9
+101:national standardized (SAT/ACT) test scores.
+101:• | 118:Include information for | 220:ALL enrolled, degree-seeking, first-time, first-year students who
+101:submitted
+118:test scores.
+101:• | 118:Do not include partial test scores (e.g., mathematics scores but not critical reading for a
+101:category of
+118:students) or combine other standardized test results (such as TOEFL) in this item.
+101:• | 118:Do not convert SAT scores to ACT scores and vice versa.
+101:• | 118:If a student submitted multiple sets of scores for a single test, report this information
+101:according to how
+118:you use the data. For example:
+101:• | 118:If you consider the highest scores from either submission, use the highest combination of
+101:scores
+118:(e.g., verbal from one submission, math from the other).
+101:• | 118:If you average the scores, use the average to report the scores.
+333:Percent | 439:Number
+77:Submitting SAT Scores | 344:1% | 453:14
+77:Submitting ACT Scores | 341:69% | 450:770
+77:For each assessment listed below, report the
+77:score that represents the 25th percentile (the
+77:score that 25 percent of the first-time, first-
+77:year population scored at or below) and the
+77:75th percentile score (the score that 25
+77:percent scored at or above).
+268:25th Percentile | 357:50th Percentile | 446:75th Percentile
+136:Assessment
+290:Score | 379:Score | 468:Score
+78:SAT Composite | 295:968 | 382:1065 | 471:1180
+78:SAT Evidence-Based Reading and
+295:513 | 384:540 | 473:588
+78:Writing
+78:SAT Math | 295:470 | 384:520 | 473:598
+78:ACT Composite | 298:17 | 387:20 | 476:24
+78:ACT Math | 298:16 | 387:18 | 476:24
+78:ACT English | 298:16 | 387:20 | 476:23
+78:ACT Writing
+78:ACT Science | 298:18 | 387:21 | 476:24
+78:ACT Reading | 298:18 | 387:22 | 476:26
+77:Percent of first | 148:- | 151:time, first | 196:- | 200:year students with scores in each range:
+247:SAT Evidence-Based
+125:Score Range | 373:SAT Math
+249:Reading and Writing
+137:700 | 154:- | 157:800 | 322:0.00% | 403:0.00%
+137:600 | 154:- | 157:699 | 317:21.43% | 398:28.57%
+137:500 | 154:- | 157:599 | 317:57.14% | 398:35.72%
+137:400 | 154:- | 157:499 | 317:21.43% | 398:28.57%
+137:300 | 154:- | 157:399 | 322:0.00% | 403:7.14%
+137:200 | 154:- | 157:299 | 322:0.00% | 403:0.00%
+77:Totals should = 100% | 311:100.00% | 392:100.00%
+135:Score Range | 267:SAT Composite
+142:1400 | 164:- | 167:1600 | 315:0.00%
+142:1200 | 164:- | 167:1399 | 309:28.57%
+142:1000 | 164:- | 167:1199 | 309:42.86%
+147:800 | 164:- | 167:999 | 309:21.43%
+147:600 | 164:- | 167:799 | 315:7.14%
+147:400 | 164:- | 167:599 | 315:0.00%
+78:Totals should = 100% | 265:100.00%
+236:ACT | 303:ACT | 438:ACT | 498:ACT
+112:Score Range | 357:ACT Math
+221:Composite | 296:English | 428:Reading | 489:Science
+130:30 | 141:- | 144:36 | 246:6.10% | 314:7.79% | 381:3.25% | 442:16.00% | 502:6.50%
+130:24 | 141:- | 144:29 | 241:22.47% | 308:16.88% | 375:21.81% | 442:21.60% | 496:24.00%
+130:18 | 141:- | 144:23 | 241:45.46% | 308:39.48% | 375:33.12% | 442:38.58% | 496:45.45%
+130:12 | 141:- | 144:17 | 241:25.71% | 308:31.04% | 375:41.30% | 442:22.00% | 496:21.45%
+133:6 | 138:- | 141:11 | 246:0.26% | 314:4.81% | 381:0.52% | 448:1.82% | 502:2.60%
+125:Below 6 | 246:0.00% | 314:0.00% | 381:0.00% | 448:0.00% | 502:0.00%
+78:Totals should = 100% | 235:100.00% | 302:100.00% | 369:100.00% | 436:100.00% | 491:100.00%
+107:Percent of all degree-seeking, first-time, first-year students who had high school class rank
+77:C10 | 107:within each of the following ranges (report information for those students from whom you
+107:collected high school rank information)
+225:Assessment | 427:Percent
+107:Percent | 144:in top tenth of high school graduating class | 458:14%
+107:Percent in top quarter of high school graduating class | 458:39%
+107:Percent in top half of high school graduating class | 458:75% | 488:Top half +
+488:bottom half =
+107:Percent in bottom half of high school graduating class | 458:25%
+488:100%
+107:Percent in bottom quarter of high school graduating class | 463:5%
+107:Percent of total first | 193:- | 196:time, first | 237:- | 240:year students who submitted high
+458:72%
+107:school class rank:
+75:C11 | 94:Percentage of all enrolled, degree-seeking, first-time, first-year students who had high school grade-
+72:point averages within each of the following ranges (using 4.0 scale).
+72:* Report information only for those students from whom you collected high school GPA.
+72:* If you are able to report GPA ranges separately for students that also submitted at least one test score
+72:versus those who did not submit a test score, please do so in the respective columns. If you are unable to
+72:report these data, please report the ranges for all students.
+330:Percent | 406:Percent
+472:Percent (All
+315:(Students who | 391:(Students who
+175:Range | 480:enrolled
+325:submitted | 392:did not submit
+477:students)
+331:scores) | 407:scores)
+78:Percent who had GPA of 4.0 | 360:30% | 436:12% | 512:25%
+78:Percent who had GPA between 3.75 and 3.99 | 360:18% | 436:18% | 512:18%
+78:Percent who had GPA between 3.50 and 3.74 | 360:17% | 436:20% | 512:18%
+78:Percent who had GPA between 3.25 and | 262:3.49 | 360:11% | 436:15% | 512:13%
+78:Percent who had GPA between 3.00 and 3.24 | 366:9% | 436:18% | 512:12%
+78:Percent who had GPA between 2.50 and 2.99 | 360:11% | 436:16% | 512:12%
+78:Percent who had GPA between 2.0 and 2.49 | 366:2% | 442:1% | 518:2%
+78:Percent who had GPA between 1.0 and 1.99 | 366:0% | 442:0% | 518:0%
+78:Percent who had GPA below 1.0 | 366:0% | 442:0% | 518:0%
+78:Totals should = 100% | 346:99.99% | 417:100.00% | 493:100.00%
+107:Average high school GPA of all degree-seeking, first-time, first-year students
+77:C12 | 498:3.54
+107:who submitted GPA:
+107:Percent of total first-time, first-year students who submitted high school GPA: | 490:96.43%
+107:C13-C20: Admission
+107:Policies
+77:C13 | 107:Application Fee
+107:If your institution has waived its application fee for the Fall 2026 admission cycle please
+107:select no.
+334:Yes or No
+107:Does your institution have an application fee? | 351:No
+107:Amount of application fee: | 377:$0
+334:Yes or No
+107:Can it be waived for applicants with financial
+107:need?
+107:If you have an application fee and an on | 296:- | 299:line application option, please indicate policy for
+107:students who apply on | 215:- | 218:line:
+107:Same fee
+107:Free
+107:Reduced
+455:Yes or No
+111:Can on-line application fee be waived for applicants with
+111:financial need?
+77:C14 | 111:Application closing date
+455:Yes or No
+111:Does your institution have an application closing date? | 472:No
+364:Date
+111:Application closing date (fall)
+111:Priority Date
+462:Yes or No
+107:Are first-time, first-year students accepted for terms other than the
+77:C15 | 476:Yes
+107:fall?
+77:C16 | 107:Notification to applicants of admission decision sent | 360:(fill in one only)
+83:✔ | 107:On a rolling basis beginning (date):
+107:By (date):
+107:Other:
+77:C17 | 107:Reply policy for admitted applicants | 281:(fill in one only)
+107:Must reply by (date):
+83:✔ | 107:No set date
+383:weeks if notified
+107:Must reply by May 1st or within
+383:thereafter
+107:Other:
+107:Deadline for housing deposit (MMDD):
+107:Amount of housing deposit: | 350:$100
+107:Refundable if student does not enroll?
+104:Yes, in full
+81:✔ | 104:Yes, in part
+104:No
+77:C18 | 107:Deferred admission
+468:Yes or No
+107:Does your institution allow students to postpone enrollment after
+483:Yes
+107:admission?
+107:If yes, maximum period of postponement: | 393:1 year
+77:C19 | 107:Early admission of high school students
+487:Yes or No
+107:Does your institution allow high school students to enroll as full-time, first-time,
+504:No
+107:first-year students one year or more before high school graduation?
+77:C20 | 107:Common Application: | 213:Question removed from CDS. (Initiated during 2006 | 441:- | 444:2007 cycle)
+107:C21 | 129:- | 133:C22: Early Decision and Early Action
+107:Plans
+77:C21 | 107:Early | 134:Decision
+487:Yes or No
+107:Does your institution offer an early decision plan (an admission plan that
+107:permits students to apply and be notified of an admission decision well in
+504:No
+107:advance of the regular notification date and that asks students to commit to
+107:attending if accepted) for first-time, first-year applicants for fall enrollment?
+107:If “yes,” please complete the following:
+107:First or only early decision plan closing date
+107:First or only early decision plan notification date
+107:Other early decision plan closing date
+107:Other early decision plan notification date
+107:For the Fall 2025 entering class:
+107:Number of early decision applications received by your institution
+107:Number of applicants admitted under early decision plan
+107:Please provide significant details about your early decision plan:
+77:C22 | 107:Early action
+487:Yes or No
+107:Do you have a nonbinding early action plan whereby students are notified of an
+107:admission decision well in advance of the regular notification date but do not | 504:No
+107:have to commit to attending your college?
+107:If “yes,” please complete the following:
+107:Early action closing date
+107:Early action notification date
+487:Yes or No
+107:Is your early action plan a “restrictive” plan under which you limit | 393:students from
+107:applying to other early plans?
+205:D. TRANSFER ADMISSION
+101:D1-D2: Fall Applicants
+455:Yes or No
+77:D1 | 101:Does your institution enroll transfer students? (If no, please skip to Section
+470:Yes
+101:E)
+101:If yes, may transfer students earn advanced standing credit by transferring
+470:Yes
+101:credits earned from course work completed at other colleges/universities?
+77:D2 | 101:Provide the number of students who applied, were admitted, and enrolled as degree-seeking
+101:transfer students in Fall 2025.
+315:Admitted | 394:Enrolled
+78:Transfer Admission | 228:Applicants
+311:Applicants | 388:Applicants
+78:Males | 246:693 | 328:486 | 405:312
+78:Females | 246:915 | 328:640 | 405:369
+78:Unknown | 251:8 | 334:4 | 411:1
+78:Total | 241:1,616 | 324:1,130 | 405:682
+112:D3 | 127:- | 131:D11: Application for Admission
+77:D3 | 112:Indicate terms for which transfers may enroll:
+85:✔ | 112:Fall
+112:Winter
+85:✔ | 112:Spring
+85:✔ | 112:Summer
+390:Yes or No
+77:Must a transfer applicant have a minimum number of credits
+407:No
+77:completed or else must apply as an entering first-year student?
+376:Number | 442:Unit Type
+101:If yes, what is the minimum number of credits and the
+77:D4
+101:unit of measure?
+77:D5 | 101:Indicate all items required of transfer students to apply for
+101:admission:
+284:Recommended | 346:Recommended | 418:Required of
+128:Requirements | 217:Required of All | 481:Not Required
+300:of All | 357:of Some | 427:Some
+101:High school transcript | 238:✔
+101:College transcript(s) | 238:✔
+101:Essay or personal
+499:✔
+101:statement
+101:Interview | 499:✔
+101:Standardized test
+499:✔
+101:scores
+101:Statement of good
+101:standing from prior | 499:✔
+101:institution(s)
+77:D6 | 101:If a minimum high school grade point average is
+101:required of transfer applicants, specify (on a 4.0
+101:scale):
+77:D7 | 101:If a minimum college grade point average is required
+364:2.00
+101:of transfer applicants, specify (on a 4.0 scale):
+77:D8 | 101:List any | 138:other application requirements specific to transfer applicants:
+77:D9 | 101:List application priority, closing, notification, and candidate reply dates for transfer students. If
+101:applications are reviewed on a continuous or rolling basis, place a check mark in the “Rolling
+101:admission” column.
+344:Notification | 492:Rolling
+121:Term | 204:Priority Date | 275:Closing Date | 415:Reply Date
+357:Date | 485:Admission
+78:Fall | 502:✔
+78:Winter
+78:Spring | 502:✔
+78:Summer | 502:✔
+463:Yes or No
+77:D10
+110:Does an open admission policy, if reported, apply to transfer students? | 480:No
+77:D11
+107:Describe additional requirements for transfer admission, if applicable:
+117:D12 | 139:- | 143:D17: Transfer Credit Policies
+77:D12
+117:Report the lowest grade earned for any course that may be
+465:D
+117:transferred for credit:
+411:Number | 485:Unit Type
+77:D13
+107:Maximum number of credits or courses that may be transferred
+107:from a two-year institution:
+413:Number | 488:Unit Type
+77:D14 | 107:Maximum number of credits or courses that may be transferred
+107:from a four-year institution:
+414:Number | 490:Unit Type
+77:D15
+107:Minimum number of credits that transfers must complete at your
+107:institution to earn an associate degree:
+413:Number | 488:Unit Type
+77:D16
+107:Minimum number of credits that transfers must complete at | 476:Semester credit
+426:30
+107:your institution to earn a bachelor’s degree: | 499:hours
+77:D17 | 110:Describe other transfer credit policies: | 280:not any
+107:D18-D22: Military Service Transfer Credit Policies
+77:D18 | 107:Does your institution accept the following military/veteran transfer credits:
+419:Yes or No
+107:American Council on | 202:Education (ACE) | 434:Yes
+107:College Level Examination Program (CLEP) | 434:Yes
+107:DANTES Subject Standardized Tests (DSST) | 434:Yes
+405:Number | 476:Unit Type
+77:D19 | 107:Maximum number of credits or courses that may be
+107:transferred based on military education evaluated by the
+107:American Council on Education (ACE):
+405:Number | 476:Unit Type
+77:D20
+107:Maximum number of credits or courses that may be transferred
+107:based on Department of Defense supported prior learning
+419:30 | 478:per credit
+107:assessments (College Level Examination Program (CLEP) or
+107:DANTES Subject Standardized Tests (DSST)):
+419:Yes or No
+77:D21 | 107:Are the military/veteran credit transfer policies published on your
+434:Yes
+107:website?
+72:If yes, please provide the URL where the policy can be located:
+72:https://www.ucmo.edu/future-students/military-and-veterans-services/transcripts-and-
+72:advising/index.php
+72:UCM Undergraduate catalog, "Types of Credits" page, https://catalog.ucmo.edu/
+72:Describe other military/veteran transfer credit policies unique to your institution:
+77:D22 | 107:Describe other military/veteran transfer credit policies unique to your institution: | 459:not any
+174:E. ACADEMIC OFFERINGS AND POLICIES
+72:E1 | 86:Special study options: Identify those programs available at your institution. Refer to the glossary for
+72:definitions.
+79:✔ | 100:Accelerated program
+100:Comprehensive transition and postsecondary program for students with intellectual
+79:✔
+100:disabilities
+79:✔ | 100:Cross | 127:- | 130:registration
+79:✔ | 100:Distance learning
+79:✔ | 100:Double major
+79:✔ | 100:Dual enrollment
+79:✔ | 100:English as a Second Language (ESL)
+79:✔ | 100:Exchange student program (domestic)
+100:External degree program
+79:✔ | 100:Honors Program
+79:✔ | 100:Independent study
+79:✔ | 100:Internships
+79:✔ | 100:Liberal | 133:arts/career combination
+79:✔ | 100:Student | 135:- | 138:designed major
+79:✔ | 100:Study abroad
+79:✔ | 100:Teacher certification program
+79:✔ | 100:Undergraduate Research
+100:Weekend college
+100:Other (specify):
+72:E2 | 86:Has been removed from the CDS.
+72:E3 | 86:Areas in which all or most students are required to complete some course work prior to graduation:
+81:✔ | 103:Arts/fine arts
+81:✔ | 103:Computer literacy
+81:✔ | 103:English (including composition)
+103:Foreign languages
+81:✔ | 103:History
+103:Physical Education
+81:✔ | 103:Humanities
+103:Intensive writing
+81:✔ | 103:Mathematics
+103:Philosophy
+81:✔ | 103:Sciences (biological or physical)
+81:✔ | 103:Social science
+103:Other (describe):
+248:F. STUDENT LIFE
+72:F1 Percentages of first-time, first-year degree-seeking students and degree-seeking undergraduates
+72:enrolled in Fall 2025 who fit the following categories:
+321:First-time, first-
+169:DESCRIPTION | 422:Undergraduates
+325:year students
+100:Percent who are from out of state (exclude
+100:international/nonresidents from the numerator | 348:16% | 450:14%
+100:and denominator)
+100:Percent of males who join fraternities | 348:15% | 450:16%
+100:Percent of females who | 207:join sororities | 348:19% | 450:14%
+100:Percent who live in college | 218:- | 222:owned, | 256:- | 260:operated,
+348:79% | 450:36%
+100:or -affiliated housing
+100:Percent who live off campus or commute | 348:21% | 450:64%
+100:Percent of students age 25 and older | 350:1% | 450:16%
+100:Average age of full | 183:- | 186:time students | 352:18 | 454:21
+100:Average age of all students (full | 240:- | 246:and part | 283:-
+352:18 | 454:22
+100:time)
+72:F2 Activities offered. | 169:Identify those programs available at your institution
+91:✔ | 123:Campus Ministries
+91:✔ | 123:Choral groups
+91:✔ | 123:Concert band
+91:✔ | 123:Dance
+91:✔ | 123:Drama/theater
+91:✔ | 123:International Student Organization
+91:✔ | 123:Jazz band
+91:✔ | 123:Literary magazine
+91:✔ | 123:Marching band
+91:✔ | 123:Model UN
+91:✔ | 123:Music ensembles
+91:✔ | 123:Musical theater
+123:Opera
+91:✔ | 123:Pep band
+91:✔ | 123:Radio station
+91:✔ | 123:Student government
+91:✔ | 123:Student newspaper
+91:✔ | 123:Student | 157:- | 161:run film society
+123:Symphony orchestra
+91:✔ | 123:Television station
+123:Yearbook
+72:F3 ROTC (program offered in cooperation with Reserve Officers' Training Corps)
+274:Marine
+427:At | 485:Name of
+274:Option
+151:Programs | 333:On Campus | 403:Cooperating | 475:Cooperating
+267:(for Naval
+408:Institution | 480:Institution
+274:ROTC)
+282:Not
+100:Army ROTC is offered: | 357:✔
+267:Applicable
+100:Naval ROTC is offered:
+477:University of
+282:Not
+100:Air Force ROTC is offered: | 428:✔ | 484:Missouri-
+267:Applicable
+484:Columbia
+72:F4 Housing: Check all types of college-owned, -operated, or -affiliated housing available for
+72:undergraduates at your institution.
+79:✔ | 100:Coed residence | 173:halls
+100:Men's residence halls
+100:Women's residence halls
+79:✔ | 100:Apartments for married students
+79:✔ | 100:Apartments for single students
+79:✔ | 100:Special housing for disabled students
+79:✔ | 100:Special housing for international students
+79:✔ | 100:Fraternity/sorority housing
+100:Cooperative housing
+79:✔ | 100:Theme housing
+79:✔ | 100:Wellness housing
+79:✔ | 100:Living Learning Communities
+100:Other housing options (specify):
+227:G. ANNUAL EXPENSES
+72:G0 Please provide the URL of your institution’s net price calculator | 375::
+72:https://www.ucmo.edu/future-students/tuition-and-costs/cost-calculators/index.php
+72:Provide 2026-2027 academic year costs of attendance for the following categories that are applicable to
+72:your institution.
+72:Check here if your institution's 2026-2027 academic year costs of attendance are not available at this
+72:time and provide an approximate date (i.e., month/day) when your institution's final 2026-2027
+72:academic year costs of attendance will be available:
+72:G1 Undergraduate full-time tuition, required fees, food and housing
+72:List the typical tuition, required fees, and food and housing for a full-time undergraduate student for the
+72:FULL 2026-2027 academic year. (30 semester hours or 45 quarter hours for institutions that derive
+72:annual tuition by multiplying credit hour cost by number of credits).
+72:• | 90:A full academic year refers to the period of time generally extending from September to June;
+72:usually equated to two semesters, two trimesters, three quarters, or the period covered by a four-one-
+72:four plan.
+72:• | 90:Food and housing is defined as double occupancy and 19 meals per week or the maximum meal
+72:plan.
+72:• | 90:Required fees include only charges that all full-time students must pay that are not included in
+72:tuition (e.g., registration, health, or activity fees.)
+72:• | 90:Do not include optional fees (e.g., parking, laboratory use).
+72:G1
+77:PRIVATE INSTITUTIONS | 296:First | 318:- | 321:Year | 394:Undergraduates
+77:Tuition:
+77:PUBLIC INSTITUTIONS | 296:First | 318:- | 321:Year | 394:Undergraduates
+77:Tuition: In | 121:- | 125:district | 304:$9,327 | 417:$9,327
+77:Tuition: In | 121:- | 125:state | 149:(out | 166:- | 170:of | 178:- | 181:district): | 304:$9,327 | 417:$9,327
+77:Tuition: Out | 129:- | 132:of | 141:- | 144:state: | 301:$18,593 | 414:$18,593
+77:Tuition: Nonresident | 301:$18,593 | 414:$18,593
+77:FOR ALL INSTITUTIONS | 296:First | 318:- | 321:Year | 394:Undergraduates
+77:Required Fees: | 304:$1,551 | 417:$1,551
+77:Food and housing (on | 175:- | 178:campus): | 301:$11,306 | 414:$11,306
+77:Housing Only | 140:(on | 155:- | 158:campus): | 304:$7,000 | 417:$7,000
+77:Food Only (on | 141:- | 144:campus meal plan): | 304:$4,306 | 417:$4,306
+72:Comprehensive tuition and food and housing fee (if your college cannot provide separate tuition and
+72:food and housing fees):
+72:Other:
+374:Minimum | 466:Maximum
+102:Number of credits per term a student can take for the
+77:G2 | 390:15 | 484:15
+102:stated full-time tuition.
+433:Yes or No
+102:Do tuition and fees vary by year of study (e.g., sophomore, junior,
+77:G3 | 450:No
+102:senior)?
+77:G4 | 102:Do tuition and fees vary by undergraduate instructional program? | 450:No
+102:If yes, what percentage of full-time undergraduates pay more than
+102:the tuition and fees reported in G1?
+72:G5 Provide the estimated expenses for a typical full-time undergraduate student:
+460:Commuters
+367:Commuters
+277:Residents | 458:(not living at
+358:(living at home)
+473:home)
+102:Books and supplies: | 286:$1,250 | 379:$1,250 | 473:$1,250
+102:Housing only: | 266:Not Applicable | 360:Not Applicable
+102:Food only: | 266:Not Applicable | 379:$3,162
+102:Food and housing total* | 266:Not Applicable | 360:Not Applicable | 470:$11,504
+102:Transportation: | 286:$3,190 | 379:$3,190 | 473:$2,840
+102:Other | 129:expenses: | 290:$100 | 383:$100 | 477:$100
+102:* If your college cannot provide separate food and housing figures for commuters not living at
+102:home
+72:G6 Undergraduate per-credit-hour charges (tuition only):
+100:PRIVATE INSTITUTIONS:
+100:PUBLIC INSTITUTIONS: | 307:Not Applicable
+100:In | 109:- | 112:district: | 331:$311
+100:In | 109:- | 112:state (out | 154:- | 157:of | 165:- | 169:district): | 331:$311
+100:Out | 117:- | 120:of | 128:- | 132:state: | 331:$622
+100:NONRESIDENTS: | 331:$622
+245:H. FINANCIAL AID
+72:Please refer to the following financial aid definitions when completing Section H.
+72:Awarded aid: The dollar amounts offered to financial aid applicants.
+72:Financial aid applicant: Any applicant who submits any one of the institutionally required financial aid
+72:applications/forms, such as the FAFSA.
+72:Indebtedness: Aggregate dollar amount borrowed through any loan program (federal, state, subsidized,
+72:unsubsidized, private, etc.; excluding parent loans) while the student was enrolled at an institution.
+72:Student loans co-signed by a parent are assumed to be the responsibility of the student and should be
+72:included.
+72:Institutional scholarships and grants: Endowed scholarships, annual gifts and tuition funded grants for
+72:which the institution determines the recipient.
+72:Financial need: As determined by your institution using the federal methodology and/or your
+72:institution's own standards.
+72:Need-based aid: College-funded or college-administered award from institutional, state, federal, or
+72:other sources for which a student must have financial need to qualify. This includes both institutional
+72:and non-institutional student aid (grants, jobs, and loans).
+72:Need-based scholarship or grant aid: Scholarships and grants from institutional, state, federal, or other
+72:sources for which a student must have financial need to qualify.
+72:Need-based self-help aid: Loans and jobs from institutional, state, federal, or other sources for which a
+72:student must demonstrate financial need to qualify.
+72:Non-need-based scholarship or grant aid: Scholarships and grants, gifts, or merit-based aid from
+72:institutional, state, federal, or other sources (including unrestricted funds or gifts and endowment
+72:income) awarded solely on the basis of academic achievement, merit, or any other non-need-based
+72:reason. When reporting questions H1 and H2, non-need-based aid that is used to meet need should be
+72:counted as need-based aid.
+72:Note: Suggested order of precedence for counting non-need money as need-based:
+108:1. Non-need institutional grants 6. Non-need outside grants
+108:2. Non-need tuition waivers | 252:7. Non-need student loans
+108:3. Non-need athletic awards | 252:8. Non-need parent loans
+108:4. Non-need federal grants | 252:9. Non-need work
+108:5. Non-need state grants
+72:Non-need-based self-help aid: Loans and jobs from institutional, state, or other sources for which a
+72:student need not demonstrate financial need to qualify.
+72:Private student loans: A nonfederal loan made by a lender such as a bank, credit union or private lender
+72:used to pay for up to the annual cost of education, less any financial aid received.
+72:External scholarships and grants: Scholarships and grants received from outside (private) sources that
+72:students bring with them (e.g., Kiwanis, National Merit scholarships). The institution may process
+72:paperwork to receive the dollars, but it has no role in determining the recipient or the dollar amount
+72:awarded.
+72:Work study and employment: Federal and state work study aid, and any employment packaged by your
+72:institution in financial aid awards.
+72:Aid Awarded to Enrolled Undergraduates
+72:H1 | 87:Enter total dollar amounts awarded to enrolled full-time and less than full-time degree-seeking
+72:undergraduates (using the same cohort reported in CDS Question $B$1, “total degree-seeking”
+72:undergraduates) in the following categories.
+90:• | 108:If the data being reported are final figures for the 2024-2025 academic year (see the next item
+108:below), use the 2024-2025 academic year's CDS Question $B$1 cohort.
+90:• | 108:Include aid awarded to international students (i.e., those not qualifying for federal aid).
+90:• | 108:Aid that is non-need-based but that was used to meet need should be reported in the need-
+108:based aid column.
+90:• | 108:For a suggested order of precedence in assigning categories of aid to cover need, see the entry
+108:for “non-need-based scholarship or grant aid” on the last page of the definitions section.
+72:Indicate the academic year for which data are reported for items H1, H2, H2A, and H6 below: Estimated
+72:2025-2026
+72:Which needs-analysis methodology does your institution use in awarding institutional aid? (Formerly
+72:H3):
+72:Yes - | 96:Federal methodology (FM)
+72:No - Institutional methodology (IM)
+72:No - Both FM and IM
+478:Non-need-
+381:Need-based | 488:based
+367:(Include non-need- | 471:(Exclude non-
+184:Aid Awarded
+372:based aid use to | 468:need-based aid
+382:meet need.) | 476:use to meet
+488:need.)
+78:Scholarships/Grants | 374:Not Applicable | 467:Not Applicable
+78:Federal | 401:$13,268,427 | 496:$228,404
+78:State | 105:all states, not only the state in which your institution is
+406:$2,867,236 | 496:$531,952
+78:located
+78:Institutional: | 140:Endowed scholarships, annual gifts and tuition
+78:funded grants, awarded by the college, excluding athletic aid | 415:$377,767 | 488:$8,296,527
+78:and tuition waivers (which are reported below).
+78:Scholarships/grants from external sources | 284:(e.g. Kiwanis,
+488:$4,672,291
+78:National Merit) not awarded by the college
+78:Total Scholarships/Grants | 401:$16,513,430 | 482:$13,729,174
+78:Self-Help | 374:Not Applicable | 467:Not Applicable
+78:Student loans from all sources (excluding parent loans) | 406:$8,716,455 | 482:$19,825,027
+78:Federal Work-Study | 406:$1,252,346 | 467:Not Applicable
+78:State and other (e.g., institutional) work-study/employment
+78:(Note: Excludes Federal Work-Study captured above.)
+78:Total Self-Help | 406:$9,968,801 | 482:$19,825,027
+78:Parent Loans | 488:$3,132,601
+78:Tuition Waivers
+78:Note: Reporting is optional. Report tuition waivers in this row
+488:$6,587,757
+78:if you choose to report them. Do not report tuition waivers
+78:elsewhere.
+78:Athletic Awards | 488:$3,191,648
+72:H2 Number of Enrolled Students Awarded Aid: List the number of degree-seeking full-time and less-
+72:than-full-time undergraduates who applied for and were awarded financial aid from any source.
+90:• | 108:Aid that is non-need-based but that was used to meet need should be counted as need-based
+108:aid.
+90:• | 108:Numbers should reflect the cohort awarded the dollars reported in H1.
+90:• | 108:In the chart below, students may be counted in more than one row, and full-time first-year
+108:students
+72:should also be counted as full-time undergraduates.
+294:First-time Full- | 493:Less Than
+104:Number of Enrolled Students Awarded | 378:Full-time Undergrad
+294:time First-year | 497:Full-time
+180:Aid | 388:(Incl. First-Year)
+306:Students | 493:Undergrad
+96:Number of degree | 169:- | 172:seeking undergraduate
+78:A | 96:students (CDS Item $B$1 if reporting on Fall | 315:1103 | 410:4918 | 508:767
+96:2025 cohort)
+96:Number of students in line | 203:a | 211:who applied for
+78:B | 315:1103 | 410:4908 | 508:767
+96:need-based financial aid
+96:Number of students in line | 203:b | 211:who were
+78:C | 317:561 | 410:2360 | 508:346
+96:determined to have financial need
+96:Number of students in line | 203:c | 211:who were
+78:D | 317:561 | 410:2360 | 508:346
+96:awarded any financial aid
+96:Number of students in line | 203:d | 211:who were
+78:E | 96:awarded any need-based scholarship or | 317:557 | 410:2278 | 508:310
+96:grant aid
+96:Number of students in line | 203:d | 211:who were
+78:F | 317:116 | 413:445 | 510:28
+96:awarded any need-based self-help aid
+96:Number of students in line | 203:d | 211:who were
+78:G | 96:awarded any non-need-based scholarship or | 317:552 | 410:2235 | 508:259
+96:grant aid
+96:Number of students in line | 203:d | 211:whose need
+96:was fully met (exclude PLUS loans,
+78:H | 320:93 | 413:336 | 510:28
+96:unsubsidized loans, and private alternative
+96:loans)
+96:On average, the percentage of need that was
+96:met of students who were awarded any
+96:need-based aid. Exclude any aid that was
+78:I | 96:awarded in excess of need as well as any | 312:72.0% | 408:75.0% | 503:67.0%
+96:resources that were awarded to replace EFC
+96:(PLUS loans, unsubsidized loans, and private
+96:alternative loans)
+96:The average financial aid package of those in
+96:line | 113:d | 118:. Exclude any resources that were
+78:J | 96:awarded to replace EFC (PLUS loans, | 306:$ | 319:12,580 | 402:$ | 414:12,528 | 499:$ | 512:7,869
+96:unsubsidized loans, and private alternative
+96:loans)
+96:Average need-based scholarship and grant
+78:K | 309:$ | 321:6,563 | 404:$ | 417:6,724 | 499:$ | 512:5,005
+96:award of those in line | 184:e
+96:Average need-based self-help award
+78:L | 96:(excluding PLUS loans, unsubsidized loans, | 309:$ | 321:5,389 | 404:$ | 417:6,085 | 499:$ | 512:4,837
+96:and private alternative loans) of those in line | 275:f
+96:Average need-based loan (excluding PLUS
+96:loans, unsubsidized loans, and private
+78:M | 309:$ | 321:3,488 | 404:$ | 417:4,247 | 499:$ | 512:4,154
+96:alternative loans) of those in line | 228:f | 233:who were
+96:awarded a need-based loan
+72:H2A Number of Enrolled Students Awarded Non-need-based Scholarships and Grants: List the number
+72:of degree-seeking full-time and less-than-full-time undergraduates who had no financial need and who
+72:were awarded institutional non-need-based scholarship or grant aid.
+90:• | 108:Numbers should reflect the cohort awarded the dollars reported in H1.
+90:• | 108:In the chart below, students may be counted in more than one row, and full-time first-year
+108:students should also be counted as full-time undergraduates.
+298:First-time
+101:Number of Enrolled Students Awarded | 396:Full-time | 488:Less Than
+300:Full-time
+109:Non-need-based Scholarships and | 392:Undergrad | 491:Full-time
+298:First-year
+169:Grants | 379:(Incl. First-year.) | 487:Undergrad
+299:Students
+96:Number of students in line | 203:a | 210:who had no
+96:financial need and who were awarded
+78:N | 96:institutional non-need-based scholarship or | 311:460 | 405:1502 | 505:42
+96:grant aid (exclude those who were awarded
+96:athletic awards and tuition benefits)
+96:Average dollar amount of institutional non-
+78:O | 96:need-based scholarship and grant aid | 302:$ | 315:2,242 | 398:$ | 411:2,172 | 494:$ | 506:1,207
+96:awarded to students in line | 205:n
+96:Number of students in line | 203:a | 210:who were
+78:P | 96:awarded an institutional non-need-based | 311:102 | 407:357 | 507:4
+96:athletic scholarship or grant
+96:Average dollar amount of institutional non-
+78:Q | 96:need-based athletic scholarships and | 302:$ | 315:9,549 | 398:$ | 411:8,873 | 494:$ | 506:6,000
+96:grants awarded to students in line | 233:p
+72:Note: These are the graduates and loan types to include and exclude in order to fill out CDS H4 and H5.
+72:Include:
+72:• | 90:2025 undergraduate class: all students who started at your institution as first-time students and
+72:received a bachelor's degree between July 1, 2024 and June 30, 2025.
+72:• | 90:Only loans made to students who borrowed while enrolled at your institution.
+72:• | 90:Co-signed loans.
+72:Exclude
+72:• | 90:Students who transferred in.
+72:• | 90:Money borrowed at other institutions.
+72:• | 90:Parent loans
+72:• | 90:Students who did not graduate or who graduated with another degree or certificate (but no
+72:bachelor’s degree).
+72:H4. | 90:Provide the number of students in the 2025 undergraduate class who started at your
+72:institution as first-time students and received a bachelor's degree between July 1, 2024 and June
+72:30, 2025. Exclude students who transferred into your institution: | 380:685
+72:H5. Number and percent of students in class (defined in H4 above) borrowing from federal, non-
+72:federal, and any loan sources, and the average (or mean) amount borrowed.
+72:• | 90:The “Average per-undergraduate-borrower cumulative principal borrowed,” is designed to provide
+72:better information about student borrowing from federal and nonfederal (institutional, state,
+72:commercial) sources.
+72:• | 87:The numbers, percentages, and averages for each row should be based only on the loan source
+72:specified for the particular row. For example, the federal loans average (row b) should only be the
+72:cumulative average of federal loans and the private loans average (row e) should only be the cumulative
+72:average of private loans.
+288:Number in
+456:Average per-
+291:the class
+364:Percent of the | 450:undergraduate-
+287:(defined in
+364:class (defined | 465:borrower
+288:H4 above)
+370:above) who | 460:cumulative
+302:who
+362:borrowed from | 466:principal
+289:borrowed
+124:Source/Type of Loan | 369:the types of | 451:borrowed from
+292:from the
+361:loans specified | 458:the types of
+293:types of
+373:in the first | 450:loans specified
+299:loans
+359:column (nearest | 462:in the first
+285:specified in
+388:1%) | 469:column
+294:the first
+458:(nearest $1)
+294:column
+96:Any loan program: Federal Perkins,
+96:Federal Stafford Subsidized and
+96:Unsubsidized, institutional, state, private
+78:A | 304:380 | 380:55.47% | 468:$29,832
+96:loans that your institution is aware of, etc.
+96:Include both Federal Direct Student Loans
+96:and Federal Family Education Loans.
+96:Federal loan programs: Federal Perkins,
+96:Federal Stafford Subsidized and
+78:B | 96:Unsubsidized. Include both Federal Direct | 304:370 | 380:54.01% | 468:$24,410
+96:Student Loans and Federal Family
+96:Education Loans.
+78:C | 96:Institutional loan programs.
+78:D | 96:State loan programs.
+96:Private student loans made by a bank
+78:E | 304:104 | 380:15.18% | 468:$22,158
+96:or lender.
+72:Aid to Undergraduate Degree-seeking Nonresidents
+72:• | 90:Report numbers and dollar amounts for the same academic year checked in item H1
+101:Indicate your institution’s policy regarding institutional scholarship and grant aid for undergraduate
+77:H6
+101:degree-seeking nonresidents:
+101:Institutional need-based scholarship or grant aid is
+80:✔
+101:available
+101:Institutional non | 171:- | 174:need | 197:- | 200:based scholarship or grant aid is
+80:✔
+101:available
+101:Institutional scholarship or grant aid is not available
+77:If institutional financial aid is available for undergraduate degree-seeking
+77:nonresidents, provide the number of undergraduate degree-seeking nonresidents | 487:139
+77:who were awarded need-based or non-need-based aid:
+77:Average dollar amount of institutional financial aid awarded to undergraduate
+480:$7,069
+77:degree-seeking nonresidents:
+77:Total dollar amount of institutional financial aid awarded to undergraduate degree-
+474:$982,547
+77:seeking nonresidents:
+115:Check off all financial aid forms nonresident | 311:first | 328:- | 331:year financial aid applicants
+77:H7
+256:must submit:
+106:Institution’s own financial aid form
+106:CSS Profile
+106:Other (specify):
+106:Process for First | 202:- | 206:Year Students
+109:Check off all financial aid forms domestic first | 309:- | 313:year financial aid applicants | 438:must
+77:H8
+268:submit:
+106:FAFSA
+106:Institution's own financial aid form
+106:CSS Profile
+106:State aid form
+106:Noncustodial Profile
+106:Business/Farm Supplement
+106:Other (specify):
+77:H9 | 107:Indicate filing dates for first | 226:- | 229:year students:
+109:✔ | 130:Priority date for filing | 224:required financial aid forms: | 411:1 | 417:- | 420:Feb
+130:Deadline for filing required financial aid forms:
+130:No deadline for filing required forms (applications
+130:processed on a rolling basis)
+77:H10 | 146:Indicate notification dates for first-year students (answer a or b):
+125:a) Students notified on or about (date):
+107:✔ | 125:b) Students notified on a rolling basis:
+125:If yes, starting date:
+125:1-Mar
+77:H11 | 107:Indicate reply dates:
+107:Students must reply by (date):
+107:or within _______ weeks of | 231:notification.
+107:Types of Aid Available
+107:Please check off all types of aid available to undergraduates at your institution:
+77:H12 | 107:Loans
+83:✔ | 107:Federal Direct Subsidized Loans
+83:✔ | 107:Federal Direct Unsubsidized Loans
+83:✔ | 107:Federal Direct PLUS Loans
+107:Federal Nursing Loans
+107:State Loans
+107:College/university loans from institutional funds
+107:Other (specify):
+77:H13 | 107:Need Based Scholarships and Grants
+83:✔ | 107:Federal Pell
+83:✔ | 107:Federal SEOG
+83:✔ | 107:State scholarships/grants
+83:✔ | 107:Private scholarships
+83:✔ | 107:College/university | 188:scholarship or grant aid from institutional funds
+107:United Negro College Fund
+107:Federal Nursing Scholarship
+107:Other (specify):
+72:H14 | 93:Check off criteria used in awarding institutional aid. Check all that apply.
+317:Non-Need Based | 454:Need-Based
+125:Academics | 353:✔
+125:Alumni affiliation | 353:✔
+125:Art | 353:✔
+125:Athletics | 353:✔
+125:Job skills
+125:ROTC | 353:✔ | 448:Not Applicable
+125:Leadership | 353:✔
+125:Music/drama | 353:✔
+125:Religious affiliation
+125:State/district residency | 353:✔
+72:H15 | 93:If your institution has recently implemented any major financial aid policy, program, or initiative to
+72:make your institution more affordable to incoming students such as replacing loans with grants, or waiving
+72:costs for families below a certain income level please provide details below:
+148:I. INSTRUCTIONAL FACULTY AND CLASS SIZE
+72:I-1. | 89:Please report the number of instructional faculty members in each category for Fall 2025. Include
+72:faculty who are on your institution’s payroll on the census date your institution uses for IPEDS/AAUP.
+72:The following definition of full-time instructional faculty is used by the American Association of
+72:University Professors (AAUP) in its annual Faculty Compensation Survey (the part time definitions are
+72:not used by AAUP). Instructional Faculty is defined as those members of the instructional-research staff
+72:whose major regular assignment is instruction, including those with released time for research. Use the
+72:chart below to determine inclusions and exclusions:
+395:Full-
+144:DESCRIPTION | 461:Part-time
+395:time
+97:Instructional faculty in preclinical and clinical medicine, faculty who
+442:Include only if they
+97:are not paid (e.g., those who donate their services or are in the
+79:A | 388:Exclude | 432:teach one or more non-
+97:military), or research-only faculty, post-doctoral fellows, or pre-
+436:clinical credit courses
+97:doctoral fellows
+97:Administrative officers with titles such as dean of students, librarian, | 439:Include if they teach
+79:B | 97:registrar, coach, and the like, even though they may devote part of | 388:Exclude | 431:one or more non-clinical
+97:their time to classroom instruction and may have faculty status | 451:credit courses
+97:Other administrators/staff who teach one or more non-clinical credit
+79:C | 388:Exclude | 465:Include
+97:courses even though they do not have faculty status
+97:Undergraduate or graduate students who assist in the instruction of
+79:D | 97:courses, but have titles such as teaching assistant, teaching fellow, | 388:Exclude | 463:Exclude
+97:and the like
+79:E | 97:Faculty on sabbatical or leave with pay | 389:Include | 463:Exclude
+79:F | 97:Faculty on leave without pay | 388:Exclude | 463:Exclude
+79:G | 97:Replacement faculty for faculty on sabbatical leave or leave with pay | 388:Exclude | 465:Include
+72:Full-time instructional faculty: | 212:faculty employed on a full-time basis for instruction (including those with
+72:released time for research)
+72:Part-time instructional faculty: | 216:Adjuncts and other instructors being paid solely for part-time classroom
+72:instruction. Also includes full-time faculty teaching less than two semesters, three quarters, two
+72:trimesters, or two four-month sessions. Employees who are not considered full-time instruction faculty
+72:but who teach one or more non-clinical credit courses may be counted as part-time faculty.
+72:Minority faculty: | 152:includes faculty who designate themselves as Black, non-Hispanic; American Indian or
+72:Alaska Native; Asian, Native Hawaiian or other Pacific Islander, or Hispanic.
+72:Doctorate: | 126:includes such degrees as Doctor of Philosophy, Doctor of Education, Doctor of Juridical
+72:Science, and Doctor of Public Health in any field such as arts, sciences, education, engineering, business,
+72:and public administration. Also includes terminal degrees formerly designated as “first professional,”
+72:including dentistry (DDS or DMD), medicine (MD), optometry (OD), osteopathic medicine (DO), pharmacy
+72:(DPharm or BPharm), podiatric medicine (DPM), veterinary medicine (DVM), chiropractic (DC or DCM), or
+72:law (JD).
+72:Terminal master’s degree: | 193:a master’s degree that is considered the highest degree in a field: example, M.
+72:Arch (in architecture) and MFA (master of fine arts in art or theater).
+72:I-1.
+384:Full | 400:- | 429:Part | 447:-
+475:Total
+383:Time | 429:Time
+78:A | 96:Total number | 158:of instructional faculty | 385:393 | 431:165 | 477:558
+78:B | 96:Total number who are members of minority groups | 388:99 | 434:10 | 477:109
+78:C | 96:Total number who are females | 385:189 | 431:120 | 477:309
+78:D | 96:Total number who are males | 385:204 | 434:45 | 477:249
+78:E | 96:Total number who are nonresidents (international) | 388:71 | 437:2 | 480:73
+78:F | 96:Total | 121:number with doctorate, or other terminal degree | 385:290 | 434:35 | 477:325
+96:Total number whose highest degree is a master’s but not a
+77:G | 388:97 | 434:92 | 477:189
+96:terminal master’s
+78:H | 96:Total number whose highest degree is a bachelor’s | 391:0 | 434:18 | 480:18
+96:Total number whose highest degree is unknown or other
+80:I | 391:0 | 437:1 | 483:1
+96:(Note: Items | 153:f | 157:, | 162:g | 168:, | 174:h | 180:, and | 205:i | 210:must sum up to item | 303:a | 309:.)
+96:Total number in stand-alone graduate/professional programs
+79:J | 391:0 | 437:0 | 483:0
+96:in which faculty teach virtually only graduate-level students
+72:I-2 Student to Faculty Ratio
+72:Report the Fall 2025 ratio of full-time equivalent undergraduate and graduate students (full-time plus 1/3
+72:part time) to full-time equivalent instructional faculty of undergraduate and graduate students (full-time
+72:plus 1/3 part time). In the ratio calculations, exclude both faculty and students in stand-alone graduate or
+72:professional programs such as medicine, law, veterinary, dentistry, social work, business, or public health
+72:in which faculty teach virtually only graduate level students.
+77:• | 84:Do not count undergraduate or graduate student teaching assistants as faculty.
+411:(based
+77:Fall 2025 Student to Faculty ratio | 324:19 | 360:to 1 | 469:8335 | 511:students
+411:on
+433:and | 472:448 | 511:faculty).
+72:I-3 Undergraduate Class Size
+72:In the table below, please use the following definitions to report information about the size of classes and
+72:class sections offered in the Fall 2025 term.
+72:Class Sections: | 148:A class section is an organized course offered for credit, identified by discipline and
+72:number, meeting at a stated time or times in a classroom or similar setting, and not a subsection such as
+72:a laboratory or discussion session. Undergraduate class sections are defined as any sections in which at
+72:least one degree-seeking undergraduate student is enrolled for credit. Exclude distance learning classes
+72:and noncredit classes and individual instruction such as dissertation or thesis research, music instruction,
+72:or one-to-one readings. Exclude students in independent study, co-operative programs, internships,
+72:foreign language taped tutor sessions, practicums, and all students in one-on-one classes. Each class
+72:section should be counted only once and should not be duplicated because of course catalog cross-listings.
+72:Class Subsections: | 160:A class subsection includes any subsection of a course, such as laboratory, recitation,
+72:and discussion subsections that are supplementary in nature and are scheduled to meet separately from
+72:the lecture portion of the course. Undergraduate subsections are defined as any subsections of courses
+72:in which degree-seeking undergraduate students enrolled for credit. As above, exclude noncredit classes
+72:and individual instruction such as dissertation or thesis research, music instruction, or one-to-one
+72:readings. Each class subsection should be counted only once and should not be duplicated because of
+72:cross-listings.
+72:Using the above definitions, please report for each of the following class-size intervals the number of class
+72:sections and class subsections offered in Fall 2025. For example, a lecture class with 800 students who
+72:met at another time in 40 separate labs with 20 students should be counted once in the “100+” column
+72:in the class section column and 40 times under the “20-29” column of the class subsections table.
+77:Number of Class Sections with Undergradua | 289:tes Enrolled
+77:Undergraduate Class Size (provide numbers)
+145:2 | 150:- | 154:9 | 185:10 | 196:- | 199:19 | 239:20 | 250:- | 253:29 | 293:30 | 304:- | 307:39 | 347:40 | 358:- | 361:49 | 401:50 | 412:- | 415:99 | 454:100+ | 502:Total
+86:CLASS
+144:244 | 189:432 | 243:243 | 300:85 | 354:30 | 408:10 | 462:1 | 503:1045
+77:SECTIONS
+145:2 | 150:- | 154:9 | 185:10 | 196:- | 199:19 | 239:20 | 250:- | 253:29 | 293:30 | 304:- | 307:39 | 347:40 | 358:- | 361:49 | 401:50 | 412:- | 415:99 | 454:100+ | 502:Total
+86:CLASS
+91:SUB- | 147:31 | 192:48 | 246:32 | 303:3 | 357:1 | 411:0 | 462:0 | 506:115
+77:SECTIONS
+147:J. Disciplinary areas of DEGREES CONFERRED
+72:J-1 Degrees conferred between July 1, 2024 and June 30, 2025
+72:For each of the following discipline areas, provide the percentage of diplomas/certificates, associate, and
+72:bachelor’s degrees awarded. To determine the percentage, use majors, not headcount (e.g., students with
+72:one degree but a double major will be represented twice). Calculate the percentage from your institution’s
+72:IPEDS Completions by using the sum of 1st and 2nd majors for each CIP code as the numerator and the
+72:sum of the Grand Total by 1st Majors and the Grand Total by 2nd major as the denominator. If you prefer,
+72:you can compute the percentages using 1st majors only.
+495:CIP 2020
+136:Category | 249:Diploma/Certificates | 358:Associate | 419:Bachelor’s | 484:Categories to
+498:Include
+78:Agriculture | 456:1% | 510:01
+78:Natural resources and conservation | 510:03
+78:Architecture | 510:04
+78:Area, ethnic, and gender studies | 510:05
+78:Communication/journalism | 331:4% | 456:3% | 510:09
+78:Communication technologies | 510:10
+78:Computer and information | 196:sciences | 456:9% | 510:11
+78:Personal and culinary services | 510:12
+78:Education | 325:21% | 450:12% | 510:13
+78:Engineering | 456:0% | 510:14
+78:Engineering technologies | 325:54% | 456:6% | 510:15
+78:Foreign languages, literatures, and
+331:3% | 456:1% | 510:16
+78:linguistics
+78:Family and consumer sciences | 456:3% | 510:19
+78:Law/legal studies | 510:22
+78:English | 456:1% | 510:23
+78:Liberal arts/general studies | 456:4% | 510:24
+78:Library science | 510:25
+78:Biological/life sciences | 331:0% | 456:3% | 510:26
+78:Mathematics and statistics | 456:0% | 510:27
+78:Military science and military
+498:28 & 29
+78:technologies
+78:Interdisciplinary studies | 456:1% | 510:30
+78:Parks and recreation | 456:6% | 510:31
+78:Philosophy and religious studies | 510:38
+78:Theology and religious vocations | 510:39
+78:Physical sciences | 456:0% | 510:40
+78:Science technologies | 510:41
+78:Psychology | 456:4% | 510:42
+495:CIP 2020
+136:Category | 249:Diploma/Certificates | 358:Associate | 419:Bachelor’s | 484:Categories to
+498:Include
+78:Homeland Security, law
+78:enforcement, firefighting, and | 331:9% | 456:8% | 510:43
+78:protective services
+78:Public administration and social
+456:2% | 510:44
+78:services
+78:Social sciences | 456:3% | 510:45
+78:Construction trades | 510:46
+78:Mechanic and repair technologies | 510:47
+78:Precision production | 510:48
+78:Transportation and materials
+331:2% | 456:3% | 510:49
+78:moving
+78:Visual and performing arts | 456:7% | 510:50
+78:Health professions and related
+450:11% | 510:51
+78:programs
+78:Business/marketing | 331:7% | 450:12% | 510:52
+78:History | 456:0% | 510:54
+78:Other
+78:TOTAL (should = 100%) | 277:100.00% | 368:0.00% | 425:100.00%
+208:Common Data Set Definitions
+72:¨ | 96:All definitions related to the financial aid section appear at the end of the Definitions document.
+72:¨ | 97:Items preceded by an asterisk (*) represent definitions agreed to among publishers which do not
+72:appear on the CDS document but may be present on individual publishers’ surveys.
+72:¨ | 96:Additional definitions and guidance for terms commonly used in the IPEDS surveys are available in
+72:the IPEDS Glossary.
+72:*Academic advisement: | 186:Plan under which each student is assigned to a faculty member or a trained
+72:adviser, who, through regular meetings, helps the student plan and implement immediate and long-term
+72:academic and vocational goals.
+72:Accelerated program: | 173:Completion of a college program of study in fewer than the usual number of years,
+72:most often by attending summer sessions and carrying extra courses during the regular academic term.
+72:Admitted student: | 158:Applicant who is offered admission to a degree-granting program at your institution.
+72:*Adult student services: | 189:Admission assistance, support, orientation, and other services expressly for
+72:adults who have started college for the first time, or who are re-entering after a lapse of a few years.
+72:American Indian or Alaska Native: | 233:A person having origins in any of the original peoples of North and
+72:South America (including Central America) and maintaining tribal affiliation or community attachment.
+72:Applicant (first-time, first year): | 227:An individual who has fulfilled the institution’s requirements to be
+72:considered for admission (including payment or waiving of the application fee, if any) and who has been
+72:notified of one of the following actions: admission, nonadmission, placement on waiting list, or application
+72:withdrawn (by applicant or institution).
+72:Application fee: | 147:That amount of money that an institution charges for processing a student’s application
+72:for acceptance. This amount is not creditable toward tuition and required fees, nor is it refundable if the
+72:student is not admitted to the institution.
+72:Asian: | 103:A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian
+72:subcontinent, including, for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the
+72:Philippine Islands, Thailand, and Vietnam.
+72:Associate degree: | 158:An award that normally requires at least two but less than four years of full-time
+72:equivalent college work.
+72:Bachelor’s degree: | 159:An award (baccalaureate or equivalent degree, as determined by the Secretary of the
+72:U.S. Department of Education) that normally requires at least four years but not more than five years of
+72:full-time equivalent college-level work. This includes ALL bachelor’s degrees conferred in a five-year
+72:cooperative (work-study plan) program. (A cooperative plan provides for alternate class attendance and
+72:employment in business, industry, or government; thus, it allows students to combine actual work
+72:experience with their college studies.) Also, it includes bachelor’s degrees in which the normal four years
+72:of work are completed in three years.
+72:Black or African American: | 195:A person having origins in any of the black racial groups of Africa.
+72:Board (charges): | 149:Assume average cost for 19 meals per week or the maximum meal plan.
+72:Books and supplies (costs): | 198:Average cost of books and supplies. Do not include unusual costs for special
+72:groups of students (e.g., engineering or art majors), unless they constitute the majority of students at
+72:your institution.
+72:Calendar system: | 152:The method by which an institution structures most of its courses for the academic year.
+72:Campus Ministry: | 157:Religious student organizations (denominational or nondenominational) devoted to
+72:fostering religious life on college campuses. May | 320:also | 344:refer to | 389:Campus Crusade | 474:for Christ, an
+72:interdenominational Christian organization.
+72:*Career and placement services: | 221:A range of services, including (often) the following: coordination of visits
+72:of employers to campus; aptitude and vocational testing; interest inventories, personal counseling; help
+72:in resume writing, interviewing, launching the job search; listings for those students desiring employment
+72:and those seeking permanent positions; establishment of a permanent reference folder; career resource
+72:materials.
+72:Carnegie units: | 143:One year of study or the equivalent in a secondary school subject.
+72:Certificate: | 125:See Postsecondary award, certificate, or diploma.
+72:Class rank: | 125:The relative numerical position of a student in his or her graduating class, calculated by the
+72:high school on the basis of grade-point average, whether weighted or unweighted.
+72:College-preparatory program: | 212:Courses in academic subjects (English, history and social studies, foreign
+72:languages, mathematics, science, and the arts) that stress preparation for college or university study.
+72:Common Application: | 173:The standard application form distributed by the National Association of Secondary
+72:School Principals for a large number of private colleges who are members of the Common Application
+72:Group.
+72:*Community service program: | 216:Referral center for students wishing to perform volunteer work in the
+72:community or participate in volunteer activities coordinated by academic departments.
+72:Commuter: | 127:A student who lives off campus in housing that is not owned by, operated by, or affiliated
+72:with the college. This category includes students who commute from home and students who have moved
+72:to the area to attend college.
+72:Comprehensive transition and postsecondary program for students with intellectual disabilities:
+72:Programs designed to support postsecondary students with intellectual disabilities obtain instruction in
+72:academic, career and technical, and independent living subjects in preparation for employment.
+72:Clock hour: | 127:A unit of measure that represents an hour of scheduled instruction given to students. Also
+72:referred to as contact hour.
+72:Continuous basis (for program enrollment): | 275:A calendar system classification that is used by institutions
+72:that enroll students at any time during the academic year. For example, a cosmetology school or a word
+72:processing school might allow students to enroll and begin studies at various times, with no requirement
+72:that classes begin on a certain date.
+72:Cooperative education program: | 222:A program that provides for alternate class attendance and employment
+72:in business, industry, or government.
+72:Cooperative housing: | 172:College-owned, -operated, or -affiliated housing in which students share food and
+72:housing expenses and participate in household chores to reduce living expenses.
+72:*Counseling service: | 168:Activities designed to assist students in making plans and decisions related to their
+72:education, career, or personal development.
+72:Credit: | 105:Recognition of attendance or performance in an instructional activity (course or program) that can
+72:be applied by a recipient toward the requirements for a degree, diploma, certificate, or recognized
+72:postsecondary credential.
+72:Credit course: | 140:A course that, if successfully completed, can be applied toward the number of courses
+72:required for achieving a degree, diploma, certificate, or other recognized postsecondary credential.
+72:Credit hour: | 129:A unit of measure representing an hour (50 minutes) of instruction over a 15-week period in
+72:a semester or trimester system or a 10-week period in a quarter system. It is applied toward the total
+72:number of hours needed for completing the requirements of a degree, diploma, certificate, or recognized
+72:postsecondary credential.
+72:Cross-registration: | 159:A system whereby students enrolled at one institution may take courses at another
+72:institution without having to apply to the second institution.
+72:Deferred admission: | 168:The practice of permitting admitted students to postpone enrollment, usually for a
+72:period of one academic term or one year.
+72:Degree: | 112:An award conferred by a college, university, or other postsecondary education institution as
+72:official recognition for the successful completion of a program of studies.
+72:Degree-seeking students: | 190:Students enrolled in courses for credit who are recognized by the institution as
+72:seeking a degree or recognized postsecondary credential. At the undergraduate level, this is intended to
+72:include students enrolled in vocational or occupational programs.
+72:*Developmental | 155:services: | 202:Instructional | 266:courses | 307:designed | 355:for | 375:students | 422:deficient | 468:in | 484:the | 506:general
+72:competencies necessary for a regular postsecondary curriculum and educational setting.
+72:Differs by program (calendar system): | 251:A calendar system classification that is used by institutions that
+72:have occupational/vocational programs of varying length. These schools may enroll students at specific
+72:times depending on the program desired. For example, a school might offer a two-month program in
+72:January, March, May, September, and November; and a three-month program in January, April, and
+72:October.
+72:Diploma: | 116:See Postsecondary award, certificate, or diploma.
+72:Distance learning: | 161:An option for earning course credit at off-campus locations via cable television,
+72:internet, satellite classes, videotapes, correspondence courses, or other means.
+72:Doctor’s degree-research/scholarship: | 252:A Ph.D. or other doctor's degree that requires advanced work
+72:beyond the master’s level, including the preparation and defense of a dissertation based on original
+72:research, or the planning and execution of an original project demonstrating substantial artistic or
+72:scholarly achievement. Some examples of this type of degree may include Ed.D., D.M.A., D.B.A., D.Sc.,
+72:D.A., or D.M, and others, as designated by the awarding institution.
+72:Doctor’s degree-professional practice: | 248:A doctor’s degree that is conferred upon completion of a program
+72:providing the knowledge and skills for the recognition, credential, or license required for professional
+72:practice. The degree is awarded after a period of study such that the total time to the degree, including
+72:both pre-professional and professional preparation, equals at least six full-time equivalent academic
+72:years. Some of these degrees were formerly classified as “first-professional” and may include: Chiropractic
+72:(D.C. or D.C.M.); Dentistry (D.D.S. or D.M.D.); Law (L.L.B. or J.D.); Medicine (M.D.); Optometry (O.D.);
+72:Osteopathic Medicine (D.O); Pharmacy (Pharm.D.); Podiatry (D.P.M., Pod.D., D.P.); or, Veterinary
+72:Medicine (D.V.M.), and others, as designated by the awarding institution.
+72:Doctor’s degree-other: | 183:A doctor’s degree that does not meet the definition of a doctor’s degree -
+72:research/scholarship or a doctor’s degree - professional practice.
+72:Double major: | 147:Program in which students may complete two undergraduate programs of study
+72:simultaneously.
+72:Dual enrollment: | 152:Refers to high school students enrolled in college courses for credit. In accordance with
+72:IPEDS, student performance is recorded on a college transcript and postsecondary credit is awarded for a
+72:passing grade in the course. Dual enrollment includes: All postsecondary courses, independent of course
+72:delivery mode, course location, course instructor, whether secondary credit is also offered, and whether
+72:the student enrolls through a formal state/local program or enrolls outside a formal state/local program.
+72:Dual enrollment excludes: Credit-by-exam models such as Advanced Placement (AP) and International
+72:Baccalaureate (IB) in which the student is not enrolled in a postsecondary institution.
+72:Early action plan: | 152:An admission plan that allows students to apply and be notified of an admission decision
+72:well in advance of the regular notification dates. If admitted, the candidate is not committed to enroll;
+72:the student may reply to the offer under the college’s regular reply policy.
+72:Early admission: | 150:A policy under which students who have not completed high school are admitted and
+72:enroll full time in college, usually after completion of their junior year.
+72:Early decision plan: | 164:A plan that permits students to apply and be notified of an admission decision (and
+72:financial aid offer if applicable) well in advance of the regular notification date. Applicants agree to accept
+72:an offer of admission and, if admitted, to withdraw their applications from other colleges. There are three
+72:possible decisions for early decision applicants: admitted, denied, or not admitted but forwarded for
+72:consideration with the regular applicant pool, without prejudice.
+72:English as a Second Language (ESL): | 242:A course of study designed specifically for students whose native
+72:language is not English.
+72:Exchange student program-domestic: | 248:Any arrangement between a student and a college that permits
+72:study for a semester or more at another college in the United States without extending the amount of
+72:time required for a degree. See also Study abroad.
+72:External degree program: | 193:A program of study in which students earn credits toward a degree through
+72:independent study, college courses, proficiency examinations, and personal experience. External degree
+72:programs require minimal or no classroom attendance.
+72:Extracurricular activities (as admission factor): | 286:Special consideration in the admissions process given for
+72:participation in both school and nonschool-related activities of interest to the college, such as clubs,
+72:hobbies, student government, athletics, performing arts, etc.
+72:First-time student: | 162:A student attending any institution for the first time at the level enrolled. Includes
+72:students enrolled in the fall term who attended a postsecondary institution for the first time at the same
+72:level in the prior summer term. Also includes students who entered with advanced standing (college credit
+72:earned before graduation from high school).
+72:First-time, first-year student: | 207:A student attending any institution for the first time at the undergraduate
+72:level. Includes students enrolled in the fall term who attended college for the first time in the prior
+72:summer term. Also includes students who entered with advanced standing (college credits earned before
+72:graduation from high school).
+72:First-year student: | 159:A student who has completed less than the equivalent of 1 full year of undergraduate
+72:work; that is, less than 30 semester hours (in a 120-hour degree program) or less than 900 clock hours.
+72:Food and housing (charges)—on campus: | 259:Assume double occupancy in institutional housing and 19 meals
+72:per week (or maximum meal plan).
+72:Full-time student (undergraduate): | 239:A student enrolled for 12 or more semester credits, 12 or more
+72:quarter credits, or 24 or more clock hours a week each term.
+72:Geographical residence (as admission factor): | 287:Special consideration in the admission process given to
+72:students from a particular region, state, or country of residence.
+72:Grade-point average (academic high school GPA): | 310:The sum of grade points a student has earned in
+72:secondary school divided by the number of courses taken. The most common system of assigning numbers
+72:to grades counts four points for an A, three points for a B, two points for a C, one point for a D, and no
+72:points for an E or F. Unweighted GPA’s assign the same weight to each course. Weighting gives students
+72:additional points for their grades in advanced or honors courses.
+72:Graduate student: | 161:A student who holds a bachelor’s or equivalent, and is taking courses at the post-
+72:baccalaureate level.
+72:*Health services: | 152:Free or low cost on-campus primary and preventive health care available to students.
+72:High school diploma or recognized equivalent: | 294:A document certifying the successful completion of a
+72:prescribed secondary school program of studies, or the attainment of satisfactory scores on the Tests of
+72:General Educational Development (GED), or another state-specified examination.
+72:Hispanic or Latino: | 158:A person of Mexican, Puerto Rican, Cuban, South or Central American, or other Spanish
+72:culture or origin, regardless of race.
+72:Honors program: | 155:Any special program for very able students offering the opportunity for educational
+72:enrichment, independent study, acceleration, or some combination of these.
+72:Independent study: | 170:Academic work chosen or designed by the student with the approval of the
+72:department concerned, under an instructor’s supervision, and usually undertaken outside of the regular
+72:classroom structure.
+72:In-state tuition: | 145:The tuition charged by institutions to those students who meet the state’s or institution’s
+72:residency requirements.
+72:International student: | 175:See Nonresident.
+72:International student group: | 206:Student groups that facilitate cultural dialogue, support a diverse campus,
+72:assist international students in acclimation and creating a social network.
+72:Internship: | 126:Any short-term, supervised work experience usually related to a student’s major field, for
+72:which the student earns academic credit. The work can be full- or part-time, on- or off-campus, paid or
+72:unpaid.
+72:*Learning center: | 162:Center offering assistance through tutors, workshops, computer programs, or
+72:audiovisual equipment in reading, writing, math, and skills such as taking notes, managing time, taking
+72:tests.
+72:*Legal services: | 145:Free or low cost legal advice for a range of issues (personal and other).
+72:Liberal arts/career combination: | 230:Program in which a student earns undergraduate degrees in two
+72:separate fields, one in a liberal arts major and the other in a professional or specialized major, whether
+72:on campus or through cross | 196:‑ | 200:registration.
+72:Living learning community: | 197:Residential programs that allow students to interact with students who share
+72:common interests. In addition to living together, students may also participate in shared courses, special
+72:events, and group service projects.
+72:Master's degree: | 151:An award that requires the successful completion of a program of study of generally one
+72:or two full-time equivalent academic years of work beyond the bachelor's degree. Some of these degrees,
+72:such as those in Theology (M.Div., M.H.L./Rav) that were formerly classified as "first-professional", may
+72:require more than two full-time equivalent academic years of work.
+72:Minority affiliation (as admission factor): | 261:Special consideration in the admission process for members of
+72:designated racial/ethnic minority groups.
+72:*Minority student center: | 197:Center with programs, activities, and/or services intended to enhance the
+72:college experience of students of color.
+72:Model United Nations: | 178:A simulation activity focusing on conflict resolution, globalization, and diplomacy.
+72:Assuming roles as foreign ambassadors and “delegates,” students conduct research, engage in debate,
+72:draft resolutions, and may participate in a national Model UN conference.
+72:Native Hawaiian or Other Pacific Islander: | 262:A person having origins in any of the original peoples of Hawaii,
+72:Guam, Samoa, or other Pacific Islands.
+72:*New student orientation: | 194:Orientation addressing the academic, social, emotional, and intellectual issues
+72:involved in beginning college. May be a few hours or a few days in length; at some colleges, there is a fee.
+72:Nonresident: | 135:A person who is not a citizen or national of the United States and who is in this country on
+72:a visa or temporary basis and does not have the right to remain indefinitely.
+72:*On-campus day care: | 176:Licensed day care for students’ children (usually age 3 and up); usually for a fee.
+72:Open admission: | 151:Admission policy under which virtually all secondary school graduates or students with
+72:GED equivalency diplomas are admitted without regard to academic record, test scores, or other
+72:qualifications.
+72:Other expenses (costs): | 186:Include average costs for clothing, laundry, entertainment, medical (if not a
+72:required fee), and furnishings.
+72:Out-of-state tuition: | 173:The tuition charged by institutions to those students who do not meet the
+72:institution’s or state’s residency requirements.
+72:Outside a dual enrollment program: | 245:High school students who simply enroll in credit courses through
+72:your institution, and are treated as regularly enrolled college students.
+72:Part-time student (undergraduate): | 235:A student enrolled for fewer than 12 credits per semester or quarter,
+72:or fewer than 24 clock hours a week each term.
+72:Permanent Resident or other eligible non-citizen: | 299:A person who is not a citizen or national of the United
+72:States and who has been admitted as a legal immigrant for the purpose of obtaining permanent resident
+72:status (and who holds either a registration card [Form I-551 or I-151], a Temporary Resident Card [Form
+72:I-688], or an Arrival-Departure Record [Form I-94] with a notation that conveys legal immigrant status,
+72:such as Section 207 Refugee, Section 208 Asylee, Conditional Entrant Parolee or Cuban-Haitian).
+72:*Personal counseling: | 174:One-on-one or group counseling with trained professionals for students who want
+72:to explore personal, educational, or vocational issues.
+72:Post-baccalaureate certificate: | 217:An award that requires completion of an organized program of study
+72:requiring 18 credit hours beyond the bachelor’s; designed for persons who have completed a
+72:baccalaureate degree but do not meet the requirements of academic degrees carrying the title of master.
+72:Post-master’s certificate: | 191:An award that requires completion of an organized program of study of 24
+72:credit hours beyond the master’s degree but does not meet the requirements of academic degrees at the
+72:doctoral level.
+72:Postsecondary award, certificate, or diploma: | 300:Includes the following three IPEDS definitions for
+72:postsecondary awards, certificates, and diplomas of varying durations and credit/contact/clock hour
+72:requirements:
+72:Less Than 1 Academic Year: | 200:Requires completion of an organized program of study at the postsecondary
+72:level (below the baccalaureate degree) in less than 1 academic year (2 semesters or 3 quarters) or in less
+72:than 900 clock hours by a student enrolled full-time.
+72:At Least 1 But Less Than 2 Academic Years | 263:: Requires completion of an organized program of study at the
+72:postsecondary level (below the baccalaureate degree) in at least 1 but less than 2 full-time equivalent
+72:academic years, or designed for completion in at least 30 but less than 60 credit hours, or in at least 900
+72:but less than 1,800 clock hours.
+72:At Least 2 But Less Than 4 Academic Years: | 269:Requires completion of an organized program of study at the
+72:postsecondary level (below the baccalaureate degree) in at least 2 but less than 4 full-time equivalent
+72:academic years, or designed for completion in at least 60 but less than 120 credit hours, or in at least
+72:1,800 but less than 3,600 clock hours.
+72:Private | 113:institution: | 172:An | 192:educational | 253:institution | 308:controlled | 362:by | 381:a | 395:private | 435:individual(s) | 498:or | 516:by | 535:a
+72:nongovernmental agency, usually supported primarily by other than public funds, and operated by other
+72:than publicly elected or appointed officials.
+72:Private for-profit institution: | 205:A private institution in which the individual(s) or agency in control receives
+72:compensation, other than wages, rent, or other expenses for the assumption of risk.
+72:Private nonprofit institution: | 206:A private institution in which the individual(s) or agency in control receives
+72:no compensation, other than wages, rent, or other expenses for the assumption of risk. These include
+72:both independent nonprofit schools and those affiliated with a religious organization.
+72:Proprietary institution: | 180:See Private for-profit institution.
+72:Public institution: | 159:An educational institution whose programs and activities are operated by publicly
+72:elected or appointed school officials, and which is supported primarily by public funds.
+72:Quarter calendar system: | 190:A calendar system in which the academic year consists of three sessions called
+72:quarters of about 12 weeks each. The range may be from 10 to 15 weeks. There may be an additional
+72:quarter in the summer.
+72:Race/ethnicity: | 144:Category used to describe groups to which individuals belong, identify with, or belong in
+72:the eyes of the community. The categories do not denote scientific definitions of anthropological origins.
+72:A person may be counted in only one group.
+72:Race/ethnicity unknown: | 192:Category used to classify students or employees whose race/ethnicity is not
+72:known and whom institutions are unable to place in one of the specified racial/ethnic categories.
+72:Recognized Postsecondary Credential: | 254:Includes both Title IV eligible degrees, certificates, and other
+72:recognized postsecondary credentials. Any credential that is received after completion of a program that
+72:is eligible for Title IV federal student aid. Credentials that are awarded to recognize an individual’s
+72:attainment of measurable technical or industry/occupational skills necessary to obtain employment or
+72:advance within an industry occupation. (Generally based on standards developed or endorsed by
+72:employers or industry associations).
+72:Religious affiliation/commitment (as admission factor): | 335:Special consideration given in the admission
+72:process for affiliation with a certain church or faith/religion, commitment to a religious vocation, or
+72:observance of certain religious tenets/lifestyle.
+72:*Religious counseling: | 175:One-on-one or group counseling with trained professionals for students who want
+72:to explore religious problems or issues.
+72:Required fees: | 143:Fixed sum charged to students for items not covered by tuition and required of such a
+72:large proportion of all students that the student who does NOT pay is the exception. Do not include
+72:application fees or optional fees such as lab fees or parking fees.
+72:Secondary school record (as admission factor): | 284:Information maintained by the secondary school that may
+72:include such things as the student’s high school transcript, class rank, GPA, and teacher and counselor
+72:recommendations.
+72:Semester calendar system: | 199:A calendar system that consists of two semesters during the academic year
+72:with about 16 weeks for each semester of instruction. There may be an additional summer session.
+72:Student-designed major: | 188:A program of study based on individual interests, designed with the assistance
+72:of an adviser.
+72:Study abroad: | 140:Any arrangement by which a student completes part of the college program studying in
+72:another country. Can be at a campus abroad or through a cooperative agreement with some other U.S.
+72:college or an institution of another country.
+72:*Summer session: | 158:A summer session is shorter than a regular semester and not considered part of the
+72:academic year. It is not the third term of an institution operating on a trimester system or the fourth term
+72:of an institution operating on a quarter calendar system. The institution may have 2 or more sessions
+72:occurring in the summer months. Some schools, such as vocational and beauty schools, have year-round
+72:classes with no separate summer session.
+72:Talent/ability (as admission factor): | 253:Special consideration given to students with demonstrated
+72:talent/abilities in areas of interest to the institution (e.g., sports, the arts, languages, etc.).
+72:Teacher certification program: | 218:Program designed to prepare students to meet the requirements for
+72:certification as teachers in elementary, middle/junior high, and secondary schools.
+72:Transfer applicant: | 163:An individual who has fulfilled the institution’s requirements to be considered for
+72:admission (including payment or waiving of the application fee, if any) and who has previously attended
+72:another college or university and earned college-level credit.
+72:Transfer student: | 157:A student entering the institution for the first time but known to have previously
+72:attended a postsecondary institution at the same level (e.g., undergraduate). The student may transfer
+72:with or without credit.
+72:Transportation (costs): | 185:Assume two round trips to student’s hometown per year for students in
+72:institutional housing or daily travel to and from your institution for commuter students.
+72:Trimester calendar system: | 198:An academic year consisting of 3 terms of about 15 weeks each.
+72:Tuition: | 111:Amount of money charged to students for instructional services. Tuition may be charged per
+72:term, per course, or per credit.
+72:*Tutoring: | 122:May range from one-on-one tutoring in specific subjects to tutoring in an area such as math,
+72:reading, or writing. Most tutors are college students; at some colleges, they are specially trained and
+72:certified.
+72:Unit: | 99:a standard of measurement representing hours of academic instruction (e.g., semester credit,
+72:quarter credit, clock hour).
+72:Undergraduate: | 147:A student enrolled in a four- or five-year bachelor’s degree program, an associate degree
+72:program, or a vocational or technical program below the baccalaureate.
+72:Unduplicated Count of High School Students Enrolled for Credit include all high school students enrolled
+72:in college courses for credit within or outside of a dual enrollment program, in accordance with the
+72:following IPEDS definitions:
+72:Undergraduate | 150:Research: | 203:Opportunities | 274:offered | 315:to | 333:undergraduate | 408:students | 456:to | 474:make | 507:original
+72:contributions in an academic discipline via the exploration of a specific research topic. Research
+72:opportunities may or may not be associated with a specific course or earn credit.
+72:*Veteran’s counseling: | 179:Helps veterans and their dependents obtain benefits for their selected program
+72:and provides certifications to the Veteran’s Administration. May also provide personal counseling on the
+72:transition from the military to a civilian life.
+72:*Visually impaired: | 161:Any person whose sight loss is not correctable and is sufficiently severe as to adversely
+72:affect educational performance.
+72:Volunteer work (as admission factor): | 254:Special consideration given to students for activity done on a
+72:volunteer basis (e.g., tutoring, hospital care, working with the elderly or disabled) as a service to the
+72:community or the public in general.
+72:Wait list: | 117:List of students who meet the admission requirements but will only be offered a place in the
+72:class if space becomes available.
+72:Weekend college: | 156:A program that allows students to take a complete course of study and attend classes
+72:only on weekends.
+72:White: | 105:A person having origins in any of the original peoples of Europe, the Middle East, or North Africa.
+72:Within a dual enrollment program: Program within an organized system with special guidelines that allows
+72:high school students to take college-level courses. The guidelines might have to do with entrance or
+72:eligibility requirements, funding, limits on course taking, etc.
+72:*Women’s center: | 160:Center with programs, academic activities, and/or services intended to promote an
+72:understanding of the evolving roles of females.
+72:Work experience (as admission factor): | 251:Special consideration given to students who have been employed
+72:prior to application, whether for relevance to major, demonstration of employment-related skills, or as
+72:explanation of student’s academic and extracurricular record.
+224:Financial Aid Definitions
+72:External scholarships and grants: Scholarships and grants received from outside (private) sources that
+72:students bring with them (e.g., Kiwanis, National Merit scholarships). The institution may process
+72:paperwork to receive the dollars, but it has no role in determining the recipient or the dollar amount
+72:awarded.
+72:Financial aid applicant: Any applicant who submits any one of the institutionally required financial aid
+72:applications/forms, such as the FAFSA.
+72:Indebtedness: Aggregate dollar amount borrowed through any loan program (federal, state, subsidized,
+72:unsubsidized, private, etc.; excluding parent loans) while the student was enrolled at an institution.
+72:Student loans co-signed by a parent are assumed to be the responsibility of the student and should be
+72:included.
+72:Institutional scholarships and grants: Endowed scholarships, annual gifts and tuition funded grants for
+72:which the institution determines the recipient.
+72:Financial need: As determined by your institution using the federal methodology and/or your institution's
+72:own standards.
+72:Need-based aid: College-funded or college-administered award from institutional, state, federal, or other
+72:sources for which a student must have financial need to qualify. This includes both institutional and non-
+72:institutional student aid (grants, jobs, and loans).
+72:Need-based scholarship or grant aid: Scholarships and grants from institutional, state, federal, or other
+72:sources for which a student must have financial need to qualify.
+72:Need-based self-help aid: Loans and jobs from institutional, state, federal, or other sources for which a
+72:student must demonstrate financial need to qualify.
+72:Non-need-based scholarship or grant aid: Scholarships and grants, gifts, or merit-based aid from
+72:institutional, state, federal, or other sources (including unrestricted funds or gifts and endowment
+72:income) awarded solely on the basis of academic achievement, merit, or any other non-need-based
+72:reason. When reporting questions H1 and H2, non-need-based aid that is used to meet need should be
+72:counted as need-based aid.
+72:Note: Suggested order of precedence for counting non-need money as need-based:
+72:1. | 100:Non-need institutional grants
+72:2. | 100:Non-need tuition waivers
+72:3. | 100:Non-need athletic awards
+72:4. | 100:Non-need federal grants
+72:5. | 100:Non-need state grants
+72:6. | 100:Non-need outside grants
+72:7. | 100:Non-need student loans
+72:8. | 100:Non-need parent loans
+72:9. | 100:Non-need work
+72:Non-need-based self-help aid: Loans and jobs from institutional, state, or other sources for which a
+72:student need not demonstrate financial need to qualify.
+72:Work study and employment: Federal and state work study aid, and any employment packaged by your
+72:institution in financial aid awards.

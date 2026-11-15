@@ -1,0 +1,441 @@
+https://ir.mit.edu/projects/2025-26-common-data-set/
+html 200
+
+0:___ | 1:public
+0:_ x _ | 1:private (nonprofit)
+0:___ | 1:proprietary
+0:_ x _ | 1:coeducational college
+0:___ | 1:men's college
+0:___ | 1:women's college
+0:___ | 1:semester | 3:_ x _ | 4:4-1-4
+0:___ | 1:quarter | 3:___ | 4:continuous
+0:___ | 1:trimester | 3:___ | 4:differs by program (describe):
+0:___ | 1:other (describe):
+0:___ | 1:certificate | 3:___ | 4:postbachelor's certificate
+0:___ | 1:diploma | 3:_ x _ | 4:master's
+0:___ | 1:associate | 3:___ | 4:post-master's certificate
+0:___ | 1:transfer | 3:_ x _ | 4:doctoral degree-research/scholarship
+0:___ | 1:terminal | 3:___ | 4:doctoral degree-professional practice
+0:_ x _ | 1:bachelor's | 3:___ | 4:doctoral degree-other
+1:full-time | 4:part-time
+1:men | 2:women | 3:unknown | 4:men | 5:women | 6:unknown
+0:undergraduates
+0:degree-seeking, first-time first-year students | 1:596 | 2:556 | 3:- | 4:- | 5:- | 6:-
+0:other first-year, degree-seeking | 1:1 | 2:2 | 3:- | 4:- | 5:- | 6:-
+0:all other degree-seeking | 1:1,748 | 2:1,622 | 3:- | 4:24 | 5:12 | 6:-
+0:total degree-seeking | 1:2,345 | 2:2,180 | 3:- | 4:24 | 5:12 | 6:-
+0:all other undergraduates enrolled in credit courses | 1:- | 2:- | 3:- | 4:- | 5:- | 6:-
+0:total undergraduates | 1:2,345 | 2:2,180 | 3:- | 4:24 | 5:12 | 6:-
+0:graduate
+0:degree-seeking, first-time | 1:1,271 | 2:906 | 3:- | 4:8 | 5:6 | 6:-
+0:all other degree-seeking | 1:2,826 | 2:2,076 | 3:- | 4:25 | 5:10 | 6:-
+0:all other graduates enrolled in credit courses | 1:18 | 2:4 | 3:- | 4:76 | 5:29 | 6:-
+0:total graduate | 1:4,115 | 2:2,986 | 3:- | 4:109 | 5:45 | 6:-
+1:degree-seeking first-time first year | 2:degree-seeking undergraduates (include first-time first-year) | 3:total undergraduates (both degree- and non-degree-seeking)
+0:nonresidents | 1:124 | 2:529 | 3:529
+0:hispanic/latino | 1:149 | 2:632 | 3:632
+0:black or african american, non-hispanic | 1:68 | 2:307 | 3:307
+0:white, non-hispanic | 1:261 | 2:983 | 3:983
+0:american indian or alaska native, non-hispanic | 1:3 | 2:11 | 3:11
+0:asian, non-hispanic | 1:442 | 2:1,638 | 3:1,638
+0:native hawaiian or other pacific islander, non-hispanic | 1:0 | 2:1 | 3:1
+0:two or more races, non-hispanic | 1:78 | 2:298 | 3:298
+0:race and/or ethnicity unknown | 1:27 | 2:162 | 3:162
+0:total | 1:1,152 | 2:4,561 | 3:4,561
+0:certificate/diploma | 2:___
+0:associate degrees | 2:___
+0:bachelor's degrees | 2:1,158
+0:postbachelor's certificates | 2:___
+0:master's degrees | 2:1,985
+0:post-master's certificates | 2:___
+0:doctoral degrees - research/scholarship | 2:704
+0:doctoral degrees - professional practice | 2:___
+0:doctoral degrees - other | 2:___
+0:fall 2019 cohort | 2:recipients of a federal pell grant | 3:recipients of a subsidized stafford loan who did not receive a pell grant | 4:students who did not receive either a pell grant or a subsidized stafford loan | 5:total (sum of 3 columns to the left)
+0:a | 1:initial 2019 cohort of first-time, full-time, bachelor's (or equivalent) degree-seeking undergraduate students | 2:217 | 3:33 | 4:853 | 5:1,103
+0:b | 1:of the initial 2019 cohort, how many did not persist and did not graduate for the following reasons: - deceased - permanently disabled - armed forces - foreign aid service of the federal government - official church missions - report total allowable exclusions | 2:0 | 3:0 | 4:2 | 5:2
+0:c | 1:final 2019 cohort, after adjusting for allowable exclusions | 2:217 | 3:33 | 4:851 | 5:1,101
+0:d | 1:of the initial 2019 cohort, how many completed the program in four years or less (by aug. 31, 2023) | 2:174 | 3:29 | 4:743 | 5:946
+0:e | 1:of the initial 2019 cohort, how many completed the program in more than four years but in five years or less (after aug. 31, 2023 and by aug. 31, 2024) | 2:22 | 3:3 | 4:74 | 5:99
+0:f | 1:of the initial 2019 cohort, how many completed the program in more than five years but in six years or less (after aug. 31, 2024 and by aug. 31, 2025) | 2:2 | 3:0 | 4:7 | 5:9
+0:g | 1:total graduating within six years (sum of lines d, e, and f) | 2:198 | 3:32 | 4:824 | 5:1,054
+0:h | 1:six-year graduation rate for 2019 cohort (g divided by c) | 2:91% | 3:97% | 4:97% | 5:96%
+0:first-time, first year student applicants | 1:total
+0:total first-time, first-year men who applied | 1:18,101
+0:total first-time, first-year women who applied | 1:9,389
+0:total first-time, first-year of unknown sex who applied | 1:1,791
+0:first-time, first-year student admits</strong | 1:total
+0:total first-time, first-year men who were admitted | 1:632
+0:total first-time, first-year women who were admitted | 1:638
+0:total first-time, first-year of unknown sex who were admitted | 1:64
+0:first-time, first-year student enrollees | 1:total
+0:total first-time, first-year men who enrolled | 1:561
+0:total first-time, first-year women who enrolled | 1:535
+0:total first-time, first-year of unknown sex who enrolled | 1:56
+0:first-time, first-year student enrollees by status | 1:total
+0:total full-time, first-time, first-year men who enrolled | 1:561
+0:total part-time, first-time, first-year men who enrolled | 1:0
+0:total full-time, first-time, first-year women who enrolled | 1:535
+0:total part-time, first-time, first-year women who enrolled | 1:0
+0:total full-time, first-time, first-year of unknown sex who enrolled | 1:56
+0:total part-time, first-time, first-year of unknown sex who enrolled | 1:0
+1:total
+0:total first-time, first-year who applied | 1:29,281
+0:total first-time, first-year who were admitted | 1:1,334
+0:total first-time, first-year enrolled | 1:1,152
+0:first-time, first year student applicants | 1:in-state | 2:out-of-state | 3:international | 4:unknown | 5:total
+0:total first-time, first-year (degree-seeking) who applied
+0:total first-time, first-year (degree-seeking) who were admitted
+0:total first-time, first-year (degree-seeking) enrolled
+0:waiting list | 1:total
+0:number of qualified applicants offered a place on waiting list: | 1:561
+0:number accepting a place on the waiting list: | 1:468
+0:number of wait-listed students admitted: | 1:10
+0:___ | 2:high school diploma is required and ged is accepted
+0:___ | 2:high school diploma is required and ged is not accepted
+0:_ x _ | 2:high school diploma or equivalent is not required
+0:___ | 2:require
+0:_ x _ | 2:recommend
+0:___ | 2:neither require nor recommend
+1:units required | 2:units recommended
+0:total academic units
+0:english | 2:4
+0:mathematics | 2:4
+0:science | 2:4
+0:of these, units that must be lab
+0:foreign language | 2:2
+0:social studies | 2:2
+0:history
+0:academic electives
+0:computer science
+0:visual / performing arts
+0:other (specify)
+0:academic | 1:very important | 2:important | 3:considered | 4:not considered
+0:rigor of secondary school record | 2:x
+0:class rank | 3:x
+0:academic gpa | 2:x
+0:standardized test scores | 2:x
+0:application essay | 2:x
+0:recommendation(s) | 2:x
+0:nonacademic | 1:very important | 2:important | 3:considered | 4:not considered
+0:interview | 2:x
+0:extracurricular activities | 2:x
+0:talent/ability | 2:x
+0:character/personal qualities | 1:x
+0:first generation | 3:x
+0:alumni/ae relation | 4:x
+0:geographical residence | 3:x
+0:state residency | 4:x
+0:religious affiliation/commitment | 4:x
+0:volunteer work | 3:x
+0:work experience | 3:x
+0:level of applicant's interest | 4:x
+1:required to be considered for admission | 2:required for some | 3:recommended | 4:not required for admission, but considered if submitted | 5:not considered for admission, even if submitted
+0:sat or act | 1:x
+0:act only
+0:sat only
+0:sat | 1:___
+0:act | 1:___
+0:ap | 1:_ x _
+0:clep | 1:___
+0:institutional exam | 1:_ x _
+0:state exam (specify): | 1:_________
+1:percent | 2:number
+0:submitting sat scores | 1:83% | 2:951
+0:submitting act scores | 1:31% | 2:353
+0:assessment | 1:25th percentile score | 2:50th percentile score | 3:75th percentile score
+0:sat composite | 1:1520 | 2:1550 | 3:1570
+0:sat evidence-based reading and writing | 1:740 | 2:760 | 3:780
+0:sat math | 1:780 | 2:790 | 3:800
+0:act composite | 1:34 | 2:35 | 3:35
+0:act math | 1:34 | 2:35 | 3:36
+0:act english | 1:34 | 2:35 | 3:36
+0:act writing
+0:act science | 1:34 | 2:35 | 3:36
+0:act reading | 1:33 | 2:35 | 3:36
+1:sat evidence-based reading and writing | 2:sat math
+0:700-800 | 1:95.69% | 2:99.79%
+0:600-699 | 1:4.10% | 2:0.21%
+0:500-599 | 1:0.21% | 2:0.00%
+0:400-499 | 1:0.00% | 2:0.00%
+0:300-399 | 1:0.00% | 2:0.00%
+0:200-299 | 1:0.00% | 2:0.00%
+0:total | 1:100.00% | 2:100.00%
+0:score range | 1:sat composite
+0:1400-1600 | 1:99.16%
+0:1200-1399 | 1:0.84%
+0:1000-1199 | 1:0.00%
+0:800-999 | 1:0.00%
+0:600-799 | 1:0.00%
+0:400-599 | 1:0.00%
+1:100.00%
+1:act composite | 2:act english | 3:act math | 4:act reading | 5:act science
+0:30-36 | 1:98.30% | 2:96.60% | 3:98.87% | 4:96.32% | 5:95.18%
+0:24-29 | 1:1.70% | 2:3.40% | 3:1.13% | 4:3.40% | 5:4.25%
+0:18-23 | 1:0.00% | 2:0.00% | 3:0.00% | 4:0.28% | 5:0.57%
+0:12-17 | 1:0.00% | 2:0.00% | 3:0.00% | 4:0.00% | 5:0.00%
+0:6-11 | 1:0.00% | 2:0.00% | 3:0.00% | 4:0.00% | 5:0.00%
+0:below 6 | 1:0.00% | 2:0.00% | 3:0.00% | 4:0.00% | 5:0.00%
+1:100.00% | 2:100.00% | 3:100.00% | 4:100.00% | 5:100.00%
+0:assessment | 1:percent
+0:percent in top tenth of high school graduating class | 1:97%
+0:percent in top quarter of high school graduating class | 1:100%
+0:percent in top half of high school graduating class | 1:100%
+0:percent in bottom half of high school graduating class | 1:0%
+0:percent in bottom quarter of high school graduating class | 1:0%
+0:percent of total first-time, first-year students who submitted high school class rank: | 1:31%
+0:score range | 1:percent (students who submitted scores) | 2:percent (students who did not submit scores) | 3:percent (all enrolled students)
+0:percent who had gpa of 4.0 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa between 3.75 and 3.99 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa between 3.50 and 3.74 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa between 3.25 and 3.49 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa between 3.00 and 3.24 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa between 2.50 and 2.99 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa between 2.0 and 2.49 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa between 1.0 and 1.99 | 1:n/av | 2:n/av | 3:n/av
+0:percent who had gpa below 1.0 | 1:n/av | 2:n/av | 3:n/av
+1:%
+0:average high school gpa | 1:n/av
+1:%
+0:percent submitting gpa | 1:n/av
+1:applicants | 2:admitted applicants | 3:enrolled applicants
+0:men | 1:1,118 | 2:26 | 3:23
+0:women | 1:440 | 2:7 | 3:7
+0:unknown | 1:155 | 2:2 | 3:1
+0:total | 1:1,713 | 2:35 | 3:31
+1:required of all | 2:recommended of all | 3:recommended of some | 4:required of some | 5:not required
+0:high school transcript | 1:x
+0:college transcript(s) | 1:x
+0:essay or personal statement | 1:x
+0:interview | 5:x
+0:standardized test scores | 1:x
+0:statement of good standing from prior institution(s) | 1:x
+1:priority date | 2:closing date | 3:notification date | 4:reply date | 5:rolling admission
+0:fall | 1:n/a | 2:mar. 15 | 3:may 4 | 4:jun. 1
+0:winter
+0:spring | 1:n/a | 2:oct. 15 | 3:nov. 15 | 4:dec. 15
+0:summer
+2:yes | 4:no
+0:american council on education (ace) | 2:___ | 4:_ x _
+0:college level examination program (clep) | 2:___ | 4:_ x _
+0:dantes subject standardized tests (dsst) | 2:___ | 4:_ x _
+0:___ | 1:accelerated program | 3:___ | 4:honors program
+0:___ | 1:comprehensive transition and postsecondary program for students with intellectual disabilities | 3:___ | 4:independent study
+0:_ x _ | 1:cross-registration | 3:_ x _ | 4:internships
+0:___ | 1:distance learning | 3:___ | 4:liberal arts/career combination
+0:_ x _ | 1:double major | 3:___ | 4:student-designed major
+0:___ | 1:dual enrollment | 3:_ x _ | 4:study abroad
+0:_ x _ | 1:english as a second language (esl) | 3:_ x _ | 4:teacher certification program
+0:___ | 1:exchange student program (domestic) | 3:___ | 4:weekend college
+0:___ | 1:external degree program
+0:_ x _ | 1:other (specify): undergraduate research opportunities program (urop), independent activities period (iap), learning communities
+0:_ x _ | 1:arts/fine arts | 3:_ x _ | 4:humanities
+0:___ | 1:computer literacy | 3:_ x _ | 4:mathematics
+0:___ | 1:english (including composition) | 3:___ | 4:philosophy
+0:___ | 1:foreign languages | 3:_ x _ | 4:sciences (biological or physical)
+0:___ | 1:history | 3:_ x _ | 4:social science
+0:_ x _ | 1:other (describe): physical education requirement, communication requirement, laboratory requirement, restricted electives in science and technology (rest) requirement
+1:first-time, first-year students | 2:undergraduates
+0:percent who are from out of state (exclude international/nonresident aliens from the numerator and denominator) | 1:91 | 2:90
+0:percent of men who join fraternities | 1:48 | 2:42
+0:percent of women who join sororities | 1:33 | 2:26
+0:percent who live in college-owned, -operated, or -affiliated housing | 1:100 | 2:93
+0:percent who live off campus or commute | 1:0 | 2:7
+0:percent of students age 25 and older | 1:0 | 2:1
+0:average age of full-time students | 1:19 | 2:20
+0:average age of all students (full- and part-time) | 1:19 | 2:20
+0:_ x _ | 1:campus ministries | 3:_ x _ | 4:literary magazine | 6:_ x _ | 7:radio station
+0:_ x _ | 1:choral groups | 3:_ x _ | 4:marching band | 6:_ x _ | 7:student government
+0:_ x _ | 1:concert band | 3:_ x _ | 4:model un | 6:_ x _ | 7:student newspaper
+0:_ x _ | 1:dance | 3:_ x _ | 4:music ensembles | 6:_ x _ | 7:student-run film society
+0:_ x _ | 1:drama/theater | 3:_ x _ | 4:musical theater | 6:_ x _ | 7:symphony orchestra
+0:_ x _ | 1:international student organization | 3:___ | 4:opera | 6:_ x _ | 7:television station
+0:_ x _ | 1:jazz band | 3:___ | 4:pep band | 6:_ x _ | 7:yearbook
+0:army rotc is offered:
+0:_ x _ | 1:on campus
+0:___ | 1:at cooperating institution (name):
+0:naval rotc is offered:
+0:_ x _ | 1:marine option
+0:_ x _ | 1:on campus
+0:___ | 1:at cooperating institution (name):
+0:air force rotc is offered:
+0:_ x _ | 1:on campus
+0:___ | 1:at cooperating institution (name):
+0:_ x _ | 1:coed residence halls | 3:_ x _ | 4:fraternity/sorority housing
+0:___ | 1:men's residence halls | 3:_ x _ | 4:cooperative housing
+0:_ x _ | 1:women's residence dorms | 3:_ x _ | 4:theme housing
+0:_ x _ | 1:apartments for married students | 3:_ x _ | 4:wellness housing
+0:_ x _ | 1:apartments for single students | 3:_ x _ | 4:living learning communities
+0:_ x _ | 1:special housing for disabled students
+0:___ | 1:special housing for international students
+0:_ x _ | 1:other housing options (specify): independent living group housing and housing for students with children available.
+1:first-year | 2:undergraduates
+0:private institution tuition: | 1:$66,720 | 2:$66,720
+0:public institution tuition: in-district:
+0:in-state (out-of-district):
+0:out-of-state:
+0:nonresident aliens tuition:
+0:required fees: | 1:$420 | 2:$420
+0:food and housing (on-campus): | 1:$22,194 | 2:$22,194
+0:housing only: (on-campus) | 1:$14,090 | 2:$14,090
+0:food only: (on-campus meal plan) | 1:$8,104 | 2:$8,104
+1:residents | 2:commuters (living at home) | 3:commuters (not living at home)
+0:books and supplies: | 1:$930
+0:housing only: | 1:not applicable | 2:not applicable
+0:food only: | 1:not applicable
+0:food and housing total* | 1:not applicable | 2:not applicable
+0:transportation: | 1:varies
+0:other expenses: | 1:$2,496
+0:private institutions: | 1:$3,090
+0:public institutions:
+0:in-district:
+0:in-state (out-of-district):
+0:out-of-state:
+0:nonresident aliens: | 1:$3,090
+0:___ | 1:federal methodology (fm)
+0:_ x _ | 1:institutional methodology (im)
+0:___ | 1:both fm and im
+1:need-based (include non-need-based aid use to meet need.) | 2:non-need-based (exclude non-need-based aid use to meet need.)
+1:$ | 2:$
+0:scholarships/grants
+0:federal | 1:8,669,357
+0:state all states, not only the state in which your institution is located | 1:2,500
+0:institutional: endowed scholarships, annual gifts and tuition funded grants, awarded by the college, excluding athletic aid and tuition waivers (which are reported below). | 1:173,573,909
+0:scholarships/grants from external sources (e.g., kiwanis, national merit) not awarded by the college | 1:4,584,227 | 2:2,908,506
+0:total scholarships/grants | 1:186,829,993 | 2:2,908,506
+0:self-help
+0:student loans from all sources (excluding parent loans) | 1:549,560 | 2:2,727,251
+0:federal work-study | 1:784,522
+0:state and other (e.g., institutional) work-study/employment (note: exclude federal work-study captured above.) | 1:3,673,239 | 2:1,207,634
+0:total self-help | 1:5,007,321 | 2:3,934,885
+0:parent loans | 1:54,203 | 2:2,944,199
+0:tuition waivers note: reporting is optional. report tuition waivers in this row if you choose to report them. do not report tuition waivers elsewhere.
+0:athletic awards
+1:full-time first-year students | 2:full-time undergrad (incl. first-year) | 3:less than full-time undergrad
+0:a) number of degree-seeking undergraduate students (cds item b1 if reporting on fall 2025 cohort) | 1:1,155 | 2:4,561 | 3:59
+0:b) number of students in line a who applied for need-based financial aid | 1:921 | 2:3,083 | 3:40
+0:c) number of students in line b who were determined to have financial need | 1:700 | 2:2,626 | 3:30
+0:d) number of students in line c who were awarded any financial aid | 1:700 | 2:2,626 | 3:30
+0:e) number of students in line d who were awarded any need-based scholarship or grant aid | 1:696 | 2:2,604 | 3:30
+0:f) number of students in line d who were awarded any need-based self-help aid | 1:356 | 2:1,592 | 3:18
+0:g) number of students in line d who were awarded any non-need-based scholarship or grant aid | 1:15 | 2:42 | 3:0
+0:h) number of students in line d whose need was fully met (exclude plus loans, unsubsidized loans, and private alternative loans) | 1:700 | 2:2,626 | 3:30
+0:i) on average, the percentage of need that was met of students who were awarded any need-based aid. exclude any aid that was awarded in excess of need as well as any resources that were awarded to replace efc (plus loans, unsubsidized loans, and private alternative loans) | 1:100% | 2:100% | 3:97%
+0:j) the average financial aid package of those in line d . exclude any resources that were awarded to replace efc (plus loans, unsubsidized loans, and private alternative loans) | 1:$74,969 | 2:$72,593 | 3:$51,864
+0:k) average need-based scholarship or grant award of those in line e | 1:$73,398 | 2:$71,120 | 3:$50,494
+0:l) average need-based self-help award (excluding plus loans, unsubsidized loans, and private alternative loans) of those in line f | 1:$2,613 | 2:$2,984 | 3:$2,327
+0:m) average need-based loan (excluding plus loans, unsubsidized loans, and private alternative loans) of those in line f who were awarded a need-based loan | 1:$3,400 | 2:$3,200 | 3:na
+1:full-time first-year students | 2:full-time undergrad (incl. first-year.) | 3:less than full-time undergrad
+0:n) number of students in line a who had no financial need and who were awarded institutional non-need-based scholarship or grant aid (exclude those who were awarded athletic awards and tuition benefits) | 1:0 | 2:0 | 3:0
+0:o) average dollar amount of institutional non-need-based scholarship and grant aid awarded to students in line n | 1:n/app | 2:n/app | 3:n/app
+0:p) number of students in line a who were awarded an institutional non-need-based athletic scholarship or grant | 1:n/app | 2:n/app | 3:n/app
+0:q) average dollar amount of institutional non-need-based athletic scholarships and grants awarded to students in line p | 1:n/app | 2:n/app | 3:n/app
+0:source/type of loans | 1:number in the class (defined in h4 above) who borrowed from the types of loans specified in the first column | 2:percent of the class (defined above) who borrowed from the types of loans specified in the first column (nearest 1%) | 3:average per-undergraduate-borrower cumulative principal borrowed from the types of loans specified in the first column (nearest $1)
+0:a) any loan program: federal perkins, federal stafford subsidized and unsubsidized, institutional, state, private loans that your institution is aware of, etc. include both federal direct student loans and federal family education loans. | 1:142 | 2:13 | 3:41,297
+0:b) federal loan programs: federal perkins, federal stafford subsidized and unsubsidized. include both federal direct student loans and federal family education loans. | 1:116 | 2:10 | 3:15,221
+0:c) institutional loan programs. | 1:14 | 2:1 | 3:4,780
+0:d) state loan programs. | 1:0 | 2:0 | 3:0
+0:e) private student loans made by a bank or lender. | 1:44 | 2:4 | 3:91,626
+0:_ x _ | 1:institutional need-based scholarship or grant aid is available
+0:___ | 1:institutional non-need-based scholarship or grant aid is available
+0:___ | 1:institutional scholarship and grant aid is not available
+0:___ | 1:institution's own financial aid form
+0:_ x _ | 1:css profile
+0:_ x _ | 1:other: equivalent of parents' complete federal income tax returns (or wage statements) from two years ago. css business/farm supplement when requested by financial aid office.
+0:_ x _ | 1:fafsa
+0:___ | 1:institution's own financial aid form
+0:_ x _ | 1:css profile
+0:___ | 1:state aid form
+0:_ x _ | 1:noncustodial profile
+0:___ | 1:business/farm supplement
+0:_ x _ | 1:other: parents' complete federal income tax returns and w2s from two years ago. css business/farm supplement when requested by financial aid office.
+0:_ x _ | 1:federal direct subsidized stafford loans
+0:_ x _ | 1:federal direct unsubsidized stafford loans
+0:_ x _ | 1:federal direct plus loans
+0:___ | 1:federal nursing loans
+0:___ | 1:state loans
+0:_ x _ | 1:college/university loans from institutional funds
+0:_x_ | 1:other (specify): private loans
+0:_ x _ | 1:federal pell
+0:_ x _ | 1:federal seog
+0:_ x _ | 1:state scholarships/grants
+0:_ x _ | 1:private scholarships
+0:_ x _ | 1:college/university scholarship or grant aid from institutional funds
+0:_ x _ | 1:united negro college fund
+0:___ | 1:federal nursing scholarship
+0:___ | 1:other (specify): ___
+1:non-need based | 2:need-based
+0:academics | 1:__ | 2:__
+0:alumni affiliation | 1:__ | 2:__
+0:art | 1:__ | 2:__
+0:athletics | 1:__ | 2:__
+0:job skills | 1:__ | 2:__
+0:rotc | 1:__
+0:leadership | 1:__ | 2:__
+0:music/drama | 1:__ | 2:__
+0:religious affiliation | 1:__ | 2:__
+0:state/district residency | 1:__ | 2:__
+1:full-time | 2:part-time
+0:(a) instructional faculty in preclinical and clinical medicine, faculty who are not paid (e.g., those who donate their services or are in the military), or research-only faculty, post-doctoral fellows, or pre-doctoral fellows | 1:exclude | 2:include only if they teach one or more non-clinical credit courses
+0:(b) administrative officers with titles such as dean of students, librarian, registrar, coach, and the like, even though they may devote part of their time to classroom instruction and may have faculty status | 1:exclude | 2:include if they teach one or more non-clinical credit courses
+0:(c) other administrators/staff who teach one or more non-clinical credit courses even though they do not have faculty status | 1:exclude | 2:include
+0:(d) undergraduate or graduate students who assist in the instruction of courses, but have titles such as teaching assistant, teaching fellow, and the like | 1:exclude | 2:exclude
+0:(e) faculty on sabbatical or leave with pay | 1:include | 2:exclude
+0:(f) faculty on leave without pay | 1:exclude | 2:exclude
+0:(g) replacement faculty for faculty on sabbatical leave or leave with pay | 1:exclude | 2:include
+1:full-time | 2:part-time | 3:total
+0:a.) total number of instructional faculty | 1:1,362 | 2:324 | 3:1,686
+0:b.) total number who are members of minority groups | 1:305 | 2:67 | 3:372
+0:c.) total number who are women | 1:422 | 2:101 | 3:523
+0:d.) total number who are men | 1:940 | 2:223 | 3:1,163
+0:e.) total number who are nonresidents (international) | 1:87 | 2:11 | 3:98
+0:f.) total number with doctorate, or other terminal degree | 1:1,250 | 2:230 | 3:1,480
+0:g.) total number whose highest degree is a master's but not a terminal master's | 1:74 | 2:67 | 3:141
+0:h.) total number whose highest degree is a bachelor's | 1:31 | 2:20 | 3:51
+0:i .) total number whose highest degree is unknown or other (note: items f, g, h , and i must sum up to item a .) | 1:7 | 2:5 | 3:12
+0:j.) total number in stand-alone graduate/professional programs in which faculty teach virtually only graduate-level students | 1:4 | 2:1 | 3:5
+1:2-9 | 2:10-19 | 3:20-29 | 4:30-39 | 5:40-49 | 6:50-99 | 7:100+ | 8:total
+0:class sections | 1:509 | 2:287 | 3:137 | 4:53 | 5:43 | 6:92 | 7:41 | 8:1,162
+1:2-9 | 2:10-19 | 3:20-29 | 4:30-39 | 5:40-49 | 6:50-99 | 7:100+ | 8:total
+0:class subsections | 1:56 | 2:103 | 3:54 | 4:21 | 5:10 | 6:25 | 7:3 | 8:272
+0:category | 1:bachelor's % | 2:cip 2020 categories to include
+0:agriculture | 2:1
+0:natural resources and conservation | 2:3
+0:architecture | 1:2 | 2:4
+0:area, ethnic, and gender studies | 2:5
+0:communication/journalism | 1:0 | 2:9
+0:communication technologies | 2:10
+0:computer and information sciences | 1:33 | 2:11
+0:personal and culinary services | 2:12
+0:education | 2:13
+0:engineering | 1:24 | 2:14
+0:engineering technologies | 2:15
+0:foreign languages, literatures, and linguistics | 1:0 | 2:16
+0:family and consumer sciences | 2:19
+0:law/legal studies | 2:22
+0:english | 1:0 | 2:23
+0:liberal arts/general studies | 1:1 | 2:24
+0:library science | 2:25
+0:biological/life sciences | 1:4 | 2:26
+0:mathematics and statistics | 1:14 | 2:27
+0:military science and military technologies | 2:28 and 29
+0:interdisciplinary studies | 1:10 | 2:30
+0:parks and recreation | 2:31
+0:philosophy and religious studies | 1:0 | 2:38
+0:theology and religious vocations | 2:39
+0:physical sciences | 1:7 | 2:40
+0:science technologies | 2:41
+0:psychology | 2:42
+0:homeland security, law enforcement, firefighting, and protective services | 2:43
+0:public administration and social services | 2:44
+0:social sciences | 1:1 | 2:45
+0:construction trades | 2:46
+0:mechanic and repair technologies | 2:47
+0:precision production | 2:48
+0:transportation and materials moving | 2:49
+0:visual and performing arts | 1:1 | 2:50
+0:health professions and related programs | 2:51
+0:business/marketing | 1:3 | 2:52
+0:history | 2:54
+0:other
+0:total | 1:100%

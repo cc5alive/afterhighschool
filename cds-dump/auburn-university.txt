@@ -1,0 +1,135 @@
+https://ir.auburn.edu/common-data-set/2025/section-c.php
+html 200
+
+0:total first-time, first-year (freshman) men who applied | 1:23,647
+0:total first-time, first-year (freshman) women who applied | 1:35,474
+0:total first-time, first-year (freshman) men who were admitted | 1:11,568
+0:total first-time, first-year (freshman) women who were admitted | 1:16,156
+0:total full-time, first-time, first-year (freshman) men who enrolled | 1:2,834
+0:total part-time, first-time, first-year (freshman) men who enrolled | 1:4
+0:total full-time, first-time, first-year (freshman) women who enrolled | 1:3,268
+0:total part-time, first-time, first-year (freshman) women who enrolled | 1:6
+0:total first-time, first-year (degree-seeking) who applied | 1:59,121
+0:total first-time, first-year (degree-seeking) who were admitted | 1:27,724
+0:total first-time, first-year (degree-seeking) who enrolled | 1:6,112
+0:high school diploma is required and ged is accepted | 1:yes
+0:high school diploma is required and ged is not accepted | 1:no
+0:high school diploma or equivalent is not required | 1:no
+0:required | 1:yes
+0:recommended | 1:no
+0:neither required or recommended | 1:no
+0:academic units | 1:units required | 2:units recommended
+0:total academic units | 1:12 | 2:15
+0:english | 1:4
+0:mathematics | 1:3
+0:science | 1:2 | 2:3
+0:of these, units that must be lab | 1:1 | 2:2
+0:foreign language | 2:1
+0:social studies | 1:3 | 2:4
+0:history
+0:academic electives
+0:computer science
+0:visual/performing arts
+0:other (specify)
+0:academic | 1:very important | 2:important | 3:considered | 4:not considered
+0:rigor of secondary school record | 1:no | 2:yes | 3:no | 4:no
+0:class rank | 1:no | 2:no | 3:no | 4:yes
+0:academic gpa | 1:yes | 2:no | 3:no | 4:no
+0:standardized test scores | 1:yes | 2:no | 3:no | 4:no
+0:application essay | 1:yes | 2:no | 3:no | 4:no
+0:recommendation(s) | 1:no | 2:no | 3:yes | 4:no
+0:nonacademic | 1:very important | 2:important | 3:considered | 4:not considered
+0:interview | 1:no | 2:no | 3:no | 4:yes
+0:extracurricular activities | 1:no | 2:yes | 3:no | 4:no
+0:talent/ability | 1:no | 2:yes | 3:no | 4:no
+0:character/personal qualities | 1:no | 2:yes | 3:no | 4:no
+0:first generation | 1:no | 2:yes | 3:no | 4:no
+0:alumni/ae relation | 1:no | 2:yes | 3:no | 4:no
+0:geographical residence | 1:no | 2:yes | 3:no | 4:no
+0:state residency | 1:no | 2:yes | 3:no | 4:no
+0:religious affiliation/commitment | 1:no | 2:no | 3:no | 4:yes
+0:racial/ethnic status | 1:no | 2:no | 3:no | 4:yes
+0:volunteer work | 1:no | 2:yes | 3:no | 4:no
+0:work experience | 1:no | 2:yes | 3:no | 4:no
+0:level of applicant's interest | 1:no | 2:yes | 3:no | 4:no
+0:test | 1:require | 2:recommended | 3:require for some | 4:consider if submitted | 5:not used
+0:sat or act | 1:no | 2:no | 3:no | 4:yes | 5:no
+0:act only | 1:no | 2:no | 3:no | 4:no | 5:no
+0:sat only | 1:no | 2:no | 3:no | 4:no | 5:no
+0:sat and sat subject tests or act | 1:no | 2:no | 3:no | 4:no | 5:no
+0:sat subject tests only | 1:no | 2:no | 3:no | 4:no | 5:no
+0:act with writing component required | 1:no
+0:act without writing component accepted | 1:no
+0:act with or without writing component accepted | 1:yes
+0:sat with writing component required | 1:no
+0:sat without writing component accepted | 1:no
+0:sat with or without writing component accepted | 1:yes
+1:sat essay | 2:act essay
+0:for admission | 1:no | 2:no
+0:for placement | 1:no | 2:no
+0:for advising | 1:no | 2:no
+0:in place of application essay | 1:no | 2:no
+0:as a validity check on the application essay | 1:no | 2:no
+0:no college policy as of now | 1:no | 2:no
+0:not using essay component | 1:yes | 2:yes
+0:sat | 1:no
+0:act | 1:no
+0:sat subject tests | 1:no
+0:ap | 1:no
+0:clep | 1:no
+0:institutional exam | 1:no
+0:state exam (specify): | 1:no
+1:percent | 2:number
+0:submitting sat scores | 1:19% | 2:1,133
+0:submitting act scores | 1:72% | 2:4,431
+1:25th percentile | 2:75th percentile
+0:sat composite | 1:1280 | 2:1370
+0:sat evidence-based reading and writing | 1:630 | 2:700
+0:sat math | 1:620 | 2:700
+0:act composite | 1:26 | 2:31
+0:act math | 1:24 | 2:30
+0:act english | 1:25 | 2:33
+0:act writing | 1:6 | 2:7
+0:score range | 1:sat composite
+0:1400-1600 | 1:18.76%
+0:1200-1399 | 1:74.78%
+0:1000-1199 | 1:6.02%
+0:800-999 | 1:0.44%
+0:600-799 | 1:0.00%
+0:400-599 | 1:0.00%
+0:totals should be = 100% | 1:100.00%
+0:score range | 1:sat evidence-based reading and writing | 2:sat math
+0:700-800 | 1:20.53% | 2:25.75%
+0:600-699 | 1:69.47% | 2:61.95%
+0:500-599 | 1:9.38% | 2:11.42%
+0:400-499 | 1:0.62% | 2:0.88%
+0:300-399 | 1:0.00% | 2:0.00%
+0:200-299 | 1:0.00% | 2:0.00%
+0:totals should be = 100% | 1:100.00% | 2:100.00%
+0:score range | 1:act composite | 2:act english | 3:act math
+0:30-36 | 1:44.48% | 2:47.15% | 3:25.12%
+0:24-29 | 1:42.04% | 2:37.26% | 3:51.03%
+0:18-23 | 1:12.64% | 2:13.99% | 3:20.04%
+0:12-17 | 1:0.84% | 2:1.53% | 3:3.81%
+0:6-11 | 1:0.00% | 2:0.07% | 3:0.00%
+0:below 6 | 1:0.00% | 2:0.00% | 3:0.00%
+0:totals should be = 100% | 1:100.00% | 2:100.00% | 3:100.00%
+0:percent in top tenth of high school graduating class | 1:35%
+0:percent in top quarter of high school graduating class | 1:65%
+0:percent in top half of high school graduating class | 1:93%
+0:percent in bottom half of high school graduating class | 1:7%
+0:percent in bottom quarter of high school graduating class | 1:1%
+0:percent of total first-time, first-year (freshmen) students who submitted high school class rank: | 1:34%
+0:percent who had gpa of 4.0 | 1:64.02%
+0:percent who had gpa between 3.75 and 3.99 | 1:20.25%
+0:percent who had gpa between 3.50 and 3.74 | 1:10.38%
+0:percent who had gpa between 3.25 and 3.49 | 1:3.80%
+0:percent who had gpa between 3.00 and 3.24 | 1:1.19%
+0:percent who had gpa between 2.50 and 2.99 | 1:0.29%
+0:percent who had gpa between 2.0 and 2.49 | 1:0.05%
+0:percent who had gpa between 1.0 and 1.99 | 1:0.02%
+0:percent who had gpa below 1.0 | 1:0.00%
+0:totals should be = 100% | 1:100.00%
+0:same fee | 1:yes
+0:free | 1:no
+0:reduced | 1:no
