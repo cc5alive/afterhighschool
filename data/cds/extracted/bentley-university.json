@@ -1,69 +1,71 @@
 {
   "slug": "bentley-university",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set 2023-2024",
-    "url": "https://bentleydownloads.s3.amazonaws.com/general/2023-24+Common+Data+Set+(1).pdf"
+    "title": "Common Data Set 2024-2025",
+    "url": "https://bentleydownloads.s3.amazonaws.com/general/cds2024-2025.pdf"
   },
-  "sourceUrl": "https://bentleydownloads.s3.amazonaws.com/general/2023-24+Common+Data+Set+(1).pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://bentleydownloads.s3.amazonaws.com/general/cds2024-2025.pdf",
+  "researchedAt": "2026-11-15",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 11012,
+      "quote": "total first-time, first-year who applied 11012 3752 4970 1949 341"
+    },
+    "admitted_total": {
+      "value": 4961,
+      "quote": "total first-time, first-year who were admitted 4961 1744 2352 695 170"
+    },
+    "enrolled_total": {
+      "value": 1056,
+      "quote": "total first-time, first-year who enrolled 1056 411 461 160 24"
+    },
     "waitlist_admitted": {
-      "value": 3,
-      "quote": "number of wait-listed students admitted: 3"
+      "value": 225,
+      "quote": "number of wait-listed students admitted: 225"
     },
     "rank_top10_pct": {
-      "value": 35,
-      "quote": "percent in top tenth of high school graduating class 35%"
+      "value": 34,
+      "quote": "percent in top tenth of high school graduating class 34%"
     },
     "rank_top25_pct": {
       "value": 66,
       "quote": "percent in top quarter of high school graduating class 66%"
     },
     "ed_applied": {
-      "value": 523,
-      "quote": "number of early decision applications received by your institution 523"
+      "value": 637,
+      "quote": "number of early decision applications received by your institution 637"
     },
     "ed_admitted": {
-      "value": 350,
-      "quote": "number of applicants admitted under early decision plan 350"
-    },
-    "applied_total": {
-      "value": 20964,
-      "quote": "total first-time, first-year men who applied 6213 / total first-time, first-year women who applied 4268 / total first-time, first-year another gender who applied 1 / total first-time, first-year men who applied 2108 2826 1075 204 6213 / total first-time, first-year women who applied 1274 2119 746 129 4268 / total first-time, first-year another gender who applied 0 1 0 0 1",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 5077,
-      "quote": "total first-time, first-year men who were admitted 2856 / total first-time, first-year women who were admitted 2221 / total first-time, first-year another gender who were admitted 0",
-      "how": "sum of gender rows"
+      "value": 389,
+      "quote": "number of applicants admitted under early decision plan 389"
     },
     "sat_p25": {
-      "value": 1270,
-      "quote": "sat composite 1270 1330 1390"
+      "value": 1290,
+      "quote": "sat composite 1290 1340 1403"
     },
     "sat_p50": {
-      "value": 1330,
-      "quote": "sat composite 1270 1330 1390"
+      "value": 1340,
+      "quote": "sat composite 1290 1340 1403"
     },
     "sat_p75": {
-      "value": 1390,
-      "quote": "sat composite 1270 1330 1390"
+      "value": 1403,
+      "quote": "sat composite 1290 1340 1403"
     },
     "act_p25": {
-      "value": 29,
-      "quote": "act composite 29 31 32"
+      "value": 28,
+      "quote": "act composite 28 30 31"
     },
     "act_p50": {
-      "value": 31,
-      "quote": "act composite 29 31 32"
+      "value": 30,
+      "quote": "act composite 28 30 31"
     },
     "act_p75": {
-      "value": 32,
-      "quote": "act composite 29 31 32"
+      "value": 31,
+      "quote": "act composite 28 30 31"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -138,16 +140,16 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 404,
-      "quote": "D2 total 404 191 65"
+      "value": 537,
+      "quote": "D2 total 537 235 96"
     },
     "transfer_admitted": {
-      "value": 191,
-      "quote": "D2 total 404 191 65"
+      "value": 235,
+      "quote": "D2 total 537 235 96"
     },
     "transfer_enrolled": {
-      "value": 65,
-      "quote": "D2 total 404 191 65"
+      "value": 96,
+      "quote": "D2 total 537 235 96"
     },
     "ed_offered": {
       "value": "yes",

@@ -1,103 +1,129 @@
 {
   "slug": "college-of-charleston",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://charleston.edu/institutional-research/files/documents/common-data/cds2024_2025.pdf"
+    "title": "Common Data Set 2025-26 College of Charleston",
+    "url": "https://charleston.edu/institutional-research/files/documents/common-data/freshmen-admission.pdf"
   },
-  "sourceUrl": "https://charleston.edu/institutional-research/files/documents/common-data/cds2024_2025.pdf",
-  "researchedAt": "2026-11-09",
+  "sourceUrl": "https://charleston.edu/institutional-research/files/documents/common-data/freshmen-admission.pdf",
+  "mirror": "data/cds/mirror/college-of-charleston.rows.json",
+  "mirrorHash": "330f0ef2b15b",
+  "researchedAt": "2026-11-15",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
-  "docKind": "pdf",
+  "docKind": "ocr",
   "values": {
     "applied_total": {
-      "value": 31680,
-      "quote": "total first-time, first-year who applied 31680 7459 23951 270"
+      "value": 32326,
+      "quote": "c1 total first-time, first-year (degree-seeking) who applied 32,326"
     },
     "admitted_total": {
-      "value": 19016,
-      "quote": "total first-time, first-year who were admitted 19016 5515 13354 147"
+      "value": 23597,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 23,597"
     },
     "enrolled_total": {
-      "value": 2265,
-      "quote": "total first-time, first-year who enrolled 2265 963 1278 24"
+      "value": 2313,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2,313"
+    },
+    "waitlist_offered": {
+      "value": 2819,
+      "quote": "number of qualified applicants offered a place on wait list 2,819"
+    },
+    "waitlist_accepted": {
+      "value": 972,
+      "quote": "number accepting a place on the wait list 972"
     },
     "waitlist_admitted": {
-      "value": 491,
-      "quote": "number of wait-listed students admitted: 491"
+      "value": 521,
+      "quote": "number of wait-listed students admitted 521"
+    },
+    "sat_submit_pct": {
+      "value": 19,
+      "quote": "percent submitting sat scores 19%"
+    },
+    "act_submit_pct": {
+      "value": 9,
+      "quote": "percent submitting act scores 9%"
     },
     "rank_top10_pct": {
-      "value": 18,
-      "quote": "percent in top tenth of high school graduating class 18%"
+      "value": 15,
+      "quote": "percent in top tenth of high school graduating class 15%"
     },
     "rank_top25_pct": {
-      "value": 44,
-      "quote": "percent in top quarter of high school graduating class 44%"
+      "value": 43,
+      "quote": "percent in top quarter of high school graduating class 43%"
+    },
+    "rank_submit_pct": {
+      "value": 53.3,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank 53.3%"
     },
     "gpa_400_pct": {
-      "value": 48.2,
-      "quote": "percent who had gpa of 4.0 64.1% 41.8% 48.2%"
+      "value": 44.77,
+      "quote": "percent who had gpa of 4.0 44.77%"
     },
     "gpa_375_pct": {
-      "value": 19.3,
-      "quote": "percent who had gpa between 3.75 and 3.99 18.0% 19.8% 19.3%"
+      "value": 17.17,
+      "quote": "percent who had gpa between 3.75 and 3.99 17.17%"
     },
     "gpa_350_pct": {
-      "value": 15.9,
-      "quote": "percent who had gpa between 3.50 and 3.74 9.6% 18.5% 15.9%"
+      "value": 16.91,
+      "quote": "percent who had gpa between 3.50 and 3.74 16.91%"
     },
     "gpa_325_pct": {
-      "value": 9,
-      "quote": "percent who had gpa between 3.25 and 3.49 5.0% 10.7% 9.0%"
+      "value": 11.07,
+      "quote": "percent who had gpa between 3.25 and 3.49 11.07%"
     },
     "gpa_300_pct": {
-      "value": 4.6,
-      "quote": "percent who had gpa between 3.00 and 3.24 1.6% 5.9% 4.6%"
+      "value": 6.96,
+      "quote": "percent who had gpa between 3.00 and 3.24 6.96%"
     },
     "gpa_250_pct": {
-      "value": 2.8,
-      "quote": "percent who had gpa between 2.50 and 2.99 1.6% 3.3% 2.8%"
+      "value": 3.03,
+      "quote": "percent who had gpa between 2.50 and 2.99 3.03%"
     },
     "gpa_200_pct": {
-      "value": 0.1,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.2% 0.1% 0.1%"
+      "value": 0.09,
+      "quote": "percent who had gpa between 2.0 and 2.49 0.09%"
     },
     "gpa_average": {
-      "value": 4,
-      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 4.00"
+      "value": 3.96,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa 3.96"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa 100.00%"
     },
     "ed_applied": {
-      "value": 752,
-      "quote": "number of early decision applications received by your institution 752"
+      "value": 428,
+      "quote": "number of early decision applications received by your institution 428"
     },
     "ed_admitted": {
-      "value": 402,
-      "quote": "number of applicants admitted under early decision plan 402"
+      "value": 308,
+      "quote": "number of applicants admitted under early decision plan 308"
     },
     "sat_p25": {
-      "value": 1150,
-      "quote": "sat composite 1150 1220 1300"
+      "value": 1160,
+      "quote": "sat composite 1160 1220 1300"
     },
     "sat_p50": {
       "value": 1220,
-      "quote": "sat composite 1150 1220 1300"
+      "quote": "sat composite 1160 1220 1300"
     },
     "sat_p75": {
       "value": 1300,
-      "quote": "sat composite 1150 1220 1300"
+      "quote": "sat composite 1160 1220 1300"
     },
     "act_p25": {
-      "value": 25,
-      "quote": "act composite 25 27 30"
+      "value": 23,
+      "quote": "act composite 23 27 29"
     },
     "act_p50": {
       "value": 27,
-      "quote": "act composite 25 27 30"
+      "quote": "act composite 23 27 29"
     },
     "act_p75": {
-      "value": 30,
-      "quote": "act composite 25 27 30"
+      "value": 29,
+      "quote": "act composite 23 27 29"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -172,16 +198,16 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 1707,
-      "quote": "D2 total 1,707 1,588 634"
+      "value": 1688,
+      "quote": "D2 total 1,688 1,554 596"
     },
     "transfer_admitted": {
-      "value": 1588,
-      "quote": "D2 total 1,707 1,588 634"
+      "value": 1554,
+      "quote": "D2 total 1,688 1,554 596"
     },
     "transfer_enrolled": {
-      "value": 634,
-      "quote": "D2 total 1,707 1,588 634"
+      "value": 596,
+      "quote": "D2 total 1,688 1,554 596"
     },
     "ed_offered": {
       "value": "yes",

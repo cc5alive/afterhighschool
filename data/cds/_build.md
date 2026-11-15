@@ -1,6 +1,6 @@
 # CDS build
 
-Built 2026-11-13.
+Built 2026-11-15.
 
 | School | Year | Values published | Notes |
 | --- | --- | --- | --- |
@@ -15,7 +15,7 @@ Built 2026-11-13.
 | baylor-university | 2025-2026 | 42 |  |
 | belmont-university | 2025-2026 | 34 | deferral_allowed: reader no, Gemini yes (quote matched) |
 | bennington-college | 2025-2026 | 29 |  |
-| bentley-university | 2023-2024 | 38 | C1 failed consistency (applied 20964, admitted 5077, enrolled undefined, federal admit rate 0.4505) |
+| bentley-university | 2024-2025 | 36 | reader and Gemini read different documents (2024 vs 2023); used the reader one |
 | binghamton-university | - | 50 |  |
 | boise-state-university | 2025-2026 | 6 |  |
 | boston-college | 2024-2025 | 35 | applied_total: reader 34779, Gemini 39686 (quote matched); enrolled_total: reader 2394, Gemini 2479 (quote matched); sat_p25: reader 1460, Gemini 1440 (quote matched) |
@@ -54,12 +54,12 @@ Built 2026-11-13.
 | clemson-university | 2025-2026 | 48 |  |
 | coastal-carolina-university | 2025-2026 | 48 |  |
 | colgate-university | 2025-2026 | 50 |  |
-| college-of-charleston | 2024-2025 | 49 |  |
+| college-of-charleston | 2025-2026 | 47 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C1 failed consistency (applied 32326, admitted 23597, enrolled 2313, federal admit rate 0.6003) |
 | college-of-the-holy-cross | 2023-2024 | 19 |  |
 | colorado-college | 2025-2026 | 54 |  |
 | colorado-state-university-fort-collins | 2025-2026 | 32 | C1 failed consistency (applied undefined, admitted undefined, enrolled 5376, federal admit rate 0.8854) |
 | columbia-college-chicago | 2025-2026 | 22 | C1 failed consistency (applied 10839, admitted 7999, enrolled 632, federal admit rate 0.8946) |
-| columbia-university-in-the-city-of-new-york | 2024-2025 | 39 | C11 buckets sum to 100.0 |
+| columbia-university-in-the-city-of-new-york | 2025-2026 | 44 | reader and Gemini read different documents (2025 vs 2024); used the reader one; gpa_below1_pct read as the "totals = 100%" note |
 | columbus-state-university | 2024-2025 | 42 |  |
 | commonwealth-university-of-pennsylvania | 2025-2026 | 25 |  |
 | connecticut-college | 2025-2026 | 34 | SAT 1160-1370 far from federal 1350-1500; ACT 26-32 far from federal 30-33 |
@@ -71,7 +71,7 @@ Built 2026-11-13.
 | dartmouth-college | 2025-2026 | 40 |  |
 | davidson-college | - | 42 | class rank inconsistent |
 | denison-university | 2025-2026 | 15 | sat_p50: reader 1360, Gemini 1400 (quote matched); act_p25: reads disagree (28 vs 30), left out; act scores inconsistent (undefined, 31, 33) |
-| depaul-university | 2024-2025 | 44 | waitlist_admitted: reads disagree (228 vs 0), left out |
+| depaul-university | 2025-2026 | 43 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | dickinson-college | 2025-2026 | 43 |  |
 | drexel-university | 2025-2026 | 19 |  |
 | duke-university | 2025-2026 | 34 |  |
@@ -272,7 +272,7 @@ Built 2026-11-13.
 | university-of-illinois-chicago | 2025-2026 | 43 | SAT 1030-1300 far from federal 1130-1350 |
 | university-of-illinois-urbana-champaign | 2025-2026 | 40 | C11 buckets sum to 18.0 |
 | university-of-iowa | 2025-2026 | 39 |  |
-| university-of-kansas | 2024-2025 | 22 | reader and Gemini read different documents (2025 vs 2024); used the reader one; newer document gave too few values; used the other; C1 failed consistency (applied 22363, admitted undefined, enrolled undefined, federal admit rate 0.9348) |
+| university-of-kansas | 2025-2026 | 38 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-kentucky | 2025-2026 | 33 |  |
 | university-of-louisiana-at-lafayette | 2023-2024 | 39 | SAT 990-1210 far from federal 1120-1240; ACT 19-25 far from federal 23-28 |
 | university-of-louisville | 2024-2025 | 38 |  |

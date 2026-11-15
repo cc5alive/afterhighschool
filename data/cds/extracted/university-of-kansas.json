@@ -2,70 +2,168 @@
   "slug": "university-of-kansas",
   "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2025-2026",
+    "title": "Common Data Set 2025-2026, Section C: First-time Freshman Admissions",
     "url": "https://aire.ku.edu/sites/aire/files/files/CDS/2025-2026/C.pdf"
   },
   "sourceUrl": "https://aire.ku.edu/sites/aire/files/files/CDS/2025-2026/C.pdf",
-  "researchedAt": "2026-11-06",
+  "mirror": "data/cds/mirror/university-of-kansas.rows.json",
+  "mirrorHash": "30dda0ea997c",
+  "researchedAt": "2026-11-15",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
-  "docKind": "pdf",
+  "docKind": "ocr",
   "values": {
-    "sat_submit_pct": {
-      "value": 7,
-      "quote": "percent submitting sat scores: 7 . 1 %_ number submitting sat scores: _ 358"
+    "applied_total": {
+      "value": 22187,
+      "quote": "c1 total first-time, first-year (degree-seeking) who applied 22,187"
     },
-    "act_submit_pct": {
-      "value": 5,
-      "quote": "percent submitting act scores: 5 0 . 7 % number submitting act scores : 2 , 55 6"
+    "admitted_total": {
+      "value": 20541,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 20,541"
+    },
+    "enrolled_total": {
+      "value": 5040,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 5,040"
+    },
+    "sat_submit_pct": {
+      "value": 7.1,
+      "quote": "percent submitting sat scores 7.1%"
     },
     "rank_top10_pct": {
       "value": 26,
-      "quote": "percent in top tenth of high school graduating class : 26 %"
+      "quote": "percent in top tenth of high school graduating class 26%"
     },
     "rank_top25_pct": {
-      "value": 5,
-      "quote": "percent in top quarter of high school graduating class: 5 3 %"
+      "value": 53,
+      "quote": "percent in top quarter of high school graduating class 53%"
+    },
+    "rank_submit_pct": {
+      "value": 53,
+      "quote": "percent of total first-time, first-year students who submitted high school class rank 53%"
     },
     "gpa_400_pct": {
-      "value": 3,
-      "quote": "percent who had gpa of 4.00 3 8 %"
+      "value": 38,
+      "quote": "percent who had gpa of 4.0 38%"
     },
     "gpa_375_pct": {
-      "value": 2,
-      "quote": "percent who had gpa between 3.75 and 3.99 2 1 %"
+      "value": 21,
+      "quote": "percent who had gpa between 3.75 and 3.99 21%"
+    },
+    "gpa_350_pct": {
+      "value": 17,
+      "quote": "percent who had gpa between 3.50 and 3.74 17%"
     },
     "gpa_325_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 3.25 and 3.49 1 2 %"
+      "value": 12,
+      "quote": "percent who had gpa between 3.25 and 3.49 12%"
     },
     "gpa_300_pct": {
       "value": 7,
-      "quote": "percent who had gpa between 3.00 and 3.24 7 %"
+      "quote": "percent who had gpa between 3.00 and 3.24 7%"
     },
     "gpa_250_pct": {
       "value": 4,
-      "quote": "percent who had gpa between 2.50 and 2.99 4 %"
+      "quote": "percent who had gpa between 2.50 and 2.99 4%"
+    },
+    "gpa_200_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 2.0 and 2.49 1%"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0%"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.00 0%"
+      "quote": "percent who had gpa below 1.0 0%"
     },
-    "ed_admitted": {
-      "value": 24,
-      "quote": "number of applicants admitted under early decision plan in fall 20 24 : ______"
+    "gpa_average": {
+      "value": 3.71,
+      "quote": "average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa 3.71"
     },
-    "act_p25": {
-      "value": 2,
-      "quote": "act composite 2 0 2 4 2 8 2 4 . 1"
+    "gpa_submit_pct": {
+      "value": 98,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa 98%"
     },
-    "act_p50": {
-      "value": 2,
-      "quote": "act composite 2 0 2 4 2 8 2 4 . 1"
+    "factor_rigor": {
+      "value": "Not Considered",
+      "quote": "Rigor of secondary school record"
     },
-    "act_p75": {
-      "value": 4,
-      "quote": "act composite 2 0 2 4 2 8 2 4 . 1"
+    "factor_class_rank": {
+      "value": "Not Considered",
+      "quote": "Class rank"
+    },
+    "factor_gpa": {
+      "value": "Very Important",
+      "quote": "Academic GPA"
+    },
+    "factor_test_scores": {
+      "value": "Considered",
+      "quote": "Standardized test scores"
+    },
+    "factor_essay": {
+      "value": "Not Considered",
+      "quote": "Application Essay"
+    },
+    "factor_recommendations": {
+      "value": "Not Considered",
+      "quote": "Recommendation(s)"
+    },
+    "factor_interview": {
+      "value": "Not Considered",
+      "quote": "Interview"
+    },
+    "factor_extracurriculars": {
+      "value": "Not Considered",
+      "quote": "Extracurricular activities"
+    },
+    "factor_talent": {
+      "value": "Not Considered",
+      "quote": "Talent/ability"
+    },
+    "factor_character": {
+      "value": "Not Considered",
+      "quote": "Character/personal qualities"
+    },
+    "factor_first_generation": {
+      "value": "Not Considered",
+      "quote": "First generation"
+    },
+    "factor_alumni": {
+      "value": "Not Considered",
+      "quote": "Alumni/ae relation"
+    },
+    "factor_geography": {
+      "value": "Not Considered",
+      "quote": "Geographical residence"
+    },
+    "factor_state_residency": {
+      "value": "Not Considered",
+      "quote": "State residency"
+    },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
+    "factor_volunteer": {
+      "value": "Not Considered",
+      "quote": "Volunteer work"
+    },
+    "factor_work": {
+      "value": "Not Considered",
+      "quote": "Work experience"
+    },
+    "factor_interest": {
+      "value": "Not Considered",
+      "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 c18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "deferral_max": {
+      "value": "One year",
+      "quote": "C18 maximum period of postponement: One year"
     }
   },
   "concerns": null

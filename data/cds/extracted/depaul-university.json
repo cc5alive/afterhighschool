@@ -1,110 +1,110 @@
 {
   "slug": "depaul-university",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set 2024-2025",
-    "url": "https://irma.depaul.edu/cds/2024/2024CDS_C.pdf"
+    "title": "Common Data Set 2025-2026, Section C: First-Time, First-Year Admission",
+    "url": "https://irma.depaul.edu/cds/2025/2025CDS_C.pdf"
   },
-  "sourceUrl": "https://irma.depaul.edu/cds/2024/2024CDS_C.pdf",
-  "researchedAt": "2026-11-07",
+  "sourceUrl": "https://irma.depaul.edu/cds/2025/2025CDS_C.pdf",
+  "researchedAt": "2026-11-15",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
-      "value": 228,
-      "quote": "number of wait-listed students admitted: 228"
+      "value": 148,
+      "quote": "number of wait-listed students admitted: 148"
     },
     "rank_top10_pct": {
-      "value": 23.17,
-      "quote": "percent in top tenth of high school graduating class 23.17"
+      "value": 22,
+      "quote": "percent in top tenth of high school graduating class 22"
     },
     "rank_top25_pct": {
-      "value": 55.31,
-      "quote": "percent in top quarter of high school graduating class 55.31"
+      "value": 51,
+      "quote": "percent in top quarter of high school graduating class 51"
     },
     "gpa_400_pct": {
-      "value": 36.2,
-      "quote": "percent who had gpa of 4.0 42.86 28.55 36.2"
+      "value": 36.34,
+      "quote": "percent who had gpa of 4.0 43.08 28.44 36.34"
     },
     "gpa_375_pct": {
-      "value": 20.39,
-      "quote": "percent who had gpa between 3.75 and 3.99 20.39 20.39 20.39"
+      "value": 18.66,
+      "quote": "percent who had gpa between 3.75 and 3.99 18.27 19.13 18.66"
     },
     "gpa_350_pct": {
-      "value": 15.06,
-      "quote": "percent who had gpa between 3.50 and 3.74 12.65 17.82 15.06"
+      "value": 16.54,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.11 18.22 16.54"
     },
     "gpa_325_pct": {
-      "value": 11.02,
-      "quote": "percent who had gpa between 3.25 and 3.49 8.73 13.65 11.02"
+      "value": 11.23,
+      "quote": "percent who had gpa between 3.25 and 3.49 8.78 14.10 11.23"
     },
     "gpa_300_pct": {
-      "value": 8.21,
-      "quote": "percent who had gpa between 3.00 and 3.24 7.49 9.04 8.21"
+      "value": 7.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 6.18 8.16 7.10"
     },
     "gpa_250_pct": {
-      "value": 8.13,
-      "quote": "percent who had gpa between 2.50 and 2.99 7.26 9.13 8.13"
+      "value": 8.31,
+      "quote": "percent who had gpa between 2.50 and 2.99 7.45 9.32 8.31"
     },
     "gpa_200_pct": {
-      "value": 0.95,
-      "quote": "percent who had gpa between 2.0 and 2.49 0.54 1.42 0.95"
+      "value": 1.78,
+      "quote": "percent who had gpa between 2.0 and 2.49 1.13 2.55 1.78"
     },
     "gpa_100_pct": {
       "value": 0.04,
-      "quote": "percent who had gpa between 1.0 and 1.99 0.08 0 0.04"
+      "quote": "percent who had gpa between 1.0 and 1.99 0 0.08 0.04"
     },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0 0 0"
     },
     "gpa_average": {
-      "value": 3.78,
-      "quote": "average high school gpa 3.78"
+      "value": 3.77,
+      "quote": "average high school gpa 3.77"
     },
     "gpa_submit_pct": {
       "value": 94,
       "quote": "percent submitting gpa 94"
     },
     "applied_total": {
-      "value": 31266,
-      "quote": "total first-time, first-year men who applied 12658 / total first-time, first-year women who applied 18608 / total first-time, first-year of another gender who applied / total first-time, first-year of unknown gender who applied",
+      "value": 27462,
+      "quote": "total first-time, first-year men who applied 10722 / total first-time, first-year women who applied 16740 / total first-time, first-year unknown sex who applied",
       "how": "sum of gender rows"
     },
     "admitted_total": {
-      "value": 23729,
-      "quote": "total first-time, first-year men who were admitted 9290 / total first-time, first-year women who were admitted 14439 / total first-time, first-year of another gender who were admitted / total first-time, first-year of unknown gender who were admitted",
+      "value": 24111,
+      "quote": "total first-time, first-year men who were admitted 9415 / total first-time, first-year women who were admitted 14696 / total first-time, first-year unknown sex who were admitted",
       "how": "sum of gender rows"
     },
     "enrolled_total": {
-      "value": 2566,
-      "quote": "total first-time, first-year men who enrolled 1123 / total first-time, first-year women who enrolled 1443 / total first-time, first-year of another gender who enrolled / total first-time, first-year of unknown gender who enrolled",
+      "value": 2798,
+      "quote": "total first-time, first-year men who enrolled 1171 / total first-time, first-year women who enrolled 1627 / total first-time, first-year unknown sex who enrolled",
       "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 1090,
-      "quote": "sat composite 1090 1200 1300"
+      "value": 1150,
+      "quote": "sat composite 1150 1235 1330"
     },
     "sat_p50": {
-      "value": 1200,
-      "quote": "sat composite 1090 1200 1300"
+      "value": 1235,
+      "quote": "sat composite 1150 1235 1330"
     },
     "sat_p75": {
-      "value": 1300,
-      "quote": "sat composite 1090 1200 1300"
+      "value": 1330,
+      "quote": "sat composite 1150 1235 1330"
     },
     "act_p25": {
-      "value": 24,
-      "quote": "act composite 24 27 30"
+      "value": 26,
+      "quote": "act composite 26 28 31"
     },
     "act_p50": {
-      "value": 27,
-      "quote": "act composite 24 27 30"
+      "value": 28,
+      "quote": "act composite 26 28 31"
     },
     "act_p75": {
-      "value": 30,
-      "quote": "act composite 24 27 30"
+      "value": 31,
+      "quote": "act composite 26 28 31"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -177,6 +177,14 @@
     "factor_interest": {
       "value": "Important",
       "quote": "Level of applicant's interest"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "deferral_max": {
+      "value": "1 year",
+      "quote": "C18 maximum period of postponement: 1 year"
     }
   },
   "concerns": null

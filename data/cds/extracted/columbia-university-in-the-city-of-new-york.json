@@ -1,47 +1,75 @@
 {
   "slug": "columbia-university-in-the-city-of-new-york",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
-    "title": "Common Data Set",
-    "url": "https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2024-25_Columbia_College_and_Columbia_Engineering_CDS.pdf"
+    "title": "Columbia College and Columbia Engineering Common Data Set 2025-26",
+    "url": "https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2025-26_Columbia_College_and_Columbia_Enginnering_CDS.pdf"
   },
-  "sourceUrl": "https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2024-25_Columbia_College_and_Columbia_Engineering_CDS.pdf",
-  "researchedAt": "2026-11-06",
+  "sourceUrl": "https://opir.columbia.edu/sites/opir.columbia.edu/files/content/Common%20Data%20Set/2025-26_Columbia_College_and_Columbia_Enginnering_CDS.pdf",
+  "researchedAt": "2026-11-15",
   "extractedBy": "extract-cds",
   "readerVersion": 11,
   "docKind": "pdf",
   "values": {
     "applied_total": {
-      "value": 60247,
-      "quote": "total first-time, first-year (degree-seeking) who applied 60,247"
+      "value": 59611,
+      "quote": "total first-time, first-year (degree-seeking) who applied 59,611"
     },
     "admitted_total": {
-      "value": 2325,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 2,325"
+      "value": 2946,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2,946"
     },
     "enrolled_total": {
-      "value": 1483,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 1,483"
+      "value": 1797,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1,797"
     },
     "rank_top10_pct": {
       "value": 94,
       "quote": "percent in top tenth of high school graduating class 94%"
     },
     "rank_top25_pct": {
-      "value": 100,
-      "quote": "percent in top quarter of high school graduating class 100%"
+      "value": 99,
+      "quote": "percent in top quarter of high school graduating class 99%"
+    },
+    "gpa_400_pct": {
+      "value": 74.9,
+      "quote": "percent who had gpa of 4.0 74.9%"
+    },
+    "gpa_375_pct": {
+      "value": 20.8,
+      "quote": "percent who had gpa between 3.75 and 3.99 20.8%"
+    },
+    "gpa_350_pct": {
+      "value": 3.3,
+      "quote": "percent who had gpa between 3.50 and 3.74 3.3%"
+    },
+    "gpa_325_pct": {
+      "value": 0.9,
+      "quote": "percent who had gpa between 3.25 and 3.49 0.9%"
+    },
+    "gpa_300_pct": {
+      "value": 0.1,
+      "quote": "percent who had gpa between 3.00 and 3.24 0.1%"
     },
     "gpa_below1_pct": {
       "value": 100,
       "quote": "percent who had gpa below 1.0 100%"
     },
+    "gpa_average": {
+      "value": 4.25,
+      "quote": "c12. average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: average high school gpa 4.25"
+    },
+    "gpa_submit_pct": {
+      "value": 99.9,
+      "quote": "percent submitting gpa c1 99.9%"
+    },
     "ed_applied": {
-      "value": 6007,
-      "quote": "number of early decision applications received by your institution: 6,007"
+      "value": 5868,
+      "quote": "number of early decision applications received by your institution: 5,868"
     },
     "ed_admitted": {
-      "value": 795,
-      "quote": "number of applicants admitted under early decision plan: 795"
+      "value": 819,
+      "quote": "number of applicants admitted under early decision plan: 819"
     },
     "sat_p25": {
       "value": 1510,
@@ -57,15 +85,15 @@
     },
     "act_p25": {
       "value": 34,
-      "quote": "act composite 34 35 36"
+      "quote": "act composite 34 35 35"
     },
     "act_p50": {
       "value": 35,
-      "quote": "act composite 34 35 36"
+      "quote": "act composite 34 35 35"
     },
     "act_p75": {
-      "value": 36,
-      "quote": "act composite 34 35 36"
+      "value": 35,
+      "quote": "act composite 34 35 35"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -140,16 +168,16 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 4180,
-      "quote": "D2 total 4,180 375 298"
+      "value": 4909,
+      "quote": "D2 total 4,909 453 357"
     },
     "transfer_admitted": {
-      "value": 375,
-      "quote": "D2 total 4,180 375 298"
+      "value": 453,
+      "quote": "D2 total 4,909 453 357"
     },
     "transfer_enrolled": {
-      "value": 298,
-      "quote": "D2 total 4,180 375 298"
+      "value": 357,
+      "quote": "D2 total 4,909 453 357"
     },
     "deferral_allowed": {
       "value": "yes",
