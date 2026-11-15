@@ -1,0 +1,87 @@
+---
+// One major in one state: every college there that awarded the bachelor's degree, A to Z,
+// with graduates' earnings and debt for that program. Never ranked.
+import Layout from '../../../layouts/Layout.astro';
+import { statePages, majorSummary, majorsPulledDate, majorsSourceUrl, valueRange } from '../../../lib/majors.js';
+import { money, int, OWNERSHIP_LABEL } from '../../../lib/format.js';
+import { MAJORS_LAUNCHED, CONTACT_EMAIL } from '../../../lib/site.js';
+
+export function getStaticPaths() {
+  return statePages().map(({ m, st }) => ({ params: { major: m.slug, state: st.slug }, props: { m, st } }));
+}
+const { m, st } = Astro.props;
+const sum = majorSummary(m);
+const multi = m.cips.length > 1;
+const lower = m.name.toLowerCase();
+const e1 = valueRange(st.rows.map((r) => r.earn1));
+const reported = st.rows.filter((r) => r.earn1 != null).length;
+const nat = sum.national.filter((n) => n.earn1 || n.earn5);
+const others = sum.pages.filter((x) => x.code !== st.code);
+const title = `${m.name} degrees in ${st.name}`;
+const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Correction: ${title}`)}`;
+---
+<Layout title={`${title}: every college, A to Z | After High School`}
+  description={`${st.colleges} colleges in ${st.name} awarded bachelor's degrees in ${lower} last year. See each one's graduates' earnings and debt, and the college's net price, from federal data. No rankings.`}
+  crumbs={[['Majors', '/majors'], [m.name, `/majors/${m.slug}`]]}
+  path={`/majors/${m.slug}/${st.slug}`} nav="colleges" noindex={!MAJORS_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/majors">Majors</a><span aria-hidden="true">/</span><a href={`/majors/${m.slug}`}>{m.name}</a></nav>
+  <section class="compare-head">
+    <h1>{title}</h1>
+    <p>{st.colleges} colleges in {st.name} awarded {int(st.awards)} bachelor's degrees in {lower} last year. Here's every one, A to Z, with what its graduates earned and borrowed. We don't rank them: the right fit depends on cost, location and what you want from the program.</p>
+  </section>
+
+  <section class="block" aria-labelledby="glance">
+    <h2 id="glance">At a glance</h2>
+    <dl class="sy-facts">
+      <div><dt>Colleges in {st.name}</dt><dd>{st.colleges}</dd></div>
+      <div><dt>Degrees awarded last year</dt><dd>{int(st.awards)}</dd></div>
+      {e1 && <div><dt>Graduates' median pay a year after, by college</dt><dd>{e1[0] === e1[1] ? money(e1[0]) : `${money(e1[0])} to ${money(e1[1])}`} <span class="la-city">at the {reported} {reported === 1 ? 'college' : 'colleges'} that report it</span></dd></div>}
+      {nat.map((n) => <div><dt>National median a year after{multi ? ` (${n.title})` : ''}</dt><dd>{money(n.earn1) ?? 'Not reported'}{n.earn5 && <span class="la-city">{money(n.earn5)} five years after</span>}</dd></div>)}
+    </dl>
+    {m.note && <p class="sy-note">{m.note}</p>}
+  </section>
+
+  <section class="block" aria-labelledby="colleges">
+    <h2 id="colleges">Every college, A to Z</h2>
+    <div class="la-table-wrap">
+      <table class="nat-table mj-table">
+        <caption class="sg-cap">Bachelor's degrees in {lower}, {st.name}</caption>
+        <thead><tr>
+          <th scope="col">College</th>
+          {multi && <th scope="col">Program</th>}
+          <th scope="col">Degrees last year</th>
+          <th scope="col">Graduates' median pay, 1 year after</th>
+          <th scope="col">5 years after</th>
+          <th scope="col">Median federal debt</th>
+          <th scope="col">Average net price a year (whole college)</th>
+        </tr></thead>
+        <tbody>{st.rows.map((r) => (
+          <tr>
+            <td><a href={`/college/${r.s.slug}`}>{r.s.name}</a><span class="la-city">{r.s.city} · {OWNERSHIP_LABEL[r.s.ownership]}</span></td>
+            {multi && <td class="mj-prog" data-label="Program">{r.title}</td>}
+            <td data-label="Degrees last year">{int(r.awards)}</td>
+            <td data-label="Median pay, 1 year after">{money(r.earn1) ?? <span class="na">Not reported</span>}</td>
+            <td data-label="5 years after">{money(r.earn5) ?? <span class="na">Not reported</span>}</td>
+            <td data-label="Median federal debt">{money(r.debt) ?? <span class="na">Not reported</span>}</td>
+            <td data-label="College's net price a year">{money(r.s.avgNetPrice) ?? <span class="na">Not reported</span>}</td>
+          </tr>
+        ))}</tbody>
+      </table>
+    </div>
+    <p class="wys-src">Pay is the median for graduates of this program who got federal student aid and were working, not in school, 1 and 5 years after finishing. Debt is the median federal loan debt of this program's graduates. "Not reported" usually means too few graduates for the government to publish the number. Net price is for the whole college: what full-time first-years who got grants paid on average, including housing and food; at public colleges it's for in-state students.</p>
+  </section>
+
+  {others.length > 0 && (
+    <section class="block" aria-labelledby="other-states">
+      <h2 id="other-states">{m.name} in other states</h2>
+      <ul class="vs-pairs">{others.map((x) => <li><a href={`/majors/${m.slug}/${x.slug}`}>{x.name}</a></li>)}</ul>
+      <p class="sy-note"><a href={`/majors/${m.slug}`}>All {lower} programs, nationally</a>.</p>
+    </section>
+  )}
+
+  <section class="block sources" aria-labelledby="sources">
+    <h2 id="sources">Sources</h2>
+    <p>Program numbers come from the U.S. Department of Education's <a href={majorsSourceUrl} rel="noopener" target="_blank">College Scorecard field-of-study data</a>, pulled {majorsPulledDate}. Net prices come from the same College Scorecard data for each college. Each college's page has its own sources and notes.</p>
+    <p class="wys-src">See something wrong? <a href={flag}>Tell us</a>. How we handle the data: <a href="/methodology">our methodology</a>.</p>
+  </section>
+</Layout>

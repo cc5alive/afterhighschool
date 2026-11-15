@@ -1,0 +1,57 @@
+---
+// One major nationally: how many colleges award it, national earnings, and every state.
+import Layout from '../../layouts/Layout.astro';
+import { MAJORS, majorSummary, majorsPulledDate, majorsSourceUrl } from '../../lib/majors.js';
+import { money, int } from '../../lib/format.js';
+import { MAJORS_LAUNCHED } from '../../lib/site.js';
+
+export function getStaticPaths() {
+  return MAJORS.map((m) => ({ params: { major: m.slug }, props: { m } }));
+}
+const { m } = Astro.props;
+const sum = majorSummary(m);
+const lower = m.name.toLowerCase();
+const multi = m.cips.length > 1;
+const nat = sum.national.filter((n) => n.earn1 || n.earn5);
+---
+<Layout title={`${m.name} degrees: colleges by state | After High School`}
+  description={`${int(sum.colleges)} US colleges awarded bachelor's degrees in ${lower} last year. Find them by state, with each program's graduates' earnings and debt from federal data. No rankings.`}
+  crumbs={[['Majors', '/majors']]}
+  path={`/majors/${m.slug}`} nav="colleges" noindex={!MAJORS_LAUNCHED}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/majors">Majors</a></nav>
+  <section class="compare-head">
+    <h1>{m.name} degrees</h1>
+    <p>{int(sum.colleges)} four-year colleges awarded {int(sum.awards)} bachelor's degrees in {lower} last year. Pick a state to see every college there, A to Z, with what each program's graduates earned and borrowed.</p>
+  </section>
+
+  {nat.length > 0 && (
+    <section class="block" aria-labelledby="earn">
+      <h2 id="earn">What graduates earn, nationally</h2>
+      <p class="block-lede">Median pay of everyone who finished this kind of program at any college, among graduates who got federal aid and were working.</p>
+      <div class="la-table-wrap">
+        <table class="nat-table">
+          <thead><tr><th scope="col">Program</th><th scope="col">1 year after</th><th scope="col">5 years after</th></tr></thead>
+          <tbody>{nat.map((n) => <tr><th scope="row">{multi ? n.title : m.name}</th><td>{money(n.earn1) ?? '—'}</td><td>{money(n.earn5) ?? '—'}</td></tr>)}</tbody>
+        </table>
+      </div>
+      <p class="wys-src">Source: <a href={majorsSourceUrl} rel="noopener" target="_blank">U.S. Department of Education, College Scorecard field-of-study data</a>, pulled {majorsPulledDate}. Pay varies a lot by college, job and place, so check each program's numbers in its state.</p>
+      {m.note && <p class="sy-note">{m.note}</p>}
+    </section>
+  )}
+
+  <section class="block" aria-labelledby="states">
+    <h2 id="states">By state</h2>
+    <ul class="mj-states">{sum.pages.map((st) => <li><a href={`/majors/${m.slug}/${st.slug}`}>{st.name}</a> <span>{st.colleges} colleges</span></li>)}</ul>
+    {sum.small.length > 0 && (
+      <>
+        <h3>States with one or two colleges</h3>
+        <ul class="mini-list">{sum.small.map((st) => <li>{st.name}: {[...new Map(st.rows.map((r) => [r.s.slug, r.s])).values()].map((s, i) => <>{i > 0 && ', '}<a href={`/college/${s.slug}`}>{s.name}</a></>)}</li>)}</ul>
+      </>
+    )}
+  </section>
+
+  <section class="block" aria-labelledby="other">
+    <h2 id="other">Other majors</h2>
+    <ul class="vs-pairs">{MAJORS.filter((x) => x !== m).map((x) => <li><a href={`/majors/${x.slug}`}>{x.name}</a></li>)}</ul>
+  </section>
+</Layout>

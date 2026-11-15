@@ -9,8 +9,9 @@ import {
   pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, TEST_POLICY_DETAIL,
   INCOME_BAND_LABEL, admitRateText, scorecardUrl
 } from '../../lib/format.js';
-import { COLLEGES_LAUNCHED, COMPARE_PAIRS_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
+import { COLLEGES_LAUNCHED, COMPARE_PAIRS_LAUNCHED, MAJORS_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
 import { pairsFor } from '../../lib/college-pairs.js';
+import { programsFor, majorForCip, majorSummary, majorsPulledDate, majorsSourceUrl } from '../../lib/majors.js';
 
 // Colleges that share a name with another listed college (Bethel University, Lincoln University ...): titles add the place.
 const nameUses = new Map();
@@ -28,6 +29,16 @@ const calc = schoolLink(s.priceCalculatorUrl);
 const similar = similarSchools(s);
 const tpc = testPolicyFor(s.slug);
 const tpCheckedDate = tpc && new Date(`${tpc.checkedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+// Bachelor's degrees this college awarded, with a link to the major's page for its state where there is one.
+const progs = MAJORS_LAUNCHED ? programsFor(s) : [];
+const majorLink = (cip) => {
+  const m = majorForCip(cip);
+  if (!m) return null;
+  const st = majorSummary(m).pages.find((x) => x.code === s.state);
+  return st ? { href: `/majors/${m.slug}/${st.slug}`, label: `${m.name} in ${st.name}` } : { href: `/majors/${m.slug}`, label: m.name };
+};
+const progRow = (p) => ({ ...p, link: majorLink(p.cip) });
+const progsShown = progs.map(progRow);
 const vsPages = COMPARE_PAIRS_LAUNCHED ? pairsFor(s.slug) : [];
 const hl = highlights.get(s.slug);
 const reviewedDate = hl && new Date(`${hl.reviewedAt}T12:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
@@ -243,6 +254,30 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
         <Stat label="First-generation students" value={pct(s.firstGenShare)} note="parents didn't go beyond high school" href={src} />
       </dl>
     </section>
+
+    {progsShown.length > 0 && (
+      <section class="block" aria-labelledby="majors">
+        <h2 id="majors">Bachelor's degrees</h2>
+        <p class="block-lede">{s.name} awarded bachelor's degrees in {progsShown.length} {progsShown.length === 1 ? 'field' : 'fields'} last year. Pay and debt are for each program's own graduates, where the government reports them.</p>
+        <details class="mj-details" open={progsShown.length <= 12}>
+          <summary>{progsShown.length <= 12 ? 'All fields' : `Show all ${progsShown.length} fields`}</summary>
+          <div class="la-table-wrap">
+            <table class="nat-table mj-table">
+              <thead><tr><th scope="col">Field</th><th scope="col">Degrees last year</th><th scope="col">Graduates' median pay, 1 year after</th><th scope="col">Median federal debt</th></tr></thead>
+              <tbody>{progsShown.map((p) => (
+                <tr>
+                  <td class="mj-prog">{p.title}{p.link && <a class="la-city" href={p.link.href}>Compare: {p.link.label}</a>}</td>
+                  <td data-label="Degrees last year">{int(p.awards)}</td>
+                  <td data-label="Median pay, 1 year after">{money(p.earn1) ?? <span class="na">Not reported</span>}</td>
+                  <td data-label="Median federal debt">{money(p.debt) ?? <span class="na">Not reported</span>}</td>
+                </tr>
+              ))}</tbody>
+            </table>
+          </div>
+        </details>
+        <p class="wys-src">Pay is the median for graduates who got federal aid and were working, not in school, a year after finishing; debt is their median federal loan debt. "Not reported" usually means too few graduates to publish. Source: <a href={majorsSourceUrl} rel="noopener" target="_blank">College Scorecard field-of-study data</a>, pulled {majorsPulledDate}.</p>
+      </section>
+    )}
 
     {(similar.length > 0 || easier.length > 0) && (
       <section class="block" aria-labelledby="similar">

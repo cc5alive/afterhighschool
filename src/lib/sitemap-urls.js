@@ -4,7 +4,8 @@ import { schools, pulledAt } from './data.js';
 import { collegeLists } from './college-lists.js';
 import { STATE_GUIDES } from './state-guides.js';
 import { collegePairs } from './college-pairs.js';
-import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED, COMPARE_PAIRS_LAUNCHED } from './site.js';
+import { MAJORS, statePages } from './majors.js';
+import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, GAP_LAUNCHED, MILITARY_LAUNCHED, SELF_LAUNCHED, LOCAL_GUIDES_LAUNCHED, COUNSELORS_LAUNCHED, COMPARE_PAIRS_LAUNCHED, MAJORS_LAUNCHED } from './site.js';
 import { transferStates } from './transfer-data.js';
 import { occupations } from './apprentice-data.js';
 import { tradeIndex, tradeSchools } from './trade-data.js';
@@ -22,6 +23,12 @@ export function sitemapSections() {
     for (const l of collegeLists()) main.push({ loc: `/colleges/${l.slug}`, lastmod: day });
     if (COMPARE_PAIRS_LAUNCHED) for (const p of collegePairs) main.push({ loc: `/compare/${p.slug}`, lastmod: day });
     for (const s of schools) colleges.push({ loc: `/college/${s.slug}`, lastmod: day });
+  }
+  const majors = [];
+  if (COLLEGES_LAUNCHED && MAJORS_LAUNCHED) {
+    majors.push({ loc: '/majors', lastmod: day });
+    for (const m of MAJORS) majors.push({ loc: `/majors/${m.slug}`, lastmod: day });
+    for (const { m, st } of statePages()) majors.push({ loc: `/majors/${m.slug}/${st.slug}`, lastmod: day });
   }
   if (TRADES_LAUNCHED) {
     trades.push({ loc: '/trades', lastmod: day });
@@ -47,7 +54,7 @@ export function sitemapSections() {
     for (const g of STATE_GUIDES) paths.push({ loc: `/guides/${g.slug}` });
   }
   if (COUNSELORS_LAUNCHED) paths.push({ loc: '/counselors' }, { loc: '/counselors/handout' });
-  return { main, colleges, trades, paths };
+  return { main, colleges, trades, paths, majors };
 }
 
 export const urlsetXml = (urls) => `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls

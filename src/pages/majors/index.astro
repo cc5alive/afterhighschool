@@ -1,0 +1,30 @@
+---
+// Majors index: the majors with their own pages, with how many colleges award each.
+import Layout from '../../layouts/Layout.astro';
+import { MAJORS, majorSummary, majorsPulledDate, majorsSourceUrl } from '../../lib/majors.js';
+import { money, int } from '../../lib/format.js';
+import { MAJORS_LAUNCHED } from '../../lib/site.js';
+
+const rows = MAJORS.map((m) => ({ m, s: majorSummary(m) }));
+---
+<Layout title="College majors: find colleges by major and state | After High School"
+  description="Find every college that awards a bachelor's degree in nursing, computer science, business, psychology and more, by state, with graduates' earnings and debt from federal data. No rankings."
+  path="/majors" nav="colleges" noindex={!MAJORS_LAUNCHED}>
+  <section class="compare-head">
+    <h1>Majors</h1>
+    <p>Pick a major to find every college that awards a bachelor's degree in it, state by state, with what each program's graduates earned and borrowed. Colleges are listed A to Z, never ranked.</p>
+  </section>
+
+  <section class="block" aria-labelledby="list">
+    <h2 id="list">Majors with their own pages</h2>
+    <div class="la-table-wrap">
+      <table class="nat-table">
+        <thead><tr><th scope="col">Major</th><th scope="col">Colleges</th><th scope="col">Degrees last year</th><th scope="col">National median pay, 1 year after</th></tr></thead>
+        <tbody>{rows.map(({ m, s }) => (
+          <tr><th scope="row"><a href={`/majors/${m.slug}`}>{m.name}</a></th><td>{int(s.colleges)}</td><td>{int(s.awards)}</td><td>{money(s.national[0]?.earn1) ?? '—'}</td></tr>
+        ))}</tbody>
+      </table>
+    </div>
+    <p class="wys-src">Source: <a href={majorsSourceUrl} rel="noopener" target="_blank">U.S. Department of Education, College Scorecard field-of-study data</a>, pulled {majorsPulledDate}. Every college page also lists all the bachelor's degrees it awarded.</p>
+  </section>
+</Layout>
