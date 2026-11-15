@@ -35,3 +35,13 @@ offered and accepted counts as N/A, so those are left out.
 Williams' site turns away GitHub's servers (HTTP 403), and its PDF can't be read as text in a browser. Its
 2025-26 section C and D figures were read from the PDF in CC's Chrome and written into `williams-college.rows.json`
 in the standard CDS labels; each count was checked against its parts. Williams left C11 and the average GPA blank.
+
+College of Charleston's site doesn't answer GitHub's servers (the download times out), though its 2025-26 section C
+and D files open normally in a browser. Their figures were copied from those files into
+`college-of-charleston.rows.json` in the standard CDS labels. Each count was checked against its parts: the male and
+female columns add up to the C1 and D2 totals, and the C11 GPA ranges add up to 100%.
+
+Kansas posts section C of its 2025-26 CDS as its own PDF, laid out in a way our reader misreads (it read only some
+rows). Its figures were copied from that PDF into `university-of-kansas.rows.json`; the C1 male and female columns
+add up to the totals and the C11 ranges add up to 100%. The SAT/ACT score ranges weren't copied, so only the
+percent submitting SAT scores is included; add them from the PDF if needed.
