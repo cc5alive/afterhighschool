@@ -54,6 +54,40 @@ export function namesIn(text, schoolName = '') {
   return out;
 }
 
+// Loads pages in headless Chromium and returns Map(url -> normalized visible text, or null), or null when
+// playwright isn't installed.
+async function browserPages(urls) {
+  if (!urls.length) return new Map();
+  let chromium;
+  try { ({ chromium } = await import('playwright')); } catch { console.log('playwright not installed: skipping the browser pass'); return null; }
+  const browser = await chromium.launch();
+  const ctx = await browser.newContext({
+    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36',
+    locale: 'en-US'
+  });
+  const out = new Map();
+  let next = 0;
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (next < urls.length) {
+      const u = urls[next++];
+      // PDFs and spreadsheets don't render as page text; the first pass already read those if it could.
+      if (/\.(pdf|xlsx?|docx)(\?|$)/i.test(u)) { out.set(u, null); continue; }
+      const page = await ctx.newPage();
+      let t = null;
+      try {
+        const res = await page.goto(u, { waitUntil: 'domcontentloaded', timeout: 30000 });
+        await page.waitForTimeout(2500);
+        if (res && res.status() < 400) t = norm(await page.evaluate(() => (document.body ? document.body.innerText : '')));
+      } catch { /* leave null */ }
+      await page.close();
+      out.set(u, t && t.length > 200 ? t : null);
+    }
+  }));
+  await browser.close();
+  console.log(`browser pass: ${[...out.values()].filter(Boolean).length} of ${urls.length} pages read`);
+  return out;
+}
+
 async function main() {
   let facts = [];
   for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json'))) {
@@ -70,8 +104,7 @@ async function main() {
   await Promise.all(Array.from({ length: 8 }, async () => {
     while (next < urls.length) { const u = urls[next++]; pages.set(u, await fetchDocText(u, { timeout: 25000 })); }
   }));
-  const rows = [];
-  for (const f of facts) {
+  const evaluate = (f) => {
     const loaded = f.sources.map((u) => pages.get(u)).filter((p) => p && p.text);
     const statuses = f.sources.map((u) => pages.get(u)?.status ?? 0);
     const row = { slug: f.slug, fact: f.i, text: f.text, sources: f.sources, statuses, reviewedAt: f.reviewedAt };
@@ -86,7 +119,18 @@ async function main() {
       row.quoteGone = f.quotes.length > 0 && !f.quotes.some((q) => text.includes(norm(q)));
       row.result = row.missingNumbers.length ? 'number not on page' : row.quoteGone ? 'supporting sentence not on page' : row.missingNames.length ? 'name not on page' : 'ok';
     }
-    rows.push(row);
+    return row;
+  };
+  let rows = facts.map(evaluate);
+
+  // Second pass in a real (headless) browser for every fact that didn't pass: many school sites turn away
+  // plain requests (403, timeouts) or build the page with JavaScript, so the text a person sees isn't in
+  // the HTML. Needs playwright; without it the first pass stands.
+  const retry = [...new Set(rows.filter((r) => r.result !== 'ok').flatMap((r) => r.sources))];
+  const browserText = await browserPages(retry);
+  if (browserText) {
+    for (const [u, t] of browserText) if (t) pages.set(u, { ...(pages.get(u) || {}), text: t, status: pages.get(u)?.status || 200, viaBrowser: true });
+    rows = rows.map((r, i) => (r.result === 'ok' ? r : { ...evaluate(facts[i]), browserChecked: true }));
   }
   const count = (r) => rows.filter((x) => x.result === r).length;
   const today = new Date().toISOString().slice(0, 10);
@@ -100,7 +144,8 @@ async function main() {
     `- The sentence the fact was checked against isn't on the page now: ${count('supporting sentence not on page')}`,
     `- A name in the fact isn't on the page now: ${count('name not on page')}`,
     `- Source page is gone (404/410): ${count('source gone')}`,
-    `- Couldn't load the page (blocked, timed out or needs a browser): ${count('could not load')}`, '',
+    `- Couldn't load the page, even in a browser: ${count('could not load')}`, '',
+    `Facts that failed a plain fetch were retried in a headless browser: ${rows.filter((r) => r.browserChecked).length}.`, '',
     'A flag means "look at this", not "this is wrong": pages spell numbers out, split content across tabs, or block automated requests.', '',
     '| School | Result | Missing / status | Fact | Source |', '| --- | --- | --- | --- | --- |',
     ...rows.filter((r) => r.result === 'number not on page' || r.result === 'source gone' || r.result === 'supporting sentence not on page').map(line),

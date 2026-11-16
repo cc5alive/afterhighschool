@@ -17,8 +17,10 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - name: Reader for PDF sources
-        run: npm install --no-save --no-package-lock pdfjs-dist@4.10.38 xlsx@0.18.5
+      - name: Readers for PDF sources, and a browser for sites that block plain requests
+        run: |
+          npm install --no-save --no-package-lock pdfjs-dist@4.10.38 xlsx@0.18.5 playwright@1.49.1
+          npx playwright install --with-deps chromium
       - run: node scripts/recheck-highlights.mjs --sample ${{ inputs.sample || '0' }}
       - run: head -40 data/highlights/recheck/report.md >> "$GITHUB_STEP_SUMMARY"
       - name: Push the report
