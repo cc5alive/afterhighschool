@@ -1,4 +1,4 @@
-# Task: find the current SAT/ACT policy for 16 US colleges (batch 6 of 6)
+# Task: find the current SAT/ACT policy for 15 US colleges (batch 6 of 6)
 
 You're helping keep afterhighschool.me accurate. It's a free, high-trust site that helps 16–18-year-olds decide what to do after high school. The test policies we show now come from federal data that lags years behind, and many colleges have changed their rules since 2024. Your job is to **find each college's current policy on its own official website and quote it**. We open every link and check every quote ourselves before anything goes on the site.
 
@@ -32,7 +32,7 @@ Couldn't find a clear current policy on the college's own site:
 
 JSON rules: every line must parse. Inside strings, write double quotes as \" (or use single quotes ' instead). No line breaks inside a line.
 
-Do all 16 colleges. If you get cut off, stop at the end of a complete line; I'll reply "continue" and you pick up with the next college.
+Do all 15 colleges. If you get cut off, stop at the end of a complete line; I'll reply "continue" and you pick up with the next college.
 
 ## Colleges
 
@@ -52,5 +52,4 @@ university-of-virginia-main-campus | University of Virginia-Main Campus | Charlo
 virginia-polytechnic-institute-and-state-university | Virginia Polytechnic Institute and State University | Blacksburg, VA | www.vt.edu/ | optional
 washington-and-lee-university | Washington and Lee University | Lexington, VA | www.wlu.edu/ | optional
 middlebury-college | Middlebury College | Middlebury, VT | https://www.middlebury.edu/college/ | optional
-university-of-washington-seattle-campus | University of Washington-Seattle Campus | Seattle, WA | https://www.washington.edu/ | blind
 university-of-wisconsin-madison | University of Wisconsin-Madison | Madison, WI | www.wisc.edu/ | optional

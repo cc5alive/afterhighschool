@@ -1,4 +1,4 @@
-# Task: find the current SAT/ACT policy for 19 US colleges (batch 1 of 6)
+# Task: find the current SAT/ACT policy for 18 US colleges (batch 1 of 6)
 
 You're helping keep afterhighschool.me accurate. It's a free, high-trust site that helps 16–18-year-olds decide what to do after high school. The test policies we show now come from federal data that lags years behind, and many colleges have changed their rules since 2024. Your job is to **find each college's current policy on its own official website and quote it**. We open every link and check every quote ourselves before anything goes on the site.
 
@@ -32,7 +32,7 @@ Couldn't find a clear current policy on the college's own site:
 
 JSON rules: every line must parse. Inside strings, write double quotes as \" (or use single quotes ' instead). No line breaks inside a line.
 
-Do all 19 colleges. If you get cut off, stop at the end of a complete line; I'll reply "continue" and you pick up with the next college.
+Do all 18 colleges. If you get cut off, stop at the end of a complete line; I'll reply "continue" and you pick up with the next college.
 
 ## Colleges
 
@@ -42,7 +42,6 @@ arizona-state-university-campus-immersion | Arizona State University Campus Imme
 arizona-state-university-digital-immersion | Arizona State University Digital Immersion | Scottsdale, AZ | www.asu.edu/ | blind
 grand-canyon-university | Grand Canyon University | Phoenix, AZ | www.gcu.edu/ | optional
 university-of-arizona | University of Arizona | Tucson, AZ | https://www.arizona.edu/ | optional
-california-state-university-fullerton | California State University-Fullerton | Fullerton, CA | https://www.fullerton.edu/ | blind
 california-state-university-long-beach | California State University-Long Beach | Long Beach, CA | www.csulb.edu/ | blind
 california-state-university-northridge | California State University-Northridge | Northridge, CA | https://www.csun.edu/ | blind
 claremont-mckenna-college | Claremont McKenna College | Claremont, CA | www.cmc.edu/ | optional

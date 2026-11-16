@@ -34,7 +34,7 @@ const yr = (r) => (r ? yearOf(`${r.cdsYear || ''} ${r.source?.url || ''} ${r.sou
 
 // Combine the two reads into one set of checked values. Both reads must come from the same document
 // (or the same CDS year), so every value on the page matches the document it cites.
-function combine(E, G, school, year, gapsOnly = false) {
+function combine(E, G, school, year) {
   const v = {}, basis = {}, notes = [], from = {};
   // Sets the reader has in full: Gemini can't replace one member of them.
   const readerSet = new Set(SETS.filter((set) => set.every((k) => E?.values?.[k])).flat());
@@ -43,7 +43,7 @@ function combine(E, G, school, year, gapsOnly = false) {
     if (CDS_FIELDS[k]?.type === 'yesno') continue; // derived below
     if (e && g) {
       if (same(e.value, g.value)) { v[k] = e.value; basis[k] = 'both'; from[k] = e; }
-      else if (readerSet.has(k) || gapsOnly) { v[k] = e.value; basis[k] = 'reader'; from[k] = e; notes.push(`${k}: reader ${e.value}, Gemini ${g.value}; kept the reader's${gapsOnly ? '' : ' set'}`); }
+      else if (readerSet.has(k)) { v[k] = e.value; basis[k] = 'reader'; from[k] = e; notes.push(`${k}: reader ${e.value}, Gemini ${g.value}; kept the reader's set`); }
       else if (g.how === 'quote' || g.how === 'layout') { v[k] = g.value; basis[k] = 'gemini'; from[k] = g; notes.push(`${k}: reader ${e.value}, Gemini ${g.value} (quote matched)`); }
       else notes.push(`${k}: reads disagree (${e.value} vs ${g.value}), left out`);
     } else if (e) { v[k] = e.value; basis[k] = 'reader'; from[k] = e; }
@@ -135,8 +135,12 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
   if (!school) continue;
   let E = read(`data/cds/extracted/${slug}.json`), G = read(`data/cds/drafts/${slug}.json`);
   const pre = [];
-  let alt = null, gapsOnly = false;
-  if (E && G && E.source?.url !== G.source?.url) {
+  let alt = null;
+  // A draft can carry the download URL a share link redirected to; its "page" is the link we cite.
+  // Compared with the query string kept: some schools serve every year from one address (?year=2024 vs 2025).
+  const docKey = (u) => { try { const x = new URL(String(u)); x.searchParams.sort(); return (x.host.replace(/^www\./, '') + decodeURIComponent(x.pathname).replace(/\/$/, '') + x.search).toLowerCase(); } catch { return String(u || '').toLowerCase(); } };
+  const sameDoc = (a, b) => docKey(a?.source?.url) === docKey(b?.source?.url) || (b?.source?.page != null && docKey(a?.source?.url) === docKey(b.source.page));
+  if (E && G && !sameDoc(E, G)) {
     const ye = yr(E), yg = yr(G);
     if (!ye || ye !== yg) {
       // Different documents from different (or unknown) years: use the newer one, the reader's on a tie.
@@ -146,13 +150,15 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
   }
   // Same year, but Gemini quoted a web page while the reader read the CDS file we cite: the page can be a
   // different year's fact sheet (Boston College's "Applicants: 39,686" isn't in its 2024-25 CDS), so only the
-  // reader's values are published. A second file of the same year (a revised CDS) may still fill gaps.
-  if (E && G && urlKey(E.source?.url) !== urlKey(G.source?.url)) {
+  // reader's values are published.
+  if (E && G && !sameDoc(E, G)) {
     if (G.docKind === 'html' && E.docKind !== 'html') { G = null; pre.push('Gemini quoted a web page, not the cited document; used the reader only'); }
-    else { gapsOnly = true; pre.push('Gemini read a different file of the same year; its values only fill gaps'); }
+    // A second file of the same year (a revised CDS) can differ in places, so its values aren't published
+    // until the draft is checked against the cited file: point the draft's source at it and check-cds re-runs.
+    else { G = null; pre.push('Gemini read a different file of the same year; used the reader only (re-point the draft to the cited file)'); }
   }
   const fall = (rec0) => { const y = yr(rec0); return y || Number(String(rec0?.cdsYear || '').slice(0, 4)) || 0; };
-  let r = combine(E, G, school, fall(E || G), gapsOnly);
+  let r = combine(E, G, school, fall(E || G));
   // If the newer document gave too little to publish, fall back to the other one.
   if (alt && Object.keys(r.v).length < 3) {
     const r2 = combine(alt.E, alt.G, school, fall(alt.E || alt.G));

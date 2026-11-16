@@ -1,6 +1,6 @@
 # CDS build
 
-Built 2026-11-15.
+Built 2026-11-16.
 
 | School | Year | Values published | Notes |
 | --- | --- | --- | --- |
@@ -37,7 +37,7 @@ Built 2026-11-15.
 | california-state-university-fullerton | 2025-2026 | 44 |  |
 | california-state-university-long-beach | 2025-2026 | 36 |  |
 | california-state-university-los-angeles | 2025-2026 | 34 |  |
-| california-state-university-northridge | 2025-2026 | 34 |  |
+| california-state-university-northridge | 2024-2025 | 34 |  |
 | california-state-university-sacramento | 2025-2026 | 34 |  |
 | california-state-university-san-bernardino | 2025-2026 | 42 |  |
 | california-state-university-san-marcos | 2025-2026 | 44 |  |
@@ -76,7 +76,7 @@ Built 2026-11-15.
 | drexel-university | 2025-2026 | 19 |  |
 | duke-university | 2025-2026 | 34 |  |
 | duquesne-university | 2025-2026 | 45 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
-| east-carolina-university | 2024-2025 | 40 | Gemini read a different file of the same year; its values only fill gaps |
+| east-carolina-university | 2024-2025 | 34 |  |
 | east-texas-a-and-m-university | 2025-2026 | 42 | C1 failed consistency (applied 13475, admitted 10355, enrolled 1162, federal admit rate 0.9224) |
 | eastern-michigan-university | 2025-2026 | 0 |  |
 | elon-university | 2025-2026 | 51 |  |
@@ -192,14 +192,14 @@ Built 2026-11-15.
 | salisbury-university | 2025-2026 | 44 | gpa_100_pct: reads disagree (0 vs 0.1), left out |
 | sam-houston-state-university | 2025-2026 | 36 |  |
 | samford-university | 2025-2026 | 44 |  |
-| san-diego-state-university | 2025-2026 | 37 | Gemini read a different file of the same year; its values only fill gaps |
+| san-diego-state-university | 2025-2026 | 30 |  |
 | san-jose-state-university | 2025-2026 | 44 |  |
 | santa-clara-university | 2025-2026 | 29 |  |
 | skidmore-college | 2025-2026 | 40 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | slippery-rock-university-of-pennsylvania | 2024-2025 | 43 |  |
 | smith-college | 2024-2025 | 23 |  |
 | southeast-missouri-state-university | 2025-2026 | 43 | gpa_below1_pct: reads disagree (0.24 vs 0.15), left out; ACT 18-24 far from federal 15-20 |
-| southeastern-louisiana-university | 2025 | 29 | act_submit_pct: reader 6, Gemini 96 (quote matched); rank_top10_pct: reader 1, Gemini 15.2 (quote matched); rank_top25_pct: reader 4, Gemini 41 (quote matched); gpa_400_pct: reads disagree (5 vs 5.4), left out; gpa_375_pct: reads disagree (2 vs 22.5), left out; gpa_350_pct: reads disagree (2 vs 24.5), left out; gpa_325_pct: reads disagree (21.6 vs 21.7), left out; gpa_300_pct: reads disagree (1 vs 12.8), left out; gpa_250_pct: reads disagree (1 vs 10.7), left out; gpa_200_pct: reads disagree (2.3 vs 2.2), left out; gpa_100_pct: reader 2, Gemini 0.2 (quote matched); C11 buckets sum to 0.2 |
+| southeastern-louisiana-university | 2025-2026 | 29 | act_submit_pct: reader 6, Gemini 96 (quote matched); rank_top10_pct: reader 1, Gemini 15.2 (quote matched); rank_top25_pct: reader 4, Gemini 41 (quote matched); gpa_400_pct: reads disagree (5 vs 5.4), left out; gpa_375_pct: reads disagree (2 vs 22.5), left out; gpa_350_pct: reads disagree (2 vs 24.5), left out; gpa_325_pct: reads disagree (21.6 vs 21.7), left out; gpa_300_pct: reads disagree (1 vs 12.8), left out; gpa_250_pct: reads disagree (1 vs 10.7), left out; gpa_200_pct: reads disagree (2.3 vs 2.2), left out; gpa_100_pct: reader 2, Gemini 0.2 (quote matched); C11 buckets sum to 0.2 |
 | southern-illinois-university-carbondale | 2023-2024 | 0 |  |
 | southern-methodist-university | 2025-2026 | 27 | C1 failed consistency (applied 24053, admitted 11459, enrolled 1715, federal admit rate 0.6335) |
 | southern-utah-university | 2025-2026 | 36 | C1 failed consistency (applied 16235, admitted 16231, enrolled 2150, federal admit rate 0.8179) |
@@ -223,7 +223,7 @@ Built 2026-11-15.
 | texas-a-and-m-university-kingsville | 2024-2025 | 23 | SAT 890-1080 far from federal 990-1110 |
 | texas-christian-university | 2025-2026 | 43 |  |
 | texas-state-university | 2025-2026 | 5 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
-| texas-tech-university | 2025-2026 | 46 | Gemini read a different file of the same year; its values only fill gaps |
+| texas-tech-university | 2025-2026 | 44 |  |
 | texas-woman-s-university | 2025-2026 | 39 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | the-college-of-new-jersey | 2023-2024 | 0 |  |
 | the-university-of-alabama | 2025-2026 | 27 |  |
@@ -242,7 +242,7 @@ Built 2026-11-15.
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 51 |  |
 | united-states-military-academy | 2024-2025 | 38 |  |
-| university-at-buffalo | 2025-2026 | 43 | Gemini read a different file of the same year; its values only fill gaps; gpa_average out of range |
+| university-at-buffalo | 2025-2026 | 36 |  |
 | university-of-akron-main-campus | 2025-2026 | 42 | C1 failed consistency (applied 13503, admitted 10427, enrolled 2169, federal admit rate 0.5967) |
 | university-of-alabama-at-birmingham | 2025-2026 | 45 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-alabama-in-huntsville | 2025-2026 | 43 |  |
@@ -251,10 +251,10 @@ Built 2026-11-15.
 | university-of-california-berkeley | 2025-2026 | 18 |  |
 | university-of-california-davis | 2025-2026 | 40 |  |
 | university-of-california-irvine | 2025-2026 | 28 |  |
-| university-of-california-los-angeles | 2025-2026 | 33 | Gemini read a different file of the same year; its values only fill gaps |
+| university-of-california-los-angeles | 2025-2026 | 24 |  |
 | university-of-california-riverside | 2025-2026 | 32 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-california-san-diego | 2025-2026 | 39 |  |
-| university-of-california-santa-cruz | 2025-2026 | 20 | Gemini read a different file of the same year; its values only fill gaps |
+| university-of-california-santa-cruz | 2025-2026 | 18 |  |
 | university-of-central-florida | 2025-2026 | 44 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-central-missouri | 2025-2026 | 38 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-chicago | 2025-2026 | 45 |  |
@@ -270,7 +270,7 @@ Built 2026-11-15.
 | university-of-houston-downtown | 2025-2026 | 46 |  |
 | university-of-idaho | 2023-2024 | 23 | gpa_below1_pct read as the "totals = 100%" note |
 | university-of-illinois-chicago | 2025-2026 | 43 | SAT 1030-1300 far from federal 1130-1350 |
-| university-of-illinois-urbana-champaign | 2025-2026 | 40 | Gemini read a different file of the same year; its values only fill gaps; C11 buckets sum to 18.0 |
+| university-of-illinois-urbana-champaign | 2025-2026 | 40 | C11 buckets sum to 18.0 |
 | university-of-iowa | 2025-2026 | 39 |  |
 | university-of-kansas | 2025-2026 | 38 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-kentucky | 2025-2026 | 33 |  |
@@ -306,7 +306,7 @@ Built 2026-11-15.
 | university-of-north-texas | 2025-2026 | 29 |  |
 | university-of-northern-colorado | 2023-2024 | 26 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |
 | university-of-northern-iowa | 2023-2024 | 26 | SAT 880-1200 far from federal 1020-1280 |
-| university-of-oklahoma-norman-campus | 2025-2026 | 46 | Gemini read a different file of the same year; its values only fill gaps |
+| university-of-oklahoma-norman-campus | 2025-2026 | 41 |  |
 | university-of-oregon | 2025-2026 | 0 |  |
 | university-of-pennsylvania | 2025-2026 | 46 |  |
 | university-of-pittsburgh-pittsburgh-campus | 2025-2026 | 42 |  |
@@ -314,7 +314,7 @@ Built 2026-11-15.
 | university-of-richmond | 2024-2025 | 36 |  |
 | university-of-rochester | 2025-2026 | 51 |  |
 | university-of-south-alabama | 2025-2026 | 27 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C1 failed consistency (applied 10360, admitted 9795, enrolled 2137, federal admit rate 0.7096) |
-| university-of-south-carolina-columbia | 2025-2026 | 1 | Gemini read a different file of the same year; its values only fill gaps |
+| university-of-south-carolina-columbia | 2025-2026 | 1 | Gemini read a different file of the same year; used the reader only (re-point the draft to the cited file) |
 | university-of-south-dakota | 2025-2026 | 28 |  |
 | university-of-south-florida | 2025-2026 | 43 |  |
 | university-of-southern-california | 2025-2026 | 44 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
