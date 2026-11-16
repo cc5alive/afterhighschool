@@ -154,7 +154,7 @@ Cloudflare builds every branch except `main` with `npx wrangler preview`. It sto
 5. Set "Reach for everyone" at 15%, not 10%.
 6. Labeled the first-generation share instead of removing it. (CC later chose to drop it; removed Nov 15.)
 7. Dropped, rather than kept, Gemini values read from a sibling file until they're re-verified against the cited file (reverses call 4).
-8. Where a document's residency table and gender rows disagree (VCU, NCCU), the reader keeps whichever the old reader chose: the residency total when it adds up, else the gender rows.
+8. Where a report's residency table and gender rows disagree, the site uses whichever set's admit rate is closer to the federal one (CC's call, Nov 16). A tie keeps the residency table. VCU (92.3% from the gender rows vs 83.7% from the table; federal 92.6%), Cal State LA and Western Carolina moved to their gender rows, and VCU's counts now publish. NCCU's two sets have the same admit rate, so it keeps 1,688 enrolled, which matches its own B1 enrollment table.
 
 ## For next time
 
