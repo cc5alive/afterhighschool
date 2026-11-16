@@ -1,5 +1,6 @@
 import { schools, cds } from '../../lib/data.js';
 import { standData } from '../../lib/stand.js';
+import { admissionsFall } from '../../lib/data-years.js';
 import { tradeSchools, KIND_LABEL } from '../../lib/trade-data.js';
 
 // Everything the My list page needs, per listed school: name, place, a few plain facts, and the
@@ -9,7 +10,7 @@ export function GET() {
   for (const s of schools) {
     const x = standData(s, cds.get(s.slug));
     // Only what the list shows, to keep the file small.
-    const d = { admit: x.admit, name: s.name };
+    const d = { admit: x.admit, name: s.name, ay: x.admitFrom === 'cds' && x.cdsYear ? Number(x.cdsYear.slice(0, 4)) : x.admitFrom === 'fed' ? admissionsFall : null };
     if (x.testPolicy) d.testPolicy = x.testPolicy;
     if (x.ownership === 'public') d.ownership = 'public';
     if (x.sat) { d.sat = x.sat; d.satFrom = x.satFrom; } else if (x.satSections) d.satSec = [...x.satSections.reading, ...x.satSections.math];

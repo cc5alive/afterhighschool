@@ -33,6 +33,11 @@ jobs:
           SCORECARD_API_KEY: ${{ secrets.SCORECARD_API_KEY }}
         run: node scripts/pull-scorecard.mjs
 
+      - name: Record which data year each number comes from (labels on school pages)
+        env:
+          SCORECARD_API_KEY: ${{ secrets.SCORECARD_API_KEY }}
+        run: node scripts/probe-scorecard-years.mjs --write
+
       - name: Add report to run summary
         run: cat data/scorecard/report.md >> "$GITHUB_STEP_SUMMARY"
 

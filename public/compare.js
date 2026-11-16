@@ -15,12 +15,13 @@
   const int = (v) => (v == null ? null : Math.round(v).toLocaleString('en-US'));
   const range = (a, b) => (a && b ? `${a}–${b}` : null);
 
+  const FALL = table.dataset.admitFall;
   const ROWS = [
     ['Location', (r, st) => `${r.city}, ${st[r.state] || r.state}`],
     ['Type', (r) => OWN[r.own]],
     ['Setting', (r) => SET[r.set]],
     ['Undergraduates', (r) => int(r.ug)],
-    ['Admit rate', (r) => (r.ar != null ? pct(r.ar) : r.oa ? 'Open admission' : null)],
+    [FALL ? `Admit rate (fall ${FALL})` : 'Admit rate', (r) => (r.ar != null ? pct(r.ar) : r.oa ? 'Open admission' : null)],
     ['Test policy', (r) => TP[r.tp]],
     // Total range only from a school's own report; otherwise Scorecard's section ranges, never added together.
     ['SAT (middle 50%)', (r) => range(r.satL, r.satH) || (r.satSec ? `Reading ${r.satSec[0]}–${r.satSec[1]}, math ${r.satSec[2]}–${r.satSec[3]}` : null)],

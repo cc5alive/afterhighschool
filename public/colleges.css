@@ -557,3 +557,6 @@ button.button { cursor: pointer; font-family: inherit; }
 /* "How old is each number" list in a school page's sources section. */
 .data-age { margin: 8px 0 12px; padding-left: 20px; font-size: 0.92rem; }
 .data-age li { margin: 2px 0; }
+
+.result-note { font-size: 0.88rem; color: var(--muted); margin: 0 0 10px; }
+.ml-yr { display: block; font-size: 0.78rem; font-weight: 400; color: var(--muted); }

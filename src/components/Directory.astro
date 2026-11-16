@@ -5,6 +5,7 @@ import SchoolCard from './SchoolCard.astro';
 import { states } from '../lib/data.js';
 
 const { initial, total, preset = {} } = Astro.props;
+import { admissionsFall } from '../lib/data-years.js';
 ---
 <form class="filters" id="filters" role="search" aria-label="Filter colleges" data-preset={JSON.stringify(preset)}>
   <label class="field search">
@@ -96,6 +97,7 @@ const { initial, total, preset = {} } = Astro.props;
   </label>
 </div>
 
+<p class="result-note">Admit rates are for the class that entered in fall {admissionsFall}, from College Scorecard. A school's page also shows its own newer figure when it publishes one.</p>
 <ul class="cards" id="results">
   {initial.map((s) => <SchoolCard s={s} />)}
 </ul>

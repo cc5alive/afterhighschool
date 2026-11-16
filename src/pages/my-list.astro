@@ -111,7 +111,7 @@ import Layout from '../layouts/Layout.astro';
           <div><dt>Median earnings, 6 yrs (whole school)</dt><dd>${money(x.earn)}</dd></div>
         </dl>
       </li>`;
-      const admit = x.oa ? 'Admits nearly all' : pct(x.d.admit);
+      const admit = x.oa ? 'Admits nearly all' : x.d.admit != null && x.d.ay ? `${pct(x.d.admit)} <span class="ml-yr">fall ${x.d.ay}</span>` : pct(x.d.admit);
       return `<li class="ml-item">
         <div class="ml-head">
           <a class="card-link" href="/college/${s}"><span class="card-name">${esc(x.n)}</span><span class="card-where">${esc(x.c)}, ${esc(x.st)}</span></a>

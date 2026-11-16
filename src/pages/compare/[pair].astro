@@ -5,6 +5,7 @@ import Layout from '../../layouts/Layout.astro';
 import { collegePairs, differences, cdsGpa } from '../../lib/college-pairs.js';
 import { highlights, pulledDate, cds, testPolicyFor } from '../../lib/data.js';
 import { schoolLink } from '../../lib/links.js';
+import { admissionsFall } from '../../lib/data-years.js';
 import { pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, TEST_POLICY_LABEL, INCOME_BAND_LABEL, admitRateText, scorecardUrl } from '../../lib/format.js';
 import { COMPARE_PAIRS_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
 
@@ -36,7 +37,7 @@ const groups = [
     ['Undergraduates', plain((s) => int(s.undergrads))]
   ]],
   ['Getting in', [
-    ['Admit rate', plain((s) => admitRateText(s))],
+    [`Admit rate (fall ${admissionsFall} class)`, plain((s) => admitRateText(s))],
     ['Test policy', (s) => { const t = testPolicyFor(s.slug); return { v: s.testPolicy && TEST_POLICY_LABEL[s.testPolicy], src: t ? { url: t.source.url, label: 'School admissions site' } : { url: scorecardUrl(s), label: 'College Scorecard (may be out of date)' } }; }],
     ['SAT, middle 50% of first-years who sent scores', sat],
     ['ACT, middle 50%', act],

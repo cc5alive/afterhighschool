@@ -2,8 +2,10 @@
 // The API's "latest" mixes years (admissions from one file, earnings from another, some fields years old),
 // and it doesn't say which. This asks for the same field under each year prefix (2012.x ... 2026.x) for a
 // handful of schools and reports the newest year whose values equal "latest".
-// Writes probe/scorecard-years.json (pushed to the scorecard-years-debug branch, not main).
-import { mkdir, writeFile } from 'node:fs/promises';
+// Writes probe/scorecard-years.json. With --write it also updates data/scorecard/data-years.json, which the
+// site uses to label how old each number is; the weekly Scorecard pull runs it that way. A field whose year
+// can't be determined keeps its previous year, and the run says so.
+import { mkdir, writeFile, readFile } from 'node:fs/promises';
 const KEY = process.env.SCORECARD_API_KEY;
 if (!KEY) { console.error('Missing SCORECARD_API_KEY'); process.exit(1); }
 const BASE = 'https://api.data.gov/ed/collegescorecard/v1/schools';
@@ -52,3 +54,26 @@ for (const f of FIELDS) {
 }
 await mkdir('probe', { recursive: true });
 await writeFile('probe/scorecard-years.json', JSON.stringify(out, null, 1));
+
+if (process.argv.includes('--write')) {
+  // Site label -> the field whose year it takes.
+  const MAP = {
+    admissions: 'admissions.admission_rate.overall', enrollment: 'student.size', retention: 'student.retention_rate.four_year.full_time',
+    cost: 'cost.attendance.academic_year', netPrice: 'cost.avg_net_price.private', completion: 'completion.rate_suppressed.four_year',
+    earnings: 'earnings.10_yrs_after_entry.median', debt: 'aid.median_debt.completers.overall', pell: 'aid.pell_grant_rate',
+    firstGeneration: 'student.share_firstgeneration'
+  };
+  const FILE = 'data/scorecard/data-years.json';
+  const prev = JSON.parse(await readFile(FILE, 'utf8'));
+  const years = { ...prev.years }, kept = [];
+  for (const [k, f] of Object.entries(MAP)) {
+    const y = out.fields[f]?.year;
+    if (y) years[k] = y; else kept.push(k);
+  }
+  const changed = JSON.stringify(years) !== JSON.stringify(prev.years);
+  // probedAt only moves when a year changes, so an unchanged week doesn't make a commit.
+  const next = { ...prev, probedAt: changed ? out.probedAt.slice(0, 10) : prev.probedAt, years };
+  await writeFile(FILE, JSON.stringify(next, null, 1) + '\n');
+  console.log(changed ? `data years changed: ${JSON.stringify(years)}` : 'data years unchanged');
+  if (kept.length) console.warn(`kept the previous year for: ${kept.join(', ')} (no year matched "latest")`);
+}
