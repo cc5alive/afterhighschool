@@ -44,3 +44,65 @@ test('fallYearOf reads the entering fall from the document\'s own instructions',
   assert.equal(fallYearOf('if yes, please answer the questions below for fall 2023 admissions: waiting list'), '2023-2024');
   assert.equal(fallYearOf('no year here'), null);
 });
+
+test('Stanford: C1 labels split into "first | - | time" cells are still read', () => {
+  const v = val(fx.stanford);
+  assert.equal(v.applied_total, 60646); // 31,609 + 29,011 + 26; was missing
+  assert.equal(v.admitted_total, 2302);
+  assert.equal(v.enrolled_total, 1839);
+});
+
+test('Michigan: a label split inside a word ("m | ales") is still read', () => {
+  const v = val(fx.michigan);
+  assert.equal(v.applied_total, 109112); // 53,044 + 56,068; was missing
+  assert.equal(v.admitted_total, 17915);
+  assert.equal(v.enrolled_total, 8178);
+});
+
+test('Florida: the residency table\'s "International" column is not taken for the C1 total', () => {
+  const v = val(fx.florida);
+  assert.equal(v.applied_total, 90523); // was 8,931, the international applicants
+  assert.equal(v.admitted_total, 18403); // was 930
+  assert.equal(v.enrolled_total, 7619); // was 155
+});
+
+test('C9: "Submitting SAT Scores" under Percent and Number columns reads the percent', () => {
+  assert.deepEqual([val(fx.amherst_c9).sat_submit_pct, val(fx.amherst_c9).act_submit_pct], [40, 16]); // not 192 or 78
+  const b = val(fx.bates_c9); // the percent sits on the row below the label; 64 is the number of students
+  assert.equal(Math.round(b.sat_submit_pct * 100) / 100, 12.98);
+  assert.equal(Math.round(b.act_submit_pct * 100) / 100, 8.32);
+  const u = val(fx.butler_c9); // percent and number in separate blocks
+  assert.deepEqual([u.sat_submit_pct, u.act_submit_pct], [35, 19]);
+});
+
+test('C2: "waiting list" is read like "wait list"', () => {
+  const v = val(fx.amherst_c2);
+  assert.deepEqual([v.waitlist_offered, v.waitlist_accepted, v.waitlist_admitted], [1294, 740, 44]);
+});
+
+test('Hawaii: a gender row whose words are split at random is still counted', () => {
+  const v = val(fx.hawaii);
+  assert.equal(v.applied_total, 17389); // 5,451 + 11,870 + 68; was 17,321 without the "unknown sex" row
+  assert.equal(v.admitted_total, 15297);
+});
+
+test('NCCU: a residency-table total is read when its label splits "year | s"', () => {
+  const v = val(fx.nccu_res);
+  assert.equal(v.applied_total, 17831); // 6,449 in-state + 11,382 out-of-state
+  assert.equal(v.enrolled_total, 1688);
+});
+
+test('Corpus Christi, Ohio Wesleyan: digits a PDF splits into cells ("9 | 58") are joined back', () => {
+  assert.equal(val(fx.tamucc).enrolled_total, 2374); // 958 men + 1,416 women; was read as 58 + 416
+  assert.equal(val(fx.owu).enrolled_total, 515); // 230 + 283 + 2; was 23 + 283 + 2
+});
+
+test('C2: a blank wait-list row does not take the next question\'s number', () => {
+  const b = val(fx.bowdoin_c2);
+  assert.equal(b.waitlist_accepted, undefined); // was 5, the number admitted from the wait list
+  assert.equal(b.waitlist_admitted, 5);
+  const m = val(fx.msu_c2);
+  assert.equal(m.waitlist_offered, 4241); // its number wraps onto the next row, which is fine
+  assert.equal(m.waitlist_accepted, undefined); // was 2,254
+  assert.equal(m.waitlist_admitted, 2254);
+});
