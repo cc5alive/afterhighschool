@@ -16,7 +16,12 @@ const list = (d) => (fs.existsSync(d) ? fs.readdirSync(d).filter((f) => f.endsWi
 const { schools } = JSON.parse(fs.readFileSync('data/scorecard/latest.json', 'utf8'));
 const bySlug = new Map(schools.map((s) => [s.slug, s]));
 const today = new Date().toISOString().slice(0, 10);
-const same = (a, b) => (typeof a === 'number' && typeof b === 'number' ? Math.abs(a - b) < 0.011 : String(a).toLowerCase() === String(b).toLowerCase());
+// Two reads agree when equal, or when one is the other rounded to the decimal places it shows (UW's report
+// prints 19.12; a read of 19.1 is the same number, not a disagreement). Rounding to a whole number doesn't
+// count: 0 against 0.05 is a real difference.
+const places = (x) => (String(x).split('.')[1] || '').length;
+const roundsTo = (hi, lo) => places(lo) >= 1 && places(hi) > places(lo) && Math.abs(Number(hi.toFixed(places(lo))) - lo) < 1e-9;
+const same = (a, b) => (typeof a === 'number' && typeof b === 'number' ? Math.abs(a - b) < 0.011 || roundsTo(a, b) || roundsTo(b, a) : String(a).toLowerCase() === String(b).toLowerCase());
 
 // The entering class the federal (College Scorecard) admissions figures describe. A CDS for the same fall
 // should match them almost exactly, so it gets a tight tolerance. Checked Nov 2026: of 42 schools whose CDS

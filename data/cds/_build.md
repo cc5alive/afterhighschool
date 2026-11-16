@@ -237,7 +237,7 @@ Built 2026-11-16.
 | the-university-of-texas-at-san-antonio | 2024-2025 | 17 | reader and Gemini read different documents (2024 vs 2023); used the reader one; gpa_submit_pct implausibly low |
 | the-university-of-texas-at-tyler | 2025-2026 | 45 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | thomas-jefferson-university | 2025-2026 | 33 |  |
-| towson-university | 2025-2026 | 42 | gpa_200_pct: reads disagree (0.13 vs 0.1), left out |
+| towson-university | 2025-2026 | 43 |  |
 | trinity-college | 2025-2026 | 42 |  |
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 53 |  |
@@ -325,7 +325,7 @@ Built 2026-11-16.
 | university-of-vermont | 2025-2026 | 42 |  |
 | university-of-virginia-main-campus | 2025-2026 | 42 |  |
 | university-of-washington-bothell-campus | 2025-2026 | 47 |  |
-| university-of-washington-seattle-campus | 2025-2026 | 37 | sat_submit_pct: reads disagree (19.12 vs 19.1), left out; gpa_400_pct: reads disagree (18.12 vs 18.1), left out; gpa_325_pct: reads disagree (4.42 vs 4.4), left out; gpa_250_pct: reads disagree (0.24 vs 0.2), left out; C11 buckets sum to 77.2 |
+| university-of-washington-seattle-campus | 2025-2026 | 47 |  |
 | university-of-washington-tacoma-campus | 2025-2026 | 44 |  |
 | university-of-west-florida | 2025-2026 | 47 |  |
 | university-of-west-georgia | 2025-2026 | 21 | act_submit_pct: reader 17, Gemini 17.06 (quote matched); C1 failed consistency (applied 5067, admitted 4051, enrolled 1612, federal admit rate 0.5161) |
