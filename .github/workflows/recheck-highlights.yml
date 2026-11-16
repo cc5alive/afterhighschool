@@ -1,0 +1,35 @@
+name: Recheck published "What's special" facts
+on:
+  workflow_dispatch:
+    inputs:
+      sample: { description: 'Check only this many facts (0 = all)', default: '0' }
+      debug: { description: 'Push the report to the highlights-recheck-debug branch instead of main', type: boolean, default: true }
+permissions:
+  contents: write
+concurrency: { group: recheck-highlights, cancel-in-progress: false }
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Reader for PDF sources
+        run: npm install --no-save --no-package-lock pdfjs-dist@4.10.38 xlsx@0.18.5
+      - run: node scripts/recheck-highlights.mjs --sample ${{ inputs.sample || '0' }}
+      - run: head -40 data/highlights/recheck/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Push the report
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          if [ "${{ inputs.debug }}" = "false" ]; then
+            git add data/highlights/recheck
+            git diff --cached --quiet || (git commit -m "What's special recheck results [skip ci]" && ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ])
+          else
+            git checkout --orphan highlights-recheck-debug
+            git rm -rq --cached .
+            git add -f data/highlights/recheck
+            git commit -qm "Recheck report"
+            git push -f origin highlights-recheck-debug
+          fi
