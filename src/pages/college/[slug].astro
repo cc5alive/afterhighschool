@@ -262,7 +262,6 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
       <dl class="stat-grid">
         <Stat label="Undergraduates" value={int(s.undergrads)} href={src} />
         <Stat label="Receive Pell grants" value={pct(s.pellRate)} note="a sign of economic diversity" href={src} />
-        <Stat label="First-generation students" value={pct(s.firstGenShare)} note={`parents didn't go beyond high school. From ${schoolYear(dataYears.firstGeneration)}, the newest the government publishes, so it may have changed.`} href={src} />
       </dl>
     </section>
 

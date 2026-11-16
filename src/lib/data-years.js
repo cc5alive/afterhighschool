@@ -1,5 +1,5 @@
 // How old each federal number is. College Scorecard's "latest" data mixes years (admissions from one
-// file, costs from a newer one, first-generation share from 2016), so the years are recorded in
+// file, costs from a newer one, earnings from an older one), so the years are recorded in
 // data/scorecard/data-years.json by a probe (scripts/probe-scorecard-years.mjs) and shown next to the numbers.
 import file from '../../data/scorecard/data-years.json';
 
@@ -19,6 +19,5 @@ export const DATA_AGE = [
   ['Graduation rate', `Scorecard's ${schoolYear(file.years.completion)} data, about students who started six years earlier`],
   ['Pell grants', `Scorecard's ${schoolYear(file.years.pell)} data`],
   ['Median debt', `Scorecard's ${schoolYear(file.years.debt)} data`],
-  ['Median earnings', `Scorecard's ${schoolYear(file.years.earnings)} data, about students who started college about ten years before that`],
-  ['First-generation students', `Scorecard's ${schoolYear(file.years.firstGeneration)} data, the newest the government publishes`]
+  ['Median earnings', `Scorecard's ${schoolYear(file.years.earnings)} data, about students who started college about ten years before that`]
 ];
