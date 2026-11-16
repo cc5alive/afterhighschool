@@ -18,7 +18,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 11; // 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets; 10: no C11 from split groups only; 11: "students admitted" C1 label (WPI)
+const READER_VERSION = 12; // 12: split "first | - | time" labels, "waiting list", C9 percent/number columns, residency tables; 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets; 10: no C11 from split groups only; 11: "students admitted" C1 label (WPI)
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -47,8 +47,8 @@ const ROWS = {
   applied_total: [/^total first-time, first-years? (?:\(degree-seeking\) )?(?:students )?who applied/, 'count', 'last'],
   admitted_total: [/^total first-time, first-years? (?:\(degree-seeking\) )?(?:students )?(?:who were )?admitted/, 'count', 'last'],
   enrolled_total: [/^total (?:full-time )?first-time, first-years? (?:\(degree-seeking\) )?(?:students )?(?:who )?enrolled/, 'count', 'last'],
-  waitlist_offered: [/^number of qualified applicants offered a place on wait ?list/, 'count', 'first'],
-  waitlist_accepted: [/^number accepting a place on the wait ?list/, 'count', 'first'],
+  waitlist_offered: [/^number of qualified applicants offered a place on (?:the )?wait(?:ing)? ?list/, 'count', 'first'],
+  waitlist_accepted: [/^number accepting a place on (?:the )?wait(?:ing)? ?list/, 'count', 'first'],
   waitlist_admitted: [/^number of wait-?listed students admitted/, 'count', 'first'],
   sat_submit_pct: [/^percent submitting sat scores/, 'pct', 'first'],
   act_submit_pct: [/^percent submitting act scores/, 'pct', 'first'],
@@ -85,7 +85,10 @@ const rowText = (r) => norm(r.map((c) => c.s).join(' '));
 // Some fillable 2025-26 PDFs embed a font whose letters come out shifted by 29 code points, so
 // "unknown sex" reads "XQNQRZQ VH[" (UCLA, RIT, Chapman). Put those two words back so the row is recognized.
 const unshift = (t) => t.replace(/\u0003/g, ' ').replace(/xqnqrzq/g, 'unknown').replace(/vh\[/g, 'sex').replace(/\s+/g, ' ').trim();
-const labelText = (r) => unshift(rowText(r)).replace(/^c\d{1,2}[a-z]?\.?\s+/, '').replace(/\s*\(freshmen?\)/g, '');
+// Some PDFs split a label into cells at each hyphen or comma ("Total first | - | time | , | first | - | year",
+// Stanford, Yale) or inside a word ("year m | ales", Michigan). Join those back so the label is recognized.
+const rejoin = (t) => t.replace(/([a-z]) ?- ?(?=[a-z])/g, '$1-').replace(/ ,/g, ',').replace(/\b(fe)?m ales\b/g, '$1males').replace(/\byear s who\b/g, 'years who');
+const labelText = (r) => rejoin(unshift(rowText(r))).replace(/^c\d{1,2}[a-z]?\.?\s+/, '').replace(/\s*\(freshmen?\)/g, '');
 const isNumbersOnly = (r) => r.length > 0 && r.every((c) => /^[\d,.\s%]+$/.test(c.s));
 const isFooter = (r) => /common data set|page \d|^totals? should/.test(rowText(r));
 
@@ -98,10 +101,16 @@ function readRows(rows) {
       const text = labelText(rows[i]);
       if (!re.test(text)) continue;
       let cells = rows[i], quoteRows = [rows[i]];
-      if (!cells.some((c) => parse(c.s, type) != null) && rows[i + 1] && !isFooter(rows[i + 1])
+      // A row whose answer cells hold placeholders ("C or t", "n/a") is complete: the number on the next
+      // row is something else (Pitt's page number "13" under its blank residency table).
+      const placeholder = rows[i].some((c) => /^(?:c or t|n\/?a)$/.test(norm(c.s)));
+      // Nor is a row whose label is another question: a blank answer stays blank (Bowdoin's empty "Number
+      // accepting a place on the waiting list" took the number admitted from the row below).
+      const nextIsQuestion = rows[i + 1] && Object.values(ROWS).some(([r]) => r.test(labelText(rows[i + 1])));
+      if (!placeholder && !nextIsQuestion && !cells.some((c) => parse(c.s, type) != null) && rows[i + 1] && !isFooter(rows[i + 1])
           && (isNumbersOnly(rows[i + 1]) || rowText(rows[i + 1]).replace(/[\d.,%\s]/g, '').length < 40)) {
         cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]);
-      } else if (pick === 'last' && rows[i + 1] && isNumbersOnly(rows[i + 1]) && !isFooter(rows[i + 1])) {
+      } else if (!placeholder && pick === 'last' && rows[i + 1] && isNumbersOnly(rows[i + 1]) && !isFooter(rows[i + 1])) {
         cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]);
       }
       // Numbers that are part of the label itself ("4.0", "3.75 and 3.99") can sit in their own cells:
@@ -134,6 +143,21 @@ function readRows(rows) {
         const vals = nums.map((c) => parse(c.s, type));
         const sum = vals.reduce((a, b) => a + b, 0);
         value = vals.length === 1 ? vals[0] : (vals.find((x) => vals.length > 2 && Math.abs(x * 2 - sum) <= 2) ?? null);
+        // The optional residency table repeats these labels with Total, In-State, Out-of-State, International
+        // and Unknown columns, sometimes split over two tables (Florida 2025-26) or with only the Total filled
+        // in (Middlebury, Clark). There, a number counts only if it adds up as the total or sits under "Total";
+        // a lone number under "International" is the international applicants, not the total.
+        // A PDF that splits digits ("2,56 | 1", Ohio Wesleyan) gives fragments there, so a total must be at
+        // least as large as every other number on its row.
+        const above = rows.slice(Math.max(0, i - 4), i);
+        const residency = above.some((r) => /residency|in-state|out-of-state/.test(labelText(r)));
+        if (residency && (value == null || vals.length < 3)) {
+          const heads = above.flat().filter((c) => { const t = norm(c.s); return t && t.length < 20 && !/\d/.test(t); });
+          const underTotal = (c) => heads.length && norm(heads.reduce((a, b) => (Math.abs(b.x - c.x) < Math.abs(a.x - c.x) ? b : a)).s) === 'total';
+          const t = nums.find(underTotal);
+          value = t ? parse(t.s, type) : null;
+        }
+        if (residency && (nums.some((c) => /\d,\d{0,2}(?!\d)/.test(c.s)) || vals.some((x) => x > value))) continue;
         if (!value) continue; // a blank or broken total field: C1 falls back to the gender rows below
       }
       out[key] = { value, quote: quoteRows.map(rowText).join(' ') };
@@ -155,24 +179,27 @@ function readRows(rows) {
 
 // C1 also lists applicants, admits and enrollees by gender. When the total row is blank, broken ("##")
 // or reads 0, the total is the sum of those rows.
-const C1_VERB = { applied_total: /who applied$/, admitted_total: /(who were )?admitted$/, enrolled_total: /(who )?enrolled$/ };
+// Matched with the spaces taken out: some PDFs split words at random ("f | irst", "ap | plied", Hawaii 2025-26),
+// and a gender row whose label isn't recognized would silently leave its students out of the total.
+const C1_VERB = { applied_total: /whoapplied$/, admitted_total: /(whowere)?admitted$/, enrolled_total: /(who)?enrolled$/ };
+const squash = (t) => t.replace(/\s+/g, '');
 function c1FromGender(rows, out) {
   for (const [key, verb] of Object.entries(C1_VERB)) {
     if (out[key]?.value) continue;
     let sum = 0, n = 0; const quote = [], parts = [];
     for (let i = 0; i < (rows || []).length; i++) {
       let r = rows[i];
-      if (!/^total first-time, first-year (men|women|males|females|students of|of another|of unknown|another|unknown)/.test(labelText(r))) continue;
+      if (!/^totalfirst-time,first-years?(men|women|males|females|studentsof|ofanother|ofunknown|another|unknown)/.test(squash(labelText(r)))) continue;
       // Long labels wrap: the number and the rest of the label can sit on the next one or two rows.
       // A row that already has its number and its verb is complete: a numbers-only row below it belongs
       // to something else (UW-Stevens Point 2025-26 has a stray "7902 7902" under its enrolled rows).
-      const complete = () => r.slice(1).some((c) => parse(c.s, 'count') != null) && verb.test(labelText(r.filter((c) => parse(c.s, 'count') == null)).trim());
+      const complete = () => r.slice(1).some((c) => parse(c.s, 'count') != null) && verb.test(squash(labelText(r.filter((c) => parse(c.s, 'count') == null))));
       for (let j = i + 1; j <= i + 2 && rows[j] && !complete(); j++) {
         const t = rowText(rows[j]);
         if (/^total |first-time, first-year student/.test(t) || isFooter(rows[j])) break;
         if (isNumbersOnly(rows[j]) || t.replace(/[\d,]/g, '').trim().length < 25) r = r.concat(rows[j]); else break;
       }
-      const text = labelText(r.filter((c) => parse(c.s, 'count') == null)).trim();
+      const text = squash(labelText(r.filter((c) => parse(c.s, 'count') == null)));
       if (!verb.test(text)) continue;
       const nums = r.slice(1).map((c) => parse(c.s, 'count')).filter((x) => x != null);
       parts.push(nums.length ? nums[nums.length - 1] : 0);
@@ -184,6 +211,31 @@ function c1FromGender(rows, out) {
     const repeated = parts.length >= 3 && last > 0 && last === rest;
     sum = repeated ? last : parts.reduce((a, b) => a + b, 0);
     if (n >= 2 && sum > 0) out[key] = { value: sum, quote: quote.join(' / '), how: repeated ? 'sum of gender rows (last row repeats the total)' : 'sum of gender rows' };
+  }
+  return out;
+}
+
+// C9 in the 2025-26 template: "Submitting SAT Scores" rows under "Percent" and "Number" headers. The two
+// values can sit in either column, or on the row below the label (Bates), so each number goes to the header
+// it sits closest to; a "%" sign settles it. Returns the percent and, when given, the number of students.
+function readSubmit(rows) {
+  const out = {};
+  for (const name of ['sat', 'act']) {
+    for (let i = 0; i < (rows || []).length && !out[`${name}_submit_pct`]; i++) {
+      if (!new RegExp(`^(?:c\\d{3,4} )?submitting ${name} scores\\b`).test(labelText(rows[i]))) continue;
+      let hdr = null;
+      for (let j = i - 1; j >= Math.max(0, i - 4) && !hdr; j--) if (rows[j].some((c) => norm(c.s) === 'percent')) hdr = rows[j];
+      if (!hdr) continue;
+      const pctX = hdr.find((c) => norm(c.s) === 'percent').x, numX = hdr.find((c) => norm(c.s) === 'number')?.x;
+      let cells = rows[i].slice(1).filter((c) => parse(c.s, 'pct') != null || parse(c.s, 'count') != null);
+      const quoteRows = [rows[i]];
+      if (rows[i + 1] && isNumbersOnly(rows[i + 1])) { cells = cells.concat(rows[i + 1]); quoteRows.push(rows[i + 1]); }
+      const isPct = (c) => /%\s*$/.test(c.s) || numX == null || Math.abs(c.x - pctX) < Math.abs(c.x - numX);
+      const p = cells.find((c) => isPct(c) && parse(c.s, 'pct') != null);
+      if (!p) continue;
+      const n = cells.find((c) => c !== p && !isPct(c) && parse(c.s, 'count') != null);
+      out[`${name}_submit_pct`] = { value: parse(p.s, 'pct'), quote: quoteRows.map(rowText).join(' '), number: n ? parse(n.s, 'count') : null };
+    }
   }
   return out;
 }
@@ -397,9 +449,33 @@ export function fallYearOf(text) {
 
 // Every value the reader takes from one document's rows: the printed-form readers, then the template's
 // answer codes on top. Pure (no network), so it can be replayed on saved rows in tests.
+// Some PDFs split one number into cells a character apart ("9 | 58" for 958, "2,56 | 1"; Corpus Christi,
+// Ohio Wesleyan, Southeastern Louisiana 2025-26). Real columns are far wider apart, so a number that starts
+// where the previous one ends (2.5 to 7.5 points a character) is joined back to it.
+const joinSplitDigits = (r) => r.reduce((acc, c) => {
+  const p = acc[acc.length - 1], num = (t) => /^[\d,.]+%?$/.test(t.trim());
+  const gap = p ? c.x - p.x : 0, len = p ? p.s.trim().length : 0;
+  // Spreadsheet cells carry column numbers (1, 2, 3 …), not points: a step under 2.5 a character is never a split.
+  // A fragment is short or a broken thousands group ("2,56"); a whole number like "4,727" is its own column
+  // even when the next column starts close by (Binghamton's D2 table).
+  const fragment = p && (len <= 3 || /,\d{0,2}$/.test(p.s.trim()));
+  if (p && fragment && num(p.s) && num(c.s) && !/%$/.test(p.s.trim()) && gap >= len * 2.5 && gap <= len * 7.5 + 1.5) acc[acc.length - 1] = { x: p.x, s: p.s.trim() + c.s.trim() };
+  else acc.push(c);
+  return acc;
+}, []);
+
 export function readValues(rows) {
+    rows = (rows || []).map(joinSplitDigits);
     const codes = readCodes(rows);
     const values = { ...c1FromGender(rows, readRows(rows)), ...readScores(rows), ...factors(rows), ...readTransfer(rows), ...readDeferral(rows) };
+    // C9 percents from the Percent/Number layout. When the number of students is printed too, the percent
+    // must match it against the enrolled class (within 2 points), or it's left out: the columns were misread.
+    for (const [k, x] of Object.entries(readSubmit(rows))) {
+      if (values[k]) continue;
+      const enrolled = values.enrolled_total?.value, pct = x.value <= 1 ? x.value * 100 : x.value;
+      if (x.number != null && enrolled && Math.abs(x.number / enrolled * 100 - pct) > 2) continue;
+      values[k] = { value: x.value, quote: x.quote };
+    }
     // Answer codes win. C11 rows are one set: never mix rows from two readers (one may read fractions, one percents).
     if (codes._c11_split || Object.keys(codes).some((k) => /^gpa_\d|^gpa_below/.test(k))) for (const k of Object.keys(values)) if (/^gpa_\d|^gpa_below/.test(k)) delete values[k];
     delete codes._c11_split;
@@ -421,7 +497,7 @@ export function readValues(rows) {
 }
 
 const log = [];
-export { readRows, readScores, factors, c1FromGender, readTransfer, readDeferral, readCodes };
+export { readRows, readSubmit, readScores, factors, c1FromGender, readTransfer, readDeferral, readCodes };
 // Run only when called directly (tests import the readers above).
 if (process.argv[1] && import.meta.url.endsWith(process.argv[1].split('/').pop())) {
   let made = 0;
