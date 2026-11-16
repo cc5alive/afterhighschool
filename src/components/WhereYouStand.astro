@@ -2,6 +2,8 @@
 // "Where you'd stand": a student enters their GPA and test scores and sees where they'd fall among
 // last year's first-year students, using the school's own Common Data Set when we have it and
 // federal College Scorecard figures otherwise. It never shows a percent chance: no source backs one.
+// On top it gives a plain outlook (Reach for everyone / Reach / Target / Likely) from the table in
+// lib/stand.js, and always says what it can't see.
 // The scores a student enters stay in their browser (localStorage) so they carry across school pages.
 import { standData } from '../lib/stand.js';
 const { s, c, scorecardHref } = Astro.props;
@@ -14,7 +16,7 @@ const cdsHref = c?.source?.url;
 {usable ? (
   <div class="wys" data-wys={JSON.stringify(data)}>
     <h3 class="wys-title">Where you'd stand</h3>
-    <p class="wys-intro">Enter your numbers to see where they'd fall among {s.name}'s first-year students. This isn't a prediction: it shows how you compare with students who enrolled, using the sources linked below.</p>
+    <p class="wys-intro">Enter your numbers to see where they'd fall among {s.name}'s first-year students, and whether that makes it a reach, a target or a likely school by a <a href="/methodology#outlook">simple published rule</a>. This isn't a prediction or a percent chance: it compares you with students who enrolled, using the sources linked below.</p>
     <form class="wys-form" novalidate>
       <label>Your high school GPA<input name="gpa" inputmode="decimal" placeholder="e.g. 3.7" autocomplete="off" /></label>
       <label>SAT total<input name="sat" inputmode="numeric" placeholder="400–1600" autocomplete="off" /></label>
@@ -37,7 +39,7 @@ const cdsHref = c?.source?.url;
 )}
 
 <script>
-  import { GPA_LABELS, pctText as pct, num, placeScore as place, placeGpa, loadProfile as load, saveProfile as save } from '../lib/stand.js';
+  import { GPA_LABELS, pctText as pct, num, placeScore as place, placeGpa, loadProfile as load, saveProfile as save, outlook, gpaScale } from '../lib/stand.js';
   const esc = (t) => String(t).replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]);
 
   function strip(score, range, lo, hi, label) {
@@ -58,15 +60,21 @@ const cdsHref = c?.source?.url;
     const out = el.querySelector('.wys-out');
     const parts = [];
     const g = num(p.gpa, 0, 5), sat = num(p.sat, 400, 1600), act = num(p.act, 1, 36);
+    const o = outlook(d, p);
+    // Where nearly everyone is turned down, a "top quarter" card must not look like good news.
+    const toneOf = (t) => (o.level === 'reach-all' ? 'none' : t);
+    const weighted = gpaScale(d) === 'weighted';
 
     if (g != null && d.gpa) {
       const { b, higher, same, lower, tone } = placeGpa(g, d.gpa);
       const rows = d.gpa.slice(0, 6).map((x, i) => `<li class="${i === b ? 'is-you' : ''}"><span class="hbar-label">${GPA_LABELS[i]}</span><span class="hbar-track"><span class="hbar-fill" style="width:${x > 0 ? Math.max(1.5, x) : 0}%"></span></span><span class="hbar-value">${pct(x)}</span></li>`).join('');
-      parts.push(`<div class="wys-item tone-${tone}">
+      parts.push(`<div class="wys-item tone-${toneOf(tone)}">
         <h4>GPA ${esc(g.toFixed(2))}</h4>
         <p>${b === 0 ? `${pct(same)} of first-years${d.gpaSubmit != null && d.gpaSubmit < 100 ? ' who reported a GPA' : ''} had a 4.0 or higher, the top range in the report.` : `${pct(same)} of first-years had a GPA in your range (${GPA_LABELS[b]}). ${pct(higher)} had a higher one${lower >= 0.5 ? ` and ${pct(lower)} a lower one` : ''}.`}</p>
         <ul class="hbars wys-gpa">${rows}</ul>
-        ${g > 4 ? '<p class="wys-note">Your GPA is above 4.0, so it is probably weighted. Schools report weighted or unweighted GPAs differently, so read this loosely.</p>' : '<p class="wys-note">Schools count GPA differently (weighted or not), so read this loosely.</p>'}
+        ${weighted
+          ? `<p class="wys-note"><strong>${esc(d.name)} reports weighted GPAs</strong> (its average is ${d.gpaAvg.toFixed(2)}, which is only possible on a weighted scale). If your GPA is unweighted, it will look lower here than it is.</p>`
+          : g > 4 ? '<p class="wys-note">Your GPA is above 4.0, so it is weighted. This report may count GPAs on an unweighted 4.0 scale, so enter your unweighted GPA for a fair comparison.</p>' : '<p class="wys-note">The report doesn\'t say whether these GPAs are weighted, and schools differ, so read this loosely.</p>'}
         ${d.gpaImportance ? `<p class="wys-note">${esc(d.name)} rates GPA as <strong>${esc(d.gpaImportance.toLowerCase())}</strong> in admission.</p>` : ''}
       </div>`);
     } else if (g != null && d.gpaAvg != null) {
@@ -86,11 +94,12 @@ const cdsHref = c?.source?.url;
       }
       if (!range) { parts.push(`<div class="wys-item"><h4>${kind} ${score}</h4><p>We don't have ${kind} figures for ${esc(d.name)}'s first-year students.</p></div>`); continue; }
       const pl = place(score, range);
-      parts.push(`<div class="wys-item tone-${pl.tone}">
+      parts.push(`<div class="wys-item tone-${toneOf(pl.tone)}">
         <h4>${kind} ${score}</h4>
         <p>Your score would be ${pl.text}. The middle half scored ${range[0]}–${range[2]}${range[1] != null ? `, with a median of ${range[1]}` : ''}.</p>
         ${strip(score, range, lo, hi, `${kind} ${score} compared with the middle half, ${range[0]} to ${range[2]}`)}
-        ${submit != null && submit < 60 ? `<p class="wys-note">Only ${pct(submit)} of first-years sent ${kind} scores, so this range describes that group, not the whole class.</p>` : ''}
+        ${submit != null && submit < 60 ? `<p class="wys-note">Only ${pct(submit)} of first-years sent ${kind} scores, so this range describes that group, not the whole class.</p>`
+          : submit == null && d.testPolicy !== 'required' ? `<p class="wys-note">We don't know what share of first-years sent ${kind} scores. Where scores are optional, the students who send them tend to score higher than the class as a whole.</p>` : ''}
         ${from === 'fed' ? '<p class="wys-note">From federal data, which can lag the school\'s own report by a year or two.</p>' : ''}
       </div>`);
     }
@@ -99,7 +108,8 @@ const cdsHref = c?.source?.url;
 
     // Context that applies to everyone, whatever their numbers.
     const ctx = [];
-    if (d.admit != null) {
+    // The outlook box already states the admit rate; say it here only when there is no label.
+    if (d.admit != null && !o.level) {
       const r = d.admit;
       ctx.push(r < 0.1
         ? `About 1 in ${Math.round(1 / Math.max(r, 0.01))} applicants were admitted.`
@@ -112,7 +122,15 @@ const cdsHref = c?.source?.url;
     }
     if (d.ed) ctx.push(`Early decision applicants were admitted at ${pct((d.ed[0] / d.ed[1]) * 100)} (${d.ed[0].toLocaleString('en-US')} of ${d.ed[1].toLocaleString('en-US')}). That's a different group of applicants, so it doesn't mean applying early would raise your own odds by that much.`);
 
-    out.innerHTML = `<div class="wys-grid">${parts.join('')}</div>${ctx.length ? `<p class="wys-ctx">${ctx.join(' ')}</p>` : ''}`;
+    const head = o.level
+      ? `<div class="wys-outlook lv-${o.level}"><p class="wys-outlook-label">${esc(o.label)}</p>
+          <p>${o.level === 'reach-all'
+            ? `${esc(d.name)} admits about 1 in ${Math.round(1 / Math.max(d.admit, 0.01))} applicants. ${esc(o.means)} Your numbers below show whether you're in range, not whether you'd get in.`
+            : `${esc(o.means)} Based on your ${esc(o.used.join(' and '))} and an admit rate of about ${Math.round(d.admit * 100)}%.`}</p>
+          ${o.notes.map((n) => `<p class="wys-note">${esc(n)}</p>`).join('')}
+        </div>`
+      : o.notes.length ? `<div class="wys-outlook lv-none">${o.notes.map((n) => `<p class="wys-note">${esc(n)}</p>`).join('')}</div>` : '';
+    out.innerHTML = `${head}<div class="wys-grid">${parts.join('')}</div>${ctx.length ? `<p class="wys-ctx">${ctx.join(' ')}</p>` : ''}<p class="wys-blind">${esc(o.blind)}</p>`;
   }
 
   for (const el of document.querySelectorAll('.wys[data-wys]')) {

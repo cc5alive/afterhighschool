@@ -28,7 +28,9 @@ for (const arg of args.filter((x) => !x.startsWith('--'))) {
     if (chosen && (f.quoteVerified || force)) {
       pub.facts.push({
         text: edits.get(`${slug}:${i}`) || f.text,
-        sources: [...new Map(f.sources.map((s) => [s.finalUrl || s.url, { title: s.title, url: s.finalUrl || s.url }])).values()]
+        // The supporting sentence stays with the published fact (the site doesn't show it), so the monthly
+        // recheck can look for the same sentence on the page again.
+        sources: [...new Map(f.sources.map((s) => [s.finalUrl || s.url, { title: s.title, url: s.finalUrl || s.url, ...(s.quote && s.quoteFound ? { quote: s.quote } : {}) }])).values()]
       });
     } else if (!chosen) keep.push(f);
     else console.log(`skip ${slug}:${i} (quote not verified)`);

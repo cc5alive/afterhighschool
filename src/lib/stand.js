@@ -27,6 +27,7 @@ export function standData(s, c) {
     ed: v.ed_applied > 0 && v.ed_admitted != null ? [v.ed_admitted, v.ed_applied] : null,
     veryImportant: Object.keys(VERY).filter((k) => v[k] === 'Very Important').map((k) => VERY[k]),
     gpaImportance: v.factor_gpa || null,
+    testPolicy: s.testPolicy || null, ownership: s.ownership || null,
     cdsYear: c?.cdsYear || null, cdsUrl: c?.source?.url || null
   };
 }
@@ -56,6 +57,71 @@ export function placeGpa(g, buckets) {
   const tone = b === 0 || higher < 25 ? 'above' : higher >= 75 ? 'below' : 'mid';
   const short = b === 0 ? `Top range (${pctText(same)} had 4.0+)` : `${pctText(higher)} had a higher GPA`;
   return { b, higher, same, lower, tone, short };
+}
+
+// ---- Outlook: Reach / Target / Likely -------------------------------------------------------------
+// A plain category from a table anyone can check, never a percent chance. It uses two things the
+// sources actually give us: the share of applicants a school admits, and where a student's numbers fall
+// among the students who enrolled. Everything else (essays, major, residency, hooks) it says it can't see.
+
+// Under this admit rate a school is a reach for every applicant, whatever their numbers.
+export const REACH_FOR_ALL = 0.15;
+// Admit-rate bands (lowest rate in the band) and the category for numbers below, inside and above the
+// middle of enrolled students. Shown on /methodology exactly as it is used here.
+export const OUTLOOK_TABLE = [
+  { min: 0.15, below: 'reach', mid: 'reach', above: 'target' },
+  { min: 0.3, below: 'reach', mid: 'target', above: 'target' },
+  { min: 0.5, below: 'reach', mid: 'target', above: 'likely' },
+  { min: 0.75, below: 'target', mid: 'likely', above: 'likely' }
+];
+export const OUTLOOK_LABEL = { 'reach-all': 'Reach for everyone', reach: 'Reach', target: 'Target', likely: 'Likely' };
+export const OUTLOOK_MEANS = {
+  'reach-all': 'It turns down most applicants whose numbers match its students\', so nobody should count on it.',
+  reach: 'More likely a no than a yes. Worth applying if you love it, alongside schools where your odds are better.',
+  target: 'A realistic shot, not a sure thing.',
+  likely: 'Applicants with numbers like yours usually get in. It still isn\'t a guarantee.'
+};
+
+// Which GPA scale a school's report uses, as far as its own numbers show. An average above 4.0 can only
+// come from weighted GPAs. An average of 4.0 or less doesn't prove the scale is unweighted.
+export const gpaScale = (d) => (d.gpaAvg != null && d.gpaAvg > 4 ? 'weighted' : 'unknown');
+
+export function outlook(d, p) {
+  const g = num(p.gpa, 0, 5), sat = num(p.sat, 400, 1600), act = num(p.act, 1, 36);
+  const notes = [], gpaNotes = [], tones = [], used = [];
+  const required = d.testPolicy === 'required';
+
+  if (g != null && (d.gpa || d.gpaAvg != null)) {
+    const weighted = gpaScale(d) === 'weighted';
+    if (weighted && g <= 4) gpaNotes.push(`Your GPA isn't counted in this label: ${d.name} reports weighted GPAs, and a GPA of 4.0 or less looks unweighted.`);
+    else if (!weighted && g > 4) gpaNotes.push('Your GPA isn\'t counted in this label: it is above 4.0, so it is weighted. Enter your unweighted GPA for a fair comparison.');
+    else {
+      tones.push(d.gpa ? placeGpa(g, d.gpa).tone : g >= d.gpaAvg + 0.1 ? 'above' : g <= d.gpaAvg - 0.25 ? 'below' : 'mid');
+      used.push('GPA');
+    }
+  }
+  for (const [kind, score, range] of [['SAT', sat, d.sat], ['ACT', act, d.act]]) {
+    if (score == null || !range) continue;
+    const tone = placeScore(score, range).tone;
+    if (tone === 'below' && !required) { notes.push(`Your ${kind} is below the range of students who sent scores, but you don't have to send it here.`); continue; }
+    tones.push(tone); used.push(kind);
+  }
+
+  const blind = `This can't see your essays, recommendations, activities or the major you apply to${d.ownership === 'public' ? ', or whether you\'re in-state (public universities often admit in-state and out-of-state applicants at very different rates)' : ''}. Popular majors like computer science, engineering and nursing can be much harder to get into than the school as a whole.`;
+  // Why a GPA was left out only matters where the numbers decide the label.
+  const none = { level: null, label: null, means: null, standing: null, used, notes: [...gpaNotes, ...notes], blind };
+  if (d.admit == null) return none;
+  if (d.admit < REACH_FOR_ALL) {
+    // Shown as soon as the student has entered anything: their numbers don't change it.
+    if (g == null && sat == null && act == null) return none;
+    return { ...none, notes, level: 'reach-all', label: OUTLOOK_LABEL['reach-all'], means: OUTLOOK_MEANS['reach-all'] };
+  }
+  if (!tones.length) return none;
+  // One number below the middle half sets the standing; all of them must be in the top quarter to count as above.
+  const standing = tones.includes('below') ? 'below' : tones.every((t) => t === 'above') ? 'above' : 'mid';
+  const row = [...OUTLOOK_TABLE].reverse().find((r) => d.admit >= r.min);
+  const level = row[standing];
+  return { ...none, level, label: OUTLOOK_LABEL[level], means: OUTLOOK_MEANS[level], standing };
 }
 
 // Profile: the numbers a student entered, kept in this browser only.

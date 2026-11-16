@@ -1,16 +1,33 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { schools, pulledDate } from '../lib/data.js';
+import { schools, pulledDate, cds, highlights, testPolicyFor } from '../lib/data.js';
+import { DATA_AGE, dataYearsChecked, admissionsFall } from '../lib/data-years.js';
+import { OUTLOOK_TABLE, OUTLOOK_LABEL, OUTLOOK_MEANS, REACH_FOR_ALL } from '../lib/stand.js';
 import { COLLEGES_LAUNCHED, TRADES_LAUNCHED, APPRENTICESHIPS_LAUNCHED, TRANSFER_LAUNCHED, CONTACT_EMAIL } from '../lib/site.js';
 import { occupations as apOccupations, wageYear, projectionYears } from '../lib/apprentice-data.js';
 import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js';
+
+const cdsCount = cds.size;
+// How many school reports we hold for each year, newest first ("2025-2026" -> "2025–26").
+const cdsByYear = [...[...cds.values()].reduce((m, c) => m.set(c.cdsYear || 'unknown', (m.get(c.cdsYear || 'unknown') || 0) + 1), new Map())]
+  .filter(([y]) => /^\d{4}-\d{4}$/.test(y)).sort((a, b) => b[0].localeCompare(a[0]))
+  .map(([y, n]) => `${n} for ${y.slice(0, 4)}–${y.slice(7)}`);
+const factCount = [...highlights.values()].reduce((n, h) => n + h.facts.length, 0);
+const policyChecked = schools.filter((x) => testPolicyFor(x.slug)).length;
+const pctBand = (r, i) => `${Math.round(r.min * 100)}% to ${OUTLOOK_TABLE[i + 1] ? `${Math.round(OUTLOOK_TABLE[i + 1].min * 100)}%` : '100%'}`;
 ---
 <Layout title="How our data works | After High School"
   description="Where every number on afterhighschool.me comes from, what each measure means, which schools are included and how often we update."
   path="/methodology" nav="colleges" noindex={!COLLEGES_LAUNCHED}>
   <article class="method">
     <h1>How our data works</h1>
-    <p>Every number on our college pages comes from the U.S. Department of Education's <a href="https://collegescorecard.ed.gov/data/" rel="noopener" target="_blank">College Scorecard</a>. Scorecard combines what colleges report to the federal government (through the IPEDS surveys) with federal student aid and tax records. We don't edit the numbers; we choose which ones to show, explain them in plain words, and link every school back to its Scorecard page.</p>
+    <p>Most numbers on our college pages come from the U.S. Department of Education's <a href="https://collegescorecard.ed.gov/data/" rel="noopener" target="_blank">College Scorecard</a>. Scorecard combines what colleges report to the federal government (through the IPEDS surveys) with federal student aid and tax records. We don't edit those numbers; we choose which ones to show, explain them in plain words, and link every school back to its Scorecard page.</p>
+    <p>Three things come from the schools themselves instead: admissions details from {cdsCount.toLocaleString('en-US')} schools' own Common Data Set reports, test policies we checked on {policyChecked} schools' admissions pages, and the "What's special" notes. Every number says which source it came from and links to it.</p>
+
+    <h2 id="age">How old each number is</h2>
+    <p>The federal data doesn't all cover the same year. As of {dataYearsChecked}, this is what each number describes:</p>
+    <ul>{DATA_AGE.map(([what, when]) => <li><strong>{what}:</strong> {when}.</li>)}</ul>
+    <p>A school's own report is usually a year newer than the federal admissions figures, so a page can show two admit rates. The one at the top is the federal figure for the class that entered in fall {admissionsFall}; the one under "From the school's own report" names its own year.</p>
 
     <h2>Which schools are included</h2>
     <p>{schools.length.toLocaleString('en-US')} schools: every currently operating college in the 50 states and DC whose main credential is a bachelor's degree or higher. Schools that mainly award certificates or associate degrees will appear with trade schools and community colleges later. For-profit colleges are included and labeled.</p>
@@ -22,9 +39,9 @@ import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js'
     <h2>What each number means</h2>
     <dl>
       <dt>Admit rate</dt>
-      <dd>Share of first-year applicants who were offered admission. Schools with open admission don't report one; we say so instead.</dd>
+      <dd>Share of first-year applicants who were offered admission, for the class that entered in fall {admissionsFall}. It covers everyone who applied: early and regular, in-state and out-of-state, every major. Any one of those groups can have a very different rate. Schools with open admission don't report one; we say so instead.</dd>
       <dt>Test policy</dt>
-      <dd>What the school told the federal government about SAT and ACT scores: required, recommended, considered if sent (test-optional), or not considered (test-blind). Policies change, so confirm on the school's website.</dd>
+      <dd>For {policyChecked} schools we checked the policy on the school's own admissions page and show the date we checked. For the rest it is what the school told the federal government for fall {admissionsFall}: required, recommended, considered if sent (test-optional), or not considered (test-blind). Many schools have changed their policy since then, so confirm on the school's website. A school that says it doesn't consider scores can still report a score range, because some students send scores for placement or scholarships.</dd>
       <dt>SAT and ACT ranges</dt>
       <dd>The middle 50% of scores among enrolled first-year students who sent scores. A quarter scored below the low number and a quarter above the high one. At test-optional schools these students may score higher than applicants overall. For the SAT total we use the school's own Common Data Set. College Scorecard only reports reading and math separately, and adding two section ranges doesn't give the range for total scores, so where we don't have the school's report we show the two section ranges instead. ACT ranges come from the school's report when we have it and from Scorecard otherwise.</dd>
       <dt>Average net price</dt>
@@ -40,19 +57,50 @@ import { tradeSchools, tradeIndex, tradePulledDate } from '../lib/trade-data.js'
       <dt>Median debt at graduation</dt>
       <dd>Middle amount of federal student loan debt among students who finished. Private loans and parent loans aren't included.</dd>
       <dt>Pell grants and first-generation share</dt>
-      <dd>Share of undergraduates receiving federal Pell grants (which go to lower-income students), and share whose parents' highest education was high school or less.</dd>
+      <dd>Share of undergraduates receiving federal Pell grants (which go to lower-income students), and share whose parents' highest education was high school or less. The first-generation figure is old (see above); the government hasn't published a newer one.</dd>
     </dl>
 
     <h2>"What's special" notes</h2>
-    <p>Some school pages have a short list of facts that set the school apart, like a co-op program, a tuition guarantee or an unusual admissions rule. We write each one ourselves from a linked source, usually the school's own site, and every fact is checked against that source before it goes live. Each fact links to where it came from, and each list shows the date it was last checked. Schools can't pay for or write these notes.</p>
+    <p>Some school pages have a short list of facts that set the school apart, like a co-op program, a tuition guarantee or an unusual admissions rule. There are {factCount.toLocaleString('en-US')} of them so far. We use AI research tools (Google's Gemini and Anthropic's Claude) to find candidate facts and the sentence on the source page that supports each one. A script then confirms that sentence is on the page, and each fact is reviewed against it before it goes live. Each fact links to where it came from, usually the school's own site, and each list shows the date it was checked. Programs and prices change after that date, so treat a note as a pointer to the school's page, not a promise. Schools can't pay for or write these notes.</p>
 
     <h2>Numbers from a school's own report</h2>
     <p>For a growing list of schools, the "Getting in" section also shows numbers from the school's Common Data Set: a standard report most colleges publish each year about their applicants and first-year students. It covers the high school GPA spread, early decision and wait list numbers, test scores, class rank, how much the admissions office says each factor counts, how many transfer students applied, were admitted and enrolled, and whether admitted students may postpone enrolling.</p>
-    <p>We read each value straight from the school's report and link to it. Before a number goes live it has to pass consistency checks: the admit rate in the report has to be close to the federal figure, the GPA percentages have to add up to about 100, test score ranges have to be in order and close to the federal ranges, and early decision admits can't exceed applicants. Anything that fails is left out rather than guessed. Reports are for a recent year and can differ a little from the federal data, which lags by a year or two.</p>
+    <p>We have {cdsCount.toLocaleString('en-US')} reports: {cdsByYear.join(', ')}. Each school's panel names its year. A report for 2025–26 describes the class that entered in fall 2025.</p>
+    <p>Each value is read from the school's document by a program that finds the printed row, and most are read a second time by an AI tool (Gemini) whose quoted line is checked against the document. Before a number goes live it has to pass consistency checks: the admit rate in the report has to be close to the federal figure (and nearly equal when both describe the same class), the GPA percentages have to add up to about 100, test score ranges have to be in order and close to the federal ranges, early decision admits can't exceed applicants or the size of the class, and wait list counts have to nest. Anything that fails is left out rather than guessed, which is why some panels are missing a number the report contains.</p>
+    <p>Three limits to know about. Test score ranges describe only students who sent scores, and at test-optional schools those students tend to score higher than the class as a whole. Schools report GPAs on their own scale: some weighted, some not, and the report doesn't always say which. And a few universities publish a report for only part of their undergraduates, so it won't match the federal figure for the whole school.</p>
 
     <h2>Where you'd stand</h2>
     <p>On a school's page you can enter your GPA and test scores to see how they compare with that school's first-year students: which GPA range you'd fall in and how many students had a higher or lower one, and whether your SAT or ACT score is below, inside or above the middle half of scores. We use the school's Common Data Set when we have it and federal data otherwise, and we say which.</p>
     <p>It doesn't give you a percent chance of getting in. No public source tells us how a particular applicant's odds work, and admission at selective schools depends a lot on essays, recommendations and other things numbers can't capture, so a percentage would be a guess dressed up as a fact. Your numbers stay in your browser. We don't store or send them.</p>
+
+    <h3 id="outlook">Reach, Target or Likely</h3>
+    <p>Above the comparison, the tool gives one of four plain labels. It is the rule of thumb school counselors use, written down so you can check it. It uses only two things: the share of applicants the school admits, and where your numbers fall among the students who enrolled.</p>
+    <ul>
+      <li><strong>{OUTLOOK_LABEL['reach-all']}:</strong> any school that admits fewer than {Math.round(REACH_FOR_ALL * 100)} in 100 applicants, whatever your numbers. {OUTLOOK_MEANS['reach-all']}</li>
+      <li><strong>{OUTLOOK_LABEL.reach}:</strong> {OUTLOOK_MEANS.reach}</li>
+      <li><strong>{OUTLOOK_LABEL.target}:</strong> {OUTLOOK_MEANS.target}</li>
+      <li><strong>{OUTLOOK_LABEL.likely}:</strong> {OUTLOOK_MEANS.likely}</li>
+    </ul>
+    <div class="la-table-wrap">
+      <table class="nat-table">
+        <thead><tr><th scope="col">School admits</th><th scope="col">A number below the middle half</th><th scope="col">Numbers in the middle half</th><th scope="col">Every number in the top quarter</th></tr></thead>
+        <tbody>
+          <tr><td>Under {Math.round(REACH_FOR_ALL * 100)}%</td><td colspan="3">{OUTLOOK_LABEL['reach-all']}</td></tr>
+          {OUTLOOK_TABLE.map((r, i) => <tr><td>{pctBand(r, i)}</td><td>{OUTLOOK_LABEL[r.below]}</td><td>{OUTLOOK_LABEL[r.mid]}</td><td>{OUTLOOK_LABEL[r.above]}</td></tr>)}
+        </tbody>
+      </table>
+    </div>
+    <p>"Below the middle half" means a test score under the 25th percentile of students who sent scores, or a GPA that three in four first-years beat. One number below sets the row, and every number you enter has to be in the top quarter to count as above.</p>
+    <p>What the label leaves out, on purpose or because no source has it:</p>
+    <ul>
+      <li>Essays, recommendations, activities, interviews and anything else in your application besides GPA and scores.</li>
+      <li>Your major. Computer science, engineering and nursing can be far harder to get into than the school as a whole.</li>
+      <li>Whether you're in-state. Public universities often admit residents and non-residents at very different rates, and we only have the combined rate.</li>
+      <li>Recruited athletes, children of alumni and other groups admitted at different rates.</li>
+      <li>A test score below the school's range when the school doesn't require scores, because you can leave it out.</li>
+      <li>Your GPA when it can't be compared fairly: an unweighted GPA at a school that reports weighted ones, or a GPA above 4.0 at a school that may not.</li>
+    </ul>
+    <p>The cutoffs are our judgment, not a law of nature. A school at 14% and a school at 16% are not different kinds of places. Use the label to build a balanced list, with some of each, not to decide whether to apply to any one school.</p>
     <p>You can also save schools to <a href="/my-list">My list</a>, which shows where you'd stand at each saved school on one page, along with its admit rate, average net price and graduation rate. Your list stays in your browser too.</p>
 
     {TRADES_LAUNCHED && (
