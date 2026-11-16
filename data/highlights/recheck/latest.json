@@ -19,20 +19,9 @@
     "connecticut",
     "massachusetts"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "alabama-state-university",
-   "fact": 0,
-   "text": "Alabama State opened as Lincoln Normal School in 1867, making it one of the oldest HBCUs.",
-   "sources": [
-    "https://www.alasu.edu/about/history-tradition.php"
-   ],
-   "statuses": [
-    200
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "andrews-university",
@@ -49,71 +38,9 @@
    "missingNames": [
     "church"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "arizona-state-university-digital-immersion",
-   "fact": 0,
-   "text": "Eligible U.S. Starbucks employees get 100% tuition coverage at ASU through the Starbucks College Achievement Plan, choosing from more than 180 fully online bachelor's programs.",
-   "sources": [
-    "https://starbucks.asu.edu/"
-   ],
-   "statuses": [
-    200
-   ],
-   "reviewedAt": "2026-11-04",
-   "missingNumbers": [
-    "100",
-    "180"
-   ],
-   "missingNames": [],
-   "result": "number not on page"
-  },
-  {
-   "slug": "baker-college",
-   "fact": 1,
-   "text": "Baker College has been delivering online degree programs since 1994 as an early pioneer in online education.",
-   "sources": [
-    "https://catalog.baker.edu/content.php?catoid=23&navoid=1508"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "ball-state-university",
-   "fact": 0,
-   "text": "Every Ball State student completes at least one course that includes undergraduate research, immersive learning, or study abroad or away.",
-   "sources": [
-    "https://www.bsu.edu/about/administrativeoffices/immersive-learning/about-immersive-learning"
-   ],
-   "statuses": [
-    403
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "bethune-cookman-university",
-   "fact": 0,
-   "text": "The university was established in 1904 by Dr. Mary McLeod Bethune with five students and $1.50.",
-   "sources": [
-    "https://global.cookman.edu/about"
-   ],
-   "statuses": [
-    200
-   ],
-   "reviewedAt": "2026-11-05",
-   "missingNumbers": [
-    "1904",
-    "1.50"
-   ],
-   "missingNames": [
-    "mcleod"
-   ],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "bryan-college-of-health-sciences",
@@ -126,20 +53,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "butler-university",
-   "fact": 0,
-   "text": "All Butler University students entering in fall 2010 or later must complete at least one Indianapolis Community Requirement course involving active engagement with the Indianapolis community.",
-   "sources": [
-    "https://www.butler.edu/academics/core/components/indianapolis-community-requirement/"
-   ],
-   "statuses": [
-    464
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "campbellsville-university",
@@ -156,7 +71,9 @@
    "missingNames": [
     "pell-eligible"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "central-state-university",
@@ -173,33 +90,9 @@
    "missingNames": [
     "black"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "central-washington-university",
-   "fact": 1,
-   "text": "Central Washington University operates on a quarter system academic calendar and grants quarter credit rather than semester credit.",
-   "sources": [
-    "https://catalog.acalog.cwu.edu/content.php?catoid=95&navoid=9101"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "centre-college",
-   "fact": 0,
-   "text": "Centre College operates on an academic calendar consisting of two full semesters (Fall and Spring) and a three-week winter term known as CentreTerm.",
-   "sources": [
-    "https://www.centre.edu/academics/academic-calendar"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "charleston-southern-university",
@@ -216,7 +109,9 @@
     "100"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "colby-college",
@@ -229,7 +124,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "colby-college",
@@ -242,24 +138,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "colby-sawyer-college",
-   "fact": 0,
-   "text": "Every student at Colby-Sawyer College completes an internship in their field of study to gain hands-on work experience prior to graduation.",
-   "sources": [
-    "https://admit.colby-sawyer.edu/"
-   ],
-   "statuses": [
-    200
-   ],
-   "reviewedAt": "2026-11-05",
-   "missingNumbers": [],
-   "missingNames": [
-    "colby-sawyer"
-   ],
-   "result": "name not on page"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "college-of-the-ozarks",
@@ -276,7 +156,9 @@
     "40"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "columbia-college-chicago",
@@ -293,7 +175,9 @@
    "missingNames": [
     "angeles"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "columbia-university-in-the-city-of-new-york",
@@ -306,7 +190,8 @@
     403
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "conception-seminary-college",
@@ -321,9 +206,16 @@
    "reviewedAt": "2026-11-05",
    "missingNumbers": [],
    "missingNames": [
-    "roman"
+    "roman",
+    "catholic",
+    "philosophy",
+    "philosophical",
+    "theological",
+    "studies"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "cottey-college",
@@ -340,59 +232,28 @@
     "200000"
    ],
    "missingNames": [],
-   "result": "number not on page"
-  },
-  {
-   "slug": "crown-college",
-   "fact": 1,
-   "text": "Crown College is a residential college that requires all students to live in college housing unless they meet specific exemption criteria.",
-   "sources": [
-    "https://catalog.crown.edu/content.php?catoid=24&navoid=674"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "dartmouth-college",
    "fact": 0,
-   "text": "Under the D-Plan, the year has four terms including summer. Students are on campus for all of first year, the summer after sophomore year and two senior terms, and must take three terms off, at least one in a fall or spring.",
+   "text": "Under the D-Plan, the year has four terms including summer. Students are on campus for all of first year, the summer after sophomore year and at least two senior terms, and fit 12 terms into 15, with at most seven fall or spring terms on campus.",
    "sources": [
-    "https://students.dartmouth.edu/undergraduate-deans/sites/students_undergraduate_deans.prod/files/students_undergraduate_deans/wysiwyg/d-plan_planning_for_first-year_students_2025.pdf"
+    "https://dartmouth.smartcatalogiq.com/en/2025/orc/regulations/undergraduate-study/requirements-for-the-degree-of-bachelor-of-arts/enrollment-patterns"
    ],
    "statuses": [
-    404
+    200
    ],
-   "reviewedAt": "2026-11-04",
-   "result": "source gone"
-  },
-  {
-   "slug": "davidson-college",
-   "fact": 1,
-   "text": "Davidson requires all students to live on campus for all four years.",
-   "sources": [
-    "https://catalog.davidson.edu/content.php?catoid=13&navoid=446"
+   "reviewedAt": "2026-11-15",
+   "missingNumbers": [
+    "15"
    ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "divine-word-college",
-   "fact": 0,
-   "text": "Divine Word College is the only Roman Catholic undergraduate seminary in the United States dedicated to educating men and women for missionary service.",
-   "sources": [
-    "https://www.dwci.edu/about-dwc"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "missingNames": [],
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "east-carolina-university",
@@ -409,46 +270,9 @@
    "missingNames": [
     "north"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "fordham-university",
-   "fact": 0,
-   "text": "Fordham's common core curriculum requires undergraduate students to complete two courses in philosophy and two in theology.",
-   "sources": [
-    "https://www.fordham.edu/arts-and-sciences/undergraduate-study/academic-and-pre-professional-advising/core-curriculum/"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "framingham-state-university",
-   "fact": 0,
-   "text": "The Framingham State Tuition Promise guarantees that admitted Massachusetts undergraduate students with household incomes of $85,000 or less pay zero in tuition and fees after financial aid grants.",
-   "sources": [
-    "https://www.framingham.edu/admissions-aid/admissions/undergraduate-admissions/start-your-college-journey-confidence"
-   ],
-   "statuses": [
-    403
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "franklin-and-marshall-college",
-   "fact": 1,
-   "text": "Students in each first-year Connections seminar are assigned to live together in one of the College Houses.",
-   "sources": [
-    "https://catalog.fandm.edu/content.php?catoid=4&navoid=104"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "georgetown-university",
@@ -465,20 +289,9 @@
    "missingNames": [
     "walsh"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "georgia-gwinnett-college",
-   "fact": 0,
-   "text": "Georgia Gwinnett College holds the distinction of being the nation's first four-year public college founded in the 21st century.",
-   "sources": [
-    "https://catalog.ggc.edu/content.php?catoid=49&navoid=7102"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "georgia-institute-of-technology-main-campus",
@@ -488,10 +301,11 @@
     "https://career.gatech.edu/undergraduate-co-op-program/"
    ],
    "statuses": [
-    0
+    404
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "result": "source gone",
+   "browserChecked": true
   },
   {
    "slug": "georgia-institute-of-technology-main-campus",
@@ -504,41 +318,8 @@
     403
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
-  },
-  {
-   "slug": "governors-state-university",
-   "fact": 0,
-   "text": "Under the Guaranteed Tuition Plan, Illinois undergraduate students pay a per-credit-hour tuition rate in their first term that remains the same for each of the following consecutive eleven terms.",
-   "sources": [
-    "https://catalog.govst.edu/content.php?catoid=12&navoid=1328"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "harris-stowe-state-university",
-   "fact": 0,
-   "text": "Harris-Stowe State University is designated as one of two Historically Black Colleges and Universities in Missouri.",
-   "sources": [
-    "https://www.hssu.edu/rsp_content_cus_ticket.html?wid=50&pid=476"
-   ],
-   "statuses": [
-    200
-   ],
-   "reviewedAt": "2026-11-05",
-   "missingNumbers": [],
-   "missingNames": [
-    "historically",
-    "black",
-    "colleges",
-    "universities",
-    "missouri"
-   ],
-   "result": "name not on page"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "johns-hopkins-university",
@@ -555,7 +336,9 @@
     "27"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "liberty-university",
@@ -570,10 +353,11 @@
    "reviewedAt": "2026-11-05",
    "missingNumbers": [],
    "missingNames": [
-    "christian",
     "community"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "lincoln-university-pa",
@@ -590,20 +374,9 @@
    "missingNames": [
     "pennsylvania"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "lipscomb-university",
-   "fact": 1,
-   "text": "The study of the Bible is integral to a Lipscomb education, and all Lipscomb students examine the Bible's overall message and the life to which it calls believers through a general education Bible requirement.",
-   "sources": [
-    "https://catalog.lipscomb.edu/content.php?catoid=24&navoid=1889"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "massachusetts-college-of-liberal-arts",
@@ -625,33 +398,9 @@
     "island",
     "vermont"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "mckendree-university",
-   "fact": 0,
-   "text": "The Clear Path tuition initiative guarantees that a student will pay no more than $16,000 in tuition and mandatory fees annually after McKendree University institutional aid has been applied.",
-   "sources": [
-    "https://www.mckendree.edu/admission/clear-path.php"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "midamerica-nazarene-university",
-   "fact": 0,
-   "text": "Traditional undergraduates at MNU must earn 20 Spiritual Formation Credits each semester, including 10 from Tuesday Gathering Chapels.",
-   "sources": [
-    "https://catalog.mnu.edu/content.php?catoid=8&navoid=627"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "missouri-southern-state-university",
@@ -671,7 +420,9 @@
     "missouri—arkansas",
     "nebraska—as"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "nazareth-university",
@@ -688,20 +439,9 @@
    "missingNames": [
     "grants"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "new-york-university",
-   "fact": 0,
-   "text": "NYU grants degrees at three campuses, in New York, Abu Dhabi and Shanghai, and runs study-away sites in cities from London and Paris to Accra, Buenos Aires and Sydney.",
-   "sources": [
-    "https://wp.nyu.edu/global_dimensions/?p=4776"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "newberry-college",
@@ -714,7 +454,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "oakland-university",
@@ -733,7 +474,9 @@
     "100"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "ohio-dominican-university",
@@ -750,33 +493,9 @@
    "missingNames": [
     "pell-eligible"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "ohio-university-main-campus",
-   "fact": 1,
-   "text": "Ohio University requires students to live on campus for their first two years of academic study.",
-   "sources": [
-    "https://www.catalogs.ohio.edu/content.php?catoid=107&navoid=11957"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "pittsburg-state-university",
-   "fact": 0,
-   "text": "The Gorilla Advantage Tuition Program allows eligible non-resident undergraduate and graduate students from 32 states to pay resident tuition and fees.",
-   "sources": [
-    "https://www.pittstate.edu/financial-aid/cost-of-attendance.html"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "saint-anselm-college",
@@ -793,7 +512,9 @@
    "missingNames": [
     "conversatio"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "san-francisco-state-university",
@@ -806,20 +527,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "scripps-college",
-   "fact": 0,
-   "text": "Scripps students can take as many classes as they like at the other Claremont Colleges: Pomona, Harvey Mudd, Pitzer and Claremont McKenna.",
-   "sources": [
-    "https://scrippscollege.edu/admission/5c-cross-registration"
-   ],
-   "statuses": [
-    404
-   ],
-   "reviewedAt": "2026-11-04",
-   "result": "source gone"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "south-carolina-state-university",
@@ -832,7 +541,8 @@
     0
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "spelman-college",
@@ -845,7 +555,8 @@
     0
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "spelman-college",
@@ -862,7 +573,9 @@
    "missingNames": [
     "caltech"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "state-university-of-new-york-at-cortland",
@@ -879,7 +592,9 @@
    "missingNames": [
     "adirondacks"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "suny-college-at-geneseo",
@@ -892,7 +607,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "suny-college-of-environmental-science-and-forestry",
@@ -909,63 +625,30 @@
    "missingNames": [
     "adirondacks"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "swarthmore-college",
-   "fact": 0,
-   "text": "Swarthmore evaluates all first-semester students on a credit/no credit basis, meaning letter grades do not appear on the official transcript.",
-   "sources": [
-    "https://www.swarthmore.edu/academics/first-year-experience"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "swarthmore-college",
-   "fact": 1,
-   "text": "In Swarthmore's Honors Program, students work closely with faculty and are examined by outside experts.",
-   "sources": [
-    "https://www.swarthmore.edu/honors-program"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "talladega-college",
-   "fact": 0,
-   "text": "Talladega College is Alabama's first private historically black college.",
-   "sources": [
-    "https://www.talladega.edu/news/talladega-college-receives-endowment-from-alpha-kappa-alpha-sorority-inc/"
-   ],
-   "statuses": [
-    404
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "source gone"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "texas-a-and-m-university-kingsville",
    "fact": 0,
-   "text": "Under the Javelina Promise, eligible Texas undergraduate students with household income of $65,000 or less have tuition and fees covered for up to 4 years.",
+   "text": "Under the Javelina Promise, Texas residents with family income of $100,000 or less and financial need have tuition and mandatory fees covered, starting with new students in fall 2027. The limit was $65,000 for earlier classes.",
    "sources": [
+    "https://www.tamuk.edu/news/2026/11/TAMUK-Expands-Tuition-Assistance-Program-Adds-On-Campus-Housing-Scholarship.html",
     "https://www.tamuk.edu/JavelinaPromise/index.html"
    ],
    "statuses": [
+    200,
     200
    ],
-   "reviewedAt": "2026-11-05",
+   "reviewedAt": "2026-11-15",
    "missingNumbers": [
     "65000"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "the-cooper-union-for-the-advancement-of-science-and-art",
@@ -982,7 +665,9 @@
     "26"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "the-university-of-alabama",
@@ -999,59 +684,9 @@
     "3.5"
    ],
    "missingNames": [],
-   "result": "number not on page"
-  },
-  {
-   "slug": "the-university-of-texas-at-austin",
-   "fact": 0,
-   "text": "Texas students who rank in the top 5% of their high school class are admitted to the university automatically, for students entering in summer or fall 2027 and spring 2028.",
-   "sources": [
-    "https://tea.texas.gov/sites/default/files/taa-2025-12-18-the-university-of-texas-at-austin-automatic-admission-policy.pdf"
-   ],
-   "statuses": [
-    404
-   ],
-   "reviewedAt": "2026-11-04",
-   "result": "source gone"
-  },
-  {
-   "slug": "the-university-of-texas-at-dallas",
-   "fact": 0,
-   "text": "Under the Comet Promise, Texas residents with a family income of $100,000 or less have tuition and fees covered through scholarships, grants, and institutional funding.",
-   "sources": [
-    "https://utdallas.edu/costs-scholarships-aid/costs/tuition/promise/"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "the-university-of-texas-at-dallas",
-   "fact": 1,
-   "text": "UT Dallas offers a guaranteed tuition plan that locks in tuition rates for four consecutive years to guard against rate increases.",
-   "sources": [
-    "https://bursar.utdallas.edu/tuition/tuition-plans/"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "the-university-of-texas-at-dallas",
-   "fact": 2,
-   "text": "The Comet Promise program covers tuition and mandatory fees for eligible students by combining federal, state, and institutional funding.",
-   "sources": [
-    "https://utdallas.edu/costs-scholarships-aid/costs/tuition/promise/"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "toccoa-falls-college",
@@ -1064,7 +699,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "tulane-university-of-louisiana",
@@ -1077,7 +713,8 @@
     403
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "united-states-merchant-marine-academy",
@@ -1090,7 +727,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "united-states-merchant-marine-academy",
@@ -1103,7 +741,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "united-states-military-academy",
@@ -1118,7 +757,8 @@
     403
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "university-of-california-los-angeles",
@@ -1130,21 +770,9 @@
    "statuses": [
     403
    ],
-   "reviewedAt": "2026-11-04",
-   "result": "could not load"
-  },
-  {
-   "slug": "university-of-california-los-angeles",
-   "fact": 1,
-   "text": "Transferring in is a real route: more than 7,700 UCLA undergraduates are transfer students, and 93% of them came from California community colleges.",
-   "sources": [
-    "https://transfers.ucla.edu/about/ucla-transfers"
-   ],
-   "statuses": [
-    404
-   ],
-   "reviewedAt": "2026-11-04",
-   "result": "source gone"
+   "reviewedAt": "2026-11-15",
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "university-of-california-los-angeles",
@@ -1156,8 +784,9 @@
    "statuses": [
     403
    ],
-   "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "reviewedAt": "2026-11-15",
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "university-of-california-merced",
@@ -1170,33 +799,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "university-of-california-santa-cruz",
-   "fact": 0,
-   "text": "Every undergraduate student at UC Santa Cruz belongs to one of its 10 residential colleges.",
-   "sources": [
-    "https://colleges.ucsc.edu/explore-the-colleges/"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "university-of-california-santa-cruz",
-   "fact": 1,
-   "text": "UC Santa Cruz offers an expanded two-year campus housing guarantee for new incoming undergraduate cohorts entering in fall 2026 and later who indicate an on-campus preference.",
-   "sources": [
-    "https://housing.ucsc.edu/policies-contracts/housing-guarantee/"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "university-of-central-arkansas",
@@ -1213,33 +817,9 @@
    "missingNames": [
     "pell-eligible"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "university-of-central-oklahoma",
-   "fact": 0,
-   "text": "UCO uses the Student Transformative Learning Record (STLR) as a second transcript to document student development in beyond-disciplinary skills.",
-   "sources": [
-    "https://www.uco.edu/academics/tl/"
-   ],
-   "statuses": [
-    403
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "university-of-central-oklahoma",
-   "fact": 1,
-   "text": "UCO's Broncho Advantage waiver pays up to $2,000 per fall and spring semester and up to $1,000 per summer toward nonresident tuition, for four years.",
-   "sources": [
-    "https://www.uco.edu/admissions/tuition/broncho-advantage"
-   ],
-   "statuses": [
-    403
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-evansville",
@@ -1256,7 +836,9 @@
    "missingNames": [
     "england"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-michigan-ann-arbor",
@@ -1269,7 +851,8 @@
     403
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "university-of-missouri-columbia",
@@ -1286,7 +869,9 @@
    "missingNames": [
     "grant-eligible"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-north-carolina-at-charlotte",
@@ -1303,20 +888,9 @@
     "14"
    ],
    "missingNames": [],
-   "result": "number not on page"
-  },
-  {
-   "slug": "university-of-north-texas-at-dallas",
-   "fact": 0,
-   "text": "Through the Trailblazer Tuition Trust, eligible first-time students pursuing their first bachelor's degree may have 100% of tuition and mandatory fees covered.",
-   "sources": [
-    "https://www.untdallas.edu/admissions/freshman/trailblazer-tuition-trust.php"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-pennsylvania",
@@ -1329,24 +903,22 @@
     403
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
-   "slug": "university-of-sioux-falls",
+   "slug": "university-of-portland",
    "fact": 0,
-   "text": "The USF Tuition Promise offers full tuition to first-time, full-time freshmen with a high school GPA of 3.0 or higher who meet its other requirements.",
+   "text": "The university has been guided by the Congregation of Holy Cross, a Catholic order of priests and brothers, since its inception in 1901.",
    "sources": [
-    "https://tuitionpromise.usiouxfalls.edu/"
+    "https://www.up.edu/about-up/index.html"
    ],
    "statuses": [
-    200
+    0
    ],
    "reviewedAt": "2026-11-05",
-   "missingNumbers": [
-    "3.0"
-   ],
-   "missingNames": [],
-   "result": "number not on page"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "university-of-south-carolina-aiken",
@@ -1363,7 +935,9 @@
    "missingNames": [
     "council"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-south-dakota",
@@ -1382,7 +956,9 @@
    "missingNames": [
     "wyoming—pay"
    ],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-utah",
@@ -1399,20 +975,9 @@
    "missingNames": [
     "pell-eligible"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "university-of-wisconsin-madison",
-   "fact": 0,
-   "text": "Bucky's Tuition Promise pays tuition and segregated fees for four years for new Wisconsin residents whose household income is $65,000 or less. Assets don't count, and there's no separate application, only the FAFSA (and, for fall 2026 entrants, the CSS Profile).",
-   "sources": [
-    "https://financialaid.wisc.edu/types-of-aid/tuition-promise/"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-wisconsin-madison",
@@ -1425,7 +990,13 @@
     202
    ],
    "reviewedAt": "2026-11-04",
-   "result": "could not load"
+   "missingNumbers": [],
+   "missingNames": [
+    "pell-eligible"
+   ],
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "university-of-wisconsin-river-falls",
@@ -1435,10 +1006,17 @@
     "https://www.uwrf.edu/paying-for-college/tuition-promise"
    ],
    "statuses": [
-    0
+    200
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "missingNumbers": [
+    "62000",
+    "300000"
+   ],
+   "missingNames": [],
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "valley-city-state-university",
@@ -1455,7 +1033,9 @@
    "missingNames": [
     "windows-based"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "virginia-state-university",
@@ -1472,20 +1052,9 @@
    "missingNames": [
     "black"
    ],
-   "result": "name not on page"
-  },
-  {
-   "slug": "washburn-university",
-   "fact": 0,
-   "text": "The Shawnee County Promise provides a tuition-free education at Washburn University for full-time eligible graduates of Shawnee County high schools who have a household income of $75,000 or less and under $75,000 in assets.",
-   "sources": [
-    "https://www.washburn.edu/admissions/paying-for-college/scholarships/shawnee-county-promise.html"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "washington-university-in-st-louis",
@@ -1502,7 +1071,9 @@
     "53"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "wayne-state-university",
@@ -1512,10 +1083,11 @@
     "https://wayne.edu/financial-aid/types/pledge"
    ],
    "statuses": [
-    0
+    403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "wayne-state-university",
@@ -1525,10 +1097,11 @@
     "https://wayne.edu/financial-aid/types/pledge"
    ],
    "statuses": [
-    0
+    403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "wayne-state-university",
@@ -1538,10 +1111,11 @@
     "https://wayne.edu/admissions/guarantee"
    ],
    "statuses": [
-    0
+    403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "webb-institute",
@@ -1558,7 +1132,9 @@
     "250000"
    ],
    "missingNames": [],
-   "result": "number not on page"
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
   },
   {
    "slug": "wellesley-college",
@@ -1576,7 +1152,9 @@
     "massachusetts",
     "technology"
    ],
-   "result": "name not on page"
+   "quoteGone": false,
+   "result": "name not on page",
+   "browserChecked": true
   },
   {
    "slug": "williams-college",
@@ -1589,7 +1167,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   },
   {
    "slug": "williams-college",
@@ -1602,20 +1181,8 @@
     403
    ],
    "reviewedAt": "2026-11-05",
-   "result": "could not load"
-  },
-  {
-   "slug": "xavier-university-of-louisiana",
-   "fact": 0,
-   "text": "Founded in New Orleans by Mother Katharine Drexel, Xavier University of Louisiana is the nation's only Catholic historically black university.",
-   "sources": [
-    "https://library-archives.xula.edu/repositories/2/resources/2"
-   ],
-   "statuses": [
-    202
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load"
+   "result": "could not load",
+   "browserChecked": true
   }
  ]
 }
