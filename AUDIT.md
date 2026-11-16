@@ -130,7 +130,7 @@ Nothing wrong is shown, but the pages are thinner than they should be, and the g
 
 **Merged Nov 16.** The full re-read published 377 new values, changed 32 and dropped 14. It reproduced 230 of the 243 changes the simulation predicted; the other 13 were already live from the earlier re-check. The other changes came from schools the simulation couldn't model. Boston College and Illinois Tech had posted 2025–26 reports, and the re-read picked those up. Every drop is a document that contradicts itself (wait-list admits above wait-list accepts) or a blank row that had borrowed a number. A follow-up fix counts a read rounded to fewer decimals as agreeing (UW printed 19.12, Gemini read 19.1), which restored UW's test share and GPA set. Checked live: Carnegie Mellon shows 81% top tenth and 97% top quarter, Stanford 2,302 of 60,646 and Florida 90,523 applicants.
 
-**Also found:** Harvard and Penn still have no composite SAT, and Northern Colorado's 2024–25 CDS is a scanned printout with no text. It stays on 2023–24 until someone OCRs it. Miami and UNLV's newest files have the same problem.
+**Also found:** Harvard and Penn still have no composite SAT, and Northern Colorado's 2024–25 CDS and UNLV's 2025–26 CDS are scanned printouts with no text. **Done Nov 16:** both were transcribed from 300 dpi page images, with every count checked against its parts (method in `data/cds/mirror/README.md`), and now publish 41 and 45 values. Their applicant counts are held back because their admit rates are far from the federal figure. Miami isn't scanned: it simply hasn't posted a 2025–26 report yet.
 
 ### 12. Low — Things to know, no action taken
 
@@ -139,7 +139,7 @@ Nothing wrong is shown, but the pages are thinner than they should be, and the g
 - **17 schools are on a 2023–24 CDS**, two classes old.
 - **Compare, directory and My List** now label the admit rate's year (fixed Nov 15).
 - **The weekly Scorecard pull** now records each field's data year itself (fixed Nov 15).
-- **17 schools on a 2023–24 CDS:** searched each for a newer file. None is posted, except Northern Colorado's scanned 2024–25 file. Pace and Geneseo's CDS pages fail to load.
+- **17 schools on a 2023–24 CDS:** searched each for a newer file. None is posted, except Northern Colorado's scanned 2024–25 file (now transcribed). Pace's 2024–25 and 2025–26 reports are behind a Pace sign-in on SharePoint, so they aren't public. Geneseo's site returns an empty page to automated requests; someone would have to download it in a browser.
 
 ### 13. Low — Branch builds on Cloudflare always fail (fixed: preview builds turned off Nov 15)
 
