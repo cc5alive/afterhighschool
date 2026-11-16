@@ -256,6 +256,20 @@
    "browserChecked": true
   },
   {
+   "slug": "delaware-state-university",
+   "fact": 0,
+   "text": "Delaware State University offers a four-year, full-tuition Inspire Scholarship to eligible Delaware high school graduates who enroll full time right after graduation with at least a 2.75 cumulative GPA.",
+   "sources": [
+    "https://www.desu.edu/admissions/financial-aid/scholarships/inspire-scholarship"
+   ],
+   "statuses": [
+    403
+   ],
+   "reviewedAt": "2026-11-05",
+   "result": "could not load",
+   "browserChecked": true
+  },
+  {
    "slug": "east-carolina-university",
    "fact": 0,
    "text": "The Pirate Promise transfer program provides participating North Carolina community college students guaranteed admission to ECU upon completing an approved associate degree.",
@@ -296,11 +310,13 @@
   {
    "slug": "georgia-institute-of-technology-main-campus",
    "fact": 0,
-   "text": "The co-op program alternates paid, full-time work terms with semesters of classes: three terms with the same employer, usually starting between sophomore and junior year, and you stay enrolled tuition-free while working. Finishing earns a co-op designation on your diploma.",
+   "text": "The co-op program alternates paid, full-time work semesters with semesters of classes: at least three work terms with the same employer, and you stay enrolled tuition-free while working. Finishing earns a co-op designation on your diploma.",
    "sources": [
-    "https://career.gatech.edu/undergraduate-co-op-program/"
+    "https://catalog.gatech.edu/academics/special-academic-programs/experiential-education/center-career-discovery-development",
+    "https://career.gatech.edu/undergraduate-co-op-program"
    ],
    "statuses": [
+    404,
     404
    ],
    "reviewedAt": "2026-11-04",
@@ -403,6 +419,32 @@
    "browserChecked": true
   },
   {
+   "slug": "midamerica-nazarene-university",
+   "fact": 0,
+   "text": "Traditional undergraduates at MNU must earn 20 Spiritual Formation Credits each semester, including 10 from Tuesday Gathering Chapels.",
+   "sources": [
+    "https://catalog.mnu.edu/content.php?catoid=8&navoid=627"
+   ],
+   "statuses": [
+    202
+   ],
+   "reviewedAt": "2026-11-05",
+   "missingNumbers": [
+    "20",
+    "10"
+   ],
+   "missingNames": [
+    "formation",
+    "credits",
+    "tuesday",
+    "gathering",
+    "chapels"
+   ],
+   "quoteGone": false,
+   "result": "number not on page",
+   "browserChecked": true
+  },
+  {
    "slug": "missouri-southern-state-university",
    "fact": 0,
    "text": "Under the Lion Pride Tuition Discount, students from every state touching Missouri—Arkansas, Kansas, Oklahoma, Illinois, Iowa, Tennessee, Kentucky, and Nebraska—as well as all counties in Texas, California, Nevada, Arizona, and Florida, pay the same tuition rate as in-state students.",
@@ -492,25 +534,6 @@
    "missingNumbers": [],
    "missingNames": [
     "pell-eligible"
-   ],
-   "quoteGone": false,
-   "result": "name not on page",
-   "browserChecked": true
-  },
-  {
-   "slug": "saint-anselm-college",
-   "fact": 0,
-   "text": "All students take Conversatio, a required year-long interdisciplinary humanities program rooted in the Catholic, Benedictine tradition.",
-   "sources": [
-    "https://www.anselm.edu/academics/core-curriculum/humanities-conversatio"
-   ],
-   "statuses": [
-    200
-   ],
-   "reviewedAt": "2026-11-05",
-   "missingNumbers": [],
-   "missingNames": [
-    "conversatio"
    ],
    "quoteGone": false,
    "result": "name not on page",
@@ -907,20 +930,6 @@
    "browserChecked": true
   },
   {
-   "slug": "university-of-portland",
-   "fact": 0,
-   "text": "The university has been guided by the Congregation of Holy Cross, a Catholic order of priests and brothers, since its inception in 1901.",
-   "sources": [
-    "https://www.up.edu/about-up/index.html"
-   ],
-   "statuses": [
-    0
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load",
-   "browserChecked": true
-  },
-  {
    "slug": "university-of-south-carolina-aiken",
    "fact": 0,
    "text": "USC Aiken is South Carolina's member of COPLAC, the Council of Public Liberal Arts Colleges.",
@@ -999,26 +1008,6 @@
    "browserChecked": true
   },
   {
-   "slug": "university-of-wisconsin-river-falls",
-   "fact": 0,
-   "text": "The Falcon Tuition Promise guarantees funding of all tuition and fees for eligible first-year Wisconsin students with a FAFSA total income of $62,000 or less and net worth of $300,000 or less.",
-   "sources": [
-    "https://www.uwrf.edu/paying-for-college/tuition-promise"
-   ],
-   "statuses": [
-    200
-   ],
-   "reviewedAt": "2026-11-05",
-   "missingNumbers": [
-    "62000",
-    "300000"
-   ],
-   "missingNames": [],
-   "quoteGone": false,
-   "result": "number not on page",
-   "browserChecked": true
-  },
-  {
    "slug": "valley-city-state-university",
    "fact": 0,
    "text": "All full-time on-campus students at Valley City State University are issued either a MacBook Air or a Windows-based laptop.",
@@ -1073,48 +1062,6 @@
    "missingNames": [],
    "quoteGone": false,
    "result": "number not on page",
-   "browserChecked": true
-  },
-  {
-   "slug": "wayne-state-university",
-   "fact": 0,
-   "text": "The Heart of Detroit Tuition Pledge provides free tuition for Detroit high school students or Detroit residents earning a high school diploma.",
-   "sources": [
-    "https://wayne.edu/financial-aid/types/pledge"
-   ],
-   "statuses": [
-    403
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load",
-   "browserChecked": true
-  },
-  {
-   "slug": "wayne-state-university",
-   "fact": 1,
-   "text": "Wayne State's Heart of Detroit Tuition Pledge offers free tuition to students from Detroit high schools and Detroit residents who earn a high school diploma.",
-   "sources": [
-    "https://wayne.edu/financial-aid/types/pledge"
-   ],
-   "statuses": [
-    403
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load",
-   "browserChecked": true
-  },
-  {
-   "slug": "wayne-state-university",
-   "fact": 2,
-   "text": "The Wayne State Guarantee covers 100% of tuition and standard fees for eligible students through a mix of federal, state and Wayne State scholarships and grants.",
-   "sources": [
-    "https://wayne.edu/admissions/guarantee"
-   ],
-   "statuses": [
-    403
-   ],
-   "reviewedAt": "2026-11-05",
-   "result": "could not load",
    "browserChecked": true
   },
   {
