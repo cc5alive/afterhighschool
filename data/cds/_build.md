@@ -293,7 +293,7 @@ Built 2026-11-16.
 | university-of-nebraska-at-kearney | 2025-2026 | 47 |  |
 | university-of-nebraska-at-omaha | 2023-2024 | 0 |  |
 | university-of-nebraska-lincoln | 2025-2026 | 3 |  |
-| university-of-nevada-las-vegas | 2023-2024 | 21 | reader and Gemini read different documents (2025 vs 2023); used the reader one; newer document gave too few values; used the other; SAT 870-1180 far from federal 1010-1240 |
+| university-of-nevada-las-vegas | 2025-2026 | 45 | reader and Gemini read different documents (2025 vs 2023); used the reader one; C1 failed consistency (applied 15271, admitted 12820, enrolled 4719, federal admit rate 0.9617) |
 | university-of-nevada-reno | 2025-2026 | 41 |  |
 | university-of-new-hampshire-main-campus | 2025-2026 | 42 |  |
 | university-of-new-mexico-main-campus | 2025-2026 | 24 | reader and Gemini read different documents (2025 vs 2024); used the reader one; C1 failed consistency (applied 13589, admitted 10866, enrolled 3775, federal admit rate 0.9518) |
@@ -304,7 +304,7 @@ Built 2026-11-16.
 | university-of-north-florida | 2025-2026 | 37 |  |
 | university-of-north-georgia | 2025-2026 | 44 |  |
 | university-of-north-texas | 2025-2026 | 29 |  |
-| university-of-northern-colorado | 2023-2024 | 28 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |
+| university-of-northern-colorado | 2024-2025 | 41 | C1 failed consistency (applied 10212, admitted 9553, enrolled 1243, federal admit rate 0.8585) |
 | university-of-northern-iowa | 2023-2024 | 26 | SAT 880-1200 far from federal 1020-1280 |
 | university-of-oklahoma-norman-campus | 2025-2026 | 48 |  |
 | university-of-oregon | 2025-2026 | 0 |  |

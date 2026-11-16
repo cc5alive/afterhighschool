@@ -1,62 +1,112 @@
 {
   "slug": "university-of-northern-colorado",
-  "cdsYear": "2023-2024",
+  "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set 2023-2024",
-    "url": "https://www.unco.edu/app/uploads/2025/10/UNC-Common-Data-Set-2023-24.pdf"
+    "title": "Common Data Set 2024-2025",
+    "url": "https://www.unco.edu/app/uploads/UNC-Common-Data-Set-2024-25.pdf"
   },
-  "sourceUrl": "https://www.unco.edu/app/uploads/2025/10/UNC-Common-Data-Set-2023-24.pdf",
+  "sourceUrl": "https://www.unco.edu/app/uploads/UNC-Common-Data-Set-2024-25.pdf",
+  "mirror": "data/cds/mirror/university-of-northern-colorado.rows.json",
+  "mirrorHash": "7165af4f65d7",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
   "readerVersion": 12,
-  "docKind": "pdf",
+  "docKind": "ocr",
   "values": {
+    "sat_submit_pct": {
+      "value": 22,
+      "quote": "percent submitting sat scores 22.00%"
+    },
+    "act_submit_pct": {
+      "value": 2,
+      "quote": "percent submitting act scores 2.00%"
+    },
     "gpa_400_pct": {
-      "value": 24,
-      "quote": "percent who had gpa of 4.0 c or t c or t 24 %"
+      "value": 21,
+      "quote": "percent who had gpa of 4.0 21.00"
+    },
+    "gpa_375_pct": {
+      "value": 17.9,
+      "quote": "percent who had gpa between 3.75 and 3.99 17.90"
+    },
+    "gpa_350_pct": {
+      "value": 15.9,
+      "quote": "percent who had gpa between 3.50 and 3.74 15.90"
+    },
+    "gpa_325_pct": {
+      "value": 14,
+      "quote": "percent who had gpa between 3.25 and 3.49 14.00"
+    },
+    "gpa_300_pct": {
+      "value": 10.8,
+      "quote": "percent who had gpa between 3.00 and 3.24 10.80"
+    },
+    "gpa_250_pct": {
+      "value": 18.6,
+      "quote": "percent who had gpa between 2.50 and 2.99 18.60"
+    },
+    "gpa_200_pct": {
+      "value": 1.4,
+      "quote": "percent who had gpa between 2.0 and 2.49 1.40"
+    },
+    "gpa_100_pct": {
+      "value": 0.4,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.40"
     },
     "gpa_below1_pct": {
       "value": 0,
-      "quote": "percent who had gpa below 1.0 c or t c or t 0%"
+      "quote": "percent who had gpa below 1.0 0.00"
+    },
+    "gpa_average": {
+      "value": 3.48,
+      "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year students who submitted gpa: 3.48"
+    },
+    "gpa_submit_pct": {
+      "value": 99.7,
+      "quote": "percent of total first-time, first-year students who submitted high school gpa 99.70%"
     },
     "applied_total": {
-      "value": 9479,
-      "quote": "total first-time, first-year men who applied 3,332 / total first-time, first-year women who applied 6,137 / total first-time, first-year of another gender who applied 10",
+      "value": 10212,
+      "quote": "total first-time, first-year men who applied 3514 / total first-time, first-year women who applied 6687 / total first-time, first-year of another gender who applied 0 / total first-time, first-year of unknown gender who applied 11",
       "how": "sum of gender rows"
     },
     "admitted_total": {
-      "value": 8880,
-      "quote": "total first-time, first-year men who were admitted 3,077 / total first-time, first-year women who were admitted 5,803 / total first-time, first-year of another gender who were admitted 0",
+      "value": 9553,
+      "quote": "total first-time, first-year men who were admitted 3248 / total first-time, first-year women who were admitted 6296 / total first-time, first-year of another gender who were admitted 0 / total first-time, first-year of unknown gender who were admitted 9",
       "how": "sum of gender rows"
     },
     "enrolled_total": {
-      "value": 1229,
-      "quote": "total first-time, first-year men who enrolled 373 / total first-time, first-year women who enrolled 856 / total first-time, first-year of another gender who enrolled 0",
+      "value": 1243,
+      "quote": "total first-time, first-year men who enrolled 405 / total first-time, first-year women who enrolled 836 / total first-time, first-year of another gender who enrolled 0 / total first-time, first-year of unknown gender who enrolled 2",
       "how": "sum of gender rows"
     },
     "sat_p25": {
-      "value": 970,
-      "quote": "sat composite 970 1070 1170"
+      "value": 960,
+      "quote": "sat composite 960 1070 1170"
     },
     "sat_p50": {
       "value": 1070,
-      "quote": "sat composite 970 1070 1170"
+      "quote": "sat composite 960 1070 1170"
     },
     "sat_p75": {
       "value": 1170,
-      "quote": "sat composite 970 1070 1170"
+      "quote": "sat composite 960 1070 1170"
     },
     "act_p25": {
-      "value": 17,
-      "quote": "act composite 17 22 26"
+      "value": 21,
+      "quote": "act composite 21 24 26"
     },
     "act_p50": {
-      "value": 22,
-      "quote": "act composite 17 22 26"
+      "value": 24,
+      "quote": "act composite 21 24 26"
     },
     "act_p75": {
       "value": 26,
-      "quote": "act composite 17 22 26"
+      "quote": "act composite 21 24 26"
+    },
+    "factor_rigor": {
+      "value": "Important",
+      "quote": "Rigor of secondary school record"
     },
     "factor_class_rank": {
       "value": "Considered",
@@ -110,6 +160,10 @@
       "value": "Considered",
       "quote": "State residency"
     },
+    "factor_religion": {
+      "value": "Not Considered",
+      "quote": "Religious affiliation/commitment"
+    },
     "factor_volunteer": {
       "value": "Considered",
       "quote": "Volunteer work"
@@ -123,28 +177,20 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 1073,
-      "quote": "D2 total 1,073 1,036 526"
+      "value": 1047,
+      "quote": "D2 total 1,047 1,000 504"
     },
     "transfer_admitted": {
-      "value": 1036,
-      "quote": "D2 total 1,073 1,036 526"
+      "value": 1000,
+      "quote": "D2 total 1,047 1,000 504"
     },
     "transfer_enrolled": {
-      "value": 526,
-      "quote": "D2 total 1,073 1,036 526"
+      "value": 504,
+      "quote": "D2 total 1,047 1,000 504"
     },
     "deferral_allowed": {
       "value": "yes",
-      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☒ yes ☐ no"
-    },
-    "sat_submit_pct": {
-      "value": 23,
-      "quote": "submitting sat scores 23 287"
-    },
-    "act_submit_pct": {
-      "value": 4,
-      "quote": "submitting act scores 4 48"
+      "quote": "C18 c18 does your institution allow students to postpone enrollment after admission? yes d2 provide the number of students who applied, were admitted, and enrolled "
     }
   },
   "concerns": null

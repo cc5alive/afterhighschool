@@ -526,9 +526,10 @@
   "url": "https://und.edu/analytics-and-planning/data-and-reports/common-data-set.html"
  },
  "university-of-northern-colorado": {
-  "url": "https://www.unco.edu/app/uploads/2025/10/UNC-Common-Data-Set-2023-24.pdf",
-  "year": "2023-2024",
-  "title": "Common Data Set 2023-2024"
+  "url": "https://www.unco.edu/app/uploads/UNC-Common-Data-Set-2024-25.pdf",
+  "year": "2024-2025",
+  "title": "Common Data Set 2024-2025",
+  "mirror": "data/cds/mirror/university-of-northern-colorado.rows.json"
  },
  "university-of-north-georgia": {
   "url": "https://ung.edu/institutional-effectiveness-research-administration/institutional-research/common-data-set.php"
@@ -838,7 +839,8 @@
  "university-of-nevada-las-vegas": {
   "url": "https://it.unlv.edu/sites/default/files/assets/ir/UNLV_common_dataset_2025-2026.pdf",
   "year": "2025-2026",
-  "title": "Common Data Set 2025-2026"
+  "title": "Common Data Set 2025-2026",
+  "mirror": "data/cds/mirror/university-of-nevada-las-vegas.rows.json"
  },
  "colorado-state-university-fort-collins": {
   "url": "https://www.ir.colostate.edu/wp-content/uploads/sites/21/2026/03/CSU_CDS_FY2026_Access.pdf",

@@ -45,3 +45,16 @@ Kansas posts section C of its 2025-26 CDS as its own PDF, laid out in a way our 
 rows). Its figures were copied from that PDF into `university-of-kansas.rows.json`; the C1 male and female columns
 add up to the totals and the C11 ranges add up to 100%. The SAT/ACT score ranges weren't copied, so only the
 percent submitting SAT scores is included; add them from the PDF if needed.
+
+Northern Colorado (2024-25) and UNLV (2025-26) post their newest CDS as scanned printouts ("Microsoft: Print To
+PDF", page images with no text). The files are kept here (`university-of-northern-colorado.pdf`,
+`university-of-nevada-las-vegas.pdf`), and sections C and D were transcribed from the page images into their
+`.rows.json` in the standard CDS labels. OCR was used only to find the pages: tesseract can't read through the
+table borders. Each value was then read off a 300 dpi crop. Every count was checked against its parts: the C1
+full-time and part-time rows add up to the enrolled rows, the D2 gender rows add up to the totals, and the C11
+ranges add up to 100% (UNLV: 99.99%). Values that can't be added up were read twice: the C9 shares, the SAT/ACT
+percentiles and the average GPA. Neither school has a wait list or early decision. UNLV reports C11 only in the
+"students who submitted scores" column. Northern Colorado's residency table is blank (zeros), so it's left out.
+Both schools' C1 admit rates differ from the federal figure (Northern Colorado 93.5% vs 85.9% for the same fall;
+UNLV 83.9% vs 96.2%, and its 2023-24 CDS showed the same gap), so the build's federal check holds back their
+applicant and admit counts. Everything else publishes.
