@@ -116,7 +116,7 @@ No rankings, no invented programs, and 98% of sources are the school's own site.
 
 **Fixed (PR #1):** the page names the AI tools. CC approved the disclosure.
 
-### 11. Low — The reader misses values that are in the documents (pull request #2)
+### 11. Low — The reader misses values that are in the documents (fixed: PR #2 merged Nov 16)
 
 Nothing wrong is shown, but the pages are thinner than they should be, and the gaps push the pipeline onto Gemini's read:
 
@@ -127,6 +127,8 @@ Nothing wrong is shown, but the pages are thinner than they should be, and the g
 - Northeastern's ACT share reads 6%; its page now says 8%.
 
 **Fix (PR #2, reader v12):** split labels and split digits are joined back. "Waiting list" is recognized, and a blank row no longer borrows the next question's number. The C9 percent and number columns are read and cross-checked against the enrolled class. Residency tables count only a total that adds up or sits under "Total". The replay adds 784 readings and corrects 40. On the 200 schools the simulation could model, the site gains 235 values, corrects 5 and drops 3, all listed in the PR. Two corrections fix wrong numbers that are live now: Carnegie Mellon shows 8% in the top tenth (the document says 81.4%) and 9% in the top quarter (96.6%).
+
+**Merged Nov 16.** The full re-read published 377 new values, changed 32 and dropped 14. It reproduced 230 of the 243 changes the simulation predicted; the other 13 were already live from the earlier re-check. The other changes came from schools the simulation couldn't model. Boston College and Illinois Tech had posted 2025–26 reports, and the re-read picked those up. Every drop is a document that contradicts itself (wait-list admits above wait-list accepts) or a blank row that had borrowed a number. A follow-up fix counts a read rounded to fewer decimals as agreeing (UW printed 19.12, Gemini read 19.1), which restored UW's test share and GPA set. Checked live: Carnegie Mellon shows 81% top tenth and 97% top quarter, Stanford 2,302 of 60,646 and Florida 90,523 applicants.
 
 **Also found:** Harvard and Penn still have no composite SAT, and Northern Colorado's 2024–25 CDS is a scanned printout with no text. It stays on 2023–24 until someone OCRs it. Miami and UNLV's newest files have the same problem.
 
