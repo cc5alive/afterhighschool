@@ -8,16 +8,26 @@
   "sourceUrl": "https://www.wcu.edu/_files/CDS-2025-2026-WCU.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 21428,
-      "quote": "total first-time, first-year (degree-seeking) who applied 10394 9394 1640 21428"
+      "quote": "total first-time, first-year (degree-seeking) who applied 10394 9394 1640 21428",
+      "alt": {
+        "value": 19788,
+        "quote": "total first-time, first-year men who applied 7747 / total first-time, first-year women who applied 12041 / total first-time, first-year unknown sex who applied",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 14119,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 118 9118 4883 14119"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 118 9118 4883 14119",
+      "alt": {
+        "value": 14001,
+        "quote": "total first-time, first-year men who were admitted 5393 / total first-time, first-year women who were admitted 8608 / total first-time, first-year unknown sex who were admitted",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 2936,

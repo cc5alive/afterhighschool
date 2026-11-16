@@ -8,7 +8,7 @@
   "sourceUrl": "https://getdata.louisiana.edu/sites/instres/files/UL_CDS_2023-2024.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -17,7 +17,12 @@
     },
     "admitted_total": {
       "value": 9484,
-      "quote": "total first-time, first-year who were admitted 8850 540 94 9484"
+      "quote": "total first-time, first-year who were admitted 8850 540 94 9484",
+      "alt": {
+        "value": 9486,
+        "quote": "total first-time, first-year men who were admitted 3414 / total first-time, first-year women who were admitted 6072 / total first-time, first-year another gender who were admitted",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 3064,

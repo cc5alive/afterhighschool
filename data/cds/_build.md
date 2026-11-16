@@ -36,7 +36,7 @@ Built 2026-11-16.
 | california-state-university-chico | 2025-2026 | 43 | reader and Gemini read different documents (2025 vs 2023); used the reader one |
 | california-state-university-fullerton | 2025-2026 | 44 |  |
 | california-state-university-long-beach | 2025-2026 | 36 |  |
-| california-state-university-los-angeles | 2025-2026 | 32 |  |
+| california-state-university-los-angeles | 2025-2026 | 32 | C1 from the gender rows: admit rate 91.2% vs the residency table's 90.5% (federal 91.3%); applied_total: reader 35898, Gemini 36694; kept the reader's set; enrolled_total: reader 2938, Gemini 2920; kept the reader's set |
 | california-state-university-northridge | 2024-2025 | 34 |  |
 | california-state-university-sacramento | 2025-2026 | 34 |  |
 | california-state-university-san-bernardino | 2025-2026 | 43 |  |
@@ -69,7 +69,7 @@ Built 2026-11-16.
 | cuny-city-college | 2025-2026 | 0 |  |
 | cuny-john-jay-college-of-criminal-justice | 2023-2024 | 34 |  |
 | dartmouth-college | 2025-2026 | 40 |  |
-| davidson-college | 2025-2026 | 46 | class rank inconsistent |
+| davidson-college | 2025-2026 | 46 | C1 from the gender rows: admit rate 12.6% vs the residency table's 12.6% (federal 13.4%); applied_total: reader 8932, Gemini 8933; kept the reader's set; class rank inconsistent |
 | denison-university | 2025-2026 | 22 | sat_p50: reader 1360, Gemini 1400; kept the reader's set; act_p25: reader 28, Gemini 30; kept the reader's set |
 | depaul-university | 2025-2026 | 47 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | dickinson-college | 2025-2026 | 43 |  |
@@ -154,7 +154,7 @@ Built 2026-11-16.
 | north-carolina-central-university | 2025-2026 | 37 | ACT 14-18 far from federal 19-22 |
 | north-carolina-state-university-at-raleigh | 2025-2026 | 48 |  |
 | northeastern-illinois-university | 2024-2025 | 1 |  |
-| northeastern-university | 2025-2026 | 41 | act_submit_pct: reader 8, Gemini 6 (quote matched); gpa_below1_pct read as the "totals = 100%" note |
+| northeastern-university | 2025-2026 | 41 | C1 from the gender rows: admit rate 5.6% vs the residency table's 5.6% (federal 5.2%); applied_total: reader 105257, Gemini 105256; kept the reader's set; act_submit_pct: reader 8, Gemini 6 (quote matched); gpa_below1_pct read as the "totals = 100%" note |
 | northern-arizona-university | 2025-2026 | 48 |  |
 | northwestern-state-university-of-louisiana | 2025-2026 | 44 | reader and Gemini read different documents (2025 vs 2023); used the reader one |
 | northwestern-university | 2025-2026 | 32 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
@@ -186,7 +186,7 @@ Built 2026-11-16.
 | rutgers-university-new-brunswick | 2025-2026 | 30 | reader and Gemini read different documents (2025 vs 2023); used the reader one |
 | rutgers-university-newark | 2023-2024 | 24 |  |
 | saginaw-valley-state-university | 2025-2026 | 29 |  |
-| saint-cloud-state-university | 2025-2026 | 44 | SAT 968-1150 far from federal 1025-1260 |
+| saint-cloud-state-university | 2025-2026 | 44 | C1 from the gender rows: admit rate 94.3% vs the residency table's 94.3% (federal 94.8%); applied_total: reader 4928, Gemini 4927; kept the reader's set; admitted_total: reader 4647, Gemini 4646; kept the reader's set; SAT 968-1150 far from federal 1025-1260 |
 | saint-joseph-s-university-philadelphia | 2023-2024 | 38 |  |
 | salem-state-university | 2024-2025 | 30 |  |
 | salisbury-university | 2025-2026 | 44 | gpa_100_pct: reads disagree (0 vs 0.1), left out |
@@ -241,7 +241,7 @@ Built 2026-11-16.
 | trinity-college | 2025-2026 | 42 |  |
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 53 |  |
-| united-states-military-academy | 2024-2025 | 39 |  |
+| united-states-military-academy | 2024-2025 | 39 | C1 from the gender rows: admit rate 12.5% vs the residency table's 12.5% (federal 12.4%) |
 | university-at-buffalo | 2025-2026 | 43 | gpa_average out of range |
 | university-of-akron-main-campus | 2025-2026 | 44 | C1 failed consistency (applied 13503, admitted 10427, enrolled 2169, federal admit rate 0.5967) |
 | university-of-alabama-at-birmingham | 2025-2026 | 47 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
@@ -341,7 +341,7 @@ Built 2026-11-16.
 | vanderbilt-university | 2025-2026 | 52 |  |
 | vassar-college | 2025-2026 | 43 |  |
 | villanova-university | 2025-2026 | 52 |  |
-| virginia-commonwealth-university | 2024-2025 | 46 | C1 failed consistency (applied 24804, admitted 20769, enrolled 4449, federal admit rate 0.9262) |
+| virginia-commonwealth-university | 2024-2025 | 49 | C1 from the gender rows: admit rate 92.3% vs the residency table's 83.7% (federal 92.6%); applied_total: reader 21201, Gemini 24804; kept the reader's set; admitted_total: reader 19572, Gemini 20769; kept the reader's set; enrolled_total: reader 4275, Gemini 4449; kept the reader's set |
 | virginia-polytechnic-institute-and-state-university | 2025-2026 | 40 |  |
 | virginia-state-university | 2025-2026 | 35 |  |
 | wabash-college | 2025-2026 | 48 |  |
@@ -354,8 +354,8 @@ Built 2026-11-16.
 | wentworth-institute-of-technology | 2025-2026 | 45 |  |
 | west-chester-university-of-pennsylvania | 2025-2026 | 46 | ACT 20-28 far from federal 24-28 |
 | west-texas-a-and-m-university | 2025-2026 | 45 | C1 failed consistency (applied 7270, admitted 4857, enrolled 1197, federal admit rate 0.9868) |
-| west-virginia-university | 2024-2025 | 24 | C1 failed consistency (applied 20150, admitted 15570, enrolled 4126, federal admit rate 0.89) |
-| western-carolina-university | 2025-2026 | 45 | C1 failed consistency (applied 21428, admitted 14119, enrolled 2936, federal admit rate 0.8183) |
+| west-virginia-university | 2024-2025 | 24 | C1 from the gender rows: admit rate 85.1% vs the residency table's 77.3% (federal 89.0%); applied_total: reader 20148, Gemini 20150; kept the reader's set; admitted_total: reader 17155, Gemini 15570; kept the reader's set; enrolled_total: reader 4129, Gemini 4126; kept the reader's set; C1 failed consistency (applied 20148, admitted 17155, enrolled 4129, federal admit rate 0.89) |
+| western-carolina-university | 2025-2026 | 48 | C1 from the gender rows: admit rate 70.8% vs the residency table's 65.9% (federal 81.8%); applied_total: reader 19788, Gemini 21428; kept the reader's set; admitted_total: reader 14001, Gemini 14119; kept the reader's set |
 | western-illinois-university | 2024-2025 | 45 |  |
 | western-kentucky-university | 2025-2026 | 22 | ACT 18-25 far from federal 16-21 |
 | western-michigan-university | 2025-2026 | 46 | transfer counts inconsistent (1897, undefined, undefined) |

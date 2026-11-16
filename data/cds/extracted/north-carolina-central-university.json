@@ -8,20 +8,35 @@
   "sourceUrl": "https://myeol.nccu.edu/sites/default/files/2026-09/CDS-2025-2026.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 17831,
-      "quote": "total first - time, first - year s who applied 6449 11382 c or t c or t 17831"
+      "quote": "total first - time, first - year s who applied 6449 11382 c or t c or t 17831",
+      "alt": {
+        "value": 17830,
+        "quote": "total first - time, first - year m ales who applied 5121 / total first - time, first - year females who applied 12709 / total first - time, first - year students of unknowns gender who applied 0",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 15343,
-      "quote": "total first - time, first - year s who were admitted 5792 9551 c or t c or t 15343"
+      "quote": "total first - time, first - year s who were admitted 5792 9551 c or t c or t 15343",
+      "alt": {
+        "value": 15342,
+        "quote": "total first - time, first - year m ales who were admitted 4214 / total first - time, first - year females who were admitted 11128 / total first - time, first - year students of unknown sex who were admitted 0",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 1688,
-      "quote": "total first - time, first - year s who enrolled 1174 514 c or t c or t 1688"
+      "quote": "total first - time, first - year s who enrolled 1174 514 c or t c or t 1688",
+      "alt": {
+        "value": 1668,
+        "quote": "total first - time, first - year m ales who enrolled 480 / total first - time, first - year females who enrolled 1188 / total first - time, first - year students of unknown sex who enrolled 0",
+        "how": "sum of gender rows"
+      }
     },
     "rank_top10_pct": {
       "value": 9,

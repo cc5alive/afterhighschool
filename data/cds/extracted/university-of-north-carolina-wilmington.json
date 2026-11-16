@@ -8,12 +8,17 @@
   "sourceUrl": "https://uncw.edu/media/pdf/irp/cds-2025-2026.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 22359,
-      "quote": "total first - time, first - years who applied 12,851 9.508 c or t c or t 22,359"
+      "quote": "total first - time, first - years who applied 12,851 9.508 c or t c or t 22,359",
+      "alt": {
+        "value": 22358,
+        "quote": "total first-time, first-year males who applied 7,150 / total first-time, first-year females who applied 15,208",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 14472,

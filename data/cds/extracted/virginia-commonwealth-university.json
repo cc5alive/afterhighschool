@@ -8,20 +8,35 @@
   "sourceUrl": "https://irds.vcu.edu/media/decision-support/pdf/commondatasets/CommonDataSet2024-25.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 24804,
-      "quote": "total first - time, first - year (degree - seeking) who applied 17109 5836 797 1062 24804"
+      "quote": "total first - time, first - year (degree - seeking) who applied 17109 5836 797 1062 24804",
+      "alt": {
+        "value": 21201,
+        "quote": "total first-time, first-year men who applied 7729 / total first-time, first-year women who applied 13449 / total first-time, first-year of another gender who applied 16 / total first-time, first-year of unknown gender who applied 7",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 20769,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 15171 4401 596 601 20769"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 15171 4401 596 601 20769",
+      "alt": {
+        "value": 19572,
+        "quote": "total first-time, first-year men who were admitted 7042 / total first-time, first-year women who were admitted 12508 / total first-time, first-year of another gender who were admitted 16 / total first-time, first-year of unknown gender who were admitted 6",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 4449,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 3806 469 84 90 4449"
+      "quote": "total first-time, first-year (degree-seeking) enrolled 3806 469 84 90 4449",
+      "alt": {
+        "value": 4275,
+        "quote": "total first-time, first-year men who enrolled 1492 / total first-time, first-year women who enrolled 2783 / total first-time, first-year of another gender who enrolled 0 / total first-time, first-year of unknown gender who enrolled 0",
+        "how": "sum of gender rows"
+      }
     },
     "waitlist_offered": {
       "value": 28,

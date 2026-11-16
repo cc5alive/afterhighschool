@@ -8,20 +8,35 @@
   "sourceUrl": "https://www.calstatela.edu/InstitutionalEffectiveness/resources",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 36694,
-      "quote": "total first-time, first-year (degree-seeking) who applied 33359 2539 796 36694"
+      "quote": "total first-time, first-year (degree-seeking) who applied 33359 2539 796 36694",
+      "alt": {
+        "value": 35898,
+        "quote": "total first-time, first-year men who applied 15811 / total first-time, first-year women who applied 19501 / total first-time, first-year unknown sex who applied 586",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 33209,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 457 31008 1744 33209"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 457 31008 1744 33209",
+      "alt": {
+        "value": 32752,
+        "quote": "total first-time, first-year men who were admitted 14302 / total first-time, first-year women who were admitted 17913 / total first-time, first-year unknown sex who were admitted 537",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 2920,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 2905 0 15 2920"
+      "quote": "total first-time, first-year (degree-seeking) enrolled 2905 0 15 2920",
+      "alt": {
+        "value": 2938,
+        "quote": "total first-time, first-year men who enrolled 1395 / total first-time, first-year women who enrolled 1494 / total first-time, first-year unknown sex who enrolled 49",
+        "how": "sum of gender rows"
+      }
     },
     "gpa_400_pct": {
       "value": 6.26,

@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-16",
   "values": {
+    "applied_total": 21201,
+    "admitted_total": 19572,
+    "enrolled_total": 4275,
     "waitlist_offered": 28,
     "waitlist_accepted": 28,
     "waitlist_admitted": 17,
@@ -55,6 +58,9 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
     "waitlist_offered": "both",
     "waitlist_accepted": "both",
     "waitlist_admitted": "both",

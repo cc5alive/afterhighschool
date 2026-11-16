@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,7 +21,12 @@
     },
     "enrolled_total": {
       "value": 4943,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 4750 76 117 0 4943"
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 4750 76 117 0 4943",
+      "alt": {
+        "value": 4941,
+        "quote": "total first-time, first-year males who enrolled 2,562 / total first-time, first-year females who enrolled 2,330 / total first-time, first-year students of unknown sex who enrolled 49",
+        "how": "sum of gender rows"
+      }
     },
     "gpa_400_pct": {
       "value": 17.1,

@@ -8,12 +8,17 @@
   "sourceUrl": "https://www.pfw.edu/sites/default/files/documents-2026/03/CDS-PDF-2025-2026_web.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 8895,
-      "quote": "total first-time, first-year (degree-seeking) who applied 4695 3371 829 8895"
+      "quote": "total first-time, first-year (degree-seeking) who applied 4695 3371 829 8895",
+      "alt": {
+        "value": 9895,
+        "quote": "total first-time, first-year men who applied 4431 / total first-time, first-year women who applied 5462 / total first-time, first-year unknown sex who applied 2",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 6880,

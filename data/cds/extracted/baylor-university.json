@@ -8,12 +8,17 @@
   "sourceUrl": "https://ir.web.baylor.edu/sites/g/files/ecbvkj1621/files/2026-04/cds-pdf-2025-2026-final.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 44924,
-      "quote": "total first-time, first-year (degree-seeking) who applied 28,416 12,955 3,553 44,924"
+      "quote": "total first-time, first-year (degree-seeking) who applied 28,416 12,955 3,553 44,924",
+      "alt": {
+        "value": 89840,
+        "quote": "total first-time, first-year males who applied 16,836 / total first-time, first-year females who applied 28,080 / total first-time, first-year students of unknown sex who applied 8 44,924",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 23459,

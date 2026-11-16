@@ -8,16 +8,26 @@
   "sourceUrl": "https://www.stcloudstate.edu/air/_files/documents/common-data-sets/cds_2025-2026.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 4927,
-      "quote": "total first-time, first-year (degree-seeking) who applied 0 2979 346 1602 4927"
+      "quote": "total first-time, first-year (degree-seeking) who applied 0 2979 346 1602 4927",
+      "alt": {
+        "value": 4928,
+        "quote": "total first-time, first-year men who applied 2157 / total first-time, first-year women who applied 2771 / total first-time, first-year unknown sex who applied 0",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 4646,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 1567 2750 329 0 4646"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 1567 2750 329 0 4646",
+      "alt": {
+        "value": 4647,
+        "quote": "total first-time, first-year men who were admitted 2033 / total first-time, first-year women who were admitted 2614 / total first-time, first-year unknown sex who were admitted 0",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 795,

@@ -8,12 +8,17 @@
   "sourceUrl": "https://www.oberlin.edu/media/37695/download",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 11732,
-      "quote": "total first-time, first-year (degree-seeking) who applied 793 6924 4015 11732"
+      "quote": "total first-time, first-year (degree-seeking) who applied 793 6924 4015 11732",
+      "alt": {
+        "value": 11738,
+        "quote": "total first-time, first-year men who applied 5400 / total first-time, first-year women who applied 6317 / total first-time, first-year unknown sex who applied 21",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 3873,

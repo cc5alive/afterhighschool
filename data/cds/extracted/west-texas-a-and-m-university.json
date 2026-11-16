@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.wtamu.edu/_files/docs/academics/Institutional%20Research/CDS.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,7 +21,12 @@
     },
     "enrolled_total": {
       "value": 1197,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 1051 137 9 0 1197"
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1051 137 9 0 1197",
+      "alt": {
+        "value": 1165,
+        "quote": "total first-time, first-year males who enrolled 488 / total first-time, first-year females who enrolled 677 / total first-time, first-year students of unknown sex who enrolled 0",
+        "how": "sum of gender rows"
+      }
     },
     "rank_top10_pct": {
       "value": 16,

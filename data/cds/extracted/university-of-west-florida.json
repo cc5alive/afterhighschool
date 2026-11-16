@@ -8,7 +8,7 @@
   "sourceUrl": "https://uwf.edu/media/university-of-west-florida/academic-affairs/departments/institutional-research/docs/cds/CDS_2025_2026.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,7 +21,12 @@
     },
     "enrolled_total": {
       "value": 1544,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 1383 132 29 0 1544"
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1383 132 29 0 1544",
+      "alt": {
+        "value": 1562,
+        "quote": "total first-time, first-year males who enrolled 731 / total first-time, first-year females who enrolled 831 / total first-time, first-year students of unknown sex who enrolled 0",
+        "how": "sum of gender rows"
+      }
     },
     "rank_top10_pct": {
       "value": 14.5,

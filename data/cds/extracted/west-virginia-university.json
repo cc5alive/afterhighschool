@@ -8,20 +8,35 @@
   "sourceUrl": "https://dataoffice.wvu.edu/reports-analytics/common-data-set",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 20150,
-      "quote": "total first-time, first-year (degree-seeking) who applied 3485 15652 1013 0 20150"
+      "quote": "total first-time, first-year (degree-seeking) who applied 3485 15652 1013 0 20150",
+      "alt": {
+        "value": 20148,
+        "quote": "total first-time, first-year men who applied 9333 / total first-time, first-year women who applied 10814 / total first-time, first-year of another gender who applied 0 / total first-time, first-year of unknown gender who applied 1",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 15570,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 2572 12629 369 0 15570"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 2572 12629 369 0 15570",
+      "alt": {
+        "value": 17155,
+        "quote": "total first-time, first-year men who were admitted 8578 / total first-time, first-year women who were admitted 8576 / total first-time, first-year of another gender who were admitted 0 / total first-time, first-year of unknown gender who were admitted 1",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 4126,
-      "quote": "total first-time, first-year (degree-seeking) enrolled 1696 2400 30 0 4126"
+      "quote": "total first-time, first-year (degree-seeking) enrolled 1696 2400 30 0 4126",
+      "alt": {
+        "value": 4129,
+        "quote": "total first-time, first-year men who enrolled 1947 / total first-time, first-year women who enrolled 2182 / total first-time, first-year of another gender who enrolled 0 / total first-time, first-year of unknown gender who enrolled 0",
+        "how": "sum of gender rows"
+      }
     },
     "rank_top10_pct": {
       "value": 12.48,

@@ -8,16 +8,26 @@
   "sourceUrl": "https://www.binghamton.edu/offices/oir/institutional-data/cds2025.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 61188,
-      "quote": "total first-time, first-year (degree-seeking) who applied 49217 8932 2810 229 61188"
+      "quote": "total first-time, first-year (degree-seeking) who applied 49217 8932 2810 229 61188",
+      "alt": {
+        "value": 61197,
+        "quote": "total first-time, first-year males who applied 27436 / total first-time, first-year females who applied 33728 / total first-time, first-year students of unknown sex who applied 33",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 22832,
-      "quote": "total first-time, first-year (degree-seeking) who were admitted 14324 6586 1744 178 22832"
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 14324 6586 1744 178 22832",
+      "alt": {
+        "value": 22835,
+        "quote": "total first-time, first-year males who were admitted 9870 / total first-time, first-year females who were admitted 12948 / total first-time, first-year students of unknown sex who were admitted 17",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 3201,

@@ -8,16 +8,26 @@
   "sourceUrl": "https://drive.google.com/file/d/1UpTMo05R_z14nyeZVITy8qUIpxt_X48p/view?usp=drive_link",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 8671,
-      "quote": "total first-time, first-year who applied 8671 7708 687 273 3"
+      "quote": "total first-time, first-year who applied 8671 7708 687 273 3",
+      "alt": {
+        "value": 8674,
+        "quote": "total first-time, first-year men who applied 3475 / total first-time, first-year women who applied 5199 / total first-time, first-year another gender who applied 0 / total first-time, first-year unknown gender who applied 0",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 6172,
-      "quote": "total first-time, first-year who were admitted 6172 5621 477 72 2"
+      "quote": "total first-time, first-year who were admitted 6172 5621 477 72 2",
+      "alt": {
+        "value": 6174,
+        "quote": "total first-time, first-year men who were admitted 2333 / total first-time, first-year women who were admitted 3841 / total first-time, first-year another gender who were admitted 0 / total first-time, first-year unknown gender who were admitted 0",
+        "how": "sum of gender rows"
+      }
     },
     "enrolled_total": {
       "value": 634,

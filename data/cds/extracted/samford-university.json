@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.samford.edu/departments/files/Institutional_Effectiveness/2025-2026/Section-C-First-Time-First-Year-Freshman-Admission.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,7 +21,12 @@
     },
     "enrolled_total": {
       "value": 1157,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 283 868 6 1157"
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 283 868 6 1157",
+      "alt": {
+        "value": 1156,
+        "quote": "total first-time, first-year males who enrolled 404 / total first-time, first-year females who enrolled 752 / total first-time, first-year students of unknown sex who enrolled",
+        "how": "sum of gender rows"
+      }
     },
     "waitlist_offered": {
       "value": 217,

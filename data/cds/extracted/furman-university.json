@@ -8,12 +8,17 @@
   "sourceUrl": "https://www.furman.edu/offices-services/institutional-research/wp-content/uploads/sites/166/2026/06/CDS-PDF-2025-2026.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 9312,
-      "quote": "total first-time, first-year (degree-seeking) who applied 2651 4553 2108 9312"
+      "quote": "total first-time, first-year (degree-seeking) who applied 2651 4553 2108 9312",
+      "alt": {
+        "value": 9309,
+        "quote": "total first-time, first-year men who applied 3958 / total first-time, first-year women who applied 5351 / total first-time, first-year unknown sex who applied 0",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 4533,

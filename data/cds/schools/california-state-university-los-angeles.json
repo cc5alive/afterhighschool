@@ -7,9 +7,9 @@
   },
   "builtAt": "2026-11-16",
   "values": {
-    "applied_total": 36694,
-    "admitted_total": 33209,
-    "enrolled_total": 2920,
+    "applied_total": 35898,
+    "admitted_total": 32752,
+    "enrolled_total": 2938,
     "gpa_400_pct": 6.26,
     "gpa_375_pct": 9.77,
     "gpa_350_pct": 14.74,
@@ -41,9 +41,9 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
-    "applied_total": "both",
+    "applied_total": "reader",
     "admitted_total": "reader",
-    "enrolled_total": "both",
+    "enrolled_total": "reader",
     "gpa_400_pct": "both",
     "gpa_375_pct": "both",
     "gpa_350_pct": "both",

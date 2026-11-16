@@ -8,12 +8,17 @@
   "sourceUrl": "https://www.davidson.edu/media/9718/download?attachment",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 8933,
-      "quote": "total first-time, first-year (degree-seeking) who applied 1402 3957 3574 8933"
+      "quote": "total first-time, first-year (degree-seeking) who applied 1402 3957 3574 8933",
+      "alt": {
+        "value": 8932,
+        "quote": "total first-time, first-year men who applied 4325 / total first-time, first-year women who applied 4606 / total first-time, first-year unknown sex who applied 1",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 1127,

@@ -8,7 +8,7 @@
   "sourceUrl": "https://www.uttyler.edu/offices/information-analysis/common-data-sets/",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,7 +21,12 @@
     },
     "enrolled_total": {
       "value": 1541,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 1514 15 12 0 1541"
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1514 15 12 0 1541",
+      "alt": {
+        "value": 1542,
+        "quote": "total first-time, first-year males who enrolled 575 / total first-time, first-year females who enrolled 967 / total first-time, first-year students of unknown sex who enrolled 0",
+        "how": "sum of gender rows"
+      }
     },
     "rank_top10_pct": {
       "value": 12,

@@ -8,7 +8,7 @@
   "sourceUrl": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -21,7 +21,12 @@
     },
     "enrolled_total": {
       "value": 6824,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 5,481 417 926 6,824"
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 5,481 417 926 6,824",
+      "alt": {
+        "value": 6810,
+        "quote": "total first-time, first-year males who enrolled 2,685 / total first-time, first-year females who enrolled 3,952 / total first-time, first-year students of unknown sex who enrolled 173",
+        "how": "sum of gender rows"
+      }
     },
     "waitlist_offered": {
       "value": 17582,

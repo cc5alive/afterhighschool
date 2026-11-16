@@ -8,12 +8,17 @@
   "sourceUrl": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "pdf",
   "values": {
     "applied_total": {
       "value": 33750,
-      "quote": "total first-time, first-year (degree-seeking) who applied 19700 11319 2731 33750"
+      "quote": "total first-time, first-year (degree-seeking) who applied 19700 11319 2731 33750",
+      "alt": {
+        "value": 195750,
+        "quote": "total first-time, first-year men who applied 15233 / total first-time, first-year women who applied 180508 / total first-time, first-year unknown sex who applied 9",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 29715,

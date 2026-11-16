@@ -8,12 +8,17 @@
   "sourceUrl": "https://uds.northeastern.edu/facts/common-data-set",
   "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 12,
+  "readerVersion": 13,
   "docKind": "html",
   "values": {
     "applied_total": {
       "value": 105256,
-      "quote": "total first-time, first-year (degree-seeking) who applied 13,365 72,870 18,754 267 105,256"
+      "quote": "total first-time, first-year (degree-seeking) who applied 13,365 72,870 18,754 267 105,256",
+      "alt": {
+        "value": 105257,
+        "quote": "total first-time, first-year males who applied 46,252 / total first-time, first-year females who applied 58,959 / total first-time, first-year students of unknown sex who applied 46",
+        "how": "sum of gender rows"
+      }
     },
     "admitted_total": {
       "value": 5920,
