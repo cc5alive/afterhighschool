@@ -162,6 +162,20 @@ for (const slug of [...new Set([...list('data/cds/extracted'), ...list('data/cds
     // until the draft is checked against the cited file: point the draft's source at it and check-cds re-runs.
     else { G = null; pre.push('Gemini read a different file of the same year; used the reader only (re-point the draft to the cited file)'); }
   }
+  // A report whose residency table and gender rows give different C1 counts: use the set whose admit rate is
+  // closer to the federal one (VCU 2024-25: the gender rows give 92.3%, the residency table 83.7%; federal 92.6%).
+  // On a tie (NCCU: both 86.05%), keep the residency table's totals.
+  const C1K = ['applied_total', 'admitted_total', 'enrolled_total'];
+  if (E && school.admitRate != null && C1K.some((k) => E.values?.[k]?.alt)) {
+    const val = (k, alt) => (alt && E.values[k]?.alt ? E.values[k].alt : E.values[k])?.value;
+    const rate = (alt) => (val('applied_total', alt) ? val('admitted_total', alt) / val('applied_total', alt) : null);
+    const r0 = rate(false), r1 = rate(true);
+    if (r1 != null && (r0 == null || Math.abs(r1 - school.admitRate) < Math.abs(r0 - school.admitRate) - 1e-9)) {
+      E = { ...E, values: { ...E.values } };
+      for (const k of C1K) if (E.values[k]?.alt) E.values[k] = { ...E.values[k].alt, how: `${E.values[k].alt.how || 'gender rows'}; closer to the federal admit rate than the residency table (${E.values[k].value})` };
+      pre.push(`C1 from the gender rows: admit rate ${(r1 * 100).toFixed(1)}% vs the residency table's ${(r0 * 100).toFixed(1)}% (federal ${(school.admitRate * 100).toFixed(1)}%)`);
+    }
+  }
   const fall = (rec0) => { const y = yr(rec0); return y || Number(String(rec0?.cdsYear || '').slice(0, 4)) || 0; };
   let r = combine(E, G, school, fall(E || G));
   // If the newer document gave too little to publish, fall back to the other one.

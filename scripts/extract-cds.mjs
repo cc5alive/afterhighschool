@@ -18,7 +18,7 @@ const sources = JSON.parse(fs.readFileSync(SOURCES, 'utf8'));
 const force = process.argv.includes('--force');
 const pages = process.argv.includes('--pages'); // monthly refresh: re-read sources that are school pages, in case a newer CDS was posted
 // Bump when the reading rules change: schools read by an older version are read again.
-const READER_VERSION = 12; // 12: split "first | - | time" labels, "waiting list", C9 percent/number columns, residency tables; 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets; 10: no C11 from split groups only; 11: "students admitted" C1 label (WPI)
+const READER_VERSION = 13; // 13: C1 gender-row sums kept beside residency totals; 12: split "first | - | time" labels, "waiting list", C9 percent/number columns, residency tables; 6: D2 transfer admissions; 7: C18 deferred admission; 8: answer codes in the official Excel template; 9: code values must nest, no mixed C11 sets; 10: no C11 from split groups only; 11: "students admitted" C1 label (WPI)
 // A school needs a fresh read when the reader changed or its listed source changed.
 const isFile = (u) => /\.(pdf|xlsx?|docx)(\?|$)/i.test(u) || !!downloadUrl(u);
 const current = (slug, src) => {
@@ -134,7 +134,7 @@ function readRows(rows) {
         const ov = own.map((c) => parse(c.s, type)), os = ov.reduce((a, b) => a + b, 0);
         if (ov.some((x) => ov.length > 2 && Math.abs(x * 2 - os) <= 2)) { nums = own; quoteRows = [rows[i]]; }
       }
-      let value = parse(nums[0].s, type);
+      let value = parse(nums[0].s, type), fromResidency = false;
       if (/^gpa_\d|^gpa_below/.test(key)) { gpaCols[key] = nums.map((c) => parse(c.s, type)); }
       if (pick === 'last') {
         // C1 rows list men, women, another gender and a total, but schools order the columns differently
@@ -158,9 +158,10 @@ function readRows(rows) {
           value = t ? parse(t.s, type) : null;
         }
         if (residency && (nums.some((c) => /\d,\d{0,2}(?!\d)/.test(c.s)) || vals.some((x) => x > value))) continue;
+        fromResidency = residency;
         if (!value) continue; // a blank or broken total field: C1 falls back to the gender rows below
       }
-      out[key] = { value, quote: quoteRows.map(rowText).join(' ') };
+      out[key] = { value, quote: quoteRows.map(rowText).join(' '), ...(fromResidency ? { residency: true } : {}) };
     }
   }
   // C11 now has up to three columns (students who sent test scores, who didn't, and all students).
@@ -490,6 +491,14 @@ export function readValues(rows) {
     for (const [a, b] of LE) {
       if (typeof v(a) !== 'number' || typeof v(b) !== 'number' || v(a) <= v(b)) continue;
       for (const k of [a, b]) if (codes[k]) { if (before[k]) values[k] = before[k]; else delete values[k]; }
+    }
+    // C1 from a residency table can disagree with the same report's gender rows (VCU 2024-25: 24,804 applied
+    // in the table, 21,201 in the gender rows). Keep the gender-row sums as an alternative; build-cds uses
+    // whichever set is closer to the federal admit rate.
+    const gender = c1FromGender(rows, {});
+    for (const k of Object.keys(C1_VERB)) {
+      if (values[k]?.residency && gender[k] && gender[k].value !== values[k].value) values[k].alt = gender[k];
+      if (values[k]) delete values[k].residency;
     }
     if (values.ed_applied) values.ed_offered = { value: 'yes', quote: null };
     if (values.ea_applied) values.ea_offered = { value: 'yes', quote: null };

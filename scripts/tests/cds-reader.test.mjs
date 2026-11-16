@@ -106,3 +106,15 @@ test('C2: a blank wait-list row does not take the next question\'s number', () =
   assert.equal(m.waitlist_accepted, undefined); // was 2,254
   assert.equal(m.waitlist_admitted, 2254);
 });
+
+test('VCU: when the residency table and the gender rows disagree, both are kept for the build to choose', () => {
+  const v = readValues(fx.vcu);
+  assert.equal(v.applied_total.value, 24804); // residency table total
+  assert.equal(v.applied_total.alt.value, 21201); // 7,729 + 13,449 + 16 + 7 from the gender rows
+  assert.equal(v.admitted_total.alt.value, 19572);
+  assert.ok(v.enrolled_total.alt.value > 0);
+});
+
+test('Florida: no alternative when only the gender rows were read', () => {
+  assert.equal(readValues(fx.florida).applied_total.alt, undefined);
+});
