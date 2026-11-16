@@ -37,14 +37,14 @@ When a document's total row is blank or laid out oddly, the reader adds up the m
 
 Gemini's read quoted a Boston College web page ("Applicants: 39,686"), not the 2024–25 CDS. Because the quote was found on that page, it overrode the reader's value from the actual CDS. The page showed a 14% admit rate "from the Common Data Set"; the CDS says 5,632 of 34,779, which is 16%. Enrolled (2,479 vs 2,394) and the SAT 25th percentile (1440 vs 1460) had the same problem. At Denison, Gemini's SAT median (1400) replaced the document's 1360.
 
-**How widespread:** 2 schools had overrides. 7 more (East Carolina, San Diego State, Texas Tech, Buffalo, UCLA, UC Santa Cruz, Oklahoma) have 38 values Gemini read from a second file of the same year; UCLA's were checked and are in the cited file, the rest are unverified. **Fix:** Gemini can no longer replace one number in a C1 or percentile set the reader has whole, and can't contribute from a web page when the reader has the file. **Still open:** re-read those 6 schools so every value comes from the cited file.
+**How widespread:** 2 schools had overrides. 7 more (East Carolina, San Diego State, Texas Tech, Buffalo, UCLA, UC Santa Cruz, Oklahoma) have 38 values Gemini read from a second file of the same year; UCLA's were checked and are in the cited file, the rest are unverified. **Fix:** Gemini can no longer replace one number in a C1 or percentile set the reader has whole, and can't contribute from a web page when the reader has the file. **Closed (Nov 16):** a Gemini read of a different file of the same year no longer fills gaps at all. The 7 drafts now point at the cited file, and check-cds re-verified them there: East Carolina, San Diego State, Texas Tech, Buffalo, Santa Cruz and Oklahoma got their values back. UCLA dropped 7 that aren't in the cited file.
 
 ### 3. High — Wrong or missing data years (fixed)
 
 - Middlebury, Nebraska–Kearney, West Florida and West Texas A&M were labeled 2024–25. Their files are the 2025–26 reports (the documents say Fall 2025; `sources.json` carried a stale year).
 - 13 schools showed no year at all. Each document says Fall 2025. Idaho's says Fall 2023.
 
-**Fix:** years corrected in `sources.json` and the stored reads; the reader now falls back to the document's own "Fall 2025" wording when the link carries no year. **Still open:** CSU Northridge is labeled 2025–26 but its document says Fall 2024 throughout, and its admit rate doesn't match the federal fall 2024 figure either, so I couldn't tell which is stale. Southeastern Louisiana's year reads "2025". Both need a person to open the file.
+**Fix:** years corrected in `sources.json` and the stored reads; the reader now falls back to the document's own "Fall 2025" wording when the link carries no year. **Closed (Nov 16):** CSU Northridge's document covers Fall 2024 throughout, so it's now labeled 2024–25 and pinned to that file. Southeastern Louisiana's document says Fall 2025, so it's labeled 2025–26.
 
 ### 4. High — Six schools showed a test-score share 100 times too large (fixed)
 
@@ -106,7 +106,7 @@ No rankings, no invented programs, and 98% of sources are the school's own site.
 - **61 sources couldn't be loaded** by a script (bot blocks, timeouts). They need a browser.
 - 174 facts state a dollar amount. Those are the ones that will go stale.
 
-**Fix in the PR:** the recheck runs monthly and commits a report; published facts keep the sentence they were checked against. **Still open:** the 5 dead links, the 2 mismatched sources, and a browser pass on the 61.
+**Fix in the PR:** the recheck runs monthly and commits a report; published facts keep the sentence they were checked against. **Closed (Nov 16):** the 5 dead links and 2 mismatched sources were replaced with current pages, each checked in a browser. The monthly recheck retries failures in a headless browser and checks each fact against its saved sentence. The first full run read 72 of the 92 pages a plain fetch couldn't. Georgia Tech's co-op page then moved and was re-cited. **Still to review from that run:** 14 "number not on page" and 27 "name not on page" flags in `data/highlights/recheck/report.md`. Most are formatting: "2026–27" read as 27, "Pell-eligible" with a hyphen. Charleston Southern, College of the Ozarks, Cottey, Oakland, Alabama, UNC Charlotte, UW–River Falls and Webb are worth a look.
 
 ### 10. Medium — The methodology page said things that weren't true (pull request #1)
 
@@ -116,7 +116,7 @@ No rankings, no invented programs, and 98% of sources are the school's own site.
 
 **Fixed (PR #1):** the page names the AI tools. CC approved the disclosure.
 
-### 11. Low — The reader misses values that are in the documents (not fixed)
+### 11. Low — The reader misses values that are in the documents (pull request #2)
 
 Nothing wrong is shown, but the pages are thinner than they should be, and the gaps push the pipeline onto Gemini's read:
 
@@ -126,17 +126,20 @@ Nothing wrong is shown, but the pages are thinner than they should be, and the g
 - Harvard and Penn publish SAT section scores but no composite, so their pages fall back to federal fall 2024 sections.
 - Northeastern's ACT share reads 6%; its page now says 8%.
 
-**Fix:** widen the label patterns, normalize split cells, bump `READER_VERSION`, and compare before and after with `scripts/replay-cds.mjs` (in the PR). I held this back because it re-reads all 332 schools.
+**Fix (PR #2, reader v12):** split labels and split digits are joined back. "Waiting list" is recognized, and a blank row no longer borrows the next question's number. The C9 percent and number columns are read and cross-checked against the enrolled class. Residency tables count only a total that adds up or sits under "Total". The replay adds 784 readings and corrects 40. On the 200 schools the simulation could model, the site gains 235 values, corrects 5 and drops 3, all listed in the PR. Two corrections fix wrong numbers that are live now: Carnegie Mellon shows 8% in the top tenth (the document says 81.4%) and 9% in the top quarter (96.6%).
+
+**Also found:** Harvard and Penn still have no composite SAT, and Northern Colorado's 2024–25 CDS is a scanned printout with no text. It stays on 2023–24 until someone OCRs it. Miami and UNLV's newest files have the same problem.
 
 ### 12. Low — Things to know, no action taken
 
-- **Test policy.** 30 schools are hand-checked. The rest show the federal fall 2024 answer. 469 schools are labeled test-blind; that is what they reported, but 20 of them with a CDS show real score ranges (Wyoming: 67% sent ACT scores). Put those 20 at the front of the Gemini batch.
+- **Test policy.** 30 schools are hand-checked. The rest show the federal fall 2024 answer. 469 schools are labeled test-blind; that is what they reported, but 20 of them with a CDS show real score ranges (Wyoming: 67% sent ACT scores). Those 20 are now `docs/gemini-test-policy/batch-00-priority.md`, to run before batch 1.
 - **Columbia's CDS** covers Columbia College and Engineering only; the federal figures cover the whole university.
 - **17 schools are on a 2023–24 CDS**, two classes old.
-- **Compare and directory pages** show the federal admit rate with no year.
-- **The Scorecard pull** doesn't record data years itself. The probe is a separate manual run.
+- **Compare, directory and My List** now label the admit rate's year (fixed Nov 15).
+- **The weekly Scorecard pull** now records each field's data year itself (fixed Nov 15).
+- **17 schools on a 2023–24 CDS:** searched each for a newer file. None is posted, except Northern Colorado's scanned 2024–25 file. Pace and Geneseo's CDS pages fail to load.
 
-### 13. Low — Branch builds on Cloudflare always fail (not fixed; needs a settings change)
+### 13. Low — Branch builds on Cloudflare always fail (fixed: preview builds turned off Nov 15)
 
 Cloudflare builds every branch except `main` with `npx wrangler preview`. It stops at once with "Your Wrangler configuration is missing a `previews` block", because the Worker's waitlist database (D1 binding `DB`) has no preview copy. Production builds are unaffected; every `main` deploy succeeded. The only harm is a red X on every pull request and debug branch, which hides a real failure if one ever happens. **Fix options:** turn off non-production branch builds in the Worker's Settings → Builds → Previews, or create a separate preview D1 database and add it under `previews` in `wrangler.jsonc`. Don't point previews at the production database, or test signups would land in the real waitlist.
 
@@ -147,9 +150,11 @@ Cloudflare builds every branch except `main` with `npx wrangler preview`. It sto
 3. Where a document contradicts itself, the value is removed, not corrected.
 4. Kept Gemini's values from a same-year sibling file instead of dropping all 38.
 5. Set "Reach for everyone" at 15%, not 10%.
-6. Labeled the first-generation share instead of removing it.
+6. Labeled the first-generation share instead of removing it. (CC later chose to drop it; removed Nov 15.)
+7. Dropped, rather than kept, Gemini values read from a sibling file until they're re-verified against the cited file (reverses call 4).
+8. Where a document's residency table and gender rows disagree (VCU, NCCU), the reader keeps whichever the old reader chose: the residency total when it adds up, else the gender rows.
 
 ## For next time
 
-- `npm test` runs 19 tests (6 on rows from real CDS documents, 13 on the outlook rule; the 13 land with the PR).
+- `npm test` runs 28 tests with PR #2 (15 on rows from real CDS documents, 13 on the outlook rule).
 - To verify CDS values again: run "Dump CDS text (debug)" with every slug, fetch the `cds-debug` branch, and compare. The whole set takes about six minutes.
