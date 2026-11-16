@@ -1,0 +1,38 @@
+name: Fetch CDS files for OCR (debug)
+# Downloads college report files (and lists report links on index pages) onto the cds-fetch branch, so a
+# scanned report can be OCR'd and checked by hand before a copy goes into data/cds/mirror/. Nothing deploys.
+on:
+  workflow_dispatch:
+    inputs:
+      files: { description: 'space-separated name=url pairs to download', required: false, default: '' }
+      pages: { description: 'space-separated index-page URLs whose report links to list', required: false, default: '' }
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download files and list links
+        env: { FILES: '${{ inputs.files }}', PAGES: '${{ inputs.pages }}' }
+        run: |
+          mkdir -p cds-fetch
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36'
+          for pair in $FILES; do
+            name="${pair%%=*}"; url="${pair#*=}"
+            curl -sSL -A "$UA" --max-time 120 -o "cds-fetch/$name" -w "$name %{http_code} %{content_type} %{size_download}\n" "$url" >> cds-fetch/_files.txt || echo "$name failed" >> cds-fetch/_files.txt
+          done
+          for url in $PAGES; do
+            echo "== $url" >> cds-fetch/_links.txt
+            curl -sSL -A "$UA" --max-time 60 "$url" | grep -oiE 'href="[^"]+"' | grep -iE 'cds|common|data.?set|\.pdf|\.xlsx' | sort -u >> cds-fetch/_links.txt || echo "failed" >> cds-fetch/_links.txt
+          done
+          cat cds-fetch/_files.txt cds-fetch/_links.txt 2>/dev/null || true
+      - name: Push to the cds-fetch branch (not main)
+        run: |
+          git config user.name "afterhighschool-bot"
+          git config user.email "hello@afterhighschool.me"
+          git checkout --orphan cds-fetch
+          git rm -rqf --cached .
+          git add -f cds-fetch
+          git commit -qm "Fetched CDS files"
+          git push -f origin cds-fetch
