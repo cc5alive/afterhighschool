@@ -32,7 +32,7 @@ jobs:
             git diff --cached --quiet || (git commit -m "What's special recheck results [skip ci]" && ok=; for i in 1 2 3 4 5; do git pull --rebase -X theirs && git push && ok=1 && break; sleep $((i * 5)); done; [ -n "$ok" ])
           else
             git checkout --orphan highlights-recheck-debug
-            git rm -rq --cached .
+            git rm -rqf --cached .
             git add -f data/highlights/recheck
             git commit -qm "Recheck report"
             git push -f origin highlights-recheck-debug
