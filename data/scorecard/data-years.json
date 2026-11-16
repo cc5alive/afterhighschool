@@ -1,0 +1,16 @@
+{
+ "about": "Which College Scorecard data-file year each number on the site comes from. The API's \"latest\" mixes years and doesn't label them, so scripts/probe-scorecard-years.mjs asks for each field under every year prefix for eight schools and records the newest year whose values equal \"latest\". Run the \"Probe Scorecard data years\" workflow after Scorecard publishes new data and copy the result here.",
+ "probedAt": "2026-11-16",
+ "years": {
+  "admissions": 2024,
+  "enrollment": 2024,
+  "retention": 2024,
+  "cost": 2025,
+  "netPrice": 2025,
+  "completion": 2025,
+  "earnings": 2022,
+  "debt": 2024,
+  "pell": 2025,
+  "firstGeneration": 2016
+ }
+}

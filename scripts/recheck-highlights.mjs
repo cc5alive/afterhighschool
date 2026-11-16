@@ -58,7 +58,7 @@ async function main() {
   let facts = [];
   for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith('.json'))) {
     const h = JSON.parse(fs.readFileSync(`${DIR}/${f}`, 'utf8'));
-    h.facts.forEach((fact, i) => facts.push({ slug: h.slug, i, text: fact.text, sources: fact.sources.map((s) => s.url), reviewedAt: h.reviewedAt }));
+    h.facts.forEach((fact, i) => facts.push({ slug: h.slug, i, text: fact.text, sources: fact.sources.map((s) => s.url), quotes: fact.sources.map((s) => s.quote).filter(Boolean), reviewedAt: h.reviewedAt }));
   }
   if (SAMPLE) { // every k-th fact: spread across schools, same sample on every run
     const k = Math.max(1, Math.floor(facts.length / SAMPLE));
@@ -82,7 +82,9 @@ async function main() {
       const text = loaded.map((p) => p.text).join(' ');
       row.missingNumbers = numbersIn(f.text).filter((n) => !pageHasNumber(text, n));
       row.missingNames = namesIn(f.text, nameOf.get(f.slug)).filter((n) => !text.includes(n));
-      row.result = row.missingNumbers.length ? 'number not on page' : row.missingNames.length ? 'name not on page' : 'ok';
+      // Facts published since Nov 2026 keep the sentence they were checked against.
+      row.quoteGone = f.quotes.length > 0 && !f.quotes.some((q) => text.includes(norm(q)));
+      row.result = row.missingNumbers.length ? 'number not on page' : row.quoteGone ? 'supporting sentence not on page' : row.missingNames.length ? 'name not on page' : 'ok';
     }
     rows.push(row);
   }
@@ -95,12 +97,13 @@ async function main() {
     '# "What\'s special" recheck', '', `Checked ${rows.length} published facts against their sources on ${today}.`, '',
     `- Source still shows every number and name in the fact: ${count('ok')}`,
     `- A number in the fact isn't on the page now: ${count('number not on page')}`,
+    `- The sentence the fact was checked against isn't on the page now: ${count('supporting sentence not on page')}`,
     `- A name in the fact isn't on the page now: ${count('name not on page')}`,
     `- Source page is gone (404/410): ${count('source gone')}`,
     `- Couldn't load the page (blocked, timed out or needs a browser): ${count('could not load')}`, '',
     'A flag means "look at this", not "this is wrong": pages spell numbers out, split content across tabs, or block automated requests.', '',
     '| School | Result | Missing / status | Fact | Source |', '| --- | --- | --- | --- | --- |',
-    ...rows.filter((r) => r.result === 'number not on page' || r.result === 'source gone').map(line),
+    ...rows.filter((r) => r.result === 'number not on page' || r.result === 'source gone' || r.result === 'supporting sentence not on page').map(line),
     ...rows.filter((r) => r.result === 'name not on page').map(line),
     ...rows.filter((r) => r.result === 'could not load').map(line)
   ].join('\n') + '\n');

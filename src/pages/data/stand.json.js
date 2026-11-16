@@ -9,7 +9,9 @@ export function GET() {
   for (const s of schools) {
     const x = standData(s, cds.get(s.slug));
     // Only what the list shows, to keep the file small.
-    const d = { admit: x.admit };
+    const d = { admit: x.admit, name: s.name };
+    if (x.testPolicy) d.testPolicy = x.testPolicy;
+    if (x.ownership === 'public') d.ownership = 'public';
     if (x.sat) { d.sat = x.sat; d.satFrom = x.satFrom; } else if (x.satSections) d.satSec = [...x.satSections.reading, ...x.satSections.math];
     if (x.act) { d.act = x.act; d.actFrom = x.actFrom; }
     if (x.gpa) d.gpa = x.gpa;

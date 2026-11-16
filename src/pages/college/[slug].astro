@@ -12,6 +12,7 @@ import {
 import { COLLEGES_LAUNCHED, COMPARE_PAIRS_LAUNCHED, MAJORS_LAUNCHED, CONTACT_EMAIL } from '../../lib/site.js';
 import { pairsFor } from '../../lib/college-pairs.js';
 import { programsFor, majorForCip, majorSummary, majorsPulledDate, majorsSourceUrl } from '../../lib/majors.js';
+import { dataYears, schoolYear, admissionsFall, DATA_AGE } from '../../lib/data-years.js';
 
 // Colleges that share a name with another listed college (Bethel University, Lincoln University ...): titles add the place.
 const nameUses = new Map();
@@ -76,18 +77,25 @@ const satSec = !satRange && s.satSections ? s.satSections : null;
 const sat = satRange
   ? { label: 'SAT (middle 50%)', value: satRange, note: `Total score, ${sentNote(s.satSubmit, 'SAT')}`, href: cd.source.url, srcLabel: cdsLabel }
   : satSec
-    ? { label: 'SAT section scores (middle 50%)', value: `Reading ${satSec.reading[0]}–${satSec.reading[1]} · Math ${satSec.math[0]}–${satSec.math[1]}`, note: 'Each section separately, enrolled first-years who sent scores. We don\'t have the school\'s own total range yet, and adding the two ranges wouldn\'t give one.', href: src }
+    ? { label: 'SAT section scores (middle 50%)', value: `Reading ${satSec.reading[0]}–${satSec.reading[1]} · Math ${satSec.math[0]}–${satSec.math[1]}`, note: `Each section separately, enrolled first-years who sent scores, fall ${admissionsFall}. We don't have the school's own total range yet, and adding the two ranges wouldn't give one.`, href: src }
     : { label: 'SAT (middle 50%)', value: null, href: src };
 const actRange = s.actRange ? `${s.actRange[0]}–${s.actRange[2]}` : null;
 const act = s.actFrom === 'cds'
   ? { value: actRange, note: `Composite, ${sentNote(s.actSubmit, 'ACT')}`, href: cd.source.url, srcLabel: cdsLabel }
-  : { value: actRange, note: actRange && 'Composite, enrolled first-years who sent scores', href: src };
+  : { value: actRange, note: actRange && `Composite, enrolled first-years who sent scores, fall ${admissionsFall}`, href: src };
 const admit = admitRateText(s);
 const admitNote = s.admitRate != null
   ? (s.admitRate < 0.1
       ? `About 1 in ${Math.round(1 / Math.max(s.admitRate, 0.01))} applicants get in.`
       : `About ${Math.round(s.admitRate * 10)} in 10 applicants get in.`)
   : s.openAdmission ? 'Admits nearly everyone who applies.' : null;
+// The federal admit rate is for one entering class; the school's own report is often a year newer.
+// When both are on the page and they differ, the top figure says so instead of leaving two unlabeled rates.
+const cdsAdmit = cd?.values?.admitted_total && cd?.values?.applied_total ? cd.values.admitted_total / cd.values.applied_total : null;
+const cdsFall = cd?.cdsYear ? Number(cd.cdsYear.slice(0, 4)) : null;
+const admitClass = s.admitRate != null ? `Class that entered in fall ${admissionsFall}.` : null;
+const admitNewer = s.admitRate != null && cdsAdmit != null && cdsFall > admissionsFall && Math.round(cdsAdmit * 100) !== Math.round(s.admitRate * 100)
+  ? ` For fall ${cdsFall}, ${s.name}'s own report shows ${cdsAdmit < 0.1 ? (cdsAdmit * 100).toFixed(1).replace(/\.0$/, '') : Math.round(cdsAdmit * 100)}% (below).` : '';
 
 const description = `${s.name} in ${s.city}, ${s.stateName}: admit rate, test scores, real cost by family income, graduation rate and earnings, from federal data.`;
 // Short names students search for (UCLA, MIT, ABAC) go first in the title; former names and long
@@ -169,7 +177,7 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
 
     <section class="glance" aria-label="At a glance">
       <dl class="glance-grid">
-        <Stat big label="Admit rate" value={admit} href={src} />
+        <Stat big label="Admit rate" value={admit} note={admitClass && `${admitClass}${admitNewer}`} href={src} />
         <Stat big label="Average net price" value={money(s.avgNetPrice)} note="per year, after grants" href={src} />
         <Stat big label="Graduation rate" value={pct(s.gradRate)} note="within 6 years" href={src} />
         <Stat big label="Median earnings" value={money(s.medianEarnings10yr)} note="10 years after starting" href={src} />
@@ -201,10 +209,10 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
     <section class="block" aria-labelledby="getting-in">
       <h2 id="getting-in">Getting in</h2>
       <dl class="stat-grid">
-        <Stat label="Admit rate" value={admit} note={admitNote} href={src} />
+        <Stat label="Admit rate" value={admit} note={admitNote && `${admitNote}${admitClass ? ` ${admitClass}${admitNewer}` : ''}`} href={src} />
         {tpc
           ? <Stat label="Test policy" value={TEST_POLICY_LABEL[s.testPolicy]} note={`${TEST_POLICY_DETAIL[s.testPolicy]}${tpc.note ? ` ${tpc.note}` : ''} Checked on the school's site ${tpCheckedDate}.`} href={tpc.source.url} srcLabel={tpc.source.title} />
-          : <Stat label="Test policy" value={s.testPolicy && TEST_POLICY_LABEL[s.testPolicy]} note={s.testPolicy && `${TEST_POLICY_DETAIL[s.testPolicy]} As reported to the federal government; policies change, so check the school's admissions site.`} href={src} />}
+          : <Stat label="Test policy" value={s.testPolicy && TEST_POLICY_LABEL[s.testPolicy]} note={s.testPolicy && `${TEST_POLICY_DETAIL[s.testPolicy]} As reported to the federal government for fall ${admissionsFall}; policies change, so check the school's admissions site.`} href={src} />}
         <Stat label={sat.label} value={sat.value} note={sat.note} missing="Not reported" href={sat.href} srcLabel={sat.srcLabel} />
         <Stat label="ACT (middle 50%)" value={act.value} note={act.note} missing="Not reported" href={act.href} srcLabel={act.srcLabel} />
       </dl>
@@ -233,9 +241,9 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
       ) : null}
       <dl class="stat-grid">
         <Stat label="Average net price" value={money(s.avgNetPrice)} note="full-time first-years who got grant aid" href={src} />
-        <Stat label="Total cost of attendance" value={money(s.costOfAttendance)} note="sticker price incl. housing, per year" href={src} />
-        <Stat label={s.ownership === 'public' ? 'Tuition, in-state' : 'Tuition'} value={money(s.tuitionInState)} href={src} />
-        {s.ownership === 'public' && <Stat label="Tuition, out-of-state" value={money(s.tuitionOutOfState)} href={src} />}
+        <Stat label="Total cost of attendance" value={money(s.costOfAttendance)} note={`sticker price incl. housing, ${schoolYear(dataYears.cost)} school year`} href={src} />
+        <Stat label={s.ownership === 'public' ? 'Tuition, in-state' : 'Tuition'} value={money(s.tuitionInState)} note={`tuition and required fees, ${schoolYear(dataYears.cost)}`} href={src} />
+        {s.ownership === 'public' && <Stat label="Tuition, out-of-state" value={money(s.tuitionOutOfState)} note={`tuition and required fees, ${schoolYear(dataYears.cost)}`} href={src} />}
       </dl>
     </section>
 
@@ -254,7 +262,7 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
       <dl class="stat-grid">
         <Stat label="Undergraduates" value={int(s.undergrads)} href={src} />
         <Stat label="Receive Pell grants" value={pct(s.pellRate)} note="a sign of economic diversity" href={src} />
-        <Stat label="First-generation students" value={pct(s.firstGenShare)} note="parents didn't go beyond high school" href={src} />
+        <Stat label="First-generation students" value={pct(s.firstGenShare)} note={`parents didn't go beyond high school. From ${schoolYear(dataYears.firstGeneration)}, the newest the government publishes, so it may have changed.`} href={src} />
       </dl>
     </section>
 
@@ -309,7 +317,9 @@ const errorMail = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Data er
 
     <section class="block sources" aria-labelledby="sources">
       <h2 id="sources">Where these numbers come from</h2>
-      <p>{cd ? <>Numbers marked with the school's Common Data Set come from that report. The rest come from</> : <>Every number on this page comes from</>} the U.S. Department of Education's <a href={src} rel="noopener" target="_blank">College Scorecard page for {s.name}</a>, which draws on what the school reports to the federal government and on federal student aid and tax records. We last pulled the data on {pulledDate}. Different measures cover different years; <a href="/methodology">here's how each one works</a>.</p>
+      <p>{cd ? <>Numbers marked with the school's Common Data Set come from that report. The rest come from</> : <>Every number on this page comes from</>} the U.S. Department of Education's <a href={src} rel="noopener" target="_blank">College Scorecard page for {s.name}</a>, which draws on what the school reports to the federal government and on federal student aid and tax records. We last pulled the data on {pulledDate}. Different measures cover different years:</p>
+      <ul class="data-age">{DATA_AGE.map(([what, when]) => <li><strong>{what}:</strong> {when}.</li>)}</ul>
+      <p><a href="/methodology">How each number works and how we check it</a>.</p>
       <p>Spot something wrong? <a href={errorMail}>Report a data error</a>.</p>
     </section>
   </article>

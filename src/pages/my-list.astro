@@ -40,11 +40,11 @@ import Layout from '../layouts/Layout.astro';
   <p class="empty-state" id="loading">Loading your list…</p>
   <ul class="ml-list" id="list"></ul>
 
-  <p class="wys-src ml-src">Where you'd stand uses each school's own Common Data Set when we have it and College Scorecard otherwise. Test ranges describe enrolled first-years who sent scores. It's a comparison, not a prediction: open a school's page for the details and sources.</p>
+  <p class="wys-src ml-src">Where you'd stand uses each school's own Common Data Set when we have it and College Scorecard otherwise. Test ranges describe enrolled first-years who sent scores. Reach, Target and Likely come from a published rule of thumb, not a prediction, and can't see essays, activities, your major or whether you're in-state. It's a comparison: open a school's page for the details and sources.</p>
 </Layout>
 
 <script>
-  import { GPA_LABELS, num, placeScore, placeGpa, loadProfile, saveProfile } from '../lib/stand.js';
+  import { GPA_LABELS, num, placeScore, placeGpa, loadProfile, saveProfile, outlook } from '../lib/stand.js';
   import { loadList, saveList } from '../lib/mylist.js';
 
   const esc = (t) => String(t ?? '').replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[ch]);
@@ -80,7 +80,9 @@ import Layout from '../layouts/Layout.astro';
       const r = placeScore(score, range);
       cells.push(standCell(label, { tone: r.tone, text: `${r.short} (${range[0]}–${range[2]})`, src: from === 'cds' ? 'school report' : 'federal' }));
     }
-    return cells.length ? `<dl class="ml-stands">${cells.join('')}</dl>` : '';
+    const o = outlook(d, p);
+    const tag = o.level ? `<p class="ml-outlook lv-${o.level}"><strong>${esc(o.label)}</strong> <a href="/methodology#outlook">How we decide</a></p>` : '';
+    return cells.length ? `${tag}<dl class="ml-stands">${cells.join('')}</dl>` : '';
   }
 
   function render() {

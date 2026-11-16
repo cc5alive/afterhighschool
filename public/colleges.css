@@ -541,3 +541,19 @@ button.button { cursor: pointer; font-family: inherit; }
   .mj-table td:first-child { display: block; padding-bottom: 6px; }
   .mj-table td.mj-prog[data-label] { font-weight: 400; }
 }
+
+/* Outlook (Reach / Target / Likely) above the "Where you'd stand" cards. Color is never the only signal: the label says it. */
+.wys-outlook { background: var(--card); border-radius: 12px; padding: 14px 16px; margin: 0 0 12px; border-left: 6px solid var(--rule); }
+.wys-outlook p { margin: 0 0 6px; }
+.wys-outlook-label { font-size: 1.15rem; font-weight: 800; }
+.wys-outlook.lv-likely { border-left-color: var(--apprentice); }
+.wys-outlook.lv-target { border-left-color: var(--college); }
+.wys-outlook.lv-reach, .wys-outlook.lv-reach-all { border-left-color: var(--trade); }
+.wys-item.tone-none { border-left-color: var(--rule); }
+.wys-blind { margin: 12px 0 0; font-size: 0.9rem; color: var(--muted); }
+.ml-outlook { margin: 8px 0 4px; }
+.ml-outlook a { font-size: 0.85rem; font-weight: 400; margin-left: 6px; }
+
+/* "How old is each number" list in a school page's sources section. */
+.data-age { margin: 8px 0 12px; padding-left: 20px; font-size: 0.92rem; }
+.data-age li { margin: 2px 0; }
