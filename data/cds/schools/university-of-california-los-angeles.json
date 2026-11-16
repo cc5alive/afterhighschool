@@ -9,6 +9,8 @@
   "values": {
     "applied_total": 145086,
     "admitted_total": 13659,
+    "waitlist_offered": 20563,
+    "waitlist_accepted": 13612,
     "waitlist_admitted": 1514,
     "gpa_average": 3.94,
     "gpa_submit_pct": 99.8,
@@ -35,9 +37,11 @@
   "basis": {
     "applied_total": "reader",
     "admitted_total": "reader",
-    "waitlist_admitted": "reader",
-    "gpa_average": "reader",
-    "gpa_submit_pct": "reader",
+    "waitlist_offered": "gemini",
+    "waitlist_accepted": "gemini",
+    "waitlist_admitted": "both",
+    "gpa_average": "both",
+    "gpa_submit_pct": "both",
     "deferral_allowed": "reader",
     "factor_rigor": "reader",
     "factor_class_rank": "reader",

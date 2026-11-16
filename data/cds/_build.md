@@ -76,7 +76,7 @@ Built 2026-11-16.
 | drexel-university | 2025-2026 | 19 |  |
 | duke-university | 2025-2026 | 34 |  |
 | duquesne-university | 2025-2026 | 45 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
-| east-carolina-university | 2024-2025 | 34 |  |
+| east-carolina-university | 2024-2025 | 40 |  |
 | east-texas-a-and-m-university | 2025-2026 | 42 | C1 failed consistency (applied 13475, admitted 10355, enrolled 1162, federal admit rate 0.9224) |
 | eastern-michigan-university | 2025-2026 | 0 |  |
 | elon-university | 2025-2026 | 51 |  |
@@ -192,7 +192,7 @@ Built 2026-11-16.
 | salisbury-university | 2025-2026 | 44 | gpa_100_pct: reads disagree (0 vs 0.1), left out |
 | sam-houston-state-university | 2025-2026 | 36 |  |
 | samford-university | 2025-2026 | 44 |  |
-| san-diego-state-university | 2025-2026 | 30 |  |
+| san-diego-state-university | 2025-2026 | 37 |  |
 | san-jose-state-university | 2025-2026 | 44 |  |
 | santa-clara-university | 2025-2026 | 29 |  |
 | skidmore-college | 2025-2026 | 40 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
@@ -223,7 +223,7 @@ Built 2026-11-16.
 | texas-a-and-m-university-kingsville | 2024-2025 | 23 | SAT 890-1080 far from federal 990-1110 |
 | texas-christian-university | 2025-2026 | 43 |  |
 | texas-state-university | 2025-2026 | 5 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
-| texas-tech-university | 2025-2026 | 44 |  |
+| texas-tech-university | 2025-2026 | 47 |  |
 | texas-woman-s-university | 2025-2026 | 39 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | the-college-of-new-jersey | 2023-2024 | 0 |  |
 | the-university-of-alabama | 2025-2026 | 27 |  |
@@ -242,7 +242,7 @@ Built 2026-11-16.
 | tufts-university | 2025-2026 | 16 | ed counts inconsistent (undefined, 1071) |
 | tulane-university-of-louisiana | 2025-2026 | 51 |  |
 | united-states-military-academy | 2024-2025 | 38 |  |
-| university-at-buffalo | 2025-2026 | 36 |  |
+| university-at-buffalo | 2025-2026 | 43 | gpa_average out of range |
 | university-of-akron-main-campus | 2025-2026 | 42 | C1 failed consistency (applied 13503, admitted 10427, enrolled 2169, federal admit rate 0.5967) |
 | university-of-alabama-at-birmingham | 2025-2026 | 45 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-alabama-in-huntsville | 2025-2026 | 43 |  |
@@ -251,10 +251,10 @@ Built 2026-11-16.
 | university-of-california-berkeley | 2025-2026 | 18 |  |
 | university-of-california-davis | 2025-2026 | 40 |  |
 | university-of-california-irvine | 2025-2026 | 28 |  |
-| university-of-california-los-angeles | 2025-2026 | 24 |  |
+| university-of-california-los-angeles | 2025-2026 | 26 |  |
 | university-of-california-riverside | 2025-2026 | 32 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-california-san-diego | 2025-2026 | 39 |  |
-| university-of-california-santa-cruz | 2025-2026 | 18 |  |
+| university-of-california-santa-cruz | 2025-2026 | 20 |  |
 | university-of-central-florida | 2025-2026 | 44 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-central-missouri | 2025-2026 | 38 | reader and Gemini read different documents (2025 vs 2024); used the reader one |
 | university-of-chicago | 2025-2026 | 45 |  |
@@ -306,7 +306,7 @@ Built 2026-11-16.
 | university-of-north-texas | 2025-2026 | 29 |  |
 | university-of-northern-colorado | 2023-2024 | 26 | C11 buckets sum to 24.0; ACT 17-26 far from federal 21-26 |
 | university-of-northern-iowa | 2023-2024 | 26 | SAT 880-1200 far from federal 1020-1280 |
-| university-of-oklahoma-norman-campus | 2025-2026 | 41 |  |
+| university-of-oklahoma-norman-campus | 2025-2026 | 46 |  |
 | university-of-oregon | 2025-2026 | 0 |  |
 | university-of-pennsylvania | 2025-2026 | 46 |  |
 | university-of-pittsburgh-pittsburgh-campus | 2025-2026 | 42 |  |
