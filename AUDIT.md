@@ -3,7 +3,7 @@
 What was checked, what was wrong, what is fixed, and what still needs a decision. Findings are ranked by how badly they could mislead a student.
 
 - **Fixed on main:** commits `1d18086` (CDS data and pipeline) and `8859bd5` (one stale fact).
-- **Waiting for review:** [pull request #1](https://github.com/cc5alive/afterhighschool/pull/1) (the tool's method, data years on pages, the methodology page, monthly fact recheck).
+- **Merged Nov 15:** [pull request #1](https://github.com/cc5alive/afterhighschool/pull/1) (the tool's method, data years on pages, the methodology page, monthly fact recheck). Live as build `aa194be`. CC confirmed the 15% line and the AI disclosure.
 
 ## How the checking was done
 
@@ -77,7 +77,7 @@ A share under 1% was treated as a fraction and multiplied by 100. Lindenwood sho
 - **Test-optional ranges.** The "only X% sent scores" warning needs the share, and 103 of 259 SAT ranges don't have it (see finding 11).
 - **Blind spots.** Nothing said the tool can't see major, residency or hooks. UNC, UT Austin and Georgia Tech admit residents and non-residents at very different rates.
 
-**Fix in the PR:** a published Reach / Target / Likely table with "Reach for everyone" under 15%, weighted-GPA detection, a note where the submit share is unknown, and an always-on list of what it can't see. **Decision:** the 15% line and the bands are judgment calls.
+**Fixed (PR #1):** a published Reach / Target / Likely table with "Reach for everyone" under 15%, weighted-GPA detection, a note where the submit share is unknown, and an always-on list of what it can't see. CC kept the 15% line.
 
 ### 8. Medium — Federal numbers carried no year, and one is ten years old (pull request #1)
 
@@ -114,7 +114,7 @@ No rankings, no invented programs, and 98% of sources are the school's own site.
 - "We write each one ourselves" about the facts. Gemini and Claude find them; a script and a review check them.
 - The CDS checks it listed were incomplete.
 
-**Decision:** the PR names the AI tools. That's the accurate description; whether to say it that way is yours.
+**Fixed (PR #1):** the page names the AI tools. CC approved the disclosure.
 
 ### 11. Low — The reader misses values that are in the documents (not fixed)
 
@@ -135,6 +135,10 @@ Nothing wrong is shown, but the pages are thinner than they should be, and the g
 - **17 schools are on a 2023–24 CDS**, two classes old.
 - **Compare and directory pages** show the federal admit rate with no year.
 - **The Scorecard pull** doesn't record data years itself. The probe is a separate manual run.
+
+### 13. Low — Branch builds on Cloudflare always fail (not fixed; needs a settings change)
+
+Cloudflare builds every branch except `main` with `npx wrangler preview`. It stops at once with "Your Wrangler configuration is missing a `previews` block", because the Worker's waitlist database (D1 binding `DB`) has no preview copy. Production builds are unaffected; every `main` deploy succeeded. The only harm is a red X on every pull request and debug branch, which hides a real failure if one ever happens. **Fix options:** turn off non-production branch builds in the Worker's Settings → Builds → Previews, or create a separate preview D1 database and add it under `previews` in `wrangler.jsonc`. Don't point previews at the production database, or test signups would land in the real waitlist.
 
 ## Calls I made without asking
 
