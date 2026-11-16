@@ -37,8 +37,8 @@
   "basis": {
     "applied_total": "reader",
     "admitted_total": "reader",
-    "waitlist_offered": "gemini",
-    "waitlist_accepted": "gemini",
+    "waitlist_offered": "both",
+    "waitlist_accepted": "both",
     "waitlist_admitted": "both",
     "gpa_average": "both",
     "gpa_submit_pct": "both",

@@ -6,9 +6,9 @@
     "url": "https://docs.google.com/spreadsheets/d/1adnqZlCAKzddCsxc-jqGm5svbrjHG2sS/edit?usp=sharing&ouid=104827702294515625692&rtpof=true&sd=true"
   },
   "sourceUrl": "https://docs.google.com/spreadsheets/d/1adnqZlCAKzddCsxc-jqGm5svbrjHG2sS/edit?usp=sharing&ouid=104827702294515625692&rtpof=true&sd=true",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -114,6 +114,14 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    },
+    "sat_submit_pct": {
+      "value": 0.02,
+      "quote": "submitting sat scores 0.02 35"
+    },
+    "act_submit_pct": {
+      "value": 0.41,
+      "quote": "submitting act scores 0.41 793"
     }
   },
   "concerns": null

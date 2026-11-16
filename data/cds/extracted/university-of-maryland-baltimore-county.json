@@ -6,11 +6,31 @@
     "url": "https://umbc.box.com/s/zh0iavb1yvvxd9na0oh8ly2u1ygljgrk"
   },
   "sourceUrl": "https://umbc.box.com/s/zh0iavb1yvvxd9na0oh8ly2u1ygljgrk",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 14802,
+      "quote": "total first-time, first-years who applied 11,675 1,886 1241 c or t 14,802"
+    },
+    "admitted_total": {
+      "value": 10949,
+      "quote": "total first-time, first-years who were admitted 8,879 1,148 922 c or t 10,949"
+    },
+    "enrolled_total": {
+      "value": 2271,
+      "quote": "total first-time, first-years who enrolled 2,056 96 116 c or t 2,271"
+    },
+    "waitlist_offered": {
+      "value": 1680,
+      "quote": "number of qualified applicants offered a place on waiting list: 1,680"
+    },
+    "waitlist_accepted": {
+      "value": 1680,
+      "quote": "number accepting a place on the waiting list: 1,680"
+    },
     "waitlist_admitted": {
       "value": 758,
       "quote": "number of wait-listed students admitted: 758"
@@ -51,21 +71,6 @@
       "value": 100,
       "quote": "percent who had gpa below 1.0 100% 100% 100%"
     },
-    "applied_total": {
-      "value": 14802,
-      "quote": "total first-time, first-year males who applied 7,139 / total first-time, first-year females who applied 7,663",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 10949,
-      "quote": "total first-time, first-year males who were admitted 5,180 / total first-time, first-year females who were admitted 5,769",
-      "how": "sum of gender rows"
-    },
-    "enrolled_total": {
-      "value": 2271,
-      "quote": "total first-time, first-year males who enrolled 1,221 / total first-time, first-year females who enrolled 1,050",
-      "how": "sum of gender rows"
-    },
     "sat_p25": {
       "value": 1250,
       "quote": "sat composite 1250 1320 1400"
@@ -93,6 +98,14 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "sat_submit_pct": {
+      "value": 33,
+      "quote": "submitting sat scores 33 758"
+    },
+    "act_submit_pct": {
+      "value": 3,
+      "quote": "submitting act scores 3 59"
     }
   },
   "concerns": null

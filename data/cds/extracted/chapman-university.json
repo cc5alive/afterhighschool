@@ -6,11 +6,19 @@
     "url": "https://www.chapman.edu/campus-services/institutional-research/_files/cds/cds_2025-2026.pdf"
   },
   "sourceUrl": "https://www.chapman.edu/campus-services/institutional-research/_files/cds/cds_2025-2026.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 1726,
+      "quote": "number of qualified applicants offered a place on waiting list: 1726"
+    },
+    "waitlist_accepted": {
+      "value": 764,
+      "quote": "number accepting a place on the waiting list: 764"
+    },
     "waitlist_admitted": {
       "value": 246,
       "quote": "number of wait-listed students admitted: 246"
@@ -144,6 +152,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 15.92,
+      "quote": "submitting sat scores 15.92% 275"
+    },
+    "act_submit_pct": {
+      "value": 5.96,
+      "quote": "submitting act scores 5.96% 103"
     },
     "ed_offered": {
       "value": "yes",

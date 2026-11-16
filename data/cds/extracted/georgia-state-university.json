@@ -6,9 +6,9 @@
     "url": "https://oie.gsu.edu/data-reporting-systems/common-data-set/"
   },
   "sourceUrl": "https://oie.gsu.edu/data-reporting-systems/common-data-set/",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -22,10 +22,6 @@
     "enrolled_total": {
       "value": 4470,
       "quote": "C.118 total first-time, first-year students who enrolled: 4470"
-    },
-    "rank_submit_pct": {
-      "value": 0,
-      "quote": "percent of total first-time, first-year students who submitted high school class rank: c.1130 total 0 first-time, first-year admission first-time, first-year profile high school gpa undergraduates first-time, first-year all all all whole number or round to nearest tenth"
     },
     "gpa_average": {
       "value": 3.6,

@@ -6,9 +6,9 @@
     "url": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf"
   },
   "sourceUrl": "https://ir.ucsd.edu/stats/undergrad/CDS-2025-2026-Final4.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 7801,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 5431 961 1409 7801"
+    },
+    "waitlist_offered": {
+      "value": 36709,
+      "quote": "number of qualified applicants offered a place on waiting list: 36,709"
+    },
+    "waitlist_accepted": {
+      "value": 25411,
+      "quote": "number accepting a place on the waiting list: 25,411"
     },
     "waitlist_admitted": {
       "value": 5284,

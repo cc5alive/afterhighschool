@@ -6,9 +6,9 @@
     "url": "https://provost.emory.edu/planning-administration/_includes/documents/sections/institutional-data/emory-common-data-set-2024-2025.pdf"
   },
   "sourceUrl": "https://provost.emory.edu/planning-administration/data/common-data-set.html",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 1438,
       "quote": "total first-time, first-year who enrolled 1438 217 983 238"
+    },
+    "waitlist_offered": {
+      "value": 6098,
+      "quote": "number of qualified applicants offered a place on waiting list: 6098"
+    },
+    "waitlist_accepted": {
+      "value": 3355,
+      "quote": "number accepting a place on the waiting list: 3355"
     },
     "waitlist_admitted": {
       "value": 109,
@@ -174,6 +182,14 @@
     "transfer_enrolled": {
       "value": 141,
       "quote": "D2 total 2,445 396 141"
+    },
+    "sat_submit_pct": {
+      "value": 43,
+      "quote": "submitting sat scores 43% 623"
+    },
+    "act_submit_pct": {
+      "value": 20,
+      "quote": "submitting act scores 20% 286"
     },
     "ed_offered": {
       "value": "yes",

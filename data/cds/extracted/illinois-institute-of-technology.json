@@ -1,65 +1,111 @@
 {
   "slug": "illinois-institute-of-technology",
-  "cdsYear": "2024-2025",
+  "cdsYear": "2025-2026",
   "source": {
     "title": "Common Data Set",
-    "url": "https://www.iit.edu/sites/default/files/2026-11/full-common-data-set-2024_2025.pdf"
+    "url": "https://www.iit.edu/sites/default/files/2026-11/complete-common_data_set_2025-26.pdf"
   },
   "sourceUrl": "https://www.iit.edu/oii/common-data-set",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
-    "rank_top10_pct": {
-      "value": 45,
-      "quote": "percent in top tenth of high school graduating class 45%"
-    },
-    "rank_top25_pct": {
-      "value": 77,
-      "quote": "percent in top quarter of high school graduating class 77%"
-    },
-    "ed_applied": {
-      "value": 146,
-      "quote": "number of early decision applications received by your institution 146"
-    },
-    "ed_admitted": {
-      "value": 52,
-      "quote": "number of applicants admitted under early decision plan 52"
-    },
     "applied_total": {
-      "value": 12216,
-      "quote": "total first-time, first-year men who applied 7687 / total first-time, first-year women who applied 4529 / total first-time, first-year another gender who applied / total first-time, first-year unknown gender who applied",
-      "how": "sum of gender rows"
+      "value": 12277,
+      "quote": "total first-time, first-year (degree-seeking) who applied 83 4945 4415 2834 12277"
     },
     "admitted_total": {
-      "value": 6710,
-      "quote": "total first-time, first-year men who were admitted 4039 / total first-time, first-year women who were admitted 2671 / total first-time, first-year another gender who were admitted / total first-time, first-year unknown gender who were admitted",
-      "how": "sum of gender rows"
+      "value": 7596,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 993 3225 3345 33 7596"
+    },
+    "enrolled_total": {
+      "value": 603,
+      "quote": "total first-time, first-year (degree-seeking) enrolled 379 165 52 7 603"
+    },
+    "rank_top10_pct": {
+      "value": 54,
+      "quote": "percent in top tenth of high school graduating class 54"
+    },
+    "rank_top25_pct": {
+      "value": 86,
+      "quote": "percent in top quarter of high school graduating class 86"
+    },
+    "gpa_400_pct": {
+      "value": 55,
+      "quote": "percent who had gpa of 4.0 55"
+    },
+    "gpa_375_pct": {
+      "value": 25,
+      "quote": "percent who had gpa between 3.75 and 3.99 25"
+    },
+    "gpa_350_pct": {
+      "value": 13,
+      "quote": "percent who had gpa between 3.50 and 3.74 13"
+    },
+    "gpa_325_pct": {
+      "value": 6,
+      "quote": "percent who had gpa between 3.25 and 3.49 6"
+    },
+    "gpa_300_pct": {
+      "value": 1,
+      "quote": "percent who had gpa between 3.00 and 3.24 1"
+    },
+    "gpa_250_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.50 and 2.99 0"
+    },
+    "gpa_200_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 2.0 and 2.49 0"
+    },
+    "gpa_100_pct": {
+      "value": 0,
+      "quote": "percent who had gpa between 1.0 and 1.99 0"
+    },
+    "gpa_below1_pct": {
+      "value": 0,
+      "quote": "percent who had gpa below 1.0 0"
+    },
+    "gpa_average": {
+      "value": 3.9,
+      "quote": "average high school gpa 3.9"
+    },
+    "gpa_submit_pct": {
+      "value": 50,
+      "quote": "percent submitting gpa 50"
+    },
+    "ed_applied": {
+      "value": 5874,
+      "quote": "number of early decision applications received by your institution: 5874"
+    },
+    "ed_admitted": {
+      "value": 4385,
+      "quote": "number of applicants admitted under early decision plan: 4385"
     },
     "sat_p25": {
-      "value": 1190,
-      "quote": "sat composite sat evidence-based reading and 1190 1300 1390"
+      "value": 1210,
+      "quote": "sat composite 1210 1300 1390"
     },
     "sat_p50": {
       "value": 1300,
-      "quote": "sat composite sat evidence-based reading and 1190 1300 1390"
+      "quote": "sat composite 1210 1300 1390"
     },
     "sat_p75": {
       "value": 1390,
-      "quote": "sat composite sat evidence-based reading and 1190 1300 1390"
+      "quote": "sat composite 1210 1300 1390"
     },
     "act_p25": {
-      "value": 26,
-      "quote": "act composite 26 29 32"
+      "value": 27,
+      "quote": "act composite 27 30 33"
     },
     "act_p50": {
-      "value": 29,
-      "quote": "act composite 26 29 32"
+      "value": 30,
+      "quote": "act composite 27 30 33"
     },
     "act_p75": {
-      "value": 32,
-      "quote": "act composite 26 29 32"
+      "value": 33,
+      "quote": "act composite 27 30 33"
     },
     "factor_rigor": {
       "value": "Very Important",
@@ -134,16 +180,24 @@
       "quote": "Level of applicant's interest"
     },
     "transfer_applied": {
-      "value": 928,
-      "quote": "D2 total 928 377 221"
+      "value": 773,
+      "quote": "D2 total 773 480 186"
     },
     "transfer_admitted": {
-      "value": 377,
-      "quote": "D2 total 928 377 221"
+      "value": 480,
+      "quote": "D2 total 773 480 186"
     },
     "transfer_enrolled": {
-      "value": 221,
-      "quote": "D2 total 928 377 221"
+      "value": 186,
+      "quote": "D2 total 773 480 186"
+    },
+    "deferral_allowed": {
+      "value": "yes",
+      "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "act_submit_pct": {
+      "value": 11,
+      "quote": "submitting act scores 11 66"
     },
     "ed_offered": {
       "value": "yes",

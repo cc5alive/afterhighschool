@@ -6,9 +6,9 @@
     "url": "https://www.tarleton.edu/institutional-data-analytics/wp-content/uploads/sites/397/2025/05/C.-First-Time-First-Year-Admission.pdf"
   },
   "sourceUrl": "https://www.tarleton.edu/institutional-data-analytics/wp-content/uploads/sites/397/2025/05/C.-First-Time-First-Year-Admission.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -130,6 +130,14 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after no admission?"
+    },
+    "sat_submit_pct": {
+      "value": 15,
+      "quote": "submitting sat scores 15% 439"
+    },
+    "act_submit_pct": {
+      "value": 49,
+      "quote": "submitting act scores 49% 1478"
     }
   },
   "concerns": null

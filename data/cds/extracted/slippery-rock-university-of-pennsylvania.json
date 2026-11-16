@@ -6,9 +6,9 @@
     "url": "https://www.sru.edu/documents/offices/analytics-decision-support/whitepapers/CDS_2024-2025_SRU.pdf"
   },
   "sourceUrl": "https://www.sru.edu/documents/offices/analytics-decision-support/whitepapers/CDS_2024-2025_SRU.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -170,6 +170,14 @@
     "transfer_enrolled": {
       "value": 471,
       "quote": "D2 total 1,080 714 471"
+    },
+    "sat_submit_pct": {
+      "value": 19,
+      "quote": "submitting sat scores 19% 295"
+    },
+    "act_submit_pct": {
+      "value": 3,
+      "quote": "submitting act scores 3% 53"
     }
   },
   "concerns": null

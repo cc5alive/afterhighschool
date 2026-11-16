@@ -6,9 +6,9 @@
     "url": "https://www.salisbury.edu/administration/university-analysis-reporting-and-assessment/_files/CDS-2025-2026.pdf"
   },
   "sourceUrl": "https://www.salisbury.edu/administration/university-analysis-reporting-and-assessment/_files/CDS-2025-2026.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -178,6 +178,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 10,
+      "quote": "submitting sat scores 10% 140"
+    },
+    "act_submit_pct": {
+      "value": 2,
+      "quote": "submitting act scores 2% 3"
     },
     "ed_offered": {
       "value": "yes",

@@ -6,9 +6,9 @@
     "url": "https://www.msudenver.edu/wp-content/uploads/2026/06/CDS_2024-2025_Updated_06-29-26_jjb3.pdf"
   },
   "sourceUrl": "https://www.msudenver.edu/wp-content/uploads/2026/06/CDS_2024-2025_Updated_06-29-26_jjb3.pdf",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -18,6 +18,10 @@
     "admitted_total": {
       "value": 11610,
       "quote": "total first-time, first-year who were admitted 11610 8730 2726 27 127"
+    },
+    "enrolled_total": {
+      "value": 1962,
+      "quote": "total first-time, first-year who enrolled 1962 1710 290 7 127"
     },
     "factor_rigor": {
       "value": "Considered",

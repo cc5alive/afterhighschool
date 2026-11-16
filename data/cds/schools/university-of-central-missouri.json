@@ -7,6 +7,7 @@
   },
   "builtAt": "2026-11-16",
   "values": {
+    "act_submit_pct": 69,
     "sat_p25": 968,
     "sat_p50": 1065,
     "sat_p75": 1180,
@@ -47,6 +48,7 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
+    "act_submit_pct": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",
     "sat_p75": "reader",

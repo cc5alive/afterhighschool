@@ -6,9 +6,9 @@
     "url": "https://www.skidmore.edu/ir/facts/common/cds-2025-26.pdf"
   },
   "sourceUrl": "https://www.skidmore.edu/ir/facts/common/cds-2025-26.pdf",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 692,
       "quote": "total first-time, first-year (degree-seeking) enrolled 692"
+    },
+    "waitlist_offered": {
+      "value": 2360,
+      "quote": "number of qualified applicants offered a place on waiting list: 2,360"
+    },
+    "waitlist_accepted": {
+      "value": 675,
+      "quote": "number accepting a place on the waiting list: 675"
     },
     "waitlist_admitted": {
       "value": 35,
@@ -166,6 +174,14 @@
     "transfer_enrolled": {
       "value": 20,
       "quote": "D2 total 160 63 20"
+    },
+    "sat_submit_pct": {
+      "value": 25,
+      "quote": "submitting sat scores 25% 171 171/692"
+    },
+    "act_submit_pct": {
+      "value": 8,
+      "quote": "submitting act scores 8% 57 57/692"
     },
     "ed_offered": {
       "value": "yes",

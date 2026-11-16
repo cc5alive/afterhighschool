@@ -6,9 +6,9 @@
     "url": "https://www.amherst.edu/system/files/C.%20First-Time%20First-Year%20Admission%202025-26_0.pdf"
   },
   "sourceUrl": "https://www.amherst.edu/system/files/C.%20First-Time%20First-Year%20Admission%202025-26_0.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 485,
       "quote": "total first-time, first-year who enrolled 485 62 382 41"
+    },
+    "waitlist_offered": {
+      "value": 1294,
+      "quote": "number of qualified applicants offered a place on waiting list: 1294"
+    },
+    "waitlist_accepted": {
+      "value": 740,
+      "quote": "number accepting a place on the waiting list: 740"
     },
     "waitlist_admitted": {
       "value": 44,
@@ -138,6 +146,14 @@
     "factor_interest": {
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 40,
+      "quote": "submitting sat scores 40% 192"
+    },
+    "act_submit_pct": {
+      "value": 16,
+      "quote": "submitting act scores 16% 78"
     },
     "ed_offered": {
       "value": "yes",

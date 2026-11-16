@@ -6,9 +6,9 @@
     "url": "https://www.oakland.edu/media/Oakland/Assets/OIRA/files/Publications/CDS_2024-2025.pdf"
   },
   "sourceUrl": "https://www.oakland.edu/media/Oakland/Assets/OIRA/files/Publications/CDS_2024-2025.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -178,6 +178,14 @@
     "transfer_enrolled": {
       "value": 1228,
       "quote": "D2 total 2,979 2,612 1,228"
+    },
+    "sat_submit_pct": {
+      "value": 79,
+      "quote": "submitting sat scores 79% 1782"
+    },
+    "act_submit_pct": {
+      "value": 5,
+      "quote": "submitting act scores 5% 115"
     }
   },
   "concerns": null

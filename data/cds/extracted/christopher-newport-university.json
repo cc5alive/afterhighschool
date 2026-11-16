@@ -6,9 +6,9 @@
     "url": "https://cnu.edu/institutional-research/_documents/commondataset/cds_2024-2025.pdf"
   },
   "sourceUrl": "https://cnu.edu/institutional-research/_documents/commondataset/cds_2024-2025.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 1140,
       "quote": "total first-time, first-year who enrolled 1140 1045 90 5"
+    },
+    "waitlist_offered": {
+      "value": 378,
+      "quote": "number of qualified applicants offered a place on waiting list: 378"
+    },
+    "waitlist_accepted": {
+      "value": 86,
+      "quote": "number accepting a place on the waiting list: 86"
     },
     "waitlist_admitted": {
       "value": 36,

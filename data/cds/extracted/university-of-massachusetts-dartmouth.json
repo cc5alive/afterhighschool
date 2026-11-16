@@ -6,9 +6,9 @@
     "url": "https://www.umassd.edu/media/umassdartmouth/institutional-research/CDS-2024-2025-20250602.pdf"
   },
   "sourceUrl": "https://www.umassd.edu/media/umassdartmouth/institutional-research/CDS-2024-2025-20250602.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -182,6 +182,10 @@
     "transfer_enrolled": {
       "value": 423,
       "quote": "D2 total 1161 948 423"
+    },
+    "sat_submit_pct": {
+      "value": 10,
+      "quote": "submitting sat scores 129 10"
     }
   },
   "concerns": null

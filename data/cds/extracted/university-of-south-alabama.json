@@ -6,9 +6,9 @@
     "url": "https://www.southalabama.edu/departments/institutionalresearch/resources/usa-cds-2025-2026.pdf"
   },
   "sourceUrl": "https://www.southalabama.edu/departments/institutionalresearch/commondataset.html",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
@@ -25,12 +25,12 @@
     },
     "applied_total": {
       "value": 10360,
-      "quote": "total first-time, first-year men who applied 3506 / total first-time, first-year women who applied 6854",
+      "quote": "total first-time, first-year men who applied 3506 / total first-time, first-year women who applied 6854 / total first-time, first-year \u0003xqnqrzq\u0003vh[ who applied 0",
       "how": "sum of gender rows"
     },
     "admitted_total": {
       "value": 9795,
-      "quote": "total first-time, first-year men who were admitted 3273 / total first-time, first-year women who were admitted 6522",
+      "quote": "total first-time, first-year men who were admitted 3273 / total first-time, first-year women who were admitted 6522 / total first-time, first-year xqnqrzq\u0003vh[ who were admitted 0",
       "how": "sum of gender rows"
     },
     "sat_p25": {
@@ -132,6 +132,14 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? տ yes տ ✔ no 1\u0012$"
+    },
+    "sat_submit_pct": {
+      "value": 6,
+      "quote": "submitting sat scores 6.00 128"
+    },
+    "act_submit_pct": {
+      "value": 83,
+      "quote": "submitting act scores 83.00 1774"
     }
   },
   "concerns": null

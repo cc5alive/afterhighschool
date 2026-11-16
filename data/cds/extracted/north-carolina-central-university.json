@@ -6,11 +6,23 @@
     "url": "https://myeol.nccu.edu/sites/default/files/2026-09/CDS-2025-2026.pdf"
   },
   "sourceUrl": "https://myeol.nccu.edu/sites/default/files/2026-09/CDS-2025-2026.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 17831,
+      "quote": "total first - time, first - year s who applied 6449 11382 c or t c or t 17831"
+    },
+    "admitted_total": {
+      "value": 15343,
+      "quote": "total first - time, first - year s who were admitted 5792 9551 c or t c or t 15343"
+    },
+    "enrolled_total": {
+      "value": 1688,
+      "quote": "total first - time, first - year s who enrolled 1174 514 c or t c or t 1688"
+    },
     "rank_top10_pct": {
       "value": 9,
       "quote": "percent in top tenth of high school graduating class 9"
@@ -47,13 +59,13 @@
       "value": 1,
       "quote": "percent who had gpa between 2.0 and 2.49 c or t c or t 1"
     },
-    "gpa_below1_pct": {
-      "value": 100,
-      "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
-    },
     "gpa_average": {
       "value": 3.26,
       "quote": "average high school gpa: 3.26"
+    },
+    "gpa_submit_pct": {
+      "value": 99,
+      "quote": "percent of total first - time, first - year students who submitted high school gpa: percent submitting high school gpa: 99"
     },
     "sat_p25": {
       "value": 815,
@@ -150,6 +162,14 @@
     "transfer_enrolled": {
       "value": 510,
       "quote": "D2 total 1493 1163 510"
+    },
+    "sat_submit_pct": {
+      "value": 14,
+      "quote": "submitting sat scores 14 232"
+    },
+    "act_submit_pct": {
+      "value": 20,
+      "quote": "submitting act scores 20 341"
     }
   },
   "concerns": null

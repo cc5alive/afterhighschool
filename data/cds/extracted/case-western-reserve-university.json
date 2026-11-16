@@ -6,9 +6,9 @@
     "url": "https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf"
   },
   "sourceUrl": "https://case.edu/ir/sites/default/files/2026-02/CDS%202025-26%20Adjusted%20Final.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,10 @@
     "enrolled_total": {
       "value": 1663,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 210 1333 120 1663"
+    },
+    "waitlist_offered": {
+      "value": 9168,
+      "quote": "number of qualified applicants offered a place on waiting list: 9168"
     },
     "waitlist_admitted": {
       "value": 688,
@@ -186,6 +190,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 52,
+      "quote": "submitting sat scores 52% 858"
+    },
+    "act_submit_pct": {
+      "value": 15,
+      "quote": "submitting act scores 15% 245"
     },
     "ed_offered": {
       "value": "yes",

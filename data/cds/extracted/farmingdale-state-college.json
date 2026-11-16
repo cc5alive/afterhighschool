@@ -6,9 +6,9 @@
     "url": "https://www.farmingdale.edu/institutional-research/pdf/cds_2025-2026_fsc.pdf"
   },
   "sourceUrl": "https://www.farmingdale.edu/institutional-research/pdf/cds_2025-2026_fsc.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -166,6 +166,10 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 19,
+      "quote": "submitting sat scores 19% 316"
     }
   },
   "concerns": null

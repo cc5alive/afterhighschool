@@ -6,9 +6,9 @@
     "url": "https://www2.cortland.edu/offices/institutional-research-and-assessment/file-uploads/common-data-sets/CDS_2025-2026_SUNY_Cortland.xlsx"
   },
   "sourceUrl": "https://www2.cortland.edu/offices/institutional-research-and-assessment/institutional-reporting/external-reports/common-data-set/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 1353,
       "quote": "C.118 total first-time, first-year students who enrolled: 1353"
+    },
+    "waitlist_offered": {
+      "value": 1571,
+      "quote": "C.202 number of qualified applicants offered a place on waiting list:: 1571"
+    },
+    "waitlist_accepted": {
+      "value": 1399,
+      "quote": "C.203 number accepting a place on the waiting list:: 1399"
     },
     "waitlist_admitted": {
       "value": 211,
@@ -66,14 +74,6 @@
     "deferral_max": {
       "value": "1 Year",
       "quote": "C.1802 if yes, maximum period of postponement:: 1 Year"
-    },
-    "waitlist_offered": {
-      "value": 1571,
-      "quote": "C.202 number of qualified applicants offered a place on waiting list:: 1571"
-    },
-    "waitlist_accepted": {
-      "value": 1399,
-      "quote": "C.203 number accepting a place on the waiting list:: 1399"
     },
     "ed_offered": {
       "value": "no",

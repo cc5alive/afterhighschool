@@ -6,9 +6,9 @@
     "url": "https://rpi.box.com/s/xvg8qola8gporzjhu40rr1nadz417db0"
   },
   "sourceUrl": "https://rpi.box.com/s/xvg8qola8gporzjhu40rr1nadz417db0",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 1394,
       "quote": "total first-time, first-year (degree-seeking) enrolled 530 833 31 0 1394"
+    },
+    "waitlist_offered": {
+      "value": 1008,
+      "quote": "number of qualified applicants offered a place on waiting list: 1008"
+    },
+    "waitlist_accepted": {
+      "value": 599,
+      "quote": "number accepting a place on the waiting list: 599"
     },
     "waitlist_admitted": {
       "value": 6,
@@ -202,6 +210,14 @@
     "deferral_max": {
       "value": "Up to one year",
       "quote": "C18 maximum period of postponement: Up to one year"
+    },
+    "sat_submit_pct": {
+      "value": 53,
+      "quote": "submitting sat scores 733 53"
+    },
+    "act_submit_pct": {
+      "value": 13,
+      "quote": "submitting act scores 13 180"
     },
     "ed_offered": {
       "value": "yes",

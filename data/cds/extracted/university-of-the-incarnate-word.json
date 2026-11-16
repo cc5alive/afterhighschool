@@ -6,9 +6,9 @@
     "url": "https://my.uiw.edu/ir/_docs/cds-24-25.pdf"
   },
   "sourceUrl": "https://my.uiw.edu/ir/_docs/cds-24-25.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -162,6 +162,14 @@
     "transfer_enrolled": {
       "value": 386,
       "quote": "D2 total 821 771 386"
+    },
+    "sat_submit_pct": {
+      "value": 26,
+      "quote": "submitting sat scores 26% 261"
+    },
+    "act_submit_pct": {
+      "value": 6,
+      "quote": "submitting act scores 6% 58"
     }
   },
   "concerns": null

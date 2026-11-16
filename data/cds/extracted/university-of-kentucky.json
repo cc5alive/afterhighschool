@@ -6,9 +6,9 @@
     "url": "https://irads.uky.edu/sites/default/files/2026-07/university-of-kentucky-cds-2025-2026-flat.pdf"
   },
   "sourceUrl": "https://www.uky.edu/irads/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -142,6 +142,14 @@
     "deferral_max": {
       "value": "12 months",
       "quote": "C18 maximum period of postponement: 12 months"
+    },
+    "sat_submit_pct": {
+      "value": 9,
+      "quote": "submitting sat scores 9 600"
+    },
+    "act_submit_pct": {
+      "value": 48,
+      "quote": "submitting act scores 48 3,357"
     }
   },
   "concerns": null

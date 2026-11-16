@@ -6,9 +6,9 @@
     "url": "https://dataden.unr.edu/Resources/CDS/CDS_2025-2026.pdf"
   },
   "sourceUrl": "https://dataden.unr.edu/Resources/CDS/CDS_2025-2026.pdf",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -166,6 +166,14 @@
     "transfer_enrolled": {
       "value": 1073,
       "quote": "D2 total 3,063 1,955 1,073"
+    },
+    "sat_submit_pct": {
+      "value": 16,
+      "quote": "submitting sat scores 16% 593"
+    },
+    "act_submit_pct": {
+      "value": 61,
+      "quote": "submitting act scores 61% 2,284"
     }
   },
   "concerns": null

@@ -6,9 +6,9 @@
     "url": "https://www.uwgb.edu/getmedia/e4d65779-195e-47a8-95a8-b4e72bc34978/CDS-2025-2026.xlsx"
   },
   "sourceUrl": "https://www.uwgb.edu/institutional-data/",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -59,10 +59,6 @@
       "value": "1 year",
       "quote": "C.1802 if yes, maximum period of postponement:: 1 year"
     },
-    "enrolled_total": {
-      "value": 1175,
-      "quote": "C.118 total first-time, first-year students who enrolled: 1175"
-    },
     "sat_submit_pct": {
       "value": 1.6,
       "quote": "C.901 percent submitting sat scores: 0.016"
@@ -70,6 +66,10 @@
     "act_submit_pct": {
       "value": 29.7,
       "quote": "C.902 percent submitting act scores: 0.297"
+    },
+    "enrolled_total": {
+      "value": 1175,
+      "quote": "C.118 total first-time, first-year students who enrolled: 1175"
     },
     "ed_offered": {
       "value": "no",

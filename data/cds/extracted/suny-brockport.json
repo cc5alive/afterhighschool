@@ -6,9 +6,9 @@
     "url": "https://www.brockport.edu/live/files/7692-common-data-set-2023-2024"
   },
   "sourceUrl": "https://www.brockport.edu/live/files/7692-common-data-set-2023-2024",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -27,6 +27,11 @@
     "admitted_total": {
       "value": 7738,
       "quote": "total first-time, first-year men who were admitted 3,253 / total first-time, first-year women who were admitted 4,485 / total first-time, first-year of another gender who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 1272,
+      "quote": "total first - time, first - year men who enrolled 556 / tot al first - time, first - year women who enrolled 716 / total first - time, first - year of another gender who enrolled 0",
       "how": "sum of gender rows"
     },
     "sat_p25": {
@@ -140,6 +145,10 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? ☒ yes ☐ no"
+    },
+    "act_submit_pct": {
+      "value": 2,
+      "quote": "submitting act scores 2% 25"
     }
   },
   "concerns": null

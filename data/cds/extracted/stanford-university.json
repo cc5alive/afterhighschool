@@ -6,11 +6,19 @@
     "url": "https://drive.google.com/file/d/1GIPKgVj1d86dkmLkHI_mZVCk_iY6kiCp/view"
   },
   "sourceUrl": "https://drive.google.com/file/d/1GIPKgVj1d86dkmLkHI_mZVCk_iY6kiCp/view",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_accepted": {
+      "value": 573,
+      "quote": "number accepting a place on the waiting list : 573"
+    },
+    "waitlist_admitted": {
+      "value": 57,
+      "quote": "number of wait - listed students admitted : 57"
+    },
     "rank_top10_pct": {
       "value": 97,
       "quote": "percent in top tenth of high school graduating class 97 %"
@@ -42,6 +50,21 @@
     "gpa_average": {
       "value": 3.94,
       "quote": "average high school gpa of all degree - seeking , first - time , first - year students c12 3.94"
+    },
+    "applied_total": {
+      "value": 60646,
+      "quote": "total first - time , first - year males who applied 31,609 / total first - time , first - year females who applied 29,011 / total first - time , first - year students of unknown sex who applied 26",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 2302,
+      "quote": "total first - time , first - year males who were admitted 1,162 / total first - time , first - year females who were admitted 1,140 / total first - time , first - year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 1839,
+      "quote": "total first - time , first - year males who enrolled 945 / total first - time , first - year females who enrolled 894 / total first - time , first - year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1520,
@@ -150,6 +173,14 @@
     "transfer_enrolled": {
       "value": 89,
       "quote": "D2 total ( 4,532 )"
+    },
+    "sat_submit_pct": {
+      "value": 55.57,
+      "quote": "submitting sat scores 55.57 % 1,022"
+    },
+    "act_submit_pct": {
+      "value": 20.94,
+      "quote": "submitting act scores 20.94 % 385"
     }
   },
   "concerns": null

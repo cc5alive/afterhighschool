@@ -9,6 +9,8 @@
   "values": {
     "applied_total": 9080,
     "admitted_total": 8643,
+    "sat_submit_pct": 10,
+    "act_submit_pct": 45,
     "sat_p25": 1110,
     "sat_p50": 1190,
     "sat_p75": 1280,
@@ -52,6 +54,8 @@
   "basis": {
     "applied_total": "reader",
     "admitted_total": "reader",
+    "sat_submit_pct": "reader",
+    "act_submit_pct": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",
     "sat_p75": "reader",

@@ -6,11 +6,23 @@
     "url": "https://www.wcupa.edu/deputy-provost/institutionalResearch/documents/CDS_2025-2026%20Final.pdf"
   },
   "sourceUrl": "https://www.wcupa.edu/deputy-provost/institutionalResearch/documents/CDS_2025-2026%20Final.pdf",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 4571,
+      "quote": "number of qualified applicants offered a place on waiting list: 4,571"
+    },
+    "waitlist_accepted": {
+      "value": 2405,
+      "quote": "number accepting a place on the waiting list: 2,405"
+    },
+    "waitlist_admitted": {
+      "value": 1036,
+      "quote": "number of wait - listed students admitted: 1,036"
+    },
     "rank_top10_pct": {
       "value": 13.79,
       "quote": "percent in top tenth of high school graduating class 13.79%"
@@ -58,6 +70,21 @@
     "gpa_average": {
       "value": 3.4,
       "quote": "average high school gpa of all degree - seeking, first - time, first - year students who submitted gpa:  3.40"
+    },
+    "applied_total": {
+      "value": 18009,
+      "quote": "total first - time, first - year males who applied 6,904 / total first - time, first - year females who applied 11,105 / total first - time, first - year students of unknowns gender who applied 0",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 13657,
+      "quote": "total first - time, first - year males who were admitted 4,944 / total first - time, first - year females who were admitted 8,713 / total first - time, first - year students of unknown sex who were admitted 0",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 3024,
+      "quote": "total first - time, first - year males who enrolled 1,274 / total first - time, first - year females who enrolled 1,750 / total first - time, first - year students of unknown sex who enrolled 0",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1110,
@@ -155,9 +182,25 @@
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
     },
+    "transfer_applied": {
+      "value": 1939,
+      "quote": "D2 total 1,939 1,761 1,035"
+    },
+    "transfer_admitted": {
+      "value": 1761,
+      "quote": "D2 total 1,939 1,761 1,035"
+    },
+    "transfer_enrolled": {
+      "value": 1035,
+      "quote": "D2 total 1,939 1,761 1,035"
+    },
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    },
+    "sat_submit_pct": {
+      "value": 12,
+      "quote": "submitting sat scores 12% 365"
     }
   },
   "concerns": null

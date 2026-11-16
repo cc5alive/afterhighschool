@@ -6,9 +6,9 @@
     "url": "https://in.nau.edu/wp-content/uploads/sites/129/2026/04/CDS-2025-2026.pdf"
   },
   "sourceUrl": "https://in.nau.edu/wp-content/uploads/sites/129/2026/04/CDS-2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -62,10 +62,6 @@
     "gpa_200_pct": {
       "value": 2,
       "quote": "percent who had gpa between 2.0 and 2.49 1% 2% 2%"
-    },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 <1% <1% <1% percent who had gpa below 1.0 0% 0% 0%"
     },
     "gpa_below1_pct": {
       "value": 0,
@@ -194,6 +190,14 @@
     "deferral_max": {
       "value": "2 terms",
       "quote": "C18 maximum period of postponement: 2 terms"
+    },
+    "sat_submit_pct": {
+      "value": 3,
+      "quote": "submitting sat scores 3% 154"
+    },
+    "act_submit_pct": {
+      "value": 27,
+      "quote": "submitting act scores 27% 1,239"
     }
   },
   "concerns": null

@@ -6,9 +6,9 @@
     "url": "https://www.utep.edu/planning/cierp/_Files/docs/common-data-set/CDS%202025-26%20-Masked%20-%20v2.pdf"
   },
   "sourceUrl": "https://www.utep.edu/planning/cierp/institutional-research/common-data-set/cds-pdf-reports.html",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -18,6 +18,21 @@
     "gpa_below1_pct": {
       "value": 0.05,
       "quote": "percent who had gpa below 1.0 0.05% 0.18% 0.24%"
+    },
+    "applied_total": {
+      "value": 12357,
+      "quote": "total first - time, first - year males who applied 6,048 / total first - time, first - year females who applied 6,309 / total first - time, first - year students of unknown sex who applied",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 12350,
+      "quote": "total first - time, first - year males who were 6,044 admitted / total first - time, first - year females who were 6,306 admitted / total first - time, first - year students of unknown sex who were admitted",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 4569,
+      "quote": "total first - time, first - year males who enrolled 2,139 / total first - time, first - year females who enrolled 2,430 / total first - time, first - year students of unknown sex who enrolled",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 850,

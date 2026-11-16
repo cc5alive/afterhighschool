@@ -6,9 +6,9 @@
     "url": "https://oira.unc.edu/wp-content/uploads/sites/297/2026/06/CDS_UNCCH_2025-26_20260615.pdf"
   },
   "sourceUrl": "https://oira.unc.edu/common-data-set",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -182,6 +182,14 @@
     "transfer_enrolled": {
       "value": 1078,
       "quote": "D2 total 5,330 1,970 1,078"
+    },
+    "sat_submit_pct": {
+      "value": 28,
+      "quote": "submitting sat scores 28% 1,102"
+    },
+    "act_submit_pct": {
+      "value": 41,
+      "quote": "submitting act scores 41% 1,945"
     }
   },
   "concerns": null

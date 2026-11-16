@@ -6,9 +6,9 @@
     "url": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2"
   },
   "sourceUrl": "https://georgetown.box.com/s/0r8akn4cbm52zjkll6i7uttlb9k36px2",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 1589,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 27 1429 133 1589"
+    },
+    "waitlist_offered": {
+      "value": 2672,
+      "quote": "number of qualified applicants offered a place on waiting list: 2672"
+    },
+    "waitlist_accepted": {
+      "value": 2043,
+      "quote": "number accepting a place on the waiting list: 2043"
     },
     "waitlist_admitted": {
       "value": 356,
@@ -146,6 +154,14 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after yes admission?"
+    },
+    "sat_submit_pct": {
+      "value": 78,
+      "quote": "submitting sat scores 78% 1239"
+    },
+    "act_submit_pct": {
+      "value": 32,
+      "quote": "submitting act scores 32% 510"
     }
   },
   "concerns": null

@@ -6,9 +6,9 @@
     "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/d/114442/files/2026/06/UniversityPark_CDS_2025_2026.pdf"
   },
   "sourceUrl": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/d/114442/files/2026/06/UniversityPark_CDS_2025_2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 9148,
       "quote": "total first-time, first-year who enrolled 4674 3768 706 9148"
+    },
+    "waitlist_offered": {
+      "value": 2109,
+      "quote": "number of qualified applicants offered a place on waiting list: 2109"
+    },
+    "waitlist_accepted": {
+      "value": 1153,
+      "quote": "number accepting a place on the waiting list: 1153"
     },
     "waitlist_admitted": {
       "value": 46,
@@ -114,6 +122,14 @@
     "deferral_max": {
       "value": "One year",
       "quote": "C18 maximum period of postponement: One year"
+    },
+    "sat_submit_pct": {
+      "value": 28.6,
+      "quote": "submitting sat scores 28.60% 2616"
+    },
+    "act_submit_pct": {
+      "value": 4.98,
+      "quote": "submitting act scores 4.98% 456"
     }
   },
   "concerns": null

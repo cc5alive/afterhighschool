@@ -6,9 +6,9 @@
     "url": "https://www.depts.ttu.edu/irim/CommonDataSets/TTU_CDS_2025-2026-4-30-26.pdf"
   },
   "sourceUrl": "https://www.depts.ttu.edu/irim/CommonDataSets/TTU_CDS_2025-2026-4-30-26.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -186,6 +186,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 34.8,
+      "quote": "submitting sat scores 2635 34.8"
+    },
+    "act_submit_pct": {
+      "value": 10.8,
+      "quote": "submitting act scores 10.8 821"
     }
   },
   "concerns": null

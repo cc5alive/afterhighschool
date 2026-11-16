@@ -7,7 +7,8 @@
   },
   "builtAt": "2026-11-16",
   "values": {
-    "waitlist_admitted": 925,
+    "sat_submit_pct": 15.58,
+    "act_submit_pct": 0.71,
     "sat_p25": 1140,
     "sat_p50": 1280,
     "sat_p75": 1380,
@@ -27,7 +28,8 @@
     "transfer_enrolled": 72
   },
   "basis": {
-    "waitlist_admitted": "reader",
+    "sat_submit_pct": "reader",
+    "act_submit_pct": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",
     "sat_p75": "reader",

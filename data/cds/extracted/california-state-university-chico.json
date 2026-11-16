@@ -6,11 +6,23 @@
     "url": "https://www.csuchico.edu/ir/_assets/documents/cds-2026.pdf"
   },
   "sourceUrl": "https://www.csuchico.edu/ir/additional-data/common-data-set.shtml",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 22542,
+      "quote": "total first - time, first - years who applied 21,846 450 239 7 22,542"
+    },
+    "admitted_total": {
+      "value": 20528,
+      "quote": "total first - time, first - years who were admitted 20,047 330 150 1 20,528"
+    },
+    "enrolled_total": {
+      "value": 2041,
+      "quote": "total first - time, first - years who enrolled 1,994 40 7 0 2,041"
+    },
     "rank_top10_pct": {
       "value": 35,
       "quote": "percent in top tenth of high school graduating class 35%"
@@ -20,32 +32,32 @@
       "quote": "percent in top quarter of high school graduating class 75%"
     },
     "gpa_400_pct": {
-      "value": 1,
-      "quote": "percent who had gpa of 4.0 1 1 . 0 0 1 1 . 0"
+      "value": 11,
+      "quote": "percent who had gpa of 4.0 11.0 0 11.0"
     },
     "gpa_375_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 3.75 and 3.99 1 5 . 1 0 1 5 . 1"
+      "value": 15.1,
+      "quote": "percent who had gpa between 3.75 and 3.99 15.1 0 15.1"
     },
     "gpa_350_pct": {
       "value": 17,
       "quote": "percent who had gpa between 3.50 and 3.74 17.0 0 17.0"
     },
     "gpa_325_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 3.25 and 3.49 1 7 . 7 0 1 7 . 7"
+      "value": 17.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 17.7 0 17.7"
     },
     "gpa_300_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 3.00 and 3.24 1 7 . 8 0 1 7 . 8"
+      "value": 17.8,
+      "quote": "percent who had gpa between 3.00 and 3.24 17.8 0 17.8"
     },
     "gpa_250_pct": {
-      "value": 2,
-      "quote": "percent who had gpa between 2.50 and 2.99 2 0 . 2 0 2 0 . 2"
+      "value": 20.2,
+      "quote": "percent who had gpa between 2.50 and 2.99 20.2 0 20.2"
     },
     "gpa_200_pct": {
-      "value": 2,
-      "quote": "percent who had gpa between 2.0 and 2.49 1. 2 0 1. 2"
+      "value": 1.2,
+      "quote": "percent who had gpa between 2.0 and 2.49 1.2 0 1.2"
     },
     "gpa_100_pct": {
       "value": 0,
@@ -54,6 +66,10 @@
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0 0 0"
+    },
+    "gpa_average": {
+      "value": 3.4,
+      "quote": "average high school gpa 3.4"
     },
     "gpa_submit_pct": {
       "value": 99.9,
@@ -143,6 +159,18 @@
       "value": "Not Considered",
       "quote": "Level of applicant's interest"
     },
+    "transfer_applied": {
+      "value": 8280,
+      "quote": "D2 total 8,280 6,289 1,993"
+    },
+    "transfer_admitted": {
+      "value": 6289,
+      "quote": "D2 total 8,280 6,289 1,993"
+    },
+    "transfer_enrolled": {
+      "value": 1993,
+      "quote": "D2 total 8,280 6,289 1,993"
+    },
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? ☒ yes ☐ no"
@@ -150,6 +178,10 @@
     "deferral_max": {
       "value": "1 year - only for first - time Freshmen",
       "quote": "C18 maximum period of postponement: 1 year - only for first - time Freshmen"
+    },
+    "sat_submit_pct": {
+      "value": 3,
+      "quote": "submitting sat scores 3 % 69"
     }
   },
   "concerns": null

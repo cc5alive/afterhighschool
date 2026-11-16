@@ -6,11 +6,23 @@
     "url": "https://www.tamucc.edu/president/pir/cds_2025-2026-word_web.pdf"
   },
   "sourceUrl": "https://www.tamucc.edu/president/pir/cds_2025-2026-word_web.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 11449,
+      "quote": "total first - time, first - year students who applied 11449"
+    },
+    "admitted_total": {
+      "value": 10483,
+      "quote": "total first - time, first - year students who were admitted 10483"
+    },
+    "enrolled_total": {
+      "value": 2374,
+      "quote": "total first - time, first - year s who enrolled 2278 81 15 0 2374"
+    },
     "rank_top10_pct": {
       "value": 5,
       "quote": "percent in top tenth of high school graduating class 5"
@@ -58,6 +70,10 @@
     "gpa_average": {
       "value": 3.42,
       "quote": "average high school gpa: 3.42"
+    },
+    "gpa_submit_pct": {
+      "value": 35,
+      "quote": "percent of total first - time, first - year students who submitted high school gpa: percent submitting high school gpa: 35"
     },
     "sat_p25": {
       "value": 980,
@@ -166,6 +182,14 @@
     "transfer_enrolled": {
       "value": 596,
       "quote": "D2 total 1114 1000 596"
+    },
+    "sat_submit_pct": {
+      "value": 49,
+      "quote": "submitting sat scores 49 1154"
+    },
+    "act_submit_pct": {
+      "value": 8,
+      "quote": "submitting act scores 8 194"
     }
   },
   "concerns": null

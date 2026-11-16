@@ -6,9 +6,9 @@
     "url": "https://www.usf.edu/ods/documents/cds/usf-cds-2025-2026-final-v2.pdf"
   },
   "sourceUrl": "https://www.usf.edu/ods/documents/cds/usf-cds-2025-2026-final-v2.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -174,6 +174,14 @@
     "deferral_max": {
       "value": "One year",
       "quote": "C18 maximum period of postponement: one year"
+    },
+    "sat_submit_pct": {
+      "value": 77.8,
+      "quote": "submitting sat scores 5238 77.8"
+    },
+    "act_submit_pct": {
+      "value": 21.7,
+      "quote": "submitting act scores 21.7 1463"
     }
   },
   "concerns": null

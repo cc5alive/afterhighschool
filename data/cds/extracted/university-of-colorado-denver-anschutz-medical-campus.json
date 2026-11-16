@@ -6,11 +6,19 @@
     "url": "https://www.ucdenver.edu/docs/librariesprovider192/default-document-library/cds-24-25.pdf?sfvrsn=fe11edb4_1"
   },
   "sourceUrl": "https://www.ucdenver.edu/docs/librariesprovider192/default-document-library/cds-24-25.pdf?sfvrsn=fe11edb4_1",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 14931,
+      "quote": "total first-time, first-year who applied 14931 7891 5169 1854"
+    },
+    "admitted_total": {
+      "value": 11151,
+      "quote": "total first-time, first-year who were admitted 11151 6314 4201 631"
+    },
     "enrolled_total": {
       "value": 1440,
       "quote": "total first-time, first-year who enrolled 1440 1257 183 -"
@@ -50,16 +58,6 @@
     "gpa_average": {
       "value": 3.52,
       "quote": "c12 average high school gpa of all degree-seeking, first-time, first-year 3.52"
-    },
-    "applied_total": {
-      "value": 14931,
-      "quote": "total first-time, first-year men who applied 6094 / total first-time, first-year women who applied 8837",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 11151,
-      "quote": "total first-time, first-year men who were admitted 4219 / total first-time, first-year women who were admitted 6932",
-      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 980,
@@ -168,6 +166,14 @@
     "transfer_enrolled": {
       "value": 1178,
       "quote": "D2 total 3,210 2,147 1,178"
+    },
+    "sat_submit_pct": {
+      "value": 23,
+      "quote": "submitting sat scores 23% 341"
+    },
+    "act_submit_pct": {
+      "value": 2,
+      "quote": "submitting act scores 2% 31"
     }
   },
   "concerns": null

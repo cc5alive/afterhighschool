@@ -6,9 +6,9 @@
     "url": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf"
   },
   "sourceUrl": "https://www.sjsu.edu/irsa/docs/cds/20260113_CDS%202025%20FINAL.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -178,6 +178,10 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    },
+    "sat_submit_pct": {
+      "value": 9,
+      "quote": "submitting sat scores 9% 444"
     }
   },
   "concerns": null

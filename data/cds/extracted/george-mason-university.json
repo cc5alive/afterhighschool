@@ -6,9 +6,9 @@
     "url": "https://oiep.gmu.edu/wp-content/uploads/2026/02/CDS-PDF-2025-2026_PDF_Template_Final_02_19.pdf"
   },
   "sourceUrl": "https://oiep.gmu.edu/wp-content/uploads/2026/02/CDS-PDF-2025-2026_PDF_Template_Final_02_19.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 4337,
       "quote": "total first-time, first-year (degree-seeking) enrolled 3620 717 4337"
+    },
+    "waitlist_offered": {
+      "value": 1289,
+      "quote": "number of qualified applicants offered a place on waiting list: 1289"
+    },
+    "waitlist_accepted": {
+      "value": 873,
+      "quote": "number accepting a place on the waiting list: 873"
     },
     "waitlist_admitted": {
       "value": 415,
@@ -194,6 +202,10 @@
     "deferral_max": {
       "value": "1 Year",
       "quote": "C18 maximum period of postponement: 1 Year"
+    },
+    "sat_submit_pct": {
+      "value": 18,
+      "quote": "submitting sat scores 799 18"
     }
   },
   "concerns": null

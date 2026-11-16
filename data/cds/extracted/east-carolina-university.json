@@ -6,9 +6,9 @@
     "url": "https://ipar.ecu.edu/wp-content/pv-uploads/sites/130/CDS_2024-2025_Redacted.pdf"
   },
   "sourceUrl": "https://ipar.ecu.edu/rsrch-public-ecu-data-2/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -146,6 +146,14 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 10,
+      "quote": "submitting sat scores 10% 403"
+    },
+    "act_submit_pct": {
+      "value": 23,
+      "quote": "submitting act scores 23% 918"
     }
   },
   "concerns": null

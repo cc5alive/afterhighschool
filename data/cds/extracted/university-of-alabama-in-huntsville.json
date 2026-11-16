@@ -6,9 +6,9 @@
     "url": "https://www.uah.edu/images/administrative/provost/oir/university_of_alabama_in_huntsville_cds_2025-2026.pdf"
   },
   "sourceUrl": "https://www.uah.edu/academic-affairs/offices/oirea/university-facts",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -182,6 +182,14 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "sat_submit_pct": {
+      "value": 8,
+      "quote": "submitting sat scores 8% 102"
+    },
+    "act_submit_pct": {
+      "value": 80,
+      "quote": "submitting act scores 80% 974"
     }
   },
   "concerns": null

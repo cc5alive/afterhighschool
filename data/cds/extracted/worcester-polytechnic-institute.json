@@ -6,9 +6,9 @@
     "url": "https://www.wpi.edu/sites/default/files/2026-05/WPI_CDS_2025-2026.pdf"
   },
   "sourceUrl": "https://www.wpi.edu/sites/default/files/2026-05/WPI_CDS_2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 1300,
       "quote": "total first-time, first-year students enrolled 948 350 2 1,300"
+    },
+    "waitlist_offered": {
+      "value": 2293,
+      "quote": "number of qualified applicants offered a place on waiting list 2,293"
+    },
+    "waitlist_accepted": {
+      "value": 980,
+      "quote": "number accepting a place on waiting list 980"
     },
     "waitlist_admitted": {
       "value": 460,

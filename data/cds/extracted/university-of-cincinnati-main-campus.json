@@ -6,9 +6,9 @@
     "url": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf"
   },
   "sourceUrl": "https://www.uc.edu/content/dam/refresh/provost-62/offices/ir/2025-2026ay/CDS%202025%202026%20Clifton%20Final%20%2006FEB26.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -190,6 +190,14 @@
     "deferral_max": {
       "value": "1 semester",
       "quote": "C18 maximum period of postponement: 1 semester"
+    },
+    "sat_submit_pct": {
+      "value": 8.97,
+      "quote": "submitting sat scores 583 8.97"
+    },
+    "act_submit_pct": {
+      "value": 24.53,
+      "quote": "submitting act scores 24.53 1594"
     }
   },
   "concerns": null

@@ -6,9 +6,9 @@
     "url": "https://oira.ua.edu/d/sites/all/files/reports26/CDS%202025-26%20FINAL%209Dec2025.pdf"
   },
   "sourceUrl": "https://oira.ua.edu/d/sites/all/files/reports26/CDS%202025-26%20FINAL%209Dec2025.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -110,6 +110,14 @@
     "transfer_enrolled": {
       "value": 1257,
       "quote": "D2 total 5,718 2,919 1,257"
+    },
+    "sat_submit_pct": {
+      "value": 19,
+      "quote": "submitting sat scores 19% 1,511"
+    },
+    "act_submit_pct": {
+      "value": 53,
+      "quote": "submitting act scores 53% 4,283"
     }
   },
   "concerns": null

@@ -8,9 +8,9 @@
   "sourceUrl": "https://ir.fsu.edu/CommonDataSet.aspx",
   "mirror": "data/cds/mirror/florida-state-university.rows.json",
   "mirrorHash": "59e3d0360463",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "ocr",
   "values": {
     "applied_total": {
@@ -20,6 +20,14 @@
     "admitted_total": {
       "value": 20364,
       "quote": "total first-time, first-year (degree-seeking) who were admitted 15,196 4,671 497 20,364"
+    },
+    "waitlist_offered": {
+      "value": 3750,
+      "quote": "number of qualified applicants offered a place on waiting list: 3,750"
+    },
+    "waitlist_accepted": {
+      "value": 2358,
+      "quote": "number accepting a place on the waiting list: 2,358"
     },
     "waitlist_admitted": {
       "value": 5,

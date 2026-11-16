@@ -294,11 +294,6 @@
   "at": "2026-11-09",
   "reason": "no CDS document found from https://usm.maine.edu/department-of-analysis-applications-institutional-research/common-data-set-2025-2026/"
  },
- "university-of-delaware": {
-  "url": "https://ire.udel.edu/common-data-set/",
-  "at": "2026-11-13",
-  "reason": "no CDS document found from https://ire.udel.edu/common-data-set/"
- },
  "pace-university": {
   "url": "https://www.pace.edu/opair/university-facts-and-figures",
   "at": "2026-11-13",
@@ -309,24 +304,19 @@
   "at": "2026-11-15",
   "reason": "document failed to load (HTTP 200)"
  },
- "slippery-rock-university-of-pennsylvania": {
-  "url": "https://www.sru.edu/documents/offices/analytics-decision-support/whitepapers/CDS_2025-2026_SRU.pdf",
-  "at": "2026-11-15",
-  "reason": "document failed to load (HTTP 404)"
- },
- "butler-university": {
-  "url": "https://cdn.butler.edu/www/sites/3/2026/03/26111839/CDS_2025-2025_C.pdf",
-  "at": "2026-11-15",
-  "reason": "document failed to load (HTTP 403)"
- },
  "suny-college-at-geneseo": {
   "url": "https://www.geneseo.edu/ire/common_data_set/",
   "at": "2026-11-13",
   "reason": "no CDS document found from https://www.geneseo.edu/ire/common_data_set/"
  },
- "university-of-nevada-las-vegas": {
-  "url": "https://it.unlv.edu/sites/default/files/assets/ir/UNLV_common_dataset_2024-2025.pdf",
-  "at": "2026-11-15",
-  "reason": "document failed to load (HTTP 404)"
+ "boston-university": {
+  "url": "https://www.bu.edu/asir/files/2026/05/CDS-2025-2026-2.pdf",
+  "at": "2026-11-16",
+  "reason": "document failed to load (HTTP 502)"
+ },
+ "northwestern-state-university-of-louisiana": {
+  "url": "https://www.nsula.edu/oir/",
+  "at": "2026-11-16",
+  "reason": "no CDS document found from https://www.nsula.edu/oir/"
  }
 }

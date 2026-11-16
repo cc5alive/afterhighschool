@@ -6,9 +6,9 @@
     "url": "https://www.maryville.edu/administrative-offices/wp-content/uploads/sites/28/2026/07/CDS_2025-2026_Final_v3.pdf"
   },
   "sourceUrl": "https://www.maryville.edu/administrative-offices/institutional-research/",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -187,6 +187,14 @@
     "deferral_max": {
       "value": "Up to 2 Semesters (Including Summers)",
       "quote": "C18 maximum period of postponement: Up to 2 Semesters (Including Summers)"
+    },
+    "sat_submit_pct": {
+      "value": 8,
+      "quote": "submitting sat scores 8% 67"
+    },
+    "act_submit_pct": {
+      "value": 32,
+      "quote": "submitting act scores 32% 269"
     }
   },
   "concerns": null

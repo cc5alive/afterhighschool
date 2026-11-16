@@ -6,9 +6,9 @@
     "url": "https://s3.amazonaws.com/usma-media/inline-images/about/g5/G5OIR_CDS_2024-2025.pdf"
   },
   "sourceUrl": "https://s3.amazonaws.com/usma-media/inline-images/about/g5/G5OIR_CDS_2024-2025.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -50,10 +50,6 @@
     "gpa_300_pct": {
       "value": 2.05,
       "quote": "percent who had gpa between 3.00 and 3.24 2.05"
-    },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 .08 percent who had gpa below 1.0 0"
     },
     "gpa_below1_pct": {
       "value": 0,
@@ -162,6 +158,14 @@
     "factor_interest": {
       "value": "Important",
       "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 68,
+      "quote": "submitting sat scores 817 68"
+    },
+    "act_submit_pct": {
+      "value": 32,
+      "quote": "submitting act scores 32 378"
     }
   },
   "concerns": null

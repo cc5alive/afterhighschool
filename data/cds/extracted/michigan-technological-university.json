@@ -6,9 +6,9 @@
     "url": "https://www.mtu.edu/institutional-research/cds/files/cds-2025-2026.xlsx"
   },
   "sourceUrl": "https://www.mtu.edu/institutional-research/cds/files/cds-2025-2026.xlsx",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -106,6 +106,14 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    },
+    "sat_submit_pct": {
+      "value": 0.66,
+      "quote": "submitting sat scores 0.66 959"
+    },
+    "act_submit_pct": {
+      "value": 0.18,
+      "quote": "submitting act scores 0.18 261"
     }
   },
   "concerns": null

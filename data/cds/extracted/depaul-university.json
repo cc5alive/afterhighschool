@@ -6,11 +6,19 @@
     "url": "https://irma.depaul.edu/cds/2025/2025CDS_C.pdf"
   },
   "sourceUrl": "https://irma.depaul.edu/cds/2025/2025CDS_C.pdf",
-  "researchedAt": "2026-11-15",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 658,
+      "quote": "number of qualified applicants offered a place on waiting list: 658"
+    },
+    "waitlist_accepted": {
+      "value": 239,
+      "quote": "number accepting a place on the waiting list: 239"
+    },
     "waitlist_admitted": {
       "value": 148,
       "quote": "number of wait-listed students admitted: 148"
@@ -185,6 +193,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 30,
+      "quote": "submitting sat scores 850 30"
+    },
+    "act_submit_pct": {
+      "value": 11,
+      "quote": "submitting act scores 11 298"
     }
   },
   "concerns": null

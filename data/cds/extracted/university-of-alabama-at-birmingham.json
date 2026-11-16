@@ -6,9 +6,9 @@
     "url": "https://www.uab.edu/institutionaleffectiveness/images/documents/cds/CDS-2025-26.pdf"
   },
   "sourceUrl": "https://www.uab.edu/institutionaleffectiveness/images/documents/cds/CDS-2025-26.pdf",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -190,6 +190,14 @@
     "deferral_max": {
       "value": "1-year",
       "quote": "C18 maximum period of postponement: 1-year"
+    },
+    "sat_submit_pct": {
+      "value": 5,
+      "quote": "submitting sat scores 5% 117"
+    },
+    "act_submit_pct": {
+      "value": 47,
+      "quote": "submitting act scores 47% 1176"
     }
   },
   "concerns": null

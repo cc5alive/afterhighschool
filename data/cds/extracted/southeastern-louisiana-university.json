@@ -6,9 +6,9 @@
     "url": "https://www.southeastern.edu/wp-content/uploads/institutional-research/CDS-2025-C-First-time-First-year-Admissions.pdf"
   },
   "sourceUrl": "https://www.southeastern.edu/wp-content/uploads/institutional-research/CDS-2025-C-First-time-First-year-Admissions.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "act_submit_pct": {
@@ -16,44 +16,44 @@
       "quote": "percent submitting act scores: 9 6.0 %"
     },
     "rank_top10_pct": {
-      "value": 1,
-      "quote": "percent in top tenth of high school graduating class 1 5 .2 %"
+      "value": 15.2,
+      "quote": "percent in top tenth of high school graduating class 15.2 %"
     },
     "rank_top25_pct": {
-      "value": 4,
-      "quote": "percent in top quarter of high school graduating class 4 1.0 %"
+      "value": 41,
+      "quote": "percent in top quarter of high school graduating class 41.0 %"
     },
     "gpa_400_pct": {
-      "value": 5,
-      "quote": "percent who had gpa of 4.0 5. 5 % 4.8 % 5.4%"
+      "value": 5.4,
+      "quote": "percent who had gpa of 4.0 5.5 % 4.8 % 5.4%"
     },
     "gpa_375_pct": {
-      "value": 2,
-      "quote": "percent who had gpa between 3.75 and 3.99 2 2.7 % 16.1 % 2 2.5 %"
+      "value": 22.5,
+      "quote": "percent who had gpa between 3.75 and 3.99 22.7 % 16.1 % 22.5 %"
     },
     "gpa_350_pct": {
-      "value": 2,
-      "quote": "percent who had gpa between 3.50 and 3.74 2 4.1 % 33.9 % 2 4.5 %"
+      "value": 24.5,
+      "quote": "percent who had gpa between 3.50 and 3.74 24.1 % 33.9 % 24.5 %"
     },
     "gpa_325_pct": {
-      "value": 21.6,
-      "quote": "percent who had gpa between 3.25 and 3.49 21.6 % 2 2 .6 % 21 .7 %"
+      "value": 21.7,
+      "quote": "percent who had gpa between 3.25 and 3.49 21.6 % 22.6 % 21.7 %"
     },
     "gpa_300_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 3.00 and 3.24 1 2. 6 % 1 7.7 % 12. 8 %"
+      "value": 12.8,
+      "quote": "percent who had gpa between 3.00 and 3.24 12.6 % 17.7 % 12.8 %"
     },
     "gpa_250_pct": {
-      "value": 1,
-      "quote": "percent who had gpa between 2.50 and 2.99 1 0.9 % 4 .8 % 10.7 %"
+      "value": 10.7,
+      "quote": "percent who had gpa between 2.50 and 2.99 10.9 % 4.8 % 10.7 %"
     },
     "gpa_200_pct": {
-      "value": 2.3,
+      "value": 2.2,
       "quote": "percent who had gpa between 2.0 and 2.49 2.3 % 0.0 % 2.2 %"
     },
     "gpa_100_pct": {
-      "value": 2,
-      "quote": "percent who had gpa between 1.0 and 1.99 0. 2 % 0.0% 0. 2 %"
+      "value": 0.2,
+      "quote": "percent who had gpa between 1.0 and 1.99 0.2 % 0.0% 0.2 %"
     },
     "gpa_below1_pct": {
       "value": 0,
@@ -62,6 +62,10 @@
     "gpa_average": {
       "value": 3.45,
       "quote": "c12. average high school gpa of all degree - seeking first - time, first - year students who submitted gpa: 3.45 6"
+    },
+    "gpa_submit_pct": {
+      "value": 96,
+      "quote": "percent of total first - time, first - year students who submitted high school gpa: 96.0%"
     },
     "act_p25": {
       "value": 20,

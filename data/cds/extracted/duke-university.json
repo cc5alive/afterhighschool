@@ -6,9 +6,9 @@
     "url": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf"
   },
   "sourceUrl": "https://ir.provost.duke.edu/sites/default/files/CDS_PDF_2025-2026-20260622-website-published-version.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -141,6 +141,14 @@
     "deferral_max": {
       "value": "2 years",
       "quote": "C18 maximum period of postponement: 2 years"
+    },
+    "sat_submit_pct": {
+      "value": 48,
+      "quote": "submitting sat scores 48% 843"
+    },
+    "act_submit_pct": {
+      "value": 27,
+      "quote": "submitting act scores 27% 473"
     }
   },
   "concerns": null

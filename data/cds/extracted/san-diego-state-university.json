@@ -6,11 +6,19 @@
     "url": "https://asir.sdsu.edu/Documents/CommonDataSets/CDS_2025-2026_updated%207-28.pdf"
   },
   "sourceUrl": "https://asir.sdsu.edu/Documents/CommonDataSets/CDS_2025-2026_updated%207-28.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 11627,
+      "quote": "c2 number of qualified applicants offered a place on waiting list 11,627"
+    },
+    "waitlist_accepted": {
+      "value": 6016,
+      "quote": "c2 number accepting a place on the waiting list 6,016"
+    },
     "waitlist_admitted": {
       "value": 962,
       "quote": "c2 number of wait-listed students admitted 962"

@@ -6,26 +6,30 @@
     "url": "https://www.cmu.edu/ira/CDS/pdf/cds_2026-27/cds_2026_c-first-year-first-time-admission.pdf"
   },
   "sourceUrl": "https://www.cmu.edu/ira/CDS/pdf/cds_2026-27/cds_2026_c-first-year-first-time-admission.pdf",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 8681,
+      "quote": "number of qualified applicants offered a place on waiting list: 8,681"
+    },
     "waitlist_admitted": {
       "value": 73,
       "quote": "number of wait-listed students admitted: 73"
     },
     "rank_top10_pct": {
-      "value": 8,
-      "quote": "percent in top tenth of high school graduating class: 8 1.4 %"
+      "value": 81.4,
+      "quote": "percent in top tenth of high school graduating class: 81.4 %"
     },
     "rank_top25_pct": {
-      "value": 9,
-      "quote": "percent in top quarter of high school graduating class: 9 6.6 %"
+      "value": 96.6,
+      "quote": "percent in top quarter of high school graduating class: 96.6 %"
     },
     "gpa_400_pct": {
-      "value": 4,
-      "quote": "percent who had gpa of 4.0: 4 6.4 %"
+      "value": 46.4,
+      "quote": "percent who had gpa of 4.0: 46.4 %"
     },
     "gpa_below1_pct": {
       "value": 0,

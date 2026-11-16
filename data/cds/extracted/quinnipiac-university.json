@@ -6,11 +6,19 @@
     "url": "https://www.qu.edu/499cca/globalassets/global/media/qu/documents/about/institutional-research/cds_2023-2024_quinnipiac.pdf"
   },
   "sourceUrl": "https://www.qu.edu/499cca/globalassets/global/media/qu/documents/about/institutional-research/cds_2023-2024_quinnipiac.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 1736,
+      "quote": "number of qualified applicants offered a place on waiting list: 1,736"
+    },
+    "waitlist_accepted": {
+      "value": 848,
+      "quote": "number accepting a place on the waiting list: 848"
+    },
     "waitlist_admitted": {
       "value": 516,
       "quote": "number of wait-listed students admitted: 516"
@@ -102,6 +110,14 @@
     "deferral_max": {
       "value": "One Year",
       "quote": "C18 maximum period of postponement: One Year"
+    },
+    "sat_submit_pct": {
+      "value": 27,
+      "quote": "submitting sat scores 27% 493"
+    },
+    "act_submit_pct": {
+      "value": 3,
+      "quote": "submitting act scores 3% 55"
     },
     "ed_offered": {
       "value": "yes",

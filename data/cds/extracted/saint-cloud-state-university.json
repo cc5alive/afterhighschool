@@ -6,9 +6,9 @@
     "url": "https://www.stcloudstate.edu/air/_files/documents/common-data-sets/cds_2025-2026.pdf"
   },
   "sourceUrl": "https://www.stcloudstate.edu/air/_files/documents/common-data-sets/cds_2025-2026.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -186,6 +186,10 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ x yes ☐ no n/a"
+    },
+    "act_submit_pct": {
+      "value": 21,
+      "quote": "submitting act scores 21 170"
     }
   },
   "concerns": null

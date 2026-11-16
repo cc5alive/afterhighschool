@@ -6,9 +6,9 @@
     "url": "https://www.umt.edu/institutional-research/documents/cds-pdf-2025-2026_pdf_template1.pdf"
   },
   "sourceUrl": "https://www.umt.edu/institutional-research/documents/cds-pdf-2025-2026_pdf_template1.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -188,6 +188,14 @@
     "deferral_max": {
       "value": "One year and then the student must reapply including application fee and documentation",
       "quote": "C18 maximum period of postponement: One year and then the student must reapply including application fee and documentation"
+    },
+    "sat_submit_pct": {
+      "value": 10,
+      "quote": "submitting sat scores 133 10"
+    },
+    "act_submit_pct": {
+      "value": 45,
+      "quote": "submitting act scores 45 611"
     }
   },
   "concerns": null

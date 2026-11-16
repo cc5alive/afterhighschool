@@ -6,9 +6,9 @@
     "url": "https://erau.edu/-/media/files/university/institutional-research/common-data-set/cds-2025-26-db.pdf"
   },
   "sourceUrl": "https://erau.edu/-/media/files/university/institutional-research/common-data-set/cds-2025-26-db.pdf",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -74,6 +74,14 @@
     "transfer_enrolled": {
       "value": 263,
       "quote": "D2 total 1346 613 263"
+    },
+    "sat_submit_pct": {
+      "value": 56,
+      "quote": "submitting sat scores 56.00 1063"
+    },
+    "act_submit_pct": {
+      "value": 23.2,
+      "quote": "submitting act scores 23.20 441"
     }
   },
   "concerns": null

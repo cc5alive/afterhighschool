@@ -6,9 +6,9 @@
     "url": "https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf"
   },
   "sourceUrl": "https://washu.edu/app/uploads/2026/06/2025-2026-WashU-CDS.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,10 @@
     "enrolled_total": {
       "value": 1961,
       "quote": "total first-time, first-year who enrolled 1,961 279 1,407 275"
+    },
+    "waitlist_accepted": {
+      "value": 3865,
+      "quote": "number accepting a place on the waiting list 3,865"
     },
     "waitlist_admitted": {
       "value": 327,
@@ -142,6 +146,14 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "sat_submit_pct": {
+      "value": 32,
+      "quote": "submitting sat scores 32% 619"
+    },
+    "act_submit_pct": {
+      "value": 29,
+      "quote": "submitting act scores 29% 567"
     }
   },
   "concerns": null

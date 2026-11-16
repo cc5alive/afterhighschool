@@ -6,11 +6,19 @@
     "url": "https://www.ir.pitt.edu/sites/default/files/2026-06/2025-2026%20Pittsburgh%20Common%20Data%20Set.pdf"
   },
   "sourceUrl": "https://www.ir.pitt.edu/sites/default/files/2026-06/2025-2026%20Pittsburgh%20Common%20Data%20Set.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 6245,
+      "quote": "number of qualified applicants offered a place on waiting list: 6,245"
+    },
+    "waitlist_accepted": {
+      "value": 3198,
+      "quote": "number accepting a place on the waiting list: 3,198"
+    },
     "waitlist_admitted": {
       "value": 84,
       "quote": "number of wait-listed students admitted: 84"
@@ -165,6 +173,14 @@
     "transfer_enrolled": {
       "value": 771,
       "quote": "D2 total 2,645 1,413 771"
+    },
+    "sat_submit_pct": {
+      "value": 40.3,
+      "quote": "submitting sat scores 40.3 % 2,368"
+    },
+    "act_submit_pct": {
+      "value": 8.3,
+      "quote": "submitting act scores 8.3% 490"
     }
   },
   "concerns": null

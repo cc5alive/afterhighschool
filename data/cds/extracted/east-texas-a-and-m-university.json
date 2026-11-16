@@ -6,9 +6,9 @@
     "url": "https://www.etamu.edu/wp-content/uploads/2026/07/CDS_2025-2026-2.pdf"
   },
   "sourceUrl": "https://www.etamu.edu/wp-content/uploads/2026/07/CDS_2025-2026-2.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -190,6 +190,14 @@
     "deferral_max": {
       "value": "1 Year",
       "quote": "C18 maximum period of postponement: 1 Year"
+    },
+    "sat_submit_pct": {
+      "value": 43.22,
+      "quote": "submitting sat scores 497 43.22"
+    },
+    "act_submit_pct": {
+      "value": 8.43,
+      "quote": "submitting act scores 8.43 97"
     }
   },
   "concerns": null

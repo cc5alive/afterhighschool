@@ -6,9 +6,9 @@
     "url": "https://www.whitman.edu/documents/offices/institutional-research/2026/2025%20Whitman%20CDS.pdf"
   },
   "sourceUrl": "https://www.whitman.edu/documents/offices/institutional-research/2026/2025%20Whitman%20CDS.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 373,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 110 223 40 0 373"
+    },
+    "waitlist_offered": {
+      "value": 863,
+      "quote": "number of qualified applicants offered a place on waiting list: 863"
+    },
+    "waitlist_accepted": {
+      "value": 837,
+      "quote": "number accepting a place on the waiting list: 837"
     },
     "waitlist_admitted": {
       "value": 33,
@@ -166,6 +174,10 @@
     "transfer_enrolled": {
       "value": 40,
       "quote": "D2 total 152 81 40"
+    },
+    "act_submit_pct": {
+      "value": 9,
+      "quote": "submitting act scores 9% 30"
     },
     "ed_offered": {
       "value": "yes",

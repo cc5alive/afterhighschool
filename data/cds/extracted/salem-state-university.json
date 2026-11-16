@@ -6,9 +6,9 @@
     "url": "https://www.salemstate.edu/sites/default/files/pdfs/CDS-2024-2025.pdf"
   },
   "sourceUrl": "https://www.salemstate.edu/sites/default/files/pdfs/CDS-2024-2025.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "gpa_average": {
@@ -128,6 +128,10 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ տ no"
+    },
+    "sat_submit_pct": {
+      "value": 4.31,
+      "quote": "submitting sat scores 4.31 37"
     }
   },
   "concerns": null

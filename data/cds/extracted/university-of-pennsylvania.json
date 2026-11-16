@@ -6,9 +6,9 @@
     "url": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5"
   },
   "sourceUrl": "https://upenn.box.com/s/woo7d85yxpol6j9e2o121aucjc6dc1k5",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,10 @@
     "enrolled_total": {
       "value": 2420,
       "quote": "c1 total first-time, first-year (degree-seeking) who enrolled 2,420"
+    },
+    "waitlist_offered": {
+      "value": 3252,
+      "quote": "c2 number of qualified applicants offered a place on waiting list 3,252"
     },
     "waitlist_accepted": {
       "value": 2566,
@@ -74,10 +78,6 @@
     "gpa_250_pct": {
       "value": 0,
       "quote": "c11 percent who had gpa between 2.50 and 2.99 0%"
-    },
-    "gpa_200_pct": {
-      "value": 0,
-      "quote": "c11 percent who had gpa between 2.0 and 2.49 c11 percent who had gpa between 1.0 and 1.99 0%"
     },
     "gpa_100_pct": {
       "value": 0,

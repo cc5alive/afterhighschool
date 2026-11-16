@@ -6,9 +6,9 @@
     "url": "https://oir.usc.edu/wp-content/uploads/sites/3/2026/10/CDS_2025-26_FINAL.pdf"
   },
   "sourceUrl": "https://oir.usc.edu/statistics-data-visualization/common-data-set/",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -186,6 +186,14 @@
     "deferral_max": {
       "value": "One year, in limited circumstances",
       "quote": "C18 maximum period of postponement: One year, in limited circumstances"
+    },
+    "sat_submit_pct": {
+      "value": 33,
+      "quote": "submitting sat scores 33% 1243"
+    },
+    "act_submit_pct": {
+      "value": 12,
+      "quote": "submitting act scores 12% 453"
     }
   },
   "concerns": null

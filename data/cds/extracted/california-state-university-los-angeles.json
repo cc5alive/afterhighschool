@@ -6,9 +6,9 @@
     "url": "https://www.calstatela.edu/sites/default/files/CDS2526_CalStateLA.pdf"
   },
   "sourceUrl": "https://www.calstatela.edu/InstitutionalEffectiveness/resources",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -51,17 +51,9 @@
       "value": 7.22,
       "quote": "percent who had gpa between 2.0 and 2.49 8.84 7.04 7.22"
     },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 .34 .49 .47 percent who had gpa below 1.0 0 0 0"
-    },
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0 0 0"
-    },
-    "gpa_average": {
-      "value": 3.21,
-      "quote": "average high school gpa 3.21"
     },
     "factor_rigor": {
       "value": "Considered",
@@ -114,10 +106,6 @@
     "factor_geography": {
       "value": "Considered",
       "quote": "Geographical residence"
-    },
-    "factor_state_residency": {
-      "value": "Considered",
-      "quote": "State residency"
     },
     "factor_religion": {
       "value": "Not Considered",

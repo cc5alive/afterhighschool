@@ -6,9 +6,9 @@
     "url": "https://www.usd.edu/-/media/Project/USD/DotEdu/About/Departments-Offices-and-Resources/Institutional-Research-Planning-and-Assessment/d-CDS_2025_2026---Final_Accessible_ADA.pdf?rev=32f7c66fa05341458e2c96cf06c74242&hash=6DF23E83D927F03C37E0EF3D5437795B"
   },
   "sourceUrl": "https://www.usd.edu/-/media/Project/USD/DotEdu/About/Departments-Offices-and-Resources/Institutional-Research-Planning-and-Assessment/d-CDS_2025_2026---Final_Accessible_ADA.pdf?rev=32f7c66fa05341458e2c96cf06c74242&hash=6DF23E83D927F03C37E0EF3D5437795B",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -106,6 +106,14 @@
     "transfer_enrolled": {
       "value": 312,
       "quote": "D2 total 691 671 312"
+    },
+    "sat_submit_pct": {
+      "value": 2.45,
+      "quote": "submitting sat scores 2.45 30"
+    },
+    "act_submit_pct": {
+      "value": 57.86,
+      "quote": "submitting act scores 57.86 707"
     }
   },
   "concerns": null

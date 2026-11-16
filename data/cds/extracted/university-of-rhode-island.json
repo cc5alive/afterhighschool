@@ -6,9 +6,9 @@
     "url": "https://web.uri.edu/ir/wp-content/uploads/sites/276/CDS-PDF-2025-2026_fillablePDF.pdf"
   },
   "sourceUrl": "https://web.uri.edu/ir/wp-content/uploads/sites/276/CDS-PDF-2025-2026_fillablePDF.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 3431,
       "quote": "total first-time, first-year (degree-seeking) enrolled 1284 2113 34 0 3431"
+    },
+    "waitlist_offered": {
+      "value": 1430,
+      "quote": "number of qualified applicants offered a place on waiting list: 1430"
+    },
+    "waitlist_accepted": {
+      "value": 60,
+      "quote": "number accepting a place on the waiting list: 60"
     },
     "waitlist_admitted": {
       "value": 9,
@@ -202,6 +210,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 23,
+      "quote": "submitting sat scores 775 23"
+    },
+    "act_submit_pct": {
+      "value": 1.49,
+      "quote": "submitting act scores 1.49 51"
     },
     "ed_offered": {
       "value": "yes",

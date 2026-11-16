@@ -6,11 +6,23 @@
     "url": "https://www.owu.edu/files/resources/cds-2025-2026-owu.pdf"
   },
   "sourceUrl": "https://www.owu.edu/files/resources/cds-2025-2026-owu.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 5707,
+      "quote": "total first - time, first - year s who applied 2,561 1,147 1,999 0 5,707"
+    },
+    "admitted_total": {
+      "value": 3681,
+      "quote": "total first - time, first - year s who were admitted 2,226 1,004 451 0 3,681"
+    },
+    "enrolled_total": {
+      "value": 515,
+      "quote": "total first - time, first - year s who enrolled 366 126 23 0 515"
+    },
     "rank_top10_pct": {
       "value": 26,
       "quote": "percent in top tenth of high school graduating class 26%"
@@ -58,6 +70,10 @@
     "gpa_average": {
       "value": 3.68,
       "quote": "average high school gpa: 3.68"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first - time, first - year students who submitted high school gpa: percent submitting high school gpa: 100%"
     },
     "ed_applied": {
       "value": 155,
@@ -129,15 +145,15 @@
     },
     "transfer_applied": {
       "value": 252,
-      "quote": "D2 total 252 133 5"
+      "quote": "D2 total 252 133 52"
     },
     "transfer_admitted": {
       "value": 133,
-      "quote": "D2 total 252 133 5"
+      "quote": "D2 total 252 133 52"
     },
     "transfer_enrolled": {
-      "value": 5,
-      "quote": "D2 total 252 133 5"
+      "value": 52,
+      "quote": "D2 total 252 133 52"
     },
     "deferral_allowed": {
       "value": "yes",

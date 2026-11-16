@@ -6,9 +6,9 @@
     "url": "https://www.usm.edu/institutional-research/commondatasets2025-26final.pdf"
   },
   "sourceUrl": "https://www.usm.edu/institutional-research/data-at-a-glance.php",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
@@ -25,12 +25,12 @@
     },
     "applied_total": {
       "value": 7308,
-      "quote": "total first-time, first-year men who applied 2711 / total first-time, first-year women who applied 4597",
+      "quote": "total first-time, first-year men who applied 2711 / total first-time, first-year women who applied 4597 / total first-time, first-year \u0003xqnqrzq\u0003vh[ who applied 0",
       "how": "sum of gender rows"
     },
     "admitted_total": {
       "value": 6767,
-      "quote": "total first-time, first-year men who were admitted 2526 / total first-time, first-year women who were admitted 4241",
+      "quote": "total first-time, first-year men who were admitted 2526 / total first-time, first-year women who were admitted 4241 / total first-time, first-year xqnqrzq\u0003vh[ who were admitted 0",
       "how": "sum of gender rows"
     },
     "act_p25": {
@@ -120,6 +120,10 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? տ yes տ ✔ no 1\u0012$"
+    },
+    "act_submit_pct": {
+      "value": 98.99,
+      "quote": "submitting act scores 98.99 1759"
     }
   },
   "concerns": null

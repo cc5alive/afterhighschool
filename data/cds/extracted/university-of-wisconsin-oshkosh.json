@@ -6,9 +6,9 @@
     "url": "https://www.uwosh.edu/oir/wp-content/uploads/sites/109/2026/11/UW-Oshkosh-CDS-2025-2026.pdf"
   },
   "sourceUrl": "https://www.uwosh.edu/oir/common-data-set/uw-oshkosh-cds-2025-2026/",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -170,6 +170,10 @@
     "transfer_enrolled": {
       "value": 287,
       "quote": "D2 total 1273 701 287"
+    },
+    "act_submit_pct": {
+      "value": 16,
+      "quote": "submitting act scores 16 209"
     }
   },
   "concerns": null

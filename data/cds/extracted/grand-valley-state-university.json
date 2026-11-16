@@ -6,14 +6,18 @@
     "url": "https://www.gvsu.edu/cms4/asset/EFAB4AD2-A926-8D16-A5685AB71E0C7DC3/cds_2025-2026.xlsx"
   },
   "sourceUrl": "https://www.gvsu.edu/ia/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
       "value": 27261,
       "quote": "C.116 total first-time, first-year students who applied: 27261"
+    },
+    "admitted_total": {
+      "value": 25274,
+      "quote": "C.117 total first-time, first-year students who were admitted: 25274"
     },
     "enrolled_total": {
       "value": 4335,
@@ -66,10 +70,6 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C.1801 does your institution allow students to postpone enrollment after admission?: No"
-    },
-    "admitted_total": {
-      "value": 25274,
-      "quote": "C.117 total first-time, first-year students who were admitted: 25274"
     },
     "sat_submit_pct": {
       "value": 54,

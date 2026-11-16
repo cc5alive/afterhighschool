@@ -6,9 +6,9 @@
     "url": "https://institutionalresearch.oregonstate.edu/sites/institutionalresearch.oregonstate.edu/files/2026-06/CDS-2025-26_1.pdf"
   },
   "sourceUrl": "https://institutionalresearch.oregonstate.edu/common-data-set",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,10 @@
     "enrolled_total": {
       "value": 4452,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 2527 1911 14 0 4452"
+    },
+    "waitlist_offered": {
+      "value": 764,
+      "quote": "number of qualified applicants offered a place on waiting list: 764"
     },
     "waitlist_admitted": {
       "value": 292,

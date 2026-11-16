@@ -6,9 +6,9 @@
     "url": "https://institutionalresearch.unt.edu/cds_univnorthtx_2025-2026.pdf"
   },
   "sourceUrl": "https://institutionalresearch.unt.edu/cds_univnorthtx_2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -118,6 +118,14 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? տ ✔ yes տ no 1\u0012$"
+    },
+    "sat_submit_pct": {
+      "value": 40,
+      "quote": "submitting sat scores 40.00 2573"
+    },
+    "act_submit_pct": {
+      "value": 8,
+      "quote": "submitting act scores 8.00 535"
     }
   },
   "concerns": null

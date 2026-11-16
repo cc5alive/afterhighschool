@@ -6,9 +6,9 @@
     "url": "https://www.lincolnu.edu/about-lincoln/oira/common-data-set-2023-2024.pdf"
   },
   "sourceUrl": "https://www.lincolnu.edu/web/oira/common-data-sets",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -86,6 +86,14 @@
     "deferral_max": {
       "value": "1 Semester",
       "quote": "C18 maximum period of postponement: 1 Semester"
+    },
+    "sat_submit_pct": {
+      "value": 6,
+      "quote": "submitting sat scores 6% 20"
+    },
+    "act_submit_pct": {
+      "value": 53,
+      "quote": "submitting act scores 53% 185"
     }
   },
   "concerns": null

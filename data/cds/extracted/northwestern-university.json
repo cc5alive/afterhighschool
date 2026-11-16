@@ -6,18 +6,14 @@
     "url": "https://enrollment.northwestern.edu/data/2025-2026.pdf"
   },
   "sourceUrl": "https://enrollment.northwestern.edu/data/2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "waitlist_admitted": {
       "value": 167,
       "quote": "number of wait-listed students admitted: 167"
-    },
-    "gpa_below1_pct": {
-      "value": 100,
-      "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
     },
     "applied_total": {
       "value": 52676,
@@ -137,6 +133,14 @@
     "deferral_max": {
       "value": "Military service",
       "quote": "C18 maximum period of postponement: military service"
+    },
+    "sat_submit_pct": {
+      "value": 48,
+      "quote": "submitting sat scores 48% 1,026"
+    },
+    "act_submit_pct": {
+      "value": 25,
+      "quote": "submitting act scores 25% 533"
     }
   },
   "concerns": null

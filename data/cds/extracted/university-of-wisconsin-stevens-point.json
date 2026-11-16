@@ -6,9 +6,9 @@
     "url": "https://www.uwsp.edu/office-of-institutional-research-and-effectiveness/wp-content/uploads/sites/86/2026/08/UWSP-CDS-2025-26.pdf"
   },
   "sourceUrl": "https://www.uwsp.edu/office-of-institutional-research-and-effectiveness/wp-content/uploads/sites/86/2026/08/UWSP-CDS-2025-26.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -18,6 +18,18 @@
     "admitted_total": {
       "value": 10294,
       "quote": "total first-time, first-year (degree-seeking) who were admitted 8961 1232 96 5 10294"
+    },
+    "enrolled_total": {
+      "value": 2017,
+      "quote": "total first-time, first-year (degree-seeking) who enrolled 1786 228 3 2017"
+    },
+    "waitlist_offered": {
+      "value": 9434,
+      "quote": "number of qualified applicants offered a place on waiting list: 9434"
+    },
+    "waitlist_accepted": {
+      "value": 1496,
+      "quote": "number accepting a place on the waiting list: 1496"
     },
     "waitlist_admitted": {
       "value": 1732,
@@ -66,10 +78,6 @@
     "gpa_submit_pct": {
       "value": 98.9,
       "quote": "percent of total first-time, first-year students who submitted high school gpa: 98.90%"
-    },
-    "enrolled_total": {
-      "value": 2017,
-      "quote": "total first-time, first-year (degree-seeking) who enrolled 1786 228 3 2017"
     },
     "act_p25": {
       "value": 20,
@@ -134,6 +142,10 @@
     "transfer_enrolled": {
       "value": 435,
       "quote": "D2 total 1,113 711 435"
+    },
+    "act_submit_pct": {
+      "value": 32,
+      "quote": "submitting act scores 32% 643"
     }
   },
   "concerns": null

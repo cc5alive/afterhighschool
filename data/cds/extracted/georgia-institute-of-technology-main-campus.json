@@ -6,9 +6,9 @@
     "url": "https://irp.gatech.edu/sites/default/files/CDS/CDS_2025-2026_FINAL_R4_03JUN2026.pdf"
   },
   "sourceUrl": "https://irp.gatech.edu/sites/default/files/CDS/CDS_2025-2026_FINAL_R4_03JUN2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 4071,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 2,422 1,400 248 0 4071"
+    },
+    "waitlist_offered": {
+      "value": 7651,
+      "quote": "number of qualified applicants offered a place on waiting list: 7,651"
+    },
+    "waitlist_accepted": {
+      "value": 4875,
+      "quote": "number accepting a place on the waiting list: 4,875"
     },
     "waitlist_admitted": {
       "value": 653,
@@ -190,6 +198,14 @@
     "deferral_max": {
       "value": "1 or 2 years",
       "quote": "C18 maximum period of postponement: 1 or 2 years"
+    },
+    "sat_submit_pct": {
+      "value": 78,
+      "quote": "submitting sat scores 78% 3,181"
+    },
+    "act_submit_pct": {
+      "value": 33,
+      "quote": "submitting act scores 33% 1,348"
     }
   },
   "concerns": null

@@ -6,11 +6,19 @@
     "url": "https://apb.ucla.edu/file/f8f5c864-93be-4b44-b646-7807a685749f"
   },
   "sourceUrl": "https://www.apb.ucla.edu/campus-statistics/common-data-set",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 20563,
+      "quote": "number of qualified applicants offered a place on waiting list: 20563"
+    },
+    "waitlist_accepted": {
+      "value": 13612,
+      "quote": "number accepting a place on the waiting list: 13612"
+    },
     "waitlist_admitted": {
       "value": 1514,
       "quote": "number of wait-listed students admitted: 1514"

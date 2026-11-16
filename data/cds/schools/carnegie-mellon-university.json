@@ -7,6 +7,7 @@
   },
   "builtAt": "2026-11-16",
   "values": {
+    "waitlist_offered": 8681,
     "waitlist_admitted": 73,
     "sat_p25": 1500,
     "sat_p50": 1540,
@@ -14,8 +15,8 @@
     "act_p25": 34,
     "act_p50": 35,
     "act_p75": 36,
-    "rank_top10_pct": 8,
-    "rank_top25_pct": 9,
+    "rank_top10_pct": 81.4,
+    "rank_top25_pct": 96.6,
     "gpa_average": 3.97,
     "ed_applied": 2422,
     "ed_admitted": 559,
@@ -42,6 +43,7 @@
     "ed_offered": "yes"
   },
   "basis": {
+    "waitlist_offered": "reader",
     "waitlist_admitted": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",

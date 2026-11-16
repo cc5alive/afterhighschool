@@ -6,18 +6,18 @@
     "url": "https://www.westga.edu/assets/iea/docs/cds-reports/cds-f2025.pdf"
   },
   "sourceUrl": "https://www.westga.edu/assets/iea/docs/cds-reports/cds-f2025.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "sat_submit_pct": {
-      "value": 39,
-      "quote": "percent submitting sat scores 39 . 95 % number submitting sat scores 644"
+      "value": 39.95,
+      "quote": "percent submitting sat scores 39.95 % number submitting sat scores 644"
     },
     "act_submit_pct": {
-      "value": 1,
-      "quote": "percent submitting act scores 1 7. 0 6 % number submitting act scores 275"
+      "value": 17,
+      "quote": "percent submitting act scores 17.0 6 % number submitting act scores 275"
     },
     "sat_p25": {
       "value": 940,
@@ -45,15 +45,15 @@
     },
     "transfer_applied": {
       "value": 1177,
-      "quote": "D2 total 1,177 1,081 6"
+      "quote": "D2 total 1,177 1,081 609"
     },
     "transfer_admitted": {
       "value": 1081,
-      "quote": "D2 total 1,177 1,081 6"
+      "quote": "D2 total 1,177 1,081 609"
     },
     "transfer_enrolled": {
-      "value": 6,
-      "quote": "D2 total 1,177 1,081 6"
+      "value": 609,
+      "quote": "D2 total 1,177 1,081 609"
     }
   },
   "concerns": null

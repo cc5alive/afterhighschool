@@ -6,9 +6,9 @@
     "url": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf"
   },
   "sourceUrl": "https://aggiedata.ucdavis.edu/sites/g/files/dgvnsk1841/files/media/documents/CDS_UCD_0.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 6824,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 5,481 417 926 6,824"
+    },
+    "waitlist_offered": {
+      "value": 17582,
+      "quote": "number of qualified applicants offered a place on waiting list: 17,582"
+    },
+    "waitlist_accepted": {
+      "value": 9747,
+      "quote": "number accepting a place on the waiting list: 9,747"
     },
     "waitlist_admitted": {
       "value": 3758,

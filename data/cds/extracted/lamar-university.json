@@ -6,9 +6,9 @@
     "url": "https://www.lamar.edu/data-analytics-reporting-analysis/_files/documents/common-data-set-2025-2026.pdf"
   },
   "sourceUrl": "https://www.lamar.edu/data-analytics-reporting-analysis/_files/documents/common-data-set-2025-2026.pdf",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -51,9 +51,28 @@
       "value": 0,
       "quote": "percent who had gpa below 1.0 0 0 0"
     },
+    "gpa_average": {
+      "value": 3.6,
+      "quote": "average high school gpa 3.6"
+    },
     "gpa_submit_pct": {
-      "value": 9,
-      "quote": "percent submitting gpa 9 8"
+      "value": 98,
+      "quote": "percent submitting gpa 98"
+    },
+    "applied_total": {
+      "value": 7460,
+      "quote": "total first - time, first - year men who applied 3120 / total first - time, first - year women who applied 4332 / total first - time, first - year of another gender who applied 8",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 6231,
+      "quote": "total first - time, first - year men who were admitted 2497 / total first - time, first - year women who were admitted 3732 / total first - time, first - year of another gender who were admitted 2",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 1685,
+      "quote": "total first - time, first - year men who were enrolled 715 / total first - time, first - year women who were enrolled 970 / total first - time, first - year of another gender who were enrolled 0",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1060,
@@ -130,6 +149,14 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "sat_submit_pct": {
+      "value": 45,
+      "quote": "submitting sat scores 45 766"
+    },
+    "act_submit_pct": {
+      "value": 5,
+      "quote": "submitting act scores 5 76"
     }
   },
   "concerns": null

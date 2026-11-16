@@ -6,9 +6,9 @@
     "url": "https://oir.uga.edu/wp-content/uploads/UGA_CDS_2025-2026.pdf"
   },
   "sourceUrl": "https://oir.uga.edu/wp-content/uploads/UGA_CDS_2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 6195,
       "quote": "total first-time, first-year (degree-seeking) enrolled 4859 1291 45 6195"
+    },
+    "waitlist_offered": {
+      "value": 4442,
+      "quote": "number of qualified applicants offered a place on waiting list: 4442"
+    },
+    "waitlist_accepted": {
+      "value": 437,
+      "quote": "number accepting a place on the waiting list: 437"
     },
     "gpa_400_pct": {
       "value": 87.06,
@@ -178,6 +186,10 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "act_submit_pct": {
+      "value": 43.91,
+      "quote": "submitting act scores 43.91 2704"
     }
   },
   "concerns": null

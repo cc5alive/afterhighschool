@@ -6,9 +6,9 @@
     "url": "https://www.bowdoin.edu/ir/pdf/bowdoin-cds_2025-2026.pdf"
   },
   "sourceUrl": "https://www.bowdoin.edu/ir/pdf/bowdoin-cds_2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -158,6 +158,14 @@
     "deferral_max": {
       "value": "12 months (one year)",
       "quote": "C18 maximum period of postponement: 12 months (one year)"
+    },
+    "sat_submit_pct": {
+      "value": 34.76,
+      "quote": "submitting sat scores 179 34.76"
+    },
+    "act_submit_pct": {
+      "value": 17.28,
+      "quote": "submitting act scores 17.28 89"
     },
     "ed_offered": {
       "value": "yes",

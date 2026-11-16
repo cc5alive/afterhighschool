@@ -6,11 +6,19 @@
     "url": "https://www.pitzer.edu/documents/common-data-set-2025-2026"
   },
   "sourceUrl": "https://www.pitzer.edu/documents/common-data-set-2025-2026",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 578,
+      "quote": "number of qualified applicants offered a place on waiting list: 578"
+    },
+    "waitlist_accepted": {
+      "value": 287,
+      "quote": "number accepting a place on the waiting list: 287"
+    },
     "waitlist_admitted": {
       "value": 57,
       "quote": "number of wait-listed students admitted: 57"

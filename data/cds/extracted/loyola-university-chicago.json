@@ -6,11 +6,15 @@
     "url": "https://www.luc.edu/media/lucedu/oie/CDS%202025-26%20-%20Loyola%20University%20Chicago%20-%20Final_af.pdf"
   },
   "sourceUrl": "https://www.luc.edu/oira/institutionaldata/commondataset/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_accepted": {
+      "value": 0,
+      "quote": "number accepting a place on the waiting list: 0"
+    },
     "waitlist_admitted": {
       "value": 0,
       "quote": "number of wait-listed students admitted: 0"
@@ -89,6 +93,14 @@
     "transfer_enrolled": {
       "value": 393,
       "quote": "D2 total 3,175 1,541 393"
+    },
+    "sat_submit_pct": {
+      "value": 39,
+      "quote": "submitting sat scores 39%"
+    },
+    "act_submit_pct": {
+      "value": 15,
+      "quote": "submitting act scores 15%"
     }
   },
   "concerns": null

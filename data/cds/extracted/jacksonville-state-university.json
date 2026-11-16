@@ -6,9 +6,9 @@
     "url": "https://jsu.edu/ire/common-data-set/2025_2026-cds-jacksonville-state-university.pdf"
   },
   "sourceUrl": "https://jsu.edu/ire/common-data-set/index.html",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -46,10 +46,6 @@
     "gpa_200_pct": {
       "value": 7.7,
       "quote": "percent who had gpa between 2.0 and 2.49 7.7"
-    },
-    "gpa_100_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 1.0 and 1.99 .1 percent who had gpa below 1.0 0"
     },
     "gpa_below1_pct": {
       "value": 0,
@@ -185,6 +181,14 @@
     "transfer_enrolled": {
       "value": 500,
       "quote": "D2 total 1267 792 500"
+    },
+    "sat_submit_pct": {
+      "value": 4.6,
+      "quote": "submitting sat scores 76 4.6"
+    },
+    "act_submit_pct": {
+      "value": 42.6,
+      "quote": "submitting act scores 42.60 699"
     }
   },
   "concerns": null

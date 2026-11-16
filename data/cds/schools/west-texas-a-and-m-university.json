@@ -54,8 +54,8 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
-    "sat_submit_pct": "gemini",
-    "act_submit_pct": "gemini",
+    "sat_submit_pct": "both",
+    "act_submit_pct": "both",
     "sat_p25": "both",
     "sat_p50": "both",
     "sat_p75": "both",

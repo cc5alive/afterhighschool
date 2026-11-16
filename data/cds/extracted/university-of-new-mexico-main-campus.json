@@ -6,9 +6,9 @@
     "url": "https://oia.unm.edu/resources/cds_25_26_updated.pdf"
   },
   "sourceUrl": "https://oia.unm.edu/resources/cds_25_26_updated.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -110,6 +110,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 54,
+      "quote": "submitting sat scores 2077 54"
+    },
+    "act_submit_pct": {
+      "value": 8,
+      "quote": "submitting act scores 8 289"
     }
   },
   "concerns": null

@@ -6,9 +6,9 @@
     "url": "https://www.fandm.edu/_resources/pdfs/CDS%202023-24.pdf"
   },
   "sourceUrl": "https://www.fandm.edu/institutional-research/",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -74,6 +74,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 31,
+      "quote": "submitting sat scores 31% 173"
+    },
+    "act_submit_pct": {
+      "value": 9,
+      "quote": "submitting act scores 9% 50"
     },
     "ed_offered": {
       "value": "yes",

@@ -6,9 +6,9 @@
     "url": "https://dox.utdallas.edu/report49426"
   },
   "sourceUrl": "https://dox.utdallas.edu/report49426",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -147,6 +147,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 79,
+      "quote": "submitting sat scores 79% 3,900"
+    },
+    "act_submit_pct": {
+      "value": 12,
+      "quote": "submitting act scores 12% 588"
     }
   },
   "concerns": null

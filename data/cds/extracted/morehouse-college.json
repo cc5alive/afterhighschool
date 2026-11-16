@@ -6,11 +6,15 @@
     "url": "https://morehouse.edu/hubfs/DIRE/First-Time%2C%20First-Year%20(Freshman)%20Admission.pdf"
   },
   "sourceUrl": "https://morehouse.edu/hubfs/DIRE/First-Time%2C%20First-Year%20(Freshman)%20Admission.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 898,
+      "quote": "number of qualified applicants offered a place on waiting list: 898"
+    },
     "waitlist_admitted": {
       "value": 27,
       "quote": "number of wait-listed students admitted: 27"
@@ -86,6 +90,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 0,
+      "quote": "submitting sat scores 0% 0"
+    },
+    "act_submit_pct": {
+      "value": 5,
+      "quote": "submitting act scores 5% 31"
     },
     "ed_offered": {
       "value": "yes",

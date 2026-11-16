@@ -6,9 +6,9 @@
     "url": "https://analytics.ucf.edu/wp-content/uploads/2026/07/Common-Data-Set-2025-2026.pdf"
   },
   "sourceUrl": "https://analytics.ucf.edu/wp-content/uploads/2026/07/Common-Data-Set-2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 8103,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 7,417 530 156 8,103"
+    },
+    "waitlist_offered": {
+      "value": 2966,
+      "quote": "number of qualified applicants offered a place on waiting list: 2,966"
+    },
+    "waitlist_accepted": {
+      "value": 2157,
+      "quote": "number accepting a place on the waiting list: 2,157"
     },
     "waitlist_admitted": {
       "value": 343,
@@ -186,6 +194,10 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? no"
+    },
+    "act_submit_pct": {
+      "value": 25.8,
+      "quote": "submitting act scores 25.8% 2,024"
     }
   },
   "concerns": null

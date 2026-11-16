@@ -6,11 +6,19 @@
     "url": "http://oir.uic.edu/wp-content/uploads/sites/213/2026/06/CDS_Final_2025_26.pdf"
   },
   "sourceUrl": "https://oir.uic.edu/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 29929,
+      "quote": "total first-time, first-year (degree-seeking) who applied 29929 29929"
+    },
+    "admitted_total": {
+      "value": 22674,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 22674 22674"
+    },
     "rank_top10_pct": {
       "value": 23,
       "quote": "percent in top tenth of high school graduating class 23"
@@ -62,16 +70,6 @@
     "gpa_submit_pct": {
       "value": 98.61,
       "quote": "percent submitting gpa 98.61"
-    },
-    "applied_total": {
-      "value": 29929,
-      "quote": "total first-time, first-year men who applied 12719 / total first-time, first-year women who applied 17210 / total first-time, first-year unknown sex who applied",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 22674,
-      "quote": "total first-time, first-year men who were admitted 9385 / total first-time, first-year women who were admitted 13289 / total first-time, first-year unknown sex who were admitted",
-      "how": "sum of gender rows"
     },
     "enrolled_total": {
       "value": 5405,
@@ -189,6 +187,14 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? ☐ yes ☐ x no n/a"
+    },
+    "sat_submit_pct": {
+      "value": 47,
+      "quote": "submitting sat scores 2518 47"
+    },
+    "act_submit_pct": {
+      "value": 4,
+      "quote": "submitting act scores 4 226"
     }
   },
   "concerns": null

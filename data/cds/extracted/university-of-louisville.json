@@ -6,11 +6,19 @@
     "url": "https://louisville.widen.net/content/s7kzlpdmo1/original/Common-Data-Set-2024-2025-final.pdf?u=nfnp1l&download=true"
   },
   "sourceUrl": "https://louisville.edu/common-data-set/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 15668,
+      "quote": "total first - time, first - year (degree - seeking) who applied 8756 6474 438 15668"
+    },
+    "enrolled_total": {
+      "value": 3120,
+      "quote": "total first - time, first - year (degree - seeking) enrolled 2889 190 41 3120"
+    },
     "rank_top10_pct": {
       "value": 24.8,
       "quote": "percent in top tenth of high school graduating class 24.8"
@@ -54,6 +62,15 @@
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0.00 0.00 0.00"
+    },
+    "gpa_submit_pct": {
+      "value": 100,
+      "quote": "percent of total first - time, first - year students who submitted high school gpa: percent submitting high school gpa : 100%"
+    },
+    "admitted_total": {
+      "value": 12442,
+      "quote": "total first - time, first - year men who were admitted 5361 / total first - time, first - year women who were admitted 7081 / total first - time, first - year of another gender who were admitted / total first - time, first - year of unknown gender who were admitted",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1010,
@@ -162,6 +179,14 @@
     "deferral_max": {
       "value": "One year",
       "quote": "C18 maximum period of postponement: one year"
+    },
+    "sat_submit_pct": {
+      "value": 18.2,
+      "quote": "submitting sat scores 18.2 569"
+    },
+    "act_submit_pct": {
+      "value": 84.8,
+      "quote": "submitting act scores 84.8 2647"
     }
   },
   "concerns": null

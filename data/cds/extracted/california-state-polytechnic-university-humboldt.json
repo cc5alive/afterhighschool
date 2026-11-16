@@ -6,9 +6,9 @@
     "url": "https://www.humboldt.edu/sites/default/files/irar/2025-12/cds-2025-26-cal-poly-humboldt.pdf"
   },
   "sourceUrl": "https://www.humboldt.edu/irar/common-data-sets",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "gpa_400_pct": {
@@ -173,6 +173,10 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after no admission?"
+    },
+    "sat_submit_pct": {
+      "value": 4,
+      "quote": "submitting sat scores 4% 40"
     }
   },
   "concerns": null

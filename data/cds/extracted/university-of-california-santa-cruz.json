@@ -6,9 +6,9 @@
     "url": "https://mediafiles.ucsc.edu/iraps/common-data-set/common-data-set-2025-26-revised.pdf"
   },
   "sourceUrl": "https://iraps.ucsc.edu/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 4596,
       "quote": "total first-time, first-year (degree-seeking) enrolled 4,183 252 161 4,596"
+    },
+    "waitlist_offered": {
+      "value": 9881,
+      "quote": "number of qualified applicants offered a place on waiting list: 9,881"
+    },
+    "waitlist_accepted": {
+      "value": 6444,
+      "quote": "number accepting a place on the waiting list: 6,444"
     },
     "waitlist_admitted": {
       "value": 2648,
@@ -73,15 +81,15 @@
     },
     "transfer_applied": {
       "value": 12832,
-      "quote": "D2 total 12,832 8,86 0"
+      "quote": "D2 total 12,832 8,860 1,322"
     },
     "transfer_admitted": {
-      "value": 886,
-      "quote": "D2 total 12,832 8,86 0"
+      "value": 8860,
+      "quote": "D2 total 12,832 8,860 1,322"
     },
     "transfer_enrolled": {
-      "value": 0,
-      "quote": "D2 total 12,832 8,86 0"
+      "value": 1322,
+      "quote": "D2 total 12,832 8,860 1,322"
     }
   },
   "concerns": null

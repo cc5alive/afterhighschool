@@ -6,9 +6,9 @@
     "url": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf"
   },
   "sourceUrl": "https://www.bennington.edu/sites/default/files/sources/docs/cds_2025-2026_bennington_final.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 163,
       "quote": "total first-time, first-year (degree-seeking) enrolled 11 122 30 0 163"
+    },
+    "waitlist_offered": {
+      "value": 123,
+      "quote": "number of qualified applicants offered a place on waiting list: 123"
+    },
+    "waitlist_accepted": {
+      "value": 103,
+      "quote": "number accepting a place on the waiting list: 103"
     },
     "waitlist_admitted": {
       "value": 43,
@@ -122,6 +130,14 @@
     "transfer_enrolled": {
       "value": 11,
       "quote": "D2 total 112 46 11"
+    },
+    "sat_submit_pct": {
+      "value": 14.11,
+      "quote": "submitting sat scores 14.11 23"
+    },
+    "act_submit_pct": {
+      "value": 3.68,
+      "quote": "submitting act scores 3.68 6"
     },
     "ed_offered": {
       "value": "yes",

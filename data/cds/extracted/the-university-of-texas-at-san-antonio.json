@@ -6,9 +6,9 @@
     "url": "https://www.utsa.edu/ir/docs/resources/commonDataSet/CDS_2024-2025.xlsx"
   },
   "sourceUrl": "https://www.utsa.edu/ir/docs/resources/commonDataSet/CDS_2024-2025.xlsx",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -74,6 +74,14 @@
     "transfer_enrolled": {
       "value": 3153,
       "quote": "D2 total 5215 4668 3153"
+    },
+    "sat_submit_pct": {
+      "value": 0.61,
+      "quote": "submitting sat scores 0.61 3648"
+    },
+    "act_submit_pct": {
+      "value": 0.07,
+      "quote": "submitting act scores 0.07 416"
     }
   },
   "concerns": null

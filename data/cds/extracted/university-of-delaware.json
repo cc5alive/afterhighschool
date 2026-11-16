@@ -6,9 +6,9 @@
     "url": "https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/e/2019/files/2025/07/CDS2425_UDelaware.pdf"
   },
   "sourceUrl": "https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/e/2019/files/2025/07/CDS2425_UDelaware.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,10 @@
     "enrolled_total": {
       "value": 4075,
       "quote": "total first-time, first-year (degree-seeking) enrolled 1381 2638 56 4075"
+    },
+    "waitlist_offered": {
+      "value": 3417,
+      "quote": "number of qualified applicants offered a place on waiting list: 3417"
     },
     "waitlist_admitted": {
       "value": 2087,
@@ -158,6 +162,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 19.1,
+      "quote": "submitting sat scores 19.10 780"
+    },
+    "act_submit_pct": {
+      "value": 2.8,
+      "quote": "submitting act scores 2.80 113"
     }
   },
   "concerns": null

@@ -6,11 +6,23 @@
     "url": "https://oir.yale.edu/sites/default/files/yale_cds_2025-26_md_20260616.pdf"
   },
   "sourceUrl": "https://oir.yale.edu/sites/default/files/yale_cds_2025-26_md_20260616.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 944,
+      "quote": "number of qualified applicants offered a place on waiting list 944"
+    },
+    "waitlist_accepted": {
+      "value": 738,
+      "quote": "number accepting a place on the waiting list 738"
+    },
+    "waitlist_admitted": {
+      "value": 32,
+      "quote": "number of wait - listed students admitted 32"
+    },
     "rank_top10_pct": {
       "value": 97,
       "quote": "percent in top tenth of high school graduating class 97%"
@@ -18,6 +30,21 @@
     "rank_top25_pct": {
       "value": 99,
       "quote": "percent in top quarter of high school graduating class 99%"
+    },
+    "applied_total": {
+      "value": 50264,
+      "quote": "total first - time, first - year men who applied 22819 / total first - time, first - year women who applied 27445",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 2387,
+      "quote": "total first - time, first - year men who were admitted 1189 / total first - time, first - year women who were admitted 1198",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 1633,
+      "quote": "total first - time, first - year men who enrolled 799 / total first - time, first - year women who enrolled 834",
+      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1480,
@@ -134,6 +161,14 @@
     "deferral_max": {
       "value": "1 YEAR",
       "quote": "C18 maximum period of postponement: 1 YEAR"
+    },
+    "sat_submit_pct": {
+      "value": 67,
+      "quote": "submitting sat scores 67% 1092"
+    },
+    "act_submit_pct": {
+      "value": 25,
+      "quote": "submitting act scores 25% 412 12"
     }
   },
   "concerns": null

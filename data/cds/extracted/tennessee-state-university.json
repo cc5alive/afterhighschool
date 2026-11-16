@@ -6,9 +6,9 @@
     "url": "https://wst-media.sfo2.digitaloceanspaces.com/TSU/wp-content/uploads/2026/10/19212944/First-Time-First-Year-Admission-1.pdf"
   },
   "sourceUrl": "https://wst-media.sfo2.digitaloceanspaces.com/TSU/wp-content/uploads/2026/10/19212944/First-Time-First-Year-Admission-1.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -166,6 +166,14 @@
     "deferral_max": {
       "value": "One Semester",
       "quote": "C18 maximum period of postponement: One Semester"
+    },
+    "sat_submit_pct": {
+      "value": 30,
+      "quote": "submitting sat scores 30% 138"
+    },
+    "act_submit_pct": {
+      "value": 67,
+      "quote": "submitting act scores 67% 307"
     }
   },
   "concerns": null

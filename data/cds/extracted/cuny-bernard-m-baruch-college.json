@@ -6,9 +6,9 @@
     "url": "https://ir.baruch.cuny.edu/wp-content/uploads/sites/23/2025/07/CDS-2024-2025-FINAL-Jun-12.pdf"
   },
   "sourceUrl": "https://ir.baruch.cuny.edu/wp-content/uploads/sites/23/2025/07/CDS-2024-2025-FINAL-Jun-12.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
@@ -34,10 +34,6 @@
     "gpa_300_pct": {
       "value": 1.86,
       "quote": "percent who had gpa between 3.00 and 3.24 1.86 1.86"
-    },
-    "gpa_200_pct": {
-      "value": 0,
-      "quote": "percent who had gpa between 2.0 and 2.49 percent who had gpa between 1.0 and 1.99 0 0"
     },
     "gpa_100_pct": {
       "value": 0,
@@ -148,6 +144,10 @@
     "transfer_enrolled": {
       "value": 1641,
       "quote": "D2 total 7244 3687 1641"
+    },
+    "sat_submit_pct": {
+      "value": 12,
+      "quote": "submitting sat scores 296 12"
     }
   },
   "concerns": null

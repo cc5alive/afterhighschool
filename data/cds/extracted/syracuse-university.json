@@ -6,9 +6,9 @@
     "url": "https://effectiveness.syr.edu/wp-content/uploads/2026/09/CDS_2025-26_Complete.pdf"
   },
   "sourceUrl": "https://effectiveness.syr.edu/wp-content/uploads/2026/09/CDS_2025-26_Complete.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 3969,
       "quote": "total first-time, first-year (degree-seeking) enrolled 1315 2476 178 0 3969"
+    },
+    "waitlist_offered": {
+      "value": 14242,
+      "quote": "number of qualified applicants offered a place on waiting list: 14242"
+    },
+    "waitlist_accepted": {
+      "value": 6530,
+      "quote": "number accepting a place on the waiting list: 6530"
     },
     "waitlist_admitted": {
       "value": 2039,
@@ -202,6 +210,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 23,
+      "quote": "submitting sat scores 929 23"
+    },
+    "act_submit_pct": {
+      "value": 8,
+      "quote": "submitting act scores 8 327"
     },
     "ed_offered": {
       "value": "yes",

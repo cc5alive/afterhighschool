@@ -6,9 +6,9 @@
     "url": "https://campus.kennesaw.edu/offices-services/data-strategy/institutional-research/publications/common-data-set/cds-2025-2026.php"
   },
   "sourceUrl": "https://campus.kennesaw.edu/offices-services/data-strategy/institutional-research/publications/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "html",
   "values": {
     "applied_total": {
@@ -94,6 +94,14 @@
     "act_p75": {
       "value": 26,
       "quote": "act composite 19 22 26 22.38"
+    },
+    "sat_submit_pct": {
+      "value": 41,
+      "quote": "submitting sat scores 41% 3,937"
+    },
+    "act_submit_pct": {
+      "value": 12,
+      "quote": "submitting act scores 12% 1,192"
     }
   },
   "concerns": null

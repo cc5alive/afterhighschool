@@ -6,9 +6,9 @@
     "url": "https://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf"
   },
   "sourceUrl": "https://ideas.rice.edu/wp-content/uploads/2026/07/CDS_2025-26_WEBSITE.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,10 @@
     "enrolled_total": {
       "value": 1263,
       "quote": "total first-time, first-year students who enrolled 1263"
+    },
+    "waitlist_accepted": {
+      "value": 2204,
+      "quote": "number accepting a place on the waiting list: 2,204"
     },
     "waitlist_admitted": {
       "value": 66,
@@ -150,6 +154,14 @@
     "transfer_enrolled": {
       "value": 74,
       "quote": "D2 total 1,675 125 74"
+    },
+    "sat_submit_pct": {
+      "value": 59,
+      "quote": "submitting sat scores 59% 745"
+    },
+    "act_submit_pct": {
+      "value": 24,
+      "quote": "submitting act scores 24% 298"
     },
     "ed_offered": {
       "value": "yes",

@@ -6,9 +6,9 @@
     "url": "https://www.lsu.edu/data/common-data-set/2024/3_2425_admissions.pdf"
   },
   "sourceUrl": "https://www.lsu.edu/data/common-data-set/2024/3_2425_admissions.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -166,6 +166,14 @@
     "factor_interest": {
       "value": "Considered",
       "quote": "Level of applicant's interest"
+    },
+    "sat_submit_pct": {
+      "value": 7,
+      "quote": "submitting sat scores 7% 569"
+    },
+    "act_submit_pct": {
+      "value": 40,
+      "quote": "submitting act scores 40% 3,194"
     }
   },
   "concerns": null

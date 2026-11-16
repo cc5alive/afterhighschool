@@ -6,9 +6,9 @@
     "url": "https://data.mst.edu/media/administrative/data/documents/cds/CDS%202025-26%20Gold%20for%20Posting.xlsx"
   },
   "sourceUrl": "https://data.mst.edu/media/administrative/data/documents/cds/CDS%202025-26%20Gold%20for%20Posting.xlsx",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
     "applied_total": {
@@ -122,6 +122,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 0.117,
+      "quote": "submitting sat scores 0.117 147"
+    },
+    "act_submit_pct": {
+      "value": 0.682,
+      "quote": "submitting act scores 0.682 853"
     }
   },
   "concerns": null

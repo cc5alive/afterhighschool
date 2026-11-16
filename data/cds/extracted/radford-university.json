@@ -6,11 +6,23 @@
     "url": "https://www.radford.edu/institutional-research/_documents/cds-2025.pdf"
   },
   "sourceUrl": "https://www.radford.edu/institutional-research/_documents/cds-2025.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 9169,
+      "quote": "total first - time, first - years who applied 7,388 1,211 563 7 9,169"
+    },
+    "admitted_total": {
+      "value": 8196,
+      "quote": "total first - time, first - years who were admitted 6,707 1,016 471 2 8,196"
+    },
+    "enrolled_total": {
+      "value": 1408,
+      "quote": "total first - time, first - years who enrolled 1,305 85 18 0 1,408"
+    },
     "rank_top10_pct": {
       "value": 12.5,
       "quote": "percent in top tenth of high school graduating class 12.5%"
@@ -54,21 +66,6 @@
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0% 0% 0%"
-    },
-    "applied_total": {
-      "value": 9169,
-      "quote": "total first-time, first-year males who applied 3,306 / total first-time, first-year females who applied 5,849 / total first-time, first-year students of unknowns gender who applied 14",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 8196,
-      "quote": "total first-time, first-year males who were admitted 2,879 / total first-time, first-year females who were admitted 5,305 / total first-time, first-year students of unknown sex who were admitted 12",
-      "how": "sum of gender rows"
-    },
-    "enrolled_total": {
-      "value": 1408,
-      "quote": "total first-time, first-year males who enrolled 478 / total first-time, first-year females who enrolled 925 / total first-time, first-year students of unknown sex who enrolled 5",
-      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 950,
@@ -157,6 +154,10 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "sat_submit_pct": {
+      "value": 11,
+      "quote": "submitting sat scores 11% 158"
     }
   },
   "concerns": null

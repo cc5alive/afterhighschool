@@ -6,9 +6,9 @@
     "url": "https://manoa.hawaii.edu/miro/wp-content/uploads/2026/09/Common_Data_Set_2025-2026_v2.pdf"
   },
   "sourceUrl": "https://manoa.hawaii.edu/miro/wp-content/uploads/2026/09/Common_Data_Set_2025-2026_v2.pdf",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "rank_top10_pct": {
@@ -46,6 +46,21 @@
     "gpa_submit_pct": {
       "value": 83.6,
       "quote": "percent submitting gpa 83.6"
+    },
+    "applied_total": {
+      "value": 17389,
+      "quote": "total first - time, first - year men who applied 5451 / total first - time, first - year women who applied 11870 / total first -ti me, f irst -ye ar u nknown sex who ap plied 68",
+      "how": "sum of gender rows"
+    },
+    "admitted_total": {
+      "value": 15297,
+      "quote": "total first - time, first - year men who were admitted 4752 / total first - time, first - year women who were admitted 10488 / total first -ti me, f irst -ye ar unknown sex w ho w er e admitted 57",
+      "how": "sum of gender rows"
+    },
+    "enrolled_total": {
+      "value": 3319,
+      "quote": "total first -t ime, f irst -y ear m en who enrolled 1329 / total first -t ime, f irst -y ear w omen w ho enrolled 1979 / total first -tim e, f irst -yea r unknown sex w ho enrolled 11",
+      "how": "sum of gender rows"
     },
     "factor_rigor": {
       "value": "Very Important",

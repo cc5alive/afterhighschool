@@ -6,11 +6,31 @@
     "url": "https://www.uwlax.edu/globalassets/offices-services/institutional-research/ir-resources/cds_2025-2026.docx"
   },
   "sourceUrl": "https://www.uwlax.edu/globalassets/offices-services/institutional-research/ir-resources/cds_2025-2026.docx",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "docx",
   "values": {
+    "applied_total": {
+      "value": 6495,
+      "quote": "total first-time, first-years who applied 5,035 1,380 80 0 6,495"
+    },
+    "admitted_total": {
+      "value": 5194,
+      "quote": "total first-time, first-years who were admitted 4,053 1,069 72 0 5,194"
+    },
+    "enrolled_total": {
+      "value": 2366,
+      "quote": "total first-time, first-years who enrolled 1,944 413 9 0 2,366"
+    },
+    "waitlist_offered": {
+      "value": 177,
+      "quote": "number of qualified applicants offered a place on waiting list: 177"
+    },
+    "waitlist_accepted": {
+      "value": 130,
+      "quote": "number accepting a place on the waiting list: 130"
+    },
     "waitlist_admitted": {
       "value": 0,
       "quote": "number of wait-listed students admitted: 0"
@@ -62,21 +82,6 @@
     "gpa_below1_pct": {
       "value": 0,
       "quote": "percent who had gpa below 1.0 0% 0% 0%"
-    },
-    "applied_total": {
-      "value": 6495,
-      "quote": "total first-time, first-year males who applied 2,754 / total first-time, first-year females who applied 3,740 / total first-time, first-year students of unknowns sex who applied 1",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 5194,
-      "quote": "total first-time, first-year males who were admitted 2,068 / total first-time, first-year females who were admitted 3,125 / total first-time, first-year students of unknown sex who were admitted 1",
-      "how": "sum of gender rows"
-    },
-    "enrolled_total": {
-      "value": 2366,
-      "quote": "total first-time, first-year males who enrolled 998 / total first-time, first-year females who enrolled 1368 / total first-time, first-year students of unknown sex who enrolled 0",
-      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1230,
@@ -189,6 +194,10 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 18. deferred admission: does your institution allow students to postpone enrollment after admission? no"
+    },
+    "act_submit_pct": {
+      "value": 33,
+      "quote": "submitting act scores 33% 783"
     }
   },
   "concerns": null

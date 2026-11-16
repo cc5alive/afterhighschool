@@ -6,9 +6,9 @@
     "url": "https://data.utah.edu/wp-content/uploads/2026/08/CDS_2025-2026.pdf"
   },
   "sourceUrl": "https://data.utah.edu/wp-content/uploads/2026/08/CDS_2025-2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -182,6 +182,14 @@
     "deferral_max": {
       "value": "7 consecutive semesters",
       "quote": "C18 maximum period of postponement: 7 consecutive semesters"
+    },
+    "sat_submit_pct": {
+      "value": 14,
+      "quote": "submitting sat scores 908 14"
+    },
+    "act_submit_pct": {
+      "value": 36,
+      "quote": "submitting act scores 36 2345"
     }
   },
   "concerns": null

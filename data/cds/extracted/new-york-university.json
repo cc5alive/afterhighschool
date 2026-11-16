@@ -8,11 +8,19 @@
   "sourceUrl": "https://www.nyu.edu/content/dam/nyu/institutionalResearch/documents/cds-2025-2026/CDS%202025-2026%20FINAL.xlsx",
   "mirror": "data/cds/mirror/new-york-university.xlsx",
   "mirrorHash": "6d190520e2f6",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "xlsx",
   "values": {
+    "applied_total": {
+      "value": 114125,
+      "quote": "total first-time, first-year (degree-seeking) who applied 114125 48532"
+    },
+    "admitted_total": {
+      "value": 10340,
+      "quote": "total first-time, first-year (degree-seeking) who were admitted 10340 3885"
+    },
     "enrolled_total": {
       "value": 5662,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 5662"
@@ -53,16 +61,6 @@
       "value": 1,
       "quote": "percent of total first-time, first-year students who submitted high school gpa: 1"
     },
-    "applied_total": {
-      "value": 114125,
-      "quote": "total first-time, first-year males who applied 46307 / total first-time, first-year females who applied 67818 / total first-time, first-year students of unknown sex who applied 0",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 10340,
-      "quote": "total first-time, first-year males who were admitted 4231 / total first-time, first-year females who were admitted 6109 / total first-time, first-year students of unknown sex who were admitted 0",
-      "how": "sum of gender rows"
-    },
     "sat_p25": {
       "value": 1480,
       "quote": "sat composite 1480 1520 1550"
@@ -102,6 +100,14 @@
     "deferral_allowed": {
       "value": "yes",
       "quote": "C18 does your institution allow students to postpone enrollment after admission? yes"
+    },
+    "sat_submit_pct": {
+      "value": 0.27,
+      "quote": "submitting sat scores 0.27 1524"
+    },
+    "act_submit_pct": {
+      "value": 0.1,
+      "quote": "submitting act scores 0.1 562"
     }
   },
   "concerns": null

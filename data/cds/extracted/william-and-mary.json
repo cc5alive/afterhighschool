@@ -9,11 +9,19 @@
   "extra": [
     "https://www.wm.edu/offices/ir/university_data/cds/cds_2025-26_d.pdf"
   ],
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 4085,
+      "quote": "number of qualified applicants offered a place on waiting list: 4085"
+    },
+    "waitlist_accepted": {
+      "value": 1901,
+      "quote": "number accepting a place on the waiting list: 1901"
+    },
     "waitlist_admitted": {
       "value": 103,
       "quote": "number of wait-listed students admitted: 103"
@@ -192,6 +200,14 @@
     "deferral_max": {
       "value": "2 Year",
       "quote": "C18 maximum period of postponement: 2 Year"
+    },
+    "sat_submit_pct": {
+      "value": 48,
+      "quote": "submitting sat scores 781 48"
+    },
+    "act_submit_pct": {
+      "value": 14,
+      "quote": "submitting act scores 14 233"
     },
     "ed_offered": {
       "value": "yes",

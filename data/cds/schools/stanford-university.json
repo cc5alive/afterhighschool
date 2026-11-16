@@ -7,6 +7,13 @@
   },
   "builtAt": "2026-11-16",
   "values": {
+    "applied_total": 60646,
+    "admitted_total": 2302,
+    "enrolled_total": 1839,
+    "waitlist_accepted": 573,
+    "waitlist_admitted": 57,
+    "sat_submit_pct": 55.57,
+    "act_submit_pct": 20.94,
     "sat_p25": 1520,
     "sat_p50": 1550,
     "sat_p75": 1570,
@@ -44,6 +51,13 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "waitlist_accepted": "reader",
+    "waitlist_admitted": "reader",
+    "sat_submit_pct": "reader",
+    "act_submit_pct": "reader",
     "sat_p25": "reader",
     "sat_p50": "reader",
     "sat_p75": "reader",

@@ -6,9 +6,9 @@
     "url": "https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf"
   },
   "sourceUrl": "https://www.coloradocollege.edu/offices/ipe/documents/CDS-2025-2026_PDF_Final.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 510,
       "quote": "total first-time, first-year (degree-seeking) enrolled 89 383 38 0 510"
+    },
+    "waitlist_offered": {
+      "value": 400,
+      "quote": "number of qualified applicants offered a place on waiting list: 400"
+    },
+    "waitlist_accepted": {
+      "value": 90,
+      "quote": "number accepting a place on the waiting list: 90"
     },
     "waitlist_admitted": {
       "value": 20,
@@ -202,6 +210,14 @@
     "deferral_max": {
       "value": "Two years",
       "quote": "C18 maximum period of postponement: Two years"
+    },
+    "sat_submit_pct": {
+      "value": 28,
+      "quote": "submitting sat scores 140 28"
+    },
+    "act_submit_pct": {
+      "value": 12,
+      "quote": "submitting act scores 12 62"
     },
     "ed_offered": {
       "value": "yes",

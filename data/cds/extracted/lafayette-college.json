@@ -6,9 +6,9 @@
     "url": "https://oir.lafayette.edu/wp-content/uploads/sites/196/2026/01/CDS2025-2026.pdf"
   },
   "sourceUrl": "https://oir.lafayette.edu/wp-content/uploads/sites/196/2026/01/CDS2025-2026.pdf",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 696,
       "quote": "total first-time, first-year (degree-seeking) who enrolled 96 541 59 0 696"
+    },
+    "waitlist_offered": {
+      "value": 2660,
+      "quote": "number of qualified applicants offered a place on waiting list: 2660"
+    },
+    "waitlist_accepted": {
+      "value": 1316,
+      "quote": "number accepting a place on the waiting list: 1316"
     },
     "waitlist_admitted": {
       "value": 171,
@@ -198,6 +206,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 27,
+      "quote": "submitting sat scores 27% 186"
+    },
+    "act_submit_pct": {
+      "value": 9,
+      "quote": "submitting act scores 9% 60"
     },
     "ed_offered": {
       "value": "yes",

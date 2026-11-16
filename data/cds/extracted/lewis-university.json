@@ -6,9 +6,9 @@
     "url": "https://www.lewisu.edu/welcome/offices/provost/oirp/pdf/Common%20Data%20Set_2024-25%2006-03-25.pdf"
   },
   "sourceUrl": "https://www.lewisu.edu/welcome/offices/provost/oirp/",
-  "researchedAt": "2026-11-13",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -178,6 +178,14 @@
     "transfer_enrolled": {
       "value": 751,
       "quote": "D2 total 2,328 1,387 751"
+    },
+    "sat_submit_pct": {
+      "value": 24,
+      "quote": "submitting sat scores 24% 167"
+    },
+    "act_submit_pct": {
+      "value": 4,
+      "quote": "submitting act scores 4% 29"
     }
   },
   "concerns": null

@@ -7,6 +7,9 @@
   },
   "builtAt": "2026-11-16",
   "values": {
+    "applied_total": 8875,
+    "admitted_total": 8068,
+    "enrolled_total": 1580,
     "sat_submit_pct": 2.15,
     "act_submit_pct": 2.97,
     "sat_p25": 1100,
@@ -42,8 +45,11 @@
     "factor_interest": "Not Considered"
   },
   "basis": {
-    "sat_submit_pct": "gemini",
-    "act_submit_pct": "gemini",
+    "applied_total": "reader",
+    "admitted_total": "reader",
+    "enrolled_total": "reader",
+    "sat_submit_pct": "both",
+    "act_submit_pct": "both",
     "sat_p25": "both",
     "sat_p50": "both",
     "sat_p75": "both",

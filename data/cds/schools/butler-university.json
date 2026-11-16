@@ -2,7 +2,7 @@
   "slug": "butler-university",
   "cdsYear": "2024-2025",
   "source": {
-    "title": "Common Data Set 2024-2025 Section C: First-Time, First-Year Admission",
+    "title": "Common Data Set 2024-2025, Section C",
     "url": "https://cdn.butler.edu/www/sites/3/2025/02/08093226/CDS_2024_2025-C.pdf"
   },
   "builtAt": "2026-11-16",
@@ -41,8 +41,8 @@
     "waitlist_offered": "gemini",
     "waitlist_accepted": "gemini",
     "waitlist_admitted": "gemini",
-    "sat_submit_pct": "gemini",
-    "act_submit_pct": "gemini",
+    "sat_submit_pct": "both",
+    "act_submit_pct": "both",
     "sat_p25": "gemini",
     "sat_p50": "gemini",
     "sat_p75": "gemini",

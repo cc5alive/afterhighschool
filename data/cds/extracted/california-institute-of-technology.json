@@ -6,11 +6,19 @@
     "url": "https://iro.caltech.edu/documents/35129/Caltech_CDS_2025-26_August_2026.pdf"
   },
   "sourceUrl": "https://iro.caltech.edu/documents/35129/Caltech_CDS_2025-26_August_2026.pdf",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "waitlist_offered": {
+      "value": 263,
+      "quote": "number of qualified applicants offered a place on waiting list: 263"
+    },
+    "waitlist_accepted": {
+      "value": 211,
+      "quote": "number accepting a place on the waiting list: 211"
+    },
     "waitlist_admitted": {
       "value": 1,
       "quote": "number of wait-listed students admitted: 1"
@@ -25,12 +33,12 @@
     },
     "applied_total": {
       "value": 11285,
-      "quote": "total first-time, first-year men who applied 7772 / total first-time, first-year women who applied 3513",
+      "quote": "total first-time, first-year men who applied 7772 / total first-time, first-year women who applied 3513 / total first-time, first-year \u0003xqnqrzq\u0003vh[ who applied",
       "how": "sum of gender rows"
     },
     "admitted_total": {
       "value": 428,
-      "quote": "total first-time, first-year men who were admitted 224 / total first-time, first-year women who were admitted 204",
+      "quote": "total first-time, first-year men who were admitted 224 / total first-time, first-year women who were admitted 204 / total first-time, first-year xqnqrzq\u0003vh[ who were admitted",
       "how": "sum of gender rows"
     },
     "act_p25": {
@@ -124,6 +132,14 @@
     "deferral_max": {
       "value": "2 years",
       "quote": "C18 maximum period of postponement: 2 years"
+    },
+    "sat_submit_pct": {
+      "value": 78,
+      "quote": "submitting sat scores 78.00 190"
+    },
+    "act_submit_pct": {
+      "value": 22,
+      "quote": "submitting act scores 22.00 55"
     }
   },
   "concerns": null

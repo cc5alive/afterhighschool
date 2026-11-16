@@ -6,9 +6,9 @@
     "url": "https://getdata.louisiana.edu/sites/instres/files/UL_CDS_2023-2024.pdf"
   },
   "sourceUrl": "https://getdata.louisiana.edu/sites/instres/files/UL_CDS_2023-2024.pdf",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -178,6 +178,10 @@
     "transfer_enrolled": {
       "value": 602,
       "quote": "D2 total 1,103 901 602"
+    },
+    "sat_submit_pct": {
+      "value": 3,
+      "quote": "submitting sat scores 3% 93"
     }
   },
   "concerns": null

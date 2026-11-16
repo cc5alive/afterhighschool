@@ -6,9 +6,9 @@
     "url": "https://www.sfasu.edu/docs/institutional-research/common-data-set-complete-25-26.pdf"
   },
   "sourceUrl": "https://www.sfasu.edu/docs/institutional-research/common-data-set-complete-25-26.pdf",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -134,6 +134,14 @@
     "deferral_allowed": {
       "value": "no",
       "quote": "C18 does your institution allow students to postpone enrollment after no admission?"
+    },
+    "sat_submit_pct": {
+      "value": 48,
+      "quote": "submitting sat scores 48% 1131"
+    },
+    "act_submit_pct": {
+      "value": 11,
+      "quote": "submitting act scores 11% 249"
     }
   },
   "concerns": null

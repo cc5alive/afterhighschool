@@ -6,9 +6,9 @@
     "url": "https://ir.mit.edu/projects/2025-26-common-data-set/"
   },
   "sourceUrl": "https://ir.mit.edu/projects/2025-26-common-data-set/",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "html",
   "values": {
     "applied_total": {
@@ -22,6 +22,14 @@
     "enrolled_total": {
       "value": 1152,
       "quote": "total first-time, first-year enrolled 1,152"
+    },
+    "waitlist_offered": {
+      "value": 561,
+      "quote": "number of qualified applicants offered a place on waiting list: 561"
+    },
+    "waitlist_accepted": {
+      "value": 468,
+      "quote": "number accepting a place on the waiting list: 468"
     },
     "waitlist_admitted": {
       "value": 10,
@@ -62,6 +70,14 @@
     "act_p75": {
       "value": 35,
       "quote": "act composite 34 35 35"
+    },
+    "sat_submit_pct": {
+      "value": 83,
+      "quote": "submitting sat scores 83% 951"
+    },
+    "act_submit_pct": {
+      "value": 31,
+      "quote": "submitting act scores 31% 353"
     }
   },
   "concerns": null

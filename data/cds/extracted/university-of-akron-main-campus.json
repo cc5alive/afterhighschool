@@ -6,9 +6,9 @@
     "url": "https://www.uakron.edu/ir/docs/CDS/CDS%202025-2026%20University%20of%20Akron%20Main%20Campus.pdf"
   },
   "sourceUrl": "https://uakron.edu/ir/common-data-set.dot",
-  "researchedAt": "2026-11-06",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "enrolled_total": {
@@ -192,6 +192,14 @@
     "deferral_max": {
       "value": "2 semesters",
       "quote": "C18 maximum period of postponement: 2 semesters"
+    },
+    "sat_submit_pct": {
+      "value": 13.14,
+      "quote": "submitting sat scores 285 13.14"
+    },
+    "act_submit_pct": {
+      "value": 65.15,
+      "quote": "submitting act scores 65.15 1413"
     }
   },
   "concerns": null

@@ -6,11 +6,27 @@
     "url": "https://www.uncw.edu/media/pdf/irp/cds-2025-2026.pdf"
   },
   "sourceUrl": "https://uncw.edu/media/pdf/irp/cds-2025-2026.pdf",
-  "researchedAt": "2026-11-07",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
+    "applied_total": {
+      "value": 22359,
+      "quote": "total first - time, first - years who applied 12,851 9.508 c or t c or t 22,359"
+    },
+    "admitted_total": {
+      "value": 14472,
+      "quote": "total first - time, first - years who were admitted 9,848 4,624 c or t c or t 14,472"
+    },
+    "enrolled_total": {
+      "value": 3109,
+      "quote": "total first - time, first - years who enrolled 2,683 426 c or t c or t 3,109"
+    },
+    "waitlist_offered": {
+      "value": 1897,
+      "quote": "number of qualified applicants offered a place on waiting list: 1,897"
+    },
     "waitlist_admitted": {
       "value": 4,
       "quote": "number of wait-listed students admitted: 4"
@@ -43,10 +59,6 @@
       "value": 0.2,
       "quote": "percent who had gpa between 3.00 and 3.24 0.2% c or t c or t"
     },
-    "gpa_below1_pct": {
-      "value": 100,
-      "quote": "percent who had gpa below 1.0 c or t c or t c or t 100% 100% 100%"
-    },
     "gpa_average": {
       "value": 4.09,
       "quote": "average high school gpa: 4.09"
@@ -54,21 +66,6 @@
     "gpa_submit_pct": {
       "value": 99.5,
       "quote": "percent of total first-time, first-year students who submitted high school gpa: percent submitting high school gpa: 99.5%"
-    },
-    "applied_total": {
-      "value": 22358,
-      "quote": "total first-time, first-year males who applied 7,150 / total first-time, first-year females who applied 15,208",
-      "how": "sum of gender rows"
-    },
-    "admitted_total": {
-      "value": 14472,
-      "quote": "total first-time, first-year males who were admitted 4,335 / total first-time, first-year females who were admitted 10,137",
-      "how": "sum of gender rows"
-    },
-    "enrolled_total": {
-      "value": 3109,
-      "quote": "total first-time, first-year males who enrolled 981 / total first-time, first-year females who enrolled 2,128",
-      "how": "sum of gender rows"
     },
     "sat_p25": {
       "value": 1240,
@@ -173,6 +170,14 @@
     "deferral_max": {
       "value": "1 year",
       "quote": "C18 maximum period of postponement: 1 year"
+    },
+    "sat_submit_pct": {
+      "value": 6.9,
+      "quote": "submitting sat scores 6.9% 216"
+    },
+    "act_submit_pct": {
+      "value": 12.6,
+      "quote": "submitting act scores 12.6% 391"
     }
   },
   "concerns": null

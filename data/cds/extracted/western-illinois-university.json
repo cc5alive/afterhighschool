@@ -1,14 +1,14 @@
 {
   "slug": "western-illinois-university",
-  "cdsYear": null,
+  "cdsYear": "2024-2025",
   "source": {
     "title": "Common Data Set 2024-2025",
     "url": "https://drive.google.com/file/d/1UpTMo05R_z14nyeZVITy8qUIpxt_X48p/view?usp=drive_link"
   },
   "sourceUrl": "https://drive.google.com/file/d/1UpTMo05R_z14nyeZVITy8qUIpxt_X48p/view?usp=drive_link",
-  "researchedAt": "2026-11-09",
+  "researchedAt": "2026-11-16",
   "extractedBy": "extract-cds",
-  "readerVersion": 11,
+  "readerVersion": 12,
   "docKind": "pdf",
   "values": {
     "applied_total": {
@@ -178,6 +178,14 @@
     "transfer_enrolled": {
       "value": 596,
       "quote": "D2 total 1,548 1,038 596"
+    },
+    "sat_submit_pct": {
+      "value": 37.22,
+      "quote": "submitting sat scores 37.22% 236"
+    },
+    "act_submit_pct": {
+      "value": 6.15,
+      "quote": "submitting act scores 6.15% 39"
     }
   },
   "concerns": null
