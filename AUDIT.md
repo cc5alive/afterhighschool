@@ -134,12 +134,12 @@ Nothing wrong is shown, but the pages are thinner than they should be, and the g
 
 ### 12. Low — Things to know, no action taken
 
-- **Test policy.** 30 schools are hand-checked. The rest show the federal fall 2024 answer. 469 schools are labeled test-blind; that is what they reported, but 20 of them with a CDS show real score ranges (Wyoming: 67% sent ACT scores). Those 20 are now `docs/gemini-test-policy/batch-00-priority.md`, to run before batch 1.
+- **Test policy.** 127 schools now show a policy checked on their own site: 30 by hand (Nov 12–15) and 97 from Gemini batches 1–6, each published only after `scripts/check-test-policy.mjs` found Gemini's quote on the live page (Nov 16; results in `data/test-policy/_check.md`, left-out results and reasons in `data/test-policy/candidates.json`). The rest show the federal fall 2024 answer. 469 schools are labeled test-blind; 20 of them with a CDS show real score ranges (Wyoming: 67% sent ACT scores). Those 20 are `docs/gemini-test-policy/batch-00-priority.md`; two of them (UW Seattle, Cal State Fullerton) were covered by batches 1–6, so 18 remain to run.
 - **Columbia's CDS** covers Columbia College and Engineering only; the federal figures cover the whole university.
 - **17 schools are on a 2023–24 CDS**, two classes old.
 - **Compare, directory and My List** now label the admit rate's year (fixed Nov 15).
 - **The weekly Scorecard pull** now records each field's data year itself (fixed Nov 15).
-- **17 schools on a 2023–24 CDS:** searched each for a newer file. None is posted, except Northern Colorado's scanned 2024–25 file (now transcribed). Pace's 2024–25 and 2025–26 reports are behind a Pace sign-in on SharePoint, so they aren't public. Geneseo's site returns an empty page to automated requests; someone would have to download it in a browser.
+- **17 schools on a 2023–24 CDS:** searched each for a newer file. None is posted, except Northern Colorado's scanned 2024–25 file (now transcribed) and Northern Iowa's 2024–25 file, which is posted but can't be read automatically (pointed at it Nov 15; it keeps its 2023–24 values until someone copies it from a browser). Pace's 2024–25 and 2025–26 reports are behind a Pace sign-in on SharePoint, so they aren't public. Geneseo's site returns an empty page to automated requests; someone would have to download it in a browser.
 
 ### 13. Low — Branch builds on Cloudflare always fail (fixed: preview builds turned off Nov 15)
 
