@@ -1,6 +1,6 @@
 # Test policy quote check
 
-Checked 2026-11-16: 97 of 106 quotes found on their pages; 97 newly published.
+Checked 2026-11-25: 106 of 106 quotes found on their pages; 0 newly published.
 
 | School | Policy | HTTP | Quote found | Page |
 | --- | --- | --- | --- | --- |
@@ -20,18 +20,18 @@ Checked 2026-11-16: 97 of 106 quotes found on their pages; 97 newly published.
 | university-of-california-los-angeles | not_considered | 200 | yes | https://admission.ucla.edu/apply/first-year/first-year-requirements |
 | university-of-california-san-diego | not_considered | 200 | yes | https://admissions.ucsd.edu/first-year/application-requirements.html |
 | university-of-southern-california | considered_not_required | 200 | yes | https://admission.usc.edu/test-optional-faq/ |
-| colorado-college | considered_not_required | 200 | no (browser) | https://www.coloradocollege.edu/admission/apply/first-year-students.html |
+| colorado-college | considered_not_required | 200 | yes (browser) | https://www.coloradocollege.edu/admission/apply/first-year-students.html |
 | united-states-air-force-academy | required | 200 | yes | https://www.usafa.edu/admissions/student-applicant/grades-11-12/ |
 | university-of-colorado-boulder | considered_not_required | 200 | yes | https://www.colorado.edu/admissions/process/first-year/plan |
 | trinity-college | considered_not_required | 200 | yes | https://www.trincoll.edu/admissions/undergraduate-admissions/application-process/ |
 | wesleyan-university | considered_not_required | 200 | yes | https://www.wesleyan.edu/admission/undergraduate-admission/first-year.html |
 | georgetown-university | required | 200 | yes | https://uadmissions.georgetown.edu/faq/faq-high-school-credits-and-tests/ |
 | florida-agricultural-and-mechanical-university | required | 200 | yes | https://admissions.famu.edu/student-types/freshman.php |
-| florida-international-university | required | 200 | no (browser) | https://admissions.fiu.edu/admission-standards/ |
+| florida-international-university | required | 200 | yes (browser) | https://admissions.fiu.edu/admission-standards/ |
 | florida-state-university | required | 200 | yes | https://admissions.fsu.edu/first-year/wwlf |
 | university-of-central-florida | required | 200 | yes | https://www.ucf.edu/admissions/undergraduate/question/does-ucf-require-standardized-tests-2/ |
 | university-of-florida | required | 200 | yes | https://admissions.ufl.edu/apply/freshman/requirements |
-| university-of-south-florida | required | 200 | no (browser) | https://www.usf.edu/admissions/freshmen/admission-information/academic-requirements.aspx |
+| university-of-south-florida | required | 200 | yes (browser) | https://www.usf.edu/admissions/freshmen/admission-information/academic-requirements.aspx |
 | emory-university | considered_not_required | 200 | yes | https://apply.emory.edu/apply/requirements/exams |
 | georgia-institute-of-technology-main-campus | required | 200 | yes | https://admission.gatech.edu/first-year/standardized-tests |
 | spelman-college | considered_not_required | 200 | yes | https://www.spelman.edu/admissions/applying-to-spelman/test-optional-admissions-policy.html |
@@ -40,10 +40,10 @@ Checked 2026-11-16: 97 of 106 quotes found on their pages; 97 newly published.
 | northwestern-university | considered_not_required | 200 | yes | https://admissions.northwestern.edu/faqs/standardized-testing-policy/ |
 | university-of-chicago | considered_not_required | 200 | yes (browser) | https://collegeadmissions.uchicago.edu/apply/application/required-materials/ |
 | university-of-illinois-urbana-champaign | considered_not_required | 200 | yes | https://www.admissions.illinois.edu/first-year-apply/ |
-| indiana-university-bloomington | recommended | 200 | no (browser) | https://bloomington.iu.edu/admissions/apply/freshman/test-optional.html |
+| indiana-university-bloomington | recommended | 200 | yes (browser) | https://bloomington.iu.edu/admissions/apply/freshman/test-optional.html |
 | purdue-university-main-campus | required | 200 | yes | https://admissions.purdue.edu/become-student/guide/ |
 | berea-college | considered_not_required | 200 | yes | https://www.berea.edu/admissions/admission-information/test-optional-admissions |
-| tulane-university-of-louisiana | considered_not_required | 403 | no (browser) | https://admission.tulane.edu/apply/instructions/standardized-tests |
+| tulane-university-of-louisiana | considered_not_required | 403 | yes (browser) | https://admission.tulane.edu/apply/instructions/standardized-tests |
 | amherst-college | considered_not_required | 200 | yes | https://www.amherst.edu/admission/apply/firstyear/testing |
 | babson-college | considered_not_required | 200 | yes | https://www.babson.edu/undergraduate/how-to-apply/standardized-testing/ |
 | boston-college | considered_not_required | 200 | yes | https://www.bc.edu/bc-web/admission/apply/test-optional.html |
@@ -55,15 +55,15 @@ Checked 2026-11-16: 97 of 106 quotes found on their pages; 97 newly published.
 | smith-college | considered_not_required | 200 | yes | https://www.smith.edu/admission-aid/apply-smith/standardized-testing-policy |
 | tufts-university | considered_not_required | 200 | yes | https://admissions.tufts.edu/apply/applying-to-tufts/sat-and-act-tests/ |
 | wellesley-college | considered_not_required | 200 | yes | https://www.wellesley.edu/admission-aid/apply/first-year-applicants |
-| williams-college | considered_not_required | 403 | no (browser) | https://www.williams.edu/admission-aid/how-to-apply/first-year/ |
+| williams-college | considered_not_required | 403 | yes (browser) | https://www.williams.edu/admission-aid/how-to-apply/first-year/ |
 | united-states-naval-academy | required | 200 | yes | https://www.usna.edu/Admissions/Candidate-Instructions.php |
 | university-of-maryland-global-campus | considered_not_required | 200 | yes (browser) | https://www.umgc.edu/admission/requirements/undergraduate |
 | bates-college | considered_not_required | 200 | yes | https://www.bates.edu/admission/apply/optional-testing/ |
 | bowdoin-college | considered_not_required | 200 | yes | https://www.bowdoin.edu/admissions/apply/test-optional-policy/ |
-| colby-college | considered_not_required | 403 | no (browser) | https://afa.colby.edu/apply/requirements/ |
+| colby-college | considered_not_required | 403 | yes (browser) | https://afa.colby.edu/apply/requirements/ |
 | hillsdale-college | recommended | 200 | yes | https://www.hillsdale.edu/admissions-aid/admissions-2/frequently-asked-questions/ |
 | michigan-state-university | considered_not_required | 200 | yes | https://admissions.msu.edu/apply/first-year/act-sat-test-optional |
-| university-of-michigan-ann-arbor | considered_not_required | 403 | no (browser) | https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines/application-changes |
+| university-of-michigan-ann-arbor | considered_not_required | 403 | yes (browser) | https://admissions.umich.edu/apply/first-year-applicants/requirements-deadlines/application-changes |
 | carleton-college | considered_not_required | 200 | yes (browser) | https://www.carleton.edu/admissions/apply/steps/materials/ |
 | macalester-college | considered_not_required | 200 | yes | https://www.macalester.edu/admissions/us-admissions/faq/testing-policy/ |
 | university-of-minnesota-twin-cities | considered_not_required | 200 | yes | https://admissions.tc.umn.edu/admissions/freshman-admission/act-sat-information |
@@ -104,7 +104,7 @@ Checked 2026-11-16: 97 of 106 quotes found on their pages; 97 newly published.
 | liberty-university | considered_not_required | 200 | yes | https://www.liberty.edu/residential/undergraduate/ |
 | university-of-richmond | considered_not_required | 200 | yes | https://admission.richmond.edu/process/materials/test-optional.html |
 | university-of-virginia-s-college-at-wise | considered_not_required | 200 | yes | https://www.uvawise.edu/admissions/incoming-freshmen/admissions-requirements |
-| university-of-virginia-main-campus | considered_not_required | 403 | no (browser) | https://admission.virginia.edu/admission/deadlines-instructions |
+| university-of-virginia-main-campus | considered_not_required | 403 | yes (browser) | https://admission.virginia.edu/admission/deadlines-instructions |
 | virginia-polytechnic-institute-and-state-university | considered_not_required | 200 | yes | https://www.vt.edu/admissions/undergraduate/apply/freshman-requirements.html |
 | washington-and-lee-university | considered_not_required | 200 | yes (browser) | https://www.wlu.edu/admissions/apply/test-optional-policy |
 | middlebury-college | considered_not_required | 200 | yes | https://www.middlebury.edu/college/admissions/application-instructions-and-deadlines |
