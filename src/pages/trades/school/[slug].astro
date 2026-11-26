@@ -7,7 +7,8 @@ import { tradeSchools, national, tradePulledDate, KIND_LABEL } from '../../../li
 import { stateSlug } from '../../../lib/data.js';
 import { CREDENTIAL } from '../../../lib/trades.js';
 import { pct, money, int, OWNERSHIP_LABEL, SETTING_LABEL, INCOME_BAND_LABEL, scorecardUrl } from '../../../lib/format.js';
-import { TRADES_LAUNCHED, TRANSFER_LAUNCHED, CONTACT_EMAIL } from '../../../lib/site.js';
+import { TRADES_LAUNCHED, TRANSFER_LAUNCHED, CONTACT_EMAIL, LOCAL_GUIDES_LAUNCHED } from '../../../lib/site.js';
+import { guideFor } from '../../../lib/state-guides.js';
 
 export function getStaticPaths() {
   return tradeSchools.map((s) => ({ params: { slug: s.slug }, props: { s } }));
@@ -84,6 +85,7 @@ const description = `${s.titleName === s.name ? s.name : s.titleName} in ${s.cit
                   </li>
                 ))}
               </ul>
+              {LOCAL_GUIDES_LAUNCHED && guideFor(g.trade.slug, s.state) && <p class="tp-guide">Licenses and paid apprenticeships in {s.stateName}: <a href={`/guides/${guideFor(g.trade.slug, s.state).slug}`}>{guideFor(g.trade.slug, s.state).title}</a>.</p>}
             </div>
           ))}
         </div>

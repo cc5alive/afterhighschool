@@ -301,6 +301,7 @@ button.button { cursor: pointer; font-family: inherit; }
 .tp-cred, .tp-earn { font-size: 0.9rem; color: var(--muted); }
 .tp-earn strong { color: var(--ink); }
 .tp-nat { margin-left: 8px; }
+.tp-guide { margin: .5rem 0 0; font-size: .95rem; }
 .tp-other { margin: 12px 0; }
 .tp-other summary { cursor: pointer; font-weight: 700; margin-bottom: 8px; }
 @media (max-width: 640px) { .tr-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tp-nat { display: block; margin: 0; } }

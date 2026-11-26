@@ -20,6 +20,9 @@ const finderLabel = S.das ? 'Search approved programs' : S.twc ? 'Find apprentic
 const cite = (keys) => keys.map((k) => S[k]).filter(Boolean);
 const flag = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(`Correction: ${g.title}`)}&body=${encodeURIComponent('What looks wrong or out of date:\n\nWhere you saw the right information (a link helps):\n')}`;
 const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
+const sameState = STATE_GUIDES.filter((x) => x.state === g.state && x.slug !== g.slug);
+const sameTrade = STATE_GUIDES.filter((x) => x.trade === g.trade && x.slug !== g.slug).sort((a, b) => a.stateName.localeCompare(b.stateName));
+const shortTitle = (x) => x.title.replace(/^How to become an? /, '').replace(` in ${x.stateName}`, '');
 ---
 <Layout title={`${g.title} | After High School`} description={g.description}
   crumbs={[[tradeTitle, `/trades/${g.trade}`]]}
@@ -87,6 +90,12 @@ const tradeTitle = g.tradeName[0].toUpperCase() + g.tradeName.slice(1);
     <h2 id="steps">Getting started, step by step</h2>
     <ol class="xfer-srcs la-steps">{g.steps.map((t) => <li>{t}</li>)}</ol>
     <p class="wys-src">Sources: {cite(g.stepsSrc).map((s, i) => <>{i > 0 && '; '}<a href={s.url} rel="noopener" target="_blank">{s.label}</a></>)}. Checked {g.checked}.</p>
+  </section>
+
+  <section class="block" aria-labelledby="more-guides">
+    <h2 id="more-guides">More guides</h2>
+    {sameState.length > 0 && <p>Other trades in {g.stateName}: {sameState.map((x, i) => <>{i > 0 && ', '}<a href={`/guides/${x.slug}`}>{shortTitle(x)}</a></>)}.</p>}
+    {sameTrade.length > 0 && <p>Becoming {g.tradeName === 'HVAC' ? 'an HVAC technician' : g.tradeName === 'plumbing' ? 'a plumber' : 'an electrician'} in other states: {sameTrade.map((x, i) => <>{i > 0 && ', '}<a href={`/guides/${x.slug}`}>{x.stateName}</a></>)}.</p>}
   </section>
 
   <section class="block sources" aria-labelledby="sources">
