@@ -1,5 +1,8 @@
 User-agent: *
 Allow: /
 Disallow: /api/
+# Comparison links built from a school page (/compare?schools=...) all point their canonical at /compare;
+# keep crawlers on real pages instead.
+Disallow: /compare?
 
 Sitemap: https://afterhighschool.me/sitemap.xml

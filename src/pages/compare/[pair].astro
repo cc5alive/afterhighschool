@@ -105,7 +105,7 @@ const others = collegePairs.filter((x) => x !== p && (x.a.slug === a.slug || x.b
     <p class="wys-src">Net price is what full-time first-years who got grant aid paid on average, including housing and food; at public universities it's for in-state students. Earnings are for students who got federal aid, working and not in school. SAT, ACT and GPA come from each school's Common Data Set when we have it; schools report GPA in their own way, some weighted and some not, so compare it loosely.</p>
     <p class="vs-actions">
       {both.map((s) => schoolLink(s.priceCalculatorUrl) && <a class="button secondary" href={schoolLink(s.priceCalculatorUrl)} rel="noopener" target="_blank">{s.short} net price calculator</a>)}
-      <a class="button secondary" href={`/compare?schools=${a.slug},${b.slug}`}>Add more schools to this comparison</a>
+      <a class="button secondary" rel="nofollow" href={`/compare?schools=${a.slug},${b.slug}`}>Add more schools to this comparison</a>
     </p>
   </section>
 
