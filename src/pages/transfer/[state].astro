@@ -35,7 +35,7 @@ const routes = STATE_ROUTES[st.code] || null;
             <h3>{r.name}</h3>
             <p>{r.what}</p>
             {r.details.length > 0 && <ul>{r.details.map((d) => <li>{d}</li>)}</ul>}
-            <p class="wys-src">Source: <a href={r.link.url} rel="noopener" target="_blank">{r.link.label}</a>. Checked {ROUTES_CHECKED}.</p>
+            <p class="wys-src">Source: <a href={r.link.url} rel="noopener" target="_blank">{r.link.label}</a>. Checked {routes.checked || ROUTES_CHECKED}.</p>
           </li>
         ))}
       </ul>
