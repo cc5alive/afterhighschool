@@ -213,6 +213,100 @@ const NYT_SRC = {
   scorecard: SCORECARD
 };
 
+// Pennsylvania, Illinois and Ohio (checked November 25, 2026).
+const PA_STATE = { label: 'Pennsylvania Department of Labor & Industry: contractor licensing', url: 'https://www.pa.gov/agencies/dli/programs-services/labor-management-relations/bureau-of-occupational-and-industrial-safety/uniform-construction-code-home/contractor-licensing' };
+const PA_COMMON = {
+  state: PA_STATE,
+  finder: { label: 'Pennsylvania Department of Labor & Industry: find a registered apprenticeship program', url: 'https://www.pa.gov/services/dli/find-a-registered-apprenticeship-program' },
+  careerlink: { label: 'PA CareerLink: become an apprentice', url: 'https://www.pacareerlink.pa.gov/jponline/Apprenticeships/BecomeApprentice' },
+  abcKey: { label: 'ABC Keystone: apprenticeship application process and requirements', url: 'https://abckeystone.org/apprenticeship/apprenticeship-enrollment/' },
+  abcKeyApp: { label: 'ABC Keystone: apprenticeship application (trades offered)', url: 'https://abckeystone.org/apprenticeship/abc-keystone-apprenticeship-program-application/' },
+  abcEast: { label: 'ABC Eastern Pennsylvania: apprenticeship programs', url: 'https://abceastpa.org/apprenticeship-programs-near-me-in-eastern-pennsylvania/' },
+  scorecard: SCORECARD
+};
+const PA_SRC = {
+  ...PA_COMMON,
+  board: { label: 'Pennsylvania Department of State: State Board of Electrical Licensure (Act 108 of 2026)', url: 'https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/electricians' },
+  phl: { label: 'City of Philadelphia: get an electrical contractor license', url: 'https://www.phila.gov/services/permits-violations-licenses/get-a-license/trade-licenses/get-an-electrical-contractor-license/' },
+  phlForm: { label: 'City of Philadelphia: electrical contractor license application (July 2025)', url: 'https://www.phila.gov/media/20250728144525/L_011_F_Electrical-Contractor-License-Application-Form-AB-Rev-7.2025.pdf' },
+  pgh: { label: 'City of Pittsburgh: trade licenses (electrical)', url: 'https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Licensing/Trade-Licenses' },
+  local5: { label: 'Western Pennsylvania Electrical JATC (IBEW Local 5): application process', url: 'https://ibewlocal5jatc.org/become-an-apprentice/application-process/' }
+};
+const PAP_SRC = {
+  ...PA_COMMON,
+  phlApp: { label: 'City of Philadelphia: plumber (apprentice) license', url: 'https://business.phila.gov/plumber-apprentice-license/' },
+  phlJourney: { label: 'City of Philadelphia: get a journeyman plumber license', url: 'https://www.phila.gov/services/permits-violations-licenses/get-a-license/trade-licenses/get-a-journeyman-plumber-license/' },
+  phlMaster: { label: 'City of Philadelphia: get a master plumber\'s license', url: 'https://www.phila.gov/services/permits-violations-licenses/get-a-license/trade-licenses/get-a-master-plumbers-license/' },
+  acPlumb: { label: 'Allegheny County Health Department: plumber licensing information', url: 'https://www.alleghenycounty.us/Services/Health-Department/Plumbing-Program/Licensing-Information' },
+  local690: { label: 'Plumbers Local 690 (Philadelphia): 2027 apprentice applications', url: 'https://plumbers690.org/training.aspx?zone=training&pID=5881' },
+  uaFind
+};
+const PAH_SRC = {
+  ...PA_COMMON,
+  ...EPA,
+  pghHvac: { label: 'City of Pittsburgh: mechanical/HVAC trade license', url: 'https://www.pittsburghpa.gov/Business-Development/Permits-Licenses-and-Inspections/Licenses/Trade-Licenses/MechanicalHVAC-Trade-License' },
+  phlMech: { label: 'City of Philadelphia: get a mechanical permit', url: 'https://www.phila.gov/services/permits-violations-licenses/apply-for-a-permit/building-and-repair-permits/get-a-mechanical-permit/' },
+  phlWarm: { label: 'City of Philadelphia: warm air license eliminated (contractor license rules since 2017)', url: 'https://business.phila.gov/warm-air-installer-license/' },
+  local420: { label: 'Steamfitters Local 420 (Philadelphia): apprenticeship applications', url: 'https://www.lu420.com/apprenticeship.aspx?zone=training&eID=920' },
+  uaFind
+};
+
+const IL_COMMON = {
+  finder: { label: 'Apprenticeship Illinois (Illinois workNet): find a program', url: 'https://www.illinoisworknet.com/ApprenticeshipIL/Pages/Apprentices.aspx' },
+  scorecard: SCORECARD
+};
+const IL_SRC = {
+  ...IL_COMMON,
+  munic: { label: 'Illinois Municipal Code (65 ILCS 5): registration of electrical contractors', url: 'https://www.ilga.gov/legislation/ILCS/details?MajorTopic=&Chapter=&ActName=Illinois+Municipal+Code.&ActID=802&ChapterID=14&ChapAct=65+ILCS+5%2F&SeqStart=179300000&SeqEnd=180000000' },
+  chiFaq: { label: 'City of Chicago: does my project require a licensed electrical contractor?', url: 'https://www.chicago.gov/city/en/sites/guide-to-building-permits/home/help/faq/DOB/electrical-license.html' },
+  chiCont: { label: 'City of Chicago Department of Buildings: electrical contractor license', url: 'https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/ELcontractor.html' },
+  chiSup: { label: 'City of Chicago Department of Buildings: supervising electrician license', url: 'https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/SupvEL.html' },
+  ejatt: { label: 'IBEW-NECA Technical Institute (EJATT, IBEW Local 134): FAQs', url: 'https://ejatt.com/about-in-tech/faqs/' },
+  ejattReg: { label: 'EJATT: registration information (June 2025)', url: 'https://ejatt.com/wp-content/uploads/2025/06/Registration-Information-1-updted-6-2-25.pdf' }
+};
+const ILP_SRC = {
+  ...IL_COMMON,
+  idph: { label: 'Illinois Department of Public Health: plumbing', url: 'https://dph.illinois.gov/topics-services/environmental-health-protection/plumbing.html' },
+  statute: { label: 'Illinois Plumbing License Law (225 ILCS 320)', url: 'https://www.ilga.gov/legislation/ilcs/ilcs3.asp?ActID=1343&ChapterID=24' },
+  rules: { label: 'Illinois Administrative Code, Title 68, Part 750 (Plumbers Licensing Code)', url: 'https://www.ilga.gov/Commission/jcar/admincode/JCARTitlePart.asp?Title=068&Part=0750' },
+  chiApp: { label: 'City of Chicago Department of Buildings: apprentice plumber license', url: 'https://www.chicago.gov/city/en/depts/bldgs/supp_info/TLdetails/PLapprentice.html' },
+  uaFind
+};
+const ILH_SRC = {
+  ...IL_COMMON,
+  ...EPA,
+  chiMech: { label: 'City of Chicago: mechanical (HVAC) work in the Express Permit Program', url: 'https://www.chicago.gov/city/en/sites/guide-to-building-permits/home/instructions/EPP/MECH.html' },
+  chiNoPermit: { label: 'City of Chicago: mechanical (HVAC) work that doesn\'t need a permit', url: 'https://www.chicago.gov/city/en/sites/guide-to-building-permits/home/help/faq/DOB/bldg-permit-not-required/worktype/mechanical.html' },
+  pf597: { label: 'Pipe Fitters Local 597 (Chicago): apprenticeship', url: 'https://www.pf597.org/apprenticeship/' },
+  uaFind
+};
+
+const OH_COMMON = {
+  ocilb: { label: 'Ohio Department of Commerce, Construction Industry Licensing Board: contractors and contracting companies', url: 'https://com.ohio.gov/wps/portal/gov/com/divisions-and-programs/industrial-compliance/boards/ohio-construction-industry-licensing-board/contractors-and-contracting-companies' },
+  rule: { label: 'Ohio Administrative Code, rule 4101:16-2-01 (who can take a contractor license exam)', url: 'https://codes.ohio.gov/ohio-administrative-code/rule-4101:16-2-01' },
+  residential: { label: 'Ohio Department of Commerce: hiring a licensed contractor (residential work)', url: 'https://com.ohio.gov/about-us/media-center/news/hire-licensed-contractor-for-spring-projects' },
+  finder: { label: 'OhioMeansJobs: ApprenticeOhio dashboard (find registered apprenticeships)', url: 'https://ohiomeansjobs.ohio.gov/job-seekers/practice-your-skills/apprentice-ohio-dashboard' },
+  scorecard: SCORECARD
+};
+const local189 = { label: 'Columbus/Central Ohio Building & Construction Trades Council: Plumbers and Pipefitters Local 189 JATC', url: 'https://columbusconstruction.org/training-center/plumbers-and-pipefitters-local-189-jatc/' };
+const OH_SRC = {
+  ...OH_COMMON,
+  cejatc: { label: 'Cleveland Electrical JATC (IBEW Local 38): eligibility and application process', url: 'https://cejatc.org/the-cleveland-electrical-apprenticeship-program/' },
+  cejatcProg: { label: 'Cleveland Electrical JATC: apprenticeship', url: 'https://cejatc.org/apprenticeship/' }
+};
+const OHP_SRC = {
+  ...OH_COMMON,
+  local55: { label: 'Plumbers Local 55 (Cleveland): apprenticeship', url: 'https://www.plumbers55.com/about/apprenticeship/' },
+  local189,
+  uaFind
+};
+const OHH_SRC = {
+  ...OH_COMMON,
+  ...EPA,
+  local189,
+  uaFind
+};
+
 export const STATE_GUIDES = [
   {
     slug: 'electrician-california',
@@ -930,6 +1024,392 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['epa608', 'ncfind', 'applicant'],
     src: NCPH_SRC
+  },
+  {
+    slug: 'electrician-pennsylvania',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'PA',
+    stateName: 'Pennsylvania',
+    checked: 'November 25, 2026',
+    title: 'How to become an electrician in Pennsylvania',
+    description: 'How to become an electrician in Pennsylvania: the new state licensing law, local license rules (Philadelphia and Pittsburgh as examples), and paid apprenticeships in western, central and eastern Pennsylvania. From official sources.',
+    lede: 'Pennsylvania doesn\'t license electricians statewide yet. A 2026 law created a state licensing board, with requirements starting after two years. Until then, cities like Philadelphia and Pittsburgh set their own rules. A common route starts with a paid registered apprenticeship.',
+    rules: [
+      { dt: 'Statewide, for now', dd: 'Pennsylvania has no state license for most construction contractors or their workers. Some of its 2,562 cities, boroughs and townships set their own license rules.', src: ['state'] },
+      { dt: 'A state license is coming', dd: 'Act 108, signed October 22, 2026, created a State Board of Electrical Licensure. It gives two years before license requirements take effect, so check the board\'s page for updates.', src: ['board'] },
+      { dt: 'Example: Philadelphia', dd: 'Electrical work in the city has to be done by a licensed electrical contractor. The license takes at least 4 years of electrical work for a licensed company (two years of electrical school counts as one year, for up to two years), the city\'s exam given by the International Code Council, and 8 hours of electrical code (NFPA 70) classes.', src: ['phl', 'phlForm'] },
+      { dt: 'Example: Pittsburgh', dd: 'Electrical work in the city takes a city Electrical Trade License: at least 6 years of experience and education combined, and a passing score on a standardized master electrician exam.', src: ['pgh'] },
+      { dt: 'Finding apprenticeships', dd: 'PA CareerLink offices can help you find a registered apprenticeship near you and apply. Every registered apprenticeship includes at least 2,000 hours of paid work and 144 hours of classes, and many last four years or more.', src: ['finder', 'careerlink'] }
+    ],
+    routesIntro: 'Each program below is registered, pays you while you work and adds classes. Check dates closely: some programs only take applications once a year.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and electrical contractors.',
+      programs: [
+        { area: 'Allegheny County (Pittsburgh) and 21 other counties', name: 'Western Pennsylvania Electrical JATC, IBEW Local 5', facts: 'Five years. Applications for the 2026–2027 school year are closed, and the program will post 2027–2028 details on its site. You need to be 18 (high school seniors can apply and test at 17), a diploma or GED, credit for an algebra course, a Pennsylvania driver\'s license and a year living in one of its 22 counties. $25 fee.', src: 'local5' }
+      ],
+      more: 'Philadelphia and other parts of the state have their own IBEW programs. PA CareerLink can point you to them.',
+      find: 'finder'
+    },
+    nonunion: {
+      heading: 'Paid apprenticeships run by contractor groups',
+      what: 'Chapters of Associated Builders and Contractors (ABC) run registered apprenticeships for workers at their member companies.',
+      programs: [
+        { area: 'Central Pennsylvania', name: 'ABC Keystone (Manheim)', facts: 'Trades include electrical, plumbing and HVAC. Apply online or in person in Manheim, Tuesday to Friday. You take a math test and need three reference letters from people outside your family. If you don\'t work in the trade yet, ABC Keystone tries to connect you with a member company.', src: 'abcKey', more: 'abcKeyApp' },
+        { area: 'Lehigh Valley, suburban Philadelphia and Northeast PA', name: 'ABC Eastern Pennsylvania', facts: 'Registered since 1967, in 10 trades including electrical, plumbing and HVAC, with training centers in Allentown and Harleysville.', src: 'abcEast' }
+      ]
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges and career and technical centers teach electrical programs. In Philadelphia, two years of electrical school counts as one year of the license\'s experience, for up to two years.',
+      cip: '4603'
+    },
+    steps: [
+      'Take algebra and pass it. IBEW Local 5 requires credit for an algebra course.',
+      'Get a diploma or GED, a driver\'s license and copies of your transcripts.',
+      'Contact PA CareerLink or check program websites for application dates near you.',
+      'Keep a record of every job and who you worked for. Philadelphia and Pittsburgh licenses ask for years of documented experience.',
+      'Check the State Board of Electrical Licensure\'s page now and then: statewide license rules are on the way.'
+    ],
+    stepsSrc: ['local5', 'finder', 'phl', 'pgh', 'board'],
+    src: PA_SRC
+  },
+  {
+    slug: 'plumber-pennsylvania',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'PA',
+    stateName: 'Pennsylvania',
+    checked: 'November 25, 2026',
+    title: 'How to become a plumber in Pennsylvania',
+    description: 'How to become a plumber in Pennsylvania: local license rules (Philadelphia and Allegheny County as examples), the Philadelphia union apprenticeship\'s January 2027 application dates, and other paid apprenticeships. From official sources.',
+    lede: 'Pennsylvania doesn\'t license plumbers statewide. Philadelphia and Allegheny County (Pittsburgh), for example, license plumbers under their own rules, and both start with years as a registered apprentice. Philadelphia\'s union program takes applications for just two weeks in January 2027.',
+    rules: [
+      { dt: 'Statewide', dd: 'Pennsylvania has no state license for most construction contractors or their workers. Some of its 2,562 cities, boroughs and townships set their own license rules.', src: ['state'] },
+      { dt: 'Example: Philadelphia', dd: 'Apprentices need a city apprentice license and must work for a licensed master plumber. After at least 4 years registered as an apprentice in the city, you can take the journeyman exam given by the International Code Council. A journeyman license lets you do plumbing under a master plumber, but not run a business.', src: ['phlApp', 'phlJourney'] },
+      { dt: 'Philadelphia master plumber, later', dd: 'At least 1 year as a Philadelphia journeyman plumber, then the master plumber exam.', src: ['phlMaster'] },
+      { dt: 'Example: Allegheny County', dd: 'The county health department licenses plumbers. Registering with an accredited apprenticeship program gets you an apprentice card, which lets you do plumbing when a journeyman is present. After 576 hours of school and 4 years working for a registered master plumber, you can take the journeyman exam ($133, given in spring and fall). A master license takes 2 more years as a journeyman.', src: ['acPlumb'] },
+      { dt: 'Finding apprenticeships', dd: 'PA CareerLink offices can help you find a registered apprenticeship near you and apply. Every registered apprenticeship includes at least 2,000 hours of paid work and 144 hours of classes, and many last four years or more.', src: ['finder', 'careerlink'] }
+    ],
+    routesIntro: 'Each program below pays you while you work and adds classes. Check the dates closely: Philadelphia\'s union program only takes applications for two weeks.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers and pipefitters union, with union contractors.',
+      programs: [
+        { area: 'Philadelphia', name: 'Plumbers Local 690', facts: 'Five years, with about 2,000 hours of work and at least 224 hours of classes each year. Applications are given out only January 11–15 and 18–22, 2027, 8 a.m. to 4 p.m., in person in Northeast Philadelphia with a photo ID. You need to be 18 and a diploma or equivalent, then pass a test and an interview.', src: 'local690' }
+      ],
+      more: 'Pittsburgh and other areas have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    nonunion: {
+      heading: 'Paid apprenticeships run by contractor groups',
+      what: 'Chapters of Associated Builders and Contractors (ABC) run registered apprenticeships for workers at their member companies.',
+      programs: [
+        { area: 'Central Pennsylvania', name: 'ABC Keystone (Manheim)', facts: 'Trades include plumbing, electrical and HVAC. Apply online or in person in Manheim, Tuesday to Friday. You take a math test and need three reference letters from people outside your family. If you don\'t work in the trade yet, ABC Keystone tries to connect you with a member company.', src: 'abcKey', more: 'abcKeyApp' },
+        { area: 'Lehigh Valley, suburban Philadelphia and Northeast PA', name: 'ABC Eastern Pennsylvania', facts: 'Registered since 1967, in 10 trades including plumbing, electrical and HVAC, with training centers in Allentown and Harleysville.', src: 'abcEast' }
+      ]
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Career and technical centers and community colleges teach plumbing. In Allegheny County, the journeyman exam requires 576 hours of school along with 4 years of work.',
+      cip: '4605'
+    },
+    steps: [
+      'Get a diploma or GED, and keep your transcripts.',
+      'Mark your calendar: Plumbers Local 690 hands out applications only January 11–22, 2027.',
+      'If you\'ll work in Philadelphia, get a city apprentice license once a licensed master plumber hires you.',
+      'In Allegheny County, register with an accredited apprenticeship program to get your apprentice card, and track your school hours.',
+      'Keep a record of your work years and who you worked for. Journeyman exams in both places ask for 4 years.'
+    ],
+    stepsSrc: ['local690', 'phlApp', 'acPlumb', 'phlJourney'],
+    src: PAP_SRC
+  },
+  {
+    slug: 'hvac-pennsylvania',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'PA',
+    stateName: 'Pennsylvania',
+    checked: 'November 25, 2026',
+    title: 'How to become an HVAC technician in Pennsylvania',
+    description: 'How to become an HVAC technician in Pennsylvania: EPA 608 certification, local rules (Pittsburgh and Philadelphia as examples), and paid apprenticeships, including a Philadelphia union program open until April 30, 2027. From official sources.',
+    lede: 'Pennsylvania has no statewide HVAC license, so the rules depend on where you work: Pittsburgh licenses HVAC contractors, for example. Anyone who works with refrigerants needs a federal EPA certification. Paid apprenticeships train HVAC technicians in several parts of the state.',
+    rules: [
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Statewide', dd: 'Pennsylvania has no state license for most construction contractors or their workers. Some of its 2,562 cities, boroughs and townships set their own license rules.', src: ['state'] },
+      { dt: 'Example: Pittsburgh', dd: 'Heating and air conditioning work in the city takes an HVAC contractor license: at least 4 years of experience and education combined, and a passing score on a standardized test.', src: ['pghHvac'] },
+      { dt: 'Example: Philadelphia', dd: 'A licensed contractor has to do heating, venting and air conditioning work that needs a permit. Since 2017 that means a Philadelphia contractor license; contractors working only inside existing one- and two-family homes can use their state home improvement registration instead.', src: ['phlMech', 'phlWarm'] },
+      { dt: 'Finding apprenticeships', dd: 'PA CareerLink offices can help you find a registered apprenticeship near you and apply. Every registered apprenticeship includes at least 2,000 hours of paid work and 144 hours of classes, and many last four years or more.', src: ['finder', 'careerlink'] }
+    ],
+    routesIntro: 'Each program below pays you while you work and adds classes. In Pennsylvania, the steamfitters union and contractor groups both train HVAC technicians.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), whose members include HVAC service technicians, with union contractors.',
+      programs: [
+        { area: 'Philadelphia area', name: 'Steamfitters Local 420, Mechanical Equipment Service', facts: 'Applications for the August 2027 class are open October 31, 2026 to April 30, 2027. Apply online, or pick one up in person in Northeast Philadelphia on weekdays, 7:30 a.m. to 4 p.m., with your photo driver\'s license.', src: 'local420' }
+      ],
+      more: 'Pittsburgh and other areas have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    nonunion: {
+      heading: 'Paid apprenticeships run by contractor groups',
+      what: 'Chapters of Associated Builders and Contractors (ABC) run registered apprenticeships for workers at their member companies.',
+      programs: [
+        { area: 'Central Pennsylvania', name: 'ABC Keystone (Manheim)', facts: 'Trades include HVAC, plumbing and electrical. Apply online or in person in Manheim, Tuesday to Friday. You take a math test and need three reference letters from people outside your family. If you don\'t work in the trade yet, ABC Keystone tries to connect you with a member company.', src: 'abcKey', more: 'abcKeyApp' },
+        { area: 'Lehigh Valley, suburban Philadelphia and Northeast PA', name: 'ABC Eastern Pennsylvania', facts: 'Registered since 1967, in 10 trades including HVAC, plumbing and electrical, with training centers in Allentown and Harleysville.', src: 'abcEast' }
+      ]
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges and career and technical centers teach heating, air conditioning and refrigeration. In Pittsburgh, education counts toward the 4 years the HVAC license asks for.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Get a diploma or GED, a driver\'s license and copies of your transcripts.',
+      'If you\'re near Philadelphia, apply to Steamfitters Local 420 before April 30, 2027.',
+      'Find out what your city or township requires for heating and air conditioning work.',
+      'Keep a record of your work and schooling. Pittsburgh\'s license asks for 4 years of both combined.'
+    ],
+    stepsSrc: ['epa608', 'local420', 'state', 'pghHvac'],
+    src: PAH_SRC
+  },
+  {
+    slug: 'electrician-illinois',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'IL',
+    stateName: 'Illinois',
+    checked: 'November 25, 2026',
+    title: 'How to become an electrician in Illinois',
+    description: 'How to become an electrician in Illinois: local license rules (Chicago as an example), and the Chicago-area union apprenticeship, with its registration dates. From official sources.',
+    lede: 'In Illinois, the electrician rules you\'ll follow depend on the city or town where you work. Chicago, for example, licenses electrical contractors and supervising electricians. A common route starts with a paid apprenticeship registered with the U.S. Department of Labor.',
+    rules: [
+      { dt: 'Local rules', dd: 'State law lets each city or village require electrical contractors to register, and a contractor registered in one town can\'t be made to register again in another.', src: ['munic'] },
+      { dt: 'Example: Chicago', dd: 'Electrical work that needs a permit has to be done by a licensed electrical contractor, with a licensed supervising electrician doing or directing the work. On big jobs (buildings over 55 feet, large assembly spaces), every electrical worker has to be a supervising electrician, an apprenticeship graduate, or enrolled in a registered electrician apprenticeship of at least 8,000 hours.', src: ['chiFaq', 'chiCont'] },
+      { dt: 'Chicago supervising electrician, later', dd: 'You need to be 21, have at least 2 years of electrical work under a supervising electrician (verified by letters), and pass a written exam on the Chicago Electrical Code. The exam and the license cost $150 each.', src: ['chiSup'] },
+      { dt: 'Finding apprenticeships', dd: 'Apprenticeship Illinois, the state\'s apprenticeship site, links to a search tool for registered programs.', src: ['finder'] }
+    ],
+    routesIntro: 'The program below is registered with the U.S. Department of Labor, pays you while you work and adds classes.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and electrical contractors.',
+      programs: [
+        { area: 'Cook County', name: 'IBEW Local 134 and the Electrical Contractors\' Association (EJATT)', facts: 'Register in person in Alsip any Wednesday, 9 to 11 a.m. This cycle runs through February 2027; the March 2027 test picks apprentices for the July and October 2027 classes. You need to be 17, a diploma or GED (seniors in their last semester can register), an algebra course with a C or better, and a driver\'s license. $50 registration fee, and $500 more if you\'re selected. Electrical construction takes five years.', src: 'ejatt', more: 'ejattReg' }
+      ],
+      more: 'Other parts of Illinois have their own programs.'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges across Illinois teach electrical programs. School can help you get hired, but Chicago\'s supervising electrician license counts work under a supervising electrician.',
+      cip: '4603'
+    },
+    steps: [
+      'Take algebra and get at least a C. Chicago\'s union program requires it.',
+      'Get a diploma or GED, a driver\'s license and copies of your transcripts.',
+      'In Cook County, register on a Wednesday before the end of February 2027 to test in March.',
+      'Search Apprenticeship Illinois for programs outside Cook County.',
+      'Keep letters from the supervising electricians you work under. Chicago asks for them later.'
+    ],
+    stepsSrc: ['ejattReg', 'ejatt', 'finder', 'chiSup'],
+    src: IL_SRC
+  },
+  {
+    slug: 'plumber-illinois',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'IL',
+    stateName: 'Illinois',
+    checked: 'November 25, 2026',
+    title: 'How to become a plumber in Illinois',
+    description: 'How to become a plumber in Illinois: the state apprentice and plumber licenses, the 4 years of work and exam, and Chicago\'s own apprentice license. From official sources.',
+    lede: 'Illinois licenses plumbers statewide. You start with a state apprentice plumber license (you can get one at 16 with a sponsor), work at least 4 years under a licensed plumber, and then pass the state exam.',
+    rules: [
+      { dt: 'State license', dd: 'The Illinois Department of Public Health licenses plumbers. Anyone who installs, repairs or maintains plumbing in the state must be licensed, and you can\'t work as an apprentice without an apprentice license.', src: ['idph', 'statute'] },
+      { dt: 'Apprentice plumber license', dd: 'You can get one at 16 with a sponsor: an Illinois licensed plumber or an approved apprenticeship program. You can only plan or install plumbing under your sponsor\'s supervision, and you get at most 6 years as an apprentice.', src: ['idph', 'statute', 'rules'] },
+      { dt: 'Plumber license', dd: 'After at least 4 years as a licensed apprentice (at least 1,400 hours a year), plus 2 years of high school or the equivalent and an approved course at a college, university or trade school, you can take the state exam. Apply at least 30 days before the exam date.', src: ['idph', 'rules'] },
+      { dt: 'Example: Chicago', dd: 'The city also issues its own apprentice plumber license ($100 a year, from age 16, with a letter from a licensed plumbing contractor or approved program). A state apprentice license is valid in Chicago if your employer holds a city plumbing contractor license.', src: ['chiApp'] }
+    ],
+    routesIntro: 'Your apprentice license needs a sponsor, so there are two ways to start: an approved apprenticeship program, or getting hired by a licensed plumber who sponsors you.',
+    union: {
+      what: 'Local unions of the United Association (UA), the plumbers and pipefitters union, run apprenticeship programs with union contractors.',
+      programs: [],
+      more: 'Find the local that covers your area and ask about its application dates.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges teach plumbing, and the state exam requires an approved course at a college, university or trade school. Your apprentice years still have to be under a licensed plumber.',
+      cip: '4605'
+    },
+    steps: [
+      'Get a diploma or GED. The license needs at least 2 years of high school or the equivalent.',
+      'Find a sponsor: a licensed plumber who will hire you, or an approved apprenticeship program.',
+      'Apply for your state apprentice plumber license before you start work. You can apply at 16.',
+      'Track your hours. The exam needs 4 years with at least 1,400 hours each year.',
+      'If you\'ll work in Chicago, check whether you need the city apprentice license too.'
+    ],
+    stepsSrc: ['idph', 'statute', 'rules', 'chiApp'],
+    src: ILP_SRC
+  },
+  {
+    slug: 'hvac-illinois',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'IL',
+    stateName: 'Illinois',
+    checked: 'November 25, 2026',
+    title: 'How to become an HVAC technician in Illinois',
+    description: 'How to become an HVAC technician in Illinois: EPA 608 certification, local rules (Chicago as an example), and the Chicago-area union HVAC service apprenticeship. From official sources.',
+    lede: 'Anyone in Illinois who works with refrigerants needs a federal EPA certification. Other rules depend on where you work: in Chicago, for example, HVAC permit work is done under a licensed general contractor. The pipefitters union runs a paid HVAC service apprenticeship around Chicago.',
+    rules: [
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Example: Chicago', dd: 'Replacing or adding heating and air conditioning equipment takes a permit, and the permit needs a licensed general contractor (in some cases the owner can act as the contractor). Repairing an existing appliance doesn\'t need a permit.', src: ['chiMech', 'chiNoPermit'] },
+      { dt: 'Finding apprenticeships', dd: 'Apprenticeship Illinois, the state\'s apprenticeship site, links to a search tool for registered programs.', src: ['finder'] }
+    ],
+    routesIntro: 'The program below pays you while you work and adds classes.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), whose members include HVAC service technicians, with union contractors.',
+      programs: [
+        { area: 'Chicago area', name: 'Pipe Fitters Local 597, HVAC Service Program', facts: 'Five years, with 1,100 hours of classes. Registration opens online on the first Wednesday of each month; applications are given by appointment on the second Wednesday at the training center in Mokena.', src: 'pf597' }
+      ],
+      more: 'Other parts of Illinois have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges across Illinois teach heating, air conditioning and refrigeration. Classes can help you pass the EPA 608 test and get hired.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Get a diploma or GED, a driver\'s license and copies of your transcripts.',
+      'Near Chicago, check Local 597\'s registration on the first Wednesday of the month.',
+      'Find out what your city requires for heating and air conditioning work.',
+      'Keep a record of your work and who supervised you.'
+    ],
+    stepsSrc: ['epa608', 'pf597', 'chiMech'],
+    src: ILH_SRC
+  },
+  {
+    slug: 'electrician-ohio',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'OH',
+    stateName: 'Ohio',
+    checked: 'November 25, 2026',
+    title: 'How to become an electrician in Ohio',
+    description: 'How to become an electrician in Ohio: the state electrical contractor license and its 5 years of experience, and the Cleveland union apprenticeship. From official sources.',
+    lede: 'Ohio\'s state license is for the electrical contractor in charge of commercial jobs, and it takes 5 years in the trade. Electricians who work for a licensed contractor work under that license. A common route starts with a paid registered apprenticeship.',
+    rules: [
+      { dt: 'State contractor license', dd: 'The Ohio Construction Industry Licensing Board licenses electrical contractors for commercial work. To take the exam you need to be 18 and have at least 5 years as a tradesperson in the trade. A certificate from an approved apprenticeship program counts as proof of experience.', src: ['ocilb', 'rule'] },
+      { dt: 'Working under a license', dd: 'Everyone working under a contractor\'s license has to be on that company\'s payroll. The state doesn\'t license residential contractors, but local building departments may have their own rules.', src: ['ocilb', 'residential'] },
+      { dt: 'Finding apprenticeships', dd: 'ApprenticeOhio, run by the Ohio Department of Job and Family Services, registers apprenticeships, and its dashboard lets you search for them.', src: ['finder'] }
+    ],
+    routesIntro: 'The program below is registered, pays you while you work and adds classes.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and electrical contractors.',
+      programs: [
+        { area: 'Cuyahoga County and nearby townships', name: 'Cleveland Electrical JATC, IBEW Local 38', facts: 'Five years: 8,000 hours of work and 720 hours of classes, ending with a State of Ohio certificate. Apply online and finish every step within 60 days. You need to be 18 (or 17 with a diploma), a diploma or GED, a driver\'s license and a score of 4 on the aptitude test. $30 fee.', src: 'cejatc', more: 'cejatcProg' }
+      ],
+      more: 'Columbus, Cincinnati and other areas have their own programs.'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Career-technical centers and community colleges teach electrical programs. Cleveland\'s apprentices also earn college credit toward an associate degree while they work.',
+      cip: '4603'
+    },
+    steps: [
+      'Get a diploma or GED and a driver\'s license.',
+      'Brush up on math and reading. Cleveland\'s program needs a 4 on its aptitude test.',
+      'Search ApprenticeOhio or program websites for openings near you.',
+      'Keep your W-2s and records of every job. The state contractor exam asks for 5 years of proof.'
+    ],
+    stepsSrc: ['cejatc', 'finder', 'ocilb'],
+    src: OH_SRC
+  },
+  {
+    slug: 'plumber-ohio',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'OH',
+    stateName: 'Ohio',
+    checked: 'November 25, 2026',
+    title: 'How to become a plumber in Ohio',
+    description: 'How to become a plumber in Ohio: the state plumbing contractor license and its 5 years of experience, and the union apprenticeships in Cleveland and Columbus. From official sources.',
+    lede: 'Ohio\'s state license is for the plumbing contractor in charge of commercial jobs, and it takes 5 years in the trade. Plumbers who work for a licensed contractor work under that license. A common route starts with a paid apprenticeship.',
+    rules: [
+      { dt: 'State contractor license', dd: 'The Ohio Construction Industry Licensing Board licenses plumbing contractors for commercial work. To take the exam you need to be 18 and have at least 5 years as a tradesperson in the trade. A certificate from an approved apprenticeship program counts as proof of experience.', src: ['ocilb', 'rule'] },
+      { dt: 'Working under a license', dd: 'Everyone working under a contractor\'s license has to be on that company\'s payroll. The state doesn\'t license residential contractors, but local building departments may have their own rules.', src: ['ocilb', 'residential'] },
+      { dt: 'Finding apprenticeships', dd: 'ApprenticeOhio, run by the Ohio Department of Job and Family Services, registers apprenticeships, and its dashboard lets you search for them.', src: ['finder'] }
+    ],
+    routesIntro: 'Each program below pays you while you work and adds classes.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers and pipefitters union, with union contractors.',
+      programs: [
+        { area: 'Cleveland', name: 'Plumbers Local 55', facts: 'Apply in person in Cleveland (check the page for the current days and hours). Bring a diploma or GED, a driver\'s license or state ID (18 or older) and proof you can work in the U.S. You need a 4.5 or higher in every part of the employment test.', src: 'local55' },
+        { area: 'Columbus area', name: 'Plumbers and Pipefitters Local 189', facts: 'Five years, with 1,000 hours of classes. Apply in person in Columbus on the first Tuesday of each month, 10 a.m. to 5 p.m., and return the application within two weeks. You need to be 18 to start (17-year-olds can be ranked), a diploma or GED (or a letter saying you\'re on track), transcripts and to live in the local\'s counties. $60 fee.', src: 'local189' }
+      ],
+      more: 'Other areas have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Career-technical centers and community colleges teach plumbing. Ohio\'s contractor exam asks for 5 years as a tradesperson, so plan on working in the trade after school.',
+      cip: '4605'
+    },
+    steps: [
+      'Get a diploma or GED, and keep your transcripts.',
+      'Get a driver\'s license or state ID and your birth certificate ready. Programs ask for them.',
+      'Near Columbus, apply to Local 189 on the first Tuesday of any month.',
+      'Search ApprenticeOhio for programs in other parts of the state.',
+      'Keep your W-2s and records of every job. The state contractor exam asks for 5 years of proof.'
+    ],
+    stepsSrc: ['local55', 'local189', 'finder', 'ocilb'],
+    src: OHP_SRC
+  },
+  {
+    slug: 'hvac-ohio',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'OH',
+    stateName: 'Ohio',
+    checked: 'November 25, 2026',
+    title: 'How to become an HVAC technician in Ohio',
+    description: 'How to become an HVAC technician in Ohio: EPA 608 certification, the state HVAC contractor license and its 5 years of experience, and the Columbus union HVAC apprenticeship. From official sources.',
+    lede: 'Anyone in Ohio who works with refrigerants needs a federal EPA certification. The state license is for the HVAC contractor in charge of commercial jobs, and it takes 5 years in the trade. Technicians who work for a licensed contractor work under that license.',
+    rules: [
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'State contractor license', dd: 'The Ohio Construction Industry Licensing Board licenses HVAC and refrigeration contractors for commercial work. To take the exam you need to be 18 and have at least 5 years as a tradesperson in the trade. A certificate from an approved apprenticeship program counts as proof of experience.', src: ['ocilb', 'rule'] },
+      { dt: 'Working under a license', dd: 'Everyone working under a contractor\'s license has to be on that company\'s payroll. The state doesn\'t license residential contractors, but local building departments may have their own rules.', src: ['ocilb', 'residential'] },
+      { dt: 'Finding apprenticeships', dd: 'ApprenticeOhio, run by the Ohio Department of Job and Family Services, registers apprenticeships, and its dashboard lets you search for them.', src: ['finder'] }
+    ],
+    routesIntro: 'The program below pays you while you work and adds classes.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), whose members include HVAC service technicians, with union contractors.',
+      programs: [
+        { area: 'Columbus area', name: 'Plumbers and Pipefitters Local 189, HVAC apprenticeship', facts: 'Send a resume, which goes to the union\'s HVAC service contractors; you join the program once a contractor hires you and you finish a probation period. You need to be 18, with a diploma or GED and a driver\'s license.', src: 'local189' }
+      ],
+      more: 'Other areas have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Career-technical centers and community colleges teach heating, air conditioning and refrigeration. Classes can help you pass the EPA 608 test and get hired.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Get a diploma or GED and a driver\'s license.',
+      'Write a short resume. Columbus\'s union HVAC program starts by sending it to contractors.',
+      'Search ApprenticeOhio for programs near you.',
+      'Keep your W-2s and records of every job. The state contractor exam asks for 5 years of proof.'
+    ],
+    stepsSrc: ['epa608', 'local189', 'finder', 'ocilb'],
+    src: OHH_SRC
   }
 
 ];
