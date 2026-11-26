@@ -307,6 +307,55 @@ const OHH_SRC = {
   uaFind
 };
 
+// Georgia and Michigan (checked November 26, 2026).
+const GA_RULES = { label: 'Georgia State Construction Industry Licensing Board rules, Chapter 121-3 (application for licensure)', url: 'https://rules.sos.ga.gov/gac/121-3' };
+const GA_COMMON = {
+  rules: GA_RULES,
+  finder: { label: 'Technical College System of Georgia: Apprentice Georgia', url: 'https://www.tcsg.edu/worksource/strategic-populations/apprentice/' },
+  scorecard: SCORECARD
+};
+const GA_SRC = {
+  ...GA_COMMON,
+  form: { label: 'Georgia Construction Industry Licensing Board: electrical contractor exam application', url: 'https://sos.ga.gov/sites/default/files/forms/44%20Application%20-%20Electrical%20EXAM.pdf' },
+  aejatc: { label: 'Atlanta Electrical JATC (IBEW Local 613): application requirements', url: 'https://sites.google.com/aejatc.org/etc/home/application-requirements' },
+  aejatcHome: { label: 'Atlanta Electrical JATC: application status', url: 'https://sites.google.com/aejatc.org/etc' }
+};
+const mti = { label: 'Mechanical Trades Institute (UA Local 72, Atlanta): applicant information', url: 'https://mti-jatt.org/applicant-information' };
+const GAP_SRC = { ...GA_COMMON, mti, uaFind };
+const GAH_SRC = {
+  ...GA_COMMON,
+  ...EPA,
+  caGuide: { label: 'Georgia Secretary of State: how-to guide, conditioned air contractor', url: 'https://sos.ga.gov/how-to-guide/how-guide-conditioned-air-contractor' },
+  mti,
+  uaFind
+};
+
+const MI_COMMON = {
+  finder: { label: 'Michigan Department of Labor and Economic Opportunity: Registered Apprenticeship for career seekers', url: 'https://www.michigan.gov/leo/bureaus-agencies/wd/apprenticeships/career-seekers' },
+  abc: { label: 'ABC of Michigan: training partners', url: 'https://www.abcmi.com/Training-Safety/Training-Partners' },
+  scorecard: SCORECARD
+};
+const MI_SRC = {
+  ...MI_COMMON,
+  lara: { label: 'Michigan LARA, Bureau of Construction Codes: electrical licensing and registration', url: 'https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/electrical-examination-licensing-registration-application-information' },
+  eitc: { label: 'Detroit Electrical Industry Training Center (IBEW Local 58): how to apply', url: 'https://detroiteitc.org/apply/' }
+};
+const MIP_SRC = {
+  ...MI_COMMON,
+  lara: { label: 'Michigan LARA, Bureau of Construction Codes: plumbing licensing and registration', url: 'https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/plumbing-examination-licensing-registration-application-information' },
+  register: { label: 'Michigan Skilled Trades Regulation Act, MCL 339.6117 (apprentice plumber registration)', url: 'https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-339-6117' },
+  renew: { label: 'Michigan LARA: license and registration renewals', url: 'https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/license-registration-renewals' },
+  uaFind
+};
+const MIH_SRC = {
+  ...MI_COMMON,
+  ...EPA,
+  lara: { label: 'Michigan LARA, Bureau of Construction Codes: mechanical contractor licensing', url: 'https://www.michigan.gov/lara/bureau-list/bcc/sections/licensing-section/exam-lic/mechanical-examination-licensing-registration-application-information' },
+  path: { label: 'Michigan LARA: obtaining a mechanical contractor license (flowchart)', url: 'https://www.michigan.gov/lara/-/media/Project/Websites/lara/bcc-media/Licensing/Licensing-Requirements/Mechanical-Contractor.pdf?rev=a0f46529b0b3418db66a28dde151e488&hash=87CD69FBB5AE2D318E06291B22347AE4' },
+  local636: { label: 'Pipefitters Local 636 (Detroit area)', url: 'https://pipefitters636.org/' },
+  uaFind
+};
+
 export const STATE_GUIDES = [
   {
     slug: 'electrician-california',
@@ -1410,6 +1459,268 @@ export const STATE_GUIDES = [
     ],
     stepsSrc: ['epa608', 'local189', 'finder', 'ocilb'],
     src: OHH_SRC
+  },
+  {
+    slug: 'electrician-georgia',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'GA',
+    stateName: 'Georgia',
+    checked: 'November 26, 2026',
+    title: 'How to become an electrician in Georgia',
+    description: 'How to become an electrician in Georgia: the state electrical contractor license and its 4 years of experience, and the Atlanta-area union apprenticeship. From official sources.',
+    lede: 'Georgia\'s state license is for electrical contractors, and it takes 4 years of hands-on work under a licensed contractor. A common way to get those years is a paid apprenticeship.',
+    rules: [
+      { dt: 'State contractor license', dd: 'Georgia licenses electrical contractors. You need to be 21, have at least 4 years of hands-on electrical installation experience, pass the exam with a 70 and give three references, one of them a licensed electrical contractor.', src: ['rules'] },
+      { dt: 'Two classes', dd: 'Class I covers single-phase work up to 200 amps. Class II has no limit and needs experience on bigger systems.', src: ['rules', 'form'] },
+      { dt: 'Your years have to be under a licensed contractor', dd: 'Experience only counts if you worked under a licensed electrical contractor; time with an unlicensed contractor doesn\'t count. One year is 2,000 hours.', src: ['form'] },
+      { dt: 'Finding apprenticeships', dd: 'Apprentice Georgia, run by the Technical College System of Georgia, supports registered apprenticeships, and its 22 colleges are the state\'s largest network of apprenticeship sponsors.', src: ['finder'] }
+    ],
+    routesIntro: 'The program below is registered with the U.S. Department of Labor, pays you while you work and adds classes.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and electrical contractors.',
+      programs: [
+        { area: 'Atlanta and North Georgia (IBEW Local 613 area)', name: 'Atlanta Electrical JATC, IBEW Local 613', facts: 'Four-year inside wireman apprenticeship starting at $18.00 an hour; no experience needed. Applications are closed and reopen in 2027. You need a diploma or GED, a score of 5 of 9 on an aptitude test (math, algebra and reading) and to live in Local 613\'s area. A separate Construction Electrician program takes people with a year of documented electrical experience.', src: 'aejatc', more: 'aejatcHome' }
+      ],
+      more: 'Other parts of Georgia have their own programs.'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Georgia\'s technical colleges teach electrical programs, and some run apprenticeships with employers. The state license still needs years of work under a licensed contractor.',
+      cip: '4603'
+    },
+    steps: [
+      'Take algebra and get comfortable with it. The Atlanta program\'s aptitude test covers math, algebra and reading.',
+      'Get a diploma or GED and copies of your transcripts.',
+      'Watch for the Atlanta program\'s 2027 application dates, or ask a technical college about apprenticeships near you.',
+      'Work only under a licensed electrical contractor, and keep a record of your hours. One year counts as 2,000 hours.',
+      'At 21, with 4 years of experience, you can apply for the contractor exam.'
+    ],
+    stepsSrc: ['aejatc', 'aejatcHome', 'finder', 'form', 'rules'],
+    src: GA_SRC
+  },
+  {
+    slug: 'plumber-georgia',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'GA',
+    stateName: 'Georgia',
+    checked: 'November 26, 2026',
+    title: 'How to become a plumber in Georgia',
+    description: 'How to become a plumber in Georgia: the state journeyman and master plumber licenses, and the Atlanta union apprenticeship open until April 30, 2027. From official sources.',
+    lede: 'Georgia licenses plumbers statewide. A journeyman license takes 1 year of plumbing experience and an exam; a master license takes 5 years, including 2 as a licensed journeyman.',
+    rules: [
+      { dt: 'Journeyman plumber', dd: 'You need at least 1 year of plumbing experience, a 70 on the exam, and three references from licensed plumbers.', src: ['rules'] },
+      { dt: 'Master plumber, later', dd: '5 years of plumbing experience, at least 2 of them as a licensed journeyman. Class I covers homes for up to two families and commercial buildings up to 10,000 square feet; Class II has no limit and needs commercial or industrial experience.', src: ['rules'] },
+      { dt: 'What counts as experience', dd: 'Hands-on plumbing installation under the supervision of a licensed master plumber counts. Some related work, like county water or public works maintenance, counts too.', src: ['rules'] },
+      { dt: 'Finding apprenticeships', dd: 'Apprentice Georgia, run by the Technical College System of Georgia, supports registered apprenticeships, and its 22 colleges are the state\'s largest network of apprenticeship sponsors.', src: ['finder'] }
+    ],
+    routesIntro: 'The program below pays you while you work and adds classes. Check its dates: it takes applications for a set window.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), the plumbers and pipefitters union, with union contractors.',
+      programs: [
+        { area: 'Atlanta (UA Local 72 area)', name: 'Mechanical Trades Institute, UA Local 72', facts: 'Five years. Applications for fall 2027 are open November 1, 2026 to April 30, 2027; plumbing classes start in August and February. You need to be 18, a transcript of your highest schooling, a driver\'s license and a second ID, and Level 4 on the WorkKeys math and reading tests. $60 fee.', src: 'mti' }
+      ],
+      more: 'Other parts of Georgia have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Georgia\'s technical colleges teach plumbing. The license counts experience under a licensed master plumber, so plan on working in the trade.',
+      cip: '4605'
+    },
+    steps: [
+      'Get a diploma or GED, and keep your transcripts.',
+      'Brush up on math and reading for the WorkKeys tests if you\'re applying to the Atlanta program.',
+      'Near Atlanta, apply to the Mechanical Trades Institute before April 30, 2027.',
+      'Work under a licensed master plumber and keep a record of your experience.',
+      'After a year, take the journeyman exam.'
+    ],
+    stepsSrc: ['mti', 'rules'],
+    src: GAP_SRC
+  },
+  {
+    slug: 'hvac-georgia',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'GA',
+    stateName: 'Georgia',
+    checked: 'November 26, 2026',
+    title: 'How to become an HVAC technician in Georgia',
+    description: 'How to become an HVAC technician in Georgia: EPA 608 certification, the state conditioned air contractor license and its 4 or 5 years of experience, and the Atlanta union HVACR apprenticeship. From official sources.',
+    lede: 'Anyone in Georgia who works with refrigerants needs a federal EPA certification. The state license for heating and air conditioning is the conditioned air contractor license, which takes 4 or 5 years of experience.',
+    rules: [
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Conditioned air contractor license', dd: 'Class I covers systems up to 175,000 BTU of heating and 60,000 BTU of cooling and takes 4 years of experience. Class II has no limit and takes 5 years, including commercial work. Both need a 70 on the exam, an EPA certification and an approved heat loss/gain and duct design course.', src: ['rules', 'caGuide'] },
+      { dt: 'What the 4 years look like (Class I)', dd: 'Two years installing residential systems as a lead mechanic, one year as a service technician and one year supervising residential work.', src: ['rules'] },
+      { dt: 'School can count', dd: 'A technical school diploma in engineering or engineering technology can count for up to 2 years, and a vocational-technical certificate for up to 1 year.', src: ['rules'] },
+      { dt: 'Finding apprenticeships', dd: 'Apprentice Georgia, run by the Technical College System of Georgia, supports registered apprenticeships, and its 22 colleges are the state\'s largest network of apprenticeship sponsors.', src: ['finder'] }
+    ],
+    routesIntro: 'The program below pays you while you work and adds classes.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), whose members include HVAC service technicians, with union contractors.',
+      programs: [
+        { area: 'Atlanta (UA Local 72 area)', name: 'Mechanical Trades Institute, UA Local 72 (HVACR)', facts: 'Five years; HVACR classes start each fall, and applications for fall 2027 are open November 1, 2026 to April 30, 2027. You must already work for a union HVACR contractor, and have 2 years of documented HVACR work or finish an HVACR technical program. You also need to be 18, a driving record that allows a company vehicle, and Level 4 on the WorkKeys math and reading tests. $60 fee.', src: 'mti' }
+      ],
+      more: 'Other parts of Georgia have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Georgia\'s technical colleges teach air conditioning technology, and a certificate can count for up to a year of the license\'s experience.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Consider an HVACR program at a technical college. It can count toward experience and open the Atlanta union program.',
+      'Get hired by a heating and air contractor, and keep a record of your installation, service and supervision years.',
+      'Take an approved heat loss/gain and duct design course before you apply for the license.',
+      'After 4 years (Class I), apply for the conditioned air contractor exam.'
+    ],
+    stepsSrc: ['epa608', 'mti', 'rules'],
+    src: GAH_SRC
+  },
+  {
+    slug: 'electrician-michigan',
+    trade: 'electrician',
+    tradeName: 'electrician',
+    state: 'MI',
+    stateName: 'Michigan',
+    checked: 'November 26, 2026',
+    title: 'How to become an electrician in Michigan',
+    description: 'How to become an electrician in Michigan: apprentice registration, the journeyman license (8,000 hours over 4 years), and the Detroit union apprenticeship. From official sources.',
+    lede: 'Michigan licenses electricians statewide. You start as a registered apprentice, working for a licensed contractor and taking classes, and after 8,000 hours over at least 4 years you can test for a journeyman license.',
+    rules: [
+      { dt: 'Apprentice electrician', dd: 'To register, you need to work for a master electrician and electrical contractor and be enrolled in classes (related technical instruction). Renew your registration every year.', src: ['lara'] },
+      { dt: 'Journeyman electrician', dd: 'You need to be 20 and have 8,000 hours and 4 years as an apprentice, supervised by a licensed journeyman or master electrician. Then pass the exam with at least 75%.', src: ['lara'] },
+      { dt: 'Master electrician, later', dd: 'You need to be 22, have 12,000 hours over at least 6 years, and have held a journeyman license for at least 2 years.', src: ['lara'] },
+      { dt: 'Finding apprenticeships', dd: 'The state lists registered apprenticeship openings on Pure Michigan Talent Connect, its job site.', src: ['finder'] }
+    ],
+    routesIntro: 'Each program below pays you while you work and adds classes that count toward your license.',
+    union: {
+      what: 'Run by the International Brotherhood of Electrical Workers (IBEW) and electrical contractors.',
+      programs: [
+        { area: 'Metro Detroit', name: 'Electrical Industry Training Center, IBEW Local 58', facts: 'Applications are closed; the next dates will be posted in spring 2027. You need to be 17, a year of high school algebra, and an official transcript with your graduation date (or GED). Create your account at least a week before you apply. $50 fee ($30 for residential).', src: 'eitc' }
+      ],
+      more: 'Other parts of Michigan have their own IBEW programs.'
+    },
+    nonunion: {
+      heading: 'Paid apprenticeships run by contractor groups',
+      what: 'Associated Builders and Contractors (ABC) of Michigan trains apprentices for its member companies through three schools.',
+      programs: [
+        { area: 'Mid-Michigan, Southeast Michigan and West Michigan', name: 'ABC of Michigan training partners', facts: 'More than 10 trades, including electrical, plumbing and HVAC, at the Greater Michigan Construction Academy, the Southeast Michigan Construction Academy and the West Michigan Construction Institute.', src: 'abc' }
+      ]
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges across Michigan teach electrical programs, and some provide the classes apprentices need. Your licensing hours still have to be as a registered apprentice.',
+      cip: '4603'
+    },
+    steps: [
+      'Take a year of algebra. The Detroit program requires it.',
+      'Get a diploma or GED, and request an official transcript.',
+      'Watch for the Detroit program\'s spring 2027 dates, or contact an ABC school near you.',
+      'Once a licensed contractor hires you, register as an apprentice and enroll in classes.',
+      'Keep track of your hours. You need 8,000 over at least 4 years for the journeyman exam.'
+    ],
+    stepsSrc: ['eitc', 'abc', 'lara'],
+    src: MI_SRC
+  },
+  {
+    slug: 'plumber-michigan',
+    trade: 'plumbing',
+    tradeName: 'plumbing',
+    state: 'MI',
+    stateName: 'Michigan',
+    checked: 'November 26, 2026',
+    title: 'How to become a plumber in Michigan',
+    description: 'How to become a plumber in Michigan: apprentice registration within 30 days of being hired, and the journey plumber license (6,000 hours over 3 years). From official sources.',
+    lede: 'Michigan licenses plumbers statewide. You register as an apprentice within 30 days of being hired, work under a licensed plumber, and after 6,000 hours over at least 3 years you can test for a journey plumber license.',
+    rules: [
+      { dt: 'Apprentice plumber', dd: 'If you\'re hired as an apprentice plumber, you have to register with the state within 30 days. Apprentices work under the direct, on-site supervision of a journey or master plumber.', src: ['register'] },
+      { dt: 'Keep your registration current', dd: 'Renew every year by April 30. Hours you work while your registration has lapsed don\'t count toward the journey license.', src: ['renew'] },
+      { dt: 'Journey plumber', dd: 'You need to be 18 and have at least 6,000 hours over at least 3 years as a registered apprentice. Then pass both a written exam and a hands-on practical exam on the same application.', src: ['lara'] },
+      { dt: 'Finding apprenticeships', dd: 'The state lists registered apprenticeship openings on Pure Michigan Talent Connect, its job site.', src: ['finder'] }
+    ],
+    routesIntro: 'You can start with a union or contractor-group apprenticeship, or by getting hired by a licensed plumbing contractor and registering as an apprentice.',
+    union: {
+      what: 'Local unions of the United Association (UA), the plumbers and pipefitters union, run apprenticeship programs with union contractors.',
+      programs: [],
+      more: 'Find the local that covers your area and ask about its application dates.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    nonunion: {
+      heading: 'Paid apprenticeships run by contractor groups',
+      what: 'Associated Builders and Contractors (ABC) of Michigan trains apprentices for its member companies through three schools.',
+      programs: [
+        { area: 'Mid-Michigan, Southeast Michigan and West Michigan', name: 'ABC of Michigan training partners', facts: 'More than 10 trades, including plumbing, electrical and HVAC, at the Greater Michigan Construction Academy, the Southeast Michigan Construction Academy and the West Michigan Construction Institute.', src: 'abc' }
+      ]
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges across Michigan teach plumbing. Your licensing hours have to be as a registered apprentice, so plan on working in the trade.',
+      cip: '4605'
+    },
+    steps: [
+      'Get a diploma or GED, and keep your transcripts.',
+      'Find a licensed plumbing contractor, union local or ABC school that will hire you as an apprentice.',
+      'Register with the state within 30 days of being hired.',
+      'Renew your registration by April 30 every year, so all your hours count.',
+      'After 6,000 hours over at least 3 years, apply for the journey plumber exam.'
+    ],
+    stepsSrc: ['abc', 'register', 'renew', 'lara'],
+    src: MIP_SRC
+  },
+  {
+    slug: 'hvac-michigan',
+    trade: 'hvac',
+    tradeName: 'HVAC',
+    state: 'MI',
+    stateName: 'Michigan',
+    checked: 'November 26, 2026',
+    title: 'How to become an HVAC technician in Michigan',
+    description: 'How to become an HVAC technician in Michigan: EPA 608 certification, the state mechanical contractor license and its 3 years of experience, and paid apprenticeships. From official sources.',
+    lede: 'Anyone in Michigan who works with refrigerants needs a federal EPA certification. The state license for heating and air conditioning work is the mechanical contractor license, which takes 3 years of experience in each type of work.',
+    rules: [
+      { dt: 'EPA 608 for refrigerants', dd: 'Federal rules say technicians who maintain, service, repair or dispose of equipment that could release refrigerants must be certified under Section 608, by passing a test. Only certified technicians can buy those refrigerants.', src: ['epa608', 'epaSales'] },
+      { dt: 'Mechanical contractor license', dd: 'Licensed mechanical contractors can install, alter and service systems and get permits. You need at least 3 years of experience in each work classification you apply for, such as HVAC equipment, ductwork or refrigeration, and you pass an exam for each one.', src: ['lara'] },
+      { dt: 'School can shorten it', dd: 'The state\'s guide lists a specialized education program plus 2 years working for a licensed mechanical contractor as another way to qualify.', src: ['path'] },
+      { dt: 'Finding apprenticeships', dd: 'The state lists registered apprenticeship openings on Pure Michigan Talent Connect, its job site.', src: ['finder'] }
+    ],
+    routesIntro: 'Each program below pays you while you work and adds classes.',
+    union: {
+      what: 'Run by local unions of the United Association (UA), whose members include HVAC/R technicians, with union contractors.',
+      programs: [
+        { area: 'Detroit area', name: 'Pipefitters Local 636', facts: 'A tuition-free, five-year apprenticeship registered with the U.S. Department of Labor, training steamfitters, pipefitters and HVAC/R technicians. Contact the local for its application dates.', src: 'local636' }
+      ],
+      more: 'Other parts of Michigan have their own UA locals.',
+      find: 'uaFind',
+      findLabel: 'Find your local union'
+    },
+    nonunion: {
+      heading: 'Paid apprenticeships run by contractor groups',
+      what: 'Associated Builders and Contractors (ABC) of Michigan trains apprentices for its member companies through three schools.',
+      programs: [
+        { area: 'Mid-Michigan, Southeast Michigan and West Michigan', name: 'ABC of Michigan training partners', facts: 'More than 10 trades, including HVAC, plumbing and electrical, at the Greater Michigan Construction Academy, the Southeast Michigan Construction Academy and the West Michigan Construction Institute.', src: 'abc' }
+      ]
+    },
+    school: {
+      heading: 'School first, then work experience',
+      what: 'Community colleges across Michigan teach heating, air conditioning and refrigeration. A specialized program can cut the work experience the license needs from 3 years to 2.',
+      cip: '4702'
+    },
+    steps: [
+      'Study for and pass the EPA 608 test, so you can work with refrigerants.',
+      'Get a diploma or GED, a driver\'s license and copies of your transcripts.',
+      'Get hired by a licensed mechanical contractor, or apply to a union local or ABC school.',
+      'Keep a record of each type of work you do. The license counts years per classification.',
+      'After 3 years (or 2 with a specialized program), apply for the mechanical contractor exam in the classifications you need.'
+    ],
+    stepsSrc: ['epa608', 'local636', 'abc', 'lara', 'path'],
+    src: MIH_SRC
   }
 
 ];
